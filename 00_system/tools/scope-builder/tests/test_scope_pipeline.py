@@ -11,7 +11,10 @@ class ScopePipelineTest(unittest.TestCase):
         self.td=tempfile.TemporaryDirectory(); self.root=Path(self.td.name)/'EncyKlopedia'; self.root.mkdir(); (self.root/'MANIFEST.json').write_text('{}')
         for d in ['10_sources/seeds/active/intellectual-registry','10_sources/wikidata/dumps/current','20_ingest','30_working/scopes','50_mediatheque']:(self.root/d).mkdir(parents=True,exist_ok=True)
         prod=self.root/'00_system/tools/scope-builder'; (prod/'config/scopes').mkdir(parents=True,exist_ok=True); (prod/'config/property-groups.json').write_text((TOOL/'config/property-groups.json').read_text(),encoding='utf-8')
-        scope={'schema_version':'encyklopedia-scope/v2','scope_key':'test-scope','title':'Test','root_source':{'kind':'registry','path':'10_sources/seeds/active/intellectual-registry/test.seed.json'},'requires_complete_global_index':False,'discovery':{'include_all_entity_relations_from_root_people':True,'include_reverse_authored_works':True,'reverse_work_properties':{'P50':'authored_work'},'root_relation_roles':{'P19':'place','P135':'movement','P800':'work'},'follow_rules':[{'name':'works_context','source_roles':['work'],'direction':'out','property_group':'work_context','default_target_role':'work_context'}],'raw_max_passes':4,'max_entities':1000,'max_edges':10000},'evidence':{'preserve_full_entity_json':True}}
+        contracts=self.root/'00_system/contracts'; contracts.mkdir(parents=True,exist_ok=True)
+        source_contracts=TOOL.parents[1]/'contracts'
+        (contracts/'knowledge-baseline.json').write_text((source_contracts/'knowledge-baseline.json').read_text(),encoding='utf-8')
+        scope={'schema_version':'encyklopedia-scope/v3','scope_key':'test-scope','title':'Test','root_source':{'kind':'registry','path':'10_sources/seeds/active/intellectual-registry/test.seed.json'},'root_semantics':{'role':'person_root','kind':'person'},'requires_complete_global_index':False,'discovery':{'include_all_entity_relations_from_roots':True,'reverse_root_relations':{'P50':{'source_role':'work','relation_role':'authored_work'}},'root_relation_roles':{'P19':'place','P135':'movement','P800':'work'},'follow_rules':[{'name':'works_context','source_roles':['work'],'direction':'out','property_group':'work_context','default_target_role':'work_context'}],'raw_max_passes':4,'max_entities':1000,'max_edges':10000},'evidence':{'preserve_full_entity_json':True}}
         (prod/'config/scopes/test.scope.json').write_text(json.dumps(scope),encoding='utf-8')
         seed={'schema_version':'x','registry_key':'test','records':[{'key':'person','display_name':'Test Thinker','chronology':{'birth_year':100,'death_year':170},'representation_kind':'historical_person'}]}
         (self.root/'10_sources/seeds/active/intellectual-registry/test.seed.json').write_text(json.dumps(seed),encoding='utf-8'); self._dump()
@@ -54,9 +57,12 @@ class ScopePipelineTest(unittest.TestCase):
         latest=json.loads((self.root/'30_working/scopes/test-scope/evidence.latest.json').read_text()); sid=latest['snapshot_id']; snap=self.root/'20_ingest/scope-snapshots/test-scope'/sid
         with gzip.open(snap/'entities.wikidata.jsonl.gz','rt',encoding='utf-8') as f:objs={o['id']:o for o in map(json.loads,f)}
         birth=objs['Q1']['claims']['P569'][0]; self.assertIn('P580',birth['qualifiers']); self.assertIn('P248',birth['references'][0]['snaks']); self.assertEqual(objs['Q3']['claims']['P1938'][0]['mainsnak']['datavalue']['value'],'1234')
-        self.run_script('07_publish_mediatheque.py','--scope',cfg); works=(self.root/'50_mediatheque/catalog/candidates/wikidata/test-scope'/f'{sid}.works.jsonl').read_text(); self.assertIn('P1938',works)
+        self.run_script('07_publish_referents.py','--scope',cfg)
+        rlatest=json.loads((self.root/'20_ingest/referent-registries/test-scope/latest.json').read_text()); registry=json.loads((self.root/rlatest['path']).read_text())
+        rk={x['ref']:x['kind'] for x in registry['referents']}; self.assertEqual(rk['wikidata:Q1'],'person'); self.assertEqual(rk['wikidata:Q3'],'work')
+        self.run_script('07_publish_mediatheque.py','--scope',cfg); works=(self.root/'50_mediatheque/catalog/candidates/wikidata/test-scope'/f'{sid}.works.jsonl').read_text(); self.assertIn('P1938',works); self.assertIn('edition_identity',works)
         self.run_script('08_prepare_daat_handoff.py','--scope',cfg); self.assertFalse((self.root/'40_kristal').exists())
-        handoff_latest=json.loads((self.root/'20_ingest/daat-handoff/test-scope/latest.json').read_text()); handoff=json.loads((self.root/handoff_latest['path']).read_text()); self.assertFalse(any(x['role']=='project_query_index' for x in handoff['files'])); self.assertFalse(handoff['interaction_kernel']['message_emitted'])
+        handoff_latest=json.loads((self.root/'20_ingest/daat-handoff/test-scope/latest.json').read_text()); handoff=json.loads((self.root/handoff_latest['path']).read_text()); self.assertEqual(handoff['contract'],'encyklopedia.corpus-harvest-handoff/1.0.0'); self.assertTrue(any(x['role']=='referent_registry_candidate' for x in handoff['files'])); self.assertFalse(any(x['role']=='project_query_index' for x in handoff['files'])); self.assertFalse(handoff['interaction_kernel']['message_emitted'])
     def test_orchestrator_raw_end_to_end(self):
         cfg=self.root/'00_system/tools/scope-builder/config/scopes/test.scope.json'
         cmd=[sys.executable,str(SCRIPTS/'run_scope_pipeline.py'),'--root',str(self.root),'--scope',str(cfg),'--discovery-backend','raw','--through','handoff']
@@ -82,6 +88,40 @@ class ScopePipelineTest(unittest.TestCase):
         self.assertEqual(man['extraction_mode'],'fast_random_access')
         stats=json.loads((self.root/'30_working/scopes/test-scope/discovery/stats.json').read_text())
         self.assertEqual(stats['discovery_backend']['backend'],'fast')
+
+    def test_non_person_root_scope_is_supported(self):
+        prod=self.root/'00_system/tools/scope-builder'
+        seed={'schema_version':'x','registry_key':'work-root','records':[{'key':'book','display_name':'Test Book','qid':'Q3','representation_kind':'work'}]}
+        (self.root/'10_sources/seeds/active/intellectual-registry/work-root.seed.json').write_text(json.dumps(seed),encoding='utf-8')
+        scope={
+            'schema_version':'encyklopedia-scope/v3','scope_key':'work-root','title':'Work Root',
+            'root_source':{'kind':'registry','path':'10_sources/seeds/active/intellectual-registry/work-root.seed.json'},
+            'root_semantics':{'role':'work_root','kind':'work'},
+            'discovery':{
+                'include_all_entity_relations_from_roots':True,
+                'reverse_root_relations':{},
+                'root_relation_roles':{'P50':'person','P407':'concept'},
+                'follow_rules':[],'raw_max_passes':3,'max_entities':1000,'max_edges':10000
+            },
+            'evidence':{'preserve_full_entity_json':True}
+        }
+        cfg=prod/'config/scopes/work-root.scope.json'; cfg.write_text(json.dumps(scope),encoding='utf-8')
+        self.run_script('01_resolve_roots.py','--scope',cfg,'--backend','raw')
+        self.run_script('02_discover_scope.py','--scope',cfg,'--backend','raw')
+        self.run_script('03_freeze_scope.py','--scope',cfg)
+        freeze=json.loads((self.root/'30_working/scopes/work-root/scope.freeze.json').read_text())
+        self.assertEqual(freeze['root_semantics'],{'role':'work_root','kind':'work'})
+        self.assertIn('work_root',freeze['entity_roles']['Q3']['roles'])
+        self.run_script('04_extract_evidence.py','--scope',cfg)
+        self.run_script('07_publish_referents.py','--scope',cfg)
+        latest=json.loads((self.root/'20_ingest/referent-registries/work-root/latest.json').read_text())
+        registry=json.loads((self.root/latest['path']).read_text())
+        q3=next(x for x in registry['referents'] if x['ref']=='wikidata:Q3')
+        self.assertEqual(q3['kind'],'work')
+        self.run_script('06_build_scope_index.py','--scope',cfg)
+        db=self.root/'30_working/scopes/work-root/index/work-root.sqlite'; c=sqlite3.connect(db)
+        roots=c.execute('SELECT wid,role FROM v_scope_roots').fetchall(); c.close()
+        self.assertIn(('Q3','work_root'),roots)
 
     def test_optional_project_index_still_works(self):
         cfg=self.root/'00_system/tools/scope-builder/config/scopes/test.scope.json'

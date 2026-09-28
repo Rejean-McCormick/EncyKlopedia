@@ -1,0 +1,18 @@
+{
+  "schema_version": "encyklopedia-knowledge-contract-baseline/v1",
+  "frozen_on": "2026-09-28",
+  "encyklopedia_handoff": "encyklopedia.corpus-harvest-handoff/1.0.0",
+  "kristal_release": "5.0.0-rc.3",
+  "kristal_referent_profile": "kristal.referent-registry/1.0.0",
+  "kristal_contract_bundle_sha256": "sha256:07fe0527ab29a4b40870efdd0c9e0c67c91de919e5428047245b2a2c04f8ea98",
+  "authority_direction": [
+    "source_acquisition",
+    "daat_mapping",
+    "kristal_epistemic_canon",
+    "consumer_projection"
+  ],
+  "notes": [
+    "EncyKlopedia never promotes Wikidata or provider identifiers to validated Kristal knowledge by itself.",
+    "Consumer navigation lenses such as people-first or process-first are outside this contract."
+  ]
+}

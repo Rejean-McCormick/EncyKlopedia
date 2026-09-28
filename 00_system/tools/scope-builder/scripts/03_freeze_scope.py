@@ -11,7 +11,7 @@ def main():
     if not rows:raise SystemExit('Aucune découverte. Exécute 02_discover_scope.py.')
     rows=sorted(rows,key=lambda r:r['wid']); qids=sorted({r['wid'] for r in rows if isinstance(r.get('wid'),str)})
     roles={r['wid']:{'roles':sorted(r.get('roles') or []),'first_depth':int(r.get('first_depth') or 0)} for r in rows}
-    payload={'schema_version':'encyklopedia-frozen-scope/v2','scope_key':key,'scope_config_sha256':sha256_file(cfg_path),'entity_count':len(qids),'entity_ids':qids,'entity_roles':roles,'discovery_backend':stats.get('discovery_backend'),'discovery_entities_sha256':sha256_file(wd/'discovery/entities.jsonl'),'discovery_edges_sha256':sha256_file(wd/'discovery/edges.jsonl'),'frozen_at':utc_now()}
+    payload={'schema_version':'encyklopedia-frozen-scope/v3','scope_key':key,'scope_config_sha256':sha256_file(cfg_path),'root_semantics':scope_root_semantics(cfg),'entity_count':len(qids),'entity_ids':qids,'entity_roles':roles,'discovery_backend':stats.get('discovery_backend'),'discovery_entities_sha256':sha256_file(wd/'discovery/entities.jsonl'),'discovery_edges_sha256':sha256_file(wd/'discovery/edges.jsonl'),'frozen_at':utc_now()}
     canonical=json.dumps(payload,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf-8'); payload['scope_hash']='sha256:'+sha256_bytes(canonical)
     save_json(wd/'scope.freeze.json',payload); (wd/'entity-ids.txt').write_text('\n'.join(qids)+'\n',encoding='utf-8')
     print(json.dumps({'scope_key':key,'entity_count':len(qids),'scope_hash':payload['scope_hash'],'out':str(wd/'scope.freeze.json')},ensure_ascii=False,indent=2))

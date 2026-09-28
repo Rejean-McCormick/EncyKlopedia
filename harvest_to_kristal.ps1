@@ -10,7 +10,7 @@ param(
   [switch]$BuildQueryIndex,
   [switch]$CacheVault,
   [switch]$AllowFullScan,
-  [ValidateSet('resolve','discover','freeze','evidence','index','mediatheque','handoff')]
+  [ValidateSet('resolve','discover','freeze','evidence','index','referents','mediatheque','handoff')]
   [string]$Through = 'handoff'
 )
 $ErrorActionPreference = 'Stop'

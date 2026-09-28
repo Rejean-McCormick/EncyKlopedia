@@ -36,7 +36,7 @@ def raw_resolve(root:Path,dump:Path,seeds:list[dict[str,Any]])->dict[str,dict[st
 
 
 def main():
-    ap=argparse.ArgumentParser(description='Resolve scope root people. Uses declared/cached QIDs first; then complete global index when available, otherwise the raw dump.')
+    ap=argparse.ArgumentParser(description='Resolve scope roots. Uses declared/cached QIDs first; then complete global index when available, otherwise the raw dump.')
     ap.add_argument('--root',default=''); ap.add_argument('--scope',required=True); ap.add_argument('--backend',choices=['auto','index','fast','raw'],default='auto'); ap.add_argument('--db',default=''); ap.add_argument('--dump',default='')
     a=ap.parse_args(); root=find_root(a.root or None); cfg_path,cfg=load_scope_config(root,a.scope); key=cfg['scope_key']; wd=scope_workdir(root,key); wd.mkdir(parents=True,exist_ok=True)
     reg_meta,records,reg_path=load_registry(root,cfg); cache=load_cached_qid_map(root); result={}; unresolved=[]
@@ -72,7 +72,7 @@ def main():
         r=result.get(seed['key'],{})
         if not r.get('qid'):unresolved.append({'key':seed.get('key'),'display_name':seed.get('display_name'),**r})
     out=wd/'roots.resolved.json'; save_json(out,result); write_jsonl(wd/'roots.unresolved.jsonl',unresolved)
-    save_json(wd/'roots.manifest.json',{'schema_version':'encyklopedia-scope-roots/v2','scope_key':key,'scope_config':str(cfg_path),'root_registry':str(reg_path),'registry_key':reg_meta.get('registry_key'),'root_count':len(records),'resolved_count':len(records)-len(unresolved),'unresolved_count':len(unresolved),'backend':backend_meta,'generated_at':utc_now()})
+    save_json(wd/'roots.manifest.json',{'schema_version':'encyklopedia-scope-roots/v3','scope_key':key,'scope_config':str(cfg_path),'root_registry':str(reg_path),'registry_key':reg_meta.get('registry_key'),'root_semantics':scope_root_semantics(cfg),'root_count':len(records),'resolved_count':len(records)-len(unresolved),'unresolved_count':len(unresolved),'backend':backend_meta,'generated_at':utc_now()})
     print(json.dumps({'scope_key':key,'resolved':len(records)-len(unresolved),'total':len(records),'backend':backend,'out':str(out)},ensure_ascii=False,indent=2))
     if unresolved and cfg.get('resolution',{}).get('require_all_roots',False):raise SystemExit(f'{len(unresolved)} racine(s) non résolue(s).')
 

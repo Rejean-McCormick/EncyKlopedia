@@ -13,12 +13,12 @@ ROOT=find_root()
 
 class App(tk.Tk):
     def __init__(self):
-        super().__init__(); self.title('EncyKlopedia — Scope → Evidence → Da\'at v0.10'); self.geometry('1180x800'); self.proc=None; self.q=queue.Queue(); self.status=tk.StringVar(value='Prêt')
+        super().__init__(); self.title('EncyKlopedia — Scope → Evidence → Da\'at v0.11'); self.geometry('1180x800'); self.proc=None; self.q=queue.Queue(); self.status=tk.StringVar(value='Prêt')
         self.scope_cath=tk.BooleanVar(value=True); self.scope_int=tk.BooleanVar(value=False); self.backend=tk.StringVar(value='auto'); self.threads=tk.StringVar(value='0'); self.query_index=tk.BooleanVar(value=False); self.cache_vault=tk.BooleanVar(value=False); self.allow_full_scan=tk.BooleanVar(value=False); self.kristal=tk.StringVar(value=''); self.ik=tk.StringVar(value=str(ROOT/'00_system/integrations/Interaction-Kernel'))
         self._ui(); self.after(100,self._drain); self._refresh()
     def _ui(self):
         top=ttk.Frame(self,padding=8); top.pack(fill='x'); ttk.Label(top,text=f'Root: {ROOT}').pack(side='left'); ttk.Button(top,text='Ouvrir root',command=lambda:self._open(ROOT)).pack(side='right'); ttk.Button(top,text='Actualiser statut',command=self._refresh).pack(side='right',padx=6)
-        scope=ttk.LabelFrame(self,text='Scopes people-first',padding=8); scope.pack(fill='x',padx=8,pady=4)
+        scope=ttk.LabelFrame(self,text='Scopes',padding=8); scope.pack(fill='x',padx=8,pady=4)
         ttk.Checkbutton(scope,text='Catholic intellectual pilot',variable=self.scope_cath).grid(row=0,column=0,sticky='w'); ttk.Checkbutton(scope,text='Historical intellectuals',variable=self.scope_int).grid(row=0,column=1,sticky='w',padx=18)
         ttk.Label(scope,text='Discovery').grid(row=0,column=2,sticky='e'); ttk.Combobox(scope,textvariable=self.backend,values=['auto','index','fast','raw'],state='readonly',width=9).grid(row=0,column=3,sticky='w',padx=5)
         ttk.Checkbutton(scope,text='SQLite projet optionnel',variable=self.query_index).grid(row=0,column=4,sticky='w',padx=12); ttk.Checkbutton(scope,text='Cache vault optionnel',variable=self.cache_vault).grid(row=0,column=5,sticky='w'); ttk.Checkbutton(scope,text='Autoriser full scan',variable=self.allow_full_scan).grid(row=1,column=5,sticky='w'); ttk.Label(scope,text='Threads (0=auto)').grid(row=0,column=6,padx=(14,2)); ttk.Entry(scope,textvariable=self.threads,width=5).grid(row=0,column=7)
@@ -34,14 +34,14 @@ class App(tk.Tk):
         actions=ttk.LabelFrame(self,text='Pipeline optimisé',padding=8); actions.pack(fill='x',padx=8,pady=4)
         ttk.Button(actions,text='1. Résoudre + découvrir + geler',command=lambda:self._run_pipeline('freeze')).pack(side='left')
         ttk.Button(actions,text='Estimer',command=self._estimate).pack(side='left',padx=6)
-        ttk.Button(actions,text='2. Evidence lossless → Da\'at',command=lambda:self._run_pipeline('handoff',from_stage='evidence')).pack(side='left',padx=6)
+        ttk.Button(actions,text='2. Evidence → référents/médias → Da\'at',command=lambda:self._run_pipeline('handoff',from_stage='evidence')).pack(side='left',padx=6)
         ttk.Button(actions,text='TOUT',command=lambda:self._run_pipeline('handoff')).pack(side='left',padx=6)
         ttk.Button(actions,text='Run si inputs changés',command=self._smart_run).pack(side='left',padx=6)
         self.stop=ttk.Button(actions,text='Arrêter',command=self._stop,state='disabled'); self.stop.pack(side='right')
         mid=ttk.Panedwindow(self,orient='horizontal'); mid.pack(fill='both',expand=True,padx=8,pady=4); lf=ttk.Frame(mid); rf=ttk.Frame(mid); mid.add(lf,weight=1); mid.add(rf,weight=2)
         ttk.Label(lf,text='Statut').pack(anchor='w'); self.stat=tk.Text(lf,wrap='word',height=28); self.stat.pack(fill='both',expand=True)
         ttk.Label(rf,text='Journal').pack(anchor='w'); self.log=tk.Text(rf,wrap='none',height=28); self.log.pack(fill='both',expand=True)
-        bot=ttk.Frame(self,padding=8); bot.pack(fill='x'); ttk.Label(bot,textvariable=self.status).pack(side='left'); ttk.Button(bot,text='Scopes',command=lambda:self._open(ROOT/'30_working/scopes')).pack(side='right'); ttk.Button(bot,text='Evidence',command=lambda:self._open(ROOT/'20_ingest/scope-snapshots')).pack(side='right',padx=6); ttk.Button(bot,text='Handoffs',command=lambda:self._open(ROOT/'20_ingest/daat-handoff')).pack(side='right',padx=6)
+        bot=ttk.Frame(self,padding=8); bot.pack(fill='x'); ttk.Label(bot,textvariable=self.status).pack(side='left'); ttk.Button(bot,text='Scopes',command=lambda:self._open(ROOT/'30_working/scopes')).pack(side='right'); ttk.Button(bot,text='Evidence',command=lambda:self._open(ROOT/'20_ingest/scope-snapshots')).pack(side='right',padx=6); ttk.Button(bot,text='Handoffs',command=lambda:self._open(ROOT/'20_ingest/daat-handoff')).pack(side='right',padx=6); ttk.Button(bot,text='Référents',command=lambda:self._open(ROOT/'20_ingest/referent-registries')).pack(side='right',padx=6)
     def _pick(self,var):
         p=filedialog.askdirectory()
         if p:var.set(p)

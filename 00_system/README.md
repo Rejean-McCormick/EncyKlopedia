@@ -1,11 +1,17 @@
 # 00_system
 
-Outils, configuration, diagnostics et références locales. Rien ici n’est du savoir canonique EncyKlopedia.
+Tools, configuration, diagnostics, frozen local contracts and reference snapshots. Nothing here is canonical domain knowledge.
 
-## Active tools in v0.8
+## Active tools in v0.11
 
-- `tools/wikidata-manager/` — optional global compact discovery index builder/manager.
-- `tools/scope-builder/` — primary project path: people-first discovery, direct lossless evidence extraction, UCKK candidates and Da'at handoff.
-- `tools/legacy/` — earlier API/v0.6 pipelines retained for traceability only.
+- `tools/wikidata-manager/` — optional global compact discovery index.
+- `tools/scope-builder/` — primary project path: domain-configured roots → lossless evidence → referent/media candidates → Da’at handoff.
+- `tools/performance/` — derived fast-access accelerators.
+- `tools/legacy/` — earlier pipelines retained for traceability only.
 
-The default v0.8 project pipeline no longer requires building or querying a project database before Da'at/Kristal.
+## Contracts
+
+- `contracts/knowledge-baseline.json` — current EncyKlopedia compatibility pin.
+- `contracts/corpus-harvest-handoff/1.0.0/` — frozen EncyKlopedia → Da’at handoff.
+
+The Scope Builder is domain-neutral at its core. Existing intellectual scopes deliberately use people as roots; another scope may root on works, installations, processes or other supported referent kinds.

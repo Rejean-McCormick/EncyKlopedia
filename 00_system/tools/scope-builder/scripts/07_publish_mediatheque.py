@@ -40,8 +40,29 @@ def main():
             obj=json_loads(line); wid=obj.get('id')
             if wid not in works:continue
             claims=obj.get('claims') or {}; bib={pid:claims[pid] for pid in claims if pid in BIB_PROPS}
-            out.append({'schema_version':'encyklopedia-mediatheque-candidate/v2','wid':wid,'labels':obj.get('labels') or {},'descriptions':obj.get('descriptions') or {},'aliases':obj.get('aliases') or {},'bibliographic_claims':bib,'external_identifiers':external_ids(obj),'sitelinks':obj.get('sitelinks') or {},'source_scope':key,'source_snapshot':sid,'source_entity_sha256':entity_hash.get(wid),'status':'candidate_from_lossless_wikidata_scope','note':'Candidate only. The complete source entity remains in immutable evidence; UCKK Mediatheque remains authoritative for editions, providers, access and rights.'})
+            out.append({
+                'schema_version':'encyklopedia-mediatheque-candidate/v3',
+                'record_type':'work_or_document_candidate',
+                'wid':wid,
+                'labels':obj.get('labels') or {},
+                'descriptions':obj.get('descriptions') or {},
+                'aliases':obj.get('aliases') or {},
+                'bibliographic_claims':bib,
+                'external_identifiers':external_ids(obj),
+                'sitelinks':obj.get('sitelinks') or {},
+                'source_scope':key,
+                'source_snapshot':sid,
+                'source_entity_sha256':entity_hash.get(wid),
+                'status':'candidate_from_lossless_wikidata_scope',
+                'bibliographic_resolution':{
+                    'work_identity':'candidate',
+                    'edition_identity':'not_resolved',
+                    'manifestation_or_file':'not_resolved',
+                    'provider_access_rights':'not_resolved',
+                },
+                'note':'Candidate only. Work, edition and manifestation/file are not collapsed. UCKK Mediatheque remains authoritative for final edition, provider, access and rights resolution.'
+            })
     out.sort(key=lambda r:r['wid']); dest=root/'50_mediatheque/catalog/candidates/wikidata'/key; dest.mkdir(parents=True,exist_ok=True); f=dest/f'{sid}.works.jsonl'; write_jsonl(f,out)
-    man={'schema_version':'encyklopedia-mediatheque-candidate-set/v2','scope_key':key,'snapshot_id':sid,'work_count':len(out),'source':'lossless_evidence_direct','project_index_required':False,'file':str(f.relative_to(root)).replace('\\','/'),'sha256':sha256_file(f),'generated_at':utc_now()}; save_json(dest/f'{sid}.manifest.json',man); save_json(dest/'latest.json',man); print(json.dumps(man,ensure_ascii=False,indent=2))
+    man={'schema_version':'encyklopedia-mediatheque-candidate-set/v3','scope_key':key,'snapshot_id':sid,'candidate_count':len(out),'work_count':len(out),'source':'lossless_evidence_direct','bibliographic_invariant':'work != edition != manifestation/file','project_index_required':False,'file':str(f.relative_to(root)).replace('\\','/'),'sha256':sha256_file(f),'generated_at':utc_now()}; save_json(dest/f'{sid}.manifest.json',man); save_json(dest/'latest.json',man); print(json.dumps(man,ensure_ascii=False,indent=2))
 
 if __name__=='__main__':main()

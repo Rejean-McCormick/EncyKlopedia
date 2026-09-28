@@ -178,6 +178,58 @@ def scope_workdir(root:Path,scope_key:str)->Path:return root/"30_working/scopes"
 
 def scope_snapshot_dir(root:Path,scope_key:str,snapshot_id:str)->Path:return root/"20_ingest/scope-snapshots"/scope_key/snapshot_id
 
+
+KRISTAL_REFERENT_KINDS = {
+    "person","collective","work","edition","manifestation","document","concept","place",
+    "installation","activity","process","event","physical_object","system","other"
+}
+
+def scope_root_semantics(cfg:dict[str,Any])->dict[str,str]:
+    sem=cfg.get("root_semantics") or {}
+    role=str(sem.get("role") or "person_root")
+    kind=str(sem.get("kind") or ("person" if role=="person_root" else "other"))
+    if kind not in KRISTAL_REFERENT_KINDS:kind="other"
+    return {"role":role,"kind":kind}
+
+def include_all_root_relations(cfg:dict[str,Any])->bool:
+    disc=cfg.get("discovery") or {}
+    if "include_all_entity_relations_from_roots" in disc:
+        return bool(disc.get("include_all_entity_relations_from_roots"))
+    return bool(disc.get("include_all_entity_relations_from_root_people",True))
+
+def reverse_root_relations(cfg:dict[str,Any])->dict[str,dict[str,str]]:
+    """Return generic reverse-root discovery rules.
+
+    v0.11 format:
+      discovery.reverse_root_relations.P50 = {"source_role":"work","relation_role":"authored_work"}
+
+    Legacy people-first settings remain accepted.
+    """
+    disc=cfg.get("discovery") or {}
+    raw=disc.get("reverse_root_relations")
+    out={}
+    if isinstance(raw,dict):
+        for pid,val in raw.items():
+            if not (isinstance(pid,str) and pid.startswith("P") and pid[1:].isdigit()):continue
+            if isinstance(val,str):
+                out[pid]={"source_role":"other","relation_role":val}
+            elif isinstance(val,dict):
+                out[pid]={
+                    "source_role":str(val.get("source_role") or "other"),
+                    "relation_role":str(val.get("relation_role") or val.get("role") or "reverse_root_relation"),
+                }
+        return out
+    if disc.get("include_reverse_authored_works",True):
+        for pid,label in (disc.get("reverse_work_properties") or {"P50":"authored_work"}).items():
+            out[pid]={"source_role":"work","relation_role":str(label)}
+    return out
+
+def root_neighbor_role(cfg:dict[str,Any])->str:
+    disc=cfg.get("discovery") or {}
+    if disc.get("default_root_neighbor_role"):return str(disc["default_root_neighbor_role"])
+    return "person_neighbor" if scope_root_semantics(cfg)["role"]=="person_root" else "root_neighbor"
+
+
 def vault_path(root:Path,dump_id:str)->Path:
     safe=re.sub(r"[^A-Za-z0-9_.-]+","_",dump_id); return root/"20_ingest/entity-vaults"/safe/"wikidata.entity-vault.sqlite"
 

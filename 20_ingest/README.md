@@ -1,11 +1,12 @@
 # 20_ingest
 
-Immutable acquisition/evidence boundary.
+Immutable project-selected source evidence and content-addressed handoffs.
 
-## v0.8
+Typical outputs:
 
-- `scope-snapshots/<scope>/<snapshot>/entities.wikidata.jsonl.gz` contains complete selected Wikidata entity objects extracted directly from the raw dump.
-- `entity-vaults/` is an optional reusable cache, not a required stage.
-- `daat-handoff/` points Da'at at frozen scope + immutable evidence; optional indexes are convenience artifacts only.
+- `scope-snapshots/<scope>/<snapshot>/` — complete selected source entities.
+- `referent-registries/<scope>/` — source-qualified **candidate** Referent Registries.
+- `daat-handoff/<scope>/` — frozen `encyklopedia.corpus-harvest-handoff/1.0.0` packages.
+- `manifests/` and `provenance/` — source verification and lineage metadata.
 
-These are source/evidence artifacts. They do not imply Kristal validation or recognition.
+Nothing in this zone becomes validated Kristal knowledge merely by being extracted or packaged. Da’at/Kristal owns mapping, validation, recognition and canonical epistemic artifacts.

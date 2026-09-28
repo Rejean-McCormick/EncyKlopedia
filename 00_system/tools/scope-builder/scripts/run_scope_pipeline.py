@@ -3,7 +3,7 @@ import argparse, json, subprocess, sys, time
 from pathlib import Path
 from scope_common import *
 
-STAGES=['resolve','discover','freeze','evidence','index','mediatheque','handoff']
+STAGES=['resolve','discover','freeze','evidence','index','referents','mediatheque','handoff']
 
 
 def call(cmd:list[str]):
@@ -19,7 +19,7 @@ def wait_index(root:Path,poll:int):
 
 
 def main():
-    ap=argparse.ArgumentParser(description="Orchestrate people-first scope discovery → direct lossless Wikidata evidence → Da'at handoff. Global/project SQLite indexes are optional accelerators.")
+    ap=argparse.ArgumentParser(description="Orchestrate scope-rooted discovery → direct lossless Wikidata evidence → referent/media candidates → Da'at handoff. Global/project SQLite indexes are optional accelerators.")
     ap.add_argument('--root',default=''); ap.add_argument('--scope',action='append',required=True,help='Repeat to union scopes in one evidence dump scan.')
     ap.add_argument('--through',choices=STAGES,default='handoff'); ap.add_argument('--from-stage',choices=STAGES,default='resolve')
     ap.add_argument('--discovery-backend',choices=['auto','index','fast','raw'],default='auto',help='auto: use complete global index if available, otherwise scan raw dump directly.')
@@ -54,6 +54,7 @@ def main():
         call(cmd)
     for s,key in scope_cfgs:
         if active('index') and a.build_query_index:call([sys.executable,scripts/'06_build_scope_index.py','--root',root,'--scope',s])
+        if active('referents'):call([sys.executable,scripts/'07_publish_referents.py','--root',root,'--scope',s])
         if active('mediatheque'):call([sys.executable,scripts/'07_publish_mediatheque.py','--root',root,'--scope',s])
         if active('handoff'):
             cmd=[sys.executable,scripts/'08_prepare_daat_handoff.py','--root',root,'--scope',s]

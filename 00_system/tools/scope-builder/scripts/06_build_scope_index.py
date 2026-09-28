@@ -72,10 +72,10 @@ def entity_target(value):
 
 
 def main():
-    ap=argparse.ArgumentParser(description='Build an optional query-friendly project SQLite from lossless evidence. v0.10 batches writes and atomically publishes the derived DB.')
+    ap=argparse.ArgumentParser(description='Build an optional query-friendly project SQLite from lossless evidence. v0.11 preserves domain-neutral scope root semantics.')
     ap.add_argument('--root',default=''); ap.add_argument('--scope',required=True); ap.add_argument('--snapshot-id',default=''); ap.add_argument('--fresh',action='store_true')
     ap.add_argument('--batch-entities',type=int,default=500); ap.add_argument('--threads',type=int,default=0)
-    a=ap.parse_args(); root=find_root(a.root or None); _,cfg=load_scope_config(root,a.scope); key=cfg['scope_key']; wd=scope_workdir(root,key)
+    a=ap.parse_args(); root=find_root(a.root or None); _,cfg=load_scope_config(root,a.scope); key=cfg['scope_key']; root_semantics=scope_root_semantics(cfg); wd=scope_workdir(root,key)
     latest=load_json(wd/'evidence.latest.json',{}) or {}; sid=a.snapshot_id or latest.get('snapshot_id')
     if not sid: raise SystemExit('Aucun evidence snapshot. Exécute 04_extract_evidence.py.')
     snap=scope_snapshot_dir(root,key,sid); manifest=load_json(snap/'snapshot-manifest.json',{}) or {}; ev=snap/'entities.wikidata.jsonl.gz'
@@ -92,7 +92,7 @@ def main():
         except sqlite3.DatabaseError:pass
         c.executescript(SCHEMA)
         c.executemany('INSERT INTO meta VALUES(?,?)',[
-            ('schema_version','encyklopedia-project-index/v2'),('scope_key',key),('snapshot_id',sid),('evidence_sha256',manifest.get('evidence_sha256','')),('complete','0')])
+            ('schema_version','encyklopedia-project-index/v3'),('scope_key',key),('root_role',root_semantics['role']),('root_kind',root_semantics['kind']),('snapshot_id',sid),('evidence_sha256',manifest.get('evidence_sha256','')),('complete','0')])
         roles=[]
         for rr in read_jsonl(wd/'discovery/entities.jsonl'):
             for role in rr.get('roles') or []:roles.append((rr.get('wid'),role,int(rr.get('first_depth') or 0)))
@@ -132,6 +132,8 @@ def main():
         for name,sql in INDEXES:
             t=time.time(); c.execute(sql); print(f'[scope-index] {name}: {(time.time()-t):.1f}s',flush=True)
         c.executescript(VIEWS)
+        safe_root_role=root_semantics['role'].replace("'","''")
+        c.execute(f"CREATE VIEW v_scope_roots AS SELECT e.*,r.role,r.first_depth FROM entity e JOIN scope_role r ON r.wid=e.wid WHERE r.role='{safe_root_role}'")
         try:c.execute('PRAGMA optimize')
         except sqlite3.DatabaseError:pass
         c.execute("UPDATE meta SET value='1' WHERE key='complete'"); c.execute('INSERT INTO meta VALUES(?,?)',('completed_at',utc_now())); c.commit(); c.close(); c=None
@@ -141,6 +143,6 @@ def main():
         try:tmp.unlink()
         except FileNotFoundError:pass
         raise
-    report={'schema_version':'encyklopedia-project-index-report/v2','scope_key':key,'snapshot_id':sid,'db':str(db.relative_to(root)).replace('\\','/'),'db_bytes':db.stat().st_size,'entities':entities,'statements':statements,'edges':edges,'literal_values':literals,'workers':workers,'complete':True,'completed_at':utc_now()}; save_json(outdir/'index-manifest.json',report); print(json.dumps(report,ensure_ascii=False,indent=2))
+    report={'schema_version':'encyklopedia-project-index-report/v3','scope_key':key,'snapshot_id':sid,'db':str(db.relative_to(root)).replace('\\','/'),'db_bytes':db.stat().st_size,'entities':entities,'statements':statements,'edges':edges,'literal_values':literals,'workers':workers,'complete':True,'completed_at':utc_now()}; save_json(outdir/'index-manifest.json',report); print(json.dumps(report,ensure_ascii=False,indent=2))
 
 if __name__=='__main__': main()

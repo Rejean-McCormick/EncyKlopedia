@@ -1,5 +1,5 @@
 {
-  "schema_version": "encyklopedia-scope/v2",
+  "schema_version": "encyklopedia-scope/v3",
   "scope_key": "catholic-intellectual-pilot",
   "title": "Catholic Intellectual Corpus — Pilot",
   "root_source": {
@@ -12,11 +12,6 @@
   ],
   "requires_complete_global_index": false,
   "discovery": {
-    "include_all_entity_relations_from_root_people": true,
-    "include_reverse_authored_works": true,
-    "reverse_work_properties": {
-      "P50": "authored_work"
-    },
     "root_relation_roles": {
       "P19": "place",
       "P20": "place",
@@ -70,7 +65,14 @@
     ],
     "max_entities": 50000,
     "max_edges": 500000,
-    "raw_max_passes": 5
+    "raw_max_passes": 5,
+    "include_all_entity_relations_from_roots": true,
+    "reverse_root_relations": {
+      "P50": {
+        "source_role": "work",
+        "relation_role": "authored_work"
+      }
+    }
   },
   "evidence": {
     "preserve_full_entity_json": true,
@@ -85,5 +87,9 @@
   "root_qids": {
     "augustine_hippo": "Q8018",
     "thomas_aquinas": "Q9438"
+  },
+  "root_semantics": {
+    "role": "person_root",
+    "kind": "person"
   }
 }

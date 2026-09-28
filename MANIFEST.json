@@ -2,21 +2,26 @@
   "authority_notes": {
     "fast_access": "derived performance accelerator only; never evidence or canonical knowledge",
     "kristal": "uses existing kOA Kristal lifecycle",
-    "mediatheque": "document catalog authority",
+    "mediatheque": "candidate feed preserves work/edition/manifestation separation; UCKK Mediatheque owns final catalog resolution",
+    "referent_candidates": "source-qualified identity/discovery candidates only; Da’at/Kristal owns canonical mapping/acceptance",
     "runtime": "derived/disposable",
+    "scope_roots": "domain-specific navigation/discovery policy; not universal ontology",
     "seeds": "project intent/source",
     "wikidata": "external source; raw dump is evidence source; global SQLite is optional discovery acceleration",
     "working": "derived/non-canonical; all SQLite indexes are optional materializations"
   },
   "features": [
     "batched-atomic-project-index",
+    "bibliographic-work-edition-manifestation-boundary",
     "bundled-interaction-kernel-snapshot-reference",
+    "candidate-referent-registry-v1",
     "catholic-intellectual-pilot",
     "content-addressed-daat-handoff",
     "direct-lossless-selected-entity-extraction",
     "explicit-full-scan-opt-in",
     "fast-multicore-dump-backend",
     "fast-scope-discovery-backend",
+    "frozen-corpus-harvest-handoff-v1",
     "global-index-backed-reverse-lookup",
     "global-wikidata-discovery-index",
     "historical-intellectuals-scope",
@@ -30,10 +35,10 @@
     "optional-rapidgzip-random-access",
     "optional-selected-entity-vault-cache",
     "optional-windows-task-automations",
-    "people-first-project-scopes",
     "qid-binary-locator",
     "raw-dump-discovery-backend",
     "restartable-sqlite-finalization",
+    "scope-rooted-domain-neutral-projects",
     "uckk-mediatheque-candidate-feed"
   ],
   "generated_at": "2026-09-26T12:08:49.262484+00:00",
@@ -60,6 +65,13 @@
       "path": "00_system/integrations/Interaction-Kernel/",
       "sha256": "bf2f5fc02210fee79ebb3f6e47b2eb5bd8d2fcb86e90dd6f2434d4c31962eb46",
       "version": "1.1.0-dev.2"
+    },
+    "knowledge_contracts": {
+      "handoff": "encyklopedia.corpus-harvest-handoff/1.0.0",
+      "kristal_bundle_sha256": "sha256:07fe0527ab29a4b40870efdd0c9e0c67c91de919e5428047245b2a2c04f8ea98",
+      "kristal_release": "5.0.0-rc.3",
+      "referent_profile": "kristal.referent-registry/1.0.0",
+      "scope_model": "domain-neutral-root-semantics/v1"
     },
     "koa_reference_docs": [
       "00_separation_of_functions.md",
@@ -96,7 +108,7 @@
       }
     ]
   },
-  "package_version": "0.10",
+  "package_version": "0.11",
   "portable_root": true,
   "schema_version": "encyklopedia-drive-manifest/v1",
   "zones": [

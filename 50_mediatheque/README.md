@@ -1,7 +1,17 @@
 # 50_mediatheque
 
-Catalogue documentaire UCKK/Médiathèque : œuvres, éditions, fournisseurs et droits. Les ressources externes restent référencées plutôt que recopiées arbitrairement.
+UCKK/Médiathèque candidate workspace.
 
-## v0.8 — Wikidata candidates
+`catalog/candidates/wikidata/<scope>/` contains work/document candidates derived directly from immutable lossless scope evidence. A project SQLite is not required.
 
-`catalog/candidates/wikidata/<scope>/` contains work/document candidates derived **directly from immutable lossless scope evidence**. A project SQLite is not required. Candidates help UCKK Mediatheque resolve editions, providers, access and rights; they never replace Mediatheque authority.
+## Bibliographic invariant
+
+EncyKlopedia does not silently collapse:
+
+```text
+work ≠ edition ≠ manifestation/file
+```
+
+Candidates can carry bibliographic claims and external identifiers, but final work identity, edition, provider, access and rights resolution remains UCKK Médiathèque authority.
+
+These files are acquisition/discovery candidates, not Kristal canon and not authoritative catalogue entries.
