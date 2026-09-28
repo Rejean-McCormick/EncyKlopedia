@@ -1,0 +1,305 @@
+{
+  "as_of": "2026-09-22",
+  "stance_scale": {
+    "+3": "appui explicite fort à la proposition telle que formulée",
+    "+2": "appui explicite avec conditions importantes",
+    "+1": "orientation favorable mais non engagée ou mixte",
+    "0": "équilibre/neutralité explicitement documenté",
+    "-1": "orientation défavorable mais non engagée ou mixte",
+    "-2": "opposition explicite avec réserves ou soutien à une alternative partielle",
+    "-3": "opposition explicite forte à la proposition telle que formulée"
+  },
+  "unknown_policy": "Absence de stance = position non établie pour cette proposition dans les sources retenues. Une stance 0 n'est utilisée que lorsqu'un équilibre ou une neutralité est explicitement documenté.",
+  "records": [
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "steven_blaney",
+      "stance": 3,
+      "status": "explicit",
+      "source_id": "S01",
+      "effective_date": "2026-08-25",
+      "statement": "Steven Blaney appuie explicitement un troisième lien autoroutier à l'est conçu comme un bouclage périphérique; il demande aussi que le projet se concrétise rapidement.",
+      "caveat": ""
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "isabelle_lefebvre",
+      "stance": 2,
+      "status": "explicit_with_conditions",
+      "source_id": "S01",
+      "effective_date": "2026-08-25",
+      "statement": "Isabelle Lefebvre dit que Repensons Lévis souhaite un troisième lien à l'est, tout en demandant un projet concret avec coûts et échéanciers avant de juger une proposition provinciale précise.",
+      "caveat": ""
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "benoit_forget_chiasson",
+      "stance": 2,
+      "status": "explicit_with_conditions",
+      "source_id": "S01",
+      "effective_date": "2026-08-25",
+      "statement": "Benoit Forget-Chiasson dit que Lévis Force 10 souhaite également un troisième lien autoroutier à l'est, mais qu'aucune proposition provinciale présentée ne répond encore, selon lui, aux attentes de Lévis.",
+      "caveat": ""
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "gouvernement_quebec_caq_2026",
+      "stance": 3,
+      "status": "official_policy",
+      "source_id": "S02",
+      "effective_date": "2026-06-25",
+      "statement": "Le gouvernement du Québec planifie un troisième lien à l'est; ses paramètres annoncés incluent une participation financière du secteur privé et un péage pour limiter la pression sur les finances publiques.",
+      "caveat": ""
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "parti_quebecois_2026",
+      "stance": -3,
+      "status": "explicit_alternative",
+      "source_id": "S03",
+      "effective_date": "2026-08-06",
+      "statement": "Le Parti Québécois rejette l'option d'un nouveau lien autoroutier et propose plutôt un nouveau lien réservé au transport collectif entre Québec et Lévis.",
+      "caveat": ""
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "pcq_2026",
+      "stance": 3,
+      "status": "official_party_policy",
+      "source_id": "S04",
+      "effective_date": "2026-09-04",
+      "statement": "Le Parti conservateur du Québec propose un troisième lien autoroutier à l'est, sous forme d'un pont reliant la Rive-Sud à l'île d'Orléans puis au réseau de Québec.",
+      "caveat": ""
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "plq_2026",
+      "stance": 1,
+      "status": "favorable_not_committed",
+      "source_id": "S05",
+      "effective_date": "2026-09-06",
+      "statement": "Charles Milliard dit avoir un préjugé favorable envers un nouveau lien Québec-Lévis, sans s'engager à lancer les travaux dans un premier mandat; il veut d'abord prendre connaissance de l'information existante.",
+      "caveat": ""
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "quebec_solidaire_2026",
+      "stance": -3,
+      "status": "explicit",
+      "source_id": "S06",
+      "effective_date": "2026-08-29",
+      "statement": "Québec solidaire s'oppose en 2026 à tout troisième lien Québec-Lévis, qu'il soit routier ou réservé au transport collectif.",
+      "caveat": ""
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "actor": "steven_blaney",
+      "stance": -3,
+      "status": "historical_campaign_position",
+      "source_id": "S07",
+      "effective_date": "2025-10-10",
+      "statement": "Durant la campagne municipale de 2025, Steven Blaney s'est opposé au SRB axial proposé par Repensons Lévis et a privilégié la poursuite des voies réservées sur Guillaume-Couture.",
+      "caveat": "Position de campagne 2025; elle ne doit pas être automatiquement étendue à tout futur projet de transport structurant."
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "actor": "repensons_levis_2025",
+      "stance": 3,
+      "status": "historical_party_position",
+      "source_id": "S08",
+      "effective_date": "2025-10-06",
+      "statement": "La plateforme 2025 de Repensons Lévis, portée par Serge Bonin, proposait de faire renaître LINÉA sous forme d'un BHNS/SRB structurant sur l'axe Guillaume-Couture.",
+      "caveat": "Position de campagne 2025, associée à la direction de Serge Bonin à cette date."
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "actor": "levis_force_10_2025",
+      "stance": -3,
+      "status": "historical_party_position",
+      "source_id": "S09",
+      "effective_date": "2025-10-16",
+      "statement": "La plateforme 2025 de Lévis Force 10 rejetait l'idée de recommencer Guillaume-Couture avec un SRB et proposait plutôt de poursuivre les phases de voies réservées et cyclables.",
+      "caveat": "Position officielle publiée par Lévis Force 10 en 2025; ne pas l'attribuer personnellement à la direction intérimaire 2026 sans source additionnelle."
+    },
+    {
+      "topic": "moratoire_eaux_usees",
+      "actor": "steven_blaney",
+      "stance": 1,
+      "status": "explicit_mixed",
+      "source_id": "S10",
+      "effective_date": "2026-03-11",
+      "statement": "Steven Blaney a annoncé la reconduction du moratoire jusqu'à la fin de 2028, tout en ouvrant la porte à certains projets dès 2027 et à des mécanismes transitoires encadrés; sa position est donc intermédiaire entre attente complète et levée rapide.",
+      "caveat": ""
+    },
+    {
+      "topic": "moratoire_eaux_usees",
+      "actor": "benoit_forget_chiasson",
+      "stance": 2,
+      "status": "explicit",
+      "source_id": "S10",
+      "effective_date": "2026-03-11",
+      "statement": "Benoit Forget-Chiasson s'est dit satisfait de la poursuite du moratoire pour deux ans, estimant que cette période permet de revoir le zonage et le schéma d'aménagement.",
+      "caveat": ""
+    },
+    {
+      "topic": "moratoire_eaux_usees",
+      "actor": "coalition_construction_2026",
+      "stance": -3,
+      "status": "official_coalition_statement",
+      "source_id": "S11",
+      "effective_date": "2026-03-02",
+      "statement": "L'APCHQ, l'ACQ, l'IDU et la CCIGL demandent que la reprise du développement ne repose pas uniquement sur l'achèvement des travaux permanents et réclament rapidement des solutions intérimaires encadrées.",
+      "caveat": ""
+    },
+    {
+      "topic": "redevances_developpement",
+      "actor": "repensons_levis_2025",
+      "stance": 3,
+      "status": "historical_party_position",
+      "source_id": "S12",
+      "effective_date": "2025-09-29",
+      "statement": "Serge Bonin s'est dit favorable à l'application des redevances de développement, tout en proposant d'offrir davantage de flexibilité aux promoteurs en étalant les paiements.",
+      "caveat": ""
+    },
+    {
+      "topic": "redevances_developpement",
+      "actor": "levis_force_10_2025",
+      "stance": 3,
+      "status": "historical_party_position",
+      "source_id": "S12",
+      "effective_date": "2025-09-29",
+      "statement": "Isabelle Demers a défendu les redevances comme un moyen de faire payer aux promoteurs leur juste part des infrastructures liées à la croissance.",
+      "caveat": ""
+    },
+    {
+      "topic": "redevances_developpement",
+      "actor": "steven_blaney",
+      "stance": 2,
+      "status": "explicit_with_conditions",
+      "source_id": "S12",
+      "effective_date": "2025-09-29",
+      "statement": "Steven Blaney s'est dit d'accord avec le principe des redevances, mais a insisté sur une mise en œuvre en partenariat avec les promoteurs.",
+      "caveat": ""
+    },
+    {
+      "topic": "redevances_developpement",
+      "actor": "apchq_quebec",
+      "stance": -3,
+      "status": "official_association_statement",
+      "source_id": "S13",
+      "effective_date": "2025-08-27",
+      "statement": "L'APCHQ — Région de Québec a demandé de suspendre le projet de redevances, soutenant qu'il manque de vision globale et qu'il risque d'accroître le coût des nouvelles habitations.",
+      "caveat": ""
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "actor": "conseil_municipal_levis_2026",
+      "stance": 2,
+      "status": "vote_record",
+      "source_id": "S14",
+      "effective_date": "2026-05-12",
+      "statement": "Le conseil municipal a approuvé en mai 2026 trois projets de logements sociaux et abordables, incluant un projet porté par le secteur privé, avec une contribution municipale combinant apport financier et crédits de taxes sur 20 ans.",
+      "caveat": ""
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "actor": "anick_tremblay",
+      "stance": -3,
+      "status": "vote_record",
+      "source_id": "S14",
+      "effective_date": "2026-05-12",
+      "statement": "Anick Tremblay a rejeté les trois projets soumis au vote, invoquant notamment la capacité financière de la Ville, l'état des actifs existants et le coût municipal par logement.",
+      "caveat": ""
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "actor": "oppositions_rl_lf10_vote_2026",
+      "stance": -2,
+      "status": "vote_record_with_scope",
+      "source_id": "S14",
+      "effective_date": "2026-05-12",
+      "statement": "Les six élus de Repensons Lévis et Lévis Force 10 ont approuvé les deux projets portés par Desjardins et un OBNL, mais rejeté le projet porté par le secteur privé.",
+      "caveat": "La stance négative porte spécifiquement sur la proposition telle que formulée, qui inclut les projets privés; ces élus ont soutenu les deux autres projets."
+    },
+    {
+      "topic": "rabaska_protection_avant_industrie",
+      "actor": "steven_blaney",
+      "stance": 0,
+      "status": "explicit_balance",
+      "source_id": "S15",
+      "effective_date": "2025-10-19",
+      "statement": "Steven Blaney a défendu une recherche d'équilibre : conserver une possibilité de développement industriel tout en reconnaissant l'importance du volet agricole.",
+      "caveat": ""
+    },
+    {
+      "topic": "rabaska_protection_avant_industrie",
+      "actor": "repensons_levis_2025",
+      "stance": 3,
+      "status": "historical_party_position",
+      "source_id": "S15",
+      "effective_date": "2025-10-19",
+      "statement": "Serge Bonin a soutenu qu'il n'y avait aucune urgence à industrialiser davantage les terres de Rabaska et qu'il fallait d'abord mieux utiliser les parcs industriels existants.",
+      "caveat": ""
+    },
+    {
+      "topic": "rabaska_protection_avant_industrie",
+      "actor": "levis_force_10_2025",
+      "stance": null,
+      "status": "explicit_context_only",
+      "source_id": "S15",
+      "effective_date": "2025-10-19",
+      "statement": "Isabelle Demers a présenté le découpage envisagé des terres comme un mélange de zones agricoles, de milieux naturels protégés et de superficie industrielle; la source ne permet pas de lui attribuer une préférence simple entre protection et industrialisation.",
+      "caveat": "Aucune stance numérique n'est créée pour cet argument afin d'éviter une extrapolation."
+    },
+    {
+      "topic": "cadre_financier_2026_2030",
+      "actor": "steven_blaney",
+      "stance": 3,
+      "status": "official_policy",
+      "source_id": "S16",
+      "effective_date": "2026-06-16",
+      "statement": "Steven Blaney défend le cadre financier 2026-2030, notamment le remboursement anticipé de 10 M$ sur la dette et la cible d'un ratio d'endettement de 130 % des revenus au plus tard en 2033.",
+      "caveat": ""
+    },
+    {
+      "topic": "cadre_financier_2026_2030",
+      "actor": "benoit_forget_chiasson",
+      "stance": 2,
+      "status": "vote_and_statement",
+      "source_id": "S17",
+      "effective_date": "2026-06-17",
+      "statement": "Benoit Forget-Chiasson a appuyé le cadre financier et jugé raisonnables la cible de 130 % pour la dette à long terme et la cible de 20 % pour le service de la dette.",
+      "caveat": ""
+    },
+    {
+      "topic": "cadre_financier_2026_2030",
+      "actor": "anthony_dufour",
+      "stance": -3,
+      "status": "vote_and_statement",
+      "source_id": "S17",
+      "effective_date": "2026-06-17",
+      "statement": "Anthony Dufour a contesté le cadre financier, affirmant notamment que le déficit de maintien des actifs était sous-évalué et critiquant l'abandon du paiement comptant dans les premières années du cadre.",
+      "caveat": ""
+    },
+    {
+      "topic": "participation_continue",
+      "actor": "ville_levis_2026",
+      "stance": 2,
+      "status": "official_municipal_policy",
+      "source_id": "S18",
+      "effective_date": "2026-06-03",
+      "statement": "Avec Lévis+, la Ville de Lévis a lancé une démarche de participation citoyenne jusqu'en 2030 visant à coconstruire une vision intégrée du territoire sur la mobilité, les milieux de vie, les espaces verts et la croissance.",
+      "caveat": ""
+    },
+    {
+      "topic": "participation_continue",
+      "actor": "repensons_levis_2025",
+      "stance": 3,
+      "status": "historical_party_position",
+      "source_id": "S19",
+      "effective_date": "2025-10-20",
+      "statement": "Repensons Lévis proposait en 2025 des budgets participatifs dans les quartiers, avec des projets soumis au vote des citoyens.",
+      "caveat": ""
+    }
+  ]
+}

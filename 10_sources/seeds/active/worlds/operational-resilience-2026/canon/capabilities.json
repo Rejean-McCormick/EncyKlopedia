@@ -1,0 +1,76 @@
+{
+  "schema": "kx-world-canon/1",
+  "world_key": "operational-resilience-2026",
+  "capabilities": [
+    {
+      "key": "cap_incident_coordination",
+      "name": "Incident coordination",
+      "description": "Maintain a coherent incident picture, roles, unresolved questions, escalation points, and cross-team coordination.",
+      "ekoh_domain_codes": [
+        "1032",
+        "0413"
+      ]
+    },
+    {
+      "key": "cap_field_operations",
+      "name": "Field operations",
+      "description": "Operate in changing field conditions, perform verification, and maintain local logs and handoffs.",
+      "ekoh_domain_codes": [
+        "1032"
+      ]
+    },
+    {
+      "key": "cap_medical_logistics",
+      "name": "Medical logistics",
+      "description": "Coordinate priority shipments, capacity, constraints, and delivery dependencies for health services.",
+      "ekoh_domain_codes": [
+        "0413",
+        "09"
+      ]
+    },
+    {
+      "key": "cap_situational_mapping",
+      "name": "Situational mapping",
+      "description": "Maintain time-indexed maps and reconcile spatial observations without discarding provenance.",
+      "ekoh_domain_codes": [
+        "0542",
+        "0612"
+      ]
+    },
+    {
+      "key": "cap_critical_infrastructure",
+      "name": "Critical infrastructure",
+      "description": "Interpret utility and infrastructure dependencies, degradation, restoration states, and constraints.",
+      "ekoh_domain_codes": [
+        "0713",
+        "0612"
+      ]
+    },
+    {
+      "key": "cap_cyber_systems",
+      "name": "Cyber & systems continuity",
+      "description": "Interpret service dependencies, system degradation, incident signals, and continuity constraints.",
+      "ekoh_domain_codes": [
+        "0612",
+        "0613"
+      ]
+    },
+    {
+      "key": "cap_public_communication",
+      "name": "Public communication",
+      "description": "Turn verified operational state into clear, bounded public information without overstating certainty.",
+      "ekoh_domain_codes": [
+        "0321"
+      ]
+    },
+    {
+      "key": "cap_community_support",
+      "name": "Community support",
+      "description": "Track vulnerable populations, access constraints, continuity needs, and community-support dependencies.",
+      "ekoh_domain_codes": [
+        "092",
+        "1032"
+      ]
+    }
+  ]
+}

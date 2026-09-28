@@ -1,0 +1,18 @@
+{
+  "snapshot": "North Sector 14:20",
+  "offline": true,
+  "known": [
+    "obs_wf_001",
+    "obs_wf_002",
+    "obs_wf_003",
+    "obs_wf_005"
+  ],
+  "assigned_actions": [
+    "act_wf_004"
+  ],
+  "knowledge": [
+    "know_operational_handoff",
+    "know_degraded_connectivity",
+    "know_sitrep"
+  ]
+}

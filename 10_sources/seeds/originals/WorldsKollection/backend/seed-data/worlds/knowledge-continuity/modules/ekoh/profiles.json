@@ -1,0 +1,234 @@
+{
+  "schema_version": "konnaxion-world-module-bridge-seed/v1",
+  "world_key": "knowledge-continuity",
+  "module": "ekoh",
+  "model_mapping": {
+    "profile_models": [
+      "ekoh.ExpertiseCategory",
+      "ekoh.UserExpertiseScore",
+      "ekoh.UserEthicsScore"
+    ]
+  },
+  "records": [
+    {
+      "actor": "marc_leblanc",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo capability evidence: 14 reconstructed cases, peer review, field practice. Score is advisory; evidence remains primary.",
+      "expertise": [
+        {
+          "domain_code": "0713",
+          "raw_score": 0.94,
+          "weighted_score": 0.94
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.72,
+          "weighted_score": 0.72
+        }
+      ]
+    },
+    {
+      "actor": "sofia_nguyen",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo developing-expertise profile; not an independent-practitioner credential.",
+      "expertise": [
+        {
+          "domain_code": "0713",
+          "raw_score": 0.72,
+          "weighted_score": 0.72
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.63,
+          "weighted_score": 0.63
+        }
+      ]
+    },
+    {
+      "actor": "jean_caron",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo field-practice profile.",
+      "expertise": [
+        {
+          "domain_code": "0713",
+          "raw_score": 0.76,
+          "weighted_score": 0.76
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.52,
+          "weighted_score": 0.52
+        }
+      ]
+    },
+    {
+      "actor": "amina_benali",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo learning-transfer profile.",
+      "expertise": [
+        {
+          "domain_code": "0111",
+          "raw_score": 0.91,
+          "weighted_score": 0.91
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.78,
+          "weighted_score": 0.78
+        }
+      ]
+    },
+    {
+      "actor": "nadia_roy",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo evidence-analysis profile.",
+      "expertise": [
+        {
+          "domain_code": "0713",
+          "raw_score": 0.83,
+          "weighted_score": 0.83
+        },
+        {
+          "domain_code": "0542",
+          "raw_score": 0.88,
+          "weighted_score": 0.88
+        }
+      ]
+    },
+    {
+      "actor": "luc_gagnon",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo operations-governance profile.",
+      "expertise": [
+        {
+          "domain_code": "0413",
+          "raw_score": 0.88,
+          "weighted_score": 0.88
+        }
+      ]
+    },
+    {
+      "actor": "elise_tremblay",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo archival/provenance profile.",
+      "expertise": [
+        {
+          "domain_code": "0321",
+          "raw_score": 0.82,
+          "weighted_score": 0.82
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.68,
+          "weighted_score": 0.68
+        }
+      ]
+    },
+    {
+      "actor": "claire_beaulieu",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo institutional-memory profile.",
+      "expertise": [
+        {
+          "domain_code": "0413",
+          "raw_score": 0.93,
+          "weighted_score": 0.93
+        },
+        {
+          "domain_code": "0312",
+          "raw_score": 0.71,
+          "weighted_score": 0.71
+        }
+      ]
+    },
+    {
+      "actor": "maya_singh",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo developing institutional-memory profile.",
+      "expertise": [
+        {
+          "domain_code": "0413",
+          "raw_score": 0.74,
+          "weighted_score": 0.74
+        },
+        {
+          "domain_code": "0312",
+          "raw_score": 0.58,
+          "weighted_score": 0.58
+        }
+      ]
+    },
+    {
+      "actor": "andre_bouchard",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo embodied-practice profile.",
+      "expertise": [
+        {
+          "domain_code": "0722",
+          "raw_score": 0.95,
+          "weighted_score": 0.95
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.6,
+          "weighted_score": 0.6
+        }
+      ]
+    },
+    {
+      "actor": "leila_haddad",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo developing precision-repair profile.",
+      "expertise": [
+        {
+          "domain_code": "0722",
+          "raw_score": 0.72,
+          "weighted_score": 0.72
+        },
+        {
+          "domain_code": "0111",
+          "raw_score": 0.54,
+          "weighted_score": 0.54
+        }
+      ]
+    },
+    {
+      "actor": "samira_khan",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo quality-review profile.",
+      "expertise": [
+        {
+          "domain_code": "0413",
+          "raw_score": 0.79,
+          "weighted_score": 0.79
+        },
+        {
+          "domain_code": "0722",
+          "raw_score": 0.62,
+          "weighted_score": 0.62
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Neutral ethics_score=1.0 for all fictional demo actors.",
+    "Expertise scores are advisory demo calibration and never replace evidence or certification."
+  ],
+  "bridge_semantics": {
+    "native_model_fields": "Fields described by model_mapping are intended for direct native-model import.",
+    "world_metadata_fields": "Cross-module keys (capability/case/evidence/etc.) are declarative World linkage metadata.",
+    "automatic_import": false
+  }
+}

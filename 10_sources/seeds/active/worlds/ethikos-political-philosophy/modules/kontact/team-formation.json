@@ -1,0 +1,24 @@
+{
+  "format": "konnaxion-world-content/v1",
+  "world_key": "ethikos-political-philosophy",
+  "module": "kontact",
+  "content_origin": "designed_extension",
+  "team_formation": {
+    "key": "pp-team-formation",
+    "enabled": true,
+    "surface": "capstone_only",
+    "opt_in": true,
+    "signals": [
+      "certified_or_validated_competencies",
+      "ekoh_domain_evidence",
+      "participant_selected_interests"
+    ],
+    "goal": "Complementarity, not ranking participants by overall worth.",
+    "prohibited_signals": [
+      "political_viewpoint",
+      "ideological_similarity",
+      "ethics_inference_from_viewpoint"
+    ],
+    "dedicated_world_content": false
+  }
+}

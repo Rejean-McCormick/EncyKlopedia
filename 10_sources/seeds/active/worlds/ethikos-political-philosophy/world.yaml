@@ -1,0 +1,51 @@
+world_contract: kx-world-pack/v1
+world_key: ethikos-political-philosophy
+title: Political Philosophy Lab — Democracy, Justice & Legitimacy
+description: 'A sourced political-philosophy reasoning lab: understand concepts, confront arguments, apply them
+  to hard cases, and design an institution under persistent disagreement.'
+pack_version: 2.1.0
+requires:
+  ethikos_scenario_schema: ethikos-demo-scenario/v3
+scenarios:
+- scenarios/ethikos-political-philosophy.json
+persona_policy:
+  internal_username: w_{world_token}__{actor_key}
+  real_person_representation: reconstructed_source_position
+  canonical_thinkers_can_vote: false
+  canonical_thinkers_receive_seed_ekoh_scores: false
+  unknown_position: omit
+  policy_file: policies/canonical-actors.json
+module_seeds:
+  knowledge: modules/knowledge/resources.json
+  certifikation: modules/certifikation/path.json
+  ekoh: modules/ekoh/evidence-policy.json
+  smart_vote: modules/smart-vote/expert-council-reading.json
+  konstruct: modules/konstruct/capstone-project.json
+  konsultations: modules/konsultations/final-review-template.json
+  stockage: modules/stockage/artifact-policy.json
+  kontact: modules/kontact/team-formation.json
+derived_data:
+  smart_vote:
+    seed_results: false
+    baseline_must_remain_visible: true
+  ekoh:
+    seed_participant_scores: false
+    evidence_driven: true
+  search:
+    build_index: true
+metadata:
+  owner: konnaxion-local
+  language: fr
+  source_format: forum_threads_markdown
+  tags:
+  - political-philosophy
+  - sourced-reconstructions
+  - reasoning-lab
+  - institutional-design
+  content_contract: konnaxion-world-content/v1
+  konservation_enabled: false
+content_seeds:
+  cases: content/cases/cases.json
+  experience: experience.json
+policies:
+  canonical_actors: policies/canonical-actors.json

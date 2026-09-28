@@ -1,0 +1,38 @@
+{
+  "format": "konnaxion-world-content/v1",
+  "world_key": "ethikos-political-philosophy",
+  "module": "smart_vote",
+  "content_origin": "designed_extension",
+  "reading": {
+    "key": "pp-reading-expert-council",
+    "title": "Expert Council — comparative readings",
+    "case": "pp-case-expert-council",
+    "seed_votes": false,
+    "seed_results": false,
+    "baseline": {
+      "id": "equal_weight",
+      "label": "Résultat brut",
+      "always_visible": true
+    },
+    "derived_readings": [
+      {
+        "id": "ekoh_expertise_advisory",
+        "label": "Lecture expertise EkoH",
+        "status": "advisory",
+        "domains": [
+          "0223",
+          "0312"
+        ],
+        "domain_weights": "configured_at_runtime_and_disclosed",
+        "requires_baseline_visible": true,
+        "interpretation_prompt": "Pourquoi cette lecture diffère-t-elle du résultat brut, et quelle autorité politique devrait-elle avoir, le cas échéant ?"
+      }
+    ],
+    "invariants": [
+      "Derived reading never overwrites source vote.",
+      "No weighted result is canonical truth.",
+      "Weighting method and domains must be visible.",
+      "Canonical thinker reconstructions are not voters."
+    ]
+  }
+}

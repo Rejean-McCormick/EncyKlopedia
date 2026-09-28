@@ -1,0 +1,132 @@
+{
+  "schema": "kx-module-seed/1",
+  "module": "konnected.knowledge",
+  "world_key": "operational-resilience-2026",
+  "resources": [
+    {
+      "key": "know_operational_handoff",
+      "title": "Operational Context & Handoff",
+      "type": "course",
+      "path": "modules/knowledge/content/operational-context-handoff.md",
+      "used_by": [
+        "inc_wildfire_offline",
+        "inc_bridge_medical",
+        "inc_cyber_fragmented"
+      ],
+      "author": "actor_incident_coordinator",
+      "runtime_type": "course"
+    },
+    {
+      "key": "know_uncertain_information",
+      "title": "Working With Uncertain Information",
+      "type": "course",
+      "path": "modules/knowledge/content/working-with-uncertain-information.md",
+      "used_by": [
+        "inc_wildfire_offline",
+        "inc_cyber_fragmented"
+      ],
+      "author": "actor_incident_coordinator",
+      "runtime_type": "course"
+    },
+    {
+      "key": "know_source_reliability",
+      "title": "Source Reliability & Provenance",
+      "type": "doc",
+      "path": "modules/knowledge/content/source-reliability-provenance.md",
+      "used_by": [
+        "inc_wildfire_offline",
+        "inc_cyber_fragmented"
+      ],
+      "author": "actor_gis",
+      "runtime_type": "doc"
+    },
+    {
+      "key": "know_degraded_connectivity",
+      "title": "Operating With Degraded Connectivity",
+      "type": "course",
+      "path": "modules/knowledge/content/degraded-connectivity.md",
+      "used_by": [
+        "inc_wildfire_offline"
+      ],
+      "author": "actor_field_lead",
+      "runtime_type": "course"
+    },
+    {
+      "key": "know_sitrep",
+      "title": "Situation Report Quick Guide",
+      "type": "doc",
+      "path": "modules/knowledge/content/situation-report-quick-guide.md",
+      "used_by": [
+        "inc_wildfire_offline",
+        "inc_cyber_fragmented"
+      ],
+      "author": "actor_incident_coordinator",
+      "runtime_type": "doc"
+    },
+    {
+      "key": "know_dependencies",
+      "title": "Dependency Mapping for Operational Work",
+      "type": "course",
+      "path": "modules/knowledge/content/dependency-mapping.md",
+      "used_by": [
+        "inc_bridge_medical",
+        "inc_cyber_fragmented"
+      ],
+      "author": "actor_logistics",
+      "runtime_type": "course"
+    },
+    {
+      "key": "know_aar",
+      "title": "After-Action Review Without Hindsight",
+      "type": "course",
+      "path": "modules/knowledge/content/after-action-without-hindsight.md",
+      "used_by": [
+        "inc_wildfire_offline",
+        "inc_bridge_medical",
+        "inc_cyber_fragmented"
+      ],
+      "author": "actor_incident_coordinator",
+      "runtime_type": "course"
+    },
+    {
+      "key": "know_regional_reference",
+      "title": "Regional Operational Reference",
+      "type": "doc",
+      "path": "modules/knowledge/content/regional-operational-reference.md",
+      "used_by": [
+        "inc_wildfire_offline",
+        "inc_bridge_medical"
+      ],
+      "author": "actor_infrastructure",
+      "runtime_type": "doc"
+    }
+  ],
+  "offline_packages": [
+    {
+      "key": "offline_north_sector",
+      "name": "North Sector Field Package",
+      "description": "Minimal exercise bundle for degraded-connectivity field work.",
+      "status": "ready",
+      "target_device_type": "tablet",
+      "auto_sync": true,
+      "include_resources": [
+        "know_operational_handoff",
+        "know_uncertain_information",
+        "know_source_reliability",
+        "know_degraded_connectivity",
+        "know_sitrep",
+        "know_regional_reference"
+      ],
+      "incident": "inc_wildfire_offline"
+    }
+  ],
+  "content_policy": {
+    "simulation_only": true,
+    "not_operational_procedure": true,
+    "purpose": "Demonstrate context continuity, provenance, handoff, degraded-connectivity, dependency, and after-action patterns."
+  },
+  "materialization_notes": {
+    "runtime_model": "konnected.KnowledgeResource",
+    "url_strategy": "Materializer should publish the local source path through a world-scoped asset URL; seed does not invent external URLs."
+  }
+}

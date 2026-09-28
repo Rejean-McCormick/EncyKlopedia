@@ -1,0 +1,44 @@
+{
+  "schema_version": "encyklopedia-seed-inventory/v1",
+  "generated_at": "2026-09-26T10:22:27.543390+00:00",
+  "active_worlds": [
+    {
+      "world_key": "canada-quebec-public-debates-2026",
+      "file_count": 11,
+      "has_world_yaml": false
+    },
+    {
+      "world_key": "ethikos-elections-quebec-2026-fr",
+      "file_count": 26,
+      "has_world_yaml": true
+    },
+    {
+      "world_key": "ethikos-political-philosophy",
+      "file_count": 41,
+      "has_world_yaml": true
+    },
+    {
+      "world_key": "knowledge-continuity",
+      "file_count": 16,
+      "has_world_yaml": true
+    },
+    {
+      "world_key": "levis-civic-simulation-2026",
+      "file_count": 16,
+      "has_world_yaml": true
+    },
+    {
+      "world_key": "operational-resilience-2026",
+      "file_count": 42,
+      "has_world_yaml": true
+    },
+    {
+      "world_key": "research-innovation-commons",
+      "file_count": 40,
+      "has_world_yaml": true
+    }
+  ],
+  "active_world_count": 7,
+  "intellectual_registry_records": 211,
+  "intellectual_registry_sha256": "2ef00d0691a8e399ede521e506266976ca5de74725a42d49b086b09cc6b229a8"
+}

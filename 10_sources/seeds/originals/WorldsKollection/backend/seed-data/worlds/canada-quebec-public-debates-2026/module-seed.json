@@ -1,0 +1,46 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "canada-quebec-public-debates-2026",
+  "scenario_key": "canada_quebec_public_debates_2026",
+  "registry": "canon/registry.json",
+  "dossiers": "canon/dossiers.json",
+  "sidecars": {
+    "ekoh": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json"
+  },
+  "sources": {
+    "official_context": "sources/official-context.json"
+  },
+  "modules": {
+    "knowledge": "modules/knowledge.json",
+    "smart_vote": "modules/smart-vote.json",
+    "konsultations": "modules/konsultations.json",
+    "konstruct": "modules/konstruct.json",
+    "stockage": "modules/stockage.json",
+    "certifikation": "modules/certifikation.json",
+    "kontact": {
+      "mode": "embedded",
+      "owner": "modules/konstruct.json#collaborator_requirements"
+    },
+    "konservation": {
+      "enabled": false,
+      "reason": "No distinct World 4 capability requires cultural-heritage/exhibition objects."
+    }
+  },
+  "content_budget": {
+    "dossiers": 13,
+    "featured_dossiers": 4,
+    "consultations": 3,
+    "labs": 2,
+    "stockage_vaults": 2,
+    "certification_paths": 1,
+    "konservation_objects": 0
+  },
+  "invariants": {
+    "canonical_scenario_remains_source_of_political_positions": true,
+    "ekoh_sidecar_is_single_source_of_expertise_and_topic_relevance": true,
+    "smart_vote_outputs_are_derived_not_canonical": true,
+    "module_objects_reference_registry_keys_instead_of_recreating_world_entities": true,
+    "no_seeded_consultation_votes": true,
+    "no_political_actor_ranking": true
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "kx-world-konsultations-seed/v1",
+  "world_key": "canada-quebec-public-debates-2026",
+  "consultations": [
+    {
+      "key": "ai_education_safeguards",
+      "dossier_key": "ai_education",
+      "title": "Conditions et garanties pour l’intégration de l’IA en éducation",
+      "purpose": "Prioriser des garanties de conception sans transformer le débat canonique en second vote pour/contre.",
+      "modality": "ranking",
+      "options": [
+        {
+          "key": "pedagogical_relevance",
+          "label": "Pertinence pédagogique et objectifs d’apprentissage"
+        },
+        {
+          "key": "privacy_data",
+          "label": "Protection des renseignements et gouvernance des données"
+        },
+        {
+          "key": "academic_integrity",
+          "label": "Intégrité académique et adaptation de l’évaluation"
+        },
+        {
+          "key": "teacher_training",
+          "label": "Formation et soutien du personnel"
+        },
+        {
+          "key": "student_ai_literacy",
+          "label": "Compétence numérique et littératie de l’IA"
+        },
+        {
+          "key": "access_equity",
+          "label": "Accessibilité et équité d’accès"
+        },
+        {
+          "key": "transparency_accountability",
+          "label": "Transparence, responsabilité et mécanismes de recours"
+        }
+      ],
+      "seed_votes": []
+    },
+    {
+      "key": "regulatory_process_priorities",
+      "dossier_key": "regulatory_delays",
+      "title": "Priorités de conception d’un processus réglementaire plus prévisible",
+      "purpose": "Comparer des priorités de processus sans réduire la question à une opposition binaire rapidité/garanties.",
+      "modality": "ranking",
+      "options": [
+        {
+          "key": "clear_timelines",
+          "label": "Délais et jalons explicites"
+        },
+        {
+          "key": "reduce_duplication",
+          "label": "Réduction des duplications entre instances"
+        },
+        {
+          "key": "evidence_quality",
+          "label": "Qualité et disponibilité des preuves"
+        },
+        {
+          "key": "participation",
+          "label": "Participation publique et autochtone structurée"
+        },
+        {
+          "key": "reason_giving",
+          "label": "Décisions motivées et traçables"
+        },
+        {
+          "key": "intergovernmental_coordination",
+          "label": "Coordination intergouvernementale"
+        },
+        {
+          "key": "review_safeguards",
+          "label": "Mécanismes de révision et garanties procédurales"
+        }
+      ],
+      "seed_votes": []
+    },
+    {
+      "key": "tech_sovereignty_instruments",
+      "dossier_key": "tech_sovereignty",
+      "title": "Priorités d’instruments pour renforcer les capacités technologiques canadiennes",
+      "purpose": "Comparer des familles d’instruments sans présumer qu’une approche politique donnée est préférable.",
+      "modality": "ranking",
+      "options": [
+        {
+          "key": "domestic_compute",
+          "label": "Capacité de calcul et centres de données au Canada"
+        },
+        {
+          "key": "public_research_compute",
+          "label": "Infrastructure publique de calcul pour la recherche"
+        },
+        {
+          "key": "sme_compute_access",
+          "label": "Accès au calcul pour les PME et jeunes entreprises"
+        },
+        {
+          "key": "ip_commercialization",
+          "label": "Commercialisation et rétention de propriété intellectuelle"
+        },
+        {
+          "key": "data_governance",
+          "label": "Gouvernance, sécurité et localisation des données"
+        },
+        {
+          "key": "talent_training",
+          "label": "Formation, attraction et rétention des talents"
+        },
+        {
+          "key": "strategic_procurement",
+          "label": "Approvisionnement public comme levier de mise à l’échelle"
+        }
+      ],
+      "seed_votes": []
+    }
+  ]
+}

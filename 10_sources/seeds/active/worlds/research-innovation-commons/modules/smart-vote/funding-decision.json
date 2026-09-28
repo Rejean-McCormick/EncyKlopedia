@@ -1,0 +1,353 @@
+{
+  "schema_version": "kx-world-smart-vote-decision/v1",
+  "world_key": "research-innovation-commons",
+  "decision_key": "READ-001",
+  "title": "What should NEXUS fund next?",
+  "decision_type": "resource_allocation",
+  "truth_boundary": "This decision allocates resources. It does not determine which scientific hypothesis is true.",
+  "target_projects": [
+    "PRJ-001",
+    "PRJ-002",
+    "PRJ-003",
+    "PRJ-004",
+    "PRJ-005"
+  ],
+  "modalities": [
+    "ranking",
+    "approval"
+  ],
+  "readings": [
+    {
+      "key": "baseline",
+      "label": "All eligible participants",
+      "weighting": "raw"
+    },
+    {
+      "key": "relevant-expertise",
+      "label": "Relevant expertise lens",
+      "weighting": "ekoh",
+      "domains": [
+        "05",
+        "0542",
+        "0612",
+        "0613",
+        "09"
+      ]
+    },
+    {
+      "key": "methods-cohort",
+      "label": "Methods specialists",
+      "weighting": "cohort",
+      "actors": [
+        "ACT-004",
+        "ACT-007",
+        "ACT-011"
+      ]
+    }
+  ],
+  "seed_votes": [
+    {
+      "actor": "ACT-001",
+      "ranking": [
+        "PRJ-002",
+        "PRJ-004",
+        "PRJ-001",
+        "PRJ-003",
+        "PRJ-005"
+      ],
+      "expertise_weight": 0.76
+    },
+    {
+      "actor": "ACT-002",
+      "ranking": [
+        "PRJ-001",
+        "PRJ-003",
+        "PRJ-002",
+        "PRJ-005",
+        "PRJ-004"
+      ],
+      "expertise_weight": 0.75
+    },
+    {
+      "actor": "ACT-004",
+      "ranking": [
+        "PRJ-003",
+        "PRJ-005",
+        "PRJ-001",
+        "PRJ-002",
+        "PRJ-004"
+      ],
+      "expertise_weight": 0.84
+    },
+    {
+      "actor": "ACT-005",
+      "ranking": [
+        "PRJ-005",
+        "PRJ-003",
+        "PRJ-002",
+        "PRJ-001",
+        "PRJ-004"
+      ],
+      "expertise_weight": 0.8633
+    },
+    {
+      "actor": "ACT-007",
+      "ranking": [
+        "PRJ-001",
+        "PRJ-002",
+        "PRJ-003",
+        "PRJ-005",
+        "PRJ-004"
+      ],
+      "expertise_weight": 0.85
+    },
+    {
+      "actor": "ACT-008",
+      "ranking": [
+        "PRJ-002",
+        "PRJ-004",
+        "PRJ-003",
+        "PRJ-001",
+        "PRJ-005"
+      ],
+      "expertise_weight": 0.765
+    },
+    {
+      "actor": "ACT-010",
+      "ranking": [
+        "PRJ-003",
+        "PRJ-001",
+        "PRJ-005",
+        "PRJ-002",
+        "PRJ-004"
+      ],
+      "expertise_weight": 0.805
+    },
+    {
+      "actor": "ACT-011",
+      "ranking": [
+        "PRJ-001",
+        "PRJ-003",
+        "PRJ-005",
+        "PRJ-002",
+        "PRJ-004"
+      ],
+      "expertise_weight": 0.96
+    }
+  ],
+  "transparency": "Raw reading remains visible beside every derived reading; methodology is displayed; no scientific winner label is allowed.",
+  "historical_cycle": {
+    "key": "READ-001-2025",
+    "status": "closed",
+    "opened": "2025-10-15",
+    "closed": "2025-10-22",
+    "purpose": "Historical synthetic funding-prioritization exercise retained to demonstrate transparent divergence between declared decision lenses.",
+    "ballots": [
+      {
+        "actor": "ACT-001",
+        "ranking": [
+          "PRJ-002",
+          "PRJ-004",
+          "PRJ-001",
+          "PRJ-003",
+          "PRJ-005"
+        ],
+        "expertise_weight": 0.76
+      },
+      {
+        "actor": "ACT-002",
+        "ranking": [
+          "PRJ-001",
+          "PRJ-003",
+          "PRJ-002",
+          "PRJ-005",
+          "PRJ-004"
+        ],
+        "expertise_weight": 0.75
+      },
+      {
+        "actor": "ACT-004",
+        "ranking": [
+          "PRJ-003",
+          "PRJ-005",
+          "PRJ-001",
+          "PRJ-002",
+          "PRJ-004"
+        ],
+        "expertise_weight": 0.84
+      },
+      {
+        "actor": "ACT-005",
+        "ranking": [
+          "PRJ-005",
+          "PRJ-003",
+          "PRJ-002",
+          "PRJ-001",
+          "PRJ-004"
+        ],
+        "expertise_weight": 0.8633
+      },
+      {
+        "actor": "ACT-007",
+        "ranking": [
+          "PRJ-001",
+          "PRJ-002",
+          "PRJ-003",
+          "PRJ-005",
+          "PRJ-004"
+        ],
+        "expertise_weight": 0.85
+      },
+      {
+        "actor": "ACT-008",
+        "ranking": [
+          "PRJ-002",
+          "PRJ-004",
+          "PRJ-003",
+          "PRJ-001",
+          "PRJ-005"
+        ],
+        "expertise_weight": 0.765
+      },
+      {
+        "actor": "ACT-010",
+        "ranking": [
+          "PRJ-003",
+          "PRJ-001",
+          "PRJ-005",
+          "PRJ-002",
+          "PRJ-004"
+        ],
+        "expertise_weight": 0.805
+      },
+      {
+        "actor": "ACT-011",
+        "ranking": [
+          "PRJ-001",
+          "PRJ-003",
+          "PRJ-005",
+          "PRJ-002",
+          "PRJ-004"
+        ],
+        "expertise_weight": 0.96
+      }
+    ],
+    "derived_readings": [
+      {
+        "key": "baseline",
+        "method": "borda_raw",
+        "ordering": [
+          {
+            "project": "PRJ-003",
+            "score": 22.0
+          },
+          {
+            "project": "PRJ-001",
+            "score": 21.0
+          },
+          {
+            "project": "PRJ-002",
+            "score": 18.0
+          },
+          {
+            "project": "PRJ-005",
+            "score": 13.0
+          },
+          {
+            "project": "PRJ-004",
+            "score": 6.0
+          }
+        ]
+      },
+      {
+        "key": "relevant-expertise",
+        "method": "borda_x_average_relevant_ekoh",
+        "domains": [
+          "05",
+          "0542",
+          "0612",
+          "0613",
+          "09"
+        ],
+        "ordering": [
+          {
+            "project": "PRJ-003",
+            "score": 18.2899
+          },
+          {
+            "project": "PRJ-001",
+            "score": 17.4833
+          },
+          {
+            "project": "PRJ-002",
+            "score": 14.4816
+          },
+          {
+            "project": "PRJ-005",
+            "score": 11.1032
+          },
+          {
+            "project": "PRJ-004",
+            "score": 4.575
+          }
+        ]
+      },
+      {
+        "key": "methods-cohort",
+        "method": "borda_raw_declared_cohort",
+        "actors": [
+          "ACT-004",
+          "ACT-007",
+          "ACT-011"
+        ],
+        "ordering": [
+          {
+            "project": "PRJ-001",
+            "score": 10.0
+          },
+          {
+            "project": "PRJ-003",
+            "score": 9.0
+          },
+          {
+            "project": "PRJ-005",
+            "score": 6.0
+          },
+          {
+            "project": "PRJ-002",
+            "score": 5.0
+          },
+          {
+            "project": "PRJ-004",
+            "score": 0.0
+          }
+        ]
+      }
+    ],
+    "governance_record": {
+      "allocation_note": "The consortium funded a balanced portfolio rather than treating any reading as a scientific verdict.",
+      "funded_projects": [
+        "PRJ-001",
+        "PRJ-002",
+        "PRJ-003",
+        "PRJ-004"
+      ],
+      "infrastructure_project_advanced_to_design": [
+        "PRJ-005"
+      ],
+      "truth_boundary": "Funding allocation is a governance decision; rankings are not evidence that one hypothesis is true."
+    }
+  },
+  "current_cycle": {
+    "key": "READ-001-2026",
+    "status": "open",
+    "opened": "2026-09-20",
+    "ballots": [],
+    "note": "Open cycle intentionally has no pre-seeded current votes; the historical cycle keeps the demo immediately legible."
+  },
+  "reproducibility": {
+    "algorithm": "Borda points 4,3,2,1,0 for five ranked projects; expertise reading multiplies each ballot by the actor average over available scores in the declared decision domains.",
+    "source_profiles": "scenarios/nexus-research-commons-v1.json → ekoh_profiles",
+    "raw_always_visible": true
+  }
+}

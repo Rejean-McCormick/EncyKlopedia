@@ -1,0 +1,196 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "research-innovation-commons",
+  "module": "keenkonnect.stockage",
+  "target_models": [
+    "ProjectResource"
+  ],
+  "import_status": "bridge_required",
+  "artifacts": [
+    {
+      "key": "DOC-001",
+      "project": "PRJ-001",
+      "title": "Case Definition Protocol",
+      "kind": "protocol",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/protocols/PROT-001-v1.md",
+          "canonical_ref": "PROT-001:v1"
+        },
+        {
+          "version": 2,
+          "path": "content/protocols/PROT-001-v2.md",
+          "canonical_ref": "PROT-001:v2"
+        },
+        {
+          "version": 3,
+          "path": "content/protocols/PROT-001-v3.md",
+          "canonical_ref": "PROT-001:v3"
+        }
+      ],
+      "current_version": 3
+    },
+    {
+      "key": "DOC-002",
+      "project": "PRJ-001",
+      "title": "Harmonized Preprocessing Protocol",
+      "kind": "protocol",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/protocols/PROT-002-v1.md",
+          "canonical_ref": "PROT-002:v1"
+        }
+      ],
+      "current_version": 1
+    },
+    {
+      "key": "DOC-003",
+      "project": "PRJ-002",
+      "title": "KX-17 Independent Replication Protocol",
+      "kind": "protocol",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/protocols/PROT-003-v1.md",
+          "canonical_ref": "PROT-003:v1"
+        }
+      ],
+      "current_version": 1
+    },
+    {
+      "key": "DOC-004",
+      "project": "PRJ-004",
+      "title": "Batch-Effect Challenge Protocol",
+      "kind": "protocol",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/protocols/PROT-004-v1.md",
+          "canonical_ref": "PROT-004:v1"
+        }
+      ],
+      "current_version": 1
+    },
+    {
+      "key": "DOC-005",
+      "project": "PRJ-004",
+      "title": "Subtype Stratification Protocol",
+      "kind": "protocol",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/protocols/PROT-005-v1.md",
+          "canonical_ref": "PROT-005:v1"
+        }
+      ],
+      "current_version": 1
+    },
+    {
+      "key": "DOC-006",
+      "project": "PRJ-002",
+      "title": "Preregistered Immune Replication Protocol",
+      "kind": "protocol",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/protocols/PROT-006-v1.md",
+          "canonical_ref": "PROT-006:v1"
+        }
+      ],
+      "current_version": 1
+    },
+    {
+      "key": "DATA-001",
+      "project": "PRJ-001",
+      "title": "Synthetic Harmonized Cohort",
+      "kind": "dataset",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/data/DATA-001-synthetic-harmonized-cohort.csv",
+          "canonical_ref": "DATA-001:v1"
+        }
+      ],
+      "current_version": 1
+    },
+    {
+      "key": "DATA-002",
+      "project": "PRJ-002",
+      "title": "Synthetic Replication Summary",
+      "kind": "dataset",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/data/DATA-002-synthetic-replication-summary.csv",
+          "canonical_ref": "DATA-002:v1"
+        }
+      ],
+      "current_version": 1
+    },
+    {
+      "key": "DATA-003",
+      "project": "PRJ-004",
+      "title": "Synthetic Batch Challenge Summary",
+      "kind": "dataset",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/data/DATA-003-synthetic-batch-challenge.csv",
+          "canonical_ref": "DATA-003:v1"
+        }
+      ],
+      "current_version": 1
+    },
+    {
+      "key": "DATA-004",
+      "project": "PRJ-004",
+      "title": "Synthetic Subtype Stratification Summary",
+      "kind": "dataset",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/data/DATA-004-synthetic-subtype-strata.csv",
+          "canonical_ref": "DATA-004:v1"
+        }
+      ],
+      "current_version": 1
+    },
+    {
+      "key": "DATA-005",
+      "project": "PRJ-002",
+      "title": "Synthetic Immune Replication Registry",
+      "kind": "dataset",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/data/DATA-005-synthetic-immune-replication.csv",
+          "canonical_ref": "DATA-005:v1"
+        }
+      ],
+      "current_version": 1
+    },
+    {
+      "key": "DATA-006",
+      "project": "PRJ-003",
+      "title": "Synthetic Robustness Matrix",
+      "kind": "dataset",
+      "versions": [
+        {
+          "version": 1,
+          "path": "content/data/DATA-006-synthetic-robustness-matrix.csv",
+          "canonical_ref": "DATA-006:v1"
+        }
+      ],
+      "current_version": 1
+    }
+  ],
+  "provenance_rule": "Every result must resolve to a protocol version and, when applicable, a dataset version. New versions append; they do not overwrite prior versions.",
+  "bridge_contract": {
+    "project_resource_file_type_for_protocols": "document",
+    "project_resource_file_type_for_datasets": "other",
+    "version_field": "ProjectResource.version",
+    "rule": "A bridge may materialize each version as a ProjectResource revision but must preserve canonical_ref and prior versions."
+  }
+}

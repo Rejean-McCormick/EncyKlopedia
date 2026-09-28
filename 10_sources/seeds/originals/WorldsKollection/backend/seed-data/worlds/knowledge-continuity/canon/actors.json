@@ -1,0 +1,186 @@
+{
+  "schema_version": "konnaxion-world-actors/v1",
+  "world_key": "knowledge-continuity",
+  "actors": [
+    {
+      "key": "marc_leblanc",
+      "display_name": "Marc Leblanc",
+      "role": "Senior Field Reliability Specialist",
+      "team": "Field Reliability",
+      "summary": "Primary expert in intermittent faults and legacy equipment; scheduled to retire in 47 days.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "sofia_nguyen",
+      "display_name": "Sofia Nguyen",
+      "role": "Reliability Engineer",
+      "team": "Reliability Engineering",
+      "summary": "Primary successor candidate: strong analytical reasoning, less legacy-field exposure.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "jean_caron",
+      "display_name": "Jean Caron",
+      "role": "Senior Field Technician",
+      "team": "Field Operations",
+      "summary": "Secondary successor candidate with strong hands-on legacy equipment knowledge.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "amina_benali",
+      "display_name": "Amina Benali",
+      "role": "Learning & Transfer Lead",
+      "team": "Capability Development",
+      "summary": "Designs case-based transfer programs and supervised practice.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "nadia_roy",
+      "display_name": "Nadia Roy",
+      "role": "Reliability Analyst",
+      "team": "Reliability Engineering",
+      "summary": "Peer reviewer who reconstructs incident evidence and validates diagnostic reasoning.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "luc_gagnon",
+      "display_name": "Luc Gagnon",
+      "role": "Operations Manager",
+      "team": "Operations",
+      "summary": "Capability owner accountable for operational continuity and transfer completion.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "elise_tremblay",
+      "display_name": "Élise Tremblay",
+      "role": "Archivist & Records Specialist",
+      "team": "Knowledge Stewardship",
+      "summary": "Maintains provenance, documentary history, and preservation boundaries.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "owen_clarke",
+      "display_name": "Owen Clarke",
+      "role": "Junior Field Technician",
+      "team": "Field Operations",
+      "summary": "Early-career learner used to test whether captured knowledge is understandable to non-experts.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "claire_beaulieu",
+      "display_name": "Claire Beaulieu",
+      "role": "Procurement Governance Advisor",
+      "team": "Procurement",
+      "summary": "Primary holder of institutional memory behind supplier exceptions and risk decisions.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "maya_singh",
+      "display_name": "Maya Singh",
+      "role": "Procurement Analyst",
+      "team": "Procurement",
+      "summary": "Successor candidate for institutional decision memory and exception governance.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "andre_bouchard",
+      "display_name": "André Bouchard",
+      "role": "Precision Repair Master",
+      "team": "Workshop",
+      "summary": "Senior practitioner whose tacit inspection and repair judgment is difficult to codify.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "leila_haddad",
+      "display_name": "Leila Haddad",
+      "role": "Restoration Technician",
+      "team": "Workshop",
+      "summary": "Primary successor candidate for precision repair practice.",
+      "core_cast": true,
+      "fictional": true
+    },
+    {
+      "key": "thomas_bergeron",
+      "display_name": "Thomas Bergeron",
+      "role": "Electrical Engineer",
+      "team": "Engineering",
+      "summary": "Adjacent technical specialist; candidate for selected diagnostics but not full field succession.",
+      "core_cast": false,
+      "fictional": true
+    },
+    {
+      "key": "ana_pereira",
+      "display_name": "Ana Pereira",
+      "role": "Data Engineer",
+      "team": "Digital Operations",
+      "summary": "Supports evidence extraction from logs and historical monitoring data.",
+      "core_cast": false,
+      "fictional": true
+    },
+    {
+      "key": "victor_chen",
+      "display_name": "Victor Chen",
+      "role": "Maintenance Planner",
+      "team": "Operations Planning",
+      "summary": "Understands maintenance sequencing and resource constraints.",
+      "core_cast": false,
+      "fictional": true
+    },
+    {
+      "key": "samira_khan",
+      "display_name": "Samira Khan",
+      "role": "Quality Engineer",
+      "team": "Quality",
+      "summary": "Reviews procedures, exceptions, non-conformities, and validation evidence.",
+      "core_cast": false,
+      "fictional": true
+    },
+    {
+      "key": "gabriel_fortin",
+      "display_name": "Gabriel Fortin",
+      "role": "Training Facilitator",
+      "team": "Capability Development",
+      "summary": "Facilitates teach-back sessions and practical simulations.",
+      "core_cast": false,
+      "fictional": true
+    },
+    {
+      "key": "isabelle_morin",
+      "display_name": "Isabelle Morin",
+      "role": "Supply Chain Specialist",
+      "team": "Procurement",
+      "summary": "Holds current supplier-market knowledge but limited historical context.",
+      "core_cast": false,
+      "fictional": true
+    },
+    {
+      "key": "david_okafor",
+      "display_name": "David Okafor",
+      "role": "Safety Specialist",
+      "team": "Safety",
+      "summary": "Reviews safety boundaries in technical cases and practice exercises.",
+      "core_cast": false,
+      "fictional": true
+    },
+    {
+      "key": "zoe_martel",
+      "display_name": "Zoé Martel",
+      "role": "Documentation Specialist",
+      "team": "Knowledge Stewardship",
+      "summary": "Turns validated case reconstructions into durable playbooks and cross-linked learning assets.",
+      "core_cast": false,
+      "fictional": true
+    }
+  ]
+}

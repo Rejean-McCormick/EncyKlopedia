@@ -1,0 +1,48 @@
+{
+  "format": "konnaxion-world-content/v1",
+  "world_key": "ethikos-political-philosophy",
+  "module": "stockage",
+  "content_origin": "designed_extension",
+  "artifact_policy": {
+    "project_template": "pp-capstone-legitimate-institution",
+    "versioning_required": true,
+    "artifact_types": [
+      {
+        "key": "charter_v1",
+        "filename_pattern": "charter-v1.*",
+        "purpose": "première architecture complète"
+      },
+      {
+        "key": "peer_review",
+        "filename_pattern": "peer-review-*.*",
+        "purpose": "évaluation externe structurée"
+      },
+      {
+        "key": "objection_map",
+        "filename_pattern": "objection-map.*",
+        "purpose": "cartographie des objections fortes et réponses"
+      },
+      {
+        "key": "minority_report",
+        "filename_pattern": "minority-report.*",
+        "purpose": "désaccord substantiel non résolu"
+      },
+      {
+        "key": "charter_v2",
+        "filename_pattern": "charter-v2.*",
+        "purpose": "révision après critique"
+      },
+      {
+        "key": "final_charter",
+        "filename_pattern": "final-charter.*",
+        "purpose": "version soumise à la revue finale"
+      },
+      {
+        "key": "bibliography",
+        "filename_pattern": "bibliography.*",
+        "purpose": "traçabilité des sources du canon"
+      }
+    ],
+    "do_not_seed_fake_files": true
+  }
+}

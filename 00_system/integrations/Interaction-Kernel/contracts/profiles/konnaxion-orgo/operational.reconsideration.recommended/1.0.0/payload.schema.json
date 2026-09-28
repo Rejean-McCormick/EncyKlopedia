@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interaction-kernel.dev/profiles/operational.reconsideration.recommended/1.0.0/payload.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "reason_codes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 160
+      }
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 5000
+    },
+    "authority_effect": {
+      "const": "none"
+    }
+  },
+  "required": [
+    "reason_codes",
+    "authority_effect"
+  ]
+}

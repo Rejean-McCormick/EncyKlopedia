@@ -1,0 +1,47 @@
+world_contract: kx-world-pack/v1
+world_key: levis-civic-simulation-2026
+title: Lévis 2026 — simulation civique intégrée
+description: 'Monde civique municipal sourcé structuré en trois arcs: croissance/capacité,
+  mobilité et territoire/mandat citoyen. Les positions réelles demeurent des reconstructions
+  sourcées; les experts, projets, impacts et parcours ajoutés en v0.2 sont explicitement
+  simulés.'
+pack_version: 0.2.1
+requires:
+  ethikos_scenario_schema: ethikos-demo-scenario/v3
+  fixtures:
+  - isced-f
+scenarios:
+- scenarios/levis-civic-simulation-2026.json
+persona_policy:
+  real_person_representation: reconstructed_position
+  unknown_position: omit
+  historical_positions_are_time_scoped: true
+  simulated_experts: explicitly_labeled
+derived_data:
+  smart_vote:
+    build_readings: false
+    baseline_always_visible: true
+  search:
+    build_index: true
+module_sidecars:
+  knowledge: modules/knowledge.json
+  certifikation: modules/certifikation.json
+  smart_vote: modules/smart-vote.json
+  konstruct: modules/konstruct.json
+  stockage: modules/stockage.json
+  kontact: modules/kontact.json
+  konservation: modules/konservation.json
+  crosslinks: modules/crosslinks.json
+metadata:
+  owner: konnaxion-local
+  language: fr-CA
+  jurisdiction: Ville de Lévis, Québec, Canada
+  as_of: '2026-09-22'
+  content_version: 0.2.1
+  tags:
+  - levis
+  - municipal
+  - civic-simulation
+  - sourced-positions
+  - multi-module
+  optimization: runtime_relevance_wiring_and_primary_experience_cleanup

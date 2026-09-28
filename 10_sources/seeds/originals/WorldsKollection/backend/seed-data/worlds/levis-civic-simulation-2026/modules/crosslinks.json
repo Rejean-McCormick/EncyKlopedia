@@ -1,0 +1,83 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "levis-civic-simulation-2026",
+  "content_version": "0.2.1",
+  "import_status": "staged_sidecar",
+  "module": "world.crosslinks",
+  "arcs": [
+    {
+      "key": "growth_2030",
+      "title": "Croissance Lévis 2030",
+      "topic_refs": [
+        "moratoire_eaux_usees",
+        "redevances_developpement",
+        "aides_logement_abordable_prive",
+        "cadre_financier_2026_2030"
+      ],
+      "knowledge_refs": [
+        "kno_lev_02",
+        "kno_lev_03",
+        "kno_lev_04",
+        "kno_lev_05",
+        "kno_lev_06",
+        "kno_lev_12"
+      ],
+      "consultation_ref": "levis_growth_2030",
+      "project_ref": "prj_levis_growth_2030",
+      "opportunity_ref": "opp_growth_team",
+      "stockage_refs": [
+        "sto_growth_01",
+        "sto_growth_02",
+        "sto_growth_03",
+        "sto_growth_04",
+        "sto_growth_05"
+      ]
+    },
+    {
+      "key": "mobility_2035",
+      "title": "Mobilité Lévis 2035",
+      "topic_refs": [
+        "troisieme_lien_routier_est",
+        "srb_guillaume_couture",
+        "cadre_financier_2026_2030"
+      ],
+      "knowledge_refs": [
+        "kno_lev_02",
+        "kno_lev_03",
+        "kno_lev_07",
+        "kno_lev_08",
+        "kno_lev_09",
+        "kno_lev_12"
+      ],
+      "consultation_ref": "levis_mobility_2035",
+      "project_ref": "prj_levis_mobility_2035",
+      "opportunity_ref": "opp_mobility_team",
+      "stockage_refs": [
+        "sto_mobility_01",
+        "sto_mobility_02",
+        "sto_mobility_03",
+        "sto_mobility_04",
+        "sto_mobility_05"
+      ]
+    },
+    {
+      "key": "territory_mandate",
+      "title": "Territoire & mandat citoyen",
+      "topic_refs": [
+        "rabaska_protection_avant_industrie",
+        "participation_continue",
+        "cadre_financier_2026_2030"
+      ],
+      "knowledge_refs": [
+        "kno_lev_01",
+        "kno_lev_10",
+        "kno_lev_11",
+        "kno_lev_12"
+      ],
+      "consultation_ref": "levis_territory_mandate",
+      "archive_ref": "archive_levis_est_territory",
+      "exhibition_ref": "exh_levis_est_multiple_futures"
+    }
+  ],
+  "certification_ref": "cert_levis_municipal_decision_analysis"
+}

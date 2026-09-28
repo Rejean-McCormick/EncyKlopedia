@@ -1,0 +1,25 @@
+{
+  "schema_version": "encyklopedia-performance/v2",
+  "preferred_new_dump_format": "json.gz",
+  "threads": "auto-physical",
+  "fast_access": {
+    "enabled": true,
+    "initial_qid_capacity": 160000000,
+    "reverse_properties": [],
+    "note": "QID locator/compression sidecars only by default. Reverse relations come from the global discovery index when present; no duplicate reverse SQLite."
+  },
+  "dependencies": {
+    "recommended": [
+      "orjson",
+      "rapidgzip"
+    ],
+    "optional_bzip2": [
+      "indexed_bzip2"
+    ],
+    "python314_windows_note": "rapidgzip and orjson have Windows CPython 3.14 wheels; indexed_bzip2 may require Python <=3.13 or a local build."
+  },
+  "safety": {
+    "production_full_scan_requires_explicit_opt_in": true,
+    "small_dump_auto_scan_max_gib": 2.0
+  }
+}

@@ -1,0 +1,1206 @@
+{
+  "schema_version": "ethikos-demo-scenario/v3",
+  "scenario_key": "nexus_research_commons_v1",
+  "scenario_title": "NEXUS Research Commons — NEX-27",
+  "mode": "replace_scenario",
+  "metadata": {
+    "world_key": "research-innovation-commons",
+    "language": "en",
+    "fictional": true,
+    "safety_note": "All medical/scientific entities and findings are synthetic demo content and not medical guidance.",
+    "stance_semantics": "-3 strongly incompatible with current synthetic evidence; 0 uncertain/insufficient; +3 strongly compatible. This is not popularity or truth-by-vote.",
+    "canonicality": "Ethikos topics/stances/arguments are source facts for the fictional World. EkoH weights and Smart Vote readings are advisory derived lenses.",
+    "content_revision": "1.1"
+  },
+  "actors": [
+    {
+      "key": "ACT-001",
+      "username": "w_nexus__maya_chen",
+      "display_name": "Dr Maya Chen",
+      "email": "w_nexus__maya_chen@example.test",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ACT-002",
+      "username": "w_nexus__leo_fournier",
+      "display_name": "Dr Léo Fournier",
+      "email": "w_nexus__leo_fournier@example.test",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ACT-003",
+      "username": "w_nexus__emi_sato",
+      "display_name": "Dr Emi Sato",
+      "email": "w_nexus__emi_sato@example.test",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ACT-004",
+      "username": "w_nexus__amina_diallo",
+      "display_name": "Dr Amina Diallo",
+      "email": "w_nexus__amina_diallo@example.test",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ACT-005",
+      "username": "w_nexus__rafael_costa",
+      "display_name": "Dr Rafael Costa",
+      "email": "w_nexus__rafael_costa@example.test",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ACT-006",
+      "username": "w_nexus__priya_nair",
+      "display_name": "Priya Nair",
+      "email": "w_nexus__priya_nair@example.test",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ACT-007",
+      "username": "w_nexus__jules_moreau",
+      "display_name": "Jules Moreau",
+      "email": "w_nexus__jules_moreau@example.test",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ACT-008",
+      "username": "w_nexus__kenji_watanabe",
+      "display_name": "Kenji Watanabe",
+      "email": "w_nexus__kenji_watanabe@example.test",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ACT-009",
+      "username": "w_nexus__njeri_kamau",
+      "display_name": "Njeri Kamau",
+      "email": "w_nexus__njeri_kamau@example.test",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ACT-010",
+      "username": "w_nexus__sofia_almeida",
+      "display_name": "Sofia Almeida",
+      "email": "w_nexus__sofia_almeida@example.test",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ACT-011",
+      "username": "w_nexus__nora_feld",
+      "display_name": "Dr Nora Feld",
+      "email": "w_nexus__nora_feld@example.test",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ACT-012",
+      "username": "w_nexus__elena_ruiz",
+      "display_name": "Elena Ruiz",
+      "email": "w_nexus__elena_ruiz@example.test",
+      "is_ethikos_elite": false
+    }
+  ],
+  "categories": [
+    {
+      "key": "research_interpretation",
+      "name": "Research interpretation",
+      "description": "Scientific questions where claims must remain linked to methods, evidence and uncertainty."
+    },
+    {
+      "key": "research_governance",
+      "name": "Research governance",
+      "description": "Questions about methods, priorities and resource allocation, not scientific truth by vote."
+    }
+  ],
+  "topics": [
+    {
+      "key": "rq_001_identity",
+      "title": "[DEMO][NEXUS] What is NEX-27: one syndrome or multiple subtypes?",
+      "description": "RQ-001. Evaluate whether the harmonized synthetic evidence supports a single-syndrome or subtype model.",
+      "status": "open",
+      "category": "research_interpretation"
+    },
+    {
+      "key": "rq_002_immune",
+      "title": "[DEMO][NEXUS] Is immune dysregulation a central shared mechanism?",
+      "description": "RQ-002. Distinguish evidence for a shared mechanism from evidence for partially overlapping subtypes.",
+      "status": "open",
+      "category": "research_interpretation"
+    },
+    {
+      "key": "rq_003_kx17",
+      "title": "[DEMO][NEXUS] Is KX-17 causal, downstream, or only correlated?",
+      "description": "RQ-003. Preserve separation between association, mechanism and causality.",
+      "status": "open",
+      "category": "research_interpretation"
+    },
+    {
+      "key": "rq_004_harmonization",
+      "title": "[DEMO][NEXUS] Does harmonization resolve disagreement or erase real differences?",
+      "description": "RQ-004. Debate what should be standardized and what site-specific information must remain visible.",
+      "status": "open",
+      "category": "research_governance"
+    },
+    {
+      "key": "rq_005_replication",
+      "title": "[DEMO][NEXUS] What should count as confirmed across five sites?",
+      "description": "RQ-005. Define replication and confirmation without collapsing uncertainty.",
+      "status": "open",
+      "category": "research_governance"
+    }
+  ],
+  "stances": [
+    {
+      "topic": "rq_001_identity",
+      "actor": "ACT-001",
+      "value": 0
+    },
+    {
+      "topic": "rq_001_identity",
+      "actor": "ACT-002",
+      "value": 1
+    },
+    {
+      "topic": "rq_001_identity",
+      "actor": "ACT-004",
+      "value": 2
+    },
+    {
+      "topic": "rq_001_identity",
+      "actor": "ACT-005",
+      "value": 2
+    },
+    {
+      "topic": "rq_001_identity",
+      "actor": "ACT-009",
+      "value": 2
+    },
+    {
+      "topic": "rq_001_identity",
+      "actor": "ACT-010",
+      "value": 2
+    },
+    {
+      "topic": "rq_001_identity",
+      "actor": "ACT-011",
+      "value": 2
+    },
+    {
+      "topic": "rq_002_immune",
+      "actor": "ACT-001",
+      "value": 2
+    },
+    {
+      "topic": "rq_002_immune",
+      "actor": "ACT-003",
+      "value": 1
+    },
+    {
+      "topic": "rq_002_immune",
+      "actor": "ACT-004",
+      "value": 0
+    },
+    {
+      "topic": "rq_002_immune",
+      "actor": "ACT-007",
+      "value": 1
+    },
+    {
+      "topic": "rq_002_immune",
+      "actor": "ACT-010",
+      "value": 1
+    },
+    {
+      "topic": "rq_002_immune",
+      "actor": "ACT-011",
+      "value": 1
+    },
+    {
+      "topic": "rq_003_kx17",
+      "actor": "ACT-003",
+      "value": 0
+    },
+    {
+      "topic": "rq_003_kx17",
+      "actor": "ACT-004",
+      "value": -2
+    },
+    {
+      "topic": "rq_003_kx17",
+      "actor": "ACT-005",
+      "value": -1
+    },
+    {
+      "topic": "rq_003_kx17",
+      "actor": "ACT-007",
+      "value": -1
+    },
+    {
+      "topic": "rq_003_kx17",
+      "actor": "ACT-008",
+      "value": -2
+    },
+    {
+      "topic": "rq_003_kx17",
+      "actor": "ACT-010",
+      "value": -2
+    },
+    {
+      "topic": "rq_003_kx17",
+      "actor": "ACT-011",
+      "value": -2
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-002",
+      "value": 2
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-004",
+      "value": 3
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-006",
+      "value": 3
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-007",
+      "value": 2
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-009",
+      "value": 3
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-010",
+      "value": 3
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-011",
+      "value": 3
+    },
+    {
+      "topic": "rq_005_replication",
+      "actor": "ACT-003",
+      "value": 2
+    },
+    {
+      "topic": "rq_005_replication",
+      "actor": "ACT-004",
+      "value": 3
+    },
+    {
+      "topic": "rq_005_replication",
+      "actor": "ACT-007",
+      "value": 3
+    },
+    {
+      "topic": "rq_005_replication",
+      "actor": "ACT-008",
+      "value": 3
+    },
+    {
+      "topic": "rq_005_replication",
+      "actor": "ACT-010",
+      "value": 3
+    },
+    {
+      "topic": "rq_005_replication",
+      "actor": "ACT-011",
+      "value": 3
+    },
+    {
+      "topic": "rq_005_replication",
+      "actor": "ACT-012",
+      "value": 1
+    }
+  ],
+  "arguments": [
+    {
+      "key": "ARG-001",
+      "topic": "rq_001_identity",
+      "actor": "ACT-010",
+      "content": "The harmonized evidence supports a subtype model better than either a single undifferentiated syndrome or a pure classification-artifact explanation.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-002",
+      "topic": "rq_001_identity",
+      "actor": "ACT-001",
+      "content": "A shared immune signature remains visible after harmonization, so the subtype model should not be interpreted as five unrelated conditions.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-003",
+      "topic": "rq_001_identity",
+      "actor": "ACT-004",
+      "content": "The strongest claim should remain limited: harmonization changes the apparent disagreement, but it does not by itself establish a biological taxonomy.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-004",
+      "topic": "rq_001_identity",
+      "actor": "ACT-002",
+      "content": "Clinical differences that remain after harmonization should be preserved as possible signal rather than treated automatically as residual noise.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-005",
+      "topic": "rq_002_immune",
+      "actor": "ACT-001",
+      "content": "The shared immune pattern is compatible with a central mechanism, but the active preregistered replication is needed before increasing confidence.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-006",
+      "topic": "rq_002_immune",
+      "actor": "ACT-007",
+      "content": "A mechanism claim requires prespecified outcomes and replication; the current signal is stronger than a chance observation but weaker than a confirmed mechanism.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-007",
+      "topic": "rq_002_immune",
+      "actor": "ACT-003",
+      "content": "Molecular heterogeneity remains compatible with a shared downstream immune response, so genomic diversity does not settle the mechanism question.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-008",
+      "topic": "rq_002_immune",
+      "actor": "ACT-011",
+      "content": "The correct state is supported-but-open: the consortium should not promote a mechanism from plausible to confirmed while the main replication is active.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-009",
+      "topic": "rq_003_kx17",
+      "actor": "ACT-004",
+      "content": "The intervention prediction failed under the tested synthetic conditions, weakening a strong causal version of HYP-003.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-010",
+      "topic": "rq_003_kx17",
+      "actor": "ACT-003",
+      "content": "KX-17 remains measurable and associated in several sites, but batch sensitivity means historical effect sizes cannot be compared naively.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-011",
+      "topic": "rq_003_kx17",
+      "actor": "ACT-008",
+      "content": "The external cohort preserves a smaller association while failing to reproduce the strongest original effect; this favors a marker interpretation over a simple causal story.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-012",
+      "topic": "rq_003_kx17",
+      "actor": "ACT-010",
+      "content": "The current knowledge state should keep predictive usefulness separate from causal status.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-013",
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-006",
+      "content": "Harmonization must preserve source variables and transformation history so analysts can still recover site-specific meaning.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-014",
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-009",
+      "content": "A reversible mapping is safer than destructive normalization because later questions may depend on distinctions that seem irrelevant today.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-015",
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-002",
+      "content": "Clinical differences should only be standardized when they reflect incompatible terminology or measurement, not when they represent real phenotype variation.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-016",
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-011",
+      "content": "The harmonized protocol should be versioned and auditable; otherwise the consortium can no longer reconstruct which definition produced which conclusion.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-017",
+      "topic": "rq_005_replication",
+      "actor": "ACT-008",
+      "content": "A compatible direction is not enough for confirmation when effect magnitude changes materially across calibrated sites.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-018",
+      "topic": "rq_005_replication",
+      "actor": "ACT-007",
+      "content": "Confirmation should combine preregistration, declared compatible methods and independent analysis rather than rely on repeated significance alone.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-019",
+      "topic": "rq_005_replication",
+      "actor": "ACT-004",
+      "content": "Sensitivity to a single modeling choice must lower confidence even when the headline estimate is nominally reproduced.",
+      "side": "neutral"
+    },
+    {
+      "key": "ARG-020",
+      "topic": "rq_005_replication",
+      "actor": "ACT-012",
+      "content": "Public communication should expose replication status directly because the word confirmed carries consequences outside the consortium.",
+      "side": "neutral"
+    }
+  ],
+  "argument_sources": [
+    {
+      "key": "ARG-001-SRC",
+      "argument": "ARG-001",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-010; EVID-001; EVID-006",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-002-SRC",
+      "argument": "ARG-002",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-005; EVID-005",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-003-SRC",
+      "argument": "ARG-003",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-001; EVID-001; PROT-002:v1",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-004-SRC",
+      "argument": "ARG-004",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-001; EVID-001",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-005-SRC",
+      "argument": "ARG-005",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-005; EVID-005; EXP-007",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-006-SRC",
+      "argument": "ARG-006",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-011; PROT-006:v1",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-007-SRC",
+      "argument": "ARG-007",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-006; EVID-006",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-008-SRC",
+      "argument": "ARG-008",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-005; KR-003",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-009-SRC",
+      "argument": "ARG-009",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-007; EVID-008",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-010-SRC",
+      "argument": "ARG-010",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-003; EVID-003; EVID-004",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-011-SRC",
+      "argument": "ARG-011",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-004; EVID-004",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-012-SRC",
+      "argument": "ARG-012",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-003; EVID-009",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-013-SRC",
+      "argument": "ARG-013",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-001; EVID-001; PROT-001:v3",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-014-SRC",
+      "argument": "ARG-014",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-002; EVID-002",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-015-SRC",
+      "argument": "ARG-015",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-001; EVID-001",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-016-SRC",
+      "argument": "ARG-016",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-011; KR-007",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-017-SRC",
+      "argument": "ARG-017",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-011; EVID-003; EVID-009",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-018-SRC",
+      "argument": "ARG-018",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-011; PROT-003:v1",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-019-SRC",
+      "argument": "ARG-019",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-009; EVID-010",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    },
+    {
+      "key": "ARG-020-SRC",
+      "argument": "ARG-020",
+      "source_type": "world_canon",
+      "citation_text": "CLAIM-012; KR-010",
+      "note": "Synthetic World 7 provenance. Resolve canonical CLAIM/EVID/PROT/DATA/KR identifiers through canon/world.json, canon/research-graph.json, content/, and module sidecars."
+    }
+  ],
+  "consultations": [
+    {
+      "key": "consult_infrastructure_2025",
+      "title": "[DEMO][NEXUS] Which shared capability should the consortium prioritize first?",
+      "description": "Closed historical governance consultation about research infrastructure. It allocates attention/resources; it does not determine scientific truth.",
+      "status": "closed",
+      "open_date": "2025-10-01",
+      "close_date": "2025-10-14",
+      "options": [
+        {
+          "key": "shared_protocols",
+          "label": "Shared protocol harmonization"
+        },
+        {
+          "key": "negative_registry",
+          "label": "Negative-results registry"
+        },
+        {
+          "key": "provenance_infra",
+          "label": "Cross-site provenance infrastructure"
+        },
+        {
+          "key": "replication_fund",
+          "label": "Independent replication fund"
+        }
+      ]
+    },
+    {
+      "key": "consult_research_outcomes",
+      "title": "[DEMO][NEXUS] Which research outcomes matter most to people affected by NEX-27?",
+      "description": "Non-binding priority consultation. It informs which research questions deserve attention; it does not determine scientific truth.",
+      "status": "open",
+      "open_date": "2026-09-20",
+      "close_date": "2026-10-21",
+      "options": [
+        {
+          "key": "diagnostic_certainty",
+          "label": "Diagnostic certainty"
+        },
+        {
+          "key": "symptom_relief",
+          "label": "Symptom relief"
+        },
+        {
+          "key": "long_term_outcomes",
+          "label": "Long-term outcomes"
+        },
+        {
+          "key": "accessibility",
+          "label": "Accessibility of future interventions"
+        },
+        {
+          "key": "side_effects",
+          "label": "Side effects and burden"
+        },
+        {
+          "key": "daily_life",
+          "label": "Return to daily life"
+        }
+      ]
+    }
+  ],
+  "consultation_votes": [
+    {
+      "consultation": "consult_infrastructure_2025",
+      "actor": "ACT-001",
+      "option": "replication_fund",
+      "raw_value": 1
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "actor": "ACT-002",
+      "option": "shared_protocols",
+      "raw_value": 1
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "actor": "ACT-004",
+      "option": "negative_registry",
+      "raw_value": 1
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "actor": "ACT-005",
+      "option": "provenance_infra",
+      "raw_value": 1
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "actor": "ACT-007",
+      "option": "shared_protocols",
+      "raw_value": 1
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "actor": "ACT-008",
+      "option": "replication_fund",
+      "raw_value": 1
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "actor": "ACT-010",
+      "option": "negative_registry",
+      "raw_value": 1
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "actor": "ACT-011",
+      "option": "provenance_infra",
+      "raw_value": 1
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "actor": "ACT-006",
+      "option": "provenance_infra",
+      "raw_value": 1
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "actor": "ACT-009",
+      "option": "provenance_infra",
+      "raw_value": 1
+    }
+  ],
+  "impact_items": [
+    {
+      "consultation": "consult_infrastructure_2025",
+      "action": "Fund the first provenance-infrastructure work package and require protocol/version identifiers in every new result package.",
+      "status": "in_progress",
+      "date": "2025-10-20"
+    },
+    {
+      "consultation": "consult_research_outcomes",
+      "action": "Publish a traceable mapping from stakeholder priorities to the next funding brief without treating preferences as evidence for any hypothesis.",
+      "status": "planned",
+      "date": "2026-10-22"
+    }
+  ],
+  "ekoh_profiles": [
+    {
+      "actor": "ACT-001",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "05",
+          "weighted_score": 0.94,
+          "raw_score": 0.94
+        },
+        {
+          "domain_code": "09",
+          "weighted_score": 0.9,
+          "raw_score": 0.9
+        },
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.44,
+          "raw_score": 0.44
+        }
+      ]
+    },
+    {
+      "actor": "ACT-002",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "09",
+          "weighted_score": 0.92,
+          "raw_score": 0.92
+        },
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.58,
+          "raw_score": 0.58
+        },
+        {
+          "domain_code": "0413",
+          "weighted_score": 0.4,
+          "raw_score": 0.4
+        }
+      ]
+    },
+    {
+      "actor": "ACT-003",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "05",
+          "weighted_score": 0.93,
+          "raw_score": 0.93
+        },
+        {
+          "domain_code": "0613",
+          "weighted_score": 0.62,
+          "raw_score": 0.62
+        },
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.49,
+          "raw_score": 0.49
+        }
+      ]
+    },
+    {
+      "actor": "ACT-004",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.97,
+          "raw_score": 0.97
+        },
+        {
+          "domain_code": "0613",
+          "weighted_score": 0.71,
+          "raw_score": 0.71
+        },
+        {
+          "domain_code": "0223",
+          "weighted_score": 0.42,
+          "raw_score": 0.42
+        }
+      ]
+    },
+    {
+      "actor": "ACT-005",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "0613",
+          "weighted_score": 0.95,
+          "raw_score": 0.95
+        },
+        {
+          "domain_code": "0612",
+          "weighted_score": 0.88,
+          "raw_score": 0.88
+        },
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.76,
+          "raw_score": 0.76
+        }
+      ]
+    },
+    {
+      "actor": "ACT-006",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "0612",
+          "weighted_score": 0.91,
+          "raw_score": 0.91
+        },
+        {
+          "domain_code": "09",
+          "weighted_score": 0.72,
+          "raw_score": 0.72
+        },
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.61,
+          "raw_score": 0.61
+        }
+      ]
+    },
+    {
+      "actor": "ACT-007",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.91,
+          "raw_score": 0.91
+        },
+        {
+          "domain_code": "09",
+          "weighted_score": 0.79,
+          "raw_score": 0.79
+        },
+        {
+          "domain_code": "0413",
+          "weighted_score": 0.61,
+          "raw_score": 0.61
+        }
+      ]
+    },
+    {
+      "actor": "ACT-008",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "05",
+          "weighted_score": 0.9,
+          "raw_score": 0.9
+        },
+        {
+          "domain_code": "0413",
+          "weighted_score": 0.72,
+          "raw_score": 0.72
+        },
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.63,
+          "raw_score": 0.63
+        }
+      ]
+    },
+    {
+      "actor": "ACT-009",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "0612",
+          "weighted_score": 0.96,
+          "raw_score": 0.96
+        },
+        {
+          "domain_code": "0613",
+          "weighted_score": 0.92,
+          "raw_score": 0.92
+        },
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.67,
+          "raw_score": 0.67
+        }
+      ]
+    },
+    {
+      "actor": "ACT-010",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "05",
+          "weighted_score": 0.78,
+          "raw_score": 0.78
+        },
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.83,
+          "raw_score": 0.83
+        },
+        {
+          "domain_code": "0321",
+          "weighted_score": 0.66,
+          "raw_score": 0.66
+        }
+      ]
+    },
+    {
+      "actor": "ACT-011",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.96,
+          "raw_score": 0.96
+        },
+        {
+          "domain_code": "0223",
+          "weighted_score": 0.82,
+          "raw_score": 0.82
+        },
+        {
+          "domain_code": "0413",
+          "weighted_score": 0.78,
+          "raw_score": 0.78
+        }
+      ]
+    },
+    {
+      "actor": "ACT-012",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "publication_basis": "Synthetic World 7 demo calibration. Domain expertise supports contextual reading only; it is not a truth score or moral ranking.",
+      "expertise": [
+        {
+          "domain_code": "0321",
+          "weighted_score": 0.94,
+          "raw_score": 0.94
+        },
+        {
+          "domain_code": "092",
+          "weighted_score": 0.82,
+          "raw_score": 0.82
+        },
+        {
+          "domain_code": "0223",
+          "weighted_score": 0.79,
+          "raw_score": 0.79
+        }
+      ]
+    }
+  ],
+  "consultation_relevance": [
+    {
+      "consultation": "consult_research_outcomes",
+      "domain_code": "09",
+      "weight": 0.4,
+      "criteria": "Health context"
+    },
+    {
+      "consultation": "consult_research_outcomes",
+      "domain_code": "092",
+      "weight": 0.35,
+      "criteria": "Participant welfare and lived impact"
+    },
+    {
+      "consultation": "consult_research_outcomes",
+      "domain_code": "0223",
+      "weight": 0.15,
+      "criteria": "Research ethics"
+    },
+    {
+      "consultation": "consult_research_outcomes",
+      "domain_code": "0321",
+      "weight": 0.1,
+      "criteria": "Public communication and interpretation"
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "domain_code": "0542",
+      "weight": 0.25
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "domain_code": "0612",
+      "weight": 0.25
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "domain_code": "0613",
+      "weight": 0.25
+    },
+    {
+      "consultation": "consult_infrastructure_2025",
+      "domain_code": "0413",
+      "weight": 0.25
+    }
+  ],
+  "topic_relevance": [
+    {
+      "topic": "rq_001_identity",
+      "domain_code": "05",
+      "weight": 0.45,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_001_identity",
+      "domain_code": "09",
+      "weight": 0.25,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_001_identity",
+      "domain_code": "0542",
+      "weight": 0.2,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_001_identity",
+      "domain_code": "0613",
+      "weight": 0.1,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_002_immune",
+      "domain_code": "05",
+      "weight": 0.5,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_002_immune",
+      "domain_code": "09",
+      "weight": 0.3,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_002_immune",
+      "domain_code": "0542",
+      "weight": 0.2,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_003_kx17",
+      "domain_code": "05",
+      "weight": 0.4,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_003_kx17",
+      "domain_code": "0542",
+      "weight": 0.3,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_003_kx17",
+      "domain_code": "09",
+      "weight": 0.2,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_003_kx17",
+      "domain_code": "0613",
+      "weight": 0.1,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "domain_code": "0612",
+      "weight": 0.35,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "domain_code": "0542",
+      "weight": 0.3,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "domain_code": "09",
+      "weight": 0.2,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "domain_code": "0613",
+      "weight": 0.15,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_005_replication",
+      "domain_code": "0542",
+      "weight": 0.4,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_005_replication",
+      "domain_code": "05",
+      "weight": 0.25,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_005_replication",
+      "domain_code": "0413",
+      "weight": 0.2,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    },
+    {
+      "topic": "rq_005_replication",
+      "domain_code": "0223",
+      "weight": 0.15,
+      "criteria": "Declared World 7 domain relevance for advisory EkoH/Smart Vote reading."
+    }
+  ],
+  "reading_exclusions": [
+    {
+      "topic": "rq_003_kx17",
+      "actor": "ACT-012",
+      "reason": "Community liaison perspective is relevant to priorities and communication, but no scientific KX-17 mechanism stance is seeded."
+    },
+    {
+      "topic": "rq_002_immune",
+      "actor": "ACT-006",
+      "reason": "Data stewardship expertise does not imply a seeded mechanism stance."
+    },
+    {
+      "topic": "rq_001_identity",
+      "actor": "ACT-008",
+      "reason": "Replication role alone does not justify a seeded syndrome-taxonomy position."
+    },
+    {
+      "topic": "rq_004_harmonization",
+      "actor": "ACT-001",
+      "reason": "Immunology expertise contributes evidence but no independent methods stance is seeded here."
+    }
+  ]
+}

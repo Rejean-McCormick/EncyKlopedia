@@ -1,0 +1,536 @@
+{
+  "schema_version": "konnaxion-world-cases/v1.1",
+  "world_key": "knowledge-continuity",
+  "cases": [
+    {
+      "key": "case_diag_001",
+      "capability": "intermittent_fault_diagnosis",
+      "title": "Normal gauges, abnormal vibration",
+      "kind": "field_case",
+      "difficulty": "advanced",
+      "summary": "A system trips after 38–45 minutes although pressure and temperature remain normal. A subtle vibration pattern is the first useful clue.",
+      "critical_cues": [
+        "failure appears only after thermal stabilization",
+        "vibration signature changes before trip",
+        "recent coupling replacement is absent from current work order"
+      ],
+      "false_leads": [
+        "pressure sensor replacement",
+        "software reset"
+      ],
+      "decision": "Inspect coupling alignment history before replacing sensors.",
+      "outcome": "Misalignment under thermal expansion identified.",
+      "experts": [
+        "marc_leblanc",
+        "nadia_roy"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_diag_coupling_photo",
+          "ev_diag_eventlog_2018",
+          "ev_diag_vibration_2018"
+        ],
+        "knowledge_resource_refs": [
+          "kr_diag_cases"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_intermit_diag",
+        "certifikation_path_ref": "cert_intermit_diag",
+        "konservation_archive_refs": []
+      }
+    },
+    {
+      "key": "case_diag_002",
+      "capability": "intermittent_fault_diagnosis",
+      "title": "The clean restart that proves nothing",
+      "kind": "edge_case",
+      "difficulty": "advanced",
+      "summary": "A restart clears the fault, tempting the team to close the incident. Historical patterns show that successful restart is not evidence of resolution.",
+      "critical_cues": [
+        "fault reappears at irregular intervals",
+        "restart changes state but not root condition"
+      ],
+      "false_leads": [
+        "treating restart success as confirmation"
+      ],
+      "decision": "Preserve pre-restart evidence and continue diagnosis.",
+      "outcome": "Intermittent connector degradation found.",
+      "experts": [
+        "marc_leblanc",
+        "sofia_nguyen"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_diag_restart_log"
+        ],
+        "knowledge_resource_refs": [
+          "kr_diag_cases",
+          "kr_diag_edge"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_intermit_diag",
+        "certifikation_path_ref": "cert_intermit_diag",
+        "konservation_archive_refs": []
+      }
+    },
+    {
+      "key": "case_diag_003",
+      "capability": "intermittent_fault_diagnosis",
+      "title": "Same alarm, different failure",
+      "kind": "comparison_case",
+      "difficulty": "expert",
+      "summary": "Two incidents produce the same alarm code but different physical causes.",
+      "critical_cues": [
+        "sequence timing",
+        "ambient condition",
+        "load transition"
+      ],
+      "false_leads": [
+        "alarm-code-only diagnosis"
+      ],
+      "decision": "Use event sequence and operating context before mapping alarm to cause.",
+      "outcome": "Second incident traced to load transition rather than component failure.",
+      "experts": [
+        "marc_leblanc",
+        "jean_caron"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_diag_alarm_compare"
+        ],
+        "knowledge_resource_refs": [
+          "kr_diag_cases"
+        ],
+        "korum_case_clinic_ref": "clinic_same_alarm_different_failure",
+        "konstruct_transfer_project_ref": "transfer_intermit_diag",
+        "certifikation_path_ref": "cert_intermit_diag",
+        "konservation_archive_refs": [
+          "archive_marc_turning_point"
+        ]
+      }
+    },
+    {
+      "key": "case_diag_004",
+      "capability": "intermittent_fault_diagnosis",
+      "title": "Cold-weather exception",
+      "kind": "edge_case",
+      "difficulty": "expert",
+      "summary": "A diagnostic threshold valid at normal temperature produces false positives during extreme cold.",
+      "critical_cues": [
+        "ambient temperature below historical validation range"
+      ],
+      "false_leads": [
+        "strict threshold application"
+      ],
+      "decision": "Apply cold-weather procedure and escalate if paired indicators disagree.",
+      "outcome": "Unnecessary shutdown avoided without bypassing safety boundaries.",
+      "experts": [
+        "marc_leblanc",
+        "david_okafor"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_diag_cold_note"
+        ],
+        "knowledge_resource_refs": [
+          "kr_diag_cases",
+          "kr_diag_edge"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_intermit_diag",
+        "certifikation_path_ref": "cert_intermit_diag",
+        "konservation_archive_refs": [
+          "archive_marc_cold"
+        ]
+      }
+    },
+    {
+      "key": "case_diag_005",
+      "capability": "intermittent_fault_diagnosis",
+      "title": "The undocumented field modification",
+      "kind": "failure_reconstruction",
+      "difficulty": "expert",
+      "summary": "A past repair changed wiring without updating the canonical drawing.",
+      "critical_cues": [
+        "physical wiring diverges from diagram",
+        "maintenance photo shows prior alteration"
+      ],
+      "false_leads": [
+        "trusting drawing as current truth"
+      ],
+      "decision": "Freeze work, reconcile physical state with records, then update controlled documentation.",
+      "outcome": "Hidden modification documented and corrected.",
+      "experts": [
+        "jean_caron",
+        "elise_tremblay"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_diag_field_photo",
+          "ev_diag_wiring_v3"
+        ],
+        "knowledge_resource_refs": [
+          "kr_diag_cases"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_intermit_diag",
+        "certifikation_path_ref": "cert_intermit_diag",
+        "konservation_archive_refs": []
+      }
+    },
+    {
+      "key": "case_diag_006",
+      "capability": "intermittent_fault_diagnosis",
+      "title": "When to stop diagnosing and escalate",
+      "kind": "judgment_case",
+      "difficulty": "expert",
+      "summary": "Evidence is contradictory and continuing invasive checks could create a new fault.",
+      "critical_cues": [
+        "inconsistent measurements",
+        "high consequence of invasive inspection"
+      ],
+      "false_leads": [
+        "pressing on to appear decisive"
+      ],
+      "decision": "Stop and escalate to controlled test environment.",
+      "outcome": "No secondary damage; later bench test isolates fault.",
+      "experts": [
+        "marc_leblanc",
+        "david_okafor"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_diag_escalation"
+        ],
+        "knowledge_resource_refs": [
+          "kr_diag_cases",
+          "kr_diag_edge"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_intermit_diag",
+        "certifikation_path_ref": "cert_intermit_diag",
+        "konservation_archive_refs": []
+      }
+    },
+    {
+      "key": "case_proc_001",
+      "capability": "procurement_exception_memory",
+      "title": "Why supplier B was excluded in 2019",
+      "kind": "decision_story",
+      "difficulty": "advanced",
+      "summary": "Price records suggest supplier B was competitive; the missing rationale concerns recovery capacity after a prior disruption.",
+      "critical_cues": [
+        "business continuity dependency",
+        "recovery-time evidence"
+      ],
+      "false_leads": [
+        "price-only reconstruction"
+      ],
+      "decision": "Retain exclusion until recovery evidence changes.",
+      "outcome": "Decision remains reconstructible without treating history as permanent truth.",
+      "experts": [
+        "claire_beaulieu",
+        "isabelle_morin"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_proc_2019_matrix",
+          "ev_proc_recovery_report"
+        ],
+        "knowledge_resource_refs": [
+          "kr_proc_framework"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_procurement_memory",
+        "certifikation_path_ref": "cert_procurement_memory",
+        "konservation_archive_refs": []
+      }
+    },
+    {
+      "key": "case_proc_002",
+      "capability": "procurement_exception_memory",
+      "title": "The exception that became folklore",
+      "kind": "institutional_memory",
+      "difficulty": "advanced",
+      "summary": "Staff repeat that single-source procurement is forbidden, but policy allows a narrowly defined continuity exception.",
+      "critical_cues": [
+        "actual policy text",
+        "approval authority",
+        "expiry condition"
+      ],
+      "false_leads": [
+        "oral rule repeated without source"
+      ],
+      "decision": "Use documented exception with explicit expiry and review.",
+      "outcome": "Urgent purchase proceeds with traceable rationale.",
+      "experts": [
+        "claire_beaulieu",
+        "maya_singh"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_proc_exception_form",
+          "ev_proc_policy_v5"
+        ],
+        "knowledge_resource_refs": [
+          "kr_proc_framework"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_procurement_memory",
+        "certifikation_path_ref": "cert_procurement_memory",
+        "konservation_archive_refs": [
+          "archive_claire_exception"
+        ]
+      }
+    },
+    {
+      "key": "case_proc_003",
+      "capability": "procurement_exception_memory",
+      "title": "Same facts, changed context",
+      "kind": "comparison_case",
+      "difficulty": "expert",
+      "summary": "A 2021 exception is cited as precedent, but market concentration and backup capacity have changed.",
+      "critical_cues": [
+        "changed supplier landscape",
+        "new backup capability"
+      ],
+      "false_leads": [
+        "copying prior outcome"
+      ],
+      "decision": "Reuse decision framework, not prior conclusion.",
+      "outcome": "New competitive process chosen.",
+      "experts": [
+        "claire_beaulieu",
+        "samira_khan"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_proc_market_2021",
+          "ev_proc_market_2026"
+        ],
+        "knowledge_resource_refs": [
+          "kr_proc_framework"
+        ],
+        "korum_case_clinic_ref": "clinic_precedent_or_framework",
+        "konstruct_transfer_project_ref": "transfer_procurement_memory",
+        "certifikation_path_ref": "cert_procurement_memory",
+        "konservation_archive_refs": []
+      }
+    },
+    {
+      "key": "case_proc_004",
+      "capability": "procurement_exception_memory",
+      "title": "Who had authority to accept the risk?",
+      "kind": "governance_case",
+      "difficulty": "advanced",
+      "summary": "Technical experts agreed a risk was manageable, but the decision requires an accountable mandate holder.",
+      "critical_cues": [
+        "decision authority",
+        "expert advice versus mandate"
+      ],
+      "false_leads": [
+        "treating expertise as decision authority"
+      ],
+      "decision": "Separate recommendation from accountable approval.",
+      "outcome": "Decision record names both evidence owners and mandate owner.",
+      "experts": [
+        "claire_beaulieu",
+        "luc_gagnon"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_proc_mandate_map"
+        ],
+        "knowledge_resource_refs": [
+          "kr_proc_authority",
+          "kr_proc_framework"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_procurement_memory",
+        "certifikation_path_ref": "cert_procurement_memory",
+        "konservation_archive_refs": []
+      }
+    },
+    {
+      "key": "case_proc_005",
+      "capability": "procurement_exception_memory",
+      "title": "The missing reason in a complete file",
+      "kind": "failure_reconstruction",
+      "difficulty": "expert",
+      "summary": "Every document is present, but none records why option C was rejected.",
+      "critical_cues": [
+        "document completeness does not equal rationale completeness"
+      ],
+      "false_leads": [
+        "assuming archived file explains the decision"
+      ],
+      "decision": "Reconstruct rationale from contemporaneous evidence and clearly label reconstruction uncertainty.",
+      "outcome": "Knowledge case distinguishes source fact from later reconstruction.",
+      "experts": [
+        "claire_beaulieu",
+        "elise_tremblay"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_proc_option_file"
+        ],
+        "knowledge_resource_refs": [
+          "kr_proc_framework",
+          "kr_proc_provenance"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_procurement_memory",
+        "certifikation_path_ref": "cert_procurement_memory",
+        "konservation_archive_refs": [
+          "archive_claire_reconstruction"
+        ]
+      }
+    },
+    {
+      "key": "case_repair_001",
+      "capability": "precision_repair_judgment",
+      "title": "The surface that looks acceptable",
+      "kind": "embodied_case",
+      "difficulty": "advanced",
+      "summary": "A worn surface passes the nominal dimension check but its texture predicts early failure.",
+      "critical_cues": [
+        "surface pattern",
+        "tool marks",
+        "material response"
+      ],
+      "false_leads": [
+        "dimension-only acceptance"
+      ],
+      "decision": "Reject and rework despite nominal measurement.",
+      "outcome": "Premature failure avoided.",
+      "experts": [
+        "andre_bouchard",
+        "leila_haddad"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_repair_measurement_sheet",
+          "ev_repair_surface_samples"
+        ],
+        "knowledge_resource_refs": [
+          "kr_repair_foundations"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_precision_repair",
+        "certifikation_path_ref": "cert_precision_repair",
+        "konservation_archive_refs": []
+      }
+    },
+    {
+      "key": "case_repair_002",
+      "capability": "precision_repair_judgment",
+      "title": "Repair or replace?",
+      "kind": "judgment_case",
+      "difficulty": "expert",
+      "summary": "A component can technically be repaired, but accumulated damage makes replacement safer.",
+      "critical_cues": [
+        "damage distribution",
+        "prior repairs",
+        "load history"
+      ],
+      "false_leads": [
+        "repairability equals advisability"
+      ],
+      "decision": "Replace and preserve failed component as teaching artifact.",
+      "outcome": "Decision becomes a reference case.",
+      "experts": [
+        "andre_bouchard",
+        "samira_khan"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_repair_damage_map",
+          "ev_repair_history"
+        ],
+        "knowledge_resource_refs": [
+          "kr_repair_compare",
+          "kr_repair_foundations"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_precision_repair",
+        "certifikation_path_ref": "cert_precision_repair",
+        "konservation_archive_refs": []
+      }
+    },
+    {
+      "key": "case_repair_003",
+      "capability": "precision_repair_judgment",
+      "title": "The apprentice copies the motion but misses the cue",
+      "kind": "learning_case",
+      "difficulty": "advanced",
+      "summary": "The physical motion is correct, but the learner does not recognize when material resistance signals a stop condition.",
+      "critical_cues": [
+        "change in resistance",
+        "sound",
+        "surface response"
+      ],
+      "false_leads": [
+        "visual imitation without sensory interpretation"
+      ],
+      "decision": "Pause work and teach cue recognition using contrasting samples.",
+      "outcome": "Practice rubric updated to include cue explanation.",
+      "experts": [
+        "andre_bouchard",
+        "amina_benali"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_repair_cue_audio",
+          "ev_repair_training_video"
+        ],
+        "knowledge_resource_refs": [
+          "kr_repair_cues",
+          "kr_repair_foundations"
+        ],
+        "korum_case_clinic_ref": null,
+        "konstruct_transfer_project_ref": "transfer_precision_repair",
+        "certifikation_path_ref": "cert_precision_repair",
+        "konservation_archive_refs": [
+          "archive_andre_cues"
+        ]
+      }
+    },
+    {
+      "key": "case_repair_004",
+      "capability": "precision_repair_judgment",
+      "title": "Knowing when not to finish",
+      "kind": "edge_case",
+      "difficulty": "expert",
+      "summary": "A nearly completed repair reveals an uncertainty that cannot be resolved safely in the current setup.",
+      "critical_cues": [
+        "uncertain subsurface condition",
+        "limited inspection visibility"
+      ],
+      "false_leads": [
+        "completion pressure"
+      ],
+      "decision": "Stop, quarantine, escalate for additional inspection.",
+      "outcome": "Hidden defect later confirmed.",
+      "experts": [
+        "andre_bouchard",
+        "david_okafor"
+      ],
+      "cross_links": {
+        "stockage_evidence_refs": [
+          "ev_repair_inspection",
+          "ev_repair_quarantine"
+        ],
+        "knowledge_resource_refs": [
+          "kr_repair_cues",
+          "kr_repair_foundations"
+        ],
+        "korum_case_clinic_ref": "clinic_finish_or_stop",
+        "konstruct_transfer_project_ref": "transfer_precision_repair",
+        "certifikation_path_ref": "cert_precision_repair",
+        "konservation_archive_refs": [
+          "archive_andre_stop"
+        ]
+      }
+    }
+  ]
+}

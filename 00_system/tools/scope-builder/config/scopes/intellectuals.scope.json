@@ -1,0 +1,80 @@
+{
+  "schema_version": "encyklopedia-scope/v2",
+  "scope_key": "historical-intellectuals",
+  "title": "Historical Intellectuals",
+  "root_source": {
+    "kind": "registry",
+    "path": "10_sources/seeds/active/intellectual-registry/intellectuals.seed.json"
+  },
+  "requires_complete_global_index": false,
+  "discovery": {
+    "include_all_entity_relations_from_root_people": true,
+    "include_reverse_authored_works": true,
+    "reverse_work_properties": {
+      "P50": "authored_work"
+    },
+    "root_relation_roles": {
+      "P19": "place",
+      "P20": "place",
+      "P27": "country",
+      "P551": "place",
+      "P69": "institution",
+      "P108": "institution",
+      "P463": "institution_or_group",
+      "P106": "occupation",
+      "P140": "worldview",
+      "P101": "field",
+      "P135": "movement",
+      "P737": "person_or_influence",
+      "P800": "work"
+    },
+    "follow_rules": [
+      {
+        "name": "works_context",
+        "source_roles": [
+          "work"
+        ],
+        "direction": "out",
+        "property_group": "work_context",
+        "default_target_role": "work_context"
+      },
+      {
+        "name": "intellectual_context",
+        "source_roles": [
+          "movement",
+          "field",
+          "occupation",
+          "worldview",
+          "person_or_influence"
+        ],
+        "direction": "out",
+        "property_group": "concept_context",
+        "default_target_role": "intellectual_context"
+      },
+      {
+        "name": "places_institutions_context",
+        "source_roles": [
+          "place",
+          "country",
+          "institution",
+          "institution_or_group"
+        ],
+        "direction": "out",
+        "property_group": "institution_place_context",
+        "default_target_role": "place_or_institution_context"
+      }
+    ],
+    "max_entities": 250000,
+    "max_edges": 2000000,
+    "raw_max_passes": 5
+  },
+  "evidence": {
+    "preserve_full_entity_json": true,
+    "preserve_qualifiers": true,
+    "preserve_references": true,
+    "preserve_sitelinks": true,
+    "preserve_all_literal_values": true
+  },
+  "discovery_backend": "auto",
+  "note_architecture": "Global SQLite is optional discovery acceleration. Raw dump discovery is supported; admitted entities are later extracted complete into immutable evidence."
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "kx-world-canon/1",
+  "world_key": "operational-resilience-2026",
+  "incidents": [
+    {
+      "key": "inc_wildfire_offline",
+      "title": "No Roads, No Power, Barely a Signal: The Wildfire Reaches Town",
+      "scenario_role": "flagship",
+      "source_refs": [
+        "MOSAIC-SCN-077",
+        "USAGE-SCN-036"
+      ],
+      "operational_area": "area_north_sector",
+      "pattern": "Keep knowledge, roles, and work local, then synchronize without inventing success.",
+      "loop": [
+        "alert",
+        "sectors",
+        "local_plans",
+        "offline_work",
+        "observations",
+        "synchronization",
+        "common_situation"
+      ],
+      "boundary": "Simulation only. The World supports context, coordination, evidence, and memory; it does not replace licensed professional judgment, certified control systems, statutory authority, or domain-specific safety procedures."
+    },
+    {
+      "key": "inc_bridge_medical",
+      "title": "The Bridge Closes. Medical Deliveries Move by Morning.",
+      "scenario_role": "secondary",
+      "source_refs": [
+        "MOSAIC-SCN-064"
+      ],
+      "operational_area": "area_river_crossing",
+      "pattern": "Maintain a shared work state across people, teams, resources, and constraints.",
+      "loop": [
+        "disruption",
+        "inventory",
+        "constraints",
+        "options",
+        "reassignments",
+        "deliveries",
+        "confirmation"
+      ],
+      "boundary": "Simulation only; routing and medical-priority examples are fictional and not operational advice."
+    },
+    {
+      "key": "inc_cyber_fragmented",
+      "title": "During the Cyberattack, Six Teams Work in Six Different Realities.",
+      "scenario_role": "secondary",
+      "source_refs": [
+        "USAGE-SCN-005",
+        "MOSAIC-SCN-091",
+        "USAGE-SCN-029"
+      ],
+      "operational_area": "area_network_ops",
+      "pattern": "Maintain a governed, time-indexed incident state across teams with different evidence and permissions, then learn without hindsight.",
+      "loop": [
+        "signals",
+        "shared_meaning",
+        "evidence",
+        "choice",
+        "responsibility",
+        "action",
+        "verification",
+        "memory",
+        "better_knowledge"
+      ],
+      "boundary": "Simulation only. Authorized humans retain legal and professional authority; the World structures knowledge, coordination, and traceability."
+    }
+  ]
+}

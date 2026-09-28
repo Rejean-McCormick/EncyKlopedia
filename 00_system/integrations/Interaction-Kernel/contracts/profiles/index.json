@@ -1,0 +1,40 @@
+{
+  "format": "ik.profile-index/1",
+  "profiles": [
+    {
+      "id": "governance.decision.execute",
+      "version": "1.0.0",
+      "class": "command"
+    },
+    {
+      "id": "accountability.impact.publish",
+      "version": "1.0.0",
+      "class": "command"
+    },
+    {
+      "id": "operational.reconsideration.recommended",
+      "version": "1.0.0",
+      "class": "event"
+    },
+    {
+      "id": "kristal.build.request",
+      "version": "1.0.0",
+      "class": "command"
+    },
+    {
+      "id": "kristal.artifact.ready",
+      "version": "1.0.0",
+      "class": "event"
+    },
+    {
+      "id": "kristal.revision.request",
+      "version": "1.0.0",
+      "class": "command"
+    },
+    {
+      "id": "knowledge.distribution.request",
+      "version": "1.0.0",
+      "class": "command"
+    }
+  ]
+}

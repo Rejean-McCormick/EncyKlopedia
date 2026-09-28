@@ -1,0 +1,26 @@
+{
+  "simulation": true,
+  "events": [
+    {
+      "time": "09:04",
+      "event": "unusual authentication pattern reported"
+    },
+    {
+      "time": "09:08",
+      "event": "scheduling failures confirmed"
+    },
+    {
+      "time": "09:14",
+      "event": "dependency snapshot captured"
+    },
+    {
+      "time": "09:22",
+      "event": "scheduling service isolation decision"
+    },
+    {
+      "time": "10:12",
+      "event": "later evidence confirms simulated attack path"
+    }
+  ],
+  "review_rule": "When reviewing DEC-CY-001, hide evidence first available after 09:22."
+}

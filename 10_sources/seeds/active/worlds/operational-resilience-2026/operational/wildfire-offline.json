@@ -1,0 +1,513 @@
+{
+  "schema": "kx-operational-incident/1",
+  "incident": "inc_wildfire_offline",
+  "simulation_clock": "2026-09-14T14:00:00Z",
+  "participant_states": [
+    {
+      "actor": "actor_incident_coordinator",
+      "availability": "active",
+      "as_of": "2026-09-14T14:00:00Z"
+    },
+    {
+      "actor": "actor_field_lead",
+      "availability": "deployed",
+      "as_of": "2026-09-14T14:00:00Z"
+    },
+    {
+      "actor": "actor_logistics",
+      "availability": "active",
+      "as_of": "2026-09-14T14:00:00Z"
+    },
+    {
+      "actor": "actor_health",
+      "availability": "active",
+      "as_of": "2026-09-14T14:00:00Z"
+    },
+    {
+      "actor": "actor_infrastructure",
+      "availability": "active",
+      "as_of": "2026-09-14T14:00:00Z"
+    },
+    {
+      "actor": "actor_public",
+      "availability": "active",
+      "as_of": "2026-09-14T14:00:00Z"
+    },
+    {
+      "actor": "actor_gis",
+      "availability": "on_call",
+      "as_of": "2026-09-14T14:00:00Z"
+    }
+  ],
+  "observations": [
+    {
+      "key": "obs_wf_001",
+      "subject": "wildfire_front",
+      "claim": "Fire activity is advancing toward the North Sector.",
+      "source_actor": "actor_field_lead",
+      "observed_at": "2026-09-14T14:00:00Z",
+      "reported_at": "2026-09-14T14:01:00Z",
+      "confidence": "confirmed",
+      "scope": "area_north_sector"
+    },
+    {
+      "key": "obs_wf_002",
+      "subject": "route_117_north_segment",
+      "claim": "Heavy smoke and fallen debris make the north segment unavailable to heavy vehicles.",
+      "source_actor": "actor_field_lead",
+      "observed_at": "2026-09-14T14:12:00Z",
+      "reported_at": "2026-09-14T14:17:00Z",
+      "confidence": "firsthand",
+      "scope": "area_north_sector",
+      "evidence": [
+        "ev_wf_route_117_report"
+      ]
+    },
+    {
+      "key": "obs_wf_003",
+      "subject": "north_relay",
+      "claim": "Commercial power is unavailable and the relay is operating in degraded mode.",
+      "source_actor": "actor_infrastructure",
+      "observed_at": "2026-09-14T14:14:00Z",
+      "reported_at": "2026-09-14T14:15:00Z",
+      "confidence": "confirmed",
+      "scope": "area_north_sector"
+    },
+    {
+      "key": "obs_wf_004",
+      "subject": "route_117_south_segment",
+      "claim": "The south segment remains passable for light vehicles approaching from the medical corridor.",
+      "source_actor": "actor_health",
+      "observed_at": "2026-09-14T14:16:00Z",
+      "reported_at": "2026-09-14T14:21:00Z",
+      "confidence": "firsthand",
+      "scope": "area_medical_corridor"
+    },
+    {
+      "key": "obs_wf_005",
+      "subject": "connectivity_north",
+      "claim": "North Sector teams have lost normal data connectivity and continue from local snapshots.",
+      "source_actor": "actor_field_lead",
+      "observed_at": "2026-09-14T14:20:00Z",
+      "reported_at": "2026-09-14T14:20:00Z",
+      "confidence": "confirmed",
+      "scope": "area_north_sector"
+    },
+    {
+      "key": "obs_wf_006",
+      "subject": "medical_convoy_bravo",
+      "claim": "Convoy Bravo is ready to depart but its planned heavy-vehicle route crosses the affected north segment.",
+      "source_actor": "actor_logistics",
+      "observed_at": "2026-09-14T14:22:00Z",
+      "reported_at": "2026-09-14T14:22:00Z",
+      "confidence": "confirmed",
+      "scope": "area_medical_corridor"
+    },
+    {
+      "key": "obs_wf_007",
+      "subject": "offline_gis_capacity",
+      "claim": "No field-deployed team currently has an offline GIS specialist assigned.",
+      "source_actor": "actor_incident_coordinator",
+      "observed_at": "2026-09-14T14:27:00Z",
+      "reported_at": "2026-09-14T14:27:00Z",
+      "confidence": "confirmed",
+      "scope": "area_regional_core"
+    },
+    {
+      "key": "obs_wf_008",
+      "subject": "route_117_junction",
+      "claim": "Local field log confirms the obstruction is north of Junction C; the south approach remains usable for light vehicles.",
+      "source_actor": "actor_field_lead",
+      "observed_at": "2026-09-14T14:35:00Z",
+      "reported_at": "2026-09-14T14:43:00Z",
+      "confidence": "firsthand",
+      "scope": "area_north_sector",
+      "evidence": [
+        "ev_wf_local_log_north"
+      ]
+    },
+    {
+      "key": "obs_wf_009",
+      "subject": "connectivity_north",
+      "claim": "Intermittent data connectivity has returned to the North Sector.",
+      "source_actor": "actor_infrastructure",
+      "observed_at": "2026-09-14T14:42:00Z",
+      "reported_at": "2026-09-14T14:42:00Z",
+      "confidence": "confirmed",
+      "scope": "area_north_sector"
+    },
+    {
+      "key": "obs_wf_010",
+      "subject": "route_117",
+      "claim": "Earlier reports referred to different route segments rather than the same road state.",
+      "source_actor": "actor_gis",
+      "observed_at": "2026-09-14T14:46:00Z",
+      "reported_at": "2026-09-14T14:46:00Z",
+      "confidence": "reconciled",
+      "scope": "area_north_sector",
+      "evidence": [
+        "ev_wf_map_r4"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "key": "dec_wf_001",
+      "title": "Activate regional coordination",
+      "decided_at": "2026-09-14T14:04:00Z",
+      "authority_actor": "actor_incident_coordinator",
+      "basis": [
+        "obs_wf_001"
+      ],
+      "decision": "Open the Regional Coordination Centre exercise workspace and sector the incident."
+    },
+    {
+      "key": "dec_wf_002",
+      "title": "Reroute Medical Convoy Bravo",
+      "decided_at": "2026-09-14T14:24:00Z",
+      "authority_actor": "actor_logistics",
+      "basis": [
+        "obs_wf_002",
+        "obs_wf_004",
+        "obs_wf_006",
+        "ev_wf_map_r3"
+      ],
+      "decision": "Do not use the planned heavy-vehicle north segment; move Convoy Bravo through the alternate medical corridor in the exercise.",
+      "historical_snapshot": "snap_wf_hq_1424"
+    },
+    {
+      "key": "dec_wf_003",
+      "title": "Fill offline GIS capability gap",
+      "decided_at": "2026-09-14T14:29:00Z",
+      "authority_actor": "actor_incident_coordinator",
+      "basis": [
+        "obs_wf_007"
+      ],
+      "decision": "Assign the on-call GIS analyst to North Sector field support, add the analyst to the incident workspace, and synchronize the offline package."
+    },
+    {
+      "key": "dec_wf_004",
+      "title": "Publish reconciled route state",
+      "decided_at": "2026-09-14T14:50:00Z",
+      "authority_actor": "actor_incident_coordinator",
+      "basis": [
+        "obs_wf_002",
+        "obs_wf_004",
+        "obs_wf_008",
+        "obs_wf_010"
+      ],
+      "decision": "Adopt the segment-specific route state as the shared situation and retain both original reports with provenance."
+    }
+  ],
+  "actions": [
+    {
+      "key": "act_wf_001",
+      "title": "Deploy North Sector field team",
+      "owner_actor": "actor_field_lead",
+      "status": "done",
+      "trigger": "dec_wf_001",
+      "started_at": "2026-09-14T14:05:00Z",
+      "completed_at": "2026-09-14T14:11:00Z"
+    },
+    {
+      "key": "act_wf_002",
+      "title": "Build local North Sector operational snapshot",
+      "owner_actor": "actor_gis",
+      "status": "done",
+      "trigger": "dec_wf_001",
+      "evidence": [
+        "ev_wf_snapshot_north"
+      ],
+      "started_at": "2026-09-14T14:15:00Z",
+      "completed_at": "2026-09-14T14:20:00Z"
+    },
+    {
+      "key": "act_wf_003",
+      "title": "Reroute Medical Convoy Bravo",
+      "owner_actor": "actor_logistics",
+      "status": "done",
+      "trigger": "dec_wf_002",
+      "evidence": [
+        "ev_wf_convoy_gps",
+        "ev_wf_delivery_confirmation"
+      ],
+      "started_at": "2026-09-14T14:25:00Z",
+      "completed_at": "2026-09-14T14:41:00Z"
+    },
+    {
+      "key": "act_wf_004",
+      "title": "Continue local field logging while offline",
+      "owner_actor": "actor_field_lead",
+      "status": "done",
+      "trigger": "obs_wf_005",
+      "evidence": [
+        "ev_wf_local_log_north"
+      ],
+      "started_at": "2026-09-14T14:20:00Z",
+      "completed_at": "2026-09-14T14:43:00Z"
+    },
+    {
+      "key": "act_wf_005",
+      "title": "Assign offline GIS capability",
+      "owner_actor": "actor_incident_coordinator",
+      "status": "done",
+      "trigger": "dec_wf_003",
+      "started_at": "2026-09-14T14:29:00Z",
+      "completed_at": "2026-09-14T14:31:00Z"
+    },
+    {
+      "key": "act_wf_006",
+      "title": "Reconcile route observations after reconnect",
+      "owner_actor": "actor_gis",
+      "status": "done",
+      "trigger": "obs_wf_009",
+      "evidence": [
+        "ev_wf_map_r4"
+      ],
+      "started_at": "2026-09-14T14:43:00Z",
+      "completed_at": "2026-09-14T14:46:00Z"
+    },
+    {
+      "key": "act_wf_007",
+      "title": "Publish bounded public route update",
+      "owner_actor": "actor_public",
+      "status": "done",
+      "trigger": "dec_wf_004",
+      "started_at": "2026-09-14T14:51:00Z",
+      "completed_at": "2026-09-14T14:53:00Z"
+    }
+  ],
+  "capability_gaps": [
+    {
+      "key": "gap_wf_001",
+      "capability": "cap_situational_mapping",
+      "required_context": "field-deployed offline mapping and reconciliation support",
+      "urgency": "high",
+      "operational_area": "area_north_sector",
+      "opened_at": "2026-09-14T14:27:00Z",
+      "resolved_at": "2026-09-14T14:29:00Z",
+      "resolved_by_actor": "actor_gis",
+      "flow": [
+        "ekoh_relevance",
+        "kontact_availability",
+        "konstruct_assignment"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "key": "dep_wf_001",
+      "from": "act_wf_003",
+      "requires": "alternate_medical_corridor_authorized",
+      "status": "satisfied",
+      "satisfied_by": "dec_wf_002"
+    },
+    {
+      "key": "dep_wf_002",
+      "from": "act_wf_006",
+      "requires": "partial_connectivity",
+      "status": "satisfied",
+      "satisfied_by": "obs_wf_009"
+    },
+    {
+      "key": "dep_wf_003",
+      "from": "act_wf_007",
+      "requires": "reconciled_shared_situation",
+      "status": "satisfied",
+      "satisfied_by": "dec_wf_004"
+    }
+  ],
+  "evidence": [
+    {
+      "key": "ev_wf_route_117_report",
+      "type": "field_observation_report",
+      "path": "modules/stockage/files/wildfire/route-117-field-observation.txt",
+      "captured_at": "2026-09-14T14:12:00Z",
+      "owner_actor": "actor_field_lead"
+    },
+    {
+      "key": "ev_wf_map_r3",
+      "type": "map_revision",
+      "path": "modules/stockage/files/wildfire/map-north-r3.json",
+      "revision": 3,
+      "valid_at": "2026-09-14T14:16:00Z",
+      "owner_actor": "actor_gis"
+    },
+    {
+      "key": "ev_wf_snapshot_north",
+      "type": "operational_snapshot",
+      "path": "modules/stockage/files/wildfire/north-offline-snapshot-1420.json",
+      "valid_at": "2026-09-14T14:20:00Z",
+      "owner_actor": "actor_gis"
+    },
+    {
+      "key": "ev_wf_local_log_north",
+      "type": "offline_log",
+      "path": "modules/stockage/files/wildfire/north-field-log.txt",
+      "owner_actor": "actor_field_lead",
+      "valid_period": {
+        "started_at": "2026-09-14T14:20:00Z",
+        "ended_at": "2026-09-14T14:43:00Z"
+      }
+    },
+    {
+      "key": "ev_wf_convoy_gps",
+      "type": "simulated_gps_trace",
+      "path": "modules/stockage/files/wildfire/convoy-bravo-trace.json",
+      "owner_actor": "actor_logistics"
+    },
+    {
+      "key": "ev_wf_delivery_confirmation",
+      "type": "confirmation",
+      "path": "modules/stockage/files/wildfire/convoy-bravo-delivery-confirmation.txt",
+      "owner_actor": "actor_logistics"
+    },
+    {
+      "key": "ev_wf_map_r4",
+      "type": "map_revision",
+      "path": "modules/stockage/files/wildfire/map-north-r4-reconciled.json",
+      "revision": 4,
+      "valid_at": "2026-09-14T14:46:00Z",
+      "owner_actor": "actor_gis"
+    }
+  ],
+  "snapshots": [
+    {
+      "key": "snap_wf_hq_1400",
+      "captured_at": "2026-09-14T14:00:00Z",
+      "purpose": "Historical operational state for reconstruction and synchronization.",
+      "scope": "area_regional_core",
+      "known_observations": [
+        "obs_wf_001"
+      ],
+      "known_decisions": [],
+      "document_versions": [],
+      "known_constraints": [],
+      "excluded_future_observations": [],
+      "excluded_future_evidence": [],
+      "offline": false
+    },
+    {
+      "key": "snap_wf_team_north_1420",
+      "captured_at": "2026-09-14T14:20:00Z",
+      "purpose": "Last local field state retained when normal connectivity is lost.",
+      "scope": "area_north_sector",
+      "known_observations": [
+        "obs_wf_001",
+        "obs_wf_002",
+        "obs_wf_003",
+        "obs_wf_005"
+      ],
+      "known_decisions": [
+        "dec_wf_001"
+      ],
+      "document_versions": [],
+      "known_constraints": [],
+      "excluded_future_observations": [],
+      "excluded_future_evidence": [],
+      "offline": true
+    },
+    {
+      "key": "snap_wf_hq_1424",
+      "captured_at": "2026-09-14T14:24:00Z",
+      "purpose": "State available immediately before DEC-WF-002; used for hindsight-safe review.",
+      "scope": "area_regional_core",
+      "known_observations": [
+        "obs_wf_001",
+        "obs_wf_002",
+        "obs_wf_003",
+        "obs_wf_004",
+        "obs_wf_005",
+        "obs_wf_006"
+      ],
+      "known_decisions": [
+        "dec_wf_001"
+      ],
+      "document_versions": [
+        "ev_wf_map_r3"
+      ],
+      "known_constraints": [],
+      "excluded_future_observations": [
+        "obs_wf_007",
+        "obs_wf_008",
+        "obs_wf_009",
+        "obs_wf_010"
+      ],
+      "excluded_future_evidence": [
+        "ev_wf_local_log_north",
+        "ev_wf_map_r4",
+        "ev_wf_delivery_confirmation"
+      ],
+      "offline": false
+    },
+    {
+      "key": "snap_wf_reconciled_1450",
+      "captured_at": "2026-09-14T14:50:00Z",
+      "purpose": "Shared reconciled situation after connectivity returns and route reports are qualified.",
+      "scope": "area_regional_core",
+      "known_observations": [
+        "obs_wf_001",
+        "obs_wf_002",
+        "obs_wf_003",
+        "obs_wf_004",
+        "obs_wf_005",
+        "obs_wf_006",
+        "obs_wf_007",
+        "obs_wf_008",
+        "obs_wf_009",
+        "obs_wf_010"
+      ],
+      "known_decisions": [
+        "dec_wf_001",
+        "dec_wf_002",
+        "dec_wf_003",
+        "dec_wf_004"
+      ],
+      "document_versions": [
+        "ev_wf_map_r4"
+      ],
+      "known_constraints": [],
+      "excluded_future_observations": [],
+      "excluded_future_evidence": [],
+      "offline": false
+    }
+  ],
+  "reconciliation_events": [
+    {
+      "key": "rec_wf_001",
+      "inputs": [
+        "snap_wf_team_north_1420",
+        "snap_wf_hq_1424",
+        "ev_wf_local_log_north"
+      ],
+      "result": "conflict_detected",
+      "conflicts": [
+        {
+          "subject": "route_117",
+          "observations": [
+            "obs_wf_002",
+            "obs_wf_004"
+          ],
+          "reason": "Both reports used the same road label but described different segments and vehicle classes."
+        }
+      ],
+      "occurred_at": "2026-09-14T14:43:00Z"
+    },
+    {
+      "key": "rec_wf_002",
+      "inputs": [
+        "obs_wf_002",
+        "obs_wf_004",
+        "obs_wf_008"
+      ],
+      "result": "qualified_without_overwrite",
+      "created_observation": "obs_wf_010",
+      "preserved_originals": true,
+      "occurred_at": "2026-09-14T14:46:00Z"
+    }
+  ],
+  "time_contract": {
+    "timezone": "UTC",
+    "format": "ISO-8601"
+  }
+}

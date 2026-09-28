@@ -1,0 +1,79 @@
+{
+  "format": "konnaxion-world-content/v1",
+  "world_key": "ethikos-political-philosophy",
+  "module": "ekoh",
+  "content_origin": "designed_extension",
+  "policy_key": "pp-ekoh-evidence-policy",
+  "seed_scores": false,
+  "initial_state": "unrated_or_insufficient_evidence",
+  "domains": [
+    {
+      "code": "0223",
+      "name": "Philosophy and ethics",
+      "role": "primary"
+    },
+    {
+      "code": "0312",
+      "name": "Political sciences and civics",
+      "role": "primary"
+    },
+    {
+      "code": "0421",
+      "name": "Law",
+      "role": "conditional"
+    }
+  ],
+  "evidence_rules": [
+    {
+      "event": "knowledge_diagnostic_completion",
+      "strength": "low",
+      "domains": [
+        "0223",
+        "0312"
+      ],
+      "note": "Completion alone is not mastery."
+    },
+    {
+      "event": "sourced_argument_reconstruction_validated",
+      "strength": "moderate",
+      "domains": [
+        "0223"
+      ]
+    },
+    {
+      "event": "comparative_reasoning_validated",
+      "strength": "moderate_high",
+      "domains": [
+        "0223",
+        "0312"
+      ]
+    },
+    {
+      "event": "case_analysis_peer_approved",
+      "strength": "high",
+      "domains": [
+        "0223",
+        "0312"
+      ]
+    },
+    {
+      "event": "capstone_peer_approved",
+      "strength": "high",
+      "domains": [
+        "0223",
+        "0312"
+      ],
+      "conditional_domains": [
+        "0421"
+      ]
+    }
+  ],
+  "prohibited_inputs": [
+    "political_viewpoint",
+    "agreement_with_canonical_thinker",
+    "majority_alignment",
+    "ideological_label"
+  ],
+  "ethics_policy": "No ethics score is inferred from ideology or philosophical position.",
+  "traceability": "Every update should retain evidence object key and validation basis."
+}

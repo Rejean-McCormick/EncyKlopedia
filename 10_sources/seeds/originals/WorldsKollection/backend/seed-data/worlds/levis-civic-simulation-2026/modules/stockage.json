@@ -1,0 +1,166 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "levis-civic-simulation-2026",
+  "content_version": "0.2.1",
+  "import_status": "staged_sidecar",
+  "module": "keenkonnect.stockage",
+  "artifacts": [
+    {
+      "key": "sto_growth_01",
+      "project_ref": "prj_levis_growth_2030",
+      "title": "Registre des hypothèses de capacité",
+      "file_type": "document",
+      "version": 1,
+      "lifecycle": "generated_in_simulation",
+      "source_refs": [
+        "S10",
+        "S20"
+      ],
+      "task_refs": [
+        "tsk_growth_01",
+        "tsk_growth_05"
+      ]
+    },
+    {
+      "key": "sto_growth_02",
+      "project_ref": "prj_levis_growth_2030",
+      "title": "Scénarios de croissance comparés",
+      "file_type": "document",
+      "version": 1,
+      "lifecycle": "generated_in_simulation",
+      "source_refs": [
+        "S10",
+        "S13",
+        "S14",
+        "S16"
+      ],
+      "task_refs": [
+        "tsk_growth_04"
+      ]
+    },
+    {
+      "key": "sto_growth_03",
+      "project_ref": "prj_levis_growth_2030",
+      "title": "Hypothèses financières et répartition des coûts",
+      "file_type": "document",
+      "version": 1,
+      "lifecycle": "generated_in_simulation",
+      "source_refs": [
+        "S13",
+        "S16",
+        "S17"
+      ],
+      "task_refs": [
+        "tsk_growth_03",
+        "tsk_growth_05"
+      ]
+    },
+    {
+      "key": "sto_growth_04",
+      "project_ref": "prj_levis_growth_2030",
+      "title": "Synthèse de consultation — Growth 2030",
+      "file_type": "document",
+      "version": 1,
+      "lifecycle": "generated_in_simulation",
+      "consultation_ref": "levis_growth_2030",
+      "task_refs": [
+        "tsk_growth_06"
+      ]
+    },
+    {
+      "key": "sto_growth_05",
+      "project_ref": "prj_levis_growth_2030",
+      "title": "Plan d’implémentation Growth Lévis 2030",
+      "file_type": "document",
+      "version": 1,
+      "lifecycle": "generated_in_simulation",
+      "task_refs": [
+        "tsk_growth_07"
+      ]
+    },
+    {
+      "key": "sto_mobility_01",
+      "project_ref": "prj_levis_mobility_2035",
+      "title": "Cadre commun de comparaison des portefeuilles",
+      "file_type": "document",
+      "version": 1,
+      "lifecycle": "generated_in_simulation",
+      "source_refs": [
+        "S01",
+        "S02",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "task_refs": [
+        "tsk_mobility_01"
+      ]
+    },
+    {
+      "key": "sto_mobility_02",
+      "project_ref": "prj_levis_mobility_2035",
+      "title": "Base réseau et dépendances",
+      "file_type": "document",
+      "version": 1,
+      "lifecycle": "generated_in_simulation",
+      "task_refs": [
+        "tsk_mobility_02"
+      ]
+    },
+    {
+      "key": "sto_mobility_03",
+      "project_ref": "prj_levis_mobility_2035",
+      "title": "Scénarios transport collectif et interrives",
+      "file_type": "document",
+      "version": 1,
+      "lifecycle": "generated_in_simulation",
+      "source_refs": [
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "task_refs": [
+        "tsk_mobility_03",
+        "tsk_mobility_04"
+      ]
+    },
+    {
+      "key": "sto_mobility_04",
+      "project_ref": "prj_levis_mobility_2035",
+      "title": "Comparaison coûts, phasage et contraintes",
+      "file_type": "document",
+      "version": 1,
+      "lifecycle": "generated_in_simulation",
+      "source_refs": [
+        "S16",
+        "S17"
+      ],
+      "task_refs": [
+        "tsk_mobility_05"
+      ]
+    },
+    {
+      "key": "sto_mobility_05",
+      "project_ref": "prj_levis_mobility_2035",
+      "title": "Portefeuille Mobility Lévis 2035 — recommandation traçable",
+      "file_type": "document",
+      "version": 1,
+      "lifecycle": "generated_in_simulation",
+      "consultation_ref": "levis_mobility_2035",
+      "task_refs": [
+        "tsk_mobility_06",
+        "tsk_mobility_07"
+      ]
+    }
+  ],
+  "versioning_policy": {
+    "new_evidence_creates_new_revision": true,
+    "preserve_reason_for_change": true,
+    "never_overwrite_provenance": true
+  }
+}

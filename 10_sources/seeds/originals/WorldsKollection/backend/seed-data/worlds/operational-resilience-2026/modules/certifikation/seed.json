@@ -1,0 +1,66 @@
+{
+  "schema": "kx-module-seed/1",
+  "module": "konnected.certifikation",
+  "world_key": "operational-resilience-2026",
+  "credential_policy": "Simulation competency only; not professional licensure or statutory qualification.",
+  "paths": [
+    {
+      "key": "cert_operational_handoff",
+      "name": "Operational Context & Handoff",
+      "description": "Demonstrate transfer of responsibility with current objective, uncertainty, decision basis, dependencies, evidence revisions, and next confirmation.",
+      "steps": [
+        {
+          "order": 1,
+          "knowledge": "know_operational_handoff"
+        },
+        {
+          "order": 2,
+          "knowledge": "know_uncertain_information"
+        },
+        {
+          "order": 3,
+          "simulation": "inc_bridge_medical"
+        }
+      ],
+      "evidence_required": [
+        "historical_snapshot",
+        "handoff_record",
+        "dependency_update"
+      ],
+      "peer_validation_required": true
+    },
+    {
+      "key": "cert_offline_reconciliation",
+      "name": "Offline Operations & Reconciliation",
+      "description": "Demonstrate local continuity, append-only offline logging, conflict detection, and explicit reconciliation without overwriting provenance.",
+      "steps": [
+        {
+          "order": 1,
+          "knowledge": "know_degraded_connectivity"
+        },
+        {
+          "order": 2,
+          "knowledge": "know_source_reliability"
+        },
+        {
+          "order": 3,
+          "simulation": "inc_wildfire_offline"
+        }
+      ],
+      "evidence_required": [
+        "offline_snapshot",
+        "local_event_log",
+        "reconciliation_event"
+      ],
+      "peer_validation_required": true
+    }
+  ],
+  "materialization_notes": {
+    "runtime_model": "konnected.CertificationPath",
+    "path_fields": [
+      "name",
+      "description"
+    ],
+    "steps_and_evidence": "Store as world materializer metadata until dedicated path-step models exist."
+  }
+}

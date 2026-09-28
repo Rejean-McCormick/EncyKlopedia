@@ -1,0 +1,43 @@
+world_contract: kx-world-pack/v1
+world_key: historical-intellectuals
+title: Historical Intellectuals — Konnaxion Seed
+description: Registry of historical intellectual personas and tradition figures classified with UNESCO ISCED-F domains, designed for sourced proposal/preference reconstruction and separate EkoH/Smart Vote readings.
+pack_version: 0.1.0
+requires:
+  fixtures:
+  - isced-f
+persona_policy:
+  internal_username: w_{world_token}__{actor_key}
+  real_person_representation: sourced_historical_reconstruction
+  historical_personas_can_authenticate: false
+  historical_personas_can_cast_live_votes: false
+  synthetic_preference_projection_allowed: true
+  unknown_position: omit
+module_seeds:
+  ekoh: modules/ekoh/profiles.json
+content_seeds:
+  intellectuals: canon/intellectuals.json
+policies:
+  personas: policies/personas.json
+derived_data:
+  smart_vote:
+    seed_results: false
+    baseline_must_remain_visible: true
+    historical_persona_live_governance_default_factor: 0.0
+  ekoh:
+    seed_numeric_scores: false
+    domain_classification_seeded: true
+  search:
+    build_index: true
+metadata:
+  owner: konnaxion-local
+  language: fr-CA
+  fictional: false
+  world_kind: sourced_historical_intellectual_registry
+  cutoff_birth_year_max: 1926
+  cutoff_explicit_exceptions:
+  - grigori_perelman
+  notes:
+  - ISCED-F domains classify subject area; they are not themselves proof of competence.
+  - Historical/canonical personas are never represented as living participants.
+  - Cultural influence and decision influence are separate axes.

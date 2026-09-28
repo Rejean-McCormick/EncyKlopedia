@@ -1,0 +1,382 @@
+{
+  "schema_version": "konnaxion-world-module-bridge-seed/v1",
+  "world_key": "knowledge-continuity",
+  "module": "konstruct",
+  "model_mapping": {
+    "project_model": "keenkonnect.Project",
+    "resource_model": "keenkonnect.ProjectResource",
+    "task_model": "keenkonnect.ProjectTask",
+    "team_model": "keenkonnect.ProjectTeam",
+    "native_enums": {
+      "project_status": [
+        "idea",
+        "progress",
+        "completed",
+        "validated"
+      ],
+      "task_status": [
+        "todo",
+        "doing",
+        "done"
+      ],
+      "team_role": [
+        "owner",
+        "collaborator",
+        "mentor"
+      ]
+    }
+  },
+  "records": [
+    {
+      "key": "transfer_intermit_diag",
+      "title": "Transfer — Intermittent Fault Diagnosis",
+      "capability": "intermittent_fault_diagnosis",
+      "creator": "luc_gagnon",
+      "status": "progress",
+      "category": "knowledge_continuity",
+      "team": [
+        {
+          "actor": "luc_gagnon",
+          "native_role": "owner",
+          "world_role": "capability_owner"
+        },
+        {
+          "actor": "marc_leblanc",
+          "native_role": "mentor",
+          "world_role": "subject_matter_mentor"
+        },
+        {
+          "actor": "sofia_nguyen",
+          "native_role": "collaborator",
+          "world_role": "primary_successor"
+        },
+        {
+          "actor": "jean_caron",
+          "native_role": "collaborator",
+          "world_role": "secondary_successor"
+        },
+        {
+          "actor": "amina_benali",
+          "native_role": "collaborator",
+          "world_role": "transfer_lead"
+        },
+        {
+          "actor": "nadia_roy",
+          "native_role": "collaborator",
+          "world_role": "peer_reviewer"
+        },
+        {
+          "actor": "ana_pereira",
+          "native_role": "collaborator",
+          "world_role": "evidence_data_engineer"
+        },
+        {
+          "actor": "victor_chen",
+          "native_role": "collaborator",
+          "world_role": "operations_planner"
+        },
+        {
+          "actor": "zoe_martel",
+          "native_role": "collaborator",
+          "world_role": "knowledge_editor"
+        }
+      ],
+      "tasks": [
+        {
+          "key": "select_critical_cases",
+          "title": "Select critical diagnostic cases",
+          "description": "Choose cases that reveal distinct diagnostic cues rather than repetitive examples.",
+          "status": "done",
+          "assignee": "marc_leblanc"
+        },
+        {
+          "key": "extract_historical_logs",
+          "title": "Extract and normalize historical event logs",
+          "description": "Prepare source evidence while retaining provenance and timestamps.",
+          "status": "done",
+          "assignee": "ana_pereira"
+        },
+        {
+          "key": "reconstruct_reasoning",
+          "title": "Reconstruct expert reasoning for selected cases",
+          "description": "",
+          "status": "done",
+          "assignee": "nadia_roy"
+        },
+        {
+          "key": "capture_edge_cases",
+          "title": "Capture edge cases and escalation boundaries",
+          "description": "",
+          "status": "done",
+          "assignee": "marc_leblanc"
+        },
+        {
+          "key": "schedule_field_windows",
+          "title": "Schedule safe field-practice windows",
+          "description": "Coordinate operations so practice does not create avoidable service risk.",
+          "status": "done",
+          "assignee": "victor_chen"
+        },
+        {
+          "key": "shadowing",
+          "title": "Complete structured field shadowing",
+          "description": "",
+          "status": "done",
+          "assignee": "sofia_nguyen"
+        },
+        {
+          "key": "supervised_practice_1",
+          "title": "Complete supervised diagnosis #1",
+          "description": "",
+          "status": "doing",
+          "assignee": "sofia_nguyen"
+        },
+        {
+          "key": "supervised_practice_2",
+          "title": "Complete supervised diagnosis #2",
+          "description": "",
+          "status": "todo",
+          "assignee": "jean_caron"
+        },
+        {
+          "key": "independent_practice",
+          "title": "Resolve an unseen case independently",
+          "description": "",
+          "status": "todo",
+          "assignee": "sofia_nguyen"
+        },
+        {
+          "key": "publish_casebook",
+          "title": "Publish validated diagnostic casebook",
+          "description": "Turn reviewed case reconstructions into durable Knowledge resources without dropping provenance.",
+          "status": "todo",
+          "assignee": "zoe_martel"
+        },
+        {
+          "key": "peer_validation",
+          "title": "Validate independent practice evidence",
+          "description": "",
+          "status": "todo",
+          "assignee": "nadia_roy"
+        }
+      ],
+      "completion_rule": "cert_intermit_diag completed by at least one successor"
+    },
+    {
+      "key": "transfer_procurement_memory",
+      "title": "Transfer — Procurement Decision Memory",
+      "capability": "procurement_exception_memory",
+      "creator": "luc_gagnon",
+      "status": "progress",
+      "category": "knowledge_continuity",
+      "team": [
+        {
+          "actor": "luc_gagnon",
+          "native_role": "owner",
+          "world_role": "capability_owner"
+        },
+        {
+          "actor": "claire_beaulieu",
+          "native_role": "mentor",
+          "world_role": "subject_matter_mentor"
+        },
+        {
+          "actor": "maya_singh",
+          "native_role": "collaborator",
+          "world_role": "successor"
+        },
+        {
+          "actor": "elise_tremblay",
+          "native_role": "collaborator",
+          "world_role": "provenance_reviewer"
+        },
+        {
+          "actor": "samira_khan",
+          "native_role": "collaborator",
+          "world_role": "peer_reviewer"
+        },
+        {
+          "actor": "zoe_martel",
+          "native_role": "collaborator",
+          "world_role": "knowledge_editor"
+        }
+      ],
+      "tasks": [
+        {
+          "key": "inventory_exception_files",
+          "title": "Inventory historical exception files",
+          "description": "",
+          "status": "done",
+          "assignee": "elise_tremblay"
+        },
+        {
+          "key": "reconstruct_three_decisions",
+          "title": "Reconstruct three historical decisions",
+          "description": "",
+          "status": "doing",
+          "assignee": "maya_singh"
+        },
+        {
+          "key": "label_uncertainty",
+          "title": "Label fact, inference, and reconstruction uncertainty",
+          "description": "",
+          "status": "doing",
+          "assignee": "elise_tremblay"
+        },
+        {
+          "key": "build_decision_framework",
+          "title": "Build reusable decision framework",
+          "description": "",
+          "status": "todo",
+          "assignee": "claire_beaulieu"
+        },
+        {
+          "key": "publish_decision_playbook",
+          "title": "Publish reviewed decision-memory playbook",
+          "description": "",
+          "status": "todo",
+          "assignee": "zoe_martel"
+        },
+        {
+          "key": "apply_to_novel_case",
+          "title": "Apply framework to a novel case",
+          "description": "",
+          "status": "todo",
+          "assignee": "maya_singh"
+        },
+        {
+          "key": "peer_validation",
+          "title": "Peer-validate rationale and mandate boundaries",
+          "description": "",
+          "status": "todo",
+          "assignee": "samira_khan"
+        }
+      ],
+      "completion_rule": "cert_procurement_memory completed"
+    },
+    {
+      "key": "transfer_precision_repair",
+      "title": "Transfer — Precision Repair Judgment",
+      "capability": "precision_repair_judgment",
+      "creator": "luc_gagnon",
+      "status": "progress",
+      "category": "knowledge_continuity",
+      "team": [
+        {
+          "actor": "luc_gagnon",
+          "native_role": "owner",
+          "world_role": "capability_owner"
+        },
+        {
+          "actor": "andre_bouchard",
+          "native_role": "mentor",
+          "world_role": "subject_matter_mentor"
+        },
+        {
+          "actor": "leila_haddad",
+          "native_role": "collaborator",
+          "world_role": "successor"
+        },
+        {
+          "actor": "amina_benali",
+          "native_role": "collaborator",
+          "world_role": "transfer_lead"
+        },
+        {
+          "actor": "samira_khan",
+          "native_role": "collaborator",
+          "world_role": "quality_reviewer"
+        },
+        {
+          "actor": "david_okafor",
+          "native_role": "collaborator",
+          "world_role": "safety_reviewer"
+        },
+        {
+          "actor": "victor_chen",
+          "native_role": "collaborator",
+          "world_role": "operations_planner"
+        },
+        {
+          "actor": "zoe_martel",
+          "native_role": "collaborator",
+          "world_role": "knowledge_editor"
+        }
+      ],
+      "tasks": [
+        {
+          "key": "capture_contrast_samples",
+          "title": "Capture contrasting repair samples",
+          "description": "",
+          "status": "doing",
+          "assignee": "andre_bouchard"
+        },
+        {
+          "key": "record_cue_demonstrations",
+          "title": "Record visual, acoustic, and tactile cue demonstrations",
+          "description": "",
+          "status": "doing",
+          "assignee": "amina_benali"
+        },
+        {
+          "key": "schedule_supervised_repairs",
+          "title": "Schedule supervised repair windows",
+          "description": "",
+          "status": "todo",
+          "assignee": "victor_chen"
+        },
+        {
+          "key": "supervised_repairs",
+          "title": "Complete three supervised repairs",
+          "description": "",
+          "status": "todo",
+          "assignee": "leila_haddad"
+        },
+        {
+          "key": "repair_replace_case",
+          "title": "Demonstrate repair-versus-replace judgment",
+          "description": "",
+          "status": "todo",
+          "assignee": "leila_haddad"
+        },
+        {
+          "key": "stop_escalate_case",
+          "title": "Demonstrate safe stop/escalate judgment",
+          "description": "",
+          "status": "todo",
+          "assignee": "leila_haddad"
+        },
+        {
+          "key": "publish_practice_guide",
+          "title": "Publish validated practice guide",
+          "description": "",
+          "status": "todo",
+          "assignee": "zoe_martel"
+        },
+        {
+          "key": "independent_repair",
+          "title": "Complete independent repair",
+          "description": "",
+          "status": "todo",
+          "assignee": "leila_haddad"
+        },
+        {
+          "key": "peer_validation",
+          "title": "Validate independent practice evidence",
+          "description": "",
+          "status": "todo",
+          "assignee": "samira_khan"
+        }
+      ],
+      "completion_rule": "cert_precision_repair completed"
+    }
+  ],
+  "notes": [
+    "Transfer status is operational work, not a documentation checklist."
+  ],
+  "bridge_semantics": {
+    "native_model_fields": "Fields described by model_mapping are intended for direct native-model import.",
+    "world_metadata_fields": "Cross-module keys (capability/case/evidence/etc.) are declarative World linkage metadata.",
+    "automatic_import": false
+  }
+}

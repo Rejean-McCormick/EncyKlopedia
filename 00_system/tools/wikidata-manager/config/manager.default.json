@@ -1,0 +1,30 @@
+{
+  "schema_version": "encyklopedia-wikidata-local-manager/v0.10",
+  "layout": "encyklopedia-drive/v1",
+  "dump_base_url": "https://dumps.wikimedia.org/wikidatawiki/entities/",
+  "dump_kind": "all.json.bz2",
+  "name_languages": [
+    "fr",
+    "en",
+    "mul"
+  ],
+  "safe_free_space_multiplier": 3.2,
+  "commit_every_entities": 5000,
+  "paths": {
+    "environment": "00_system/config/environment.json",
+    "dump_snapshot": "20_ingest/snapshots/wikidata/latest.json",
+    "dump_current": "10_sources/wikidata/dumps/current",
+    "sqlite": "30_working/wikidata/wikidata.compact.sqlite",
+    "registry": "10_sources/seeds/active/intellectual-registry/intellectuals.seed.json",
+    "qid_map": "30_working/registry/qid-map.local.json",
+    "relation_maps": "30_working/relation-maps"
+  },
+  "role": "optional_global_discovery_accelerator",
+  "preferred_new_dump_format": "json.gz",
+  "performance": {
+    "sqlite_finalize": "restartable",
+    "sqlite_optimize": "PRAGMA optimize",
+    "qid_locator": "one-pass with global builder on fresh builds",
+    "preferred_temp": "separate fast local SSD when available"
+  }
+}

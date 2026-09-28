@@ -1,0 +1,111 @@
+{
+  "format": "konnaxion-world-content/v1",
+  "world_key": "ethikos-political-philosophy",
+  "module": "scenario_layer",
+  "cases": [
+    {
+      "key": "pp-case-watershed",
+      "title": "Le bassin commun",
+      "content_origin": "fictional_designed_case",
+      "brief_path": "content/cases/01_bassin_commun.md",
+      "purpose": "Forcer une distinction entre appartenance, assujettissement, effets externes, autodétermination et autorité territoriale.",
+      "linked_gates": [
+        "pp-kg-who-decides",
+        "pp-kg-justice"
+      ],
+      "linked_debates": [
+        "demos",
+        "autodetermination-territoire",
+        "ecosouverainete",
+        "injustice-structurelle"
+      ],
+      "decision_required": "Proposer une architecture de participation et de décision pour la gestion du bassin sans supposer qu’un seul critère définit le demos.",
+      "required_output": [
+        "stakeholder_map",
+        "participation_rule",
+        "decision_rule",
+        "rights_or_limits",
+        "strongest_objection",
+        "unresolved_tradeoff"
+      ],
+      "canonical_answer": null
+    },
+    {
+      "key": "pp-case-global-platform",
+      "title": "La plateforme transnationale",
+      "content_origin": "fictional_designed_case",
+      "brief_path": "content/cases/02_plateforme_transnationale.md",
+      "purpose": "Tester les différences entre démocratiser, réguler, fragmenter, remplacer ou contester une structure transnationale.",
+      "linked_gates": [
+        "pp-kg-who-decides",
+        "pp-kg-justice"
+      ],
+      "linked_debates": [
+        "democratie-globale",
+        "democratiser-ou-demanteler",
+        "justice-globale",
+        "injustice-structurelle"
+      ],
+      "decision_required": "Choisir une stratégie institutionnelle et expliquer pourquoi elle répond au pouvoir exercé sans présupposer que l’intégration actuelle doit être conservée.",
+      "required_output": [
+        "power_map",
+        "institutional_strategy",
+        "democratic_control",
+        "exit_or_dismantling_condition",
+        "strongest_objection",
+        "unresolved_tradeoff"
+      ],
+      "canonical_answer": null
+    },
+    {
+      "key": "pp-case-rights-dissent",
+      "title": "Majorité, droits et dissidence",
+      "content_origin": "fictional_designed_case",
+      "brief_path": "content/cases/03_majorite_droits_dissidence.md",
+      "purpose": "Rendre visibles les tensions entre majorité, droits, inclusion et conflit démocratique persistant.",
+      "linked_gates": [
+        "pp-kg-legitimacy"
+      ],
+      "linked_debates": [
+        "droits-humains-democratie",
+        "consensus-conflit"
+      ],
+      "decision_required": "Évaluer une décision majoritaire contestée et proposer une procédure de révision qui traite à la fois droits, inclusion et persistance du désaccord.",
+      "required_output": [
+        "legitimacy_analysis",
+        "rights_analysis",
+        "inclusion_analysis",
+        "review_procedure",
+        "minority_voice_rule",
+        "unresolved_tradeoff"
+      ],
+      "canonical_answer": null
+    },
+    {
+      "key": "pp-case-expert-council",
+      "title": "Le conseil d’expertise",
+      "content_origin": "fictional_designed_case",
+      "brief_path": "content/cases/04_conseil_expertise.md",
+      "purpose": "Distinguer conseil, poids épistémique et pouvoir politique; servir d’expérience réflexive EkoH/Smart Vote.",
+      "linked_gates": [
+        "pp-kg-expertise",
+        "pp-kg-legitimacy"
+      ],
+      "linked_debates": [
+        "expertise-democratie",
+        "consensus-conflit"
+      ],
+      "decision_required": "Définir le rôle d’un conseil d’expertise dans une décision où faits techniques, incertitudes, droits et valeurs sont entremêlés.",
+      "required_output": [
+        "expert_role",
+        "citizen_role",
+        "decision_boundary",
+        "appeal_rule",
+        "weighting_interpretation",
+        "unresolved_tradeoff"
+      ],
+      "smart_vote_experiment": "pp-reading-expert-council",
+      "canonical_answer": null
+    }
+  ]
+}

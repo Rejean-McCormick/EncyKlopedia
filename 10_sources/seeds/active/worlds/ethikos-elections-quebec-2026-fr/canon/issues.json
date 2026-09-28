@@ -1,0 +1,391 @@
+{
+  "schema_version": "kx-world-canon-issues/v1",
+  "world_key": "ethikos-elections-quebec-2026-fr",
+  "issues": [
+    {
+      "issue_key": "sante_acces_gouvernance",
+      "title": "Santé : accès, public, privé et gouvernance",
+      "question": "Quel équilibre entre réseau public, capacité privée, décentralisation et contrôle citoyen offrirait l'accès le plus rapide aux soins sans compromettre l'universalité?",
+      "tags": [
+        "sante",
+        "services-publics",
+        "gouvernance"
+      ],
+      "claim_keys": [
+        "qc2026.caq.sante_acces_gouvernance.position",
+        "qc2026.plq.sante_acces_gouvernance.position",
+        "qc2026.pq.sante_acces_gouvernance.position",
+        "qc2026.pcq.sante_acces_gouvernance.position",
+        "qc2026.qs.sante_acces_gouvernance.position",
+        "qc2026.ddq.sante_acces_gouvernance.position"
+      ],
+      "source_refs": [
+        "CAQ-01",
+        "CAQ-02",
+        "DDQ-01",
+        "DDQ-02",
+        "PCQ-02",
+        "PLQ-02",
+        "PQ-05",
+        "PQ-09",
+        "PQ-11",
+        "QS-01",
+        "QS-03"
+      ],
+      "consultation_key": "consult_sante_acces_gouvernance",
+      "comparison_dimensions": [
+        "access_delays",
+        "public_capacity",
+        "private_capacity",
+        "primary_care",
+        "home_care",
+        "governance"
+      ]
+    },
+    {
+      "issue_key": "logement_abordabilite",
+      "title": "Logement : construire, réguler ou sortir du marché",
+      "question": "Pour rendre le logement réellement abordable, faut-il surtout construire davantage, agir sur les prix, développer le logement hors marché ou transférer plus de pouvoir au niveau local?",
+      "tags": [
+        "logement",
+        "abordabilite",
+        "urbanisme"
+      ],
+      "claim_keys": [
+        "qc2026.caq.logement_abordabilite.position",
+        "qc2026.plq.logement_abordabilite.position",
+        "qc2026.pq.logement_abordabilite.position",
+        "qc2026.pcq.logement_abordabilite.position",
+        "qc2026.qs.logement_abordabilite.position",
+        "qc2026.ddq.logement_abordabilite.position"
+      ],
+      "source_refs": [
+        "CAQ-03",
+        "DDQ-01",
+        "PCQ-01",
+        "PCQ-05",
+        "PLQ-03",
+        "PLQ-04",
+        "PQ-10",
+        "PQ-11",
+        "QS-02"
+      ],
+      "consultation_key": "consult_logement_abordabilite",
+      "comparison_dimensions": [
+        "housing_supply",
+        "non_market_housing",
+        "regulation",
+        "affordability",
+        "municipal_role",
+        "construction_costs"
+      ]
+    },
+    {
+      "issue_key": "pouvoir_achat_fiscalite",
+      "title": "Pouvoir d’achat : impôts, aides et prix",
+      "question": "Comment augmenter durablement le pouvoir d'achat sans affaiblir les services publics ni reporter la facture sur les prochaines années?",
+      "tags": [
+        "cout-de-la-vie",
+        "fiscalite",
+        "revenu"
+      ],
+      "claim_keys": [
+        "qc2026.caq.pouvoir_achat_fiscalite.position",
+        "qc2026.plq.pouvoir_achat_fiscalite.position",
+        "qc2026.pq.pouvoir_achat_fiscalite.position",
+        "qc2026.pcq.pouvoir_achat_fiscalite.position",
+        "qc2026.qs.pouvoir_achat_fiscalite.position",
+        "qc2026.ddq.pouvoir_achat_fiscalite.position"
+      ],
+      "source_refs": [
+        "CAQ-04",
+        "CAQ-09",
+        "DDQ-01",
+        "DDQ-02",
+        "PCQ-03",
+        "PCQ-04",
+        "PCQ-07",
+        "PLQ-03",
+        "PLQ-05",
+        "PLQ-08",
+        "PQ-03",
+        "PQ-04",
+        "QS-02",
+        "QS-03"
+      ],
+      "consultation_key": null,
+      "comparison_dimensions": [
+        "income_tax",
+        "targeted_aid",
+        "public_tariffs",
+        "price_pressure",
+        "fiscal_room"
+      ]
+    },
+    {
+      "issue_key": "economie_productivite_finances",
+      "title": "Économie : productivité, dépenses et finances publiques",
+      "question": "Quel compromis entre baisse des impôts, investissement public, discipline budgétaire et politique industrielle peut réellement améliorer la productivité du Québec?",
+      "tags": [
+        "economie",
+        "productivite",
+        "finances-publiques"
+      ],
+      "claim_keys": [
+        "qc2026.caq.economie_productivite_finances.position",
+        "qc2026.plq.economie_productivite_finances.position",
+        "qc2026.pq.economie_productivite_finances.position",
+        "qc2026.pcq.economie_productivite_finances.position",
+        "qc2026.qs.economie_productivite_finances.position",
+        "qc2026.ddq.economie_productivite_finances.position"
+      ],
+      "source_refs": [
+        "CAQ-04",
+        "CAQ-05",
+        "DDQ-01",
+        "PCQ-03",
+        "PCQ-04",
+        "PCQ-05",
+        "PLQ-05",
+        "PLQ-08",
+        "PQ-04",
+        "PQ-05",
+        "QS-03",
+        "QS-04"
+      ],
+      "consultation_key": null,
+      "comparison_dimensions": [
+        "productivity",
+        "public_spending",
+        "taxation",
+        "regulation",
+        "budget_balance",
+        "state_role"
+      ]
+    },
+    {
+      "issue_key": "immigration_capacite_accueil",
+      "title": "Immigration : besoins, capacité d’accueil et régionalisation",
+      "question": "Quels niveaux et quels types d'immigration sont compatibles avec les besoins de main-d'œuvre, la capacité d'accueil et l'intégration en français?",
+      "tags": [
+        "immigration",
+        "francisation",
+        "demographie"
+      ],
+      "claim_keys": [
+        "qc2026.caq.immigration_capacite_accueil.position",
+        "qc2026.plq.immigration_capacite_accueil.position",
+        "qc2026.pq.immigration_capacite_accueil.position",
+        "qc2026.pcq.immigration_capacite_accueil.position",
+        "qc2026.qs.immigration_capacite_accueil.position",
+        "qc2026.ddq.immigration_capacite_accueil.position"
+      ],
+      "source_refs": [
+        "CAQ-07",
+        "CAQ-08",
+        "DDQ-01",
+        "PCQ-01",
+        "PCQ-08",
+        "PLQ-01",
+        "PLQ-06",
+        "PQ-01",
+        "QS-06"
+      ],
+      "consultation_key": "consult_immigration_capacite_accueil",
+      "comparison_dimensions": [
+        "admission_levels",
+        "reception_capacity",
+        "labour_needs",
+        "regionalization",
+        "french_integration",
+        "selection_governance"
+      ]
+    },
+    {
+      "issue_key": "francais_langue_commune",
+      "title": "Français : contrainte juridique, intégration ou constitution",
+      "question": "Comment renforcer durablement le français tout en conciliant intégration, attractivité économique, droits individuels et cohésion sociale?",
+      "tags": [
+        "francais",
+        "langue",
+        "integration"
+      ],
+      "claim_keys": [
+        "qc2026.caq.francais_langue_commune.position",
+        "qc2026.plq.francais_langue_commune.position",
+        "qc2026.pq.francais_langue_commune.position",
+        "qc2026.pcq.francais_langue_commune.position",
+        "qc2026.qs.francais_langue_commune.position",
+        "qc2026.ddq.francais_langue_commune.position"
+      ],
+      "source_refs": [
+        "CAQ-06",
+        "DDQ-01",
+        "PCQ-08",
+        "PLQ-06",
+        "PQ-01",
+        "PQ-07",
+        "QS-05",
+        "QS-06"
+      ],
+      "consultation_key": null,
+      "comparison_dimensions": [
+        "legal_protection",
+        "francisation",
+        "education",
+        "workplace_language",
+        "immigration_language",
+        "constitutional_framework"
+      ]
+    },
+    {
+      "issue_key": "education_reussite",
+      "title": "Éducation : ressources, culture, choix et gouvernance",
+      "question": "Quelles priorités réformeraient le mieux l'école québécoise : ressources spécialisées, culture commune, soutien financier, choix des familles, mixité ou gouvernance locale?",
+      "tags": [
+        "education",
+        "ecole",
+        "reussite"
+      ],
+      "claim_keys": [
+        "qc2026.caq.education_reussite.position",
+        "qc2026.plq.education_reussite.position",
+        "qc2026.pq.education_reussite.position",
+        "qc2026.pcq.education_reussite.position",
+        "qc2026.qs.education_reussite.position",
+        "qc2026.ddq.education_reussite.position"
+      ],
+      "source_refs": [
+        "CAQ-09",
+        "DDQ-01",
+        "PCQ-01",
+        "PCQ-08",
+        "PLQ-07",
+        "PQ-06",
+        "QS-01",
+        "QS-03"
+      ],
+      "consultation_key": null,
+      "comparison_dimensions": [
+        "staff_resources",
+        "governance",
+        "curriculum_culture",
+        "school_choice",
+        "student_services",
+        "performance"
+      ]
+    },
+    {
+      "issue_key": "energie_climat_ressources",
+      "title": "Énergie et climat : rythme, coûts et ressources",
+      "question": "À quel rythme le Québec doit-il transformer son système énergétique et ses transports, et comment répartir les coûts et les bénéfices de cette transition?",
+      "tags": [
+        "energie",
+        "climat",
+        "ressources-naturelles"
+      ],
+      "claim_keys": [
+        "qc2026.caq.energie_climat_ressources.position",
+        "qc2026.plq.energie_climat_ressources.position",
+        "qc2026.pq.energie_climat_ressources.position",
+        "qc2026.pcq.energie_climat_ressources.position",
+        "qc2026.qs.energie_climat_ressources.position",
+        "qc2026.ddq.energie_climat_ressources.position"
+      ],
+      "source_refs": [
+        "CAQ-11",
+        "DDQ-01",
+        "PCQ-01",
+        "PCQ-06",
+        "PLQ-01",
+        "PQ-02",
+        "QS-04"
+      ],
+      "consultation_key": "consult_energie_climat_ressources",
+      "comparison_dimensions": [
+        "emissions",
+        "energy_supply",
+        "electricity_capacity",
+        "resource_development",
+        "costs",
+        "permitting"
+      ]
+    },
+    {
+      "issue_key": "avenir_politique_quebec",
+      "title": "Avenir politique : fédéralisme, autonomie, indépendance ou constituante",
+      "question": "Quel statut politique donne au Québec le meilleur équilibre entre capacité d'agir, stabilité, identité nationale et contrôle démocratique?",
+      "tags": [
+        "constitution",
+        "federalisme",
+        "independance"
+      ],
+      "claim_keys": [
+        "qc2026.caq.avenir_politique_quebec.position",
+        "qc2026.plq.avenir_politique_quebec.position",
+        "qc2026.pq.avenir_politique_quebec.position",
+        "qc2026.pcq.avenir_politique_quebec.position",
+        "qc2026.qs.avenir_politique_quebec.position",
+        "qc2026.ddq.avenir_politique_quebec.position"
+      ],
+      "source_refs": [
+        "CAQ-10",
+        "DDQ-01",
+        "G-06",
+        "G-07",
+        "PCQ-08",
+        "PLQ-01",
+        "PQ-08",
+        "QS-05"
+      ],
+      "consultation_key": null,
+      "comparison_dimensions": [
+        "federalism",
+        "autonomy",
+        "sovereignty",
+        "constitution",
+        "referendum",
+        "constituent_process"
+      ]
+    },
+    {
+      "issue_key": "democratie_pouvoir_citoyen",
+      "title": "Démocratie : qui doit avoir le dernier mot?",
+      "question": "Qui devrait avoir le dernier mot sur les grandes décisions : l'Assemblée nationale, le gouvernement, les régions ou directement les citoyens?",
+      "tags": [
+        "democratie",
+        "institutions",
+        "participation"
+      ],
+      "claim_keys": [
+        "qc2026.caq.democratie_pouvoir_citoyen.position",
+        "qc2026.plq.democratie_pouvoir_citoyen.position",
+        "qc2026.pq.democratie_pouvoir_citoyen.position",
+        "qc2026.pcq.democratie_pouvoir_citoyen.position",
+        "qc2026.qs.democratie_pouvoir_citoyen.position",
+        "qc2026.ddq.democratie_pouvoir_citoyen.position"
+      ],
+      "source_refs": [
+        "CAQ-05",
+        "CAQ-10",
+        "DDQ-01",
+        "DDQ-02",
+        "PCQ-08",
+        "PLQ-01",
+        "PQ-05",
+        "PQ-08",
+        "QS-05"
+      ],
+      "consultation_key": "consult_democratie_pouvoir_citoyen",
+      "comparison_dimensions": [
+        "representative_mandate",
+        "citizen_initiative",
+        "referendum",
+        "citizen_assembly",
+        "subsidiarity",
+        "transparency",
+        "rights_safeguards"
+      ]
+    }
+  ]
+}

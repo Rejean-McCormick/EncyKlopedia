@@ -1,0 +1,65 @@
+{
+  "format": "ik.error-catalog/1",
+  "codes": [
+    {
+      "code": "IK_INVALID_ENVELOPE",
+      "retryable": false
+    },
+    {
+      "code": "IK_UNSUPPORTED_PROTOCOL",
+      "retryable": false
+    },
+    {
+      "code": "IK_UNKNOWN_PROFILE",
+      "retryable": false
+    },
+    {
+      "code": "IK_INCOMPATIBLE_VERSION",
+      "retryable": false
+    },
+    {
+      "code": "IK_SCHEMA_VALIDATION_FAILED",
+      "retryable": false
+    },
+    {
+      "code": "IK_UNAUTHENTICATED",
+      "retryable": false
+    },
+    {
+      "code": "IK_UNAUTHORIZED",
+      "retryable": false
+    },
+    {
+      "code": "IK_BLOCKED",
+      "retryable": null
+    },
+    {
+      "code": "IK_IDEMPOTENCY_CONFLICT",
+      "retryable": false
+    },
+    {
+      "code": "IK_TARGET_NOT_FOUND",
+      "retryable": false
+    },
+    {
+      "code": "IK_TARGET_NOT_READY",
+      "retryable": true
+    },
+    {
+      "code": "IK_PROVIDER_UNAVAILABLE",
+      "retryable": true
+    },
+    {
+      "code": "IK_RATE_LIMITED",
+      "retryable": true
+    },
+    {
+      "code": "IK_RECEIPT_CONFLICT",
+      "retryable": false
+    },
+    {
+      "code": "IK_UNKNOWN_OUTCOME",
+      "retryable": null
+    }
+  ]
+}

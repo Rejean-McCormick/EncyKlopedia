@@ -1,0 +1,66 @@
+{
+  "format": "konnaxion-world-content-manifest/v2",
+  "world_key": "ethikos-political-philosophy",
+  "pack_version": "2.1.0",
+  "canonical_scenario": "scenarios/ethikos-political-philosophy.json",
+  "namespaces": {
+    "module_seeds": [
+      "modules/knowledge/resources.json",
+      "modules/certifikation/path.json",
+      "modules/ekoh/evidence-policy.json",
+      "modules/smart-vote/expert-council-reading.json",
+      "modules/konstruct/capstone-project.json",
+      "modules/konsultations/final-review-template.json",
+      "modules/stockage/artifact-policy.json",
+      "modules/kontact/team-formation.json"
+    ],
+    "content_seeds": [
+      "content/cases/cases.json",
+      "experience.json"
+    ],
+    "policies": [
+      "policies/canonical-actors.json"
+    ]
+  },
+  "files": [
+    "README.md",
+    "canon/debate-map.json",
+    "canon/thinkers.json",
+    "content/capstone/README.md",
+    "content/cases/01_bassin_commun.md",
+    "content/cases/02_plateforme_transnationale.md",
+    "content/cases/03_majorite_droits_dissidence.md",
+    "content/cases/04_conseil_expertise.md",
+    "content/cases/cases.json",
+    "content/knowledge/01_qui_decide.md",
+    "content/knowledge/02_justice.md",
+    "content/knowledge/03_legitimite.md",
+    "content/knowledge/04_expertise.md",
+    "experience.json",
+    "modules/certifikation/path.json",
+    "modules/ekoh/evidence-policy.json",
+    "modules/knowledge/resources.json",
+    "modules/konstruct/capstone-project.json",
+    "modules/konsultations/final-review-template.json",
+    "modules/kontact/team-formation.json",
+    "modules/smart-vote/expert-council-reading.json",
+    "modules/stockage/artifact-policy.json",
+    "policies/canonical-actors.json",
+    "scenarios/ethikos-political-philosophy.json",
+    "sources/00_README.md",
+    "sources/01_qui_constitue_le_demos.md",
+    "sources/02_democratie_globale.md",
+    "sources/03_democratiser_ou_demanteler.md",
+    "sources/04_justice_globale.md",
+    "sources/05_autodetermination_et_territoire.md",
+    "sources/06_ecosouverainete.md",
+    "sources/07_droits_humains_et_democratie.md",
+    "sources/08_injustice_structurelle.md",
+    "sources/09_consensus_ou_conflit.md",
+    "sources/10_expertise_et_democratie.md",
+    "sources/PEOPLE.md",
+    "sources/SOURCES.md",
+    "sources/manifest.json",
+    "world.yaml"
+  ]
+}

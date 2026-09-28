@@ -1,0 +1,38 @@
+{
+  "schema_version": "encyklopedia-lexical-ingest/v1",
+  "generated_at": "2026-09-27T23:05:09.5631666+00:00",
+  "source": {
+    "provider": "Wikimedia / Wikidata",
+    "url": "https://dumps.wikimedia.org/wikidatawiki/entities/latest-lexemes.json.bz2",
+    "file": "D:\\EncyKlopedia\\10_sources\\lexical\\wikidata\\lexemes\\dumps\\current\\latest-lexemes.json.bz2",
+    "bytes": 475051424,
+    "sha256": "0048475cefca73d0bdc3bb030cba5ddc0ddb4ca6075b53bb06da3985ac3c3f2f",
+    "last_modified": "Wed, 23 Sep 2026 03:57:03 GMT",
+    "etag": "\"6ab34e0f-1c50b5a0\""
+  },
+  "projection": {
+    "languages": [
+      {
+        "code": "fr",
+        "qid": "Q150",
+        "name": "French"
+      },
+      {
+        "code": "en",
+        "qid": "Q1860",
+        "name": "English"
+      },
+      {
+        "code": "sq",
+        "qid": "Q8748",
+        "name": "Albanian"
+      }
+    ],
+    "database": "D:\\EncyKlopedia\\30_working\\lexical\\wikidata\\wikidata.lexemes.fr-en-sq.sqlite",
+    "sha256": "2bdbcaf3a9fd54568594d9c894da303efe109e1cd18b0746830b56ba72ef010a"
+  },
+  "sq_development": {
+    "database": "D:\\EncyKlopedia\\30_working\\lexical\\sq\\sq-development.sqlite",
+    "mode": "curated overlay"
+  }
+}

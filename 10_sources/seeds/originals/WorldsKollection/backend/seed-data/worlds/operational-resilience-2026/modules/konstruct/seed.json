@@ -1,0 +1,263 @@
+{
+  "schema": "kx-module-seed/1",
+  "module": "keenkonnect.konstruct",
+  "world_key": "operational-resilience-2026",
+  "projects": [
+    {
+      "key": "proj_wildfire",
+      "title": "EXERCISE — Wildfire North Sector",
+      "category": "operational_resilience",
+      "status": "progress",
+      "creator": "actor_incident_coordinator",
+      "incident": "inc_wildfire_offline",
+      "tags": [
+        "exercise",
+        "wildfire",
+        "offline",
+        "coordination"
+      ],
+      "description": "Incident workspace for the wildfire/degraded-connectivity exercise; coordinates field actions while preserving canonical incident state outside Konstruct."
+    },
+    {
+      "key": "proj_bridge",
+      "title": "EXERCISE — Bridge Closure Medical Logistics",
+      "category": "operational_resilience",
+      "status": "progress",
+      "creator": "actor_logistics",
+      "incident": "inc_bridge_medical",
+      "tags": [
+        "exercise",
+        "logistics",
+        "dependencies"
+      ],
+      "description": "Incident workspace for the bridge-closure medical-logistics exercise; coordinates dependency propagation and delivery actions."
+    },
+    {
+      "key": "proj_cyber",
+      "title": "EXERCISE — Cyber Fragmented Picture",
+      "category": "operational_resilience",
+      "status": "progress",
+      "creator": "actor_cyber",
+      "incident": "inc_cyber_fragmented",
+      "tags": [
+        "exercise",
+        "cyber",
+        "timeline",
+        "provenance"
+      ],
+      "description": "Incident workspace for the fragmented cyber picture exercise; coordinates containment, evidence capture, and replay preparation."
+    }
+  ],
+  "teams": [
+    {
+      "project": "proj_wildfire",
+      "members": [
+        {
+          "actor": "actor_incident_coordinator",
+          "role": "owner",
+          "joined_at": "2026-09-14T14:04:00Z"
+        },
+        {
+          "actor": "actor_field_lead",
+          "role": "collaborator",
+          "joined_at": "2026-09-14T14:04:00Z"
+        },
+        {
+          "actor": "actor_logistics",
+          "role": "collaborator",
+          "joined_at": "2026-09-14T14:04:00Z"
+        },
+        {
+          "actor": "actor_gis",
+          "role": "collaborator",
+          "joined_at": "2026-09-14T14:29:00Z",
+          "join_source": "gap_wf_001"
+        },
+        {
+          "actor": "actor_health",
+          "role": "collaborator",
+          "joined_at": "2026-09-14T14:04:00Z"
+        },
+        {
+          "actor": "actor_infrastructure",
+          "role": "collaborator",
+          "joined_at": "2026-09-14T14:04:00Z"
+        },
+        {
+          "actor": "actor_public",
+          "role": "collaborator",
+          "joined_at": "2026-09-14T14:04:00Z"
+        }
+      ]
+    },
+    {
+      "project": "proj_bridge",
+      "members": [
+        {
+          "actor": "actor_logistics",
+          "role": "owner",
+          "joined_at": "2026-09-16T05:35:00Z"
+        },
+        {
+          "actor": "actor_health",
+          "role": "collaborator",
+          "joined_at": "2026-09-16T05:35:00Z"
+        },
+        {
+          "actor": "actor_gis",
+          "role": "collaborator",
+          "joined_at": "2026-09-16T05:35:00Z"
+        },
+        {
+          "actor": "actor_infrastructure",
+          "role": "collaborator",
+          "joined_at": "2026-09-16T05:35:00Z"
+        }
+      ]
+    },
+    {
+      "project": "proj_cyber",
+      "members": [
+        {
+          "actor": "actor_cyber",
+          "role": "owner",
+          "joined_at": "2026-09-18T09:05:00Z"
+        },
+        {
+          "actor": "actor_incident_coordinator",
+          "role": "collaborator",
+          "joined_at": "2026-09-18T09:05:00Z"
+        },
+        {
+          "actor": "actor_infrastructure",
+          "role": "collaborator",
+          "joined_at": "2026-09-18T09:05:00Z"
+        },
+        {
+          "actor": "actor_public",
+          "role": "collaborator",
+          "joined_at": "2026-09-18T09:05:00Z"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "key": "task_wf_sector",
+      "project": "proj_wildfire",
+      "title": "Sector the incident and deploy field team",
+      "assignee": "actor_field_lead",
+      "status": "done",
+      "source_action": "act_wf_001",
+      "order": 10
+    },
+    {
+      "key": "task_wf_snapshot",
+      "project": "proj_wildfire",
+      "title": "Build North Sector offline snapshot",
+      "assignee": "actor_gis",
+      "status": "done",
+      "source_action": "act_wf_002",
+      "order": 20
+    },
+    {
+      "key": "task_wf_convoy",
+      "project": "proj_wildfire",
+      "title": "Reroute Medical Convoy Bravo",
+      "assignee": "actor_logistics",
+      "status": "done",
+      "source_action": "act_wf_003",
+      "order": 30
+    },
+    {
+      "key": "task_wf_logging",
+      "project": "proj_wildfire",
+      "title": "Maintain local field log during outage",
+      "assignee": "actor_field_lead",
+      "status": "done",
+      "source_action": "act_wf_004",
+      "order": 40
+    },
+    {
+      "key": "task_wf_gap",
+      "project": "proj_wildfire",
+      "title": "Fill offline GIS capability gap",
+      "assignee": "actor_incident_coordinator",
+      "status": "done",
+      "source_action": "act_wf_005",
+      "order": 50
+    },
+    {
+      "key": "task_wf_reconcile",
+      "project": "proj_wildfire",
+      "title": "Reconcile route observations after reconnect",
+      "assignee": "actor_gis",
+      "status": "done",
+      "source_action": "act_wf_006",
+      "order": 60
+    },
+    {
+      "key": "task_br_vehicle",
+      "project": "proj_bridge",
+      "title": "Assign refrigerated vehicle to priority shipment",
+      "assignee": "actor_logistics",
+      "status": "done",
+      "source_action": "act_br_001",
+      "order": 10
+    },
+    {
+      "key": "task_br_dependencies",
+      "project": "proj_bridge",
+      "title": "Propagate revised delivery dependencies",
+      "assignee": "actor_logistics",
+      "status": "done",
+      "source_action": "act_br_002",
+      "order": 20
+    },
+    {
+      "key": "task_br_route",
+      "project": "proj_bridge",
+      "title": "Publish revised route snapshot",
+      "assignee": "actor_gis",
+      "status": "done",
+      "source_action": "act_br_003",
+      "order": 30
+    },
+    {
+      "key": "task_cy_dep",
+      "project": "proj_cyber",
+      "title": "Capture service dependency snapshot",
+      "assignee": "actor_cyber",
+      "status": "done",
+      "source_action": "act_cy_001",
+      "order": 10
+    },
+    {
+      "key": "task_cy_isolate",
+      "project": "proj_cyber",
+      "title": "Isolate scheduling service in exercise",
+      "assignee": "actor_cyber",
+      "status": "done",
+      "source_action": "act_cy_002",
+      "order": 20
+    },
+    {
+      "key": "task_cy_replay",
+      "project": "proj_cyber",
+      "title": "Freeze 09:22 state for after-action replay",
+      "assignee": "actor_incident_coordinator",
+      "status": "done",
+      "source_action": "act_cy_004",
+      "order": 30
+    },
+    {
+      "key": "task_br_release",
+      "project": "proj_bridge",
+      "title": "Release next logistics priority",
+      "assignee": "actor_health",
+      "status": "done",
+      "source_action": "act_br_004",
+      "order": 40
+    }
+  ]
+}

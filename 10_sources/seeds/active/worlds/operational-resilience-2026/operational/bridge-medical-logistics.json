@@ -1,0 +1,254 @@
+{
+  "schema": "kx-operational-incident/1",
+  "incident": "inc_bridge_medical",
+  "simulation_clock": "2026-09-16T05:30:00Z",
+  "participant_states": [
+    {
+      "actor": "actor_incident_coordinator",
+      "availability": "available",
+      "as_of": "2026-09-16T05:30:00Z"
+    },
+    {
+      "actor": "actor_logistics",
+      "availability": "active",
+      "as_of": "2026-09-16T05:30:00Z"
+    },
+    {
+      "actor": "actor_health",
+      "availability": "active",
+      "as_of": "2026-09-16T05:30:00Z"
+    },
+    {
+      "actor": "actor_gis",
+      "availability": "active",
+      "as_of": "2026-09-16T05:30:00Z"
+    },
+    {
+      "actor": "actor_infrastructure",
+      "availability": "active",
+      "as_of": "2026-09-16T05:30:00Z"
+    }
+  ],
+  "observations": [
+    {
+      "key": "obs_br_001",
+      "subject": "east_span",
+      "claim": "The East Span is closed for the exercise after a structural alert.",
+      "source_actor": "actor_infrastructure",
+      "observed_at": "2026-09-16T05:30:00Z",
+      "reported_at": "2026-09-16T05:31:00Z",
+      "confidence": "confirmed",
+      "scope": "area_river_crossing"
+    },
+    {
+      "key": "obs_br_002",
+      "subject": "insulin_delivery",
+      "claim": "A temperature-controlled insulin shipment must reach the regional distribution point by 09:00 in the exercise.",
+      "source_actor": "actor_health",
+      "observed_at": "2026-09-16T05:34:00Z",
+      "reported_at": "2026-09-16T05:34:00Z",
+      "confidence": "confirmed",
+      "scope": "area_medical_corridor"
+    },
+    {
+      "key": "obs_br_003",
+      "subject": "carrier_alpha",
+      "claim": "Carrier Alpha has one suitable refrigerated vehicle available through the western corridor.",
+      "source_actor": "actor_logistics",
+      "observed_at": "2026-09-16T05:38:00Z",
+      "reported_at": "2026-09-16T05:38:00Z",
+      "confidence": "confirmed",
+      "scope": "area_medical_corridor"
+    },
+    {
+      "key": "obs_br_004",
+      "subject": "western_corridor",
+      "claim": "Travel time has increased after other traffic is redirected away from the bridge.",
+      "source_actor": "actor_gis",
+      "observed_at": "2026-09-16T05:42:00Z",
+      "reported_at": "2026-09-16T05:43:00Z",
+      "confidence": "probable",
+      "scope": "area_river_crossing"
+    },
+    {
+      "key": "obs_br_005",
+      "subject": "oxygen_delivery",
+      "claim": "The oxygen delivery has a later safe arrival window than the insulin shipment in this exercise.",
+      "source_actor": "actor_health",
+      "observed_at": "2026-09-16T05:45:00Z",
+      "reported_at": "2026-09-16T05:45:00Z",
+      "confidence": "confirmed",
+      "scope": "area_medical_corridor"
+    },
+    {
+      "key": "obs_br_006",
+      "subject": "insulin_delivery",
+      "claim": "The simulated insulin shipment has been delivered and acknowledged.",
+      "source_actor": "actor_health",
+      "observed_at": "2026-09-16T08:20:00Z",
+      "reported_at": "2026-09-16T08:20:00Z",
+      "confidence": "confirmed",
+      "scope": "area_medical_corridor",
+      "evidence": [
+        "ev_br_delivery_insulin"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "key": "dec_br_001",
+      "title": "Prioritize refrigerated shipment",
+      "decided_at": "2026-09-16T05:48:00Z",
+      "authority_actor": "actor_logistics",
+      "basis": [
+        "obs_br_001",
+        "obs_br_002",
+        "obs_br_003",
+        "obs_br_005"
+      ],
+      "decision": "Assign the available refrigerated vehicle to the insulin shipment first."
+    },
+    {
+      "key": "dec_br_002",
+      "title": "Recompute route after travel-time change",
+      "decided_at": "2026-09-16T05:52:00Z",
+      "authority_actor": "actor_logistics",
+      "basis": [
+        "obs_br_002",
+        "obs_br_003",
+        "obs_br_004",
+        "obs_br_005",
+        "dec_br_001"
+      ],
+      "decision": "Recompute the exercise delivery plan and propagate updated times to dependent tasks.",
+      "historical_snapshot": "snap_br_0552"
+    },
+    {
+      "key": "dec_br_003",
+      "title": "Release confirmed delivery state",
+      "decided_at": "2026-09-16T08:21:00Z",
+      "authority_actor": "actor_health",
+      "basis": [
+        "obs_br_006"
+      ],
+      "decision": "Mark the insulin dependency satisfied and release the next logistics priority."
+    }
+  ],
+  "actions": [
+    {
+      "key": "act_br_001",
+      "title": "Reassign refrigerated vehicle",
+      "owner_actor": "actor_logistics",
+      "status": "done",
+      "trigger": "dec_br_001",
+      "started_at": "2026-09-16T05:49:00Z",
+      "completed_at": "2026-09-16T05:50:00Z"
+    },
+    {
+      "key": "act_br_002",
+      "title": "Update delivery dependency board",
+      "owner_actor": "actor_logistics",
+      "status": "done",
+      "trigger": "dec_br_002",
+      "started_at": "2026-09-16T05:52:00Z",
+      "completed_at": "2026-09-16T05:54:00Z"
+    },
+    {
+      "key": "act_br_003",
+      "title": "Publish revised route snapshot",
+      "owner_actor": "actor_gis",
+      "status": "done",
+      "trigger": "dec_br_002",
+      "evidence": [
+        "ev_br_route_plan_r2"
+      ],
+      "started_at": "2026-09-16T05:54:00Z",
+      "completed_at": "2026-09-16T05:56:00Z"
+    },
+    {
+      "key": "act_br_004",
+      "title": "Release next logistics priority",
+      "owner_actor": "actor_health",
+      "status": "done",
+      "trigger": "dec_br_003",
+      "evidence": [],
+      "started_at": "2026-09-16T08:21:00Z",
+      "completed_at": "2026-09-16T08:22:00Z"
+    }
+  ],
+  "dependencies": [
+    {
+      "key": "dep_br_001",
+      "from": "act_br_001",
+      "requires": "refrigerated_vehicle_available",
+      "status": "satisfied",
+      "satisfied_by": "obs_br_003"
+    },
+    {
+      "key": "dep_br_002",
+      "from": "act_br_004",
+      "requires": "insulin_delivery_completed",
+      "status": "satisfied",
+      "satisfied_by": "obs_br_006"
+    },
+    {
+      "key": "dep_br_003",
+      "from": "act_br_004",
+      "requires": "insulin_priority_released",
+      "status": "satisfied",
+      "satisfied_by": "dec_br_003"
+    }
+  ],
+  "evidence": [
+    {
+      "key": "ev_br_route_plan_r2",
+      "type": "route_plan_revision",
+      "path": "modules/stockage/files/bridge/medical-route-plan-r2.json",
+      "revision": 2,
+      "owner_actor": "actor_gis"
+    },
+    {
+      "key": "ev_br_delivery_insulin",
+      "type": "delivery_confirmation",
+      "path": "modules/stockage/files/bridge/insulin-delivery-confirmation.txt",
+      "owner_actor": "actor_health"
+    }
+  ],
+  "snapshots": [
+    {
+      "key": "snap_br_0552",
+      "captured_at": "2026-09-16T05:52:00Z",
+      "purpose": "Historical state used to review DEC-BR-002 without projecting later delivery confirmation backward.",
+      "scope": "area_river_crossing",
+      "known_observations": [
+        "obs_br_001",
+        "obs_br_002",
+        "obs_br_003",
+        "obs_br_004",
+        "obs_br_005"
+      ],
+      "known_decisions": [
+        "dec_br_001"
+      ],
+      "document_versions": [],
+      "known_constraints": [
+        "east_span_closed",
+        "refrigerated_vehicle_window",
+        "insulin_deadline",
+        "oxygen_later_safe_window",
+        "western_corridor_delay"
+      ],
+      "excluded_future_observations": [
+        "obs_br_006"
+      ],
+      "excluded_future_evidence": [
+        "ev_br_delivery_insulin"
+      ],
+      "offline": false
+    }
+  ],
+  "time_contract": {
+    "timezone": "UTC",
+    "format": "ISO-8601"
+  }
+}

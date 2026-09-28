@@ -1,0 +1,24 @@
+{
+  "schema_version": "kx-world-smart-vote-policy/v1",
+  "world_key": "ethikos-elections-quebec-2026-fr",
+  "role": "derived_reading_only",
+  "allowed_targets": [
+    "konnaxion_consultation",
+    "ethikos_topic_reading_context"
+  ],
+  "prohibited_targets": [
+    "political_party_recommendation",
+    "candidate_recommendation",
+    "party_ranking",
+    "candidate_ranking"
+  ],
+  "published_readings": [
+    "raw",
+    "expertise_relevant_when_quorum_met"
+  ],
+  "baseline_always_visible": true,
+  "methodology_always_visible": true,
+  "raw_counts_always_visible": true,
+  "expert_cohort_minimum": 12,
+  "party_compatibility_output": false
+}

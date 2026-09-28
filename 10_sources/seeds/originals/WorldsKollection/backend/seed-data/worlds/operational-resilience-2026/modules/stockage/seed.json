@@ -1,0 +1,126 @@
+{
+  "schema": "kx-module-seed/1",
+  "module": "keenkonnect.stockage",
+  "world_key": "operational-resilience-2026",
+  "resources": [
+    {
+      "key": "ev_wf_route_117_report",
+      "project": "proj_wildfire",
+      "title": "Route 117 field observation",
+      "file_type": "document",
+      "version": 1,
+      "description": "World 5 simulated exercise evidence/resource; preserve revision and provenance.",
+      "file": "modules/stockage/files/wildfire/route-117-field-observation.txt",
+      "uploaded_by": "actor_field_lead"
+    },
+    {
+      "key": "ev_wf_map_r3",
+      "project": "proj_wildfire",
+      "title": "North Sector map",
+      "file_type": "document",
+      "version": 3,
+      "description": "World 5 simulated exercise evidence/resource; preserve revision and provenance.",
+      "file": "modules/stockage/files/wildfire/map-north-r3.json",
+      "uploaded_by": "actor_gis",
+      "logical_resource_key": "map_north"
+    },
+    {
+      "key": "ev_wf_snapshot_north",
+      "project": "proj_wildfire",
+      "title": "North Sector offline snapshot 14:20",
+      "file_type": "document",
+      "version": 1,
+      "description": "World 5 simulated exercise evidence/resource; preserve revision and provenance.",
+      "file": "modules/stockage/files/wildfire/north-offline-snapshot-1420.json",
+      "uploaded_by": "actor_gis"
+    },
+    {
+      "key": "ev_wf_local_log_north",
+      "project": "proj_wildfire",
+      "title": "North Sector offline field log",
+      "file_type": "document",
+      "version": 1,
+      "description": "World 5 simulated exercise evidence/resource; preserve revision and provenance.",
+      "file": "modules/stockage/files/wildfire/north-field-log.txt",
+      "uploaded_by": "actor_field_lead"
+    },
+    {
+      "key": "ev_wf_convoy_gps",
+      "project": "proj_wildfire",
+      "title": "Convoy Bravo simulated trace",
+      "file_type": "document",
+      "version": 1,
+      "description": "World 5 simulated exercise evidence/resource; preserve revision and provenance.",
+      "file": "modules/stockage/files/wildfire/convoy-bravo-trace.json",
+      "uploaded_by": "actor_logistics"
+    },
+    {
+      "key": "ev_wf_delivery_confirmation",
+      "project": "proj_wildfire",
+      "title": "Convoy Bravo delivery confirmation",
+      "file_type": "document",
+      "version": 1,
+      "description": "World 5 simulated exercise evidence/resource; preserve revision and provenance.",
+      "file": "modules/stockage/files/wildfire/convoy-bravo-delivery-confirmation.txt",
+      "uploaded_by": "actor_logistics"
+    },
+    {
+      "key": "ev_wf_map_r4",
+      "project": "proj_wildfire",
+      "title": "North Sector map — reconciled",
+      "file_type": "document",
+      "version": 4,
+      "description": "World 5 simulated exercise evidence/resource; preserve revision and provenance.",
+      "file": "modules/stockage/files/wildfire/map-north-r4-reconciled.json",
+      "uploaded_by": "actor_gis",
+      "logical_resource_key": "map_north",
+      "supersedes": "ev_wf_map_r3"
+    },
+    {
+      "key": "ev_br_route_plan_r2",
+      "project": "proj_bridge",
+      "title": "Medical route plan",
+      "file_type": "document",
+      "version": 2,
+      "description": "World 5 simulated exercise evidence/resource; preserve revision and provenance.",
+      "file": "modules/stockage/files/bridge/medical-route-plan-r2.json",
+      "uploaded_by": "actor_gis",
+      "logical_resource_key": "medical_route_plan"
+    },
+    {
+      "key": "ev_br_delivery_insulin",
+      "project": "proj_bridge",
+      "title": "Insulin delivery confirmation",
+      "file_type": "document",
+      "version": 1,
+      "description": "World 5 simulated exercise evidence/resource; preserve revision and provenance.",
+      "file": "modules/stockage/files/bridge/insulin-delivery-confirmation.txt",
+      "uploaded_by": "actor_health"
+    },
+    {
+      "key": "ev_cy_dependency_snapshot",
+      "project": "proj_cyber",
+      "title": "Service dependency snapshot",
+      "file_type": "document",
+      "version": 1,
+      "description": "World 5 simulated exercise evidence/resource; preserve revision and provenance.",
+      "file": "modules/stockage/files/cyber/service-dependency-snapshot.json",
+      "uploaded_by": "actor_cyber"
+    },
+    {
+      "key": "ev_cy_timeline",
+      "project": "proj_cyber",
+      "title": "Cyber incident timeline",
+      "file_type": "document",
+      "version": 1,
+      "description": "World 5 simulated exercise evidence/resource; preserve revision and provenance.",
+      "file": "modules/stockage/files/cyber/incident-timeline.json",
+      "uploaded_by": "actor_incident_coordinator"
+    }
+  ],
+  "versioning_policy": {
+    "preserve_historical_revision_reference": true,
+    "reconciliation_rule": "append_then_qualify",
+    "forbid_latest_device_wins": true
+  }
+}

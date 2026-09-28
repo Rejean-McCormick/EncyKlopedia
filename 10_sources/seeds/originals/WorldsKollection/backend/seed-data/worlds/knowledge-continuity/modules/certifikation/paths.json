@@ -1,0 +1,196 @@
+{
+  "schema_version": "konnaxion-world-module-bridge-seed/v1",
+  "world_key": "knowledge-continuity",
+  "module": "certifikation",
+  "model_mapping": {
+    "path_model": "konnected.CertificationPath",
+    "evaluation_model": "konnected.Evaluation",
+    "peer_validation_model": "konnected.PeerValidation",
+    "portfolio_model": "konnected.Portfolio",
+    "native_field_boundary": {
+      "CertificationPath": [
+        "name",
+        "description"
+      ],
+      "Evaluation": [
+        "user",
+        "path",
+        "raw_score",
+        "metadata"
+      ],
+      "PeerValidation": [
+        "evaluation",
+        "peer",
+        "decision"
+      ],
+      "world_metadata": [
+        "key",
+        "capability",
+        "candidate",
+        "peer_validators",
+        "steps",
+        "pass_condition"
+      ]
+    }
+  },
+  "records": [
+    {
+      "key": "cert_intermit_diag",
+      "name": "Independent Practitioner — Intermittent Fault Diagnosis",
+      "capability": "intermittent_fault_diagnosis",
+      "description": "Demonstrate safe, evidence-based diagnosis of intermittent faults on legacy field systems.",
+      "candidate": "sofia_nguyen",
+      "peer_validators": [
+        "marc_leblanc",
+        "nadia_roy"
+      ],
+      "steps": [
+        {
+          "key": "foundations",
+          "type": "learning",
+          "resource": "kr_diag_foundations"
+        },
+        {
+          "key": "historical_cases",
+          "type": "case_review",
+          "cases": [
+            "case_diag_001",
+            "case_diag_002",
+            "case_diag_003"
+          ]
+        },
+        {
+          "key": "edge_cases",
+          "type": "case_review",
+          "cases": [
+            "case_diag_004",
+            "case_diag_005",
+            "case_diag_006"
+          ]
+        },
+        {
+          "key": "supervised_1",
+          "type": "supervised_practice"
+        },
+        {
+          "key": "supervised_2",
+          "type": "supervised_practice"
+        },
+        {
+          "key": "independent",
+          "type": "independent_practice"
+        },
+        {
+          "key": "teach_back",
+          "type": "peer_validation"
+        }
+      ],
+      "pass_condition": "Independent unseen case + peer approval; quiz alone cannot complete path.",
+      "completion_evidence_policy": "Practice evidence + peer approval required; knowledge completion or quiz score alone is insufficient."
+    },
+    {
+      "key": "cert_procurement_memory",
+      "name": "Institutional Decision Steward — Procurement Exceptions",
+      "capability": "procurement_exception_memory",
+      "description": "Reconstruct decision rationale, distinguish source facts from reconstruction, and apply the decision framework to novel cases.",
+      "candidate": "maya_singh",
+      "peer_validators": [
+        "claire_beaulieu",
+        "samira_khan"
+      ],
+      "steps": [
+        {
+          "key": "framework",
+          "type": "learning",
+          "resource": "kr_proc_framework"
+        },
+        {
+          "key": "authority",
+          "type": "learning",
+          "resource": "kr_proc_authority"
+        },
+        {
+          "key": "reconstruct",
+          "type": "case_review",
+          "cases": [
+            "case_proc_001",
+            "case_proc_002",
+            "case_proc_005"
+          ]
+        },
+        {
+          "key": "transfer",
+          "type": "case_review",
+          "cases": [
+            "case_proc_003",
+            "case_proc_004"
+          ]
+        },
+        {
+          "key": "novel_case",
+          "type": "independent_practice"
+        },
+        {
+          "key": "peer_review",
+          "type": "peer_validation"
+        }
+      ],
+      "pass_condition": "Accurate rationale reconstruction + novel-case application + peer approval.",
+      "completion_evidence_policy": "Practice evidence + peer approval required; knowledge completion or quiz score alone is insufficient."
+    },
+    {
+      "key": "cert_precision_repair",
+      "name": "Independent Practitioner — Precision Repair Judgment",
+      "capability": "precision_repair_judgment",
+      "description": "Demonstrate repair judgment, cue recognition, safe stop/escalation, and independent execution.",
+      "candidate": "leila_haddad",
+      "peer_validators": [
+        "andre_bouchard",
+        "samira_khan"
+      ],
+      "steps": [
+        {
+          "key": "foundations",
+          "type": "learning",
+          "resource": "kr_repair_foundations"
+        },
+        {
+          "key": "cue_training",
+          "type": "learning",
+          "resource": "kr_repair_cues"
+        },
+        {
+          "key": "supervised_1",
+          "type": "supervised_practice"
+        },
+        {
+          "key": "supervised_2",
+          "type": "supervised_practice"
+        },
+        {
+          "key": "supervised_3",
+          "type": "supervised_practice"
+        },
+        {
+          "key": "independent",
+          "type": "independent_practice"
+        },
+        {
+          "key": "stop_escalate",
+          "type": "peer_validation"
+        }
+      ],
+      "pass_condition": "Three supervised repairs + one independent repair + explicit safe stop/escalate demonstration.",
+      "completion_evidence_policy": "Practice evidence + peer approval required; knowledge completion or quiz score alone is insufficient."
+    }
+  ],
+  "notes": [
+    "Current CertificationPath stores name/description only; steps and pass_condition are canonical world metadata for the module bridge.",
+    "Completion requires practice evidence and peer validation; no quiz-only completion."
+  ],
+  "bridge_semantics": {
+    "native_model_fields": "Fields described by model_mapping are intended for direct native-model import.",
+    "world_metadata_fields": "Cross-module keys (capability/case/evidence/etc.) are declarative World linkage metadata.",
+    "automatic_import": false
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interaction-kernel.dev/schemas/1.1/profile.schema.json",
+  "title": "IK Profile Descriptor",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "version",
+    "class",
+    "payload_schema",
+    "delivery",
+    "response"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]{2,159}$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[0-9A-Za-z.-]+)?$"
+    },
+    "class": {
+      "enum": [
+        "command",
+        "query",
+        "event"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 2000
+    },
+    "source_systems": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 120
+      }
+    },
+    "target_systems": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 120
+      }
+    },
+    "target_capability": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 200
+    },
+    "payload_schema": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "required": {
+          "type": "boolean"
+        },
+        "accepted_kinds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 120
+          }
+        }
+      }
+    },
+    "artifacts": {
+      "type": "object"
+    },
+    "delivery": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "durability",
+        "idempotency"
+      ],
+      "properties": {
+        "durability": {
+          "enum": [
+            "ephemeral",
+            "durable"
+          ]
+        },
+        "idempotency": {
+          "enum": [
+            "optional",
+            "required",
+            "forbidden"
+          ]
+        },
+        "ordering": {
+          "enum": [
+            "none",
+            "subject",
+            "profile-defined"
+          ]
+        }
+      }
+    },
+    "response": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "acceptance_receipt",
+        "final_receipt"
+      ],
+      "properties": {
+        "acceptance_receipt": {
+          "enum": [
+            "optional",
+            "required",
+            "forbidden"
+          ]
+        },
+        "final_receipt": {
+          "enum": [
+            "optional",
+            "required",
+            "forbidden"
+          ]
+        },
+        "outcome_events": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 200
+          }
+        }
+      }
+    }
+  }
+}

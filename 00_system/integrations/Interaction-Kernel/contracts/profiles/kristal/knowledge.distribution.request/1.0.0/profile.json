@@ -1,0 +1,43 @@
+{
+  "id": "knowledge.distribution.request",
+  "version": "1.0.0",
+  "class": "command",
+  "description": "Request verification/distribution of a Runtime Pack, with activation delegated to the configured activation owner.",
+  "source_systems": [
+    "orgo",
+    "konnaxion"
+  ],
+  "target_systems": [
+    "konnaxion",
+    "koa-linux"
+  ],
+  "target_capability": "runtime-pack-distribution",
+  "payload_schema": "payload.schema.json",
+  "authority": {
+    "required": true,
+    "accepted_kinds": [
+      "release-distribution",
+      "governance-mandate"
+    ]
+  },
+  "artifacts": {
+    "runtime_pack": {
+      "requirement": "required",
+      "accepted_types": [
+        "kristal.runtime_pack"
+      ]
+    }
+  },
+  "delivery": {
+    "durability": "durable",
+    "idempotency": "required",
+    "ordering": "subject"
+  },
+  "response": {
+    "acceptance_receipt": "required",
+    "final_receipt": "required",
+    "outcome_events": [
+      "knowledge.runtime-pack.activation-observed"
+    ]
+  }
+}

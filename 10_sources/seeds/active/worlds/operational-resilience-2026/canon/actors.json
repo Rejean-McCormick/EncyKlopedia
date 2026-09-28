@@ -1,0 +1,143 @@
+{
+  "schema": "kx-world-canon/1",
+  "world_key": "operational-resilience-2026",
+  "actors": [
+    {
+      "key": "actor_incident_coordinator",
+      "username": "demo_or_incident_coordinator",
+      "display_name": "Avery Morgan",
+      "organization": "org_rcc",
+      "role": "Regional Incident Coordinator",
+      "authority_scope": [
+        "activate_coordination",
+        "assign_cross_team_actions",
+        "approve_situation_snapshot"
+      ],
+      "capabilities": [
+        "cap_incident_coordination",
+        "cap_field_operations"
+      ],
+      "kind": "simulated_persona",
+      "availability_scope": "incident_state_only"
+    },
+    {
+      "key": "actor_field_lead",
+      "username": "demo_or_field_lead",
+      "display_name": "Jordan Lee",
+      "organization": "org_municipal_ops",
+      "role": "Field Operations Lead",
+      "authority_scope": [
+        "assign_field_actions",
+        "confirm_field_status"
+      ],
+      "capabilities": [
+        "cap_field_operations",
+        "cap_incident_coordination"
+      ],
+      "kind": "simulated_persona",
+      "availability_scope": "incident_state_only"
+    },
+    {
+      "key": "actor_logistics",
+      "username": "demo_or_logistics",
+      "display_name": "Priya Nair",
+      "organization": "org_health_logistics",
+      "role": "Logistics Coordinator",
+      "authority_scope": [
+        "reassign_shipments",
+        "allocate_demo_logistics_capacity"
+      ],
+      "capabilities": [
+        "cap_medical_logistics",
+        "cap_incident_coordination"
+      ],
+      "kind": "simulated_persona",
+      "availability_scope": "incident_state_only"
+    },
+    {
+      "key": "actor_gis",
+      "username": "demo_or_gis",
+      "display_name": "Mateo Ruiz",
+      "organization": "org_rcc",
+      "role": "GIS & Intelligence Analyst",
+      "authority_scope": [
+        "publish_operational_map_revision",
+        "qualify_spatial_conflict"
+      ],
+      "capabilities": [
+        "cap_situational_mapping",
+        "cap_cyber_systems"
+      ],
+      "kind": "simulated_persona",
+      "availability_scope": "incident_state_only"
+    },
+    {
+      "key": "actor_health",
+      "username": "demo_or_health",
+      "display_name": "Dr. Lena Park",
+      "organization": "org_health_logistics",
+      "role": "Health Liaison",
+      "authority_scope": [
+        "set_demo_medical_priority",
+        "confirm_health_dependency"
+      ],
+      "capabilities": [
+        "cap_medical_logistics",
+        "cap_community_support"
+      ],
+      "kind": "simulated_persona",
+      "availability_scope": "incident_state_only"
+    },
+    {
+      "key": "actor_infrastructure",
+      "username": "demo_or_infrastructure",
+      "display_name": "Samira Haddad",
+      "organization": "org_critical_infra",
+      "role": "Infrastructure Liaison",
+      "authority_scope": [
+        "confirm_infrastructure_state",
+        "coordinate_restoration_dependency"
+      ],
+      "capabilities": [
+        "cap_critical_infrastructure",
+        "cap_incident_coordination"
+      ],
+      "kind": "simulated_persona",
+      "availability_scope": "incident_state_only"
+    },
+    {
+      "key": "actor_cyber",
+      "username": "demo_or_cyber",
+      "display_name": "Noah Bennett",
+      "organization": "org_critical_infra",
+      "role": "Cyber & Systems Lead",
+      "authority_scope": [
+        "isolate_demo_service",
+        "approve_demo_recovery_gate"
+      ],
+      "capabilities": [
+        "cap_cyber_systems",
+        "cap_critical_infrastructure"
+      ],
+      "kind": "simulated_persona",
+      "availability_scope": "incident_state_only"
+    },
+    {
+      "key": "actor_public",
+      "username": "demo_or_public",
+      "display_name": "Claire Dubois",
+      "organization": "org_municipal_ops",
+      "role": "Public & Community Liaison",
+      "authority_scope": [
+        "publish_demo_public_update",
+        "coordinate_community_support_request"
+      ],
+      "capabilities": [
+        "cap_public_communication",
+        "cap_community_support"
+      ],
+      "kind": "simulated_persona",
+      "availability_scope": "incident_state_only"
+    }
+  ]
+}

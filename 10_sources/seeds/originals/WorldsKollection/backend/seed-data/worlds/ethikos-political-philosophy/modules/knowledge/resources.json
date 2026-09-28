@@ -1,0 +1,393 @@
+{
+  "format": "konnaxion-world-content/v1",
+  "world_key": "ethikos-political-philosophy",
+  "module": "knowledge",
+  "content_origin": "designed_extension_grounded_in_supplied_corpus",
+  "design_rule": "Four high-value entry gates; debates remain autonomous and are not converted into a linear course.",
+  "gates": [
+    {
+      "key": "pp-kg-who-decides",
+      "category_key": "who_decides",
+      "title": "Qui peut légitimement décider ?",
+      "question": "Qu’est-ce qui donne à une personne ou à une communauté un droit à participer à une décision ?",
+      "primer_path": "content/knowledge/01_qui_decide.md",
+      "linked_debates": [
+        "demos",
+        "democratie-globale",
+        "autodetermination-territoire",
+        "ecosouverainete"
+      ],
+      "learning_objectives": [
+        "Distinguer être affecté, être assujetti à une structure et participer à un processus social commun.",
+        "Distinguer appartenance nationale, communauté autodéterminée et activité commune.",
+        "Identifier pourquoi le choix de l’échelle démocratique dépend du type de pouvoir exercé."
+      ],
+      "concept_map": {
+        "nodes": [
+          "affected_interests",
+          "common_activity",
+          "all_subjected",
+          "social_connection",
+          "national_membership",
+          "self_determination",
+          "multilevel_democracy",
+          "ecosovereignty"
+        ],
+        "edges": [
+          [
+            "common_activity",
+            "supports_claim_to_participation",
+            "Gould"
+          ],
+          [
+            "all_subjected",
+            "defines_subjects_of_justice",
+            "Fraser"
+          ],
+          [
+            "social_connection",
+            "grounds_structural_responsibility",
+            "Young"
+          ],
+          [
+            "national_membership",
+            "grounds_special_obligations",
+            "Miller"
+          ],
+          [
+            "self_determination",
+            "need_not_equal_nationalism",
+            "Dahbour"
+          ],
+          [
+            "multilevel_democracy",
+            "can_coexist_with_local_autonomy",
+            "Gould"
+          ],
+          [
+            "ecosovereignty",
+            "links_collective_authority_to_ecosystem",
+            "Dahbour"
+          ]
+        ]
+      },
+      "diagnostic_items": [
+        {
+          "key": "who-decides-q1",
+          "prompt": "Quel critère du corpus relie directement le statut de sujet de justice à la soumission à une structure de gouvernance ?",
+          "options": [
+            "Activité commune",
+            "All-subjected principle",
+            "Appartenance nationale",
+            "Consensus"
+          ],
+          "answer": "All-subjected principle",
+          "rationale": "Le fil sur le demos attribue ce critère à Nancy Fraser."
+        },
+        {
+          "key": "who-decides-q2",
+          "prompt": "Quelle distinction est explicitement importante dans le corpus ?",
+          "options": [
+            "Miller et Dahbour défendent exactement le même nationalisme",
+            "Dahbour défend une autodétermination sans nationalisme",
+            "Gould rejette toute autonomie locale",
+            "Young limite la responsabilité aux citoyens"
+          ],
+          "answer": "Dahbour défend une autodétermination sans nationalisme",
+          "rationale": "Le fil sur l’autodétermination insiste précisément sur cette distinction."
+        },
+        {
+          "key": "who-decides-q3",
+          "prompt": "Pourquoi le corpus refuse-t-il de réduire le débat à « global ou local » ?",
+          "options": [
+            "Parce que toutes les positions soutiennent un État mondial",
+            "Parce que l’échelle, le cadrage, l’autonomie et les relations de domination sont des questions distinctes",
+            "Parce que les frontières n’ont aucune importance normative",
+            "Parce que les droits humains déterminent toujours le demos"
+          ],
+          "answer": "Parce que l’échelle, le cadrage, l’autonomie et les relations de domination sont des questions distinctes",
+          "rationale": "Le fil sur la démocratie globale met explicitement en évidence ces déplacements."
+        }
+      ]
+    },
+    {
+      "key": "pp-kg-justice",
+      "category_key": "justice_structures",
+      "title": "Qu’exige la justice ?",
+      "question": "Que faut-il transformer lorsqu’une structure produit des injustices sans auteur unique ?",
+      "primer_path": "content/knowledge/02_justice.md",
+      "linked_debates": [
+        "democratiser-ou-demanteler",
+        "justice-globale",
+        "injustice-structurelle"
+      ],
+      "learning_objectives": [
+        "Distinguer objet de justice, mécanisme de responsabilité et remède institutionnel.",
+        "Comparer injustice distributive, institutionnelle, structurelle et de cadrage.",
+        "Expliquer pourquoi démocratiser une structure et réduire son pouvoir sont des réponses différentes."
+      ],
+      "concept_map": {
+        "nodes": [
+          "institutional_order",
+          "structural_process",
+          "framing",
+          "social_connection",
+          "prospective_responsibility",
+          "domination",
+          "democratization",
+          "dismantling"
+        ],
+        "edges": [
+          [
+            "institutional_order",
+            "can_produce_predictable_harm",
+            "Pogge"
+          ],
+          [
+            "structural_process",
+            "creates_shared_prospective_responsibility",
+            "Young"
+          ],
+          [
+            "framing",
+            "can_exclude_subjects_from_claim_making",
+            "Fraser"
+          ],
+          [
+            "domination",
+            "may_survive_formal_democracy",
+            "Tully"
+          ],
+          [
+            "democratization",
+            "extends_control_over_common_activities",
+            "Gould"
+          ],
+          [
+            "dismantling",
+            "questions_whether_integration_should_continue",
+            "Dahbour"
+          ]
+        ]
+      },
+      "diagnostic_items": [
+        {
+          "key": "justice-q1",
+          "prompt": "Quel déplacement caractérise le modèle de connexion sociale de Young ?",
+          "options": [
+            "Chercher uniquement un coupable individuel",
+            "Passer vers une responsabilité prospective de transformer des processus structurels",
+            "Limiter la justice aux institutions nationales",
+            "Confondre justice et charité"
+          ],
+          "answer": "Passer vers une responsabilité prospective de transformer des processus structurels",
+          "rationale": "C’est la distinction centrale du fil sur l’injustice structurelle."
+        },
+        {
+          "key": "justice-q2",
+          "prompt": "Que rajoute Fraser aux questions de redistribution ?",
+          "options": [
+            "La nécessité d’un État mondial",
+            "Le cadrage et la représentation",
+            "La priorité absolue de la nation",
+            "La suppression du conflit"
+          ],
+          "answer": "Le cadrage et la représentation",
+          "rationale": "Le corpus souligne que certaines injustices viennent de la définition même de qui peut faire valoir une revendication."
+        },
+        {
+          "key": "justice-q3",
+          "prompt": "Dans le corpus, démocratiser et démanteler sont-ils des synonymes ?",
+          "options": [
+            "Oui",
+            "Non, l’un transforme la gouvernance d’une relation, l’autre remet en cause le maintien de la relation ou de son pouvoir"
+          ],
+          "answer": "Non, l’un transforme la gouvernance d’une relation, l’autre remet en cause le maintien de la relation ou de son pouvoir",
+          "rationale": "C’est la tension structurante du troisième forum."
+        }
+      ]
+    },
+    {
+      "key": "pp-kg-legitimacy",
+      "category_key": "legitimacy_disagreement",
+      "title": "Qu’est-ce qui rend une décision légitime ?",
+      "question": "Comment articuler majorité, droits, inclusion, justification publique et désaccord persistant ?",
+      "primer_path": "content/knowledge/03_legitimite.md",
+      "linked_debates": [
+        "droits-humains-democratie",
+        "consensus-conflit"
+      ],
+      "learning_objectives": [
+        "Expliquer pourquoi majorité et légitimité ne sont pas identiques.",
+        "Comparer délibération, agonisme et démocratie ouverte sans les réduire à pour/contre.",
+        "Identifier les tensions entre protection des droits et fermeture du pouvoir."
+      ],
+      "concept_map": {
+        "nodes": [
+          "majority_rule",
+          "human_rights",
+          "public_reason",
+          "co_originality",
+          "agonism",
+          "inclusive_communication",
+          "open_democracy",
+          "legitimate_dissent"
+        ],
+        "edges": [
+          [
+            "human_rights",
+            "constrain_and_enable_democracy",
+            "Gould"
+          ],
+          [
+            "co_originality",
+            "links_rights_and_popular_sovereignty",
+            "Habermas"
+          ],
+          [
+            "agonism",
+            "preserves_conflict_among_legitimate_adversaries",
+            "Mouffe"
+          ],
+          [
+            "inclusive_communication",
+            "questions_narrow_models_of_reasoned_speech",
+            "Young"
+          ],
+          [
+            "open_democracy",
+            "resists_closure_of_power",
+            "Landemore"
+          ]
+        ]
+      },
+      "diagnostic_items": [
+        {
+          "key": "legitimacy-q1",
+          "prompt": "Le corpus présente-t-il la règle majoritaire comme une condition suffisante de légitimité ?",
+          "options": [
+            "Oui",
+            "Non"
+          ],
+          "answer": "Non",
+          "rationale": "Le fil droits humains/démocratie montre plusieurs manières dont une majorité peut rester contestable."
+        },
+        {
+          "key": "legitimacy-q2",
+          "prompt": "Quelle position associe le plus directement la politique démocratique à la transformation de l’antagonisme en confrontation entre adversaires légitimes ?",
+          "options": [
+            "Rawls",
+            "Mouffe",
+            "Pogge",
+            "Miller"
+          ],
+          "answer": "Mouffe",
+          "rationale": "C’est le cœur de l’intervention reconstruite de Chantal Mouffe."
+        },
+        {
+          "key": "legitimacy-q3",
+          "prompt": "Que conteste Young dans certaines conceptions de la délibération ?",
+          "options": [
+            "L’existence de toute raison publique",
+            "Le risque qu’une conception étroite du discours raisonnable exclue certains styles et expériences",
+            "Toute participation populaire",
+            "Toute protection des droits"
+          ],
+          "answer": "Le risque qu’une conception étroite du discours raisonnable exclue certains styles et expériences",
+          "rationale": "Le corpus présente explicitement cette objection."
+        }
+      ]
+    },
+    {
+      "key": "pp-kg-expertise",
+      "category_key": "expertise_power",
+      "title": "Qui devrait avoir de l’influence ?",
+      "question": "Quelle autorité le savoir spécialisé peut-il légitimement conférer dans une démocratie ?",
+      "primer_path": "content/knowledge/04_expertise.md",
+      "linked_debates": [
+        "expertise-democratie"
+      ],
+      "learning_objectives": [
+        "Distinguer autorité épistémique et autorité politique.",
+        "Comparer épistocratie, intelligence collective, justification publique et participation substantielle.",
+        "Interroger explicitement les effets normatifs d’une lecture pondérée par expertise."
+      ],
+      "concept_map": {
+        "nodes": [
+          "epistemic_authority",
+          "political_authority",
+          "epistocracy",
+          "distributed_knowledge",
+          "public_justification",
+          "substantive_participation",
+          "advisory_weighting"
+        ],
+        "edges": [
+          [
+            "epistocracy",
+            "questions_equal_suffrage_under_incompetence",
+            "Brennan"
+          ],
+          [
+            "distributed_knowledge",
+            "supports_open_participation",
+            "Landemore"
+          ],
+          [
+            "public_justification",
+            "cannot_be_replaced_by_expertise",
+            "Habermas"
+          ],
+          [
+            "substantive_participation",
+            "must_go_beyond_procedural_efficiency",
+            "Gould"
+          ],
+          [
+            "epistemic_authority",
+            "does_not_automatically_entail",
+            "political_authority"
+          ]
+        ]
+      },
+      "diagnostic_items": [
+        {
+          "key": "expertise-q1",
+          "prompt": "Quelle distinction le corpus formule-t-il explicitement ?",
+          "options": [
+            "Autorité morale / autorité économique",
+            "Autorité épistémique / autorité politique",
+            "Majorité / minorité démographique",
+            "Souveraineté / fédéralisme"
+          ],
+          "answer": "Autorité épistémique / autorité politique",
+          "rationale": "La conclusion du dixième fil définit précisément ces deux formes d’autorité."
+        },
+        {
+          "key": "expertise-q2",
+          "prompt": "Quelle réponse Landemore oppose à l’alternative « électeurs ignorants ou experts » ?",
+          "options": [
+            "Supprimer les élections",
+            "Fermer la décision aux non-experts",
+            "Mobiliser la diversité et les connaissances distribuées dans des institutions ouvertes",
+            "Donner un veto permanent aux techniciens"
+          ],
+          "answer": "Mobiliser la diversité et les connaissances distribuées dans des institutions ouvertes",
+          "rationale": "C’est l’argument reconstruit dans le fil expertise/démocratie."
+        },
+        {
+          "key": "expertise-q3",
+          "prompt": "Dans World 1, une lecture EkoH/Smart Vote doit être présentée comme…",
+          "options": [
+            "La vérité du vote",
+            "Une lecture dérivée et explicitement méthodologique",
+            "Un remplacement obligatoire du résultat brut",
+            "Une certification morale des participants"
+          ],
+          "answer": "Une lecture dérivée et explicitement méthodologique",
+          "rationale": "L’expérience du World sépare résultat brut, preuve d’expertise et autorité politique."
+        }
+      ]
+    }
+  ]
+}

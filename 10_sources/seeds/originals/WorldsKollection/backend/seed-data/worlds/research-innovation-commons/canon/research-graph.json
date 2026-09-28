@@ -1,0 +1,980 @@
+{
+  "schema_version": "kx-world-research-graph/v1",
+  "world_key": "research-innovation-commons",
+  "graph_contract": "question → hypothesis/claim → evidence → result → experiment → protocol+dataset → project, with result feedback into hypotheses and current knowledge",
+  "relation_semantics": {
+    "has_hypothesis": "research question proposes a testable hypothesis",
+    "has_claim": "research question contains a current scientific claim",
+    "supported_or_challenged_by": "claim cites a canonical evidence item",
+    "derived_from": "evidence is a reading of a canonical result",
+    "produced_by": "evidence/result was produced by an experiment",
+    "uses_protocol": "experiment names the exact protocol version",
+    "uses_dataset": "experiment names the exact dataset version",
+    "contains_experiment": "project owns execution context",
+    "supports": "result increases support for a hypothesis",
+    "weakens": "result reduces support without global falsification",
+    "contradicts": "result contradicts the tested prediction under declared conditions"
+  },
+  "relations": [
+    {
+      "from": "RQ-001",
+      "type": "has_hypothesis",
+      "to": "HYP-001"
+    },
+    {
+      "from": "RQ-001",
+      "type": "has_hypothesis",
+      "to": "HYP-002"
+    },
+    {
+      "from": "RQ-003",
+      "type": "has_hypothesis",
+      "to": "HYP-003"
+    },
+    {
+      "from": "RQ-003",
+      "type": "has_hypothesis",
+      "to": "HYP-004"
+    },
+    {
+      "from": "RQ-004",
+      "type": "has_hypothesis",
+      "to": "HYP-005"
+    },
+    {
+      "from": "RQ-004",
+      "type": "has_claim",
+      "to": "CLAIM-001"
+    },
+    {
+      "from": "CLAIM-001",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-001"
+    },
+    {
+      "from": "RQ-004",
+      "type": "has_claim",
+      "to": "CLAIM-002"
+    },
+    {
+      "from": "CLAIM-002",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-002"
+    },
+    {
+      "from": "RQ-003",
+      "type": "has_claim",
+      "to": "CLAIM-003"
+    },
+    {
+      "from": "CLAIM-003",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-003"
+    },
+    {
+      "from": "CLAIM-003",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-004"
+    },
+    {
+      "from": "CLAIM-003",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-008"
+    },
+    {
+      "from": "CLAIM-003",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-009"
+    },
+    {
+      "from": "RQ-003",
+      "type": "has_claim",
+      "to": "CLAIM-004"
+    },
+    {
+      "from": "CLAIM-004",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-004"
+    },
+    {
+      "from": "RQ-002",
+      "type": "has_claim",
+      "to": "CLAIM-005"
+    },
+    {
+      "from": "CLAIM-005",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-005"
+    },
+    {
+      "from": "CLAIM-005",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-007"
+    },
+    {
+      "from": "RQ-001",
+      "type": "has_claim",
+      "to": "CLAIM-006"
+    },
+    {
+      "from": "CLAIM-006",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-006"
+    },
+    {
+      "from": "RQ-003",
+      "type": "has_claim",
+      "to": "CLAIM-007"
+    },
+    {
+      "from": "CLAIM-007",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-008"
+    },
+    {
+      "from": "RQ-003",
+      "type": "has_claim",
+      "to": "CLAIM-008"
+    },
+    {
+      "from": "CLAIM-008",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-009"
+    },
+    {
+      "from": "RQ-005",
+      "type": "has_claim",
+      "to": "CLAIM-009"
+    },
+    {
+      "from": "CLAIM-009",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-010"
+    },
+    {
+      "from": "RQ-001",
+      "type": "has_claim",
+      "to": "CLAIM-010"
+    },
+    {
+      "from": "CLAIM-010",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-001"
+    },
+    {
+      "from": "CLAIM-010",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-005"
+    },
+    {
+      "from": "CLAIM-010",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-006"
+    },
+    {
+      "from": "RQ-005",
+      "type": "has_claim",
+      "to": "CLAIM-011"
+    },
+    {
+      "from": "CLAIM-011",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-003"
+    },
+    {
+      "from": "CLAIM-011",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-005"
+    },
+    {
+      "from": "CLAIM-011",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-010"
+    },
+    {
+      "from": "RQ-006",
+      "type": "has_claim",
+      "to": "CLAIM-012"
+    },
+    {
+      "from": "CLAIM-012",
+      "type": "supported_or_challenged_by",
+      "to": "EVID-011"
+    },
+    {
+      "from": "EVID-001",
+      "type": "derived_from",
+      "to": "RES-001"
+    },
+    {
+      "from": "EVID-001",
+      "type": "produced_by",
+      "to": "EXP-001"
+    },
+    {
+      "from": "EVID-001",
+      "type": "within_project",
+      "to": "PRJ-001"
+    },
+    {
+      "from": "EVID-001",
+      "type": "used_protocol",
+      "to": "PROT-001:v3"
+    },
+    {
+      "from": "EVID-001",
+      "type": "used_dataset",
+      "to": "DATA-001:v1"
+    },
+    {
+      "from": "EVID-002",
+      "type": "derived_from",
+      "to": "RES-002"
+    },
+    {
+      "from": "EVID-002",
+      "type": "produced_by",
+      "to": "EXP-002"
+    },
+    {
+      "from": "EVID-002",
+      "type": "within_project",
+      "to": "PRJ-001"
+    },
+    {
+      "from": "EVID-002",
+      "type": "used_protocol",
+      "to": "PROT-002:v1"
+    },
+    {
+      "from": "EVID-002",
+      "type": "used_dataset",
+      "to": "DATA-001:v1"
+    },
+    {
+      "from": "EVID-003",
+      "type": "derived_from",
+      "to": "RES-003"
+    },
+    {
+      "from": "EVID-003",
+      "type": "produced_by",
+      "to": "EXP-003"
+    },
+    {
+      "from": "EVID-003",
+      "type": "within_project",
+      "to": "PRJ-002"
+    },
+    {
+      "from": "EVID-003",
+      "type": "used_protocol",
+      "to": "PROT-003:v1"
+    },
+    {
+      "from": "EVID-003",
+      "type": "used_dataset",
+      "to": "DATA-002:v1"
+    },
+    {
+      "from": "EVID-004",
+      "type": "derived_from",
+      "to": "RES-004"
+    },
+    {
+      "from": "EVID-004",
+      "type": "produced_by",
+      "to": "EXP-004"
+    },
+    {
+      "from": "EVID-004",
+      "type": "within_project",
+      "to": "PRJ-004"
+    },
+    {
+      "from": "EVID-004",
+      "type": "used_protocol",
+      "to": "PROT-004:v1"
+    },
+    {
+      "from": "EVID-004",
+      "type": "used_dataset",
+      "to": "DATA-003:v1"
+    },
+    {
+      "from": "EVID-005",
+      "type": "derived_from",
+      "to": "RES-005"
+    },
+    {
+      "from": "EVID-005",
+      "type": "produced_by",
+      "to": "EXP-005"
+    },
+    {
+      "from": "EVID-005",
+      "type": "within_project",
+      "to": "PRJ-001"
+    },
+    {
+      "from": "EVID-005",
+      "type": "used_protocol",
+      "to": "PROT-002:v1"
+    },
+    {
+      "from": "EVID-005",
+      "type": "used_dataset",
+      "to": "DATA-001:v1"
+    },
+    {
+      "from": "EVID-006",
+      "type": "derived_from",
+      "to": "RES-006"
+    },
+    {
+      "from": "EVID-006",
+      "type": "produced_by",
+      "to": "EXP-006"
+    },
+    {
+      "from": "EVID-006",
+      "type": "within_project",
+      "to": "PRJ-004"
+    },
+    {
+      "from": "EVID-006",
+      "type": "used_protocol",
+      "to": "PROT-005:v1"
+    },
+    {
+      "from": "EVID-006",
+      "type": "used_dataset",
+      "to": "DATA-004:v1"
+    },
+    {
+      "from": "EVID-007",
+      "type": "derived_from",
+      "to": "RES-007"
+    },
+    {
+      "from": "EVID-007",
+      "type": "produced_by",
+      "to": "EXP-007"
+    },
+    {
+      "from": "EVID-007",
+      "type": "within_project",
+      "to": "PRJ-002"
+    },
+    {
+      "from": "EVID-007",
+      "type": "used_protocol",
+      "to": "PROT-006:v1"
+    },
+    {
+      "from": "EVID-007",
+      "type": "used_dataset",
+      "to": "DATA-005:v1"
+    },
+    {
+      "from": "EVID-008",
+      "type": "derived_from",
+      "to": "RES-008"
+    },
+    {
+      "from": "EVID-008",
+      "type": "produced_by",
+      "to": "EXP-008"
+    },
+    {
+      "from": "EVID-008",
+      "type": "within_project",
+      "to": "PRJ-002"
+    },
+    {
+      "from": "EVID-008",
+      "type": "used_protocol",
+      "to": "PROT-003:v1"
+    },
+    {
+      "from": "EVID-008",
+      "type": "used_dataset",
+      "to": "DATA-002:v1"
+    },
+    {
+      "from": "EVID-009",
+      "type": "derived_from",
+      "to": "RES-009"
+    },
+    {
+      "from": "EVID-009",
+      "type": "produced_by",
+      "to": "EXP-009"
+    },
+    {
+      "from": "EVID-009",
+      "type": "within_project",
+      "to": "PRJ-002"
+    },
+    {
+      "from": "EVID-009",
+      "type": "used_protocol",
+      "to": "PROT-003:v1"
+    },
+    {
+      "from": "EVID-009",
+      "type": "used_dataset",
+      "to": "DATA-002:v1"
+    },
+    {
+      "from": "EVID-010",
+      "type": "derived_from",
+      "to": "RES-010"
+    },
+    {
+      "from": "EVID-010",
+      "type": "produced_by",
+      "to": "EXP-010"
+    },
+    {
+      "from": "EVID-010",
+      "type": "within_project",
+      "to": "PRJ-003"
+    },
+    {
+      "from": "EVID-010",
+      "type": "used_protocol",
+      "to": "PROT-006:v1"
+    },
+    {
+      "from": "EVID-010",
+      "type": "used_dataset",
+      "to": "DATA-006:v1"
+    },
+    {
+      "from": "EVID-011",
+      "type": "within_project",
+      "to": "PRJ-005"
+    },
+    {
+      "from": "RQ-004",
+      "type": "tested_by",
+      "to": "EXP-001"
+    },
+    {
+      "from": "PRJ-001",
+      "type": "contains_experiment",
+      "to": "EXP-001"
+    },
+    {
+      "from": "EXP-001",
+      "type": "uses_protocol",
+      "to": "PROT-001:v3"
+    },
+    {
+      "from": "EXP-001",
+      "type": "uses_dataset",
+      "to": "DATA-001:v1"
+    },
+    {
+      "from": "EXP-001",
+      "type": "produced",
+      "to": "RES-001"
+    },
+    {
+      "from": "RQ-004",
+      "type": "tested_by",
+      "to": "EXP-002"
+    },
+    {
+      "from": "PRJ-001",
+      "type": "contains_experiment",
+      "to": "EXP-002"
+    },
+    {
+      "from": "EXP-002",
+      "type": "uses_protocol",
+      "to": "PROT-002:v1"
+    },
+    {
+      "from": "EXP-002",
+      "type": "uses_dataset",
+      "to": "DATA-001:v1"
+    },
+    {
+      "from": "EXP-002",
+      "type": "produced",
+      "to": "RES-002"
+    },
+    {
+      "from": "RQ-003",
+      "type": "tested_by",
+      "to": "EXP-003"
+    },
+    {
+      "from": "PRJ-002",
+      "type": "contains_experiment",
+      "to": "EXP-003"
+    },
+    {
+      "from": "EXP-003",
+      "type": "uses_protocol",
+      "to": "PROT-003:v1"
+    },
+    {
+      "from": "EXP-003",
+      "type": "uses_dataset",
+      "to": "DATA-002:v1"
+    },
+    {
+      "from": "EXP-003",
+      "type": "produced",
+      "to": "RES-003"
+    },
+    {
+      "from": "RQ-003",
+      "type": "tested_by",
+      "to": "EXP-004"
+    },
+    {
+      "from": "PRJ-004",
+      "type": "contains_experiment",
+      "to": "EXP-004"
+    },
+    {
+      "from": "EXP-004",
+      "type": "uses_protocol",
+      "to": "PROT-004:v1"
+    },
+    {
+      "from": "EXP-004",
+      "type": "uses_dataset",
+      "to": "DATA-003:v1"
+    },
+    {
+      "from": "EXP-004",
+      "type": "produced",
+      "to": "RES-004"
+    },
+    {
+      "from": "RQ-005",
+      "type": "tested_by",
+      "to": "EXP-005"
+    },
+    {
+      "from": "PRJ-001",
+      "type": "contains_experiment",
+      "to": "EXP-005"
+    },
+    {
+      "from": "EXP-005",
+      "type": "uses_protocol",
+      "to": "PROT-002:v1"
+    },
+    {
+      "from": "EXP-005",
+      "type": "uses_dataset",
+      "to": "DATA-001:v1"
+    },
+    {
+      "from": "EXP-005",
+      "type": "produced",
+      "to": "RES-005"
+    },
+    {
+      "from": "RQ-001",
+      "type": "tested_by",
+      "to": "EXP-006"
+    },
+    {
+      "from": "PRJ-004",
+      "type": "contains_experiment",
+      "to": "EXP-006"
+    },
+    {
+      "from": "EXP-006",
+      "type": "uses_protocol",
+      "to": "PROT-005:v1"
+    },
+    {
+      "from": "EXP-006",
+      "type": "uses_dataset",
+      "to": "DATA-004:v1"
+    },
+    {
+      "from": "EXP-006",
+      "type": "produced",
+      "to": "RES-006"
+    },
+    {
+      "from": "RQ-002",
+      "type": "tested_by",
+      "to": "EXP-007"
+    },
+    {
+      "from": "PRJ-002",
+      "type": "contains_experiment",
+      "to": "EXP-007"
+    },
+    {
+      "from": "EXP-007",
+      "type": "uses_protocol",
+      "to": "PROT-006:v1"
+    },
+    {
+      "from": "EXP-007",
+      "type": "uses_dataset",
+      "to": "DATA-005:v1"
+    },
+    {
+      "from": "EXP-007",
+      "type": "produced",
+      "to": "RES-007"
+    },
+    {
+      "from": "RQ-003",
+      "type": "tested_by",
+      "to": "EXP-008"
+    },
+    {
+      "from": "PRJ-002",
+      "type": "contains_experiment",
+      "to": "EXP-008"
+    },
+    {
+      "from": "EXP-008",
+      "type": "uses_protocol",
+      "to": "PROT-003:v1"
+    },
+    {
+      "from": "EXP-008",
+      "type": "uses_dataset",
+      "to": "DATA-002:v1"
+    },
+    {
+      "from": "EXP-008",
+      "type": "produced",
+      "to": "RES-008"
+    },
+    {
+      "from": "RQ-005",
+      "type": "tested_by",
+      "to": "EXP-009"
+    },
+    {
+      "from": "PRJ-002",
+      "type": "contains_experiment",
+      "to": "EXP-009"
+    },
+    {
+      "from": "EXP-009",
+      "type": "uses_protocol",
+      "to": "PROT-003:v1"
+    },
+    {
+      "from": "EXP-009",
+      "type": "uses_dataset",
+      "to": "DATA-002:v1"
+    },
+    {
+      "from": "EXP-009",
+      "type": "produced",
+      "to": "RES-009"
+    },
+    {
+      "from": "RQ-005",
+      "type": "tested_by",
+      "to": "EXP-010"
+    },
+    {
+      "from": "PRJ-003",
+      "type": "contains_experiment",
+      "to": "EXP-010"
+    },
+    {
+      "from": "EXP-010",
+      "type": "uses_protocol",
+      "to": "PROT-006:v1"
+    },
+    {
+      "from": "EXP-010",
+      "type": "uses_dataset",
+      "to": "DATA-006:v1"
+    },
+    {
+      "from": "EXP-010",
+      "type": "produced",
+      "to": "RES-010"
+    },
+    {
+      "from": "RES-001",
+      "type": "supports",
+      "to": "HYP-005"
+    },
+    {
+      "from": "RES-001",
+      "type": "weakens",
+      "to": "HYP-001"
+    },
+    {
+      "from": "RES-002",
+      "type": "supports",
+      "to": "HYP-005"
+    },
+    {
+      "from": "RES-003",
+      "type": "keeps_open",
+      "to": "HYP-003"
+    },
+    {
+      "from": "RES-003",
+      "type": "keeps_plausible",
+      "to": "HYP-004"
+    },
+    {
+      "from": "RES-004",
+      "type": "weakens",
+      "to": "HYP-003"
+    },
+    {
+      "from": "RES-005",
+      "type": "supports",
+      "to": "HYP-002"
+    },
+    {
+      "from": "RES-005",
+      "type": "partially_supports",
+      "to": "HYP-001"
+    },
+    {
+      "from": "RES-006",
+      "type": "supports",
+      "to": "HYP-002"
+    },
+    {
+      "from": "RES-007",
+      "type": "pending_for",
+      "to": "HYP-001"
+    },
+    {
+      "from": "RES-008",
+      "type": "contradicts",
+      "to": "HYP-003"
+    },
+    {
+      "from": "RES-009",
+      "type": "weakens",
+      "to": "HYP-003"
+    },
+    {
+      "from": "RES-009",
+      "type": "supports",
+      "to": "HYP-004"
+    },
+    {
+      "from": "RES-010",
+      "type": "qualifies",
+      "to": "HYP-001"
+    },
+    {
+      "from": "RES-010",
+      "type": "qualifies",
+      "to": "HYP-003"
+    },
+    {
+      "from": "DEF-001",
+      "type": "governed_by",
+      "to": "PROT-001:v3"
+    },
+    {
+      "from": "DEF-002",
+      "type": "governed_by",
+      "to": "PROT-001:v3"
+    },
+    {
+      "from": "DEF-003",
+      "type": "governed_by",
+      "to": "PROT-001:v3"
+    },
+    {
+      "from": "DEF-004",
+      "type": "governed_by",
+      "to": "PROT-001:v3"
+    },
+    {
+      "from": "DEF-005",
+      "type": "governed_by",
+      "to": "PROT-001:v3"
+    },
+    {
+      "from": "DEF-006",
+      "type": "governed_by",
+      "to": "PROT-001:v3"
+    },
+    {
+      "from": "PROT-001:v1",
+      "type": "is_version_of",
+      "to": "PROT-001"
+    },
+    {
+      "from": "PROT-001:v2",
+      "type": "is_version_of",
+      "to": "PROT-001"
+    },
+    {
+      "from": "PROT-001:v3",
+      "type": "is_version_of",
+      "to": "PROT-001"
+    },
+    {
+      "from": "PROT-002:v1",
+      "type": "is_version_of",
+      "to": "PROT-002"
+    },
+    {
+      "from": "PROT-003:v1",
+      "type": "is_version_of",
+      "to": "PROT-003"
+    },
+    {
+      "from": "PROT-004:v1",
+      "type": "is_version_of",
+      "to": "PROT-004"
+    },
+    {
+      "from": "PROT-005:v1",
+      "type": "is_version_of",
+      "to": "PROT-005"
+    },
+    {
+      "from": "PROT-006:v1",
+      "type": "is_version_of",
+      "to": "PROT-006"
+    },
+    {
+      "from": "DATA-001:v1",
+      "type": "is_version_of",
+      "to": "DATA-001"
+    },
+    {
+      "from": "DATA-001:v1",
+      "type": "belongs_to_project",
+      "to": "PRJ-001"
+    },
+    {
+      "from": "DATA-002:v1",
+      "type": "is_version_of",
+      "to": "DATA-002"
+    },
+    {
+      "from": "DATA-002:v1",
+      "type": "belongs_to_project",
+      "to": "PRJ-002"
+    },
+    {
+      "from": "DATA-003:v1",
+      "type": "is_version_of",
+      "to": "DATA-003"
+    },
+    {
+      "from": "DATA-003:v1",
+      "type": "belongs_to_project",
+      "to": "PRJ-004"
+    },
+    {
+      "from": "DATA-004:v1",
+      "type": "is_version_of",
+      "to": "DATA-004"
+    },
+    {
+      "from": "DATA-004:v1",
+      "type": "belongs_to_project",
+      "to": "PRJ-004"
+    },
+    {
+      "from": "DATA-005:v1",
+      "type": "is_version_of",
+      "to": "DATA-005"
+    },
+    {
+      "from": "DATA-005:v1",
+      "type": "belongs_to_project",
+      "to": "PRJ-002"
+    },
+    {
+      "from": "DATA-006:v1",
+      "type": "is_version_of",
+      "to": "DATA-006"
+    },
+    {
+      "from": "DATA-006:v1",
+      "type": "belongs_to_project",
+      "to": "PRJ-003"
+    },
+    {
+      "from": "CLAIM-001",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "CLAIM-002",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "CLAIM-003",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "CLAIM-004",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "CLAIM-005",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "CLAIM-006",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "CLAIM-007",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "CLAIM-008",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "CLAIM-009",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "CLAIM-010",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "CLAIM-011",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "CLAIM-012",
+      "type": "surfaced_in",
+      "to": "KR-015"
+    },
+    {
+      "from": "EVID-011",
+      "type": "documented_in",
+      "to": "READ-001-2025"
+    }
+  ]
+}

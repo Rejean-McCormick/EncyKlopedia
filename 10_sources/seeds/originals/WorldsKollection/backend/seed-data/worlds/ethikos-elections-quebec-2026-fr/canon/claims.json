@@ -1,0 +1,1520 @@
+{
+  "schema_version": "kx-world-claim-registry/v1",
+  "world_key": "ethikos-elections-quebec-2026-fr",
+  "baseline_as_of": "2026-09-09",
+  "currentity": "baseline_not_current",
+  "claims": [
+    {
+      "claim_key": "qc2026.caq.sante_acces_gouvernance.position",
+      "actor_key": "caq",
+      "issue_key": "sante_acces_gouvernance",
+      "claim_type": "position_summary",
+      "statement": "La CAQ propose une approche hybride : conserver le paiement public, mieux mutualiser les listes d'attente et utiliser davantage de capacité privée lorsque le réseau public ne respecte pas certains délais. Elle ajoute un investissement important en soutien à domicile.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "CAQ-01",
+        "CAQ-02"
+      ],
+      "source_version_refs": [
+        "CAQ-01@baseline-2026-09-09",
+        "CAQ-02@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "l'accès doit primer sur l'identité du fournisseur lorsque le patient ne paie pas directement.",
+        "question_to_test": "l'ouverture de capacité privée réduit-elle réellement l'attente globale si les deux réseaux recrutent dans le même bassin de médecins, infirmières et technologues?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.plq.sante_acces_gouvernance.position",
+      "actor_key": "plq",
+      "issue_key": "sante_acces_gouvernance",
+      "claim_type": "position_summary",
+      "statement": "Le PLQ met surtout l'accent sur l'accès à la première ligne, la télésanté publique, les équipes multidisciplinaires et une meilleure circulation des patients.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PLQ-02"
+      ],
+      "source_version_refs": [
+        "PLQ-02@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une porte d'entrée plus simple et des professionnels utilisés à pleine compétence peuvent éviter qu'une partie de la demande aboutisse inutilement à l'urgence ou chez le médecin.",
+        "question_to_test": "l'amélioration de la coordination suffit-elle lorsque le problème est aussi un manque de capacité clinique, de personnel ou de plages diagnostiques?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pq.sante_acces_gouvernance.position",
+      "actor_key": "pq",
+      "issue_key": "sante_acces_gouvernance",
+      "claim_type": "position_summary",
+      "statement": "Le PQ veut recentrer l'État sur les services directs, augmenter substantiellement le soutien à domicile et réduire le poids administratif.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PQ-05",
+        "PQ-09",
+        "PQ-11"
+      ],
+      "source_version_refs": [
+        "PQ-05@baseline-2026-09-09",
+        "PQ-09@baseline-2026-09-09",
+        "PQ-11@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une population vieillissante exige davantage de soins de proximité et moins d'hospitalocentrisme.",
+        "question_to_test": "les économies administratives promises peuvent-elles être converties rapidement en heures de soins, et quelle architecture de gouvernance remplace concrètement les structures supprimées ou allégées?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pcq.sante_acces_gouvernance.position",
+      "actor_key": "pcq",
+      "issue_key": "sante_acces_gouvernance",
+      "claim_type": "position_summary",
+      "statement": "Le PCQ veut garantir des délais jugés raisonnables : si le public ne peut les respecter, le patient pourrait recevoir le service d'un fournisseur public ou privé accrédité, payé par la RAMQ.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PCQ-02"
+      ],
+      "source_version_refs": [
+        "PCQ-02@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "l'universalité concerne d'abord le financement et l'accès, pas nécessairement la propriété du fournisseur.",
+        "question_to_test": "ce modèle augmente-t-il la capacité totale ou déplace-t-il surtout du personnel vers des établissements privés mieux rémunérés ou plus flexibles?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.qs.sante_acces_gouvernance.position",
+      "actor_key": "qs",
+      "issue_key": "sante_acces_gouvernance",
+      "claim_type": "position_summary",
+      "statement": "QS place la réparation des services publics au centre de sa campagne et privilégie une réponse où l'État public demeure le principal outil de garantie de l'accès.",
+      "provenance_class": "cautious_reconstruction",
+      "source_refs": [
+        "QS-01",
+        "QS-03"
+      ],
+      "source_version_refs": [
+        "QS-01@baseline-2026-09-09",
+        "QS-03@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "renforcer le réseau commun limite le risque de segmentation entre patients et de concurrence pour le personnel.",
+        "question_to_test": "quels changements de gouvernance, de productivité clinique et d'organisation du travail permettraient d'obtenir des gains rapides, au-delà de l'ajout de ressources financières?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.ddq.sante_acces_gouvernance.position",
+      "actor_key": "ddq",
+      "issue_key": "sante_acces_gouvernance",
+      "claim_type": "position_summary",
+      "statement": "Démocratie Directe Québec refuse de décider à l'avance d'un ratio public-privé. Le programme met plutôt l'accent sur la publication des délais, coûts et résultats, la consultation des patients et du personnel, la subsidiarité et la possibilité de soumettre des réformes majeures à des mécanismes citoyens.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "DDQ-01",
+        "DDQ-02"
+      ],
+      "source_version_refs": [
+        "DDQ-01@baseline-2026-09-09",
+        "DDQ-02@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "le choix du modèle doit être redevable aux usagers et aux travailleurs, pas seulement aux appareils partisans.",
+        "question_to_test": "comment maintenir une cohérence provinciale et des décisions rapides dans un réseau où davantage de choix structurants seraient délibérés localement ou par référendum?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.caq.logement_abordabilite.position",
+      "actor_key": "caq",
+      "issue_key": "logement_abordabilite",
+      "claim_type": "position_summary",
+      "statement": "La CAQ définit l'insuffisance d'offre et les obstacles à la construction comme une partie centrale du problème. Elle propose de simplifier les règles, réduire la paperasse et accélérer les projets, tout en soutenant l'accès à la propriété.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "CAQ-03"
+      ],
+      "source_version_refs": [
+        "CAQ-03@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "si construire devient plus rapide et moins coûteux, l'offre peut mieux répondre à la demande.",
+        "question_to_test": "combien de l'économie de coûts se transmet réellement aux loyers et prix de vente, surtout dans les secteurs où le foncier reste rare ou cher?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.plq.logement_abordabilite.position",
+      "actor_key": "plq",
+      "issue_key": "logement_abordabilite",
+      "claim_type": "position_summary",
+      "statement": "Le PLQ combine une cible très élevée de construction — jusqu'à 100 000 logements annuellement — avec 40 000 logements sociaux et abordables supplémentaires sur cinq ans et un objectif de 20 % de logement hors marché à long terme.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PLQ-03",
+        "PLQ-04"
+      ],
+      "source_version_refs": [
+        "PLQ-03@baseline-2026-09-09",
+        "PLQ-04@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "la crise exige simultanément davantage d'offre générale et un parc protégé des prix du marché.",
+        "question_to_test": "le secteur de la construction, les municipalités et les programmes publics ont-ils la main-d'œuvre, le financement et les terrains nécessaires pour atteindre ces volumes?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pq.logement_abordabilite.position",
+      "actor_key": "pq",
+      "issue_key": "logement_abordabilite",
+      "claim_type": "position_summary",
+      "statement": "Le PQ associe allègement réglementaire et harmonisation des normes de construction à une politique nationale d'habitation comprenant logement social, coopératif et sans but lucratif, registre des loyers et encadrement de la spéculation.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PQ-10",
+        "PQ-11"
+      ],
+      "source_version_refs": [
+        "PQ-10@baseline-2026-09-09",
+        "PQ-11@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "augmenter l'offre sans protéger une partie du parc risque de produire des unités qui restent trop chères pour les ménages visés.",
+        "question_to_test": "comment arbitrer entre réglementation protectrice et objectif de diminuer les coûts et délais de construction?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pcq.logement_abordabilite.position",
+      "actor_key": "pcq",
+      "issue_key": "logement_abordabilite",
+      "claim_type": "position_summary",
+      "statement": "Le PCQ inscrit l'accès au logement parmi ses priorités et applique à cet enjeu son diagnostic général : réglementation, fiscalité et lenteurs administratives freinent l'offre et l'accès à la propriété.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PCQ-01",
+        "PCQ-05"
+      ],
+      "source_version_refs": [
+        "PCQ-01@baseline-2026-09-09",
+        "PCQ-05@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "il faut libérer davantage la construction et le capital privé plutôt que multiplier les contrôles.",
+        "question_to_test": "une stratégie surtout orientée vers l'offre produit-elle assez de logements abordables pour les ménages à faible revenu, là où le marché peut préférer des unités plus rentables?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.qs.logement_abordabilite.position",
+      "actor_key": "qs",
+      "issue_key": "logement_abordabilite",
+      "claim_type": "position_summary",
+      "statement": "QS veut plafonner temporairement certaines hausses de loyers, réformer le mécanisme de fixation, accroître le logement social et hors marché et soutenir certains premiers acheteurs.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "QS-02"
+      ],
+      "source_version_refs": [
+        "QS-02@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "l'offre nouvelle prend du temps et ne protège pas automatiquement les locataires déjà exposés à de fortes hausses.",
+        "question_to_test": "comment éviter qu'un contrôle plus serré des loyers réduise l'entretien ou l'investissement locatif privé, et comment cibler l'aide à l'achat sans augmenter la demande et les prix?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.ddq.logement_abordabilite.position",
+      "actor_key": "ddq",
+      "issue_key": "logement_abordabilite",
+      "claim_type": "position_summary",
+      "statement": "Le programme ne fixe pas une préférence nationale entre marché, contrôle des loyers et logement public. Il propose plutôt publication des données, décisions de zonage et de développement rapprochées du niveau local, consultations et recours à l'initiative citoyenne pour les grands arbitrages.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "DDQ-01"
+      ],
+      "source_version_refs": [
+        "DDQ-01@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "les contraintes de Montréal, Rouyn-Noranda ou Gaspé ne sont pas identiques.",
+        "question_to_test": "la subsidiarité accélère-t-elle la construction ou renforce-t-elle parfois le pouvoir local de bloquer la densification?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.caq.pouvoir_achat_fiscalite.position",
+      "actor_key": "caq",
+      "issue_key": "pouvoir_achat_fiscalite",
+      "claim_type": "position_summary",
+      "statement": "La CAQ privilégie un assemblage de mesures ciblées et d'un cadre budgétaire qui prétend préserver les services tout en revenant graduellement vers l'équilibre. Les aides aux familles et certaines dépenses scolaires illustrent cette logique.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "CAQ-04",
+        "CAQ-09"
+      ],
+      "source_version_refs": [
+        "CAQ-04@baseline-2026-09-09",
+        "CAQ-09@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "soulager des dépenses précises peut être plus ciblé qu'une baisse générale d'impôt.",
+        "question_to_test": "les mesures ponctuelles améliorent-elles le revenu disponible durablement ou compensent-elles seulement temporairement des prix structurellement plus élevés?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.plq.pouvoir_achat_fiscalite.position",
+      "actor_key": "plq",
+      "issue_key": "pouvoir_achat_fiscalite",
+      "claim_type": "position_summary",
+      "statement": "Le PLQ rattache fortement le pouvoir d'achat à la croissance, au logement et à une économie plus productive : réduire les coûts administratifs, stimuler les PME et augmenter l'offre de logements doivent améliorer les revenus et contenir certaines dépenses.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PLQ-03",
+        "PLQ-05",
+        "PLQ-08"
+      ],
+      "source_version_refs": [
+        "PLQ-03@baseline-2026-09-09",
+        "PLQ-05@baseline-2026-09-09",
+        "PLQ-08@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "le meilleur gain durable vient d'une économie qui produit davantage par heure travaillée.",
+        "question_to_test": "les gains de productivité et de déréglementation arrivent-ils assez vite pour les ménages qui subissent aujourd'hui les loyers, l'épicerie et les taux d'intérêt?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pq.pouvoir_achat_fiscalite.position",
+      "actor_key": "pq",
+      "issue_key": "pouvoir_achat_fiscalite",
+      "claim_type": "position_summary",
+      "statement": "Le PQ combine des allégements ciblés — notamment l'abolition proposée de la TVQ sur des biens usagés — avec des mesures sur le logement et les PME.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PQ-03",
+        "PQ-04"
+      ],
+      "source_version_refs": [
+        "PQ-03@baseline-2026-09-09",
+        "PQ-04@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "retirer une taxe sur des biens déjà taxés lors de leur première vente peut rendre des achats courants moins coûteux sans nécessairement diminuer les services de façon visible.",
+        "question_to_test": "quelle part de la baisse fiscale est conservée par le vendeur sous forme de prix plus élevés et quel est le coût d'opportunité des revenus fiscaux perdus?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pcq.pouvoir_achat_fiscalite.position",
+      "actor_key": "pcq",
+      "issue_key": "pouvoir_achat_fiscalite",
+      "claim_type": "position_summary",
+      "statement": "Le PCQ mise beaucoup plus directement sur des baisses d'impôt et une réduction de la taille et du coût de l'État. Son plan fiscal augmente fortement le montant personnel de base et son cadre financier affirme pouvoir rétablir l'équilibre tout en réduisant les prélèvements.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PCQ-03",
+        "PCQ-04",
+        "PCQ-07"
+      ],
+      "source_version_refs": [
+        "PCQ-03@baseline-2026-09-09",
+        "PCQ-04@baseline-2026-09-09",
+        "PCQ-07@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "laisser davantage de revenu aux ménages renforce leur liberté de choix.",
+        "question_to_test": "les économies de dépenses prévues sont-elles réalisables sans transfert de coûts vers les utilisateurs, les municipalités ou les générations futures?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.qs.pouvoir_achat_fiscalite.position",
+      "actor_key": "qs",
+      "issue_key": "pouvoir_achat_fiscalite",
+      "claim_type": "position_summary",
+      "statement": "QS préfère davantage cibler les prix essentiels et redistribuer la charge fiscale : logement, transport, services publics et taxation accrue des très grandes fortunes.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "QS-02",
+        "QS-03"
+      ],
+      "source_version_refs": [
+        "QS-02@baseline-2026-09-09",
+        "QS-03@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une baisse générale d'impôt profite en valeur absolue davantage aux contribuables ayant plus de revenus, alors qu'un service ou une aide ciblée peut réduire une dépense incontournable.",
+        "question_to_test": "les nouvelles recettes fiscales estimées demeurent-elles stables si les contribuables et détenteurs d'actifs adaptent leur comportement?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.ddq.pouvoir_achat_fiscalite.position",
+      "actor_key": "ddq",
+      "issue_key": "pouvoir_achat_fiscalite",
+      "claim_type": "position_summary",
+      "statement": "Démocratie Directe Québec ne fixe pas à l'avance le niveau optimal de taxes, de transferts ou de services. Elle veut rendre les données budgétaires accessibles et permettre aux citoyens de peser davantage directement sur les priorités.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "DDQ-01",
+        "DDQ-02"
+      ],
+      "source_version_refs": [
+        "DDQ-01@baseline-2026-09-09",
+        "DDQ-02@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "les arbitrages fiscaux expriment des préférences collectives et devraient être explicitement consentis.",
+        "question_to_test": "les électeurs peuvent-ils évaluer simultanément le bénéfice visible d'une baisse d'impôt et le coût diffus d'une réduction de service ou d'un déficit futur?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.caq.economie_productivite_finances.position",
+      "actor_key": "caq",
+      "issue_key": "economie_productivite_finances",
+      "claim_type": "position_summary",
+      "statement": "La CAQ promet de moderniser l'État, alléger des exigences réglementaires et maintenir des investissements dans les services et les infrastructures tout en suivant une trajectoire de retour à l'équilibre.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "CAQ-04",
+        "CAQ-05"
+      ],
+      "source_version_refs": [
+        "CAQ-04@baseline-2026-09-09",
+        "CAQ-05@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "la productivité dépend à la fois d'un secteur privé moins entravé et d'un État capable d'investir.",
+        "question_to_test": "après plusieurs années au pouvoir, quelles réformes nouvelles changeraient assez les incitatifs et l'exécution pour produire un résultat différent?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.plq.economie_productivite_finances.position",
+      "actor_key": "plq",
+      "issue_key": "economie_productivite_finances",
+      "claim_type": "position_summary",
+      "statement": "Le PLQ met la productivité, les PME, la diversification des exportations et la réduction de la paperasse au cœur de sa logique économique. Il propose notamment une règle de réduction réglementaire de deux pour un et veut diminuer la dépendance commerciale envers les États-Unis.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PLQ-05",
+        "PLQ-08"
+      ],
+      "source_version_refs": [
+        "PLQ-05@baseline-2026-09-09",
+        "PLQ-08@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une économie plus diversifiée et moins coûteuse à administrer peut investir davantage.",
+        "question_to_test": "quelle réglementation protège une valeur publique importante et quelle réglementation constitue réellement un coût net inutile?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pq.economie_productivite_finances.position",
+      "actor_key": "pq",
+      "issue_key": "economie_productivite_finances",
+      "claim_type": "position_summary",
+      "statement": "Le PQ propose de réduire l'impôt des sociétés pour les PME, de diminuer certaines aides ciblées aux grandes entreprises et de réaliser des économies administratives pour recentrer l'État.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PQ-04",
+        "PQ-05"
+      ],
+      "source_version_refs": [
+        "PQ-04@baseline-2026-09-09",
+        "PQ-05@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "mieux vaut un environnement fiscal plus prévisible et moins de sélection discrétionnaire de « gagnants » par l'État.",
+        "question_to_test": "la réduction des subventions et de la bureaucratie libère-t-elle assez de ressources pour financer simultanément les priorités sociales et la transition vers un État souverain?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pcq.economie_productivite_finances.position",
+      "actor_key": "pcq",
+      "issue_key": "economie_productivite_finances",
+      "claim_type": "position_summary",
+      "statement": "Le PCQ propose la rupture la plus marquée : baisses importantes d'impôts, réduction des dépenses, déréglementation et retour à l'équilibre budgétaire annoncé pour 2029-2030.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PCQ-03",
+        "PCQ-04",
+        "PCQ-05"
+      ],
+      "source_version_refs": [
+        "PCQ-03@baseline-2026-09-09",
+        "PCQ-04@baseline-2026-09-09",
+        "PCQ-05@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "capital, travail et entrepreneuriat répondent fortement aux taux d'imposition et à la complexité administrative.",
+        "question_to_test": "les économies annoncées sont-elles additionnelles, récurrentes et politiquement réalisables sans sous-financer des fonctions que la population souhaite conserver?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.qs.economie_productivite_finances.position",
+      "actor_key": "qs",
+      "issue_key": "economie_productivite_finances",
+      "claim_type": "position_summary",
+      "statement": "QS accepte un rôle beaucoup plus important de l'investissement public et de la redistribution. Sa plateforme fiscale veut notamment prélever davantage auprès des patrimoines très élevés afin de financer services, logement et transition.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "QS-03",
+        "QS-04"
+      ],
+      "source_version_refs": [
+        "QS-03@baseline-2026-09-09",
+        "QS-04@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une économie productive dépend aussi de biens collectifs — santé, éducation, mobilité, logement — que le marché peut sous-produire.",
+        "question_to_test": "quel niveau de taxation supplémentaire maximise les recettes sans provoquer une baisse importante d'investissement, d'assiette fiscale ou de localisation des actifs?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.ddq.economie_productivite_finances.position",
+      "actor_key": "ddq",
+      "issue_key": "economie_productivite_finances",
+      "claim_type": "position_summary",
+      "statement": "Le programme ne préétablit pas un modèle économique de gauche ou de droite. Il propose plutôt transparence budgétaire, subsidiarité et décision citoyenne sur les grands choix fiscaux ou de ressources.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "DDQ-01"
+      ],
+      "source_version_refs": [
+        "DDQ-01@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "le niveau d'État souhaité doit découler d'un mandat explicite et révisable.",
+        "question_to_test": "comment protéger une stratégie économique de long terme contre des décisions populaires successives qui pourraient privilégier des bénéfices immédiats et contradictoires?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.caq.immigration_capacite_accueil.position",
+      "actor_key": "caq",
+      "issue_key": "immigration_capacite_accueil",
+      "claim_type": "position_summary",
+      "statement": "La CAQ rattache explicitement les volumes d'immigration à la capacité d'accueil. Son plan 2026-2029 vise environ 45 000 admissions permanentes annuelles et plafonne certains permis temporaires relevant du Québec, tout en ayant rouvert le PEQ pour une période limitée.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "CAQ-07",
+        "CAQ-08"
+      ],
+      "source_version_refs": [
+        "CAQ-07@baseline-2026-09-09",
+        "CAQ-08@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "les services, le logement et la francisation doivent pouvoir absorber les volumes.",
+        "question_to_test": "comment distinguer l'effet propre de l'immigration de problèmes d'offre déjà présents et comment compenser les pénuries de main-d'œuvre dans les régions et secteurs touchés?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.plq.immigration_capacite_accueil.position",
+      "actor_key": "plq",
+      "issue_key": "immigration_capacite_accueil",
+      "claim_type": "position_summary",
+      "statement": "Dans les sources officielles 2026 consultées pour ce pack, le PLQ documente clairement une volonté d'investir davantage dans la francisation et adopte une orientation régionaliste, mais aucun seuil permanent annuel précis n'a été retenu ici faute de source officielle récente suffisamment explicite.",
+      "provenance_class": "cautious_reconstruction",
+      "source_refs": [
+        "PLQ-01",
+        "PLQ-06"
+      ],
+      "source_version_refs": [
+        "PLQ-01@baseline-2026-09-09",
+        "PLQ-06@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "l'intégration linguistique et territoriale compte autant que le volume brut.",
+        "question_to_test": "sans cible chiffrée, comment évaluer à l'avance la pression sur le logement, les services et le marché du travail?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pq.immigration_capacite_accueil.position",
+      "actor_key": "pq",
+      "issue_key": "immigration_capacite_accueil",
+      "claim_type": "position_summary",
+      "statement": "Le PQ propose environ 35 000 admissions permanentes par année et une réduction d'au moins moitié du nombre de résidents non permanents, avec une cible d'environ 250 000 à 300 000 à la fin d'un premier mandat.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PQ-01"
+      ],
+      "source_version_refs": [
+        "PQ-01@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "un volume plus faible faciliterait l'intégration, le français et la capacité des services.",
+        "question_to_test": "une réduction rapide peut-elle être absorbée par des secteurs dépendants de travailleurs temporaires et par une société vieillissante sans accélération parallèle de la productivité?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pcq.immigration_capacite_accueil.position",
+      "actor_key": "pcq",
+      "issue_key": "immigration_capacite_accueil",
+      "claim_type": "position_summary",
+      "statement": "Le PCQ associe immigration et décentralisation : sa plateforme propose davantage de pouvoirs à des instances régionales, notamment dans ce domaine. Les sources consultées ne permettent pas de fixer ici un seuil provincial 2026 précis.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PCQ-01",
+        "PCQ-08"
+      ],
+      "source_version_refs": [
+        "PCQ-01@baseline-2026-09-09",
+        "PCQ-08@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "les besoins de Montréal, de la Beauce, de l'Abitibi ou du Saguenay ne sont pas identiques.",
+        "question_to_test": "comment éviter une concurrence entre régions et garantir des standards communs de sélection, de français et de droits si les décisions sont davantage territorialisées?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.qs.immigration_capacite_accueil.position",
+      "actor_key": "qs",
+      "issue_key": "immigration_capacite_accueil",
+      "claim_type": "position_summary",
+      "statement": "QS propose environ 70 000 admissions permanentes annuelles, le rétablissement du PEQ, davantage de régionalisation et un effort accru de francisation.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "QS-06"
+      ],
+      "source_version_refs": [
+        "QS-06@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "transformer davantage de personnes déjà établies temporairement en résidents permanents peut réduire la précarité et mieux répondre aux besoins économiques.",
+        "question_to_test": "les ressources de logement, d'éducation, de santé et de francisation augmentent-elles au même rythme que la population accueillie?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.ddq.immigration_capacite_accueil.position",
+      "actor_key": "ddq",
+      "issue_key": "immigration_capacite_accueil",
+      "claim_type": "position_summary",
+      "statement": "Démocratie Directe Québec refuse de prédéterminer un seuil. Son programme propose de publier des indicateurs de capacité d'accueil et de soumettre les grands choix de volume ou d'orientation à une consultation ou à une décision citoyenne.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "DDQ-01"
+      ],
+      "source_version_refs": [
+        "DDQ-01@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "un seuil qui engage profondément la démographie et les services devrait être explicitement légitimé par la population.",
+        "question_to_test": "comment formuler une question référendaire qui intègre les différences entre immigration permanente, étudiants, travailleurs temporaires, réfugiés et regroupement familial?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.caq.francais_langue_commune.position",
+      "actor_key": "caq",
+      "issue_key": "francais_langue_commune",
+      "claim_type": "position_summary",
+      "statement": "La CAQ veut consolider la protection juridique du français et étendre certaines obligations de la Charte de la langue française, notamment à la formation professionnelle et à l'éducation des adultes.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "CAQ-06"
+      ],
+      "source_version_refs": [
+        "CAQ-06@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "sans règles communes, les incitations individuelles peuvent favoriser l'anglais dans certaines institutions ou activités économiques.",
+        "question_to_test": "quelles obligations produisent réellement davantage d'usage du français plutôt qu'un simple respect administratif, et quels coûts imposent-elles aux établissements et nouveaux arrivants?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.plq.francais_langue_commune.position",
+      "actor_key": "plq",
+      "issue_key": "francais_langue_commune",
+      "claim_type": "position_summary",
+      "statement": "Le PLQ présente le français comme un levier de réussite et mise davantage sur la lecture, la francisation, l'éducation, la culture et la promotion, avec 380 M$ additionnels annoncés sur quatre ans.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PLQ-06"
+      ],
+      "source_version_refs": [
+        "PLQ-06@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une langue est plus robuste lorsqu'elle est utile, maîtrisée et attractive, pas seulement obligatoire.",
+        "question_to_test": "l'investissement et l'incitation suffisent-ils lorsque des dynamiques de marché du travail, d'enseignement supérieur et de consommation favorisent l'anglais?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pq.francais_langue_commune.position",
+      "actor_key": "pq",
+      "issue_key": "francais_langue_commune",
+      "claim_type": "position_summary",
+      "statement": "Le PQ propose une politique linguistique plus coercitive : étendre la loi 101 au cégep et à certains enfants d'immigrants temporaires, rehausser des critères de français pour des permis de travail et réduire les volumes migratoires.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PQ-01",
+        "PQ-07"
+      ],
+      "source_version_refs": [
+        "PQ-01@baseline-2026-09-09",
+        "PQ-07@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "le français a besoin d'un environnement institutionnel qui rende son usage normal dans l'éducation, le travail et la socialisation.",
+        "question_to_test": "où placer la frontière entre protection d'une langue commune et restrictions disproportionnées pour certaines minorités ou institutions?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pcq.francais_langue_commune.position",
+      "actor_key": "pcq",
+      "issue_key": "francais_langue_commune",
+      "claim_type": "position_summary",
+      "statement": "Le PCQ réaffirme le caractère français de la nation québécoise dans son virage autonomiste, mais sa plateforme met moins l'accent que le PQ ou la CAQ sur une nouvelle extension détaillée de contraintes linguistiques dans les sources consultées.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PCQ-08"
+      ],
+      "source_version_refs": [
+        "PCQ-08@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "l'identité nationale peut être affirmée tout en limitant la croissance réglementaire.",
+        "question_to_test": "si les obligations nouvelles sont limitées, quels mécanismes concrets assurent la progression de l'usage du français dans les milieux où il recule?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.qs.francais_langue_commune.position",
+      "actor_key": "qs",
+      "issue_key": "francais_langue_commune",
+      "claim_type": "position_summary",
+      "statement": "QS associe la vitalité du français à la francisation, à l'inclusion des nouveaux arrivants et à un projet national indépendant. Dans ses engagements d'immigration, le parti veut augmenter les ressources de francisation plutôt que réduire fortement les admissions permanentes.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "QS-05",
+        "QS-06"
+      ],
+      "source_version_refs": [
+        "QS-05@baseline-2026-09-09",
+        "QS-06@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une langue commune peut être renforcée par l'accès effectif à son apprentissage et par l'intégration sociale.",
+        "question_to_test": "quelle intensité de mesures institutionnelles est nécessaire lorsque les incitations économiques ne favorisent pas spontanément le français?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.ddq.francais_langue_commune.position",
+      "actor_key": "ddq",
+      "issue_key": "francais_langue_commune",
+      "claim_type": "position_summary",
+      "statement": "Le programme fait du français la langue du processus constituant et envisage une protection de son statut dans une constitution québécoise, tout en voulant que des modifications fondamentales reviennent à la population.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "DDQ-01"
+      ],
+      "source_version_refs": [
+        "DDQ-01@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "constitutionnaliser la langue commune peut lui donner une légitimité plus durable qu'une succession de lois partisanes.",
+        "question_to_test": "quels droits linguistiques doivent être soustraits aux majorités ordinaires et protégés par des règles constitutionnelles ou judiciaires?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.caq.education_reussite.position",
+      "actor_key": "caq",
+      "issue_key": "education_reussite",
+      "claim_type": "position_summary",
+      "statement": "Dans les engagements de campagne consultés, la CAQ met notamment l'accent sur l'aide financière aux familles, l'épargne-études et les infrastructures scolaires et sportives.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "CAQ-09"
+      ],
+      "source_version_refs": [
+        "CAQ-09@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "la réussite dépend aussi de la capacité des familles à soutenir le parcours de leurs enfants et d'environnements physiques adéquats.",
+        "question_to_test": "ces aides changent-elles les déterminants les plus urgents de la réussite — pénurie de personnel, soutien spécialisé, composition des classes et qualité de l'enseignement?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.plq.education_reussite.position",
+      "actor_key": "plq",
+      "issue_key": "education_reussite",
+      "claim_type": "position_summary",
+      "statement": "Le PLQ propose notamment l'ajout de 1 000 ressources spécialisées dans les écoles.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PLQ-07"
+      ],
+      "source_version_refs": [
+        "PLQ-07@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "les enseignants ne peuvent répondre seuls à des besoins croissants en orthopédagogie, psychologie, psychoéducation et soutien comportemental.",
+        "question_to_test": "le réseau peut-il recruter ces professionnels dans un contexte de pénurie et comment répartir les ressources pour qu'elles atteignent les écoles où le besoin marginal est le plus élevé?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pq.education_reussite.position",
+      "actor_key": "pq",
+      "issue_key": "education_reussite",
+      "claim_type": "position_summary",
+      "statement": "Le PQ veut lancer cinq grands chantiers portant notamment sur la formation professionnelle et le décrochage, la culture québécoise, l'activité physique, la civilité et la violence ainsi que la mixité socioéconomique et démographique; il propose des États généraux au début du mandat.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PQ-06"
+      ],
+      "source_version_refs": [
+        "PQ-06@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "les difficultés scolaires sont multidimensionnelles et ne se règlent pas par un seul ratio budgétaire.",
+        "question_to_test": "comment transformer un processus de consultation large en décisions rapides, mesurables et applicables dans les classes?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pcq.education_reussite.position",
+      "actor_key": "pcq",
+      "issue_key": "education_reussite",
+      "claim_type": "position_summary",
+      "statement": "La plateforme conservatrice met fortement l'accent sur le choix des familles, la réduction de l'appareil d'État et une logique de financement plus directement orientée vers les citoyens. Les sources sectorielles retenues ici sont moins précises sur une réforme complète de l'école primaire et secondaire.",
+      "provenance_class": "cautious_reconstruction",
+      "source_refs": [
+        "PCQ-01",
+        "PCQ-08"
+      ],
+      "source_version_refs": [
+        "PCQ-01@baseline-2026-09-09",
+        "PCQ-08@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "les familles et établissements locaux connaissent mieux leurs besoins qu'une administration centrale.",
+        "question_to_test": "comment préserver l'égalité des chances, les services spécialisés et une culture commune si les choix et ressources deviennent davantage décentralisés?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.qs.education_reussite.position",
+      "actor_key": "qs",
+      "issue_key": "education_reussite",
+      "claim_type": "position_summary",
+      "statement": "QS inscrit l'éducation dans son objectif plus large de réparation des services publics et de réduction des inégalités. La campagne consultée est plus détaillée sur logement, fiscalité et climat que sur une architecture scolaire complète.",
+      "provenance_class": "cautious_reconstruction",
+      "source_refs": [
+        "QS-01",
+        "QS-03"
+      ],
+      "source_version_refs": [
+        "QS-01@baseline-2026-09-09",
+        "QS-03@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "les écarts de réussite reflètent aussi les écarts de revenu, de logement, de santé et d'accès aux professionnels.",
+        "question_to_test": "quelles réformes internes de l'école — gouvernance, curriculum, mixité, autonomie professionnelle — accompagnent l'investissement pour éviter qu'il se traduise seulement en coûts plus élevés?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.ddq.education_reussite.position",
+      "actor_key": "ddq",
+      "issue_key": "education_reussite",
+      "claim_type": "position_summary",
+      "statement": "Démocratie Directe Québec ne fixe pas un programme scolaire détaillé. Elle privilégie publication des budgets et résultats, comités citoyens, consultation formelle pour les grandes orientations et subsidiarité pour les décisions pouvant être prises localement.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "DDQ-01"
+      ],
+      "source_version_refs": [
+        "DDQ-01@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "élèves, parents et personnel devraient disposer d'un pouvoir réel sur l'environnement éducatif.",
+        "question_to_test": "quelles matières et normes doivent demeurer communes à tout le Québec afin d'éviter que la participation locale produise des écarts excessifs entre territoires?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.caq.energie_climat_ressources.position",
+      "actor_key": "caq",
+      "issue_key": "energie_climat_ressources",
+      "claim_type": "position_summary",
+      "statement": "Dans les engagements récents retenus ici, la CAQ cherche à concilier exploitation des ressources, retombées régionales et protection du territoire; elle propose notamment d'accroître la part de redevances versée aux régions productrices.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "CAQ-11"
+      ],
+      "source_version_refs": [
+        "CAQ-11@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "l'acceptabilité de projets énergétiques ou de ressources augmente si les communautés qui en supportent les impacts obtiennent aussi une part visible des bénéfices.",
+        "question_to_test": "quels critères environnementaux et climatiques doivent limiter un projet même lorsqu'il crée des revenus et emplois locaux?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.plq.energie_climat_ressources.position",
+      "actor_key": "plq",
+      "issue_key": "energie_climat_ressources",
+      "claim_type": "position_summary",
+      "statement": "Le PLQ inscrit la protection de l'environnement parmi ses valeurs, mais ses engagements de campagne retenus dans ce corpus sont plus détaillés sur productivité, logement et commerce que sur un plan énergétique complet.",
+      "provenance_class": "cautious_reconstruction",
+      "source_refs": [
+        "PLQ-01"
+      ],
+      "source_version_refs": [
+        "PLQ-01@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "la transition doit être compatible avec l'investissement, l'innovation et la compétitivité.",
+        "question_to_test": "quels objectifs chiffrés, quelles infrastructures et quels mécanismes de prix permettraient de distinguer une orientation générale d'un véritable plan d'exécution?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pq.energie_climat_ressources.position",
+      "actor_key": "pq",
+      "issue_key": "energie_climat_ressources",
+      "claim_type": "position_summary",
+      "statement": "Le PQ présente son plan environnement 2026-2034 comme une transition qui doit aussi enrichir le Québec et améliorer la qualité de vie, avec un accent sur l'efficacité et des mesures qu'il veut moins punitives pour les ménages.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PQ-02"
+      ],
+      "source_version_refs": [
+        "PQ-02@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une politique climatique durable doit créer des bénéfices économiques visibles et survivre aux changements d'humeur électorale.",
+        "question_to_test": "le rythme proposé suffit-il pour atteindre les objectifs climatiques tout en répondant à la croissance de la demande électrique?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pcq.energie_climat_ressources.position",
+      "actor_key": "pcq",
+      "issue_key": "energie_climat_ressources",
+      "claim_type": "position_summary",
+      "statement": "Le PCQ veut développer davantage certaines ressources fossiles québécoises, notamment le gaz naturel, et s'oppose à plusieurs mécanismes de tarification carbone.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PCQ-06",
+        "PCQ-01"
+      ],
+      "source_version_refs": [
+        "PCQ-06@baseline-2026-09-09",
+        "PCQ-01@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "produire localement une énergie actuellement importée pourrait améliorer la balance commerciale, la sécurité énergétique et les revenus.",
+        "question_to_test": "le bénéfice économique net demeure-t-il positif si l'on intègre les infrastructures, les risques de marché, les émissions et les coûts climatiques à long terme?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.qs.energie_climat_ressources.position",
+      "actor_key": "qs",
+      "issue_key": "energie_climat_ressources",
+      "claim_type": "position_summary",
+      "statement": "QS propose une transition plus rapide et davantage pilotée par l'investissement public, notamment un plan de plusieurs milliards sur dix ans pour le transport collectif.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "QS-04"
+      ],
+      "source_version_refs": [
+        "QS-04@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "les infrastructures déterminent les choix possibles des ménages; on ne peut réduire fortement l'usage de l'auto sans offrir une alternative pratique.",
+        "question_to_test": "comment financer et livrer assez vite de grands projets de transport alors que les coûts de construction et les délais d'infrastructure sont déjà élevés?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.ddq.energie_climat_ressources.position",
+      "actor_key": "ddq",
+      "issue_key": "energie_climat_ressources",
+      "claim_type": "position_summary",
+      "statement": "Le programme ne fixe ni rythme unique de transition ni liste définitive de grands projets. Il veut publier les évaluations, consulter les régions concernées et soumettre les choix structurants à des mécanismes citoyens.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "DDQ-01"
+      ],
+      "source_version_refs": [
+        "DDQ-01@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "les coûts territoriaux d'un barrage, d'une mine, d'une ligne de transport ou d'un projet énergétique exigent une légitimité locale et provinciale.",
+        "question_to_test": "comment éviter qu'un veto local systématique empêche une infrastructure dont les bénéfices sont largement distribués à l'échelle du Québec?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.caq.avenir_politique_quebec.position",
+      "actor_key": "caq",
+      "issue_key": "avenir_politique_quebec",
+      "claim_type": "position_summary",
+      "statement": "La CAQ défend un nationalisme autonomiste : augmenter la marge de manœuvre du Québec et agir plus directement dans ses champs d'intérêt sans faire de l'indépendance le projet gouvernemental.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "CAQ-10"
+      ],
+      "source_version_refs": [
+        "CAQ-10@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "le Québec peut obtenir des gains de pouvoir et défendre sa nation sans supporter les coûts et incertitudes d'une rupture constitutionnelle.",
+        "question_to_test": "jusqu'où l'autonomie peut-elle progresser lorsque les compétences et institutions fédérales restent juridiquement intactes et que les gouvernements fédéraux peuvent changer d'orientation?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.plq.avenir_politique_quebec.position",
+      "actor_key": "plq",
+      "issue_key": "avenir_politique_quebec",
+      "claim_type": "position_summary",
+      "statement": "Le PLQ est explicitement fédéraliste et présente la défense des intérêts du Québec à l'intérieur du Canada comme compatible avec une identité nationale forte.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PLQ-01"
+      ],
+      "source_version_refs": [
+        "PLQ-01@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "la fédération permet de conjuguer autonomie provinciale, marché et institutions communes, transferts et influence canadienne.",
+        "question_to_test": "quels mécanismes concrets empêchent que des priorités québécoises soient bloquées ou diluées lorsqu'elles entrent en conflit avec celles d'Ottawa ou d'autres provinces?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pq.avenir_politique_quebec.position",
+      "actor_key": "pq",
+      "issue_key": "avenir_politique_quebec",
+      "claim_type": "position_summary",
+      "statement": "Le PQ veut faire du Québec un pays indépendant et présente l'acquisition des compétences fiscales, diplomatiques, monétaires et constitutionnelles d'un État comme la solution durable à la dépendance fédérale.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PQ-08"
+      ],
+      "source_version_refs": [
+        "PQ-08@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une nation ne peut être pleinement responsable de ses résultats si un autre ordre de gouvernement conserve des pouvoirs structurants.",
+        "question_to_test": "quels coûts, actifs, dettes, ententes commerciales et arrangements institutionnels accompagneraient concrètement la transition, et comment gérer les intérêts autochtones et minoritaires?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pcq.avenir_politique_quebec.position",
+      "actor_key": "pcq",
+      "issue_key": "avenir_politique_quebec",
+      "claim_type": "position_summary",
+      "statement": "Le PCQ privilégie une autonomie provinciale renforcée, une constitution québécoise et des mécanismes visant à résister aux intrusions fédérales, sans faire de l'indépendance son objectif central.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PCQ-08",
+        "G-06"
+      ],
+      "source_version_refs": [
+        "PCQ-08@baseline-2026-09-09",
+        "G-06@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une province peut formaliser sa propre identité institutionnelle et défendre plus vigoureusement ses compétences sans quitter le Canada.",
+        "question_to_test": "quels éléments d'une constitution québécoise auraient un effet juridique réel sur Ottawa, compte tenu des limites de la procédure provinciale de modification constitutionnelle?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.qs.avenir_politique_quebec.position",
+      "actor_key": "qs",
+      "issue_key": "avenir_politique_quebec",
+      "claim_type": "position_summary",
+      "statement": "QS est indépendantiste, mais lie l'indépendance à une assemblée constituante et à une refondation sociale, écologique et démocratique, élaborée notamment avec les Premiers Peuples.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "QS-05"
+      ],
+      "source_version_refs": [
+        "QS-05@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "l'indépendance devrait être un processus constituant, pas seulement un transfert de compétences à l'appareil d'État existant.",
+        "question_to_test": "comment concilier l'ouverture du résultat d'une constituante avec l'objectif indépendantiste déjà affirmé par le parti?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.ddq.avenir_politique_quebec.position",
+      "actor_key": "ddq",
+      "issue_key": "avenir_politique_quebec",
+      "claim_type": "position_summary",
+      "statement": "Démocratie Directe Québec met d'abord de l'avant la souveraineté du peuple et une constituante citoyenne; elle ne présente pas dans son programme 2026 un résultat constitutionnel prédéterminé équivalent au projet indépendantiste du PQ.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "DDQ-01",
+        "G-06",
+        "G-07"
+      ],
+      "source_version_refs": [
+        "DDQ-01@baseline-2026-09-09",
+        "G-06@baseline-2026-09-09",
+        "G-07@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "l'ordre politique devrait être écrit par des citoyens et ratifié directement avant que les partis ne prétendent connaître le statut final voulu.",
+        "question_to_test": "quelles options la constituante aurait-elle réellement le pouvoir juridique de mettre en œuvre unilatéralement et lesquelles exigeraient négociation avec le Canada?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.caq.democratie_pouvoir_citoyen.position",
+      "actor_key": "caq",
+      "issue_key": "democratie_pouvoir_citoyen",
+      "claim_type": "position_summary",
+      "statement": "La CAQ demeure fondamentalement dans le modèle représentatif : un gouvernement élu reçoit un mandat pour agir, puis est jugé à l'élection suivante. Sa réforme institutionnelle récente met surtout l'accent sur l'efficacité administrative et la capacité du Québec à agir.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "CAQ-05",
+        "CAQ-10"
+      ],
+      "source_version_refs": [
+        "CAQ-05@baseline-2026-09-09",
+        "CAQ-10@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "gouverner exige des arbitrages continus, parfois techniques et urgents, qu'un exécutif responsable peut coordonner.",
+        "question_to_test": "quatre années entre les élections donnent-elles trop peu de moyens aux citoyens pour corriger une décision majeure qui n'avait pas été clairement annoncée en campagne?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.plq.democratie_pouvoir_citoyen.position",
+      "actor_key": "plq",
+      "issue_key": "democratie_pouvoir_citoyen",
+      "claim_type": "position_summary",
+      "statement": "Le PLQ privilégie les institutions représentatives et fédérales, tout en valorisant le régionalisme et des contrepoids institutionnels.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PLQ-01"
+      ],
+      "source_version_refs": [
+        "PLQ-01@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "la démocratie ne se réduit pas à la majorité instantanée; partis, parlement, tribunaux, municipalités et fédération créent des espaces de négociation et de protection.",
+        "question_to_test": "ces médiations protègent-elles suffisamment le citoyen ou produisent-elles une dilution de responsabilité où chacun peut attribuer l'échec à un autre niveau de gouvernement?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pq.democratie_pouvoir_citoyen.position",
+      "actor_key": "pq",
+      "issue_key": "democratie_pouvoir_citoyen",
+      "claim_type": "position_summary",
+      "statement": "Le PQ conserve un modèle parlementaire représentatif, mais ajoute un recours décisif au référendum pour l'indépendance et propose des mécanismes d'imputabilité comme un directeur parlementaire du budget.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PQ-05",
+        "PQ-08"
+      ],
+      "source_version_refs": [
+        "PQ-05@baseline-2026-09-09",
+        "PQ-08@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "certaines décisions fondatrices exigent un mandat populaire direct, tandis que la gestion courante exige un gouvernement responsable.",
+        "question_to_test": "quels autres enjeux, au-delà de la souveraineté, mériteraient le même degré de consentement direct et pourquoi?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.pcq.democratie_pouvoir_citoyen.position",
+      "actor_key": "pcq",
+      "issue_key": "democratie_pouvoir_citoyen",
+      "claim_type": "position_summary",
+      "statement": "Le PCQ veut réduire la centralisation provinciale en donnant davantage de pouvoir aux régions et en inscrivant des principes autonomistes dans une constitution québécoise.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "PCQ-08"
+      ],
+      "source_version_refs": [
+        "PCQ-08@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une décision prise plus près des citoyens est plus susceptible de refléter les réalités locales et de rendre le décideur identifiable.",
+        "question_to_test": "quelles compétences doivent rester communes pour préserver l'égalité des services et empêcher qu'une région transfère les coûts de ses décisions aux autres?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.qs.democratie_pouvoir_citoyen.position",
+      "actor_key": "qs",
+      "issue_key": "democratie_pouvoir_citoyen",
+      "claim_type": "position_summary",
+      "statement": "QS combine représentation parlementaire et démocratie constituante : son projet d'indépendance prévoit une assemblée constituante et une participation plus large à la refondation des institutions.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "QS-05"
+      ],
+      "source_version_refs": [
+        "QS-05@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "les règles fondamentales ne devraient pas être écrites uniquement par les élus qui en bénéficient.",
+        "question_to_test": "comment sélectionner les membres, encadrer le mandat, protéger les droits et assurer que la participation ne soit pas dominée par les groupes les plus organisés?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    },
+    {
+      "claim_key": "qc2026.ddq.democratie_pouvoir_citoyen.position",
+      "actor_key": "ddq",
+      "issue_key": "democratie_pouvoir_citoyen",
+      "claim_type": "position_summary",
+      "statement": "C'est le cœur de son programme : assemblée constituante de citoyens tirés au sort, référendum d'initiative citoyenne, mécanismes de révocation et d'imputabilité, comités citoyens, subsidiarité et outils numériques, avec contrôle d'admissibilité et protections relatives aux droits fondamentaux.",
+      "provenance_class": "faithful_reconstruction",
+      "source_refs": [
+        "DDQ-01",
+        "DDQ-02"
+      ],
+      "source_version_refs": [
+        "DDQ-01@baseline-2026-09-09",
+        "DDQ-02@baseline-2026-09-09"
+      ],
+      "observed_by_baseline": "2026-09-09",
+      "status": "baseline_observed",
+      "valid_from": null,
+      "valid_until": null,
+      "supersedes": [],
+      "analysis": {
+        "argument_central": "une élection périodique ne suffit pas à donner au peuple le dernier mot sur les décisions majeures.",
+        "question_to_test": "les seuils de signatures, le financement des campagnes, la formulation des questions, la fréquence des votes et le contrôle des droits déterminent-ils en pratique autant le pouvoir que le référendum lui-même?",
+        "attribution": "editorial_analysis_from_supplied_corpus"
+      }
+    }
+  ]
+}

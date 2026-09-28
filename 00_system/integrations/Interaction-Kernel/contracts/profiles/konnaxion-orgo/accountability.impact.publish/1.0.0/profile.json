@@ -1,0 +1,31 @@
+{
+  "id": "accountability.impact.publish",
+  "version": "1.0.0",
+  "class": "command",
+  "description": "Publish an aggregate operational impact update into Konnaxion.",
+  "source_systems": [
+    "orgo"
+  ],
+  "target_systems": [
+    "konnaxion"
+  ],
+  "target_capability": "impact-accountability",
+  "payload_schema": "payload.schema.json",
+  "authority": {
+    "required": false,
+    "accepted_kinds": [
+      "operational-accountability"
+    ]
+  },
+  "artifacts": {},
+  "delivery": {
+    "durability": "durable",
+    "idempotency": "required",
+    "ordering": "subject"
+  },
+  "response": {
+    "acceptance_receipt": "required",
+    "final_receipt": "required",
+    "outcome_events": []
+  }
+}

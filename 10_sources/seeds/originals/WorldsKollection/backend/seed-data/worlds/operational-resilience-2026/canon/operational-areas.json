@@ -1,0 +1,31 @@
+{
+  "schema": "kx-world-canon/1",
+  "world_key": "operational-resilience-2026",
+  "operational_areas": [
+    {
+      "key": "area_regional_core",
+      "name": "Regional Core",
+      "type": "coordination_area"
+    },
+    {
+      "key": "area_north_sector",
+      "name": "North Sector",
+      "type": "field_sector"
+    },
+    {
+      "key": "area_river_crossing",
+      "name": "River Crossing Corridor",
+      "type": "transport_corridor"
+    },
+    {
+      "key": "area_medical_corridor",
+      "name": "Medical Supply Corridor",
+      "type": "logistics_corridor"
+    },
+    {
+      "key": "area_network_ops",
+      "name": "Network Operations Zone",
+      "type": "digital_operational_area"
+    }
+  ]
+}

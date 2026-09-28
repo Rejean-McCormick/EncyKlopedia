@@ -1,0 +1,4974 @@
+{
+  "schema_version": "ethikos-ekoh-demo-sidecar/v1",
+  "scenario_key": "canada_quebec_public_debates_2026",
+  "scenario_title": "Débats publics Québec–Canada — instantané 2026",
+  "source_seed": "canada_quebec_public_debates_2026.json",
+  "purpose": "EkoH expertise profiles and topic relevance vectors for the Canada/Quebec Ethikos demonstration.",
+  "canonical_model_notes": {
+    "baseline_rule": "Ethikos source stances remain canonical source facts; EkoH-weighted outputs are declared advisory readings.",
+    "ekoh_role": "EkoH supplies expertise/ethics/domain/snapshot context; it is not the voting engine.",
+    "smart_vote_role": "Smart Vote publishes declared, reproducible derived readings and must keep the baseline visible.",
+    "profile_scale": "Normalized 0..1 DEMO calibration for this sidecar. A 0..10 display value is included only for human readability.",
+    "why_normalized": "The current repository contains numeric-scale drift between simulation documentation, multidimensional scoring code, and the current weight calculator. This sidecar therefore declares its own normalized scale instead of pretending the runtime scale is frozen.",
+    "ethics_policy": "All demo actors use neutral ethics_score=1.0. Expertise is demonstrated separately from moral scoring.",
+    "institution_rule": "Institutional accounts are tagged as institutional profiles and should be read through a separately declared institutional-expertise lens, not silently mixed with individual merit.",
+    "current_integration_gap": "The current Canada/Quebec seed has EthikosTopic/EthikosStance data but no Smart Vote Consultation objects. Topic relevance in this sidecar must be mapped into a declared reading/consultation layer before the current ConsultationRelevance weight calculator can consume it."
+  },
+  "domain_catalogue_subset": [
+    {
+      "code": "0111",
+      "name": "Education science"
+    },
+    {
+      "code": "0223",
+      "name": "Philosophy and ethics"
+    },
+    {
+      "code": "0231",
+      "name": "Language acquisition"
+    },
+    {
+      "code": "0311",
+      "name": "Economics"
+    },
+    {
+      "code": "0312",
+      "name": "Political sciences and civics"
+    },
+    {
+      "code": "0314",
+      "name": "Sociology and cultural studies"
+    },
+    {
+      "code": "0321",
+      "name": "Journalism and reporting"
+    },
+    {
+      "code": "0413",
+      "name": "Management and administration"
+    },
+    {
+      "code": "0421",
+      "name": "Law"
+    },
+    {
+      "code": "0521",
+      "name": "Environmental sciences"
+    },
+    {
+      "code": "0542",
+      "name": "Statistics"
+    },
+    {
+      "code": "0612",
+      "name": "Database and network design and administration"
+    },
+    {
+      "code": "0613",
+      "name": "Software and applications development and analysis"
+    },
+    {
+      "code": "0713",
+      "name": "Electricity and energy"
+    },
+    {
+      "code": "0722",
+      "name": "Materials (glass, paper, plastic and wood)"
+    },
+    {
+      "code": "0731",
+      "name": "Architecture and town planning"
+    },
+    {
+      "code": "092",
+      "name": "Welfare"
+    },
+    {
+      "code": "1032",
+      "name": "Protection of persons and property"
+    }
+  ],
+  "actor_profiles": [
+    {
+      "actor": "gov_canada",
+      "display_name": "Gouvernement du Canada",
+      "role": "federal_government",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "federal policy",
+        "intergovernmental affairs",
+        "public administration",
+        "international relations",
+        "program delivery"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.92,
+          "display_score_0_10": 9.2,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.9,
+          "display_score_0_10": 9.0,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.78,
+          "display_score_0_10": 7.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.72,
+          "display_score_0_10": 7.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "1032",
+          "domain_name": "Protection of persons and property",
+          "normalized_score": 0.68,
+          "display_score_0_10": 6.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.6,
+          "display_score_0_10": 6.0,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "normalized_score": 0.58,
+          "display_score_0_10": 5.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "normalized_score": 0.55,
+          "display_score_0_10": 5.5,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "normalized_score": 0.52,
+          "display_score_0_10": 5.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0713",
+          "domain_name": "Electricity and energy",
+          "normalized_score": 0.5,
+          "display_score_0_10": 5.0,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0111",
+          "domain_name": "Education science",
+          "normalized_score": 0.48,
+          "display_score_0_10": 4.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "federal_deficit",
+            "value": -1
+          },
+          {
+            "topic": "canada_us_autonomy",
+            "value": 2
+          },
+          {
+            "topic": "support_ukraine",
+            "value": 3
+          },
+          {
+            "topic": "middle_east_policy",
+            "value": 1
+          },
+          {
+            "topic": "regulatory_delays",
+            "value": 2
+          },
+          {
+            "topic": "justice_efficiency",
+            "value": 1
+          },
+          {
+            "topic": "immigration_capacity",
+            "value": 1
+          },
+          {
+            "topic": "plastic_waste",
+            "value": 2
+          },
+          {
+            "topic": "social_cohesion",
+            "value": -2
+          },
+          {
+            "topic": "clean_energy_climate",
+            "value": 2
+          },
+          {
+            "topic": "tech_sovereignty",
+            "value": 2
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "federal_deficit",
+            "argument_key": "deficit_gov_investment"
+          },
+          {
+            "topic": "canada_us_autonomy",
+            "argument_key": "us_gov_diversify"
+          },
+          {
+            "topic": "support_ukraine",
+            "argument_key": "ukraine_gov_support"
+          },
+          {
+            "topic": "middle_east_policy",
+            "argument_key": "mideast_gov_law_diplomacy"
+          },
+          {
+            "topic": "regulatory_delays",
+            "argument_key": "reg_gov_one_review"
+          },
+          {
+            "topic": "justice_efficiency",
+            "argument_key": "justice_gov_delay_remedies"
+          },
+          {
+            "topic": "immigration_capacity",
+            "argument_key": "immigration_gov_rebalance"
+          },
+          {
+            "topic": "plastic_waste",
+            "argument_key": "plastic_gov_regulation"
+          },
+          {
+            "topic": "social_cohesion",
+            "argument_key": "cohesion_canada_pluralism"
+          },
+          {
+            "topic": "clean_energy_climate",
+            "argument_key": "climate_canada_electrify"
+          },
+          {
+            "topic": "tech_sovereignty",
+            "argument_key": "tech_gov_ai_strategy"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "cpc",
+      "display_name": "Parti conservateur du Canada",
+      "role": "federal_official_opposition",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "federal parliamentary politics",
+        "economic policy",
+        "public safety",
+        "regulatory policy"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.76,
+          "display_score_0_10": 7.6,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.67,
+          "display_score_0_10": 6.7,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.58,
+          "display_score_0_10": 5.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "1032",
+          "domain_name": "Protection of persons and property",
+          "normalized_score": 0.54,
+          "display_score_0_10": 5.4,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.48,
+          "display_score_0_10": 4.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.44,
+          "display_score_0_10": 4.4,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0713",
+          "domain_name": "Electricity and energy",
+          "normalized_score": 0.42,
+          "display_score_0_10": 4.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "normalized_score": 0.3,
+          "display_score_0_10": 3.0,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "normalized_score": 0.25,
+          "display_score_0_10": 2.5,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "federal_deficit",
+            "value": 3
+          },
+          {
+            "topic": "canada_us_autonomy",
+            "value": -1
+          },
+          {
+            "topic": "support_ukraine",
+            "value": 3
+          },
+          {
+            "topic": "middle_east_policy",
+            "value": -3
+          },
+          {
+            "topic": "wealth_inequality",
+            "value": -3
+          },
+          {
+            "topic": "regulatory_delays",
+            "value": 3
+          },
+          {
+            "topic": "justice_efficiency",
+            "value": 3
+          },
+          {
+            "topic": "immigration_capacity",
+            "value": 3
+          },
+          {
+            "topic": "plastic_waste",
+            "value": -3
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "federal_deficit",
+            "argument_key": "deficit_cpc_restraint"
+          },
+          {
+            "topic": "canada_us_autonomy",
+            "argument_key": "us_cpc_restore_trade"
+          },
+          {
+            "topic": "support_ukraine",
+            "argument_key": "ukraine_cpc_support"
+          },
+          {
+            "topic": "middle_east_policy",
+            "argument_key": "mideast_cpc_security_alignment"
+          },
+          {
+            "topic": "wealth_inequality",
+            "argument_key": "wealth_cpc_growth"
+          },
+          {
+            "topic": "regulatory_delays",
+            "argument_key": "reg_cpc_red_tape"
+          },
+          {
+            "topic": "justice_efficiency",
+            "argument_key": "justice_cpc_bail"
+          },
+          {
+            "topic": "immigration_capacity",
+            "argument_key": "immigration_cpc_lower"
+          },
+          {
+            "topic": "plastic_waste",
+            "argument_key": "plastic_cpc_cost"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "ndp",
+      "display_name": "Nouveau Parti démocratique",
+      "role": "federal_political_party",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "federal parliamentary politics",
+        "labour and social policy",
+        "redistribution",
+        "international law advocacy"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.74,
+          "display_score_0_10": 7.4,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "092",
+          "domain_name": "Welfare",
+          "normalized_score": 0.72,
+          "display_score_0_10": 7.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.66,
+          "display_score_0_10": 6.6,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.6,
+          "display_score_0_10": 6.0,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.48,
+          "display_score_0_10": 4.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.48,
+          "display_score_0_10": 4.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "normalized_score": 0.38,
+          "display_score_0_10": 3.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "canada_us_autonomy",
+            "value": 3
+          },
+          {
+            "topic": "support_ukraine",
+            "value": 2
+          },
+          {
+            "topic": "middle_east_policy",
+            "value": 3
+          },
+          {
+            "topic": "wealth_inequality",
+            "value": 3
+          },
+          {
+            "topic": "immigration_capacity",
+            "value": -1
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "canada_us_autonomy",
+            "argument_key": "us_ndp_independence"
+          },
+          {
+            "topic": "support_ukraine",
+            "argument_key": "ukraine_ndp_support"
+          },
+          {
+            "topic": "middle_east_policy",
+            "argument_key": "mideast_ndp_deescalation"
+          },
+          {
+            "topic": "wealth_inequality",
+            "argument_key": "wealth_ndp_tax"
+          },
+          {
+            "topic": "immigration_capacity",
+            "argument_key": "immigration_ndp_status"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "pbo",
+      "display_name": "Directeur parlementaire du budget",
+      "role": "independent_fiscal_officer",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": true,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "fiscal analysis",
+        "budget projections",
+        "public finance",
+        "parliamentary fiscal oversight"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.98,
+          "display_score_0_10": 9.8,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "normalized_score": 0.94,
+          "display_score_0_10": 9.4,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.88,
+          "display_score_0_10": 8.8,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.76,
+          "display_score_0_10": 7.6,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "federal_deficit",
+            "value": 0
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "federal_deficit",
+            "argument_key": "deficit_pbo_scrutiny"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "statcan",
+      "display_name": "Statistique Canada",
+      "role": "official_statistics_agency",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": true,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "official statistics",
+        "demography",
+        "productivity measurement",
+        "household wealth",
+        "data infrastructure"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "normalized_score": 0.99,
+          "display_score_0_10": 9.9,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.88,
+          "display_score_0_10": 8.8,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.85,
+          "display_score_0_10": 8.5,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0612",
+          "domain_name": "Database and network design and administration",
+          "normalized_score": 0.72,
+          "display_score_0_10": 7.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "normalized_score": 0.62,
+          "display_score_0_10": 6.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.58,
+          "display_score_0_10": 5.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "wealth_inequality",
+            "value": 0
+          },
+          {
+            "topic": "tech_sovereignty",
+            "value": 0
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "wealth_inequality",
+            "argument_key": "wealth_statcan_gap"
+          },
+          {
+            "topic": "tech_sovereignty",
+            "argument_key": "tech_statcan_productivity"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "gov_quebec",
+      "display_name": "Gouvernement du Québec",
+      "role": "provincial_government",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "provincial policy",
+        "francization",
+        "immigration administration",
+        "hydroelectricity",
+        "public services"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.9,
+          "display_score_0_10": 9.0,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.88,
+          "display_score_0_10": 8.8,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.72,
+          "display_score_0_10": 7.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.68,
+          "display_score_0_10": 6.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.67,
+          "display_score_0_10": 6.7,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0231",
+          "domain_name": "Language acquisition",
+          "normalized_score": 0.65,
+          "display_score_0_10": 6.5,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0713",
+          "domain_name": "Electricity and energy",
+          "normalized_score": 0.62,
+          "display_score_0_10": 6.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "092",
+          "domain_name": "Welfare",
+          "normalized_score": 0.6,
+          "display_score_0_10": 6.0,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "normalized_score": 0.55,
+          "display_score_0_10": 5.5,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "immigration_capacity",
+            "value": 2
+          },
+          {
+            "topic": "social_cohesion",
+            "value": 3
+          },
+          {
+            "topic": "clean_energy_climate",
+            "value": 3
+          },
+          {
+            "topic": "justice_efficiency",
+            "value": 0
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "immigration_capacity",
+            "argument_key": "immigration_quebec_capacity"
+          },
+          {
+            "topic": "social_cohesion",
+            "argument_key": "cohesion_quebec_common_culture"
+          },
+          {
+            "topic": "clean_energy_climate",
+            "argument_key": "climate_quebec_green_plan"
+          },
+          {
+            "topic": "justice_efficiency",
+            "argument_key": "justice_quebec_access_digital"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "quebec_education",
+      "display_name": "Gouvernement du Québec — Éducation",
+      "role": "provincial_education_authority",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": true,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "education policy",
+        "digital competency",
+        "AI in education",
+        "school governance"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0111",
+          "domain_name": "Education science",
+          "normalized_score": 0.96,
+          "display_score_0_10": 9.6,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.82,
+          "display_score_0_10": 8.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.62,
+          "display_score_0_10": 6.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "normalized_score": 0.55,
+          "display_score_0_10": 5.5,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0223",
+          "domain_name": "Philosophy and ethics",
+          "normalized_score": 0.48,
+          "display_score_0_10": 4.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.38,
+          "display_score_0_10": 3.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "ai_education",
+            "value": 2
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "ai_education",
+            "argument_key": "aiedu_quebec_responsible"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "gov_alberta",
+      "display_name": "Gouvernement de l'Alberta",
+      "role": "provincial_government",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "provincial policy",
+        "energy policy",
+        "industrial emissions",
+        "carbon capture"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.82,
+          "display_score_0_10": 8.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0713",
+          "domain_name": "Electricity and energy",
+          "normalized_score": 0.82,
+          "display_score_0_10": 8.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.78,
+          "display_score_0_10": 7.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.7,
+          "display_score_0_10": 7.0,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "normalized_score": 0.55,
+          "display_score_0_10": 5.5,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.42,
+          "display_score_0_10": 4.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "clean_energy_climate",
+            "value": -1
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "clean_energy_climate",
+            "argument_key": "climate_alberta_technology_oil"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "justice_canada",
+      "display_name": "Justice Canada — accès à la justice",
+      "role": "justice_policy_and_research",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": true,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "justice policy",
+        "access to justice",
+        "legal aid",
+        "criminal procedure",
+        "justice system research"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.97,
+          "display_score_0_10": 9.7,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.82,
+          "display_score_0_10": 8.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.78,
+          "display_score_0_10": 7.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.58,
+          "display_score_0_10": 5.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "1032",
+          "domain_name": "Protection of persons and property",
+          "normalized_score": 0.54,
+          "display_score_0_10": 5.4,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "justice_efficiency",
+            "value": 0
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "justice_efficiency",
+            "argument_key": "justice_access_people_centered"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "ecojustice",
+      "display_name": "Ecojustice",
+      "role": "environmental_legal_advocacy",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "environmental law",
+        "regulatory litigation",
+        "pollution policy"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.91,
+          "display_score_0_10": 9.1,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "normalized_score": 0.91,
+          "display_score_0_10": 9.1,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.62,
+          "display_score_0_10": 6.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.42,
+          "display_score_0_10": 4.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "plastic_waste",
+            "value": 3
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "plastic_waste",
+            "argument_key": "plastic_ecojustice_stronger"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "cci",
+      "display_name": "Council of Canadian Innovators",
+      "role": "technology_industry_advocacy",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "Canadian technology firms",
+        "innovation policy",
+        "intellectual property",
+        "data sovereignty",
+        "scale-up economics"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "normalized_score": 0.93,
+          "display_score_0_10": 9.3,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.88,
+          "display_score_0_10": 8.8,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.82,
+          "display_score_0_10": 8.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0612",
+          "domain_name": "Database and network design and administration",
+          "normalized_score": 0.82,
+          "display_score_0_10": 8.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.7,
+          "display_score_0_10": 7.0,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.56,
+          "display_score_0_10": 5.6,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "normalized_score": 0.42,
+          "display_score_0_10": 4.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "tech_sovereignty",
+            "value": 3
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "tech_sovereignty",
+            "argument_key": "tech_cci_scale_ip"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "ai_advisory",
+      "display_name": "Conseil consultatif du Canada sur l'intelligence artificielle",
+      "role": "ai_policy_advisory_body",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": true,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "AI policy",
+        "AI literacy",
+        "responsible AI",
+        "skills",
+        "commercial adoption"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "normalized_score": 0.96,
+          "display_score_0_10": 9.6,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.8,
+          "display_score_0_10": 8.0,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0612",
+          "domain_name": "Database and network design and administration",
+          "normalized_score": 0.78,
+          "display_score_0_10": 7.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0223",
+          "domain_name": "Philosophy and ethics",
+          "normalized_score": 0.73,
+          "display_score_0_10": 7.3,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "normalized_score": 0.58,
+          "display_score_0_10": 5.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0111",
+          "domain_name": "Education science",
+          "normalized_score": 0.55,
+          "display_score_0_10": 5.5,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.52,
+          "display_score_0_10": 5.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.48,
+          "display_score_0_10": 4.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "ai_education",
+            "value": 2
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "ai_education",
+            "argument_key": "aiedu_advisory_literacy"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "pq",
+      "display_name": "Parti Québécois",
+      "role": "provincial_party",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "Quebec nationalism",
+        "language policy",
+        "immigration policy",
+        "climate policy"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.76,
+          "display_score_0_10": 7.6,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.71,
+          "display_score_0_10": 7.1,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0231",
+          "domain_name": "Language acquisition",
+          "normalized_score": 0.7,
+          "display_score_0_10": 7.0,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.53,
+          "display_score_0_10": 5.3,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "normalized_score": 0.47,
+          "display_score_0_10": 4.7,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.45,
+          "display_score_0_10": 4.5,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "immigration_capacity",
+            "value": 3
+          },
+          {
+            "topic": "social_cohesion",
+            "value": 3
+          },
+          {
+            "topic": "clean_energy_climate",
+            "value": 3
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "immigration_capacity",
+            "argument_key": "immigration_pq_lower"
+          },
+          {
+            "topic": "social_cohesion",
+            "argument_key": "cohesion_pq_common_nation"
+          },
+          {
+            "topic": "clean_energy_climate",
+            "argument_key": "climate_pq_transition"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "plq",
+      "display_name": "Parti libéral du Québec",
+      "role": "provincial_party",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "Quebec parliamentary politics",
+        "business regulation",
+        "regional immigration",
+        "francization"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.74,
+          "display_score_0_10": 7.4,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.67,
+          "display_score_0_10": 6.7,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.62,
+          "display_score_0_10": 6.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0231",
+          "domain_name": "Language acquisition",
+          "normalized_score": 0.5,
+          "display_score_0_10": 5.0,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.46,
+          "display_score_0_10": 4.6,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.4,
+          "display_score_0_10": 4.0,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "regulatory_delays",
+            "value": 3
+          },
+          {
+            "topic": "immigration_capacity",
+            "value": 1
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "regulatory_delays",
+            "argument_key": "reg_plq_two_for_one"
+          },
+          {
+            "topic": "immigration_capacity",
+            "argument_key": "immigration_plq_regional_capacity"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "qs",
+      "display_name": "Québec solidaire",
+      "role": "provincial_party",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "redistribution",
+        "social policy",
+        "climate transition",
+        "public transit"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.72,
+          "display_score_0_10": 7.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.7,
+          "display_score_0_10": 7.0,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "092",
+          "domain_name": "Welfare",
+          "normalized_score": 0.68,
+          "display_score_0_10": 6.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "normalized_score": 0.64,
+          "display_score_0_10": 6.4,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.58,
+          "display_score_0_10": 5.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.42,
+          "display_score_0_10": 4.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "wealth_inequality",
+            "value": 3
+          },
+          {
+            "topic": "clean_energy_climate",
+            "value": 3
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "wealth_inequality",
+            "argument_key": "wealth_qs_redistribution"
+          },
+          {
+            "topic": "clean_energy_climate",
+            "argument_key": "climate_qs_just_transition"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "bq",
+      "display_name": "Bloc Québécois",
+      "role": "federal_party_quebec",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "Quebec federal representation",
+        "Canada-US relations",
+        "language policy",
+        "immigration jurisdiction"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.77,
+          "display_score_0_10": 7.7,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0231",
+          "domain_name": "Language acquisition",
+          "normalized_score": 0.68,
+          "display_score_0_10": 6.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.68,
+          "display_score_0_10": 6.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.55,
+          "display_score_0_10": 5.5,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.48,
+          "display_score_0_10": 4.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "canada_us_autonomy",
+            "value": 2
+          },
+          {
+            "topic": "support_ukraine",
+            "value": 3
+          },
+          {
+            "topic": "immigration_capacity",
+            "value": 2
+          },
+          {
+            "topic": "social_cohesion",
+            "value": 3
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "canada_us_autonomy",
+            "argument_key": "us_bq_quebec_voice"
+          },
+          {
+            "topic": "support_ukraine",
+            "argument_key": "ukraine_bq_support"
+          },
+          {
+            "topic": "immigration_capacity",
+            "argument_key": "immigration_bq_quebec_control"
+          },
+          {
+            "topic": "social_cohesion",
+            "argument_key": "cohesion_bq_quebec_model"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "cpq",
+      "display_name": "Conseil du patronat du Québec",
+      "role": "employer_association",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "employer policy",
+        "business regulation",
+        "competitiveness",
+        "labour market"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.93,
+          "display_score_0_10": 9.3,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.83,
+          "display_score_0_10": 8.3,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.61,
+          "display_score_0_10": 6.1,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.48,
+          "display_score_0_10": 4.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "normalized_score": 0.42,
+          "display_score_0_10": 4.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "regulatory_delays",
+            "value": 3
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "regulatory_delays",
+            "argument_key": "reg_cpq_permitting"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "ftq",
+      "display_name": "Fédération des travailleurs et travailleuses du Québec (FTQ)",
+      "role": "labour_union",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "labour relations",
+        "worker interests",
+        "public services",
+        "inequality",
+        "collective bargaining"
+      ],
+      "expertise": [
+        {
+          "domain_code": "092",
+          "domain_name": "Welfare",
+          "normalized_score": 0.84,
+          "display_score_0_10": 8.4,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.78,
+          "display_score_0_10": 7.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.68,
+          "display_score_0_10": 6.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.64,
+          "display_score_0_10": 6.4,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.58,
+          "display_score_0_10": 5.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "wealth_inequality",
+            "value": 2
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "wealth_inequality",
+            "argument_key": "wealth_ftq_services"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "barreau_qc",
+      "display_name": "Barreau du Québec",
+      "role": "professional_order",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "legal profession",
+        "access to justice",
+        "legal education",
+        "court efficiency"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.99,
+          "display_score_0_10": 9.9,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.66,
+          "display_score_0_10": 6.6,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.55,
+          "display_score_0_10": 5.5,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "1032",
+          "domain_name": "Protection of persons and property",
+          "normalized_score": 0.5,
+          "display_score_0_10": 5.0,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "justice_efficiency",
+            "value": -1
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "justice_efficiency",
+            "argument_key": "justice_barreau_access"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "equiterre_qc",
+      "display_name": "Équiterre",
+      "role": "environmental_civil_society",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "climate policy",
+        "plastic reduction",
+        "sustainable consumption",
+        "carbon markets"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "normalized_score": 0.94,
+          "display_score_0_10": 9.4,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.68,
+          "display_score_0_10": 6.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0713",
+          "domain_name": "Electricity and energy",
+          "normalized_score": 0.58,
+          "display_score_0_10": 5.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0722",
+          "domain_name": "Materials (glass, paper, plastic and wood)",
+          "normalized_score": 0.56,
+          "display_score_0_10": 5.6,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.48,
+          "display_score_0_10": 4.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.47,
+          "display_score_0_10": 4.7,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.46,
+          "display_score_0_10": 4.6,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "regulatory_delays",
+            "value": -2
+          },
+          {
+            "topic": "plastic_waste",
+            "value": 3
+          },
+          {
+            "topic": "clean_energy_climate",
+            "value": 3
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "regulatory_delays",
+            "argument_key": "reg_equiterre_safeguards"
+          },
+          {
+            "topic": "plastic_waste",
+            "argument_key": "plastic_equiterre_producer"
+          },
+          {
+            "topic": "clean_energy_climate",
+            "argument_key": "climate_equiterre_stronger"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "apnql",
+      "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+      "role": "first_nations_political_organization",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "First Nations governance",
+        "territorial rights",
+        "consultation and consent",
+        "intergovernmental relations",
+        "land stewardship"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.92,
+          "display_score_0_10": 9.2,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.88,
+          "display_score_0_10": 8.8,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.68,
+          "display_score_0_10": 6.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "normalized_score": 0.65,
+          "display_score_0_10": 6.5,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.52,
+          "display_score_0_10": 5.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "regulatory_delays",
+            "value": -3
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "regulatory_delays",
+            "argument_key": "reg_apnql_consultation"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "fqppu",
+      "display_name": "Fédération québécoise des professeures et professeurs d'université (FQPPU)",
+      "role": "higher_education_federation",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "higher education",
+        "academic governance",
+        "faculty working conditions",
+        "research",
+        "AI in universities"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0111",
+          "domain_name": "Education science",
+          "normalized_score": 0.91,
+          "display_score_0_10": 9.1,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0223",
+          "domain_name": "Philosophy and ethics",
+          "normalized_score": 0.62,
+          "display_score_0_10": 6.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.61,
+          "display_score_0_10": 6.1,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.58,
+          "display_score_0_10": 5.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "normalized_score": 0.48,
+          "display_score_0_10": 4.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "normalized_score": 0.47,
+          "display_score_0_10": 4.7,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "ai_education",
+            "value": 0
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "ai_education",
+            "argument_key": "aiedu_fqppu_governance"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "unesco",
+      "display_name": "UNESCO — éducation et IA",
+      "role": "international_standard_setter",
+      "profile_kind": "institutional",
+      "legacy_is_ethikos_elite": false,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "institutional_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "international education standards",
+        "AI and education",
+        "ethics",
+        "culture",
+        "multilingualism"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0111",
+          "domain_name": "Education science",
+          "normalized_score": 0.94,
+          "display_score_0_10": 9.4,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0223",
+          "domain_name": "Philosophy and ethics",
+          "normalized_score": 0.83,
+          "display_score_0_10": 8.3,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.78,
+          "display_score_0_10": 7.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.75,
+          "display_score_0_10": 7.5,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0231",
+          "domain_name": "Language acquisition",
+          "normalized_score": 0.66,
+          "display_score_0_10": 6.6,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "normalized_score": 0.57,
+          "display_score_0_10": 5.7,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "normalized_score": 0.47,
+          "display_score_0_10": 4.7,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_seed_role_and_contribution_scope"
+        }
+      ],
+      "seed_participation": {
+        "stances": [
+          {
+            "topic": "ai_education",
+            "value": 1
+          }
+        ],
+        "arguments": [
+          {
+            "topic": "ai_education",
+            "argument_key": "aiedu_unesco_human_centered"
+          }
+        ]
+      }
+    },
+    {
+      "actor": "rejean_mccormick",
+      "display_name": "Réjean McCormick",
+      "role": "technology_systems_architect",
+      "profile_kind": "individual",
+      "legacy_is_ethikos_elite": null,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "individual_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "software architecture",
+        "AI systems",
+        "systems thinking",
+        "knowledge infrastructure",
+        "mechanical/systemic modelling",
+        "technology strategy"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "normalized_score": 0.98,
+          "display_score_0_10": 9.8,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0612",
+          "domain_name": "Database and network design and administration",
+          "normalized_score": 0.93,
+          "display_score_0_10": 9.3,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0713",
+          "domain_name": "Electricity and energy",
+          "normalized_score": 0.72,
+          "display_score_0_10": 7.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.68,
+          "display_score_0_10": 6.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "normalized_score": 0.65,
+          "display_score_0_10": 6.5,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.52,
+          "display_score_0_10": 5.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.5,
+          "display_score_0_10": 5.0,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.48,
+          "display_score_0_10": 4.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0223",
+          "domain_name": "Philosophy and ethics",
+          "normalized_score": 0.38,
+          "display_score_0_10": 3.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.18,
+          "display_score_0_10": 1.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        }
+      ],
+      "seed_participation": {
+        "stances": [],
+        "arguments": []
+      },
+      "note": "Demo calibration from the canonical character description supplied for this scenario; not an externally verified credential record."
+    },
+    {
+      "actor": "king_klown",
+      "display_name": "King Klown",
+      "role": "civic_narrative_mobilizer",
+      "profile_kind": "individual",
+      "legacy_is_ethikos_elite": null,
+      "ethics_score": 1.0,
+      "ethics_policy": "neutral_for_demo; do not infer moral worth from ideology, office, or character traits",
+      "confidentiality_level": "public",
+      "lens_eligibility": [
+        "baseline",
+        "individual_expertise_advisory"
+      ],
+      "specialization_tags": [
+        "civic mobilization",
+        "public narrative",
+        "political performance",
+        "social movements",
+        "cultural expression",
+        "campaigning"
+      ],
+      "expertise": [
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "normalized_score": 0.88,
+          "display_score_0_10": 8.8,
+          "confidence": "high",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0321",
+          "domain_name": "Journalism and reporting",
+          "normalized_score": 0.78,
+          "display_score_0_10": 7.8,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "normalized_score": 0.7,
+          "display_score_0_10": 7.0,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0223",
+          "domain_name": "Philosophy and ethics",
+          "normalized_score": 0.62,
+          "display_score_0_10": 6.2,
+          "confidence": "medium",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0231",
+          "domain_name": "Language acquisition",
+          "normalized_score": 0.42,
+          "display_score_0_10": 4.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "normalized_score": 0.28,
+          "display_score_0_10": 2.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "normalized_score": 0.25,
+          "display_score_0_10": 2.5,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "normalized_score": 0.18,
+          "display_score_0_10": 1.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "normalized_score": 0.12,
+          "display_score_0_10": 1.2,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        },
+        {
+          "domain_code": "0612",
+          "domain_name": "Database and network design and administration",
+          "normalized_score": 0.08,
+          "display_score_0_10": 0.8,
+          "confidence": "low",
+          "evidence_status": "demo_inference_from_user_supplied_character_canon"
+        }
+      ],
+      "seed_participation": {
+        "stances": [],
+        "arguments": []
+      },
+      "note": "Technical expertise is intentionally low. Righteousness/candour are narrative traits and are not converted into an ethics multiplier.",
+      "conflict_context": {
+        "topics": [
+          "trump_service_access"
+        ],
+        "description": "Strong prior anti-Trump and anti-capitalist advocacy; recusal should be explicit when this topic is read through an advisory lens."
+      }
+    }
+  ],
+  "topic_domain_relevance": [
+    {
+      "topic": "federal_deficit",
+      "title": "[DEMO] Le Canada devrait-il réduire rapidement le déficit fédéral, même si cela limite certains investissements publics?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.4,
+          "percent": 40.0
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "092",
+          "domain_name": "Welfare",
+          "weight": 0.1,
+          "percent": 10.0
+        }
+      ]
+    },
+    {
+      "topic": "canada_us_autonomy",
+      "title": "[DEMO] Le Canada devrait-il réduire fortement sa dépendance envers les États-Unis, même au prix de coûts à court terme?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.35,
+          "percent": 35.0
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.25,
+          "percent": 25.0
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0713",
+          "domain_name": "Electricity and energy",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.05,
+          "percent": 5.0
+        }
+      ]
+    },
+    {
+      "topic": "support_ukraine",
+      "title": "[DEMO] Le Canada devrait-il maintenir ou augmenter son soutien militaire, financier et diplomatique à l'Ukraine?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.35,
+          "percent": 35.0
+        },
+        {
+          "domain_code": "1032",
+          "domain_name": "Protection of persons and property",
+          "weight": 0.25,
+          "percent": 25.0
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "weight": 0.1,
+          "percent": 10.0
+        }
+      ]
+    },
+    {
+      "topic": "middle_east_policy",
+      "title": "[DEMO] Le Canada devrait-il adopter au Moyen-Orient une ligne plus indépendante des États-Unis et davantage centrée sur le droit international?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.35,
+          "percent": 35.0
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.3,
+          "percent": 30.0
+        },
+        {
+          "domain_code": "1032",
+          "domain_name": "Protection of persons and property",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "weight": 0.1,
+          "percent": 10.0
+        }
+      ]
+    },
+    {
+      "topic": "wealth_inequality",
+      "title": "[DEMO] Le Canada devrait-il taxer davantage les grandes fortunes et profits pour réduire les inégalités et le coût de la vie?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.4,
+          "percent": 40.0
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "092",
+          "domain_name": "Welfare",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "weight": 0.1,
+          "percent": 10.0
+        }
+      ]
+    },
+    {
+      "topic": "regulatory_delays",
+      "title": "[DEMO] Faut-il accélérer fortement les approbations de projets en réduisant les chevauchements réglementaires et les délais de décision?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "weight": 0.25,
+          "percent": 25.0
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0713",
+          "domain_name": "Electricity and energy",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "weight": 0.05,
+          "percent": 5.0
+        }
+      ]
+    },
+    {
+      "topic": "justice_efficiency",
+      "title": "[DEMO] Le système de justice devrait-il prioriser davantage la rapidité et la sécurité publique, même si cela réduit certaines marges procédurales?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.5,
+          "percent": 50.0
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "1032",
+          "domain_name": "Protection of persons and property",
+          "weight": 0.1,
+          "percent": 10.0
+        }
+      ]
+    },
+    {
+      "topic": "ai_education",
+      "title": "[DEMO] L'école et l'enseignement supérieur devraient-ils intégrer largement l'IA générative dans l'apprentissage et l'évaluation, sous un cadre éthique?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0111",
+          "domain_name": "Education science",
+          "weight": 0.3,
+          "percent": 30.0
+        },
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "weight": 0.25,
+          "percent": 25.0
+        },
+        {
+          "domain_code": "0223",
+          "domain_name": "Philosophy and ethics",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "weight": 0.1,
+          "percent": 10.0
+        }
+      ]
+    },
+    {
+      "topic": "immigration_capacity",
+      "title": "[DEMO] Le Canada et le Québec devraient-ils réduire davantage l'immigration jusqu'à ce que logement, santé et infrastructures rattrapent la croissance?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0731",
+          "domain_name": "Architecture and town planning",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "092",
+          "domain_name": "Welfare",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "weight": 0.1,
+          "percent": 10.0
+        }
+      ]
+    },
+    {
+      "topic": "plastic_waste",
+      "title": "[DEMO] Faut-il durcir les interdictions et la responsabilité des producteurs pour réduire les plastiques et déchets non biodégradables?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "weight": 0.4,
+          "percent": 40.0
+        },
+        {
+          "domain_code": "0722",
+          "domain_name": "Materials (glass, paper, plastic and wood)",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "weight": 0.1,
+          "percent": 10.0
+        }
+      ]
+    },
+    {
+      "topic": "social_cohesion",
+      "title": "[DEMO] Le Québec devrait-il miser davantage sur une culture commune et la francisation que sur un modèle multiculturaliste pour renforcer la cohésion sociale?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "weight": 0.35,
+          "percent": 35.0
+        },
+        {
+          "domain_code": "0231",
+          "domain_name": "Language acquisition",
+          "weight": 0.25,
+          "percent": 25.0
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0111",
+          "domain_name": "Education science",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.1,
+          "percent": 10.0
+        }
+      ]
+    },
+    {
+      "topic": "clean_energy_climate",
+      "title": "[DEMO] Le Canada devrait-il accélérer la transition vers l'énergie propre même si cela impose des coûts aux secteurs fossiles à court terme?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0521",
+          "domain_name": "Environmental sciences",
+          "weight": 0.35,
+          "percent": 35.0
+        },
+        {
+          "domain_code": "0713",
+          "domain_name": "Electricity and energy",
+          "weight": 0.25,
+          "percent": 25.0
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0542",
+          "domain_name": "Statistics",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.05,
+          "percent": 5.0
+        }
+      ]
+    },
+    {
+      "topic": "tech_sovereignty",
+      "title": "[DEMO] Le Canada devrait-il adopter une politique industrielle plus interventionniste pour conserver au pays l'IA, la propriété intellectuelle, les données et les entreprises technologiques?",
+      "status": "current_seed",
+      "domains": [
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "weight": 0.25,
+          "percent": 25.0
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0612",
+          "domain_name": "Database and network design and administration",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0713",
+          "domain_name": "Electricity and energy",
+          "weight": 0.1,
+          "percent": 10.0
+        }
+      ]
+    }
+  ],
+  "proposed_topic_domain_relevance": [
+    {
+      "topic": "canadian_ai_infrastructure",
+      "title": "[PROPOSED] Canadian dedicated AI infrastructure model",
+      "status": "proposed_from_narrative_arc",
+      "domains": [
+        {
+          "domain_code": "0613",
+          "domain_name": "Software and applications development and analysis",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0713",
+          "domain_name": "Electricity and energy",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0612",
+          "domain_name": "Database and network design and administration",
+          "weight": 0.15,
+          "percent": 15.0
+        },
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0413",
+          "domain_name": "Management and administration",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "weight": 0.05,
+          "percent": 5.0
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.05,
+          "percent": 5.0
+        }
+      ]
+    },
+    {
+      "topic": "trump_service_access",
+      "title": "[PROPOSED] Do we exclude Trump from our services?",
+      "status": "proposed_from_narrative_arc",
+      "domains": [
+        {
+          "domain_code": "0312",
+          "domain_name": "Political sciences and civics",
+          "weight": 0.3,
+          "percent": 30.0
+        },
+        {
+          "domain_code": "0421",
+          "domain_name": "Law",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "1032",
+          "domain_name": "Protection of persons and property",
+          "weight": 0.2,
+          "percent": 20.0
+        },
+        {
+          "domain_code": "0311",
+          "domain_name": "Economics",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0314",
+          "domain_name": "Sociology and cultural studies",
+          "weight": 0.1,
+          "percent": 10.0
+        },
+        {
+          "domain_code": "0612",
+          "domain_name": "Database and network design and administration",
+          "weight": 0.1,
+          "percent": 10.0
+        }
+      ]
+    }
+  ],
+  "alignment_preview": [
+    {
+      "topic": "federal_deficit",
+      "top_overall": [
+        {
+          "actor": "pbo",
+          "display_name": "Directeur parlementaire du budget",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.823
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.717
+        },
+        {
+          "actor": "cpq",
+          "display_name": "Conseil du patronat du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6725
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.672
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.639
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6165
+        },
+        {
+          "actor": "ftq",
+          "display_name": "Fédération des travailleurs et travailleuses du Québec (FTQ)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.568
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.559
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.5055
+        },
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.261
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "pbo",
+          "display_name": "Directeur parlementaire du budget",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.823
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.717
+        },
+        {
+          "actor": "cpq",
+          "display_name": "Conseil du patronat du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6725
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.672
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.639
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6165
+        },
+        {
+          "actor": "ftq",
+          "display_name": "Fédération des travailleurs et travailleuses du Québec (FTQ)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.568
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.559
+        }
+      ]
+    },
+    {
+      "topic": "canada_us_autonomy",
+      "top_overall": [
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.776
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.715
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6875
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.67
+        },
+        {
+          "actor": "pbo",
+          "display_name": "Directeur parlementaire du budget",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.665
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6075
+        },
+        {
+          "actor": "cpq",
+          "display_name": "Conseil du patronat du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6065
+        },
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.576
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.576
+        },
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.3255
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.776
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.715
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6875
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.67
+        },
+        {
+          "actor": "pbo",
+          "display_name": "Directeur parlementaire du budget",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.665
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6075
+        },
+        {
+          "actor": "cpq",
+          "display_name": "Conseil du patronat du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6065
+        },
+        {
+          "actor": "plq",
+          "display_name": "Parti libéral du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5225
+        }
+      ]
+    },
+    {
+      "topic": "support_ukraine",
+      "top_overall": [
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.804
+        },
+        {
+          "actor": "justice_canada",
+          "display_name": "Justice Canada — accès à la justice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.694
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.622
+        },
+        {
+          "actor": "barreau_qc",
+          "display_name": "Barreau du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.609
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.606
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.527
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.519
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.496
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.334
+        },
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.322
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.804
+        },
+        {
+          "actor": "justice_canada",
+          "display_name": "Justice Canada — accès à la justice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.694
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.622
+        },
+        {
+          "actor": "barreau_qc",
+          "display_name": "Barreau du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.609
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.606
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.527
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.519
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.496
+        }
+      ]
+    },
+    {
+      "topic": "middle_east_policy",
+      "top_overall": [
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.778
+        },
+        {
+          "actor": "justice_canada",
+          "display_name": "Justice Canada — accès à la justice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.717
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.658
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.604
+        },
+        {
+          "actor": "barreau_qc",
+          "display_name": "Barreau du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.603
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.602
+        },
+        {
+          "actor": "bq",
+          "display_name": "Bloc Québécois",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5365
+        },
+        {
+          "actor": "ecojustice",
+          "display_name": "Ecojustice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.532
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.412
+        },
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.324
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.778
+        },
+        {
+          "actor": "justice_canada",
+          "display_name": "Justice Canada — accès à la justice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.717
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.658
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.604
+        },
+        {
+          "actor": "barreau_qc",
+          "display_name": "Barreau du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.603
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.602
+        },
+        {
+          "actor": "bq",
+          "display_name": "Bloc Québécois",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5365
+        },
+        {
+          "actor": "ecojustice",
+          "display_name": "Ecojustice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.532
+        }
+      ]
+    },
+    {
+      "topic": "wealth_inequality",
+      "top_overall": [
+        {
+          "actor": "pbo",
+          "display_name": "Directeur parlementaire du budget",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.782
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.656
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.608
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.605
+        },
+        {
+          "actor": "cpq",
+          "display_name": "Conseil du patronat du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6005
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.581
+        },
+        {
+          "actor": "ftq",
+          "display_name": "Fédération des travailleurs et travailleuses du Québec (FTQ)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.552
+        },
+        {
+          "actor": "ndp",
+          "display_name": "Nouveau Parti démocratique",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.507
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.47
+        },
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.233
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "pbo",
+          "display_name": "Directeur parlementaire du budget",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.782
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.656
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.608
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.605
+        },
+        {
+          "actor": "cpq",
+          "display_name": "Conseil du patronat du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6005
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.581
+        },
+        {
+          "actor": "ftq",
+          "display_name": "Fédération des travailleurs et travailleuses du Québec (FTQ)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.552
+        },
+        {
+          "actor": "ndp",
+          "display_name": "Nouveau Parti démocratique",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.507
+        }
+      ]
+    },
+    {
+      "topic": "regulatory_delays",
+      "top_overall": [
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.752
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.733
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.638
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.566
+        },
+        {
+          "actor": "cpq",
+          "display_name": "Conseil du patronat du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5555
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.54
+        },
+        {
+          "actor": "justice_canada",
+          "display_name": "Justice Canada — accès à la justice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5
+        },
+        {
+          "actor": "pbo",
+          "display_name": "Directeur parlementaire du budget",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.492
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.452
+        },
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.27
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.752
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.733
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.638
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.566
+        },
+        {
+          "actor": "cpq",
+          "display_name": "Conseil du patronat du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5555
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.54
+        },
+        {
+          "actor": "justice_canada",
+          "display_name": "Justice Canada — accès à la justice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5
+        },
+        {
+          "actor": "pbo",
+          "display_name": "Directeur parlementaire du budget",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.492
+        }
+      ]
+    },
+    {
+      "topic": "justice_efficiency",
+      "top_overall": [
+        {
+          "actor": "justice_canada",
+          "display_name": "Justice Canada — accès à la justice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.839
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.762
+        },
+        {
+          "actor": "barreau_qc",
+          "display_name": "Barreau du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.732
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.68
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.66
+        },
+        {
+          "actor": "ecojustice",
+          "display_name": "Ecojustice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.621
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.548
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.508
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.346
+        },
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.306
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "justice_canada",
+          "display_name": "Justice Canada — accès à la justice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.839
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.762
+        },
+        {
+          "actor": "barreau_qc",
+          "display_name": "Barreau du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.732
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.68
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.66
+        },
+        {
+          "actor": "ecojustice",
+          "display_name": "Ecojustice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.621
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.548
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.508
+        }
+      ]
+    },
+    {
+      "topic": "ai_education",
+      "top_overall": [
+        {
+          "actor": "unesco",
+          "display_name": "UNESCO — éducation et IA",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.671
+        },
+        {
+          "actor": "ai_advisory",
+          "display_name": "Conseil consultatif du Canada sur l'intelligence artificielle",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6205
+        },
+        {
+          "actor": "quebec_education",
+          "display_name": "Gouvernement du Québec — Éducation",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5975
+        },
+        {
+          "actor": "fqppu",
+          "display_name": "Fédération québécoise des professeures et professeurs d'université (FQPPU)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5895
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.464
+        },
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.437
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.339
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.3305
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.437
+        },
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.229
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "unesco",
+          "display_name": "UNESCO — éducation et IA",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.671
+        },
+        {
+          "actor": "ai_advisory",
+          "display_name": "Conseil consultatif du Canada sur l'intelligence artificielle",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6205
+        },
+        {
+          "actor": "quebec_education",
+          "display_name": "Gouvernement du Québec — Éducation",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5975
+        },
+        {
+          "actor": "fqppu",
+          "display_name": "Fédération québécoise des professeures et professeurs d'université (FQPPU)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5895
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.464
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.339
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.3305
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.167
+        }
+      ]
+    },
+    {
+      "topic": "immigration_capacity",
+      "top_overall": [
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.548
+        },
+        {
+          "actor": "ftq",
+          "display_name": "Fédération des travailleurs et travailleuses du Québec (FTQ)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.546
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.518
+        },
+        {
+          "actor": "ndp",
+          "display_name": "Nouveau Parti démocratique",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.508
+        },
+        {
+          "actor": "qs",
+          "display_name": "Québec solidaire",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.502
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.445
+        },
+        {
+          "actor": "pbo",
+          "display_name": "Directeur parlementaire du budget",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.442
+        },
+        {
+          "actor": "pq",
+          "display_name": "Parti Québécois",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.4
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.366
+        },
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.365
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.548
+        },
+        {
+          "actor": "ftq",
+          "display_name": "Fédération des travailleurs et travailleuses du Québec (FTQ)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.546
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.518
+        },
+        {
+          "actor": "ndp",
+          "display_name": "Nouveau Parti démocratique",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.508
+        },
+        {
+          "actor": "qs",
+          "display_name": "Québec solidaire",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.502
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.445
+        },
+        {
+          "actor": "pbo",
+          "display_name": "Directeur parlementaire du budget",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.442
+        },
+        {
+          "actor": "pq",
+          "display_name": "Parti Québécois",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.4
+        }
+      ]
+    },
+    {
+      "topic": "plastic_waste",
+      "top_overall": [
+        {
+          "actor": "equiterre_qc",
+          "display_name": "Équiterre",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6305
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.535
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5105
+        },
+        {
+          "actor": "ecojustice",
+          "display_name": "Ecojustice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5005
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.466
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.414
+        },
+        {
+          "actor": "qs",
+          "display_name": "Québec solidaire",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.385
+        },
+        {
+          "actor": "ndp",
+          "display_name": "Nouveau Parti démocratique",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.362
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.17
+        },
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.0925
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "equiterre_qc",
+          "display_name": "Équiterre",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6305
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.535
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5105
+        },
+        {
+          "actor": "ecojustice",
+          "display_name": "Ecojustice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5005
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.466
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.414
+        },
+        {
+          "actor": "qs",
+          "display_name": "Québec solidaire",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.385
+        },
+        {
+          "actor": "ndp",
+          "display_name": "Nouveau Parti démocratique",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.362
+        }
+      ]
+    },
+    {
+      "topic": "social_cohesion",
+      "top_overall": [
+        {
+          "actor": "unesco",
+          "display_name": "UNESCO — éducation et IA",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6775
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6625
+        },
+        {
+          "actor": "bq",
+          "display_name": "Bloc Québécois",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.61
+        },
+        {
+          "actor": "pq",
+          "display_name": "Parti Québécois",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5755
+        },
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.571
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.566
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.514
+        },
+        {
+          "actor": "plq",
+          "display_name": "Parti libéral du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.474
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.571
+        },
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.296
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "unesco",
+          "display_name": "UNESCO — éducation et IA",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6775
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6625
+        },
+        {
+          "actor": "bq",
+          "display_name": "Bloc Québécois",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.61
+        },
+        {
+          "actor": "pq",
+          "display_name": "Parti Québécois",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.5755
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.566
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.514
+        },
+        {
+          "actor": "plq",
+          "display_name": "Parti libéral du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.474
+        },
+        {
+          "actor": "justice_canada",
+          "display_name": "Justice Canada — accès à la justice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.464
+        }
+      ]
+    },
+    {
+      "topic": "clean_energy_climate",
+      "top_overall": [
+        {
+          "actor": "equiterre_qc",
+          "display_name": "Équiterre",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6375
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6205
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6055
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.572
+        },
+        {
+          "actor": "ecojustice",
+          "display_name": "Ecojustice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.426
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.393
+        },
+        {
+          "actor": "qs",
+          "display_name": "Québec solidaire",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.383
+        },
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.377
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.377
+        },
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.1165
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "equiterre_qc",
+          "display_name": "Équiterre",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6375
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6205
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.6055
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.572
+        },
+        {
+          "actor": "ecojustice",
+          "display_name": "Ecojustice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.426
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.393
+        },
+        {
+          "actor": "qs",
+          "display_name": "Québec solidaire",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.383
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.3495
+        }
+      ]
+    },
+    {
+      "topic": "tech_sovereignty",
+      "top_overall": [
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.7365
+        },
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.678
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.635
+        },
+        {
+          "actor": "ai_advisory",
+          "display_name": "Conseil consultatif du Canada sur l'intelligence artificielle",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.524
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.49
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.486
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.463
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.462
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.678
+        },
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.218
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.7365
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.635
+        },
+        {
+          "actor": "ai_advisory",
+          "display_name": "Conseil consultatif du Canada sur l'intelligence artificielle",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.524
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.49
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.486
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.463
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.462
+        },
+        {
+          "actor": "cpq",
+          "display_name": "Conseil du patronat du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.4145
+        }
+      ]
+    },
+    {
+      "topic": "canadian_ai_infrastructure",
+      "top_overall": [
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.7055
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.618
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.569
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.4725
+        },
+        {
+          "actor": "ai_advisory",
+          "display_name": "Conseil consultatif du Canada sur l'intelligence artificielle",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.465
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.4645
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.45
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.4245
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.7055
+        },
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.2245
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.618
+        },
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.569
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.4725
+        },
+        {
+          "actor": "ai_advisory",
+          "display_name": "Conseil consultatif du Canada sur l'intelligence artificielle",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.465
+        },
+        {
+          "actor": "statcan",
+          "display_name": "Statistique Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.4645
+        },
+        {
+          "actor": "gov_alberta",
+          "display_name": "Gouvernement de l'Alberta",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.45
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.4245
+        },
+        {
+          "actor": "pbo",
+          "display_name": "Directeur parlementaire du budget",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.311
+        }
+      ]
+    },
+    {
+      "topic": "trump_service_access",
+      "top_overall": [
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.694
+        },
+        {
+          "actor": "justice_canada",
+          "display_name": "Justice Canada — accès à la justice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.606
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.545
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.543
+        },
+        {
+          "actor": "barreau_qc",
+          "display_name": "Barreau du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.496
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.492
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.486
+        },
+        {
+          "actor": "bq",
+          "display_name": "Bloc Québécois",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.45
+        }
+      ],
+      "top_individuals": [
+        {
+          "actor": "rejean_mccormick",
+          "display_name": "Réjean McCormick",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.375
+        },
+        {
+          "actor": "king_klown",
+          "display_name": "King Klown",
+          "profile_kind": "individual",
+          "alignment_index_0_1": 0.367
+        }
+      ],
+      "top_institutions": [
+        {
+          "actor": "gov_canada",
+          "display_name": "Gouvernement du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.694
+        },
+        {
+          "actor": "justice_canada",
+          "display_name": "Justice Canada — accès à la justice",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.606
+        },
+        {
+          "actor": "gov_quebec",
+          "display_name": "Gouvernement du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.545
+        },
+        {
+          "actor": "cpc",
+          "display_name": "Parti conservateur du Canada",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.543
+        },
+        {
+          "actor": "barreau_qc",
+          "display_name": "Barreau du Québec",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.496
+        },
+        {
+          "actor": "apnql",
+          "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.492
+        },
+        {
+          "actor": "cci",
+          "display_name": "Council of Canadian Innovators",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.486
+        },
+        {
+          "actor": "bq",
+          "display_name": "Bloc Québécois",
+          "profile_kind": "institutional",
+          "alignment_index_0_1": 0.45
+        }
+      ]
+    }
+  ]
+}

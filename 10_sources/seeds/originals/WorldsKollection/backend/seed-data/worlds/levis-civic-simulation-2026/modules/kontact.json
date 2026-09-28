@@ -1,0 +1,84 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "levis-civic-simulation-2026",
+  "content_version": "0.2.1",
+  "import_status": "staged_sidecar",
+  "module": "kreative.kontact",
+  "matching_policy": {
+    "match_on": [
+      "required_domain_codes",
+      "project_need",
+      "availability"
+    ],
+    "never_match_on": [
+      "political_position",
+      "ideological_similarity"
+    ],
+    "ekoh_role": "expertise_context_only"
+  },
+  "opportunities": [
+    {
+      "key": "opp_growth_team",
+      "project_ref": "prj_levis_growth_2030",
+      "title": "Équipe simulée — Growth Lévis 2030",
+      "status": "open",
+      "required_capabilities": [
+        {
+          "domain_code": "0521",
+          "label": "infrastructures / environnement"
+        },
+        {
+          "domain_code": "0731",
+          "label": "urbanisme"
+        },
+        {
+          "domain_code": "0311",
+          "label": "économie / finances"
+        },
+        {
+          "domain_code": "092",
+          "label": "logement / bien-être"
+        },
+        {
+          "domain_code": "0312",
+          "label": "participation / civique"
+        }
+      ],
+      "seed_candidates": [
+        "expert_water_infrastructure",
+        "expert_housing_planning",
+        "expert_municipal_finance",
+        "expert_public_participation"
+      ]
+    },
+    {
+      "key": "opp_mobility_team",
+      "project_ref": "prj_levis_mobility_2035",
+      "title": "Équipe simulée — Mobility Lévis 2035",
+      "status": "open",
+      "required_capabilities": [
+        {
+          "domain_code": "0731",
+          "label": "planification / mobilité"
+        },
+        {
+          "domain_code": "0311",
+          "label": "économie / coûts"
+        },
+        {
+          "domain_code": "0542",
+          "label": "analyse quantitative"
+        },
+        {
+          "domain_code": "0312",
+          "label": "civique / participation"
+        }
+      ],
+      "seed_candidates": [
+        "expert_mobility_planning",
+        "expert_municipal_finance",
+        "expert_public_participation"
+      ]
+    }
+  ]
+}

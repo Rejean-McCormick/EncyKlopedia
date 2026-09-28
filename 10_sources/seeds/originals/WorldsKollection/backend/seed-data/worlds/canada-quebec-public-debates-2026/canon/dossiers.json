@@ -1,0 +1,214 @@
+{
+  "schema_version": "kx-world-dossier-registry/v1",
+  "world_key": "canada-quebec-public-debates-2026",
+  "dossiers": [
+    {
+      "key": "federal_deficit",
+      "title": "Le Canada devrait-il réduire rapidement le déficit fédéral, même si cela limite certains investissements publics?",
+      "label": "Déficit fédéral",
+      "scenario_topic_key": "federal_deficit",
+      "tier": 1,
+      "featured": false,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/federal_deficit",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/federal_deficit",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/federal_deficit",
+        "smart_vote": "modules/smart-vote.json#topic/federal_deficit",
+        "consultation": null,
+        "lab": null
+      }
+    },
+    {
+      "key": "canada_us_autonomy",
+      "title": "Le Canada devrait-il réduire fortement sa dépendance envers les États-Unis, même au prix de coûts à court terme?",
+      "label": "Autonomie Canada–États-Unis",
+      "scenario_topic_key": "canada_us_autonomy",
+      "tier": 1,
+      "featured": false,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/canada_us_autonomy",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/canada_us_autonomy",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/canada_us_autonomy",
+        "smart_vote": "modules/smart-vote.json#topic/canada_us_autonomy",
+        "consultation": null,
+        "lab": null
+      }
+    },
+    {
+      "key": "support_ukraine",
+      "title": "Le Canada devrait-il maintenir ou augmenter son soutien militaire, financier et diplomatique à l'Ukraine?",
+      "label": "Soutien à l’Ukraine",
+      "scenario_topic_key": "support_ukraine",
+      "tier": 1,
+      "featured": false,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/support_ukraine",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/support_ukraine",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/support_ukraine",
+        "smart_vote": "modules/smart-vote.json#topic/support_ukraine",
+        "consultation": null,
+        "lab": null
+      }
+    },
+    {
+      "key": "middle_east_policy",
+      "title": "Le Canada devrait-il adopter au Moyen-Orient une ligne plus indépendante des États-Unis et davantage centrée sur le droit international?",
+      "label": "Politique au Moyen-Orient",
+      "scenario_topic_key": "middle_east_policy",
+      "tier": 1,
+      "featured": false,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/middle_east_policy",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/middle_east_policy",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/middle_east_policy",
+        "smart_vote": "modules/smart-vote.json#topic/middle_east_policy",
+        "consultation": null,
+        "lab": null
+      }
+    },
+    {
+      "key": "wealth_inequality",
+      "title": "Le Canada devrait-il taxer davantage les grandes fortunes et profits pour réduire les inégalités et le coût de la vie?",
+      "label": "Inégalités et fiscalité",
+      "scenario_topic_key": "wealth_inequality",
+      "tier": 1,
+      "featured": false,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/wealth_inequality",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/wealth_inequality",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/wealth_inequality",
+        "smart_vote": "modules/smart-vote.json#topic/wealth_inequality",
+        "consultation": null,
+        "lab": null
+      }
+    },
+    {
+      "key": "regulatory_delays",
+      "title": "Faut-il accélérer fortement les approbations de projets en réduisant les chevauchements réglementaires et les délais de décision?",
+      "label": "Délais réglementaires",
+      "scenario_topic_key": "regulatory_delays",
+      "tier": 2,
+      "featured": true,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/regulatory_delays",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/regulatory_delays",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/regulatory_delays",
+        "smart_vote": "modules/smart-vote.json#topic/regulatory_delays",
+        "consultation": "regulatory_process_priorities",
+        "lab": "regulatory_process_lab"
+      }
+    },
+    {
+      "key": "justice_efficiency",
+      "title": "Le système de justice devrait-il prioriser davantage la rapidité et la sécurité publique, même si cela réduit certaines marges procédurales?",
+      "label": "Efficacité de la justice",
+      "scenario_topic_key": "justice_efficiency",
+      "tier": 1,
+      "featured": false,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/justice_efficiency",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/justice_efficiency",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/justice_efficiency",
+        "smart_vote": "modules/smart-vote.json#topic/justice_efficiency",
+        "consultation": null,
+        "lab": null
+      }
+    },
+    {
+      "key": "ai_education",
+      "title": "L'école et l'enseignement supérieur devraient-ils intégrer largement l'IA générative dans l'apprentissage et l'évaluation, sous un cadre éthique?",
+      "label": "IA en éducation",
+      "scenario_topic_key": "ai_education",
+      "tier": 2,
+      "featured": true,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/ai_education",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/ai_education",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/ai_education",
+        "smart_vote": "modules/smart-vote.json#topic/ai_education",
+        "consultation": "ai_education_safeguards",
+        "lab": "ai_evidence_lab"
+      }
+    },
+    {
+      "key": "immigration_capacity",
+      "title": "Le Canada et le Québec devraient-ils réduire davantage l'immigration jusqu'à ce que logement, santé et infrastructures rattrapent la croissance?",
+      "label": "Immigration et capacité d’accueil",
+      "scenario_topic_key": "immigration_capacity",
+      "tier": 2,
+      "featured": true,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/immigration_capacity",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/immigration_capacity",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/immigration_capacity",
+        "smart_vote": "modules/smart-vote.json#topic/immigration_capacity",
+        "consultation": null,
+        "lab": null
+      }
+    },
+    {
+      "key": "plastic_waste",
+      "title": "Faut-il durcir les interdictions et la responsabilité des producteurs pour réduire les plastiques et déchets non biodégradables?",
+      "label": "Plastiques et déchets",
+      "scenario_topic_key": "plastic_waste",
+      "tier": 1,
+      "featured": false,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/plastic_waste",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/plastic_waste",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/plastic_waste",
+        "smart_vote": "modules/smart-vote.json#topic/plastic_waste",
+        "consultation": null,
+        "lab": null
+      }
+    },
+    {
+      "key": "social_cohesion",
+      "title": "Le Québec devrait-il miser davantage sur une culture commune et la francisation que sur un modèle multiculturaliste pour renforcer la cohésion sociale?",
+      "label": "Cohésion sociale et francisation",
+      "scenario_topic_key": "social_cohesion",
+      "tier": 1,
+      "featured": false,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/social_cohesion",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/social_cohesion",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/social_cohesion",
+        "smart_vote": "modules/smart-vote.json#topic/social_cohesion",
+        "consultation": null,
+        "lab": null
+      }
+    },
+    {
+      "key": "clean_energy_climate",
+      "title": "Le Canada devrait-il accélérer la transition vers l'énergie propre même si cela impose des coûts aux secteurs fossiles à court terme?",
+      "label": "Énergie propre et climat",
+      "scenario_topic_key": "clean_energy_climate",
+      "tier": 1,
+      "featured": false,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/clean_energy_climate",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/clean_energy_climate",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/clean_energy_climate",
+        "smart_vote": "modules/smart-vote.json#topic/clean_energy_climate",
+        "consultation": null,
+        "lab": null
+      }
+    },
+    {
+      "key": "tech_sovereignty",
+      "title": "Le Canada devrait-il adopter une politique industrielle plus interventionniste pour conserver au pays l'IA, la propriété intellectuelle, les données et les entreprises technologiques?",
+      "label": "Souveraineté technologique",
+      "scenario_topic_key": "tech_sovereignty",
+      "tier": 2,
+      "featured": true,
+      "module_refs": {
+        "knowledge": "modules/knowledge.json#dossiers/tech_sovereignty",
+        "korum": "scenario:canada_quebec_public_debates_2026#topic/tech_sovereignty",
+        "ekoh_topic_relevance": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance/tech_sovereignty",
+        "smart_vote": "modules/smart-vote.json#topic/tech_sovereignty",
+        "consultation": "tech_sovereignty_instruments",
+        "lab": null
+      }
+    }
+  ]
+}

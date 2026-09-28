@@ -1,0 +1,231 @@
+{
+  "schema_version": "kx-world-pack-manifest/v1",
+  "world_key": "research-innovation-commons",
+  "pack_version": "1.1.0",
+  "scenario_validation": "ok",
+  "scenario_counts": {
+    "actors": 12,
+    "categories": 2,
+    "topics": 5,
+    "stances": 34,
+    "arguments": 20,
+    "argument_sources": 20,
+    "consultations": 2,
+    "consultation_votes": 10,
+    "impact_items": 2,
+    "ekoh_profiles": 12,
+    "consultation_relevance": 8,
+    "topic_relevance": 19,
+    "reading_exclusions": 4
+  },
+  "canon_counts": {
+    "organizations": 7,
+    "actors": 12,
+    "questions": 6,
+    "hypotheses": 5,
+    "claims": 12,
+    "evidence_items": 11,
+    "experiments": 10,
+    "results": 10,
+    "protocol_versions": 8,
+    "dataset_versions": 6,
+    "graph_relations": 192
+  },
+  "files": [
+    {
+      "path": "canon/research-graph.json",
+      "sha256": "f0297fd10330adbd8889227a8a298c95a9c55c683d48ab5802a765b5f93a3398",
+      "bytes": 19076
+    },
+    {
+      "path": "canon/world.json",
+      "sha256": "6cbdcda3687c2ec6f0aa19ee209203f23bb084c827facbfe1083dfd2dc61dcdb",
+      "bytes": 33577
+    },
+    {
+      "path": "content/data/DATA-001-synthetic-harmonized-cohort.csv",
+      "sha256": "625a1ea64190810f2043d913b2e7e020db47ed3d4e0c6f53f6fd6567ce3e3834",
+      "bytes": 659
+    },
+    {
+      "path": "content/data/DATA-002-synthetic-replication-summary.csv",
+      "sha256": "54310c8f5978e21e3a0bea01a48090a267628d4f628dc5847e093f1a86fd2573",
+      "bytes": 383
+    },
+    {
+      "path": "content/data/DATA-003-synthetic-batch-challenge.csv",
+      "sha256": "ec840c0b2232cb5dfb367715b8c535bfc68fc6e26d28dc497fa11e4926e4553b",
+      "bytes": 208
+    },
+    {
+      "path": "content/data/DATA-004-synthetic-subtype-strata.csv",
+      "sha256": "ae8ee78cfa7d553caa3a88fe33ca5b3dc8ed5e618f3ae7f4f82583d94be71b0f",
+      "bytes": 141
+    },
+    {
+      "path": "content/data/DATA-005-synthetic-immune-replication.csv",
+      "sha256": "4f2c7fae6ea2c1c4af5d44ece4bd826d126603396e21e89df95a509f5841ba5b",
+      "bytes": 180
+    },
+    {
+      "path": "content/data/DATA-006-synthetic-robustness-matrix.csv",
+      "sha256": "daed723c162b7a9f809ab0aa85e467f98662d3150f5df705d0c193c38b1004db",
+      "bytes": 234
+    },
+    {
+      "path": "content/knowledge/KR-001-current-knowledge-state.md",
+      "sha256": "aa1f6ee7fc4740a640fee1a103fdd09b51fad65e18f75437159e35b6e6e10e5f",
+      "bytes": 836
+    },
+    {
+      "path": "content/knowledge/KR-002-definitions-glossary.md",
+      "sha256": "8464e81876a3826a350f3ee0a90a4f7da75f35bfc0ea22e643aab998ba2d6423",
+      "bytes": 686
+    },
+    {
+      "path": "content/knowledge/KR-003-evidence-standards.md",
+      "sha256": "e5dd591f284bc6a8b441e89e5df52f004aad06ec4aec89f2773627b1c4b25d12",
+      "bytes": 656
+    },
+    {
+      "path": "content/knowledge/KR-004-negative-results.md",
+      "sha256": "ef5da0242b609c86b6f580c0753223290f83658cf032346184b6d76418ee1c4a",
+      "bytes": 895
+    },
+    {
+      "path": "content/knowledge/KR-005-public-communication.md",
+      "sha256": "6355caeb7b27605caca1d11483b2da947573f52d1e843fa352bf9eb09a8af291",
+      "bytes": 448
+    },
+    {
+      "path": "content/knowledge/KR-006-harmonization-playbook.md",
+      "sha256": "ccf025c333b3b6c7a84285ec689d2e988aa53f05f5e41e4b0a1b772b368a480e",
+      "bytes": 523
+    },
+    {
+      "path": "content/knowledge/KR-007-reproducibility-checklist.md",
+      "sha256": "7d9a421d0ca1572d519ccdf0bf7a47cdc29f401ddeed2f2f40c66245e0dc6e0c",
+      "bytes": 339
+    },
+    {
+      "path": "content/knowledge/KR-008-causal-claims.md",
+      "sha256": "b48b254956f2bf761637caa6c8848fdf8b8da500a47b64e147ed5a6177c97f82",
+      "bytes": 344
+    },
+    {
+      "path": "content/knowledge/KR-009-sensitivity-analysis.md",
+      "sha256": "d656225d601ca96974e30c6663d344c5653114f89b6115908242cdba86bc360d",
+      "bytes": 312
+    },
+    {
+      "path": "content/knowledge/KR-010-research-prioritization.md",
+      "sha256": "ae41a1f56161ed53764219f8256cd4e5a3b2d8d9f393150572a8607c2bd6a718",
+      "bytes": 1095
+    },
+    {
+      "path": "content/knowledge/KR-011-data-provenance.md",
+      "sha256": "df34303214a7dbfff8636651b20ee5cbfc66b9de00c0555ab96168e8cafb3856",
+      "bytes": 654
+    },
+    {
+      "path": "content/knowledge/KR-012-uncertainty-language.md",
+      "sha256": "34702b31ac6c20361f389ef82db674440899133f39d2dce8263ee257cc663c6d",
+      "bytes": 294
+    },
+    {
+      "path": "content/knowledge/KR-015-evidence-map.md",
+      "sha256": "5a8143445dde480b3df92cd5a23b415602fa4c5b3e2e9cac5113553fcb9c313c",
+      "bytes": 1295
+    },
+    {
+      "path": "content/knowledge/KR-016-provenance-walkthrough.md",
+      "sha256": "96105f6565f0be97aa3aeb7ded8c32d05a50c5fe9902bc697620abc36ee0f8ad",
+      "bytes": 910
+    },
+    {
+      "path": "content/protocols/PROT-001-v1.md",
+      "sha256": "dea40e49de33b23f9e6a068f003e5a5c5eca37cb59d65c23a97548e4e96d12e1",
+      "bytes": 1149
+    },
+    {
+      "path": "content/protocols/PROT-001-v2.md",
+      "sha256": "a227c4831d25ff54ebaf0ef25e4e0452f589288d3838f8cdd36e448e441e7627",
+      "bytes": 1232
+    },
+    {
+      "path": "content/protocols/PROT-001-v3.md",
+      "sha256": "6287cdd1f60f59e283cc1ef65842107f454d18fdd72d154bd1bfacaab6d5945e",
+      "bytes": 1599
+    },
+    {
+      "path": "content/protocols/PROT-002-v1.md",
+      "sha256": "cc3845e1ed7dd71dc8c194d260cfb45fac234f5bab3bb446358bb4a5f6ae5c52",
+      "bytes": 1214
+    },
+    {
+      "path": "content/protocols/PROT-003-v1.md",
+      "sha256": "770a340e04be995524e419e50ff4165ffbf0ad6906d2fb418c643424ae3918d4",
+      "bytes": 1199
+    },
+    {
+      "path": "content/protocols/PROT-004-v1.md",
+      "sha256": "966912a1f304ee91a80e49933c0f155042aaf6e82ac1bf8e1c9ad8447779e960",
+      "bytes": 967
+    },
+    {
+      "path": "content/protocols/PROT-005-v1.md",
+      "sha256": "9cf2e902752875ab22af121ef2bec2614450bb81eb59287fe0caea6dd98f3e54",
+      "bytes": 923
+    },
+    {
+      "path": "content/protocols/PROT-006-v1.md",
+      "sha256": "0daa780c8d386f6581cd8157b91647eb99771ca673af32463176457c77212f1d",
+      "bytes": 1206
+    },
+    {
+      "path": "modules/certifikation/paths.json",
+      "sha256": "3f96b64019a06f51f82e87fed47d863188fdb7308f0d0817229e31d2bfaee766",
+      "bytes": 2390
+    },
+    {
+      "path": "modules/knowledge/resources.json",
+      "sha256": "a7e1d625c0f7103b5a4e11ddae4eb0a3559352edafdfe488d01210815bd5052f",
+      "bytes": 6724
+    },
+    {
+      "path": "modules/konstruct/projects.json",
+      "sha256": "3a1a5ab42d27483e7a3471494caf83ec15e1654bab39074e0c8b6b2633a96fa5",
+      "bytes": 9143
+    },
+    {
+      "path": "modules/kontact/matching.json",
+      "sha256": "cef7a67515f51b766aa16bc166dd527ebb8c814ef106f02d4b0d9379f526c14e",
+      "bytes": 1725
+    },
+    {
+      "path": "modules/smart-vote/funding-decision.json",
+      "sha256": "d4b518fb647c8eee2ae65637017495523457afe858dee338c84ba433a72b5542",
+      "bytes": 7721
+    },
+    {
+      "path": "modules/stockage/artifacts.json",
+      "sha256": "d50b9611cf37e0f8ffbeb84d52c9295a2183f9385038c30b40ac3a5e28dfe8d4",
+      "bytes": 5192
+    },
+    {
+      "path": "scenarios/nexus-research-commons-v1.json",
+      "sha256": "83d88dce1c3ce38d05918894bf40c673b6886974bea0271565f3a4de712edf80",
+      "bytes": 38017
+    },
+    {
+      "path": "sources/ORIGIN_AND_SCOPE.md",
+      "sha256": "9318872b3686cc28b8e22d25d6c27d6f005a6275da2aadab23cc3d1c24fd5e9c",
+      "bytes": 1650
+    },
+    {
+      "path": "world.yaml",
+      "sha256": "ced04b5ae5ce0e7a2f5de6361bc8dfa6822c3991c936d70801d028e060a1e0dc",
+      "bytes": 2589
+    }
+  ]
+}

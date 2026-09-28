@@ -1,0 +1,62 @@
+{
+  "format": "kristal.contract-surfaces/v1",
+  "release": "5.0.0-rc.1",
+  "core_schema_line": "5.0",
+  "purpose": "Human- and machine-readable index of the public Kristal v5 contract surfaces. Git tag + commit pin the exact repository contents.",
+  "normative_surfaces": [
+    {
+      "name": "core-spec",
+      "path": "docs/Technical-Reference/kristal-docs-v5/01-core-spec/"
+    },
+    {
+      "name": "json-schemas",
+      "path": "docs/Technical-Reference/kristal-docs-v5/02-schemas/"
+    },
+    {
+      "name": "reproducibility",
+      "path": "docs/Technical-Reference/kristal-docs-v5/03-reproducibility/"
+    },
+    {
+      "name": "query-contract",
+      "path": "docs/Technical-Reference/kristal-docs-v5/04-query/query-contract.md"
+    },
+    {
+      "name": "integration-contracts",
+      "path": "docs/Technical-Reference/kristal-docs-v5/06-integration/"
+    },
+    {
+      "name": "security-contracts",
+      "path": "docs/Technical-Reference/kristal-docs-v5/07-security/"
+    }
+  ],
+  "profile_surfaces": [
+    {
+      "name": "reader-policy-profiles",
+      "path": "docs/Technical-Reference/kristal-docs-v5/04-query/reader-policy-profiles.md"
+    },
+    {
+      "name": "interoperability-profiles",
+      "path": "docs/Technical-Reference/kristal-docs-v5/05-profiles/"
+    }
+  ],
+  "conformance_surfaces": [
+    {
+      "name": "jcs-vectors",
+      "path": "docs/Technical-Reference/kristal-docs-v5/09-test-vectors/jcs/"
+    }
+  ],
+  "informative_surfaces": [
+    {
+      "name": "overview",
+      "path": "docs/Technical-Reference/kristal-docs-v5/00-overview/"
+    },
+    {
+      "name": "operations",
+      "path": "docs/Technical-Reference/kristal-docs-v5/08-ops/"
+    },
+    {
+      "name": "examples",
+      "path": "docs/Technical-Reference/kristal-docs-v5/10-examples/"
+    }
+  ]
+}

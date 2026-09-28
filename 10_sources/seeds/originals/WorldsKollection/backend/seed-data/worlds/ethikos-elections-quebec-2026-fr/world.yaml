@@ -1,0 +1,86 @@
+world_contract: kx-world-pack/v1
+world_key: ethikos-elections-quebec-2026-fr
+title: Élections québécoises 2026 — environnement électoral traçable
+description: 'World électoral neutre et traçable : comprendre les enjeux, examiner des positions reconstruites sourcées,
+  suivre les versions et explorer des arbitrages sans recommander de choix électoral.'
+pack_version: 3.0.0
+requires:
+  ethikos_scenario_schema: ethikos-demo-scenario/v3
+  fixtures:
+  - isced-f
+scenarios:
+- scenarios/ethikos-elections-quebec-2026-fr.json
+content_seeds:
+  canon:
+    actors: canon/actors.json
+    issues: canon/issues.json
+    claims: canon/claims.json
+    timeline: canon/timeline.json
+  knowledge: knowledge/resources.json
+  evidence:
+    sources: evidence/sources.json
+    versions: evidence/versions.json
+    changelog: evidence/changelog.json
+  policies:
+    smart_vote: policies/smart-vote.json
+    archive: policies/archive.json
+  source_corpus: sources/original/
+runtime_projections:
+  ethikos_scenario:
+    authoritative_payload: scenarios/ethikos-elections-quebec-2026-fr.json
+    contains:
+    - korum_topics
+    - korum_arguments
+    - argument_sources
+    - konsultations
+    - ekoh_topic_relevance
+    derived_from:
+    - canon/actors.json
+    - canon/issues.json
+    - canon/claims.json
+    - evidence/
+  derived_views_not_seeded:
+  - korum_issue_views
+  - party_comparison_matrices
+  - smart_vote_results
+module_policy:
+  primary:
+  - knowledge
+  - korum
+  - stockage
+  conditional:
+  - konsultations
+  transversal:
+  - ekoh
+  - smart_vote
+  lifecycle:
+  - konservation
+  disabled:
+  - certifikation
+  - konstruct
+  - kontact
+persona_policy:
+  institutional_party_accounts: true
+  infer_party_ekoh_scores: false
+  infer_party_ethics_scores: false
+  infer_numeric_party_stances: false
+metadata:
+  language: fr-CA
+  baseline_as_of: '2026-09-09'
+  currentity: baseline_not_current
+  election_date: '2026-10-05'
+  election_date_source: G-01
+  editorial_mode: evidence_first
+  single_source_of_truth: true
+  claim_registry: canon/claims.json
+  evidence_registry: evidence/sources.json
+  campaign_changelog: evidence/changelog.json
+  source_corpus: sources/original/
+  tags:
+  - elections
+  - quebec
+  - '2026'
+  - provenance
+  - claims
+  - knowledge
+  - korum

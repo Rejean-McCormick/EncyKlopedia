@@ -1,0 +1,68 @@
+{
+  "format": "konnaxion-world-content/v1",
+  "world_key": "ethikos-political-philosophy",
+  "content_origin": "structured_from_supplied_corpus",
+  "principle": "The ten debates are autonomous forums, not a required pedagogical sequence.",
+  "debates": [
+    {
+      "key": "demos",
+      "title": "Qui constitue le demos ?",
+      "gate": "who_decides",
+      "source_file": "sources/01_qui_constitue_le_demos.md"
+    },
+    {
+      "key": "democratie-globale",
+      "title": "La démocratie doit-elle devenir globale ?",
+      "gate": "who_decides",
+      "source_file": "sources/02_democratie_globale.md"
+    },
+    {
+      "key": "democratiser-ou-demanteler",
+      "title": "Démocratiser une structure injuste ou la démanteler ?",
+      "gate": "justice_structures",
+      "source_file": "sources/03_democratiser_ou_demanteler.md"
+    },
+    {
+      "key": "justice-globale",
+      "title": "La justice distributive doit-elle être globale ?",
+      "gate": "justice_structures",
+      "source_file": "sources/04_justice_globale.md"
+    },
+    {
+      "key": "autodetermination-territoire",
+      "title": "Qu'est-ce qui fonde l'autodétermination politique ?",
+      "gate": "who_decides",
+      "source_file": "sources/05_autodetermination_et_territoire.md"
+    },
+    {
+      "key": "ecosouverainete",
+      "title": "Une communauté peut-elle revendiquer une écosouveraineté ?",
+      "gate": "who_decides",
+      "source_file": "sources/06_ecosouverainete.md"
+    },
+    {
+      "key": "droits-humains-democratie",
+      "title": "Les droits humains peuvent-ils limiter la démocratie ?",
+      "gate": "legitimacy_disagreement",
+      "source_file": "sources/07_droits_humains_et_democratie.md"
+    },
+    {
+      "key": "injustice-structurelle",
+      "title": "Qui est responsable d'une injustice structurelle ?",
+      "gate": "justice_structures",
+      "source_file": "sources/08_injustice_structurelle.md"
+    },
+    {
+      "key": "consensus-conflit",
+      "title": "La démocratie doit-elle viser le consensus ?",
+      "gate": "legitimacy_disagreement",
+      "source_file": "sources/09_consensus_ou_conflit.md"
+    },
+    {
+      "key": "expertise-democratie",
+      "title": "Savoir davantage donne-t-il le droit de décider davantage ?",
+      "gate": "expertise_power",
+      "source_file": "sources/10_expertise_et_democratie.md"
+    }
+  ]
+}

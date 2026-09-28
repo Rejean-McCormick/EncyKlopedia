@@ -1,0 +1,346 @@
+{
+  "schema_version": "kx-world-registry/v1",
+  "world_key": "canada-quebec-public-debates-2026",
+  "scenario_key": "canada_quebec_public_debates_2026",
+  "namespaces": {
+    "dossier": [
+      "ai_education",
+      "canada_us_autonomy",
+      "clean_energy_climate",
+      "federal_deficit",
+      "immigration_capacity",
+      "justice_efficiency",
+      "middle_east_policy",
+      "plastic_waste",
+      "regulatory_delays",
+      "social_cohesion",
+      "support_ukraine",
+      "tech_sovereignty",
+      "wealth_inequality"
+    ],
+    "actor": [
+      "ai_advisory",
+      "apnql",
+      "barreau_qc",
+      "bq",
+      "cci",
+      "cpc",
+      "cpq",
+      "ecojustice",
+      "equiterre_qc",
+      "fqppu",
+      "ftq",
+      "gov_alberta",
+      "gov_canada",
+      "gov_quebec",
+      "justice_canada",
+      "king_klown",
+      "ndp",
+      "pbo",
+      "plq",
+      "pq",
+      "qs",
+      "quebec_education",
+      "rejean_mccormick",
+      "statcan",
+      "unesco"
+    ],
+    "domain": [
+      "0111",
+      "0223",
+      "0231",
+      "0311",
+      "0312",
+      "0314",
+      "0321",
+      "0413",
+      "0421",
+      "0521",
+      "0542",
+      "0612",
+      "0613",
+      "0713",
+      "0722",
+      "0731",
+      "092",
+      "1032"
+    ],
+    "source": [
+      "ca_ai_compute_access_fund_2025",
+      "ca_ai_scip_2026",
+      "ca_iaac_efficiency_2026",
+      "ca_immigration_levels_2026_2028",
+      "ca_immigration_levels_overview_2026",
+      "ca_major_projects_what_we_heard_2026",
+      "ca_red_tape_reviews_2026",
+      "ca_sovereign_ai_compute_strategy_2026",
+      "qc_ai_education_portal_2026",
+      "qc_ai_higher_ed_2026",
+      "qc_ceiae_2026"
+    ],
+    "consultation": [
+      "ai_education_safeguards",
+      "regulatory_process_priorities",
+      "tech_sovereignty_instruments"
+    ],
+    "lab": [
+      "ai_evidence_lab",
+      "regulatory_process_lab"
+    ],
+    "certification_path": [
+      "evidence_literate_public_debate"
+    ]
+  },
+  "actors": [
+    {
+      "key": "gov_canada",
+      "display_name": "Gouvernement du Canada",
+      "role": "federal_government",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/gov_canada"
+    },
+    {
+      "key": "cpc",
+      "display_name": "Parti conservateur du Canada",
+      "role": "federal_official_opposition",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/cpc"
+    },
+    {
+      "key": "ndp",
+      "display_name": "Nouveau Parti démocratique",
+      "role": "federal_political_party",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/ndp"
+    },
+    {
+      "key": "pbo",
+      "display_name": "Directeur parlementaire du budget",
+      "role": "independent_fiscal_officer",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/pbo"
+    },
+    {
+      "key": "statcan",
+      "display_name": "Statistique Canada",
+      "role": "official_statistics_agency",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/statcan"
+    },
+    {
+      "key": "gov_quebec",
+      "display_name": "Gouvernement du Québec",
+      "role": "provincial_government",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/gov_quebec"
+    },
+    {
+      "key": "quebec_education",
+      "display_name": "Gouvernement du Québec — Éducation",
+      "role": "provincial_education_authority",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/quebec_education"
+    },
+    {
+      "key": "gov_alberta",
+      "display_name": "Gouvernement de l'Alberta",
+      "role": "provincial_government",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/gov_alberta"
+    },
+    {
+      "key": "justice_canada",
+      "display_name": "Justice Canada — accès à la justice",
+      "role": "justice_policy_and_research",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/justice_canada"
+    },
+    {
+      "key": "ecojustice",
+      "display_name": "Ecojustice",
+      "role": "environmental_legal_advocacy",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/ecojustice"
+    },
+    {
+      "key": "cci",
+      "display_name": "Council of Canadian Innovators",
+      "role": "technology_industry_advocacy",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/cci"
+    },
+    {
+      "key": "ai_advisory",
+      "display_name": "Conseil consultatif du Canada sur l'intelligence artificielle",
+      "role": "ai_policy_advisory_body",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/ai_advisory"
+    },
+    {
+      "key": "pq",
+      "display_name": "Parti Québécois",
+      "role": "provincial_party",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/pq"
+    },
+    {
+      "key": "plq",
+      "display_name": "Parti libéral du Québec",
+      "role": "provincial_party",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/plq"
+    },
+    {
+      "key": "qs",
+      "display_name": "Québec solidaire",
+      "role": "provincial_party",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/qs"
+    },
+    {
+      "key": "bq",
+      "display_name": "Bloc Québécois",
+      "role": "federal_party_quebec",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/bq"
+    },
+    {
+      "key": "cpq",
+      "display_name": "Conseil du patronat du Québec",
+      "role": "employer_association",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/cpq"
+    },
+    {
+      "key": "ftq",
+      "display_name": "Fédération des travailleurs et travailleuses du Québec (FTQ)",
+      "role": "labour_union",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/ftq"
+    },
+    {
+      "key": "barreau_qc",
+      "display_name": "Barreau du Québec",
+      "role": "professional_order",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/barreau_qc"
+    },
+    {
+      "key": "equiterre_qc",
+      "display_name": "Équiterre",
+      "role": "environmental_civil_society",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/equiterre_qc"
+    },
+    {
+      "key": "apnql",
+      "display_name": "Assemblée des Premières Nations Québec-Labrador (APNQL)",
+      "role": "first_nations_political_organization",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/apnql"
+    },
+    {
+      "key": "fqppu",
+      "display_name": "Fédération québécoise des professeures et professeurs d'université (FQPPU)",
+      "role": "higher_education_federation",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/fqppu"
+    },
+    {
+      "key": "unesco",
+      "display_name": "UNESCO — éducation et IA",
+      "role": "international_standard_setter",
+      "profile_kind": "institutional",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/unesco"
+    },
+    {
+      "key": "rejean_mccormick",
+      "display_name": "Réjean McCormick",
+      "role": "technology_systems_architect",
+      "profile_kind": "individual",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/rejean_mccormick"
+    },
+    {
+      "key": "king_klown",
+      "display_name": "King Klown",
+      "role": "civic_narrative_mobilizer",
+      "profile_kind": "individual",
+      "ekoh_profile_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#actor_profiles/king_klown"
+    }
+  ],
+  "domains": [
+    {
+      "code": "0111",
+      "name": "Education science"
+    },
+    {
+      "code": "0223",
+      "name": "Philosophy and ethics"
+    },
+    {
+      "code": "0231",
+      "name": "Language acquisition"
+    },
+    {
+      "code": "0311",
+      "name": "Economics"
+    },
+    {
+      "code": "0312",
+      "name": "Political sciences and civics"
+    },
+    {
+      "code": "0314",
+      "name": "Sociology and cultural studies"
+    },
+    {
+      "code": "0321",
+      "name": "Journalism and reporting"
+    },
+    {
+      "code": "0413",
+      "name": "Management and administration"
+    },
+    {
+      "code": "0421",
+      "name": "Law"
+    },
+    {
+      "code": "0521",
+      "name": "Environmental sciences"
+    },
+    {
+      "code": "0542",
+      "name": "Statistics"
+    },
+    {
+      "code": "0612",
+      "name": "Database and network design and administration"
+    },
+    {
+      "code": "0613",
+      "name": "Software and applications development and analysis"
+    },
+    {
+      "code": "0713",
+      "name": "Electricity and energy"
+    },
+    {
+      "code": "0722",
+      "name": "Materials (glass, paper, plastic and wood)"
+    },
+    {
+      "code": "0731",
+      "name": "Architecture and town planning"
+    },
+    {
+      "code": "092",
+      "name": "Welfare"
+    },
+    {
+      "code": "1032",
+      "name": "Protection of persons and property"
+    }
+  ],
+  "source_registry_ref": "sources/official-context.json"
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "levis-civic-simulation-2026",
+  "content_version": "0.2.1",
+  "import_status": "staged_sidecar",
+  "module": "smart_vote",
+  "policy": {
+    "derived_only": true,
+    "baseline_always_visible": true,
+    "no_precomputed_results": true,
+    "prohibited_outputs": [
+      "candidate_ranking",
+      "party_ranking",
+      "political_recommendation"
+    ]
+  },
+  "reading_targets": [
+    {
+      "target_key": "levis_growth_2030",
+      "target_type": "consultation",
+      "lenses": [
+        "baseline",
+        "expertise_context"
+      ],
+      "domain_relevance": [
+        {
+          "domain_code": "0731",
+          "weight": 0.25
+        },
+        {
+          "domain_code": "0311",
+          "weight": 0.2
+        },
+        {
+          "domain_code": "0413",
+          "weight": 0.15
+        },
+        {
+          "domain_code": "092",
+          "weight": 0.15
+        },
+        {
+          "domain_code": "0521",
+          "weight": 0.15
+        },
+        {
+          "domain_code": "0542",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "target_key": "levis_mobility_2035",
+      "target_type": "consultation",
+      "lenses": [
+        "baseline",
+        "expertise_context"
+      ],
+      "domain_relevance": [
+        {
+          "domain_code": "0731",
+          "weight": 0.35
+        },
+        {
+          "domain_code": "0311",
+          "weight": 0.15
+        },
+        {
+          "domain_code": "0413",
+          "weight": 0.1
+        },
+        {
+          "domain_code": "0312",
+          "weight": 0.1
+        },
+        {
+          "domain_code": "0542",
+          "weight": 0.1
+        },
+        {
+          "domain_code": "092",
+          "weight": 0.1
+        },
+        {
+          "domain_code": "0521",
+          "weight": 0.1
+        }
+      ]
+    }
+  ],
+  "relevance_wiring": {
+    "embedded_in_ethikos_v3": true,
+    "field": "consultation_relevance",
+    "targets": [
+      "levis_growth_2030",
+      "levis_mobility_2035"
+    ],
+    "results_remain_runtime_derived": true
+  }
+}

@@ -1,0 +1,2110 @@
+{
+  "schema_version": "ethikos-demo-scenario/v3",
+  "scenario_key": "levis_civic_simulation_2026_v1",
+  "scenario_title": "Lévis 2026 — simulation civique intégrée",
+  "mode": "replace_scenario",
+  "metadata": {
+    "description": "Simulation civique de grands enjeux de Lévis, Québec. Les positions de personnes, partis et organisations sont des reconstructions strictement sourcées; aucune position inconnue n'est complétée par inférence.",
+    "language": "fr-CA",
+    "jurisdiction": "Ville de Lévis, Québec, Canada",
+    "as_of": "2026-09-22",
+    "epistemic_status": "sourced_reconstructed_positions",
+    "simulation_notice": "Les questions de consultation sont des dispositifs de simulation. Les consultation_votes sont volontairement vides: aucune déclaration publique n'est convertie en faux vote.",
+    "unknown_policy": "Absence de stance = position non établie pour cette proposition dans les sources retenues. Une stance 0 n'est utilisée que lorsqu'un équilibre ou une neutralité est explicitement documenté.",
+    "stance_projection_policy": {
+      "+3": "appui explicite fort à la proposition telle que formulée",
+      "+2": "appui explicite avec conditions importantes",
+      "+1": "orientation favorable mais non engagée ou mixte",
+      "0": "équilibre/neutralité explicitement documenté",
+      "-1": "orientation défavorable mais non engagée ou mixte",
+      "-2": "opposition explicite avec réserves ou soutien à une alternative partielle",
+      "-3": "opposition explicite forte à la proposition telle que formulée"
+    },
+    "historical_position_policy": "Les acteurs marqués plateforme 2025 sont conservés comme acteurs historiques distincts; leurs positions ne sont pas attribuées automatiquement aux directions 2026.",
+    "smart_vote_policy": "No Smart Vote result is seeded. Baseline source facts remain canonical; optional expertise-context readings are derived at runtime and must remain visibly secondary.",
+    "source_catalog_file": "sources/source_catalog.json",
+    "position_matrix_file": "sources/position_matrix.json",
+    "world_content_version": "0.2.0",
+    "experience_model": "three_civic_arcs",
+    "primary_arcs": [
+      "growth_2030",
+      "mobility_2035",
+      "territory_mandate"
+    ],
+    "module_extension_policy": "Only capabilities that add a distinct civic function are activated. Cross-module sidecars are simulation content, not inferred real-world facts.",
+    "simulated_actor_policy": "EkoH expert personas introduced in v0.2 are explicitly simulated professionals and must never be presented as real persons.",
+    "content_version": "0.2.1",
+    "optimization_revision": {
+      "legacy_issue_polls_archived": [
+        "vote_troisieme_lien",
+        "vote_transport_local",
+        "vote_moratoire",
+        "vote_redevances",
+        "vote_logement",
+        "vote_rabaska",
+        "vote_finances",
+        "vote_participation"
+      ],
+      "topic_relevance_wired": true,
+      "consultation_relevance_wired": [
+        "levis_growth_2030",
+        "levis_mobility_2035"
+      ],
+      "smart_vote_results_seeded": false,
+      "domain_relevance_semantics": "context relevance only; not truth, quality, endorsement, or political recommendation"
+    }
+  },
+  "actors": [
+    {
+      "key": "steven_blaney",
+      "username": "levis__steven_blaney",
+      "display_name": "Steven Blaney",
+      "role": "maire_levis_position_reconstruite",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "isabelle_lefebvre",
+      "username": "levis__isabelle_lefebvre",
+      "display_name": "Isabelle Lefebvre",
+      "role": "cheffe_interimaire_repensons_levis_position_reconstruite",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "benoit_forget_chiasson",
+      "username": "levis__benoit_forget_chiasson",
+      "display_name": "Benoit Forget-Chiasson",
+      "role": "chef_interimaire_levis_force_10_position_reconstruite",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "gouvernement_quebec_caq_2026",
+      "username": "levis__gouvernement_quebec_caq_2026",
+      "display_name": "Gouvernement du Québec / CAQ (2026)",
+      "role": "institution_provinciale_position_officielle",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "parti_quebecois_2026",
+      "username": "levis__parti_quebecois_2026",
+      "display_name": "Parti Québécois (2026)",
+      "role": "parti_provincial_position_reconstruite",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "pcq_2026",
+      "username": "levis__pcq_2026",
+      "display_name": "Parti conservateur du Québec (2026)",
+      "role": "parti_provincial_position_officielle",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "plq_2026",
+      "username": "levis__plq_2026",
+      "display_name": "Parti libéral du Québec (2026)",
+      "role": "parti_provincial_position_reconstruite",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "quebec_solidaire_2026",
+      "username": "levis__quebec_solidaire_2026",
+      "display_name": "Québec solidaire (2026)",
+      "role": "parti_provincial_position_reconstruite",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "repensons_levis_2025",
+      "username": "levis__repensons_levis_2025",
+      "display_name": "Repensons Lévis — plateforme 2025",
+      "role": "parti_municipal_position_historique_sourcee",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "levis_force_10_2025",
+      "username": "levis__levis_force_10_2025",
+      "display_name": "Lévis Force 10 — plateforme 2025",
+      "role": "parti_municipal_position_historique_sourcee",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "coalition_construction_2026",
+      "username": "levis__coalition_construction_2026",
+      "display_name": "APCHQ–ACQ–IDU–CCIGL (coalition, 2026)",
+      "role": "coalition_sectorielle_position_officielle",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "apchq_quebec",
+      "username": "levis__apchq_quebec",
+      "display_name": "APCHQ — Région de Québec",
+      "role": "association_sectorielle_position_officielle",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "conseil_municipal_levis_2026",
+      "username": "levis__conseil_municipal_2026",
+      "display_name": "Conseil municipal de Lévis (vote du 12 mai 2026)",
+      "role": "institution_municipale_vote_observe",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "anick_tremblay",
+      "username": "levis__anick_tremblay",
+      "display_name": "Anick Tremblay",
+      "role": "conseillere_municipale_position_reconstruite",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "oppositions_rl_lf10_vote_2026",
+      "username": "levis__oppositions_rl_lf10_2026",
+      "display_name": "Élus RL + LF10 (vote du 12 mai 2026)",
+      "role": "bloc_de_vote_observe",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "anthony_dufour",
+      "username": "levis__anthony_dufour",
+      "display_name": "Anthony Dufour",
+      "role": "conseiller_repensons_levis_position_reconstruite",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ville_levis_2026",
+      "username": "levis__ville_levis_2026",
+      "display_name": "Ville de Lévis (administration 2026)",
+      "role": "institution_municipale_politique_officielle",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "expert_water_infrastructure",
+      "username": "demo_levis_expert_water_infrastructure",
+      "display_name": "Expert·e simulé·e — infrastructures d’eau",
+      "role": "simulated_expert_water_infrastructure",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "expert_municipal_finance",
+      "username": "demo_levis_expert_municipal_finance",
+      "display_name": "Expert·e simulé·e — finances municipales",
+      "role": "simulated_expert_municipal_finance",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "expert_housing_planning",
+      "username": "demo_levis_expert_housing_planning",
+      "display_name": "Expert·e simulé·e — logement et urbanisme",
+      "role": "simulated_expert_housing_planning",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "expert_mobility_planning",
+      "username": "demo_levis_expert_mobility_planning",
+      "display_name": "Expert·e simulé·e — mobilité et transport",
+      "role": "simulated_expert_mobility_planning",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "expert_land_environment",
+      "username": "demo_levis_expert_land_environment",
+      "display_name": "Expert·e simulé·e — territoire et environnement",
+      "role": "simulated_expert_land_environment",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "expert_public_participation",
+      "username": "demo_levis_expert_public_participation",
+      "display_name": "Expert·e simulé·e — participation publique",
+      "role": "simulated_expert_public_participation",
+      "is_ethikos_elite": false
+    }
+  ],
+  "categories": [
+    {
+      "key": "mobilite",
+      "name": "Mobilité et liens interrives",
+      "description": "Choix de mobilité régionale et locale touchant directement Lévis."
+    },
+    {
+      "key": "croissance_habitation",
+      "name": "Croissance, habitation et infrastructures",
+      "description": "Arbitrages entre construction, capacité des réseaux, abordabilité et financement de la croissance."
+    },
+    {
+      "key": "territoire_environnement",
+      "name": "Territoire, agriculture et environnement",
+      "description": "Choix d'affectation du territoire et protection des milieux naturels ou agricoles."
+    },
+    {
+      "key": "finances_gouvernance",
+      "name": "Finances et gouvernance municipale",
+      "description": "Arbitrages financiers et mécanismes de participation publique."
+    }
+  ],
+  "topics": [
+    {
+      "key": "troisieme_lien_routier_est",
+      "title": "[Lévis] Prioriser un troisième lien routier à l'est entre Québec et Lévis?",
+      "description": "Le débat distingue l'existence d'un nouveau lien, son mode routier ou collectif, son corridor, son financement et les conditions de réalisation. La stance numérique porte uniquement sur la proposition d'un nouveau lien routier à l'est.",
+      "status": "open",
+      "category": "mobilite",
+      "start_date": "2026-09-22",
+      "end_date": "2026-12-31"
+    },
+    {
+      "key": "srb_guillaume_couture",
+      "title": "[Lévis] Prioriser un axe SRB/BHNS axial sur Guillaume-Couture plutôt que poursuivre les voies réservées latérales?",
+      "description": "Débat municipal sur le choix entre un axe structurant central de type SRB/BHNS et la poursuite du réseau de voies réservées déjà amorcé.",
+      "status": "open",
+      "category": "mobilite",
+      "start_date": "2026-09-22",
+      "end_date": "2026-12-31"
+    },
+    {
+      "key": "moratoire_eaux_usees",
+      "title": "[Lévis] Faire reposer la levée du moratoire surtout sur l'augmentation permanente de capacité des stations plutôt que sur des solutions intérimaires?",
+      "description": "Débat sur le rythme de reprise de la construction dans les secteurs touchés par la capacité des stations Desjardins et Saint-Nicolas, et sur la place de solutions temporaires ou d'exceptions encadrées.",
+      "status": "open",
+      "category": "croissance_habitation",
+      "start_date": "2026-09-22",
+      "end_date": "2026-12-31"
+    },
+    {
+      "key": "redevances_developpement",
+      "title": "[Lévis] Faire contribuer les nouveaux projets résidentiels par des redevances au financement des infrastructures de croissance?",
+      "description": "Débat sur la répartition du coût des infrastructures entre promoteurs, nouveaux projets et contribuables, ainsi que sur l'effet potentiel des redevances sur l'abordabilité.",
+      "status": "open",
+      "category": "croissance_habitation",
+      "start_date": "2026-09-22",
+      "end_date": "2026-12-31"
+    },
+    {
+      "key": "aides_logement_abordable_prive",
+      "title": "[Lévis] Accorder des contributions et crédits de taxes à des projets de logements sociaux et abordables, y compris lorsqu'un projet est porté par le privé?",
+      "description": "Débat inspiré des votes du conseil municipal de mai 2026 sur trois projets totalisant plus de 300 logements, dont un projet porté par le secteur privé.",
+      "status": "open",
+      "category": "croissance_habitation",
+      "start_date": "2026-09-22",
+      "end_date": "2026-12-31"
+    },
+    {
+      "key": "rabaska_protection_avant_industrie",
+      "title": "[Lévis] Prioriser la protection agricole et naturelle des terres de Rabaska avant toute nouvelle expansion industrielle?",
+      "description": "Débat sur l'équilibre entre réserve industrielle, agriculture et protection des milieux naturels dans le secteur des terres de Rabaska / Lévis-Est.",
+      "status": "open",
+      "category": "territoire_environnement",
+      "start_date": "2026-09-22",
+      "end_date": "2026-12-31"
+    },
+    {
+      "key": "cadre_financier_2026_2030",
+      "title": "[Lévis] Le cadre financier 2026-2030 offre-t-il un équilibre acceptable entre dette, taxation et maintien des actifs?",
+      "description": "Débat sur la cible d'endettement, le remboursement anticipé de dette, le service de la dette et le déficit de maintien des actifs municipaux.",
+      "status": "open",
+      "category": "finances_gouvernance",
+      "start_date": "2026-09-22",
+      "end_date": "2026-12-31"
+    },
+    {
+      "key": "participation_continue",
+      "title": "[Lévis] Institutionnaliser des mécanismes continus de participation citoyenne dans la planification du territoire et les projets de quartier?",
+      "description": "Débat sur les démarches de coconstruction, consultations continues, budgets participatifs et autres mécanismes donnant une place structurée aux citoyens.",
+      "status": "open",
+      "category": "finances_gouvernance",
+      "start_date": "2026-09-22",
+      "end_date": "2026-12-31"
+    }
+  ],
+  "stances": [
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "steven_blaney",
+      "value": 3
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "isabelle_lefebvre",
+      "value": 2
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "benoit_forget_chiasson",
+      "value": 2
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "gouvernement_quebec_caq_2026",
+      "value": 3
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "parti_quebecois_2026",
+      "value": -3
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "pcq_2026",
+      "value": 3
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "plq_2026",
+      "value": 1
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "actor": "quebec_solidaire_2026",
+      "value": -3
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "actor": "steven_blaney",
+      "value": -3
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "actor": "repensons_levis_2025",
+      "value": 3
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "actor": "levis_force_10_2025",
+      "value": -3
+    },
+    {
+      "topic": "moratoire_eaux_usees",
+      "actor": "steven_blaney",
+      "value": 1
+    },
+    {
+      "topic": "moratoire_eaux_usees",
+      "actor": "benoit_forget_chiasson",
+      "value": 2
+    },
+    {
+      "topic": "moratoire_eaux_usees",
+      "actor": "coalition_construction_2026",
+      "value": -3
+    },
+    {
+      "topic": "redevances_developpement",
+      "actor": "repensons_levis_2025",
+      "value": 3
+    },
+    {
+      "topic": "redevances_developpement",
+      "actor": "levis_force_10_2025",
+      "value": 3
+    },
+    {
+      "topic": "redevances_developpement",
+      "actor": "steven_blaney",
+      "value": 2
+    },
+    {
+      "topic": "redevances_developpement",
+      "actor": "apchq_quebec",
+      "value": -3
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "actor": "conseil_municipal_levis_2026",
+      "value": 2
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "actor": "anick_tremblay",
+      "value": -3
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "actor": "oppositions_rl_lf10_vote_2026",
+      "value": -2
+    },
+    {
+      "topic": "rabaska_protection_avant_industrie",
+      "actor": "steven_blaney",
+      "value": 0
+    },
+    {
+      "topic": "rabaska_protection_avant_industrie",
+      "actor": "repensons_levis_2025",
+      "value": 3
+    },
+    {
+      "topic": "cadre_financier_2026_2030",
+      "actor": "steven_blaney",
+      "value": 3
+    },
+    {
+      "topic": "cadre_financier_2026_2030",
+      "actor": "benoit_forget_chiasson",
+      "value": 2
+    },
+    {
+      "topic": "cadre_financier_2026_2030",
+      "actor": "anthony_dufour",
+      "value": -3
+    },
+    {
+      "topic": "participation_continue",
+      "actor": "ville_levis_2026",
+      "value": 2
+    },
+    {
+      "topic": "participation_continue",
+      "actor": "repensons_levis_2025",
+      "value": 3
+    }
+  ],
+  "arguments": [
+    {
+      "key": "arg_3l_blaney",
+      "topic": "troisieme_lien_routier_est",
+      "actor": "steven_blaney",
+      "side": "pro",
+      "content": "Steven Blaney appuie explicitement un troisième lien autoroutier à l'est conçu comme un bouclage périphérique; il demande aussi que le projet se concrétise rapidement."
+    },
+    {
+      "key": "arg_3l_lefebvre",
+      "topic": "troisieme_lien_routier_est",
+      "actor": "isabelle_lefebvre",
+      "side": "pro",
+      "content": "Isabelle Lefebvre dit que Repensons Lévis souhaite un troisième lien à l'est, tout en demandant un projet concret avec coûts et échéanciers avant de juger une proposition provinciale précise."
+    },
+    {
+      "key": "arg_3l_forget",
+      "topic": "troisieme_lien_routier_est",
+      "actor": "benoit_forget_chiasson",
+      "side": "pro",
+      "content": "Benoit Forget-Chiasson dit que Lévis Force 10 souhaite également un troisième lien autoroutier à l'est, mais qu'aucune proposition provinciale présentée ne répond encore, selon lui, aux attentes de Lévis."
+    },
+    {
+      "key": "arg_3l_caq",
+      "topic": "troisieme_lien_routier_est",
+      "actor": "gouvernement_quebec_caq_2026",
+      "side": "pro",
+      "content": "Le gouvernement du Québec planifie un troisième lien à l'est; ses paramètres annoncés incluent une participation financière du secteur privé et un péage pour limiter la pression sur les finances publiques."
+    },
+    {
+      "key": "arg_3l_pq",
+      "topic": "troisieme_lien_routier_est",
+      "actor": "parti_quebecois_2026",
+      "side": "con",
+      "content": "Le Parti Québécois rejette l'option d'un nouveau lien autoroutier et propose plutôt un nouveau lien réservé au transport collectif entre Québec et Lévis."
+    },
+    {
+      "key": "arg_3l_pcq",
+      "topic": "troisieme_lien_routier_est",
+      "actor": "pcq_2026",
+      "side": "pro",
+      "content": "Le Parti conservateur du Québec propose un troisième lien autoroutier à l'est, sous forme d'un pont reliant la Rive-Sud à l'île d'Orléans puis au réseau de Québec."
+    },
+    {
+      "key": "arg_3l_plq",
+      "topic": "troisieme_lien_routier_est",
+      "actor": "plq_2026",
+      "side": "pro",
+      "content": "Charles Milliard dit avoir un préjugé favorable envers un nouveau lien Québec-Lévis, sans s'engager à lancer les travaux dans un premier mandat; il veut d'abord prendre connaissance de l'information existante."
+    },
+    {
+      "key": "arg_3l_qs",
+      "topic": "troisieme_lien_routier_est",
+      "actor": "quebec_solidaire_2026",
+      "side": "con",
+      "content": "Québec solidaire s'oppose en 2026 à tout troisième lien Québec-Lévis, qu'il soit routier ou réservé au transport collectif."
+    },
+    {
+      "key": "arg_srb_blaney",
+      "topic": "srb_guillaume_couture",
+      "actor": "steven_blaney",
+      "side": "con",
+      "content": "Durant la campagne municipale de 2025, Steven Blaney s'est opposé au SRB axial proposé par Repensons Lévis et a privilégié la poursuite des voies réservées sur Guillaume-Couture."
+    },
+    {
+      "key": "arg_srb_rl",
+      "topic": "srb_guillaume_couture",
+      "actor": "repensons_levis_2025",
+      "side": "pro",
+      "content": "La plateforme 2025 de Repensons Lévis, portée par Serge Bonin, proposait de faire renaître LINÉA sous forme d'un BHNS/SRB structurant sur l'axe Guillaume-Couture."
+    },
+    {
+      "key": "arg_srb_lf10",
+      "topic": "srb_guillaume_couture",
+      "actor": "levis_force_10_2025",
+      "side": "con",
+      "content": "La plateforme 2025 de Lévis Force 10 rejetait l'idée de recommencer Guillaume-Couture avec un SRB et proposait plutôt de poursuivre les phases de voies réservées et cyclables."
+    },
+    {
+      "key": "arg_moratoire_blaney",
+      "topic": "moratoire_eaux_usees",
+      "actor": "steven_blaney",
+      "side": "neutral",
+      "content": "Steven Blaney a annoncé la reconduction du moratoire jusqu'à la fin de 2028, tout en ouvrant la porte à certains projets dès 2027 et à des mécanismes transitoires encadrés; sa position est donc intermédiaire entre attente complète et levée rapide."
+    },
+    {
+      "key": "arg_moratoire_forget",
+      "topic": "moratoire_eaux_usees",
+      "actor": "benoit_forget_chiasson",
+      "side": "pro",
+      "content": "Benoit Forget-Chiasson s'est dit satisfait de la poursuite du moratoire pour deux ans, estimant que cette période permet de revoir le zonage et le schéma d'aménagement."
+    },
+    {
+      "key": "arg_moratoire_coalition",
+      "topic": "moratoire_eaux_usees",
+      "actor": "coalition_construction_2026",
+      "side": "con",
+      "content": "L'APCHQ, l'ACQ, l'IDU et la CCIGL demandent que la reprise du développement ne repose pas uniquement sur l'achèvement des travaux permanents et réclament rapidement des solutions intérimaires encadrées."
+    },
+    {
+      "key": "arg_redev_rl",
+      "topic": "redevances_developpement",
+      "actor": "repensons_levis_2025",
+      "side": "pro",
+      "content": "Serge Bonin s'est dit favorable à l'application des redevances de développement, tout en proposant d'offrir davantage de flexibilité aux promoteurs en étalant les paiements."
+    },
+    {
+      "key": "arg_redev_lf10",
+      "topic": "redevances_developpement",
+      "actor": "levis_force_10_2025",
+      "side": "pro",
+      "content": "Isabelle Demers a défendu les redevances comme un moyen de faire payer aux promoteurs leur juste part des infrastructures liées à la croissance."
+    },
+    {
+      "key": "arg_redev_blaney",
+      "topic": "redevances_developpement",
+      "actor": "steven_blaney",
+      "side": "pro",
+      "content": "Steven Blaney s'est dit d'accord avec le principe des redevances, mais a insisté sur une mise en œuvre en partenariat avec les promoteurs."
+    },
+    {
+      "key": "arg_redev_apchq",
+      "topic": "redevances_developpement",
+      "actor": "apchq_quebec",
+      "side": "con",
+      "content": "L'APCHQ — Région de Québec a demandé de suspendre le projet de redevances, soutenant qu'il manque de vision globale et qu'il risque d'accroître le coût des nouvelles habitations."
+    },
+    {
+      "key": "arg_housing_council",
+      "topic": "aides_logement_abordable_prive",
+      "actor": "conseil_municipal_levis_2026",
+      "side": "pro",
+      "content": "Le conseil municipal a approuvé en mai 2026 trois projets de logements sociaux et abordables, incluant un projet porté par le secteur privé, avec une contribution municipale combinant apport financier et crédits de taxes sur 20 ans."
+    },
+    {
+      "key": "arg_housing_anick",
+      "topic": "aides_logement_abordable_prive",
+      "actor": "anick_tremblay",
+      "side": "con",
+      "content": "Anick Tremblay a rejeté les trois projets soumis au vote, invoquant notamment la capacité financière de la Ville, l'état des actifs existants et le coût municipal par logement."
+    },
+    {
+      "key": "arg_housing_opposition",
+      "topic": "aides_logement_abordable_prive",
+      "actor": "oppositions_rl_lf10_vote_2026",
+      "side": "con",
+      "content": "Les six élus de Repensons Lévis et Lévis Force 10 ont approuvé les deux projets portés par Desjardins et un OBNL, mais rejeté le projet porté par le secteur privé."
+    },
+    {
+      "key": "arg_rabaska_blaney",
+      "topic": "rabaska_protection_avant_industrie",
+      "actor": "steven_blaney",
+      "side": "neutral",
+      "content": "Steven Blaney a défendu une recherche d'équilibre : conserver une possibilité de développement industriel tout en reconnaissant l'importance du volet agricole."
+    },
+    {
+      "key": "arg_rabaska_rl",
+      "topic": "rabaska_protection_avant_industrie",
+      "actor": "repensons_levis_2025",
+      "side": "pro",
+      "content": "Serge Bonin a soutenu qu'il n'y avait aucune urgence à industrialiser davantage les terres de Rabaska et qu'il fallait d'abord mieux utiliser les parcs industriels existants."
+    },
+    {
+      "key": "arg_rabaska_lf10_context",
+      "topic": "rabaska_protection_avant_industrie",
+      "actor": "levis_force_10_2025",
+      "side": "neutral",
+      "content": "Isabelle Demers a présenté le découpage envisagé des terres comme un mélange de zones agricoles, de milieux naturels protégés et de superficie industrielle; la source ne permet pas de lui attribuer une préférence simple entre protection et industrialisation."
+    },
+    {
+      "key": "arg_fin_blaney",
+      "topic": "cadre_financier_2026_2030",
+      "actor": "steven_blaney",
+      "side": "pro",
+      "content": "Steven Blaney défend le cadre financier 2026-2030, notamment le remboursement anticipé de 10 M$ sur la dette et la cible d'un ratio d'endettement de 130 % des revenus au plus tard en 2033."
+    },
+    {
+      "key": "arg_fin_forget",
+      "topic": "cadre_financier_2026_2030",
+      "actor": "benoit_forget_chiasson",
+      "side": "pro",
+      "content": "Benoit Forget-Chiasson a appuyé le cadre financier et jugé raisonnables la cible de 130 % pour la dette à long terme et la cible de 20 % pour le service de la dette."
+    },
+    {
+      "key": "arg_fin_dufour",
+      "topic": "cadre_financier_2026_2030",
+      "actor": "anthony_dufour",
+      "side": "con",
+      "content": "Anthony Dufour a contesté le cadre financier, affirmant notamment que le déficit de maintien des actifs était sous-évalué et critiquant l'abandon du paiement comptant dans les premières années du cadre."
+    },
+    {
+      "key": "arg_participation_ville",
+      "topic": "participation_continue",
+      "actor": "ville_levis_2026",
+      "side": "pro",
+      "content": "Avec Lévis+, la Ville de Lévis a lancé une démarche de participation citoyenne jusqu'en 2030 visant à coconstruire une vision intégrée du territoire sur la mobilité, les milieux de vie, les espaces verts et la croissance."
+    },
+    {
+      "key": "arg_participation_rl",
+      "topic": "participation_continue",
+      "actor": "repensons_levis_2025",
+      "side": "pro",
+      "content": "Repensons Lévis proposait en 2025 des budgets participatifs dans les quartiers, avec des projets soumis au vote des citoyens."
+    }
+  ],
+  "argument_sources": [
+    {
+      "key": "arg_3l_blaney_source",
+      "argument": "arg_3l_blaney",
+      "url": "https://www.journaldelevis.com/jdl/31/Transports.html?id=46337",
+      "title": "Steven Blaney : les partis qui délaissent un bouclage périphérique «font fausse route»",
+      "source_type": "news_report_public_statements",
+      "citation_text": "Journal de Lévis, 2026-08-25 — Steven Blaney : les partis qui délaissent un bouclage périphérique «font fausse route»",
+      "note": "Source S01. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_3l_lefebvre_source",
+      "argument": "arg_3l_lefebvre",
+      "url": "https://www.journaldelevis.com/jdl/31/Transports.html?id=46337",
+      "title": "Steven Blaney : les partis qui délaissent un bouclage périphérique «font fausse route»",
+      "source_type": "news_report_public_statements",
+      "citation_text": "Journal de Lévis, 2026-08-25 — Steven Blaney : les partis qui délaissent un bouclage périphérique «font fausse route»",
+      "note": "Source S01. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_3l_forget_source",
+      "argument": "arg_3l_forget",
+      "url": "https://www.journaldelevis.com/jdl/31/Transports.html?id=46337",
+      "title": "Steven Blaney : les partis qui délaissent un bouclage périphérique «font fausse route»",
+      "source_type": "news_report_public_statements",
+      "citation_text": "Journal de Lévis, 2026-08-25 — Steven Blaney : les partis qui délaissent un bouclage périphérique «font fausse route»",
+      "note": "Source S01. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_3l_caq_source",
+      "argument": "arg_3l_caq",
+      "url": "https://www.quebec.ca/transports/infrastructures-projets/projets/projets-routiers/capitale-nationale/lien-quebec-levis",
+      "title": "Construction d’un troisième lien entre Québec et Lévis",
+      "source_type": "official_government_project_page",
+      "citation_text": "Gouvernement du Québec, 2026-06-25 — Construction d’un troisième lien entre Québec et Lévis",
+      "note": "Source S02. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_3l_pq_source",
+      "argument": "arg_3l_pq",
+      "url": "https://www.journaldequebec.com/2026/08/06/le-pq-proposera-a-nouveau-un-3e-lien-dedie-uniquement-au-transport-en-commun",
+      "title": "Le PQ proposera à nouveau un 3e lien dédié uniquement au transport en commun",
+      "source_type": "news_report_public_statement",
+      "citation_text": "Journal de Québec, 2026-08-06 — Le PQ proposera à nouveau un 3e lien dédié uniquement au transport en commun",
+      "note": "Source S03. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_3l_pcq_source",
+      "argument": "arg_3l_pcq",
+      "url": "https://conservateur.quebec/blog/ressources/le-pcq-presente-un-projet-concret-de-3e-lien-autoroutier/",
+      "title": "Le PCQ présente un projet concret de 3e lien autoroutier",
+      "source_type": "official_party_release",
+      "citation_text": "Parti conservateur du Québec, 2026-09-04 — Le PCQ présente un projet concret de 3e lien autoroutier",
+      "note": "Source S04. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_3l_plq_source",
+      "argument": "arg_3l_plq",
+      "url": "https://www.tvanouvelles.ca/2026/09/06/charles-milliard-sur-le-3e-lien--pas-de-nouvelles-etudes-ni-dengagement-ferme",
+      "title": "Charles Milliard sur le 3e lien: pas de nouvelles études... ni d'engagement ferme",
+      "source_type": "news_report_public_statement",
+      "citation_text": "TVA Nouvelles, 2026-09-06 — Charles Milliard sur le 3e lien: pas de nouvelles études... ni d'engagement ferme",
+      "note": "Source S05. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_3l_qs_source",
+      "argument": "arg_3l_qs",
+      "url": "https://www.tvanouvelles.ca/2026/08/29/qs-dit-non-a-un-troisieme-lien-peu-importe-la-forme",
+      "title": "QS dit non à un troisième lien, peu importe la forme",
+      "source_type": "news_report_public_statement",
+      "citation_text": "TVA Nouvelles, 2026-08-29 — QS dit non à un troisième lien, peu importe la forme",
+      "note": "Source S06. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_srb_blaney_source",
+      "argument": "arg_srb_blaney",
+      "url": "https://www.tvanouvelles.ca/2025/10/10/blaney-promet-1-km-de-voies-reservees-en-plus-sur-guillaume-couture",
+      "title": "Blaney promet 1 km de voies réservées en plus sur Guillaume-Couture",
+      "source_type": "news_report_campaign_position",
+      "citation_text": "TVA Nouvelles, 2025-10-10 — Blaney promet 1 km de voies réservées en plus sur Guillaume-Couture",
+      "note": "Source S07. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées. Caveat: Position de campagne 2025; elle ne doit pas être automatiquement étendue à tout futur projet de transport structurant."
+    },
+    {
+      "key": "arg_srb_rl_source",
+      "argument": "arg_srb_rl",
+      "url": "https://www.journaldelevis.com/jdl/29/Repensons_L%C3%A9vis_veut_faire_rena%C3%AEtre_le_projet_LIN%C3%89A.html?id=43613",
+      "title": "Repensons Lévis veut faire renaître le projet LINÉA",
+      "source_type": "news_report_campaign_position",
+      "citation_text": "Journal de Lévis, 2025-10-06 — Repensons Lévis veut faire renaître le projet LINÉA",
+      "note": "Source S08. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées. Caveat: Position de campagne 2025, associée à la direction de Serge Bonin à cette date."
+    },
+    {
+      "key": "arg_srb_lf10_source",
+      "argument": "arg_srb_lf10",
+      "url": "https://levisforce10.com/actualites/pour-une-mobilite-efficace-partout-et-en-tout-temps/",
+      "title": "Pour une mobilité efficace, partout et en tout temps",
+      "source_type": "official_party_platform",
+      "citation_text": "Lévis Force 10, 2025-10-16 — Pour une mobilité efficace, partout et en tout temps",
+      "note": "Source S09. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées. Caveat: Position officielle publiée par Lévis Force 10 en 2025; ne pas l'attribuer personnellement à la direction intérimaire 2026 sans source additionnelle."
+    },
+    {
+      "key": "arg_moratoire_blaney_source",
+      "argument": "arg_moratoire_blaney",
+      "url": "https://www.tvanouvelles.ca/2026/03/11/moratoire-reconduit-a-levis--pas-de-levee-avant-la-fin-de-2028",
+      "title": "Moratoire sur la construction à Lévis: pas de levée avant la fin de 2028",
+      "source_type": "news_report_public_statements",
+      "citation_text": "TVA Nouvelles, 2026-03-11 — Moratoire sur la construction à Lévis: pas de levée avant la fin de 2028",
+      "note": "Source S10. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_moratoire_forget_source",
+      "argument": "arg_moratoire_forget",
+      "url": "https://www.tvanouvelles.ca/2026/03/11/moratoire-reconduit-a-levis--pas-de-levee-avant-la-fin-de-2028",
+      "title": "Moratoire sur la construction à Lévis: pas de levée avant la fin de 2028",
+      "source_type": "news_report_public_statements",
+      "citation_text": "TVA Nouvelles, 2026-03-11 — Moratoire sur la construction à Lévis: pas de levée avant la fin de 2028",
+      "note": "Source S10. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_moratoire_coalition_source",
+      "argument": "arg_moratoire_coalition",
+      "url": "https://www.apchq.com/actualites/moratoire-a-levis-votre-association-en-mode-solutions/",
+      "title": "Moratoire à Lévis : votre association en mode solutions",
+      "source_type": "official_coalition_statement",
+      "citation_text": "APCHQ / ACQ / IDU / CCIGL, 2026-03-02 — Moratoire à Lévis : votre association en mode solutions",
+      "note": "Source S11. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_redev_rl_source",
+      "argument": "arg_redev_rl",
+      "url": "https://www.journaldelevis.com/jdl/32/Un_premier_d%C3%A9bat_%C3%A9lectoral_municipal_%C3%A0_L%C3%A9vis.html?id=43559",
+      "title": "Un premier débat électoral municipal à Lévis",
+      "source_type": "news_report_debate",
+      "citation_text": "Journal de Lévis, 2025-09-29 — Un premier débat électoral municipal à Lévis",
+      "note": "Source S12. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_redev_lf10_source",
+      "argument": "arg_redev_lf10",
+      "url": "https://www.journaldelevis.com/jdl/32/Un_premier_d%C3%A9bat_%C3%A9lectoral_municipal_%C3%A0_L%C3%A9vis.html?id=43559",
+      "title": "Un premier débat électoral municipal à Lévis",
+      "source_type": "news_report_debate",
+      "citation_text": "Journal de Lévis, 2025-09-29 — Un premier débat électoral municipal à Lévis",
+      "note": "Source S12. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_redev_blaney_source",
+      "argument": "arg_redev_blaney",
+      "url": "https://www.journaldelevis.com/jdl/32/Un_premier_d%C3%A9bat_%C3%A9lectoral_municipal_%C3%A0_L%C3%A9vis.html?id=43559",
+      "title": "Un premier débat électoral municipal à Lévis",
+      "source_type": "news_report_debate",
+      "citation_text": "Journal de Lévis, 2025-09-29 — Un premier débat électoral municipal à Lévis",
+      "note": "Source S12. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_redev_apchq_source",
+      "argument": "arg_redev_apchq",
+      "url": "https://www.apchq.com/actualites/l-apchq-demande-a-la-ville-de-levis-de-suspendre-son-projet-de-redevances-de-deve/",
+      "title": "Projet de redevances de développement",
+      "source_type": "official_association_statement",
+      "citation_text": "APCHQ — Région de Québec, 2025-08-27 — Projet de redevances de développement",
+      "note": "Source S13. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_housing_council_source",
+      "argument": "arg_housing_council",
+      "url": "https://www.tvanouvelles.ca/2026/05/12/logements-sociaux-et-abordables-blaney-sattend-a-etre-contredit-par-ses-elus",
+      "title": "Logements sociaux et abordables à Lévis: Quatre dissidents au sein du parti de Blaney",
+      "source_type": "news_report_vote_record",
+      "citation_text": "TVA Nouvelles, 2026-05-12 — Logements sociaux et abordables à Lévis: Quatre dissidents au sein du parti de Blaney",
+      "note": "Source S14. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_housing_anick_source",
+      "argument": "arg_housing_anick",
+      "url": "https://www.tvanouvelles.ca/2026/05/12/logements-sociaux-et-abordables-blaney-sattend-a-etre-contredit-par-ses-elus",
+      "title": "Logements sociaux et abordables à Lévis: Quatre dissidents au sein du parti de Blaney",
+      "source_type": "news_report_vote_record",
+      "citation_text": "TVA Nouvelles, 2026-05-12 — Logements sociaux et abordables à Lévis: Quatre dissidents au sein du parti de Blaney",
+      "note": "Source S14. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_housing_opposition_source",
+      "argument": "arg_housing_opposition",
+      "url": "https://www.tvanouvelles.ca/2026/05/12/logements-sociaux-et-abordables-blaney-sattend-a-etre-contredit-par-ses-elus",
+      "title": "Logements sociaux et abordables à Lévis: Quatre dissidents au sein du parti de Blaney",
+      "source_type": "news_report_vote_record",
+      "citation_text": "TVA Nouvelles, 2026-05-12 — Logements sociaux et abordables à Lévis: Quatre dissidents au sein du parti de Blaney",
+      "note": "Source S14. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées. Caveat: La stance négative porte spécifiquement sur la proposition telle que formulée, qui inclut les projets privés; ces élus ont soutenu les deux autres projets."
+    },
+    {
+      "key": "arg_rabaska_blaney_source",
+      "argument": "arg_rabaska_blaney",
+      "url": "https://www.journaldelevis.com/jdl/32/Le_patrimoine%2C_les_terres_de_Rabaska_et_la_ferme_Chapais_%C3%A0_l%E2%80%99honneur.html?id=43733",
+      "title": "Le patrimoine, les terres de Rabaska et la ferme Chapais à l’honneur",
+      "source_type": "news_report_debate",
+      "citation_text": "Journal de Lévis, 2025-10-19 — Le patrimoine, les terres de Rabaska et la ferme Chapais à l’honneur",
+      "note": "Source S15. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_rabaska_rl_source",
+      "argument": "arg_rabaska_rl",
+      "url": "https://www.journaldelevis.com/jdl/32/Le_patrimoine%2C_les_terres_de_Rabaska_et_la_ferme_Chapais_%C3%A0_l%E2%80%99honneur.html?id=43733",
+      "title": "Le patrimoine, les terres de Rabaska et la ferme Chapais à l’honneur",
+      "source_type": "news_report_debate",
+      "citation_text": "Journal de Lévis, 2025-10-19 — Le patrimoine, les terres de Rabaska et la ferme Chapais à l’honneur",
+      "note": "Source S15. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_rabaska_lf10_context_source",
+      "argument": "arg_rabaska_lf10_context",
+      "url": "https://www.journaldelevis.com/jdl/32/Le_patrimoine%2C_les_terres_de_Rabaska_et_la_ferme_Chapais_%C3%A0_l%E2%80%99honneur.html?id=43733",
+      "title": "Le patrimoine, les terres de Rabaska et la ferme Chapais à l’honneur",
+      "source_type": "news_report_debate",
+      "citation_text": "Journal de Lévis, 2025-10-19 — Le patrimoine, les terres de Rabaska et la ferme Chapais à l’honneur",
+      "note": "Source S15. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées. Caveat: Aucune stance numérique n'est créée pour cet argument afin d'éviter une extrapolation."
+    },
+    {
+      "key": "arg_fin_blaney_source",
+      "argument": "arg_fin_blaney",
+      "url": "https://levis.ca/fr/ville/decouvrir-levis/communiques/un-cadre-financier-responsable-tenant-compte-des-besoins-dinvestissement",
+      "title": "Un cadre financier responsable tenant compte des besoins d’investissement",
+      "source_type": "official_municipal_release",
+      "citation_text": "Ville de Lévis, 2026-06-16 — Un cadre financier responsable tenant compte des besoins d’investissement",
+      "note": "Source S16. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_fin_forget_source",
+      "argument": "arg_fin_forget",
+      "url": "https://www.journaldelevis.com/jdl/29/Politique.html?id=45807",
+      "title": "Le cadre financier 2026-2030 adopté, mais loin de faire consensus",
+      "source_type": "news_report_vote_and_statements",
+      "citation_text": "Journal de Lévis, 2026-06-17 — Le cadre financier 2026-2030 adopté, mais loin de faire consensus",
+      "note": "Source S17. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_fin_dufour_source",
+      "argument": "arg_fin_dufour",
+      "url": "https://www.journaldelevis.com/jdl/29/Politique.html?id=45807",
+      "title": "Le cadre financier 2026-2030 adopté, mais loin de faire consensus",
+      "source_type": "news_report_vote_and_statements",
+      "citation_text": "Journal de Lévis, 2026-06-17 — Le cadre financier 2026-2030 adopté, mais loin de faire consensus",
+      "note": "Source S17. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_participation_ville_source",
+      "argument": "arg_participation_ville",
+      "url": "https://levis.ca/fr/ville/decouvrir-levis/communiques/lancement-de-levis-levis-invite-la-population-a-participer-a-lavenir-de-son-territoire",
+      "title": "Lancement de Lévis+ — Lévis invite la population à participer à l’avenir de son territoire",
+      "source_type": "official_municipal_release",
+      "citation_text": "Ville de Lévis, 2026-06-03 — Lancement de Lévis+ — Lévis invite la population à participer à l’avenir de son territoire",
+      "note": "Source S18. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    },
+    {
+      "key": "arg_participation_rl_source",
+      "argument": "arg_participation_rl",
+      "url": "https://www.journaldelevis.com/jdl/32/%C3%89lections_municipales.html?id=43750",
+      "title": "Serge Bonin veut redonner du pouvoir aux quartiers",
+      "source_type": "news_report_campaign_position",
+      "citation_text": "Journal de Lévis, 2025-10-20 — Serge Bonin veut redonner du pouvoir aux quartiers",
+      "note": "Source S19. Position reconstruite à partir de ce document; ne pas extrapoler au-delà de la question et de la date citées."
+    }
+  ],
+  "consultations": [
+    {
+      "key": "vote_troisieme_lien",
+      "title": "Simulation — orientation du lien interrives",
+      "status": "archived",
+      "open_date": "2026-09-22",
+      "close_date": "2026-12-31",
+      "options": [
+        {
+          "key": "routier_est",
+          "label": "Nouveau lien routier à l'est"
+        },
+        {
+          "key": "collectif_seulement",
+          "label": "Nouveau lien réservé au transport collectif"
+        },
+        {
+          "key": "aucun_nouveau_lien",
+          "label": "Aucun nouveau lien; investir dans les réseaux existants"
+        },
+        {
+          "key": "conditionnel",
+          "label": "Décider seulement après conditions, coûts et études complémentaires"
+        }
+      ],
+      "metadata": {
+        "experience": "legacy_v0_1_issue_poll",
+        "primary_experience": false,
+        "lifecycle": "historical_v0_1",
+        "archived_in_content_version": "0.2.1",
+        "archive_reason": "Superseded in the primary World experience by three integrated master consultations; retained for provenance and regression coverage."
+      }
+    },
+    {
+      "key": "vote_transport_local",
+      "title": "Simulation — axe Guillaume-Couture",
+      "status": "archived",
+      "open_date": "2026-09-22",
+      "close_date": "2026-12-31",
+      "options": [
+        {
+          "key": "srb_bhns",
+          "label": "SRB/BHNS axial structurant"
+        },
+        {
+          "key": "voies_reservees",
+          "label": "Poursuivre les voies réservées latérales"
+        },
+        {
+          "key": "hybride",
+          "label": "Approche hybride ou autre configuration"
+        }
+      ],
+      "metadata": {
+        "experience": "legacy_v0_1_issue_poll",
+        "primary_experience": false,
+        "lifecycle": "historical_v0_1",
+        "archived_in_content_version": "0.2.1",
+        "archive_reason": "Superseded in the primary World experience by three integrated master consultations; retained for provenance and regression coverage."
+      }
+    },
+    {
+      "key": "vote_moratoire",
+      "title": "Simulation — reprise de la construction et eaux usées",
+      "status": "archived",
+      "open_date": "2026-09-22",
+      "close_date": "2026-12-31",
+      "options": [
+        {
+          "key": "capacite_permanente",
+          "label": "Attendre principalement les capacités permanentes"
+        },
+        {
+          "key": "solutions_interimaires",
+          "label": "Accélérer avec solutions intérimaires encadrées"
+        },
+        {
+          "key": "exceptions_selectives",
+          "label": "Maintenir l'encadrement avec exceptions sélectives"
+        }
+      ],
+      "metadata": {
+        "experience": "legacy_v0_1_issue_poll",
+        "primary_experience": false,
+        "lifecycle": "historical_v0_1",
+        "archived_in_content_version": "0.2.1",
+        "archive_reason": "Superseded in the primary World experience by three integrated master consultations; retained for provenance and regression coverage."
+      }
+    },
+    {
+      "key": "vote_redevances",
+      "title": "Simulation — financement des infrastructures de croissance",
+      "status": "archived",
+      "open_date": "2026-09-22",
+      "close_date": "2026-12-31",
+      "options": [
+        {
+          "key": "maintenir",
+          "label": "Maintenir des redevances de développement"
+        },
+        {
+          "key": "modifier",
+          "label": "Conserver le principe mais modifier modalités ou échéancier"
+        },
+        {
+          "key": "suspendre",
+          "label": "Suspendre les redevances"
+        }
+      ],
+      "metadata": {
+        "experience": "legacy_v0_1_issue_poll",
+        "primary_experience": false,
+        "lifecycle": "historical_v0_1",
+        "archived_in_content_version": "0.2.1",
+        "archive_reason": "Superseded in the primary World experience by three integrated master consultations; retained for provenance and regression coverage."
+      }
+    },
+    {
+      "key": "vote_logement",
+      "title": "Simulation — soutien municipal au logement abordable",
+      "status": "archived",
+      "open_date": "2026-09-22",
+      "close_date": "2026-12-31",
+      "options": [
+        {
+          "key": "tous_modeles",
+          "label": "Soutenir des projets admissibles incluant le privé"
+        },
+        {
+          "key": "non_lucratif",
+          "label": "Limiter le soutien aux projets publics, coopératifs ou sans but lucratif"
+        },
+        {
+          "key": "cas_par_cas",
+          "label": "Décider au cas par cas selon le coût et les retombées"
+        },
+        {
+          "key": "pas_credits_longue_duree",
+          "label": "Éviter les crédits de taxes de longue durée"
+        }
+      ],
+      "metadata": {
+        "experience": "legacy_v0_1_issue_poll",
+        "primary_experience": false,
+        "lifecycle": "historical_v0_1",
+        "archived_in_content_version": "0.2.1",
+        "archive_reason": "Superseded in the primary World experience by three integrated master consultations; retained for provenance and regression coverage."
+      }
+    },
+    {
+      "key": "vote_rabaska",
+      "title": "Simulation — avenir des terres de Rabaska",
+      "status": "archived",
+      "open_date": "2026-09-22",
+      "close_date": "2026-12-31",
+      "options": [
+        {
+          "key": "protection_prioritaire",
+          "label": "Protection agricole et naturelle prioritaire"
+        },
+        {
+          "key": "equilibre_mixte",
+          "label": "Affectation mixte planifiée"
+        },
+        {
+          "key": "industrie_prioritaire",
+          "label": "Accroître prioritairement la réserve industrielle"
+        }
+      ],
+      "metadata": {
+        "experience": "legacy_v0_1_issue_poll",
+        "primary_experience": false,
+        "lifecycle": "historical_v0_1",
+        "archived_in_content_version": "0.2.1",
+        "archive_reason": "Superseded in the primary World experience by three integrated master consultations; retained for provenance and regression coverage."
+      }
+    },
+    {
+      "key": "vote_finances",
+      "title": "Simulation — cadre financier 2026-2030",
+      "status": "archived",
+      "open_date": "2026-09-22",
+      "close_date": "2026-12-31",
+      "options": [
+        {
+          "key": "maintenir_cadre",
+          "label": "Maintenir l'orientation du cadre adopté"
+        },
+        {
+          "key": "plus_actifs",
+          "label": "Réallouer davantage vers le maintien des actifs"
+        },
+        {
+          "key": "plus_dette",
+          "label": "Accélérer davantage le désendettement"
+        },
+        {
+          "key": "revoir_globalement",
+          "label": "Revoir globalement les hypothèses du cadre"
+        }
+      ],
+      "metadata": {
+        "experience": "legacy_v0_1_issue_poll",
+        "primary_experience": false,
+        "lifecycle": "historical_v0_1",
+        "archived_in_content_version": "0.2.1",
+        "archive_reason": "Superseded in the primary World experience by three integrated master consultations; retained for provenance and regression coverage."
+      }
+    },
+    {
+      "key": "vote_participation",
+      "title": "Simulation — participation citoyenne",
+      "status": "archived",
+      "open_date": "2026-09-22",
+      "close_date": "2026-12-31",
+      "options": [
+        {
+          "key": "levis_plus",
+          "label": "Poursuivre et renforcer les démarches de type Lévis+"
+        },
+        {
+          "key": "budgets_participatifs",
+          "label": "Ajouter des budgets participatifs de quartier"
+        },
+        {
+          "key": "referendums_cibles",
+          "label": "Ajouter des référendums ou votes consultatifs ciblés"
+        },
+        {
+          "key": "consultations_actuelles",
+          "label": "Conserver surtout les mécanismes actuels"
+        }
+      ],
+      "metadata": {
+        "experience": "legacy_v0_1_issue_poll",
+        "primary_experience": false,
+        "lifecycle": "historical_v0_1",
+        "archived_in_content_version": "0.2.1",
+        "archive_reason": "Superseded in the primary World experience by three integrated master consultations; retained for provenance and regression coverage."
+      }
+    },
+    {
+      "key": "levis_growth_2030",
+      "title": "[SIMULATION] Croissance Lévis 2030 — portefeuille résidentiel et infrastructures",
+      "status": "open",
+      "open_date": "2026-09-23",
+      "close_date": "2026-12-31",
+      "options": [
+        {
+          "key": "capacity_first",
+          "label": "Capacité permanente d’abord; croissance accélérée ensuite"
+        },
+        {
+          "key": "managed_transition",
+          "label": "Transition encadrée combinant solutions intérimaires, investissements et rythme modulé"
+        },
+        {
+          "key": "growth_financed",
+          "label": "Croissance soutenue avec contribution accrue des nouveaux projets aux infrastructures"
+        },
+        {
+          "key": "affordability_priority",
+          "label": "Priorité à l’abordabilité et aux projets admissibles, avec séquençage des infrastructures"
+        }
+      ],
+      "metadata": {
+        "arc": "growth_2030",
+        "primary_experience": true,
+        "modality": "ranking",
+        "source_topics": [
+          "moratoire_eaux_usees",
+          "redevances_developpement",
+          "aides_logement_abordable_prive",
+          "cadre_financier_2026_2030"
+        ],
+        "epistemic_status": "simulation_design"
+      }
+    },
+    {
+      "key": "levis_mobility_2035",
+      "title": "[SIMULATION] Mobilité Lévis 2035 — classer des portefeuilles d’investissement",
+      "status": "open",
+      "open_date": "2026-09-23",
+      "close_date": "2026-12-31",
+      "options": [
+        {
+          "key": "road_capacity",
+          "label": "Capacité routière et lien interrives dominants"
+        },
+        {
+          "key": "transit_structuring",
+          "label": "Transport collectif structurant dominant"
+        },
+        {
+          "key": "balanced_network",
+          "label": "Portefeuille équilibré interrives + réseau local + transport collectif"
+        },
+        {
+          "key": "optimize_existing",
+          "label": "Optimisation prioritaire des réseaux existants avant nouveaux grands ouvrages"
+        }
+      ],
+      "metadata": {
+        "arc": "mobility_2035",
+        "primary_experience": true,
+        "modality": "ranking",
+        "source_topics": [
+          "troisieme_lien_routier_est",
+          "srb_guillaume_couture",
+          "cadre_financier_2026_2030"
+        ],
+        "epistemic_status": "simulation_design"
+      }
+    },
+    {
+      "key": "levis_territory_mandate",
+      "title": "[SIMULATION] Lévis-Est — territoire, conditions de développement et mandat citoyen",
+      "status": "open",
+      "open_date": "2026-09-23",
+      "close_date": "2026-12-31",
+      "options": [
+        {
+          "key": "protection_first",
+          "label": "Protection agricole et naturelle prioritaire"
+        },
+        {
+          "key": "planned_mosaic",
+          "label": "Mosaïque planifiée combinant protection et développement sous conditions"
+        },
+        {
+          "key": "industrial_priority",
+          "label": "Développement industriel prioritaire avec mesures de mitigation"
+        },
+        {
+          "key": "citizen_mandate_first",
+          "label": "Mandat citoyen renforcé avant affectation structurante du territoire"
+        }
+      ],
+      "metadata": {
+        "arc": "territory_mandate",
+        "primary_experience": true,
+        "modality": "ranking",
+        "source_topics": [
+          "rabaska_protection_avant_industrie",
+          "participation_continue",
+          "cadre_financier_2026_2030"
+        ],
+        "epistemic_status": "simulation_design"
+      }
+    }
+  ],
+  "consultation_votes": [],
+  "impact_items": [
+    {
+      "consultation": "levis_growth_2030",
+      "action": "[SIMULATION] Ouvrir le projet Growth Lévis 2030 avec un registre explicite des hypothèses.",
+      "status": "planned",
+      "date": "2026-10-05"
+    },
+    {
+      "consultation": "levis_growth_2030",
+      "action": "[SIMULATION] Publier une version révisée du scénario de croissance après la consultation.",
+      "status": "planned",
+      "date": "2026-11-15"
+    },
+    {
+      "consultation": "levis_growth_2030",
+      "action": "[SIMULATION] Relier chaque changement majeur du plan à une source, une contrainte ou un résultat de consultation.",
+      "status": "planned",
+      "date": "2026-12-01"
+    },
+    {
+      "consultation": "levis_mobility_2035",
+      "action": "[SIMULATION] Ouvrir le projet Mobility Lévis 2035 et comparer les portefeuilles avec les mêmes critères.",
+      "status": "planned",
+      "date": "2026-10-10"
+    },
+    {
+      "consultation": "levis_mobility_2035",
+      "action": "[SIMULATION] Publier le portefeuille recommandé avec hypothèses, coûts, risques et dissensus résiduel.",
+      "status": "planned",
+      "date": "2026-12-05"
+    },
+    {
+      "consultation": "levis_territory_mandate",
+      "action": "[SIMULATION] Constituer l’archive Lévis-Est — mémoire d’un territoire et documenter les éléments à préserver.",
+      "status": "planned",
+      "date": "2026-11-01"
+    }
+  ],
+  "ekoh_profiles": [
+    {
+      "actor": "expert_water_infrastructure",
+      "rating_visibility": "public",
+      "publication_basis": "SIMULATION — calibration pédagogique 0..1, non issue d’une évaluation d’une personne réelle.",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "0521",
+          "weighted_score": 0.9,
+          "raw_score": 0.9
+        },
+        {
+          "domain_code": "0731",
+          "weighted_score": 0.75,
+          "raw_score": 0.75
+        },
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.65,
+          "raw_score": 0.65
+        }
+      ]
+    },
+    {
+      "actor": "expert_municipal_finance",
+      "rating_visibility": "public",
+      "publication_basis": "SIMULATION — calibration pédagogique 0..1, non issue d’une évaluation d’une personne réelle.",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "0311",
+          "weighted_score": 0.9,
+          "raw_score": 0.9
+        },
+        {
+          "domain_code": "0413",
+          "weighted_score": 0.8,
+          "raw_score": 0.8
+        },
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.75,
+          "raw_score": 0.75
+        }
+      ]
+    },
+    {
+      "actor": "expert_housing_planning",
+      "rating_visibility": "public",
+      "publication_basis": "SIMULATION — calibration pédagogique 0..1, non issue d’une évaluation d’une personne réelle.",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "0731",
+          "weighted_score": 0.85,
+          "raw_score": 0.85
+        },
+        {
+          "domain_code": "092",
+          "weighted_score": 0.8,
+          "raw_score": 0.8
+        },
+        {
+          "domain_code": "0314",
+          "weighted_score": 0.7,
+          "raw_score": 0.7
+        }
+      ]
+    },
+    {
+      "actor": "expert_mobility_planning",
+      "rating_visibility": "public",
+      "publication_basis": "SIMULATION — calibration pédagogique 0..1, non issue d’une évaluation d’une personne réelle.",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "0731",
+          "weighted_score": 0.9,
+          "raw_score": 0.9
+        },
+        {
+          "domain_code": "0542",
+          "weighted_score": 0.75,
+          "raw_score": 0.75
+        },
+        {
+          "domain_code": "0312",
+          "weighted_score": 0.6,
+          "raw_score": 0.6
+        }
+      ]
+    },
+    {
+      "actor": "expert_land_environment",
+      "rating_visibility": "public",
+      "publication_basis": "SIMULATION — calibration pédagogique 0..1, non issue d’une évaluation d’une personne réelle.",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "0521",
+          "weighted_score": 0.9,
+          "raw_score": 0.9
+        },
+        {
+          "domain_code": "0731",
+          "weighted_score": 0.75,
+          "raw_score": 0.75
+        },
+        {
+          "domain_code": "0314",
+          "weighted_score": 0.65,
+          "raw_score": 0.65
+        }
+      ]
+    },
+    {
+      "actor": "expert_public_participation",
+      "rating_visibility": "public",
+      "publication_basis": "SIMULATION — calibration pédagogique 0..1, non issue d’une évaluation d’une personne réelle.",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "0312",
+          "weighted_score": 0.9,
+          "raw_score": 0.9
+        },
+        {
+          "domain_code": "0314",
+          "weighted_score": 0.8,
+          "raw_score": 0.8
+        },
+        {
+          "domain_code": "0421",
+          "weighted_score": 0.65,
+          "raw_score": 0.65
+        }
+      ]
+    }
+  ],
+  "consultation_relevance": [
+    {
+      "consultation": "levis_growth_2030",
+      "domain_code": "0731",
+      "weight": 0.25,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_growth_2030",
+      "domain_code": "0311",
+      "weight": 0.2,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_growth_2030",
+      "domain_code": "0413",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_growth_2030",
+      "domain_code": "092",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_growth_2030",
+      "domain_code": "0521",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_growth_2030",
+      "domain_code": "0542",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_mobility_2035",
+      "domain_code": "0731",
+      "weight": 0.35,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_mobility_2035",
+      "domain_code": "0311",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_mobility_2035",
+      "domain_code": "0413",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_mobility_2035",
+      "domain_code": "0312",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_mobility_2035",
+      "domain_code": "0542",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_mobility_2035",
+      "domain_code": "092",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    },
+    {
+      "consultation": "levis_mobility_2035",
+      "domain_code": "0521",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Configure the optional EkoH expertise-context reading while preserving the unweighted baseline as the primary result.",
+        "method": "World 2 v0.2.1 declared reading vector; weights normalized to 1.0 per consultation."
+      }
+    }
+  ],
+  "topic_relevance": [
+    {
+      "topic": "troisieme_lien_routier_est",
+      "domain_code": "0731",
+      "weight": 0.45,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "domain_code": "0311",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "domain_code": "0542",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "domain_code": "0312",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "domain_code": "0521",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "troisieme_lien_routier_est",
+      "domain_code": "0413",
+      "weight": 0.05,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "domain_code": "0731",
+      "weight": 0.5,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "domain_code": "0542",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "domain_code": "0311",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "domain_code": "092",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "domain_code": "0521",
+      "weight": 0.05,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "srb_guillaume_couture",
+      "domain_code": "0312",
+      "weight": 0.05,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "moratoire_eaux_usees",
+      "domain_code": "0521",
+      "weight": 0.35,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "moratoire_eaux_usees",
+      "domain_code": "0731",
+      "weight": 0.3,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "moratoire_eaux_usees",
+      "domain_code": "0413",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "moratoire_eaux_usees",
+      "domain_code": "0311",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "moratoire_eaux_usees",
+      "domain_code": "0542",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "redevances_developpement",
+      "domain_code": "0311",
+      "weight": 0.3,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "redevances_developpement",
+      "domain_code": "0413",
+      "weight": 0.25,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "redevances_developpement",
+      "domain_code": "0731",
+      "weight": 0.2,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "redevances_developpement",
+      "domain_code": "092",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "redevances_developpement",
+      "domain_code": "0542",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "redevances_developpement",
+      "domain_code": "0312",
+      "weight": 0.05,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "domain_code": "092",
+      "weight": 0.3,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "domain_code": "0731",
+      "weight": 0.25,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "domain_code": "0311",
+      "weight": 0.2,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "domain_code": "0413",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "domain_code": "0314",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "aides_logement_abordable_prive",
+      "domain_code": "0312",
+      "weight": 0.05,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "rabaska_protection_avant_industrie",
+      "domain_code": "0521",
+      "weight": 0.3,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "rabaska_protection_avant_industrie",
+      "domain_code": "0731",
+      "weight": 0.25,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "rabaska_protection_avant_industrie",
+      "domain_code": "0314",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "rabaska_protection_avant_industrie",
+      "domain_code": "0311",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "rabaska_protection_avant_industrie",
+      "domain_code": "0312",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "rabaska_protection_avant_industrie",
+      "domain_code": "0421",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "cadre_financier_2026_2030",
+      "domain_code": "0311",
+      "weight": 0.4,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "cadre_financier_2026_2030",
+      "domain_code": "0413",
+      "weight": 0.25,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "cadre_financier_2026_2030",
+      "domain_code": "0542",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "cadre_financier_2026_2030",
+      "domain_code": "0312",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "cadre_financier_2026_2030",
+      "domain_code": "0731",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "participation_continue",
+      "domain_code": "0312",
+      "weight": 0.35,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "participation_continue",
+      "domain_code": "0314",
+      "weight": 0.25,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "participation_continue",
+      "domain_code": "0421",
+      "weight": 0.15,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "participation_continue",
+      "domain_code": "0413",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "participation_continue",
+      "domain_code": "0731",
+      "weight": 0.1,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    },
+    {
+      "topic": "participation_continue",
+      "domain_code": "0542",
+      "weight": 0.05,
+      "criteria": {
+        "kind": "domain_relevance",
+        "epistemic_status": "simulation_configuration",
+        "purpose": "Select contextually relevant EkoH expertise domains for advisory readings; does not encode whether any position is correct.",
+        "method": "editorial mapping from the topic subject matter to the World ISCED-F domain subset; weights normalized to 1.0 per topic."
+      }
+    }
+  ],
+  "reading_exclusions": []
+}

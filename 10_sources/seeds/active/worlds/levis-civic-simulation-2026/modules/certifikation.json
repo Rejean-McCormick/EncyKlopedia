@@ -1,0 +1,85 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "levis-civic-simulation-2026",
+  "content_version": "0.2.1",
+  "import_status": "staged_sidecar",
+  "module": "konnected.certifikation",
+  "paths": [
+    {
+      "key": "cert_levis_municipal_decision_analysis",
+      "name": "Analyser une décision municipale",
+      "description": "Parcours civique transversal visant la capacité à distinguer faits, positions, contraintes, options et incertitudes avant de produire une recommandation traçable. Il ne certifie aucune opinion politique.",
+      "pass_percent": 80,
+      "steps": [
+        {
+          "order": 1,
+          "title": "Comprendre les institutions",
+          "knowledge_refs": [
+            "kno_lev_01",
+            "kno_lev_12"
+          ],
+          "assessment": "Identifier les rôles et les étapes de décision dans un cas simulé."
+        },
+        {
+          "order": 2,
+          "title": "Lire les sources",
+          "knowledge_refs": [
+            "kno_lev_02",
+            "kno_lev_08",
+            "kno_lev_11"
+          ],
+          "assessment": "Classer des énoncés comme source, position, simulation ou dérivation."
+        },
+        {
+          "order": 3,
+          "title": "Identifier les contraintes",
+          "knowledge_refs": [
+            "kno_lev_03",
+            "kno_lev_04",
+            "kno_lev_05"
+          ],
+          "assessment": "Produire un registre de contraintes et d’hypothèses."
+        },
+        {
+          "order": 4,
+          "title": "Comparer des alternatives",
+          "knowledge_refs": [
+            "kno_lev_06",
+            "kno_lev_07",
+            "kno_lev_09",
+            "kno_lev_10"
+          ],
+          "assessment": "Comparer au moins deux scénarios avec une grille commune."
+        },
+        {
+          "order": 5,
+          "title": "Produire une recommandation justifiée",
+          "knowledge_refs": [],
+          "assessment": "Remettre une note présentant options, preuves, incertitudes et conséquences simulées."
+        }
+      ],
+      "final_evaluation": {
+        "artifact_type": "decision_memo",
+        "rubric": [
+          {
+            "criterion": "Distinction faits / positions / simulation",
+            "weight_percent": 25
+          },
+          {
+            "criterion": "Contraintes et hypothèses explicites",
+            "weight_percent": 25
+          },
+          {
+            "criterion": "Comparaison équitable des options",
+            "weight_percent": 25
+          },
+          {
+            "criterion": "Sources, incertitudes et traçabilité",
+            "weight_percent": 25
+          }
+        ]
+      },
+      "issuance_policy": "runtime_only_no_preseeded_certificates"
+    }
+  ]
+}

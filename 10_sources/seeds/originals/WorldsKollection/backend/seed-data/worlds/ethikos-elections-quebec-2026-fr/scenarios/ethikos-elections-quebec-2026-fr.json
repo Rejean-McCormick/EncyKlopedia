@@ -1,0 +1,1946 @@
+{
+  "schema_version": "ethikos-demo-scenario/v3",
+  "scenario_key": "ethikos_elections_quebec_2026_fr_v1",
+  "scenario_title": "Élections québécoises 2026 — environnement électoral traçable",
+  "mode": "replace_scenario",
+  "metadata": {
+    "world_key": "ethikos-elections-quebec-2026-fr",
+    "language": "fr-CA",
+    "baseline_as_of": "2026-09-09",
+    "currentity": "baseline_not_current",
+    "election_date": "2026-10-05",
+    "source_format": "forum_threads_markdown",
+    "editorial_policy": {
+      "no_party_ranking": true,
+      "no_vote_recommendation": true,
+      "no_inferred_party_stances": true,
+      "no_party_ekoh_score": true,
+      "source_traceability_required": true
+    },
+    "compiled_projection": true,
+    "compiled_from": {
+      "actors": "canon/actors.json",
+      "issues": "canon/issues.json",
+      "claims": "canon/claims.json",
+      "evidence": "evidence/"
+    },
+    "projection_policy": {
+      "party_positions_are_arguments_not_numeric_stances": true,
+      "consultations_are_non_official_policy_tradeoff_exploration": true,
+      "topic_relevance_is_context_for_derived_readings": true,
+      "raw_source_corpus_is_preserved": true
+    }
+  },
+  "actors": [
+    {
+      "key": "caq",
+      "username": "qc2026__caq",
+      "display_name": "Coalition avenir Québec",
+      "role": "institutional_party_reconstructed_position",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "plq",
+      "username": "qc2026__plq",
+      "display_name": "Parti libéral du Québec",
+      "role": "institutional_party_reconstructed_position",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "pq",
+      "username": "qc2026__pq",
+      "display_name": "Parti Québécois",
+      "role": "institutional_party_reconstructed_position",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "pcq",
+      "username": "qc2026__pcq",
+      "display_name": "Parti conservateur du Québec",
+      "role": "institutional_party_reconstructed_position",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "qs",
+      "username": "qc2026__qs",
+      "display_name": "Québec solidaire",
+      "role": "institutional_party_reconstructed_position",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ddq",
+      "username": "qc2026__ddq",
+      "display_name": "Démocratie Directe Québec",
+      "role": "institutional_party_reconstructed_position",
+      "is_ethikos_elite": false
+    }
+  ],
+  "categories": [
+    {
+      "key": "elections_quebec_2026",
+      "name": "Élections québécoises 2026 — enjeux",
+      "description": "Dossiers d’enjeux et positions reconstruites à partir du corpus sourcé baseline du 9 septembre 2026."
+    }
+  ],
+  "topics": [
+    {
+      "key": "sante_acces_gouvernance",
+      "title": "[DEMO][QC2026] Santé : accès, public, privé et gouvernance",
+      "description": "Quel équilibre entre réseau public, capacité privée, décentralisation et contrôle citoyen offrirait l'accès le plus rapide aux soins sans compromettre l'universalité?\n\nBaseline éditoriale: 2026-09-09. Les interventions sont des positions reconstruites sourcées, pas des citations littérales ni des recommandations de vote.",
+      "status": "open",
+      "category": "elections_quebec_2026",
+      "start_date": "2026-09-09",
+      "end_date": "2026-10-05"
+    },
+    {
+      "key": "logement_abordabilite",
+      "title": "[DEMO][QC2026] Logement : construire, réguler ou sortir du marché",
+      "description": "Pour rendre le logement réellement abordable, faut-il surtout construire davantage, agir sur les prix, développer le logement hors marché ou transférer plus de pouvoir au niveau local?\n\nBaseline éditoriale: 2026-09-09. Les interventions sont des positions reconstruites sourcées, pas des citations littérales ni des recommandations de vote.",
+      "status": "open",
+      "category": "elections_quebec_2026",
+      "start_date": "2026-09-09",
+      "end_date": "2026-10-05"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite",
+      "title": "[DEMO][QC2026] Pouvoir d’achat : impôts, aides et prix",
+      "description": "Comment augmenter durablement le pouvoir d'achat sans affaiblir les services publics ni reporter la facture sur les prochaines années?\n\nBaseline éditoriale: 2026-09-09. Les interventions sont des positions reconstruites sourcées, pas des citations littérales ni des recommandations de vote.",
+      "status": "open",
+      "category": "elections_quebec_2026",
+      "start_date": "2026-09-09",
+      "end_date": "2026-10-05"
+    },
+    {
+      "key": "economie_productivite_finances",
+      "title": "[DEMO][QC2026] Économie : productivité, dépenses et finances publiques",
+      "description": "Quel compromis entre baisse des impôts, investissement public, discipline budgétaire et politique industrielle peut réellement améliorer la productivité du Québec?\n\nBaseline éditoriale: 2026-09-09. Les interventions sont des positions reconstruites sourcées, pas des citations littérales ni des recommandations de vote.",
+      "status": "open",
+      "category": "elections_quebec_2026",
+      "start_date": "2026-09-09",
+      "end_date": "2026-10-05"
+    },
+    {
+      "key": "immigration_capacite_accueil",
+      "title": "[DEMO][QC2026] Immigration : besoins, capacité d’accueil et régionalisation",
+      "description": "Quels niveaux et quels types d'immigration sont compatibles avec les besoins de main-d'œuvre, la capacité d'accueil et l'intégration en français?\n\nBaseline éditoriale: 2026-09-09. Les interventions sont des positions reconstruites sourcées, pas des citations littérales ni des recommandations de vote.",
+      "status": "open",
+      "category": "elections_quebec_2026",
+      "start_date": "2026-09-09",
+      "end_date": "2026-10-05"
+    },
+    {
+      "key": "francais_langue_commune",
+      "title": "[DEMO][QC2026] Français : contrainte juridique, intégration ou constitution",
+      "description": "Comment renforcer durablement le français tout en conciliant intégration, attractivité économique, droits individuels et cohésion sociale?\n\nBaseline éditoriale: 2026-09-09. Les interventions sont des positions reconstruites sourcées, pas des citations littérales ni des recommandations de vote.",
+      "status": "open",
+      "category": "elections_quebec_2026",
+      "start_date": "2026-09-09",
+      "end_date": "2026-10-05"
+    },
+    {
+      "key": "education_reussite",
+      "title": "[DEMO][QC2026] Éducation : ressources, culture, choix et gouvernance",
+      "description": "Quelles priorités réformeraient le mieux l'école québécoise : ressources spécialisées, culture commune, soutien financier, choix des familles, mixité ou gouvernance locale?\n\nBaseline éditoriale: 2026-09-09. Les interventions sont des positions reconstruites sourcées, pas des citations littérales ni des recommandations de vote.",
+      "status": "open",
+      "category": "elections_quebec_2026",
+      "start_date": "2026-09-09",
+      "end_date": "2026-10-05"
+    },
+    {
+      "key": "energie_climat_ressources",
+      "title": "[DEMO][QC2026] Énergie et climat : rythme, coûts et ressources",
+      "description": "À quel rythme le Québec doit-il transformer son système énergétique et ses transports, et comment répartir les coûts et les bénéfices de cette transition?\n\nBaseline éditoriale: 2026-09-09. Les interventions sont des positions reconstruites sourcées, pas des citations littérales ni des recommandations de vote.",
+      "status": "open",
+      "category": "elections_quebec_2026",
+      "start_date": "2026-09-09",
+      "end_date": "2026-10-05"
+    },
+    {
+      "key": "avenir_politique_quebec",
+      "title": "[DEMO][QC2026] Avenir politique : fédéralisme, autonomie, indépendance ou constituante",
+      "description": "Quel statut politique donne au Québec le meilleur équilibre entre capacité d'agir, stabilité, identité nationale et contrôle démocratique?\n\nBaseline éditoriale: 2026-09-09. Les interventions sont des positions reconstruites sourcées, pas des citations littérales ni des recommandations de vote.",
+      "status": "open",
+      "category": "elections_quebec_2026",
+      "start_date": "2026-09-09",
+      "end_date": "2026-10-05"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen",
+      "title": "[DEMO][QC2026] Démocratie : qui doit avoir le dernier mot?",
+      "description": "Qui devrait avoir le dernier mot sur les grandes décisions : l'Assemblée nationale, le gouvernement, les régions ou directement les citoyens?\n\nBaseline éditoriale: 2026-09-09. Les interventions sont des positions reconstruites sourcées, pas des citations littérales ni des recommandations de vote.",
+      "status": "open",
+      "category": "elections_quebec_2026",
+      "start_date": "2026-09-09",
+      "end_date": "2026-10-05"
+    }
+  ],
+  "stances": [],
+  "arguments": [
+    {
+      "key": "sante_acces_gouvernance__caq",
+      "topic": "sante_acces_gouvernance",
+      "actor": "caq",
+      "content": "**Position reconstruite.** La CAQ propose une approche hybride : conserver le paiement public, mieux mutualiser les listes d'attente et utiliser davantage de capacité privée lorsque le réseau public ne respecte pas certains délais. Elle ajoute un investissement important en soutien à domicile. **Argument central :** l'accès doit primer sur l'identité du fournisseur lorsque le patient ne paie pas directement. **Point à tester :** l'ouverture de capacité privée réduit-elle réellement l'attente globale si les deux réseaux recrutent dans le même bassin de médecins, infirmières et technologues?"
+    },
+    {
+      "key": "sante_acces_gouvernance__plq",
+      "topic": "sante_acces_gouvernance",
+      "actor": "plq",
+      "content": "**Position reconstruite.** Le PLQ met surtout l'accent sur l'accès à la première ligne, la télésanté publique, les équipes multidisciplinaires et une meilleure circulation des patients. **Argument central :** une porte d'entrée plus simple et des professionnels utilisés à pleine compétence peuvent éviter qu'une partie de la demande aboutisse inutilement à l'urgence ou chez le médecin. **Point à tester :** l'amélioration de la coordination suffit-elle lorsque le problème est aussi un manque de capacité clinique, de personnel ou de plages diagnostiques?"
+    },
+    {
+      "key": "sante_acces_gouvernance__pq",
+      "topic": "sante_acces_gouvernance",
+      "actor": "pq",
+      "content": "**Position reconstruite.** Le PQ veut recentrer l'État sur les services directs, augmenter substantiellement le soutien à domicile et réduire le poids administratif. **Argument central :** une population vieillissante exige davantage de soins de proximité et moins d'hospitalocentrisme. **Point à tester :** les économies administratives promises peuvent-elles être converties rapidement en heures de soins, et quelle architecture de gouvernance remplace concrètement les structures supprimées ou allégées?"
+    },
+    {
+      "key": "sante_acces_gouvernance__pcq",
+      "topic": "sante_acces_gouvernance",
+      "actor": "pcq",
+      "content": "**Position reconstruite.** Le PCQ veut garantir des délais jugés raisonnables : si le public ne peut les respecter, le patient pourrait recevoir le service d'un fournisseur public ou privé accrédité, payé par la RAMQ. **Argument central :** l'universalité concerne d'abord le financement et l'accès, pas nécessairement la propriété du fournisseur. **Point à tester :** ce modèle augmente-t-il la capacité totale ou déplace-t-il surtout du personnel vers des établissements privés mieux rémunérés ou plus flexibles?"
+    },
+    {
+      "key": "sante_acces_gouvernance__qs",
+      "topic": "sante_acces_gouvernance",
+      "actor": "qs",
+      "content": "**Position reconstruite.** QS place la réparation des services publics au centre de sa campagne et privilégie une réponse où l'État public demeure le principal outil de garantie de l'accès. **Argument central :** renforcer le réseau commun limite le risque de segmentation entre patients et de concurrence pour le personnel. **Point à tester :** quels changements de gouvernance, de productivité clinique et d'organisation du travail permettraient d'obtenir des gains rapides, au-delà de l'ajout de ressources financières?"
+    },
+    {
+      "key": "sante_acces_gouvernance__ddq",
+      "topic": "sante_acces_gouvernance",
+      "actor": "ddq",
+      "content": "**Position reconstruite.** Démocratie Directe Québec refuse de décider à l'avance d'un ratio public-privé. Le programme met plutôt l'accent sur la publication des délais, coûts et résultats, la consultation des patients et du personnel, la subsidiarité et la possibilité de soumettre des réformes majeures à des mécanismes citoyens. **Argument central :** le choix du modèle doit être redevable aux usagers et aux travailleurs, pas seulement aux appareils partisans. **Point à tester :** comment maintenir une cohérence provinciale et des décisions rapides dans un réseau où davantage de choix structurants seraient délibérés localement ou par référendum?"
+    },
+    {
+      "key": "logement_abordabilite__caq",
+      "topic": "logement_abordabilite",
+      "actor": "caq",
+      "content": "**Position reconstruite.** La CAQ définit l'insuffisance d'offre et les obstacles à la construction comme une partie centrale du problème. Elle propose de simplifier les règles, réduire la paperasse et accélérer les projets, tout en soutenant l'accès à la propriété. **Argument central :** si construire devient plus rapide et moins coûteux, l'offre peut mieux répondre à la demande. **Point à tester :** combien de l'économie de coûts se transmet réellement aux loyers et prix de vente, surtout dans les secteurs où le foncier reste rare ou cher?"
+    },
+    {
+      "key": "logement_abordabilite__plq",
+      "topic": "logement_abordabilite",
+      "actor": "plq",
+      "content": "**Position reconstruite.** Le PLQ combine une cible très élevée de construction — jusqu'à 100 000 logements annuellement — avec 40 000 logements sociaux et abordables supplémentaires sur cinq ans et un objectif de 20 % de logement hors marché à long terme. **Argument central :** la crise exige simultanément davantage d'offre générale et un parc protégé des prix du marché. **Point à tester :** le secteur de la construction, les municipalités et les programmes publics ont-ils la main-d'œuvre, le financement et les terrains nécessaires pour atteindre ces volumes?"
+    },
+    {
+      "key": "logement_abordabilite__pq",
+      "topic": "logement_abordabilite",
+      "actor": "pq",
+      "content": "**Position reconstruite.** Le PQ associe allègement réglementaire et harmonisation des normes de construction à une politique nationale d'habitation comprenant logement social, coopératif et sans but lucratif, registre des loyers et encadrement de la spéculation. **Argument central :** augmenter l'offre sans protéger une partie du parc risque de produire des unités qui restent trop chères pour les ménages visés. **Point à tester :** comment arbitrer entre réglementation protectrice et objectif de diminuer les coûts et délais de construction?"
+    },
+    {
+      "key": "logement_abordabilite__pcq",
+      "topic": "logement_abordabilite",
+      "actor": "pcq",
+      "content": "**Position reconstruite.** Le PCQ inscrit l'accès au logement parmi ses priorités et applique à cet enjeu son diagnostic général : réglementation, fiscalité et lenteurs administratives freinent l'offre et l'accès à la propriété. **Argument central :** il faut libérer davantage la construction et le capital privé plutôt que multiplier les contrôles. **Point à tester :** une stratégie surtout orientée vers l'offre produit-elle assez de logements abordables pour les ménages à faible revenu, là où le marché peut préférer des unités plus rentables?"
+    },
+    {
+      "key": "logement_abordabilite__qs",
+      "topic": "logement_abordabilite",
+      "actor": "qs",
+      "content": "**Position reconstruite.** QS veut plafonner temporairement certaines hausses de loyers, réformer le mécanisme de fixation, accroître le logement social et hors marché et soutenir certains premiers acheteurs. **Argument central :** l'offre nouvelle prend du temps et ne protège pas automatiquement les locataires déjà exposés à de fortes hausses. **Point à tester :** comment éviter qu'un contrôle plus serré des loyers réduise l'entretien ou l'investissement locatif privé, et comment cibler l'aide à l'achat sans augmenter la demande et les prix?"
+    },
+    {
+      "key": "logement_abordabilite__ddq",
+      "topic": "logement_abordabilite",
+      "actor": "ddq",
+      "content": "**Position reconstruite.** Le programme ne fixe pas une préférence nationale entre marché, contrôle des loyers et logement public. Il propose plutôt publication des données, décisions de zonage et de développement rapprochées du niveau local, consultations et recours à l'initiative citoyenne pour les grands arbitrages. **Argument central :** les contraintes de Montréal, Rouyn-Noranda ou Gaspé ne sont pas identiques. **Point à tester :** la subsidiarité accélère-t-elle la construction ou renforce-t-elle parfois le pouvoir local de bloquer la densification?"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__caq",
+      "topic": "pouvoir_achat_fiscalite",
+      "actor": "caq",
+      "content": "**Position reconstruite.** La CAQ privilégie un assemblage de mesures ciblées et d'un cadre budgétaire qui prétend préserver les services tout en revenant graduellement vers l'équilibre. Les aides aux familles et certaines dépenses scolaires illustrent cette logique. **Argument central :** soulager des dépenses précises peut être plus ciblé qu'une baisse générale d'impôt. **Point à tester :** les mesures ponctuelles améliorent-elles le revenu disponible durablement ou compensent-elles seulement temporairement des prix structurellement plus élevés?"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__plq",
+      "topic": "pouvoir_achat_fiscalite",
+      "actor": "plq",
+      "content": "**Position reconstruite.** Le PLQ rattache fortement le pouvoir d'achat à la croissance, au logement et à une économie plus productive : réduire les coûts administratifs, stimuler les PME et augmenter l'offre de logements doivent améliorer les revenus et contenir certaines dépenses. **Argument central :** le meilleur gain durable vient d'une économie qui produit davantage par heure travaillée. **Point à tester :** les gains de productivité et de déréglementation arrivent-ils assez vite pour les ménages qui subissent aujourd'hui les loyers, l'épicerie et les taux d'intérêt?"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__pq",
+      "topic": "pouvoir_achat_fiscalite",
+      "actor": "pq",
+      "content": "**Position reconstruite.** Le PQ combine des allégements ciblés — notamment l'abolition proposée de la TVQ sur des biens usagés — avec des mesures sur le logement et les PME. **Argument central :** retirer une taxe sur des biens déjà taxés lors de leur première vente peut rendre des achats courants moins coûteux sans nécessairement diminuer les services de façon visible. **Point à tester :** quelle part de la baisse fiscale est conservée par le vendeur sous forme de prix plus élevés et quel est le coût d'opportunité des revenus fiscaux perdus?"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__pcq",
+      "topic": "pouvoir_achat_fiscalite",
+      "actor": "pcq",
+      "content": "**Position reconstruite.** Le PCQ mise beaucoup plus directement sur des baisses d'impôt et une réduction de la taille et du coût de l'État. Son plan fiscal augmente fortement le montant personnel de base et son cadre financier affirme pouvoir rétablir l'équilibre tout en réduisant les prélèvements. **Argument central :** laisser davantage de revenu aux ménages renforce leur liberté de choix. **Point à tester :** les économies de dépenses prévues sont-elles réalisables sans transfert de coûts vers les utilisateurs, les municipalités ou les générations futures?"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__qs",
+      "topic": "pouvoir_achat_fiscalite",
+      "actor": "qs",
+      "content": "**Position reconstruite.** QS préfère davantage cibler les prix essentiels et redistribuer la charge fiscale : logement, transport, services publics et taxation accrue des très grandes fortunes. **Argument central :** une baisse générale d'impôt profite en valeur absolue davantage aux contribuables ayant plus de revenus, alors qu'un service ou une aide ciblée peut réduire une dépense incontournable. **Point à tester :** les nouvelles recettes fiscales estimées demeurent-elles stables si les contribuables et détenteurs d'actifs adaptent leur comportement?"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__ddq",
+      "topic": "pouvoir_achat_fiscalite",
+      "actor": "ddq",
+      "content": "**Position reconstruite.** Démocratie Directe Québec ne fixe pas à l'avance le niveau optimal de taxes, de transferts ou de services. Elle veut rendre les données budgétaires accessibles et permettre aux citoyens de peser davantage directement sur les priorités. **Argument central :** les arbitrages fiscaux expriment des préférences collectives et devraient être explicitement consentis. **Point à tester :** les électeurs peuvent-ils évaluer simultanément le bénéfice visible d'une baisse d'impôt et le coût diffus d'une réduction de service ou d'un déficit futur?"
+    },
+    {
+      "key": "economie_productivite_finances__caq",
+      "topic": "economie_productivite_finances",
+      "actor": "caq",
+      "content": "**Position reconstruite.** La CAQ promet de moderniser l'État, alléger des exigences réglementaires et maintenir des investissements dans les services et les infrastructures tout en suivant une trajectoire de retour à l'équilibre. **Argument central :** la productivité dépend à la fois d'un secteur privé moins entravé et d'un État capable d'investir. **Point à tester :** après plusieurs années au pouvoir, quelles réformes nouvelles changeraient assez les incitatifs et l'exécution pour produire un résultat différent?"
+    },
+    {
+      "key": "economie_productivite_finances__plq",
+      "topic": "economie_productivite_finances",
+      "actor": "plq",
+      "content": "**Position reconstruite.** Le PLQ met la productivité, les PME, la diversification des exportations et la réduction de la paperasse au cœur de sa logique économique. Il propose notamment une règle de réduction réglementaire de deux pour un et veut diminuer la dépendance commerciale envers les États-Unis. **Argument central :** une économie plus diversifiée et moins coûteuse à administrer peut investir davantage. **Point à tester :** quelle réglementation protège une valeur publique importante et quelle réglementation constitue réellement un coût net inutile?"
+    },
+    {
+      "key": "economie_productivite_finances__pq",
+      "topic": "economie_productivite_finances",
+      "actor": "pq",
+      "content": "**Position reconstruite.** Le PQ propose de réduire l'impôt des sociétés pour les PME, de diminuer certaines aides ciblées aux grandes entreprises et de réaliser des économies administratives pour recentrer l'État. **Argument central :** mieux vaut un environnement fiscal plus prévisible et moins de sélection discrétionnaire de « gagnants » par l'État. **Point à tester :** la réduction des subventions et de la bureaucratie libère-t-elle assez de ressources pour financer simultanément les priorités sociales et la transition vers un État souverain?"
+    },
+    {
+      "key": "economie_productivite_finances__pcq",
+      "topic": "economie_productivite_finances",
+      "actor": "pcq",
+      "content": "**Position reconstruite.** Le PCQ propose la rupture la plus marquée : baisses importantes d'impôts, réduction des dépenses, déréglementation et retour à l'équilibre budgétaire annoncé pour 2029-2030. **Argument central :** capital, travail et entrepreneuriat répondent fortement aux taux d'imposition et à la complexité administrative. **Point à tester :** les économies annoncées sont-elles additionnelles, récurrentes et politiquement réalisables sans sous-financer des fonctions que la population souhaite conserver?"
+    },
+    {
+      "key": "economie_productivite_finances__qs",
+      "topic": "economie_productivite_finances",
+      "actor": "qs",
+      "content": "**Position reconstruite.** QS accepte un rôle beaucoup plus important de l'investissement public et de la redistribution. Sa plateforme fiscale veut notamment prélever davantage auprès des patrimoines très élevés afin de financer services, logement et transition. **Argument central :** une économie productive dépend aussi de biens collectifs — santé, éducation, mobilité, logement — que le marché peut sous-produire. **Point à tester :** quel niveau de taxation supplémentaire maximise les recettes sans provoquer une baisse importante d'investissement, d'assiette fiscale ou de localisation des actifs?"
+    },
+    {
+      "key": "economie_productivite_finances__ddq",
+      "topic": "economie_productivite_finances",
+      "actor": "ddq",
+      "content": "**Position reconstruite.** Le programme ne préétablit pas un modèle économique de gauche ou de droite. Il propose plutôt transparence budgétaire, subsidiarité et décision citoyenne sur les grands choix fiscaux ou de ressources. **Argument central :** le niveau d'État souhaité doit découler d'un mandat explicite et révisable. **Point à tester :** comment protéger une stratégie économique de long terme contre des décisions populaires successives qui pourraient privilégier des bénéfices immédiats et contradictoires?"
+    },
+    {
+      "key": "immigration_capacite_accueil__caq",
+      "topic": "immigration_capacite_accueil",
+      "actor": "caq",
+      "content": "**Position reconstruite.** La CAQ rattache explicitement les volumes d'immigration à la capacité d'accueil. Son plan 2026-2029 vise environ 45 000 admissions permanentes annuelles et plafonne certains permis temporaires relevant du Québec, tout en ayant rouvert le PEQ pour une période limitée. **Argument central :** les services, le logement et la francisation doivent pouvoir absorber les volumes. **Point à tester :** comment distinguer l'effet propre de l'immigration de problèmes d'offre déjà présents et comment compenser les pénuries de main-d'œuvre dans les régions et secteurs touchés?"
+    },
+    {
+      "key": "immigration_capacite_accueil__plq",
+      "topic": "immigration_capacite_accueil",
+      "actor": "plq",
+      "content": "**Position reconstruite.** Dans les sources officielles 2026 consultées pour ce pack, le PLQ documente clairement une volonté d'investir davantage dans la francisation et adopte une orientation régionaliste, mais aucun seuil permanent annuel précis n'a été retenu ici faute de source officielle récente suffisamment explicite. **Argument central :** l'intégration linguistique et territoriale compte autant que le volume brut. **Point à tester :** sans cible chiffrée, comment évaluer à l'avance la pression sur le logement, les services et le marché du travail?"
+    },
+    {
+      "key": "immigration_capacite_accueil__pq",
+      "topic": "immigration_capacite_accueil",
+      "actor": "pq",
+      "content": "**Position reconstruite.** Le PQ propose environ 35 000 admissions permanentes par année et une réduction d'au moins moitié du nombre de résidents non permanents, avec une cible d'environ 250 000 à 300 000 à la fin d'un premier mandat. **Argument central :** un volume plus faible faciliterait l'intégration, le français et la capacité des services. **Point à tester :** une réduction rapide peut-elle être absorbée par des secteurs dépendants de travailleurs temporaires et par une société vieillissante sans accélération parallèle de la productivité?"
+    },
+    {
+      "key": "immigration_capacite_accueil__pcq",
+      "topic": "immigration_capacite_accueil",
+      "actor": "pcq",
+      "content": "**Position reconstruite.** Le PCQ associe immigration et décentralisation : sa plateforme propose davantage de pouvoirs à des instances régionales, notamment dans ce domaine. Les sources consultées ne permettent pas de fixer ici un seuil provincial 2026 précis. **Argument central :** les besoins de Montréal, de la Beauce, de l'Abitibi ou du Saguenay ne sont pas identiques. **Point à tester :** comment éviter une concurrence entre régions et garantir des standards communs de sélection, de français et de droits si les décisions sont davantage territorialisées?"
+    },
+    {
+      "key": "immigration_capacite_accueil__qs",
+      "topic": "immigration_capacite_accueil",
+      "actor": "qs",
+      "content": "**Position reconstruite.** QS propose environ 70 000 admissions permanentes annuelles, le rétablissement du PEQ, davantage de régionalisation et un effort accru de francisation. **Argument central :** transformer davantage de personnes déjà établies temporairement en résidents permanents peut réduire la précarité et mieux répondre aux besoins économiques. **Point à tester :** les ressources de logement, d'éducation, de santé et de francisation augmentent-elles au même rythme que la population accueillie?"
+    },
+    {
+      "key": "immigration_capacite_accueil__ddq",
+      "topic": "immigration_capacite_accueil",
+      "actor": "ddq",
+      "content": "**Position reconstruite.** Démocratie Directe Québec refuse de prédéterminer un seuil. Son programme propose de publier des indicateurs de capacité d'accueil et de soumettre les grands choix de volume ou d'orientation à une consultation ou à une décision citoyenne. **Argument central :** un seuil qui engage profondément la démographie et les services devrait être explicitement légitimé par la population. **Point à tester :** comment formuler une question référendaire qui intègre les différences entre immigration permanente, étudiants, travailleurs temporaires, réfugiés et regroupement familial?"
+    },
+    {
+      "key": "francais_langue_commune__caq",
+      "topic": "francais_langue_commune",
+      "actor": "caq",
+      "content": "**Position reconstruite.** La CAQ veut consolider la protection juridique du français et étendre certaines obligations de la Charte de la langue française, notamment à la formation professionnelle et à l'éducation des adultes. **Argument central :** sans règles communes, les incitations individuelles peuvent favoriser l'anglais dans certaines institutions ou activités économiques. **Point à tester :** quelles obligations produisent réellement davantage d'usage du français plutôt qu'un simple respect administratif, et quels coûts imposent-elles aux établissements et nouveaux arrivants?"
+    },
+    {
+      "key": "francais_langue_commune__plq",
+      "topic": "francais_langue_commune",
+      "actor": "plq",
+      "content": "**Position reconstruite.** Le PLQ présente le français comme un levier de réussite et mise davantage sur la lecture, la francisation, l'éducation, la culture et la promotion, avec 380 M$ additionnels annoncés sur quatre ans. **Argument central :** une langue est plus robuste lorsqu'elle est utile, maîtrisée et attractive, pas seulement obligatoire. **Point à tester :** l'investissement et l'incitation suffisent-ils lorsque des dynamiques de marché du travail, d'enseignement supérieur et de consommation favorisent l'anglais?"
+    },
+    {
+      "key": "francais_langue_commune__pq",
+      "topic": "francais_langue_commune",
+      "actor": "pq",
+      "content": "**Position reconstruite.** Le PQ propose une politique linguistique plus coercitive : étendre la loi 101 au cégep et à certains enfants d'immigrants temporaires, rehausser des critères de français pour des permis de travail et réduire les volumes migratoires. **Argument central :** le français a besoin d'un environnement institutionnel qui rende son usage normal dans l'éducation, le travail et la socialisation. **Point à tester :** où placer la frontière entre protection d'une langue commune et restrictions disproportionnées pour certaines minorités ou institutions?"
+    },
+    {
+      "key": "francais_langue_commune__pcq",
+      "topic": "francais_langue_commune",
+      "actor": "pcq",
+      "content": "**Position reconstruite.** Le PCQ réaffirme le caractère français de la nation québécoise dans son virage autonomiste, mais sa plateforme met moins l'accent que le PQ ou la CAQ sur une nouvelle extension détaillée de contraintes linguistiques dans les sources consultées. **Argument central :** l'identité nationale peut être affirmée tout en limitant la croissance réglementaire. **Point à tester :** si les obligations nouvelles sont limitées, quels mécanismes concrets assurent la progression de l'usage du français dans les milieux où il recule?"
+    },
+    {
+      "key": "francais_langue_commune__qs",
+      "topic": "francais_langue_commune",
+      "actor": "qs",
+      "content": "**Position reconstruite.** QS associe la vitalité du français à la francisation, à l'inclusion des nouveaux arrivants et à un projet national indépendant. Dans ses engagements d'immigration, le parti veut augmenter les ressources de francisation plutôt que réduire fortement les admissions permanentes. **Argument central :** une langue commune peut être renforcée par l'accès effectif à son apprentissage et par l'intégration sociale. **Point à tester :** quelle intensité de mesures institutionnelles est nécessaire lorsque les incitations économiques ne favorisent pas spontanément le français?"
+    },
+    {
+      "key": "francais_langue_commune__ddq",
+      "topic": "francais_langue_commune",
+      "actor": "ddq",
+      "content": "**Position reconstruite.** Le programme fait du français la langue du processus constituant et envisage une protection de son statut dans une constitution québécoise, tout en voulant que des modifications fondamentales reviennent à la population. **Argument central :** constitutionnaliser la langue commune peut lui donner une légitimité plus durable qu'une succession de lois partisanes. **Point à tester :** quels droits linguistiques doivent être soustraits aux majorités ordinaires et protégés par des règles constitutionnelles ou judiciaires?"
+    },
+    {
+      "key": "education_reussite__caq",
+      "topic": "education_reussite",
+      "actor": "caq",
+      "content": "**Position reconstruite.** Dans les engagements de campagne consultés, la CAQ met notamment l'accent sur l'aide financière aux familles, l'épargne-études et les infrastructures scolaires et sportives. **Argument central :** la réussite dépend aussi de la capacité des familles à soutenir le parcours de leurs enfants et d'environnements physiques adéquats. **Point à tester :** ces aides changent-elles les déterminants les plus urgents de la réussite — pénurie de personnel, soutien spécialisé, composition des classes et qualité de l'enseignement?"
+    },
+    {
+      "key": "education_reussite__plq",
+      "topic": "education_reussite",
+      "actor": "plq",
+      "content": "**Position reconstruite.** Le PLQ propose notamment l'ajout de 1 000 ressources spécialisées dans les écoles. **Argument central :** les enseignants ne peuvent répondre seuls à des besoins croissants en orthopédagogie, psychologie, psychoéducation et soutien comportemental. **Point à tester :** le réseau peut-il recruter ces professionnels dans un contexte de pénurie et comment répartir les ressources pour qu'elles atteignent les écoles où le besoin marginal est le plus élevé?"
+    },
+    {
+      "key": "education_reussite__pq",
+      "topic": "education_reussite",
+      "actor": "pq",
+      "content": "**Position reconstruite.** Le PQ veut lancer cinq grands chantiers portant notamment sur la formation professionnelle et le décrochage, la culture québécoise, l'activité physique, la civilité et la violence ainsi que la mixité socioéconomique et démographique; il propose des États généraux au début du mandat. **Argument central :** les difficultés scolaires sont multidimensionnelles et ne se règlent pas par un seul ratio budgétaire. **Point à tester :** comment transformer un processus de consultation large en décisions rapides, mesurables et applicables dans les classes?"
+    },
+    {
+      "key": "education_reussite__pcq",
+      "topic": "education_reussite",
+      "actor": "pcq",
+      "content": "**Position reconstruite.** La plateforme conservatrice met fortement l'accent sur le choix des familles, la réduction de l'appareil d'État et une logique de financement plus directement orientée vers les citoyens. Les sources sectorielles retenues ici sont moins précises sur une réforme complète de l'école primaire et secondaire. **Argument central :** les familles et établissements locaux connaissent mieux leurs besoins qu'une administration centrale. **Point à tester :** comment préserver l'égalité des chances, les services spécialisés et une culture commune si les choix et ressources deviennent davantage décentralisés?"
+    },
+    {
+      "key": "education_reussite__qs",
+      "topic": "education_reussite",
+      "actor": "qs",
+      "content": "**Position reconstruite.** QS inscrit l'éducation dans son objectif plus large de réparation des services publics et de réduction des inégalités. La campagne consultée est plus détaillée sur logement, fiscalité et climat que sur une architecture scolaire complète. **Argument central :** les écarts de réussite reflètent aussi les écarts de revenu, de logement, de santé et d'accès aux professionnels. **Point à tester :** quelles réformes internes de l'école — gouvernance, curriculum, mixité, autonomie professionnelle — accompagnent l'investissement pour éviter qu'il se traduise seulement en coûts plus élevés?"
+    },
+    {
+      "key": "education_reussite__ddq",
+      "topic": "education_reussite",
+      "actor": "ddq",
+      "content": "**Position reconstruite.** Démocratie Directe Québec ne fixe pas un programme scolaire détaillé. Elle privilégie publication des budgets et résultats, comités citoyens, consultation formelle pour les grandes orientations et subsidiarité pour les décisions pouvant être prises localement. **Argument central :** élèves, parents et personnel devraient disposer d'un pouvoir réel sur l'environnement éducatif. **Point à tester :** quelles matières et normes doivent demeurer communes à tout le Québec afin d'éviter que la participation locale produise des écarts excessifs entre territoires?"
+    },
+    {
+      "key": "energie_climat_ressources__caq",
+      "topic": "energie_climat_ressources",
+      "actor": "caq",
+      "content": "**Position reconstruite.** Dans les engagements récents retenus ici, la CAQ cherche à concilier exploitation des ressources, retombées régionales et protection du territoire; elle propose notamment d'accroître la part de redevances versée aux régions productrices. **Argument central :** l'acceptabilité de projets énergétiques ou de ressources augmente si les communautés qui en supportent les impacts obtiennent aussi une part visible des bénéfices. **Point à tester :** quels critères environnementaux et climatiques doivent limiter un projet même lorsqu'il crée des revenus et emplois locaux?"
+    },
+    {
+      "key": "energie_climat_ressources__plq",
+      "topic": "energie_climat_ressources",
+      "actor": "plq",
+      "content": "**Position reconstruite.** Le PLQ inscrit la protection de l'environnement parmi ses valeurs, mais ses engagements de campagne retenus dans ce corpus sont plus détaillés sur productivité, logement et commerce que sur un plan énergétique complet. **Argument central :** la transition doit être compatible avec l'investissement, l'innovation et la compétitivité. **Point à tester :** quels objectifs chiffrés, quelles infrastructures et quels mécanismes de prix permettraient de distinguer une orientation générale d'un véritable plan d'exécution?"
+    },
+    {
+      "key": "energie_climat_ressources__pq",
+      "topic": "energie_climat_ressources",
+      "actor": "pq",
+      "content": "**Position reconstruite.** Le PQ présente son plan environnement 2026-2034 comme une transition qui doit aussi enrichir le Québec et améliorer la qualité de vie, avec un accent sur l'efficacité et des mesures qu'il veut moins punitives pour les ménages. **Argument central :** une politique climatique durable doit créer des bénéfices économiques visibles et survivre aux changements d'humeur électorale. **Point à tester :** le rythme proposé suffit-il pour atteindre les objectifs climatiques tout en répondant à la croissance de la demande électrique?"
+    },
+    {
+      "key": "energie_climat_ressources__pcq",
+      "topic": "energie_climat_ressources",
+      "actor": "pcq",
+      "content": "**Position reconstruite.** Le PCQ veut développer davantage certaines ressources fossiles québécoises, notamment le gaz naturel, et s'oppose à plusieurs mécanismes de tarification carbone. **Argument central :** produire localement une énergie actuellement importée pourrait améliorer la balance commerciale, la sécurité énergétique et les revenus. **Point à tester :** le bénéfice économique net demeure-t-il positif si l'on intègre les infrastructures, les risques de marché, les émissions et les coûts climatiques à long terme?"
+    },
+    {
+      "key": "energie_climat_ressources__qs",
+      "topic": "energie_climat_ressources",
+      "actor": "qs",
+      "content": "**Position reconstruite.** QS propose une transition plus rapide et davantage pilotée par l'investissement public, notamment un plan de plusieurs milliards sur dix ans pour le transport collectif. **Argument central :** les infrastructures déterminent les choix possibles des ménages; on ne peut réduire fortement l'usage de l'auto sans offrir une alternative pratique. **Point à tester :** comment financer et livrer assez vite de grands projets de transport alors que les coûts de construction et les délais d'infrastructure sont déjà élevés?"
+    },
+    {
+      "key": "energie_climat_ressources__ddq",
+      "topic": "energie_climat_ressources",
+      "actor": "ddq",
+      "content": "**Position reconstruite.** Le programme ne fixe ni rythme unique de transition ni liste définitive de grands projets. Il veut publier les évaluations, consulter les régions concernées et soumettre les choix structurants à des mécanismes citoyens. **Argument central :** les coûts territoriaux d'un barrage, d'une mine, d'une ligne de transport ou d'un projet énergétique exigent une légitimité locale et provinciale. **Point à tester :** comment éviter qu'un veto local systématique empêche une infrastructure dont les bénéfices sont largement distribués à l'échelle du Québec?"
+    },
+    {
+      "key": "avenir_politique_quebec__caq",
+      "topic": "avenir_politique_quebec",
+      "actor": "caq",
+      "content": "**Position reconstruite.** La CAQ défend un nationalisme autonomiste : augmenter la marge de manœuvre du Québec et agir plus directement dans ses champs d'intérêt sans faire de l'indépendance le projet gouvernemental. **Argument central :** le Québec peut obtenir des gains de pouvoir et défendre sa nation sans supporter les coûts et incertitudes d'une rupture constitutionnelle. **Point à tester :** jusqu'où l'autonomie peut-elle progresser lorsque les compétences et institutions fédérales restent juridiquement intactes et que les gouvernements fédéraux peuvent changer d'orientation?"
+    },
+    {
+      "key": "avenir_politique_quebec__plq",
+      "topic": "avenir_politique_quebec",
+      "actor": "plq",
+      "content": "**Position reconstruite.** Le PLQ est explicitement fédéraliste et présente la défense des intérêts du Québec à l'intérieur du Canada comme compatible avec une identité nationale forte. **Argument central :** la fédération permet de conjuguer autonomie provinciale, marché et institutions communes, transferts et influence canadienne. **Point à tester :** quels mécanismes concrets empêchent que des priorités québécoises soient bloquées ou diluées lorsqu'elles entrent en conflit avec celles d'Ottawa ou d'autres provinces?"
+    },
+    {
+      "key": "avenir_politique_quebec__pq",
+      "topic": "avenir_politique_quebec",
+      "actor": "pq",
+      "content": "**Position reconstruite.** Le PQ veut faire du Québec un pays indépendant et présente l'acquisition des compétences fiscales, diplomatiques, monétaires et constitutionnelles d'un État comme la solution durable à la dépendance fédérale. **Argument central :** une nation ne peut être pleinement responsable de ses résultats si un autre ordre de gouvernement conserve des pouvoirs structurants. **Point à tester :** quels coûts, actifs, dettes, ententes commerciales et arrangements institutionnels accompagneraient concrètement la transition, et comment gérer les intérêts autochtones et minoritaires?"
+    },
+    {
+      "key": "avenir_politique_quebec__pcq",
+      "topic": "avenir_politique_quebec",
+      "actor": "pcq",
+      "content": "**Position reconstruite.** Le PCQ privilégie une autonomie provinciale renforcée, une constitution québécoise et des mécanismes visant à résister aux intrusions fédérales, sans faire de l'indépendance son objectif central. **Argument central :** une province peut formaliser sa propre identité institutionnelle et défendre plus vigoureusement ses compétences sans quitter le Canada. **Point à tester :** quels éléments d'une constitution québécoise auraient un effet juridique réel sur Ottawa, compte tenu des limites de la procédure provinciale de modification constitutionnelle?"
+    },
+    {
+      "key": "avenir_politique_quebec__qs",
+      "topic": "avenir_politique_quebec",
+      "actor": "qs",
+      "content": "**Position reconstruite.** QS est indépendantiste, mais lie l'indépendance à une assemblée constituante et à une refondation sociale, écologique et démocratique, élaborée notamment avec les Premiers Peuples. **Argument central :** l'indépendance devrait être un processus constituant, pas seulement un transfert de compétences à l'appareil d'État existant. **Point à tester :** comment concilier l'ouverture du résultat d'une constituante avec l'objectif indépendantiste déjà affirmé par le parti?"
+    },
+    {
+      "key": "avenir_politique_quebec__ddq",
+      "topic": "avenir_politique_quebec",
+      "actor": "ddq",
+      "content": "**Position reconstruite.** Démocratie Directe Québec met d'abord de l'avant la souveraineté du peuple et une constituante citoyenne; elle ne présente pas dans son programme 2026 un résultat constitutionnel prédéterminé équivalent au projet indépendantiste du PQ. **Argument central :** l'ordre politique devrait être écrit par des citoyens et ratifié directement avant que les partis ne prétendent connaître le statut final voulu. **Point à tester :** quelles options la constituante aurait-elle réellement le pouvoir juridique de mettre en œuvre unilatéralement et lesquelles exigeraient négociation avec le Canada?"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__caq",
+      "topic": "democratie_pouvoir_citoyen",
+      "actor": "caq",
+      "content": "**Position reconstruite.** La CAQ demeure fondamentalement dans le modèle représentatif : un gouvernement élu reçoit un mandat pour agir, puis est jugé à l'élection suivante. Sa réforme institutionnelle récente met surtout l'accent sur l'efficacité administrative et la capacité du Québec à agir. **Argument central :** gouverner exige des arbitrages continus, parfois techniques et urgents, qu'un exécutif responsable peut coordonner. **Point à tester :** quatre années entre les élections donnent-elles trop peu de moyens aux citoyens pour corriger une décision majeure qui n'avait pas été clairement annoncée en campagne?"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__plq",
+      "topic": "democratie_pouvoir_citoyen",
+      "actor": "plq",
+      "content": "**Position reconstruite.** Le PLQ privilégie les institutions représentatives et fédérales, tout en valorisant le régionalisme et des contrepoids institutionnels. **Argument central :** la démocratie ne se réduit pas à la majorité instantanée; partis, parlement, tribunaux, municipalités et fédération créent des espaces de négociation et de protection. **Point à tester :** ces médiations protègent-elles suffisamment le citoyen ou produisent-elles une dilution de responsabilité où chacun peut attribuer l'échec à un autre niveau de gouvernement?"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__pq",
+      "topic": "democratie_pouvoir_citoyen",
+      "actor": "pq",
+      "content": "**Position reconstruite.** Le PQ conserve un modèle parlementaire représentatif, mais ajoute un recours décisif au référendum pour l'indépendance et propose des mécanismes d'imputabilité comme un directeur parlementaire du budget. **Argument central :** certaines décisions fondatrices exigent un mandat populaire direct, tandis que la gestion courante exige un gouvernement responsable. **Point à tester :** quels autres enjeux, au-delà de la souveraineté, mériteraient le même degré de consentement direct et pourquoi?"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__pcq",
+      "topic": "democratie_pouvoir_citoyen",
+      "actor": "pcq",
+      "content": "**Position reconstruite.** Le PCQ veut réduire la centralisation provinciale en donnant davantage de pouvoir aux régions et en inscrivant des principes autonomistes dans une constitution québécoise. **Argument central :** une décision prise plus près des citoyens est plus susceptible de refléter les réalités locales et de rendre le décideur identifiable. **Point à tester :** quelles compétences doivent rester communes pour préserver l'égalité des services et empêcher qu'une région transfère les coûts de ses décisions aux autres?"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__qs",
+      "topic": "democratie_pouvoir_citoyen",
+      "actor": "qs",
+      "content": "**Position reconstruite.** QS combine représentation parlementaire et démocratie constituante : son projet d'indépendance prévoit une assemblée constituante et une participation plus large à la refondation des institutions. **Argument central :** les règles fondamentales ne devraient pas être écrites uniquement par les élus qui en bénéficient. **Point à tester :** comment sélectionner les membres, encadrer le mandat, protéger les droits et assurer que la participation ne soit pas dominée par les groupes les plus organisés?"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__ddq",
+      "topic": "democratie_pouvoir_citoyen",
+      "actor": "ddq",
+      "content": "**Position reconstruite.** C'est le cœur de son programme : assemblée constituante de citoyens tirés au sort, référendum d'initiative citoyenne, mécanismes de révocation et d'imputabilité, comités citoyens, subsidiarité et outils numériques, avec contrôle d'admissibilité et protections relatives aux droits fondamentaux. **Argument central :** une élection périodique ne suffit pas à donner au peuple le dernier mot sur les décisions majeures. **Point à tester :** les seuils de signatures, le financement des campagnes, la formulation des questions, la fréquence des votes et le contrôle des droits déterminent-ils en pratique autant le pouvoir que le référendum lui-même?"
+    }
+  ],
+  "argument_sources": [
+    {
+      "key": "sante_acces_gouvernance__caq__src1",
+      "argument": "sante_acces_gouvernance__caq",
+      "citation_text": "CAQ-01: reconstruction à partir de CAQ-01 et CAQ-02 dans `SOURCES.md`.",
+      "title": "Accélérer l'accès aux soins pour réduire les listes d'attente.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/08/31/lequipe-frechette-accelerera-lacces-aux-soins-pour-reduire-les-listes-dattente/"
+    },
+    {
+      "key": "sante_acces_gouvernance__caq__src2",
+      "argument": "sante_acces_gouvernance__caq",
+      "citation_text": "CAQ-02: reconstruction à partir de CAQ-01 et CAQ-02 dans `SOURCES.md`.",
+      "title": "Investir 1 G$ en soutien à domicile.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/08/29/lequipe-christine-frechette-investira-1-g-en-soutien-a-domicile/"
+    },
+    {
+      "key": "sante_acces_gouvernance__plq__src1",
+      "argument": "sante_acces_gouvernance__plq",
+      "citation_text": "PLQ-02: reconstruction à partir de PLQ-02 dans `SOURCES.md`.",
+      "title": "Rapprocher les soins des patients grâce à la télésanté.",
+      "url": "https://plq.org/communique/le-parti-liberal-du-quebec-veut-rapprocher-les-soins-des-patients-grace-a-la-telesante/"
+    },
+    {
+      "key": "sante_acces_gouvernance__pq__src1",
+      "argument": "sante_acces_gouvernance__pq",
+      "citation_text": "PQ-05: reconstruction à partir de PQ-05, PQ-09 et PQ-11 dans `SOURCES.md`.",
+      "title": "Grand ménage dans la bureaucratie et recentrage de l'État.",
+      "url": "https://pq.org/nouvelles/un-gouvernement-du-parti-quebecois-lancera-un-grand-menage-dans-la-bureaucratie-afin-de-recentrer-letat-sur-ses-missions-fondamentales/"
+    },
+    {
+      "key": "sante_acces_gouvernance__pq__src2",
+      "argument": "sante_acces_gouvernance__pq",
+      "citation_text": "PQ-09: reconstruction à partir de PQ-05, PQ-09 et PQ-11 dans `SOURCES.md`.",
+      "title": "Plan pour le soutien à domicile des aînés.",
+      "url": "https://pq.org/nouvelles/le-parti-quebecois-presente-son-plan-pour-le-soutien-a-domicile-des-aines/"
+    },
+    {
+      "key": "sante_acces_gouvernance__pq__src3",
+      "argument": "sante_acces_gouvernance__pq",
+      "citation_text": "PQ-11: reconstruction à partir de PQ-05, PQ-09 et PQ-11 dans `SOURCES.md`.",
+      "title": "Projet national — habitation, santé et services publics.",
+      "url": "https://pq.org/wp-content/uploads/2024/08/cahier-projet-nationalv2-1.pdf"
+    },
+    {
+      "key": "sante_acces_gouvernance__pcq__src1",
+      "argument": "sante_acces_gouvernance__pcq",
+      "citation_text": "PCQ-02: reconstruction à partir de PCQ-02 dans `SOURCES.md`.",
+      "title": "Plateforme santé : garantir des soins à temps, sans frais pour les patients.",
+      "url": "https://conservateur.quebec/blog/ressources/plateforme-sante-le-pcq-veut-garantir-des-soins-a-temps-sans-frais-pour-les-patients/"
+    },
+    {
+      "key": "sante_acces_gouvernance__qs__src1",
+      "argument": "sante_acces_gouvernance__qs",
+      "citation_text": "QS-01: reconstruction prudente à partir de QS-01 et QS-03 dans `SOURCES.md`; les sources consultées sont moins détaillées sur une architecture santé 2026 complète.",
+      "title": "Plateforme et campagne 2026.",
+      "url": "https://quebecsolidaire.net/"
+    },
+    {
+      "key": "sante_acces_gouvernance__qs__src2",
+      "argument": "sante_acces_gouvernance__qs",
+      "citation_text": "QS-03: reconstruction prudente à partir de QS-01 et QS-03 dans `SOURCES.md`; les sources consultées sont moins détaillées sur une architecture santé 2026 complète.",
+      "title": "Finances publiques.",
+      "url": "https://quebecsolidaire.net/theme/financespubliques"
+    },
+    {
+      "key": "sante_acces_gouvernance__ddq__src1",
+      "argument": "sante_acces_gouvernance__ddq",
+      "citation_text": "DDQ-01: reconstruction à partir de DDQ-01 et DDQ-02 dans `SOURCES.md`.",
+      "title": "Programme 2026 — Démocratie Directe Québec.",
+      "url": "https://democratiedirectequebec.com/Democratie%20Directe%20Quebec.html"
+    },
+    {
+      "key": "sante_acces_gouvernance__ddq__src2",
+      "argument": "sante_acces_gouvernance__ddq",
+      "citation_text": "DDQ-02: reconstruction à partir de DDQ-01 et DDQ-02 dans `SOURCES.md`.",
+      "title": "Au cœur des décisions — engagements institutionnels.",
+      "url": "https://www.democratiedirectequebec.com/AuCoeurDesDecisions?SHOW=ENGAGEMENT"
+    },
+    {
+      "key": "logement_abordabilite__caq__src1",
+      "argument": "logement_abordabilite__caq",
+      "citation_text": "CAQ-03: reconstruction à partir de CAQ-03 dans `SOURCES.md`.",
+      "title": "Construire plus, plus vite et à moindre coût.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/09/04/construire-plus-plus-vite-et-a-moindre-cout-le-plan-de-lequipe-christine-frechette/"
+    },
+    {
+      "key": "logement_abordabilite__plq__src1",
+      "argument": "logement_abordabilite__plq",
+      "citation_text": "PLQ-03: reconstruction à partir de PLQ-03 et PLQ-04 dans `SOURCES.md`.",
+      "title": "Objectif : 100 000 logements par année.",
+      "url": "https://plq.org/communique/objectif-ambitieux-100-000-logements-par-annee/"
+    },
+    {
+      "key": "logement_abordabilite__plq__src2",
+      "argument": "logement_abordabilite__plq",
+      "citation_text": "PLQ-04: reconstruction à partir de PLQ-03 et PLQ-04 dans `SOURCES.md`.",
+      "title": "Plan habitation : 1,5 G$ pour 40 000 logements sociaux et abordables supplémentaires.",
+      "url": "https://plq.org/communique/plan-habitation-du-parti-liberal-du-quebec-15-g-dinvestissements-pour-40-000-logements-sociaux-et-abordables-supplementaires/"
+    },
+    {
+      "key": "logement_abordabilite__pq__src1",
+      "argument": "logement_abordabilite__pq",
+      "citation_text": "PQ-10: reconstruction à partir de PQ-10 et PQ-11 dans `SOURCES.md`.",
+      "title": "Réduire les coûts de construction au Québec.",
+      "url": "https://pq.org/nouvelles/le-parti-quebecois-va-reduire-les-couts-de-construction-au-quebec/"
+    },
+    {
+      "key": "logement_abordabilite__pq__src2",
+      "argument": "logement_abordabilite__pq",
+      "citation_text": "PQ-11: reconstruction à partir de PQ-10 et PQ-11 dans `SOURCES.md`.",
+      "title": "Projet national — habitation, santé et services publics.",
+      "url": "https://pq.org/wp-content/uploads/2024/08/cahier-projet-nationalv2-1.pdf"
+    },
+    {
+      "key": "logement_abordabilite__pcq__src1",
+      "argument": "logement_abordabilite__pcq",
+      "citation_text": "PCQ-01: reconstruction à partir de PCQ-01 et PCQ-05 dans `SOURCES.md`; la source sectorielle consultée est moins détaillée que celles du PLQ ou de QS.",
+      "title": "Documents officiels — plateforme électorale 2026.",
+      "url": "https://conservateur.quebec/documents-officiels/"
+    },
+    {
+      "key": "logement_abordabilite__pcq__src2",
+      "argument": "logement_abordabilite__pcq",
+      "citation_text": "PCQ-05: reconstruction à partir de PCQ-01 et PCQ-05 dans `SOURCES.md`; la source sectorielle consultée est moins détaillée que celles du PLQ ou de QS.",
+      "title": "Réduire la paperasse et le fardeau réglementaire.",
+      "url": "https://conservateur.quebec/blog/ressources/fini-la-paperasse-le-pcq-veut-redonner-32-jours-par-annee-aux-entrepreneurs/"
+    },
+    {
+      "key": "logement_abordabilite__qs__src1",
+      "argument": "logement_abordabilite__qs",
+      "citation_text": "QS-02: reconstruction à partir de QS-02 dans `SOURCES.md`.",
+      "title": "Logement.",
+      "url": "https://quebecsolidaire.net/theme/logement"
+    },
+    {
+      "key": "logement_abordabilite__ddq__src1",
+      "argument": "logement_abordabilite__ddq",
+      "citation_text": "DDQ-01: reconstruction à partir de DDQ-01 dans `SOURCES.md`.",
+      "title": "Programme 2026 — Démocratie Directe Québec.",
+      "url": "https://democratiedirectequebec.com/Democratie%20Directe%20Quebec.html"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__caq__src1",
+      "argument": "pouvoir_achat_fiscalite__caq",
+      "citation_text": "CAQ-04: reconstruction à partir de CAQ-04 et CAQ-09 dans `SOURCES.md`.",
+      "title": "Cadre financier 2026-2030.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/08/30/lequipe-christine-frechette-presente-un-cadre-financier-responsable-pour-faire-avancer-le-quebec/"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__caq__src2",
+      "argument": "pouvoir_achat_fiscalite__caq",
+      "citation_text": "CAQ-09: reconstruction à partir de CAQ-04 et CAQ-09 dans `SOURCES.md`.",
+      "title": "Investir davantage dans l'avenir de nos enfants.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/09/01/lequipe-christine-frechette-investira-davantage-dans-lavenir-de-nos-enfants/"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__plq__src1",
+      "argument": "pouvoir_achat_fiscalite__plq",
+      "citation_text": "PLQ-03: reconstruction à partir de PLQ-03, PLQ-05 et PLQ-08 dans `SOURCES.md`.",
+      "title": "Objectif : 100 000 logements par année.",
+      "url": "https://plq.org/communique/objectif-ambitieux-100-000-logements-par-annee/"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__plq__src2",
+      "argument": "pouvoir_achat_fiscalite__plq",
+      "citation_text": "PLQ-05: reconstruction à partir de PLQ-03, PLQ-05 et PLQ-08 dans `SOURCES.md`.",
+      "title": "Moins de réglementation, plus d'efficacité.",
+      "url": "https://plq.org/communique/moins-de-reglementation-plus-defficacite-des-mesures-concretes-pour-diminuer-la-paperasse/"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__plq__src3",
+      "argument": "pouvoir_achat_fiscalite__plq",
+      "citation_text": "PLQ-08: reconstruction à partir de PLQ-03, PLQ-05 et PLQ-08 dans `SOURCES.md`.",
+      "title": "Diversifier les marchés face aux tensions commerciales avec les États-Unis.",
+      "url": "https://plq.org/communique/diversifier-nos-marches-une-necessite-strategique-face-aux-tensions-commerciales-avec-les-etats-unis/"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__pq__src1",
+      "argument": "pouvoir_achat_fiscalite__pq",
+      "citation_text": "PQ-03: reconstruction à partir de PQ-03 et PQ-04 dans `SOURCES.md`.",
+      "title": "Détaxer les biens et les voitures usagés.",
+      "url": "https://pq.org/nouvelles/le-parti-quebecois-va-detaxer-les-biens-et-les-voitures-usages-pour-retourner-des-milliers-de-dollars-dans-le-portefeuille-des-familles/"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__pq__src2",
+      "argument": "pouvoir_achat_fiscalite__pq",
+      "citation_text": "PQ-04: reconstruction à partir de PQ-03 et PQ-04 dans `SOURCES.md`.",
+      "title": "Baisse d'impôt pour les PME québécoises.",
+      "url": "https://pq.org/nouvelles/le-parti-quebecois-offre-une-baisse-dimpot-significative-de-pres-de-20-aux-pme-quebecoises/"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__pcq__src1",
+      "argument": "pouvoir_achat_fiscalite__pcq",
+      "citation_text": "PCQ-03: reconstruction à partir de PCQ-03, PCQ-04 et PCQ-07 dans `SOURCES.md`.",
+      "title": "Cadre financier : retour à l'équilibre budgétaire.",
+      "url": "https://conservateur.quebec/blog/ressources/cadre-financier-le-pcq-presente-un-plan-credible-de-retour-a-lequilibre-budgetaire/"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__pcq__src2",
+      "argument": "pouvoir_achat_fiscalite__pcq",
+      "citation_text": "PCQ-04: reconstruction à partir de PCQ-03, PCQ-04 et PCQ-07 dans `SOURCES.md`.",
+      "title": "Grand ménage dans les dépenses publiques.",
+      "url": "https://conservateur.quebec/blog/ressources/le-pcq-sengage-a-faire-un-grand-menage-dans-les-depenses-publiques-sans-couper-dans-les-services-publics/"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__pcq__src3",
+      "argument": "pouvoir_achat_fiscalite__pcq",
+      "citation_text": "PCQ-07: reconstruction à partir de PCQ-03, PCQ-04 et PCQ-07 dans `SOURCES.md`.",
+      "title": "Baisses d'impôt sur le revenu des particuliers.",
+      "url": "https://conservateur.quebec/blog/ressources/recompenser-le-travail-avec-des-baisses-dimpots-historiques-11-166-par-menage-moyen/"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__qs__src1",
+      "argument": "pouvoir_achat_fiscalite__qs",
+      "citation_text": "QS-02: reconstruction à partir de QS-02 et QS-03 dans `SOURCES.md`.",
+      "title": "Logement.",
+      "url": "https://quebecsolidaire.net/theme/logement"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__qs__src2",
+      "argument": "pouvoir_achat_fiscalite__qs",
+      "citation_text": "QS-03: reconstruction à partir de QS-02 et QS-03 dans `SOURCES.md`.",
+      "title": "Finances publiques.",
+      "url": "https://quebecsolidaire.net/theme/financespubliques"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__ddq__src1",
+      "argument": "pouvoir_achat_fiscalite__ddq",
+      "citation_text": "DDQ-01: reconstruction à partir de DDQ-01 et DDQ-02 dans `SOURCES.md`.",
+      "title": "Programme 2026 — Démocratie Directe Québec.",
+      "url": "https://democratiedirectequebec.com/Democratie%20Directe%20Quebec.html"
+    },
+    {
+      "key": "pouvoir_achat_fiscalite__ddq__src2",
+      "argument": "pouvoir_achat_fiscalite__ddq",
+      "citation_text": "DDQ-02: reconstruction à partir de DDQ-01 et DDQ-02 dans `SOURCES.md`.",
+      "title": "Au cœur des décisions — engagements institutionnels.",
+      "url": "https://www.democratiedirectequebec.com/AuCoeurDesDecisions?SHOW=ENGAGEMENT"
+    },
+    {
+      "key": "economie_productivite_finances__caq__src1",
+      "argument": "economie_productivite_finances__caq",
+      "citation_text": "CAQ-04: reconstruction à partir de CAQ-04 et CAQ-05 dans `SOURCES.md`.",
+      "title": "Cadre financier 2026-2030.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/08/30/lequipe-christine-frechette-presente-un-cadre-financier-responsable-pour-faire-avancer-le-quebec/"
+    },
+    {
+      "key": "economie_productivite_finances__caq__src2",
+      "argument": "economie_productivite_finances__caq",
+      "citation_text": "CAQ-05: reconstruction à partir de CAQ-04 et CAQ-05 dans `SOURCES.md`.",
+      "title": "Poursuivre la modernisation de l'État.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/09/02/lequipe-christine-frechette-poursuivra-la-modernisation-de-letat/"
+    },
+    {
+      "key": "economie_productivite_finances__plq__src1",
+      "argument": "economie_productivite_finances__plq",
+      "citation_text": "PLQ-05: reconstruction à partir de PLQ-05 et PLQ-08 dans `SOURCES.md`.",
+      "title": "Moins de réglementation, plus d'efficacité.",
+      "url": "https://plq.org/communique/moins-de-reglementation-plus-defficacite-des-mesures-concretes-pour-diminuer-la-paperasse/"
+    },
+    {
+      "key": "economie_productivite_finances__plq__src2",
+      "argument": "economie_productivite_finances__plq",
+      "citation_text": "PLQ-08: reconstruction à partir de PLQ-05 et PLQ-08 dans `SOURCES.md`.",
+      "title": "Diversifier les marchés face aux tensions commerciales avec les États-Unis.",
+      "url": "https://plq.org/communique/diversifier-nos-marches-une-necessite-strategique-face-aux-tensions-commerciales-avec-les-etats-unis/"
+    },
+    {
+      "key": "economie_productivite_finances__pq__src1",
+      "argument": "economie_productivite_finances__pq",
+      "citation_text": "PQ-04: reconstruction à partir de PQ-04 et PQ-05 dans `SOURCES.md`.",
+      "title": "Baisse d'impôt pour les PME québécoises.",
+      "url": "https://pq.org/nouvelles/le-parti-quebecois-offre-une-baisse-dimpot-significative-de-pres-de-20-aux-pme-quebecoises/"
+    },
+    {
+      "key": "economie_productivite_finances__pq__src2",
+      "argument": "economie_productivite_finances__pq",
+      "citation_text": "PQ-05: reconstruction à partir de PQ-04 et PQ-05 dans `SOURCES.md`.",
+      "title": "Grand ménage dans la bureaucratie et recentrage de l'État.",
+      "url": "https://pq.org/nouvelles/un-gouvernement-du-parti-quebecois-lancera-un-grand-menage-dans-la-bureaucratie-afin-de-recentrer-letat-sur-ses-missions-fondamentales/"
+    },
+    {
+      "key": "economie_productivite_finances__pcq__src1",
+      "argument": "economie_productivite_finances__pcq",
+      "citation_text": "PCQ-03: reconstruction à partir de PCQ-03, PCQ-04 et PCQ-05 dans `SOURCES.md`.",
+      "title": "Cadre financier : retour à l'équilibre budgétaire.",
+      "url": "https://conservateur.quebec/blog/ressources/cadre-financier-le-pcq-presente-un-plan-credible-de-retour-a-lequilibre-budgetaire/"
+    },
+    {
+      "key": "economie_productivite_finances__pcq__src2",
+      "argument": "economie_productivite_finances__pcq",
+      "citation_text": "PCQ-04: reconstruction à partir de PCQ-03, PCQ-04 et PCQ-05 dans `SOURCES.md`.",
+      "title": "Grand ménage dans les dépenses publiques.",
+      "url": "https://conservateur.quebec/blog/ressources/le-pcq-sengage-a-faire-un-grand-menage-dans-les-depenses-publiques-sans-couper-dans-les-services-publics/"
+    },
+    {
+      "key": "economie_productivite_finances__pcq__src3",
+      "argument": "economie_productivite_finances__pcq",
+      "citation_text": "PCQ-05: reconstruction à partir de PCQ-03, PCQ-04 et PCQ-05 dans `SOURCES.md`.",
+      "title": "Réduire la paperasse et le fardeau réglementaire.",
+      "url": "https://conservateur.quebec/blog/ressources/fini-la-paperasse-le-pcq-veut-redonner-32-jours-par-annee-aux-entrepreneurs/"
+    },
+    {
+      "key": "economie_productivite_finances__qs__src1",
+      "argument": "economie_productivite_finances__qs",
+      "citation_text": "QS-03: reconstruction à partir de QS-03 et QS-04 dans `SOURCES.md`.",
+      "title": "Finances publiques.",
+      "url": "https://quebecsolidaire.net/theme/financespubliques"
+    },
+    {
+      "key": "economie_productivite_finances__qs__src2",
+      "argument": "economie_productivite_finances__qs",
+      "citation_text": "QS-04: reconstruction à partir de QS-03 et QS-04 dans `SOURCES.md`.",
+      "title": "Environnement.",
+      "url": "https://quebecsolidaire.net/theme/environnement"
+    },
+    {
+      "key": "economie_productivite_finances__ddq__src1",
+      "argument": "economie_productivite_finances__ddq",
+      "citation_text": "DDQ-01: reconstruction à partir de DDQ-01 dans `SOURCES.md`.",
+      "title": "Programme 2026 — Démocratie Directe Québec.",
+      "url": "https://democratiedirectequebec.com/Democratie%20Directe%20Quebec.html"
+    },
+    {
+      "key": "immigration_capacite_accueil__caq__src1",
+      "argument": "immigration_capacite_accueil__caq",
+      "citation_text": "CAQ-07: reconstruction à partir de CAQ-07 et CAQ-08 dans `SOURCES.md`.",
+      "title": "Québec baisse ses seuils d'immigration.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2025/11/06/quebec-baisse-ses-seuils-dimmigration/"
+    },
+    {
+      "key": "immigration_capacite_accueil__caq__src2",
+      "argument": "immigration_capacite_accueil__caq",
+      "citation_text": "CAQ-08: reconstruction à partir de CAQ-07 et CAQ-08 dans `SOURCES.md`.",
+      "title": "Bilan gouvernemental et réouverture du PEQ pour deux ans.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/06/12/le-gouvernement-frechette-presente-son-bilan-et-repond-aux-priorites-des-quebecois/"
+    },
+    {
+      "key": "immigration_capacite_accueil__plq__src1",
+      "argument": "immigration_capacite_accueil__plq",
+      "citation_text": "PLQ-01: reconstruction prudente à partir de PLQ-01 et PLQ-06 dans `SOURCES.md`.",
+      "title": "Accueil et positionnement du Parti libéral du Québec.",
+      "url": "https://plq.org/accueil/"
+    },
+    {
+      "key": "immigration_capacite_accueil__plq__src2",
+      "argument": "immigration_capacite_accueil__plq",
+      "citation_text": "PLQ-06: reconstruction prudente à partir de PLQ-01 et PLQ-06 dans `SOURCES.md`.",
+      "title": "Plan pour la langue française : 380 M$ additionnels.",
+      "url": "https://plq.org/communique/le-parti-liberal-du-quebec-devoile-son-plan-pour-la-langue-francaise-380-m-additionnels-pour-faire-du-francais-le-levier-de-notre-reussite/"
+    },
+    {
+      "key": "immigration_capacite_accueil__pq__src1",
+      "argument": "immigration_capacite_accueil__pq",
+      "citation_text": "PQ-01: reconstruction à partir de PQ-01 dans `SOURCES.md`.",
+      "title": "Plan immigration.",
+      "url": "https://pq.org/independance/plan-immigration/"
+    },
+    {
+      "key": "immigration_capacite_accueil__pcq__src1",
+      "argument": "immigration_capacite_accueil__pcq",
+      "citation_text": "PCQ-01: reconstruction à partir de PCQ-01 et PCQ-08 dans `SOURCES.md`.",
+      "title": "Documents officiels — plateforme électorale 2026.",
+      "url": "https://conservateur.quebec/documents-officiels/"
+    },
+    {
+      "key": "immigration_capacite_accueil__pcq__src2",
+      "argument": "immigration_capacite_accueil__pcq",
+      "citation_text": "PCQ-08: reconstruction à partir de PCQ-01 et PCQ-08 dans `SOURCES.md`.",
+      "title": "Virage autonomiste et plateforme électorale 2026.",
+      "url": "https://conservateur.quebec/blog/ressources/eric-duhaime-mise-sur-des-politiques-natalistes-et-un-virage-autonomiste-dans-la-plateforme-electorale-du-parti-conservateur-du-quebec/"
+    },
+    {
+      "key": "immigration_capacite_accueil__qs__src1",
+      "argument": "immigration_capacite_accueil__qs",
+      "citation_text": "QS-06: reconstruction à partir de QS-06 dans `SOURCES.md`.",
+      "title": "Immigration permanente plus humaine et mieux régionalisée.",
+      "url": "https://quebecsolidaire.net/nouvelle/quebec-solidaire-veut-une-immigration-permanente-plus-humaine-et-mieux-regionalisee"
+    },
+    {
+      "key": "immigration_capacite_accueil__ddq__src1",
+      "argument": "immigration_capacite_accueil__ddq",
+      "citation_text": "DDQ-01: reconstruction à partir de DDQ-01 dans `SOURCES.md`.",
+      "title": "Programme 2026 — Démocratie Directe Québec.",
+      "url": "https://democratiedirectequebec.com/Democratie%20Directe%20Quebec.html"
+    },
+    {
+      "key": "francais_langue_commune__caq__src1",
+      "argument": "francais_langue_commune__caq",
+      "citation_text": "CAQ-06: reconstruction à partir de CAQ-06 dans `SOURCES.md`.",
+      "title": "Protection et valorisation du français.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/08/29/lequipe-christine-frechette-ne-reculera-jamais-devant-la-protection-et-la-valorisation-du-francais-au-quebec/"
+    },
+    {
+      "key": "francais_langue_commune__plq__src1",
+      "argument": "francais_langue_commune__plq",
+      "citation_text": "PLQ-06: reconstruction à partir de PLQ-06 dans `SOURCES.md`.",
+      "title": "Plan pour la langue française : 380 M$ additionnels.",
+      "url": "https://plq.org/communique/le-parti-liberal-du-quebec-devoile-son-plan-pour-la-langue-francaise-380-m-additionnels-pour-faire-du-francais-le-levier-de-notre-reussite/"
+    },
+    {
+      "key": "francais_langue_commune__pq__src1",
+      "argument": "francais_langue_commune__pq",
+      "citation_text": "PQ-01: reconstruction à partir de PQ-01 et PQ-07 dans `SOURCES.md`.",
+      "title": "Plan immigration.",
+      "url": "https://pq.org/independance/plan-immigration/"
+    },
+    {
+      "key": "francais_langue_commune__pq__src2",
+      "argument": "francais_langue_commune__pq",
+      "citation_text": "PQ-07: reconstruction à partir de PQ-01 et PQ-07 dans `SOURCES.md`.",
+      "title": "Renverser le déclin du français.",
+      "url": "https://pq.org/nouvelles/le-parti-quebecois-sengage-a-renverser-le-declin-du-francais/"
+    },
+    {
+      "key": "francais_langue_commune__pcq__src1",
+      "argument": "francais_langue_commune__pcq",
+      "citation_text": "PCQ-08: reconstruction à partir de PCQ-08 dans `SOURCES.md`.",
+      "title": "Virage autonomiste et plateforme électorale 2026.",
+      "url": "https://conservateur.quebec/blog/ressources/eric-duhaime-mise-sur-des-politiques-natalistes-et-un-virage-autonomiste-dans-la-plateforme-electorale-du-parti-conservateur-du-quebec/"
+    },
+    {
+      "key": "francais_langue_commune__qs__src1",
+      "argument": "francais_langue_commune__qs",
+      "citation_text": "QS-05: reconstruction à partir de QS-05 et QS-06 dans `SOURCES.md`.",
+      "title": "Indépendance.",
+      "url": "https://quebecsolidaire.net/theme/independance"
+    },
+    {
+      "key": "francais_langue_commune__qs__src2",
+      "argument": "francais_langue_commune__qs",
+      "citation_text": "QS-06: reconstruction à partir de QS-05 et QS-06 dans `SOURCES.md`.",
+      "title": "Immigration permanente plus humaine et mieux régionalisée.",
+      "url": "https://quebecsolidaire.net/nouvelle/quebec-solidaire-veut-une-immigration-permanente-plus-humaine-et-mieux-regionalisee"
+    },
+    {
+      "key": "francais_langue_commune__ddq__src1",
+      "argument": "francais_langue_commune__ddq",
+      "citation_text": "DDQ-01: reconstruction à partir de DDQ-01 dans `SOURCES.md`.",
+      "title": "Programme 2026 — Démocratie Directe Québec.",
+      "url": "https://democratiedirectequebec.com/Democratie%20Directe%20Quebec.html"
+    },
+    {
+      "key": "education_reussite__caq__src1",
+      "argument": "education_reussite__caq",
+      "citation_text": "CAQ-09: reconstruction à partir de CAQ-09 dans `SOURCES.md`.",
+      "title": "Investir davantage dans l'avenir de nos enfants.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/09/01/lequipe-christine-frechette-investira-davantage-dans-lavenir-de-nos-enfants/"
+    },
+    {
+      "key": "education_reussite__plq__src1",
+      "argument": "education_reussite__plq",
+      "citation_text": "PLQ-07: reconstruction à partir de PLQ-07 dans `SOURCES.md`.",
+      "title": "Ajouter 1 000 ressources spécialisées dans les écoles.",
+      "url": "https://plq.org/communique/le-parti-liberal-du-quebec-veut-ajouter-1-000-ressources-specialisees-dans-les-ecoles/"
+    },
+    {
+      "key": "education_reussite__pq__src1",
+      "argument": "education_reussite__pq",
+      "citation_text": "PQ-06: reconstruction à partir de PQ-06 dans `SOURCES.md`.",
+      "title": "Cinq grands chantiers en éducation.",
+      "url": "https://pq.org/nouvelles/un-gouvernement-du-parti-quebecois-lancera-cinq-grands-chantiers-en-education/"
+    },
+    {
+      "key": "education_reussite__pcq__src1",
+      "argument": "education_reussite__pcq",
+      "citation_text": "PCQ-01: reconstruction prudente à partir de PCQ-01 et PCQ-08 dans `SOURCES.md`.",
+      "title": "Documents officiels — plateforme électorale 2026.",
+      "url": "https://conservateur.quebec/documents-officiels/"
+    },
+    {
+      "key": "education_reussite__pcq__src2",
+      "argument": "education_reussite__pcq",
+      "citation_text": "PCQ-08: reconstruction prudente à partir de PCQ-01 et PCQ-08 dans `SOURCES.md`.",
+      "title": "Virage autonomiste et plateforme électorale 2026.",
+      "url": "https://conservateur.quebec/blog/ressources/eric-duhaime-mise-sur-des-politiques-natalistes-et-un-virage-autonomiste-dans-la-plateforme-electorale-du-parti-conservateur-du-quebec/"
+    },
+    {
+      "key": "education_reussite__qs__src1",
+      "argument": "education_reussite__qs",
+      "citation_text": "QS-01: reconstruction prudente à partir de QS-01 et QS-03 dans `SOURCES.md`.",
+      "title": "Plateforme et campagne 2026.",
+      "url": "https://quebecsolidaire.net/"
+    },
+    {
+      "key": "education_reussite__qs__src2",
+      "argument": "education_reussite__qs",
+      "citation_text": "QS-03: reconstruction prudente à partir de QS-01 et QS-03 dans `SOURCES.md`.",
+      "title": "Finances publiques.",
+      "url": "https://quebecsolidaire.net/theme/financespubliques"
+    },
+    {
+      "key": "education_reussite__ddq__src1",
+      "argument": "education_reussite__ddq",
+      "citation_text": "DDQ-01: reconstruction à partir de DDQ-01 dans `SOURCES.md`.",
+      "title": "Programme 2026 — Démocratie Directe Québec.",
+      "url": "https://democratiedirectequebec.com/Democratie%20Directe%20Quebec.html"
+    },
+    {
+      "key": "energie_climat_ressources__caq__src1",
+      "argument": "energie_climat_ressources__caq",
+      "citation_text": "CAQ-11: reconstruction à partir de CAQ-11; le présent pack ne prétend pas résumer toute la politique énergétique gouvernementale.",
+      "title": "Régions ressources : accroître les retombées locales des ressources naturelles.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/08/24/les-regions-ressources-au-coeur-dun-engagement-important-pour-lequipe-christine-frechette/"
+    },
+    {
+      "key": "energie_climat_ressources__plq__src1",
+      "argument": "energie_climat_ressources__plq",
+      "citation_text": "PLQ-01: reconstruction prudente à partir de PLQ-01 et des limites documentaires décrites dans `SOURCES.md`.",
+      "title": "Accueil et positionnement du Parti libéral du Québec.",
+      "url": "https://plq.org/accueil/"
+    },
+    {
+      "key": "energie_climat_ressources__pq__src1",
+      "argument": "energie_climat_ressources__pq",
+      "citation_text": "PQ-02: reconstruction à partir de PQ-02 dans `SOURCES.md`.",
+      "title": "Plan environnement 2026-2034.",
+      "url": "https://pq.org/nouvelles/le-plan-environnement-du-parti-quebecois-2026-2034-prendre-ses-responsabilites-senrichir-et-ameliorer-notre-qualite-de-vie/"
+    },
+    {
+      "key": "energie_climat_ressources__pcq__src1",
+      "argument": "energie_climat_ressources__pcq",
+      "citation_text": "PCQ-06: reconstruction à partir de PCQ-06 et PCQ-01 dans `SOURCES.md`.",
+      "title": "Développer le gaz naturel québécois.",
+      "url": "https://conservateur.quebec/blog/ressources/le-pcq-veut-enrichir-le-quebec-et-reduire-sa-dependance-aux-etats-unis-grace-a-son-gaz-naturel/"
+    },
+    {
+      "key": "energie_climat_ressources__pcq__src2",
+      "argument": "energie_climat_ressources__pcq",
+      "citation_text": "PCQ-01: reconstruction à partir de PCQ-06 et PCQ-01 dans `SOURCES.md`.",
+      "title": "Documents officiels — plateforme électorale 2026.",
+      "url": "https://conservateur.quebec/documents-officiels/"
+    },
+    {
+      "key": "energie_climat_ressources__qs__src1",
+      "argument": "energie_climat_ressources__qs",
+      "citation_text": "QS-04: reconstruction à partir de QS-04 dans `SOURCES.md`.",
+      "title": "Environnement.",
+      "url": "https://quebecsolidaire.net/theme/environnement"
+    },
+    {
+      "key": "energie_climat_ressources__ddq__src1",
+      "argument": "energie_climat_ressources__ddq",
+      "citation_text": "DDQ-01: reconstruction à partir de DDQ-01 dans `SOURCES.md`.",
+      "title": "Programme 2026 — Démocratie Directe Québec.",
+      "url": "https://democratiedirectequebec.com/Democratie%20Directe%20Quebec.html"
+    },
+    {
+      "key": "avenir_politique_quebec__caq__src1",
+      "argument": "avenir_politique_quebec__caq",
+      "citation_text": "CAQ-10: reconstruction à partir de CAQ-10 dans `SOURCES.md`.",
+      "title": "Nouvelle politique internationale : un autonomisme pleinement assumé.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/06/16/une-nouvelle-politique-internationale-du-quebec-un-quebec-qui-agit-par-lui-meme-et-pour-lui-meme/"
+    },
+    {
+      "key": "avenir_politique_quebec__plq__src1",
+      "argument": "avenir_politique_quebec__plq",
+      "citation_text": "PLQ-01: reconstruction à partir de PLQ-01 dans `SOURCES.md`.",
+      "title": "Accueil et positionnement du Parti libéral du Québec.",
+      "url": "https://plq.org/accueil/"
+    },
+    {
+      "key": "avenir_politique_quebec__pq__src1",
+      "argument": "avenir_politique_quebec__pq",
+      "citation_text": "PQ-08: reconstruction à partir de PQ-08 dans `SOURCES.md`.",
+      "title": "Livre bleu — projet d'indépendance.",
+      "url": "https://pq.org/livrebleu/"
+    },
+    {
+      "key": "avenir_politique_quebec__pcq__src1",
+      "argument": "avenir_politique_quebec__pcq",
+      "citation_text": "PCQ-08: reconstruction à partir de PCQ-08 et contexte juridique G-06 dans `SOURCES.md`.",
+      "title": "Virage autonomiste et plateforme électorale 2026.",
+      "url": "https://conservateur.quebec/blog/ressources/eric-duhaime-mise-sur-des-politiques-natalistes-et-un-virage-autonomiste-dans-la-plateforme-electorale-du-parti-conservateur-du-quebec/"
+    },
+    {
+      "key": "avenir_politique_quebec__pcq__src2",
+      "argument": "avenir_politique_quebec__pcq",
+      "citation_text": "G-06: reconstruction à partir de PCQ-08 et contexte juridique G-06 dans `SOURCES.md`.",
+      "title": "Loi constitutionnelle de 1982, notamment l'article 45.",
+      "url": "https://laws-lois.justice.gc.ca/eng/Const/FullText.html"
+    },
+    {
+      "key": "avenir_politique_quebec__qs__src1",
+      "argument": "avenir_politique_quebec__qs",
+      "citation_text": "QS-05: reconstruction à partir de QS-05 dans `SOURCES.md`.",
+      "title": "Indépendance.",
+      "url": "https://quebecsolidaire.net/theme/independance"
+    },
+    {
+      "key": "avenir_politique_quebec__ddq__src1",
+      "argument": "avenir_politique_quebec__ddq",
+      "citation_text": "DDQ-01: reconstruction à partir de DDQ-01, G-06 et G-07 dans `SOURCES.md`.",
+      "title": "Programme 2026 — Démocratie Directe Québec.",
+      "url": "https://democratiedirectequebec.com/Democratie%20Directe%20Quebec.html"
+    },
+    {
+      "key": "avenir_politique_quebec__ddq__src2",
+      "argument": "avenir_politique_quebec__ddq",
+      "citation_text": "G-06: reconstruction à partir de DDQ-01, G-06 et G-07 dans `SOURCES.md`.",
+      "title": "Loi constitutionnelle de 1982, notamment l'article 45.",
+      "url": "https://laws-lois.justice.gc.ca/eng/Const/FullText.html"
+    },
+    {
+      "key": "avenir_politique_quebec__ddq__src3",
+      "argument": "avenir_politique_quebec__ddq",
+      "citation_text": "G-07: reconstruction à partir de DDQ-01, G-06 et G-07 dans `SOURCES.md`.",
+      "title": "Renvoi relatif à la sécession du Québec.",
+      "url": "https://scc-csc.lexum.com/scc-csc/scc-csc/en/item/1643/index.do?site_preference=mobile"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__caq__src1",
+      "argument": "democratie_pouvoir_citoyen__caq",
+      "citation_text": "CAQ-05: reconstruction à partir de CAQ-05 et CAQ-10 dans `SOURCES.md`.",
+      "title": "Poursuivre la modernisation de l'État.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/09/02/lequipe-christine-frechette-poursuivra-la-modernisation-de-letat/"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__caq__src2",
+      "argument": "democratie_pouvoir_citoyen__caq",
+      "citation_text": "CAQ-10: reconstruction à partir de CAQ-05 et CAQ-10 dans `SOURCES.md`.",
+      "title": "Nouvelle politique internationale : un autonomisme pleinement assumé.",
+      "url": "https://coalitionavenirquebec.org/fr/blog/2026/06/16/une-nouvelle-politique-internationale-du-quebec-un-quebec-qui-agit-par-lui-meme-et-pour-lui-meme/"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__plq__src1",
+      "argument": "democratie_pouvoir_citoyen__plq",
+      "citation_text": "PLQ-01: reconstruction à partir de PLQ-01 dans `SOURCES.md`.",
+      "title": "Accueil et positionnement du Parti libéral du Québec.",
+      "url": "https://plq.org/accueil/"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__pq__src1",
+      "argument": "democratie_pouvoir_citoyen__pq",
+      "citation_text": "PQ-05: reconstruction à partir de PQ-05 et PQ-08 dans `SOURCES.md`.",
+      "title": "Grand ménage dans la bureaucratie et recentrage de l'État.",
+      "url": "https://pq.org/nouvelles/un-gouvernement-du-parti-quebecois-lancera-un-grand-menage-dans-la-bureaucratie-afin-de-recentrer-letat-sur-ses-missions-fondamentales/"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__pq__src2",
+      "argument": "democratie_pouvoir_citoyen__pq",
+      "citation_text": "PQ-08: reconstruction à partir de PQ-05 et PQ-08 dans `SOURCES.md`.",
+      "title": "Livre bleu — projet d'indépendance.",
+      "url": "https://pq.org/livrebleu/"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__pcq__src1",
+      "argument": "democratie_pouvoir_citoyen__pcq",
+      "citation_text": "PCQ-08: reconstruction à partir de PCQ-08 dans `SOURCES.md`.",
+      "title": "Virage autonomiste et plateforme électorale 2026.",
+      "url": "https://conservateur.quebec/blog/ressources/eric-duhaime-mise-sur-des-politiques-natalistes-et-un-virage-autonomiste-dans-la-plateforme-electorale-du-parti-conservateur-du-quebec/"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__qs__src1",
+      "argument": "democratie_pouvoir_citoyen__qs",
+      "citation_text": "QS-05: reconstruction à partir de QS-05 dans `SOURCES.md`.",
+      "title": "Indépendance.",
+      "url": "https://quebecsolidaire.net/theme/independance"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__ddq__src1",
+      "argument": "democratie_pouvoir_citoyen__ddq",
+      "citation_text": "DDQ-01: reconstruction à partir de DDQ-01 et DDQ-02 dans `SOURCES.md`.",
+      "title": "Programme 2026 — Démocratie Directe Québec.",
+      "url": "https://democratiedirectequebec.com/Democratie%20Directe%20Quebec.html"
+    },
+    {
+      "key": "democratie_pouvoir_citoyen__ddq__src2",
+      "argument": "democratie_pouvoir_citoyen__ddq",
+      "citation_text": "DDQ-02: reconstruction à partir de DDQ-01 et DDQ-02 dans `SOURCES.md`.",
+      "title": "Au cœur des décisions — engagements institutionnels.",
+      "url": "https://www.democratiedirectequebec.com/AuCoeurDesDecisions?SHOW=ENGAGEMENT"
+    }
+  ],
+  "consultations": [
+    {
+      "key": "consult_sante_acces_gouvernance",
+      "title": "[DEMO][QC2026] Quels objectifs devraient être prioritaires pour améliorer l’accès aux soins?",
+      "status": "open",
+      "open_date": "2026-09-09",
+      "close_date": "2026-10-04",
+      "options": [
+        {
+          "key": "reduce_waits",
+          "label": "Réduire les délais d’accès"
+        },
+        {
+          "key": "strengthen_primary_care",
+          "label": "Renforcer la première ligne"
+        },
+        {
+          "key": "expand_home_care",
+          "label": "Développer le soutien à domicile"
+        },
+        {
+          "key": "strengthen_public_capacity",
+          "label": "Renforcer la capacité du réseau public"
+        },
+        {
+          "key": "use_accredited_private_capacity",
+          "label": "Utiliser de la capacité privée accréditée sous financement public"
+        },
+        {
+          "key": "improve_governance",
+          "label": "Améliorer la coordination et la gouvernance"
+        }
+      ],
+      "modality": "ranking",
+      "official_status": "non_official_konnaxion_demo",
+      "purpose": "policy_tradeoff_exploration_not_electoral_choice",
+      "issue_key": "sante_acces_gouvernance"
+    },
+    {
+      "key": "consult_logement_abordabilite",
+      "title": "[DEMO][QC2026] Quels leviers devraient être prioritaires pour améliorer l’abordabilité du logement?",
+      "status": "open",
+      "open_date": "2026-09-09",
+      "close_date": "2026-10-04",
+      "options": [
+        {
+          "key": "increase_supply",
+          "label": "Augmenter rapidement l’offre"
+        },
+        {
+          "key": "expand_non_market",
+          "label": "Développer le logement social et hors marché"
+        },
+        {
+          "key": "reduce_regulatory_delays",
+          "label": "Réduire les délais et obstacles réglementaires"
+        },
+        {
+          "key": "protect_affordability",
+          "label": "Renforcer les mécanismes d’abordabilité et de protection"
+        },
+        {
+          "key": "municipal_tools",
+          "label": "Accroître ou mieux cibler les outils municipaux"
+        }
+      ],
+      "modality": "ranking",
+      "official_status": "non_official_konnaxion_demo",
+      "purpose": "policy_tradeoff_exploration_not_electoral_choice",
+      "issue_key": "logement_abordabilite"
+    },
+    {
+      "key": "consult_immigration_capacite_accueil",
+      "title": "[DEMO][QC2026] Quels critères devraient peser le plus dans la politique d’immigration du Québec?",
+      "status": "open",
+      "open_date": "2026-09-09",
+      "close_date": "2026-10-04",
+      "options": [
+        {
+          "key": "reception_capacity",
+          "label": "Capacité réelle d’accueil et de services"
+        },
+        {
+          "key": "labour_needs",
+          "label": "Besoins économiques et de main-d’œuvre"
+        },
+        {
+          "key": "french_integration",
+          "label": "Capacité d’intégration en français"
+        },
+        {
+          "key": "regionalization",
+          "label": "Régionalisation de l’établissement"
+        },
+        {
+          "key": "humanitarian_family",
+          "label": "Considérations humanitaires et familiales"
+        }
+      ],
+      "modality": "ranking",
+      "official_status": "non_official_konnaxion_demo",
+      "purpose": "policy_tradeoff_exploration_not_electoral_choice",
+      "issue_key": "immigration_capacite_accueil"
+    },
+    {
+      "key": "consult_energie_climat_ressources",
+      "title": "[DEMO][QC2026] Comment prioriser les objectifs de la politique énergétique et climatique?",
+      "status": "open",
+      "open_date": "2026-09-09",
+      "close_date": "2026-10-04",
+      "options": [
+        {
+          "key": "affordability",
+          "label": "Coût et abordabilité de l’énergie"
+        },
+        {
+          "key": "reliability",
+          "label": "Fiabilité et sécurité de l’approvisionnement"
+        },
+        {
+          "key": "emissions",
+          "label": "Réduction des émissions"
+        },
+        {
+          "key": "economic_development",
+          "label": "Développement économique et industriel"
+        },
+        {
+          "key": "pace_capacity",
+          "label": "Capacité du réseau et rythme de réalisation des projets"
+        }
+      ],
+      "modality": "ranking",
+      "official_status": "non_official_konnaxion_demo",
+      "purpose": "policy_tradeoff_exploration_not_electoral_choice",
+      "issue_key": "energie_climat_ressources"
+    },
+    {
+      "key": "consult_democratie_pouvoir_citoyen",
+      "title": "[DEMO][QC2026] Quels mécanismes devraient jouer le plus grand rôle entre deux élections?",
+      "status": "open",
+      "open_date": "2026-09-09",
+      "close_date": "2026-10-04",
+      "options": [
+        {
+          "key": "representative_mandate",
+          "label": "Mandat des représentantes et représentants élus"
+        },
+        {
+          "key": "citizen_initiative",
+          "label": "Initiative citoyenne structurée"
+        },
+        {
+          "key": "referendum",
+          "label": "Référendum sur certaines décisions"
+        },
+        {
+          "key": "citizen_assembly",
+          "label": "Assemblées citoyennes ou constituantes"
+        },
+        {
+          "key": "subsidiarity",
+          "label": "Décision au niveau le plus local pertinent"
+        },
+        {
+          "key": "rights_safeguards",
+          "label": "Garde-fous relatifs aux droits fondamentaux"
+        }
+      ],
+      "modality": "ranking",
+      "official_status": "non_official_konnaxion_demo",
+      "purpose": "policy_tradeoff_exploration_not_electoral_choice",
+      "issue_key": "democratie_pouvoir_citoyen"
+    }
+  ],
+  "consultation_votes": [],
+  "impact_items": [],
+  "ekoh_profiles": [],
+  "consultation_relevance": [],
+  "topic_relevance": [
+    {
+      "topic": "sante_acces_gouvernance",
+      "domain_code": "09",
+      "weight": 0.35,
+      "criteria": {
+        "domain_name": "Health and welfare",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "sante_acces_gouvernance",
+      "domain_code": "092",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Welfare",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "sante_acces_gouvernance",
+      "domain_code": "0413",
+      "weight": 0.2,
+      "criteria": {
+        "domain_name": "Management and administration",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "sante_acces_gouvernance",
+      "domain_code": "0312",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Political sciences and civics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "sante_acces_gouvernance",
+      "domain_code": "0542",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Statistics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "logement_abordabilite",
+      "domain_code": "0731",
+      "weight": 0.3,
+      "criteria": {
+        "domain_name": "Architecture and town planning",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "logement_abordabilite",
+      "domain_code": "0311",
+      "weight": 0.2,
+      "criteria": {
+        "domain_name": "Economics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "logement_abordabilite",
+      "domain_code": "0314",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Sociology and cultural studies",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "logement_abordabilite",
+      "domain_code": "0413",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Management and administration",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "logement_abordabilite",
+      "domain_code": "0421",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Law",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "logement_abordabilite",
+      "domain_code": "0542",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Statistics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "pouvoir_achat_fiscalite",
+      "domain_code": "0311",
+      "weight": 0.4,
+      "criteria": {
+        "domain_name": "Economics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "pouvoir_achat_fiscalite",
+      "domain_code": "0413",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Management and administration",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "pouvoir_achat_fiscalite",
+      "domain_code": "0421",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Law",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "pouvoir_achat_fiscalite",
+      "domain_code": "0542",
+      "weight": 0.2,
+      "criteria": {
+        "domain_name": "Statistics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "pouvoir_achat_fiscalite",
+      "domain_code": "0312",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Political sciences and civics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "economie_productivite_finances",
+      "domain_code": "0311",
+      "weight": 0.4,
+      "criteria": {
+        "domain_name": "Economics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "economie_productivite_finances",
+      "domain_code": "0413",
+      "weight": 0.25,
+      "criteria": {
+        "domain_name": "Management and administration",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "economie_productivite_finances",
+      "domain_code": "0542",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Statistics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "economie_productivite_finances",
+      "domain_code": "0312",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Political sciences and civics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "economie_productivite_finances",
+      "domain_code": "0421",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Law",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "immigration_capacite_accueil",
+      "domain_code": "0314",
+      "weight": 0.25,
+      "criteria": {
+        "domain_name": "Sociology and cultural studies",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "immigration_capacite_accueil",
+      "domain_code": "0311",
+      "weight": 0.2,
+      "criteria": {
+        "domain_name": "Economics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "immigration_capacite_accueil",
+      "domain_code": "0312",
+      "weight": 0.2,
+      "criteria": {
+        "domain_name": "Political sciences and civics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "immigration_capacite_accueil",
+      "domain_code": "0231",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Language acquisition",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "immigration_capacite_accueil",
+      "domain_code": "0421",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Law",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "immigration_capacite_accueil",
+      "domain_code": "0542",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Statistics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "francais_langue_commune",
+      "domain_code": "0231",
+      "weight": 0.3,
+      "criteria": {
+        "domain_name": "Language acquisition",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "francais_langue_commune",
+      "domain_code": "0421",
+      "weight": 0.2,
+      "criteria": {
+        "domain_name": "Law",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "francais_langue_commune",
+      "domain_code": "0314",
+      "weight": 0.2,
+      "criteria": {
+        "domain_name": "Sociology and cultural studies",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "francais_langue_commune",
+      "domain_code": "0312",
+      "weight": 0.2,
+      "criteria": {
+        "domain_name": "Political sciences and civics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "francais_langue_commune",
+      "domain_code": "0111",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Education science",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "education_reussite",
+      "domain_code": "0111",
+      "weight": 0.35,
+      "criteria": {
+        "domain_name": "Education science",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "education_reussite",
+      "domain_code": "0413",
+      "weight": 0.2,
+      "criteria": {
+        "domain_name": "Management and administration",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "education_reussite",
+      "domain_code": "0314",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Sociology and cultural studies",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "education_reussite",
+      "domain_code": "0311",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Economics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "education_reussite",
+      "domain_code": "0312",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Political sciences and civics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "education_reussite",
+      "domain_code": "0542",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Statistics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "energie_climat_ressources",
+      "domain_code": "0713",
+      "weight": 0.3,
+      "criteria": {
+        "domain_name": "Electricity and energy",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "energie_climat_ressources",
+      "domain_code": "0521",
+      "weight": 0.25,
+      "criteria": {
+        "domain_name": "Environmental sciences",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "energie_climat_ressources",
+      "domain_code": "0311",
+      "weight": 0.2,
+      "criteria": {
+        "domain_name": "Economics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "energie_climat_ressources",
+      "domain_code": "0413",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Management and administration",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "energie_climat_ressources",
+      "domain_code": "0312",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Political sciences and civics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "energie_climat_ressources",
+      "domain_code": "0542",
+      "weight": 0.05,
+      "criteria": {
+        "domain_name": "Statistics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "avenir_politique_quebec",
+      "domain_code": "0312",
+      "weight": 0.35,
+      "criteria": {
+        "domain_name": "Political sciences and civics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "avenir_politique_quebec",
+      "domain_code": "0421",
+      "weight": 0.3,
+      "criteria": {
+        "domain_name": "Law",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "avenir_politique_quebec",
+      "domain_code": "0314",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Sociology and cultural studies",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "avenir_politique_quebec",
+      "domain_code": "0311",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Economics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "avenir_politique_quebec",
+      "domain_code": "0231",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Language acquisition",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "democratie_pouvoir_citoyen",
+      "domain_code": "0312",
+      "weight": 0.4,
+      "criteria": {
+        "domain_name": "Political sciences and civics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "democratie_pouvoir_citoyen",
+      "domain_code": "0421",
+      "weight": 0.2,
+      "criteria": {
+        "domain_name": "Law",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "democratie_pouvoir_citoyen",
+      "domain_code": "0314",
+      "weight": 0.15,
+      "criteria": {
+        "domain_name": "Sociology and cultural studies",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "democratie_pouvoir_citoyen",
+      "domain_code": "0413",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Management and administration",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "democratie_pouvoir_citoyen",
+      "domain_code": "0542",
+      "weight": 0.1,
+      "criteria": {
+        "domain_name": "Statistics",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    },
+    {
+      "topic": "democratie_pouvoir_citoyen",
+      "domain_code": "0231",
+      "weight": 0.05,
+      "criteria": {
+        "domain_name": "Language acquisition",
+        "purpose": "issue_context_only",
+        "party_scoring": false
+      }
+    }
+  ],
+  "reading_exclusions": []
+}

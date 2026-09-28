@@ -1,0 +1,338 @@
+{
+  "schema_version": "kx-world-knowledge-seed/v1",
+  "world_key": "canada-quebec-public-debates-2026",
+  "policy": {
+    "purpose": "understand_before_position",
+    "all_dossiers_receive_brief": true,
+    "featured_dossiers_receive_deeper_structure": true,
+    "context_does_not_override_canonical_positions": true
+  },
+  "dossiers": [
+    {
+      "key": "federal_deficit",
+      "dossier_key": "federal_deficit",
+      "title": "Déficit fédéral",
+      "orientation": "Examiner les arbitrages entre rythme de réduction du déficit, capacité d’investissement public, coût du financement et résilience budgétaire.",
+      "concepts": [
+        "solde budgétaire",
+        "dette publique",
+        "service de la dette",
+        "investissement public",
+        "cycle économique"
+      ],
+      "evidence_questions": [
+        "Quelle est la trajectoire du solde budgétaire et du ratio dette/PIB?",
+        "Quelle part de la variation vient des revenus, des dépenses et du coût du financement?",
+        "Quels investissements sont concernés par différents rythmes d’ajustement?",
+        "Quels horizons temporels et scénarios économiques sont comparés?"
+      ],
+      "official_context_source_keys": [],
+      "featured": false
+    },
+    {
+      "key": "canada_us_autonomy",
+      "dossier_key": "canada_us_autonomy",
+      "title": "Autonomie Canada–États-Unis",
+      "orientation": "Examiner les coûts, bénéfices et dépendances liés à une plus grande autonomie économique, stratégique et industrielle du Canada par rapport aux États-Unis.",
+      "concepts": [
+        "dépendance commerciale",
+        "chaînes d’approvisionnement",
+        "sécurité économique",
+        "diversification",
+        "interdépendance"
+      ],
+      "evidence_questions": [
+        "Quelles dépendances sont mesurées: commerce, défense, énergie, technologies ou capitaux?",
+        "Quels coûts de transition sont distingués des effets à long terme?",
+        "Quelles alternatives de diversification sont documentées?",
+        "Quels secteurs sont les plus sensibles aux changements de relation?"
+      ],
+      "official_context_source_keys": [],
+      "featured": false
+    },
+    {
+      "key": "support_ukraine",
+      "dossier_key": "support_ukraine",
+      "title": "Soutien à l’Ukraine",
+      "orientation": "Distinguer les dimensions militaire, financière, diplomatique et humanitaire du soutien canadien, ainsi que leurs objectifs et contraintes.",
+      "concepts": [
+        "aide militaire",
+        "aide financière",
+        "diplomatie",
+        "droit international",
+        "capacité budgétaire"
+      ],
+      "evidence_questions": [
+        "Quels types de soutien sont inclus dans les comparaisons?",
+        "Quels objectifs déclarés et indicateurs de résultat sont utilisés?",
+        "Quels engagements alliés ou obligations juridiques sont pertinents?",
+        "Quelles incertitudes stratégiques sont explicitement reconnues?"
+      ],
+      "official_context_source_keys": [],
+      "featured": false
+    },
+    {
+      "key": "middle_east_policy",
+      "dossier_key": "middle_east_policy",
+      "title": "Politique au Moyen-Orient",
+      "orientation": "Examiner comment le Canada articule alliances, autonomie diplomatique, droit international, protection des civils et objectifs de sécurité.",
+      "concepts": [
+        "droit international",
+        "diplomatie",
+        "alliance",
+        "protection des civils",
+        "sécurité régionale"
+      ],
+      "evidence_questions": [
+        "Quelles décisions précises sont comparées plutôt que des orientations générales?",
+        "Quelles normes juridiques sont invoquées et par quelles autorités?",
+        "Quels effets humanitaires et sécuritaires sont documentés?",
+        "Quelles distinctions sont faites entre position diplomatique, aide et mesures coercitives?"
+      ],
+      "official_context_source_keys": [],
+      "featured": false
+    },
+    {
+      "key": "wealth_inequality",
+      "dossier_key": "wealth_inequality",
+      "title": "Inégalités et fiscalité",
+      "orientation": "Examiner les instruments fiscaux proposés, leur assiette, leurs effets attendus sur les recettes, l’investissement, la distribution des revenus et le coût de la vie.",
+      "concepts": [
+        "progressivité",
+        "assiette fiscale",
+        "patrimoine",
+        "profits",
+        "redistribution",
+        "incidence fiscale"
+      ],
+      "evidence_questions": [
+        "Quel instrument fiscal précis est étudié?",
+        "Quelles recettes potentielles et réponses comportementales sont estimées?",
+        "Quels groupes supportent ou reçoivent les effets directs?",
+        "Quelles hypothèses relient la mesure au coût de la vie?"
+      ],
+      "official_context_source_keys": [],
+      "featured": false
+    },
+    {
+      "key": "regulatory_delays",
+      "dossier_key": "regulatory_delays",
+      "title": "Délais réglementaires",
+      "orientation": "Examiner comment réduire les délais et chevauchements tout en conservant des décisions motivées, des preuves suffisantes, les obligations juridiques et les mécanismes de participation.",
+      "concepts": [
+        "permis",
+        "évaluation d’impact",
+        "coordination intergouvernementale",
+        "délais de décision",
+        "participation",
+        "motifs de décision"
+      ],
+      "evidence_questions": [
+        "Où les délais se forment-ils réellement dans le processus?",
+        "Quels chevauchements peuvent être réduits sans supprimer des fonctions distinctes?",
+        "Quels délais sont administratifs, techniques, judiciaires ou liés à la consultation?",
+        "Quels indicateurs permettent d’évaluer simultanément rapidité, qualité et prévisibilité?"
+      ],
+      "official_context_source_keys": [
+        "ca_iaac_efficiency_2026",
+        "ca_major_projects_what_we_heard_2026",
+        "ca_red_tape_reviews_2026"
+      ],
+      "featured": true,
+      "deep_sections": [
+        "problem_definition",
+        "terms_and_scope",
+        "evidence_map",
+        "actor_map",
+        "uncertainties_and_limitations",
+        "methodology"
+      ]
+    },
+    {
+      "key": "justice_efficiency",
+      "dossier_key": "justice_efficiency",
+      "title": "Efficacité de la justice",
+      "orientation": "Examiner les tensions entre rapidité des procédures, sécurité publique, droits procéduraux, capacité des tribunaux et qualité des décisions.",
+      "concepts": [
+        "délais judiciaires",
+        "droits procéduraux",
+        "capacité des tribunaux",
+        "sécurité publique",
+        "accès à la justice"
+      ],
+      "evidence_questions": [
+        "Quels types de dossiers et quels délais sont mesurés?",
+        "Quelles causes de retard relèvent de la capacité, des règles ou de la complexité des causes?",
+        "Quels droits ou garanties seraient touchés par une réforme donnée?",
+        "Quels indicateurs évaluent la qualité en plus de la vitesse?"
+      ],
+      "official_context_source_keys": [],
+      "featured": false
+    },
+    {
+      "key": "ai_education",
+      "dossier_key": "ai_education",
+      "title": "IA en éducation",
+      "orientation": "Examiner les usages pédagogiques de l’IA générative, leurs conditions d’intégration et les risques liés à l’évaluation, à la confidentialité, à l’intégrité et à l’équité.",
+      "concepts": [
+        "IA générative",
+        "intégrité académique",
+        "évaluation",
+        "confidentialité",
+        "compétence numérique",
+        "gouvernance"
+      ],
+      "evidence_questions": [
+        "Quels usages sont distingués: apprentissage, préparation, évaluation, administration ou recherche?",
+        "Quelles données peuvent être transmises aux systèmes d’IA et sous quelles règles?",
+        "Comment l’évaluation mesure-t-elle encore les apprentissages de l’élève ou de l’étudiant?",
+        "Quelles formations et responsabilités sont prévues pour le personnel et les apprenants?"
+      ],
+      "official_context_source_keys": [
+        "qc_ai_education_portal_2026",
+        "qc_ai_higher_ed_2026",
+        "qc_ceiae_2026"
+      ],
+      "featured": true,
+      "deep_sections": [
+        "problem_definition",
+        "terms_and_scope",
+        "evidence_map",
+        "actor_map",
+        "uncertainties_and_limitations",
+        "methodology"
+      ]
+    },
+    {
+      "key": "immigration_capacity",
+      "dossier_key": "immigration_capacity",
+      "title": "Immigration et capacité d’accueil",
+      "orientation": "Examiner conjointement les niveaux d’immigration, la composition des flux et la capacité d’accueil en logement, santé, éducation, infrastructures et marché du travail.",
+      "concepts": [
+        "résidents permanents",
+        "résidents temporaires",
+        "capacité d’accueil",
+        "logement",
+        "services publics",
+        "marché du travail"
+      ],
+      "evidence_questions": [
+        "Quels flux sont distingués: permanents, étudiants, travailleurs temporaires et autres catégories?",
+        "Quels indicateurs décrivent réellement la capacité d’accueil?",
+        "Quels effets varient selon la région, le secteur ou l’horizon temporel?",
+        "Quelles responsabilités relèvent du fédéral, des provinces et des municipalités?"
+      ],
+      "official_context_source_keys": [
+        "ca_immigration_levels_2026_2028",
+        "ca_immigration_levels_overview_2026"
+      ],
+      "featured": true,
+      "deep_sections": [
+        "problem_definition",
+        "terms_and_scope",
+        "evidence_map",
+        "actor_map",
+        "uncertainties_and_limitations",
+        "methodology"
+      ]
+    },
+    {
+      "key": "plastic_waste",
+      "dossier_key": "plastic_waste",
+      "title": "Plastiques et déchets",
+      "orientation": "Examiner les effets comparés des interdictions, de la responsabilité des producteurs, du réemploi, du recyclage et de la substitution des matériaux.",
+      "concepts": [
+        "responsabilité élargie des producteurs",
+        "usage unique",
+        "cycle de vie",
+        "recyclage",
+        "substitution"
+      ],
+      "evidence_questions": [
+        "Quels produits et flux de déchets sont visés?",
+        "Quels effets de substitution sont anticipés?",
+        "Quels coûts sont supportés par producteurs, consommateurs et municipalités?",
+        "Quels indicateurs de réduction à la source et de fin de vie sont utilisés?"
+      ],
+      "official_context_source_keys": [],
+      "featured": false
+    },
+    {
+      "key": "social_cohesion",
+      "dossier_key": "social_cohesion",
+      "title": "Cohésion sociale et francisation",
+      "orientation": "Examiner les politiques de langue, d’intégration et de culture commune ainsi que leurs effets mesurables sur participation, inclusion et cohésion sociale.",
+      "concepts": [
+        "francisation",
+        "intégration",
+        "culture commune",
+        "pluralisme",
+        "participation civique"
+      ],
+      "evidence_questions": [
+        "Comment la cohésion sociale est-elle définie et mesurée?",
+        "Quels programmes de francisation et d’intégration sont comparés?",
+        "Quels effets sont observés selon les cohortes et les régions?",
+        "Quelles distinctions sont faites entre politique linguistique, immigration et participation civique?"
+      ],
+      "official_context_source_keys": [],
+      "featured": false
+    },
+    {
+      "key": "clean_energy_climate",
+      "dossier_key": "clean_energy_climate",
+      "title": "Énergie propre et climat",
+      "orientation": "Examiner la vitesse de transition énergétique, ses coûts sectoriels, les investissements requis, les réductions d’émissions et les effets régionaux.",
+      "concepts": [
+        "transition énergétique",
+        "émissions",
+        "électricité",
+        "investissement",
+        "secteurs fossiles",
+        "compétitivité"
+      ],
+      "evidence_questions": [
+        "Quels scénarios d’émissions et de demande énergétique sont comparés?",
+        "Quels investissements en réseau, production et efficacité sont requis?",
+        "Quels coûts et bénéfices sont répartis selon les régions et secteurs?",
+        "Quels horizons distinguent coûts de transition et bénéfices à long terme?"
+      ],
+      "official_context_source_keys": [],
+      "featured": false
+    },
+    {
+      "key": "tech_sovereignty",
+      "dossier_key": "tech_sovereignty",
+      "title": "Souveraineté technologique",
+      "orientation": "Examiner les instruments permettant de développer et retenir au Canada les capacités de calcul, la propriété intellectuelle, les données, les talents et les entreprises technologiques.",
+      "concepts": [
+        "capacité de calcul",
+        "propriété intellectuelle",
+        "données",
+        "politique industrielle",
+        "approvisionnement",
+        "mise à l’échelle"
+      ],
+      "evidence_questions": [
+        "Quelles dépendances technologiques sont considérées stratégiques?",
+        "Quels instruments publics sont distingués: infrastructures, financement, achats, normes ou recherche?",
+        "Comment mesurer la rétention de propriété intellectuelle, de talents et d’entreprises?",
+        "Quels coûts, risques de concentration et contraintes commerciales accompagnent chaque instrument?"
+      ],
+      "official_context_source_keys": [
+        "ca_sovereign_ai_compute_strategy_2026",
+        "ca_ai_scip_2026",
+        "ca_ai_compute_access_fund_2025"
+      ],
+      "featured": true,
+      "deep_sections": [
+        "problem_definition",
+        "terms_and_scope",
+        "evidence_map",
+        "actor_map",
+        "uncertainties_and_limitations",
+        "methodology"
+      ]
+    }
+  ]
+}

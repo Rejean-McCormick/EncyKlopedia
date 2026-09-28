@@ -1,0 +1,44 @@
+world_contract: kx-world-pack/v1
+world_key: knowledge-continuity
+title: Knowledge Continuity
+description: Fictional organizational simulation about preserving critical capability before expertise disappears.
+pack_version: 1.1.0
+requires:
+  ethikos_scenario_schema: ethikos-demo-scenario/v3
+  fixtures:
+  - isced-f
+scenarios:
+- scenarios/knowledge-continuity.json
+persona_policy:
+  internal_username: w_{world_token}__{actor_key}
+  real_person_representation: fictional_persona
+  unknown_position: omit
+derived_data:
+  smart_vote:
+    build_readings: false
+  search:
+    build_index: true
+metadata:
+  language: en-CA
+  fictional: true
+  world_kind: organizational_capability_continuity
+  canonical_object: capability
+  modules:
+    knowledge: modules/knowledge/resources.json
+    certifikation: modules/certifikation/paths.json
+    ekoh: modules/ekoh/profiles.json
+    kontact: modules/kontact/succession.json
+    konstruct: modules/konstruct/projects.json
+    stockage: modules/stockage/evidence.json
+    konservation: modules/konservation/archive.json
+    korum: modules/korum/case_clinics.json
+  canon:
+    actors: canon/actors.json
+    capabilities: canon/capabilities.json
+    cases: canon/cases.json
+    world: canon/world.json
+  automatic_import_note: Current Worlds builder automatically validates/imports only the declared ethiKos v3 scenario.
+    Files under canon/ and modules/ are declarative bridge seeds aligned to current native models; they become runtime
+    data when the generic multi-module World loader is enabled.
+  module_bridge_seed_contract: konnaxion-world-module-bridge-seed/v1
+  module_bridge_mode: declarative_not_automatically_imported_by_current_worlds_builder

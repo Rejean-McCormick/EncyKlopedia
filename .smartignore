@@ -1,0 +1,308 @@
+# ============================================================
+# EncyKlopedia - Smart Snapshot ignore
+# Purpose: compact, code-first snapshot for AI review / coding.
+#
+# Keep:
+#   - executable source / launchers / configs
+#   - architecture docs / ADRs / READMEs
+#   - schemas / tests / examples
+#   - active seed material useful to understand contracts
+#   - small provenance / source metadata
+#
+# Exclude:
+#   - downloaded corpora and dumps
+#   - SQLite / indexes / compression indexes
+#   - ingest checkpoints / snapshots / handoffs
+#   - working state / generated evidence
+#   - generated media candidates
+#   - duplicate source collections
+#   - caches / environments / recovery / snapshots
+# ============================================================
+
+# ------------------------------------------------------------
+# VCS / IDE / OS
+# ------------------------------------------------------------
+.git/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------
+# Python / tooling caches
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# ------------------------------------------------------------
+# Environments / installed dependencies
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+site-packages/
+node_modules/
+
+# ------------------------------------------------------------
+# Build / packaging output
+# ------------------------------------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ------------------------------------------------------------
+# Logs / temp / diagnostics
+# ------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*.pid
+*.lock.tmp
+.cache/
+cache/
+logs/
+log/
+tmp/
+temp/
+diagnostics/
+crash/
+
+# ------------------------------------------------------------
+# Secrets / machine-local configuration
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+*.pfx
+*.p12
+local.settings.json
+settings.local.json
+config.local.*
+*.local.toml
+*.local.yaml
+*.local.yml
+*.local.json
+
+# ------------------------------------------------------------
+# Databases / journals / generated indexes
+# ------------------------------------------------------------
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.duckdb
+*.lmdb
+*.mdb
+*.wal
+*.shm
+*.pkl
+*.pickle
+*.idx
+*.bin
+
+# ------------------------------------------------------------
+# Heavy data / corpora / compressed artifacts
+# ------------------------------------------------------------
+*.bz2
+*.gz
+*.xz
+*.zst
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.parquet
+*.feather
+*.arrow
+*.pgf
+
+# Large line-oriented datasets are not code-review context.
+*.jsonl
+*.ndjson
+
+# ------------------------------------------------------------
+# EncyKlopedia downloaded SOURCE DATA
+# Preserve small *.source.json / manifests when possible.
+# ------------------------------------------------------------
+
+# Full Wikidata source dumps
+10_sources/wikidata/dumps/
+10_sources/wikidata/**/dumps/
+
+# Raw lexical corpora (Kaikki/Wiktionary, future lexical downloads)
+10_sources/lexical/**/*.jsonl
+10_sources/lexical/**/*.ndjson
+10_sources/lexical/**/*.sqlite
+10_sources/lexical/**/*.sqlite3
+10_sources/lexical/**/*.db
+10_sources/lexical/**/*.bz2
+10_sources/lexical/**/*.gz
+10_sources/lexical/**/*.xz
+10_sources/lexical/**/*.zst
+
+# ------------------------------------------------------------
+# EncyKlopedia INGEST STATE
+# These are generated/recoverable, not source code.
+# ------------------------------------------------------------
+20_ingest/checkpoints/
+20_ingest/scope-snapshots/
+20_ingest/daat-handoff/
+
+# Keep small manifests/provenance/README because they explain
+# current source identity and pipeline behavior.
+# 20_ingest/manifests/      intentionally kept
+# 20_ingest/provenance/     intentionally kept
+
+# ------------------------------------------------------------
+# EncyKlopedia WORKING STATE
+# Derived data should never enter an AI code snapshot.
+# README remains because only generated subtrees are excluded.
+# ------------------------------------------------------------
+30_working/lexical/
+30_working/scopes/
+30_working/wikidata/
+30_working/wikidata-fast/
+30_working/registry/
+30_working/relation-maps/
+30_working/graph/
+30_working/unresolved/
+30_working/builds/
+
+# Future catch-all generated working subtrees
+30_working/**/cache/
+30_working/**/temp/
+30_working/**/tmp/
+
+# ------------------------------------------------------------
+# Mediatheque generated candidates / harvest output
+# Keep 50_mediatheque/README.md and authored source/config files.
+# ------------------------------------------------------------
+50_mediatheque/catalog/candidates/
+50_mediatheque/catalog/generated/
+50_mediatheque/cache/
+50_mediatheque/temp/
+
+# ------------------------------------------------------------
+# Runtime / recovery
+# ------------------------------------------------------------
+90_runtime/cache/
+90_runtime/temp/
+90_runtime/exports/
+90_runtime/recovery/
+90_runtime/logs/
+90_runtime/downloads/
+90_runtime/generated/
+90_runtime/work/
+90_runtime/state/
+
+_recovery/
+recovery/
+recovery_*/
+backups/
+backup/
+*_prepatch_*/
+*_backup_*/
+
+# ------------------------------------------------------------
+# Duplicate / vendor-like source collections
+# Active worlds are already present elsewhere in the snapshot.
+# Avoid feeding the same content twice to the AI.
+# ------------------------------------------------------------
+10_sources/seeds/originals/WorldsKollection/
+
+# ------------------------------------------------------------
+# Nested generated snapshot manifests from vendored integrations
+# ------------------------------------------------------------
+00_system/integrations/**/CODE_SNAPSHOT_MANIFEST.md
+00_system/integrations/**/Index(*).txt
+00_system/integrations/**/Index_*.txt
+
+# ------------------------------------------------------------
+# Recursive snapshots / upload artifacts
+# ------------------------------------------------------------
+Code_snapshot_*.zip
+Code_snapshot_*.7z
+Code_snapshot_*.tar*
+snapshot_*.zip
+snapshots/
+upload/
+exports/
+
+Index(*).txt
+Index_*.txt
+MASTER_INDEX*.txt
+
+# Generated validation/report output only.
+# Authored VALIDATION.md / VALIDATION_REPORT.md remain included.
+CODE_SNAPSHOT_MANIFEST.generated.*
+VALIDATION_REPORT.generated.*
+validation-output/
+reports/generated/
+manifests/generated/
+
+# ------------------------------------------------------------
+# Binary media that does not help code review
+# ------------------------------------------------------------
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.iso
+*.img
+*.exe
+*.dll
+*.pdb
+
+# ------------------------------------------------------------
+# Notes
+# ------------------------------------------------------------
+# Do NOT add broad rules such as:
+#   !*.json
+#   !*.py
+#   !*.md
+# at the end of this file.
+#
+# Some snapshot implementations apply ignore rules differently
+# from Git. Broad negations can accidentally re-include generated
+# data from ignored directories.
+#
+# Current intent:
+#   00_system/                 KEEP (code, docs, integrations)
+#   10_sources/seeds/          KEEP, except duplicate WorldsKollection
+#   10_sources/lexical/        metadata only; raw corpora excluded
+#   20_ingest/                 small manifests/provenance only
+#   30_working/                generated content excluded
+#   40_kristal/                authored/reference files may remain
+#   50_mediatheque/            authored files only, candidates excluded
+#   90_runtime/                generated runtime state excluded
+# ============================================================

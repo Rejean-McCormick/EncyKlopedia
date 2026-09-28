@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interaction-kernel.dev/profiles/accountability.impact.publish/1.0.0/payload.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "artifact_type": {
+      "const": "impact_update"
+    },
+    "external_reference": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "demo_id": {
+      "type": "string",
+      "maxLength": 160
+    },
+    "checkpoint": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "synthetic": {
+      "type": "boolean"
+    },
+    "epistemic_status": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "summary": {
+      "type": "object"
+    },
+    "authority_note": {
+      "type": "string",
+      "maxLength": 2000
+    }
+  },
+  "required": [
+    "artifact_type",
+    "external_reference",
+    "summary"
+  ]
+}

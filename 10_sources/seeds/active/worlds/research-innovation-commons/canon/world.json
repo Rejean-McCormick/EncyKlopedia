@@ -1,0 +1,1178 @@
+{
+  "schema_version": "kx-world-canon/v1",
+  "world_key": "research-innovation-commons",
+  "title": "NEXUS Research Commons",
+  "subtitle": "Five Countries, One Disease, No Shared Scientific Language",
+  "language": "en",
+  "fictional": true,
+  "safety_note": "NEX-27, all institutions, people, datasets and findings in this World are fictional and are not medical guidance or real-world scientific claims.",
+  "promise": "Maintain continuity from research question to evidence, expertise, execution, result, interpretation and the next question.",
+  "acts": [
+    {
+      "key": "ACT-I",
+      "title": "We Don't Mean the Same Thing",
+      "goal": "Expose definition and method mismatch before interpreting disagreement."
+    },
+    {
+      "key": "ACT-II",
+      "title": "The Experiment That Failed",
+      "goal": "Treat negative and null results as reusable first-class knowledge."
+    },
+    {
+      "key": "ACT-III",
+      "title": "What Do We Do Next?",
+      "goal": "Allocate scarce research resources without confusing collective choice with scientific truth."
+    },
+    {
+      "key": "EPILOGUE",
+      "title": "Promising ≠ Proven",
+      "goal": "Communicate a preliminary result without severing provenance, uncertainty or limitations."
+    }
+  ],
+  "invariants": [
+    "Evidence outranks popularity.",
+    "Expertise informs interpretation; it does not establish truth.",
+    "Raw readings remain visible beside weighted readings.",
+    "Negative and null results are first-class knowledge.",
+    "Every important claim can trace to evidence and provenance.",
+    "Every important result can trace to protocol, data and version.",
+    "Uncertainty must remain representable.",
+    "Derived summaries never overwrite canonical source material.",
+    "Scientific disagreement is preserved rather than prematurely collapsed.",
+    "Decisions and scientific findings are different object classes."
+  ],
+  "organizations": [
+    {
+      "key": "ORG-001",
+      "name": "Northlake Immunology Centre",
+      "country": "Canada",
+      "kind": "research_centre",
+      "focus": [
+        "immunology",
+        "assay design",
+        "clinical cohorts"
+      ],
+      "fictional": true
+    },
+    {
+      "key": "ORG-002",
+      "name": "Meridian Institute for Translational Medicine",
+      "country": "France",
+      "kind": "research_institute",
+      "focus": [
+        "clinical medicine",
+        "trial methods",
+        "phenotyping"
+      ],
+      "fictional": true
+    },
+    {
+      "key": "ORG-003",
+      "name": "Aoba Genomics Institute",
+      "country": "Japan",
+      "kind": "research_institute",
+      "focus": [
+        "genomics",
+        "molecular methods",
+        "replication"
+      ],
+      "fictional": true
+    },
+    {
+      "key": "ORG-004",
+      "name": "Rift Research Data Centre",
+      "country": "Kenya",
+      "kind": "research_centre",
+      "focus": [
+        "causal inference",
+        "biostatistics",
+        "data standards"
+      ],
+      "fictional": true
+    },
+    {
+      "key": "ORG-005",
+      "name": "Instituto Horizonte de Pesquisa",
+      "country": "Brazil",
+      "kind": "research_institute",
+      "focus": [
+        "computational biology",
+        "research software",
+        "evidence synthesis"
+      ],
+      "fictional": true
+    },
+    {
+      "key": "ORG-006",
+      "name": "NEXUS Independent Methods Unit",
+      "country": "International",
+      "kind": "methods_unit",
+      "focus": [
+        "reproducibility",
+        "preregistration",
+        "evidence standards"
+      ],
+      "fictional": true
+    },
+    {
+      "key": "ORG-007",
+      "name": "NEX-27 Community Advisory Circle",
+      "country": "International",
+      "kind": "community_advisory_group",
+      "focus": [
+        "research priorities",
+        "plain-language communication",
+        "participant perspective"
+      ],
+      "fictional": true
+    }
+  ],
+  "actors": [
+    {
+      "key": "ACT-001",
+      "username": "w_nexus__maya_chen",
+      "display_name": "Dr Maya Chen",
+      "org": "ORG-001",
+      "role": "Immunology lead",
+      "bio": "Leads cross-site interpretation of immune signatures and assay comparability.",
+      "domains": [
+        "05",
+        "09"
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ]
+    },
+    {
+      "key": "ACT-002",
+      "username": "w_nexus__leo_fournier",
+      "display_name": "Dr Léo Fournier",
+      "org": "ORG-002",
+      "role": "Clinical phenotyping lead",
+      "bio": "Coordinates case definitions, longitudinal follow-up and clinical interpretation.",
+      "domains": [
+        "09",
+        "0542"
+      ],
+      "languages": [
+        "fr",
+        "en"
+      ]
+    },
+    {
+      "key": "ACT-003",
+      "username": "w_nexus__emi_sato",
+      "display_name": "Dr Emi Sato",
+      "org": "ORG-003",
+      "role": "Genomics lead",
+      "bio": "Studies molecular signatures and cross-site reproducibility of biomarker assays.",
+      "domains": [
+        "05",
+        "0613"
+      ],
+      "languages": [
+        "ja",
+        "en"
+      ]
+    },
+    {
+      "key": "ACT-004",
+      "username": "w_nexus__amina_diallo",
+      "display_name": "Dr Amina Diallo",
+      "org": "ORG-004",
+      "role": "Causal inference lead",
+      "bio": "Challenges causal claims, designs sensitivity analyses and evaluates confounding.",
+      "domains": [
+        "0542",
+        "0613"
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ]
+    },
+    {
+      "key": "ACT-005",
+      "username": "w_nexus__rafael_costa",
+      "display_name": "Dr Rafael Costa",
+      "org": "ORG-005",
+      "role": "Computational biology lead",
+      "bio": "Maintains analysis pipelines and reproducible computational workflows.",
+      "domains": [
+        "0613",
+        "0612",
+        "0542"
+      ],
+      "languages": [
+        "pt",
+        "en"
+      ]
+    },
+    {
+      "key": "ACT-006",
+      "username": "w_nexus__priya_nair",
+      "display_name": "Priya Nair",
+      "org": "ORG-001",
+      "role": "Clinical data steward",
+      "bio": "Owns cohort metadata, data dictionaries and cross-site data quality checks.",
+      "domains": [
+        "0612",
+        "09"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "key": "ACT-007",
+      "username": "w_nexus__jules_moreau",
+      "display_name": "Jules Moreau",
+      "org": "ORG-002",
+      "role": "Trial methodologist",
+      "bio": "Designs blinded comparisons, preregistration plans and endpoint definitions.",
+      "domains": [
+        "0542",
+        "09"
+      ],
+      "languages": [
+        "fr",
+        "en"
+      ]
+    },
+    {
+      "key": "ACT-008",
+      "username": "w_nexus__kenji_watanabe",
+      "display_name": "Kenji Watanabe",
+      "org": "ORG-003",
+      "role": "Replication scientist",
+      "bio": "Runs independent assay replication and protocol robustness studies.",
+      "domains": [
+        "05",
+        "0413"
+      ],
+      "languages": [
+        "ja",
+        "en"
+      ]
+    },
+    {
+      "key": "ACT-009",
+      "username": "w_nexus__njeri_kamau",
+      "display_name": "Njeri Kamau",
+      "org": "ORG-004",
+      "role": "Research software & standards engineer",
+      "bio": "Builds harmonization tools and tracks transformations between raw and analysis-ready data.",
+      "domains": [
+        "0612",
+        "0613"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "key": "ACT-010",
+      "username": "w_nexus__sofia_almeida",
+      "display_name": "Sofia Almeida",
+      "org": "ORG-005",
+      "role": "Evidence synthesis researcher",
+      "bio": "Maintains evidence maps, uncertainty notes and synthesis of positive and negative findings.",
+      "domains": [
+        "05",
+        "0542",
+        "0321"
+      ],
+      "languages": [
+        "pt",
+        "en"
+      ]
+    },
+    {
+      "key": "ACT-011",
+      "username": "w_nexus__nora_feld",
+      "display_name": "Dr Nora Feld",
+      "org": "ORG-006",
+      "role": "Independent reproducibility methodologist",
+      "bio": "Audits protocol changes, evidence standards and reproducibility claims independently of project teams.",
+      "domains": [
+        "0542",
+        "0223",
+        "0413"
+      ],
+      "languages": [
+        "en",
+        "de"
+      ]
+    },
+    {
+      "key": "ACT-012",
+      "username": "w_nexus__elena_ruiz",
+      "display_name": "Elena Ruiz",
+      "org": "ORG-007",
+      "role": "Community liaison & science communicator",
+      "bio": "Connects research priorities with participant concerns and tests public explanations for lost context.",
+      "domains": [
+        "0321",
+        "092",
+        "0223"
+      ],
+      "languages": [
+        "es",
+        "en",
+        "fr"
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "key": "DEF-001",
+      "term": "case",
+      "canonical_definition": "A participant meeting the harmonized NEX-27 inclusion rule defined in PROT-001 v3.",
+      "status": "harmonized",
+      "origin": "Act I"
+    },
+    {
+      "key": "DEF-002",
+      "term": "recovery",
+      "canonical_definition": "Sustained return below the agreed symptom-impact threshold for at least two consecutive observations.",
+      "status": "harmonized",
+      "origin": "Act I"
+    },
+    {
+      "key": "DEF-003",
+      "term": "response",
+      "canonical_definition": "A prespecified change on the consortium response composite; not synonymous with recovery.",
+      "status": "harmonized",
+      "origin": "Act I"
+    },
+    {
+      "key": "DEF-004",
+      "term": "significant",
+      "canonical_definition": "Must specify whether statistical, clinical or operational significance is intended.",
+      "status": "harmonized",
+      "origin": "Act I"
+    },
+    {
+      "key": "DEF-005",
+      "term": "confirmed",
+      "canonical_definition": "Observed with the agreed method and independently reproduced or supported by a preregistered confirmatory analysis.",
+      "status": "contested",
+      "origin": "Act I"
+    },
+    {
+      "key": "DEF-006",
+      "term": "relapse",
+      "canonical_definition": "Return above the symptom-impact threshold after a period meeting DEF-002.",
+      "status": "harmonized",
+      "origin": "Act I"
+    }
+  ],
+  "research_questions": [
+    {
+      "key": "RQ-001",
+      "title": "What is NEX-27: one syndrome, a family of subtypes, or a classification artifact?",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "key": "RQ-002",
+      "title": "Is immune dysregulation a central mechanism in the shared NEX-27 phenotype?",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "key": "RQ-003",
+      "title": "Is biomarker KX-17 causal, downstream, or merely correlated with severity?",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "key": "RQ-004",
+      "title": "Can the five cohorts be harmonized without erasing meaningful clinical differences?",
+      "status": "active",
+      "priority": "high"
+    },
+    {
+      "key": "RQ-005",
+      "title": "Which findings replicate across sites under preregistered methods?",
+      "status": "active",
+      "priority": "high"
+    },
+    {
+      "key": "RQ-006",
+      "title": "Which next research investment best reduces consequential uncertainty?",
+      "status": "decision_pending",
+      "priority": "medium"
+    }
+  ],
+  "hypotheses": [
+    {
+      "key": "HYP-001",
+      "question": "RQ-001",
+      "statement": "NEX-27 is a single syndrome with a shared immune-mediated mechanism.",
+      "state": "contested",
+      "confidence": "moderate"
+    },
+    {
+      "key": "HYP-002",
+      "question": "RQ-001",
+      "statement": "NEX-27 contains multiple biological subtypes that converge on a similar symptom pattern.",
+      "state": "supported",
+      "confidence": "moderate"
+    },
+    {
+      "key": "HYP-003",
+      "question": "RQ-003",
+      "statement": "KX-17 is a causal driver of a major NEX-27 subtype.",
+      "state": "contradicted",
+      "confidence": "moderate"
+    },
+    {
+      "key": "HYP-004",
+      "question": "RQ-003",
+      "statement": "KX-17 is primarily a downstream marker of disease activity rather than a causal driver.",
+      "state": "supported",
+      "confidence": "moderate"
+    },
+    {
+      "key": "HYP-005",
+      "question": "RQ-004",
+      "statement": "A substantial share of cross-site disagreement is created by incompatible case definitions and preprocessing choices.",
+      "state": "replicated",
+      "confidence": "high"
+    }
+  ],
+  "experiments": [
+    {
+      "key": "EXP-001",
+      "project": "PRJ-001",
+      "question": "RQ-004",
+      "protocol": "PROT-001",
+      "title": "Blind reclassification of 60 synthetic cases",
+      "result": "RES-001",
+      "status": "completed",
+      "protocol_version": "PROT-001:v3",
+      "dataset_versions": [
+        "DATA-001:v1"
+      ]
+    },
+    {
+      "key": "EXP-002",
+      "project": "PRJ-001",
+      "question": "RQ-004",
+      "protocol": "PROT-002",
+      "title": "Cross-site preprocessing equivalence test",
+      "result": "RES-002",
+      "status": "completed",
+      "protocol_version": "PROT-002:v1",
+      "dataset_versions": [
+        "DATA-001:v1"
+      ]
+    },
+    {
+      "key": "EXP-003",
+      "project": "PRJ-002",
+      "question": "RQ-003",
+      "protocol": "PROT-003",
+      "title": "Independent KX-17 assay replication",
+      "result": "RES-003",
+      "status": "completed",
+      "protocol_version": "PROT-003:v1",
+      "dataset_versions": [
+        "DATA-002:v1"
+      ]
+    },
+    {
+      "key": "EXP-004",
+      "project": "PRJ-004",
+      "question": "RQ-003",
+      "protocol": "PROT-004",
+      "title": "Assay calibration and batch-effect challenge",
+      "result": "RES-004",
+      "status": "completed",
+      "protocol_version": "PROT-004:v1",
+      "dataset_versions": [
+        "DATA-003:v1"
+      ]
+    },
+    {
+      "key": "EXP-005",
+      "project": "PRJ-001",
+      "question": "RQ-005",
+      "protocol": "PROT-002",
+      "title": "Five-site harmonized reanalysis",
+      "result": "RES-005",
+      "status": "completed",
+      "protocol_version": "PROT-002:v1",
+      "dataset_versions": [
+        "DATA-001:v1"
+      ]
+    },
+    {
+      "key": "EXP-006",
+      "project": "PRJ-004",
+      "question": "RQ-001",
+      "protocol": "PROT-005",
+      "title": "Subtype-stratified signal analysis",
+      "result": "RES-006",
+      "status": "completed",
+      "protocol_version": "PROT-005:v1",
+      "dataset_versions": [
+        "DATA-004:v1"
+      ]
+    },
+    {
+      "key": "EXP-007",
+      "project": "PRJ-002",
+      "question": "RQ-002",
+      "protocol": "PROT-006",
+      "title": "Preregistered immune-response replication",
+      "result": "RES-007",
+      "status": "active",
+      "protocol_version": "PROT-006:v1",
+      "dataset_versions": [
+        "DATA-005:v1"
+      ]
+    },
+    {
+      "key": "EXP-008",
+      "project": "PRJ-002",
+      "question": "RQ-003",
+      "protocol": "PROT-003",
+      "title": "Synthetic KX-17 intervention pilot",
+      "result": "RES-008",
+      "status": "completed",
+      "protocol_version": "PROT-003:v1",
+      "dataset_versions": [
+        "DATA-002:v1"
+      ]
+    },
+    {
+      "key": "EXP-009",
+      "project": "PRJ-002",
+      "question": "RQ-005",
+      "protocol": "PROT-003",
+      "title": "External cohort KX-17 replication",
+      "result": "RES-009",
+      "status": "completed",
+      "protocol_version": "PROT-003:v1",
+      "dataset_versions": [
+        "DATA-002:v1"
+      ]
+    },
+    {
+      "key": "EXP-010",
+      "project": "PRJ-003",
+      "question": "RQ-005",
+      "protocol": "PROT-006",
+      "title": "Protocol robustness audit across plausible analysis choices",
+      "result": "RES-010",
+      "status": "completed",
+      "protocol_version": "PROT-006:v1",
+      "dataset_versions": [
+        "DATA-006:v1"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "RES-001",
+      "experiment": "EXP-001",
+      "nature": "mixed",
+      "state": "replicated",
+      "confidence": "high",
+      "summary": "After harmonized definitions, many apparent site disagreements disappear, while a smaller set of clinically meaningful differences remains.",
+      "changes": [
+        "supports HYP-005",
+        "weakens strong versions of HYP-001"
+      ]
+    },
+    {
+      "key": "RES-002",
+      "experiment": "EXP-002",
+      "nature": "negative",
+      "state": "supported",
+      "confidence": "moderate",
+      "summary": "The original preprocessing pipelines are not equivalent; transformation choices account for part of the cross-site signal difference.",
+      "changes": [
+        "supports HYP-005"
+      ]
+    },
+    {
+      "key": "RES-003",
+      "experiment": "EXP-003",
+      "nature": "mixed",
+      "state": "contested",
+      "confidence": "moderate",
+      "summary": "KX-17 association replicates directionally, but effect magnitude is unstable across sites.",
+      "changes": [
+        "does not establish HYP-003",
+        "keeps HYP-004 plausible"
+      ]
+    },
+    {
+      "key": "RES-004",
+      "experiment": "EXP-004",
+      "nature": "negative",
+      "state": "supported",
+      "confidence": "high",
+      "summary": "Batch conditions materially change KX-17 measurement, invalidating direct comparison of two earlier datasets without recalibration.",
+      "changes": [
+        "weakens HYP-003",
+        "supports methodological caution"
+      ]
+    },
+    {
+      "key": "RES-005",
+      "experiment": "EXP-005",
+      "nature": "positive",
+      "state": "replicated",
+      "confidence": "high",
+      "summary": "A harmonized pipeline reproduces a shared immune signature in three sites and a weaker version in two sites.",
+      "changes": [
+        "supports HYP-002",
+        "partially supports HYP-001"
+      ]
+    },
+    {
+      "key": "RES-006",
+      "experiment": "EXP-006",
+      "nature": "positive",
+      "state": "supported",
+      "confidence": "moderate",
+      "summary": "Subtype stratification explains part of the heterogeneity that was hidden by pooled analysis.",
+      "changes": [
+        "supports HYP-002"
+      ]
+    },
+    {
+      "key": "RES-007",
+      "experiment": "EXP-007",
+      "nature": "inconclusive",
+      "state": "under_investigation",
+      "confidence": "low",
+      "summary": "Experiment is active; no result should be inferred before the preregistered analysis completes.",
+      "changes": []
+    },
+    {
+      "key": "RES-008",
+      "experiment": "EXP-008",
+      "nature": "null",
+      "state": "contradicted",
+      "confidence": "moderate",
+      "summary": "Changing KX-17 in the synthetic pilot does not produce the predicted downstream response under the tested conditions.",
+      "changes": [
+        "contradicts a strong causal version of HYP-003",
+        "does not globally falsify all KX-17 mechanisms"
+      ]
+    },
+    {
+      "key": "RES-009",
+      "experiment": "EXP-009",
+      "nature": "negative",
+      "state": "supported",
+      "confidence": "moderate",
+      "summary": "The strongest original KX-17 effect does not reproduce in the external cohort, although a smaller association remains.",
+      "changes": [
+        "weakens HYP-003",
+        "supports HYP-004"
+      ]
+    },
+    {
+      "key": "RES-010",
+      "experiment": "EXP-010",
+      "nature": "mixed",
+      "state": "supported",
+      "confidence": "moderate",
+      "summary": "Some conclusions are robust across plausible analysis choices; two headline effects depend strongly on one modeling decision.",
+      "changes": [
+        "raises uncertainty on two claims",
+        "supports explicit sensitivity reporting"
+      ]
+    }
+  ],
+  "canon_version": "1.1",
+  "knowledge_state_model": {
+    "maturity_states": [
+      "proposed",
+      "under_investigation",
+      "preliminary",
+      "supported",
+      "contested",
+      "contradicted",
+      "replicated",
+      "inconclusive",
+      "superseded"
+    ],
+    "confidence_levels": [
+      "low",
+      "moderate",
+      "high"
+    ],
+    "result_natures": [
+      "positive",
+      "negative",
+      "null",
+      "mixed",
+      "inconclusive"
+    ],
+    "rules": [
+      "negative is not synonymous with bad",
+      "null is not synonymous with useless",
+      "contested is not synonymous with false",
+      "preliminary is not synonymous with invalid"
+    ]
+  },
+  "protocol_versions": [
+    {
+      "key": "PROT-001:v1",
+      "protocol": "PROT-001",
+      "version": 1,
+      "title": "Site-local case definition baseline",
+      "path": "content/protocols/PROT-001-v1.md",
+      "status": "superseded"
+    },
+    {
+      "key": "PROT-001:v2",
+      "protocol": "PROT-001",
+      "version": 2,
+      "title": "Mapped cross-site case definition",
+      "path": "content/protocols/PROT-001-v2.md",
+      "status": "superseded"
+    },
+    {
+      "key": "PROT-001:v3",
+      "protocol": "PROT-001",
+      "version": 3,
+      "title": "Harmonized blinded case definition",
+      "path": "content/protocols/PROT-001-v3.md",
+      "status": "current"
+    },
+    {
+      "key": "PROT-002:v1",
+      "protocol": "PROT-002",
+      "version": 1,
+      "title": "Preprocessing equivalence test",
+      "path": "content/protocols/PROT-002-v1.md",
+      "status": "current"
+    },
+    {
+      "key": "PROT-003:v1",
+      "protocol": "PROT-003",
+      "version": 1,
+      "title": "Independent KX-17 replication",
+      "path": "content/protocols/PROT-003-v1.md",
+      "status": "current"
+    },
+    {
+      "key": "PROT-004:v1",
+      "protocol": "PROT-004",
+      "version": 1,
+      "title": "Batch-effect challenge",
+      "path": "content/protocols/PROT-004-v1.md",
+      "status": "current"
+    },
+    {
+      "key": "PROT-005:v1",
+      "protocol": "PROT-005",
+      "version": 1,
+      "title": "Subtype stratification",
+      "path": "content/protocols/PROT-005-v1.md",
+      "status": "current"
+    },
+    {
+      "key": "PROT-006:v1",
+      "protocol": "PROT-006",
+      "version": 1,
+      "title": "Preregistered immune replication",
+      "path": "content/protocols/PROT-006-v1.md",
+      "status": "current"
+    }
+  ],
+  "dataset_versions": [
+    {
+      "key": "DATA-001:v1",
+      "dataset": "DATA-001",
+      "version": 1,
+      "title": "Synthetic Harmonized Cohort",
+      "path": "content/data/DATA-001-synthetic-harmonized-cohort.csv",
+      "status": "frozen",
+      "project": "PRJ-001"
+    },
+    {
+      "key": "DATA-002:v1",
+      "dataset": "DATA-002",
+      "version": 1,
+      "title": "Synthetic Replication Summary",
+      "path": "content/data/DATA-002-synthetic-replication-summary.csv",
+      "status": "frozen",
+      "project": "PRJ-002"
+    },
+    {
+      "key": "DATA-003:v1",
+      "dataset": "DATA-003",
+      "version": 1,
+      "title": "Synthetic Batch Challenge Summary",
+      "path": "content/data/DATA-003-synthetic-batch-challenge.csv",
+      "status": "frozen",
+      "project": "PRJ-004"
+    },
+    {
+      "key": "DATA-004:v1",
+      "dataset": "DATA-004",
+      "version": 1,
+      "title": "Synthetic Subtype Stratification Summary",
+      "path": "content/data/DATA-004-synthetic-subtype-strata.csv",
+      "status": "frozen",
+      "project": "PRJ-004"
+    },
+    {
+      "key": "DATA-005:v1",
+      "dataset": "DATA-005",
+      "version": 1,
+      "title": "Synthetic Immune Replication Registry",
+      "path": "content/data/DATA-005-synthetic-immune-replication.csv",
+      "status": "active",
+      "project": "PRJ-002"
+    },
+    {
+      "key": "DATA-006:v1",
+      "dataset": "DATA-006",
+      "version": 1,
+      "title": "Synthetic Robustness Matrix",
+      "path": "content/data/DATA-006-synthetic-robustness-matrix.csv",
+      "status": "frozen",
+      "project": "PRJ-003"
+    }
+  ],
+  "claims": [
+    {
+      "key": "CLAIM-001",
+      "question": "RQ-004",
+      "statement": "A material share of the original cross-site disagreement was produced by incompatible case definitions.",
+      "state": "replicated",
+      "confidence": "high",
+      "evidence": [
+        "EVID-001"
+      ]
+    },
+    {
+      "key": "CLAIM-002",
+      "question": "RQ-004",
+      "statement": "The original preprocessing pipelines were not equivalent and changed the apparent cross-site signal.",
+      "state": "supported",
+      "confidence": "moderate",
+      "evidence": [
+        "EVID-002"
+      ]
+    },
+    {
+      "key": "CLAIM-003",
+      "question": "RQ-003",
+      "statement": "KX-17 association reproduced directionally, but the magnitude was not stable enough to support a simple causal reading.",
+      "state": "contested",
+      "confidence": "moderate",
+      "evidence": [
+        "EVID-003",
+        "EVID-004",
+        "EVID-008",
+        "EVID-009"
+      ]
+    },
+    {
+      "key": "CLAIM-004",
+      "question": "RQ-003",
+      "statement": "Batch conditions materially affect KX-17 measurement and must be accounted for before comparing sites.",
+      "state": "supported",
+      "confidence": "high",
+      "evidence": [
+        "EVID-004"
+      ]
+    },
+    {
+      "key": "CLAIM-005",
+      "question": "RQ-002",
+      "statement": "A shared immune signature is reproducible across multiple sites, although its mechanistic role remains open.",
+      "state": "supported",
+      "confidence": "moderate",
+      "evidence": [
+        "EVID-005",
+        "EVID-007"
+      ]
+    },
+    {
+      "key": "CLAIM-006",
+      "question": "RQ-001",
+      "statement": "Subtype stratification explains a meaningful portion of heterogeneity hidden by pooled analysis.",
+      "state": "supported",
+      "confidence": "moderate",
+      "evidence": [
+        "EVID-006"
+      ]
+    },
+    {
+      "key": "CLAIM-007",
+      "question": "RQ-003",
+      "statement": "The strong causal prediction for KX-17 failed under the tested synthetic intervention conditions.",
+      "state": "contradicted",
+      "confidence": "moderate",
+      "evidence": [
+        "EVID-008"
+      ]
+    },
+    {
+      "key": "CLAIM-008",
+      "question": "RQ-003",
+      "statement": "A smaller KX-17 association can remain after the strongest original effect fails to replicate.",
+      "state": "supported",
+      "confidence": "moderate",
+      "evidence": [
+        "EVID-009"
+      ]
+    },
+    {
+      "key": "CLAIM-009",
+      "question": "RQ-005",
+      "statement": "Two headline effects are sensitive to one modeling decision and should not be described as robust.",
+      "state": "supported",
+      "confidence": "moderate",
+      "evidence": [
+        "EVID-010"
+      ]
+    },
+    {
+      "key": "CLAIM-010",
+      "question": "RQ-001",
+      "statement": "NEX-27 is better represented by a constrained subtype model than by either a single undifferentiated syndrome or a pure classification artifact.",
+      "state": "supported",
+      "confidence": "moderate",
+      "evidence": [
+        "EVID-001",
+        "EVID-005",
+        "EVID-006"
+      ]
+    },
+    {
+      "key": "CLAIM-011",
+      "question": "RQ-005",
+      "statement": "A result should not be called confirmed until its method and analysis are prespecified and independently reproduced or confirmatory.",
+      "state": "supported",
+      "confidence": "high",
+      "evidence": [
+        "EVID-003",
+        "EVID-005",
+        "EVID-010"
+      ]
+    },
+    {
+      "key": "CLAIM-012",
+      "question": "RQ-006",
+      "statement": "Research prioritization should optimize consequential uncertainty reduction rather than function as a vote on scientific truth.",
+      "state": "supported",
+      "confidence": "high",
+      "evidence": [
+        "EVID-011"
+      ]
+    }
+  ],
+  "evidence_items": [
+    {
+      "key": "EVID-001",
+      "kind": "experiment_result",
+      "result": "RES-001",
+      "experiment": "EXP-001",
+      "project": "PRJ-001",
+      "protocol_version": "PROT-001:v3",
+      "dataset_versions": [
+        "DATA-001:v1"
+      ],
+      "nature": "mixed",
+      "state": "replicated",
+      "confidence": "high",
+      "summary": "After harmonized definitions, many apparent site disagreements disappear, while a smaller set of clinically meaningful differences remains."
+    },
+    {
+      "key": "EVID-002",
+      "kind": "experiment_result",
+      "result": "RES-002",
+      "experiment": "EXP-002",
+      "project": "PRJ-001",
+      "protocol_version": "PROT-002:v1",
+      "dataset_versions": [
+        "DATA-001:v1"
+      ],
+      "nature": "negative",
+      "state": "supported",
+      "confidence": "moderate",
+      "summary": "The original preprocessing pipelines are not equivalent; transformation choices account for part of the cross-site signal difference."
+    },
+    {
+      "key": "EVID-003",
+      "kind": "experiment_result",
+      "result": "RES-003",
+      "experiment": "EXP-003",
+      "project": "PRJ-002",
+      "protocol_version": "PROT-003:v1",
+      "dataset_versions": [
+        "DATA-002:v1"
+      ],
+      "nature": "mixed",
+      "state": "contested",
+      "confidence": "moderate",
+      "summary": "KX-17 association replicates directionally, but effect magnitude is unstable across sites."
+    },
+    {
+      "key": "EVID-004",
+      "kind": "experiment_result",
+      "result": "RES-004",
+      "experiment": "EXP-004",
+      "project": "PRJ-004",
+      "protocol_version": "PROT-004:v1",
+      "dataset_versions": [
+        "DATA-003:v1"
+      ],
+      "nature": "negative",
+      "state": "supported",
+      "confidence": "high",
+      "summary": "Batch conditions materially change KX-17 measurement, invalidating direct comparison of two earlier datasets without recalibration."
+    },
+    {
+      "key": "EVID-005",
+      "kind": "experiment_result",
+      "result": "RES-005",
+      "experiment": "EXP-005",
+      "project": "PRJ-001",
+      "protocol_version": "PROT-002:v1",
+      "dataset_versions": [
+        "DATA-001:v1"
+      ],
+      "nature": "positive",
+      "state": "replicated",
+      "confidence": "high",
+      "summary": "A harmonized pipeline reproduces a shared immune signature in three sites and a weaker version in two sites."
+    },
+    {
+      "key": "EVID-006",
+      "kind": "experiment_result",
+      "result": "RES-006",
+      "experiment": "EXP-006",
+      "project": "PRJ-004",
+      "protocol_version": "PROT-005:v1",
+      "dataset_versions": [
+        "DATA-004:v1"
+      ],
+      "nature": "positive",
+      "state": "supported",
+      "confidence": "moderate",
+      "summary": "Subtype stratification explains part of the heterogeneity that was hidden by pooled analysis."
+    },
+    {
+      "key": "EVID-007",
+      "kind": "experiment_result",
+      "result": "RES-007",
+      "experiment": "EXP-007",
+      "project": "PRJ-002",
+      "protocol_version": "PROT-006:v1",
+      "dataset_versions": [
+        "DATA-005:v1"
+      ],
+      "nature": "inconclusive",
+      "state": "under_investigation",
+      "confidence": "low",
+      "summary": "Experiment is active; no result should be inferred before the preregistered analysis completes."
+    },
+    {
+      "key": "EVID-008",
+      "kind": "experiment_result",
+      "result": "RES-008",
+      "experiment": "EXP-008",
+      "project": "PRJ-002",
+      "protocol_version": "PROT-003:v1",
+      "dataset_versions": [
+        "DATA-002:v1"
+      ],
+      "nature": "null",
+      "state": "contradicted",
+      "confidence": "moderate",
+      "summary": "Changing KX-17 in the synthetic pilot does not produce the predicted downstream response under the tested conditions."
+    },
+    {
+      "key": "EVID-009",
+      "kind": "experiment_result",
+      "result": "RES-009",
+      "experiment": "EXP-009",
+      "project": "PRJ-002",
+      "protocol_version": "PROT-003:v1",
+      "dataset_versions": [
+        "DATA-002:v1"
+      ],
+      "nature": "negative",
+      "state": "supported",
+      "confidence": "moderate",
+      "summary": "The strongest original KX-17 effect does not reproduce in the external cohort, although a smaller association remains."
+    },
+    {
+      "key": "EVID-010",
+      "kind": "experiment_result",
+      "result": "RES-010",
+      "experiment": "EXP-010",
+      "project": "PRJ-003",
+      "protocol_version": "PROT-006:v1",
+      "dataset_versions": [
+        "DATA-006:v1"
+      ],
+      "nature": "mixed",
+      "state": "supported",
+      "confidence": "moderate",
+      "summary": "Some conclusions are robust across plausible analysis choices; two headline effects depend strongly on one modeling decision."
+    },
+    {
+      "key": "EVID-011",
+      "kind": "governance_record",
+      "result": null,
+      "experiment": null,
+      "project": "PRJ-005",
+      "protocol_version": null,
+      "dataset_versions": [],
+      "nature": "mixed",
+      "state": "supported",
+      "confidence": "high",
+      "summary": "The 2025 funding exercise produced different raw, expertise-weighted and methods-cohort orderings, demonstrating that resource allocation depends on declared decision lenses rather than a single scientific truth score."
+    }
+  ],
+  "current_knowledge_state": {
+    "supported_or_replicated": [
+      "CLAIM-001",
+      "CLAIM-002",
+      "CLAIM-004",
+      "CLAIM-005",
+      "CLAIM-006",
+      "CLAIM-008",
+      "CLAIM-009",
+      "CLAIM-010",
+      "CLAIM-011"
+    ],
+    "contested": [
+      "CLAIM-003"
+    ],
+    "contradicted": [
+      "CLAIM-007"
+    ],
+    "open_questions": [
+      "RQ-002",
+      "RQ-003",
+      "RQ-005",
+      "RQ-006"
+    ],
+    "active_experiments": [
+      "EXP-007"
+    ],
+    "first_class_negative_or_null_results": [
+      "RES-002",
+      "RES-004",
+      "RES-008",
+      "RES-009"
+    ]
+  }
+}

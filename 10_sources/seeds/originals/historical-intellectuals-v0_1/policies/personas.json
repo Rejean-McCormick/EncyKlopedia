@@ -1,0 +1,30 @@
+{
+  "format": "konnaxion-world-policy/v1",
+  "world_key": "historical-intellectuals",
+  "policy_key": "historical-intellectual-personas",
+  "representation": {
+    "purpose": "Sourced reconstruction of ideas, preferences, proposals and counterfactual/synthetic votes for historical-intellectual exploration.",
+    "not_a_live_participant": true,
+    "display_notice_required": true,
+    "no_impersonation": true,
+    "synthetic_vote_label_required": true,
+    "actual_historical_vote_only_if_documented": true
+  },
+  "runtime_guards": {
+    "authentication_allowed": false,
+    "interactive_login_allowed": false,
+    "cast_live_vote_allowed": false,
+    "create_live_stance_allowed": false,
+    "synthetic_preference_projection_allowed": true,
+    "synthetic_proposal_projection_allowed": true,
+    "receive_certification": false,
+    "join_project_team": false
+  },
+  "smart_vote": {
+    "baseline_rule": "Never mix reconstructed historical personas into the baseline of live participants.",
+    "historical_council_reading": "May expose a separate, explicitly labeled derived reading.",
+    "default_live_governance_weight_factor": 0.0,
+    "cultural_influence_graph_is_separate": true
+  },
+  "unknown_position_rule": "omit"
+}

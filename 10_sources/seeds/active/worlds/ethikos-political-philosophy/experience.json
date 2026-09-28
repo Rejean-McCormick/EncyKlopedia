@@ -1,0 +1,114 @@
+{
+  "format": "konnaxion-world-content/v1",
+  "world_key": "ethikos-political-philosophy",
+  "content_origin": "designed_extension",
+  "home_navigation": [
+    {
+      "key": "understand",
+      "label": "Comprendre",
+      "source": "modules/knowledge/resources.json"
+    },
+    {
+      "key": "debate",
+      "label": "Débattre",
+      "source": "scenarios/ethikos-political-philosophy.json"
+    },
+    {
+      "key": "apply",
+      "label": "Appliquer",
+      "source": "content/cases/cases.json"
+    },
+    {
+      "key": "build",
+      "label": "Construire",
+      "source": "modules/konstruct/capstone-project.json"
+    },
+    {
+      "key": "progress",
+      "label": "Ma progression",
+      "source": "modules/certifikation/path.json"
+    }
+  ],
+  "module_visibility": {
+    "knowledge": "primary",
+    "korum": "primary",
+    "certifikation": "primary",
+    "ekoh": "transversal",
+    "smart_vote": "focused_experiment",
+    "konstruct": "capstone",
+    "konsultations": "capstone_review",
+    "stockage": "support",
+    "kontact": "utility",
+    "konservation": "disabled"
+  },
+  "crosslinks": [
+    {
+      "from": "pp-kg-who-decides",
+      "to": [
+        "demos",
+        "democratie-globale",
+        "autodetermination-territoire",
+        "ecosouverainete"
+      ]
+    },
+    {
+      "from": "pp-kg-justice",
+      "to": [
+        "democratiser-ou-demanteler",
+        "justice-globale",
+        "injustice-structurelle"
+      ]
+    },
+    {
+      "from": "pp-kg-legitimacy",
+      "to": [
+        "droits-humains-democratie",
+        "consensus-conflit"
+      ]
+    },
+    {
+      "from": "pp-kg-expertise",
+      "to": [
+        "expertise-democratie",
+        "pp-case-expert-council",
+        "pp-reading-expert-council"
+      ]
+    },
+    {
+      "from": "pp-case-watershed",
+      "to": [
+        "pp-comp-disagreement",
+        "pp-capstone-legitimate-institution"
+      ]
+    },
+    {
+      "from": "pp-case-global-platform",
+      "to": [
+        "pp-comp-disagreement",
+        "pp-capstone-legitimate-institution"
+      ]
+    },
+    {
+      "from": "pp-case-rights-dissent",
+      "to": [
+        "pp-comp-disagreement",
+        "pp-capstone-legitimate-institution"
+      ]
+    },
+    {
+      "from": "pp-case-expert-council",
+      "to": [
+        "pp-comp-disagreement",
+        "pp-reading-expert-council",
+        "pp-capstone-legitimate-institution"
+      ]
+    },
+    {
+      "from": "pp-capstone-legitimate-institution",
+      "to": [
+        "pp-comp-institutional-design",
+        "pp-consult-capstone-review"
+      ]
+    }
+  ]
+}

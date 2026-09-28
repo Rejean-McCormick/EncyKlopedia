@@ -1,0 +1,41 @@
+{
+  "schema": "kx-world-source-index/1",
+  "world_key": "operational-resilience-2026",
+  "sources": [
+    {
+      "key": "MOSAIC-SCN-077",
+      "path": "sources/MOSAIC-SCN-077.md",
+      "origin": "user_supplied_scenario_archive"
+    },
+    {
+      "key": "MOSAIC-SCN-064",
+      "path": "sources/MOSAIC-SCN-064.md",
+      "origin": "user_supplied_scenario_archive"
+    },
+    {
+      "key": "MOSAIC-SCN-091",
+      "path": "sources/MOSAIC-SCN-091.md",
+      "origin": "user_supplied_scenario_archive"
+    },
+    {
+      "key": "USAGE-SCN-005",
+      "path": "sources/USAGE-SCN-005.md",
+      "origin": "user_supplied_scenario_archive"
+    },
+    {
+      "key": "USAGE-SCN-029",
+      "path": "sources/USAGE-SCN-029.md",
+      "origin": "user_supplied_scenario_archive"
+    },
+    {
+      "key": "USAGE-SCN-036",
+      "path": "sources/USAGE-SCN-036.md",
+      "origin": "user_supplied_scenario_archive"
+    }
+  ],
+  "derivation_policy": {
+    "source_scenarios": "User-supplied scenario archives are retained verbatim under sources/.",
+    "world_content": "Canon, operational events, Knowledge content, actor identities, and EkoH calibrations are synthetic demo material derived for World 5.",
+    "real_world_claims": "No operational event, route, organization, person, score, or procedure in the World should be treated as a real-world factual claim."
+  }
+}

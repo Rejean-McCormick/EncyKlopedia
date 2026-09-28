@@ -1,0 +1,89 @@
+{
+  "schema_version": "konnaxion-world-module-bridge-seed/v1",
+  "world_key": "knowledge-continuity",
+  "module": "konservation",
+  "model_mapping": {
+    "preferred_native_model": "kreative.TraditionEntry",
+    "supporting_native_models": [
+      "kreative.KreativeArtwork",
+      "kreative.Gallery"
+    ],
+    "world_metadata_fields": [
+      "key",
+      "capability",
+      "archive_type",
+      "rights",
+      "source_case"
+    ]
+  },
+  "records": [
+    {
+      "key": "archive_marc_turning_point",
+      "title": "Marc: the incident that changed my diagnostic sequence",
+      "capability": "intermittent_fault_diagnosis",
+      "contributor": "marc_leblanc",
+      "archive_type": "oral_history",
+      "description": "First-person account of a misdiagnosis that led Marc to prioritize sequence and context over alarm codes.",
+      "rights": "demo_internal",
+      "source_case": "case_diag_003"
+    },
+    {
+      "key": "archive_marc_cold",
+      "title": "Working in extreme cold: what the manual could not tell us",
+      "capability": "intermittent_fault_diagnosis",
+      "contributor": "marc_leblanc",
+      "archive_type": "oral_history",
+      "description": "Context around the evolution of cold-weather diagnostic practice.",
+      "rights": "demo_internal",
+      "source_case": "case_diag_004"
+    },
+    {
+      "key": "archive_claire_exception",
+      "title": "How the continuity exception entered procurement practice",
+      "capability": "procurement_exception_memory",
+      "contributor": "claire_beaulieu",
+      "archive_type": "institutional_history",
+      "description": "History of a narrowly scoped exception and the governance concerns that shaped it.",
+      "rights": "demo_internal",
+      "source_case": "case_proc_002"
+    },
+    {
+      "key": "archive_claire_reconstruction",
+      "title": "When a complete file still fails to explain a decision",
+      "capability": "procurement_exception_memory",
+      "contributor": "claire_beaulieu",
+      "archive_type": "oral_history",
+      "description": "Reflection on the limits of document completeness and the need to label reconstruction uncertainty.",
+      "rights": "demo_internal",
+      "source_case": "case_proc_005"
+    },
+    {
+      "key": "archive_andre_cues",
+      "title": "The cues you cannot learn from a dimension sheet",
+      "capability": "precision_repair_judgment",
+      "contributor": "andre_bouchard",
+      "archive_type": "practice_history",
+      "description": "Demonstration and vocabulary for tactile, visual, and acoustic cues used in repair judgment.",
+      "rights": "demo_internal",
+      "source_case": "case_repair_003"
+    },
+    {
+      "key": "archive_andre_stop",
+      "title": "Knowing when not to finish the repair",
+      "capability": "precision_repair_judgment",
+      "contributor": "andre_bouchard",
+      "archive_type": "oral_history",
+      "description": "A story about professional restraint and escalation when uncertainty is unsafe.",
+      "rights": "demo_internal",
+      "source_case": "case_repair_004"
+    }
+  ],
+  "notes": [
+    "Archive content preserves human provenance and practice history; it is not a duplicate document repository."
+  ],
+  "bridge_semantics": {
+    "native_model_fields": "Fields described by model_mapping are intended for direct native-model import.",
+    "world_metadata_fields": "Cross-module keys (capability/case/evidence/etc.) are declarative World linkage metadata.",
+    "automatic_import": false
+  }
+}

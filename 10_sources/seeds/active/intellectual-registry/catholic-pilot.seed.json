@@ -1,0 +1,196 @@
+{
+  "schema_version": "konnaxion-historical-intellectual-registry/v0.1",
+  "registry_key": "catholic-intellectual-pilot",
+  "title": "Catholic Intellectual Corpus — pilot roots",
+  "language": "fr-CA",
+  "cutoff_policy": {
+    "default_birth_year_max": 1926,
+    "interpretation": "The 1926 rule is applied to birth year because several user-named examples died after 1926. Explicitly named exceptions may be carried with a visible exception flag.",
+    "explicit_exceptions": [
+      "grigori_perelman"
+    ],
+    "non_chronological_traditions": "Allowed only with representation_kind and chronology uncertainty; not treated as ordinary historical persons."
+  },
+  "taxonomy": {
+    "system": "UNESCO ISCED-F 2013",
+    "use": "domain classification only; not proof of competence",
+    "catalogue_subset": [
+      {
+        "code": "0111",
+        "name": "Education science"
+      },
+      {
+        "code": "0213",
+        "name": "Fine arts"
+      },
+      {
+        "code": "0215",
+        "name": "Music and performing arts"
+      },
+      {
+        "code": "0221",
+        "name": "Religion and theology"
+      },
+      {
+        "code": "0222",
+        "name": "History and archaeology"
+      },
+      {
+        "code": "0223",
+        "name": "Philosophy and ethics"
+      },
+      {
+        "code": "0232",
+        "name": "Literature and linguistics"
+      },
+      {
+        "code": "0311",
+        "name": "Economics"
+      },
+      {
+        "code": "0312",
+        "name": "Political sciences and civics"
+      },
+      {
+        "code": "0313",
+        "name": "Psychology"
+      },
+      {
+        "code": "0314",
+        "name": "Sociology and cultural studies"
+      },
+      {
+        "code": "0322",
+        "name": "Library, information and archival studies"
+      },
+      {
+        "code": "0413",
+        "name": "Management and administration"
+      },
+      {
+        "code": "0421",
+        "name": "Law"
+      },
+      {
+        "code": "0511",
+        "name": "Biology"
+      },
+      {
+        "code": "0512",
+        "name": "Biochemistry"
+      },
+      {
+        "code": "0521",
+        "name": "Environmental sciences"
+      },
+      {
+        "code": "0531",
+        "name": "Chemistry"
+      },
+      {
+        "code": "0532",
+        "name": "Earth sciences"
+      },
+      {
+        "code": "0533",
+        "name": "Physics"
+      },
+      {
+        "code": "0541",
+        "name": "Mathematics"
+      },
+      {
+        "code": "0542",
+        "name": "Statistics"
+      },
+      {
+        "code": "0613",
+        "name": "Software and applications development and analysis"
+      },
+      {
+        "code": "0711",
+        "name": "Chemical engineering and processes"
+      },
+      {
+        "code": "0713",
+        "name": "Electricity and energy"
+      },
+      {
+        "code": "0714",
+        "name": "Electronics and automation"
+      },
+      {
+        "code": "0715",
+        "name": "Mechanics and metal trades"
+      },
+      {
+        "code": "0731",
+        "name": "Architecture and town planning"
+      },
+      {
+        "code": "0732",
+        "name": "Building and civil engineering"
+      },
+      {
+        "code": "0912",
+        "name": "Medicine"
+      },
+      {
+        "code": "0916",
+        "name": "Pharmacy"
+      }
+    ],
+    "official_reference": "UNESCO Institute for Statistics, ISCED Fields of Education and Training 2013 (ISCED-F 2013)"
+  },
+  "representation_policy": {
+    "historical_personas_are_not_live_users": true,
+    "no_authentication": true,
+    "no_impersonation": true,
+    "synthetic_proposals_and_votes": "Allowed only as clearly labeled derived reconstructions from cited source positions; never stored as historical source ballots unless an actual historical ballot/document exists.",
+    "unknown_position": "omit",
+    "source_traceability_required": true
+  },
+  "source_note": "Pilot roots explicitly supported by the supplied Catholic corpus strategy documentation (Augustine and Thomas Aquinas are named examples). Not a complete Catholic registry.",
+  "records": [
+    {
+      "key": "augustine_hippo",
+      "display_name": "Augustine of Hippo",
+      "chronology": {
+        "birth_year": 354,
+        "death_year": 430,
+        "approximate": false
+      },
+      "region_tradition": "North Africa / Latin Christianity",
+      "representation_kind": "historical_person",
+      "isced_f_domains": [
+        "0221",
+        "0223"
+      ],
+      "tags": [],
+      "cutoff_exception": null,
+      "profile_status": "seed_candidate_requires_source_canonicalization",
+      "preference_reconstruction_status": "not_started",
+      "notes": null
+    },
+    {
+      "key": "thomas_aquinas",
+      "display_name": "Thomas Aquinas",
+      "chronology": {
+        "birth_year": 1225,
+        "death_year": 1274,
+        "approximate": false
+      },
+      "region_tradition": "Medieval Europe",
+      "representation_kind": "historical_person",
+      "isced_f_domains": [
+        "0221",
+        "0223"
+      ],
+      "tags": [],
+      "cutoff_exception": null,
+      "profile_status": "seed_candidate_requires_source_canonicalization",
+      "preference_reconstruction_status": "not_started",
+      "notes": null
+    }
+  ]
+}

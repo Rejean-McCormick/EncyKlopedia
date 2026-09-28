@@ -1,0 +1,119 @@
+{
+  "schema_version": "konnaxion-world-module-bridge-seed/v1",
+  "world_key": "knowledge-continuity",
+  "module": "kontact",
+  "model_mapping": {
+    "concepts": [
+      "professional_profile",
+      "intelligent_matching"
+    ]
+  },
+  "records": [
+    {
+      "capability": "intermittent_fault_diagnosis",
+      "candidates": [
+        {
+          "actor": "sofia_nguyen",
+          "fit": "strong",
+          "strengths": [
+            "analytical reasoning",
+            "reliability engineering",
+            "evidence reconstruction"
+          ],
+          "gaps": [
+            "legacy field exposure",
+            "cold-weather practice"
+          ]
+        },
+        {
+          "actor": "jean_caron",
+          "fit": "strong",
+          "strengths": [
+            "legacy equipment",
+            "field maintenance",
+            "practical troubleshooting"
+          ],
+          "gaps": [
+            "formal failure analysis",
+            "case documentation"
+          ]
+        },
+        {
+          "actor": "thomas_bergeron",
+          "fit": "adjacent",
+          "strengths": [
+            "electrical engineering"
+          ],
+          "gaps": [
+            "field pattern recognition",
+            "legacy equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "capability": "procurement_exception_memory",
+      "candidates": [
+        {
+          "actor": "maya_singh",
+          "fit": "strong",
+          "strengths": [
+            "current procurement analysis",
+            "policy literacy"
+          ],
+          "gaps": [
+            "historical rationale",
+            "exception governance"
+          ]
+        },
+        {
+          "actor": "isabelle_morin",
+          "fit": "adjacent",
+          "strengths": [
+            "supplier-market knowledge"
+          ],
+          "gaps": [
+            "decision provenance",
+            "mandate boundaries"
+          ]
+        }
+      ]
+    },
+    {
+      "capability": "precision_repair_judgment",
+      "candidates": [
+        {
+          "actor": "leila_haddad",
+          "fit": "strong",
+          "strengths": [
+            "hands-on repair",
+            "inspection discipline"
+          ],
+          "gaps": [
+            "edge-case cue recognition",
+            "independent stop/escalate judgment"
+          ]
+        },
+        {
+          "actor": "owen_clarke",
+          "fit": "developmental",
+          "strengths": [
+            "learning agility"
+          ],
+          "gaps": [
+            "repair experience",
+            "material cue recognition"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Matches explain strengths and gaps rather than rank people with a single opaque score."
+  ],
+  "bridge_semantics": {
+    "native_model_fields": "Fields described by model_mapping are intended for direct native-model import.",
+    "world_metadata_fields": "Cross-module keys (capability/case/evidence/etc.) are declarative World linkage metadata.",
+    "automatic_import": false
+  }
+}

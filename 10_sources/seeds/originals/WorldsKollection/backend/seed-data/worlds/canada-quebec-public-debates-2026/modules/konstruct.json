@@ -1,0 +1,87 @@
+{
+  "schema_version": "kx-world-konstruct-seed/v1",
+  "world_key": "canada-quebec-public-debates-2026",
+  "labs": [
+    {
+      "key": "ai_evidence_lab",
+      "dossier_key": "ai_education",
+      "title": "AI Public Policy Evidence Lab",
+      "category": "evidence_lab",
+      "objective": "Produire un dossier de preuve neutre, traçable et réutilisable sur un sous-problème lié à l’IA en éducation.",
+      "tasks": [
+        "Définir une question de travail précise.",
+        "Inventorier les sources et distinguer sources primaires, secondaires et synthèses.",
+        "Cartographier les affirmations importantes et les sources qui les soutiennent.",
+        "Identifier les désaccords de définition ou de méthode.",
+        "Documenter les incertitudes, limites et données manquantes.",
+        "Rédiger la méthodologie de sélection et d’exclusion des sources.",
+        "Produire une synthèse neutre avec provenance explicite."
+      ],
+      "collaborator_requirements": [
+        {
+          "domain_code": "0111",
+          "label": "Education science"
+        },
+        {
+          "domain_code": "0613",
+          "label": "Software and applications development and analysis"
+        },
+        {
+          "domain_code": "0223",
+          "label": "Philosophy and ethics"
+        },
+        {
+          "domain_code": "0312",
+          "label": "Political sciences and civics"
+        }
+      ],
+      "kontact_policy": "suggest_world_personas_by_declared_ekoh_domain_relevance",
+      "deliverables": [
+        "evidence_map",
+        "methodology_note",
+        "neutral_brief"
+      ]
+    },
+    {
+      "key": "regulatory_process_lab",
+      "dossier_key": "regulatory_delays",
+      "title": "Regulatory Process Mapping Lab",
+      "category": "process_lab",
+      "objective": "Reconstituer un processus d’approbation et ses dépendances afin de distinguer les sources de délai plutôt que de traiter le délai comme une cause unique.",
+      "tasks": [
+        "Définir le type de projet et la portée du processus cartographié.",
+        "Identifier les autorités, mandats et points de décision.",
+        "Recenser les informations ou preuves requises à chaque étape.",
+        "Identifier les dépendances entre examens et administrations.",
+        "Distinguer délais de traitement, attentes externes, consultation et révision.",
+        "Documenter les motifs de décision et les points de traçabilité.",
+        "Produire une carte de processus versionnée avec sources."
+      ],
+      "collaborator_requirements": [
+        {
+          "domain_code": "0421",
+          "label": "Law"
+        },
+        {
+          "domain_code": "0413",
+          "label": "Management and administration"
+        },
+        {
+          "domain_code": "0312",
+          "label": "Political sciences and civics"
+        },
+        {
+          "domain_code": "0521",
+          "label": "Environmental sciences"
+        }
+      ],
+      "kontact_policy": "suggest_world_personas_by_declared_ekoh_domain_relevance",
+      "deliverables": [
+        "process_map",
+        "source_register",
+        "bottleneck_log",
+        "methodology_note"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "simulation": true,
+  "revision": 2,
+  "priority_order": [
+    "insulin_delivery",
+    "oxygen_delivery"
+  ],
+  "constraints": [
+    "east_span_closed",
+    "refrigerated_vehicle_capacity",
+    "western_corridor_delay"
+  ],
+  "note": "Fictional logistics exercise; not operational routing advice."
+}

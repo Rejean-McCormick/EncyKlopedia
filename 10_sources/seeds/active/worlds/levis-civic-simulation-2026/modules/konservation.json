@@ -1,0 +1,66 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "levis-civic-simulation-2026",
+  "content_version": "0.2.1",
+  "import_status": "staged_sidecar",
+  "module": "kreative.konservation",
+  "archives": [
+    {
+      "key": "archive_levis_est_territory",
+      "title": "Lévis-Est — mémoire d’un territoire",
+      "description": "Archive de simulation centrée sur la provenance. Elle organise uniquement des références documentées et des emplacements explicitement non remplis pour les médias dont la provenance ou les droits devront être confirmés.",
+      "region": "Lévis-Est",
+      "epistemic_status": "curated_simulation_archive",
+      "documents": [
+        {
+          "key": "arc_doc_01",
+          "title": "Dossier de contexte — patrimoine et terres de Rabaska",
+          "source_ref": "S15",
+          "document_type": "source_link",
+          "rights_status": "external_source_link_only"
+        },
+        {
+          "key": "arc_doc_02",
+          "title": "Topic Korum — protection avant industrie",
+          "topic_ref": "rabaska_protection_avant_industrie",
+          "document_type": "world_reference",
+          "rights_status": "world_internal"
+        },
+        {
+          "key": "arc_doc_03",
+          "title": "Consultation — territoire et mandat citoyen",
+          "consultation_ref": "levis_territory_mandate",
+          "document_type": "world_reference",
+          "rights_status": "world_internal"
+        },
+        {
+          "key": "arc_doc_04",
+          "title": "Emplacement réservé — cartes historiques validées",
+          "document_type": "placeholder",
+          "rights_status": "requires_provenance_and_rights_review"
+        },
+        {
+          "key": "arc_doc_05",
+          "title": "Emplacement réservé — médias du territoire validés",
+          "document_type": "placeholder",
+          "rights_status": "requires_provenance_and_rights_review"
+        }
+      ]
+    }
+  ],
+  "exhibitions": [
+    {
+      "key": "exh_levis_est_multiple_futures",
+      "title": "Un territoire, plusieurs futurs",
+      "archive_ref": "archive_levis_est_territory",
+      "status": "draft",
+      "curatorial_question": "Comment la mémoire documentée du territoire change-t-elle la façon de comparer des scénarios futurs?",
+      "item_refs": [
+        "arc_doc_01",
+        "arc_doc_02",
+        "arc_doc_03"
+      ],
+      "publication_gate": "Do not publish placeholder media until provenance and rights are verified."
+    }
+  ]
+}

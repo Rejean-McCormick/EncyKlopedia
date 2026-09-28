@@ -1,0 +1,275 @@
+{
+  "format": "ik.request-fingerprint-vectors/1",
+  "profile": "ik.request-fingerprint/jcs-rfc8785+sha256/v1",
+  "vectors": [
+    {
+      "id": "ik-fp-001",
+      "name": "governance_decision_execute",
+      "envelope": {
+        "specversion": "ik/1.1",
+        "id": "01J00000000000000000000001",
+        "class": "command",
+        "time": "2026-09-14T12:00:00Z",
+        "profile": {
+          "id": "governance.decision.execute",
+          "version": "1.0.0"
+        },
+        "source": {
+          "system": "konnaxion",
+          "organization": "uckk"
+        },
+        "target": {
+          "system": "orgo",
+          "organization": "uckk",
+          "world": "uckk-a014"
+        },
+        "subject": {
+          "type": "decision",
+          "id": "KX-D009"
+        },
+        "correlation_id": "corr:KX-D009",
+        "causation_id": null,
+        "idempotency_key": "decision:KX-D009:orgo:execute:v1",
+        "authority": {
+          "kind": "governance-mandate",
+          "claims": [
+            "authority://konnaxion/decision/KX-D009"
+          ]
+        },
+        "data_schema": "ik://profiles/governance.decision.execute/1.0.0/payload",
+        "data": {
+          "decision_revision": "rev-3",
+          "effective_at": null
+        },
+        "artifact_refs": [
+          {
+            "owner": {
+              "system": "konnaxion"
+            },
+            "artifact_type": "konnaxion.decision_record",
+            "artifact_id": "konnaxion:decision-record:KX-D009:rev-3",
+            "version": "rev-3",
+            "integrity": {
+              "algorithm": "sha256",
+              "digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            }
+          }
+        ],
+        "governance": {
+          "sensitivity": "internal",
+          "purposes": [
+            "governed_execution"
+          ]
+        },
+        "response": {
+          "acceptance_receipt": true,
+          "final_receipt": true
+        },
+        "trace": {
+          "traceparent": null,
+          "tracestate": null
+        },
+        "extensions": {}
+      },
+      "expected_projection": {
+        "class": "command",
+        "profile": {
+          "id": "governance.decision.execute",
+          "version": "1.0.0"
+        },
+        "source": {
+          "system": "konnaxion",
+          "organization": "uckk"
+        },
+        "target": {
+          "system": "orgo",
+          "organization": "uckk",
+          "world": "uckk-a014"
+        },
+        "subject": {
+          "type": "decision",
+          "id": "KX-D009"
+        },
+        "authority": {
+          "kind": "governance-mandate",
+          "claims": [
+            "authority://konnaxion/decision/KX-D009"
+          ]
+        },
+        "data_schema": "ik://profiles/governance.decision.execute/1.0.0/payload",
+        "data": {
+          "decision_revision": "rev-3",
+          "effective_at": null
+        },
+        "governance": {
+          "sensitivity": "internal",
+          "purposes": [
+            "governed_execution"
+          ]
+        },
+        "artifact_refs": [
+          {
+            "owner": {
+              "system": "konnaxion"
+            },
+            "artifact_type": "konnaxion.decision_record",
+            "artifact_id": "konnaxion:decision-record:KX-D009:rev-3",
+            "version": "rev-3",
+            "integrity": {
+              "algorithm": "sha256",
+              "digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            }
+          }
+        ]
+      },
+      "expected_fingerprint": "sha256:320e4d3b4c2dc29482b6bffe266bb34307cafaeb04921b0598e91dc977e77650"
+    },
+    {
+      "id": "ik-fp-002",
+      "name": "impact_publish",
+      "envelope": {
+        "specversion": "ik/1.1",
+        "id": "01J00000000000000000000002",
+        "class": "command",
+        "time": "2026-09-14T12:01:00Z",
+        "profile": {
+          "id": "accountability.impact.publish",
+          "version": "1.0.0"
+        },
+        "source": {
+          "system": "orgo",
+          "organization": "60f51ca2-c845-45aa-bc7e-2c62e53dfc5a"
+        },
+        "target": {
+          "system": "konnaxion",
+          "organization": "60f51ca2-c845-45aa-bc7e-2c62e53dfc5a",
+          "world": "main"
+        },
+        "subject": {
+          "type": "case",
+          "id": "fc305c81-afad-4b3a-8adb-b3668ad70d72"
+        },
+        "idempotency_key": "impact:day30:v1",
+        "correlation_id": "corr.uckk.A014.D009",
+        "data": {
+          "artifact_type": "impact_update",
+          "external_reference": "impact:UCKK-A014:day30:v1",
+          "checkpoint": "day_30",
+          "summary": {
+            "workload_imbalance_reports": 6,
+            "policy_changes": 0
+          }
+        },
+        "artifact_refs": []
+      },
+      "expected_projection": {
+        "class": "command",
+        "profile": {
+          "id": "accountability.impact.publish",
+          "version": "1.0.0"
+        },
+        "source": {
+          "system": "orgo",
+          "organization": "60f51ca2-c845-45aa-bc7e-2c62e53dfc5a"
+        },
+        "target": {
+          "system": "konnaxion",
+          "organization": "60f51ca2-c845-45aa-bc7e-2c62e53dfc5a",
+          "world": "main"
+        },
+        "subject": {
+          "type": "case",
+          "id": "fc305c81-afad-4b3a-8adb-b3668ad70d72"
+        },
+        "data": {
+          "artifact_type": "impact_update",
+          "external_reference": "impact:UCKK-A014:day30:v1",
+          "checkpoint": "day_30",
+          "summary": {
+            "workload_imbalance_reports": 6,
+            "policy_changes": 0
+          }
+        },
+        "artifact_refs": []
+      },
+      "expected_fingerprint": "sha256:babfee61ff2e7c3a5d8b85263c6f675f364eaf4b16b3504f094a58984c7078b1"
+    },
+    {
+      "id": "ik-fp-003",
+      "name": "utf16_and_numbers",
+      "envelope": {
+        "specversion": "ik/1.1",
+        "id": "01J00000000000000000000003",
+        "class": "event",
+        "time": "2026-09-14T12:02:00Z",
+        "profile": {
+          "id": "operational.reconsideration.recommended",
+          "version": "1.0.0"
+        },
+        "source": {
+          "system": "orgo"
+        },
+        "target": {
+          "system": "konnaxion"
+        },
+        "subject": {
+          "type": "decision",
+          "id": "D-UTF16"
+        },
+        "correlation_id": "volatile",
+        "data": {
+          "reason_codes": [
+            "€",
+            "😀",
+            "דּ"
+          ],
+          "summary": "école",
+          "authority_effect": "none",
+          "numbers": [
+            333333333.3333333,
+            1e+30,
+            4.5,
+            0.002,
+            1e-27
+          ]
+        },
+        "artifact_refs": []
+      },
+      "expected_projection": {
+        "class": "event",
+        "profile": {
+          "id": "operational.reconsideration.recommended",
+          "version": "1.0.0"
+        },
+        "source": {
+          "system": "orgo"
+        },
+        "target": {
+          "system": "konnaxion"
+        },
+        "subject": {
+          "type": "decision",
+          "id": "D-UTF16"
+        },
+        "data": {
+          "reason_codes": [
+            "€",
+            "😀",
+            "דּ"
+          ],
+          "summary": "école",
+          "authority_effect": "none",
+          "numbers": [
+            333333333.3333333,
+            1e+30,
+            4.5,
+            0.002,
+            1e-27
+          ]
+        },
+        "artifact_refs": []
+      },
+      "expected_fingerprint": "sha256:12ad894f4f1d1182c7840b7489462b2d078448560e4a483ddda98f23feef6ffb"
+    }
+  ]
+}

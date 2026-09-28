@@ -1,0 +1,44 @@
+{
+  "id": "governance.decision.execute",
+  "version": "1.0.0",
+  "class": "command",
+  "description": "Execute governed work from a finalized Konnaxion DecisionRecord.",
+  "source_systems": [
+    "konnaxion"
+  ],
+  "target_systems": [
+    "orgo"
+  ],
+  "target_capability": "governed-work",
+  "payload_schema": "payload.schema.json",
+  "authority": {
+    "required": true,
+    "accepted_kinds": [
+      "governance-mandate"
+    ]
+  },
+  "artifacts": {
+    "decision_record": {
+      "requirement": "required",
+      "accepted_types": [
+        "konnaxion.decision_record"
+      ]
+    },
+    "kristal": {
+      "requirement": "optional"
+    }
+  },
+  "delivery": {
+    "durability": "durable",
+    "idempotency": "required",
+    "ordering": "subject"
+  },
+  "response": {
+    "acceptance_receipt": "required",
+    "final_receipt": "required",
+    "outcome_events": [
+      "operational.execution.completed",
+      "operational.execution.failed"
+    ]
+  }
+}

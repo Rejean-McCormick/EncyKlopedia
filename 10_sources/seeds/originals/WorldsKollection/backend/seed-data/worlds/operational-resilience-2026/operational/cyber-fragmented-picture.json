@@ -1,0 +1,227 @@
+{
+  "schema": "kx-operational-incident/1",
+  "incident": "inc_cyber_fragmented",
+  "simulation_clock": "2026-09-18T09:00:00Z",
+  "participant_states": [
+    {
+      "actor": "actor_incident_coordinator",
+      "availability": "active",
+      "as_of": "2026-09-18T09:00:00Z"
+    },
+    {
+      "actor": "actor_cyber",
+      "availability": "active",
+      "as_of": "2026-09-18T09:00:00Z"
+    },
+    {
+      "actor": "actor_infrastructure",
+      "availability": "active",
+      "as_of": "2026-09-18T09:00:00Z"
+    },
+    {
+      "actor": "actor_public",
+      "availability": "active",
+      "as_of": "2026-09-18T09:00:00Z"
+    },
+    {
+      "actor": "actor_gis",
+      "availability": "available",
+      "as_of": "2026-09-18T09:00:00Z"
+    }
+  ],
+  "observations": [
+    {
+      "key": "obs_cy_001",
+      "subject": "identity_service",
+      "claim": "Security monitoring shows an unusual authentication pattern.",
+      "source_actor": "actor_cyber",
+      "observed_at": "2026-09-18T09:03:00Z",
+      "reported_at": "2026-09-18T09:04:00Z",
+      "confidence": "probable",
+      "scope": "area_network_ops"
+    },
+    {
+      "key": "obs_cy_002",
+      "subject": "scheduling_service",
+      "claim": "Operations reports intermittent scheduling failures.",
+      "source_actor": "actor_incident_coordinator",
+      "observed_at": "2026-09-18T09:07:00Z",
+      "reported_at": "2026-09-18T09:08:00Z",
+      "confidence": "confirmed",
+      "scope": "area_network_ops"
+    },
+    {
+      "key": "obs_cy_003",
+      "subject": "public_status",
+      "claim": "No public-facing outage is yet confirmed.",
+      "source_actor": "actor_public",
+      "observed_at": "2026-09-18T09:09:00Z",
+      "reported_at": "2026-09-18T09:10:00Z",
+      "confidence": "confirmed",
+      "scope": "area_regional_core"
+    },
+    {
+      "key": "obs_cy_004",
+      "subject": "service_dependency",
+      "claim": "Scheduling depends on the affected identity path for privileged administrative operations.",
+      "source_actor": "actor_cyber",
+      "observed_at": "2026-09-18T09:13:00Z",
+      "reported_at": "2026-09-18T09:14:00Z",
+      "confidence": "confirmed",
+      "scope": "area_network_ops",
+      "evidence": [
+        "ev_cy_dependency_snapshot"
+      ]
+    },
+    {
+      "key": "obs_cy_005",
+      "subject": "containment_option",
+      "claim": "A narrow scheduling-service isolation can be performed in the exercise without isolating the entire regional network.",
+      "source_actor": "actor_cyber",
+      "observed_at": "2026-09-18T09:18:00Z",
+      "reported_at": "2026-09-18T09:18:00Z",
+      "confidence": "confirmed",
+      "scope": "area_network_ops"
+    },
+    {
+      "key": "obs_cy_006",
+      "subject": "identity_service",
+      "claim": "Later evidence confirms the unusual authentication was part of the simulated attack path.",
+      "source_actor": "actor_cyber",
+      "observed_at": "2026-09-18T10:11:00Z",
+      "reported_at": "2026-09-18T10:12:00Z",
+      "confidence": "confirmed",
+      "scope": "area_network_ops",
+      "available_after_decision": "dec_cy_001"
+    }
+  ],
+  "decisions": [
+    {
+      "key": "dec_cy_001",
+      "title": "Isolate scheduling service",
+      "decided_at": "2026-09-18T09:22:00Z",
+      "authority_actor": "actor_cyber",
+      "basis": [
+        "obs_cy_001",
+        "obs_cy_002",
+        "obs_cy_004",
+        "obs_cy_005"
+      ],
+      "decision": "Isolate the scheduling service in the exercise while preserving evidence and maintaining unaffected services.",
+      "historical_snapshot": "snap_cy_0922"
+    },
+    {
+      "key": "dec_cy_002",
+      "title": "Hold public outage statement",
+      "decided_at": "2026-09-18T09:24:00Z",
+      "authority_actor": "actor_public",
+      "basis": [
+        "obs_cy_003"
+      ],
+      "decision": "Publish only a bounded service-degradation notice; do not claim a confirmed broader outage."
+    },
+    {
+      "key": "dec_cy_003",
+      "title": "Open after-action replay",
+      "decided_at": "2026-09-18T11:30:00Z",
+      "authority_actor": "actor_incident_coordinator",
+      "basis": [
+        "dec_cy_001",
+        "obs_cy_006"
+      ],
+      "decision": "Open an after-action replay and freeze the incident timeline, reviewing DEC-CY-001 first with only the 09:22 state."
+    }
+  ],
+  "actions": [
+    {
+      "key": "act_cy_001",
+      "title": "Capture service dependency snapshot",
+      "owner_actor": "actor_cyber",
+      "status": "done",
+      "trigger": "obs_cy_004",
+      "evidence": [
+        "ev_cy_dependency_snapshot"
+      ],
+      "started_at": "2026-09-18T09:14:00Z",
+      "completed_at": "2026-09-18T09:17:00Z"
+    },
+    {
+      "key": "act_cy_002",
+      "title": "Isolate scheduling service",
+      "owner_actor": "actor_cyber",
+      "status": "done",
+      "trigger": "dec_cy_001",
+      "started_at": "2026-09-18T09:22:00Z",
+      "completed_at": "2026-09-18T09:25:00Z"
+    },
+    {
+      "key": "act_cy_003",
+      "title": "Publish bounded service notice",
+      "owner_actor": "actor_public",
+      "status": "done",
+      "trigger": "dec_cy_002",
+      "started_at": "2026-09-18T09:25:00Z",
+      "completed_at": "2026-09-18T09:27:00Z"
+    },
+    {
+      "key": "act_cy_004",
+      "title": "Freeze incident timeline for replay",
+      "owner_actor": "actor_incident_coordinator",
+      "status": "done",
+      "trigger": "dec_cy_003",
+      "evidence": [
+        "ev_cy_timeline"
+      ],
+      "started_at": "2026-09-18T11:30:00Z",
+      "completed_at": "2026-09-18T11:35:00Z"
+    }
+  ],
+  "evidence": [
+    {
+      "key": "ev_cy_dependency_snapshot",
+      "type": "dependency_snapshot",
+      "path": "modules/stockage/files/cyber/service-dependency-snapshot.json",
+      "owner_actor": "actor_cyber"
+    },
+    {
+      "key": "ev_cy_timeline",
+      "type": "timeline_snapshot",
+      "path": "modules/stockage/files/cyber/incident-timeline.json",
+      "owner_actor": "actor_incident_coordinator"
+    }
+  ],
+  "snapshots": [
+    {
+      "key": "snap_cy_0922",
+      "captured_at": "2026-09-18T09:22:00Z",
+      "purpose": "State immediately before DEC-CY-001 for hindsight-safe review.",
+      "scope": "area_network_ops",
+      "known_observations": [
+        "obs_cy_001",
+        "obs_cy_002",
+        "obs_cy_003",
+        "obs_cy_004",
+        "obs_cy_005"
+      ],
+      "known_decisions": [],
+      "document_versions": [
+        "ev_cy_dependency_snapshot"
+      ],
+      "known_constraints": [
+        "preserve_evidence",
+        "maintain_unaffected_services"
+      ],
+      "excluded_future_observations": [
+        "obs_cy_006"
+      ],
+      "excluded_future_evidence": [
+        "ev_cy_timeline"
+      ],
+      "offline": false
+    }
+  ],
+  "time_contract": {
+    "timezone": "UTC",
+    "format": "ISO-8601"
+  }
+}

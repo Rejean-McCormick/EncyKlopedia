@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interaction-kernel.dev/profiles/governance.decision.execute/1.0.0/payload.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "decision_revision": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "effective_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "execution_scope": {
+      "type": [
+        "object",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "decision_revision"
+  ]
+}

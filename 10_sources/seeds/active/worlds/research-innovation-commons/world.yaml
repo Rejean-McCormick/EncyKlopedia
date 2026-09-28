@@ -1,0 +1,77 @@
+world_contract: kx-world-pack/v1
+world_key: research-innovation-commons
+title: NEXUS Research Commons
+description: International synthetic research consortium demonstrating evidence continuity, expertise,
+  reproducibility, collaboration and research prioritization.
+pack_version: 1.1.0
+requires:
+  ethikos_scenario_schema: ethikos-demo-scenario/v3
+  fixtures:
+  - isced-f
+scenarios:
+- scenarios/nexus-research-commons-v1.json
+content_contract: kx-world-content/v1
+canon:
+- canon/world.json
+- canon/research-graph.json
+modules:
+  knowledge:
+    seed: modules/knowledge/resources.json
+    status: bridge_required
+  certifikation:
+    seed: modules/certifikation/paths.json
+    status: bridge_required
+  korum:
+    seed: scenarios/nexus-research-commons-v1.json
+    status: ethikos_v3
+  konsultations:
+    seed: scenarios/nexus-research-commons-v1.json
+    status: ethikos_v3
+  ekoh:
+    seed: scenarios/nexus-research-commons-v1.json
+    status: ethikos_v3
+  smart_vote:
+    seed: modules/smart-vote/funding-decision.json
+    status: decision_sidecar_plus_ethikos_readings
+  konstruct:
+    seed: modules/konstruct/projects.json
+    status: bridge_required
+  stockage:
+    seed: modules/stockage/artifacts.json
+    status: bridge_required
+  kontact:
+    seed: modules/kontact/matching.json
+    status: capability_sidecar_only
+  konservation:
+    status: intentionally_absent_v1
+persona_policy:
+  internal_username: w_nexus__{actor_slug}
+  real_person_representation: fictional_demo_persona
+  unknown_position: omit
+derived_data:
+  smart_vote:
+    source_facts remain canonical: true
+    build_readings: true
+  search:
+    build_index: true
+metadata:
+  owner: konnaxion-local
+  language: en
+  fictional: true
+  tags:
+  - research
+  - innovation
+  - reproducibility
+  - evidence
+  - expertise
+  - collaboration
+  primary_demo: NEX-27 — Five Countries, One Disease, No Shared Scientific Language
+  module_import_note: Current supplied Worlds builder validates ethiKos scenarios but does not yet execute
+    non-ethiKos module sidecar imports. Sidecars are packaged, checksummed and bridge-ready.
+  content_revision: provenance-complete-demo-v1.1
+  optimization_notes:
+  - Materialized claim→evidence→result→experiment→protocol/data/project provenance.
+  - Reduced Korum stances to contextually justified positions and explicit exclusions.
+  - Expanded protocols into reproducible synthetic procedures.
+  - Added closed historical governance/Smart Vote cycles while leaving the current cycle open.
+  - Kept non-ethiKos module sidecars bridge-ready without inventing runtime importers.

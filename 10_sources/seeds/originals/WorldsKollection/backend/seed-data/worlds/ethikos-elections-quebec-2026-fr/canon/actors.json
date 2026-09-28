@@ -1,0 +1,84 @@
+{
+  "schema_version": "kx-world-canon-actors/v1",
+  "world_key": "ethikos-elections-quebec-2026-fr",
+  "actors": [
+    {
+      "key": "caq",
+      "display_name": "Coalition avenir Québec",
+      "actor_kind": "institutional_political_party",
+      "representation": "reconstructed_position_profile",
+      "description": "Formation nationaliste et autonomiste qui gouverne le Québec au déclenchement de l'élection de 2026. Dans ce corpus, elle représente une approche de continuité réformatrice : modernisation de l'État, mesures ciblées de pouvoir d'achat, augmentation de l'offre de logement, protection juridique du français et recours pragmatique à des capacités publiques ou privées en santé.",
+      "source_refs": [
+        "CAQ-01",
+        "CAQ-10"
+      ],
+      "ekoh_scoring_policy": "not_scored_as_party",
+      "ethics_scoring_policy": "not_applicable_to_party"
+    },
+    {
+      "key": "plq",
+      "display_name": "Parti libéral du Québec",
+      "actor_kind": "institutional_political_party",
+      "representation": "reconstructed_position_profile",
+      "description": "Formation fédéraliste qui associe explicitement dynamisme économique et justice sociale. Dans ce corpus, elle met l'accent sur la croissance, les PME, la réduction du fardeau administratif, l'augmentation de l'offre de logements, les services publics et une politique linguistique davantage axée sur l'apprentissage, la francisation et l'attractivité.",
+      "source_refs": [
+        "PLQ-01",
+        "PLQ-08"
+      ],
+      "ekoh_scoring_policy": "not_scored_as_party",
+      "ethics_scoring_policy": "not_applicable_to_party"
+    },
+    {
+      "key": "pq",
+      "display_name": "Parti Québécois",
+      "actor_kind": "institutional_political_party",
+      "representation": "reconstructed_position_profile",
+      "description": "Formation indépendantiste qui lie plusieurs enjeux de politique publique à l'acquisition de tous les pouvoirs d'un État souverain. Dans ce corpus, elle combine réduction de certaines lourdeurs administratives et réglementaires, intervention publique ciblée, baisse de l'immigration, renforcement juridique du français et projet de souveraineté.",
+      "source_refs": [
+        "PQ-01",
+        "PQ-11"
+      ],
+      "ekoh_scoring_policy": "not_scored_as_party",
+      "ethics_scoring_policy": "not_applicable_to_party"
+    },
+    {
+      "key": "pcq",
+      "display_name": "Parti conservateur du Québec",
+      "actor_kind": "institutional_political_party",
+      "representation": "reconstructed_position_profile",
+      "description": "Formation de droite économique et autonomiste. Dans ce corpus, elle porte la réduction des impôts, des dépenses et de la réglementation, une place plus grande à des fournisseurs privés en santé tout en maintenant le paiement par la RAMQ, ainsi qu'une décentralisation régionale et une constitution québécoise à l'intérieur d'une stratégie autonomiste.",
+      "source_refs": [
+        "PCQ-01",
+        "PCQ-08"
+      ],
+      "ekoh_scoring_policy": "not_scored_as_party",
+      "ethics_scoring_policy": "not_applicable_to_party"
+    },
+    {
+      "key": "qs",
+      "display_name": "Québec solidaire",
+      "actor_kind": "institutional_political_party",
+      "representation": "reconstructed_position_profile",
+      "description": "Formation de gauche, écologiste et indépendantiste. Dans ce corpus, elle privilégie le renforcement des services publics, le logement social et hors marché, davantage de redistribution fiscale, une transition climatique plus rapide, une immigration permanente plus élevée et un processus constituant lié à l'indépendance.",
+      "source_refs": [
+        "QS-01",
+        "QS-06"
+      ],
+      "ekoh_scoring_policy": "not_scored_as_party",
+      "ethics_scoring_policy": "not_applicable_to_party"
+    },
+    {
+      "key": "ddq",
+      "display_name": "Démocratie Directe Québec",
+      "actor_kind": "institutional_political_party",
+      "representation": "reconstructed_position_profile",
+      "description": "Formation centrée d'abord sur une transformation des mécanismes de décision. Son programme 2026 refuse explicitement de verrouiller plusieurs résultats substantiels — par exemple certains niveaux de taxation, seuils d'immigration ou choix public-privé — avant consultation populaire. Dans ce corpus, elle représente donc une perspective institutionnelle : constituante citoyenne tirée au sort, référendum d'initiative citoyenne, subsidiarité, transparence et contrôle citoyen, avec des garde-fous relatifs aux droits.",
+      "source_refs": [
+        "DDQ-01",
+        "DDQ-02"
+      ],
+      "ekoh_scoring_policy": "not_scored_as_party",
+      "ethics_scoring_policy": "not_applicable_to_party"
+    }
+  ]
+}

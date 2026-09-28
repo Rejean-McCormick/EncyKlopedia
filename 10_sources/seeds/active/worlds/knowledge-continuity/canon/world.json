@@ -1,0 +1,69 @@
+{
+  "schema_version": "konnaxion-world-canon/v1.1",
+  "world_key": "knowledge-continuity",
+  "title": "Knowledge Continuity",
+  "fictional": true,
+  "organization": {
+    "key": "northstar_field_systems",
+    "name": "Northstar Field Systems Cooperative",
+    "description": "Fictional Canadian field-services organization used only for the Konnaxion demonstration.",
+    "staff_scale": "mid-sized",
+    "operating_context": "Legacy field systems, procurement governance, and precision workshop practice."
+  },
+  "promise": "If a critical expert becomes unavailable tomorrow, can the organization still perform the capability safely and explain why?",
+  "canonical_object": "capability",
+  "capability_keys": [
+    "intermittent_fault_diagnosis",
+    "procurement_exception_memory",
+    "precision_repair_judgment"
+  ],
+  "dashboard_baseline": {
+    "critical_capabilities": 3,
+    "single_person_dependencies": 3,
+    "validated_backups": 0,
+    "active_transfers": 3,
+    "successors_identified": 3,
+    "by_state": {
+      "capturing": 1,
+      "successor_identified": 1,
+      "supervised_practice": 1,
+      "validating": 0,
+      "covered": 0
+    }
+  },
+  "success_state": {
+    "single_person_dependencies": 0,
+    "validated_backups_minimum": 3,
+    "principle": "A capability is covered only after independent practice and evidence-based validation; document count alone is not continuity."
+  },
+  "rules": [
+    "Evidence first; scores second.",
+    "A historical outcome is not automatically a reusable rule.",
+    "Tacit expertise may be elicited but must not be falsely represented as fully codified.",
+    "Stockage preserves evidence; Knowledge interprets it; Konservation preserves human provenance.",
+    "Smart Vote and public consultation are intentionally absent from the core flow."
+  ],
+  "primary_flow": [
+    "capability_at_risk",
+    "expertise_map",
+    "successor_match",
+    "transfer_project",
+    "case_based_learning",
+    "supervised_practice",
+    "peer_validation",
+    "capability_covered",
+    "preserve_provenance"
+  ],
+  "capability_lifecycle": {
+    "states": [
+      "at_risk",
+      "capturing",
+      "successor_identified",
+      "supervised_practice",
+      "validating",
+      "covered"
+    ],
+    "covered_rule": "At least one validated backup has demonstrated independent practice with evidence and peer approval.",
+    "principle": "Lifecycle describes organizational continuity, not learner engagement."
+  }
+}

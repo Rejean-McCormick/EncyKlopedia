@@ -1,0 +1,111 @@
+{
+  "format": "konnaxion-world-content/v1",
+  "world_key": "ethikos-political-philosophy",
+  "module": "konstruct",
+  "content_origin": "designed_extension",
+  "project_template": {
+    "key": "pp-capstone-legitimate-institution",
+    "title": "Design a Legitimate Institution",
+    "category": "institutional_design",
+    "status_on_create": "idea",
+    "purpose": "Transformer les tensions philosophiques du World en architecture institutionnelle explicite sans prétendre éliminer le désaccord.",
+    "team_roles": [
+      {
+        "key": "coordinator",
+        "label": "Coordination",
+        "responsibility": "maintenir la cohérence du charter et les dépendances"
+      },
+      {
+        "key": "source_steward",
+        "label": "Sources",
+        "responsibility": "vérifier la traçabilité des justifications vers le canon"
+      },
+      {
+        "key": "rights_reviewer",
+        "label": "Droits et inclusion",
+        "responsibility": "chercher les contraintes, exclusions et effets asymétriques"
+      },
+      {
+        "key": "dissent_reviewer",
+        "label": "Objection / dissidence",
+        "responsibility": "formuler la meilleure objection et maintenir les désaccords non résolus"
+      }
+    ],
+    "tasks": [
+      {
+        "order": 1,
+        "key": "mission",
+        "title": "Définir la mission et le problème de pouvoir"
+      },
+      {
+        "order": 2,
+        "key": "demos",
+        "title": "Définir le demos et les formes de participation"
+      },
+      {
+        "order": 3,
+        "key": "representation",
+        "title": "Définir représentation et inclusion"
+      },
+      {
+        "order": 4,
+        "key": "rights",
+        "title": "Définir les droits et limites de majorité"
+      },
+      {
+        "order": 5,
+        "key": "expertise",
+        "title": "Définir le rôle de l’expertise"
+      },
+      {
+        "order": 6,
+        "key": "decision",
+        "title": "Définir la procédure de décision et de dissidence"
+      },
+      {
+        "order": 7,
+        "key": "accountability",
+        "title": "Définir contestation, responsabilité et révision"
+      },
+      {
+        "order": 8,
+        "key": "review",
+        "title": "Intégrer peer review et minority report"
+      }
+    ],
+    "charter_sections": [
+      "mission",
+      "demos",
+      "participation",
+      "representation",
+      "rights",
+      "expertise",
+      "decision_rule",
+      "dissent",
+      "local_autonomy",
+      "accountability",
+      "revision"
+    ],
+    "required_fields_per_section": [
+      "choice",
+      "rationale",
+      "source_basis",
+      "alternative_considered",
+      "strongest_objection",
+      "response_or_unresolved_tradeoff"
+    ],
+    "required_artifacts": [
+      "charter_v1",
+      "peer_review",
+      "objection_map",
+      "minority_report",
+      "charter_v2",
+      "final_charter",
+      "bibliography"
+    ],
+    "certification_evidence": [
+      "pp-comp-disagreement",
+      "pp-comp-institutional-design"
+    ]
+  }
+}

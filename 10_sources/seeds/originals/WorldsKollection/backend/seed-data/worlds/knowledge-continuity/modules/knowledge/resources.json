@@ -1,0 +1,241 @@
+{
+  "schema_version": "konnaxion-world-module-bridge-seed/v1",
+  "world_key": "knowledge-continuity",
+  "module": "knowledge",
+  "model_mapping": {
+    "record_model": "konnected.KnowledgeResource",
+    "field_mapping": {
+      "title": "title",
+      "resource_type": "type",
+      "url": "url",
+      "author": "author"
+    },
+    "type_mapping": {
+      "doc": "doc",
+      "video": "video",
+      "course": "course"
+    },
+    "native_resource_types": [
+      "video",
+      "doc",
+      "course",
+      "other"
+    ]
+  },
+  "records": [
+    {
+      "key": "kr_diag_foundations",
+      "title": "Legacy System X — diagnostic foundations",
+      "resource_type": "course",
+      "capability": "intermittent_fault_diagnosis",
+      "author": "amina_benali",
+      "case_refs": [],
+      "evidence_refs": [
+        "ev_diag_wiring_v3"
+      ],
+      "url": "https://knowledge-continuity.invalid/learn/diag-foundations",
+      "contributors": [
+        "amina_benali"
+      ]
+    },
+    {
+      "key": "kr_diag_cases",
+      "title": "Intermittent diagnosis casebook",
+      "resource_type": "course",
+      "capability": "intermittent_fault_diagnosis",
+      "author": "marc_leblanc",
+      "case_refs": [
+        "case_diag_001",
+        "case_diag_002",
+        "case_diag_003",
+        "case_diag_004",
+        "case_diag_005",
+        "case_diag_006"
+      ],
+      "evidence_refs": [],
+      "url": "https://knowledge-continuity.invalid/learn/diag-casebook",
+      "editor": "zoe_martel",
+      "contributors": [
+        "marc_leblanc",
+        "zoe_martel"
+      ]
+    },
+    {
+      "key": "kr_diag_edge",
+      "title": "Edge cases: when the normal diagnostic sequence fails",
+      "resource_type": "doc",
+      "capability": "intermittent_fault_diagnosis",
+      "author": "sofia_nguyen",
+      "case_refs": [
+        "case_diag_002",
+        "case_diag_004",
+        "case_diag_006"
+      ],
+      "evidence_refs": [],
+      "url": "https://knowledge-continuity.invalid/learn/diag-edge",
+      "contributors": [
+        "sofia_nguyen"
+      ]
+    },
+    {
+      "key": "kr_proc_framework",
+      "title": "Reconstructing procurement decisions without copying outcomes",
+      "resource_type": "course",
+      "capability": "procurement_exception_memory",
+      "author": "claire_beaulieu",
+      "case_refs": [
+        "case_proc_001",
+        "case_proc_002",
+        "case_proc_003",
+        "case_proc_004",
+        "case_proc_005"
+      ],
+      "evidence_refs": [],
+      "url": "https://knowledge-continuity.invalid/learn/proc-framework",
+      "editor": "zoe_martel",
+      "contributors": [
+        "claire_beaulieu",
+        "zoe_martel"
+      ]
+    },
+    {
+      "key": "kr_proc_authority",
+      "title": "Expert advice, mandate, and accountable approval",
+      "resource_type": "doc",
+      "capability": "procurement_exception_memory",
+      "author": "luc_gagnon",
+      "case_refs": [
+        "case_proc_004"
+      ],
+      "evidence_refs": [
+        "ev_proc_mandate_map"
+      ],
+      "url": "https://knowledge-continuity.invalid/learn/proc-authority",
+      "contributors": [
+        "luc_gagnon"
+      ]
+    },
+    {
+      "key": "kr_proc_provenance",
+      "title": "How to label reconstruction uncertainty",
+      "resource_type": "doc",
+      "capability": "procurement_exception_memory",
+      "author": "elise_tremblay",
+      "case_refs": [
+        "case_proc_005"
+      ],
+      "evidence_refs": [
+        "ev_proc_option_file"
+      ],
+      "url": "https://knowledge-continuity.invalid/learn/proc-provenance",
+      "contributors": [
+        "elise_tremblay"
+      ]
+    },
+    {
+      "key": "kr_repair_foundations",
+      "title": "Precision repair foundations and safe boundaries",
+      "resource_type": "course",
+      "capability": "precision_repair_judgment",
+      "author": "andre_bouchard",
+      "case_refs": [
+        "case_repair_001",
+        "case_repair_002",
+        "case_repair_003",
+        "case_repair_004"
+      ],
+      "evidence_refs": [],
+      "url": "https://knowledge-continuity.invalid/learn/repair-foundations",
+      "editor": "zoe_martel",
+      "contributors": [
+        "andre_bouchard",
+        "zoe_martel"
+      ]
+    },
+    {
+      "key": "kr_repair_cues",
+      "title": "Seeing, hearing, and feeling stop cues",
+      "resource_type": "video",
+      "capability": "precision_repair_judgment",
+      "author": "andre_bouchard",
+      "case_refs": [
+        "case_repair_003",
+        "case_repair_004"
+      ],
+      "evidence_refs": [
+        "ev_repair_training_video",
+        "ev_repair_cue_audio"
+      ],
+      "url": "https://knowledge-continuity.invalid/learn/repair-cues",
+      "contributors": [
+        "andre_bouchard"
+      ]
+    },
+    {
+      "key": "kr_repair_compare",
+      "title": "Repair-versus-replace comparison cases",
+      "resource_type": "doc",
+      "capability": "precision_repair_judgment",
+      "author": "leila_haddad",
+      "case_refs": [
+        "case_repair_002"
+      ],
+      "evidence_refs": [
+        "ev_repair_damage_map",
+        "ev_repair_history"
+      ],
+      "url": "https://knowledge-continuity.invalid/learn/repair-compare",
+      "contributors": [
+        "leila_haddad"
+      ]
+    },
+    {
+      "key": "kr_transfer_method",
+      "title": "Case-based capability transfer method",
+      "resource_type": "course",
+      "capability": null,
+      "author": "amina_benali",
+      "case_refs": [],
+      "evidence_refs": [],
+      "url": "https://knowledge-continuity.invalid/learn/transfer-method",
+      "contributors": [
+        "amina_benali"
+      ]
+    },
+    {
+      "key": "kr_teachback",
+      "title": "Teach-back rubric for independent practice",
+      "resource_type": "doc",
+      "capability": null,
+      "author": "gabriel_fortin",
+      "case_refs": [],
+      "evidence_refs": [],
+      "url": "https://knowledge-continuity.invalid/learn/teachback",
+      "contributors": [
+        "gabriel_fortin"
+      ]
+    },
+    {
+      "key": "kr_provenance_rules",
+      "title": "Evidence, reconstruction, and provenance rules",
+      "resource_type": "doc",
+      "capability": null,
+      "author": "elise_tremblay",
+      "case_refs": [],
+      "evidence_refs": [],
+      "url": "https://knowledge-continuity.invalid/learn/provenance",
+      "contributors": [
+        "elise_tremblay"
+      ]
+    }
+  ],
+  "notes": [
+    "case_refs/evidence_refs are world linkage metadata beyond the current KnowledgeResource table.",
+    "Resources use reserved .invalid URLs as deterministic demo placeholders; a world media bridge may replace them with scoped URLs."
+  ],
+  "bridge_semantics": {
+    "native_model_fields": "Fields described by model_mapping are intended for direct native-model import.",
+    "world_metadata_fields": "Cross-module keys (capability/case/evidence/etc.) are declarative World linkage metadata.",
+    "automatic_import": false
+  }
+}

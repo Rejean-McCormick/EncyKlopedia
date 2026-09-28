@@ -1,0 +1,74 @@
+world_contract: kx-world-pack/v1
+world_key: operational-resilience-2026
+title: Operational Resilience — Regional Response Network
+pack_version: 1.2.0
+requires:
+  ethikos_scenario_schema: ethikos-demo-scenario/v3
+  fixtures:
+  - isced-f
+scenarios:
+- scenarios/operational-resilience-after-action.json
+module_policy:
+  primary:
+  - konstruct
+  - stockage
+  - knowledge
+  supporting:
+  - ekoh
+  - kontact
+  lifecycle:
+  - certifikation
+  - korum
+  disabled:
+  - konsultations
+  - smart_vote
+  - konservation
+canon:
+  organizations: canon/organizations.json
+  actors: canon/actors.json
+  capabilities: canon/capabilities.json
+  operational_areas: canon/operational-areas.json
+  incidents: canon/incidents.json
+  bindings: canon/bindings.json
+operational_scenarios:
+- operational/wildfire-offline.json
+- operational/bridge-medical-logistics.json
+- operational/cyber-fragmented-picture.json
+module_seeds:
+  knowledge: modules/knowledge/seed.json
+  konstruct: modules/konstruct/seed.json
+  stockage: modules/stockage/seed.json
+  ekoh: scenarios/operational-resilience-after-action.json
+  kontact: modules/kontact/seed.json
+  certifikation: modules/certifikation/seed.json
+  korum: scenarios/operational-resilience-after-action.json
+metadata:
+  language: en
+  type: simulation
+  status: content_validated_runtime_materializer_required
+  promise: Maintain a trustworthy shared operational picture through disruption, degraded connectivity, distributed
+    action, recovery, and learning.
+  operational_model:
+  - observe
+  - qualify
+  - decide
+  - act
+  - prove
+  - reconcile
+  - learn
+  authority_boundary: The World does not replace statutory authority, licensed professional judgment, certified
+    control systems, or domain-specific safety procedures.
+  reconciliation_rule: Preserve origin and chronology; append local events; detect conflicts; qualify explicitly;
+    never use latest-device-wins.
+  source_provenance: sources/index.json
+  simulation_content_policy: All operational procedures, locations, timings, scores, and decisions are fictional
+    training content; not operational instructions.
+  module_seed_contract: kx-module-seed/1 is editorial seed data; current Worlds builder requires a module materializer
+    to create runtime records.
+  timestamp_contract: All operational timestamps are ISO-8601 UTC.
+  canonical_sources:
+    operational_state: operational/*.json
+    korum_and_ekoh: scenarios/operational-resilience-after-action.json
+    cross_module_bindings: canon/bindings.json
+  single_source_of_truth: EkoH profiles and Korum review content live only in the v3 scenario; module projections
+    reference them through bindings instead of duplicating values.

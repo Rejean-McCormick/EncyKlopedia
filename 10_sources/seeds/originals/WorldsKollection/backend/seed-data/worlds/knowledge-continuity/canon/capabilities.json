@@ -1,0 +1,105 @@
+{
+  "schema_version": "konnaxion-world-capabilities/v1.1",
+  "world_key": "knowledge-continuity",
+  "capabilities": [
+    {
+      "key": "intermittent_fault_diagnosis",
+      "title": "Diagnose intermittent faults on legacy field systems",
+      "type": "technical_tacit_expertise",
+      "criticality": "critical",
+      "risk": "single_person_dependency",
+      "current_independent_practitioners": [
+        "marc_leblanc"
+      ],
+      "validated_backups": [],
+      "successors_in_training": [
+        "sofia_nguyen",
+        "jean_caron"
+      ],
+      "owner": "luc_gagnon",
+      "transfer_project": "transfer_intermit_diag",
+      "certification_path": "cert_intermit_diag",
+      "primary_domains": [
+        "0713",
+        "0413"
+      ],
+      "success_condition": "At least one successor independently resolves two unseen field cases, documents reasoning, and receives peer approval.",
+      "continuity": {
+        "current_state": "supervised_practice",
+        "target_state": "covered",
+        "coverage_assessment": {
+          "evidence": "high",
+          "cases": "high",
+          "independent_practice": "not_yet_validated"
+        },
+        "next_gate": "Complete two supervised field diagnoses, then one unseen independent case with peer approval."
+      }
+    },
+    {
+      "key": "procurement_exception_memory",
+      "title": "Reconstruct and apply institutional procurement exceptions",
+      "type": "institutional_memory",
+      "criticality": "high",
+      "risk": "decision_rationale_concentrated",
+      "current_independent_practitioners": [
+        "claire_beaulieu"
+      ],
+      "validated_backups": [],
+      "successors_in_training": [
+        "maya_singh"
+      ],
+      "owner": "luc_gagnon",
+      "transfer_project": "transfer_procurement_memory",
+      "certification_path": "cert_procurement_memory",
+      "primary_domains": [
+        "0413",
+        "0312",
+        "0321"
+      ],
+      "success_condition": "Successor can reconstruct why three historical exceptions were granted and apply the same decision framework to a novel case without copying the prior outcome.",
+      "continuity": {
+        "current_state": "capturing",
+        "target_state": "covered",
+        "coverage_assessment": {
+          "evidence": "medium",
+          "cases": "medium",
+          "independent_practice": "not_started"
+        },
+        "next_gate": "Complete three rationale reconstructions with explicit source/reconstruction boundaries."
+      }
+    },
+    {
+      "key": "precision_repair_judgment",
+      "title": "Exercise precision repair judgment on worn assemblies",
+      "type": "embodied_practice",
+      "criticality": "high",
+      "risk": "tacit_practice_not_reproducible",
+      "current_independent_practitioners": [
+        "andre_bouchard"
+      ],
+      "validated_backups": [],
+      "successors_in_training": [
+        "leila_haddad"
+      ],
+      "owner": "luc_gagnon",
+      "transfer_project": "transfer_precision_repair",
+      "certification_path": "cert_precision_repair",
+      "primary_domains": [
+        "0722",
+        "0111",
+        "0413"
+      ],
+      "success_condition": "Successor demonstrates three supervised repairs and one independent repair, including an explicit stop/escalate decision when uncertainty exceeds the safe boundary.",
+      "continuity": {
+        "current_state": "successor_identified",
+        "target_state": "covered",
+        "coverage_assessment": {
+          "evidence": "medium",
+          "cases": "high",
+          "independent_practice": "not_started"
+        },
+        "next_gate": "Complete cue-capture set and begin supervised repairs with explicit stop/escalate criteria."
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "schema": "kx-world-bindings/1",
+  "world_key": "operational-resilience-2026",
+  "policy": {
+    "stable_keys_only": true,
+    "no_title_matching": true,
+    "authority_is_not_expertise": true,
+    "operational_state_owner": "operational/*.json",
+    "korum_ekoh_owner": "scenarios/operational-resilience-after-action.json"
+  },
+  "incidents": {
+    "inc_wildfire_offline": {
+      "konstruct_project": "proj_wildfire",
+      "korum_topic": "aar_wildfire_reroute",
+      "reviewed_decision": "dec_wf_002",
+      "historical_snapshot": "snap_wf_hq_1424",
+      "knowledge_resources": [
+        "know_operational_handoff",
+        "know_uncertain_information",
+        "know_source_reliability",
+        "know_degraded_connectivity",
+        "know_sitrep",
+        "know_regional_reference",
+        "know_aar"
+      ],
+      "offline_package": "offline_north_sector",
+      "certification_paths": [
+        "cert_offline_reconciliation"
+      ],
+      "stockage_resources": [
+        "ev_wf_route_117_report",
+        "ev_wf_map_r3",
+        "ev_wf_snapshot_north",
+        "ev_wf_local_log_north",
+        "ev_wf_convoy_gps",
+        "ev_wf_delivery_confirmation",
+        "ev_wf_map_r4"
+      ]
+    },
+    "inc_bridge_medical": {
+      "konstruct_project": "proj_bridge",
+      "korum_topic": "aar_bridge_replan",
+      "reviewed_decision": "dec_br_002",
+      "historical_snapshot": "snap_br_0552",
+      "knowledge_resources": [
+        "know_operational_handoff",
+        "know_dependencies",
+        "know_regional_reference",
+        "know_aar"
+      ],
+      "certification_paths": [
+        "cert_operational_handoff"
+      ],
+      "stockage_resources": [
+        "ev_br_route_plan_r2",
+        "ev_br_delivery_insulin"
+      ]
+    },
+    "inc_cyber_fragmented": {
+      "konstruct_project": "proj_cyber",
+      "korum_topic": "aar_cyber_isolation",
+      "reviewed_decision": "dec_cy_001",
+      "historical_snapshot": "snap_cy_0922",
+      "knowledge_resources": [
+        "know_operational_handoff",
+        "know_uncertain_information",
+        "know_source_reliability",
+        "know_sitrep",
+        "know_dependencies",
+        "know_aar"
+      ],
+      "certification_paths": [],
+      "stockage_resources": [
+        "ev_cy_dependency_snapshot",
+        "ev_cy_timeline"
+      ]
+    }
+  },
+  "capability_gaps": {
+    "gap_wf_001": {
+      "required_capability": "cap_situational_mapping",
+      "kontact_match": "match_wf_gis",
+      "resolved_by_actor": "actor_gis",
+      "konstruct_project": "proj_wildfire"
+    }
+  },
+  "actor_projection": {
+    "actor_incident_coordinator": {
+      "username": "demo_or_incident_coordinator",
+      "kontact_profile": "actor_incident_coordinator",
+      "ekoh_profile_actor": "actor_incident_coordinator"
+    },
+    "actor_field_lead": {
+      "username": "demo_or_field_lead",
+      "kontact_profile": "actor_field_lead",
+      "ekoh_profile_actor": "actor_field_lead"
+    },
+    "actor_logistics": {
+      "username": "demo_or_logistics",
+      "kontact_profile": "actor_logistics",
+      "ekoh_profile_actor": "actor_logistics"
+    },
+    "actor_gis": {
+      "username": "demo_or_gis",
+      "kontact_profile": "actor_gis",
+      "ekoh_profile_actor": "actor_gis"
+    },
+    "actor_health": {
+      "username": "demo_or_health",
+      "kontact_profile": "actor_health",
+      "ekoh_profile_actor": "actor_health"
+    },
+    "actor_infrastructure": {
+      "username": "demo_or_infrastructure",
+      "kontact_profile": "actor_infrastructure",
+      "ekoh_profile_actor": "actor_infrastructure"
+    },
+    "actor_cyber": {
+      "username": "demo_or_cyber",
+      "kontact_profile": "actor_cyber",
+      "ekoh_profile_actor": "actor_cyber"
+    },
+    "actor_public": {
+      "username": "demo_or_public",
+      "kontact_profile": "actor_public",
+      "ekoh_profile_actor": "actor_public"
+    }
+  }
+}

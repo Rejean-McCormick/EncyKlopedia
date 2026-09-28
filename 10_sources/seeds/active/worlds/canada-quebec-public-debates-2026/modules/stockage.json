@@ -1,0 +1,68 @@
+{
+  "schema_version": "kx-world-stockage-seed/v1",
+  "world_key": "canada-quebec-public-debates-2026",
+  "policy": {
+    "project_scoped_only": true,
+    "do_not_duplicate_canonical_source_documents": true,
+    "version_working_artifacts": true,
+    "index_provenance": true
+  },
+  "vaults": [
+    {
+      "key": "ai_evidence_lab_vault",
+      "lab_key": "ai_evidence_lab",
+      "dossier_key": "ai_education",
+      "source_keys": [
+        "qc_ai_education_portal_2026",
+        "qc_ai_higher_ed_2026",
+        "qc_ceiae_2026"
+      ],
+      "artifact_slots": [
+        {
+          "key": "evidence_map",
+          "versioned": true
+        },
+        {
+          "key": "methodology_note",
+          "versioned": true
+        },
+        {
+          "key": "neutral_brief",
+          "versioned": true
+        },
+        {
+          "key": "uncertainty_log",
+          "versioned": true
+        }
+      ]
+    },
+    {
+      "key": "regulatory_process_lab_vault",
+      "lab_key": "regulatory_process_lab",
+      "dossier_key": "regulatory_delays",
+      "source_keys": [
+        "ca_iaac_efficiency_2026",
+        "ca_major_projects_what_we_heard_2026",
+        "ca_red_tape_reviews_2026"
+      ],
+      "artifact_slots": [
+        {
+          "key": "process_map",
+          "versioned": true
+        },
+        {
+          "key": "source_register",
+          "versioned": true
+        },
+        {
+          "key": "bottleneck_log",
+          "versioned": true
+        },
+        {
+          "key": "methodology_note",
+          "versioned": true
+        }
+      ]
+    }
+  ]
+}

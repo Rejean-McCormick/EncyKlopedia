@@ -1,0 +1,170 @@
+{
+  "schema_version": "kx-world-content-index/v2",
+  "world_key": "ethikos-elections-quebec-2026-fr",
+  "pack_version": "3.0.0",
+  "baseline_as_of": "2026-09-09",
+  "single_source_of_truth": true,
+  "authority": {
+    "actors": "canon/actors.json",
+    "issues": "canon/issues.json",
+    "claims": "canon/claims.json",
+    "timeline": "canon/timeline.json",
+    "knowledge": "knowledge/resources.json",
+    "evidence_sources": "evidence/sources.json",
+    "evidence_versions": "evidence/versions.json",
+    "campaign_changelog": "evidence/changelog.json",
+    "smart_vote_policy": "policies/smart-vote.json",
+    "archive_policy": "policies/archive.json"
+  },
+  "compiled_runtime_projection": "scenarios/ethikos-elections-quebec-2026-fr.json",
+  "not_seeded_because_derived": [
+    "korum_issue_views",
+    "party_comparison_matrices",
+    "smart_vote_results"
+  ],
+  "counts": {
+    "actors": 6,
+    "issues": 10,
+    "claims": 60,
+    "evidence_sources": 54,
+    "evidence_versions": 54,
+    "knowledge_resources": 12,
+    "korum_arguments": 60,
+    "argument_source_links": 96,
+    "consultations": 5,
+    "ekoh_topic_relevance_rows": 55
+  },
+  "files": [
+    {
+      "path": "canon/actors.json",
+      "sha256": "3ef9784e33f9ebfe2ba556e90c268a98292beb4deec5b91849226ad910b66172",
+      "bytes": 4804
+    },
+    {
+      "path": "canon/claims.json",
+      "sha256": "deed27751d087540408632047db9baa5f4f862d834a45096620d44e398e72b40",
+      "bytes": 75032
+    },
+    {
+      "path": "canon/issues.json",
+      "sha256": "9b970015948569eb79e20c64fb1e42fd048b18de79452ccd72aaf76ae8fa5fb6",
+      "bytes": 12222
+    },
+    {
+      "path": "canon/timeline.json",
+      "sha256": "acecc39d9259b6e95cb588abb987f16c859fabb28f7e0288a22abefa24b3690f",
+      "bytes": 636
+    },
+    {
+      "path": "evidence/changelog.json",
+      "sha256": "dea9f221699e38b6f8bd23e8be4d7f447adafa9c008e11e54537a37851f8119f",
+      "bytes": 704
+    },
+    {
+      "path": "evidence/sources.json",
+      "sha256": "3f09af34dbeac189efed7ab3839082a1b49b42cc2afaf7504d80e8492c61d72b",
+      "bytes": 26569
+    },
+    {
+      "path": "evidence/versions.json",
+      "sha256": "8b3ed387e6b472dc60a66aa8140f4ccc4be1cfac3c418f3fdcbb69b3c178ff3f",
+      "bytes": 20991
+    },
+    {
+      "path": "knowledge/resources.json",
+      "sha256": "974400d1180981d652f0987418bf58dcaeaf980529790e64d852a4b0bb56b462",
+      "bytes": 12573
+    },
+    {
+      "path": "policies/archive.json",
+      "sha256": "3986fe23a414c11c83173ededa2e134db70322fa0f19969f7fe3d3a844715b13",
+      "bytes": 963
+    },
+    {
+      "path": "policies/smart-vote.json",
+      "sha256": "5038565de6d3599a59b0be7356a5dc37b684924ce83b9f78a032e24a435b73da",
+      "bytes": 644
+    },
+    {
+      "path": "scenarios/ethikos-elections-quebec-2026-fr.json",
+      "sha256": "ed870e3e53908b3e751379f213f3e2de8342b2da2a4153849e90c3f86843dc8a",
+      "bytes": 110100
+    },
+    {
+      "path": "sources/original/00_README.md",
+      "sha256": "34a3496086f5bdc2161b7e47d66b06b41168b980fec8f282e1fe994a91cddaea",
+      "bytes": 3711
+    },
+    {
+      "path": "sources/original/01_sante_acces_gouvernance.md",
+      "sha256": "441b2e96be8224ef8a2fdecf98f4497bebda8c9cac1807626c55ca5a13dc8e06",
+      "bytes": 5986
+    },
+    {
+      "path": "sources/original/02_logement_abordabilite.md",
+      "sha256": "d350d539235b926d28a3f47daf8439138197e585efd8b5b54fb0e0692795d721",
+      "bytes": 5872
+    },
+    {
+      "path": "sources/original/03_pouvoir_achat_fiscalite.md",
+      "sha256": "027d1b939a1c6e1948bc7e82d4742d45446682dbcfe77d43768170a7fb92a3d5",
+      "bytes": 5775
+    },
+    {
+      "path": "sources/original/04_economie_productivite_finances.md",
+      "sha256": "bbdb4a84db51fae619b55222fe3c44af83fdcf4e5cfbe497c3b1a81e9646daa0",
+      "bytes": 5828
+    },
+    {
+      "path": "sources/original/05_immigration_capacite_accueil.md",
+      "sha256": "1cdad423621d3a671052e1b79966dc4d73f1b8b7ec4c13ef69133e6e2a418c48",
+      "bytes": 5923
+    },
+    {
+      "path": "sources/original/06_francais_langue_commune.md",
+      "sha256": "9f5b17f49ec2369af9ea8b31e69ad83494db36a83a06416c2c0dbc81bf5f0992",
+      "bytes": 5850
+    },
+    {
+      "path": "sources/original/07_education_reussite.md",
+      "sha256": "634ccf7e969834a1fa63294a300f55d4137babd04855afe07067d741b6d1c113",
+      "bytes": 5969
+    },
+    {
+      "path": "sources/original/08_energie_climat_ressources.md",
+      "sha256": "04d4f1a544e3f5085e2d5f769c1cbcefe3e623f62762f2af884de35b0875e580",
+      "bytes": 6017
+    },
+    {
+      "path": "sources/original/09_avenir_politique_quebec.md",
+      "sha256": "3d280e95e238b5260be202af2d05ef9d1cb191c7acdfc9b04ea617729ccb5fec",
+      "bytes": 5835
+    },
+    {
+      "path": "sources/original/10_democratie_pouvoir_citoyen.md",
+      "sha256": "e7930553ea15d6a75abe28ba64d5abdee18542ed9d40c88772ab7ede758638a0",
+      "bytes": 5853
+    },
+    {
+      "path": "sources/original/PEOPLE.md",
+      "sha256": "fd261ef0df4b52a15f274e7b573868b52146ea2c1d1ab68cd3347fea18305a4c",
+      "bytes": 3148
+    },
+    {
+      "path": "sources/original/SOURCES.md",
+      "sha256": "19fb38ed3429dfb61ffd2c23f72751f6e0eede330139b247d00ee586d7dcebce",
+      "bytes": 11628
+    },
+    {
+      "path": "world.yaml",
+      "sha256": "2d272fd15296712929c83230d33541d46e8904c6b21cbcccd15a2723f84a5c9d",
+      "bytes": 2264
+    }
+  ],
+  "validation": {
+    "ethikos_demo_scenario_v3_errors": 0,
+    "cross_reference_errors": 0,
+    "numeric_party_stances_seeded": 0,
+    "party_ekoh_profiles_seeded": 0
+  }
+}

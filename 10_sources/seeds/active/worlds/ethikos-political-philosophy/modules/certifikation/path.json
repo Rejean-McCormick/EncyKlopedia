@@ -1,0 +1,123 @@
+{
+  "format": "konnaxion-world-content/v1",
+  "world_key": "ethikos-political-philosophy",
+  "module": "certifikation",
+  "content_origin": "designed_extension",
+  "path": {
+    "key": "pp-cert-political-reasoning",
+    "name": "Political Reasoning & Institutional Design",
+    "description": "Parcours de maîtrise évaluant la capacité à reconstruire, comparer, traiter le désaccord et convertir des principes en choix institutionnels sans évaluer une orientation politique particulière.",
+    "pass_percent": 80,
+    "viewpoint_neutrality_rule": "No score may reward or penalize a political or philosophical conclusion as such.",
+    "competencies": [
+      {
+        "key": "pp-comp-reconstruction",
+        "name": "Argument Reconstruction",
+        "evidence": [
+          "sourced_argument_reconstruction"
+        ],
+        "criteria": [
+          "fidelity_to_source",
+          "claim_premise_structure",
+          "source_traceability"
+        ]
+      },
+      {
+        "key": "pp-comp-comparison",
+        "name": "Comparative Reasoning",
+        "evidence": [
+          "cross_theory_comparison"
+        ],
+        "criteria": [
+          "accurate_distinctions",
+          "symmetry_of_treatment",
+          "non_caricature"
+        ]
+      },
+      {
+        "key": "pp-comp-disagreement",
+        "name": "Reasoning under Disagreement",
+        "evidence": [
+          "strongest_objection_response",
+          "case_analysis"
+        ],
+        "criteria": [
+          "objection_strength",
+          "response_relevance",
+          "tradeoff_awareness"
+        ]
+      },
+      {
+        "key": "pp-comp-institutional-design",
+        "name": "Institutional Design under Pluralism",
+        "evidence": [
+          "capstone_charter",
+          "peer_review",
+          "minority_report_response"
+        ],
+        "criteria": [
+          "institutional_coherence",
+          "source_grounding",
+          "rights_and_participation_analysis",
+          "unresolved_tradeoff_disclosure"
+        ]
+      }
+    ],
+    "milestones": [
+      {
+        "order": 1,
+        "key": "reconstruct",
+        "title": "Reconstruire fidèlement",
+        "requires": [
+          "pp-comp-reconstruction"
+        ],
+        "suggested_debates": [
+          "demos",
+          "expertise-democratie"
+        ]
+      },
+      {
+        "order": 2,
+        "key": "compare",
+        "title": "Comparer sans caricaturer",
+        "requires": [
+          "pp-comp-comparison"
+        ],
+        "suggested_debates": [
+          "justice-globale",
+          "autodetermination-territoire"
+        ]
+      },
+      {
+        "order": 3,
+        "key": "disagree",
+        "title": "Traiter l’objection la plus forte",
+        "requires": [
+          "pp-comp-disagreement"
+        ],
+        "suggested_cases": [
+          "pp-case-rights-dissent",
+          "pp-case-expert-council"
+        ],
+        "peer_validation_required": true
+      },
+      {
+        "order": 4,
+        "key": "design",
+        "title": "Concevoir sous pluralisme",
+        "requires": [
+          "pp-comp-institutional-design"
+        ],
+        "capstone": "pp-capstone-legitimate-institution",
+        "peer_validation_required": true
+      }
+    ],
+    "rubric_scale": {
+      "0": "Absent ou hors sujet",
+      "1": "Présent mais substantiellement incorrect",
+      "2": "Partiellement correct; distinctions importantes manquent",
+      "3": "Solide et défendable; limites reconnues",
+      "4": "Exceptionnellement clair, fidèle, comparatif et conscient des compromis"
+    }
+  }
+}

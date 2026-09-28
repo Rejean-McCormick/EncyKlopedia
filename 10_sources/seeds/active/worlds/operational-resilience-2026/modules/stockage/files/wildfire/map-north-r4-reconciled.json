@@ -1,0 +1,15 @@
+{
+  "document": "MAP-NORTH",
+  "revision": 4,
+  "valid_at": "14:46",
+  "reconciliation": {
+    "route_117_north": "unavailable to heavy vehicles",
+    "route_117_south": "passable for light vehicles",
+    "preserved_inputs": [
+      "obs_wf_002",
+      "obs_wf_004",
+      "obs_wf_008"
+    ]
+  },
+  "note": "Reconciled without overwriting original reports."
+}

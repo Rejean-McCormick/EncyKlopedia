@@ -1,0 +1,29 @@
+{
+  "id": "operational.reconsideration.recommended",
+  "version": "1.0.0",
+  "class": "event",
+  "description": "Operational evidence recommends reconsideration; never reopens governance automatically.",
+  "source_systems": [
+    "orgo"
+  ],
+  "target_systems": [
+    "konnaxion"
+  ],
+  "target_capability": "governance-feedback",
+  "payload_schema": "payload.schema.json",
+  "authority": {
+    "required": false,
+    "accepted_kinds": []
+  },
+  "artifacts": {},
+  "delivery": {
+    "durability": "durable",
+    "idempotency": "optional",
+    "ordering": "subject"
+  },
+  "response": {
+    "acceptance_receipt": "optional",
+    "final_receipt": "forbidden",
+    "outcome_events": []
+  }
+}

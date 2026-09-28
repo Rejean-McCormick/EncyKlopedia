@@ -1,0 +1,23 @@
+{
+  "schema_version": "kx-world-konservation-policy/v1",
+  "world_key": "ethikos-elections-quebec-2026-fr",
+  "archive_candidate_on": "2026-10-05",
+  "final_archive_requires_manual_release": true,
+  "preserve": [
+    "canon/actors.json",
+    "canon/issues.json",
+    "canon/claims.json",
+    "canon/timeline.json",
+    "modules/stockage/source_registry.json",
+    "modules/stockage/source_versions.json",
+    "modules/stockage/campaign_changelog.json",
+    "scenarios/ethikos-elections-quebec-2026-fr.json",
+    "sources/original/"
+  ],
+  "archive_goals": [
+    "Preserve provenance and historical versions.",
+    "Preserve final campaign positions as a dated snapshot.",
+    "Preserve Korum deliberation and non-official Konnaxion consultations as distinct from official election results."
+  ],
+  "result_policy": "official election results, if later added, must come from an identified official source and remain separate from Konnaxion consultation results"
+}

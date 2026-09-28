@@ -1,0 +1,11 @@
+{
+  "note": "These groups are analysis conveniences only. They do not filter the raw first-level property pull.",
+  "groups": {
+    "identity_and_type": ["P31", "P21", "P1559", "P735", "P734"],
+    "chronology": ["P569", "P570", "P1317"],
+    "geography": ["P19", "P20", "P27", "P495", "P551"],
+    "intellectual_context": ["P101", "P106", "P135", "P140", "P1142", "P737"],
+    "works_bridge": ["P800"],
+    "education_and_affiliation": ["P69", "P108", "P463"]
+  }
+}

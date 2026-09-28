@@ -1,0 +1,24 @@
+{
+  "format": "konnaxion-world-content/v1",
+  "world_key": "ethikos-political-philosophy",
+  "module": "konsultations",
+  "content_origin": "designed_extension",
+  "template": {
+    "key": "pp-consult-capstone-review",
+    "title": "Revue finale des charters",
+    "instantiate_after": "capstone_submission",
+    "status_on_instantiate": "open",
+    "ballot_modality": "rating",
+    "option_source": "submitted_capstone_charters",
+    "purpose": "Comparer les propositions institutionnelles sans transformer le résultat en verdict philosophique.",
+    "display_dimensions": [
+      "demos_and_participation",
+      "rights_and_inclusion",
+      "expertise_model",
+      "decision_and_dissent",
+      "accountability_and_revision"
+    ],
+    "result_policy": "Show raw result first. Derived Smart Vote readings, if enabled, are secondary and method-labelled.",
+    "impact_tracking": "If a charter is selected for a subsequent simulation round, track which clauses were adopted, revised, or rejected."
+  }
+}

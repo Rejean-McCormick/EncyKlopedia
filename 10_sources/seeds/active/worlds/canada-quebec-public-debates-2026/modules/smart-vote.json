@@ -1,0 +1,81 @@
+{
+  "schema_version": "kx-world-smart-vote-seed/v1",
+  "world_key": "canada-quebec-public-debates-2026",
+  "canonical_baseline_source": "scenario:canada_quebec_public_debates_2026",
+  "ekoh_context_source": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json",
+  "policy": {
+    "baseline_always_visible": true,
+    "derived_readings_are_advisory": true,
+    "do_not_store_derived_reading_as_canon": true,
+    "do_not_rank_political_actors": true,
+    "institutional_and_individual_profiles_require_declared_lenses": true,
+    "demo_ethics_multiplier": 1.0
+  },
+  "readings": [
+    {
+      "key": "baseline",
+      "label": "Baseline",
+      "method": "raw_canonical_stances"
+    },
+    {
+      "key": "expertise_informed",
+      "label": "Expertise-informed",
+      "method": "ekoh_topic_relevance_weighted",
+      "relevance_ref": "sidecars/ethikos_ekoh_profiles_canada_qc_v3.json#topic_domain_relevance"
+    }
+  ],
+  "topics": [
+    {
+      "dossier_key": "federal_deficit",
+      "source_topic_key": "federal_deficit"
+    },
+    {
+      "dossier_key": "canada_us_autonomy",
+      "source_topic_key": "canada_us_autonomy"
+    },
+    {
+      "dossier_key": "support_ukraine",
+      "source_topic_key": "support_ukraine"
+    },
+    {
+      "dossier_key": "middle_east_policy",
+      "source_topic_key": "middle_east_policy"
+    },
+    {
+      "dossier_key": "wealth_inequality",
+      "source_topic_key": "wealth_inequality"
+    },
+    {
+      "dossier_key": "regulatory_delays",
+      "source_topic_key": "regulatory_delays"
+    },
+    {
+      "dossier_key": "justice_efficiency",
+      "source_topic_key": "justice_efficiency"
+    },
+    {
+      "dossier_key": "ai_education",
+      "source_topic_key": "ai_education"
+    },
+    {
+      "dossier_key": "immigration_capacity",
+      "source_topic_key": "immigration_capacity"
+    },
+    {
+      "dossier_key": "plastic_waste",
+      "source_topic_key": "plastic_waste"
+    },
+    {
+      "dossier_key": "social_cohesion",
+      "source_topic_key": "social_cohesion"
+    },
+    {
+      "dossier_key": "clean_energy_climate",
+      "source_topic_key": "clean_energy_climate"
+    },
+    {
+      "dossier_key": "tech_sovereignty",
+      "source_topic_key": "tech_sovereignty"
+    }
+  ]
+}

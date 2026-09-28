@@ -1,0 +1,30 @@
+{
+  "schema": "kx-world-canon/1",
+  "world_key": "operational-resilience-2026",
+  "organizations": [
+    {
+      "key": "org_rcc",
+      "name": "Regional Coordination Centre",
+      "type": "coordination",
+      "mandate": "Maintain the shared regional situation, coordinate cross-organization dependencies, and record decision context during exercises."
+    },
+    {
+      "key": "org_municipal_ops",
+      "name": "Municipal Operations Network",
+      "type": "municipal_operations",
+      "mandate": "Coordinate field operations, local access, public works, and community support across participating municipalities."
+    },
+    {
+      "key": "org_health_logistics",
+      "name": "Regional Health & Logistics Network",
+      "type": "health_logistics",
+      "mandate": "Coordinate time-sensitive health logistics, medical delivery priorities, and health-system dependencies during exercises."
+    },
+    {
+      "key": "org_critical_infra",
+      "name": "Critical Infrastructure Alliance",
+      "type": "critical_infrastructure",
+      "mandate": "Coordinate infrastructure, connectivity, utility, and cyber-system dependencies during exercises."
+    }
+  ]
+}

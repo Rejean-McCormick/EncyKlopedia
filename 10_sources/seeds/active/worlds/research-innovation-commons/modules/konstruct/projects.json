@@ -1,0 +1,402 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "research-innovation-commons",
+  "module": "keenkonnect.konstruct",
+  "target_models": [
+    "Project",
+    "ProjectTeam",
+    "ProjectTask",
+    "Tag",
+    "ProjectResource"
+  ],
+  "import_status": "bridge_required",
+  "projects": [
+    {
+      "key": "PRJ-001",
+      "title": "Cross-Site Cohort Harmonization",
+      "description": "Make definitions and preprocessing interoperable without erasing meaningful site differences.",
+      "category": "research-methods",
+      "creator": "ACT-006",
+      "status": "progress",
+      "tags": [
+        "harmonization",
+        "definitions",
+        "data-provenance"
+      ],
+      "research_questions": [
+        "RQ-004",
+        "RQ-005"
+      ],
+      "team": [
+        [
+          "ACT-006",
+          "owner"
+        ],
+        [
+          "ACT-009",
+          "collaborator"
+        ],
+        [
+          "ACT-002",
+          "collaborator"
+        ],
+        [
+          "ACT-011",
+          "mentor"
+        ]
+      ],
+      "required_capabilities": [
+        "clinical phenotyping",
+        "data stewardship",
+        "data standards",
+        "independent methods review"
+      ],
+      "decision_context": "READ-001"
+    },
+    {
+      "key": "PRJ-002",
+      "title": "Independent KX-17 Replication",
+      "description": "Test whether KX-17 findings survive calibrated assays, independent cohorts and preregistered analysis.",
+      "category": "replication",
+      "creator": "ACT-008",
+      "status": "progress",
+      "tags": [
+        "replication",
+        "KX-17",
+        "preregistration"
+      ],
+      "research_questions": [
+        "RQ-003",
+        "RQ-005"
+      ],
+      "team": [
+        [
+          "ACT-008",
+          "owner"
+        ],
+        [
+          "ACT-003",
+          "collaborator"
+        ],
+        [
+          "ACT-004",
+          "collaborator"
+        ],
+        [
+          "ACT-011",
+          "mentor"
+        ]
+      ],
+      "required_capabilities": [
+        "replication science",
+        "genomics/assay context",
+        "causal inference",
+        "independent methods review"
+      ],
+      "decision_context": "READ-001"
+    },
+    {
+      "key": "PRJ-003",
+      "title": "Negative Results & Robustness Registry",
+      "description": "Preserve null/negative findings and show which claims survive plausible analytical choices.",
+      "category": "reproducibility",
+      "creator": "ACT-010",
+      "status": "progress",
+      "tags": [
+        "negative-results",
+        "sensitivity",
+        "evidence-map"
+      ],
+      "research_questions": [
+        "RQ-005"
+      ],
+      "team": [
+        [
+          "ACT-010",
+          "owner"
+        ],
+        [
+          "ACT-004",
+          "collaborator"
+        ],
+        [
+          "ACT-005",
+          "collaborator"
+        ],
+        [
+          "ACT-011",
+          "mentor"
+        ]
+      ],
+      "required_capabilities": [
+        "evidence synthesis",
+        "causal inference",
+        "computational robustness",
+        "independent methods review"
+      ],
+      "decision_context": "READ-001"
+    },
+    {
+      "key": "PRJ-004",
+      "title": "KX-17 Measurement Validation",
+      "description": "Separate biological variation from assay and batch variation before interpreting cross-site differences.",
+      "category": "measurement",
+      "creator": "ACT-003",
+      "status": "progress",
+      "tags": [
+        "assay",
+        "calibration",
+        "biomarker"
+      ],
+      "research_questions": [
+        "RQ-003"
+      ],
+      "team": [
+        [
+          "ACT-003",
+          "owner"
+        ],
+        [
+          "ACT-001",
+          "collaborator"
+        ],
+        [
+          "ACT-008",
+          "collaborator"
+        ],
+        [
+          "ACT-006",
+          "collaborator"
+        ]
+      ],
+      "required_capabilities": [
+        "genomics/measurement",
+        "immunology",
+        "replication science",
+        "data stewardship"
+      ],
+      "decision_context": "READ-001"
+    },
+    {
+      "key": "PRJ-005",
+      "title": "Open NEXUS Research Infrastructure",
+      "description": "Create shared definitions, provenance conventions and reproducible research packaging across the consortium.",
+      "category": "infrastructure",
+      "creator": "ACT-005",
+      "status": "idea",
+      "tags": [
+        "infrastructure",
+        "open-research",
+        "provenance"
+      ],
+      "research_questions": [
+        "RQ-006"
+      ],
+      "team": [
+        [
+          "ACT-005",
+          "owner"
+        ],
+        [
+          "ACT-009",
+          "collaborator"
+        ],
+        [
+          "ACT-006",
+          "collaborator"
+        ]
+      ],
+      "required_capabilities": [
+        "research software",
+        "provenance engineering",
+        "data stewardship"
+      ],
+      "decision_context": "READ-001"
+    }
+  ],
+  "tasks": [
+    {
+      "key": "TASK-001",
+      "project": "PRJ-001",
+      "title": "Freeze source definitions and mappings",
+      "status": "done",
+      "assignee": "ACT-006",
+      "order": 1
+    },
+    {
+      "key": "TASK-002",
+      "project": "PRJ-001",
+      "title": "Run blinded common-case classification",
+      "status": "done",
+      "assignee": "ACT-002",
+      "order": 2
+    },
+    {
+      "key": "TASK-003",
+      "project": "PRJ-001",
+      "title": "Publish PROT-001 v3",
+      "status": "done",
+      "assignee": "ACT-009",
+      "order": 3
+    },
+    {
+      "key": "TASK-004",
+      "project": "PRJ-001",
+      "title": "Re-run cross-site analysis under harmonized pipeline",
+      "status": "doing",
+      "assignee": "ACT-009",
+      "order": 4
+    },
+    {
+      "key": "TASK-005",
+      "project": "PRJ-002",
+      "title": "Calibrate independent KX-17 assay",
+      "status": "done",
+      "assignee": "ACT-008",
+      "order": 1
+    },
+    {
+      "key": "TASK-006",
+      "project": "PRJ-002",
+      "title": "Freeze PROT-003 replication plan",
+      "status": "done",
+      "assignee": "ACT-011",
+      "order": 2
+    },
+    {
+      "key": "TASK-007",
+      "project": "PRJ-002",
+      "title": "Run external cohort replication",
+      "status": "done",
+      "assignee": "ACT-008",
+      "order": 3
+    },
+    {
+      "key": "TASK-008",
+      "project": "PRJ-002",
+      "title": "Complete preregistered immune replication",
+      "status": "doing",
+      "assignee": "ACT-001",
+      "order": 4
+    },
+    {
+      "key": "TASK-009",
+      "project": "PRJ-003",
+      "title": "Register all negative/null results",
+      "status": "done",
+      "assignee": "ACT-010",
+      "order": 1
+    },
+    {
+      "key": "TASK-010",
+      "project": "PRJ-003",
+      "title": "Run multiverse-style sensitivity audit",
+      "status": "done",
+      "assignee": "ACT-004",
+      "order": 2
+    },
+    {
+      "key": "TASK-011",
+      "project": "PRJ-003",
+      "title": "Link failed predictions to affected hypotheses",
+      "status": "doing",
+      "assignee": "ACT-010",
+      "order": 3
+    },
+    {
+      "key": "TASK-012",
+      "project": "PRJ-003",
+      "title": "Publish reusable failure summaries",
+      "status": "todo",
+      "assignee": "ACT-012",
+      "order": 4
+    },
+    {
+      "key": "TASK-013",
+      "project": "PRJ-004",
+      "title": "Document batch conditions",
+      "status": "done",
+      "assignee": "ACT-003",
+      "order": 1
+    },
+    {
+      "key": "TASK-014",
+      "project": "PRJ-004",
+      "title": "Execute batch-effect challenge",
+      "status": "done",
+      "assignee": "ACT-008",
+      "order": 2
+    },
+    {
+      "key": "TASK-015",
+      "project": "PRJ-004",
+      "title": "Recalibrate historical KX-17 values",
+      "status": "doing",
+      "assignee": "ACT-006",
+      "order": 3
+    },
+    {
+      "key": "TASK-016",
+      "project": "PRJ-004",
+      "title": "Update measurement limitations",
+      "status": "todo",
+      "assignee": "ACT-010",
+      "order": 4
+    },
+    {
+      "key": "TASK-017",
+      "project": "PRJ-005",
+      "title": "Define minimum research package",
+      "status": "todo",
+      "assignee": "ACT-005",
+      "order": 1
+    },
+    {
+      "key": "TASK-018",
+      "project": "PRJ-005",
+      "title": "Prototype provenance manifest",
+      "status": "todo",
+      "assignee": "ACT-009",
+      "order": 2
+    },
+    {
+      "key": "TASK-019",
+      "project": "PRJ-005",
+      "title": "Map permissions for cross-site data",
+      "status": "todo",
+      "assignee": "ACT-006",
+      "order": 3
+    },
+    {
+      "key": "TASK-020",
+      "project": "PRJ-005",
+      "title": "Pilot one portable replication package",
+      "status": "todo",
+      "assignee": "ACT-008",
+      "order": 4
+    }
+  ],
+  "bridge_contract": {
+    "project_status_enum": [
+      "idea",
+      "progress",
+      "completed",
+      "validated"
+    ],
+    "task_status_enum": [
+      "todo",
+      "doing",
+      "done"
+    ],
+    "team_role_enum": [
+      "owner",
+      "collaborator",
+      "mentor"
+    ],
+    "canonical_links": [
+      "research_questions",
+      "required_capabilities",
+      "decision_context"
+    ]
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "schema_version": "ethikos-demo-scenario/v3",
+  "scenario_key": "operational_resilience_2026_after_action",
+  "scenario_title": "Operational Resilience 2026 — After-Action Reviews",
+  "mode": "replace_scenario",
+  "metadata": {
+    "world_key": "operational-resilience-2026",
+    "simulation": true,
+    "purpose": "After-action deliberation only. Smart Vote and Konsultations are disabled for this World.",
+    "authority_boundary": "Expertise and debate are advisory; operational authority remains external to EkoH/Korum.",
+    "ekoh_score_basis": "synthetic_demo_role_calibration_0_to_1_independent_domains",
+    "simulation_only": true,
+    "bindings": "canon/bindings.json",
+    "timestamp_contract": "Operational source snapshots use ISO-8601 UTC."
+  },
+  "actors": [
+    {
+      "key": "actor_incident_coordinator",
+      "username": "demo_or_incident_coordinator",
+      "display_name": "Avery Morgan",
+      "role": "Regional Incident Coordinator",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "actor_field_lead",
+      "username": "demo_or_field_lead",
+      "display_name": "Jordan Lee",
+      "role": "Field Operations Lead",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "actor_logistics",
+      "username": "demo_or_logistics",
+      "display_name": "Priya Nair",
+      "role": "Logistics Coordinator",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "actor_gis",
+      "username": "demo_or_gis",
+      "display_name": "Mateo Ruiz",
+      "role": "GIS & Intelligence Analyst",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "actor_health",
+      "username": "demo_or_health",
+      "display_name": "Dr. Lena Park",
+      "role": "Health Liaison",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "actor_infrastructure",
+      "username": "demo_or_infrastructure",
+      "display_name": "Samira Haddad",
+      "role": "Infrastructure Liaison",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "actor_cyber",
+      "username": "demo_or_cyber",
+      "display_name": "Noah Bennett",
+      "role": "Cyber & Systems Lead",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "actor_public",
+      "username": "demo_or_public",
+      "display_name": "Claire Dubois",
+      "role": "Public & Community Liaison",
+      "is_ethikos_elite": false
+    }
+  ],
+  "categories": [
+    {
+      "key": "after_action",
+      "name": "After-Action Review",
+      "description": "Structured learning reviews using the historical state of knowledge available at decision time."
+    }
+  ],
+  "topics": [
+    {
+      "key": "aar_wildfire_reroute",
+      "title": "[DEMO] Given only the information available at 14:24, was rerouting Medical Convoy Bravo adequately supported?",
+      "description": "After-action review of DEC-WF-002. Review the historical 14:24 snapshot before considering later reconciliation evidence.",
+      "status": "open",
+      "category": "after_action"
+    },
+    {
+      "key": "aar_bridge_replan",
+      "title": "[DEMO] When the western-corridor travel time changed, was the delivery plan recomputed with the right dependencies visible?",
+      "description": "After-action review of DEC-BR-002, focused on shared constraints and propagation of dependency changes.",
+      "status": "open",
+      "category": "after_action"
+    },
+    {
+      "key": "aar_cyber_isolation",
+      "title": "[DEMO] At 09:22, was isolating the scheduling service adequately supported by the information then available?",
+      "description": "After-action review of DEC-CY-001. Later confirmation at 10:12 is intentionally future evidence and must not be projected backward into the initial review.",
+      "status": "open",
+      "category": "after_action"
+    }
+  ],
+  "stances": [],
+  "arguments": [
+    {
+      "key": "arg_wf_context",
+      "topic": "aar_wildfire_reroute",
+      "actor": "actor_logistics",
+      "content": "At 14:24 the planned heavy-vehicle segment was reported unavailable, the convoy was ready to depart, and an alternate corridor remained available in the exercise. The decision record should be assessed against that state, not against the later 14:46 reconciliation.",
+      "side": "neutral"
+    },
+    {
+      "key": "arg_wf_uncertainty",
+      "topic": "aar_wildfire_reroute",
+      "actor": "actor_gis",
+      "content": "The two Route 117 observations were not yet reconciled at 14:24. The review should ask whether the decision documented that uncertainty clearly enough, even though later evidence showed the reports referred to different segments.",
+      "side": "neutral"
+    },
+    {
+      "key": "arg_br_dependencies",
+      "topic": "aar_bridge_replan",
+      "actor": "actor_logistics",
+      "content": "The route delay changed more than travel time: it affected the refrigerated vehicle window and downstream delivery sequencing. Replanning was useful only if those dependencies moved with the route update.",
+      "side": "neutral"
+    },
+    {
+      "key": "arg_br_health",
+      "topic": "aar_bridge_replan",
+      "actor": "actor_health",
+      "content": "The exercise priority was not simply shortest route. The insulin shipment had the tighter time constraint, while the oxygen delivery retained a later safe window; the review should preserve that reason for the ordering.",
+      "side": "neutral"
+    },
+    {
+      "key": "arg_cy_snapshot",
+      "topic": "aar_cyber_isolation",
+      "actor": "actor_cyber",
+      "content": "At 09:22 the team had an unusual authentication signal, confirmed scheduling failures, a dependency snapshot, and a narrow isolation option. Later confirmation of the attack path was not yet available.",
+      "side": "neutral"
+    },
+    {
+      "key": "arg_cy_hindsight",
+      "topic": "aar_cyber_isolation",
+      "actor": "actor_incident_coordinator",
+      "content": "The after-action review should separate whether the 09:22 decision was reasonable under uncertainty from whether later evidence proved the underlying hypothesis correct.",
+      "side": "neutral"
+    }
+  ],
+  "argument_sources": [
+    {
+      "key": "src_wf_ctx",
+      "argument": "arg_wf_context",
+      "note": "Internal exercise references: dec_wf_002 and snap_wf_hq_1424.",
+      "source_type": "world_internal_evidence"
+    },
+    {
+      "key": "src_wf_unc",
+      "argument": "arg_wf_uncertainty",
+      "note": "Internal exercise references: obs_wf_002, obs_wf_004, and reconciliation event rec_wf_002.",
+      "source_type": "world_internal_evidence"
+    },
+    {
+      "key": "src_br_dep",
+      "argument": "arg_br_dependencies",
+      "note": "Internal exercise references: obs_br_004 and dec_br_002.",
+      "source_type": "world_internal_evidence"
+    },
+    {
+      "key": "src_br_health",
+      "argument": "arg_br_health",
+      "note": "Internal exercise references: obs_br_002, obs_br_005, and dec_br_001.",
+      "source_type": "world_internal_evidence"
+    },
+    {
+      "key": "src_cy_snap",
+      "argument": "arg_cy_snapshot",
+      "note": "Internal exercise references: snap_cy_0922 and dec_cy_001.",
+      "source_type": "world_internal_evidence"
+    },
+    {
+      "key": "src_cy_hindsight",
+      "argument": "arg_cy_hindsight",
+      "note": "Internal exercise reference: obs_cy_006 is future evidence relative to dec_cy_001.",
+      "source_type": "world_internal_evidence"
+    }
+  ],
+  "consultations": [],
+  "consultation_votes": [],
+  "impact_items": [],
+  "ekoh_profiles": [
+    {
+      "actor": "actor_incident_coordinator",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "1032",
+          "raw_score": 0.9,
+          "weighted_score": 0.9
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.8,
+          "weighted_score": 0.8
+        },
+        {
+          "domain_code": "0612",
+          "raw_score": 0.35,
+          "weighted_score": 0.35
+        }
+      ],
+      "publication_basis": "Synthetic World 5 training calibration inferred from the fictional role definition; advisory only, not authority or earned reputation."
+    },
+    {
+      "actor": "actor_field_lead",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "1032",
+          "raw_score": 0.88,
+          "weighted_score": 0.88
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.55,
+          "weighted_score": 0.55
+        },
+        {
+          "domain_code": "0713",
+          "raw_score": 0.45,
+          "weighted_score": 0.45
+        }
+      ],
+      "publication_basis": "Synthetic World 5 training calibration inferred from the fictional role definition; advisory only, not authority or earned reputation."
+    },
+    {
+      "actor": "actor_logistics",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "0413",
+          "raw_score": 0.88,
+          "weighted_score": 0.88
+        },
+        {
+          "domain_code": "09",
+          "raw_score": 0.7,
+          "weighted_score": 0.7
+        },
+        {
+          "domain_code": "1032",
+          "raw_score": 0.6,
+          "weighted_score": 0.6
+        }
+      ],
+      "publication_basis": "Synthetic World 5 training calibration inferred from the fictional role definition; advisory only, not authority or earned reputation."
+    },
+    {
+      "actor": "actor_gis",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "0542",
+          "raw_score": 0.82,
+          "weighted_score": 0.82
+        },
+        {
+          "domain_code": "0612",
+          "raw_score": 0.75,
+          "weighted_score": 0.75
+        },
+        {
+          "domain_code": "1032",
+          "raw_score": 0.55,
+          "weighted_score": 0.55
+        }
+      ],
+      "publication_basis": "Synthetic World 5 training calibration inferred from the fictional role definition; advisory only, not authority or earned reputation."
+    },
+    {
+      "actor": "actor_health",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "09",
+          "raw_score": 0.85,
+          "weighted_score": 0.85
+        },
+        {
+          "domain_code": "092",
+          "raw_score": 0.72,
+          "weighted_score": 0.72
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.52,
+          "weighted_score": 0.52
+        }
+      ],
+      "publication_basis": "Synthetic World 5 training calibration inferred from the fictional role definition; advisory only, not authority or earned reputation."
+    },
+    {
+      "actor": "actor_infrastructure",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "0713",
+          "raw_score": 0.9,
+          "weighted_score": 0.9
+        },
+        {
+          "domain_code": "0612",
+          "raw_score": 0.65,
+          "weighted_score": 0.65
+        },
+        {
+          "domain_code": "1032",
+          "raw_score": 0.55,
+          "weighted_score": 0.55
+        }
+      ],
+      "publication_basis": "Synthetic World 5 training calibration inferred from the fictional role definition; advisory only, not authority or earned reputation."
+    },
+    {
+      "actor": "actor_cyber",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "0612",
+          "raw_score": 0.92,
+          "weighted_score": 0.92
+        },
+        {
+          "domain_code": "0613",
+          "raw_score": 0.8,
+          "weighted_score": 0.8
+        },
+        {
+          "domain_code": "1032",
+          "raw_score": 0.5,
+          "weighted_score": 0.5
+        }
+      ],
+      "publication_basis": "Synthetic World 5 training calibration inferred from the fictional role definition; advisory only, not authority or earned reputation."
+    },
+    {
+      "actor": "actor_public",
+      "rating_visibility": "public",
+      "ethics_score": 1.0,
+      "expertise": [
+        {
+          "domain_code": "0321",
+          "raw_score": 0.9,
+          "weighted_score": 0.9
+        },
+        {
+          "domain_code": "092",
+          "raw_score": 0.65,
+          "weighted_score": 0.65
+        },
+        {
+          "domain_code": "1032",
+          "raw_score": 0.4,
+          "weighted_score": 0.4
+        }
+      ],
+      "publication_basis": "Synthetic World 5 training calibration inferred from the fictional role definition; advisory only, not authority or earned reputation."
+    }
+  ],
+  "consultation_relevance": [],
+  "topic_relevance": [],
+  "reading_exclusions": []
+}

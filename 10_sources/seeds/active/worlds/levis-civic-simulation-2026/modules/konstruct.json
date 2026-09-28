@@ -1,0 +1,199 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "levis-civic-simulation-2026",
+  "content_version": "0.2.1",
+  "import_status": "staged_sidecar",
+  "module": "keenkonnect.konstruct",
+  "projects": [
+    {
+      "key": "prj_levis_growth_2030",
+      "title": "Growth Lévis 2030",
+      "category": "civic_planning",
+      "status": "idea",
+      "creator_actor": "expert_public_participation",
+      "consultation_ref": "levis_growth_2030",
+      "description": "Transformer le résultat de la consultation Croissance Lévis 2030 en scénario de mise en œuvre traçable. Projet entièrement simulé.",
+      "required_domain_codes": [
+        "0731",
+        "0311",
+        "0413",
+        "092",
+        "0521",
+        "0542"
+      ],
+      "tasks": [
+        {
+          "key": "tsk_growth_01",
+          "order": 1,
+          "title": "Établir la base de capacité des infrastructures",
+          "status": "todo",
+          "assignee_actor": "expert_water_infrastructure",
+          "knowledge_refs": [
+            "kno_lev_04"
+          ]
+        },
+        {
+          "key": "tsk_growth_02",
+          "order": 2,
+          "title": "Établir les hypothèses de logement et de croissance",
+          "status": "todo",
+          "assignee_actor": "expert_housing_planning",
+          "knowledge_refs": [
+            "kno_lev_06"
+          ]
+        },
+        {
+          "key": "tsk_growth_03",
+          "order": 3,
+          "title": "Comparer les mécanismes de financement de la croissance",
+          "status": "todo",
+          "assignee_actor": "expert_municipal_finance",
+          "knowledge_refs": [
+            "kno_lev_03",
+            "kno_lev_05"
+          ]
+        },
+        {
+          "key": "tsk_growth_04",
+          "order": 4,
+          "title": "Construire trois scénarios intégrés et comparables",
+          "status": "todo",
+          "assignee_actor": "expert_housing_planning",
+          "knowledge_refs": [
+            "kno_lev_04",
+            "kno_lev_05",
+            "kno_lev_06"
+          ]
+        },
+        {
+          "key": "tsk_growth_05",
+          "order": 5,
+          "title": "Maintenir le registre risques / hypothèses / dépendances",
+          "status": "todo",
+          "assignee_actor": "expert_municipal_finance",
+          "knowledge_refs": [
+            "kno_lev_02",
+            "kno_lev_03"
+          ]
+        },
+        {
+          "key": "tsk_growth_06",
+          "order": 6,
+          "title": "Synthétiser la consultation sans effacer les désaccords",
+          "status": "todo",
+          "assignee_actor": "expert_public_participation",
+          "knowledge_refs": [
+            "kno_lev_12"
+          ]
+        },
+        {
+          "key": "tsk_growth_07",
+          "order": 7,
+          "title": "Publier le scénario d’implémentation et ses conditions de révision",
+          "status": "todo",
+          "assignee_actor": "expert_water_infrastructure",
+          "knowledge_refs": [
+            "kno_lev_01",
+            "kno_lev_12"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "prj_levis_mobility_2035",
+      "title": "Mobility Lévis 2035",
+      "category": "civic_mobility",
+      "status": "idea",
+      "creator_actor": "expert_public_participation",
+      "consultation_ref": "levis_mobility_2035",
+      "description": "Transformer la consultation Mobilité Lévis 2035 en portefeuille comparable, documenté et révisable. Projet entièrement simulé.",
+      "required_domain_codes": [
+        "0731",
+        "0311",
+        "0413",
+        "0312",
+        "0542",
+        "092",
+        "0521"
+      ],
+      "tasks": [
+        {
+          "key": "tsk_mobility_01",
+          "order": 1,
+          "title": "Définir les problèmes et résultats recherchés",
+          "status": "todo",
+          "assignee_actor": "expert_mobility_planning",
+          "knowledge_refs": [
+            "kno_lev_07",
+            "kno_lev_08"
+          ]
+        },
+        {
+          "key": "tsk_mobility_02",
+          "order": 2,
+          "title": "Établir la base du réseau existant et ses dépendances",
+          "status": "todo",
+          "assignee_actor": "expert_mobility_planning",
+          "knowledge_refs": [
+            "kno_lev_07",
+            "kno_lev_09"
+          ]
+        },
+        {
+          "key": "tsk_mobility_03",
+          "order": 3,
+          "title": "Construire le scénario transport collectif structurant",
+          "status": "todo",
+          "assignee_actor": "expert_mobility_planning",
+          "knowledge_refs": [
+            "kno_lev_09"
+          ]
+        },
+        {
+          "key": "tsk_mobility_04",
+          "order": 4,
+          "title": "Construire le scénario interrives et ses hypothèses",
+          "status": "todo",
+          "assignee_actor": "expert_mobility_planning",
+          "knowledge_refs": [
+            "kno_lev_08"
+          ]
+        },
+        {
+          "key": "tsk_mobility_05",
+          "order": 5,
+          "title": "Comparer coûts, phasage et contraintes financières",
+          "status": "todo",
+          "assignee_actor": "expert_municipal_finance",
+          "knowledge_refs": [
+            "kno_lev_02",
+            "kno_lev_03"
+          ]
+        },
+        {
+          "key": "tsk_mobility_06",
+          "order": 6,
+          "title": "Revue accessibilité, équité d’accès et participation",
+          "status": "todo",
+          "assignee_actor": "expert_public_participation",
+          "knowledge_refs": [
+            "kno_lev_07",
+            "kno_lev_12"
+          ]
+        },
+        {
+          "key": "tsk_mobility_07",
+          "order": 7,
+          "title": "Publier le portefeuille recommandé avec dissensus résiduel",
+          "status": "todo",
+          "assignee_actor": "expert_mobility_planning",
+          "knowledge_refs": [
+            "kno_lev_07",
+            "kno_lev_08",
+            "kno_lev_09"
+          ]
+        }
+      ]
+    }
+  ]
+}

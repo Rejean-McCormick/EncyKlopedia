@@ -1,0 +1,169 @@
+# ============================================================
+# SemantiK / EncyKlopedia - Git ignore
+# Keep source code, docs, schemas, tests, examples and profiles.
+# Exclude local/runtime/generated/heavy/private artifacts.
+# ============================================================
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Packaging / build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# IDE / editor / OS
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / diagnostics / temp
+*.log
+logs/
+log/
+tmp/
+temp/
+.cache/
+cache/
+diagnostics/
+crash/
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Local secrets / machine-specific config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+credentials/
+local.settings.json
+settings.local.json
+config.local.*
+*.local.toml
+*.local.yaml
+*.local.yml
+*.local.json
+
+# Databases / local indexes / generated stores
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.duckdb
+*.lmdb
+*.mdb
+
+# Data dumps / corpora / compressed sources
+*.bz2
+*.gz
+*.xz
+*.zst
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.parquet
+*.feather
+*.arrow
+
+# Runtime / generated data
+runtime/cache/
+runtime/temp/
+runtime/logs/
+runtime/recovery/
+runtime/downloads/
+runtime/generated/
+runtime/work/
+runtime/state/
+data/
+datasets/
+dumps/
+downloads/
+working/
+recovery/
+backups/
+backup/
+
+# Large lexical / knowledge artifacts
+lexical-cache/
+wikidata-cache/
+wiktionary-cache/
+entity-vault/
+qid-locator*
+*.pgf
+
+# Snapshot / upload artifacts
+Code_snapshot_*.zip
+Code_snapshot_*.7z
+Code_snapshot_*.tar*
+Index(*).txt
+Index_*.txt
+MASTER_INDEX*.txt
+snapshot_*.zip
+snapshots/*.zip
+upload/*.zip
+
+# Generated reports / manifests
+VALIDATION_REPORT.generated.*
+validation-output/
+reports/generated/
+manifests/generated/
+
+# Lock / process files
+*.lock.tmp
+*.pid
+
+# Installer recovery copies
+_recovery/
+recovery_*/
+*_prepatch_*/
+*_backup_*/
+
+# Explicitly keep source assets
+!docs/**
+!schemas/**
+!tests/**
+!examples/**
+!profiles/**
+!src/**
+!tools/**
+!README.md
+!LICENSE

@@ -1,0 +1,23 @@
+{
+  "schema_version": "kx-world-campaign-changelog/v1",
+  "world_key": "ethikos-elections-quebec-2026-fr",
+  "baseline_as_of": "2026-09-09",
+  "latest_reviewed_as_of": "2026-09-09",
+  "status": "baseline_only_needs_campaign_refresh",
+  "events": [
+    {
+      "event_key": "baseline_2026_09_09",
+      "date": "2026-09-09",
+      "event_type": "baseline_snapshot",
+      "summary": "Import du corpus électoral fourni, daté du 9 septembre 2026.",
+      "claim_count": 60,
+      "source_count": 54
+    }
+  ],
+  "update_policy": {
+    "automatic_publication": false,
+    "ai_may_propose_diffs": true,
+    "human_review_required_for_claim_changes": true,
+    "source_version_must_be_preserved": true
+  }
+}

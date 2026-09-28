@@ -1,0 +1,968 @@
+{
+  "schema_version": "ethikos-demo-scenario/v3",
+  "scenario_key": "ethikos_political_philosophy_v1",
+  "scenario_title": "Political Philosophy Lab — canonical debates",
+  "mode": "replace_scenario",
+  "metadata": {
+    "description": "Canonical sourced debate layer for Political Philosophy Lab. The ten forum threads remain autonomous debates; cross-module learning/case/capstone content lives in declared sidecars.",
+    "language": "fr",
+    "source_format": "forum_threads_markdown",
+    "source_directory": "sources",
+    "world_experience_version": "2.1.0",
+    "canonical_actor_policy": {
+      "thinkers_are_source_reconstructions": true,
+      "seed_numeric_stances": false,
+      "seed_ekoh_scores_for_thinkers": false,
+      "seed_votes_for_thinkers": false,
+      "note": "Attributed interventions are synthetic reconstructions grounded in supplied sources, not verbatim quotations.",
+      "policy_file": "policies/canonical-actors.json"
+    },
+    "content_layers": {
+      "canonical": "10 Korum debates + sourced arguments",
+      "designed_extension": "Knowledge gates, four fictional cases, certification path, capstone templates and module policies"
+    }
+  },
+  "actors": [
+    {
+      "key": "carol_c_gould",
+      "username": "pp__carol_c_gould",
+      "display_name": "Carol C. Gould",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "omar_dahbour",
+      "username": "pp__omar_dahbour",
+      "display_name": "Omar Dahbour",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "nancy_fraser",
+      "username": "pp__nancy_fraser",
+      "display_name": "Nancy Fraser",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "iris_marion_young",
+      "username": "pp__iris_marion_young",
+      "display_name": "Iris Marion Young",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "david_held",
+      "username": "pp__david_held",
+      "display_name": "David Held",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "david_miller",
+      "username": "pp__david_miller",
+      "display_name": "David Miller",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "james_tully",
+      "username": "pp__james_tully",
+      "display_name": "James Tully",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "thomas_pogge",
+      "username": "pp__thomas_pogge",
+      "display_name": "Thomas Pogge",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "john_rawls",
+      "username": "pp__john_rawls",
+      "display_name": "John Rawls",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "jurgen_habermas",
+      "username": "pp__jurgen_habermas",
+      "display_name": "Jürgen Habermas",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "chantal_mouffe",
+      "username": "pp__chantal_mouffe",
+      "display_name": "Chantal Mouffe",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "helene_landemore",
+      "username": "pp__helene_landemore",
+      "display_name": "Hélène Landemore",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    },
+    {
+      "key": "jason_brennan",
+      "username": "pp__jason_brennan",
+      "display_name": "Jason Brennan",
+      "role": "reconstructed_philosophical_position",
+      "is_ethikos_elite": false,
+      "representation_kind": "canonical_source_reconstruction",
+      "participation_policy": "argument_source_only_no_seed_vote_no_seed_ekoh_score",
+      "policy_ref": "canonical-thinker-personas"
+    }
+  ],
+  "categories": [
+    {
+      "key": "who_decides",
+      "name": "Qui décide ?",
+      "description": "Demos, participation, échelle, autodétermination et territoire."
+    },
+    {
+      "key": "justice_structures",
+      "name": "Justice, structures et responsabilité",
+      "description": "Justice globale, domination, cadrage et responsabilité structurelle."
+    },
+    {
+      "key": "legitimacy_disagreement",
+      "name": "Légitimité, droits et désaccord",
+      "description": "Droits, majorité, pluralisme, délibération et conflit."
+    },
+    {
+      "key": "expertise_power",
+      "name": "Expertise, connaissance et pouvoir",
+      "description": "Rapport entre autorité épistémique et autorité politique."
+    }
+  ],
+  "topics": [
+    {
+      "key": "demos",
+      "title": "[DEMO][PP] Qui constitue le demos ?",
+      "description": "Lorsqu'une décision traverse les frontières ou touche plusieurs groupes, qui possède un droit démocratique à participer ?\n\nTags source: democratie, demos, participation, representation, frontieres",
+      "status": "open",
+      "category": "who_decides",
+      "content_role": "canonical_debate",
+      "canonical_status": "source_reconstruction"
+    },
+    {
+      "key": "democratie-globale",
+      "title": "[DEMO][PP] La démocratie doit-elle devenir globale ?",
+      "description": "Quand les pouvoirs économiques, technologiques et politiques traversent les frontières, la démocratie doit-elle les suivre ?\n\nTags source: democratie-globale, cosmopolitisme, souverainete, mondialisation",
+      "status": "open",
+      "category": "who_decides",
+      "content_role": "canonical_debate",
+      "canonical_status": "source_reconstruction"
+    },
+    {
+      "key": "democratiser-ou-demanteler",
+      "title": "[DEMO][PP] Démocratiser une structure injuste ou la démanteler ?",
+      "description": "Lorsqu'une institution ou une relation transnationale produit de la domination, faut-il la rendre démocratique ou réduire son pouvoir ?\n\nTags source: domination, institutions, democratisation, resistance, imperialisme",
+      "status": "open",
+      "category": "justice_structures",
+      "content_role": "canonical_debate",
+      "canonical_status": "source_reconstruction"
+    },
+    {
+      "key": "justice-globale",
+      "title": "[DEMO][PP] La justice distributive doit-elle être globale ?",
+      "description": "Les exigences de justice entre concitoyens doivent-elles s'appliquer de la même manière à l'ensemble de l'humanité ?\n\nTags source: justice-globale, redistribution, droits-humains, responsabilite",
+      "status": "open",
+      "category": "justice_structures",
+      "content_role": "canonical_debate",
+      "canonical_status": "source_reconstruction"
+    },
+    {
+      "key": "autodetermination-territoire",
+      "title": "[DEMO][PP] Qu'est-ce qui fonde l'autodétermination politique ?",
+      "description": "Une communauté a-t-elle un droit particulier à se gouverner parce qu'elle forme une nation, partage des institutions, ou vit durablement sur un territoire ?\n\nTags source: autodetermination, territoire, nation, souverainete, communaute",
+      "status": "open",
+      "category": "who_decides",
+      "content_role": "canonical_debate",
+      "canonical_status": "source_reconstruction"
+    },
+    {
+      "key": "ecosouverainete",
+      "title": "[DEMO][PP] Une communauté peut-elle revendiquer une écosouveraineté ?",
+      "description": "Les peuples vivant en relation durable avec un écosystème possèdent-ils une autorité politique particulière sur ce territoire et ses ressources ?\n\nTags source: ecosouverainete, environnement, territoire, extractivisme, peuples",
+      "status": "open",
+      "category": "who_decides",
+      "content_role": "canonical_debate",
+      "canonical_status": "source_reconstruction"
+    },
+    {
+      "key": "droits-humains-democratie",
+      "title": "[DEMO][PP] Les droits humains peuvent-ils limiter la démocratie ?",
+      "description": "Quand une majorité démocratique veut adopter une décision injuste, qu'est-ce qui peut légitimement l'arrêter ?\n\nTags source: droits-humains, democratie, majorite, justice, legitimite",
+      "status": "open",
+      "category": "legitimacy_disagreement",
+      "content_role": "canonical_debate",
+      "canonical_status": "source_reconstruction"
+    },
+    {
+      "key": "injustice-structurelle",
+      "title": "[DEMO][PP] Qui est responsable d'une injustice structurelle ?",
+      "description": "Qui doit agir lorsqu'une injustice résulte d'un système auquel beaucoup de personnes contribuent sans qu'aucune ne l'ait voulue seule ?\n\nTags source: injustice-structurelle, responsabilite, institutions, globalisation",
+      "status": "open",
+      "category": "justice_structures",
+      "content_role": "canonical_debate",
+      "canonical_status": "source_reconstruction"
+    },
+    {
+      "key": "consensus-conflit",
+      "title": "[DEMO][PP] La démocratie doit-elle viser le consensus ?",
+      "description": "Une bonne délibération doit-elle chercher un accord rationnel, ou certaines oppositions doivent-elles rester politiquement ouvertes ?\n\nTags source: deliberation, consensus, agonisme, conflit, pluralisme",
+      "status": "open",
+      "category": "legitimacy_disagreement",
+      "content_role": "canonical_debate",
+      "canonical_status": "source_reconstruction"
+    },
+    {
+      "key": "expertise-democratie",
+      "title": "[DEMO][PP] Savoir davantage donne-t-il le droit de décider davantage ?",
+      "description": "Lorsque les citoyens ont des niveaux très différents de compétence politique ou technique, l'égalité du pouvoir démocratique reste-t-elle justifiée ?\n\nTags source: expertise, epistocratie, democratie, competence, technologie",
+      "status": "open",
+      "category": "expertise_power",
+      "content_role": "canonical_debate",
+      "canonical_status": "source_reconstruction"
+    }
+  ],
+  "stances": [],
+  "arguments": [
+    {
+      "key": "demos__carol_c_gould",
+      "topic": "demos",
+      "actor": "carol_c_gould",
+      "content": "Le fait d'être simplement affecté ne suffit pas toujours à déterminer qui doit codécider. Un lien plus fort apparaît lorsque des personnes participent à une **activité commune**; l'impact sur des droits humains fondamentaux peut aussi créer une exigence d'input, même sans pleine appartenance au groupe décisionnel."
+    },
+    {
+      "key": "demos__nancy_fraser",
+      "topic": "demos",
+      "actor": "nancy_fraser",
+      "content": "Le critère décisif n'est ni la nationalité ni la simple causalité. Ceux qui sont **soumis à une même structure de gouvernance** doivent pouvoir se considérer comme sujets de justice vis-à-vis de cette structure."
+    },
+    {
+      "key": "demos__iris_marion_young",
+      "topic": "demos",
+      "actor": "iris_marion_young",
+      "content": "Les frontières institutionnelles ne suffisent pas non plus. Lorsque nos actions participent aux mêmes processus sociaux structurels, ces connexions peuvent produire des obligations de justice qui traversent les frontières."
+    },
+    {
+      "key": "demos__omar_dahbour",
+      "topic": "demos",
+      "actor": "omar_dahbour",
+      "content": "Une interdépendance ne crée pas automatiquement un peuple ou une communauté politique légitime. Le droit à l'autodétermination suppose qu'on puisse identifier des communautés capables de se gouverner sans transformer toute connexion transnationale en un demos global."
+    },
+    {
+      "key": "demos__david_miller",
+      "topic": "demos",
+      "actor": "david_miller",
+      "content": "L'appartenance nationale peut avoir une importance normative réelle : elle soutient des responsabilités collectives, des obligations particulières et des institutions communes. Une théorie du demos ne doit donc pas supposer que les frontières nationales sont moralement insignifiantes."
+    },
+    {
+      "key": "democratie-globale__david_held",
+      "topic": "democratie-globale",
+      "actor": "david_held",
+      "content": "Une démocratie enfermée dans l'État peut perdre le contrôle de décisions prises à l'extérieur de ses frontières. Si les centres de pouvoir sont transnationaux, une partie des institutions démocratiques doit donc l'être aussi."
+    },
+    {
+      "key": "democratie-globale__carol_c_gould",
+      "topic": "democratie-globale",
+      "actor": "carol_c_gould",
+      "content": "Oui, mais la réponse n'est pas nécessairement un État mondial. Les réseaux et activités transnationaux peuvent être démocratisés à plusieurs niveaux, tout en maintenant des formes d'autonomie locale et en protégeant les droits humains."
+    },
+    {
+      "key": "democratie-globale__omar_dahbour",
+      "topic": "democratie-globale",
+      "actor": "omar_dahbour",
+      "content": "La difficulté est que la mondialisation réellement existante n'est pas un réseau neutre qui attend seulement d'être démocratisé. Certaines intégrations mondiales sont liées à la domination; une politique démocratique peut donc devoir préserver ou reconstruire l'autodétermination plutôt que toujours augmenter l'échelle institutionnelle."
+    },
+    {
+      "key": "democratie-globale__carol_c_gould_reponse_a_cette_objection",
+      "topic": "democratie-globale",
+      "actor": "carol_c_gould",
+      "content": "Le caractère impérial de certaines formes de mondialisation ne fait pas disparaître les interdépendances transnationales déjà constituées. Lorsque ces réseaux exercent un pouvoir réel, l'enjeu demeure de les soumettre à des formes de démocratie substantielle."
+    },
+    {
+      "key": "democratie-globale__nancy_fraser",
+      "topic": "democratie-globale",
+      "actor": "nancy_fraser",
+      "content": "Avant de choisir une échelle, il faut traiter le **problème du cadrage** : qui compte comme sujet de justice, relativement à quelle structure ? Une démocratie globale uniforme peut être aussi problématique qu'un enfermement automatique dans le cadre étatique."
+    },
+    {
+      "key": "democratie-globale__james_tully",
+      "topic": "democratie-globale",
+      "actor": "james_tully",
+      "content": "Une institution globale peut être juridiquement démocratique tout en restant enchâssée dans des relations de domination, dépendance ou impérialisme. La démocratisation doit donc examiner les pratiques réelles de pouvoir, pas seulement l'échelle institutionnelle."
+    },
+    {
+      "key": "democratiser-ou-demanteler__omar_dahbour",
+      "topic": "democratiser-ou-demanteler",
+      "actor": "omar_dahbour",
+      "content": "Il ne suffit pas de demander comment démocratiser une activité commune. Il faut aussi demander si cette activité, cette intégration ou cette institution mérite d'être maintenue lorsqu'elle s'est constituée par domination."
+    },
+    {
+      "key": "democratiser-ou-demanteler__carol_c_gould",
+      "topic": "democratiser-ou-demanteler",
+      "actor": "carol_c_gould",
+      "content": "Certaines relations transnationales sont effectivement injustes, mais elles structurent déjà la vie de millions de personnes. Les abandonner à des centres de pouvoir non démocratiques n'est pas une solution; elles peuvent exiger une transformation démocratique substantielle."
+    },
+    {
+      "key": "democratiser-ou-demanteler__james_tully",
+      "topic": "democratiser-ou-demanteler",
+      "actor": "james_tully",
+      "content": "Le choix « conserver ou abolir » est parfois trop institutionnel. Il faut regarder les pratiques de liberté par lesquelles les personnes contestent, négocient et transforment des relations impériales depuis l'intérieur et l'extérieur des institutions."
+    },
+    {
+      "key": "democratiser-ou-demanteler__nancy_fraser",
+      "topic": "democratiser-ou-demanteler",
+      "actor": "nancy_fraser",
+      "content": "Une structure peut créer une injustice non seulement par ce qu'elle distribue, mais par la manière dont elle définit le cadre et exclut certains sujets du processus politique. La transformation doit donc porter aussi sur **qui peut contester et redéfinir le cadre lui-même**."
+    },
+    {
+      "key": "democratiser-ou-demanteler__thomas_pogge",
+      "topic": "democratiser-ou-demanteler",
+      "actor": "thomas_pogge",
+      "content": "Une autre question est de savoir si les règles institutionnelles globales causent ou perpétuent des privations évitables. Si oui, les acteurs qui soutiennent cet ordre ont au minimum un devoir de ne pas contribuer à ces dommages et de réformer les règles."
+    },
+    {
+      "key": "justice-globale__thomas_pogge",
+      "topic": "justice-globale",
+      "actor": "thomas_pogge",
+      "content": "L'ordre institutionnel mondial doit lui-même être évalué du point de vue de la justice lorsqu'il produit des effets profonds et prévisibles sur les personnes. La frontière nationale ne suffit pas à soustraire ces institutions à l'évaluation morale."
+    },
+    {
+      "key": "justice-globale__iris_marion_young",
+      "topic": "justice-globale",
+      "actor": "iris_marion_young",
+      "content": "Les obligations globales n'ont pas besoin de dépendre d'un gouvernement mondial. Elles peuvent naître du fait que nous participons aux mêmes processus structurels qui produisent des avantages pour certains et des injustices pour d'autres."
+    },
+    {
+      "key": "justice-globale__david_miller",
+      "topic": "justice-globale",
+      "actor": "david_miller",
+      "content": "La justice globale n'a pas besoin de reproduire l'égalité sociale exigible au sein d'une nation. Les communautés nationales peuvent avoir des responsabilités particulières envers leurs membres, tout en restant soumises à des devoirs globaux et à un minimum de droits humains."
+    },
+    {
+      "key": "justice-globale__john_rawls",
+      "topic": "justice-globale",
+      "actor": "john_rawls",
+      "content": "Les principes qui règlent une société libérale domestique ne sont pas simplement transposés à l'échelle mondiale. Le cadre international est pensé comme une **Société des peuples**, avec des principes de coopération, des droits humains fondamentaux et un devoir d'assistance."
+    },
+    {
+      "key": "justice-globale__carol_c_gould",
+      "topic": "justice-globale",
+      "actor": "carol_c_gould",
+      "content": "Les droits économiques et sociaux et les relations transnationales peuvent fonder des exigences de justice qui dépassent l'État. Mais leur institutionnalisation doit rester attentive à la participation démocratique, à la pluralité culturelle et à l'autonomie locale."
+    },
+    {
+      "key": "justice-globale__omar_dahbour",
+      "topic": "justice-globale",
+      "actor": "omar_dahbour",
+      "content": "Parler de « justice globale » comme si l'humanité formait déjà une société politique unique risque de présupposer ce qui doit être démontré. Les obligations morales globales existent, mais la justice sociale est liée à des communautés et institutions politiques déterminées."
+    },
+    {
+      "key": "autodetermination-territoire__omar_dahbour",
+      "topic": "autodetermination-territoire",
+      "actor": "omar_dahbour",
+      "content": "L'autodétermination ne doit pas être confondue avec le nationalisme. Des communautés politiques peuvent revendiquer une souveraineté sans devoir se constituer en États-nations homogènes; le territoire et les relations écologiques deviennent alors centraux."
+    },
+    {
+      "key": "autodetermination-territoire__david_miller",
+      "topic": "autodetermination-territoire",
+      "actor": "david_miller",
+      "content": "La nation peut néanmoins constituer une forme importante de communauté éthique et politique. Les identités nationales permettent des responsabilités collectives et peuvent justifier certaines obligations particulières entre membres."
+    },
+    {
+      "key": "autodetermination-territoire__carol_c_gould",
+      "topic": "autodetermination-territoire",
+      "actor": "carol_c_gould",
+      "content": "Autonomie locale et démocratie transnationale ne sont pas nécessairement incompatibles. Une conception multiniveau de la démocratie peut reconnaître des communautés autodéterminées tout en donnant une voix aux personnes impliquées dans des activités qui traversent leurs frontières."
+    },
+    {
+      "key": "autodetermination-territoire__james_tully",
+      "topic": "autodetermination-territoire",
+      "actor": "james_tully",
+      "content": "L'autodétermination ne se réduit pas à l'attribution définitive d'une souveraineté. Elle peut aussi être comprise comme une pratique continue de liberté civique, de négociation et de contestation des relations de pouvoir."
+    },
+    {
+      "key": "ecosouverainete__omar_dahbour",
+      "topic": "ecosouverainete",
+      "actor": "omar_dahbour",
+      "content": "Oui, sous certaines conditions. L'écosouveraineté attribue une autorité collective forte aux peuples vivant en relation avec des écosystèmes particuliers, à condition que leur gestion soit soutenable; cette autorité peut entrer en conflit avec les prétentions d'États plus vastes ou de corporations extractives."
+    },
+    {
+      "key": "ecosouverainete__carol_c_gould",
+      "topic": "ecosouverainete",
+      "actor": "carol_c_gould",
+      "content": "Une revendication territoriale ou communautaire doit aussi être examinée du point de vue des droits humains et de ceux qui participent aux activités communes concernées. L'autonomie locale est importante, mais elle n'épuise pas nécessairement les obligations envers les autres personnes affectées par des institutions transnationales."
+    },
+    {
+      "key": "ecosouverainete__james_tully",
+      "topic": "ecosouverainete",
+      "actor": "james_tully",
+      "content": "Les conflits écologiques ne peuvent pas être séparés des histoires d'impérialisme, d'appropriation et de domination. Les revendications locales gagnent donc à être comprises comme des pratiques de liberté contre des relations de pouvoir durables, pas seulement comme des demandes administratives de compétence."
+    },
+    {
+      "key": "ecosouverainete__nancy_fraser",
+      "topic": "ecosouverainete",
+      "actor": "nancy_fraser",
+      "content": "Une question supplémentaire est celle du cadrage : quelles structures gouvernent effectivement l'écosystème ? État, corporation, traité, marché, communauté locale ? Les personnes soumises à ces pouvoirs doivent pouvoir contester les règles qui organisent leur interaction."
+    },
+    {
+      "key": "ecosouverainete__thomas_pogge",
+      "topic": "ecosouverainete",
+      "actor": "thomas_pogge",
+      "content": "Même si une communauté possède une autorité locale particulière, les institutions nationales et mondiales qui façonnent l'extraction, le commerce et les droits de propriété restent évaluables lorsqu'elles contribuent à des dommages évitables."
+    },
+    {
+      "key": "droits-humains-democratie__carol_c_gould",
+      "topic": "droits-humains-democratie",
+      "actor": "carol_c_gould",
+      "content": "La démocratie ne peut pas être comprise comme une autorisation illimitée donnée à la majorité. Les droits humains encadrent la participation démocratique; inversement, la démocratie compte elle-même parmi les conditions permettant aux personnes d'exercer leur liberté égale."
+    },
+    {
+      "key": "droits-humains-democratie__john_rawls",
+      "topic": "droits-humains-democratie",
+      "actor": "john_rawls",
+      "content": "Une démocratie constitutionnelle n'est pas seulement la règle de la majorité. Des libertés et droits fondamentaux ont une place structurante dans la conception de la justice et dans l'usage public du pouvoir politique."
+    },
+    {
+      "key": "droits-humains-democratie__jurgen_habermas",
+      "topic": "droits-humains-democratie",
+      "actor": "jurgen_habermas",
+      "content": "Droits et souveraineté populaire ne doivent pas être traités comme deux principes extérieurs qui se limitent mutuellement. Ils peuvent être compris comme co-originaires : les citoyens doivent disposer des droits qui rendent possible leur participation à la formation démocratique de la volonté."
+    },
+    {
+      "key": "droits-humains-democratie__chantal_mouffe",
+      "topic": "droits-humains-democratie",
+      "actor": "chantal_mouffe",
+      "content": "Il faut néanmoins se méfier d'une présentation trop harmonieuse. La démocratie libérale contient des tensions durables entre liberté, égalité, pluralisme et pouvoir; certaines ne disparaissent pas par une meilleure procédure rationnelle."
+    },
+    {
+      "key": "droits-humains-democratie__helene_landemore",
+      "topic": "droits-humains-democratie",
+      "actor": "helene_landemore",
+      "content": "Protéger la démocratie contre ses propres défaillances ne justifie pas automatiquement de fermer le pouvoir aux citoyens ordinaires. Une réponse peut être d'ouvrir davantage la représentation, la délibération et l'initiative politique plutôt que de transférer les décisions aux élites."
+    },
+    {
+      "key": "injustice-structurelle__iris_marion_young",
+      "topic": "injustice-structurelle",
+      "actor": "iris_marion_young",
+      "content": "La responsabilité ne doit pas toujours chercher un coupable isolé. Lorsque de nombreux acteurs contribuent à des processus structurels injustes, ils partagent une responsabilité prospective de transformer ces processus par l'action collective."
+    },
+    {
+      "key": "injustice-structurelle__thomas_pogge",
+      "topic": "injustice-structurelle",
+      "actor": "thomas_pogge",
+      "content": "Il faut aussi examiner les règles institutionnelles que nous contribuons à maintenir. Lorsque l'ordre institutionnel impose ou perpétue de manière prévisible des privations graves et évitables, la question de la responsabilité ne peut être réduite à la charité individuelle."
+    },
+    {
+      "key": "injustice-structurelle__nancy_fraser",
+      "topic": "injustice-structurelle",
+      "actor": "nancy_fraser",
+      "content": "Une injustice peut en outre provenir du **cadre politique lui-même** : certaines personnes n'ont même pas qualité pour formuler leurs revendications dans l'arène qui décide. Redistribution, reconnaissance et représentation doivent donc être examinées ensemble."
+    },
+    {
+      "key": "injustice-structurelle__james_tully",
+      "topic": "injustice-structurelle",
+      "actor": "james_tully",
+      "content": "Une analyse structurelle doit rester attentive aux histoires d'impérialisme et aux pratiques contemporaines par lesquelles la domination est reproduite. Les sujets ne sont pas seulement les destinataires de politiques : ils peuvent développer des pratiques de résistance et de liberté civique."
+    },
+    {
+      "key": "injustice-structurelle__carol_c_gould",
+      "topic": "injustice-structurelle",
+      "actor": "carol_c_gould",
+      "content": "Si les structures économiques et sociales organisent des activités communes et déterminent fortement les possibilités de vie, la démocratie peut devoir s'étendre à ces institutions elles-mêmes. La responsabilité structurelle conduit alors vers une question de **démocratisation du pouvoir économique**."
+    },
+    {
+      "key": "consensus-conflit__jurgen_habermas",
+      "topic": "consensus-conflit",
+      "actor": "jurgen_habermas",
+      "content": "La légitimité démocratique dépend de procédures dans lesquelles les citoyens peuvent échanger des raisons et participer à la formation publique de la volonté. L'accord n'est légitime que s'il peut être relié à des conditions de communication et de droit qui traitent les participants comme libres et égaux."
+    },
+    {
+      "key": "consensus-conflit__chantal_mouffe",
+      "topic": "consensus-conflit",
+      "actor": "chantal_mouffe",
+      "content": "Le conflit n'est pas simplement un défaut d'information ou de rationalité. La politique démocratique doit transformer l'antagonisme en confrontation entre adversaires légitimes plutôt que rêver d'un consensus qui supprimerait les divisions constitutives du pluralisme."
+    },
+    {
+      "key": "consensus-conflit__iris_marion_young",
+      "topic": "consensus-conflit",
+      "actor": "iris_marion_young",
+      "content": "La délibération peut elle-même devenir excluante si une conception étroite du discours raisonnable privilégie certains styles, expériences ou positions sociales. Une démocratie inclusive doit donc reconnaître plusieurs formes de communication politique."
+    },
+    {
+      "key": "consensus-conflit__helene_landemore",
+      "topic": "consensus-conflit",
+      "actor": "helene_landemore",
+      "content": "Même lorsque le consensus est impossible, ouvrir largement la participation peut améliorer la qualité épistémique et démocratique du processus. L'enjeu est moins de garantir l'unanimité que d'empêcher la fermeture durable du pouvoir autour d'une élite."
+    },
+    {
+      "key": "consensus-conflit__carol_c_gould",
+      "topic": "consensus-conflit",
+      "actor": "carol_c_gould",
+      "content": "La démocratie doit permettre une participation égale dans les activités communes, mais elle doit également respecter pluralité, différences culturelles et droits. Le désaccord n'est donc pas nécessairement quelque chose qu'une procédure démocratique doit faire disparaître."
+    },
+    {
+      "key": "expertise-democratie__jason_brennan",
+      "topic": "expertise-democratie",
+      "actor": "jason_brennan",
+      "content": "Les personnes soumises au pouvoir politique ont un intérêt à ce que ce pouvoir soit exercé avec compétence. Si l'électorat prend systématiquement des décisions ignorantes ou irrationnelles, l'universalité égale du suffrage peut elle-même devenir contestable."
+    },
+    {
+      "key": "expertise-democratie__helene_landemore",
+      "topic": "expertise-democratie",
+      "actor": "helene_landemore",
+      "content": "L'alternative n'est pas nécessairement entre électeurs ignorants et experts compétents. Des groupes de citoyens ordinaires diversifiés peuvent mobiliser des connaissances dispersées et produire de bonnes décisions si les institutions leur donnent réellement accès au pouvoir et à l'information."
+    },
+    {
+      "key": "expertise-democratie__jurgen_habermas",
+      "topic": "expertise-democratie",
+      "actor": "jurgen_habermas",
+      "content": "L'expertise fournit des connaissances, mais elle ne remplace pas la justification publique des normes qui s'imposent aux citoyens. Une décision technique peut dépendre de faits spécialisés tout en exigeant une légitimation démocratique lorsque des valeurs et des droits sont en jeu."
+    },
+    {
+      "key": "expertise-democratie__carol_c_gould",
+      "topic": "expertise-democratie",
+      "actor": "carol_c_gould",
+      "content": "Les technologies peuvent faciliter la participation démocratique, mais elles doivent être conçues de manière à produire de véritables effets démocratiques plutôt qu'une simple efficacité procédurale. Expertise et réseau technique doivent rester subordonnés à une conception substantielle de la participation."
+    }
+  ],
+  "argument_sources": [
+    {
+      "key": "demos__carol_c_gould__src1",
+      "argument": "demos__carol_c_gould",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E68EB4F356A989AA659A3BC66E74A14D/9780511617096c7_p159-182_CBO.pdf/evaluating-the-claims-for-global-democracy.pdf",
+      "title": "Evaluating the Claims for Global Democracy — *Globalizing Democracy and Human Rights*",
+      "citation_text": "[Evaluating the Claims for Global Democracy — *Globalizing Democracy and Human Rights*](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E68EB4F356A989AA659A3BC66E74A14D/9780511617096c7_p159-182_CBO.pdf/evaluating-the-claims-for-global-democracy.pdf)"
+    },
+    {
+      "key": "demos__nancy_fraser__src1",
+      "argument": "demos__nancy_fraser",
+      "url": "https://law.yale.edu/sites/default/files/documents/pdf/Intellectual_Life/ltw_fraser.pdf",
+      "title": "*Abnormal Justice* — texte disponible via Yale Law School",
+      "citation_text": "[*Abnormal Justice* — texte disponible via Yale Law School](https://law.yale.edu/sites/default/files/documents/pdf/Intellectual_Life/ltw_fraser.pdf)"
+    },
+    {
+      "key": "demos__iris_marion_young__src1",
+      "argument": "demos__iris_marion_young",
+      "url": "https://www.cambridge.org/core/journals/social-philosophy-and-policy/article/responsibility-and-global-justice-a-social-connection-model/9308EE478561C7CE31E1F5A8F26CBE04",
+      "title": "“Responsibility and Global Justice: A Social Connection Model”",
+      "citation_text": "[“Responsibility and Global Justice: A Social Connection Model”](https://www.cambridge.org/core/journals/social-philosophy-and-policy/article/responsibility-and-global-justice-a-social-connection-model/9308EE478561C7CE31E1F5A8F26CBE04)"
+    },
+    {
+      "key": "demos__omar_dahbour__src1",
+      "argument": "demos__omar_dahbour",
+      "url": "https://tupress.temple.edu/books/self-determination-without-nationalism-2",
+      "title": "*Self-Determination without Nationalism*",
+      "citation_text": "[*Self-Determination without Nationalism*](https://tupress.temple.edu/books/self-determination-without-nationalism-2)"
+    },
+    {
+      "key": "demos__david_miller__src1",
+      "argument": "demos__david_miller",
+      "url": "https://academic.oup.com/book/1827",
+      "title": "*National Responsibility and Global Justice*",
+      "citation_text": "[*National Responsibility and Global Justice*](https://academic.oup.com/book/1827)"
+    },
+    {
+      "key": "democratie-globale__david_held__src1",
+      "argument": "democratie-globale__david_held",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9248.1992.tb01810.x",
+      "title": "“Democracy: From City-states to a Cosmopolitan Order?”",
+      "citation_text": "[“Democracy: From City-states to a Cosmopolitan Order?”](https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9248.1992.tb01810.x)"
+    },
+    {
+      "key": "democratie-globale__carol_c_gould__src1",
+      "argument": "democratie-globale__carol_c_gould",
+      "url": "https://www.cambridge.org/core/books/globalizing-democracy-and-human-rights/7DF268D787F0B4CCB2429BEBCC6BCC26",
+      "title": "*Globalizing Democracy and Human Rights*",
+      "citation_text": "[*Globalizing Democracy and Human Rights*](https://www.cambridge.org/core/books/globalizing-democracy-and-human-rights/7DF268D787F0B4CCB2429BEBCC6BCC26)  \n**Voir aussi :** [*Interactive Democracy*](https://www.cambridge.org/core/books/interactive-democracy/5397FA9F43BDB47915E65D5EDD67AA4C)"
+    },
+    {
+      "key": "democratie-globale__carol_c_gould__src2",
+      "argument": "democratie-globale__carol_c_gould",
+      "url": "https://www.cambridge.org/core/books/interactive-democracy/5397FA9F43BDB47915E65D5EDD67AA4C",
+      "title": "*Interactive Democracy*",
+      "citation_text": "[*Globalizing Democracy and Human Rights*](https://www.cambridge.org/core/books/globalizing-democracy-and-human-rights/7DF268D787F0B4CCB2429BEBCC6BCC26)  \n**Voir aussi :** [*Interactive Democracy*](https://www.cambridge.org/core/books/interactive-democracy/5397FA9F43BDB47915E65D5EDD67AA4C)"
+    },
+    {
+      "key": "democratie-globale__omar_dahbour__src1",
+      "argument": "democratie-globale__omar_dahbour",
+      "url": "https://philpapers.org/rec/DAHIGD",
+      "title": "“Is ‘Globalizing Democracy’ Possible?”",
+      "citation_text": "[“Is ‘Globalizing Democracy’ Possible?”](https://philpapers.org/rec/DAHIGD)"
+    },
+    {
+      "key": "democratie-globale__carol_c_gould_reponse_a_cette_objection__src1",
+      "argument": "democratie-globale__carol_c_gould_reponse_a_cette_objection",
+      "url": "https://philpeople.org/profiles/carol-c-gould/publications",
+      "title": "“A Reply to My Critics” — notice bibliographique et résumé",
+      "citation_text": "[“A Reply to My Critics” — notice bibliographique et résumé](https://philpeople.org/profiles/carol-c-gould/publications)"
+    },
+    {
+      "key": "democratie-globale__nancy_fraser__src1",
+      "argument": "democratie-globale__nancy_fraser",
+      "url": "https://cup.columbia.edu/book/scales-of-justice/9780231146814/",
+      "title": "*Scales of Justice*",
+      "citation_text": "[*Scales of Justice*](https://cup.columbia.edu/book/scales-of-justice/9780231146814/)"
+    },
+    {
+      "key": "democratie-globale__james_tully__src1",
+      "argument": "democratie-globale__james_tully",
+      "url": "https://www.cambridge.org/core/books/public-philosophy-in-a-new-key/on-law-democracy-and-imperialism/12E4FE49A304A1B2E254B8C1E3D19258",
+      "title": "“On Law, Democracy and Imperialism” — *Public Philosophy in a New Key*",
+      "citation_text": "[“On Law, Democracy and Imperialism” — *Public Philosophy in a New Key*](https://www.cambridge.org/core/books/public-philosophy-in-a-new-key/on-law-democracy-and-imperialism/12E4FE49A304A1B2E254B8C1E3D19258)"
+    },
+    {
+      "key": "democratiser-ou-demanteler__omar_dahbour__src1",
+      "argument": "democratiser-ou-demanteler__omar_dahbour",
+      "url": "https://philpapers.org/rec/DAHIGD",
+      "title": "“Is ‘Globalizing Democracy’ Possible?”",
+      "citation_text": "[“Is ‘Globalizing Democracy’ Possible?”](https://philpapers.org/rec/DAHIGD)"
+    },
+    {
+      "key": "democratiser-ou-demanteler__carol_c_gould__src1",
+      "argument": "democratiser-ou-demanteler__carol_c_gould",
+      "url": "https://philpeople.org/profiles/carol-c-gould/publications",
+      "title": "“A Reply to My Critics” — bibliographie",
+      "citation_text": "[“A Reply to My Critics” — bibliographie](https://philpeople.org/profiles/carol-c-gould/publications)"
+    },
+    {
+      "key": "democratiser-ou-demanteler__james_tully__src1",
+      "argument": "democratiser-ou-demanteler__james_tully",
+      "url": "https://www.cambridge.org/core/books/abs/public-philosophy-in-a-new-key/contents/3C992500D79E27C75840704E6CB63A54",
+      "title": "*Public Philosophy in a New Key*, vol. II — section “On Imperialism”",
+      "citation_text": "[*Public Philosophy in a New Key*, vol. II — section “On Imperialism”](https://www.cambridge.org/core/books/abs/public-philosophy-in-a-new-key/contents/3C992500D79E27C75840704E6CB63A54)"
+    },
+    {
+      "key": "democratiser-ou-demanteler__nancy_fraser__src1",
+      "argument": "democratiser-ou-demanteler__nancy_fraser",
+      "url": "https://newleftreview.org/issues/ii36/articles/nancy-fraser-reframing-justice-in-a-globalizing-world",
+      "title": "“Reframing Justice in a Globalizing World”",
+      "citation_text": "[“Reframing Justice in a Globalizing World”](https://newleftreview.org/issues/ii36/articles/nancy-fraser-reframing-justice-in-a-globalizing-world)"
+    },
+    {
+      "key": "democratiser-ou-demanteler__thomas_pogge__src1",
+      "argument": "democratiser-ou-demanteler__thomas_pogge",
+      "url": "https://academic.oup.com/edited-volume/35469/chapter-abstract/303768343",
+      "title": "Présentation académique de l'approche institutionnelle de Pogge — *Oxford Handbook of Global Justice*",
+      "citation_text": "[Présentation académique de l'approche institutionnelle de Pogge — *Oxford Handbook of Global Justice*](https://academic.oup.com/edited-volume/35469/chapter-abstract/303768343)"
+    },
+    {
+      "key": "justice-globale__thomas_pogge__src1",
+      "argument": "justice-globale__thomas_pogge",
+      "url": "https://academic.oup.com/edited-volume/35469/chapter-abstract/303768343",
+      "title": "L'approche institutionnelle de Pogge — *Oxford Handbook of Global Justice*",
+      "citation_text": "[L'approche institutionnelle de Pogge — *Oxford Handbook of Global Justice*](https://academic.oup.com/edited-volume/35469/chapter-abstract/303768343)"
+    },
+    {
+      "key": "justice-globale__iris_marion_young__src1",
+      "argument": "justice-globale__iris_marion_young",
+      "url": "https://www.cambridge.org/core/journals/social-philosophy-and-policy/article/responsibility-and-global-justice-a-social-connection-model/9308EE478561C7CE31E1F5A8F26CBE04",
+      "title": "“Responsibility and Global Justice: A Social Connection Model”",
+      "citation_text": "[“Responsibility and Global Justice: A Social Connection Model”](https://www.cambridge.org/core/journals/social-philosophy-and-policy/article/responsibility-and-global-justice-a-social-connection-model/9308EE478561C7CE31E1F5A8F26CBE04)"
+    },
+    {
+      "key": "justice-globale__david_miller__src1",
+      "argument": "justice-globale__david_miller",
+      "url": "https://academic.oup.com/book/1827",
+      "title": "*National Responsibility and Global Justice*",
+      "citation_text": "[*National Responsibility and Global Justice*](https://academic.oup.com/book/1827)"
+    },
+    {
+      "key": "justice-globale__john_rawls__src1",
+      "argument": "justice-globale__john_rawls",
+      "url": "https://www.jstor.org/stable/j.ctv1pncngc",
+      "title": "*The Law of Peoples* — JSTOR / Harvard University Press",
+      "citation_text": "[*The Law of Peoples* — JSTOR / Harvard University Press](https://www.jstor.org/stable/j.ctv1pncngc)"
+    },
+    {
+      "key": "justice-globale__carol_c_gould__src1",
+      "argument": "justice-globale__carol_c_gould",
+      "url": "https://www.cambridge.org/core/books/abs/globalizing-democracy-and-human-rights/global-democratic-deficit-and-economic-human-rights/5E31B22EA361BA59084093E7086EE642",
+      "title": "“The Global Democratic Deficit and Economic Human Rights”",
+      "citation_text": "[“The Global Democratic Deficit and Economic Human Rights”](https://www.cambridge.org/core/books/abs/globalizing-democracy-and-human-rights/global-democratic-deficit-and-economic-human-rights/5E31B22EA361BA59084093E7086EE642)"
+    },
+    {
+      "key": "justice-globale__omar_dahbour__src1",
+      "argument": "justice-globale__omar_dahbour",
+      "url": "https://tupress.temple.edu/books/self-determination-without-nationalism-2",
+      "title": "*Self-Determination without Nationalism*",
+      "citation_text": "[*Self-Determination without Nationalism*](https://tupress.temple.edu/books/self-determination-without-nationalism-2)"
+    },
+    {
+      "key": "autodetermination-territoire__omar_dahbour__src1",
+      "argument": "autodetermination-territoire__omar_dahbour",
+      "url": "https://tupress.temple.edu/books/self-determination-without-nationalism-2",
+      "title": "*Self-Determination without Nationalism: A Theory of Postnational Sovereignty*",
+      "citation_text": "[*Self-Determination without Nationalism: A Theory of Postnational Sovereignty*](https://tupress.temple.edu/books/self-determination-without-nationalism-2)"
+    },
+    {
+      "key": "autodetermination-territoire__david_miller__src1",
+      "argument": "autodetermination-territoire__david_miller",
+      "url": "https://academic.oup.com/book/6973",
+      "title": "*On Nationality*",
+      "citation_text": "[*On Nationality*](https://academic.oup.com/book/6973)  \n**Voir aussi :** [*National Responsibility and Global Justice*](https://academic.oup.com/book/1827)"
+    },
+    {
+      "key": "autodetermination-territoire__david_miller__src2",
+      "argument": "autodetermination-territoire__david_miller",
+      "url": "https://academic.oup.com/book/1827",
+      "title": "*National Responsibility and Global Justice*",
+      "citation_text": "[*On Nationality*](https://academic.oup.com/book/6973)  \n**Voir aussi :** [*National Responsibility and Global Justice*](https://academic.oup.com/book/1827)"
+    },
+    {
+      "key": "autodetermination-territoire__carol_c_gould__src1",
+      "argument": "autodetermination-territoire__carol_c_gould",
+      "url": "https://doi.org/10.1111/j.1467-9833.2006.00302.x",
+      "title": "“Self-Determination beyond Sovereignty: Relating Transnational Democracy to Local Autonomy”",
+      "citation_text": "[“Self-Determination beyond Sovereignty: Relating Transnational Democracy to Local Autonomy”](https://doi.org/10.1111/j.1467-9833.2006.00302.x)"
+    },
+    {
+      "key": "autodetermination-territoire__james_tully__src1",
+      "argument": "autodetermination-territoire__james_tully",
+      "url": "https://www.cambridge.org/core/books/public-philosophy-in-a-new-key/communication-and-imperialism/CF9657CDAFBB70DBD61D4935D8FD7DD3",
+      "title": "“Communication and Imperialism” — *Public Philosophy in a New Key*",
+      "citation_text": "[“Communication and Imperialism” — *Public Philosophy in a New Key*](https://www.cambridge.org/core/books/public-philosophy-in-a-new-key/communication-and-imperialism/CF9657CDAFBB70DBD61D4935D8FD7DD3)"
+    },
+    {
+      "key": "ecosouverainete__omar_dahbour__src1",
+      "argument": "ecosouverainete__omar_dahbour",
+      "url": "https://www.routledge.com/Ecosovereignty-A-Political-Principle-for-the-Environmental-Crisis/Dahbour/p/book/9781032939018",
+      "title": "*Ecosovereignty: A Political Principle for the Environmental Crisis*",
+      "citation_text": "[*Ecosovereignty: A Political Principle for the Environmental Crisis*](https://www.routledge.com/Ecosovereignty-A-Political-Principle-for-the-Environmental-Crisis/Dahbour/p/book/9781032939018)"
+    },
+    {
+      "key": "ecosouverainete__carol_c_gould__src1",
+      "argument": "ecosouverainete__carol_c_gould",
+      "url": "https://www.cambridge.org/core/books/interactive-democracy/5397FA9F43BDB47915E65D5EDD67AA4C",
+      "title": "*Interactive Democracy: The Social Roots of Global Justice*",
+      "citation_text": "[*Interactive Democracy: The Social Roots of Global Justice*](https://www.cambridge.org/core/books/interactive-democracy/5397FA9F43BDB47915E65D5EDD67AA4C)"
+    },
+    {
+      "key": "ecosouverainete__james_tully__src1",
+      "argument": "ecosouverainete__james_tully",
+      "url": "https://www.cambridge.org/core/books/public-philosophy-in-a-new-key/on-law-democracy-and-imperialism/12E4FE49A304A1B2E254B8C1E3D19258",
+      "title": "“On Law, Democracy and Imperialism”",
+      "citation_text": "[“On Law, Democracy and Imperialism”](https://www.cambridge.org/core/books/public-philosophy-in-a-new-key/on-law-democracy-and-imperialism/12E4FE49A304A1B2E254B8C1E3D19258)"
+    },
+    {
+      "key": "ecosouverainete__nancy_fraser__src1",
+      "argument": "ecosouverainete__nancy_fraser",
+      "url": "https://cup.columbia.edu/book/scales-of-justice/9780231146814/",
+      "title": "*Scales of Justice*",
+      "citation_text": "[*Scales of Justice*](https://cup.columbia.edu/book/scales-of-justice/9780231146814/)"
+    },
+    {
+      "key": "ecosouverainete__thomas_pogge__src1",
+      "argument": "ecosouverainete__thomas_pogge",
+      "url": "https://academic.oup.com/edited-volume/35469/chapter-abstract/303768343",
+      "title": "Approche institutionnelle de Pogge",
+      "citation_text": "[Approche institutionnelle de Pogge](https://academic.oup.com/edited-volume/35469/chapter-abstract/303768343)"
+    },
+    {
+      "key": "droits-humains-democratie__carol_c_gould__src1",
+      "argument": "droits-humains-democratie__carol_c_gould",
+      "url": "https://www.cambridge.org/core/books/globalizing-democracy-and-human-rights/hard-questions-in-democratic-theory-when-justice-and-democracy-conflict/9E06A4556E42A3C34C9A604ACF1BCF9D",
+      "title": "“Hard Questions in Democratic Theory: When Justice and Democracy Conflict”",
+      "citation_text": "[“Hard Questions in Democratic Theory: When Justice and Democracy Conflict”](https://www.cambridge.org/core/books/globalizing-democracy-and-human-rights/hard-questions-in-democratic-theory-when-justice-and-democracy-conflict/9E06A4556E42A3C34C9A604ACF1BCF9D)  \n**Voir aussi :** [“Are Democracy and Human Rights Compatible in the Context of Globalization?”](https://www.cambridge.org/core/books/abs/globalizing-democracy-and-human-rights/are-democracy-and-human-rights-compatible-in-the-context-of-globalization/33B9300314B84213A697F7E3F3FEE038)"
+    },
+    {
+      "key": "droits-humains-democratie__carol_c_gould__src2",
+      "argument": "droits-humains-democratie__carol_c_gould",
+      "url": "https://www.cambridge.org/core/books/abs/globalizing-democracy-and-human-rights/are-democracy-and-human-rights-compatible-in-the-context-of-globalization/33B9300314B84213A697F7E3F3FEE038",
+      "title": "“Are Democracy and Human Rights Compatible in the Context of Globalization?”",
+      "citation_text": "[“Hard Questions in Democratic Theory: When Justice and Democracy Conflict”](https://www.cambridge.org/core/books/globalizing-democracy-and-human-rights/hard-questions-in-democratic-theory-when-justice-and-democracy-conflict/9E06A4556E42A3C34C9A604ACF1BCF9D)  \n**Voir aussi :** [“Are Democracy and Human Rights Compatible in the Context of Globalization?”](https://www.cambridge.org/core/books/abs/globalizing-democracy-and-human-rights/are-democracy-and-human-rights-compatible-in-the-context-of-globalization/33B9300314B84213A697F7E3F3FEE038)"
+    },
+    {
+      "key": "droits-humains-democratie__john_rawls__src1",
+      "argument": "droits-humains-democratie__john_rawls",
+      "url": "https://www.jstor.org/stable/j.ctv1pncngc",
+      "title": "*The Law of Peoples* et “The Idea of Public Reason Revisited”",
+      "citation_text": "[*The Law of Peoples* et “The Idea of Public Reason Revisited”](https://www.jstor.org/stable/j.ctv1pncngc)"
+    },
+    {
+      "key": "droits-humains-democratie__jurgen_habermas__src1",
+      "argument": "droits-humains-democratie__jurgen_habermas",
+      "url": "https://mitpress.mit.edu/9780262581622/between-facts-and-norms/",
+      "title": "*Between Facts and Norms*",
+      "citation_text": "[*Between Facts and Norms*](https://mitpress.mit.edu/9780262581622/between-facts-and-norms/)"
+    },
+    {
+      "key": "droits-humains-democratie__chantal_mouffe__src1",
+      "argument": "droits-humains-democratie__chantal_mouffe",
+      "url": "https://www.versobooks.com/products/1696-the-democratic-paradox",
+      "title": "*The Democratic Paradox*",
+      "citation_text": "[*The Democratic Paradox*](https://www.versobooks.com/products/1696-the-democratic-paradox)"
+    },
+    {
+      "key": "droits-humains-democratie__helene_landemore__src1",
+      "argument": "droits-humains-democratie__helene_landemore",
+      "url": "https://academic.oup.com/princeton-scholarship-online/book/37656",
+      "title": "*Open Democracy*",
+      "citation_text": "[*Open Democracy*](https://academic.oup.com/princeton-scholarship-online/book/37656)"
+    },
+    {
+      "key": "injustice-structurelle__iris_marion_young__src1",
+      "argument": "injustice-structurelle__iris_marion_young",
+      "url": "https://www.cambridge.org/core/journals/social-philosophy-and-policy/article/responsibility-and-global-justice-a-social-connection-model/9308EE478561C7CE31E1F5A8F26CBE04",
+      "title": "“Responsibility and Global Justice: A Social Connection Model”",
+      "citation_text": "[“Responsibility and Global Justice: A Social Connection Model”](https://www.cambridge.org/core/journals/social-philosophy-and-policy/article/responsibility-and-global-justice-a-social-connection-model/9308EE478561C7CE31E1F5A8F26CBE04)"
+    },
+    {
+      "key": "injustice-structurelle__thomas_pogge__src1",
+      "argument": "injustice-structurelle__thomas_pogge",
+      "url": "https://academic.oup.com/edited-volume/35469/chapter-abstract/303768343",
+      "title": "Présentation de l'approche institutionnelle de Pogge",
+      "citation_text": "[Présentation de l'approche institutionnelle de Pogge](https://academic.oup.com/edited-volume/35469/chapter-abstract/303768343)"
+    },
+    {
+      "key": "injustice-structurelle__nancy_fraser__src1",
+      "argument": "injustice-structurelle__nancy_fraser",
+      "url": "https://cup.columbia.edu/book/scales-of-justice/9780231146814/",
+      "title": "*Scales of Justice*",
+      "citation_text": "[*Scales of Justice*](https://cup.columbia.edu/book/scales-of-justice/9780231146814/)"
+    },
+    {
+      "key": "injustice-structurelle__james_tully__src1",
+      "argument": "injustice-structurelle__james_tully",
+      "url": "https://www.cambridge.org/core/books/abs/public-philosophy-in-a-new-key/contents/3C992500D79E27C75840704E6CB63A54",
+      "title": "*Public Philosophy in a New Key*, vol. II",
+      "citation_text": "[*Public Philosophy in a New Key*, vol. II](https://www.cambridge.org/core/books/abs/public-philosophy-in-a-new-key/contents/3C992500D79E27C75840704E6CB63A54)"
+    },
+    {
+      "key": "injustice-structurelle__carol_c_gould__src1",
+      "argument": "injustice-structurelle__carol_c_gould",
+      "url": "https://www.cambridge.org/core/books/globalizing-democracy-and-human-rights/democratic-management-and-the-stakeholder-idea/603CAB02D4B682F57445CE242DE78B12",
+      "title": "“Democratic Management and the Stakeholder Idea”",
+      "citation_text": "[“Democratic Management and the Stakeholder Idea”](https://www.cambridge.org/core/books/globalizing-democracy-and-human-rights/democratic-management-and-the-stakeholder-idea/603CAB02D4B682F57445CE242DE78B12)"
+    },
+    {
+      "key": "consensus-conflit__jurgen_habermas__src1",
+      "argument": "consensus-conflit__jurgen_habermas",
+      "url": "https://mitpress.mit.edu/9780262581622/between-facts-and-norms/",
+      "title": "*Between Facts and Norms*",
+      "citation_text": "[*Between Facts and Norms*](https://mitpress.mit.edu/9780262581622/between-facts-and-norms/)  \n**Contexte :** [*Deliberative Democracy: Essays on Reason and Politics*](https://mitpress.mit.edu/9780262522410/deliberative-democracy/)"
+    },
+    {
+      "key": "consensus-conflit__jurgen_habermas__src2",
+      "argument": "consensus-conflit__jurgen_habermas",
+      "url": "https://mitpress.mit.edu/9780262522410/deliberative-democracy/",
+      "title": "*Deliberative Democracy: Essays on Reason and Politics*",
+      "citation_text": "[*Between Facts and Norms*](https://mitpress.mit.edu/9780262581622/between-facts-and-norms/)  \n**Contexte :** [*Deliberative Democracy: Essays on Reason and Politics*](https://mitpress.mit.edu/9780262522410/deliberative-democracy/)"
+    },
+    {
+      "key": "consensus-conflit__chantal_mouffe__src1",
+      "argument": "consensus-conflit__chantal_mouffe",
+      "url": "https://www.versobooks.com/products/1696-the-democratic-paradox",
+      "title": "*The Democratic Paradox*",
+      "citation_text": "[*The Democratic Paradox*](https://www.versobooks.com/products/1696-the-democratic-paradox)"
+    },
+    {
+      "key": "consensus-conflit__iris_marion_young__src1",
+      "argument": "consensus-conflit__iris_marion_young",
+      "url": "https://mitpress.mit.edu/9780262522410/deliberative-democracy/",
+      "title": "*Deliberative Democracy: Essays on Reason and Politics* — volume comprenant une contribution de Young",
+      "citation_text": "[*Deliberative Democracy: Essays on Reason and Politics* — volume comprenant une contribution de Young](https://mitpress.mit.edu/9780262522410/deliberative-democracy/)"
+    },
+    {
+      "key": "consensus-conflit__helene_landemore__src1",
+      "argument": "consensus-conflit__helene_landemore",
+      "url": "https://academic.oup.com/princeton-scholarship-online/book/37656",
+      "title": "*Open Democracy*",
+      "citation_text": "[*Open Democracy*](https://academic.oup.com/princeton-scholarship-online/book/37656)"
+    },
+    {
+      "key": "consensus-conflit__carol_c_gould__src1",
+      "argument": "consensus-conflit__carol_c_gould",
+      "url": "https://www.cambridge.org/core/books/globalizing-democracy-and-human-rights/7DF268D787F0B4CCB2429BEBCC6BCC26",
+      "title": "*Globalizing Democracy and Human Rights*",
+      "citation_text": "[*Globalizing Democracy and Human Rights*](https://www.cambridge.org/core/books/globalizing-democracy-and-human-rights/7DF268D787F0B4CCB2429BEBCC6BCC26)"
+    },
+    {
+      "key": "expertise-democratie__jason_brennan__src1",
+      "argument": "expertise-democratie__jason_brennan",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9213.2011.699.x",
+      "title": "“The Right to a Competent Electorate”",
+      "citation_text": "[“The Right to a Competent Electorate”](https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9213.2011.699.x)"
+    },
+    {
+      "key": "expertise-democratie__helene_landemore__src1",
+      "argument": "expertise-democratie__helene_landemore",
+      "url": "https://academic.oup.com/princeton-scholarship-online/book/37656",
+      "title": "*Open Democracy*",
+      "citation_text": "[*Open Democracy*](https://academic.oup.com/princeton-scholarship-online/book/37656)  \n**Présentation complémentaire :** [“Defending Open Democracy” — University of Pennsylvania](https://amc.sas.upenn.edu/h%C3%A9l%C3%A8ne-landemore-open-democracy)"
+    },
+    {
+      "key": "expertise-democratie__helene_landemore__src2",
+      "argument": "expertise-democratie__helene_landemore",
+      "url": "https://amc.sas.upenn.edu/h%C3%A9l%C3%A8ne-landemore-open-democracy",
+      "title": "“Defending Open Democracy” — University of Pennsylvania",
+      "citation_text": "[*Open Democracy*](https://academic.oup.com/princeton-scholarship-online/book/37656)  \n**Présentation complémentaire :** [“Defending Open Democracy” — University of Pennsylvania](https://amc.sas.upenn.edu/h%C3%A9l%C3%A8ne-landemore-open-democracy)"
+    },
+    {
+      "key": "expertise-democratie__jurgen_habermas__src1",
+      "argument": "expertise-democratie__jurgen_habermas",
+      "url": "https://mitpress.mit.edu/9780262581622/between-facts-and-norms/",
+      "title": "*Between Facts and Norms*",
+      "citation_text": "[*Between Facts and Norms*](https://mitpress.mit.edu/9780262581622/between-facts-and-norms/)"
+    },
+    {
+      "key": "expertise-democratie__carol_c_gould__src1",
+      "argument": "expertise-democratie__carol_c_gould",
+      "url": "https://www.cambridge.org/core/books/abs/globalizing-democracy-and-human-rights/democratic-networks-technological-and-political/57B479C5110D0312845F54D0C7BF0F71",
+      "title": "“Democratic Networks: Technological and Political”",
+      "citation_text": "[“Democratic Networks: Technological and Political”](https://www.cambridge.org/core/books/abs/globalizing-democracy-and-human-rights/democratic-networks-technological-and-political/57B479C5110D0312845F54D0C7BF0F71)"
+    }
+  ],
+  "consultations": [],
+  "consultation_votes": [],
+  "impact_items": [],
+  "ekoh_profiles": [],
+  "consultation_relevance": [],
+  "topic_relevance": [],
+  "reading_exclusions": []
+}

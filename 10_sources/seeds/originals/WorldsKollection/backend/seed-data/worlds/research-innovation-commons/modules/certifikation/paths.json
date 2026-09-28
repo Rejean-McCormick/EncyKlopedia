@@ -1,0 +1,71 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "research-innovation-commons",
+  "module": "konnected.certifikation",
+  "target_models": [
+    "CertificationPath"
+  ],
+  "import_status": "bridge_required",
+  "paths": [
+    {
+      "key": "CERT-001",
+      "name": "NEXUS Evidence Standards",
+      "description": "Demonstrate that a participant can distinguish preliminary, supported, replicated, contested, contradicted and inconclusive evidence states.",
+      "steps": [
+        "KR-003",
+        "case exercise: classify 8 evidence statements",
+        "peer review one disputed classification"
+      ],
+      "assessment": "blind classification + explanation",
+      "peer_validation": true,
+      "portfolio_evidence": [
+        "evidence-state classification worksheet",
+        "peer-reviewed rationale"
+      ],
+      "pass_threshold_percent": 80
+    },
+    {
+      "key": "CERT-002",
+      "name": "NEXUS Cohort Classification",
+      "description": "Apply the harmonized case/recovery/response definitions consistently to blinded synthetic cases.",
+      "steps": [
+        "KR-002",
+        "PROT-001 v3",
+        "10 blind case classifications",
+        "disagreement review"
+      ],
+      "assessment": ">= 80% agreement with frozen reference plus rationale",
+      "peer_validation": true,
+      "portfolio_evidence": [
+        "blinded case classification",
+        "disagreement-resolution note"
+      ],
+      "pass_threshold_percent": 80
+    },
+    {
+      "key": "CERT-003",
+      "name": "NEXUS Reproducible Protocols",
+      "description": "Trace a result to protocol, dataset, analysis choices and versioned artifacts, then reproduce the declared workflow.",
+      "steps": [
+        "KR-007",
+        "KR-011",
+        "PROT-003 v1",
+        "reproducibility exercise"
+      ],
+      "assessment": "provenance reconstruction",
+      "peer_validation": true,
+      "portfolio_evidence": [
+        "claim-to-source provenance reconstruction",
+        "reproducibility checklist"
+      ],
+      "pass_threshold_percent": 80
+    }
+  ],
+  "bridge_contract": {
+    "target_model": "CertificationPath",
+    "evaluation_model": "Evaluation",
+    "peer_validation_model": "PeerValidation",
+    "portfolio_model": "Portfolio",
+    "note": "Steps and portfolio_evidence are sidecar metadata until the multi-module bridge maps them into runtime records."
+  }
+}

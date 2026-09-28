@@ -1,0 +1,547 @@
+{
+  "schema_version": "kx-world-source-versions/v1",
+  "world_key": "ethikos-elections-quebec-2026-fr",
+  "baseline_as_of": "2026-09-09",
+  "versions": [
+    {
+      "version_key": "G-01@baseline-2026-09-09",
+      "source_key": "G-01",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "e3b462fafe46723247ce4f6b422c0242c5aeae19a6d25c695a68b41b418b4ee4",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "G-02@baseline-2026-09-09",
+      "source_key": "G-02",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "7aa090b8f08adc37b2cd69a380fad53cd5e27a28ead6b7c5fc45bb931395efb0",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "G-03@baseline-2026-09-09",
+      "source_key": "G-03",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "4c2f17fef5b6235775982cbd689ecdf83b2fc844d939266ec8ece1e4566bb740",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "G-04@baseline-2026-09-09",
+      "source_key": "G-04",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "37ba516256104876a3de2624a6b0c91fbda405a7881a01e63fc3e3cd8c7b4c30",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "G-05@baseline-2026-09-09",
+      "source_key": "G-05",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "5a0bd39b2dc8b2a1a7cb81a873e748db4cfb6be646339a2bc6b7721ce122e084",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "G-06@baseline-2026-09-09",
+      "source_key": "G-06",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "633a5e24a56e01979c87d227b57f44c62b6cb24da0fd8e979035f8f0b212a576",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "G-07@baseline-2026-09-09",
+      "source_key": "G-07",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "ab9979043fbe63cf03dcddadbe3a6aa27859aebb7d4fcce72c1b04b930083f4b",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "G-08@baseline-2026-09-09",
+      "source_key": "G-08",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "5ec4a7e942452859bc5cde4dc726d5e1992e9ed1826ad6b79abdc8136fdafaf2",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "CAQ-01@baseline-2026-09-09",
+      "source_key": "CAQ-01",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "f06452d07786e8a7d36545fa2445b3604dfcf34e213509f1f3bf219992b1ee22",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "CAQ-02@baseline-2026-09-09",
+      "source_key": "CAQ-02",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "b097bcfad0095231249347de12155e53960a823fda827992684bf8d34e914443",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "CAQ-03@baseline-2026-09-09",
+      "source_key": "CAQ-03",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "6fd855ddd72743f72418ae5fd3dfd2152fd4f57ef9c67645621900679493fc4a",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "CAQ-04@baseline-2026-09-09",
+      "source_key": "CAQ-04",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "d1aaa0a5ced9732237e120d601b5c8fa12862066cf3f437a68ecd1eb2e921626",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "CAQ-05@baseline-2026-09-09",
+      "source_key": "CAQ-05",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "721c02ab0eed401120bd1488268db493c50bad1bccf58413f7d016512c875afd",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "CAQ-06@baseline-2026-09-09",
+      "source_key": "CAQ-06",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "f203e8a4626f485fe37c6f23a4cd5af92dec189f311f43b37c8eff26d72e3257",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "CAQ-07@baseline-2026-09-09",
+      "source_key": "CAQ-07",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "40e00f3f8d82102d486e128724918c2d5855230cf815776f7f1f5de8ea470d91",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "CAQ-08@baseline-2026-09-09",
+      "source_key": "CAQ-08",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "b49a6c0072c81b439d53c08a3b72c8195ac69537600b1052bed2742376cf8a34",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "CAQ-09@baseline-2026-09-09",
+      "source_key": "CAQ-09",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "4b2c778a302aa61364fdd9f4c840346ce1a0a17f0717c8a088a196c0aa9d63ae",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "CAQ-10@baseline-2026-09-09",
+      "source_key": "CAQ-10",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "ec1fc06eb6bd277ccb3d131d12e3f6b0dd1e0e5a89898c6bb6b4a54866218f3f",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "CAQ-11@baseline-2026-09-09",
+      "source_key": "CAQ-11",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "2314fc6b08a819143eb128db28aae33027d8ca6964a22ce87edb8d9ff79863ca",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PLQ-01@baseline-2026-09-09",
+      "source_key": "PLQ-01",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "afa8d0f8f4cc8f1d25d671b2e08f92a5cbbde05221466c48a68b7020d58c7c00",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PLQ-02@baseline-2026-09-09",
+      "source_key": "PLQ-02",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "f4547ef004013c67de147bb0aea5c00a46c562d49fdf404d6eda5ca465d420eb",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PLQ-03@baseline-2026-09-09",
+      "source_key": "PLQ-03",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "d13ac6efd016915be6b824d963cf351051e899ba268bd7fe0479c9faefcf3973",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PLQ-04@baseline-2026-09-09",
+      "source_key": "PLQ-04",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "4769dccb2b702234a62f1940679cbabfb9e1c3a97f59ccb6e3bf5362aa90eee1",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PLQ-05@baseline-2026-09-09",
+      "source_key": "PLQ-05",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "6539433109ebfad5399f9e1a82f777ab1760fa675d614f73e27122e14033d88d",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PLQ-06@baseline-2026-09-09",
+      "source_key": "PLQ-06",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "798198470436c57082dffb6f9db957a47aefe5b219a527371d78fdfc3195d9cf",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PLQ-07@baseline-2026-09-09",
+      "source_key": "PLQ-07",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "8005237fcbbbd6d6390f9902ae04c1b88a89cefd925b5c09051dbbcf7227f359",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PLQ-08@baseline-2026-09-09",
+      "source_key": "PLQ-08",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "f2b114a14a8dd9567f3f2c0cd3465a8fe63aeeb48ad261ceb44dbbb3379391f0",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PQ-01@baseline-2026-09-09",
+      "source_key": "PQ-01",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "fb45a0a87f95f65f0d381f488cfb95a888d5cc17d702b643ded6debced255703",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PQ-02@baseline-2026-09-09",
+      "source_key": "PQ-02",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "35e7a721409b4dbf6bfd07a9d63095467c1bdc7bd304277cf356155488f510ad",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PQ-03@baseline-2026-09-09",
+      "source_key": "PQ-03",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "d082e24d59ba64876666c2a0c1025bafe1d7013b1f3843064807786d01719898",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PQ-04@baseline-2026-09-09",
+      "source_key": "PQ-04",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "4d0e5155bfb034c674dd6a2de5a1e0fd489a74c59635c5e6009c85e697ad9457",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PQ-05@baseline-2026-09-09",
+      "source_key": "PQ-05",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "6943095ca67384fac30586d38800886196e607f6110a50a433311150d96a07d4",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PQ-06@baseline-2026-09-09",
+      "source_key": "PQ-06",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "20eea330ed01367ad816f5b9249e1a71760de1463994267888bc5c2c0ce8e05c",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PQ-07@baseline-2026-09-09",
+      "source_key": "PQ-07",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "27bf24c9fc665fba5bbc6ec74a131a97fb0c6bbbb5f275624d2b461464c8d137",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PQ-08@baseline-2026-09-09",
+      "source_key": "PQ-08",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "b60cae33f0221229cb16459c504dd36bafbfefdd3e13f3a4f979ee316ad19c86",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PQ-09@baseline-2026-09-09",
+      "source_key": "PQ-09",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "534eacc34bef4bb3b3556f398ec9fc414635c8adb565d0febf73df5e7132904d",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PQ-10@baseline-2026-09-09",
+      "source_key": "PQ-10",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "28dedbcc82315903b0c00816382c7b631bc15a3895dc89a0cb813f5474edfd9d",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PQ-11@baseline-2026-09-09",
+      "source_key": "PQ-11",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "d8acdead12cf513d01b94359dabb19cd2fc6ee163750ffc396b840d210473e83",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PCQ-01@baseline-2026-09-09",
+      "source_key": "PCQ-01",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "e6ca4575c73dbacea2bb5ddb97adc24f7b89b11b2c41dcf461ee0ff72500cbbf",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PCQ-02@baseline-2026-09-09",
+      "source_key": "PCQ-02",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "5d897b084b29d5a89430ad91f6f7a877131ca4726a18982d3fb7f9d5fcecac54",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PCQ-03@baseline-2026-09-09",
+      "source_key": "PCQ-03",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "4d2e4b0ce64dc3f9209800842c56f6915de0875268cfe7db35c4c9fad04a969b",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PCQ-04@baseline-2026-09-09",
+      "source_key": "PCQ-04",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "faaf3463d75acbd88653f12547bb32eeb2df6fc91fcbacecea8e5f8c8ebb7997",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PCQ-05@baseline-2026-09-09",
+      "source_key": "PCQ-05",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "129943aada2b95b1fc0e9e1cfc13828c9052f01e54314e40ea8c63e93a57050c",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PCQ-06@baseline-2026-09-09",
+      "source_key": "PCQ-06",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "d58d11f775a21c91fae92733e2124ff4bde2614ff7b5c71247c37a27fccfa61e",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PCQ-07@baseline-2026-09-09",
+      "source_key": "PCQ-07",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "f446314b513f7acf2ebcafa93aeedc88b2c47ee3006a59432150ee1ad6ccd752",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "PCQ-08@baseline-2026-09-09",
+      "source_key": "PCQ-08",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "4054a6a9a76bb38a53df842b0ec32826b09f49d10ded850a9f2bd9d04deb4cda",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "QS-01@baseline-2026-09-09",
+      "source_key": "QS-01",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "41c0b82af84e92c169853c4e5cba3a697e259736418e6e284c6d313cda50570d",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "QS-02@baseline-2026-09-09",
+      "source_key": "QS-02",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "4a00fbe5afe52056d80e3af1a7aa422c99b51d763391be450ce9014f3deea55e",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "QS-03@baseline-2026-09-09",
+      "source_key": "QS-03",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "6098449aca202306ee7ead7735f746456fd6f53769387027296e4cd76c5a02de",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "QS-04@baseline-2026-09-09",
+      "source_key": "QS-04",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "0eefdb57fc66a6a7e7498ab6282b9915b3a136fce951b3da6e090307425f7cd6",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "QS-05@baseline-2026-09-09",
+      "source_key": "QS-05",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "1db12dd367e3817d98b2981808b8a8b30a9e8ba1dacad4bdd2741efa4ec1b2f0",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "QS-06@baseline-2026-09-09",
+      "source_key": "QS-06",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "32a482f1f837641da0a8787f80179c3e059dba29607c5c87a6e84ab4903b0dbf",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "DDQ-01@baseline-2026-09-09",
+      "source_key": "DDQ-01",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "6b5944febe05c98efba5d72b615bff3e69ab3309339f219d9ca9a1e990abc357",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    },
+    {
+      "version_key": "DDQ-02@baseline-2026-09-09",
+      "source_key": "DDQ-02",
+      "catalogue_as_of": "2026-09-09",
+      "retrieved_at": null,
+      "source_content_hash_sha256": null,
+      "catalogue_entry_hash_sha256": "438f75c611fb85df4f5f0f701c250991954796430626ed84eac8c63574398771",
+      "snapshot_status": "reference_only_not_frozen",
+      "supersedes": null
+    }
+  ]
+}

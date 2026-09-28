@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interaction-kernel.dev/profiles/knowledge.distribution.request/1.0.0/payload.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "activation_mode": {
+      "enum": [
+        "verify-only",
+        "stage",
+        "activate"
+      ]
+    },
+    "channel": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "cohort": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 200
+    }
+  },
+  "required": [
+    "activation_mode",
+    "channel"
+  ]
+}

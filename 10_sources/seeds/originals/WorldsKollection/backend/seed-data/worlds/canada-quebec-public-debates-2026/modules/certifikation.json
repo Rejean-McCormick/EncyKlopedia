@@ -1,0 +1,31 @@
+{
+  "schema_version": "kx-world-certifikation-seed/v1",
+  "world_key": "canada-quebec-public-debates-2026",
+  "paths": [
+    {
+      "key": "evidence_literate_public_debate",
+      "title": "Analyser un débat public de façon sourcée",
+      "description": "Parcours transversal visant à distinguer faits, sources, arguments, positions, expertises contextuelles et lectures dérivées.",
+      "competencies": [
+        "Distinguer fait, source, affirmation, argument, position et interprétation.",
+        "Évaluer la provenance et la traçabilité d’une affirmation.",
+        "Identifier les incertitudes et limites d’un dossier.",
+        "Expliquer la pertinence contextuelle d’une expertise sans la confondre avec la vérité d’une position.",
+        "Comparer une baseline canonique à une lecture dérivée et décrire la méthodologie.",
+        "Construire une evidence map.",
+        "Rédiger une synthèse neutre et traçable."
+      ],
+      "assessment": {
+        "type": "portfolio_plus_peer_validation",
+        "rule": "Évaluer un dossier non utilisé comme exemple principal durant le parcours.",
+        "required_artifacts": [
+          "source_map",
+          "argument_map",
+          "uncertainty_notes",
+          "expertise_relevance_explanation",
+          "neutral_synthesis"
+        ]
+      }
+    }
+  ]
+}

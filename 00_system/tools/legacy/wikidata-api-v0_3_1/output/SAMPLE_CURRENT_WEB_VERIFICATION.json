@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-09-25",
+  "purpose": "Illustrate relation-presence semantics only; this is not the bulk pull.",
+  "records": [
+    {
+      "name": "Albert Einstein",
+      "qid": "Q937",
+      "relation_presence": {
+        "place of birth": true
+      },
+      "source": "https://www.wikidata.org/wiki/Q937"
+    },
+    {
+      "name": "Quetzalcoatl",
+      "qid": "Q179818",
+      "relation_presence": {
+        "place of birth": false,
+        "country of origin": true
+      },
+      "source": "https://www.wikidata.org/wiki/Q179818"
+    }
+  ]
+}

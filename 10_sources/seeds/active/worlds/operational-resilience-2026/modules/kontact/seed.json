@@ -1,0 +1,103 @@
+{
+  "schema": "kx-module-seed/1",
+  "module": "kreative.kontact",
+  "world_key": "operational-resilience-2026",
+  "profiles": [
+    {
+      "actor": "actor_incident_coordinator",
+      "display_name": "Avery Morgan",
+      "headline": "Regional Incident Coordinator",
+      "capabilities": [
+        "cap_incident_coordination",
+        "cap_field_operations"
+      ],
+      "availability_source": "operational_incident.participant_states"
+    },
+    {
+      "actor": "actor_field_lead",
+      "display_name": "Jordan Lee",
+      "headline": "Field Operations Lead",
+      "capabilities": [
+        "cap_field_operations",
+        "cap_incident_coordination"
+      ],
+      "availability_source": "operational_incident.participant_states"
+    },
+    {
+      "actor": "actor_logistics",
+      "display_name": "Priya Nair",
+      "headline": "Logistics Coordinator",
+      "capabilities": [
+        "cap_medical_logistics",
+        "cap_incident_coordination"
+      ],
+      "availability_source": "operational_incident.participant_states"
+    },
+    {
+      "actor": "actor_gis",
+      "display_name": "Mateo Ruiz",
+      "headline": "GIS & Intelligence Analyst",
+      "capabilities": [
+        "cap_situational_mapping",
+        "cap_cyber_systems"
+      ],
+      "availability_source": "operational_incident.participant_states"
+    },
+    {
+      "actor": "actor_health",
+      "display_name": "Dr. Lena Park",
+      "headline": "Health Liaison",
+      "capabilities": [
+        "cap_medical_logistics",
+        "cap_community_support"
+      ],
+      "availability_source": "operational_incident.participant_states"
+    },
+    {
+      "actor": "actor_infrastructure",
+      "display_name": "Samira Haddad",
+      "headline": "Infrastructure Liaison",
+      "capabilities": [
+        "cap_critical_infrastructure",
+        "cap_incident_coordination"
+      ],
+      "availability_source": "operational_incident.participant_states"
+    },
+    {
+      "actor": "actor_cyber",
+      "display_name": "Noah Bennett",
+      "headline": "Cyber & Systems Lead",
+      "capabilities": [
+        "cap_cyber_systems",
+        "cap_critical_infrastructure"
+      ],
+      "availability_source": "operational_incident.participant_states"
+    },
+    {
+      "actor": "actor_public",
+      "display_name": "Claire Dubois",
+      "headline": "Public & Community Liaison",
+      "capabilities": [
+        "cap_public_communication",
+        "cap_community_support"
+      ],
+      "availability_source": "operational_incident.participant_states"
+    }
+  ],
+  "match_cases": [
+    {
+      "key": "match_wf_gis",
+      "capability_gap": "gap_wf_001",
+      "required_capability": "cap_situational_mapping",
+      "required_context": "offline field mapping",
+      "candidate": "actor_gis",
+      "reason": "Relevant mapping/network expertise plus on-call availability; authority remains with incident leadership.",
+      "outcome": "invite_to_proj_wildfire",
+      "availability_basis": "inc_wildfire_offline.participant_states"
+    }
+  ],
+  "materialization_notes": {
+    "projection": "derived_from_world_actor_and_capability_canon",
+    "current_runtime": "Use available profile/matching service surfaces; do not invent unsupported persistent opportunity records."
+  }
+}

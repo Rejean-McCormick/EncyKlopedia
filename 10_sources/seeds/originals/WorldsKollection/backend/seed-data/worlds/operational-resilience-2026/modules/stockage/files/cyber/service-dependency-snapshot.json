@@ -1,0 +1,16 @@
+{
+  "simulation": true,
+  "captured_at": "09:14",
+  "services": {
+    "scheduling_service": {
+      "depends_on": [
+        "identity_service"
+      ],
+      "state": "degraded"
+    },
+    "identity_service": {
+      "state": "suspected_compromise"
+    }
+  },
+  "note": "Fictional system names and dependencies."
+}

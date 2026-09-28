@@ -1,0 +1,54 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "research-innovation-commons",
+  "module": "kreative.kontact",
+  "target_models": [],
+  "import_status": "capability_sidecar_only",
+  "matching_cases": [
+    {
+      "key": "MATCH-001",
+      "project": "PRJ-002",
+      "need": "Independent causal-inference review",
+      "required_domains": [
+        "0542"
+      ],
+      "exclude_current_project_members": true,
+      "recommended_actor": "ACT-004",
+      "reason": "Causal inference expertise with no ownership of the KX-17 assay work.",
+      "trigger": "capability_gap",
+      "status": "resolved"
+    },
+    {
+      "key": "MATCH-002",
+      "project": "PRJ-005",
+      "need": "Cross-site provenance engineering",
+      "required_domains": [
+        "0612",
+        "0613"
+      ],
+      "recommended_actor": "ACT-009",
+      "reason": "Owns harmonization tooling and transformation logs.",
+      "trigger": "capability_gap",
+      "status": "resolved"
+    },
+    {
+      "key": "MATCH-003",
+      "project": "PRJ-003",
+      "need": "Plain-language uncertainty review",
+      "required_domains": [
+        "0321",
+        "0223"
+      ],
+      "recommended_actor": "ACT-012",
+      "reason": "Tests public explanations against provenance and uncertainty requirements.",
+      "trigger": "capability_gap",
+      "status": "recommended"
+    }
+  ],
+  "rule": "Match missing capabilities to people; do not rank people by generic similarity.",
+  "bridge_contract": {
+    "input": "project capability gap + EkoH domain evidence",
+    "output": "recommended actor with reason, never a generic similarity score",
+    "next_step": "add actor to ProjectTeam only after explicit project membership action"
+  }
+}

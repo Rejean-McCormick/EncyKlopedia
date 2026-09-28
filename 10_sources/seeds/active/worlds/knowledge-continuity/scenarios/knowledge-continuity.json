@@ -1,0 +1,558 @@
+{
+  "schema_version": "ethikos-demo-scenario/v3",
+  "scenario_key": "knowledge_continuity_v1",
+  "scenario_title": "Knowledge Continuity — Case Clinics",
+  "mode": "replace_scenario",
+  "metadata": {
+    "world_key": "knowledge-continuity",
+    "language": "en-CA",
+    "fictional": true,
+    "purpose": "Case Clinics for eliciting tacit reasoning. No canonical stance, ballot, or Smart Vote result is seeded.",
+    "canonical_sources": {
+      "actors": "canon/actors.json",
+      "cases": "canon/cases.json",
+      "capabilities": "canon/capabilities.json"
+    },
+    "world_pack_version": "1.1.0"
+  },
+  "actors": [
+    {
+      "key": "marc_leblanc",
+      "username": "demo_kc_marc_leblanc",
+      "display_name": "Marc Leblanc",
+      "role": "Senior Field Reliability Specialist",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "sofia_nguyen",
+      "username": "demo_kc_sofia_nguyen",
+      "display_name": "Sofia Nguyen",
+      "role": "Reliability Engineer",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "jean_caron",
+      "username": "demo_kc_jean_caron",
+      "display_name": "Jean Caron",
+      "role": "Senior Field Technician",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "amina_benali",
+      "username": "demo_kc_amina_benali",
+      "display_name": "Amina Benali",
+      "role": "Learning & Transfer Lead",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "nadia_roy",
+      "username": "demo_kc_nadia_roy",
+      "display_name": "Nadia Roy",
+      "role": "Reliability Analyst",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "luc_gagnon",
+      "username": "demo_kc_luc_gagnon",
+      "display_name": "Luc Gagnon",
+      "role": "Operations Manager",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "elise_tremblay",
+      "username": "demo_kc_elise_tremblay",
+      "display_name": "Élise Tremblay",
+      "role": "Archivist & Records Specialist",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "owen_clarke",
+      "username": "demo_kc_owen_clarke",
+      "display_name": "Owen Clarke",
+      "role": "Junior Field Technician",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "claire_beaulieu",
+      "username": "demo_kc_claire_beaulieu",
+      "display_name": "Claire Beaulieu",
+      "role": "Procurement Governance Advisor",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "maya_singh",
+      "username": "demo_kc_maya_singh",
+      "display_name": "Maya Singh",
+      "role": "Procurement Analyst",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "andre_bouchard",
+      "username": "demo_kc_andre_bouchard",
+      "display_name": "André Bouchard",
+      "role": "Precision Repair Master",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "leila_haddad",
+      "username": "demo_kc_leila_haddad",
+      "display_name": "Leila Haddad",
+      "role": "Restoration Technician",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "thomas_bergeron",
+      "username": "demo_kc_thomas_bergeron",
+      "display_name": "Thomas Bergeron",
+      "role": "Electrical Engineer",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "ana_pereira",
+      "username": "demo_kc_ana_pereira",
+      "display_name": "Ana Pereira",
+      "role": "Data Engineer",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "victor_chen",
+      "username": "demo_kc_victor_chen",
+      "display_name": "Victor Chen",
+      "role": "Maintenance Planner",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "samira_khan",
+      "username": "demo_kc_samira_khan",
+      "display_name": "Samira Khan",
+      "role": "Quality Engineer",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "gabriel_fortin",
+      "username": "demo_kc_gabriel_fortin",
+      "display_name": "Gabriel Fortin",
+      "role": "Training Facilitator",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "isabelle_morin",
+      "username": "demo_kc_isabelle_morin",
+      "display_name": "Isabelle Morin",
+      "role": "Supply Chain Specialist",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "david_okafor",
+      "username": "demo_kc_david_okafor",
+      "display_name": "David Okafor",
+      "role": "Safety Specialist",
+      "is_ethikos_elite": false
+    },
+    {
+      "key": "zoe_martel",
+      "username": "demo_kc_zoe_martel",
+      "display_name": "Zoé Martel",
+      "role": "Documentation Specialist",
+      "is_ethikos_elite": false
+    }
+  ],
+  "categories": [
+    {
+      "key": "knowledge_continuity_case_clinics",
+      "name": "Knowledge Continuity Case Clinics",
+      "description": "Structured expert reasoning sessions linked to capability-transfer cases."
+    }
+  ],
+  "topics": [
+    {
+      "key": "clinic_same_alarm_different_failure",
+      "title": "[DEMO] Same alarm, different failure: what evidence changes your diagnosis?",
+      "description": "Case Clinic based on case_diag_003. The goal is to elicit reasoning, not produce a vote or consensus.",
+      "status": "open",
+      "category": "knowledge_continuity_case_clinics"
+    },
+    {
+      "key": "clinic_precedent_or_framework",
+      "title": "[DEMO] Precedent or framework: should the 2021 procurement exception be repeated?",
+      "description": "Case Clinic based on case_proc_003. Participants distinguish historical outcome from transferable decision framework.",
+      "status": "open",
+      "category": "knowledge_continuity_case_clinics"
+    },
+    {
+      "key": "clinic_finish_or_stop",
+      "title": "[DEMO] Finish the repair or stop and escalate?",
+      "description": "Case Clinic based on case_repair_004. Participants explain stop conditions and safety boundaries.",
+      "status": "open",
+      "category": "knowledge_continuity_case_clinics"
+    }
+  ],
+  "stances": [],
+  "arguments": [
+    {
+      "key": "arg_diag_marc",
+      "topic": "clinic_same_alarm_different_failure",
+      "actor": "marc_leblanc",
+      "side": "neutral",
+      "content": "I would not map the alarm directly to a component. I first reconstruct the event sequence: load transition, ambient condition, then the delay before the alarm. The same code can be downstream of different physical causes."
+    },
+    {
+      "key": "arg_diag_sofia",
+      "topic": "clinic_same_alarm_different_failure",
+      "actor": "sofia_nguyen",
+      "side": "neutral",
+      "content": "My initial tendency is to compare the sensor traces statistically. Marc's sequence rule adds a constraint I was underweighting: two similar snapshots can represent different trajectories."
+    },
+    {
+      "key": "arg_diag_jean",
+      "topic": "clinic_same_alarm_different_failure",
+      "actor": "jean_caron",
+      "side": "neutral",
+      "content": "On legacy equipment I also verify whether the physical configuration still matches the controlled drawing. A field modification can make a correct diagram a misleading diagnostic premise."
+    },
+    {
+      "key": "arg_diag_nadia",
+      "topic": "clinic_same_alarm_different_failure",
+      "actor": "nadia_roy",
+      "side": "neutral",
+      "content": "The transferable rule is not 'trust experience'. It is to preserve enough time-ordered evidence to test which causal story fits the event rather than only the alarm label."
+    },
+    {
+      "key": "arg_proc_claire",
+      "topic": "clinic_precedent_or_framework",
+      "actor": "claire_beaulieu",
+      "side": "neutral",
+      "content": "The 2021 outcome is not the rule. The reusable part is the framework: continuity exposure, alternative capacity, approval mandate, expiry, and review conditions."
+    },
+    {
+      "key": "arg_proc_maya",
+      "topic": "clinic_precedent_or_framework",
+      "actor": "maya_singh",
+      "side": "neutral",
+      "content": "The current market has more backup capacity. Applying the same framework may therefore produce the opposite result without contradicting the prior decision."
+    },
+    {
+      "key": "arg_proc_samira",
+      "topic": "clinic_precedent_or_framework",
+      "actor": "samira_khan",
+      "side": "neutral",
+      "content": "Any reconstruction should label which parts come from contemporaneous records and which parts are later interpretation. Otherwise institutional memory becomes false certainty."
+    },
+    {
+      "key": "arg_proc_luc",
+      "topic": "clinic_precedent_or_framework",
+      "actor": "luc_gagnon",
+      "side": "neutral",
+      "content": "Experts can explain risk, but the record must still identify who had the mandate to accept it. Expertise and decision authority are different roles."
+    },
+    {
+      "key": "arg_repair_andre",
+      "topic": "clinic_finish_or_stop",
+      "actor": "andre_bouchard",
+      "side": "neutral",
+      "content": "I stop when the remaining uncertainty concerns a condition I cannot inspect safely in the current setup. Completion pressure is not evidence that the repair is safe to finish."
+    },
+    {
+      "key": "arg_repair_leila",
+      "topic": "clinic_finish_or_stop",
+      "actor": "leila_haddad",
+      "side": "neutral",
+      "content": "The difficult part is recognizing the cue early enough. I can reproduce the motion, but I still need practice distinguishing normal resistance from a warning that the underlying surface is uncertain."
+    },
+    {
+      "key": "arg_repair_samira",
+      "topic": "clinic_finish_or_stop",
+      "actor": "samira_khan",
+      "side": "neutral",
+      "content": "The validation criterion should include a correct stop decision. A perfect-looking finished repair is not evidence of competence if the practitioner should have escalated earlier."
+    },
+    {
+      "key": "arg_repair_david",
+      "topic": "clinic_finish_or_stop",
+      "actor": "david_okafor",
+      "side": "neutral",
+      "content": "The safe boundary must be teachable and auditable. Tacit judgment is valuable, but when consequence is high the escalation trigger needs an explicit operational form."
+    }
+  ],
+  "argument_sources": [
+    {
+      "key": "arg_diag_marc__case",
+      "argument": "arg_diag_marc",
+      "citation_text": "Synthetic World 6 source case: case_diag_003. See canon/cases.json. No external factual claim is asserted."
+    },
+    {
+      "key": "arg_diag_sofia__case",
+      "argument": "arg_diag_sofia",
+      "citation_text": "Synthetic World 6 source case: case_diag_003. See canon/cases.json. No external factual claim is asserted."
+    },
+    {
+      "key": "arg_diag_jean__case",
+      "argument": "arg_diag_jean",
+      "citation_text": "Synthetic World 6 source case: case_diag_003. See canon/cases.json. No external factual claim is asserted."
+    },
+    {
+      "key": "arg_diag_nadia__case",
+      "argument": "arg_diag_nadia",
+      "citation_text": "Synthetic World 6 source case: case_diag_003. See canon/cases.json. No external factual claim is asserted."
+    },
+    {
+      "key": "arg_proc_claire__case",
+      "argument": "arg_proc_claire",
+      "citation_text": "Synthetic World 6 source case: case_proc_003. See canon/cases.json. No external factual claim is asserted."
+    },
+    {
+      "key": "arg_proc_maya__case",
+      "argument": "arg_proc_maya",
+      "citation_text": "Synthetic World 6 source case: case_proc_003. See canon/cases.json. No external factual claim is asserted."
+    },
+    {
+      "key": "arg_proc_samira__case",
+      "argument": "arg_proc_samira",
+      "citation_text": "Synthetic World 6 source case: case_proc_003. See canon/cases.json. No external factual claim is asserted."
+    },
+    {
+      "key": "arg_proc_luc__case",
+      "argument": "arg_proc_luc",
+      "citation_text": "Synthetic World 6 source case: case_proc_003. See canon/cases.json. No external factual claim is asserted."
+    },
+    {
+      "key": "arg_repair_andre__case",
+      "argument": "arg_repair_andre",
+      "citation_text": "Synthetic World 6 source case: case_repair_004. See canon/cases.json. No external factual claim is asserted."
+    },
+    {
+      "key": "arg_repair_leila__case",
+      "argument": "arg_repair_leila",
+      "citation_text": "Synthetic World 6 source case: case_repair_004. See canon/cases.json. No external factual claim is asserted."
+    },
+    {
+      "key": "arg_repair_samira__case",
+      "argument": "arg_repair_samira",
+      "citation_text": "Synthetic World 6 source case: case_repair_004. See canon/cases.json. No external factual claim is asserted."
+    },
+    {
+      "key": "arg_repair_david__case",
+      "argument": "arg_repair_david",
+      "citation_text": "Synthetic World 6 source case: case_repair_004. See canon/cases.json. No external factual claim is asserted."
+    }
+  ],
+  "consultations": [],
+  "consultation_votes": [],
+  "impact_items": [],
+  "ekoh_profiles": [
+    {
+      "actor": "marc_leblanc",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo capability evidence: 14 reconstructed cases, peer review, field practice. Score is advisory; evidence remains primary.",
+      "expertise": [
+        {
+          "domain_code": "0713",
+          "raw_score": 0.94,
+          "weighted_score": 0.94
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.72,
+          "weighted_score": 0.72
+        }
+      ]
+    },
+    {
+      "actor": "sofia_nguyen",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo developing-expertise profile; not an independent-practitioner credential.",
+      "expertise": [
+        {
+          "domain_code": "0713",
+          "raw_score": 0.72,
+          "weighted_score": 0.72
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.63,
+          "weighted_score": 0.63
+        }
+      ]
+    },
+    {
+      "actor": "jean_caron",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo field-practice profile.",
+      "expertise": [
+        {
+          "domain_code": "0713",
+          "raw_score": 0.76,
+          "weighted_score": 0.76
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.52,
+          "weighted_score": 0.52
+        }
+      ]
+    },
+    {
+      "actor": "amina_benali",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo learning-transfer profile.",
+      "expertise": [
+        {
+          "domain_code": "0111",
+          "raw_score": 0.91,
+          "weighted_score": 0.91
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.78,
+          "weighted_score": 0.78
+        }
+      ]
+    },
+    {
+      "actor": "nadia_roy",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo evidence-analysis profile.",
+      "expertise": [
+        {
+          "domain_code": "0713",
+          "raw_score": 0.83,
+          "weighted_score": 0.83
+        },
+        {
+          "domain_code": "0542",
+          "raw_score": 0.88,
+          "weighted_score": 0.88
+        }
+      ]
+    },
+    {
+      "actor": "luc_gagnon",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo operations-governance profile.",
+      "expertise": [
+        {
+          "domain_code": "0413",
+          "raw_score": 0.88,
+          "weighted_score": 0.88
+        }
+      ]
+    },
+    {
+      "actor": "elise_tremblay",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo archival/provenance profile.",
+      "expertise": [
+        {
+          "domain_code": "0321",
+          "raw_score": 0.82,
+          "weighted_score": 0.82
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.68,
+          "weighted_score": 0.68
+        }
+      ]
+    },
+    {
+      "actor": "claire_beaulieu",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo institutional-memory profile.",
+      "expertise": [
+        {
+          "domain_code": "0413",
+          "raw_score": 0.93,
+          "weighted_score": 0.93
+        },
+        {
+          "domain_code": "0312",
+          "raw_score": 0.71,
+          "weighted_score": 0.71
+        }
+      ]
+    },
+    {
+      "actor": "maya_singh",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo developing institutional-memory profile.",
+      "expertise": [
+        {
+          "domain_code": "0413",
+          "raw_score": 0.74,
+          "weighted_score": 0.74
+        },
+        {
+          "domain_code": "0312",
+          "raw_score": 0.58,
+          "weighted_score": 0.58
+        }
+      ]
+    },
+    {
+      "actor": "andre_bouchard",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo embodied-practice profile.",
+      "expertise": [
+        {
+          "domain_code": "0722",
+          "raw_score": 0.95,
+          "weighted_score": 0.95
+        },
+        {
+          "domain_code": "0413",
+          "raw_score": 0.6,
+          "weighted_score": 0.6
+        }
+      ]
+    },
+    {
+      "actor": "leila_haddad",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo developing precision-repair profile.",
+      "expertise": [
+        {
+          "domain_code": "0722",
+          "raw_score": 0.72,
+          "weighted_score": 0.72
+        },
+        {
+          "domain_code": "0111",
+          "raw_score": 0.54,
+          "weighted_score": 0.54
+        }
+      ]
+    },
+    {
+      "actor": "samira_khan",
+      "ethics_score": 1.0,
+      "rating_visibility": "scoped",
+      "publication_basis": "Demo quality-review profile.",
+      "expertise": [
+        {
+          "domain_code": "0413",
+          "raw_score": 0.79,
+          "weighted_score": 0.79
+        },
+        {
+          "domain_code": "0722",
+          "raw_score": 0.62,
+          "weighted_score": 0.62
+        }
+      ]
+    }
+  ],
+  "consultation_relevance": [],
+  "topic_relevance": [],
+  "reading_exclusions": []
+}

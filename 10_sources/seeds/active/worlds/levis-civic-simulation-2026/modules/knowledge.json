@@ -1,0 +1,285 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "levis-civic-simulation-2026",
+  "content_version": "0.2.1",
+  "import_status": "staged_sidecar",
+  "module": "konnected.knowledge",
+  "resources": [
+    {
+      "key": "kno_lev_01",
+      "title": "Qui décide quoi dans une ville?",
+      "resource_type": "lesson",
+      "model_type": "course",
+      "arc_refs": [
+        "growth_2030",
+        "mobility_2035",
+        "territory_mandate"
+      ],
+      "topic_refs": [
+        "participation_continue"
+      ],
+      "source_refs": [
+        "S18"
+      ],
+      "epistemic_status": "simulation_authored_primer",
+      "learning_outcomes": [
+        "Distinguer décision politique, administration municipale et participation publique.",
+        "Identifier quel type de preuve est pertinent avant une prise de position."
+      ],
+      "body_markdown": "Une décision municipale n’est pas un seul geste. Dans cette simulation, on distingue le mandat politique, l’analyse administrative, la consultation, la décision et la mise en œuvre. Le but est de toujours pouvoir retrouver qui a proposé quoi, sur quelle information, et à quelle étape du processus. La ressource S18 sert de point d’ancrage local pour les mécanismes de participation."
+    },
+    {
+      "key": "kno_lev_02",
+      "title": "Lire un budget municipal sans être comptable",
+      "resource_type": "lesson",
+      "model_type": "course",
+      "arc_refs": [
+        "growth_2030",
+        "mobility_2035"
+      ],
+      "topic_refs": [
+        "cadre_financier_2026_2030"
+      ],
+      "source_refs": [
+        "S16",
+        "S17"
+      ],
+      "epistemic_status": "simulation_authored_primer",
+      "learning_outcomes": [
+        "Séparer dépenses courantes, investissements et financement.",
+        "Repérer les hypothèses qui structurent un cadre financier."
+      ],
+      "body_markdown": "Le lecteur ne cherche pas à devenir comptable: il cherche à repérer les choix structurants. Cette leçon propose une grille de lecture: besoins d’investissement, rythme des travaux, dette, fiscalité, maintien des actifs et hypothèses de croissance. Dans le World, chaque grand projet doit expliciter quelles hypothèses financières il utilise."
+    },
+    {
+      "key": "kno_lev_03",
+      "title": "Dette, taxation, infrastructures et maintien des actifs",
+      "resource_type": "article",
+      "model_type": "doc",
+      "arc_refs": [
+        "growth_2030",
+        "mobility_2035"
+      ],
+      "topic_refs": [
+        "cadre_financier_2026_2030"
+      ],
+      "source_refs": [
+        "S16",
+        "S17"
+      ],
+      "epistemic_status": "simulation_authored_primer",
+      "learning_outcomes": [
+        "Identifier les principaux arbitrages financiers d’un investissement municipal.",
+        "Éviter de traiter dette, taxation et actifs comme trois sujets indépendants."
+      ],
+      "body_markdown": "Dans la simulation, tout portefeuille d’investissement doit montrer son effet sur au moins trois dimensions: financement, maintien des actifs existants et capacité de réaliser de nouveaux projets. Les sources S16 et S17 servent de contexte local; la leçon n’en déduit aucune préférence politique."
+    },
+    {
+      "key": "kno_lev_04",
+      "title": "Pourquoi les eaux usées peuvent limiter la construction",
+      "resource_type": "lesson",
+      "model_type": "course",
+      "arc_refs": [
+        "growth_2030"
+      ],
+      "topic_refs": [
+        "moratoire_eaux_usees"
+      ],
+      "source_refs": [
+        "S10",
+        "S20"
+      ],
+      "epistemic_status": "simulation_authored_primer",
+      "learning_outcomes": [
+        "Comprendre la notion de capacité de traitement comme contrainte de système.",
+        "Distinguer capacité permanente, mesures transitoires et rythme de développement."
+      ],
+      "body_markdown": "Le World traite l’eau comme une contrainte de capacité: si une infrastructure essentielle ne peut absorber une croissance donnée, la question n’est plus seulement immobilière. La simulation fait comparer capacité permanente, solutions intérimaires, risques, séquençage et effets sur le rythme de développement, en s’appuyant sur S10 et S20 pour le contexte lévisien."
+    },
+    {
+      "key": "kno_lev_05",
+      "title": "Qui paie les infrastructures de croissance?",
+      "resource_type": "article",
+      "model_type": "doc",
+      "arc_refs": [
+        "growth_2030"
+      ],
+      "topic_refs": [
+        "redevances_developpement",
+        "cadre_financier_2026_2030"
+      ],
+      "source_refs": [
+        "S13",
+        "S16"
+      ],
+      "epistemic_status": "simulation_authored_primer",
+      "learning_outcomes": [
+        "Comparer plusieurs mécanismes de financement sans supposer qu’un seul est optimal.",
+        "Rendre explicite qui supporte un coût et à quel moment."
+      ],
+      "body_markdown": "Cette ressource utilise une question simple: quand la croissance exige une nouvelle infrastructure, comment répartir le coût entre fiscalité générale, nouveaux projets, dette et autres mécanismes? Le World exige que chaque scénario indique qui paie, quand, et quelle incertitude demeure."
+    },
+    {
+      "key": "kno_lev_06",
+      "title": "Logement abordable : modèles et leviers municipaux",
+      "resource_type": "article",
+      "model_type": "doc",
+      "arc_refs": [
+        "growth_2030"
+      ],
+      "topic_refs": [
+        "aides_logement_abordable_prive"
+      ],
+      "source_refs": [
+        "S14"
+      ],
+      "epistemic_status": "simulation_authored_primer",
+      "learning_outcomes": [
+        "Distinguer objectif d’abordabilité et véhicule de réalisation.",
+        "Comparer une aide selon conditions, durée, bénéficiaires et coût public."
+      ],
+      "body_markdown": "Le World sépare l’objectif — produire ou préserver de l’abordabilité — du mécanisme utilisé. Une option peut mobiliser un acteur public, communautaire, coopératif ou privé; l’analyse doit alors préciser les conditions, la durée de l’avantage, le coût public et les obligations associées. S14 fournit le contexte de débat local."
+    },
+    {
+      "key": "kno_lev_07",
+      "title": "Comparer des options de mobilité avec les mêmes critères",
+      "resource_type": "lesson",
+      "model_type": "course",
+      "arc_refs": [
+        "mobility_2035"
+      ],
+      "topic_refs": [
+        "troisieme_lien_routier_est",
+        "srb_guillaume_couture"
+      ],
+      "source_refs": [
+        "S01",
+        "S02",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "epistemic_status": "simulation_authored_primer",
+      "learning_outcomes": [
+        "Comparer des options avec une grille commune.",
+        "Séparer préférence pour un mode et définition du problème de mobilité."
+      ],
+      "body_markdown": "Chaque portefeuille de mobilité est comparé selon une même grille: problème visé, capacité, accessibilité, réseau local, interconnexion, coût, séquençage et incertitude. Le but n’est pas de produire une réponse unique, mais d’empêcher qu’une option soit évaluée avec des critères plus favorables qu’une autre."
+    },
+    {
+      "key": "kno_lev_08",
+      "title": "Mobilité interrives : définir le problème avant la solution",
+      "resource_type": "article",
+      "model_type": "doc",
+      "arc_refs": [
+        "mobility_2035"
+      ],
+      "topic_refs": [
+        "troisieme_lien_routier_est"
+      ],
+      "source_refs": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "epistemic_status": "simulation_authored_primer",
+      "learning_outcomes": [
+        "Formuler plusieurs objectifs possibles d’un lien interrives.",
+        "Relier chaque solution proposée au problème qu’elle prétend résoudre."
+      ],
+      "body_markdown": "Avant de comparer des ouvrages, le World demande de formuler le problème: déplacements, résilience, transport collectif, réseau routier, développement ou combinaison de plusieurs objectifs. Les sources S01 à S06 documentent des positions publiques divergentes; elles ne sont pas transformées en verdict."
+    },
+    {
+      "key": "kno_lev_09",
+      "title": "Comprendre un corridor de transport structurant",
+      "resource_type": "article",
+      "model_type": "doc",
+      "arc_refs": [
+        "mobility_2035"
+      ],
+      "topic_refs": [
+        "srb_guillaume_couture"
+      ],
+      "source_refs": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "epistemic_status": "simulation_authored_primer",
+      "learning_outcomes": [
+        "Comparer axe structurant, voies réservées et approche hybride.",
+        "Identifier les dépendances avec le reste du réseau."
+      ],
+      "body_markdown": "Un corridor n’est pas évalué uniquement par son aménagement physique. La simulation oblige à considérer continuité, fréquence, accès, correspondances, emprise, phasage et compatibilité avec le réseau existant. S07 à S09 fournissent le contexte des options débattues."
+    },
+    {
+      "key": "kno_lev_10",
+      "title": "Aménagement, agriculture, nature et développement industriel",
+      "resource_type": "lesson",
+      "model_type": "course",
+      "arc_refs": [
+        "territory_mandate"
+      ],
+      "topic_refs": [
+        "rabaska_protection_avant_industrie"
+      ],
+      "source_refs": [
+        "S15"
+      ],
+      "epistemic_status": "simulation_authored_primer",
+      "learning_outcomes": [
+        "Identifier les valeurs concurrentes attachées à un territoire.",
+        "Construire un scénario d’affectation explicite plutôt qu’un choix binaire."
+      ],
+      "body_markdown": "Le World traite le territoire comme un ensemble de fonctions et de valeurs qui peuvent entrer en tension: agriculture, milieux naturels, développement industriel, accès, mémoire et usages futurs. L’exercice consiste à expliciter les priorités et les conditions de chaque scénario, sans réduire le débat à une opposition abstraite."
+    },
+    {
+      "key": "kno_lev_11",
+      "title": "Rabaska / Lévis-Est : dossier territorial et chronologie",
+      "resource_type": "article",
+      "model_type": "doc",
+      "arc_refs": [
+        "territory_mandate"
+      ],
+      "topic_refs": [
+        "rabaska_protection_avant_industrie"
+      ],
+      "source_refs": [
+        "S15"
+      ],
+      "epistemic_status": "sourced_context_plus_simulation_frame",
+      "learning_outcomes": [
+        "Relier un choix d’aménagement à son historique documenté.",
+        "Distinguer mémoire du territoire et scénario futur."
+      ],
+      "body_markdown": "Cette ressource sert d’entrée dans l’archive Lévis-Est. Elle ne fabrique pas une histoire complète: elle organise les éléments sourcés disponibles et réserve explicitement des emplacements pour les documents, cartes et médias dont les droits ou la provenance devront être confirmés avant publication."
+    },
+    {
+      "key": "kno_lev_12",
+      "title": "Comment participer à une décision municipale?",
+      "resource_type": "lesson",
+      "model_type": "course",
+      "arc_refs": [
+        "territory_mandate",
+        "growth_2030",
+        "mobility_2035"
+      ],
+      "topic_refs": [
+        "participation_continue"
+      ],
+      "source_refs": [
+        "S18",
+        "S19"
+      ],
+      "epistemic_status": "simulation_authored_primer",
+      "learning_outcomes": [
+        "Distinguer information, consultation, coconstruction et décision.",
+        "Formuler une contribution qui cite ses sources et précise ses incertitudes."
+      ],
+      "body_markdown": "Dans la simulation, participer ne signifie pas seulement voter. Un participant peut documenter un problème, proposer une option, répondre à un argument, classer des scénarios ou contribuer à un projet. S18 et S19 servent de contexte local; le World conserve séparément les mécanismes officiels et les mécanismes purement simulés."
+    }
+  ]
+}

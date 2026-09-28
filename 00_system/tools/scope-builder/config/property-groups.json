@@ -1,0 +1,52 @@
+{
+  "schema_version": "encyklopedia-property-groups/v1",
+  "note": "These groups guide discovery only. Once an entity enters a scope, its full Wikidata entity JSON is preserved losslessly in the evidence layer.",
+  "groups": {
+    "person_biography": {
+      "P19": "place_of_birth",
+      "P20": "place_of_death",
+      "P27": "country_of_citizenship",
+      "P551": "residence",
+      "P69": "educated_at",
+      "P108": "employer",
+      "P463": "member_of",
+      "P106": "occupation",
+      "P140": "religion_or_worldview"
+    },
+    "person_intellectual": {
+      "P101": "field_of_work",
+      "P135": "movement",
+      "P737": "influenced_by",
+      "P800": "notable_work"
+    },
+    "work_context": {
+      "P31": "instance_of",
+      "P50": "author",
+      "P170": "creator",
+      "P136": "genre",
+      "P921": "main_subject",
+      "P407": "language_of_work",
+      "P123": "publisher",
+      "P629": "edition_or_translation_of",
+      "P747": "has_edition_or_translation",
+      "P144": "based_on",
+      "P361": "part_of"
+    },
+    "concept_context": {
+      "P31": "instance_of",
+      "P279": "subclass_of",
+      "P361": "part_of",
+      "P527": "has_part",
+      "P155": "follows",
+      "P156": "followed_by",
+      "P737": "influenced_by"
+    },
+    "institution_place_context": {
+      "P31": "instance_of",
+      "P17": "country",
+      "P131": "located_in_administrative_entity",
+      "P361": "part_of",
+      "P159": "headquarters_location"
+    }
+  }
+}

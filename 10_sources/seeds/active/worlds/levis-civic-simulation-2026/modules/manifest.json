@@ -1,0 +1,34 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "levis-civic-simulation-2026",
+  "content_version": "0.2.1",
+  "import_status": "staged_sidecar",
+  "module": "world.sidecar_manifest",
+  "sidecars": {
+    "knowledge": "modules/knowledge.json",
+    "certifikation": "modules/certifikation.json",
+    "smart_vote": "modules/smart-vote.json",
+    "konstruct": "modules/konstruct.json",
+    "stockage": "modules/stockage.json",
+    "kontact": "modules/kontact.json",
+    "konservation": "modules/konservation.json",
+    "crosslinks": "modules/crosslinks.json"
+  },
+  "embedded_in_ethikos_scenario": [
+    "korum",
+    "konsultations",
+    "ekoh_profiles",
+    "impact_items",
+    "topic_relevance",
+    "consultation_relevance"
+  ],
+  "runtime_derived_only": [
+    "smart_vote_results"
+  ],
+  "notes": [
+    "Korum, Konsultations, EkoH profiles, impact items, topic relevance and consultation relevance are embedded in the canonical ethikos-demo-scenario/v3 payload.",
+    "Knowledge, CertifiKation, Konstruct, Stockage, Kontact, Konservation and Smart Vote presentation policy remain structured sidecars until their generic World loaders exist.",
+    "Smart Vote results are never seeded: only the declared relevance vectors are embedded; baseline results must remain visible.",
+    "No installer or executable migration script is included in this drop-in overlay."
+  ]
+}

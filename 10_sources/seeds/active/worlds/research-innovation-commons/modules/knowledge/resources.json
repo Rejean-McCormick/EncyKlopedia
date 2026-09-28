@@ -1,0 +1,211 @@
+{
+  "schema_version": "kx-world-module-seed/v1",
+  "world_key": "research-innovation-commons",
+  "module": "konnected.knowledge",
+  "target_models": [
+    "KnowledgeResource"
+  ],
+  "import_status": "bridge_required",
+  "resources": [
+    {
+      "key": "KR-001",
+      "title": "NEX-27 — Current Knowledge State",
+      "type": "doc",
+      "content_kind": "current_state",
+      "content_path": "content/knowledge/KR-001-current-knowledge-state.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-001",
+      "author": "ACT-010",
+      "status": "published"
+    },
+    {
+      "key": "KR-002",
+      "title": "Harmonized NEX-27 Glossary",
+      "type": "doc",
+      "content_kind": "glossary",
+      "content_path": "content/knowledge/KR-002-definitions-glossary.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-002",
+      "author": "ACT-006",
+      "status": "published"
+    },
+    {
+      "key": "KR-003",
+      "title": "NEXUS Evidence Standards",
+      "type": "course",
+      "content_kind": "evidence_standard",
+      "content_path": "content/knowledge/KR-003-evidence-standards.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-003",
+      "author": "ACT-011",
+      "status": "published"
+    },
+    {
+      "key": "KR-004",
+      "title": "Why Negative Results Stay Visible",
+      "type": "doc",
+      "content_kind": "negative_results",
+      "content_path": "content/knowledge/KR-004-negative-results.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-004",
+      "author": "ACT-010",
+      "status": "published"
+    },
+    {
+      "key": "KR-005",
+      "title": "Promising ≠ Proven",
+      "type": "course",
+      "content_kind": "science_communication",
+      "content_path": "content/knowledge/KR-005-public-communication.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-005",
+      "author": "ACT-012",
+      "status": "published"
+    },
+    {
+      "key": "KR-006",
+      "title": "Five-Site Harmonization Playbook",
+      "type": "course",
+      "content_kind": "harmonization",
+      "content_path": "content/knowledge/KR-006-harmonization-playbook.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-006",
+      "author": "ACT-009",
+      "status": "published"
+    },
+    {
+      "key": "KR-007",
+      "title": "Reproducibility Checklist",
+      "type": "doc",
+      "content_kind": "reproducibility",
+      "content_path": "content/knowledge/KR-007-reproducibility-checklist.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-007",
+      "author": "ACT-011",
+      "status": "published"
+    },
+    {
+      "key": "KR-008",
+      "title": "Correlation, Mechanism and Causality",
+      "type": "course",
+      "content_kind": "causal_inference",
+      "content_path": "content/knowledge/KR-008-causal-claims.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-008",
+      "author": "ACT-004",
+      "status": "published"
+    },
+    {
+      "key": "KR-009",
+      "title": "Sensitivity Analysis",
+      "type": "doc",
+      "content_kind": "statistics",
+      "content_path": "content/knowledge/KR-009-sensitivity-analysis.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-009",
+      "author": "ACT-004",
+      "status": "published"
+    },
+    {
+      "key": "KR-010",
+      "title": "Research Prioritization Is Not Truth Voting",
+      "type": "doc",
+      "content_kind": "governance",
+      "content_path": "content/knowledge/KR-010-research-prioritization.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-010",
+      "author": "ACT-011",
+      "status": "published"
+    },
+    {
+      "key": "KR-011",
+      "title": "Data Provenance",
+      "type": "course",
+      "content_kind": "provenance",
+      "content_path": "content/knowledge/KR-011-data-provenance.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-011",
+      "author": "ACT-009",
+      "status": "published"
+    },
+    {
+      "key": "KR-012",
+      "title": "Language for Uncertainty",
+      "type": "doc",
+      "content_kind": "uncertainty",
+      "content_path": "content/knowledge/KR-012-uncertainty-language.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-012",
+      "author": "ACT-010",
+      "status": "published"
+    },
+    {
+      "key": "KR-013",
+      "title": "Synthetic Harmonized Cohort",
+      "type": "other",
+      "content_kind": "dataset",
+      "content_path": "content/data/DATA-001-synthetic-harmonized-cohort.csv",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-013",
+      "author": "ACT-006",
+      "status": "published"
+    },
+    {
+      "key": "KR-014",
+      "title": "Synthetic Replication Summary",
+      "type": "other",
+      "content_kind": "dataset",
+      "content_path": "content/data/DATA-002-synthetic-replication-summary.csv",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-014",
+      "author": "ACT-010",
+      "status": "published"
+    },
+    {
+      "key": "KR-015",
+      "title": "NEXUS Evidence Map",
+      "type": "doc",
+      "content_kind": "evidence_map",
+      "content_path": "content/knowledge/KR-015-evidence-map.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-015",
+      "author": "ACT-010",
+      "status": "published"
+    },
+    {
+      "key": "KR-016",
+      "title": "From Claim to Source: Provenance Walkthrough",
+      "type": "course",
+      "content_kind": "provenance_walkthrough",
+      "content_path": "content/knowledge/KR-016-provenance-walkthrough.md",
+      "url": "https://world.invalid/research-innovation-commons/knowledge/kr-016",
+      "author": "ACT-009",
+      "status": "published"
+    }
+  ],
+  "recommendation_sets": [
+    {
+      "key": "REC-ACT-I",
+      "title": "Act I — establish shared language",
+      "resources": [
+        "KR-002",
+        "KR-006",
+        "KR-003"
+      ]
+    },
+    {
+      "key": "REC-ACT-II",
+      "title": "Act II — preserve the failed experiment",
+      "resources": [
+        "KR-004",
+        "KR-007",
+        "KR-011",
+        "KR-009"
+      ]
+    },
+    {
+      "key": "REC-EPILOGUE",
+      "title": "Epilogue — communicate without hype",
+      "resources": [
+        "KR-005",
+        "KR-012",
+        "KR-001"
+      ]
+    },
+    {
+      "key": "REC-PROVENANCE",
+      "title": "Trace a claim all the way down",
+      "resources": [
+        "KR-015",
+        "KR-016",
+        "KR-011",
+        "KR-007"
+      ]
+    }
+  ]
+}

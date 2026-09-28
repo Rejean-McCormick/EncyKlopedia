@@ -1,0 +1,59 @@
+{
+  "schema_version": "konnaxion-world-module-bridge-seed/v1",
+  "world_key": "knowledge-continuity",
+  "module": "korum",
+  "model_mapping": {
+    "topic_model": "ethikos.EthikosTopic",
+    "argument_model": "ethikos.EthikosArgument",
+    "canonical_import": "scenarios/knowledge-continuity.json"
+  },
+  "records": [
+    {
+      "key": "clinic_same_alarm_different_failure",
+      "title": "Same alarm, different failure: what evidence changes your diagnosis?",
+      "capability": "intermittent_fault_diagnosis",
+      "case": "case_diag_003",
+      "participants": [
+        "marc_leblanc",
+        "sofia_nguyen",
+        "jean_caron",
+        "nadia_roy"
+      ],
+      "purpose": "Elicit diagnostic criteria and expose why experts weight sequence/context differently."
+    },
+    {
+      "key": "clinic_precedent_or_framework",
+      "title": "Precedent or framework: should the 2021 procurement exception be repeated?",
+      "capability": "procurement_exception_memory",
+      "case": "case_proc_003",
+      "participants": [
+        "claire_beaulieu",
+        "maya_singh",
+        "samira_khan",
+        "luc_gagnon"
+      ],
+      "purpose": "Separate remembered outcome from transferable decision logic."
+    },
+    {
+      "key": "clinic_finish_or_stop",
+      "title": "Finish the repair or stop and escalate?",
+      "capability": "precision_repair_judgment",
+      "case": "case_repair_004",
+      "participants": [
+        "andre_bouchard",
+        "leila_haddad",
+        "samira_khan",
+        "david_okafor"
+      ],
+      "purpose": "Elicit safe stop conditions and the limits of tacit judgment."
+    }
+  ],
+  "notes": [
+    "Case Clinics elicit reasoning. No stance values or consensus results are seeded."
+  ],
+  "bridge_semantics": {
+    "native_model_fields": "Fields described by model_mapping are intended for direct native-model import.",
+    "world_metadata_fields": "Cross-module keys (capability/case/evidence/etc.) are declarative World linkage metadata.",
+    "automatic_import": false
+  }
+}

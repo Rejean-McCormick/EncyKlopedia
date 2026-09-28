@@ -1,0 +1,32 @@
+{
+  "format": "konnaxion-world-policy/v1",
+  "world_key": "ethikos-political-philosophy",
+  "policy_key": "canonical-thinker-personas",
+  "applies_when": {
+    "representation_kind": "canonical_source_reconstruction"
+  },
+  "representation": {
+    "purpose": "Documentary attribution of sourced synthetic philosophical reconstructions.",
+    "not_a_live_participant": true,
+    "not_a_verbatim_quote_unless_source_explicitly_marks_quote": true,
+    "display_notice_required": true
+  },
+  "runtime_guards": {
+    "authentication_allowed": false,
+    "interactive_login_allowed": false,
+    "cast_vote_allowed": false,
+    "create_live_stance_allowed": false,
+    "receive_seed_ekoh_score": false,
+    "accumulate_participant_ekoh_evidence": false,
+    "receive_certification": false,
+    "join_project_team": false,
+    "receive_kontact_matching": false
+  },
+  "allowed_seed_roles": [
+    "argument_author_attribution",
+    "source_profile_reference",
+    "canonical_debate_context"
+  ],
+  "unknown_position_rule": "omit",
+  "enforcement_note": "Current seed importers may ignore these guards; World runtime/persona bridges must enforce them when support lands."
+}
