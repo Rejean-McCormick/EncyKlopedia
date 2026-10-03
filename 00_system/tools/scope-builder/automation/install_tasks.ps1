@@ -14,7 +14,7 @@ $ScopeArgs = "--scope $Scope"
 if ($IncludeIntellectuals) { $ScopeArgs += ' --scope intellectuals' }
 
 $watchCmd = "`"$Python`" `"$(Join-Path $Scripts 'watch_then_run.py')`" --root `"$Root`" $ScopeArgs --through handoff --poll-seconds $PollSeconds"
-$maintCmd = "`"$Python`" `"$(Join-Path $Scripts '10_maintenance.py')`" --root `"$Root`" --min-free-gib 50"
+$maintCmd = "`"$Python`" `"$(Join-Path $Scripts '09_maintenance.py')`" --root `"$Root`" --min-free-gib 50"
 
 $watchAction = New-ScheduledTaskAction -Execute 'pwsh.exe' -Argument "-NoProfile -WindowStyle Hidden -Command $watchCmd"
 $watchTrigger = New-ScheduledTaskTrigger -AtLogOn
@@ -25,4 +25,4 @@ $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatt
 Register-ScheduledTask -TaskName 'EncyKlopedia-AutoScope' -Action $watchAction -Trigger $watchTrigger -Settings $settings -Description 'Builds selected lossless project scope(s) when inputs change; uses global index only if available.' -Force:$Force | Out-Null
 Register-ScheduledTask -TaskName 'EncyKlopedia-Maintenance' -Action $maintAction -Trigger $maintTrigger -Settings $settings -Description 'Daily disk/status check for EncyKlopedia.' -Force:$Force | Out-Null
 Write-Host 'Installed: EncyKlopedia-AutoScope, EncyKlopedia-Maintenance'
-Write-Host 'No task modifies 40_kristal directly; Da''at handoff remains the boundary.'
+Write-Host 'Automation stops at the Mediatheque source-evidence handoff; it does not invoke DaaT or Kristal.'

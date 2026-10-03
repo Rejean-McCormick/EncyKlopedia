@@ -1,0 +1,21 @@
+{
+  "schema_version": "encyk-source-provenance/v2",
+  "inputs": [
+    {
+      "role": "world_seed_collection",
+      "path": "10_sources/seeds/originals/packages/WorldsKollection(1).zip",
+      "sha256": "f1bc154c76523ab3ce86536ac90bb8d8ec45cf9d79a2d7cab8edc49a335c930b"
+    },
+    {
+      "role": "historical_intellectual_seed",
+      "path": "10_sources/seeds/originals/packages/konnaxion_historical_intellectuals_seed_v0_1.zip",
+      "sha256": "6a2eae1fa993999ff4711e206d6218e18ce1ad77d6c01b842694979e03689f74"
+    },
+    {
+      "role": "historical_architecture_reference",
+      "source_attachment": "Code_snapshot_kOA(2).zip",
+      "status": "superseded",
+      "note": "Pre-0.12 copied kOA/Kristal reference docs were removed from the active repository. Current authority boundaries are documented in 00_system/docs/architecture.md and ecosystem-boundaries.md."
+    }
+  ]
+}

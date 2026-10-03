@@ -1,9 +1,10 @@
 # 30_working
 
-Rebuildable, non-canonical working material.
+Rebuildable, non-authoritative working material.
 
-- `wikidata/wikidata.compact.sqlite` = optional broad discovery accelerator.
-- `scopes/<scope>/` = root resolution, discovery, frozen QIDs/roles.
-- `scopes/<scope>/index/` = optional project query SQLite only when explicitly requested.
+- `wikidata/wikidata.compact.sqlite` — optional broad discovery accelerator;
+- `scopes/<scope>/` — root resolution, discovery and frozen selection state;
+- `scopes/<scope>/index/` — optional project query SQLite;
+- `entity-vaults/` — optional selected-record cache used to avoid expensive source rescans.
 
-v0.8 does not require either SQLite layer to produce immutable project evidence or a Da'at handoff.
+No SQLite/index/cache in this zone is a source of epistemic or storage authority.

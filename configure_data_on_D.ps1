@@ -1,4 +1,4 @@
-﻿[CmdletBinding()]
+[CmdletBinding()]
 param(
     [string]$CRoot = 'C:\mycode\EncyKlopedia\EncyKlopedia',
     [string]$DRoot = 'D:\EncyKlopedia',
@@ -15,14 +15,11 @@ if (-not (Test-Path -LiteralPath (Join-Path $DRoot '10_sources'))) { throw 'DRoo
 $links = @(
  '10_sources\lexical',
  '10_sources\wikidata\dumps',
- '20_ingest\checkpoints',
- '20_ingest\snapshots',
- '20_ingest\scope-snapshots',
- '20_ingest\daat-handoff',
- '20_ingest\handoffs',
+ '20_evidence\acquisition-snapshots',
+ '20_evidence\scope-snapshots',
+ '20_evidence\handoffs',
  '30_working',
- '40_kristal',
- '50_mediatheque'
+ '90_runtime\checkpoints'
 )
 
 function Is-JunctionTo([string]$Path,[string]$Target) {

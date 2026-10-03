@@ -18,7 +18,7 @@ def reusable_snapshot(root:Path,key:str,scope_hash:str,dump_id:str)->dict[str,An
 
 
 def main():
-    ap=argparse.ArgumentParser(description='Extract complete selected Wikidata entities into immutable scope evidence. v0.10 refuses accidental 121M-entity scans unless --allow-full-scan is explicit.')
+    ap=argparse.ArgumentParser(description='Extract complete selected Wikidata entities into immutable scope evidence. 0.12 refuses accidental 121M-entity scans unless --allow-full-scan is explicit.')
     ap.add_argument('--root',default=''); ap.add_argument('--scope',action='append',required=True); ap.add_argument('--dump',default=''); ap.add_argument('--compression',type=int,default=6)
     ap.add_argument('--cache-vault',action='store_true'); ap.add_argument('--threads',type=int,default=0); ap.add_argument('--no-fast-access',action='store_true')
     ap.add_argument('--allow-full-scan',action='store_true',help='Explicitly allow a sequential scan of the entire raw dump when random access/cache cannot satisfy the scope.')
@@ -30,7 +30,7 @@ def main():
         if not ids:raise RuntimeError(f'Scope {key} non gelé. Exécute 03_freeze_scope.py.')
         reuse=reusable_snapshot(root,key,freeze.get('scope_hash'),dump_id)
         if reuse:reusable.append({'scope_key':key,**reuse}); continue
-        staging=root/'20_ingest/staging'/f'{key}-direct-evidence.tmp'
+        staging=root/'20_evidence/staging'/f'{key}-direct-evidence.tmp'
         states.append({'scope_arg':s,'scope_key':key,'wd':wd,'freeze':freeze,'wanted':ids,'missing':set(ids),'records':{},'staging':staging,'rawfh':None,'gz':None,'written':0})
     if not states:
         print(json.dumps({'dump':desc,'reused':reusable,'scanned':False},ensure_ascii=False,indent=2)); return
@@ -43,7 +43,7 @@ def main():
     if missing_before_scan and not random_ready and not a.allow_full_scan and not small_dump:
         raise SystemExit(
             f'Extraction evidence arrêtée avant scan: {len(missing_before_scan):,}/{len(union):,} QID ne sont ni dans le vault ni accessibles en random access. '
-            f'Backend={performance_status(root)}. EncyKlopedia v0.10 ne relit plus silencieusement les 121M entités. '
+            f'Backend={performance_status(root)}. EncyK 0.12 ne relit plus silencieusement les 121M entités. '
             'Prépare un backend random-access (indexed_bzip2 pour ce .bz2, ou futur .json.gz + rapidgzip), '
             'ou relance explicitement avec --allow-full-scan si tu acceptes le coût.'
         )
@@ -67,7 +67,7 @@ def main():
         for st in states:
             if wid in st['missing']:
                 st['gz'].write(raw+b'\n'); st['records'][wid]={'wid':wid,'raw_bytes':len(raw),'sha256':sha}; st['missing'].remove(wid); st['written']+=1
-    print(json.dumps({'mode':'direct_lossless_extract_v010','dump':desc,'scopes':[s['scope_key'] for s in states],'union_qids':len(union),'vault_hits':len(cached),'random_access_ready':random_ready,'allow_full_scan':a.allow_full_scan,'cache_vault':bool(vault),'performance':performance_status(root)},ensure_ascii=False,indent=2),flush=True)
+    print(json.dumps({'mode':'direct_lossless_extract_v012','dump':desc,'scopes':[s['scope_key'] for s in states],'union_qids':len(union),'vault_hits':len(cached),'random_access_ready':random_ready,'allow_full_scan':a.allow_full_scan,'cache_vault':bool(vault),'performance':performance_status(root)},ensure_ascii=False,indent=2),flush=True)
     try:
         for wid,raw in cached.items():accept_raw(wid,raw)
         if cached:print(f'[evidence/vault] found_union={len(found_union):,}/{len(union):,}',flush=True)
@@ -82,7 +82,7 @@ def main():
         missing_now=union-found_union
         if missing_now:
             if not a.allow_full_scan and not small_dump:
-                raise SystemExit(f'Random access n\'a pas retourné {len(missing_now):,} QID. Aucun fallback full-scan automatique en v0.10. Exemples: {sorted(missing_now)[:20]}')
+                raise SystemExit(f'Random access n\'a pas retourné {len(missing_now):,} QID. Aucun fallback full-scan automatique en 0.12. Exemples: {sorted(missing_now)[:20]}')
             extraction_backend['fallback_scan']=True
             print(f'[evidence/scan] FULL SCAN EXPLICITE pour {len(missing_now):,} QID manquants.',flush=True)
             for raw in iter_dump_raw(dump,root=root,threads=a.threads):

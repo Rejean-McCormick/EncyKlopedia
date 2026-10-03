@@ -1,4 +1,4 @@
-# EncyKlopedia Fast Engine — v0.10
+# EncyK Fast Engine — 0.12
 
 The performance layer is an **optional accelerator**. It never becomes evidence or epistemic authority.
 
@@ -12,11 +12,11 @@ minimal one-pass Fast Access build
       ├── fast-index.sqlite     only selected reverse relations (P50/P170 by default)
       └── compression.gzindex   rapidgzip block index
             ↓
-people-first scope discovery
+scope discovery
             ↓ direct random reads
 lossless raw Wikidata entities
             ↓
-Da'at → Kristal
+Médiathèque handoff
 ```
 
 The locator is deliberately not a semantic database. It says **where the raw entity is**, not what the entity means.
@@ -58,7 +58,7 @@ Add more only when a project actually needs reverse lookup. Outgoing relations a
 `0` means automatic. EncyKlopedia prefers physical cores from `00_system/config/environment.json` and caps the default at 12. On the known Ryzen 7 5800HS machine this resolves to 8 worker threads.
 
 
-## v0.10 consolidation
+## Consolidation
 
 The Global Discovery Index now serves reverse relation lookup. `build_fast_access.py` therefore focuses on the QID locator and decompressor seek index and does **not** build a duplicate P50/P170 SQLite when the global index is available.
 

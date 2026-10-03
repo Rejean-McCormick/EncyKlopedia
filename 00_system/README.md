@@ -1,17 +1,18 @@
 # 00_system
 
-Tools, configuration, diagnostics, frozen local contracts and reference snapshots. Nothing here is canonical domain knowledge.
+Code, contracts, configuration and diagnostics for EncyK. Nothing here is canonical domain knowledge.
 
-## Active tools in v0.11
+## Active tools in 0.12
 
-- `tools/wikidata-manager/` — optional global compact discovery index.
-- `tools/scope-builder/` — primary project path: domain-configured roots → lossless evidence → referent/media candidates → Da’at handoff.
-- `tools/performance/` — derived fast-access accelerators.
-- `tools/legacy/` — earlier pipelines retained for traceability only.
+- `tools/wikidata-manager/` — source acquisition/index helper; the compact SQLite is optional discovery acceleration.
+- `tools/scope-builder/` — primary path: configured roots → scope → lossless evidence → identity candidates → Médiathèque handoff.
+- `tools/performance/` — rebuildable fast-access accelerators.
 
-## Contracts
+Legacy Kristal-ingest pipelines and vendored upstream Interaction Kernel snapshots were removed from the active repository. Git/history or archived snapshots remain the place to inspect those obsolete implementations.
 
-- `contracts/knowledge-baseline.json` — current EncyKlopedia compatibility pin.
-- `contracts/corpus-harvest-handoff/1.0.0/` — frozen EncyKlopedia → Da’at handoff.
+## Active contract
 
-The Scope Builder is domain-neutral at its core. Existing intellectual scopes deliberately use people as roots; another scope may root on works, installations, processes or other supported referent kinds.
+- `contracts/knowledge-baseline.json` — ecosystem compatibility baseline.
+- `contracts/source-evidence-handoff/2.0.0/` — canonical EncyK → Médiathèque handoff.
+
+See `docs/architecture.md` and `docs/ecosystem-boundaries.md`.

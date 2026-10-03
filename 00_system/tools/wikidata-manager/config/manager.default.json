@@ -1,5 +1,5 @@
 {
-  "schema_version": "encyklopedia-wikidata-local-manager/v0.10",
+  "schema_version": "encyk-wikidata-local-manager/v0.12",
   "layout": "encyklopedia-drive/v1",
   "dump_base_url": "https://dumps.wikimedia.org/wikidatawiki/entities/",
   "dump_kind": "all.json.bz2",
@@ -12,7 +12,7 @@
   "commit_every_entities": 5000,
   "paths": {
     "environment": "00_system/config/environment.json",
-    "dump_snapshot": "20_ingest/snapshots/wikidata/latest.json",
+    "dump_snapshot": "20_evidence/acquisition-snapshots/wikidata/latest.json",
     "dump_current": "10_sources/wikidata/dumps/current",
     "sqlite": "30_working/wikidata/wikidata.compact.sqlite",
     "registry": "10_sources/seeds/active/intellectual-registry/intellectuals.seed.json",

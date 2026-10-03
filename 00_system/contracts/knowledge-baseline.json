@@ -1,18 +1,44 @@
 {
-  "schema_version": "encyklopedia-knowledge-contract-baseline/v1",
-  "frozen_on": "2026-09-28",
-  "encyklopedia_handoff": "encyklopedia.corpus-harvest-handoff/1.0.0",
-  "kristal_release": "5.0.0-rc.3",
-  "kristal_referent_profile": "kristal.referent-registry/1.0.0",
-  "kristal_contract_bundle_sha256": "sha256:07fe0527ab29a4b40870efdd0c9e0c67c91de919e5428047245b2a2c04f8ea98",
+  "schema_version": "encyk-ecosystem-baseline/v2",
+  "frozen_on": "2026-10-03",
+  "encyk_release": "0.12.0",
+  "source_handoff": "encyk.source-evidence-handoff/2.0.0",
+  "mediatheque": {
+    "minimum_release": "0.2.0",
+    "source_catalog_profile": "koa.source-catalog/2.0.0",
+    "authority": "persistent source bytes, snapshots, physical representations, hashes, rights and source locators"
+  },
+  "interaction_kernel": {
+    "baseline": "2.0.0-dev.2",
+    "role": "optional transport/admission layer after source ownership has been established"
+  },
+  "daat": {
+    "human_name": "DaaT",
+    "machine_id": "daat",
+    "role": "optional IK-to-Kristal admission and explicit contract-mapping boundary"
+  },
+  "kristal": {
+    "portable_contract": "kristal_state/6.0",
+    "portable_standard": "6.0.0",
+    "kristall_design_baseline": "7.0.0-draft.3.2",
+    "authority": "semantic identity, epistemic artifacts, Mesh/axes/registries and crystallization"
+  },
+  "kompiler": {
+    "baseline": "0.5.0",
+    "role": "read-only context compiler over knowledge read surfaces; not an EncyK pipeline stage"
+  },
   "authority_direction": [
-    "source_acquisition",
-    "daat_mapping",
-    "kristal_epistemic_canon",
-    "consumer_projection"
+    "encyk_discover_acquire_extract",
+    "mediatheque_persistent_source_authority",
+    "optional_ik_daat_mapping",
+    "kristal_kristall_semantic_authority",
+    "kompiler_read_only_context_compilation"
   ],
   "notes": [
-    "EncyKlopedia never promotes Wikidata or provider identifiers to validated Kristal knowledge by itself.",
-    "Consumer navigation lenses such as people-first or process-first are outside this contract."
+    "EncyK does not maintain a canonical source library after handoff acceptance.",
+    "EncyK does not mint Kristall KQ/KP/KA/KS identities or emit Kristal referent registries.",
+    "EncyK does not write Kristal/Kristall artifacts or perform DaaT mapping.",
+    "External identifiers remain source identity candidates until interpreted by downstream authorities.",
+    "Kompiler is not responsible for source acquisition or source normalization."
   ]
 }

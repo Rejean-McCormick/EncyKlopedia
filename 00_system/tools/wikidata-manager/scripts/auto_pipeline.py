@@ -12,7 +12,7 @@ def run(cmd):
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--root',required=True);ap.add_argument('--languages',default='fr,en,mul');ap.add_argument('--python',default=sys.executable);ap.add_argument('--force-space',action='store_true');ap.add_argument('--dump-format',choices=['auto','gz','bz2'],default='auto');ap.add_argument('--threads',type=int,default=0);ap.add_argument('--temp-dir',default='')
  a=ap.parse_args();root=Path(a.root).resolve();scripts=Path(__file__).resolve().parent;tool=scripts.parent
- env=root/'00_system/config/environment.json'; snap_path=root/'20_ingest/snapshots/wikidata/latest.json'; dumpdir=root/'10_sources/wikidata/dumps/current'; db=root/'30_working/wikidata/wikidata.compact.sqlite'; state=root/'20_ingest/checkpoints/wikidata-index-state.json'; marker=root/'20_ingest/manifests/wikidata-dump-verified.json'
+ env=root/'00_system/config/environment.json'; snap_path=root/'20_evidence/acquisition-snapshots/wikidata/latest.json'; dumpdir=root/'10_sources/wikidata/dumps/current'; db=root/'30_working/wikidata/wikidata.compact.sqlite'; state=root/'90_runtime/checkpoints/wikidata-index-state.json'; marker=root/'20_evidence/manifests/wikidata-dump-verified.json'
  for p in [env.parent,snap_path.parent,dumpdir,db.parent,state.parent,marker.parent]:p.mkdir(parents=True,exist_ok=True)
  if os.name=='nt' and not env.exists():
   pwsh=shutil.which('pwsh.exe') or shutil.which('pwsh');diag=tool/'diagnostics'/'diag_environment.ps1'

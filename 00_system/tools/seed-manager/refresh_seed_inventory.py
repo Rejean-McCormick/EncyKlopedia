@@ -4,7 +4,7 @@ import json, hashlib, datetime
 BASE=Path(__file__).resolve().parents[3]
 WORLDS=BASE/'10_sources/seeds/active/worlds'
 REG=BASE/'10_sources/seeds/active/intellectual-registry/intellectuals.seed.json'
-OUT=BASE/'20_ingest/manifests/seeds.inventory.json'
+OUT=BASE/'20_evidence/manifests/seeds.inventory.json'
 
 def sha256(p):
  h=hashlib.sha256()

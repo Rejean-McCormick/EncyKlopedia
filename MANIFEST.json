@@ -1,123 +1,50 @@
 {
-  "authority_notes": {
-    "fast_access": "derived performance accelerator only; never evidence or canonical knowledge",
-    "kristal": "uses existing kOA Kristal lifecycle",
-    "mediatheque": "candidate feed preserves work/edition/manifestation separation; UCKK Mediatheque owns final catalog resolution",
-    "referent_candidates": "source-qualified identity/discovery candidates only; Da’at/Kristal owns canonical mapping/acceptance",
-    "runtime": "derived/disposable",
-    "scope_roots": "domain-specific navigation/discovery policy; not universal ontology",
-    "seeds": "project intent/source",
-    "wikidata": "external source; raw dump is evidence source; global SQLite is optional discovery acceleration",
-    "working": "derived/non-canonical; all SQLite indexes are optional materializations"
-  },
-  "features": [
-    "batched-atomic-project-index",
-    "bibliographic-work-edition-manifestation-boundary",
-    "bundled-interaction-kernel-snapshot-reference",
-    "candidate-referent-registry-v1",
-    "catholic-intellectual-pilot",
-    "content-addressed-daat-handoff",
-    "direct-lossless-selected-entity-extraction",
-    "explicit-full-scan-opt-in",
-    "fast-multicore-dump-backend",
-    "fast-scope-discovery-backend",
-    "frozen-corpus-harvest-handoff-v1",
-    "global-index-backed-reverse-lookup",
-    "global-wikidata-discovery-index",
-    "historical-intellectuals-scope",
-    "ik-reference-boundary-no-runtime-claim",
-    "multi-scope-single-dump-scan",
-    "one-pass-qid-locator-on-fresh-global-builds",
-    "optional-global-wikidata-discovery-index",
-    "optional-indexed-bzip2",
-    "optional-orjson-parser",
-    "optional-project-query-index",
-    "optional-rapidgzip-random-access",
-    "optional-selected-entity-vault-cache",
-    "optional-windows-task-automations",
-    "qid-binary-locator",
-    "raw-dump-discovery-backend",
-    "restartable-sqlite-finalization",
-    "scope-rooted-domain-neutral-projects",
-    "uckk-mediatheque-candidate-feed"
-  ],
-  "generated_at": "2026-09-26T12:08:49.262484+00:00",
-  "integrated": {
-    "active_scope_profiles": [
-      "catholic-pilot",
-      "intellectuals"
-    ],
-    "active_world_count": 7,
-    "active_worlds": [
-      "canada-quebec-public-debates-2026",
-      "ethikos-elections-quebec-2026-fr",
-      "ethikos-political-philosophy",
-      "knowledge-continuity",
-      "levis-civic-simulation-2026",
-      "operational-resilience-2026",
-      "research-innovation-commons"
-    ],
-    "catholic_strategy_source": "10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/",
-    "intellectual_registry_records": 211,
-    "interaction_kernel_snapshot": {
-      "authority": "external/upstream component; bundled snapshot is local reference",
-      "original_zip": "10_sources/components/interaction-kernel/originals/Code_snapshot_Interaction-Kernel(1).zip",
-      "path": "00_system/integrations/Interaction-Kernel/",
-      "sha256": "bf2f5fc02210fee79ebb3f6e47b2eb5bd8d2fcb86e90dd6f2434d4c31962eb46",
-      "version": "1.1.0-dev.2"
-    },
-    "knowledge_contracts": {
-      "handoff": "encyklopedia.corpus-harvest-handoff/1.0.0",
-      "kristal_bundle_sha256": "sha256:07fe0527ab29a4b40870efdd0c9e0c67c91de919e5428047245b2a2c04f8ea98",
-      "kristal_release": "5.0.0-rc.3",
-      "referent_profile": "kristal.referent-registry/1.0.0",
-      "scope_model": "domain-neutral-root-semantics/v1"
-    },
-    "koa_reference_docs": [
-      "00_separation_of_functions.md",
-      "03_provenance_ingestion.md",
-      "04_structured_knowledge.md",
-      "05_validation_canon.md",
-      "daat-kristal-bridge.md",
-      "index.md",
-      "koa-profile.md",
-      "adr-0001-truth-boundary.md",
-      "adr-0008-kristal-v5-epistemic-lifecycle.md",
-      "adr-0011-operational-kristal-materialization-boundary.md",
-      "interaction-kernel-overview.md",
-      "interaction-kernel-index.md",
-      "interaction-kernel-status.md",
-      "adr-0010-interaction-kernel-boundary.md",
-      "INTERACTION_KERNEL_STATUS.md"
-    ],
-    "original_packages": [
-      {
-        "bytes": 720823,
-        "file": "10_sources/seeds/originals/packages/WorldsKollection(1).zip",
-        "sha256": "f1bc154c76523ab3ce86536ac90bb8d8ec45cf9d79a2d7cab8edc49a335c930b"
-      },
-      {
-        "bytes": 22183,
-        "file": "10_sources/seeds/originals/packages/konnaxion_historical_intellectuals_seed_v0_1.zip",
-        "sha256": "6a2eae1fa993999ff4711e206d6218e18ce1ad77d6c01b842694979e03689f74"
-      },
-      {
-        "bytes": 36458,
-        "file": "10_sources/seeds/originals/packages/theophile-catholic-corpus-strategy-v3-clean(1).zip",
-        "sha256": "4bced9de312d4431c64ce07bc9710ebf19da2450d00f2578354465be93a1f3ea"
-      }
-    ]
-  },
-  "package_version": "0.11",
+  "schema_version": "encyk-drive-manifest/v2",
+  "package_version": "0.12.0",
   "portable_root": true,
-  "schema_version": "encyklopedia-drive-manifest/v1",
+  "generated_at": "2026-10-03T12:00:00Z",
+  "responsibility": "discover_acquire_extract_handoff",
   "zones": [
     "00_system",
     "10_sources",
-    "20_ingest",
+    "20_evidence",
     "30_working",
-    "40_kristal",
-    "50_mediatheque",
     "90_runtime"
+  ],
+  "authority_notes": {
+    "encyk": "discovery, acquisition, scope selection, lossless extraction and source-evidence handoff",
+    "sources": "local acquisition inputs/caches; accepted persistent source authority belongs to Mediatheque",
+    "evidence": "outgoing evidence/handoff workspace; retained only by retry/audit policy",
+    "working": "derived and rebuildable indexes/caches",
+    "runtime": "derived/disposable runtime state",
+    "mediatheque": "persistent source/snapshot/representation authority",
+    "daat": "optional IK-to-Kristal admission and contract-mapping boundary; not an EncyK stage",
+    "kristal_kristall": "semantic identity, epistemic artifacts and crystallization authority",
+    "kompiler": "read-only downstream context compiler"
+  },
+  "contracts": {
+    "source_handoff": "encyk.source-evidence-handoff/2.0.0",
+    "mediatheque_source_catalog": "koa.source-catalog/2.0.0"
+  },
+  "ecosystem_baseline": {
+    "mediatheque": "0.2.0",
+    "interaction_kernel": "2.0.0-dev.2",
+    "daat_human": "DaaT",
+    "daat_machine": "daat",
+    "kristal_portable": "kristal_state/6.0",
+    "kristall": "7.0.0-draft.3.2",
+    "kompiler": "0.5.0"
+  },
+  "features": [
+    "scope-rooted-domain-neutral-discovery",
+    "direct-lossless-selected-record-extraction",
+    "source-qualified-external-identity-candidates",
+    "content-addressed-mediatheque-handoff",
+    "optional-global-discovery-index",
+    "optional-fast-random-access",
+    "optional-project-query-index",
+    "optional-selected-record-vault-cache",
+    "multi-scope-single-dump-scan",
+    "explicit-full-scan-opt-in"
   ]
 }

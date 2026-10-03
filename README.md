@@ -1,136 +1,149 @@
-# EncyKlopedia Drive — v0.11
+# EncyKlopedia (EncyK) — 0.12.0
 
-Canonical code/documentation root on C. Heavy data may remain under `D:\EncyKlopedia` through NTFS junctions; runtime code does not hardcode a drive letter.
+EncyK is the ecosystem's **source discovery, acquisition, extraction and handoff pipeline**.
+
+> **EncyK finds and prepares source evidence. It does not store the canonical library and it does not decide the final semantic meaning.**
 
 ## Responsibility
 
-EncyKlopedia is the **source acquisition and evidence-construction layer**.
-
-It discovers source material, resolves source identities, freezes project scopes, preserves lossless evidence, emits candidate referent/document feeds, and prepares a content-addressed handoff for Da’at.
-
-It does not make Wikidata, Project Gutenberg, a local SQLite index, or an UCKK projection authoritative Kristal knowledge.
-
-## Architecture
-
 ```text
-00_system      tools, contracts, diagnostics, local reference snapshots
-10_sources     immutable seeds + raw external sources
-20_ingest      immutable selected evidence + candidate referents + Da'at handoffs
-30_working     derived scope discovery and optional query indexes
-40_kristal     outputs from the real Kristal lifecycle only
-50_mediatheque documentary/media candidate workspace
-90_runtime     cache, status, temp/recovery
+external sources
+      ↓
+EncyK
+  discover
+  acquire
+  scope
+  extract losslessly
+  prepare external identity candidates
+      ↓
+Médiathèque kOA
+  persistent source authority
+      ↓
+IK → DaaT (optional integration path)
+      ↓
+Kristal / Kristall
+  semantic authority
+      ↓
+Kompiler
+  read-only context compilation
 ```
 
-## Domain-neutral scope pipeline
+## Repository zones
 
 ```text
-scope roots
+00_system      code, contracts, configuration, architecture docs
+10_sources     seeds + acquisition inputs/caches
+20_evidence    outgoing lossless evidence + Médiathèque handoffs
+30_working     rebuildable indexes, discovery state and caches
+90_runtime     temporary/runtime status, reports and recovery
+```
+
+There is deliberately no `40_kristal` and no `50_mediatheque` in the active architecture.
+
+## Scope pipeline
+
+```text
+configured roots
    ↓
 resolve source identities
    ↓
-discover a source scope
-   ├─ global discovery index if available
-   ├─ fast random access if available
-   └─ raw dump scan otherwise
+discover project scope
    ↓
-freeze exact source entity IDs + domain roles
+freeze exact external entity IDs + project roles
    ↓
-copy COMPLETE selected source evidence
-   ├─ candidate Referent Registry
-   ├─ documentary/media candidates
-   └─ optional derived query index
+extract COMPLETE selected source records
    ↓
-frozen Da'at handoff
+prepare source-qualified external identity candidates
    ↓
-Kristal lifecycle
+content-addressed Médiathèque handoff
 ```
 
-The engine is **scope-rooted**, not universally people-first.
-
-The existing `catholic-pilot` and `intellectuals` scopes intentionally use:
-
-```json
-"root_semantics": {
-  "role": "person_root",
-  "kind": "person"
-}
-```
-
-A different scope can root on a work, installation, process, or other supported shallow referent kind without changing Kristal.
+The engine is scope-rooted and domain-neutral. Existing intellectual scopes happen to use people as roots; other scopes may use works, installations, processes or other local role/kind hints.
 
 ## Lossless evidence invariant
 
-Properties decide which source entities enter a scope. They do **not** decide which fields are thrown away.
+Selection rules decide **which source records enter the scope**. They do not decide which fields are discarded.
 
-Once a Wikidata entity is admitted, its complete JSON is preserved: claims, literal values, statement IDs/ranks, qualifiers, references, aliases, descriptions, URLs/external IDs and sitelinks.
+For Wikidata, an admitted entity is retained as complete source JSON including claims, literal values, statement IDs/ranks, qualifiers, references, labels, aliases, descriptions, external identifiers and sitelinks.
 
-The global SQLite, project SQLite, entity vault, QID locator and compression indexes are derived accelerators only.
+The global SQLite, optional project SQLite, entity vault and random-access locator are derived accelerators only.
 
-## Referents
+## External identity candidates
 
-`07_publish_referents.py` emits source-qualified candidate referents.
-
-Example:
+`06_prepare_identity_candidates.py` emits source-qualified identity hints such as:
 
 ```text
 wikidata:Q8018
 ```
 
-This is a candidate identity anchored in an external source. It is not automatically a canonical Kristal identity and it is not a validated assertion.
+These are **not** Kristal/Kristall semantic identities. They do not mint KQ/KP/KA/KS identifiers and they are not assertions. Their purpose is to preserve source identity and useful external IDs through the handoff.
 
-## Documentary identity
+## Source authority
 
-EncyKlopedia preserves the boundary:
+EncyK no longer maintains a mini-Médiathèque.
+
+The canonical handoff target is:
 
 ```text
-work ≠ edition ≠ manifestation/file
+Médiathèque kOA >= 0.2.0
+koa.source-catalog/2.0.0
 ```
 
-`50_mediatheque` receives discovery candidates. UCKK Médiathèque remains authoritative for final edition/provider/access/rights resolution.
+Médiathèque owns durable Source → Snapshot → Representation identity, hashes, rights/access facts and stable source locators. `20_evidence/` can be retained for retry/audit, but it is not a second canonical library.
 
-## Frozen handoff
+## DaaT / Kristal / Kristall
 
-EncyKlopedia owns:
+**DaaT** is the human name; `daat` is the machine identifier. DaaT is an optional external IK↔Kristal admission/contract-mapping boundary. It is not an EncyK stage.
 
-`encyklopedia.corpus-harvest-handoff/1.0.0`
+Current compatibility baseline:
 
-Current compatibility target:
+- Interaction Kernel `2.0.0-dev.2`;
+- portable Kristal contract `kristal_state/6.0` / Standard `6.0.0`;
+- Kristal/Kristall `7.0.0-draft.3.2`.
 
-- Kristal `5.0.0-rc.3`
-- Referent Registry `kristal.referent-registry/1.0.0`
+EncyK does not vendor those contracts and does not write Kristal/Kristall artifacts.
+
+## Kompiler
+
+Kompiler `0.5.0` is downstream and read-only. It compiles context from knowledge read surfaces. It is not a source normalization/acquisition stage and EncyK does not call it as part of harvest.
+
+## Active handoff contract
+
+```text
+encyk.source-evidence-handoff/2.0.0
+```
 
 See:
 
 - `00_system/contracts/knowledge-baseline.json`
-- `00_system/contracts/corpus-harvest-handoff/1.0.0/`
-- `00_system/docs/corpus-harvest-and-kristal-handoff.md`
+- `00_system/contracts/source-evidence-handoff/2.0.0/`
+- `00_system/docs/architecture.md`
+- `00_system/docs/ecosystem-boundaries.md`
 
 ## Main commands
 
 Default pipeline:
 
 ```powershell
-cd C:\mycode\EncyKlopedia\EncyKlopedia
-.\harvest_to_kristal.ps1 -Scope catholic-pilot
+.\harvest.ps1 -Scope catholic-pilot
 ```
 
-Force raw discovery/evidence scanning when explicitly desired:
+Force raw discovery/extraction when explicitly desired:
 
 ```powershell
-.\direct_to_kristal.ps1 -Scope catholic-pilot
+.\harvest_raw.ps1 -Scope catholic-pilot
 ```
 
-Use the completed global index as an accelerator:
+Use the global discovery index as an accelerator:
 
 ```powershell
-.\harvest_to_kristal.ps1 -Scope catholic-pilot -DiscoveryBackend index
+.\harvest.ps1 -Scope catholic-pilot -DiscoveryBackend index
 ```
 
 Optionally build a per-project query SQLite:
 
 ```powershell
-.\harvest_to_kristal.ps1 -Scope catholic-pilot -BuildQueryIndex
+.\harvest.ps1 -Scope catholic-pilot -BuildQueryIndex
 ```
 
 GUI:
@@ -139,34 +152,10 @@ GUI:
 run_scope_manager.pyw
 ```
 
-## Performance engine
+## Authority summary
 
-v0.10+ consolidates accelerators instead of stacking authorities.
-
-- Global Discovery Index supplies reverse relations.
-- Fast Access supplies locator/compression indexes for lossless re-reading.
-- `.json.gz` + `rapidgzip` is preferred for future dumps.
-- `orjson` is used when available.
-- production-size sequential scans require explicit `-AllowFullScan`.
-- SQLite finalization is restartable and uses `PRAGMA optimize`.
-
-These mechanisms never replace raw source evidence.
-
-## Interaction Kernel
-
-A bundled Interaction Kernel snapshot is present under `00_system/integrations/Interaction-Kernel/` for local contract/runtime/TCK inspection. The upstream IK repository remains the authority.
-
-EncyKlopedia does not rewrite the bundled upstream contracts. The handoff records the best compatible IK profile visible in that snapshot and whether `encyklopedia` is admitted as a source. Da’at remains the mapping boundary.
-
-## Authority boundaries
-
-- raw external source = source evidence;
-- frozen scope = project selection intent;
-- `20_ingest` evidence = immutable source-owned project snapshot;
-- candidate Referent Registry = identity/discovery candidate only;
-- global/project SQLite and Fast Access = derived/rebuildable accelerators;
-- `50_mediatheque` = documentary candidates, not final catalogue authority;
-- UCKK Médiathèque = final media edition/provider/access/rights authority;
-- Da’at = mapping/anti-corruption boundary;
-- Kristal = epistemic lifecycle, validation, recognition and canonical artifact authority;
-- consumer projections remain rebuildable and non-authoritative.
+- source discovery/acquisition/extraction: **EncyK**;
+- persistent source bytes/snapshots/representations: **Médiathèque kOA**;
+- IK↔Kristal admission/mapping when used: **DaaT**;
+- semantic identity and epistemic/crystallization artifacts: **Kristal/Kristall**;
+- context compilation over knowledge read surfaces: **Kompiler**.

@@ -1,5 +1,9 @@
 from __future__ import annotations
 import bz2, gzip, json, sqlite3, subprocess, sys, tempfile, unittest
+try:
+    import jsonschema
+except ImportError:
+    jsonschema=None
 from pathlib import Path
 
 TOOL=Path(__file__).resolve().parents[1]
@@ -9,7 +13,7 @@ PERF=TOOL.parent/'performance'/'scripts'
 class ScopePipelineTest(unittest.TestCase):
     def setUp(self):
         self.td=tempfile.TemporaryDirectory(); self.root=Path(self.td.name)/'EncyKlopedia'; self.root.mkdir(); (self.root/'MANIFEST.json').write_text('{}')
-        for d in ['10_sources/seeds/active/intellectual-registry','10_sources/wikidata/dumps/current','20_ingest','30_working/scopes','50_mediatheque']:(self.root/d).mkdir(parents=True,exist_ok=True)
+        for d in ['10_sources/seeds/active/intellectual-registry','10_sources/wikidata/dumps/current','20_evidence','30_working/scopes']:(self.root/d).mkdir(parents=True,exist_ok=True)
         prod=self.root/'00_system/tools/scope-builder'; (prod/'config/scopes').mkdir(parents=True,exist_ok=True); (prod/'config/property-groups.json').write_text((TOOL/'config/property-groups.json').read_text(),encoding='utf-8')
         contracts=self.root/'00_system/contracts'; contracts.mkdir(parents=True,exist_ok=True)
         source_contracts=TOOL.parents[1]/'contracts'
@@ -54,21 +58,24 @@ class ScopePipelineTest(unittest.TestCase):
         self.run_script('03_freeze_scope.py','--scope',cfg)
         freeze=json.loads((self.root/'30_working/scopes/test-scope/scope.freeze.json').read_text()); self.assertIn('Q2',freeze['entity_ids']); self.assertIn('Q3',freeze['entity_ids']); self.assertIn('Q6',freeze['entity_ids'])
         self.run_script('04_extract_evidence.py','--scope',cfg)
-        latest=json.loads((self.root/'30_working/scopes/test-scope/evidence.latest.json').read_text()); sid=latest['snapshot_id']; snap=self.root/'20_ingest/scope-snapshots/test-scope'/sid
+        latest=json.loads((self.root/'30_working/scopes/test-scope/evidence.latest.json').read_text()); sid=latest['snapshot_id']; snap=self.root/'20_evidence/scope-snapshots/test-scope'/sid
         with gzip.open(snap/'entities.wikidata.jsonl.gz','rt',encoding='utf-8') as f:objs={o['id']:o for o in map(json.loads,f)}
         birth=objs['Q1']['claims']['P569'][0]; self.assertIn('P580',birth['qualifiers']); self.assertIn('P248',birth['references'][0]['snaks']); self.assertEqual(objs['Q3']['claims']['P1938'][0]['mainsnak']['datavalue']['value'],'1234')
-        self.run_script('07_publish_referents.py','--scope',cfg)
-        rlatest=json.loads((self.root/'20_ingest/referent-registries/test-scope/latest.json').read_text()); registry=json.loads((self.root/rlatest['path']).read_text())
-        rk={x['ref']:x['kind'] for x in registry['referents']}; self.assertEqual(rk['wikidata:Q1'],'person'); self.assertEqual(rk['wikidata:Q3'],'work')
-        self.run_script('07_publish_mediatheque.py','--scope',cfg); works=(self.root/'50_mediatheque/catalog/candidates/wikidata/test-scope'/f'{sid}.works.jsonl').read_text(); self.assertIn('P1938',works); self.assertIn('edition_identity',works)
-        self.run_script('08_prepare_daat_handoff.py','--scope',cfg); self.assertFalse((self.root/'40_kristal').exists())
-        handoff_latest=json.loads((self.root/'20_ingest/daat-handoff/test-scope/latest.json').read_text()); handoff=json.loads((self.root/handoff_latest['path']).read_text()); self.assertEqual(handoff['contract'],'encyklopedia.corpus-harvest-handoff/1.0.0'); self.assertTrue(any(x['role']=='referent_registry_candidate' for x in handoff['files'])); self.assertFalse(any(x['role']=='project_query_index' for x in handoff['files'])); self.assertFalse(handoff['interaction_kernel']['message_emitted'])
+        self.run_script('06_prepare_identity_candidates.py','--scope',cfg)
+        ilatest=json.loads((self.root/'20_evidence/identity-candidates/test-scope/latest.json').read_text())
+        identities=[json.loads(line) for line in (self.root/ilatest['file']).read_text().splitlines() if line.strip()]
+        by_ref={x['external_ref']:x for x in identities}; self.assertEqual(by_ref['wikidata:Q1']['kind_hint'],'person'); self.assertEqual(by_ref['wikidata:Q3']['kind_hint'],'work'); self.assertEqual(by_ref['wikidata:Q3']['authority'],'source_identity_hint_only')
+        self.run_script('07_prepare_source_handoff.py','--scope',cfg); self.assertFalse((self.root/'40_kristal').exists()); self.assertFalse((self.root/'50_mediatheque').exists())
+        handoff_latest=json.loads((self.root/'20_evidence/handoffs/mediatheque/test-scope/latest.json').read_text()); handoff=json.loads((self.root/handoff_latest['path']).read_text()); self.assertEqual(handoff['contract'],'encyk.source-evidence-handoff/2.0.0'); self.assertEqual(handoff['consumer']['system'],'koa-mediatheque'); self.assertTrue(any(x['role']=='external_identity_candidates' for x in handoff['files'])); self.assertFalse(any(x['role']=='project_query_index' for x in handoff['files'])); self.assertNotIn('downstream',handoff); self.assertEqual(handoff['source_descriptor']['external_source_id'],'wikidata:entity-dump')
+        schema=json.loads((TOOL.parents[1]/'contracts/source-evidence-handoff/2.0.0/schema.json').read_text());
+        if jsonschema is not None: jsonschema.Draft202012Validator(schema).validate(handoff)
+        first_id=handoff['handoff_id']; self.run_script('07_prepare_source_handoff.py','--scope',cfg); handoff2=json.loads((self.root/json.loads((self.root/'20_evidence/handoffs/mediatheque/test-scope/latest.json').read_text())['path']).read_text()); self.assertEqual(first_id,handoff2['handoff_id'])
     def test_orchestrator_raw_end_to_end(self):
         cfg=self.root/'00_system/tools/scope-builder/config/scopes/test.scope.json'
         cmd=[sys.executable,str(SCRIPTS/'run_scope_pipeline.py'),'--root',str(self.root),'--scope',str(cfg),'--discovery-backend','raw','--through','handoff']
         r=subprocess.run(cmd,capture_output=True,text=True)
         if r.returncode!=0:self.fail(f'orchestrator failed\nSTDOUT:{r.stdout}\nSTDERR:{r.stderr}')
-        latest=json.loads((self.root/'20_ingest/daat-handoff/test-scope/latest.json').read_text())
+        latest=json.loads((self.root/'20_evidence/handoffs/mediatheque/test-scope/latest.json').read_text())
         self.assertTrue(latest.get('handoff_id'))
         self.assertFalse((self.root/'30_working/scopes/test-scope/index/test-scope.sqlite').exists())
 
@@ -113,19 +120,19 @@ class ScopePipelineTest(unittest.TestCase):
         self.assertEqual(freeze['root_semantics'],{'role':'work_root','kind':'work'})
         self.assertIn('work_root',freeze['entity_roles']['Q3']['roles'])
         self.run_script('04_extract_evidence.py','--scope',cfg)
-        self.run_script('07_publish_referents.py','--scope',cfg)
-        latest=json.loads((self.root/'20_ingest/referent-registries/work-root/latest.json').read_text())
-        registry=json.loads((self.root/latest['path']).read_text())
-        q3=next(x for x in registry['referents'] if x['ref']=='wikidata:Q3')
-        self.assertEqual(q3['kind'],'work')
-        self.run_script('06_build_scope_index.py','--scope',cfg)
+        self.run_script('06_prepare_identity_candidates.py','--scope',cfg)
+        latest=json.loads((self.root/'20_evidence/identity-candidates/work-root/latest.json').read_text())
+        candidates=[json.loads(line) for line in (self.root/latest['file']).read_text().splitlines() if line.strip()]
+        q3=next(x for x in candidates if x['external_ref']=='wikidata:Q3')
+        self.assertEqual(q3['kind_hint'],'work')
+        self.run_script('05_build_scope_index.py','--scope',cfg)
         db=self.root/'30_working/scopes/work-root/index/work-root.sqlite'; c=sqlite3.connect(db)
         roots=c.execute('SELECT wid,role FROM v_scope_roots').fetchall(); c.close()
         self.assertIn(('Q3','work_root'),roots)
 
     def test_optional_project_index_still_works(self):
         cfg=self.root/'00_system/tools/scope-builder/config/scopes/test.scope.json'
-        self.run_script('01_resolve_roots.py','--scope',cfg,'--backend','raw'); self.run_script('02_discover_scope.py','--scope',cfg,'--backend','raw'); self.run_script('03_freeze_scope.py','--scope',cfg); self.run_script('04_extract_evidence.py','--scope',cfg); self.run_script('06_build_scope_index.py','--scope',cfg)
+        self.run_script('01_resolve_roots.py','--scope',cfg,'--backend','raw'); self.run_script('02_discover_scope.py','--scope',cfg,'--backend','raw'); self.run_script('03_freeze_scope.py','--scope',cfg); self.run_script('04_extract_evidence.py','--scope',cfg); self.run_script('05_build_scope_index.py','--scope',cfg)
         db=self.root/'30_working/scopes/test-scope/index/test-scope.sqlite'; c=sqlite3.connect(db); c.row_factory=sqlite3.Row; birth=c.execute("SELECT * FROM statement WHERE subject_wid='Q1' AND property_id='P569'").fetchone(); self.assertIn('P580',birth['qualifiers_json']); self.assertIn('P248',birth['references_json']); c.close()
 
 if __name__=='__main__':unittest.main()

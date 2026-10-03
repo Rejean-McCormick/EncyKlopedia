@@ -1,130 +1,65 @@
-# EncyKlopedia Scope Builder v0.11
+# Scope Builder — EncyK 0.12
 
-## Purpose
-
-Build project-specific, **scope-rooted** evidence directly from the raw Wikidata dump without requiring a universal DB transformation first.
-
-A scope chooses its own root semantics. Existing intellectual scopes remain people-first, but the engine is not universally people-first.
+The Scope Builder is the primary EncyK pipeline.
 
 ```text
 configured roots
    ↓
-resolve source identities
+01_resolve_roots.py
    ↓
-scope discovery (auto/index/fast/raw)
+02_discover_scope.py
    ↓
-freeze QIDs + domain roles
+03_freeze_scope.py
    ↓
 04_extract_evidence.py
    ↓
-complete selected Wikidata JSON
-   ├── 07_publish_referents.py
-   ├── 07_publish_mediatheque.py
-   └── optional query index
+[05_build_scope_index.py]     optional/rebuildable
    ↓
-08_prepare_daat_handoff.py
+06_prepare_identity_candidates.py
    ↓
-Da'at → Kristal lifecycle
+07_prepare_source_handoff.py
+   ↓
+Médiathèque kOA source authority
 ```
 
-## Invariants
+## Core invariant
 
-**Entity selection may be selective; entity evidence is not field-pruned.**
+**Selection may be selective; admitted evidence is lossless.**
 
-Once a QID is admitted, its whole Wikidata entity object is preserved. Qualifiers, references, literal values, sitelinks and external IDs are not dropped.
+Once a Wikidata entity enters a frozen scope, the complete source entity JSON is preserved. Qualifiers, references, ranks, literal values, aliases, descriptions, sitelinks and external IDs are not field-pruned.
 
-**Root semantics belong to the scope.** A scope can declare, for example:
+## Identity candidates
 
-```json
-"root_semantics": {
-  "role": "person_root",
-  "kind": "person"
-}
+`06_prepare_identity_candidates.py` emits consumer-neutral, source-qualified external identity hints under:
+
+```text
+20_evidence/identity-candidates/<scope>/
 ```
 
-or:
+A record such as `wikidata:Q8018` is not a Kristall KQ/KP/KA/KS identity and is not a Kristal assertion. `kind_hint` and scope roles are local discovery/classification hints only.
 
-```json
-"root_semantics": {
-  "role": "installation_root",
-  "kind": "installation"
-}
+## Handoff
+
+`07_prepare_source_handoff.py` emits:
+
+```text
+encyk.source-evidence-handoff/2.0.0
 ```
 
-The supported shallow referent kinds follow the frozen Kristal Referent Registry profile. Domain ontologies remain extensions; the Scope Builder does not invent a universal taxonomy.
+under:
 
-## Discovery configuration v3
-
-Preferred keys:
-
-- `discovery.include_all_entity_relations_from_roots`
-- `discovery.reverse_root_relations`
-- `discovery.root_relation_roles`
-- `discovery.follow_rules`
-
-Example reverse relation:
-
-```json
-"reverse_root_relations": {
-  "P50": {
-    "source_role": "work",
-    "relation_role": "authored_work"
-  }
-}
+```text
+20_evidence/handoffs/mediatheque/<scope>/
 ```
 
-Legacy v2 keys (`include_all_entity_relations_from_root_people`, `include_reverse_authored_works`, `reverse_work_properties`) remain accepted for compatibility.
+The handoff target is Médiathèque kOA `>=0.2.0` using `koa.source-catalog/2.0.0`. It carries lossless source evidence plus source identity hints. It does not carry a Kristal Referent Registry or a DaaT mapping.
 
-## Scripts
+## Downstream boundary
 
-1. `01_resolve_roots.py` — explicit/cached QIDs first; then global index or raw dump.
-2. `02_discover_scope.py` — domain-configured root discovery.
-3. `03_freeze_scope.py` — immutable QID + role set.
-4. `04_extract_evidence.py` — direct lossless source extraction; no project DB required.
-5. `06_build_scope_index.py` — optional query-oriented project SQLite.
-6. `07_publish_referents.py` — source-qualified candidate Referent Registry.
-7. `07_publish_mediatheque.py` — work/document candidates; work/edition/manifestation are not collapsed.
-8. `08_prepare_daat_handoff.py` — frozen content-addressed handoff to Da'at.
-9. `09_status.py` — raw dump, accelerators and scope state.
-
-Compatibility/cache scripts `04_fill_entity_vault.py` + `05_materialize_evidence.py` remain optional.
+After source ownership is established in Médiathèque, owner-preserving references may flow through Interaction Kernel and **DaaT** (`daat`) toward the portable `kristal_state/6.0` interface. Kristall v7 owns semantic identity and crystallization. Kompiler is a separate read-only context compiler.
 
 ## Backends
 
-`--backend auto` / `--discovery-backend auto` selects the completed global index if available, then fast random access when available, otherwise raw dump scanning.
+`--discovery-backend auto` selects a completed global index when available, then fast random access when available, otherwise raw source scanning.
 
-- `index` — require the completed compact SQLite.
-- `fast` — require random-access locator/compression support.
-- `raw` — scan the raw dump.
-
-All indexes remain derived accelerators, never epistemic sources.
-
-## Candidate referents
-
-`07_publish_referents.py` emits a Kristal-shaped **candidate registry** under:
-
-```text
-20_ingest/referent-registries/<scope>/
-```
-
-Refs such as `wikidata:Q8018` are source-qualified candidate identities. Da'at/Kristal owns canonical mapping/acceptance.
-
-## Médiathèque boundary
-
-`07_publish_mediatheque.py` emits documentary candidates only. It explicitly preserves:
-
-```text
-work ≠ edition ≠ manifestation/file
-```
-
-UCKK Médiathèque remains authoritative for final edition, provider, access and rights resolution.
-
-## Frozen handoff
-
-`08_prepare_daat_handoff.py` emits:
-
-`encyklopedia.corpus-harvest-handoff/1.0.0`
-
-The compatibility pin is stored in `00_system/contracts/knowledge-baseline.json`.
-
-Interaction Kernel is a transport boundary only. The bundled IK snapshot is inspected for compatible profiles; EncyKlopedia does not fabricate conformance or write directly into `40_kristal`.
+All indexes and caches are rebuildable accelerators, not source or semantic authority.

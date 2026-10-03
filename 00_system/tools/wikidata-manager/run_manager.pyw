@@ -7,13 +7,13 @@ BASE=Path(__file__).resolve().parent; ROOT=BASE.parents[2]; SCRIPTS=BASE/'script
 
 class App(tk.Tk):
     def __init__(self):
-        super().__init__();self.title('EncyKlopedia — Wikidata Local Manager v0.9 FAST');self.geometry('1220x820');self.minsize(980,700)
+        super().__init__();self.title('EncyK — Wikidata Acquisition Manager 0.12');self.geometry('1220x820');self.minsize(980,700)
         self.proc=None;self.q=queue.Queue();self.chain=[];self.rows=[];self.sel=set()
         self.registry=tk.StringVar(value=str(DEFAULT_REG));self.languages=tk.StringVar(value='fr,en,mul');self.depth=tk.IntVar(value=3);self.filter=tk.StringVar();self.status=tk.StringVar(value='Prêt')
         self._ui();self.after(100,self._drain);self._refresh_paths()
     def _ui(self):
         root=ttk.Frame(self,padding=8);root.pack(fill='both',expand=True);root.columnconfigure(0,weight=1);root.rowconfigure(1,weight=1)
-        bar=ttk.Frame(root);bar.grid(row=0,column=0,sticky='ew',pady=(0,6));ttk.Label(bar,text='Racine').pack(side='left');ttk.Label(bar,text=str(ROOT)).pack(side='left',padx=6);ttk.Button(bar,text='Ouvrir racine',command=self._open_ws).pack(side='left',padx=4);ttk.Button(bar,text='Scopes → Evidence/Kristal',command=self._open_kristal_ingest).pack(side='left',padx=4);ttk.Button(bar,text='AUTO index global (optionnel)',command=self._auto).pack(side='right')
+        bar=ttk.Frame(root);bar.grid(row=0,column=0,sticky='ew',pady=(0,6));ttk.Label(bar,text='Racine').pack(side='left');ttk.Label(bar,text=str(ROOT)).pack(side='left',padx=6);ttk.Button(bar,text='Ouvrir racine',command=self._open_ws).pack(side='left',padx=4);ttk.Button(bar,text='Scopes → Evidence → Médiathèque',command=self._open_scope_manager).pack(side='left',padx=4);ttk.Button(bar,text='AUTO index global (optionnel)',command=self._auto).pack(side='right')
         self.nb=ttk.Notebook(root);self.nb.grid(row=1,column=0,sticky='nsew');self.tabs=[]
         for name in ['1 · Environnement','2 · Dump','3 · Index local','4 · Explorer']:
             f=ttk.Frame(self.nb,padding=10);self.nb.add(f,text=name);self.tabs.append(f)
@@ -40,15 +40,15 @@ class App(tk.Tk):
         return {
             'root':ROOT,
             'env':ROOT/'00_system/config/environment.json',
-            'snap':ROOT/'20_ingest/snapshots/wikidata/latest.json',
+            'snap':ROOT/'20_evidence/acquisition-snapshots/wikidata/latest.json',
             'dumpdir':ROOT/'10_sources/wikidata/dumps/current',
             'db':ROOT/'30_working/wikidata/wikidata.compact.sqlite',
-            'state':ROOT/'20_ingest/checkpoints/wikidata-index-state.json',
+            'state':ROOT/'90_runtime/checkpoints/wikidata-index-state.json',
             'qid':ROOT/'30_working/registry/qid-map.local.json',
             'n1':ROOT/'30_working/relation-maps/level_1',
             'expbase':ROOT/'30_working/relation-maps/expansions',
             'sel':ROOT/'30_working/relation-maps/selected-relations.json',
-            'verified':ROOT/'20_ingest/manifests/wikidata-dump-verified.json'
+            'verified':ROOT/'20_evidence/manifests/wikidata-dump-verified.json'
         }
     def _refresh_paths(self):
         for p in self._paths().values():
@@ -59,8 +59,8 @@ class App(tk.Tk):
         if p:self.registry.set(p)
     def _open_ws(self):
         os.startfile(str(ROOT)) if os.name=='nt' else subprocess.Popen(['xdg-open',str(ROOT)])
-    def _open_kristal_ingest(self):
-        app=ROOT/'00_system/tools/encyklopedia-kristal-ingest/run_kristal_ingest.pyw'
+    def _open_scope_manager(self):
+        app=ROOT/'00_system/tools/scope-builder/run_scope_manager.pyw'
         if not app.exists():
             messagebox.showinfo('Absent',str(app));return
         subprocess.Popen([sys.executable,str(app)],cwd=str(ROOT))

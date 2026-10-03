@@ -1,3 +1,0 @@
-The container runtime used to assemble this package cannot open outbound TCP/DNS connections to Wikidata, so the bulk API pull could not be executed inside this runtime.
-
-The live web pages were independently checked for the sample semantics (Einstein / Quetzalcoatl), and the included script performs the complete bulk pull through the official Wikidata Action API when run in a network-enabled environment.

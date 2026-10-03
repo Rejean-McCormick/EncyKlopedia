@@ -150,7 +150,7 @@ def find_dump(root:Path)->Path:
 
 def dump_descriptor(root:Path,dump:Path)->dict[str,Any]:
     dump=dump.resolve(); st=dump.stat(); found={}
-    candidates=[root/"20_ingest/manifests/wikidata-dump-verified.json",root/"20_ingest/snapshots/wikidata/latest.json",root/"00_system/tools/wikidata-manager/workspace/dump.verified.json",root/"00_system/tools/wikidata-manager/workspace/snapshot.json"]
+    candidates=[root/"20_evidence/manifests/wikidata-dump-verified.json",root/"20_evidence/acquisition-snapshots/wikidata/latest.json",root/"00_system/tools/wikidata-manager/workspace/dump.verified.json",root/"00_system/tools/wikidata-manager/workspace/snapshot.json"]
     for p in candidates:
         obj=load_json(p,{}) or {}
         if not isinstance(obj,dict):continue
@@ -176,10 +176,10 @@ def property_groups(root:Path)->dict[str,dict[str,str]]:
 
 def scope_workdir(root:Path,scope_key:str)->Path:return root/"30_working/scopes"/scope_key
 
-def scope_snapshot_dir(root:Path,scope_key:str,snapshot_id:str)->Path:return root/"20_ingest/scope-snapshots"/scope_key/snapshot_id
+def scope_snapshot_dir(root:Path,scope_key:str,snapshot_id:str)->Path:return root/"20_evidence/scope-snapshots"/scope_key/snapshot_id
 
 
-KRISTAL_REFERENT_KINDS = {
+IDENTITY_KIND_HINTS = {
     "person","collective","work","edition","manifestation","document","concept","place",
     "installation","activity","process","event","physical_object","system","other"
 }
@@ -188,7 +188,7 @@ def scope_root_semantics(cfg:dict[str,Any])->dict[str,str]:
     sem=cfg.get("root_semantics") or {}
     role=str(sem.get("role") or "person_root")
     kind=str(sem.get("kind") or ("person" if role=="person_root" else "other"))
-    if kind not in KRISTAL_REFERENT_KINDS:kind="other"
+    if kind not in IDENTITY_KIND_HINTS:kind="other"
     return {"role":role,"kind":kind}
 
 def include_all_root_relations(cfg:dict[str,Any])->bool:
@@ -231,7 +231,7 @@ def root_neighbor_role(cfg:dict[str,Any])->str:
 
 
 def vault_path(root:Path,dump_id:str)->Path:
-    safe=re.sub(r"[^A-Za-z0-9_.-]+","_",dump_id); return root/"20_ingest/entity-vaults"/safe/"wikidata.entity-vault.sqlite"
+    safe=re.sub(r"[^A-Za-z0-9_.-]+","_",dump_id); return root/"30_working/entity-vaults"/safe/"wikidata.entity-vault.sqlite"
 
 def load_registry(root:Path,cfg:dict[str,Any])->tuple[dict[str,Any],list[dict[str,Any]],Path]:
     src=cfg.get("root_source") or {}
