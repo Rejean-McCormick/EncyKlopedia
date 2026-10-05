@@ -168,3 +168,12 @@ recovery_*/
 !README.md
 !LICENSE
 /SmartSnap.pyw
+
+# Additional local helper and backup variants
+GitSink.bat
+*.bak_*
+*.bak-*
+*.bak.*
+*.backup
+*.backup-*
+*.backup_*
