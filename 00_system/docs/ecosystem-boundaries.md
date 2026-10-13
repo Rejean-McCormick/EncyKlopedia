@@ -33,3 +33,7 @@ external id (wikidata:Q8018)
 ```
 
 Those identities can be mapped; they are never silently substituted.
+
+## Arketype / Skope
+
+Arketype v1.4 est un catalogue de conception (archétypes et profils d’usage), pas une autorité canonique. Skope, désormais outil EncyK, ne lit ses guides `arketype.scope-guidance/1.0` que comme suggestions non approuvées. Il ne modifie jamais le `state_scope` d’un Kristal et ne prend aucune décision de publication ou de validation sémantique.

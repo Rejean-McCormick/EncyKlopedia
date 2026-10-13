@@ -8,7 +8,7 @@ This contract intentionally does **not** contain a Kristal Referent Registry, Da
 
 Handoff compatibility:
 
-- EncyK: `0.12.0`
+- EncyK: `0.12.0`, `0.13.0` ou `0.13.1` (contrat de contenu inchangé)
 - Médiathèque kOA: `>= 0.2.0`
 - source catalog: `koa.source-catalog/2.0.0`
 

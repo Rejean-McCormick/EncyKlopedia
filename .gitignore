@@ -177,3 +177,12 @@ GitSink.bat
 *.backup
 *.backup-*
 *.backup_*
+
+# v0.13.3: mounted data from D: (junctions only, never commit)
+/20_evidence/
+/30_working/
+/90_runtime/
+/10_sources/lexical/
+/10_sources/wikidata/dumps/
+/10_sources/wikidata/checksums/
+/10_sources/wikidata/manifests/

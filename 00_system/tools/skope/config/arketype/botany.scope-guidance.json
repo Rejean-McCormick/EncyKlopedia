@@ -1,0 +1,42 @@
+{
+  "format": "arketype.scope-guidance/1.0",
+  "status": "draft_requires_review",
+  "profile_id": "PRF-03",
+  "profile_slug": "taxonomie-nature",
+  "structure": {
+    "primary_archetype": "taxonomie-classification",
+    "supporting_archetypes": ["referentiel-semantique"],
+    "provenance": "candidate_from_arketype_1.4_profile_PRF-03"
+  },
+  "dimensions": {
+    "usage_family": "knowledge",
+    "domain": "natural-world",
+    "integration_targets": ["Kristal-Botany"],
+    "authority": "external_required",
+    "data_access": "not_granted"
+  },
+  "inclusions": [
+    "Taxons et relations de classification des Embryophyta",
+    "Noms et synonymes avec leur provenance",
+    "Références de sources pour les concepts de botanique",
+    "Critères de classification explicitement documentés"
+  ],
+  "exclusions": [
+    "Classification is not causal proof.",
+    "One observation does not define the taxonomy.",
+    "Aucune promotion automatique d'une déclaration Wikidata dans le canon botanique"
+  ],
+  "coverage_questions": [
+    {"question":"classification criteria","status":"not_evaluated","evidence":"not_inspected"},
+    {"question":"name provenance","status":"not_evaluated","evidence":"not_inspected"},
+    {"question":"source refs","status":"not_evaluated","evidence":"not_inspected"}
+  ],
+  "local_observation": null,
+  "limitations": [
+    "Profil PRF-03 proposé pour la partie taxonomique, non pour toutes les fonctions botaniques.",
+    "Le propriétaire du Kristal doit valider la classification et toute injection de données.",
+    "Le guide ne représente ni une preuve Wikidata ni une autorisation de lecture, de publication ou d'activation."
+  ],
+  "publication_authorized": false,
+  "activation_authorized": false
+}

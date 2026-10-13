@@ -16,3 +16,5 @@ Legacy Kristal-ingest pipelines and vendored upstream Interaction Kernel snapsho
 - `contracts/source-evidence-handoff/2.0.0/` — canonical EncyK → Médiathèque handoff.
 
 See `docs/architecture.md` and `docs/ecosystem-boundaries.md`.
+
+- `tools/skope/` : outil visuel interne de découverte et de proposition de scopes, branché en lecture seule sur le même index global. Arketype 1.4 apporte du guidage de conception non canonique.

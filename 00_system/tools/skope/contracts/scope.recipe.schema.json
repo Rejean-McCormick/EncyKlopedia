@@ -1,0 +1,16 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://example.invalid/kristal/skope/0.1/scope.recipe.schema.json",
+  "title":"Skope scope recipe (PROPOSAL)","type":"object","additionalProperties":false,
+  "required":["root","default_depth","branches","direction","allowed_properties","max_entities","convergence"],
+  "properties":{
+    "root":{"type":"string","pattern":"^Q[0-9]+$"},
+    "default_depth":{"type":"integer","minimum":0,"maximum":8},
+    "branches":{"type":"object","maxProperties":500,"patternProperties":{"^P[0-9]+:(in|out)$":{"type":"integer","minimum":0,"maximum":8}},"additionalProperties":false},
+    "direction":{"enum":["in","out","both"]},
+    "allowed_properties":{"type":"array","items":{"type":"string","pattern":"^P[0-9]+$"},"uniqueItems":true},
+    "max_entities":{"type":"integer","minimum":1,"maximum":10000},
+    "convergence":{"type":"object","additionalProperties":false,"required":["threshold_percent","min_support","extra_depth","include"],
+      "properties":{"threshold_percent":{"type":"number","exclusiveMinimum":0,"maximum":100},"min_support":{"type":"integer","minimum":1,"maximum":10000},"extra_depth":{"type":"integer","minimum":0,"maximum":6},"include":{"type":"array","uniqueItems":true,"items":{"type":"string","pattern":"^Q[0-9]+$"}}}}
+  }
+}

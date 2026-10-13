@@ -1,7 +1,7 @@
 {
   "schema_version": "encyk-ecosystem-baseline/v2",
-  "frozen_on": "2026-10-03",
-  "encyk_release": "0.12.0",
+  "frozen_on": "2026-10-13",
+  "encyk_release": "0.13.8",
   "source_handoff": "encyk.source-evidence-handoff/2.0.0",
   "mediatheque": {
     "minimum_release": "0.2.0",
@@ -40,5 +40,17 @@
     "EncyK does not write Kristal/Kristall artifacts or perform DaaT mapping.",
     "External identifiers remain source identity candidates until interpreted by downstream authorities.",
     "Kompiler is not responsible for source acquisition or source normalization."
-  ]
+  ],
+  "arketype_design_reference": {
+    "version": "1.4.0",
+    "scope_guidance": "arketype.scope-guidance/1.0",
+    "authority": "design guidance only; noncanonical, nonpublishing"
+  },
+  "skope_tool": {
+    "source": "Skope standalone 0.2 historique, consolidé dans EncyK ; plus de dépôt actif séparé",
+    "location": "00_system/tools/skope",
+    "proposal": "skope-encyk-proposal/1.0",
+    "authority": "working scope selection only",
+    "repository": "EncyKlopedia (unique)"
+  }
 }

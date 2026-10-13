@@ -1,6 +1,6 @@
 # External integrations
 
-EncyK `0.12.0` does not vendor upstream Integration Kernel, Kristal/Kristall, Médiathèque or Kompiler repositories.
+EncyK `0.13.0` does not vendor upstream Integration Kernel, Kristal/Kristall, Médiathèque or Kompiler repositories.
 
 Current compatibility baseline:
 

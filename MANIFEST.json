@@ -1,8 +1,8 @@
 {
   "schema_version": "encyk-drive-manifest/v2",
-  "package_version": "0.12.0",
+  "package_version": "0.13.8",
   "portable_root": true,
-  "generated_at": "2026-10-03T12:00:00Z",
+  "generated_at": "2026-10-13T10:43:00-04:00",
   "responsibility": "discover_acquire_extract_handoff",
   "zones": [
     "00_system",
@@ -24,7 +24,9 @@
   },
   "contracts": {
     "source_handoff": "encyk.source-evidence-handoff/2.0.0",
-    "mediatheque_source_catalog": "koa.source-catalog/2.0.0"
+    "mediatheque_source_catalog": "koa.source-catalog/2.0.0",
+    "skope_proposal": "skope-encyk-proposal/1.0",
+    "arketype_guidance_reference": "arketype.scope-guidance/1.0"
   },
   "ecosystem_baseline": {
     "mediatheque": "0.2.0",
@@ -45,6 +47,27 @@
     "optional-project-query-index",
     "optional-selected-record-vault-cache",
     "multi-scope-single-dump-scan",
-    "explicit-full-scan-opt-in"
-  ]
+    "explicit-full-scan-opt-in",
+    "integrated-skope-branch-and-convergence-explorer",
+    "shared-readonly-encyk-global-index-for-skope",
+    "staged-noncanonical-scope-proposal",
+    "arketype-1.4-design-guidance-readonly",
+    "separate-code-data-roots",
+    "wikidata-output-preserving-cleaner",
+    "kristal-selection-in-integrated-skope-launcher",
+    "botany-default-arketype-prf03",
+    "review-only-target-kristal-proposal",
+    "optional-authoring-kit-discovery-from-encyk",
+    "skope-qid-direct-search-and-bounded-name-index-range",
+    "skope-search-loading-indicator-and-15s-timeout"
+  ],
+  "consolidation": "single_repo_encyk_with_internal_skope",
+  "data_root": "external: D:\\EncyKlopedia (configurable; linked by explicit junctions)",
+  "repo_data_separation": {
+    "code_root": "Git checkout (not D data root)",
+    "data_root_default": "D:\\EncyKlopedia",
+    "setup": "configure_data_on_D.ps1 -Apply",
+    "cleanup": "Nettoyer_Donnees_EncyK.pyw",
+    "legacy_preservation": "Protect every Wikidata-derived output, pilot, handoff, and candidate catalogue. Only 4 runtime metadata files may move; cleanup restricted to exact verified copies of original files."
+  }
 }

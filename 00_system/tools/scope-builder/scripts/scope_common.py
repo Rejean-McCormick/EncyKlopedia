@@ -21,7 +21,7 @@ def find_root(start: str | Path | None = None) -> Path:
     p = Path(start or __file__).resolve()
     if p.is_file(): p = p.parent
     for cand in [p, *p.parents]:
-        if (cand / "MANIFEST.json").exists() and (cand / "10_sources").exists() and (cand / "30_working").exists(): return cand
+        if (cand / "MANIFEST.json").exists() and (cand / "00_system").exists(): return cand
     raise RuntimeError("Racine EncyKlopedia introuvable")
 
 

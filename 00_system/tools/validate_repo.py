@@ -16,10 +16,13 @@ def main() -> int:
     manifest = load(ROOT / 'MANIFEST.json')
     baseline = load(ROOT / '00_system/contracts/knowledge-baseline.json')
 
-    if manifest.get('package_version') != '0.12.0':
-        errors.append('manifest package_version != 0.12.0')
-    if (ROOT / 'VERSION').read_text().strip() != '0.12.0':
-        errors.append('VERSION != 0.12.0')
+    version=(ROOT / 'VERSION').read_text().strip()
+    if version != '0.13.8':
+        errors.append('VERSION inattendue pour cette livraison : '+version)
+    if manifest.get('package_version') != version:
+        errors.append('manifest package_version != VERSION')
+    if baseline.get('encyk_release') != version:
+        errors.append('knowledge baseline release != VERSION')
     if manifest.get('zones') != ['00_system', '10_sources', '20_evidence', '30_working', '90_runtime']:
         errors.append('active zones mismatch')
     if baseline.get('source_handoff') != 'encyk.source-evidence-handoff/2.0.0':
@@ -63,6 +66,16 @@ def main() -> int:
         '00_system/contracts/source-evidence-handoff/2.0.0/schema.json',
         'harvest.ps1',
         'harvest_raw.ps1',
+        '00_system/tools/skope/skope/db.py',
+        '00_system/tools/skope/skope/cli.py',
+        '00_system/tools/skope/skope/scope.py',
+        '00_system/tools/skope/skope/export.py',
+        '00_system/tools/migration/obsolete-files.json',
+        'Nettoyer_Fichiers_Obsoletes.pyw',
+        'Lancer_Skope.pyw',
+        'Nettoyer_Donnees_EncyK.pyw',
+        'configure_data_on_D.ps1',
+        '00_system/tools/data_cleaner/core.py',
     ]
     for rel in required:
         if not (ROOT / rel).is_file():

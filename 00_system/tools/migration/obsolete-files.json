@@ -1,0 +1,224 @@
+{
+  "format": "encyk-obsolete-files/1.0",
+  "source_snapshot": "EncyKlopedia_v0.12_Skope_Integre.zip",
+  "scope": "encyk_repository_only",
+  "external_skope_repo": "not_accessed",
+  "purpose": "Nettoyage facultatif de fichiers laissés par une précédente extraction par-dessus EncyK. Le repo Skope autonome est hors périmètre.",
+  "files": [
+    {
+      "path": "00_system/tools/skope/.github/workflows/tests.yml",
+      "sha256": "300882c34098c657b19a7b66e20ddac555f887fcf3c967612670964ceb0afc91",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/.gitignore",
+      "sha256": "c2d53aef6a6f01fb4a153e8392a68e39c191263d769ffa6c17db5a20a3a63cfd",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/AGENTS.md",
+      "sha256": "a3c5960d81ba36a3d2c3a4e02e8bf2b521f5280d99ec392effe0c1ded27736ae",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/Nettoyer_Ancien_Skope.pyw",
+      "sha256": "c46995e09ffc321578b340f62fd976d5fc464fd022a3d652e38e84c3927f8253",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/RELEASE_NOTES_SPLIT.md",
+      "sha256": "588623bfb2974b52e2fa79ec62d58c856e83af9c567e6af9909c078348777064",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/SKOPE_CLEANUP_ALLOWLIST.json",
+      "sha256": "2afbdb28a7dda1e66bdfebdbc8a008bc780888bb86ae9d79c7d7492a17c42f4c",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/contracts/README.md",
+      "sha256": "12d02dc09c9872e12ccd337d21d6b5bd8b265d6b183efb9d8f5ca771c9433da3",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/contracts/discovery-index.example.json",
+      "sha256": "831194caa7bb54f4c24e05259018f6bcf6148d6057d80e8e5be6662abe355ed7",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/01-VISION.md",
+      "sha256": "4e0259da47394cbac7d75739be9c0341454c194d2f1545745fd84d3046fd7781",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/02-ECOSYSTEME.md",
+      "sha256": "42480053936b3afe9298a569b5376c709fb5fb893b57e8db752d198e9c44a143",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/03-INVARIANTS.md",
+      "sha256": "cfdc77801a1b398964fdf62d4eaad3a5c89f665a4455e2b3cb39b0fe03c25013",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/04-SKOPE-UX.md",
+      "sha256": "dff07b3fb121b3c66687f3edc81d82c072396ae38ac2b531c5412bbb04b5dd4c",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/05-CLONE-D-WINDOWS.md",
+      "sha256": "85857914b471f3ebece0c30af4d977f385ed8b059a8ed967bfd446ce27081bdc",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/06-ALGORITHMES.md",
+      "sha256": "9e60991efa4d157ffe11ae5947d41253c3fd0c958916317769930390d2ea1fba",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/07-CONTRATS.md",
+      "sha256": "1e31f81dae169d817a4a1114bc11f2d4ca9ace6461b1d574e6b0dd602d046015",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/08-OFFLINE-ET-DECOUVERTE.md",
+      "sha256": "3bd4a6520b6906dec5940a61a2962abb40af5fc999b30100cc14936081b0787c",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/11-INTEROPERABILITE.md",
+      "sha256": "97efbeef8ae3a049c535b6e2515cb7dd402aef96ba3d1905b5bc22ab3d8a367c",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/12-ROADMAP.md",
+      "sha256": "32d637b056c97c5641551a541f0ccd7c0a112009604de3e311c10efd18183d37",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/13-TRACABILITE.md",
+      "sha256": "92a3c1332e7c4d8bfd7c155a49059f6bc7b6010e256a7e4c9d835bd14d86a86a",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/14-IMPLEMENTATION.md",
+      "sha256": "f001b9f5e388745a1828895ff070963ca4ae5aac73a7d207e45722315f678bcf",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/16-ADR.md",
+      "sha256": "ec3e867e34ca4e2b8aa9ee0e15c66e94d7e1526fe58de3fecfc9f45310ddec56",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/18-KOA-EKOLE-ET-PORTS.md",
+      "sha256": "e1fe11b9e477da76e173f70f51a89ea280d339ce0d9ca3357feafab9ab513ea7",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/19-DECOUPLAGE-ET-API-PROJET.md",
+      "sha256": "5d385c33cc137a926fcb9d5aa2f6ab2d37f25d9bb09fedce3ddcb22c864509ee",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/20-ENCYK-ARKETYPE-INTEGRATION.md",
+      "sha256": "319301548f7ffe81225e7478db841ec06fad8ee26f66ced391c74466928e286f",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/docs/GITHUB_DESCRIPTION_EN.md",
+      "sha256": "6111c9ffcfbca9ce9a894e75c2fc4cef315368adbc234df3b7b90a56e47e6c28",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/pyproject.toml",
+      "sha256": "54d9e9f0fbf627acc9c2ec4cfd9463be619e22dc78071013a3af5b7bf9673db6",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/scripts/Demarrer-Skope.ps1",
+      "sha256": "e2f2712eec7c8de1fd3f184f0b83c8911f43b78ac6bcf762bb21ee9df20ee861",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/scripts/Inspecter-SQLite.ps1",
+      "sha256": "ba9530681a520ea34484b990eddbbd5c9a8897a9c8feb26bc86b722ac804c11b",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/scripts/Skope-Demo.cmd",
+      "sha256": "b938604f3b36bb16cb6d3eb728d420893317e4c6d49cf4bbfa8e3a7115c4994d",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/skope/config.py",
+      "sha256": "511caa4236d3d6b0dfb2fd892bdc520c8db5dccaa30dc5e665c91cacc44b1b61",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/skope/ingest.py",
+      "sha256": "cff43685ea359843e7c72e589e00aaf8ac8b0ed925adc75027de786deea5be29",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/skope_cleanup.py",
+      "sha256": "39512380440353ea80a908a9cb04a7bc472494ce6dc9e23eac0e0fc178db45f8",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/tests/test_cleanup.py",
+      "sha256": "6ab5699085464bf07f8e49eceeed0ce7bca8f83a5be612d8c7bcd2faef27421a",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/tests/test_decoupling.py",
+      "sha256": "ed14143edd9e3666544395919ae7f17a89b8ed766d2ecc63a47b3316eb48d75b",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/tests/test_encyk_adapter.py",
+      "sha256": "0011cdaf027a94a5be836af45e9454b0ec5f5a1143195b061a6388344d1b0901",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/tests/test_koa_alignment.py",
+      "sha256": "8944eb3b5ab887702d1e262fd4fc3f26ad214b2c6b8ebc19c347f908f30ea6bf",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/tests/test_port.py",
+      "sha256": "22e23f203c6bcbb25619a93f8cabc7f20185884a31fc98a7b1d0b874c1633f3a",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "00_system/tools/skope/tests/test_scope.py",
+      "sha256": "4deac0faa791961d9ecf2a3f3e7b8d31e015fecb45c6fee12a92997549d2a9d3",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "Nettoyer_Ancien_Skope.pyw",
+      "sha256": "7a214f456b55ece56e7347369938e0cdeb7432b75bd01120285f9f151b699cf1",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "SKOPE_CLEANUP_ALLOWLIST.json",
+      "sha256": "2afbdb28a7dda1e66bdfebdbc8a008bc780888bb86ae9d79c7d7492a17c42f4c",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "SKOPE_INTEGRATION_REPORT_2026-10-13.md",
+      "sha256": "26201111ea725d6a1b09a9efd7c2d77fd0300cda52092fc37aeade8eb88b223f",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    },
+    {
+      "path": "UPDATE_DIFF_2026-10-13.json",
+      "sha256": "daf035b261466a90f2ef1d47639f24062db8920f0bfd57c6306ea082d5b24ee3",
+      "reason": "Rapport différentiel provisoire EncyK 0.13 remplacé par le rapport de consolidation EncyK 0.13.1."
+    },
+    {
+      "path": "skope_cleanup.py",
+      "sha256": "39512380440353ea80a908a9cb04a7bc472494ce6dc9e23eac0e0fc178db45f8",
+      "reason": "Fichier hérité de la double intégration Skope v0.12 ; non retenu dans le dépôt EncyK unifié v0.13.1."
+    }
+  ]
+}

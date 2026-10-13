@@ -1,0 +1,69 @@
+{
+  "format": "arketype.scope-guidance/1.0",
+  "status": "draft_requires_review",
+  "profile_slug": "navigation-preuves-longues",
+  "profile_id": "PRF-10",
+  "structure": {
+    "primary_archetype": "carte-jalons-preuves",
+    "supporting_archetypes": [
+      "invariant-theorie",
+      "memoire-recherche"
+    ],
+    "provenance": "candidate_from_design_catalog"
+  },
+  "dimensions": {
+    "usage_family": "research",
+    "domain": "mathematics",
+    "integration_targets": [
+      "MathKristal",
+      "Formulator"
+    ],
+    "authority": "external_required",
+    "data_access": "not_granted"
+  },
+  "inclusions": [
+    "proof endpoints",
+    "junctions",
+    "territory IDs",
+    "external proof references"
+  ],
+  "exclusions": [
+    "Navigation shortcuts are not proof steps or certified theorems.",
+    "Never mark an open problem solved from a route landmark."
+  ],
+  "coverage_questions": [
+    {
+      "question": "entry and exit endpoints",
+      "status": "not_evaluated",
+      "evidence": "not_inspected"
+    },
+    {
+      "question": "junction provenance",
+      "status": "not_evaluated",
+      "evidence": "not_inspected"
+    },
+    {
+      "question": "status of proof",
+      "status": "not_evaluated",
+      "evidence": "not_inspected"
+    },
+    {
+      "question": "refutation or open gaps",
+      "status": "not_evaluated",
+      "evidence": "not_inspected"
+    },
+    {
+      "question": "external evidence links",
+      "status": "not_evaluated",
+      "evidence": "not_inspected"
+    }
+  ],
+  "local_observation": null,
+  "limitations": [
+    "A suggested usage is not a verified description of any real state.",
+    "Scope needs owner review before mapping to the Skope proposal and injection contract.",
+    "No operational, medical, legal, access or publication authority is conferred."
+  ],
+  "publication_authorized": false,
+  "activation_authorized": false
+}

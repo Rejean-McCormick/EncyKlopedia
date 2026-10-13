@@ -1,0 +1,19 @@
+{
+  "root": "Q900000000",
+  "default_depth": 2,
+  "branches": {},
+  "direction": "out",
+  "allowed_properties": [
+    "P527",
+    "P1412",
+    "P131",
+    "P361"
+  ],
+  "max_entities": 1000,
+  "convergence": {
+    "threshold_percent": 1,
+    "min_support": 2,
+    "extra_depth": 1,
+    "include": []
+  }
+}
