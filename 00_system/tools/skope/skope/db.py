@@ -27,20 +27,20 @@ def _wid(eid):
 
 def connect(path, readonly=True):
     """L'outil ne crée et ne modifie jamais un index EncyK."""
-    if not readonly: raise ValueError('Skope intégré exige un index EncyK en lecture seule')
+    if not readonly: raise ValueError('Integrated Skope requires a read-only EncyK index')
     p=Path(path).resolve(strict=True)
-    if not p.is_file(): raise ValueError('Index attendu: fichier SQLite')
+    if not p.is_file(): raise ValueError('Expected an SQLite index file')
     conn=sqlite3.connect(p.as_uri()+'?mode=ro',uri=True)
     conn.row_factory=sqlite3.Row
     try:
         tables={r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type='table'")}
         if not {'entity','name','entity_edge','meta'}.issubset(tables):
-            raise ValueError('Index incompatible : schéma compact global EncyK attendu')
+            raise ValueError('Incompatible index: EncyK global compact schema required')
         m={r[0]:r[1] for r in conn.execute('SELECT key,value FROM meta')}
         if m.get('complete') not in ('1','true','True'):
-            raise ValueError('Index EncyK incomplet : finalisation requise avant exploration')
+            raise ValueError('Incomplete EncyK index: finalize before exploring')
         if m.get('lossless') not in (None, '0'):
-            raise ValueError('Index de découverte EncyK attendu, pas dépôt de preuves')
+            raise ValueError('Expected EncyK discovery index, not an evidence repository')
         return conn
     except Exception:
         conn.close()
@@ -98,7 +98,7 @@ def find(conn,text,limit=15):
     key=_norm(query)
     if not key:return []
     if not conn.execute("SELECT 1 FROM sqlite_master WHERE type='index' AND name='idx_name_norm'").fetchone():
-        raise ValueError('Index de noms idx_name_norm absent : vérifier la finalisation de l’index EncyK (ne pas le recréer dans Skope).')
+        raise ValueError('Name index idx_name_norm is missing. Verify EncyK index finalization; do not rebuild it in Skope.')
     # Exploite l'index des noms directement, sans ORDER BY ni jointure/sort.
     # L'égalité est prioritaire ; les préfixes sont servis seulement si besoin.
     # La borne supérieure évite les caractères joker LIKE et garantit l'index.

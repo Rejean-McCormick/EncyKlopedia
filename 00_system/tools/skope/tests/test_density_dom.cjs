@@ -1,0 +1,26 @@
+const {JSDOM}=require('jsdom');
+const {createCanvas}=require('@napi-rs/canvas');
+const fs=require('fs'),assert=require('assert'),path=require('path');
+const dir=path.resolve(__dirname,'../skope/static');
+const dom=new JSDOM(fs.readFileSync(dir+'/index.html','utf8'),{runScripts:'outside-only',pretendToBeVisual:true});const w=dom.window,d=w.document;
+const canvases=new WeakMap();w.HTMLCanvasElement.prototype.getContext=function(){if(!canvases.has(this))canvases.set(this,createCanvas(this.width,this.height));const c=canvases.get(this),ctx=c.getContext('2d');const draw=ctx.drawImage.bind(ctx);if(!ctx.patched){ctx.drawImage=(source,...args)=>draw(canvases.get(source)||source,...args);ctx.patched=true;}return ctx;};
+w.HTMLCanvasElement.prototype.getBoundingClientRect=()=>({left:0,top:0,width:1200,height:650});
+w.eval(fs.readFileSync(dir+'/density.js','utf8'));const $=id=>d.getElementById(id),change=(id,v,type='input')=>{$(id).value=v;$(id).dispatchEvent(new w.Event(type));};
+(async()=>{
+const nodes=Array.from({length:10000},(_,i)=>({id:'Q'+(i+1),label:i===0?'Plantes':i<20?'Branche botanique '+i:'Espèce '+i,reasons:[]}));const edges=nodes.slice(1).map((n,i)=>({source:n.id,target:'Q'+(Math.floor(i/8)+1),property:'P171'}));for(let i=40;i<60;i++)edges.push({source:'Q1',target:'Q'+i,property:'P279'});
+const report={nodes,edges,truncated:true},before=JSON.stringify(report);const start=performance.now();w.SkopeDensity.render(report,'Q1');const ms=performance.now()-start;
+assert($('graphinfo').textContent.includes('10000/10000'));assert($('graphinfo').textContent.includes('10019/10019'));assert.equal(['0','1','2'].reduce((s,i)=>s+Number($('density-count-'+i).textContent),0),10000);
+change('density-pick','Q1','change');assert($('density-title').textContent.includes('Pinned magnifier'));assert($('density-summary').textContent.includes('28 neighbors'));assert.equal($('density-lens').querySelectorAll('circle').length,13);
+change('density-low',15);assert.equal($('density-high').value,'16');change('density-high',5);assert.equal($('density-low').value,'4');change('density-hue-2',280);
+$('density-show-0').checked=false;$('density-show-0').dispatchEvent(new w.Event('change'));assert(!$('graphinfo').textContent.startsWith('10000/10000'));
+$('density-reset').click();assert($('graphinfo').textContent.includes('10000/10000'));assert.equal(before,JSON.stringify(report));
+$('graph').dispatchEvent(new w.MouseEvent('pointermove',{clientX:600,clientY:325}));await new Promise(r=>w.requestAnimationFrame(r));assert($('density-title').textContent.includes('Plantes'));
+$('graph').click();$('graph').dispatchEvent(new w.Event('pointerleave'));assert($('density-title').textContent.includes('Pinned magnifier'));
+d.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape'}));assert($('density-detail').hidden);
+for(let i=0;i<3;i++){$('density-show-'+i).checked=false;$('density-show-'+i).dispatchEvent(new w.Event('change'));}assert(!$('density-empty').hidden);$('density-reset').click();
+w.SkopeDensity.clear();assert.equal($('density-count-0').textContent,'0');assert.equal($('density-options').children.length,0);assert($('density-detail').hidden);
+w.SkopeDensity.render({nodes:[{id:'Q1',label:'Seule'}],edges:[{source:'Q1',target:'missing'}]},'Q1');assert($('graphinfo').textContent.includes('1/1'));assert($('graphinfo').textContent.includes('0/0'));
+w.SkopeDensity.render({nodes:[{id:'Q1',label:'A'},{id:'Q2',label:'B'}],edges:[{source:'Q1',target:'Q2'},{source:'Q2',target:'Q1'},{source:'Q1',target:'Q1'}]},'Q1');change('density-pick','Q1','change');assert($('density-summary').textContent.includes('1 neighbors'));
+w.SkopeDensity.render({nodes:[],edges:[]},'');assert(!$('density-empty').hidden);
+console.log(JSON.stringify({passed:true,render_10000_ms:Math.round(ms),environment:'jsdom + native Canvas; not a browser',checks:['complete counts','unique neighbors','layer filter','threshold ordering','hue change','hover','pin','escape','reset','empty','isolated','missing endpoints','self links','scope immutable']}));dom.window.close();
+})().catch(e=>{console.error(e);process.exit(1)});

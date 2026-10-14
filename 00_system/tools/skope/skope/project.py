@@ -23,18 +23,18 @@ def default_database():
 def read_kristal(folder):
     folder=Path(folder)
     if not folder.is_dir():
-        raise ValueError('Dossier Kristal introuvable')
+        raise ValueError('Kristal folder not found')
     manifest=folder/'kristal.workspace.json'
     if not manifest.is_file() or manifest.is_symlink():
-        raise ValueError('Un dossier contenant kristal.workspace.json est requis')
+        raise ValueError('A folder containing kristal.workspace.json is required')
     if manifest.stat().st_size>1024*1024:
-        raise ValueError('Manifeste Kristal anormalement volumineux')
+        raise ValueError('Kristal manifest is unexpectedly large')
     info=json.loads(manifest.read_text(encoding='utf-8-sig'))
     if not isinstance(info,dict) or not str(info.get('format','')).startswith('kristal.local-workspace/'):
-        raise ValueError('Format de workspace Kristal non reconnu')
+        raise ValueError('Unrecognized Kristal workspace format')
     slug=info.get('slug')
     if not isinstance(slug,str) or not re.fullmatch(r'[A-Za-z0-9_-]{1,120}',slug):
-        raise ValueError('Slug de Kristal non conforme')
+        raise ValueError('Invalid Kristal slug')
     scope=info.get('state_scope') or {}
     if not isinstance(scope,dict):scope={}
     def label(v):return str(v)[:256] if v is not None else ''

@@ -1,4 +1,4 @@
-EncyKlopedia 0.13.8 — fichiers du dépôt de code
+EncyKlopedia 0.13.16 — files of the single code repository
 .github/dependabot.yml
 .github/workflows/ci.yml
 .gitignore
@@ -51,8 +51,10 @@ EncyKlopedia 0.13.8 — fichiers du dépôt de code
 00_system/tools/skope/LICENSE
 00_system/tools/skope/README.md
 00_system/tools/skope/config/arketype/botany.scope-guidance.json
+00_system/tools/skope/config/extraction-profiles/botany-canada-full-wikidata.json
 00_system/tools/skope/contracts/scope.recipe.schema.json
 00_system/tools/skope/docs/MIGRATION_SKOPE_ARKETYPE.md
+00_system/tools/skope/docs/SCOPE_GEOGRAPHIQUE_AMERIQUE_DU_NORD_0_13_11.md
 00_system/tools/skope/fixtures/arketype-scope-guidance-example.json
 00_system/tools/skope/fixtures/demo.recipe.json
 00_system/tools/skope/fixtures/demo.wikidata.jsonl
@@ -63,15 +65,34 @@ EncyKlopedia 0.13.8 — fichiers du dépôt de code
 00_system/tools/skope/skope/cli.py
 00_system/tools/skope/skope/db.py
 00_system/tools/skope/skope/export.py
+00_system/tools/skope/skope/extraction.py
+00_system/tools/skope/skope/geography.py
+00_system/tools/skope/skope/massive.py
 00_system/tools/skope/skope/project.py
 00_system/tools/skope/skope/scope.py
 00_system/tools/skope/skope/static/app.js
+00_system/tools/skope/skope/static/density.js
+00_system/tools/skope/skope/static/extraction.css
+00_system/tools/skope/skope/static/extraction.js
 00_system/tools/skope/skope/static/index.html
+00_system/tools/skope/skope/static/results.css
+00_system/tools/skope/skope/static/results.js
 00_system/tools/skope/skope/static/style.css
+00_system/tools/skope/skope/static/wizard.css
+00_system/tools/skope/skope/static/wizard.js
+00_system/tools/skope/tests/test_botany_worldwide_defaults.py
 00_system/tools/skope/tests/test_consolidation.py
+00_system/tools/skope/tests/test_density_dom.cjs
+00_system/tools/skope/tests/test_full_extraction.py
+00_system/tools/skope/tests/test_geographic_scope.py
+00_system/tools/skope/tests/test_inline_geography.py
 00_system/tools/skope/tests/test_integration.py
 00_system/tools/skope/tests/test_kristal_workflow.py
+00_system/tools/skope/tests/test_massive_scope.py
+00_system/tools/skope/tests/test_results_export.py
 00_system/tools/skope/tests/test_search_fast.py
+00_system/tools/skope/tests/test_ui_merge.py
+00_system/tools/skope/tests/test_wizard.py
 00_system/tools/validate_repo.py
 00_system/tools/wikidata-manager/README.md
 00_system/tools/wikidata-manager/config/manager.default.json
@@ -130,6 +151,7 @@ EncyKlopedia 0.13.8 — fichiers du dépôt de code
 10_sources/seeds/active/worlds/ethikos-political-philosophy/SHA256SUMS.txt
 10_sources/seeds/active/worlds/ethikos-political-philosophy/canon/debate-map.json
 10_sources/seeds/active/worlds/ethikos-political-philosophy/canon/thinkers.json
+10_sources/seeds/active/worlds/ethikos-political-philosophy/content-manifest.json
 10_sources/seeds/active/worlds/ethikos-political-philosophy/content/capstone/README.md
 10_sources/seeds/active/worlds/ethikos-political-philosophy/content/cases/01_bassin_commun.md
 10_sources/seeds/active/worlds/ethikos-political-philosophy/content/cases/02_plateforme_transnationale.md
@@ -140,7 +162,6 @@ EncyKlopedia 0.13.8 — fichiers du dépôt de code
 10_sources/seeds/active/worlds/ethikos-political-philosophy/content/knowledge/02_justice.md
 10_sources/seeds/active/worlds/ethikos-political-philosophy/content/knowledge/03_legitimite.md
 10_sources/seeds/active/worlds/ethikos-political-philosophy/content/knowledge/04_expertise.md
-10_sources/seeds/active/worlds/ethikos-political-philosophy/content-manifest.json
 10_sources/seeds/active/worlds/ethikos-political-philosophy/experience.json
 10_sources/seeds/active/worlds/ethikos-political-philosophy/modules/certifikation/path.json
 10_sources/seeds/active/worlds/ethikos-political-philosophy/modules/ekoh/evidence-policy.json
@@ -283,6 +304,7 @@ EncyKlopedia 0.13.8 — fichiers du dépôt de code
 10_sources/seeds/originals/historical-intellectuals-v0_1/sources/README.md
 10_sources/seeds/originals/historical-intellectuals-v0_1/world.yaml
 10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/README.md
+10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/docs-index.json
 10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/docs/internal/00-north-star.md
 10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/docs/internal/01-strategy.md
 10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/docs/internal/02-positioning-theophile.md
@@ -307,7 +329,6 @@ EncyKlopedia 0.13.8 — fichiers du dépôt de code
 10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/docs/product/16-sovereignty-and-forks.md
 10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/docs/product/17-demo-scenarios.md
 10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/docs/product/18-benchmark-plan.md
-10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/docs-index.json
 10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/public/DEMO-SCRIPT.md
 10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/public/EMAIL-FIRST-CONTACT.md
 10_sources/seeds/originals/theophile-catholic-corpus-strategy-v3-clean/public/FAQ.md
@@ -328,6 +349,11 @@ Nettoyer_Fichiers_Obsoletes.pyw
 README.md
 UPDATE_DIFF_2026-10-13.json
 VALIDATION.md
+VALIDATION_0_13_11.md
+VALIDATION_0_13_12.md
+VALIDATION_0_13_13.md
+VALIDATION_0_13_15.md
+VALIDATION_0_13_16.md
 VALIDATION_0_13_3.md
 VALIDATION_0_13_4.md
 VALIDATION_0_13_5.md
@@ -345,8 +371,13 @@ docs/NETTOYAGE_DONNEES_PROTEGE_WIKIDATA_0_13_6.md
 docs/NETTOYAGE_DONNEES_SANS_HISTORIQUE_0_13_5.md
 docs/SEPARATION_CODE_DONNEES_0_13_3.md
 docs/SEPARATION_CODE_DONNEES_0_13_4.md
+docs/SKOPE_0_13_14_RESULTS_AND_ENGLISH.md
+docs/SKOPE_BOTANIQUE_MONDE_0_13_10.md
+docs/SKOPE_CONSOLIDATION_0_13_15.md
+docs/SKOPE_DENSITE_0_13_13.md
 docs/SKOPE_ENRICHISSEMENT_KRISTAL_0_13_7.md
 docs/SKOPE_RECHERCHE_0_13_8.md
+docs/SKOPE_WIZARD_0_13_9.md
 docs/historical-data-manifests/20_evidence/manifests/seeds.inventory.json
 docs/historical-data-manifests/20_evidence/manifests/wikidata-dump-verified.json
 docs/historical-data-manifests/20_evidence/manifests/wikidata-lexemes-fr-en-sq.json

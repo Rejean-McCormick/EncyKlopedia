@@ -1,3 +1,54 @@
+## 0.13.16 — Verified full Wikidata records from a Skope QID inventory
+- English **05 · FULL WIKIDATA RECORDS** section with profile selection, check sources, explicit confirmation, progress modal and pause/resume.
+- Existing verified dump + matching indexed-bzip2 fast locator only; fails closed instead of scanning full dump.
+- Lossless gzip JSONL batches; individual SHA-256, manifest and atomic promotion on D: after completeness verification.
+- Original QID inventory, SQLite index and Kristal-Botany canon remain untouched.
+
+## 0.13.15 — Consolidated Skope density visualization + results (13 October 2026)
+- Merge user-provided interactive three-layer density graph, node inspection and magnifier with v0.13.14.
+- Fix paused-job Resume handling in English UI; retain English UI and Wizard, progress dialog, batch inventory, pause/resume, downloadable results ZIP, Windows file clipboard, folder-open and external convergence help.
+- Keep data on D: and the single EncyK code repository on C:. No changes to Kristal canon or source dump.
+
+## 0.13.14 — English UI, collection results dialog (13 October 2026)
+- All browser-side Skope panels and Wizard content in English; Windows launcher English.
+- Persistent collection progress popup showing QIDs, expansions, pending work, and an honest unlimited progress state.
+- Completed job actions: Open Results folder (Windows Explorer), Download Results ZIP, Copy ZIP file to Windows clipboard (CF_HDROP).
+- ZIP includes selected-qids.jsonl, recipe.json, summary.json, and README.txt (no source JSON or canon).
+- Help button beside External Convergence, explaining thresholds, support and extra depth; explicitly notes massive inventory does not run convergence.
+- No changes to original Wikidata/SQLite index or Kristal canon.
+
+## 0.13.13 — Traversée massive indépendante de la carte (2026-10-13)
+- Retrait de la limite logique 10 000 ; 0 = sans plafond de collecte.
+- Carte et API preview bornées à 10 000 QID pour préserver la RAM.
+- Exploration disque par lots, opt-in, pause/reprise, résultats QID sur D: seulement.
+- Plan exporté sans prétendre être un export exhaustif lorsque la portée dépasse l’aperçu.
+
+## 0.13.12 — Champs géographiques principal + secondaire (13 octobre 2026)
+- Affichage/modification dans la barre latérale des QID Canada / Amérique du Nord, distinctement nommés priorité et secondaire.
+- Mode géographique sélectionnable et validation explicite ; réinitialisation des anciens compteurs après modification.
+- Wizard et interface principale synchronisés sans écriture canonique ni changement SQLite.
+
+## 0.13.11 · Scope géographique (Amérique du Nord / Canada)
+- Wizard étape « Géographie » : sélection de la région et de la priorité par QID, mode documentaire annoté (recommandé) ou filtre strict explicite.
+- P9714/P183/P2341 et relations géographiques P17/P131/P30 bornées ; comptage de couverture réelle depuis l'index compact, pas de géolocalisation inventée.
+- Quatre catégories : zone prioritaire, reste de la région, autres régions seulement, géographie inconnue.
+- Le scope géographique figure dans les recettes, rapports, manifestes et propositions EncyK.
+- La présence au Canada n'est pas garantie en l'absence de lien Wikidata ; le plafond de 10 000 reste une prévisualisation.
+- D: en lecture seule ; aucun changement du canon Kristal et aucune ingestion massive automatique.
+
+## 0.13.10 · Réglages de botanique mondiale (interface)
+- Profondeur Skope 0..8 (y compris profondeur de branche), adaptée à la validation backend.
+- Valeurs Botany par défaut : Embryophyta, P171 entrant, profondeur 6, plafond 10 000, convergence 14,6% / minimum 8 / extra 0.
+- Wizard par défaut aligné, comparaison quantifiée bornée à 1 500 entités avec avertissement explicite.
+- Pas de recalcul automatique du grand scope à chaque changement ; affichage progressif des listes longues.
+- Aucune extraction mondiale ni modification du canon ou des données sur D:.
+
+## 0.13.9 — Wizard facultatif Skope (2026-10-13)
+- Un bouton dans la barre supérieure ouvre un wizard sans remplacer l'UI existante.
+- Explication, schéma qualitatif et recommandations de chaque champ avec application manuelle.
+- Comparaison quantifiée à la demande, via l'API en lecture seule.
+- Aucune écriture dans le canon, le dump ou les index de D:.
+
 ## 0.13.8 — Correctif Skope : recherche sans parcours massif (13 octobre 2026)
 - `Q192154` cherche directement via l'identifiant, sans scan des noms.
 - `Embryophyta` utilise l'index `idx_name_norm` et des plages bornées, sans `ORDER BY e.wid`.

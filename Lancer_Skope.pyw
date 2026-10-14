@@ -28,51 +28,51 @@ KIT_CANDIDATES=[
 class App:
     def __init__(self, window):
         self.window=window; self.proc=None; self.proc_config=None; self.kristals={}; self.manual_guide=False
-        window.title('EncyKlopedia — Enrichir un Kristal avec Skope')
+        window.title('EncyKlopedia — Enrich a Kristal with Skope')
         window.geometry('930x450'); window.minsize(770,420)
         frame=ttk.Frame(window,padding=18);frame.pack(fill='both',expand=True)
-        ttk.Label(frame,text='Enrichir un Kristal · EncyK + Skope',font=('Segoe UI',15,'bold')).pack(anchor='w')
-        ttk.Label(frame,text='Choisis le Kristal, explore Wikidata sur D: puis exporte une proposition. Aucune injection canonique automatique.',wraplength=840).pack(anchor='w',pady=(2,13))
+        ttk.Label(frame,text='Enrich a Kristal · EncyK + Skope',font=('Segoe UI',15,'bold')).pack(anchor='w')
+        ttk.Label(frame,text='Choose a target Kristal, explore Wikidata on D:, then export a proposal. No automatic canonical injection.',wraplength=840).pack(anchor='w',pady=(2,13))
         self.kristal=tk.StringVar(value='')
         self.db=tk.StringVar(value=str(default_database()))
         self.guidance=tk.StringVar(value='')
         self.kit=tk.StringVar(value=str(next((p for p in KIT_CANDIDATES if p and p.is_file()),' ')).strip())
-        self.state=tk.StringVar(value='Choisir un Kristal puis ouvrir Skope.')
+        self.state=tk.StringVar(value='Select a Kristal, then open Skope.')
 
         row=ttk.Frame(frame);row.pack(fill='x',pady=5)
-        ttk.Label(row,text='Kristal destinataire',width=23).pack(side='left')
+        ttk.Label(row,text='Target Kristal',width=23).pack(side='left')
         self.kristal_combo=ttk.Combobox(row,textvariable=self.kristal,state='readonly')
         self.kristal_combo.pack(side='left',fill='x',expand=True)
         self.kristal_combo.bind('<<ComboboxSelected>>',lambda _:self.on_kristal_change())
-        ttk.Button(row,text='Autre dossier…',command=self.pick_kristal).pack(side='left',padx=(7,0))
-        ttk.Button(row,text='Actualiser',command=self.refresh_kristals).pack(side='left',padx=(7,0))
-        self.detail=tk.StringVar(value='Aucun Kristal sélectionné')
+        ttk.Button(row,text='Browse folder…',command=self.pick_kristal).pack(side='left',padx=(7,0))
+        ttk.Button(row,text='Refresh',command=self.refresh_kristals).pack(side='left',padx=(7,0))
+        self.detail=tk.StringVar(value='No Kristal selected')
         ttk.Label(frame,textvariable=self.detail,foreground='#4e6678',wraplength=840).pack(anchor='w',pady=(0,7))
 
         row=ttk.Frame(frame);row.pack(fill='x',pady=5)
-        ttk.Label(row,text='Index Wikidata (D:)',width=23).pack(side='left')
+        ttk.Label(row,text='Wikidata index (D:)',width=23).pack(side='left')
         ttk.Entry(row,textvariable=self.db).pack(side='left',fill='x',expand=True)
-        ttk.Button(row,text='Parcourir…',command=self.pick_db).pack(side='left',padx=(7,0))
+        ttk.Button(row,text='Browse…',command=self.pick_db).pack(side='left',padx=(7,0))
 
         row=ttk.Frame(frame);row.pack(fill='x',pady=5)
         ttk.Label(row,text='Guide Arketype 1.4',width=23).pack(side='left')
         ttk.Entry(row,textvariable=self.guidance).pack(side='left',fill='x',expand=True)
-        ttk.Button(row,text='Choisir…',command=self.pick_guidance).pack(side='left',padx=(7,0))
+        ttk.Button(row,text='Choose…',command=self.pick_guidance).pack(side='left',padx=(7,0))
         ttk.Button(row,text='Auto',command=self.auto_guidance).pack(side='left',padx=(7,0))
 
-        ttk.Label(frame,text='Guide = conseil de conception PRF-03 pour Botany (si sélectionné). Ne change ni le canon ni les autorisations.',foreground='#4e6678',wraplength=840).pack(anchor='w',pady=(1,9))
+        ttk.Label(frame,text='Arketype PRF-03 is design guidance for Botany only. It grants no permissions and does not change the canon.',foreground='#4e6678',wraplength=840).pack(anchor='w',pady=(1,9))
         controls=ttk.Frame(frame);controls.pack(fill='x',pady=(5,12))
-        ttk.Button(controls,text='Ouvrir Skope',command=self.start).pack(side='left')
-        ttk.Button(controls,text='Arrêter Skope',command=self.stop).pack(side='left',padx=8)
+        ttk.Button(controls,text='Open Skope',command=self.start).pack(side='left')
+        ttk.Button(controls,text='Stop Skope',command=self.stop).pack(side='left',padx=8)
         ttk.Separator(frame).pack(fill='x',pady=10)
-        ttk.Label(frame,text='Authoring Kit 3.3.1  ·  Discovery non canonique',font=('Segoe UI',10,'bold')).pack(anchor='w')
+        ttk.Label(frame,text='Authoring Kit 3.3.1 · Non-canonical Discovery',font=('Segoe UI',10,'bold')).pack(anchor='w')
         row=ttk.Frame(frame);row.pack(fill='x',pady=6)
-        ttk.Label(row,text='Outil du Kit',width=23).pack(side='left')
+        ttk.Label(row,text='Authoring Kit tool',width=23).pack(side='left')
         ttk.Entry(row,textvariable=self.kit).pack(side='left',fill='x',expand=True)
-        ttk.Button(row,text='Choisir…',command=self.pick_kit).pack(side='left',padx=(7,0))
+        ttk.Button(row,text='Choose…',command=self.pick_kit).pack(side='left',padx=(7,0))
         controls=ttk.Frame(frame);controls.pack(fill='x',pady=6)
-        ttk.Button(controls,text='Vérifier le Kristal',command=lambda:self.kit_action('check')).pack(side='left')
-        ttk.Button(controls,text='Générer Discovery',command=lambda:self.kit_action('build-discovery')).pack(side='left',padx=8)
+        ttk.Button(controls,text='Check Kristal',command=lambda:self.kit_action('check')).pack(side='left')
+        ttk.Button(controls,text='Build Discovery',command=lambda:self.kit_action('build-discovery')).pack(side='left',padx=8)
         ttk.Label(frame,textvariable=self.state,wraplength=860).pack(anchor='w',pady=(5,0))
         self.refresh_kristals()
         window.protocol('WM_DELETE_WINDOW',self.quit)
@@ -92,18 +92,18 @@ class App:
         self.on_kristal_change()
 
     def pick_kristal(self):
-        folder=filedialog.askdirectory(title='Choisir un Kristal contenant kristal.workspace.json',initialdir=str(DEFAULT_LOCALS))
+        folder=filedialog.askdirectory(title='Select a Kristal folder containing kristal.workspace.json',initialdir=str(DEFAULT_LOCALS))
         if not folder:return
         try:d=read_kristal(folder)
-        except (ValueError,OSError) as ex:messagebox.showerror('Kristal invalide',str(ex));return
+        except (ValueError,OSError) as ex:messagebox.showerror('Invalid Kristal',str(ex));return
         self.kristals[folder]=d;self.kristal_combo['values']=list(self.kristals)
         self.kristal.set(folder);self.on_kristal_change()
 
     def on_kristal_change(self):
         d=self.kristals.get(self.kristal.get())
         if d:
-            self.detail.set(f"{d['title']} · {d['state_ref']} · domaine : {d['domain'] or 'non déclaré'} · {d['state_architecture']}")
-        else:self.detail.set('Aucun Kristal trouvé : sélectionner un dossier')
+            self.detail.set(f"{d['title']} · {d['state_ref']} · domain: {d['domain'] or 'not declared'} · {d['state_architecture']}")
+        else:self.detail.set('No Kristal found; choose a folder')
         if not self.manual_guide:self.auto_guidance()
 
     def auto_guidance(self):
@@ -113,20 +113,20 @@ class App:
         self.manual_guide=False
 
     def pick_guidance(self):
-        x=filedialog.askopenfilename(title='Guide de conception Arketype',filetypes=[('JSON','*.json')])
+        x=filedialog.askopenfilename(title='Arketype design guidance',filetypes=[('JSON','*.json')])
         if x:self.guidance.set(x);self.manual_guide=True
 
     def pick_db(self):
-        x=filedialog.askopenfilename(title='Index EncyK SQLite (lecture seule)',filetypes=[('SQLite','*.sqlite *.db'),('Tous les fichiers','*.*')])
+        x=filedialog.askopenfilename(title='EncyK SQLite index (read-only)',filetypes=[('SQLite','*.sqlite *.db'),('All files','*.*')])
         if x:self.db.set(x)
 
     def pick_kit(self):
-        x=filedialog.askopenfilename(title='tools/kristal.py de l’Authoring Kit',filetypes=[('Python','*.py')])
+        x=filedialog.askopenfilename(title='Authoring Kit tools/kristal.py',filetypes=[('Python','*.py')])
         if x:self.kit.set(x)
 
     def selected(self):
         folder=self.kristal.get()
-        if not folder:raise ValueError('Choisir un Kristal destinataire')
+        if not folder:raise ValueError('Choose a target Kristal')
         d=read_kristal(folder)  # relire la cible au moment de l'action
         return folder,d
 
@@ -134,7 +134,7 @@ class App:
         try:
             folder,target=self.selected()
             path=Path(self.db.get())
-            if not path.is_file():raise ValueError('Index EncyK absent ; vérifier D:\\EncyKlopedia')
+            if not path.is_file():raise ValueError('EncyK index not found; check D:\\EncyKlopedia')
             intended=(str(Path(folder).resolve()),str(path.resolve()),self.guidance.get().strip())
             if self.proc and self.proc.poll() is None:
                 if self.proc_config==intended:
@@ -149,35 +149,35 @@ class App:
             self.proc=subprocess.Popen([sys.executable,'-m','skope','serve','--db',str(path),'--port','8767','--kristal',str(folder),*args],
                     cwd=str(ROOT),env=env,creationflags=(subprocess.CREATE_NO_WINDOW if sys.platform=='win32' else 0))
             self.proc_config=intended
-            self.state.set(f"Skope démarré pour {target['title']} (proposition non canonique).")
+            self.state.set(f"Skope started for {target['title']} (non-canonical proposal).")
             self.window.after(950,self.open_if_running)
         except Exception as exc:messagebox.showerror('Skope',str(exc))
 
     def open_if_running(self):
         if self.proc and self.proc.poll() is None:webbrowser.open('http://127.0.0.1:8767')
-        else:self.state.set('Skope ne démarre pas. Port 8767 déjà occupé ou erreur serveur.')
+        else:self.state.set('Could not start Skope. Port 8767 may be in use, or the server failed.')
 
     def stop(self):
         if self.proc and self.proc.poll() is None:
-            self.proc.terminate();self.proc=None;self.proc_config=None;self.state.set('Skope arrêté.')
+            self.proc.terminate();self.proc=None;self.proc_config=None;self.state.set('Skope stopped.')
 
     def kit_action(self,command):
         try:
             folder,target=self.selected()
             tool=Path(self.kit.get().strip())
             if not tool.is_file() or tool.name!='kristal.py':
-                raise ValueError('Choisir le script tools/kristal.py de l’Authoring Kit 3.3.1')
-            if command=='build-discovery' and not messagebox.askyesno('Mettre à jour Discovery',
-                 'Produire/régénérer kristal.discovery.json et les deux fichiers derived pour '+target['title']+' ?\n\nAucun état canonique ne sera modifié.'):
+                raise ValueError('Select tools/kristal.py from Authoring Kit 3.3.1')
+            if command=='build-discovery' and not messagebox.askyesno('Update Discovery',
+                 'Generate/refresh kristal.discovery.json and two derived reader files for '+target['title']+' ?\n\nNo canonical state will be modified.'):
                 return
             self.state.set('Authoring Kit : '+command+'…')
             def worker():
                 try:
                     p=subprocess.run([sys.executable,str(tool),command,str(folder)],capture_output=True,text=True,encoding='utf-8',errors='replace',timeout=120)
-                    msg=(p.stdout or p.stderr or 'Commande terminée').strip()
-                    title='Authoring Kit' if p.returncode==0 else 'Échec du Kit'
+                    msg=(p.stdout or p.stderr or 'Command completed').strip()
+                    title='Authoring Kit' if p.returncode==0 else 'Authoring Kit failed'
                     self.window.after(0,lambda:messagebox.showinfo(title,msg[-3500:]) if p.returncode==0 else messagebox.showerror(title,msg[-3500:]))
-                    self.window.after(0,lambda:self.state.set('Commande terminée.' if p.returncode==0 else 'Commande en échec.'))
+                    self.window.after(0,lambda:self.state.set('Command completed.' if p.returncode==0 else 'Command failed.'))
                 except Exception as ex:
                     self.window.after(0,lambda ex=ex:messagebox.showerror('Kit',str(ex)))
             threading.Thread(target=worker,daemon=True).start()

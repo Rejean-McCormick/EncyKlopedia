@@ -17,7 +17,7 @@ def main() -> int:
     baseline = load(ROOT / '00_system/contracts/knowledge-baseline.json')
 
     version=(ROOT / 'VERSION').read_text().strip()
-    if version != '0.13.8':
+    if version != '0.13.16':
         errors.append('VERSION inattendue pour cette livraison : '+version)
     if manifest.get('package_version') != version:
         errors.append('manifest package_version != VERSION')

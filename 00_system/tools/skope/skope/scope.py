@@ -3,8 +3,9 @@ from collections import defaultdict,deque
 from math import ceil
 import re
 from .db import node,neighbors,induced_edges,meta
+from .geography import validate_geography,annotate_geography
 
-MAX_NODE_BUDGET=10000
+PREVIEW_NODE_BUDGET=10000  # borne RAM / HTTP ; pas le plafond du scope
 
 def validate_recipe(recipe):
     if not isinstance(recipe,dict):raise ValueError('recipe must be JSON object')
@@ -29,12 +30,13 @@ def validate_recipe(recipe):
     extra=int(conv.get('extra_depth',1))
     if extra<0 or extra>6:raise ValueError('extra_depth must be 0..6')
     budget=int(recipe.get('max_entities',1000))
-    if budget<1 or budget>MAX_NODE_BUDGET:raise ValueError('max_entities must be 1..10000')
+    if budget<0 or budget>9_000_000_000_000_000_000:raise ValueError('max_entities must be >= 0 (0 = unlimited)')
     included=conv.get('include',[])
     if not isinstance(included,list) or any(not isinstance(x,str) or not x.startswith('Q') or not x[1:].isdigit() for x in included):raise ValueError('invalid convergence.include')
     return {'root':root,'default_depth':default,'branches':branches,'allowed_properties':pids,
        'direction':direction,'convergence':{'threshold_percent':pct,'min_support':support,
-       'extra_depth':extra,'include':sorted(set(included))},'max_entities':budget}
+       'extra_depth':extra,'include':sorted(set(included))},'max_entities':budget,
+       'geography':validate_geography(recipe.get('geography'))}
 
 def branches_for_root(conn,root,direction='both',allow=None):
     if not node(conn,root):raise ValueError('root QID not found in local database')
@@ -57,7 +59,10 @@ def explore(conn,recipe):
     root=r['root']; pids=set(r['allowed_properties']) if r['allowed_properties'] else None
     if not node(conn,root):raise ValueError(f'root {root} not present in local database')
     selected={root}; why=defaultdict(set);why[root].add('root')
-    limit=r['max_entities']; trunc=False
+    # Tout scope (y compris illimité) reste borné pour la réponse HTTP de prévisualisation.
+    goal=r['max_entities']
+    limit=PREVIEW_NODE_BUDGET if goal==0 else min(goal,PREVIEW_NODE_BUDGET)
+    trunc=False
     # First-hop edges define branches. Keep branch provenance throughout traversal.
     frontier=deque()
     for br in branches_for_root(conn,root,r['direction'],pids):
@@ -114,10 +119,14 @@ def explore(conn,recipe):
                 if not node(conn,nid) or nid in seen:continue
                 if nid not in selected and len(selected)>=limit:trunc=True;continue
                 seen.add(nid);selected.add(nid);why[nid].add('convergence-expansion:'+start+':'+str(depth+1));wave.append((nid,depth+1))
-    edges=induced_edges(conn,selected)
+    base_nodes=[dict(node(conn,i),reasons=sorted(why[i])) for i in sorted(selected)]
+    display_nodes,geo_counts=annotate_geography(conn,base_nodes,r['geography'])
+    edges=induced_edges(conn,set(n['id'] for n in display_nodes))
     return {'profile':'skope.encyk-preview/1.0','root':root,'recipe':r,
        'source_snapshot_digest':meta(conn).get('source_snapshot_digest','unknown'),
-       'nodes':[dict(node(conn,i),reasons=sorted(why[i])) for i in sorted(selected)],'edges':edges,
-       'candidates':candidates,'counts':{'entities':len(selected),'relations':len(edges),'candidates':len(candidates)},
-       'truncated':trunc, 'status':'working_non_canonical',
-       'limitations':['Sélection de travail non validée','L’index EncyK est agrégé et n’inclut pas les déclarations source complètes','Convergence en une vague seulement; acceptation explicite requise']}
+       'nodes':display_nodes,'edges':edges,'geography_coverage':geo_counts,
+       'candidates':candidates,'counts':{'entities':len(display_nodes),'relations':len(edges),'candidates':len(candidates)},
+       'truncated':trunc, 'preview_budget':limit, 'requested_max_entities':goal,
+       'preview_only':goal==0 or goal>PREVIEW_NODE_BUDGET,
+       'status':'working_non_canonical',
+       'limitations':['Sélection de travail non validée','Une absence de lien géographique ne signifie PAS absence du taxon dans la région','L’index EncyK est agrégé et n’inclut pas les déclarations source complètes','Convergence en une vague seulement; acceptation explicite requise']}

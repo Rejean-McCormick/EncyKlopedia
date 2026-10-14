@@ -1,4 +1,4 @@
-# EncyKlopedia (EncyK) — 0.13.8
+# EncyKlopedia (EncyK) — 0.13.14
 
 EncyK is the ecosystem's **source discovery, acquisition, extraction and handoff pipeline**.
 
@@ -227,3 +227,69 @@ Aucune écriture dans les dumps, index, Kristals ou droits d'accès au démarrag
 - Pas de jointure-tri global sur les noms, pas de reconstruction de SQLite.
 - Bouton Chercher : chargement visible, erreur explicite et délai d'attente.
 - Après mise à jour du code C:, **arrêter puis relancer** le serveur Skope avant Ctrl+F5 dans le navigateur.
+
+
+## Skope Wizard (0.13.9)
+
+Le bouton **✦ Wizard** dans la barre supérieure ouvre un assistant facultatif,
+sans modifier la mise en page de Skope. Il explique les paramètres (direction,
+propriétés PIDs, profondeur, budget, convergence, exceptions par branche),
+propose des valeurs contextuelles Botany (PRF-03), représente leurs effets
+par des graphes pédagogiques **non chiffrés**, et ne renseigne les champs
+qu'après un clic explicite sur **Appliquer**. Le mode **Mesurer** interroge
+`/api/preview` en lecture seule pour afficher des comptes réels et la troncature ;
+ces résultats ne sont pas des preuves Wikidata. Le canon Kristal et les fichiers
+sur D: ne sont pas modifiés. L'extraction automatisée reste une étape séparée.
+
+
+## Skope · Botanique mondiale (0.13.10)
+Le choix `Kristal-Botany` préremplit automatiquement Q192154, P171 entrant, profondeur 6
+(UI jusqu’à 8, backend jusqu’à 8), plafond d'aperçu 10 000, convergence 14,6 %,
+minimum 8, extra 0. Le Wizard propose la même configuration et une mesure comparative
+bornée explicitement à 1 500 QID. La grande exploration ne se recalcule plus
+automatiquement à chaque changement : utiliser `Calculer le périmètre`.
+**Ce mode reste un aperçu non exhaustif et non canonique.** Il n'extrait pas des millions
+de taxons ; la collecte mondiale partitionnée est une évolution séparée.
+
+## Définir un scope géographique (Skope 0.13.12)
+
+Dans Skope, conserver les réglages taxonomiques, puis ouvrir **Wizard → 5 · Géographie**.
+La recommandation Botany : région `Q49` (Amérique du Nord), priorité `Q16` (Canada),
+mode « Prioriser sans exclure les taxons mal documentés ». Les QID peuvent être changés
+pour d'autres projets. La couverture est **mesurée seulement après** « Calculer le périmètre ».
+L'option stricte ne constitue pas une flore du Canada exhaustive : Wikidata manque de données
+de répartition, et la traversée de la taxonomie précède le filtre. Voir
+`00_system/tools/skope/docs/SCOPE_GEOGRAPHIQUE_AMERIQUE_DU_NORD_0_13_11.md`.
+
+## Skope 0.13.12 : zone secondaire visible
+
+Dans l'interface principale, sous le Kristal, les deux champs QID
+**Zone prioritaire** (Canada `Q16`) et **Zone secondaire** (Amérique du Nord `Q49`)
+sont directement modifiables. Choisir le mode d’application et cliquer sur
+**Appliquer les zones**, puis **Calculer le périmètre**. Le Wizard partage
+les mêmes valeurs et les deux zones sont sauvegardées dans le ZIP de scope.
+
+Ce sont des signaux géographiques Wikidata incomplets : la région ne peut pas
+rendre exhaustive une traversée tronquée, ni prouver l'absence des espèces.
+
+## Skope 0.13.13 — scopes sans plafond logique
+
+Un objectif `max_entities=0` demande un inventaire sans plafond global. La prévisualisation HTTP reste **bornée à 10 000 QID**, mais le bouton explicite « Collecter les QID par lots » emploie un état SQLite sur disque sous `D:\EncyKlopedia\30_working\skope-large-scopes`. Le parcours est interruptible, reprenable à paramètres inchangés et n’écrit jamais dans la source SQLite ni dans le canon Kristal. Le ZIP exporté avec un scope supérieur à 10 000 QID est un **plan**, pas une liste exhaustive ; les QID complets sont écrits dans un `.jsonl` une fois le travail terminé. Pas d’extraction de JSON Wikidata complet dans cette étape.
+
+## v0.13.15 — Skope consolidation
+The current user interface retains the density graph (three layers, filters, magnifier, inspect) while restoring the full English 0.13.14 collection results dialog and ZIP actions.
+
+
+## Verified full Wikidata records in Skope 0.13.16
+
+After a completed batch QID inventory, use **05 · Full Wikidata Records** in the
+existing browser UI. Select the bundled extraction profile, check sources, then
+explicitly confirm **Extract Full Wikidata Records**. The preflight validates the
+existing completed QID job, verified source manifest, matching fast locator,
+compression index, and disk space. It never scans the 96 GiB dump or builds an
+index. Chunks are gzip JSONL with per-entity SHA-256; work remains under
+`D:/EncyKlopedia/30_working/skope-extractions` until a verified snapshot is
+promoted by a same-volume rename into `20_evidence/scope-snapshots` on D:.
+No Kristal canon is modified. Pause/resume works at completed batch boundaries.
+The profile file is under `00_system/tools/skope/config/extraction-profiles`.
+Preflight blockers must be resolved before the Start button unlocks.
