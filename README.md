@@ -1,4 +1,4 @@
-# EncyKlopedia (EncyK) — 0.13.14
+# EncyKlopedia (EncyK) — 0.14.0 (standalone Skope alignment)
 
 EncyK is the ecosystem's **source discovery, acquisition, extraction and handoff pipeline**.
 
@@ -7,7 +7,7 @@ EncyK is the ecosystem's **source discovery, acquisition, extraction and handoff
 ## Code séparé des données — installation Windows
 
 - **Dépôt Git** : sur C: (ou n’importe quel autre disque), avec `00_system/`,
-  `10_sources/seeds/`, les scripts et Skope intégré.
+  `10_sources/seeds/`, les scripts et le connecteur HTTP vers Skope Standalone (Skope non embarqué).
 - **Données** : `D:\EncyKlopedia`, avec dumps, SQLite, preuves actives,
   volumes lexicaux et résultats d'acquisition. **Ce dossier n’est pas un dépôt.**
 - Configuration en lecture seule d'abord : `pwsh -File .\configure_data_on_D.ps1` ;
@@ -19,6 +19,33 @@ Aucun dump n’est déplacé sur C: et aucun exécutable n’est installé dans 
 L'ancien script `Migrer_EncyKlopedia.pyw` (v0.13.2) **ne doit pas être exécuté** :
 il supposait à tort que le dépôt de code se trouvait sur D:.
 Voir [le nettoyage respectueux des données](docs/NETTOYAGE_DONNEES_PROTEGE_WIKIDATA_0_13_6.md).
+
+## Skope Standalone integration (0.14.0)
+
+**Skope is no longer part of this EncyK repository.** Run Skope independently
+from `C:\mycode\Skope` using its own `Start_Skope.cmd` on local port 8767.
+EncyK can inspect and **pull completed QID inventories** from the live
+Skope service without importing its code. Imported results are staged only in
+`D:\EncyKlopedia\20_evidence\external-intake\skope\<job-id>`.
+
+The **Wikidata Acquisition Manager** includes a `5 · Skope externe` tab to
+check the connection, list the latest job and pull a completed job by ID.
+CLI (PowerShell):
+
+```powershell
+$bridge = "C:\mycode\EncyKlopedia\EncyKlopedia\00_system\integrations\skope_bridge.py"
+python $bridge doctor
+python $bridge list
+python $bridge pull --job "<32-char-hex-job-id>"
+```
+
+This is a **pull-only, noncanonical** handoff. ZIPs are validated and retained
+with receipt, SHA-256 and source Skope job metadata; EncyK does not re-run
+Skope collection, import Skope Python code, publish to Médiathèque or write
+Kristal. Complete JSON source evidence stays where Skope created it on D:;
+only references to its reported location are kept.
+
+See [the connector contract](00_system/integrations/SKOPE_STANDALONE_PULL.md).
 
 ## Responsibility
 
@@ -293,3 +320,7 @@ promoted by a same-volume rename into `20_evidence/scope-snapshots` on D:.
 No Kristal canon is modified. Pause/resume works at completed batch boundaries.
 The profile file is under `00_system/tools/skope/config/extraction-profiles`.
 Preflight blockers must be resolved before the Start button unlocks.
+
+## Skope 0.13.17 source check
+
+`Check sources` validates that `indexed_bzip2` is importable **in the Skope server's Python process** and refreshes a prior negative module cache. On failure, the UI displays the actual backend, interpreter path, and sidecar presence so users can diagnose without rescanning Wikidata.

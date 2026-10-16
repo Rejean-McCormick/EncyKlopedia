@@ -7,17 +7,17 @@ BASE=Path(__file__).resolve().parent; ROOT=BASE.parents[2]; SCRIPTS=BASE/'script
 
 class App(tk.Tk):
     def __init__(self):
-        super().__init__();self.title('EncyK — Wikidata Acquisition Manager 0.12');self.geometry('1220x820');self.minsize(980,700)
+        super().__init__();self.title('EncyK — Wikidata Acquisition Manager 0.14.0');self.geometry('1220x820');self.minsize(980,700)
         self.proc=None;self.q=queue.Queue();self.chain=[];self.rows=[];self.sel=set()
-        self.registry=tk.StringVar(value=str(DEFAULT_REG));self.languages=tk.StringVar(value='fr,en,mul');self.depth=tk.IntVar(value=3);self.filter=tk.StringVar();self.status=tk.StringVar(value='Prêt')
+        self.skope_api=tk.StringVar(value='http://127.0.0.1:8767');self.skope_job=tk.StringVar();self.skope_data_root=tk.StringVar(value=os.environ.get('ENCYK_DATA_ROOT',r'D:\EncyKlopedia'));self.registry=tk.StringVar(value=str(DEFAULT_REG));self.languages=tk.StringVar(value='fr,en,mul');self.depth=tk.IntVar(value=3);self.filter=tk.StringVar();self.status=tk.StringVar(value='Prêt')
         self._ui();self.after(100,self._drain);self._refresh_paths()
     def _ui(self):
         root=ttk.Frame(self,padding=8);root.pack(fill='both',expand=True);root.columnconfigure(0,weight=1);root.rowconfigure(1,weight=1)
         bar=ttk.Frame(root);bar.grid(row=0,column=0,sticky='ew',pady=(0,6));ttk.Label(bar,text='Racine').pack(side='left');ttk.Label(bar,text=str(ROOT)).pack(side='left',padx=6);ttk.Button(bar,text='Ouvrir racine',command=self._open_ws).pack(side='left',padx=4);ttk.Button(bar,text='Scopes → Evidence → Médiathèque',command=self._open_scope_manager).pack(side='left',padx=4);ttk.Button(bar,text='AUTO index global (optionnel)',command=self._auto).pack(side='right')
         self.nb=ttk.Notebook(root);self.nb.grid(row=1,column=0,sticky='nsew');self.tabs=[]
-        for name in ['1 · Environnement','2 · Dump','3 · Index local','4 · Explorer']:
+        for name in ['1 · Environnement','2 · Dump','3 · Index local','4 · Explorer','5 · Skope externe']:
             f=ttk.Frame(self.nb,padding=10);self.nb.add(f,text=name);self.tabs.append(f)
-        self._env(self.tabs[0]);self._dump(self.tabs[1]);self._index(self.tabs[2]);self._explorer(self.tabs[3])
+        self._env(self.tabs[0]);self._dump(self.tabs[1]);self._index(self.tabs[2]);self._explorer(self.tabs[3]);self._skope_bridge_tab(self.tabs[4])
         bot=ttk.Frame(root);bot.grid(row=2,column=0,sticky='ew',pady=(6,0));ttk.Label(bot,textvariable=self.status).pack(side='left');self.stop=ttk.Button(bot,text='Arrêter processus',command=self._stop,state='disabled');self.stop.pack(side='right')
     def _logbox(self,parent,row):
         parent.rowconfigure(row,weight=1);parent.columnconfigure(0,weight=1);t=tk.Text(parent,state='disabled',wrap='word');t.grid(row=row,column=0,columnspan=4,sticky='nsew',pady=(8,0));return t
@@ -36,6 +36,36 @@ class App(tk.Tk):
         for c in cols:self.tree.heading(c,text=heads[c]);self.tree.column(c,width={'sel':35,'pid':70,'fr':220,'en':220,'class':130,'people':80,'coverage':90,'statements':90}[c])
         self.tree.grid(row=3,column=0,columnspan=3,sticky='nsew',pady=6);t.rowconfigure(3,weight=1);self.tree.bind('<Double-1>',self._toggle)
         self.explog=tk.Text(t,state='disabled',height=9,wrap='word');self.explog.grid(row=4,column=0,columnspan=3,sticky='ew')
+    def _skope_bridge_tab(self,t):
+        t.columnconfigure(1,weight=1)
+        ttk.Label(t,text='Skope Standalone API (loopback)').grid(row=0,column=0,sticky='w')
+        ttk.Entry(t,textvariable=self.skope_api,width=38).grid(row=0,column=1,sticky='ew',padx=6)
+        ttk.Label(t,text='Source job ID (32 hexadecimal characters)').grid(row=1,column=0,sticky='w',pady=5)
+        ttk.Entry(t,textvariable=self.skope_job,width=38).grid(row=1,column=1,sticky='ew',padx=6)
+        ttk.Label(t,text='EncyK data root (D:)').grid(row=2,column=0,sticky='w',pady=5)
+        ttk.Entry(t,textvariable=self.skope_data_root,width=38).grid(row=2,column=1,sticky='ew',padx=6)
+        bar=ttk.Frame(t);bar.grid(row=3,column=0,columnspan=2,sticky='ew',pady=7)
+        ttk.Button(bar,text='Check Skope API',command=lambda:self._skope_run('doctor')).pack(side='left')
+        ttk.Button(bar,text='Latest jobs',command=lambda:self._skope_run('list')).pack(side='left',padx=7)
+        ttk.Button(bar,text='Pull completed QID ZIP',command=lambda:self._skope_run('pull')).pack(side='left',padx=7)
+        ttk.Label(t,text='Noncanonical intake only: no canon write, no dump scan, no source JSON duplication.',wraplength=860).grid(row=4,column=0,columnspan=2,sticky='w',pady=6)
+        self.skope_log=self._logbox(t,5)
+
+    def _skope_run(self,command):
+        bridge=ROOT/'00_system/integrations/skope_bridge.py'
+        cmd=[sys.executable,'-B',str(bridge),command,'--api',self.skope_api.get().strip(),
+             '--data-root',self.skope_data_root.get().strip()]
+        if command=='pull':
+            job=self.skope_job.get().strip()
+            if not __import__('re').fullmatch(r'[0-9a-f]{32}',job):
+                messagebox.showerror('Job ID','Enter the complete 32-character hexadecimal Skope job ID.');return
+            if not messagebox.askyesno('Import completed Skope job',
+                'Pull this completed job as a noncanonical EncyK source-intake receipt?\n'
+                'Original Wikidata JSON and Kristal canons will not be modified.'):
+                return
+            cmd+=['--job',job]
+        self._run(cmd,self.skope_log)
+
     def _paths(self):
         return {
             'root':ROOT,

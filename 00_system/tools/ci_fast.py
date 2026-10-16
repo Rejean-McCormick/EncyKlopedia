@@ -88,6 +88,7 @@ def main() -> int:
         "-q",
         "00_system/tools/scope-builder/tests/test_scope_pipeline.py",
         "00_system/tools/wikidata-manager/tests/test_core.py",
+        "00_system/integrations/tests/test_skope_bridge.py",
     )
 
     section("Result")

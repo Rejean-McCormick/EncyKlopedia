@@ -1,7 +1,7 @@
 {
   "schema_version": "encyk-ecosystem-baseline/v2",
   "frozen_on": "2026-10-13",
-  "encyk_release": "0.13.16",
+  "encyk_release": "0.14.0",
   "source_handoff": "encyk.source-evidence-handoff/2.0.0",
   "mediatheque": {
     "minimum_release": "0.2.0",
@@ -47,10 +47,13 @@
     "authority": "design guidance only; noncanonical, nonpublishing"
   },
   "skope_tool": {
-    "source": "Skope standalone 0.2 historique, consolidé dans EncyK ; plus de dépôt actif séparé",
-    "location": "00_system/tools/skope",
-    "proposal": "skope-encyk-proposal/1.0",
-    "authority": "working scope selection only",
-    "repository": "EncyKlopedia (unique)"
+    "source": "Skope Standalone 0.14.1",
+    "repository": "separate application",
+    "location": "C:/mycode/Skope",
+    "transport": "HTTP loopback 127.0.0.1:8767",
+    "pull_contract": "encyk.skope-pull/1.0",
+    "legacy_proposal_contract": "skope-encyk-proposal/1.0",
+    "authority": "working discovery and selection; EncyK intake is noncanonical",
+    "mandatory": false
   }
 }

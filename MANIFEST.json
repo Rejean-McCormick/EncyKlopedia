@@ -1,6 +1,6 @@
 {
   "schema_version": "encyk-drive-manifest/v2",
-  "package_version": "0.13.16",
+  "package_version": "0.14.0",
   "portable_root": true,
   "generated_at": "2026-10-13T10:43:00-04:00",
   "responsibility": "discover_acquire_extract_handoff",
@@ -25,8 +25,9 @@
   "contracts": {
     "source_handoff": "encyk.source-evidence-handoff/2.0.0",
     "mediatheque_source_catalog": "koa.source-catalog/2.0.0",
-    "skope_proposal": "skope-encyk-proposal/1.0",
-    "arketype_guidance_reference": "arketype.scope-guidance/1.0"
+    "skope_proposal": "skope-encyk-proposal/1.0 (legacy read-only)",
+    "arketype_guidance_reference": "arketype.scope-guidance/1.0",
+    "skope_pull": "encyk.skope-pull/1.0"
   },
   "ecosystem_baseline": {
     "mediatheque": "0.2.0",
@@ -48,47 +49,18 @@
     "optional-selected-record-vault-cache",
     "multi-scope-single-dump-scan",
     "explicit-full-scan-opt-in",
-    "integrated-skope-branch-and-convergence-explorer",
-    "shared-readonly-encyk-global-index-for-skope",
     "staged-noncanonical-scope-proposal",
     "arketype-1.4-design-guidance-readonly",
     "separate-code-data-roots",
     "wikidata-output-preserving-cleaner",
-    "kristal-selection-in-integrated-skope-launcher",
-    "botany-default-arketype-prf03",
-    "review-only-target-kristal-proposal",
-    "optional-authoring-kit-discovery-from-encyk",
-    "skope-qid-direct-search-and-bounded-name-index-range",
-    "skope-search-loading-indicator-and-15s-timeout",
-    "skope-optional-settings-wizard",
-    "skope-recommended-config-one-click-opt-in",
-    "skope-what-if-readonly-quantified-preview",
-    "skope-botany-worldwide-preview-defaults",
-    "skope-depth-eight-ui-with-branch-parity",
-    "skope-bounded-whatif-metrics-for-worldwide-profile",
-    "skope-geographic-scope-canada-priority",
-    "skope-geography-coverage-quantifiers-readonly",
-    "skope-custom-region-and-priority-qid",
-    "skope-geographic-intent-in-review-only-proposal",
-    "inline-geography-priority-and-secondary-zones",
-    "unlimited-scope-intent-with-bounded-preview",
-    "opt-in-disk-backed-batch-qid-crawl",
-    "pause-and-resume-large-scope",
-    "large-scope-results-dialog",
-    "large-scope-zip-export-streaming",
-    "windows-clipboard-file-drop",
-    "english-skope-interface",
-    "external-convergence-help",
-    "density-visualization-three-layers",
-    "magnifier-entity-neighborhood",
-    "english-ui-with-results-progress-popup",
-    "batch-qid-results-zip-and-clipboard",
-    "skope-verified-full-wikidata-extraction",
-    "skope-extraction-profile-wizard",
-    "skope-lossless-gzip-evidence-parts",
-    "skope-resumable-evidence-checkpoints"
+    "external-standalone-skope-0.14-http-bridge",
+    "loopback-only-bounded-completed-qid-zip-pull",
+    "immutable-noncanonical-skope-import-receipts",
+    "wikidata-manager-skope-external-tab",
+    "no-integrated-skope-runtime",
+    "no-automatic-kristal-canon-write"
   ],
-  "consolidation": "single_repo_encyk_with_internal_skope",
+  "consolidation": "encyk_standalone_without_embedded_skope_with_external_pull",
   "data_root": "external: D:\\EncyKlopedia (configurable; linked by explicit junctions)",
   "repo_data_separation": {
     "code_root": "Git checkout (not D data root)",
@@ -96,5 +68,6 @@
     "setup": "configure_data_on_D.ps1 -Apply",
     "cleanup": "Nettoyer_Donnees_EncyK.pyw",
     "legacy_preservation": "Protect every Wikidata-derived output, pilot, handoff, and candidate catalogue. Only 4 runtime metadata files may move; cleanup restricted to exact verified copies of original files."
-  }
+  },
+  "architecture_note": "Skope is an independent local application. EncyK pulls completed QID result ZIPs over loopback HTTP; Skope code is never imported into EncyK."
 }

@@ -17,7 +17,7 @@ def main() -> int:
     baseline = load(ROOT / '00_system/contracts/knowledge-baseline.json')
 
     version=(ROOT / 'VERSION').read_text().strip()
-    if version != '0.13.16':
+    if version != '0.14.0':
         errors.append('VERSION inattendue pour cette livraison : '+version)
     if manifest.get('package_version') != version:
         errors.append('manifest package_version != VERSION')
@@ -25,6 +25,10 @@ def main() -> int:
         errors.append('knowledge baseline release != VERSION')
     if manifest.get('zones') != ['00_system', '10_sources', '20_evidence', '30_working', '90_runtime']:
         errors.append('active zones mismatch')
+    if manifest.get('contracts', {}).get('skope_pull') != 'encyk.skope-pull/1.0':
+        errors.append('missing Skope standalone pull contract')
+    if baseline.get('skope_tool', {}).get('pull_contract') != 'encyk.skope-pull/1.0':
+        errors.append('standalone Skope baseline mismatch')
     if baseline.get('source_handoff') != 'encyk.source-evidence-handoff/2.0.0':
         errors.append('source handoff baseline mismatch')
     if baseline.get('mediatheque', {}).get('source_catalog_profile') != 'koa.source-catalog/2.0.0':
@@ -50,6 +54,8 @@ def main() -> int:
         ROOT / '20_ingest',
         ROOT / '00_system/integrations/Interaction-Kernel',
         ROOT / '00_system/tools/legacy',
+        ROOT / '00_system/tools/skope',
+        ROOT / 'Lancer_Skope.pyw',
     ]
     for path in forbidden_paths:
         if path.exists():
@@ -66,13 +72,9 @@ def main() -> int:
         '00_system/contracts/source-evidence-handoff/2.0.0/schema.json',
         'harvest.ps1',
         'harvest_raw.ps1',
-        '00_system/tools/skope/skope/db.py',
-        '00_system/tools/skope/skope/cli.py',
-        '00_system/tools/skope/skope/scope.py',
-        '00_system/tools/skope/skope/export.py',
+        '00_system/integrations/skope_bridge.py',
         '00_system/tools/migration/obsolete-files.json',
         'Nettoyer_Fichiers_Obsoletes.pyw',
-        'Lancer_Skope.pyw',
         'Nettoyer_Donnees_EncyK.pyw',
         'configure_data_on_D.ps1',
         '00_system/tools/data_cleaner/core.py',

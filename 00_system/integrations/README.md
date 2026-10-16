@@ -15,3 +15,7 @@ Current compatibility baseline:
 | Kompiler | `0.5.0` | read-only context compiler; not an EncyK stage |
 
 Upstream repositories remain authoritative for their own contracts. EncyK pins only the compatibility metadata it needs in `00_system/contracts/knowledge-baseline.json`.
+
+## Standalone Skope (new in EncyK 0.14.0)
+
+Skope is a separate repository and process. EncyK can pull **completed**, verified Skope QID inventory result ZIPs through the loopback-only, noncanonical [Skope Bridge](SKOPE_STANDALONE_PULL.md). No Skope Python code is vendored or imported.

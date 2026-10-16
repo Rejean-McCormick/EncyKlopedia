@@ -1,3 +1,17 @@
+## v0.14.0 — EncyK/Skope decoupled
+
+- Removed integrated Skope application, test suite, and launcher from EncyK.
+- Skope Standalone 0.14.x is an optional loopback HTTP producer for verified completed QID result archives.
+- Added noncanonical Skope Bridge pull client and Wikidata Manager integration tab.
+- Preserved Scope Builder, Wikidata Manager, source-evidence handoffs, fast reader, and D: data layout.
+- Historical Skope release notes moved under docs/history/integrated-skope.
+
+## 0.13.17 — Skope reader preflight correction
+
+- Refresh optional `indexed_bzip2` discovery in the running server on Check sources.
+- Show backend, Python interpreter, import errors, and locator/index paths in blocked preflight.
+- No changes to source dump/index/canon, existing QID inventories, or extraction format.
+
 ## 0.13.16 — Verified full Wikidata records from a Skope QID inventory
 - English **05 · FULL WIKIDATA RECORDS** section with profile selection, check sources, explicit confirmation, progress modal and pause/resume.
 - Existing verified dump + matching indexed-bzip2 fast locator only; fails closed instead of scanning full dump.

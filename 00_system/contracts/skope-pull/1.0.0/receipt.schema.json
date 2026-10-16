@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.encyk/contracts/skope-pull/1.0.0/receipt.schema.json",
+  "type": "object",
+  "required": ["contract", "producer", "consumer", "source_job", "state", "result_zip", "inventory", "zip_entries", "limitations", "pulled_at"],
+  "properties": {
+    "contract": {"const": "encyk.skope-pull/1.0"},
+    "producer": {"type": "object", "required": ["system", "api"], "properties": {"system": {"const": "skope"}, "api": {"type": "string", "pattern": "^http://(localhost|127[.]0[.]0[.]1|\\[::1\\]):[0-9]+$"}}},
+    "consumer": {"type": "object", "properties": {"system": {"const": "encyk"}}},
+    "source_job": {"type": "string", "pattern": "^[0-9a-f]{32}$"},
+    "state": {"const": "imported"},
+    "pulled_at": {"type": "string"},
+    "result_zip": {"type": "object", "required": ["sha256", "bytes"], "properties": {"sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}, "bytes": {"type": "integer", "minimum": 1}}},
+    "inventory": {"type": "object", "required": ["count", "sha256"], "properties": {"count": {"type": "integer", "minimum": 1}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}},
+    "source_kind": {"enum": ["qid_inventory", "author_campaign"]},
+    "zip_entries": {"type": "array", "items": {"type": "string"}},
+    "materialized_files": {"type": "object"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}
