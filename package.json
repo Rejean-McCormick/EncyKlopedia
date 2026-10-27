@@ -1,59 +1,15 @@
 {
-  "name": "konstellation",
-  "version": "1.0.0-rc.2",
+  "name": "encyklopedia",
+  "version": "0.1.0-alpha.1",
   "private": true,
   "type": "module",
-  "engines": {
-    "node": ">=24.15.0"
-  },
+  "description": "Read-only, multilingual encyclopedia delivery surface for qualified Kristal publications",
+  "engines": { "node": ">=22" },
   "scripts": {
-    "dev": "node scripts/dev.mjs",
-    "build": "astro build",
-    "start": "node server/index.mjs",
+    "start": "node src/server.mjs",
+    "dev": "node src/server.mjs",
+    "check": "node --check src/server.mjs && node --check src/catalog.mjs && node --check public/app.js",
     "test": "node --test tests/*.test.mjs",
-    "test:browser": "playwright test",
-    "check": "npm test && npm run test:ui && npm run build && npm run test:e2e:smoke",
-    "pack:validate": "node scripts/pack.mjs validate",
-    "pack:import": "node scripts/import-kristal.mjs",
-    "test:ui": "vitest run",
-    "corpus:biblical": "node scripts/update-biblical-corpus.mjs",
-    "test:e2e": "playwright test",
-    "test:e2e:smoke": "playwright test --grep @smoke",
-    "test:e2e:astrolabe": "playwright test --grep @astrolabe",
-    "test:e2e:corpus": "playwright test --grep @corpus",
-    "test:e2e:ui": "playwright test --ui",
-    "test:e2e:report": "playwright show-report",
-    "test:contracts": "node --test tests/contracts-1.0.test.mjs",
-    "test:navigation": "node --test tests/navigation-*.test.mjs tests/kristal-v6-navigation.test.mjs",
-    "benchmark": "node scripts/benchmark-navigation.mjs",
-    "release:preflight": "node scripts/release-check.mjs",
-    "release:check": "node scripts/release-check.mjs --execute",
-    "docs:check": "node scripts/check-docs.mjs",
-    "release:manifest": "node scripts/release-manifest.mjs",
-    "release:manifest:check": "node scripts/release-manifest.mjs --check",
-    "release:sbom": "node scripts/generate-sbom.mjs",
-    "release:sbom:check": "node scripts/generate-sbom.mjs --check",
-    "release:prepare": "npm run release:sbom && npm run release:manifest",
-    "check:svelte-structure": "node scripts/check-svelte-structure.mjs",
-    "test:offline": "python tools/validate.py",
-    "check:frontend-security": "node scripts/check-frontend-security.mjs"
-  },
-  "dependencies": {
-    "@astrojs/svelte": "9.0.1",
-    "ajv": "8.20.0",
-    "ajv-formats": "3.0.1",
-    "astro": "7.3.5",
-    "hyparquet": "1.31.1",
-    "hyparquet-compressors": "1.1.2",
-    "svelte": "5.57.1"
-  },
-  "devDependencies": {
-    "@playwright/test": "1.63.0",
-    "@testing-library/svelte": "5.4.2",
-    "hyparquet-writer": "0.16.10",
-    "jsdom": "26.1.0",
-    "prettier": "3.9.9",
-    "prettier-plugin-svelte": "4.1.1",
-    "vitest": "5.0.2"
+    "verify": "npm run check && npm test"
   }
 }
