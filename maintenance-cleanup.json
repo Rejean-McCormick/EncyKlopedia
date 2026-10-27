@@ -1,0 +1,11 @@
+{
+  "format": "konstellation.cleanup-plan/1.0",
+  "note": "The historical synthetic Manager preview fixture was moved into examples/fleet/legacy; remove only the unmodified old local copy.",
+  "obsolete_files": [
+    {
+      "path": "examples/fleet/manager-preview.example.json",
+      "sha256": "f38e3b139a1f4831aff4de47a6c91b9f3c882d609e8b2ed4cf17f8b2dae567ae",
+      "replacement": "examples/fleet/legacy/manager-preview.example.json"
+    }
+  ]
+}

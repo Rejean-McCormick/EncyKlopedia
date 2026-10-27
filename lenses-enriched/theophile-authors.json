@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "0.2",
+  "id": "theophile-authors",
+  "label": {
+    "fr": "Auteurs et idées",
+    "en": "Authors and ideas"
+  },
+  "rootType": "author",
+  "facets": [
+    {
+      "relation": "corpus:auteurs_mis_en_dialogue",
+      "widget": "entity-picker"
+    }
+  ],
+  "pivots": [
+    "corpus:position_documentee"
+  ],
+  "constellation": {
+    "defaultSatelliteCount": 10,
+    "groups": [
+      {
+        "id": "ideas",
+        "label": {
+          "fr": "Idées et thèmes",
+          "en": "Ideas and themes"
+        },
+        "priority": 1.0,
+        "source": {
+          "kind": "qualifiers",
+          "ids": [
+            "corpus:theme"
+          ]
+        }
+      },
+      {
+        "id": "positions",
+        "label": {
+          "fr": "Positions documentées",
+          "en": "Documented positions"
+        },
+        "priority": 0.96,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "corpus:position_documentee"
+          ]
+        }
+      },
+      {
+        "id": "dialogues",
+        "label": {
+          "fr": "Auteurs mis en dialogue",
+          "en": "Authors in dialogue"
+        },
+        "priority": 0.9,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "corpus:auteurs_mis_en_dialogue"
+          ]
+        }
+      }
+    ]
+  }
+}

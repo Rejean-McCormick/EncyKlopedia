@@ -1,20 +1,29 @@
 node_modules/
-.env
-.env.*
-!.env.example
-.DS_Store
-Thumbs.db
-coverage/
 dist/
+.astro/
+test-results/
+playwright-report/
+.env
+*.local.pack.json
+/SmartSnap.pyw
+
+# Generated test/import packs and transient output
+test-pack-*/
+.tmp/
 .cache/
-publication-data/
-corpora/
-dumps/
-*.sqlite
-*.sqlite3
-*.db
-*.jsonl
-*.parquet
-*.bz2
-*.gz
+coverage/
 *.log
+
+# Python helper caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Backup files
+*.bak
+*.bak_*
+*.bak-*
+*.orig
+*.swp

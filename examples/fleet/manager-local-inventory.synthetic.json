@@ -1,0 +1,23 @@
+{
+  "format": "kristal.manager-local-inventory/0.1-candidate",
+  "mode": "local-read-only",
+  "generated_at": "2026-10-13T00:00:00Z",
+  "identity_rule": "state_ref is the identity; slug is not authoritative",
+  "semantic_authority": false,
+  "validated_domain_facts": false,
+  "record_count": 1,
+  "records": [
+    {
+      "title": "Synthetic sample — not a real Kristal",
+      "slug": "synthetic-example",
+      "state_ref": "urn:kristal:state:replace-with-real-state-ref",
+      "state_commitment": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readiness": "READY",
+      "availability": "local",
+      "qualification": "NOT_ESTABLISHED",
+      "publication": "NOT_ESTABLISHED",
+      "archetype": "UNDECLARED"
+    }
+  ],
+  "warnings": []
+}

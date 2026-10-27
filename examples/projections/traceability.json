@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "projectionKind": "traceability",
+  "recipeId": "traceability",
+  "rendererId": "traceability",
+  "derived": true,
+  "truncated": false,
+  "nextCursor": null,
+  "totalCandidates": 1,
+  "explanation": {
+    "reason": "Fixture de contrat 1.0",
+    "relationIds": [
+      "r"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "entity:a",
+      "type": "thing",
+      "label": "A",
+      "description": "",
+      "kind": "entity",
+      "entityId": "a"
+    },
+    {
+      "id": "assertion:x",
+      "type": "assertion",
+      "label": "rel",
+      "kind": "assertion"
+    }
+  ],
+  "edges": [
+    {
+      "id": "subject:x",
+      "source": "entity:a",
+      "target": "assertion:x",
+      "kind": "asserts"
+    }
+  ]
+}

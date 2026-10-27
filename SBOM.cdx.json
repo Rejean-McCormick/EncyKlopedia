@@ -1,0 +1,215 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:173fde52-273a-4d5a-8766-b293b29b3988",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "konstellation",
+      "version": "1.0.0-rc.2",
+      "bom-ref": "pkg:npm/konstellation@1.0.0-rc.2"
+    },
+    "properties": [
+      {
+        "name": "konstellation:lockfileComplete",
+        "value": "false"
+      },
+      {
+        "name": "konstellation:nodeEngine",
+        "value": ">=24.15.0"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@astrojs/svelte",
+      "version": "9.0.1",
+      "bom-ref": "pkg:npm/%40astrojs%2Fsvelte@9.0.1",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@playwright/test",
+      "version": "1.63.0",
+      "bom-ref": "pkg:npm/%40playwright%2Ftest@1.63.0",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/svelte",
+      "version": "5.4.2",
+      "bom-ref": "pkg:npm/%40testing-library%2Fsvelte@5.4.2",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "ajv-formats",
+      "version": "3.0.1",
+      "bom-ref": "pkg:npm/ajv-formats@3.0.1",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "ajv",
+      "version": "8.20.0",
+      "bom-ref": "pkg:npm/ajv@8.20.0",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "astro",
+      "version": "7.3.5",
+      "bom-ref": "pkg:npm/astro@7.3.5",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hyparquet-compressors",
+      "version": "1.1.2",
+      "bom-ref": "pkg:npm/hyparquet-compressors@1.1.2",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hyparquet-writer",
+      "version": "0.16.10",
+      "bom-ref": "pkg:npm/hyparquet-writer@0.16.10",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hyparquet",
+      "version": "1.31.1",
+      "bom-ref": "pkg:npm/hyparquet@1.31.1",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "jsdom",
+      "version": "26.1.0",
+      "bom-ref": "pkg:npm/jsdom@26.1.0",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "prettier-plugin-svelte",
+      "version": "4.1.1",
+      "bom-ref": "pkg:npm/prettier-plugin-svelte@4.1.1",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "3.9.9",
+      "bom-ref": "pkg:npm/prettier@3.9.9",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "svelte",
+      "version": "5.57.1",
+      "bom-ref": "pkg:npm/svelte@5.57.1",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "vitest",
+      "version": "5.0.2",
+      "bom-ref": "pkg:npm/vitest@5.0.2",
+      "properties": [
+        {
+          "name": "konstellation:resolution",
+          "value": "direct-only-no-lockfile"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:npm/konstellation@1.0.0-rc.2",
+      "dependsOn": [
+        "pkg:npm/%40astrojs%2Fsvelte@9.0.1",
+        "pkg:npm/%40playwright%2Ftest@1.63.0",
+        "pkg:npm/%40testing-library%2Fsvelte@5.4.2",
+        "pkg:npm/ajv-formats@3.0.1",
+        "pkg:npm/ajv@8.20.0",
+        "pkg:npm/astro@7.3.5",
+        "pkg:npm/hyparquet-compressors@1.1.2",
+        "pkg:npm/hyparquet-writer@0.16.10",
+        "pkg:npm/hyparquet@1.31.1",
+        "pkg:npm/jsdom@26.1.0",
+        "pkg:npm/prettier-plugin-svelte@4.1.1",
+        "pkg:npm/prettier@3.9.9",
+        "pkg:npm/svelte@5.57.1",
+        "pkg:npm/vitest@5.0.2"
+      ]
+    }
+  ]
+}

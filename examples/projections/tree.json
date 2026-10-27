@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "projectionKind": "tree",
+  "recipeId": "hierarchy",
+  "rendererId": "tree",
+  "derived": true,
+  "truncated": false,
+  "nextCursor": null,
+  "totalCandidates": 1,
+  "explanation": {
+    "reason": "Fixture de contrat 1.0",
+    "relationIds": [
+      "r"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "a",
+      "type": "thing",
+      "label": "A",
+      "description": ""
+    },
+    {
+      "id": "b",
+      "type": "thing",
+      "label": "B",
+      "description": ""
+    }
+  ],
+  "edges": [
+    {
+      "id": "x",
+      "source": "a",
+      "target": "b",
+      "relationId": "r",
+      "relationLabel": "rel"
+    }
+  ],
+  "roots": [
+    "a"
+  ]
+}

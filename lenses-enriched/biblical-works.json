@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "0.2",
+  "id": "biblical-works",
+  "label": {
+    "fr": "Œuvres bibliques et para-bibliques",
+    "en": "Biblical and related works"
+  },
+  "rootType": "work",
+  "facets": [
+    {
+      "relation": "canonical_in",
+      "widget": "entity-picker"
+    },
+    {
+      "relation": "genre",
+      "widget": "entity-picker"
+    },
+    {
+      "relation": "traditional_author",
+      "widget": "entity-picker"
+    },
+    {
+      "relation": "historical_author",
+      "widget": "entity-picker"
+    }
+  ],
+  "pivots": [
+    "canonical_in",
+    "historical_author",
+    "traditional_author",
+    "attributed_author",
+    "disputed_author",
+    "pseudepigraphic_author"
+  ],
+  "constellation": {
+    "defaultSatelliteCount": 10,
+    "groups": [
+      {
+        "id": "authors",
+        "label": {
+          "fr": "Auteurs et attributions",
+          "en": "Authors and attributions"
+        },
+        "priority": 1.0,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "historical_author",
+            "traditional_author",
+            "attributed_author",
+            "disputed_author",
+            "pseudepigraphic_author"
+          ]
+        }
+      },
+      {
+        "id": "canon",
+        "label": {
+          "fr": "Traditions canoniques",
+          "en": "Canonical traditions"
+        },
+        "priority": 0.92,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "canonical_in",
+            "noncanonical_in"
+          ]
+        }
+      },
+      {
+        "id": "genre",
+        "label": {
+          "fr": "Genre",
+          "en": "Genre"
+        },
+        "priority": 0.78,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "genre"
+          ]
+        }
+      }
+    ]
+  }
+}

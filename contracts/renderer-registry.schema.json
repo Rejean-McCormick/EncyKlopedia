@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:konstellation:schema:renderer-registry:1.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "supportedRecipes",
+      "projectionKind",
+      "maxRecommendedItems",
+      "accessibilityFallback",
+      "supportsKeyboard",
+      "supportsExport",
+      "cost",
+      "requiresAffordances",
+      "benefitsFrom",
+      "truncationStrategy",
+      "lodStrategy"
+    ],
+    "properties": {
+      "id": {
+        "enum": [
+          "list",
+          "table",
+          "constellation",
+          "timeline-lineage",
+          "tree",
+          "dag-proof",
+          "flow-path",
+          "causal-feedback",
+          "matrix-profile",
+          "state-flow",
+          "traceability",
+          "multiscale-layer",
+          "spatial"
+        ]
+      },
+      "supportedRecipes": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {
+          "enum": [
+            "catalogue",
+            "constellation",
+            "timeline",
+            "hierarchy",
+            "dependencies",
+            "path",
+            "feedback",
+            "proofs",
+            "arguments",
+            "dimensions",
+            "states",
+            "evolution",
+            "divergences",
+            "traceability",
+            "action-context",
+            "multiscale",
+            "spatial",
+            "table"
+          ]
+        }
+      },
+      "projectionKind": {
+        "enum": [
+          "rows",
+          "neighborhood",
+          "timeline-lineage",
+          "tree",
+          "dag",
+          "flow",
+          "causal-feedback",
+          "matrix",
+          "state-flow",
+          "traceability",
+          "multiscale",
+          "spatial"
+        ]
+      },
+      "maxRecommendedItems": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "accessibilityFallback": {
+        "enum": [
+          "list",
+          "table",
+          "constellation",
+          "timeline-lineage",
+          "tree",
+          "dag-proof",
+          "flow-path",
+          "causal-feedback",
+          "matrix-profile",
+          "state-flow",
+          "traceability",
+          "multiscale-layer",
+          "spatial"
+        ]
+      },
+      "supportsKeyboard": {
+        "type": "boolean"
+      },
+      "supportsExport": {
+        "type": "boolean"
+      },
+      "cost": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "recipes": {
+        "type": "array"
+      },
+      "requiresAffordances": {
+        "type": "array",
+        "items": {
+          "enum": [
+            "network",
+            "temporal",
+            "hierarchy",
+            "dependency",
+            "sequence",
+            "stateMachine",
+            "conditionalTransition",
+            "causal",
+            "signedCausal",
+            "cycle",
+            "spatial",
+            "multiScale",
+            "multiplex",
+            "proof",
+            "argumentation",
+            "multidimensional",
+            "quantitative",
+            "evidential",
+            "provenance",
+            "versioned",
+            "eventStream",
+            "resourceAllocation",
+            "classification",
+            "conflict",
+            "succession",
+            "lineage",
+            "actionability",
+            "stateful"
+          ]
+        },
+        "uniqueItems": true
+      },
+      "benefitsFrom": {
+        "type": "array",
+        "items": {
+          "enum": [
+            "network",
+            "temporal",
+            "hierarchy",
+            "dependency",
+            "sequence",
+            "stateMachine",
+            "conditionalTransition",
+            "causal",
+            "signedCausal",
+            "cycle",
+            "spatial",
+            "multiScale",
+            "multiplex",
+            "proof",
+            "argumentation",
+            "multidimensional",
+            "quantitative",
+            "evidential",
+            "provenance",
+            "versioned",
+            "eventStream",
+            "resourceAllocation",
+            "classification",
+            "conflict",
+            "succession",
+            "lineage",
+            "actionability",
+            "stateful"
+          ]
+        },
+        "uniqueItems": true
+      },
+      "truncationStrategy": {
+        "type": "string",
+        "minLength": 1
+      },
+      "lodStrategy": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

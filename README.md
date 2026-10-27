@@ -1,78 +1,124 @@
-# EncyKlopedia
+# Konstellation
 
-**Global multilingual encyclopedia — powered by the Kristal knowledge ecosystem.**
+**Adaptive, domain-agnostic navigation engine for Kristal knowledge.**
 
-> **Status:** `0.1.0-alpha.1` — functional, local-only, synthetic **read-only demonstration**. Real-content publication, bulk indexing, public deployment and 100-language qualification are **not implemented**.
+**Release candidate:** `1.0.0-rc.2`. Architecture and target code exist, but a reproducible release build and full E2E gates remain prerequisites for final `1.0.0` qualification. See [implementation status](docs/IMPLEMENTATION.md) and [current validation evidence](docs/VALIDATION-v1.0-RC.md).
 
-EncyKlopedia is the *public reading and discovery application*, formerly planned as `kristal-encyclopedia` and discussed under the possible name `KristALL`. It is **not** the legacy EncyK source-acquisition engine and does not replace Skope, Konstellation, the Kristal Framework or Médiathèque kOA.
+## Core principle
 
-## GitHub description (English, <=350 characters)
+> Kristal defines what is knowable. A Lens defines the viewing angle. Konstellation derives explainable navigation affordances from visible structure, creates a `NavigationPlan`, and selects a controlled renderer. A view never creates new semantic truth.
 
-Global, multilingual encyclopedia powered by the Kristal knowledge ecosystem. Provides scalable public access to articles, search, source references, provenance, and read-only APIs, while preserving semantic identities and supporting transparent language coverage across a worldwide knowledge network.
+```text
+Kristal state v6 / normalized pack
+    → Reader Policy + roles
+    → Structural Introspection
+    → Navigation Affordances
+    → Lens + ResultSet + Focus
+    → NavigationPlan 1.0
+    → Projection DTO 1.0
+    → Renderer Registry
+    → Konstellation Shell
+```
 
-## Responsibilities
+## Renderers
 
-| Component | Owns |
-|---|---|
-| Skope (EncyK integrated) | Source discovery, scopes, acquisition and evidence handoffs |
-| Médiathèque kOA | Durable source/snapshot/representation authority |
-| Kristal Framework + Authoring Kit | Semantic identity, approved knowledge and canonical contract governance |
-| Kristal Integration Pack | Validated, **non-canonical**, derived v11 read-view handoff |
-| Konstellation | Interactive exploration/navigation |
-| **EncyKlopedia** | Public-oriented read-only articles, discovery, multilingual presentation and publication delivery (once qualified) |
+Generic renderers include list, table, constellation, `timeline-lineage`, `tree`, `dag-proof`, `flow-path`, `causal-feedback`, `matrix-profile`, `state-flow`, `traceability`, `multiscale-layer` and `spatial`. They are not hard-coded to a domain such as mathematics, history or medicine.
 
-**No data moves from Skope or EncyK to this demo.** No GitHub repo should contain the real knowledge corpus, dumps, credentials, local collection stores, or billions of generated article files.
+## Requirements and startup
 
-## Quick start (Node.js 22+; no npm dependencies)
+A qualified release requires **Node.js >= 24.15.0** and a committed, reproducible `package-lock.json` generated under the supported release environment.
 
-```sh
-npm run verify
+```bash
+npm ci
+npm run build
 npm start
 ```
 
-On Windows you can instead double-click `Start_EncyKlopedia.cmd`. Open **http://127.0.0.1:8787**. Sample content is explicitly fictional/synthetic and stored in `examples/synthetic-publication.json`. Select Français to see a direct translation for one entry and a disclosed English fallback for another; Japanese is a fallback preview, **not a certified translation**.
+The default `local` profile listens on `127.0.0.1:4321`.
 
-### Demo API
+### My Kristals (KNAV preview)
 
-```text
-GET /healthz
-GET /readyz
-GET /api/v1/status
-GET /api/v1/locales
-GET /api/v1/search?lang=fr&q=observatoire
-GET /api/v1/articles/northwind-observatory?lang=fr
+Konstellation can show an optional **My Kristals** page before opening the existing conceptual Explorer. The preview is read-only and enabled only with `KONSTELLATION_ENABLE_MY_KRISTALS=true` in the `local` deployment profile. It can display an **explicit, separately authorized JSON inventory export** alongside the configured collection reader entries; it **does not** discover all local workspaces on its own. Inventory-only records cannot be opened without a reader. See [My Kristals setup, security, limits and tests](docs/31-my-kristals-manager-preview.md) and `Launch_My_Kristals.cmd`. This is a **working-tree preview**, not a qualified release or a ratified Manager integration. This snapshot also accepts the Manager candidate local export through an explicit ACL file, and can display optional Authoring Kit 3.3 Discovery projections. See [Manager + Discovery guide](docs/32-manager-discovery-3.3.md).
+
+### Lecteur local Kristal v10 (expérimental)
+
+Le lecteur explicite `kristal-local-v10` (voir `docs/33-kristal-v10-local-reader.md`)
+ouvre une vue dérivée d'un workspace local à état sémantique v9 (conservé
+par le Framework v10) sans modifier ni qualifier le canon. Les diagnostics
+Manager alpha.14 peuvent être affichés séparément dans My Kristals, toujours
+sous ACL explicite. Ils ne constituent ni permission de lecture ni autorité.
+Pour Catho, laissez le Kristal à son emplacement canonique local
+`C:\mycode\Kristal\locals\A-Kristal-Catho` et lancez
+`Ouvrir_Kristal_Catho_v10.cmd` (Node >=24.15 requis). Le lanceur principal
+utilise `config/active-reader.json` lorsqu'il existe, et ne choisit plus la
+démonstration Théophile implicitement. Pour rouvrir la démonstration,
+lancez `Ouvrir_Theophile_demo.cmd`. Aucun fichier de Catho n'est déplacé.
+
+### Parcours de lecture des Kristals locaux (correctif expérimental)
+
+Quand un graphe dérivé déclare des `kind`, Konstellation les expose comme
+**perspectives distinctes** plutôt que d'ouvrir par défaut `V9 state`.
+Dans `config/active-reader.json`, `readModel.presentation.preferredKind` et
+`featuredKinds` ne sont que des préférences d'interface locales, jamais des
+contrats canoniques. Les libellés de types et de relations sont facultatifs;
+ils ne confèrent aucune validation ni équivalence à leurs objets.
+
+Pour Catho, les parcours en accueil sont Personnes, Œuvres, Thèmes, Sources,
+Assertions historiques et Hypothèses ouvertes. Les états et artefacts v9
+restent accessibles dans la liste Perspective. L'avertissement est désormais
+« Lecture locale dérivée » et non « Corpus de démonstration ».
+Le dossier Catho reste `C:\mycode\Kristal\locals\A-Kristal-Catho`.
+Voir `docs/35-parcours-locaux-catho.md`.
+
+### Legacy local Kristal selection
+
+Only when `KONSTELLATION_USE_LEGACY_KOLLECTION=true` is explicitly set and a compatible legacy collection is placed in `../kristals`, `Konstellation_Launcher.cmd` can select `examples/integrations/kristal-kollection.json`. The context header offers a **KRISTAL** selector. The selected reference is retained locally and included in shared/exported navigation metadata. Domains without exactly one readable `*.kristal-state.json` remain visible but disabled. `X-Konstellation-Kristal` scopes a request without mutating the shared server corpus.
+
+The reference to a local **Kristal-Kollection directory/layout** does not rename the separate GitHub hosting repository `kristal-public`.
+
+## Tests and release gates
+
+```bash
+npm test
+npm run test:ui
+npm run build
+npm run test:e2e
+npm run benchmark -- --full
+npm run release:preflight
+npm run release:check
 ```
 
-No write APIs, public-network listener, external fetching or real publication mechanism exist in this alpha. `ENCYKLOPEDIA_MODE=public` deliberately refuses to start. Demo mode binds to loopback only. See [release gates](docs/RELEASE_GATES.md).
+**Do not tag final `1.0.0`** until `npm run release:check` succeeds in a supported environment with the committed lockfile.
 
-## Language/identity semantics
+## Deployment profiles
 
-Article `display_status` of `direct` or `fallback` is **UI display availability**, *not* the upstream Framework's lexical `direct/fallback/missing` coverage. The complete Kristal IDs (KQ/KP/KA/KS), original assertions, provenance and source hashes must remain traceable in the future **approved publication adapter**. Synthetic `demo:` identifiers in this repository must never be interpreted as Kristal identities.
+| Profile | Boundary |
+| --- | --- |
+| `local` | Single local operator |
+| `lan` | Trusted-network deployment with configured authentication policy |
+| `shared` | Authentication, roles/scopes, audit and rate limiting |
+| `public` | Strict CSP, recommended TLS/gateway and authentication unless read-only public access is explicitly enabled |
 
-The architecture targets Framework `11.0.0-draft.4` and Integration Pack read view `kristal.integration.read-view/v11.0-draft.1`. Their presence in metadata **does not prove interoperability or publication approval**. Source data must only be promoted to a public serving artifact after explicit C2/C4 checks, authorized source rights, privacy/redaction and independent cross-repo qualification.
+Read [deployment](docs/22-deployment.md) and [security](docs/19-security.md) before exposing services.
 
-## Repository structure
+## Repository map
 
-```text
-src/          Node HTTP demo reader and narrow display adapter
-public/       Accessible, dependency-free demo interface
-examples/     Synthetic demo fixture only
-contracts/    Local draft reader/bundle schema, NOT normative Kristal contracts
-tests/        Node test runner unit and HTTP regression tests
-docs/         Architecture, publication gates and GitHub handoff instructions
-.github/      Dependency-free CI for this repository
-```
+| Path | Contents |
+| --- | --- |
+| `src/` | Astro/Svelte shell and renderers |
+| `server/` | Engine, API, reader policy, profiler, planner and projections |
+| `contracts/` | Published and upstream JSON Schemas |
+| `tests/` | Policy, API, UI, contract and E2E tests |
+| `benchmarks/` | Regression measurements |
+| `scripts/` | Import and release tooling |
+| `docs/` | Specifications, guides, ADRs and runbooks |
+| `data/` | Demonstration corpus |
 
-## Roadmap (not implemented)
+Start at [documentation index](docs/README.md); consult [release policy](docs/25-release-1.0.md) for qualification requirements.
 
-1. Qualify read-only adapter of approved Framework v11 / Integration Pack reading views.
-2. Define immutable, explicitly authorized *publications* with privacy and licensing gates.
-3. Integrate distributed public article reads and search indexes on object storage/serving infrastructure, not on GitHub.
-4. Add progressive multilingual release qualification with transparent `direct/fallback/missing` presentation and accessible user experiences.
-5. Add observability, abuse protection, CDN/cache, redundancy and load tests for the actual target scale.
+## Choisir son Kristal local (mode neutre)
 
-See [architecture](docs/ARCHITECTURE.md). Every production gate is **open work**.
-
-## License
-
-**Not selected.** Do not infer a default open-source license or rights for future corpus data. The repository owner must decide a code license and separate content policy before public redistribution.
+Lancer `Konstellation.cmd`, puis sélectionner un Kristal dans **Mes Kristals**.
+Le dossier `C:/mycode/Kristal/locals` reste à son emplacement d'origine.
+Pour changer ce dossier, éditer `config/local-catalog.json`. Aucune modification canonique n'est effectuée.
+Voir `docs/LOCAL_SELECTOR_2026-10-16.md` pour les limites et les outils de migration.

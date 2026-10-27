@@ -1,0 +1,51 @@
+{
+  "format": "konstellation.local-v10-changeset/0.1",
+  "date": "2026-10-16",
+  "base_snapshot": "znapshot_Konstellation_10160729.zip",
+  "scope": "Konstellation only; no changes to Interaction Kernel or Daat",
+  "modified": [
+    "CHANGELOG.md",
+    "README.md",
+    "docs/31-my-kristals-manager-preview.md",
+    "docs/README.md",
+    "server/integrations/fleet.mjs",
+    "server/integrations/kristal.mjs",
+    "server/integrations/manager-adapter.mjs",
+    "src/components/MyKristals.svelte",
+    "tests/manager-discovery.test.mjs"
+  ],
+  "added": [
+    "Ouvrir_Kristal_Catho_v10.cmd",
+    "docs/33-kristal-v10-local-reader.md",
+    "docs/34-mise-a-jour-2026-10-16.md",
+    "examples/integrations/kristal-local-v10-catho.json",
+    "server/integrations/kristal-local-v10.mjs",
+    "tests/kristal-local-v10.test.mjs"
+  ],
+  "removed": [],
+  "sha256_by_path": {
+    "CHANGELOG.md": "abc81c82af410d0caa1758caafe2896a9c6d1befa28cd734f2e5fa08a5900198",
+    "README.md": "0c42610a66bdfc06613acc069824a277b3de0bcfe119da6adc65c484ff674801",
+    "docs/31-my-kristals-manager-preview.md": "7af8a6db74ce7d5e2d47945b044d1546e49aaa04ef887daf5ac6ba88750415ca",
+    "docs/README.md": "e1435ffcd5384b99fec8c8cf30a7791da833ca36d2f4d94dc4e96bc96afe3485",
+    "server/integrations/fleet.mjs": "35bad6066d0a6ae54e8f7fb89f1b24a05e90b7620241a42a3b99fd73d8d26eb4",
+    "server/integrations/kristal.mjs": "8addd1a58780753b89d5e64eb95e3d0f6a400e8451ccf44d1fa8083befe256bb",
+    "server/integrations/manager-adapter.mjs": "dc40226ccd647767375681a5d9cd67e687f223f6e448b830fb24c656f50dc77c",
+    "src/components/MyKristals.svelte": "4e9e11780caadc70f80b28471c394ec83cb42a101146940c1bc0640a36a0f9a2",
+    "tests/manager-discovery.test.mjs": "a4da812e5082b5c51a4bd37105fb07d1e3a04a8ccfc53b03e921333bdd4bdcfb",
+    "Ouvrir_Kristal_Catho_v10.cmd": "8839f0f6c28b35f21aae5655f8dcdd1aef1d6ba937098ace98cd082d69de2527",
+    "docs/33-kristal-v10-local-reader.md": "683e21ea4f5142922c734792304346396a0061cac7bd31e2f07e6cba88465219",
+    "docs/34-mise-a-jour-2026-10-16.md": "115b3a6ac38a8dfd0f5366ffecd5c02b46d4bb04fb0d969503ed877aa5c9eb0d",
+    "examples/integrations/kristal-local-v10-catho.json": "7b65e4a76fa7c8508fc7b88ef9910a616f0662c9a4f5f361f016bbde55eafdce",
+    "server/integrations/kristal-local-v10.mjs": "efad6d51405be569a7fe6d4cb3037fbd8d9159678041407c26ea924293c6a756",
+    "tests/kristal-local-v10.test.mjs": "1d3a7c6c90d3bd632216634e19117b73e16b0581238e09cca05971698c722755"
+  },
+  "validation": {
+    "targeted_node_tests": "21 passed",
+    "svelte_structure": "passed",
+    "frontend_security": "passed",
+    "docs_links": "passed",
+    "full_npm_test": "not qualified: node22 and missing dependencies"
+  },
+  "noncanonical": true
+}

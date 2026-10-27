@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "projectionKind": "timeline-lineage",
+  "recipeId": "timeline",
+  "rendererId": "timeline-lineage",
+  "derived": true,
+  "truncated": false,
+  "nextCursor": null,
+  "totalCandidates": 1,
+  "explanation": {
+    "reason": "Fixture de contrat 1.0",
+    "relationIds": [
+      "r"
+    ]
+  },
+  "items": [
+    {
+      "id": "a|x",
+      "entity": {
+        "id": "a",
+        "type": "thing",
+        "label": "A",
+        "description": ""
+      },
+      "relationId": "r",
+      "relationLabel": "date",
+      "start": 2020,
+      "end": 2020,
+      "assertionRef": "x"
+    }
+  ],
+  "links": [
+    {
+      "kind": "lineage",
+      "assertionRef": "x",
+      "value": {
+        "present": true
+      }
+    }
+  ]
+}

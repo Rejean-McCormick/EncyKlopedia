@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "0.2",
+  "id": "catholic-intellectual-history",
+  "label": {
+    "fr": "Histoire intellectuelle catholique",
+    "en": "catholic intellectual history"
+  },
+  "rootType": "human",
+  "facets": [
+    {
+      "relation": "lifespan",
+      "widget": "year-range"
+    },
+    {
+      "relation": "religious_tradition",
+      "widget": "entity-picker"
+    },
+    {
+      "relation": "field_of_work",
+      "widget": "entity-picker"
+    }
+  ],
+  "pivots": [
+    "authored_work"
+  ],
+  "constellation": {
+    "defaultSatelliteCount": 8,
+    "groups": [
+      {
+        "id": "works",
+        "label": {
+          "fr": "Œuvres",
+          "en": "Works"
+        },
+        "priority": 1.0,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "authored_work"
+          ]
+        }
+      },
+      {
+        "id": "expertise",
+        "label": {
+          "fr": "Expertises",
+          "en": "Expertise"
+        },
+        "priority": 0.94,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "field_of_work"
+          ]
+        }
+      },
+      {
+        "id": "tradition",
+        "label": {
+          "fr": "Tradition religieuse",
+          "en": "Religious tradition"
+        },
+        "priority": 0.9,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "religious_tradition"
+          ]
+        }
+      },
+      {
+        "id": "context",
+        "label": {
+          "fr": "Origines et contexte",
+          "en": "Origins and context"
+        },
+        "priority": 0.76,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "birth_place",
+            "citizenship"
+          ]
+        }
+      }
+    ]
+  }
+}

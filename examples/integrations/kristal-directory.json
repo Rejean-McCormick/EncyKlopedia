@@ -1,0 +1,47 @@
+{
+  "adapter": "kristal-runtime-pack-v1",
+  "directory": "runtime-pack",
+  "manifest": "manifest.json",
+  "manifestSha256": "760a658af391432037e3f8f982e0bf41b6d63a65b2dd2eb68c7353c8e03a1669",
+  "catalog": "catalog.json",
+  "rows": [
+    {
+      "file": "assertions.parquet",
+      "format": "parquet",
+      "columns": {
+        "id": "id",
+        "subject": "subject",
+        "relation": "relation",
+        "value": "value",
+        "status": "status",
+        "certainty": "certainty",
+        "validationStatus": "validationStatus",
+        "validatedAs": "validatedAs",
+        "authority": "authority",
+        "scope": "scope",
+        "sourceRefs": "sourceRefs",
+        "recognitionStatus": "recognitionStatus",
+        "ruleRef": "ruleRef",
+        "derivedFrom": "derivedFrom",
+        "conflictsWith": "conflictsWith"
+      },
+      "jsonColumns": [
+        "value",
+        "scope",
+        "sourceRefs",
+        "derivedFrom",
+        "conflictsWith"
+      ],
+      "qualifiersPreserved": true
+    }
+  ],
+  "relationMappings": {
+    "field_of_work": "field_of_work",
+    "lifespan": "lifespan",
+    "birth_place": "birth_place",
+    "citizenship": "citizenship",
+    "movement": "movement",
+    "religious_tradition": "religious_tradition",
+    "author": "author"
+  }
+}

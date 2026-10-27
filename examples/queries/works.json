@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "0.2",
+  "context": {
+    "datasetRef": "fixture:dataset-v1",
+    "registryRef": "fixture:registry-v1",
+    "readerPolicyRef": "fixture:visible-only-v1",
+    "executionProfileRef": "fixture:reference-v1"
+  },
+  "selection": {
+    "entityType": "work",
+    "filters": [],
+    "links": [
+      {
+        "relation": "author",
+        "target": {
+          "entityType": "human",
+          "filters": [
+            {
+              "relation": "field_of_work",
+              "op": "in",
+              "values": [
+                {
+                  "kind": "entity",
+                  "id": "fixture:philosophy"
+                }
+              ]
+            },
+            {
+              "relation": "lifespan",
+              "op": "overlaps",
+              "interval": {
+                "from": 300,
+                "to": 500,
+                "calendar": "proleptic-gregorian-astronomical"
+              },
+              "match": "definite"
+            }
+          ],
+          "links": []
+        }
+      }
+    ]
+  },
+  "order": "entity_id_asc",
+  "pageSize": 50
+}

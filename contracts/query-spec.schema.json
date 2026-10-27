@@ -1,0 +1,305 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:konstellation:schema:query-spec:0.2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "context",
+    "selection",
+    "order",
+    "pageSize"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "0.2"
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "datasetRef",
+        "registryRef",
+        "readerPolicyRef",
+        "executionProfileRef"
+      ],
+      "properties": {
+        "datasetRef": {
+          "type": "string",
+          "minLength": 1
+        },
+        "registryRef": {
+          "type": "string",
+          "minLength": 1
+        },
+        "readerPolicyRef": {
+          "type": "string",
+          "minLength": 1
+        },
+        "executionProfileRef": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "selection": {
+      "$ref": "#/$defs/selection"
+    },
+    "order": {
+      "const": "entity_id_asc"
+    },
+    "pageSize": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    }
+  },
+  "$defs": {
+    "term": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "id"
+          ],
+          "properties": {
+            "kind": {
+              "const": "entity"
+            },
+            "id": {
+              "type": "string",
+              "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "value"
+          ],
+          "properties": {
+            "kind": {
+              "const": "string"
+            },
+            "value": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "value"
+          ],
+          "properties": {
+            "kind": {
+              "const": "integer"
+            },
+            "value": {
+              "type": "integer"
+            }
+          }
+        }
+      ]
+    },
+    "filter": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "relation",
+            "op"
+          ],
+          "properties": {
+            "relation": {
+              "type": "string",
+              "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+            },
+            "op": {
+              "const": "exists"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "relation",
+            "op"
+          ],
+          "properties": {
+            "relation": {
+              "type": "string",
+              "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+            },
+            "op": {
+              "const": "missing_in_view"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "relation",
+            "op",
+            "values"
+          ],
+          "properties": {
+            "relation": {
+              "type": "string",
+              "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+            },
+            "op": {
+              "const": "in"
+            },
+            "values": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/term"
+              },
+              "minItems": 1,
+              "maxItems": 100,
+              "uniqueItems": true
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "relation",
+            "op",
+            "values"
+          ],
+          "properties": {
+            "relation": {
+              "type": "string",
+              "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+            },
+            "op": {
+              "const": "none_of"
+            },
+            "values": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/term"
+              },
+              "minItems": 1,
+              "maxItems": 100,
+              "uniqueItems": true
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "relation",
+            "op",
+            "interval",
+            "match"
+          ],
+          "properties": {
+            "relation": {
+              "type": "string",
+              "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+            },
+            "op": {
+              "const": "overlaps"
+            },
+            "interval": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "from",
+                "to",
+                "calendar"
+              ],
+              "properties": {
+                "from": {
+                  "type": "integer"
+                },
+                "to": {
+                  "type": "integer"
+                },
+                "calendar": {
+                  "const": "proleptic-gregorian-astronomical"
+                }
+              }
+            },
+            "match": {
+              "const": "definite"
+            }
+          }
+        }
+      ]
+    },
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "entityType",
+        "filters",
+        "links"
+      ],
+      "properties": {
+        "entityType": {
+          "type": "string",
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+        },
+        "ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+          },
+          "minItems": 1,
+          "maxItems": 100,
+          "uniqueItems": true
+        },
+        "filters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/filter"
+          },
+          "minItems": 0,
+          "maxItems": 32
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/link"
+          },
+          "minItems": 0,
+          "maxItems": 16
+        }
+      }
+    },
+    "link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "relation",
+        "target"
+      ],
+      "properties": {
+        "relation": {
+          "type": "string",
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+        },
+        "target": {
+          "$ref": "#/$defs/selection"
+        }
+      }
+    }
+  }
+}

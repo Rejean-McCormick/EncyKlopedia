@@ -1,0 +1,209 @@
+{
+  "title": "Exemple SES minimal",
+  "synthetic": true,
+  "registry": {
+    "schemaVersion": "0.2",
+    "registryRef": "fixture:registry-v1",
+    "entityTypes": [
+      "human",
+      "work",
+      "place",
+      "concept"
+    ],
+    "relations": [
+      {
+        "id": "field_of_work",
+        "label": {
+          "fr": "Domaine",
+          "en": "field of work"
+        },
+        "domain": [
+          "human"
+        ],
+        "range": "concept",
+        "valueKind": "entity",
+        "operators": [
+          "exists",
+          "missing_in_view",
+          "in",
+          "none_of"
+        ]
+      },
+      {
+        "id": "movement",
+        "label": {
+          "fr": "Courant",
+          "en": "movement"
+        },
+        "domain": [
+          "human"
+        ],
+        "range": "concept",
+        "valueKind": "entity",
+        "operators": [
+          "exists",
+          "missing_in_view",
+          "in",
+          "none_of"
+        ]
+      },
+      {
+        "id": "birth_place",
+        "label": {
+          "fr": "Lieu de naissance",
+          "en": "birth place"
+        },
+        "domain": [
+          "human"
+        ],
+        "range": "place",
+        "valueKind": "entity",
+        "operators": [
+          "exists",
+          "missing_in_view",
+          "in",
+          "none_of"
+        ]
+      },
+      {
+        "id": "citizenship",
+        "label": {
+          "fr": "Citoyenneté",
+          "en": "citizenship"
+        },
+        "domain": [
+          "human"
+        ],
+        "range": "place",
+        "valueKind": "entity",
+        "operators": [
+          "exists",
+          "missing_in_view",
+          "in",
+          "none_of"
+        ]
+      },
+      {
+        "id": "religious_tradition",
+        "label": {
+          "fr": "Tradition religieuse",
+          "en": "religious tradition"
+        },
+        "domain": [
+          "human"
+        ],
+        "range": "concept",
+        "valueKind": "entity",
+        "operators": [
+          "exists",
+          "missing_in_view",
+          "in",
+          "none_of"
+        ]
+      },
+      {
+        "id": "author",
+        "label": {
+          "fr": "Auteur",
+          "en": "author"
+        },
+        "domain": [
+          "work"
+        ],
+        "range": "human",
+        "valueKind": "entity",
+        "operators": [
+          "exists",
+          "missing_in_view",
+          "in",
+          "none_of"
+        ],
+        "inverseOf": "authored_work"
+      },
+      {
+        "id": "authored_work",
+        "label": {
+          "fr": "Œuvres",
+          "en": "authored work"
+        },
+        "domain": [
+          "human"
+        ],
+        "range": "work",
+        "valueKind": "entity",
+        "operators": [
+          "exists",
+          "missing_in_view",
+          "in",
+          "none_of"
+        ],
+        "inverseOf": "author"
+      },
+      {
+        "id": "lifespan",
+        "label": {
+          "fr": "Période de vie",
+          "en": "lifespan"
+        },
+        "domain": [
+          "human"
+        ],
+        "range": "year_interval",
+        "valueKind": "interval",
+        "operators": [
+          "exists",
+          "missing_in_view",
+          "overlaps"
+        ],
+        "derivedRuleRef": "fixture:lifespan-rule-v1"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "example:person",
+      "sourceKey": "input:person",
+      "type": "human",
+      "label": "Personne fictive"
+    },
+    {
+      "id": "example:philosophy",
+      "sourceKey": "input:philosophy",
+      "type": "concept",
+      "label": "Philosophie"
+    }
+  ],
+  "relationMappings": {
+    "input:field": "field_of_work"
+  },
+  "policies": [
+    {
+      "id": "example:all-with-labels",
+      "label": "Exemple : hypothèses incluses",
+      "description": "Inclut les hypothèses et divergences en conservant leurs statuts.",
+      "profile": "konstellation.normalized-reader.v1",
+      "showLabels": true,
+      "statuses": [
+        "sourced",
+        "reviewed",
+        "validated",
+        "hypothesis",
+        "claimed",
+        "disputed"
+      ],
+      "certainties": [
+        "*"
+      ],
+      "validationStatuses": [
+        "*"
+      ],
+      "validatedAs": [
+        "*"
+      ],
+      "authorities": [
+        "*"
+      ],
+      "requireSources": false
+    }
+  ]
+}

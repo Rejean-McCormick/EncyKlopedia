@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "0.2",
+  "id": "sociodemography",
+  "label": {
+    "fr": "Sociodémographie",
+    "en": "sociodemography"
+  },
+  "rootType": "human",
+  "facets": [
+    {
+      "relation": "lifespan",
+      "widget": "year-range"
+    },
+    {
+      "relation": "birth_place",
+      "widget": "entity-picker"
+    },
+    {
+      "relation": "citizenship",
+      "widget": "entity-picker"
+    }
+  ],
+  "pivots": [
+    "authored_work"
+  ],
+  "constellation": {
+    "defaultSatelliteCount": 7,
+    "groups": [
+      {
+        "id": "origins",
+        "label": {
+          "fr": "Origines",
+          "en": "Origins"
+        },
+        "priority": 1.0,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "birth_place",
+            "citizenship"
+          ]
+        }
+      },
+      {
+        "id": "works",
+        "label": {
+          "fr": "Œuvres",
+          "en": "Works"
+        },
+        "priority": 0.58,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "authored_work"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1392 @@
+{
+  "schemaVersion": "1.0",
+  "release": "1.0.0-rc.2",
+  "profile": "konstellation-multi-version-adaptive-navigation",
+  "canonicalTruth": "upstream-kristal-state",
+  "navigationPlanSchema": "1.0",
+  "projectionSchema": "1.0",
+  "fileCount": 276,
+  "contentSha256": "3700eb629fa96db667da4507eeae51035e21c01c497cee586da59f18fcc30bac",
+  "files": [
+    {
+      "path": ".github/dependabot.yml",
+      "sha256": "f298871505f61fd131b437af84acc24df76f1125b7d593cb0a8854d278736936",
+      "size": 366
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "44a5e051e15994901e3bf2ad352a7e1490e3448446a623020d8b358b7fc5e744",
+      "size": 1610
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "0929773cb9dc60ae128d2a0afe459d897902c7f7f3cd549a4ada82a8d5a9706a",
+      "size": 2424
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "075474a237999f8f151efe3b4301fa37ac8df008e03ce1d60f47904b586235de",
+      "size": 320
+    },
+    {
+      "path": ".kristal-integration-backup/patched.sha256.json",
+      "sha256": "e940331d3e68844243505e3063b04cfcabfb6b9787219e63f5ca25214996b330",
+      "size": 517
+    },
+    {
+      "path": ".kristal-integration-backup/server/config.mjs",
+      "sha256": "4b358a7b269739ed312b6e2524ee6c516901708952ad5bbb568f12505b02733d",
+      "size": 2656
+    },
+    {
+      "path": ".kristal-integration-backup/server/index.mjs",
+      "sha256": "79e30ccdda03b981bd94ea22c3ad74613c2975712e5a08d001f93f8ff76effcf",
+      "size": 16723
+    },
+    {
+      "path": ".kristal-integration-backup/src/components/Explorer.svelte",
+      "sha256": "2438982b28b73049e5f4a4deba19d32e913871528e99f6ce8e3c94a760516782",
+      "size": 59109
+    },
+    {
+      "path": ".prettierrc.json",
+      "sha256": "632bd43f4372cd97ed18b9fe86b3aae98f59117a96b6290b9f2c2172d151eaf6",
+      "size": 140
+    },
+    {
+      "path": ".smartignore",
+      "sha256": "72a1ab05aaea412d3754f4c6bec95a2048b16ea5daf4c687538fb30f73648d04",
+      "size": 179
+    },
+    {
+      "path": "astro.config.mjs",
+      "sha256": "806e6746ca13242f336cc183ade14cdc5645131642c6390b372b600c01c247e6",
+      "size": 287
+    },
+    {
+      "path": "benchmarks/navigation-baseline.json",
+      "sha256": "a1cc945d44324eccad961b1a052c1c2c5b34486462dea3430f4b6d869f84701f",
+      "size": 848
+    },
+    {
+      "path": "CHANGELOG-PLAYWRIGHT-FIX.md",
+      "sha256": "ce6cd6e9f85b960b502c302e42182a294e2dcc5e5c4e226eac425138d8522292",
+      "size": 337
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "40942acbcf14804a0c1b70aee8f787fb1dff13236671647874846ae5ef910dc7",
+      "size": 17656
+    },
+    {
+      "path": "config/active-reader.json",
+      "sha256": "b29445c670b6f94de8803c33e255e11ca2b64ef989cc38d4b07a42b75dbb9571",
+      "size": 1961
+    },
+    {
+      "path": "contracts/constellation-response.schema.json",
+      "sha256": "41be459dc78bda39b0897637837d63f62d5253039ce11c21b332f2a588a9ba84",
+      "size": 5227
+    },
+    {
+      "path": "contracts/exploration-state.schema.json",
+      "sha256": "866a0b6881ed1c5f5193103d13556ebbb555d24b57e9337166c091e2f20842d6",
+      "size": 1619
+    },
+    {
+      "path": "contracts/lens.schema.json",
+      "sha256": "7fff19caf42668e8f174bb900f572ee6657cee5b2f704dd53d5fdf25b7a7f388",
+      "size": 4747
+    },
+    {
+      "path": "contracts/navigation-hints.schema.json",
+      "sha256": "9eb4924d4f4ac5d9b9cf0f4d279b83eb1cf738e0e16f45bdcdcab1bca174e574",
+      "size": 2837
+    },
+    {
+      "path": "contracts/navigation-plan.schema.json",
+      "sha256": "0fa47de8b446607a3b36d4cc7c467d21611a39e8e917553a95e57f845a442df2",
+      "size": 3659
+    },
+    {
+      "path": "contracts/navigation-projection.schema.json",
+      "sha256": "2ee9ffc37433545d31c0c98dad1b8a02f3e3652e30dc34f0224b732f68619d39",
+      "size": 26578
+    },
+    {
+      "path": "contracts/query-spec.schema.json",
+      "sha256": "d4e65aa5f7913613d5d49d22a6330400517cb7820be14ac8b8385f5b51c7e5bf",
+      "size": 6863
+    },
+    {
+      "path": "contracts/relation-registry.schema.json",
+      "sha256": "c1bdfa70fb0239a8b4797f9c905f0a103484a463527becf78fdcddba070cd820",
+      "size": 2708
+    },
+    {
+      "path": "contracts/renderer-registry.schema.json",
+      "sha256": "078aea565a81d7485a82909860403c593d62892e597537196b9772db70b86b8a",
+      "size": 4560
+    },
+    {
+      "path": "contracts/result-set.schema.json",
+      "sha256": "a592e5bee92fe7855a4fc54e69d6f21dab54962e07a1993c8be3835822247dd5",
+      "size": 6116
+    },
+    {
+      "path": "contracts/upstream/communication_request.schema.json",
+      "sha256": "0a9f6510ccaa889aaeef84b220f6c10b0f79b80c3453395e49ea04c5b8314292",
+      "size": 10889
+    },
+    {
+      "path": "contracts/upstream/communication_result.schema.json",
+      "sha256": "c9964d4a0f57712ab36600173b717473bef0ff2e6c4fa5413bd7ebe91f3d0454",
+      "size": 4919
+    },
+    {
+      "path": "contracts/upstream/kristal-state-v6-compatible.schema.json",
+      "sha256": "67b2e9e2877d781bb6772218e0fff8c9cb46fe628552ea0fa08b5bfe0a92122b",
+      "size": 3622
+    },
+    {
+      "path": "contracts/upstream/kristal-state-v6.schema.json",
+      "sha256": "8f3df9a93d6a7c0ca8d7143946ed6f2009ae6d6b5105b8e7d7e873b5288e807c",
+      "size": 8389
+    },
+    {
+      "path": "contracts/upstream/reader-policy.schema.json",
+      "sha256": "2a3f843eaf4e89515ebf40ce5514f85406e1d556f4ecd503f0075d35b43c565c",
+      "size": 17386
+    },
+    {
+      "path": "contracts/upstream/README.md",
+      "sha256": "63cd3112495e04d7add75dcb8eb97a4e226b1ce6e1160ce85d1db488eb20a0fa",
+      "size": 915
+    },
+    {
+      "path": "contracts/upstream/runtime-pack-manifest.schema.json",
+      "sha256": "17b3569166a3278953853b6d781058414614d8ca52ac64e006ad02e90961461e",
+      "size": 22621
+    },
+    {
+      "path": "contracts/upstream/structured-epistemic-state.schema.json",
+      "sha256": "23de5d84986c1f09235f619f41af0e6ef87f9c25aa240c00b5632bc84a5a8598",
+      "size": 37503
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "afa046493123fe30d459e1a6c20a32d6197072751cf316585bd7798ad1c07f93",
+      "size": 1136
+    },
+    {
+      "path": "data/biblical-seed.json",
+      "sha256": "5df431826daf25ef2069ef7fa7634ddc2d37c843e8949893e0497902f3e4f3cd",
+      "size": 25403
+    },
+    {
+      "path": "data/biblical.pack.local.json",
+      "sha256": "b3066a542aa3a0f007a9f222fa54ba19b7b63c5325d26fefd5500ba246a54ef6",
+      "size": 6470206
+    },
+    {
+      "path": "data/demo.pack.json",
+      "sha256": "ccd59dd9c675ec411415ff38671c3c2888667f40fcaa6c3a11af2e24f9445609",
+      "size": 345754
+    },
+    {
+      "path": "data/theophile-biblical.enriched.pack.json",
+      "sha256": "7c03e66bd708115878a34ca82ddccd4f5faf411c918eb6b5935bcae5b075a6c1",
+      "size": 8938264
+    },
+    {
+      "path": "data/theophile.semantic.enriched.json",
+      "sha256": "58b3f6070e87f35f57fdfe6a28d9a389616ad4720ff01eaaacdfad1eb5be0729",
+      "size": 4802793
+    },
+    {
+      "path": "docs/00-decisions.md",
+      "sha256": "d67e6121d0cb1a88e7f28848ed8cffee81ee9b196425a5893550678f0fba24bb",
+      "size": 3356
+    },
+    {
+      "path": "docs/01-architecture.md",
+      "sha256": "832f0940f92dd60f041e4a36e0f385a7de8e7d852ab5e308b57f789ca912e69a",
+      "size": 3761
+    },
+    {
+      "path": "docs/02-query-model.md",
+      "sha256": "a31b0b11b616fe9878af26941e1290a28753dba4e5e84e6cc8b97f6b7f9c5cf3",
+      "size": 2569
+    },
+    {
+      "path": "docs/03-navigation.md",
+      "sha256": "397256dd364e9770f0632e6ee42a89c222838fda2abe8be3793bf1001218075c",
+      "size": 3836
+    },
+    {
+      "path": "docs/04-knowledge-semantics.md",
+      "sha256": "cf260241f7567bf007c4a7c0bf480243c5527357b150b0abcd094f6f69acae4b",
+      "size": 2176
+    },
+    {
+      "path": "docs/05-execution.md",
+      "sha256": "f7d2c69b782fafc11a9032bee81c063d77c39ceac2084e5c1066cb0511aec682",
+      "size": 2624
+    },
+    {
+      "path": "docs/06-integrations.md",
+      "sha256": "5b5e82a4f1390d521b6971cdeaae0d069a11bcdb25a889d2e8c9ac8c28da9589",
+      "size": 3379
+    },
+    {
+      "path": "docs/07-delivery-plan.md",
+      "sha256": "db8420638a29ff404d6487c76a2302fa72ae1bd6ba1bcfa3382b8a54f94bda4d",
+      "size": 2510
+    },
+    {
+      "path": "docs/08-migration.md",
+      "sha256": "bf3740d9d7dc3efca2798f69b2384460abd4e280d49a412570793c39970349ae",
+      "size": 2075
+    },
+    {
+      "path": "docs/09-source-audit.md",
+      "sha256": "6bd06dadd225636b8550497b571b3a671fb71f37ef6eaa866ca82802e2d1b8ab",
+      "size": 1907
+    },
+    {
+      "path": "docs/10-validation-report.md",
+      "sha256": "4e9390face9148a0b8913362741737aab2a7d53fc9e51e9e26733a2fadf873a6",
+      "size": 2132
+    },
+    {
+      "path": "docs/11-astrolabe.md",
+      "sha256": "52e9a4325bdf6e37c6bcf9987cf2e73657aec8206be79adf242ec7f86644c7ac",
+      "size": 1053
+    },
+    {
+      "path": "docs/12-biblical-graph.md",
+      "sha256": "497ff35bee5fa9b47b8cdcad1ad72bf9722bf14b4697b0af86b19b89e180bbfd",
+      "size": 1023
+    },
+    {
+      "path": "docs/13-playwright.md",
+      "sha256": "fba20adf25aed7ccb689cafe9250323e8900514d34b6bf5e77d2361ddedb1836",
+      "size": 1264
+    },
+    {
+      "path": "docs/14-theophile-enrichment.md",
+      "sha256": "be73c757a401225c318ceccb9de82c59041b50f1a7d915ff23c399976428da60",
+      "size": 968
+    },
+    {
+      "path": "docs/15-adaptive-navigation.md",
+      "sha256": "390f9ed5c2d2859cc816e51bed291595df2109425dcfd42e33f07e1e9fe4fcb6",
+      "size": 2745
+    },
+    {
+      "path": "docs/16-kristal-v6-alignment.md",
+      "sha256": "7def315b2be8bb1bd1b2f81ad7af5290115df1a82408cdf1cea102033703f9d6",
+      "size": 2402
+    },
+    {
+      "path": "docs/17-renderer-registry.md",
+      "sha256": "52750a2a90f12af2d4e2a32c23a22dbb1bff447ddaa1da3629c62eca72a4bcfc",
+      "size": 3104
+    },
+    {
+      "path": "docs/18-performance-scalability.md",
+      "sha256": "2b906ac3decfa469b1f873fe37427d987cc871457bc50c17f5368d3dfd061e6d",
+      "size": 2406
+    },
+    {
+      "path": "docs/19-security.md",
+      "sha256": "cf4f295ad42a76c2a6f3651289356e76b4054a710189e89405642f5ad305624c",
+      "size": 4662
+    },
+    {
+      "path": "docs/20-observability.md",
+      "sha256": "41895b741b6dd501e0b6156a41aa1445b7edef56db3cd25021f3bb18edc22006",
+      "size": 1840
+    },
+    {
+      "path": "docs/21-testing-golden-corpus.md",
+      "sha256": "910be1a75da3484a775c233e8d30ab66397b2ff88a3265fbb8dd1b3595262e4b",
+      "size": 2123
+    },
+    {
+      "path": "docs/22-deployment.md",
+      "sha256": "dceee9b765bd699020c00c7d67300042c0754f69b34ee18c304e22bd07bd0b92",
+      "size": 3579
+    },
+    {
+      "path": "docs/23-extension-guide.md",
+      "sha256": "0a929346803debf853e39fe3454049012988b04cff260e34b28a58b9a25306e9",
+      "size": 2215
+    },
+    {
+      "path": "docs/24-api-contracts.md",
+      "sha256": "a228e3117843e60463ed74d8b66b06b18de77784e4fd4da84cbef8929c9aea47",
+      "size": 5506
+    },
+    {
+      "path": "docs/25-release-1.0.md",
+      "sha256": "c503e8adbe29d9c57ab74442c902a2583ee2aa73bd913cbf741e6e60f3e66e5b",
+      "size": 2793
+    },
+    {
+      "path": "docs/26-glossary.md",
+      "sha256": "87579320d7cfe38fbfc8f5c77d076df99dbba89336ff03020e3de1237e9a6c47",
+      "size": 1754
+    },
+    {
+      "path": "docs/27-behavior-by-kristal.md",
+      "sha256": "49fdc46653335f7d10b4e2f4db19a40d9bb6865356e2c95cf107ad716f69a117",
+      "size": 3027
+    },
+    {
+      "path": "docs/28-anti-patterns.md",
+      "sha256": "6d2ba3efecb2a71bb3a99d5bae6712d05b256631203b965bc9195f4e38c4804f",
+      "size": 2546
+    },
+    {
+      "path": "docs/29-reference-sequences.md",
+      "sha256": "e7479e4298a28aefc9cb8a46ece799fec84245e8d0301505a43d722695fd4aa2",
+      "size": 1943
+    },
+    {
+      "path": "docs/30-kristal-v10-github.md",
+      "sha256": "cdf5a888898062faa195a5bcd9fa3cd9f686fbc48162c446b4c45076697a9e39",
+      "size": 3732
+    },
+    {
+      "path": "docs/31-my-kristals-manager-preview.md",
+      "sha256": "7af8a6db74ce7d5e2d47945b044d1546e49aaa04ef887daf5ac6ba88750415ca",
+      "size": 7565
+    },
+    {
+      "path": "docs/32-manager-discovery-3.3.md",
+      "sha256": "f1a951d2873f2ed342bb9a7d9ee933046d106ae5a80106fcb288c2a16411e45e",
+      "size": 6772
+    },
+    {
+      "path": "docs/32-satellite-overlay-portraits.md",
+      "sha256": "edfcd2c3f485a235e6e7565e5e413ab0202eb8707852f5bbe7e2accb090ac8b4",
+      "size": 2001
+    },
+    {
+      "path": "docs/33-kristal-v10-local-reader.md",
+      "sha256": "683e21ea4f5142922c734792304346396a0061cac7bd31e2f07e6cba88465219",
+      "size": 5600
+    },
+    {
+      "path": "docs/34-catho-existing-location.md",
+      "sha256": "c126a9837c4aa4540d9e0af5642be7bb0eb751569a5311f73252126e45f8c9e9",
+      "size": 2746
+    },
+    {
+      "path": "docs/34-mise-a-jour-2026-10-16.md",
+      "sha256": "115b3a6ac38a8dfd0f5366ffecd5c02b46d4bb04fb0d969503ed877aa5c9eb0d",
+      "size": 3637
+    },
+    {
+      "path": "docs/35-parcours-locaux-catho.md",
+      "sha256": "02dd0003b1e61042b83b0a530170b97416f051dd18df9c9aeb97e2d72f53407a",
+      "size": 2991
+    },
+    {
+      "path": "docs/36-correctif-registre-relations-catho.md",
+      "sha256": "b9f22f9cee0351e185e9626514a9fab6ea2d7f734e5deb4b49b7bbaafa1c8af4",
+      "size": 1534
+    },
+    {
+      "path": "docs/adr/ADR-0005-bounded-selection-tree.md",
+      "sha256": "84a00331eb2a7964aeb75acc8126832bfa57f8fa86b1eea269ed7ff2485a2bd5",
+      "size": 954
+    },
+    {
+      "path": "docs/adr/ADR-0006-kristal-v6-authority.md",
+      "sha256": "6411e873614bb372ad141afa8e3aa21ca43b598ed09ee73c03730999be606a8f",
+      "size": 612
+    },
+    {
+      "path": "docs/adr/ADR-0007-navigation-affordances.md",
+      "sha256": "488bacc32e48400741e73a3a77971267e84f7678a07477f0cfb25992dcbc51cf",
+      "size": 729
+    },
+    {
+      "path": "docs/adr/ADR-0008-planner-renderer-separation.md",
+      "sha256": "20c48928744f4c299fa135eee6441b9813ce64df689874f62ff95d9f95548753",
+      "size": 525
+    },
+    {
+      "path": "docs/adr/ADR-0009-actionability-not-authority.md",
+      "sha256": "14658137299f0b1594771738e462162f43e992164b52374e6041008a1cdd3b6b",
+      "size": 401
+    },
+    {
+      "path": "docs/adr/ADR-0010-controlled-renderer-registry.md",
+      "sha256": "af74abd4a29e932f2bbb742fa3fdca9d0e96b6fe2fe8cec8905597fb7a506707",
+      "size": 469
+    },
+    {
+      "path": "docs/adr/README.md",
+      "sha256": "d4b82bf079e866d9506dd971572f485217e43f3a40075ebd19e5c2540408aefe",
+      "size": 590
+    },
+    {
+      "path": "docs/DESIGN-v0.2-README.md",
+      "sha256": "9b782edfa0d5ff6c7ed9c2bc7c94c1cee53650ab2eed74806e0045cf2700f482",
+      "size": 584
+    },
+    {
+      "path": "docs/DOCS-MANIFEST.md",
+      "sha256": "22c169db1f3fc317aa90d94b1c39dfd8d8dae070b2f91890021217c00f8e3cc8",
+      "size": 2315
+    },
+    {
+      "path": "docs/guides/DEVELOPER.md",
+      "sha256": "b45e2ef5afa26da69235e4e76cad8f2fe7f91d97ec262e125b92b6284a057ee5",
+      "size": 1996
+    },
+    {
+      "path": "docs/guides/INTEGRATOR.md",
+      "sha256": "8ccd44d29144919a78700c4e9b6df3574cb4f14141cbbcb2d6fcd08e775fd74f",
+      "size": 710
+    },
+    {
+      "path": "docs/guides/OPERATOR.md",
+      "sha256": "6916039a08b95f6c7bb0feeb8c7b23652faed1bb423c4d6238c795cc65b6658b",
+      "size": 991
+    },
+    {
+      "path": "docs/guides/README.md",
+      "sha256": "c769ef1849ec0cba6581b6a3970822e1d7ad3ecf631e2089ffa3b1ad184bdb67",
+      "size": 258
+    },
+    {
+      "path": "docs/guides/USER.md",
+      "sha256": "17b7dda2a68bada76dd9d84d659c18e9a47acb313e708872a94bced8c2a15445",
+      "size": 1243
+    },
+    {
+      "path": "docs/IMPLEMENTATION.md",
+      "sha256": "e750052d9be33dd54c6b30aad753190bd06e1961c00400be13fff1b69f009d00",
+      "size": 9175
+    },
+    {
+      "path": "docs/IMPORT.md",
+      "sha256": "2c05a53944aa7bdfe15370caca43d30af68a52b2daf08a7d6d928356b3f80500",
+      "size": 2546
+    },
+    {
+      "path": "docs/input-snapshots.json",
+      "sha256": "108724d0e5dc70f1601d6a8b3a197b182d0b90c2de028992f055b0a17afbcdd2",
+      "size": 1276
+    },
+    {
+      "path": "docs/INTEGRATIONS.md",
+      "sha256": "acef83dfc228b9b839cae3801f72821ffb70e6f45b82410bbb89bb099c953bd6",
+      "size": 1702
+    },
+    {
+      "path": "docs/KNAV_IMPLEMENTATION_REPORT_2026-10-12.md",
+      "sha256": "f4d4819ad37569f225772ae54937788ea063a8f1ed6b531c5aa7c6ed7b831693",
+      "size": 5027
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "sha256": "b8a551ea31944b6a80b57fd67a71fba901a5b20d1d0e9585c1ea0bfa4c690e95",
+      "size": 1783
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "e1435ffcd5384b99fec8c8cf30a7791da833ca36d2f4d94dc4e96bc96afe3485",
+      "size": 4176
+    },
+    {
+      "path": "docs/runbooks/BACKUP-RESTORE.md",
+      "sha256": "ee93e037b683824f0740aed5760a1f344be8f564e9c728a301118d5305682218",
+      "size": 4349
+    },
+    {
+      "path": "docs/runbooks/INCIDENT.md",
+      "sha256": "27e889145e8d5852fe6e67bacb776300bc914dee6b04793a1c66ae8b61aca74f",
+      "size": 894
+    },
+    {
+      "path": "docs/runbooks/README.md",
+      "sha256": "9ee07c296e06d1067245d9b16b8fc51b73c4812487dd86bb4f9d05f14c85d429",
+      "size": 556
+    },
+    {
+      "path": "docs/runbooks/ROLLBACK.md",
+      "sha256": "cd5041651fadb8c729995c4112467bb15b0f0201fcc05fe06c69ff2f17ee4af8",
+      "size": 558
+    },
+    {
+      "path": "docs/runbooks/STARTUP.md",
+      "sha256": "bbececbb954020dd9aa9975aa94d56669a427106b6a014fa6571cff414423d01",
+      "size": 570
+    },
+    {
+      "path": "docs/runbooks/THREAT-MODEL.md",
+      "sha256": "777ce835e6fce51d1e6f1ebfd737808292f208ac3a462b924811b1d868446011",
+      "size": 5990
+    },
+    {
+      "path": "docs/runbooks/UPGRADE.md",
+      "sha256": "e9366fc235dc5ec5243b0f571bde9cd539689ee41a0b0cc7debce93d70c7fa73",
+      "size": 495
+    },
+    {
+      "path": "docs/VALIDATION-v0.3.md",
+      "sha256": "38f36456055ac3a8f7aa3f3174c66709c8bc2c7037c89ae7f8fe840cd766a2c5",
+      "size": 2347
+    },
+    {
+      "path": "docs/VALIDATION-v0.4.md",
+      "sha256": "d1a41ddacda8ef5cd57ea91998f0919748d2ae51eebf2a7931b10482907f765f",
+      "size": 1938
+    },
+    {
+      "path": "docs/VALIDATION-v0.5.md",
+      "sha256": "cbaa24bc7b91c5cbe31c8fc9636f4187ca60f9a53ede047ea7cadf9686c2a044",
+      "size": 1953
+    },
+    {
+      "path": "docs/VALIDATION-v0.6.md",
+      "sha256": "7c3127714c72dcbbe292e464e47d408d24e463fd1adfa8c14a793615a8b2724c",
+      "size": 1856
+    },
+    {
+      "path": "docs/VALIDATION-v0.7.md",
+      "sha256": "35ba82a5f8402d308964b2d332f57e018bd9875fad15dffeb3885671d4fcbf2b",
+      "size": 2454
+    },
+    {
+      "path": "docs/VALIDATION-v1.0-RC.md",
+      "sha256": "eefd9194a14721b16783bc3469b61747b06672f8e8f95639cc62dd6ba51a37cd",
+      "size": 6385
+    },
+    {
+      "path": "examples/exploration.json",
+      "sha256": "98a05c58b5b91fd84cc0e07c73c275ddd75a6198dd1d1c99cf5ed783cb1e4a83",
+      "size": 1072
+    },
+    {
+      "path": "examples/fleet/manager-access-policy.example.json",
+      "sha256": "0b632565552df83acd12f80170a9a1a20d4eda252cf323224f92aca5df06e602",
+      "size": 328
+    },
+    {
+      "path": "examples/fleet/manager-local-inventory.synthetic.json",
+      "sha256": "1a81f347c71fa440bc89b50203b0e0d1d134c26e1b2ecfbfd5baa1acf250f3dc",
+      "size": 782
+    },
+    {
+      "path": "examples/fleet/manager-preview.example.json",
+      "sha256": "f38e3b139a1f4831aff4de47a6c91b9f3c882d609e8b2ed4cf17f8b2dae567ae",
+      "size": 782
+    },
+    {
+      "path": "examples/import/mapping.json",
+      "sha256": "d65729d535aaedf375b031c07fb51a88d65c2a402a6ea092a4e688398e1deb8b",
+      "size": 4290
+    },
+    {
+      "path": "examples/import/state.json",
+      "sha256": "b9364cb7346c3124572e3f5f20f29b300ce5d701b1bc319d455b9a7c5ccd4516",
+      "size": 927
+    },
+    {
+      "path": "examples/integrations/kristal-directory.json",
+      "sha256": "ba79cf6b21169e7802263a6a74b711b2cddee012774d7c79a6163213666993e2",
+      "size": 1286
+    },
+    {
+      "path": "examples/integrations/kristal-github-v10.json",
+      "sha256": "19dca7f01039353b16330e07e09afb238a247f43bdac176b267df675bf9d190b",
+      "size": 193
+    },
+    {
+      "path": "examples/integrations/kristal-http.json",
+      "sha256": "5372f77852906d50481d7ee23fac69a903c2d6388f866ff0c47e41353aed1b5b",
+      "size": 1507
+    },
+    {
+      "path": "examples/integrations/kristal-kollection.json",
+      "sha256": "5cf2e6e00fa615e6976ae3bbcc1406b2e137dc9bc4ac96d3a157afbbf0fa313f",
+      "size": 134
+    },
+    {
+      "path": "examples/integrations/kristal-local-v10-catho.json",
+      "sha256": "b29445c670b6f94de8803c33e255e11ca2b64ef989cc38d4b07a42b75dbb9571",
+      "size": 1961
+    },
+    {
+      "path": "examples/integrations/kristal-v6-state.json",
+      "sha256": "29d5f8193cd5751e03e40f5e3ff3bd6d66dd533307cb1543a94b7ab145f6c69f",
+      "size": 2234
+    },
+    {
+      "path": "examples/integrations/kristal-v6.json",
+      "sha256": "39b8e51d80fe762e2a502ed28b62da45cede987a002e9afd881c0ab233fc6e98",
+      "size": 552
+    },
+    {
+      "path": "examples/integrations/runtime-pack/assertions.parquet",
+      "sha256": "6f5962978166e57e6fc667b7a81de8ff87b3f90353331ecbb2c89fd40d5a9022",
+      "size": 25976
+    },
+    {
+      "path": "examples/integrations/runtime-pack/catalog.json",
+      "sha256": "dec652ab4ff45415ae1a3d76fda8c9f345ec49d566be36385b19308bcd5ecb03",
+      "size": 51621
+    },
+    {
+      "path": "examples/integrations/runtime-pack/manifest.json",
+      "sha256": "760a658af391432037e3f8f982e0bf41b6d63a65b2dd2eb68c7353c8e03a1669",
+      "size": 2153
+    },
+    {
+      "path": "examples/integrations/runtime-pack/reader-policy.json",
+      "sha256": "84dcdad76ad338841ecb42d56eb71da503072f9c8adb4b172516dfdd5a8ec061",
+      "size": 771
+    },
+    {
+      "path": "examples/integrations/semantik.json",
+      "sha256": "9f5ba6614eb0e6d6258171bfa087d3889c3954198b2889b059a18622dfc33306",
+      "size": 261
+    },
+    {
+      "path": "examples/lenses/catholic-intellectual-history.json",
+      "sha256": "a096282ad701a941befb93d44335b8b98f73105439928a5fa49a8a4b0eaba5b1",
+      "size": 1743
+    },
+    {
+      "path": "examples/lenses/intellectual-history.json",
+      "sha256": "c399b96695b715647fa750bb616bcea6c8db16b49d538f212d272e000993fea5",
+      "size": 1976
+    },
+    {
+      "path": "examples/lenses/sociodemography.json",
+      "sha256": "63d0d0db67b9398f04fb13d77182ccddfc8c52579a54eca9eecc675143cb31f9",
+      "size": 1083
+    },
+    {
+      "path": "examples/projections/causal-feedback.json",
+      "sha256": "ee040a7aff69d7fc2fb5a0547faefdb36af868c8545cecdcd3f39c36dd9bf710",
+      "size": 751
+    },
+    {
+      "path": "examples/projections/dag.json",
+      "sha256": "1470f8b6d3fa2fbe910a1183c7bfa6ba0f3e029122f2cfe9df160420f70bb814",
+      "size": 776
+    },
+    {
+      "path": "examples/projections/flow.json",
+      "sha256": "0f0f9f66bc3d730390ffe2e032a06ffd10ef50cd59ec24460fb910a036fc4269",
+      "size": 1015
+    },
+    {
+      "path": "examples/projections/matrix.json",
+      "sha256": "551dc8922d742eea279bd5d729bfbb9f8f89fd89daf3d957bb9f5189d70d2b4a",
+      "size": 666
+    },
+    {
+      "path": "examples/projections/multiscale.json",
+      "sha256": "e463075ff85d4ebd389974261395d93204abe0b7244af3de7515634304d5c109",
+      "size": 667
+    },
+    {
+      "path": "examples/projections/spatial.json",
+      "sha256": "b0f463b4bf350fc2c3d585f6218e4e02a51961d32b3ef0b20822cc5f826700e6",
+      "size": 525
+    },
+    {
+      "path": "examples/projections/state-flow.json",
+      "sha256": "b59ff96da365fc3715f910ac31b9ff9852d321b0f68718e19c230f879d15d655",
+      "size": 1096
+    },
+    {
+      "path": "examples/projections/timeline-lineage.json",
+      "sha256": "cca2bdcfe180379af2bc444222958199a28f9515cb10f27164bf0ca30d845984",
+      "size": 740
+    },
+    {
+      "path": "examples/projections/traceability.json",
+      "sha256": "1d36575b158189d6afe5c3010108860726a9c1c47a07addf5d7764dcb4f33092",
+      "size": 736
+    },
+    {
+      "path": "examples/projections/tree.json",
+      "sha256": "17f016c7ac5af8b5ea58a6c3c18cb05fd96c512ab4d36c62768f74103b06d529",
+      "size": 676
+    },
+    {
+      "path": "examples/queries/people.json",
+      "sha256": "ea75153f4cd08bb26f5e85bd5e5ec8e28fc6d2baf4f2d4a49d4a6a0c089c7465",
+      "size": 799
+    },
+    {
+      "path": "examples/queries/works.json",
+      "sha256": "f0948ce9e91fb1c98d25ae4b09c4e30997443a07fe9830a3f06ed99f36200724",
+      "size": 1085
+    },
+    {
+      "path": "examples/registry.json",
+      "sha256": "6612ed2e8ab45f4761cc3d77a8891f13051b6a690ec263b298deea70f7d495e2",
+      "size": 2889
+    },
+    {
+      "path": "examples/result.json",
+      "sha256": "8ec9e325914703fd8dbd5771b8d5618449fe59374aadd99d5755904f07ce3cc1",
+      "size": 1756
+    },
+    {
+      "path": "FIXES-20260930.md",
+      "sha256": "56dcd6cbc223f4ca1d69975d77017b32b68fd384f9ae897cd6e7effdcd3ab55a",
+      "size": 963
+    },
+    {
+      "path": "GitSink.bat",
+      "sha256": "26c1bd8e8c7dc4d8adb1fe6da128b020ffbb7d90d54ad402ce3e64f2ce10b109",
+      "size": 1863
+    },
+    {
+      "path": "Konstellation_Launcher.cmd",
+      "sha256": "8908d1e6e6f29c04c9fd8bc924c8ce5e21432602376cdec8dbee9f1fb1c671a8",
+      "size": 8596
+    },
+    {
+      "path": "Launch_MULTiSmartDump.lnk",
+      "sha256": "597cb480ff60a1169b72f50df355256fefb23e5bcc03b382b1be07428b14821b",
+      "size": 1359
+    },
+    {
+      "path": "Launch_My_Kristals.cmd",
+      "sha256": "ecd13c2090a6c47a7dc9290d1621753ef55d3a5813eae7ab2cf3240a08145543",
+      "size": 474
+    },
+    {
+      "path": "lenses-enriched/biblical-people.json",
+      "sha256": "fb459c481eada537b79d145885f403324f8a887d2e18932b88a195f29bd8e1d6",
+      "size": 2959
+    },
+    {
+      "path": "lenses-enriched/biblical-traditions.json",
+      "sha256": "56527945b42ceb84297071aa0c848b2ca6dc3851594ed16cdb55fce13edc40ec",
+      "size": 597
+    },
+    {
+      "path": "lenses-enriched/biblical-works.json",
+      "sha256": "5f92a0a4cb2c9e53f8ea3d661bd5a98c9c5c189fa117ab9e5d9ded929e9a0c2a",
+      "size": 1794
+    },
+    {
+      "path": "lenses-enriched/catholic-intellectual-history.json",
+      "sha256": "a096282ad701a941befb93d44335b8b98f73105439928a5fa49a8a4b0eaba5b1",
+      "size": 1743
+    },
+    {
+      "path": "lenses-enriched/intellectual-history.json",
+      "sha256": "c399b96695b715647fa750bb616bcea6c8db16b49d538f212d272e000993fea5",
+      "size": 1976
+    },
+    {
+      "path": "lenses-enriched/sociodemography.json",
+      "sha256": "63d0d0db67b9398f04fb13d77182ccddfc8c52579a54eca9eecc675143cb31f9",
+      "size": 1083
+    },
+    {
+      "path": "lenses-enriched/theophile-authors.json",
+      "sha256": "d271372d30fe4f786f466219a91b00a270f6c1ca46a437da1cdc22c64b48ac06",
+      "size": 1326
+    },
+    {
+      "path": "lenses-enriched/theophile-positions.json",
+      "sha256": "9f28611f0a2844c4b5f17e83c5415d7fa2ea49ebdd6bada93671204f272acc32",
+      "size": 1825
+    },
+    {
+      "path": "lenses-enriched/theophile-questions.json",
+      "sha256": "2ef95abe6b5729efbd0fd2b339e112b4002b0a9a08137eddd659f2a74991d082",
+      "size": 1822
+    },
+    {
+      "path": "lenses-enriched/theophile-themes.json",
+      "sha256": "61035ee94a8c82d74974f39d7e38fc25e56ac36e5d8577c9b073886b8ff94dbc",
+      "size": 266
+    },
+    {
+      "path": "maintenance-cleanup.json",
+      "sha256": "df6bf8aeaaf48b9ddd212e1b580a36578b314d240bfcbcaff3f16291f0ceef15",
+      "size": 450
+    },
+    {
+      "path": "Nettoyage_Konstellation.pyw",
+      "sha256": "d0bbfa9b6f7165896e324eb226e00d0e6df8020c36eced9a3c4003a1d165b08f",
+      "size": 4285
+    },
+    {
+      "path": "Ouvrir_Kristal_Catho_v10.cmd",
+      "sha256": "9ece46ed0b2d81d47d78e59bf6dfd13bc6ddab1aa4cca311d0efefc7a53a2496",
+      "size": 1026
+    },
+    {
+      "path": "Ouvrir_Theophile_demo.cmd",
+      "sha256": "c54296706c004b0a90e9c72022f5693430d1d2881f0fbab766e720d3ec92b4e6",
+      "size": 336
+    },
+    {
+      "path": "package.json",
+      "sha256": "de3b61d05e5b074972dac159bb9d0de2538a5f4a70b0cccb608f73d5e9c1ec47",
+      "size": 2327
+    },
+    {
+      "path": "playwright.config.mjs",
+      "sha256": "24c195f1bc92ffb93327dfdccdbfdbe348aefb7015a4553591edd9bd34be98a6",
+      "size": 2476
+    },
+    {
+      "path": "README-PLAYWRIGHT-FIX.md",
+      "sha256": "6e4f367cd8d95bf7ff3cc69ab045b7af6b95f61a961d7d5748b550b0c2ad6980",
+      "size": 633
+    },
+    {
+      "path": "README.md",
+      "sha256": "a30f705e034c3b69907565a150966653c39f851efe5573fa803a3cf1d350f591",
+      "size": 6361
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "756cc9e506ae4ee1a6f6c0507088b5cfc0dc8ba350fb2d2d46f1ffa72033adb6",
+      "size": 19
+    },
+    {
+      "path": "SBOM.cdx.json",
+      "sha256": "94e792133946b5fdbb45d20e19a62498e442b6a934341ca7a72ffb7031bbf86a",
+      "size": 5190
+    },
+    {
+      "path": "scripts/benchmark-navigation.mjs",
+      "sha256": "c02e6103f3090c86e246abb9fbf63693eb2b084b1b96b6f83661831fa49a1582",
+      "size": 6194
+    },
+    {
+      "path": "scripts/build-theophile-enriched-pack.py",
+      "sha256": "0479c95ad364d9ef6db6bfea7e56f5cdc32b2119031c07d35a1f1456e55b3c4b",
+      "size": 11475
+    },
+    {
+      "path": "scripts/check-docs.mjs",
+      "sha256": "6426a3248e6c5e29d0eeb4d018b3081ed4539546ffe542296eb156d815226aa2",
+      "size": 1330
+    },
+    {
+      "path": "scripts/check-frontend-security.mjs",
+      "sha256": "dc529a3da3938669791fa8ba14eda6af23a861b4979f2c7a80c9a31fa5a5c8a0",
+      "size": 2205
+    },
+    {
+      "path": "scripts/check-svelte-structure.mjs",
+      "sha256": "4649cc62c761b79114951b3142bb07cff9818f1b800b53d98fbddc588f81844b",
+      "size": 2491
+    },
+    {
+      "path": "scripts/create-demo.mjs",
+      "sha256": "120ec9916157b3532d1d8b94fd42f043c983087d3937dc20ae34b0919d10df5d",
+      "size": 6270
+    },
+    {
+      "path": "scripts/dev.mjs",
+      "sha256": "0c46963778f119f140e0267591a3a687cb34da110e4defa682be3be63ab67340",
+      "size": 1162
+    },
+    {
+      "path": "scripts/generate-integration-example.mjs",
+      "sha256": "c2ab6d88de9d267b1192c72278382dcbc3b51e2d3158127bc8f2822a95b89e99",
+      "size": 5073
+    },
+    {
+      "path": "scripts/generate-sbom.mjs",
+      "sha256": "52a39a13812814e2f180791f9f4e03d545e9f565b9b802b68da64bcc9a683cbf",
+      "size": 4491
+    },
+    {
+      "path": "scripts/import-kristal.mjs",
+      "sha256": "2d4c5ed612fed0e998e95b348290491eee171989501f831796a970204286a4d8",
+      "size": 7170
+    },
+    {
+      "path": "scripts/pack.mjs",
+      "sha256": "28113d261ea225a421b65059429a47d6f6c37a1359011d0439dee13d47784013",
+      "size": 362
+    },
+    {
+      "path": "scripts/prepare-playwright-corpus.mjs",
+      "sha256": "0c6ec4d05c229943d8398c12eb2c2ddae7a45cc1db5d8467367c19782fff58ed",
+      "size": 3173
+    },
+    {
+      "path": "scripts/project-discovery.mjs",
+      "sha256": "d7db00921cad28601fffe0fd4777b2a8f53768eb5875fba462f7e797f9bd4d6b",
+      "size": 2438
+    },
+    {
+      "path": "scripts/release-check.mjs",
+      "sha256": "1f2fc9b490d1cb51b7de4608ae23f3f62a60d42fb59050cee78ada623cbeee88",
+      "size": 2917
+    },
+    {
+      "path": "scripts/release-manifest.mjs",
+      "sha256": "e8186b3f804953324f9ba963aea3494e798282cb42b98acada4272659fc5e9d5",
+      "size": 2529
+    },
+    {
+      "path": "scripts/smoke-dev.mjs",
+      "sha256": "662241d039a3f0afe5bb2bf6bc64628ae1c72b8a22c43ac3546974794ff12318",
+      "size": 1640
+    },
+    {
+      "path": "scripts/update-biblical-corpus.mjs",
+      "sha256": "a4ed2d85abdbf936b5c2d1971813b271fcbd2ee619a32615714667c9f738127b",
+      "size": 16842
+    },
+    {
+      "path": "server/auth.mjs",
+      "sha256": "0108b2566dc77f75ce0e433dca08282a6f49691c0fb63af0a8ddb4ad312eb503",
+      "size": 3341
+    },
+    {
+      "path": "server/config.mjs",
+      "sha256": "446bf364379a7ecc71aae604075003181c968770a5c96f912410178c0d18f74f",
+      "size": 3197
+    },
+    {
+      "path": "server/contracts.mjs",
+      "sha256": "b95df1bdeaa39f48165bc5b9288c23764b3d3f65378f24890a68f42e90e355a2",
+      "size": 1997
+    },
+    {
+      "path": "server/engine.mjs",
+      "sha256": "23522d667e168bc73185c25beb68bff0218e1b749fc2c52cf31782223ab5d689",
+      "size": 30020
+    },
+    {
+      "path": "server/errors.mjs",
+      "sha256": "53ea0580fd0b29a287bbb147b40eaa754c7abb2613b440ceda5f43cf594adac9",
+      "size": 364
+    },
+    {
+      "path": "server/index.mjs",
+      "sha256": "08c922620da211df060d111bbb8cea65443d06b8f6c027975464419dd2f00f03",
+      "size": 18253
+    },
+    {
+      "path": "server/integrations/discovery.mjs",
+      "sha256": "371b231237a12e7df357fbea9f717697d3745dab39d20b10005074be935a5a5f",
+      "size": 5047
+    },
+    {
+      "path": "server/integrations/fleet.mjs",
+      "sha256": "35bad6066d0a6ae54e8f7fb89f1b24a05e90b7620241a42a3b99fd73d8d26eb4",
+      "size": 7449
+    },
+    {
+      "path": "server/integrations/kompiler-bridge.mjs",
+      "sha256": "99c2d56deee87f4b611a9b838fa7fe54acac750c4c696cfea23d2371de96602a",
+      "size": 3861
+    },
+    {
+      "path": "server/integrations/kristal-local-v10.mjs",
+      "sha256": "5d7c389f22705b636a8e16673410896a82309438911e0762fcf16324e7317fb2",
+      "size": 19553
+    },
+    {
+      "path": "server/integrations/kristal-v10.mjs",
+      "sha256": "0accd51e00ed5ff721778fa152e90c14dd8912e8ed9410ec7abe5c28b876f56e",
+      "size": 16148
+    },
+    {
+      "path": "server/integrations/kristal-v6.mjs",
+      "sha256": "787f9c35fd472e6ff4438275b5b6df6c030f3f34b6c92ed49a7f90c840c4e686",
+      "size": 20454
+    },
+    {
+      "path": "server/integrations/kristal.mjs",
+      "sha256": "8addd1a58780753b89d5e64eb95e3d0f6a400e8451ccf44d1fa8083befe256bb",
+      "size": 23983
+    },
+    {
+      "path": "server/integrations/manager-adapter.mjs",
+      "sha256": "dc40226ccd647767375681a5d9cd67e687f223f6e448b830fb24c656f50dc77c",
+      "size": 5838
+    },
+    {
+      "path": "server/integrations/reader-policy.mjs",
+      "sha256": "71f2272703e87ed9269b94027ec39a670817f36ee881c57e6dac22d708f0349b",
+      "size": 11719
+    },
+    {
+      "path": "server/integrations/semantik.mjs",
+      "sha256": "503a240fdf311c8f4ef9267aef90d5ce4b965f29072893f5d458337d1f3cbe0c",
+      "size": 12249
+    },
+    {
+      "path": "server/integrations/upstream.mjs",
+      "sha256": "6987bb3411a7fae342256636c151dc0508db2b10298032e6b298cda83cf861f5",
+      "size": 2279
+    },
+    {
+      "path": "server/navigation/index.mjs",
+      "sha256": "c3d3e674cfba6fe87bf370f71d3aa9622a2a767de6563509fe32b230f2e73847",
+      "size": 4046
+    },
+    {
+      "path": "server/navigation/planner.mjs",
+      "sha256": "b513fdab9b56e9bbd5c2b23e488ba1f57bc68d655b69988cb8954344e8a7088e",
+      "size": 10955
+    },
+    {
+      "path": "server/navigation/profiler.mjs",
+      "sha256": "d5f5265774d82fcc9476596ac69b4675ef37593ab72eba76024c40dfe8436d4c",
+      "size": 32618
+    },
+    {
+      "path": "server/navigation/projection.mjs",
+      "sha256": "c6d9f18d89032a32a1c4e4d9b4721a91cf0452c11e2ad37d9e948d638376e59e",
+      "size": 33265
+    },
+    {
+      "path": "server/navigation/projector.mjs",
+      "sha256": "881191ac123267dde19d9aa690022c6221a9cc4bc873814488fb73508d793e18",
+      "size": 16784
+    },
+    {
+      "path": "server/navigation/registry.mjs",
+      "sha256": "08dd6b1c9384ce45aef188e6397d617a8b2bba716c512d20a8c665264c2023f5",
+      "size": 5723
+    },
+    {
+      "path": "server/navigation/salience.mjs",
+      "sha256": "1d2d7c3c7f4fa17bc9d7257820608a30db5466197d134b25befb0dbc291886f0",
+      "size": 2420
+    },
+    {
+      "path": "server/observability.mjs",
+      "sha256": "6eda55c5bce182a415ff62c9fc570f8b8cfdd77080269e9dbbcbf3da2d1ea7d2",
+      "size": 2237
+    },
+    {
+      "path": "server/pack.mjs",
+      "sha256": "426cb5a46c1fbc21e2d5df3042c883db39b03e601a2383c53199d570544ff446",
+      "size": 6522
+    },
+    {
+      "path": "server/version.mjs",
+      "sha256": "e918ebf4cf792025c214275305afd66423f2c9c4d9733d9c36cf97e62ff6fa34",
+      "size": 1279
+    },
+    {
+      "path": "SNAPSHOT_INDEX.txt",
+      "sha256": "a01305358e93b496c691e61644afae61f65930158521b6f973df03dd5df24e2e",
+      "size": 8356
+    },
+    {
+      "path": "src/components/AdaptiveProjectionView.svelte",
+      "sha256": "1710f357f7c74d7230f53dd146cd32de0825bc635329c50c9cb7c5248db73fce",
+      "size": 5419
+    },
+    {
+      "path": "src/components/Astrolabe.svelte",
+      "sha256": "64342fd31fbee3fc3a49ca32fd50fa42457960d96804336cd42d5a649c40ea57",
+      "size": 4571
+    },
+    {
+      "path": "src/components/CausalFeedbackView.svelte",
+      "sha256": "a3e52be4886e674ed5e7695605c5a103e253a29381d7b81817f50ad028d5a186",
+      "size": 3038
+    },
+    {
+      "path": "src/components/Communication.svelte",
+      "sha256": "c0062e038019c3cecab2c158abdf7daee9b3749aa9baa1e29d3b0fedddab6db9",
+      "size": 5586
+    },
+    {
+      "path": "src/components/ConstellationView.svelte",
+      "sha256": "9e693393d01bff0a9f010a92a75208255ad3a9a141f1647612e24915a3327c4e",
+      "size": 15961
+    },
+    {
+      "path": "src/components/DagProofView.svelte",
+      "sha256": "5f1cccb6f91f3ff94348c64eb74a4ec36af5aad722bb20034294dbc727ff3951",
+      "size": 4984
+    },
+    {
+      "path": "src/components/Explorer.svelte",
+      "sha256": "1d74b729427f68a5a44390d506bdc781286a2ac0d715e0289dc76766565a150e",
+      "size": 62377
+    },
+    {
+      "path": "src/components/FlowPathView.svelte",
+      "sha256": "d0d3f4a754849d3604566234a5ce25a945eb5829ff3b95840ea4ae983c0e045d",
+      "size": 4589
+    },
+    {
+      "path": "src/components/KompilerPanel.svelte",
+      "sha256": "ef0cba9760c635a6ac25c93c4f3504a5109d40b1e0885b5fd376a860ebaf2fa1",
+      "size": 4758
+    },
+    {
+      "path": "src/components/MatrixProfileView.svelte",
+      "sha256": "c85199a0ba538463decb606f23fa9c0468358485bca59e80c45ce5283044afa8",
+      "size": 835
+    },
+    {
+      "path": "src/components/MultiscaleLayerView.svelte",
+      "sha256": "98f43c3697240c064a8ea7a5f6b201ebbb769b9a464f99fe61f986c8c9376f6b",
+      "size": 1633
+    },
+    {
+      "path": "src/components/MyKristals.svelte",
+      "sha256": "4e9e11780caadc70f80b28471c394ec83cb42a101146940c1bc0640a36a0f9a2",
+      "size": 6714
+    },
+    {
+      "path": "src/components/QueryTree.svelte",
+      "sha256": "fd87ccbca8746568fa6e837c94165144185159679c81ed4e267ce648ca572c3c",
+      "size": 1464
+    },
+    {
+      "path": "src/components/RelationGraph.svelte",
+      "sha256": "6b89ec80ec84e383b0ebaefbecb1c179ab58f15b68274bfd7783d6de6b5e21ae",
+      "size": 2785
+    },
+    {
+      "path": "src/components/SpatialView.svelte",
+      "sha256": "85522cd8960a1f2e300b5590ea0dd2cd3860d06671c0035a1b9e605795cd03b6",
+      "size": 3386
+    },
+    {
+      "path": "src/components/StateFlowView.svelte",
+      "sha256": "f1b189c8b473c5188f24ce2a86357f61756c8f28d8043f322d1f2952d5dffc70",
+      "size": 1195
+    },
+    {
+      "path": "src/components/TimelineLineageView.svelte",
+      "sha256": "c4718d10dfc3d5384471b2139b3b2f403f063061b2b28898a6371e21efa40dbe",
+      "size": 1549
+    },
+    {
+      "path": "src/components/TraceabilityView.svelte",
+      "sha256": "32976c474184819239cd050f8489aa5b51b12180ec5c84dde83d399e7f4e317c",
+      "size": 1025
+    },
+    {
+      "path": "src/components/TreeView.svelte",
+      "sha256": "cb6783f556c5358f4e8c45cf49c00be535958c2f57af508d5c5408c0bc552e4a",
+      "size": 2939
+    },
+    {
+      "path": "src/lib/constellation/layout.js",
+      "sha256": "de5b91bb77a97c5d94befa9889a84225c87b300cc5058b6ccc4b730c952e6d54",
+      "size": 1504
+    },
+    {
+      "path": "src/lib/constellation/profile.mjs",
+      "sha256": "141cb3746a27be09fff71377d18b2e1a96c73f6afa3f127681fae30acdc3e2a5",
+      "size": 5381
+    },
+    {
+      "path": "src/pages/index.astro",
+      "sha256": "8c021068290775b90f077bd6da9be274de7e8419b75fd57dd7009206de60b535",
+      "size": 666
+    },
+    {
+      "path": "src/styles/global.css",
+      "sha256": "08334860930612775580fda921f3eb22bbd0cfe60c16314fc360aa3779118d93",
+      "size": 67972
+    },
+    {
+      "path": "svelte.config.js",
+      "sha256": "450f0af4f4c1ecc4c7180f2e364c8a59bfed69dd350fb6b47bce8641c2a37786",
+      "size": 19
+    },
+    {
+      "path": "Test_Konstellation.cmd",
+      "sha256": "9c83c5de6ecfa2e0264aac2c2851682c13ccea55811317ad551afe9bd6e3ccc3",
+      "size": 2987
+    },
+    {
+      "path": "tests/api.test.mjs",
+      "sha256": "b73ff5cf419b84dcae518fe2d1f37d95c487034afc579540449554ed8204e45b",
+      "size": 3483
+    },
+    {
+      "path": "tests/browser/app.smoke.spec.mjs",
+      "sha256": "cc3dea7c4051c7c55696a054a44126697b3916bc8a762fd3b9b7980ffbb5d314",
+      "size": 1445
+    },
+    {
+      "path": "tests/browser/astrolabe.spec.mjs",
+      "sha256": "a8b2502f55f5c00d4a6c71f61ccf6ef362b216e4aab7826cdea303639f81d7a2",
+      "size": 3383
+    },
+    {
+      "path": "tests/browser/corpus.spec.mjs",
+      "sha256": "ea99542ad3754060de4cb473481a478f1f17e46a79e60ed932d1e5147e694ccf",
+      "size": 3388
+    },
+    {
+      "path": "tests/browser/explorer.spec.mjs",
+      "sha256": "813405894dcf6582de3646d597538f124ecbda7124127c73741a805e7bd54495",
+      "size": 4872
+    },
+    {
+      "path": "tests/browser/fixtures.mjs",
+      "sha256": "37058afc42bf5994e359789f4fad2d7378c8c0a94c82bd1517adec12b1910f6a",
+      "size": 3207
+    },
+    {
+      "path": "tests/browser/navigation.spec.mjs",
+      "sha256": "f5ce6d6327356ee33b0a66165c5580c41a2f48a50ad56c2caed7bd1a25756ab9",
+      "size": 1764
+    },
+    {
+      "path": "tests/browser/responsive.spec.mjs",
+      "sha256": "544259e1eb0d6f8b7e7eb263df87feb3122ff0e83f8bca5278a407e57c201d7f",
+      "size": 826
+    },
+    {
+      "path": "tests/browser/state.spec.mjs",
+      "sha256": "0d6890f8cfc93b114ca9346334ed348928974da463da58d00a1843349e6b0f84",
+      "size": 1296
+    },
+    {
+      "path": "tests/constellation-portrait.test.mjs",
+      "sha256": "a11ce3d1a569e4176ef9d170a4224c4ed09c4da12c527db1029e2cc1a2e4ee9e",
+      "size": 3285
+    },
+    {
+      "path": "tests/constellation.test.mjs",
+      "sha256": "5600861718fadf64a7fd45137fdc0103074ed5af8070437539c69d02a3b8a9ad",
+      "size": 3079
+    },
+    {
+      "path": "tests/contracts-1.0.test.mjs",
+      "sha256": "ec051c5a03cc2a07f1ed22dc04abf4431075017b23a56af45851c338de1c4bd3",
+      "size": 6573
+    },
+    {
+      "path": "tests/engine.test.mjs",
+      "sha256": "abcb3aee41605070c19f55c50d0d95b9c93f4d13c4dd956875d02d36b9a1fed8",
+      "size": 11706
+    },
+    {
+      "path": "tests/fleet.test.mjs",
+      "sha256": "73434f2e4d85430c9f53417db8782a0c4ca6be064cc81066c413e1f02da5c111",
+      "size": 5193
+    },
+    {
+      "path": "tests/import.test.mjs",
+      "sha256": "9e5319af276bc074634cbb156f0b40588855382d3361193d53a22f13310e29f5",
+      "size": 2797
+    },
+    {
+      "path": "tests/integrations.test.mjs",
+      "sha256": "90a07e2f7e39334b5dfafb54e6d23f4133ea14ece9e1b1c687a0379e6e3f7760",
+      "size": 14497
+    },
+    {
+      "path": "tests/kristal-kollection.test.mjs",
+      "sha256": "da8ce0bb78318e5137357c072d50a69bb9c5e8fcadc8ea3c0cbc60402cf6d085",
+      "size": 4546
+    },
+    {
+      "path": "tests/kristal-local-v10.test.mjs",
+      "sha256": "e6ae1f8cf3bca249e040b135d73c05f60520a7a3d15eb0252ee04e5b04b7703f",
+      "size": 10639
+    },
+    {
+      "path": "tests/kristal-v10.test.mjs",
+      "sha256": "91d2b4d4a2962438ed7daed970236f5a1a6fc4136c509da22f566dfce6b05c1c",
+      "size": 6963
+    },
+    {
+      "path": "tests/kristal-v6-navigation.test.mjs",
+      "sha256": "fcd09cdda92dd2b3aa5f6a1e81069e3474efcc19ca0f9a6358eb36aadafd1d1f",
+      "size": 3360
+    },
+    {
+      "path": "tests/lenses-1.0.test.mjs",
+      "sha256": "8fc4fc7734fa5c448384202fd23f6e1536dbcacbcefe434f258d9ce3763cd75d",
+      "size": 1746
+    },
+    {
+      "path": "tests/manager-discovery.test.mjs",
+      "sha256": "a4da812e5082b5c51a4bd37105fb07d1e3a04a8ccfc53b03e921333bdd4bdcfb",
+      "size": 9525
+    },
+    {
+      "path": "tests/navigation-adaptive.test.mjs",
+      "sha256": "d889cab6cfa60f5cbc98b2bacbc789b9b1648222aef0d96b9fee27fc499eec68",
+      "size": 4359
+    },
+    {
+      "path": "tests/navigation-golden-1.0.test.mjs",
+      "sha256": "e6fd92d3ea0ce7faef6a187df04f458b68ecf56136b739cc21ac896fffb0e8c4",
+      "size": 6429
+    },
+    {
+      "path": "tests/navigation-policy-1.0.test.mjs",
+      "sha256": "ae4097f825e3d08b990e8fc9e912d1e3d7d22ba69a4cd89ad4468b17d4da9194",
+      "size": 5729
+    },
+    {
+      "path": "tests/navigation-variety.test.mjs",
+      "sha256": "b85832f142842f224c5ec063f35a8b465ae2fadab7acf53d87b32f05e6c5d8d9",
+      "size": 3898
+    },
+    {
+      "path": "tests/security-1.0.test.mjs",
+      "sha256": "612c66aeeeb5772beca3cca35c1a194f7e930e12a8c7f1232b252fe080101a9c",
+      "size": 2668
+    },
+    {
+      "path": "tests/ui/explorer.test.mjs",
+      "sha256": "800dab8b5f002ba0dcb4a0f9c9aa501f45b217fac113f5de7e82efe1768561c4",
+      "size": 9051
+    },
+    {
+      "path": "tests/ui/renderers.test.mjs",
+      "sha256": "2a3d120a6052a790c270bacbbf84f7313686fa5230201b54ca57aa795940bbf8",
+      "size": 3158
+    },
+    {
+      "path": "tools/validate.py",
+      "sha256": "d5de863cb10778f3668aea3777b50962941dc066fc43a1d46a756da7f490a152",
+      "size": 13188
+    },
+    {
+      "path": "Update_Biblical_Corpus.cmd",
+      "sha256": "0677f9f471b960f86e991c6f503c6239d1b6a18a5707c69715c8bbbfa353ac2b",
+      "size": 2168
+    },
+    {
+      "path": "UPDATE_SUMMARY_2026-10-13.md",
+      "sha256": "2c8a8bc35fc926a674fe028e9fab376d7737888ad7a1868e2baca9bb6264ed79",
+      "size": 2243
+    },
+    {
+      "path": "vitest.config.mjs",
+      "sha256": "3902e116f8a089512226bb98c9527324d8d92acd7576047b7b98a3ffaeca1a78",
+      "size": 279
+    },
+    {
+      "path": "ZmartZnap.pyw",
+      "sha256": "70775b94ff616ed9efdb3d6b989639fa3cd22a250f1389fec485791d161df1ea",
+      "size": 22889
+    }
+  ]
+}

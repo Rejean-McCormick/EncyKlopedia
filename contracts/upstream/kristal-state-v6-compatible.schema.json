@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:konstellation:upstream:kristal-state-v6-compatible:1.0",
+  "title": "Kristal State 6.0 — collection compatibility profile",
+  "description": "Compatibility envelope for heterogeneous Kristal-Kollection v6 artifacts. It validates structural readability, not canonical identity or authority.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["schema_version", "artifact_type", "assertions"],
+  "properties": {
+    "schema_version": {"const": "6.0"},
+    "artifact_type": {"const": "kristal_state"},
+    "artifact_status": {"type": "string", "minLength": 1},
+    "created_at": {"type": "string"},
+    "updated_at": {"type": "string"},
+    "created_by": {"type": ["object", "string"]},
+    "canonicalization_profile": {"type": "string"},
+    "canonicalization_version": {"type": ["string", "number"]},
+    "applicability": {"type": "object"},
+    "source_refs": {"type": "array", "items": {"type": ["string", "object"]}},
+    "assertions": {"type": "array", "items": {"$ref": "#/$defs/assertion"}},
+    "provenance": {"type": "array"},
+    "validation_refs": {"type": "array"},
+    "authority_recognition_refs": {"type": "array"},
+    "reader_policy_refs": {"type": "array"},
+    "lineage": {"type": "object"},
+    "build": {"type": "object"},
+    "warnings": {"type": "array"},
+    "extensions": {"type": "object"},
+    "state_id": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "content_hash": {"$ref": "#/$defs/content_hash"},
+    "signatures": {"type": "array"}
+  },
+  "$defs": {
+    "statement_value": {
+      "type": "object",
+      "required": ["kind"],
+      "additionalProperties": true,
+      "properties": {
+        "kind": {"type": "string", "minLength": 1},
+        "id": {"type": "string", "minLength": 1},
+        "value": {},
+        "language": {"type": "string"}
+      },
+      "anyOf": [{"required": ["id"]}, {"required": ["value"]}]
+    },
+    "statement": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["subject", "predicate", "object"],
+      "properties": {
+        "subject": {"$ref": "#/$defs/statement_value"},
+        "predicate": {"type": ["string", "object"]},
+        "object": {"$ref": "#/$defs/statement_value"}
+      }
+    },
+    "assertion": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["statement"],
+      "properties": {
+        "assertion_id": {"type": "string"},
+        "statement": {"$ref": "#/$defs/statement"},
+        "assertion_status": {"type": "string"},
+        "record_role": {"type": "string"},
+        "coordinates": {"type": ["array", "object"]},
+        "applicability": {"type": "object"},
+        "valuations": {"type": "array"},
+        "actionability": {"type": "object"},
+        "evidence_refs": {"type": "array", "items": {"type": ["string", "object"]}},
+        "provenance_refs": {"type": "array", "items": {"type": ["string", "object"]}},
+        "validation_refs": {"type": "array"},
+        "authority_recognition_refs": {"type": "array"},
+        "conflicts_with": {"type": "array"},
+        "supersedes": {"type": "array"},
+        "lineage": {"type": "object"},
+        "notes": {"type": "string"}
+      }
+    },
+    "content_hash": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["value"],
+      "properties": {
+        "alg": {"const": "sha256"},
+        "algorithm": {"const": "sha256"},
+        "value": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      },
+      "anyOf": [{"required": ["alg"]}, {"required": ["algorithm"]}]
+    }
+  }
+}

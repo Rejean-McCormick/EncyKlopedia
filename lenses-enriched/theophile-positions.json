@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "0.2",
+  "id": "theophile-positions",
+  "label": {
+    "fr": "Positions et relations",
+    "en": "Positions and relations"
+  },
+  "rootType": "position",
+  "facets": [],
+  "pivots": [
+    "corpus:rapprochement",
+    "corpus:convergence",
+    "corpus:complement",
+    "corpus:distinction",
+    "corpus:divergence_historique",
+    "corpus:tension_a_interpreter"
+  ],
+  "constellation": {
+    "defaultSatelliteCount": 10,
+    "groups": [
+      {
+        "id": "relations",
+        "label": {
+          "fr": "Relations avec d’autres positions",
+          "en": "Relations to other positions"
+        },
+        "priority": 1.0,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "corpus:rapprochement",
+            "corpus:convergence",
+            "corpus:complement",
+            "corpus:distinction",
+            "corpus:divergence_historique",
+            "corpus:tension_a_interpreter",
+            "corpus:limite_interpretative",
+            "corpus:reception_explicite",
+            "corpus:reception_partielle",
+            "corpus:reception_contrastee",
+            "corpus:relecture_spirituelle",
+            "corpus:continuite_documentee"
+          ]
+        }
+      },
+      {
+        "id": "themes",
+        "label": {
+          "fr": "Idées et thèmes",
+          "en": "Ideas and themes"
+        },
+        "priority": 0.92,
+        "source": {
+          "kind": "qualifiers",
+          "ids": [
+            "corpus:theme"
+          ]
+        }
+      },
+      {
+        "id": "sources",
+        "label": {
+          "fr": "Œuvres et sources",
+          "en": "Works and sources"
+        },
+        "priority": 0.84,
+        "source": {
+          "kind": "qualifiers",
+          "ids": [
+            "corpus:source"
+          ]
+        }
+      }
+    ]
+  }
+}

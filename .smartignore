@@ -1,0 +1,6 @@
+# Konstellation snapshot-only exclusions.
+# Historical material remains available in Git without being duplicated in
+# current code-review snapshots.
+
+legacy/
+SMARTDUMP_INDEX.txt

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "description": "Regression ceilings for structural profiling and planning. These are release ceilings, not claimed SLO measurements.",
+  "profiles": {
+    "10000": {
+      "maxProfilerMs": 500,
+      "maxPlannerMs": 100
+    },
+    "100000": {
+      "maxProfilerMs": 2500,
+      "maxPlannerMs": 150
+    },
+    "1000000": {
+      "maxProfilerMs": 20000,
+      "maxPlannerMs": 250
+    }
+  },
+  "scenarios": {
+    "dense": {
+      "maxProfilerMs": 3500,
+      "maxPlannerMs": 180
+    },
+    "timeline": {
+      "maxProfilerMs": 3500,
+      "maxPlannerMs": 180
+    },
+    "deep-dag": {
+      "maxProfilerMs": 3500,
+      "maxPlannerMs": 180
+    },
+    "multiscale": {
+      "maxProfilerMs": 4500,
+      "maxPlannerMs": 180
+    },
+    "high-cardinality": {
+      "maxProfilerMs": 3500,
+      "maxPlannerMs": 180
+    }
+  }
+}

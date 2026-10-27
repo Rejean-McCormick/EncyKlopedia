@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:konstellation:schema:lens:0.2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "label",
+    "rootType",
+    "facets",
+    "pivots"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "0.2"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+    },
+    "label": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fr",
+        "en"
+      ],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "rootType": {
+      "type": "string",
+      "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+    },
+    "facets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "relation",
+          "widget"
+        ],
+        "properties": {
+          "relation": {
+            "type": "string",
+            "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+          },
+          "widget": {
+            "enum": [
+              "entity-picker",
+              "presence",
+              "year-range"
+            ]
+          }
+        }
+      },
+      "minItems": 0,
+      "maxItems": 32
+    },
+    "pivots": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+      },
+      "minItems": 0,
+      "maxItems": 16,
+      "uniqueItems": true
+    },
+    "constellation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "defaultSatelliteCount",
+        "groups"
+      ],
+      "properties": {
+        "defaultSatelliteCount": {
+          "type": "integer",
+          "minimum": 3,
+          "maximum": 25
+        },
+        "groups": {
+          "type": "array",
+          "minItems": 0,
+          "maxItems": 24,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "label",
+              "priority",
+              "source"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+              },
+              "label": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "fr",
+                  "en"
+                ],
+                "properties": {
+                  "fr": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "en": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              },
+              "priority": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "source": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "kind",
+                      "ids"
+                    ],
+                    "properties": {
+                      "kind": {
+                        "const": "relations"
+                      },
+                      "ids": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 16,
+                        "uniqueItems": true,
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "kind",
+                      "ids"
+                    ],
+                    "properties": {
+                      "kind": {
+                        "const": "qualifiers"
+                      },
+                      "ids": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 16,
+                        "uniqueItems": true,
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

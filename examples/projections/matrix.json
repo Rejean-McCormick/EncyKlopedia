@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "projectionKind": "matrix",
+  "recipeId": "dimensions",
+  "rendererId": "matrix-profile",
+  "derived": true,
+  "truncated": false,
+  "nextCursor": null,
+  "totalCandidates": 1,
+  "explanation": {
+    "reason": "Fixture de contrat 1.0",
+    "relationIds": [
+      "r"
+    ]
+  },
+  "rows": [
+    {
+      "id": "a",
+      "type": "thing",
+      "label": "A",
+      "description": ""
+    }
+  ],
+  "columns": [
+    {
+      "id": "d",
+      "label": "Dimension",
+      "kind": "integer",
+      "unit": null
+    }
+  ],
+  "cells": [
+    {
+      "entityId": "a",
+      "dimensionId": "d",
+      "value": 1,
+      "assertionRef": "x"
+    }
+  ]
+}

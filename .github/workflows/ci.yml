@@ -1,16 +1,62 @@
-name: EncyKlopedia demo CI
+name: Konstellation CI
+
 on:
   push:
+    branches: [main]
   pull_request:
+  workflow_dispatch:
+
 permissions:
   contents: read
+
+concurrency:
+  group: konstellation-ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  verify:
+  fast:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
-      - run: npm run verify
-      - run: ENCYKLOPEDIA_MODE=public node src/server.mjs && exit 1 || echo 'Public deployment remains blocked (expected)'
+          node-version: 24.15.0
+
+      - name: Install pinned dependencies (fail closed)
+        run: npm ci
+
+      - name: Core tests
+        run: npm test
+
+      - name: UI unit tests
+        run: npm run test:ui
+
+      - name: Static structure and security checks
+        run: |
+          npm run check:svelte-structure
+          npm run check:frontend-security
+
+      - name: Documentation links
+        run: npm run docs:check
+
+      - name: Production build
+        run: npm run build
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Browser smoke tests
+        run: npm run test:e2e:smoke
+
+      - name: Upload Playwright report on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report-${{ github.run_id }}
+          path: |
+            playwright-report/
+            test-results/
+          if-no-files-found: ignore
+          retention-days: 7

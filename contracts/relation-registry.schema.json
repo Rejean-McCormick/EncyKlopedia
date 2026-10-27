@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:konstellation:schema:relation-registry:0.2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "registryRef",
+    "entityTypes",
+    "relations"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "0.2"
+    },
+    "registryRef": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entityTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+      },
+      "minItems": 1,
+      "maxItems": 100,
+      "uniqueItems": true
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "domain",
+          "range",
+          "valueKind",
+          "operators"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+          },
+          "label": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "fr",
+              "en"
+            ],
+            "properties": {
+              "fr": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "domain": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+            },
+            "minItems": 1,
+            "maxItems": 10,
+            "uniqueItems": true
+          },
+          "range": {
+            "type": "string",
+            "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+          },
+          "valueKind": {
+            "enum": [
+              "entity",
+              "string",
+              "integer",
+              "interval"
+            ]
+          },
+          "operators": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "exists",
+                "missing_in_view",
+                "in",
+                "none_of",
+                "overlaps"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 5,
+            "uniqueItems": true
+          },
+          "inverseOf": {
+            "type": "string",
+            "pattern": "^[a-zA-Z][a-zA-Z0-9_.:-]*$"
+          },
+          "derivedRuleRef": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "minItems": 1,
+      "maxItems": 1000
+    }
+  }
+}

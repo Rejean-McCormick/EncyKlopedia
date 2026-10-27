@@ -1,0 +1,500 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:semantik-architect:schema:communication-request:1.0",
+  "title": "SemantiK Architect CommunicationRequest v1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "semantic_graph",
+    "obligations",
+    "context",
+    "constraints",
+    "capability_profile"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "semantic_graph": {
+      "$ref": "#/$defs/semanticGraph"
+    },
+    "obligations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/obligation"
+      }
+    },
+    "supporting_context": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/supportEntry"
+      },
+      "default": []
+    },
+    "context": {
+      "$ref": "#/$defs/context"
+    },
+    "constraints": {
+      "$ref": "#/$defs/constraints"
+    },
+    "capability_profile": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*-[0-9]+$"
+    },
+    "runtime_selector": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "runtime_set_id": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "deadline": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "$defs": {
+    "semanticRef": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9_.-]*:.+$"
+    },
+    "localId": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+    },
+    "node": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "kind",
+            "external_ref"
+          ],
+          "properties": {
+            "id": {
+              "$ref": "#/$defs/localId"
+            },
+            "kind": {
+              "const": "entity_ref"
+            },
+            "external_ref": {
+              "$ref": "#/$defs/semanticRef"
+            },
+            "labels": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "kind",
+            "concept_ref"
+          ],
+          "properties": {
+            "id": {
+              "$ref": "#/$defs/localId"
+            },
+            "kind": {
+              "const": "concept_ref"
+            },
+            "concept_ref": {
+              "$ref": "#/$defs/semanticRef"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "kind",
+            "value"
+          ],
+          "properties": {
+            "id": {
+              "$ref": "#/$defs/localId"
+            },
+            "kind": {
+              "const": "literal"
+            },
+            "value": {},
+            "datatype": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "kind",
+            "value"
+          ],
+          "properties": {
+            "id": {
+              "$ref": "#/$defs/localId"
+            },
+            "kind": {
+              "const": "quantity"
+            },
+            "value": {
+              "type": "number"
+            },
+            "unit_ref": {
+              "$ref": "#/$defs/semanticRef"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "kind",
+            "temporal_kind",
+            "value"
+          ],
+          "properties": {
+            "id": {
+              "$ref": "#/$defs/localId"
+            },
+            "kind": {
+              "const": "temporal"
+            },
+            "temporal_kind": {
+              "enum": [
+                "instant",
+                "date",
+                "time",
+                "interval",
+                "duration"
+              ]
+            },
+            "value": {
+              "type": [
+                "string",
+                "object"
+              ]
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "kind",
+            "members"
+          ],
+          "properties": {
+            "id": {
+              "$ref": "#/$defs/localId"
+            },
+            "kind": {
+              "const": "collection"
+            },
+            "members": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/localId"
+              }
+            },
+            "ordering": {
+              "enum": [
+                "FIXED",
+                "POLICY",
+                "FREE"
+              ]
+            },
+            "ordering_policy_ref": {
+              "$ref": "#/$defs/semanticRef"
+            }
+          }
+        }
+      ]
+    },
+    "argument": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "role_ref",
+        "value_id"
+      ],
+      "properties": {
+        "role_ref": {
+          "$ref": "#/$defs/semanticRef"
+        },
+        "value_id": {
+          "$ref": "#/$defs/localId"
+        }
+      }
+    },
+    "statement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "predicate_ref",
+        "arguments",
+        "polarity"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/localId"
+        },
+        "predicate_ref": {
+          "$ref": "#/$defs/semanticRef"
+        },
+        "arguments": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/argument"
+          }
+        },
+        "polarity": {
+          "enum": [
+            "positive",
+            "negative"
+          ]
+        },
+        "qualifiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "qualifier_ref",
+              "value_id"
+            ],
+            "properties": {
+              "qualifier_ref": {
+                "$ref": "#/$defs/semanticRef"
+              },
+              "value_id": {
+                "$ref": "#/$defs/localId"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "semanticGraph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "graph_id",
+        "nodes",
+        "statements"
+      ],
+      "properties": {
+        "graph_id": {
+          "$ref": "#/$defs/localId"
+        },
+        "nodes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/node"
+          }
+        },
+        "statements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statement"
+          }
+        }
+      }
+    },
+    "obligation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "obligation_id",
+        "semantic_refs",
+        "force"
+      ],
+      "properties": {
+        "obligation_id": {
+          "$ref": "#/$defs/localId"
+        },
+        "semantic_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/localId"
+          }
+        },
+        "force": {
+          "enum": [
+            "ASSERT",
+            "ASK",
+            "DIRECT",
+            "PRESENT"
+          ]
+        },
+        "ordering": {
+          "enum": [
+            "FIXED",
+            "POLICY",
+            "FREE"
+          ]
+        },
+        "ordering_policy_ref": {
+          "$ref": "#/$defs/semanticRef"
+        },
+        "visibility_requirements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/semanticRef"
+          }
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "supportEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "subject_id",
+        "property_ref",
+        "value"
+      ],
+      "properties": {
+        "subject_id": {
+          "$ref": "#/$defs/localId"
+        },
+        "property_ref": {
+          "$ref": "#/$defs/semanticRef"
+        },
+        "value": {}
+      }
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target_language"
+      ],
+      "properties": {
+        "target_language": {
+          "type": "string",
+          "minLength": 2
+        },
+        "target_locale": {
+          "type": "string"
+        },
+        "speaker_ref": {
+          "type": "string"
+        },
+        "recipient_ref": {
+          "type": "string"
+        },
+        "relationship": {
+          "type": "string"
+        },
+        "formality": {
+          "type": "string"
+        },
+        "politeness": {
+          "type": "string"
+        },
+        "register": {
+          "type": "string"
+        },
+        "tone_profile": {
+          "type": "string"
+        },
+        "channel": {
+          "type": "string"
+        },
+        "discourse_context_ref": {
+          "type": "string"
+        }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "allowed_block_kinds": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "utterance",
+              "question",
+              "list",
+              "label_value",
+              "notice",
+              "heading"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "opening_policy": {
+          "enum": [
+            "forbidden",
+            "allowed",
+            "required"
+          ]
+        },
+        "closing_policy": {
+          "enum": [
+            "forbidden",
+            "allowed",
+            "required"
+          ]
+        },
+        "list_policy": {
+          "enum": [
+            "forbidden",
+            "allowed",
+            "preferred"
+          ]
+        },
+        "terminology_profile_ref": {
+          "type": "string"
+        },
+        "max_length": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "output_format": {
+          "enum": [
+            "structured",
+            "plain_text",
+            "markdown"
+          ]
+        }
+      }
+    }
+  }
+}

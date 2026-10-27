@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "0.2",
+  "id": "biblical-traditions",
+  "label": {
+    "fr": "Traditions canoniques",
+    "en": "Canonical traditions"
+  },
+  "rootType": "tradition",
+  "facets": [],
+  "pivots": [
+    "canonical_work"
+  ],
+  "constellation": {
+    "defaultSatelliteCount": 12,
+    "groups": [
+      {
+        "id": "works",
+        "label": {
+          "fr": "Œuvres canoniques",
+          "en": "Canonical works"
+        },
+        "priority": 1.0,
+        "source": {
+          "kind": "relations",
+          "ids": [
+            "canonical_work"
+          ]
+        }
+      }
+    ]
+  }
+}
