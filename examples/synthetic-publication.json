@@ -1,0 +1,54 @@
+{
+  "profile": "encyklopedia.publication-bundle/0.1.0",
+  "mode": "synthetic-demo",
+  "qualified": false,
+  "publication_id": "demo-2026-10-26-001",
+  "framework_target": "11.0.0-draft.4",
+  "source_view_profile": "kristal.integration.read-view/v11.0-draft.1",
+  "locales": ["en", "fr"],
+  "articles": [
+    {
+      "id": "demo:article001",
+      "slug": "northwind-observatory",
+      "semantic_id": "demo:KQ1001",
+      "source_refs": [
+        {"id":"demo:KS4001","label":"Fictional source record for interface testing","url":null}
+      ],
+      "localized": {
+        "en": {
+          "title": "Northwind Observatory",
+          "summary": "A fictional observatory used to demonstrate source-linked encyclopedia reading.",
+          "sections": [
+            {"heading":"Overview","body":"Northwind Observatory is a synthetic example, not a claim about a real institution. It illustrates how an encyclopedia entry can have a stable subject identifier and clear source references."},
+            {"heading":"Evidence and provenance","body":"The reference below is intentionally fictional. Production entries will require independently qualified source records, publication authorization and verifiable provenance."}
+          ]
+        },
+        "fr": {
+          "title": "Observatoire Northwind",
+          "summary": "Un observatoire fictif utilisé pour illustrer la consultation encyclopédique avec références.",
+          "sections": [
+            {"heading":"Présentation","body":"L’Observatoire Northwind est un exemple synthétique, et non une affirmation sur une institution réelle. Il montre comment une entrée peut conserver un identifiant de sujet stable et des références explicites."},
+            {"heading":"Preuves et provenance","body":"La référence ci-dessous est volontairement fictive. La publication réelle exigera des sources qualifiées, des droits vérifiés et une autorisation de diffusion."}
+          ]
+        }
+      }
+    },
+    {
+      "id": "demo:article002",
+      "slug": "atlas-of-imaginary-forests",
+      "semantic_id": "demo:KQ1002",
+      "source_refs": [
+        {"id":"demo:KS4002","label":"Synthetic editorial example; no external source","url":null}
+      ],
+      "localized": {
+        "en": {
+          "title": "Atlas of Imaginary Forests",
+          "summary": "A sample multilingual entry that demonstrates how language fallback is disclosed.",
+          "sections": [
+            {"heading":"Description","body":"This invented atlas is a demonstration of a multilingual reading interface. Its absence in French is intentional: readers can see that English fallback was used."}
+          ]
+        }
+      }
+    }
+  ]
+}

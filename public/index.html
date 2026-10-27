@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="color-scheme" content="light"/>
+  <title>EncyKlopedia — Knowledge with context</title>
+  <meta name="description" content="EncyKlopedia: an emerging multilingual encyclopedia powered by the Kristal knowledge ecosystem."/>
+  <link rel="stylesheet" href="/styles.css"/>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="notice" role="status">SYNTHETIC DEMONSTRATION · NOT A PUBLIC KNOWLEDGE RELEASE</div>
+  <header class="masthead">
+    <a class="brand" href="/" aria-label="EncyKlopedia homepage">
+      <span class="brand-mark" aria-hidden="true">✣</span>
+      <span>Ency<span class="brand-k">K</span>lopedia</span>
+    </a>
+    <div class="header-right">
+      <span class="header-note">Powered by the Kristal ecosystem</span>
+      <label for="language" class="visually-hidden">Reading language</label>
+      <select id="language" aria-label="Reading language">
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+        <option value="ja">日本語 · fallback demo</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="eyebrow">AN OPEN DOOR TO KNOWLEDGE</div>
+      <h1 id="hero-heading">Knowledge, <em>with context.</em></h1>
+      <p id="hero-subtitle">Explore ideas across languages, with sources, identities and transparent coverage.</p>
+      <div class="searchbox">
+        <label class="visually-hidden" for="search">Search example articles</label>
+        <span aria-hidden="true">⌕</span>
+        <input id="search" type="search" maxlength="200" autocomplete="off" placeholder="Search the demonstration…"/>
+        <button id="search-btn" type="button">Search</button>
+      </div>
+      <p class="hero-hint">Currently showing synthetic articles only. No real encyclopedia corpus is published.</p>
+    </section>
+    <div class="content-layout">
+      <section class="results-area" aria-labelledby="results-heading">
+        <div class="section-header">
+          <div><div class="eyebrow">DISCOVER</div><h2 id="results-heading">Explore the demonstration</h2></div>
+          <span class="results-count" id="results-count" aria-live="polite">—</span>
+        </div>
+        <div id="results" class="article-grid" aria-live="polite"></div>
+      </section>
+      <aside class="about-card" aria-label="About this project">
+        <div class="eyebrow">WHY ENCYKLOPEDIA</div>
+        <h2>Beyond a page of text.</h2>
+        <p>Knowledge is more valuable when readers can understand its origin, language coverage and limits.</p>
+        <div class="about-line"><span class="dot"></span> Semantic identity preserved</div>
+        <div class="about-line"><span class="dot"></span> Provenance visible</div>
+        <div class="about-line"><span class="dot"></span> Language fallbacks disclosed</div>
+        <p class="about-foot">This alpha is a read-only prototype, not a source authority or a publishing engine.</p>
+      </aside>
+    </div>
+    <section id="article-view" class="article-view" hidden aria-labelledby="article-heading"></section>
+  </main>
+  <footer><span>EncyKlopedia · 0.1.0-alpha.1</span><span>Framework v11 alignment target · Demo only</span></footer>
+</body>
+</html>

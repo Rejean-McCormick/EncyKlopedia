@@ -1,0 +1,15 @@
+{
+  "name": "encyklopedia",
+  "version": "0.1.0-alpha.1",
+  "private": true,
+  "type": "module",
+  "description": "Read-only, multilingual encyclopedia delivery surface for qualified Kristal publications",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "dev": "node src/server.mjs",
+    "check": "node --check src/server.mjs && node --check src/catalog.mjs && node --check public/app.js",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm run check && npm test"
+  }
+}
