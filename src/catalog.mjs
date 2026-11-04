@@ -63,7 +63,11 @@ export function localizeArticle(article, locale) {
     id: article.id, slug: article.slug, semantic_id: article.semantic_id,
     requested_locale: locale, effective_locale, display_status,
     title: content?.title ?? null, summary: content?.summary ?? null,
-    sections: content?.sections ?? [], source_refs: article.source_refs
+    sections: content?.sections ?? [], source_refs: article.source_refs,
+    editorial_status: article.editorial_status ?? null, identity_status: article.identity_status ?? null,
+    unesco_id: article.unesco_id ?? null, unesco_uri: article.unesco_uri ?? null,
+    wikidata_candidate: article.wikidata_candidate ?? null,
+    skos_relations: article.skos_relations ?? null, claim_proposals: article.claim_proposals ?? []
   };
 }
 
@@ -74,7 +78,7 @@ export function browse(publication, locale = 'en', query = '', limit = MAX_RESUL
     if (!q) return true;
     const hay = `${a.title ?? ''} ${a.summary ?? ''} ${a.semantic_id}`.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase();
     return hay.includes(q);
-  }).slice(0, max).map(({sections,source_refs,...preview}) => preview);
+  }).slice(0, max).map(({sections,source_refs,claim_proposals,skos_relations,...preview}) => preview);
 }
 
 export function articleBySlug(publication, slug, locale = 'en') {

@@ -2,7 +2,7 @@
 
 **Global multilingual encyclopedia — powered by the Kristal knowledge ecosystem.**
 
-> **Status:** `0.1.0-alpha.1` — functional, local-only, synthetic **read-only demonstration**. Real-content publication, bulk indexing, public deployment and 100-language qualification are **not implemented**.
+> **Status:** `0.2.0-alpha.1` — local-only read-only synthetic demo **plus private unapproved UNESCO research preview**. Public release, bulk indexing and 100-language qualification are **not implemented**.
 
 EncyKlopedia is the *public reading and discovery application*, formerly planned as `kristal-encyclopedia` and discussed under the possible name `KristALL`. It is **not** the legacy EncyK source-acquisition engine and does not replace Skope, Konstellation, the Kristal Framework or Médiathèque kOA.
 
@@ -21,7 +21,7 @@ Global, multilingual encyclopedia powered by the Kristal knowledge ecosystem. Pr
 | Konstellation | Interactive exploration/navigation |
 | **EncyKlopedia** | Public-oriented read-only articles, discovery, multilingual presentation and publication delivery (once qualified) |
 
-**No data moves from Skope or EncyK to this demo.** No GitHub repo should contain the real knowledge corpus, dumps, credentials, local collection stores, or billions of generated article files.
+**No source data enters the synthetic demo.** The separate `research` mode reads explicitly selected UNESCO Workbench outputs, checks their SHA-256 integrity, and does not approve any semantic identity or source. No GitHub repo should contain the real knowledge corpus, dumps, credentials, local collection stores, or billions of generated article files.
 
 ## Quick start (Node.js 22+; no npm dependencies)
 
@@ -43,7 +43,9 @@ GET /api/v1/search?lang=fr&q=observatoire
 GET /api/v1/articles/northwind-observatory?lang=fr
 ```
 
-No write APIs, public-network listener, external fetching or real publication mechanism exist in this alpha. `ENCYKLOPEDIA_MODE=public` deliberately refuses to start. Demo mode binds to loopback only. See [release gates](docs/RELEASE_GATES.md).
+The private UNESCO research preview is launched by `UNESCO_Workbench\LANCER_VERSION_TOTALE.cmd`, followed by `Start_UNESCO_Research.cmd`. It contains 41 English vocabulary anchors and an unapproved draft on *Right to education*. See [private UNESCO research](docs/UNESCO_PRIVATE_RESEARCH.md).
+
+No write APIs, public-network listener, external fetching or authorized real publication mechanism exist in this alpha. `ENCYKLOPEDIA_MODE=public` deliberately refuses to start. Demo mode binds to loopback only. See [release gates](docs/RELEASE_GATES.md).
 
 ## Language/identity semantics
 
@@ -63,7 +65,7 @@ docs/         Architecture, publication gates and GitHub handoff instructions
 .github/      Dependency-free CI for this repository
 ```
 
-## Roadmap (not implemented)
+## Roadmap (not implemented as production features)
 
 1. Qualify read-only adapter of approved Framework v11 / Integration Pack reading views.
 2. Define immutable, explicitly authorized *publications* with privacy and licensing gates.

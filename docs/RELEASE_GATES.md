@@ -1,6 +1,6 @@
 # Release and public exposure gates
 
-**Current status:** ALL PRODUCTION GATES BLOCKED. This project serves synthetic demo data on loopback only.
+**Current status:** ALL PRODUCTION GATES BLOCKED. The project serves a synthetic demo or explicit unapproved UNESCO research on loopback only.
 
 | Gate | Minimum condition before a real public deployment | Alpha status |
 |---|---|---|
@@ -13,3 +13,7 @@
 An Integration Pack reading view is **derived only**; `presentation` is not a publication grant. Likewise a Skope scope, EncyK source handoff, Konstellation view or GitHub Pages demonstration is not evidence of permission to publish a real Kristal collection.
 
 The application refuses `ENCYKLOPEDIA_MODE=public` for this release. Do not remove this gate as a deployment shortcut. The future gate must verify *external, independently authorized* publication attestation, never a `true` flag provided by the same untrusted bundle.
+
+## UNESCO private research adapter (0.2-alpha)
+
+The private mode does **not** lift C1–C4. Its validation checks structural status, SHA-256 digest, localhost binding and candidate provenance. It neither proves source rights nor publishes real content.

@@ -1,4 +1,4 @@
-# Architecture — EncyKlopedia 0.1.0-alpha.1
+# Architecture — EncyKlopedia 0.2.0-alpha.1
 
 ## Boundary map
 
@@ -24,13 +24,13 @@ Konstellation is a parallel *interactive exploration* consumer of qualified data
 
 ## Current implementation
 
-The alpha provides a runnable local Node.js reader of **synthetic fixtures only**. The demonstration validates a local `encyklopedia.publication-bundle/0.1.0` envelope. It neither reads real Integrated Pack output nor consumes real Wikidata, GitHub source repositories, production article storage or a real content-management database.
+The alpha provides a local Node.js reader of **synthetic fixtures and, separately, an unapproved private UNESCO research view**. The demonstration validates a local `encyklopedia.publication-bundle/0.1.0` envelope. The private adapter reads a bounded Workbench-derived view from supplied historical RDF and a provisional v11 candidate, not a qualified Integration Pack publication or production article corpus.
 
 The local reader bundle is an **application draft contract**. Kristal Framework v11 remains the only normative owner of KQ/KP/KA/KS identifiers, source binding and lexical validation. The demo's `semantic_id` has a fake `demo:` prefix by design.
 
 Security baseline:
 - local loopback binding only, no public-network mode;
-- synthetic-demo-only validation and no content ingestion route;
+- strict demo/private-research validation and no content ingestion route;
 - HTTP GET/HEAD only; no mutation endpoints, wildcard CORS, or filesystem traversal;
 - bounded search and narrow slug routing;
 - content rendered as text via DOM APIs; no user-supplied HTML;
