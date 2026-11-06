@@ -12,6 +12,13 @@
     "dev": "node src/server.mjs",
     "check": "node --check src/server.mjs && node --check src/catalog.mjs && node --check src/research.mjs && node --check public/app.js",
     "test": "node --test tests/*.test.mjs",
-    "verify": "npm run check && npm test"
+    "verify": "npm run check && npm test",
+    "harvest:sources": "node tools/dictionary-harvester/cli.mjs sources",
+    "harvest:status": "node tools/dictionary-harvester/cli.mjs status",
+    "harvest:test": "node --test tests/dictionary-harvester.test.mjs",
+    "lexical:plan": "node tools/dictionary-harvester/cli.mjs index-plan",
+    "lexical:index": "node tools/dictionary-harvester/cli.mjs index-run",
+    "lexical:status": "node tools/dictionary-harvester/cli.mjs index-status",
+    "lexical:repair": "node tools/dictionary-harvester/cli.mjs index-repair"
   }
 }

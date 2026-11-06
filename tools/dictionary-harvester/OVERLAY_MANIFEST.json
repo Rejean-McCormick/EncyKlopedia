@@ -1,0 +1,94 @@
+{
+  "profile": "encyklopedia.dictionary-harvester-overlay/0.3.0",
+  "revision": "c-code-d-data-targeted-unimorph-repair-gui",
+  "date": "2026-11-05",
+  "code_root": "root of EncyKlopedia engine repo on C:",
+  "default_windows_data_root": "D:\\EncyKlopedia",
+  "includes_all_of": "0.2.0",
+  "does_not_include_corpus": true,
+  "does_not_modify_reader": true,
+  "python_stdlib_required": "3.10+ (Tkinter for .pyw UI)",
+  "scope": "repair only incomplete UniMorph sources; do not alter the completed archives",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "aaf209990625862ba760318e9406ad1624864630cc861a212ad47746e022d622"
+    },
+    {
+      "path": "Plan_Indexation_Dictionnaires.cmd",
+      "sha256": "cc4d387a5950da579253c24666e8d0a8a7332aa5ccaf396d8d5fd096e34988e2"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e5af2b5164dcd37ff90a2dba91dc00ac5cfb23b1f197363e477f07ecb95a865d"
+    },
+    {
+      "path": "Reparer_Dictionnaires_UI.pyw",
+      "sha256": "97c3d305968cdb29ab573620b0e2f2ab9e0212615f79c3faa22c35de822fc3d6"
+    },
+    {
+      "path": "Start_Dictionary_Harvester.cmd",
+      "sha256": "1a49fff14e051316c07eda2c952f68baa1e248e6aa87d17ff74711b05591f241"
+    },
+    {
+      "path": "Start_Indexation_Dictionnaires.cmd",
+      "sha256": "aeb482f45a9e72cf8892953289024c59bd84375d8ac784c598751b8f04dbe22a"
+    },
+    {
+      "path": "Verify_Dictionary_Harvester.cmd",
+      "sha256": "97c15f96421dc4320038b89bb9bf470ad961abbe636db9451568b3c037729908"
+    },
+    {
+      "path": "docs/DICTIONARY_HARVESTER.md",
+      "sha256": "4cec0c1eb3ad6886fcb1f8064212dc2d1a9ea5f7e06e52576fb573267064c029"
+    },
+    {
+      "path": "docs/INDEXATION_LEXICALE_MONDE.md",
+      "sha256": "a815e8e2f3de415b51cbc4f533af9e177a310243d0ab944252d42e8d35d43260"
+    },
+    {
+      "path": "docs/REPARATION_UNIMORPH_V03.md",
+      "sha256": "40b60dc5c66d2465189f38273b6c1c5a783da197d0b95f576e3b524620ecdbed"
+    },
+    {
+      "path": "package.json",
+      "sha256": "f10b3e4aa2a4e2fe8990fb88f21a4a5d325e7ad78d55a0d29c17097ba5c8cd55"
+    },
+    {
+      "path": "tests/dictionary-harvester.test.mjs",
+      "sha256": "be28651d38387de6728250a11dd90ab844c52dbb8fae473686147f527d2b3a2b"
+    },
+    {
+      "path": "tests/test_lexical_indexer.py",
+      "sha256": "9dc39fc99d5b7e0520e8e99f77f697f51e22a69c2fc2ff520b720dc468f29a6c"
+    },
+    {
+      "path": "tests/test_lexical_repair.py",
+      "sha256": "f4abc9e2cd8ee8e343d809a47dc75922b19bb000cf90ef3392db91c4dadf7771"
+    },
+    {
+      "path": "tools/dictionary-harvester/cli.mjs",
+      "sha256": "74dae37c647e128e1a89069d175f8e0780ce237a5fc135412dd63c2fece92b5b"
+    },
+    {
+      "path": "tools/dictionary-harvester/language-aliases.json",
+      "sha256": "3255224bbda9e669436bca3b1a73ebcfcfc94c4cac28a1b0da69af2b0debb12f"
+    },
+    {
+      "path": "tools/dictionary-harvester/lexical_indexer.py",
+      "sha256": "41016614ad6b5d1472becb19377b0fed664b77e76ab44221d8ea711e0c2b1189"
+    },
+    {
+      "path": "tools/dictionary-harvester/lib.mjs",
+      "sha256": "4d9a25cae2a08d0eb3ccda258748acce5cab7794930106a5ba25bf68c4271115"
+    },
+    {
+      "path": "tools/dictionary-harvester/sources.json",
+      "sha256": "18cd8577ce5108d3b2a5de0b07e807dd219110757d4780e2c766ef4d1d1df6dd"
+    },
+    {
+      "path": "tools/dictionary-harvester/verify-overlay.mjs",
+      "sha256": "8ad068475ef00c9775dfa90af25ea5cb054757848ab9289a905e3f21fbf03927"
+    }
+  ]
+}

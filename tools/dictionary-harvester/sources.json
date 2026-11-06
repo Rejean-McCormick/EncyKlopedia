@@ -1,0 +1,40 @@
+{
+  "profile": "encyklopedia.dictionary-acquisition-sources/0.1.0",
+  "status": "discovery_candidates_not_approved_for_publication",
+  "sources": [
+    {
+      "id": "iana-subtags", "name": "IANA Language Subtag Registry", "category": "language-registry",
+      "homepage": "https://www.iana.org/assignments/language-subtags-tags-extensions",
+      "download_url": "https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry",
+      "allowed_hosts": ["www.iana.org"], "format": "iana-txt", "max_bytes": 15000000,
+      "license_review": "required", "public_reuse": "not_assessed"
+    },
+    {
+      "id": "wikidata-lexemes", "name": "Wikidata lexeme dump", "category": "lexical",
+      "homepage": "https://www.wikidata.org/wiki/Wikidata:Database_download",
+      "download_url": "https://dumps.wikimedia.org/wikidatawiki/entities/latest-lexemes.json.bz2",
+      "allowed_hosts": ["dumps.wikimedia.org"], "format": "wikidata-json-bz2", "max_bytes": 4500000000,
+      "license_review": "CC0-structured-data-check-current-terms", "public_reuse": "not_assessed"
+    },
+    {
+      "id": "kaikki-simple", "name": "Kaikki Simple Wiktionary raw Wiktextract", "category": "lexical",
+      "homepage": "https://kaikki.org/simplewiktionary/rawdata.html",
+      "download_url": "https://kaikki.org/simplewiktionary/raw-wiktextract-data.jsonl.gz",
+      "allowed_hosts": ["kaikki.org"], "format": "wiktextract-jsonl-gz", "max_bytes": 150000000,
+      "license_review": "Wiktionary attribution-sharealike-per-entry-review", "public_reuse": "not_assessed"
+    },
+    {
+      "id": "kaikki-en", "name": "Kaikki English Wiktionary raw Wiktextract", "category": "lexical",
+      "homepage": "https://kaikki.org/dictionary/rawdata.html",
+      "download_url": "https://kaikki.org/dictionary/raw-wiktextract-data.jsonl.gz",
+      "allowed_hosts": ["kaikki.org"], "format": "wiktextract-jsonl-gz", "max_bytes": 8000000000,
+      "license_review": "Wiktionary attribution-sharealike-per-entry-review", "public_reuse": "not_assessed"
+    },
+    {
+      "id": "unimorph", "name": "UniMorph morphological datasets", "category": "morphology",
+      "homepage": "https://unimorph.github.io/", "download_url": null,
+      "allowed_hosts": [], "format": "per-language-tsv", "max_bytes": null,
+      "license_review": "per-repository-review-required", "public_reuse": "not_assessed"
+    }
+  ]
+}

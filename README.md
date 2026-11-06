@@ -53,6 +53,10 @@ Article `display_status` of `direct` or `fallback` is **UI display availability*
 
 The architecture targets Framework `11.0.0-draft.4` and Integration Pack read view `kristal.integration.read-view/v11.0-draft.1`. Their presence in metadata **does not prove interoperability or publication approval**. Source data must only be promoted to a public serving artifact after explicit C2/C4 checks, authorized source rights, privacy/redaction and independent cross-repo qualification.
 
+## Optional private dictionary harvester (candidate tool) — C: code / D: data
+
+This snapshot can be extended by a separate local, opt-in dictionary-acquisition tool under `tools/dictionary-harvester/`, storing raw captures on **D:** under `D:\EncyKlopedia\10_sources\lexical\harvester` and unreviewed observations under `D:\EncyKlopedia\30_working\lexical\harvester` (code stays in the C: repository). It **does not** make the EncyKlopedia reader a source-acquisition authority and does not bypass Skope/EncyK, Médiathèque kOA, diK or C2/C4 publication checks. No public HTTP ingestion endpoint is added. Run `npm run harvest:sources` for a list of candidate sources; see [local dictionary harvester](docs/DICTIONARY_HARVESTER.md).
+
 ## Repository structure
 
 ```text
@@ -78,3 +82,12 @@ See [architecture](docs/ARCHITECTURE.md). Every production gate is **open work**
 ## License
 
 **Not selected.** Do not infer a default open-source license or rights for future corpus data. The repository owner must decide a code license and separate content policy before public redistribution.
+
+### Index local des dictionnaires (candidat v0.2)
+
+L'outil privé `Start_Indexation_Dictionnaires.cmd` dans le dépôt **C:** découvre les archives Kaikki, UniMorph et Wikidata Lexemes déjà présentes dans **D:\EncyKlopedia**, les lit en flux et crée **uniquement sur D:** un index SQLite de lemmes, des formes UniMorph, des compteurs de sens/formes/traductions et des rapports par langue. Il ne télécharge ni ne copie les archives. Statuts **unreviewed**, sans promotion diK/Framework. Python 3.10+ est requis en complément de Node.js. Voir [indexation lexicale mondiale](docs/INDEXATION_LEXICALE_MONDE.md).
+
+
+### Réparation des données UniMorph (v0.3)
+
+Double-cliquer sur `Reparer_Dictionnaires_UI.pyw` (code sur C:, archives et index dérivé sur D:). Le bouton de réparation ne reprend que les sources UniMorph non complètes, jamais les archives déjà indexées. Détails : `docs/REPARATION_UNIMORPH_V03.md`.
