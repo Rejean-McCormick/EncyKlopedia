@@ -18,6 +18,8 @@ Global, multilingual encyclopedia powered by the Kristal knowledge ecosystem. Pr
 | Médiathèque kOA | Durable source/snapshot/representation authority |
 | Kristal Framework + Authoring Kit | Semantic identity, approved knowledge and canonical contract governance |
 | Kristal Integration Pack | Validated, **non-canonical**, derived v11 read-view handoff |
+| diK (curated dictionaries; future qualified handoff) | Curated lexical identities, language-specific lexicalizations and governed sense mappings; candidate harvester output is **not** curated diK content |
+| GF / GF Wordbench | Abstract/concrete grammar and language realization tooling; production handoff is **not yet qualified** |
 | Konstellation | Interactive exploration/navigation |
 | **EncyKlopedia** | Public-oriented read-only articles, discovery, multilingual presentation and publication delivery (once qualified) |
 
@@ -47,11 +49,32 @@ The private UNESCO research preview is launched by `UNESCO_Workbench\LANCER_VERS
 
 No write APIs, public-network listener, external fetching or authorized real publication mechanism exist in this alpha. `ENCYKLOPEDIA_MODE=public` deliberately refuses to start. Demo mode binds to loopback only. See [release gates](docs/RELEASE_GATES.md).
 
-## Language/identity semantics
+## Knowledge, dictionaries and grammatical realization
 
-Article `display_status` of `direct` or `fallback` is **UI display availability**, *not* the upstream Framework's lexical `direct/fallback/missing` coverage. The complete Kristal IDs (KQ/KP/KA/KS), original assertions, provenance and source hashes must remain traceable in the future **approved publication adapter**. Synthetic `demo:` identifiers in this repository must never be interpreted as Kristal identities.
+**Kristals are language-independent knowledge objects.** Their semantic identifiers, predicates, argument roles, assertions, epistemic states and provenance do **not** depend on English, French or any other natural language. Source quotations or language-tagged labels may be attached as evidence or annotations, but they are **not** the identity or truth of the knowledge claim.
 
-The architecture targets Framework `11.0.0-draft.4` and Integration Pack read view `kristal.integration.read-view/v11.0-draft.1`. Their presence in metadata **does not prove interoperability or publication approval**. Source data must only be promoted to a public serving artifact after explicit C2/C4 checks, authorized source rights, privacy/redaction and independent cross-repo qualification.
+The intended publication pipeline separates semantic and linguistic authority:
+
+```text
+Approved Kristal knowledge + provenance
+    -> qualified, non-canonical read projection / semantic realization input
+    -> reviewed semantic-to-lexical bindings + curated diK dictionaries
+    -> GF abstract trees + language-specific GF grammar/lexicon
+    -> generated language-specific text
+    -> qualified EncyKlopedia article composition and read-only delivery
+```
+
+The GF Wordbench supports lexical and grammar development; the GF Resource Grammar Library supplies reusable language grammar infrastructure. Lexical resources must be shared and versioned **outside individual Kristals**. Neither string matching, UNESCO SKOS labels nor Wikidata sitelinks/Lexemes automatically certify a semantic equivalence, a dictionary entry or a publishable phrase.
+
+The existing local Kaikki/UniMorph/Wikidata Lexemes pipeline **only discovers and stages candidates**; its v0.5 and v0.6 handoffs do not populate curated diK dictionaries, assign Kristal identities, or generate approved GF sentences. The alpha reader currently uses manually authored synthetic demonstration text, **not** this production realization pipeline.
+
+For the full contract, including semantic-role requirements, dictionary layers, GF interfaces, fallback rules, traceability and test gates, see **[Language architecture and Kristal realization contract](docs/LANGUAGE_ARCHITECTURE.md)** and the [overall architecture](docs/ARCHITECTURE.md).
+
+### Language/identity semantics in the current alpha
+
+Article `display_status` of `direct` or `fallback` is **UI display availability**, *not* the upstream Framework's lexical `direct/fallback/missing` coverage. A future production adapter must report lexical coverage, grammar coverage and actually delivered locale independently. The complete Kristal IDs (KQ/KP/KA/KS), original assertions, provenance, lexical/grammar versions and source hashes must remain traceable. Synthetic `demo:` identifiers in this repository must never be interpreted as Kristal identities.
+
+The architecture targets Framework `11.0.0-draft.4` and Integration Pack read view `kristal.integration.read-view/v11.0-draft.1`. Their presence in metadata **does not prove interoperability or publication approval**. Source data must only be promoted to a public serving artifact after explicit C2/C4 checks, authorized source rights, privacy/redaction, independently qualified linguistic realization and cross-repo qualification.
 
 ## Optional private dictionary harvester (candidate tool) — C: code / D: data
 
@@ -79,15 +102,24 @@ docs/         Architecture, publication gates and GitHub handoff instructions
 
 See [architecture](docs/ARCHITECTURE.md). Every production gate is **open work**.
 
+## Local lexical source pipeline (candidate, not language authority)
+
+All source archives, work databases and candidate exports stay on `D:\EncyKlopedia`; tools and UI launchers remain in the C: repository. These are **private, opt-in preparation utilities**, not public reading endpoints or automatic diK/Framework/GF publishers. Their legacy tool-specific runbooks remain available under `docs/`.
+
+| Stage | Entry point / guide | What it produces (and does not authorize) |
+|---|---|---|
+| v0.2 inventory and indexing | `Start_Indexation_Dictionnaires.cmd` — [global lexical indexing](docs/INDEXATION_LEXICALE_MONDE.md) | Streams existing Kaikki, UniMorph and Wikidata Lexemes archives into a private D: SQLite index; observations remain unreviewed |
+| v0.3 UniMorph repair | `Reparer_Dictionnaires_UI.pyw` — [targeted repair](docs/REPARATION_UNIMORPH_V03.md) | Repairs eligible incomplete UniMorph source records; never modifies original archives |
+| v0.4 quality audit | `Audit_Qualite_Lexicale_UI.pyw` — [quality audit](docs/AUDIT_QUALITE_LEXICALE_V04.md) | Measures candidate quality and normalized-key overlap; does not establish shared meaning |
+| v0.5 candidate diK reconciliation | `Concilier_Dictionnaires_diK_UI.pyw` / `Start_Conciliation_diK.cmd` — [candidate reconciliation](docs/CONCILIATION_DIK_LEX1_V05.md) | Produces evidence shards and a diK review queue; **no automatic sense alignment or `exactMatch`** |
+| v0.6 evidence enrichment | `Enrichir_Dictionnaires_diK_UI.pyw` / `Start_Enrichissement_diK.cmd` — [evidence enrichment](docs/ENRICHISSEMENT_DIK_LEX1_V06.md) | Re-reads selected provenance-anchored examples; not an exhaustive sense dictionary or a normative diK import |
+
+The candidate output lives under `D:\EncyKlopedia\30_working\lexical\harvester`. It requires separate license/provenance review, word-sense disambiguation, curated diK acceptance and an independently validated semantic-to-GF interface before it can support real text generation. See [dictionary acquisition](docs/DICTIONARY_HARVESTER.md) and [language architecture](docs/LANGUAGE_ARCHITECTURE.md).
+
+## Roadmap clarification
+
+In addition to the release roadmap above, language realization needs a separate cross-repository qualification: stable semantic role signatures, governed lexical bindings, versioned GF abstract/concrete grammar, EN/FR pilot tests, explicit direct/fallback/missing behavior and reproducibility of generated text. This is **future work**, not a feature of `0.2.0-alpha.1`.
+
 ## License
 
 **Not selected.** Do not infer a default open-source license or rights for future corpus data. The repository owner must decide a code license and separate content policy before public redistribution.
-
-### Index local des dictionnaires (candidat v0.2)
-
-L'outil privé `Start_Indexation_Dictionnaires.cmd` dans le dépôt **C:** découvre les archives Kaikki, UniMorph et Wikidata Lexemes déjà présentes dans **D:\EncyKlopedia**, les lit en flux et crée **uniquement sur D:** un index SQLite de lemmes, des formes UniMorph, des compteurs de sens/formes/traductions et des rapports par langue. Il ne télécharge ni ne copie les archives. Statuts **unreviewed**, sans promotion diK/Framework. Python 3.10+ est requis en complément de Node.js. Voir [indexation lexicale mondiale](docs/INDEXATION_LEXICALE_MONDE.md).
-
-
-### Réparation des données UniMorph (v0.3)
-
-Double-cliquer sur `Reparer_Dictionnaires_UI.pyw` (code sur C:, archives et index dérivé sur D:). Le bouton de réparation ne reprend que les sources UniMorph non complètes, jamais les archives déjà indexées. Détails : `docs/REPARATION_UNIMORPH_V03.md`.

@@ -26,6 +26,16 @@ Usage: node tools/dictionary-harvester/cli.mjs <command> [options]
   index-status                     Index status, without running ingestion
   index-repair                     Repair only incomplete UniMorph sources (v0.3)
   index-lookup --query MOT [--language fr] [--match form]  Search candidates
+  quality-diagnostic                 Read-only diagnosis of pib/sdh no_data ZIPs (v0.4)
+  quality-audit [--languages fr,en]  Exact normalized key counts and source overlaps; resumable
+  quality-status                     Show latest candidate quality audit
+  dik-plan                           Inspect existing source index for candidate reconciliation
+  dik-stage [--languages fr,en]      Stage/resume cross-family spelling candidates for diK (v0.5)
+  dik-status                         Show last candidate stage status
+  dik-verify                         Verify SHA-256 of exported candidate JSONL
+  dik-enrich-plan                    Inspect v0.5 anchors for semantic evidence (v0.6)
+  dik-enrich-run [--languages fr,en] Read original sources at sampled anchors; resumable
+  dik-enrich-verify                  Verify v0.6 candidate-evidence JSONL exports
 
 Optional: --data-root PATH (default on Windows D:\\EncyKlopedia)
           or ENCYK_DATA_ROOT environment variable
@@ -58,11 +68,15 @@ export async function main(args=process.argv.slice(2)) {
   if (!cmd || cmd==='--help' || cmd==='help') {console.log(HELP);return;}
   const o=flags(argv);
   if (o.store) throw Error('Obsolete --store: use --data-root to select the D: data lake');
-  if (cmd.startsWith('index-')) {
-    const commands = {'index-plan':'plan','index-run':'run','index-repair':'repair','index-status':'status','index-lookup':'lookup'};
-    if (!commands[cmd]) throw Error('Unknown index command');
+  if (cmd.startsWith('index-') || cmd.startsWith('quality-') || cmd.startsWith('dik-')) {
+    const commands = {'index-plan':'plan','index-run':'run','index-repair':'repair','index-status':'status','index-lookup':'lookup',
+      'quality-diagnostic':'diagnostic','quality-audit':'audit','quality-status':'status',
+      'dik-plan':'plan','dik-stage':'run','dik-status':'status','dik-verify':'verify',
+      'dik-enrich-plan':'plan','dik-enrich-run':'run','dik-enrich-verify':'verify'};
+    if (!commands[cmd]) throw Error('Unknown lexical command');
     await assertDataLayout(resolveDataRoot(o['data-root']));
-    const root = fileURLToPath(new URL('./lexical_indexer.py', import.meta.url));
+    const script = cmd.startsWith('quality-') ? './quality_audit.py' : cmd.startsWith('dik-enrich-') ? './semantic_enrichment.py' : cmd.startsWith('dik-') ? './dik_reconciliation.py' : './lexical_indexer.py';
+    const root = fileURLToPath(new URL(script, import.meta.url));
     const candidates = process.platform === 'win32' ? [['py','-3'],['python']] : [['python3'],['python']];
     let runner;
     for (const c of candidates) {

@@ -19,6 +19,15 @@
     "lexical:plan": "node tools/dictionary-harvester/cli.mjs index-plan",
     "lexical:index": "node tools/dictionary-harvester/cli.mjs index-run",
     "lexical:status": "node tools/dictionary-harvester/cli.mjs index-status",
-    "lexical:repair": "node tools/dictionary-harvester/cli.mjs index-repair"
+    "lexical:repair": "node tools/dictionary-harvester/cli.mjs index-repair",
+    "lexical:quality": "node tools/dictionary-harvester/cli.mjs quality-audit",
+    "lexical:quality:diagnostic": "node tools/dictionary-harvester/cli.mjs quality-diagnostic",
+    "lexical:dik:plan": "node tools/dictionary-harvester/cli.mjs dik-plan",
+    "lexical:dik:stage": "node tools/dictionary-harvester/cli.mjs dik-stage",
+    "lexical:dik:status": "node tools/dictionary-harvester/cli.mjs dik-status",
+    "lexical:dik:verify": "node tools/dictionary-harvester/cli.mjs dik-verify",
+    "lexical:dik:enrich:plan": "node tools/dictionary-harvester/cli.mjs dik-enrich-plan",
+    "lexical:dik:enrich": "node tools/dictionary-harvester/cli.mjs dik-enrich-run",
+    "lexical:dik:enrich:verify": "node tools/dictionary-harvester/cli.mjs dik-enrich-verify"
   }
 }

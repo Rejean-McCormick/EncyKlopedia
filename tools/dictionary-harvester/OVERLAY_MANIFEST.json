@@ -1,18 +1,32 @@
 {
-  "profile": "encyklopedia.dictionary-harvester-overlay/0.3.0",
-  "revision": "c-code-d-data-targeted-unimorph-repair-gui",
-  "date": "2026-11-05",
-  "code_root": "root of EncyKlopedia engine repo on C:",
+  "profile": "encyklopedia.dictionary-harvester-overlay/0.6.0",
+  "revision": "c-code-d-data-massive-anchored-semantic-evidence-tkinter-checkpoints",
+  "date": "2026-11-06",
+  "code_root": "root of EncyKlopedia engine repository on C:",
   "default_windows_data_root": "D:\\EncyKlopedia",
-  "includes_all_of": "0.2.0",
+  "includes_all_of": "harvester v0.1.1; indexer v0.2; UniMorph repair v0.3; quality v0.4; diK candidate reconciliation v0.5",
+  "scope": "source-anchored evidence from Kaikki/Wikidata L/S/F/UniMorph; resumable source/batch; candidate triage, per-language JSONL SHA256 and Tkinter UI",
   "does_not_include_corpus": true,
   "does_not_modify_reader": true,
-  "python_stdlib_required": "3.10+ (Tkinter for .pyw UI)",
-  "scope": "repair only incomplete UniMorph sources; do not alter the completed archives",
+  "does_not_promote_canonical": true,
+  "coverage_limitation": "only v0.5 sampled source-line anchors, not exhaustive lexical sense extraction",
+  "python_stdlib_required": "3.10+ Tkinter for GUI",
   "files": [
     {
       "path": ".gitignore",
       "sha256": "aaf209990625862ba760318e9406ad1624864630cc861a212ad47746e022d622"
+    },
+    {
+      "path": "Audit_Qualite_Lexicale_UI.pyw",
+      "sha256": "7cb5bc0b91efb428faf934e3b4bd47f6b285ceda434dfccdbcb12cbaee891629"
+    },
+    {
+      "path": "Concilier_Dictionnaires_diK_UI.pyw",
+      "sha256": "b5356360670793dc7d3f8e5e22bd5fb58d90b067eace25ed402e038298f0f5d4"
+    },
+    {
+      "path": "Enrichir_Dictionnaires_diK_UI.pyw",
+      "sha256": "162c1f9b1b778d2f51de21dc1eea895759ef4912c5a431734ab939b9e14519c5"
     },
     {
       "path": "Plan_Indexation_Dictionnaires.cmd",
@@ -20,15 +34,27 @@
     },
     {
       "path": "README.md",
-      "sha256": "e5af2b5164dcd37ff90a2dba91dc00ac5cfb23b1f197363e477f07ecb95a865d"
+      "sha256": "ec8a3731066e747e34e2064b921b24a06bcaa0cdc9f1709dc44e6207897e800b"
     },
     {
       "path": "Reparer_Dictionnaires_UI.pyw",
       "sha256": "97c3d305968cdb29ab573620b0e2f2ab9e0212615f79c3faa22c35de822fc3d6"
     },
     {
+      "path": "Start_Audit_Qualite_Lexicale.cmd",
+      "sha256": "aa0a27c38fefd6e1b44f1fdc4fae4ec8bcd342c14d40e048405765c93dda7593"
+    },
+    {
+      "path": "Start_Conciliation_diK.cmd",
+      "sha256": "0422c3b60ccb32e11cb99563fc64c435551ada3f5f2fbe523bcfa10c0f9c8d53"
+    },
+    {
       "path": "Start_Dictionary_Harvester.cmd",
       "sha256": "1a49fff14e051316c07eda2c952f68baa1e248e6aa87d17ff74711b05591f241"
+    },
+    {
+      "path": "Start_Enrichissement_diK.cmd",
+      "sha256": "b725dcc7a9b9b5bd751f1d90e924ed8074279be9d49fc002830ddd3595c70acf"
     },
     {
       "path": "Start_Indexation_Dictionnaires.cmd",
@@ -39,8 +65,20 @@
       "sha256": "97c15f96421dc4320038b89bb9bf470ad961abbe636db9451568b3c037729908"
     },
     {
+      "path": "docs/AUDIT_QUALITE_LEXICALE_V04.md",
+      "sha256": "a2e09e31351f06016a630fdb2a6cdd27236bc5e278e2eab62b5f45c44d0587d5"
+    },
+    {
+      "path": "docs/CONCILIATION_DIK_LEX1_V05.md",
+      "sha256": "c2841baa0897fdf12174585c4c21922ff205290993190bd7ac869202b1800399"
+    },
+    {
       "path": "docs/DICTIONARY_HARVESTER.md",
       "sha256": "4cec0c1eb3ad6886fcb1f8064212dc2d1a9ea5f7e06e52576fb573267064c029"
+    },
+    {
+      "path": "docs/ENRICHISSEMENT_DIK_LEX1_V06.md",
+      "sha256": "3d6f9ca263b63bf1b75f0a4bac62151b7476aa83382257133e5856347f721c1d"
     },
     {
       "path": "docs/INDEXATION_LEXICALE_MONDE.md",
@@ -52,23 +90,43 @@
     },
     {
       "path": "package.json",
-      "sha256": "f10b3e4aa2a4e2fe8990fb88f21a4a5d325e7ad78d55a0d29c17097ba5c8cd55"
+      "sha256": "174331af9b1117318b3edafd7a5dfebd996f5522c3b51f93915df897ff16a92d"
     },
     {
       "path": "tests/dictionary-harvester.test.mjs",
       "sha256": "be28651d38387de6728250a11dd90ab844c52dbb8fae473686147f527d2b3a2b"
     },
     {
+      "path": "tests/test_dik_contract.py",
+      "sha256": "300e92ad86646231d1ef57e5f3cf015e56fc4b5bf8e56603872aae87f3c5ce46"
+    },
+    {
+      "path": "tests/test_dik_reconciliation.py",
+      "sha256": "91803627a828ad5a9dad835ccdf7649ec421ab11167de9e89f9754e17d16d772"
+    },
+    {
       "path": "tests/test_lexical_indexer.py",
       "sha256": "9dc39fc99d5b7e0520e8e99f77f697f51e22a69c2fc2ff520b720dc468f29a6c"
+    },
+    {
+      "path": "tests/test_lexical_quality.py",
+      "sha256": "28473e9c2d113dab9b6806b221e9e7ce4c7296c7f3ace7b1b100b552cd29947a"
     },
     {
       "path": "tests/test_lexical_repair.py",
       "sha256": "f4abc9e2cd8ee8e343d809a47dc75922b19bb000cf90ef3392db91c4dadf7771"
     },
     {
+      "path": "tests/test_semantic_enrichment.py",
+      "sha256": "1122f278961b9616f4ad854d3be469e1cea790c61b477fba8e7f3614d4206e0f"
+    },
+    {
       "path": "tools/dictionary-harvester/cli.mjs",
-      "sha256": "74dae37c647e128e1a89069d175f8e0780ce237a5fc135412dd63c2fece92b5b"
+      "sha256": "d2aed40569016bb9ca0c5e1ab2e4fe8d47554045697edda728b5d6873d1cd5cb"
+    },
+    {
+      "path": "tools/dictionary-harvester/dik_reconciliation.py",
+      "sha256": "ccfff46f677c108b21778f0badb291dc5f6d7bdcdccebfcd483d658d67bca364"
     },
     {
       "path": "tools/dictionary-harvester/language-aliases.json",
@@ -83,12 +141,20 @@
       "sha256": "4d9a25cae2a08d0eb3ccda258748acce5cab7794930106a5ba25bf68c4271115"
     },
     {
+      "path": "tools/dictionary-harvester/quality_audit.py",
+      "sha256": "a05f9d26566bf06f9386b465b15acd757a92d97f3b707d104d00b7efa597abaa"
+    },
+    {
+      "path": "tools/dictionary-harvester/semantic_enrichment.py",
+      "sha256": "70b962de21d558fcdfdfcb06bdbe8b14af9a64e8ab36dde59518cddbd0050d81"
+    },
+    {
       "path": "tools/dictionary-harvester/sources.json",
       "sha256": "18cd8577ce5108d3b2a5de0b07e807dd219110757d4780e2c766ef4d1d1df6dd"
     },
     {
       "path": "tools/dictionary-harvester/verify-overlay.mjs",
-      "sha256": "8ad068475ef00c9775dfa90af25ea5cb054757848ab9289a905e3f21fbf03927"
+      "sha256": "3a6b5bb5e4d597ddbf63a74ba8897f132e939f1acc97baeb12ce472d9b77edb4"
     }
   ]
 }
