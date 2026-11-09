@@ -1,0 +1,40 @@
+{
+  "files": {
+    "EncyKlopedia/EncyKlopedia/AUDITER_UNESCO_EXTRACTION_WIKIPEDIA_LOT_002_V20.cmd": {
+      "bytes": 289,
+      "sha256": "30b962209a5c8ca5cfd6506902bc72b2aa36428f095596f97d62417e9888ee35"
+    },
+    "EncyKlopedia/EncyKlopedia/DIAGNOSTIC_UNESCO_SOURCE_XML_V20.cmd": {
+      "bytes": 225,
+      "sha256": "01bb40708c259c2d1c36919e0cc83f0fa42b462cbe7e63dc6926a9deb4c84989"
+    },
+    "EncyKlopedia/EncyKlopedia/LANCER_UNESCO_EXTRACTION_WIKIPEDIA_LOT_002_V20.cmd": {
+      "bytes": 1341,
+      "sha256": "9f39c5b2c2d4ad3937c20eb71cbb3bc792d1a0f2a6d6a5ba8259a261204a4fe6"
+    },
+    "EncyKlopedia/EncyKlopedia/VERIFIER_UNESCO_EXTRACTION_WIKIPEDIA_V20.cmd": {
+      "bytes": 184,
+      "sha256": "bc5699a69ebdb6a794813afa3798d9e7e2cee716b9709cf200ff3d3bfbbda3cb"
+    },
+    "EncyKlopedia/EncyKlopedia/tools/unesco_pilot/verifier_overlay_extraction_v20.py": {
+      "bytes": 1830,
+      "sha256": "3d6987ffaff0fc894213504ce1d1bc7f4aff1c1e9e8d78258449cdc619fc78fd"
+    },
+    "EncyKlopedia/mediatheque-references/tools/wiki/atlas/SELECTION_UNESCO_ATLAS_V19_LOT_002_25_PAGES.csv": {
+      "bytes": 3608,
+      "sha256": "9c209c7d43d6c2f5b6e19444d7af4924d94567c3bd64ec6b751dda3c40da711f"
+    },
+    "EncyKlopedia/mediatheque-references/tools/wiki/atlas/extraction_multistream_v20.py": {
+      "bytes": 12093,
+      "sha256": "5a0fa69ecfaf72fdf8c48e9bbdd0a59d18ceb85515d3a4133a4f6b303884ec87"
+    },
+    "EncyKlopedia/mediatheque-references/tools/wiki/atlas/extraire_lots_v20.py": {
+      "bytes": 14800,
+      "sha256": "a013a0d4794b95ece330df589e9dc183c7b2ff0402aa72bf1914275674aeb6f3"
+    }
+  },
+  "format": "koa.unesco-wikipedia-multistream-overlay/1.0",
+  "overlay_policy": "ADDITIVE_ONLY_NO_EXISTING_FILES_REPLACED",
+  "source": "UNESCO_ATLAS_V19_LOT_002_SELECTION_25",
+  "target": "C:\\mycode"
+}

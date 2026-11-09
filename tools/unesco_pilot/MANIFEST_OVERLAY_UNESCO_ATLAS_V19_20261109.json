@@ -1,0 +1,55 @@
+{
+  "destination_root": "C:\\mycode",
+  "files": {
+    "EncyKlopedia/EncyKlopedia/AUDITER_UNESCO_ATLAS_WIKIPEDIA_V19.cmd": {
+      "bytes": 260,
+      "sha256": "83eb54410f6bf0c2a98c16a80f52569fcf49df52b4654105650f774d9efbdec8"
+    },
+    "EncyKlopedia/EncyKlopedia/CREER_LOT_WIKIPEDIA_SELECTION_V19.cmd": {
+      "bytes": 553,
+      "sha256": "007f4901169a5eac210660d4d4a0815460abac43f4c6e781d96f972c74ef01e5"
+    },
+    "EncyKlopedia/EncyKlopedia/LANCER_UNESCO_ATLAS_WIKIPEDIA_V19.cmd": {
+      "bytes": 1247,
+      "sha256": "4d39c3c389c4857048927aefef0ab65468b9e3cc7067f6dc32a4647db7333e82"
+    },
+    "EncyKlopedia/EncyKlopedia/RECEVOIR_PROPOSITIONS_ATLAS_V19.cmd": {
+      "bytes": 461,
+      "sha256": "13539aefc2183df9538ce841b2b4affd66444579b7a12b4f0d00a948394d818c"
+    },
+    "EncyKlopedia/EncyKlopedia/VERIFIER_UNESCO_ATLAS_V19.cmd": {
+      "bytes": 278,
+      "sha256": "09c23b113cd2f8de9a2379c8b2a46b6d4cabc5035571eca04acadea5c00fdc14"
+    },
+    "EncyKlopedia/EncyKlopedia/tests/test_unesco_atlas_intake_v19.py": {
+      "bytes": 4075,
+      "sha256": "0c16d413215e82591734d7e539b0028f114e7d69f4fe23438c6b66661ad1afeb"
+    },
+    "EncyKlopedia/EncyKlopedia/tests/test_unesco_atlas_manifest_portable_v19.py": {
+      "bytes": 2660,
+      "sha256": "2f86d3245c22bbba02ff5aff07a311e1e09dfdd6596304d48d9624b117afd3c7"
+    },
+    "EncyKlopedia/EncyKlopedia/tools/unesco_pilot/recevoir_lots_atlas_v19.py": {
+      "bytes": 7835,
+      "sha256": "26956e24fda841232024e839cc475b199bb7692e4fc6d56829cca2600047f14f"
+    },
+    "EncyKlopedia/EncyKlopedia/tools/unesco_pilot/verifier_overlay_atlas_v19.py": {
+      "bytes": 2540,
+      "sha256": "70527dd3aca01e2c596490394897dca1f5b965fafce5146b6f5b44764a81b4f9"
+    },
+    "EncyKlopedia/mediatheque-references/tests/test_unesco_atlas_v19.py": {
+      "bytes": 8638,
+      "sha256": "0afa00558d9bf1a700da8ebb7416c7c19bdc4b1dda6305f94ee4ccd086639ecf"
+    },
+    "EncyKlopedia/mediatheque-references/tools/wiki/atlas/atlas_wikipedia.py": {
+      "bytes": 38185,
+      "sha256": "fd6b9b844e2ffd30209157cd166e3f238125749d1127bd89d3f6cf31cd0d0eae"
+    }
+  },
+  "format": "koa.unesco-atlas-v19-additive-overlay/1.0",
+  "no_existing_files_replaced": true,
+  "repositories": [
+    "EncyKlopedia/EncyKlopedia",
+    "EncyKlopedia/mediatheque-references"
+  ]
+}

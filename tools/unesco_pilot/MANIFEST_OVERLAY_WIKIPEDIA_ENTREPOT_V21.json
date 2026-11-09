@@ -1,0 +1,59 @@
+{
+  "canonical_admission": false,
+  "files": {
+    "EncyKlopedia/EncyKlopedia/AUDITER_WIKIPEDIA_ENTREPOT_V21.cmd": {
+      "bytes": 435,
+      "sha256": "09936ec7850a5c9ce2ea01a89775dca20d3909b2504d0bd68f69e303e30e8eae"
+    },
+    "EncyKlopedia/EncyKlopedia/EXTRAIRE_UNESCO_LOT_002_ENTREPOT_V21.cmd": {
+      "bytes": 535,
+      "sha256": "bca7b445a2699a3defa7f757c4b430faa90947b8a5a79a2cf2b323b45e7289c3"
+    },
+    "EncyKlopedia/EncyKlopedia/EXTRAIRE_UNESCO_LOT_LIBRE_ENTREPOT_V21.cmd": {
+      "bytes": 795,
+      "sha256": "76b8a2fc2901b2b4ffb8a969aae7b2b207a2980c31ce017e7463184591f664b2"
+    },
+    "EncyKlopedia/EncyKlopedia/LANCER_WIKIPEDIA_ENTREPOT_V21.cmd": {
+      "bytes": 1583,
+      "sha256": "7bf69285a16864aab7da20dc9f11f09fbe5ff12e1c9bdeb5bb02fae196fa3140"
+    },
+    "EncyKlopedia/EncyKlopedia/VERIFIER_OVERLAY_WIKIPEDIA_ENTREPOT_V21.cmd": {
+      "bytes": 182,
+      "sha256": "fbc346a043f16da5911996b33ecfc746f7f6867902bf4496e29f4fccb5044037"
+    },
+    "EncyKlopedia/EncyKlopedia/docs/UNESCO_ENTREPOT_WIKIPEDIA_V21.md": {
+      "bytes": 5622,
+      "sha256": "1cf0d4f04632f042fce6ce8a3188904d5f6fbe9e970a2538e329cd2fb23eaa6b"
+    },
+    "EncyKlopedia/EncyKlopedia/tests/test_unesco_entrepot_v21_overlay.py": {
+      "bytes": 1216,
+      "sha256": "4be1c1ea6d03220bd1c8260744024b9437cc7f7da0d28e01bf12c95ba86b67c3"
+    },
+    "EncyKlopedia/EncyKlopedia/tools/unesco_pilot/verifier_overlay_entrepot_v21.py": {
+      "bytes": 1701,
+      "sha256": "c409ad64f1ecd75cb148a570b475413306148656877a1d40425b57d3e0a8f12e"
+    },
+    "EncyKlopedia/mediatheque-references/tests/test_unesco_direct_xml_v21.py": {
+      "bytes": 6561,
+      "sha256": "46c0547a76ec169e73702617e6c8e4ef272ddcd5b664d795a0b4989ad7f24dc1"
+    },
+    "EncyKlopedia/mediatheque-references/tools/wiki/atlas/extraire_lots_xml_v21.py": {
+      "bytes": 13458,
+      "sha256": "a648ec12af4e0930eaddccb523e6f491fb995a72d062e4330dbb5f44125db130"
+    },
+    "EncyKlopedia/mediatheque-references/tools/wiki/atlas/index_xml_v21.py": {
+      "bytes": 20507,
+      "sha256": "8fa520d47d0e03648c523828a45386bcf25175a2a5b1a0f7c2e8cbdb13bc70d3"
+    }
+  },
+  "format": "koa.unesco-wikipedia-direct-xml-overlay/1.0",
+  "installation": "ADDITIVE_TWO_REPOS",
+  "runtime_prerequisites": [
+    "V19_EXISTING_ATLAS",
+    "V20_OR_V19_SOURCE_SELECTION",
+    "UNCOMPRESSED_ENWIKI_XML",
+    "PYTHON_3_11_PLUS"
+  ],
+  "target": "C:\\mycode",
+  "version": "21.0.0"
+}
