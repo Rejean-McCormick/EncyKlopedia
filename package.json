@@ -28,6 +28,9 @@
     "lexical:dik:verify": "node tools/dictionary-harvester/cli.mjs dik-verify",
     "lexical:dik:enrich:plan": "node tools/dictionary-harvester/cli.mjs dik-enrich-plan",
     "lexical:dik:enrich": "node tools/dictionary-harvester/cli.mjs dik-enrich-run",
-    "lexical:dik:enrich:verify": "node tools/dictionary-harvester/cli.mjs dik-enrich-verify"
+    "lexical:dik:enrich:verify": "node tools/dictionary-harvester/cli.mjs dik-enrich-verify",
+    "lexical:dik:qualify:plan": "node tools/dictionary-harvester/cli.mjs dik-qualify-plan",
+    "lexical:dik:qualify": "node tools/dictionary-harvester/cli.mjs dik-qualify-run",
+    "lexical:dik:qualify:verify": "node tools/dictionary-harvester/cli.mjs dik-qualify-verify"
   }
 }

@@ -36,6 +36,9 @@ Usage: node tools/dictionary-harvester/cli.mjs <command> [options]
   dik-enrich-plan                    Inspect v0.5 anchors for semantic evidence (v0.6)
   dik-enrich-run [--languages fr,en] Read original sources at sampled anchors; resumable
   dik-enrich-verify                  Verify v0.6 candidate-evidence JSONL exports
+  dik-qualify-plan                   Inspect v0.6 evidence / v0.5 candidates for qualification
+  dik-qualify-run [--languages fr,en] Stage/resume non-normative candidate review queue
+  dik-qualify-verify                 Verify v0.7 JSONL exports and append-only journals
 
 Optional: --data-root PATH (default on Windows D:\\EncyKlopedia)
           or ENCYK_DATA_ROOT environment variable
@@ -72,10 +75,11 @@ export async function main(args=process.argv.slice(2)) {
     const commands = {'index-plan':'plan','index-run':'run','index-repair':'repair','index-status':'status','index-lookup':'lookup',
       'quality-diagnostic':'diagnostic','quality-audit':'audit','quality-status':'status',
       'dik-plan':'plan','dik-stage':'run','dik-status':'status','dik-verify':'verify',
-      'dik-enrich-plan':'plan','dik-enrich-run':'run','dik-enrich-verify':'verify'};
+      'dik-enrich-plan':'plan','dik-enrich-run':'run','dik-enrich-verify':'verify',
+      'dik-qualify-plan':'plan','dik-qualify-run':'run','dik-qualify-verify':'verify'};
     if (!commands[cmd]) throw Error('Unknown lexical command');
     await assertDataLayout(resolveDataRoot(o['data-root']));
-    const script = cmd.startsWith('quality-') ? './quality_audit.py' : cmd.startsWith('dik-enrich-') ? './semantic_enrichment.py' : cmd.startsWith('dik-') ? './dik_reconciliation.py' : './lexical_indexer.py';
+    const script = cmd.startsWith('quality-') ? './quality_audit.py' : cmd.startsWith('dik-qualify-') ? './dik_qualification.py' : cmd.startsWith('dik-enrich-') ? './semantic_enrichment.py' : cmd.startsWith('dik-') ? './dik_reconciliation.py' : './lexical_indexer.py';
     const root = fileURLToPath(new URL(script, import.meta.url));
     const candidates = process.platform === 'win32' ? [['py','-3'],['python']] : [['python3'],['python']];
     let runner;

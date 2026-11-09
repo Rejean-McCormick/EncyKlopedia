@@ -1,15 +1,17 @@
 {
-  "profile": "encyklopedia.dictionary-harvester-overlay/0.6.0",
-  "revision": "c-code-d-data-massive-anchored-semantic-evidence-tkinter-checkpoints",
+  "profile": "encyklopedia.dictionary-harvester-overlay/0.7.0",
+  "revision": "dik-lex1-massive-candidate-qualification-and-local-append-only-review",
   "date": "2026-11-06",
-  "code_root": "root of EncyKlopedia engine repository on C:",
+  "code_root": "root of EncyKlopedia reader repository on C:",
   "default_windows_data_root": "D:\\EncyKlopedia",
-  "includes_all_of": "harvester v0.1.1; indexer v0.2; UniMorph repair v0.3; quality v0.4; diK candidate reconciliation v0.5",
-  "scope": "source-anchored evidence from Kaikki/Wikidata L/S/F/UniMorph; resumable source/batch; candidate triage, per-language JSONL SHA256 and Tkinter UI",
+  "includes_all_of": "harvester v0.1.1; indexer v0.2; UniMorph repair v0.3; quality v0.4; diK candidate reconciliation v0.5; anchored source evidence v0.6",
+  "scope": "candidate triage by language, POS/lexeme ambiguity flags, license queue, append-only human review notes, JSONL exports, source-SHA validation and tkinter UI",
+  "no_web_or_canonical_writes": true,
   "does_not_include_corpus": true,
   "does_not_modify_reader": true,
   "does_not_promote_canonical": true,
-  "coverage_limitation": "only v0.5 sampled source-line anchors, not exhaustive lexical sense extraction",
+  "does_not_claim_normative_dik_import": true,
+  "coverage_limitation": "v0.5 cross-family candidates and capped v0.6 sampled source-line anchors only",
   "python_stdlib_required": "3.10+ Tkinter for GUI",
   "files": [
     {
@@ -33,8 +35,12 @@
       "sha256": "cc4d387a5950da579253c24666e8d0a8a7332aa5ccaf396d8d5fd096e34988e2"
     },
     {
+      "path": "Qualifier_Dictionnaires_diK_UI.pyw",
+      "sha256": "8250df0ad4a6adb0a9212c7f227dc52373fcb9946faf5e5a5e3802a8d3f80f1a"
+    },
+    {
       "path": "README.md",
-      "sha256": "ec8a3731066e747e34e2064b921b24a06bcaa0cdc9f1709dc44e6207897e800b"
+      "sha256": "e1289db19af19546069e66cf9d79a47676ea345ba16badfbecbf96eb1c9fddd8"
     },
     {
       "path": "Reparer_Dictionnaires_UI.pyw",
@@ -61,6 +67,10 @@
       "sha256": "aeb482f45a9e72cf8892953289024c59bd84375d8ac784c598751b8f04dbe22a"
     },
     {
+      "path": "Start_Qualification_diK.cmd",
+      "sha256": "d0a72483f261b1e32db639012045fa32ec06c0af2e37edb22a71ef049a1e30ac"
+    },
+    {
       "path": "Verify_Dictionary_Harvester.cmd",
       "sha256": "97c15f96421dc4320038b89bb9bf470ad961abbe636db9451568b3c037729908"
     },
@@ -85,12 +95,16 @@
       "sha256": "a815e8e2f3de415b51cbc4f533af9e177a310243d0ab944252d42e8d35d43260"
     },
     {
+      "path": "docs/QUALIFICATION_DIK_LEX1_V07.md",
+      "sha256": "7bcba2844f91db1fee6c8693f9fa0edb7fc896f27d3248a2f8e9316a6eb82ae9"
+    },
+    {
       "path": "docs/REPARATION_UNIMORPH_V03.md",
       "sha256": "40b60dc5c66d2465189f38273b6c1c5a783da197d0b95f576e3b524620ecdbed"
     },
     {
       "path": "package.json",
-      "sha256": "174331af9b1117318b3edafd7a5dfebd996f5522c3b51f93915df897ff16a92d"
+      "sha256": "85e82f5cb50e8c3b982fc11f9631cf4d36c54d58f5b275e1c0a3cbd22ba41939"
     },
     {
       "path": "tests/dictionary-harvester.test.mjs",
@@ -99,6 +113,10 @@
     {
       "path": "tests/test_dik_contract.py",
       "sha256": "300e92ad86646231d1ef57e5f3cf015e56fc4b5bf8e56603872aae87f3c5ce46"
+    },
+    {
+      "path": "tests/test_dik_qualification.py",
+      "sha256": "572d7977788491e575222026bee87aded8dc73c64dfeb4bf671764604cc0228c"
     },
     {
       "path": "tests/test_dik_reconciliation.py",
@@ -122,7 +140,11 @@
     },
     {
       "path": "tools/dictionary-harvester/cli.mjs",
-      "sha256": "d2aed40569016bb9ca0c5e1ab2e4fe8d47554045697edda728b5d6873d1cd5cb"
+      "sha256": "3c37b1531a2003d70f737e9c4b9eb0e2a59b5958e801201eadc94226231d9a8b"
+    },
+    {
+      "path": "tools/dictionary-harvester/dik_qualification.py",
+      "sha256": "580654a44cd48da85929f017e09e85bc58f900fc4eee978eced089af349352d0"
     },
     {
       "path": "tools/dictionary-harvester/dik_reconciliation.py",
@@ -154,7 +176,7 @@
     },
     {
       "path": "tools/dictionary-harvester/verify-overlay.mjs",
-      "sha256": "3a6b5bb5e4d597ddbf63a74ba8897f132e939f1acc97baeb12ce472d9b77edb4"
+      "sha256": "104e5207c415fbbb0a12d3947d14c343fa923b4335e85b2bd55927bf24514757"
     }
   ]
 }

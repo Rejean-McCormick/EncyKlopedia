@@ -1,0 +1,23 @@
+{
+  "automatic_canonical_minting": false,
+  "branch": "unesco-mt1-10",
+  "format": "koa.unesco-mt1-10-lot2-repository-status/1.0",
+  "language_runtimes_all_qualified": false,
+  "local_relative_path": "EncyKlopedia/EncyKlopedia",
+  "new_executable_tools": [
+    "tools/unesco_pilot/offline_xml_evidence.py",
+    "tools/unesco_pilot/lot2_preflight.py"
+  ],
+  "notes": [
+    "Local XML.bz2 selective extractor and 13-repository preflight; no corpus publishing."
+  ],
+  "publication_gates_passed": false,
+  "remote_upload_authorized": false,
+  "repo": "EncyKlopedia",
+  "requested_languages": 14,
+  "role": "encyclopedia-private-evidence",
+  "semantic_grain": "ONE_BRANCH_KRISTAL",
+  "source_evidence_approved": false,
+  "status": "INTEGRATION_CANDIDATE_NOT_PRODUCTION",
+  "unesco_seed_concepts": 41
+}
