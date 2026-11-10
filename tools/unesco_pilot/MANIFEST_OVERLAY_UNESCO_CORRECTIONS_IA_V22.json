@@ -1,0 +1,25 @@
+{
+  "overlay": "UNESCO_CORRECTIONS_IA_V22",
+  "format": "koa.unesco-editorial-overlay/1.0",
+  "branch": "unesco-mt1-10",
+  "baseline_snapshot": "2026-11-10T08:14 local",
+  "installation": "ADDITIVE_FILES_ONLY",
+  "work_destination": "D:\\EncyKlopedia\\30_working\\unesco_mt1_10\\autopilot_concept10_puis_41\\semantic_stage_v22_revue_ia",
+  "input": {
+    "r2_proposals": 19,
+    "wikipedia_lot002_proposals": 25,
+    "unesco_anchors": 41
+  },
+  "output": {
+    "editorially_approved": 38,
+    "unchanged": 28,
+    "reformulated": 10,
+    "semantic_mapping_corrected": 1,
+    "semantic_mapping_held": 2,
+    "suspended": 6,
+    "canonical_ks_kq_kp_ka_created": 0
+  },
+  "source_capture_attested": false,
+  "publication_authorized": false,
+  "git_push": false
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "encyklopedia.branch-manifest.v25/1",
+  "branch_id": "unesco.mt1.10",
+  "branch_version": "2026-11-pilot-01",
+  "vocabulary": "unesco",
+  "title_fr": "Politique éducative — UNESCO MT 1.10",
+  "concepts_file": "unesco_2026_educational_policy.json",
+  "crosswalk_file": "v11_crosswalk.json",
+  "bridges_file": "ponts_mt110.csv",
+  "discovery": {
+    "auto_exact_category_roots": true,
+    "auto_root_depth": 0,
+    "max_reviewed_root_depth": 2,
+    "max_category_tasks": 15000,
+    "max_members_per_category": 50000
+  },
+  "description": "41 concepts UNESCO, classement de candidats non canoniques. Les ponts actifs doivent etre revus et justifies."
+}

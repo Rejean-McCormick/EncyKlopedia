@@ -1,0 +1,383 @@
+{
+  "branch": "unesco-mt1-10",
+  "changes_for_6_suspensions": [
+    {
+      "decision": "APPROUVE_IA_REFORMULE_V23_HORS_CANON",
+      "effective_statement": "Les règles applicables à la scolarité fixent notamment, selon les pays, l’âge et la durée de la scolarité obligatoire et certaines exigences concernant la qualification ou le temps de travail des enseignants. Ces paramètres varient selon les systèmes éducatifs.",
+      "evidence_status": "LOCATORS_REVIEWED_RAW_CAPTURE_MISSING",
+      "proposal_id": "LOT002-V21-003",
+      "rationale_fr": "Retrait des infrastructures et des horaires scolaires non établis ici de manière comparative.",
+      "reviewed_date": "2026-11-10",
+      "source_ids": [
+        "UIS-417",
+        "OECD-TEACHERS-2026",
+        "OECD-TIME-2026"
+      ]
+    },
+    {
+      "decision": "APPROUVE_IA_REFORMULE_V23_HORS_CANON",
+      "effective_statement": "Les finalités éducatives incluent, selon les instruments et les contextes, le développement des connaissances et des aptitudes intellectuelles, sociales ou personnelles. Elles ne constituent pas à elles seules une mesure des résultats d’un programme.",
+      "evidence_status": "LOCATORS_REVIEWED_RAW_CAPTURE_MISSING",
+      "proposal_id": "LOT002-V21-004",
+      "rationale_fr": "La page UNESCO est introductive et la CRC article 29 porte sur les États parties; retrait du raccourci sur évaluation de programme.",
+      "reviewed_date": "2026-11-10",
+      "source_ids": [
+        "UNESCO-AIMS",
+        "UNICEF-CRC"
+      ]
+    },
+    {
+      "decision": "APPROUVE_IA_REFORMULE_V23_HORS_CANON",
+      "effective_statement": "Des recherches expérimentales et quasi expérimentales examinent les biais éventuels de notation liés à des caractéristiques attribuées aux élèves, notamment en comparant des corrections anonymisées et identifiables. Les résultats ne sont pas uniformes selon les études et les contextes.",
+      "evidence_status": "LOCATORS_REVIEWED_RAW_CAPTURE_MISSING",
+      "proposal_id": "LOT002-V21-007",
+      "rationale_fr": "La méta-analyse relève des biais possibles, mais une étude quasi expérimentale n’en trouve pas dans son échantillon.",
+      "reviewed_date": "2026-11-10",
+      "source_ids": [
+        "ERIC-META-2016",
+        "PLOS-BLIND-2021"
+      ]
+    },
+    {
+      "decision": "APPROUVE_IA_REFORMULE_V23_HORS_CANON",
+      "effective_statement": "Une pratique pédagogique informée par les données probantes combine une lecture critique de résultats de recherche avec l’expertise et le jugement professionnels des enseignants, en tenant compte du contexte de mise en œuvre.",
+      "evidence_status": "LOCATORS_REVIEWED_RAW_CAPTURE_MISSING",
+      "proposal_id": "LOT002-V21-012",
+      "rationale_fr": "La recommandation EEF porte sur la combinaison de résultats de recherche et d’expertise, sans transfert mécanique universel.",
+      "reviewed_date": "2026-11-10",
+      "source_ids": [
+        "EEF-EVIDENCE"
+      ]
+    },
+    {
+      "decision": "APPROUVE_IA_REFORMULE_V23_HORS_CANON",
+      "effective_statement": "La recherche en éducation peut être fondamentale, appliquée ou orientée vers le développement. Ces démarches se distinguent notamment par leur finalité de production de connaissances ou leur visée pratique.",
+      "evidence_status": "LOCATORS_REVIEWED_RAW_CAPTURE_MISSING",
+      "proposal_id": "LOT002-V21-013",
+      "rationale_fr": "Le thésaurus ERIC définit les trois catégories dans la recherche éducative; UIS donne la distinction générale en R&D.",
+      "reviewed_date": "2026-11-10",
+      "source_ids": [
+        "ERIC-RESEARCH",
+        "UIS-BASIC-APPLIED"
+      ]
+    },
+    {
+      "decision": "APPROUVE_IA_REFORMULE_V23_HORS_CANON",
+      "effective_statement": "Le thésaurus UNESCO définit l’éducation comparée comme l’étude comparative des théories et pratiques éducatives en vigueur dans différents pays.",
+      "evidence_status": "LOCATORS_REVIEWED_RAW_CAPTURE_MISSING",
+      "proposal_id": "LOT002-V21-014",
+      "rationale_fr": "Retrait de l’affirmation plus large sur toutes les influences transnationales, non nécessaire à cette définition UNESCO.",
+      "reviewed_date": "2026-11-10",
+      "source_ids": [
+        "UNESCO-COMPARATIVE"
+      ]
+    }
+  ],
+  "date": "2026-11-10",
+  "external_semantic_anchors": [
+    {
+      "external_unesco_id": "concept88",
+      "label": "Educational evaluation",
+      "mapping_status": "EXTERNAL_DESCRIPTOR_OUTSIDE_41_NO_KQ",
+      "note_fr": "Le thème de l’évaluation n’est pas l’indicateur statistique (concept9255).",
+      "proposal_id": "LOT002-V21-017",
+      "source_id": "UNESCO-EVAL"
+    },
+    {
+      "external_unesco_id": "concept17016",
+      "label": "Inclusive education",
+      "mapping_status": "EXTERNAL_DESCRIPTOR_OUTSIDE_41_NO_KQ",
+      "note_fr": "La notion d’inclusion ne se réduit pas à School integration (concept7790).",
+      "proposal_id": "LOT002-V21-020",
+      "source_id": "UNESCO-INCLUSIVE"
+    },
+    {
+      "external_unesco_id": "concept9197",
+      "label": "Educational research",
+      "mapping_status": "EXTERNAL_DESCRIPTOR_OUTSIDE_41_NO_KQ",
+      "note_fr": "Research ne se confond pas avec Educational strategies (concept9341).",
+      "proposal_id": "LOT002-V21-013",
+      "source_id": "UNESCO-ED-RESEARCH"
+    },
+    {
+      "external_unesco_id": "concept5900",
+      "label": "Comparative education",
+      "mapping_status": "EXTERNAL_DESCRIPTOR_OUTSIDE_41_NO_KQ",
+      "note_fr": "Comparative education n’est pas simplement Educational policy (concept9).",
+      "proposal_id": "LOT002-V21-014",
+      "source_id": "UNESCO-COMPARATIVE"
+    }
+  ],
+  "format": "encyklopedia.unesco-v23-probatoire-corrections/1.0",
+  "source_catalog": [
+    {
+      "checked_date": "2026-11-10",
+      "locator": "4.1.7 / statutory age and education years",
+      "publisher": "UNESCO Institute for Statistics",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "UIS-417",
+      "title": "Right to education legally guaranteed education years",
+      "url": "https://databrowser.uis.unesco.org/resources/glossary/3135",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Educational attainment requirements and teacher preparedness",
+      "publisher": "OECD",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "OECD-TEACHERS-2026",
+      "title": "Education at a Glance 2026 — Teaching workforce",
+      "url": "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/what-are-the-main-characteristics-of-the-teaching-workforce-across-levels-of-education_b9d4aee7.html",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Official regulations / statutory teaching time",
+      "publisher": "OECD",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "OECD-TIME-2026",
+      "title": "Education at a Glance 2026 — Teacher working and teaching time",
+      "url": "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/how-much-time-do-teachers-spend-teaching-and-working_b28a280b.html",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Aims of education; site marks this as introductory, not official position",
+      "publisher": "UNESCO",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "UNESCO-AIMS",
+      "title": "Aims of education — introductory explainer",
+      "url": "https://www.unesco.org/en/query-list/a/aims-education",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Article 29 educational aims",
+      "publisher": "UNICEF",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "UNICEF-CRC",
+      "title": "Convention on the Rights of the Child",
+      "url": "https://www.unicef.org/child-rights-convention/convention-text",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Abstract; 20 studies/23 analyses; outcome heterogeneity",
+      "publisher": "Education Resources Information Center (ERIC)",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "ERIC-META-2016",
+      "title": "Bias in Grading: A Meta-Analysis of Experimental Research Findings",
+      "url": "https://eric.ed.gov/?id=EJ1279354",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Methods, abstract and results; non-blind vs blind grading, null finding in this sample",
+      "publisher": "PLOS ONE / NCBI PMC",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "PLOS-BLIND-2021",
+      "title": "A quasi-experimental study of ethnic and gender bias in university grading",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297848/",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "High-quality teaching; teacher expertise and best available evidence",
+      "publisher": "Education Endowment Foundation",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "EEF-EVIDENCE",
+      "title": "Use reliable research evidence to support your strategy",
+      "url": "https://educationendowmentfoundation.org.uk/using-pupil-premium/use-reliable-research-evidence-to-support-your-strategy",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Basic, applied and developmental research",
+      "publisher": "Education Resources Information Center (ERIC)",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "ERIC-RESEARCH",
+      "title": "ERIC Thesaurus — Educational Research",
+      "url": "https://eric.ed.gov/default.aspx?ti=Educational+Research",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Basic, applied, experimental development; Frascati scope, general research methodology",
+      "publisher": "UNESCO Institute for Statistics",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "UIS-BASIC-APPLIED",
+      "title": "UIS Glossary — Research and development",
+      "url": "https://databrowser.uis.unesco.org/resources/glossary/2460",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Definition: comparative study of education theory and practice in different countries",
+      "publisher": "UNESCO Thesaurus",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "UNESCO-COMPARATIVE",
+      "title": "Comparative education",
+      "url": "https://vocabularies.unesco.org/unesco/es/page/concept5900?clang=en",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Official descriptor concept88, outside mt1.10",
+      "publisher": "UNESCO Thesaurus",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "UNESCO-EVAL",
+      "title": "Educational evaluation",
+      "url": "https://vocabularies.unesco.org/unesco/fr/page/concept88?clang=en",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Official descriptor concept17016, outside mt1.10",
+      "publisher": "UNESCO Thesaurus",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "UNESCO-INCLUSIVE",
+      "title": "Inclusive education",
+      "url": "https://vocabularies.unesco.org/unesco/en/page/concept17016",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Official descriptor concept9197, outside mt1.10",
+      "publisher": "UNESCO Thesaurus",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "UNESCO-ED-RESEARCH",
+      "title": "Educational research",
+      "url": "https://vocabularies.unesco.org/unesco/en/page/concept9197",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Article 26(1)–(3)",
+      "publisher": "United Nations",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "SRC-UDHR",
+      "title": "Universal Declaration of Human Rights",
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights/",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Article 13(1)–(4); Article 2(1)–(2)",
+      "publisher": "Office of the UN High Commissioner for Human Rights",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "SRC-ICESCR",
+      "title": "International Covenant on Economic, Social and Cultural Rights",
+      "url": "https://2covenants.ohchr.org/About-ICESCR.html",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Article 28(1)–(3)",
+      "publisher": "UNICEF",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "SRC-CRC",
+      "title": "Convention on the Rights of the Child",
+      "url": "https://www.unicef.org/child-rights-convention/convention-text",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Instrument metadata, Article 1",
+      "publisher": "UNESCO Legal Affairs",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "SRC-UNESCO1960",
+      "title": "Convention against Discrimination in Education",
+      "url": "https://www.unesco.org/en/legal-affairs/convention-against-discrimination-education",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Content of states obligations (updated 1 Dec 2025)",
+      "publisher": "UNESCO",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "SRC-UNESCO-OBLIG",
+      "title": "State obligations and responsibilities on the right to education",
+      "url": "https://www.unesco.org/en/right-education/state-obligations-responsibilities?hub=66813",
+      "web_locator_reviewed": true
+    },
+    {
+      "checked_date": "2026-11-10",
+      "locator": "Indicators 4.1.1, 4.1.2, 4.1.4, 4.1.7, 4.5.1, 4.5.4",
+      "publisher": "UNESCO Institute for Statistics",
+      "raw_official_capture_included": false,
+      "rights_status": "UNASSESSED_PRIVATE_RESEARCH_ONLY",
+      "source_capture_sha256": null,
+      "source_capture_status": "NOT_CAPTURED",
+      "source_id": "SRC-UIS-SDG4",
+      "title": "SDG 4 Indicators",
+      "url": "https://www.uis.unesco.org/en/methods-and-tools/sdg4-indicators",
+      "web_locator_reviewed": true
+    }
+  ],
+  "source_review_scope": "WEB_LOCATORS_REVIEWED_NOT_RAW_CAPTURES",
+  "strict_policy": {
+    "canonical_admission": false,
+    "copyright_status": "UNVERIFIED_SOURCE_RIGHTS",
+    "no_new_KQ_KP_KS_KA": true,
+    "publication": false,
+    "web_review_is_not_archive": true
+  },
+  "version": "23.0"
+}
