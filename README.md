@@ -133,3 +133,7 @@ CLI : `npm run lexical:dik:qualify:plan`, `npm run lexical:dik:qualify`
 (et `-- --languages fr,en` pour le pilote),
 `npm run lexical:dik:qualify:verify`.
 Voir `docs/QUALIFICATION_DIK_LEX1_V07.md`.
+
+## Branch 04 functional-chain alignment
+
+See [final-system reader/language boundaries](docs/PRIVATE_V11_PACK_PREFLIGHT.md). This is a pinned-snapshot coordination note and does not override owner normative contracts or qualify public publication.
