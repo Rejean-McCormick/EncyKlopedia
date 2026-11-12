@@ -1,0 +1,714 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000075",
+  "pack_sha256": "761597547e9c913be0ae8a31df8091ae75e9738c127985df231d17a54cfb79f2",
+  "producer": "GPT-6 / ChatGPT (selection semi-automatisee et revue editorialement ciblee; non verifie independamment)",
+  "coverage_note": "Selection selective de passages du wikitext complet. Certaines connaissances sont des descriptions de pages; omissions possibles. Sources Wikipedia non verifiees independamment. Rattachements UNESCO seulement si directement appuyes.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:11983584",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "Green v. County School Board of New Kent County, 391 U.S. 430 (1968), was a landmark United States Supreme Court case involving school desegregation."
+      },
+      "statement_en": "Green v. County School Board of New Kent County, 391 U.S. 430 (1968), was a landmark United States Supreme Court case involving school desegregation.",
+      "confidence": "medium",
+      "source_page_id": 11983584,
+      "source_revision_id": "1378514657",
+      "source_locator": "Introduction",
+      "source_quote": "Green v. County School Board of New Kent County, 391 U.S. 430 (1968), was a landmark United States Supreme Court case involving school desegregation.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:11983584",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "Green v. County School Board of New Kent County was a follow-up of Brown v. Board of Education."
+      },
+      "statement_en": "Green v. County School Board of New Kent County was a follow-up of Brown v. Board of Education.",
+      "confidence": "medium",
+      "source_page_id": 11983584,
+      "source_revision_id": "1378514657",
+      "source_locator": "Introduction",
+      "source_quote": "Green v. County School Board of New Kent County was a follow-up of Brown v. Board of Education.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:11983584",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "To comply with the Court's mandate that school boards must take affirmative measures to dismantle segregated schools, the school board separated the New Kent and George Watkins schools by grade level, rather than race."
+      },
+      "statement_en": "To comply with the Court's mandate that school boards must take affirmative measures to dismantle segregated schools, the school board separated the New Kent and George Watkins schools by grade level, rather than race.",
+      "confidence": "low",
+      "source_page_id": 11983584,
+      "source_revision_id": "1378514657",
+      "source_locator": "Impact of Green and the five \"Green factors\"",
+      "source_quote": "To comply with the Court's mandate that school boards must take affirmative measures to dismantle segregated schools, the school board separated the New Kent and George Watkins schools by grade level, rather than race.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:19930546",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Institute for Learning (IfL) was a voluntary membership, UK professional body."
+      },
+      "statement_en": "The Institute for Learning (IfL) was a voluntary membership, UK professional body.",
+      "confidence": "medium",
+      "source_page_id": 19930546,
+      "source_revision_id": "1364142620",
+      "source_locator": "Introduction",
+      "source_quote": "The Institute for Learning (IfL) was a voluntary membership, UK professional body.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:19930546",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Although precise membership figures and statistical details had been removed from IfL's webpage prior to its closure, at the end of financial year 2013-2014 IfL were reported as having only 33,500 of their 200,000 members remaining."
+      },
+      "statement_en": "Although precise membership figures and statistical details had been removed from IfL's webpage prior to its closure, at the end of financial year 2013-2014 IfL were reported as having only 33,500 of their 200,000 members remaining.",
+      "confidence": "medium",
+      "source_page_id": 19930546,
+      "source_revision_id": "1364142620",
+      "source_locator": "Introduction",
+      "source_quote": "Although precise membership figures and statistical details had been removed from IfL's webpage prior to its closure, at the end of financial year 2013-2014 IfL were reported as having only 33,500 of their 200,000 members remaining.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:19930546",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "In the event, the newly elected Labour government accepted the findings of the Dearing Report into Higher Education, leading to the creation of the Institute for Learning and Teaching in Higher Education (ILTHE) and indicated that the General Teaching Council (GTC) for England, which had been a manifesto commitment, would be established."
+      },
+      "statement_en": "In the event, the newly elected Labour government accepted the findings of the Dearing Report into Higher Education, leading to the creation of the Institute for Learning and Teaching in Higher Education (ILTHE) and indicated that the General Teaching Council (GTC) for England, which had been a manifesto commitment, would be established.",
+      "confidence": "low",
+      "source_page_id": 19930546,
+      "source_revision_id": "1364142620",
+      "source_locator": "Historical context",
+      "source_quote": "In the event, the newly elected Labour government accepted the findings of the Dearing Report into Higher Education, leading to the creation of the Institute for Learning and Teaching in Higher Education (ILTHE) and indicated that the General Teaching Council (GTC) for England, which had been a manifesto commitment, would…",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:19930546",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "On 7 September 2011, UCU suspended its threatened legal action against the IfL and welcomed the decision of the Minister for Further Education, John Hayes, to commission an independent review into professional development for college lecturers that would involve looking at the role and effectiveness of the Institute for Learning."
+      },
+      "statement_en": "On 7 September 2011, UCU suspended its threatened legal action against the IfL and welcomed the decision of the Minister for Further Education, John Hayes, to commission an independent review into professional development for college lecturers that would involve looking at the role and effectiveness of the Institute for Learning.",
+      "confidence": "low",
+      "source_page_id": 19930546,
+      "source_revision_id": "1364142620",
+      "source_locator": "Independent review",
+      "source_quote": "On 7 September 2011, UCU suspended its threatened legal action against the IfL and welcomed the decision of the Minister for Further Education, John Hayes, to commission an independent review into professional development for college lecturers that would involve looking at the role and effectiveness of the Institute for…",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:19930546",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "IfL was first incorporated in 2002 as a not-for-profit Company Limited by Guarantee when it was a voluntary professional membership body for teachers and trainers in the Post Compulsory Education and Training Sector in England."
+      },
+      "statement_en": "IfL was first incorporated in 2002 as a not-for-profit Company Limited by Guarantee when it was a voluntary professional membership body for teachers and trainers in the Post Compulsory Education and Training Sector in England.",
+      "confidence": "medium",
+      "source_page_id": 19930546,
+      "source_revision_id": "1364142620",
+      "source_locator": "Introduction",
+      "source_quote": "IfL was first incorporated in 2002 as a not-for-profit Company Limited by Guarantee when it was a voluntary professional membership body for teachers and trainers in the Post Compulsory Education and Training Sector in England.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:25957483",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Race to the Top (R2T, RTTT or RTT) was a $4.35 billion United States Department of Education competitive grant created to spur and reward innovation and reforms in state and local district K–12 education."
+      },
+      "statement_en": "Race to the Top (R2T, RTTT or RTT) was a $4.35 billion United States Department of Education competitive grant created to spur and reward innovation and reforms in state and local district K–12 education.",
+      "confidence": "medium",
+      "source_page_id": 25957483,
+      "source_revision_id": "1350277071",
+      "source_locator": "Introduction",
+      "source_quote": "Race to the Top (R2T, RTTT or RTT) was a $4.35 billion United States Department of Education competitive grant created to spur and reward innovation and reforms in state and local district K–12 education.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:25957483",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Funded as part of the American Recovery and Reinvestment Act of 2009, it was announced by President Barack Obama and Secretary of Education Arne Duncan on July 24, 2009."
+      },
+      "statement_en": "Funded as part of the American Recovery and Reinvestment Act of 2009, it was announced by President Barack Obama and Secretary of Education Arne Duncan on July 24, 2009.",
+      "confidence": "medium",
+      "source_page_id": 25957483,
+      "source_revision_id": "1350277071",
+      "source_locator": "Introduction",
+      "source_quote": "Funded as part of the American Recovery and Reinvestment Act of 2009, it was announced by President Barack Obama and Secretary of Education Arne Duncan on July 24, 2009.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:25957483",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "Finally, the American Enterprise Institute released a report in September 2010 finding disparities in Race to the Top scores versus the education reform track records and ratings of states from outside, independent sources."
+      },
+      "statement_en": "Finally, the American Enterprise Institute released a report in September 2010 finding disparities in Race to the Top scores versus the education reform track records and ratings of states from outside, independent sources.",
+      "confidence": "low",
+      "source_page_id": 25957483,
+      "source_revision_id": "1350277071",
+      "source_locator": "Criticisms",
+      "source_quote": "Finally, the American Enterprise Institute released a report in September 2010 finding disparities in Race to the Top scores versus the education reform track records and ratings of states from outside, independent sources.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:25957483",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "Race to the Top states provided extensive training opportunities for teachers to increase their data analysis skills and use student performance data to customize learning for individual students."
+      },
+      "statement_en": "Race to the Top states provided extensive training opportunities for teachers to increase their data analysis skills and use student performance data to customize learning for individual students.",
+      "confidence": "low",
+      "source_page_id": 25957483,
+      "source_revision_id": "1350277071",
+      "source_locator": "Results",
+      "source_quote": "Race to the Top states provided extensive training opportunities for teachers to increase their data analysis skills and use student performance data to customize learning for individual students.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:30865611",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "The Civil Rights Project/ El Proyecto de CRP, originally named The Civil Rights Project, is a multidisciplinary research and policy think tank focused on issues of racial justice."
+      },
+      "statement_en": "The Civil Rights Project/ El Proyecto de CRP, originally named The Civil Rights Project, is a multidisciplinary research and policy think tank focused on issues of racial justice.",
+      "confidence": "medium",
+      "source_page_id": 30865611,
+      "source_revision_id": "1343346905",
+      "source_locator": "Introduction",
+      "source_quote": "The Civil Rights Project/ El Proyecto de CRP, originally named The Civil Rights Project, is a multidisciplinary research and policy think tank focused on issues of racial justice.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:30865611",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "In January 2007, The Civil Rights Project moved from Harvard University to the Graduate School of Education and Information Studies at UCLA."
+      },
+      "statement_en": "In January 2007, The Civil Rights Project moved from Harvard University to the Graduate School of Education and Information Studies at UCLA.",
+      "confidence": "low",
+      "source_page_id": 30865611,
+      "source_revision_id": "1343346905",
+      "source_locator": "Introduction",
+      "source_quote": "In January 2007, The Civil Rights Project moved from Harvard University to the Graduate School of Education and Information Studies at UCLA.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4617990",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Computer Programme is a TV series, produced by Paul Kriwaczek, originally broadcast by the BBC (on BBC 2) in 1982."
+      },
+      "statement_en": "The Computer Programme is a TV series, produced by Paul Kriwaczek, originally broadcast by the BBC (on BBC 2) in 1982.",
+      "confidence": "medium",
+      "source_page_id": 4617990,
+      "source_revision_id": "1378459901",
+      "source_locator": "Introduction",
+      "source_quote": "The Computer Programme is a TV series, produced by Paul Kriwaczek, originally broadcast by the BBC (on BBC 2) in 1982.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4617990",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The BBC wanted to use their own computer, so the BBC Micro was developed by Acorn Computers as part of the BBC Computer Literacy Project, and was featured in this series."
+      },
+      "statement_en": "The BBC wanted to use their own computer, so the BBC Micro was developed by Acorn Computers as part of the BBC Computer Literacy Project, and was featured in this series.",
+      "confidence": "medium",
+      "source_page_id": 4617990,
+      "source_revision_id": "1378459901",
+      "source_locator": "Introduction",
+      "source_quote": "The BBC wanted to use their own computer, so the BBC Micro was developed by Acorn Computers as part of the BBC Computer Literacy Project, and was featured in this series.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4617990",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Filming of the series took place in October 1981, before Acorn had fully completed the development and productionization of the BBC Micro."
+      },
+      "statement_en": "Filming of the series took place in October 1981, before Acorn had fully completed the development and productionization of the BBC Micro.",
+      "confidence": "low",
+      "source_page_id": 4617990,
+      "source_revision_id": "1378459901",
+      "source_locator": "Production",
+      "source_quote": "Filming of the series took place in October 1981, before Acorn had fully completed the development and productionization of the BBC Micro.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:65639388",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "Computer science education in the United Kingdom is carried out in the UK mostly from the age of 11."
+      },
+      "statement_en": "Computer science education in the United Kingdom is carried out in the UK mostly from the age of 11.",
+      "confidence": "medium",
+      "source_page_id": 65639388,
+      "source_revision_id": "1311497464",
+      "source_locator": "Introduction",
+      "source_quote": "Computer science education in the United Kingdom is carried out in the UK mostly from the age of 11.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:65639388",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "In their teenage years, around 3% of girls are interested in computing as a career, as opposed to 17% of boys."
+      },
+      "statement_en": "In their teenage years, around 3% of girls are interested in computing as a career, as opposed to 17% of boys.",
+      "confidence": "medium",
+      "source_page_id": 65639388,
+      "source_revision_id": "1311497464",
+      "source_locator": "Introduction",
+      "source_quote": "In their teenage years, around 3% of girls are interested in computing as a career, as opposed to 17% of boys.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:65639388",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "Education Scotland introduced its Curriculum for Excellence -Technologies in 2010."
+      },
+      "statement_en": "Education Scotland introduced its Curriculum for Excellence -Technologies in 2010.",
+      "confidence": "low",
+      "source_page_id": 65639388,
+      "source_revision_id": "1311497464",
+      "source_locator": "Scotland",
+      "source_quote": "Education Scotland introduced its Curriculum for Excellence -Technologies in 2010.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:80486335",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The International Journal of Bilingual Education and Bilingualism is a peer-reviewed multidisciplinary academic journal that publishes papers in the field of linguistics, focusing on bilingualism and bilingual education."
+      },
+      "statement_en": "The International Journal of Bilingual Education and Bilingualism is a peer-reviewed multidisciplinary academic journal that publishes papers in the field of linguistics, focusing on bilingualism and bilingual education.",
+      "confidence": "medium",
+      "source_page_id": 80486335,
+      "source_revision_id": "1301932006",
+      "source_locator": "Introduction",
+      "source_quote": "The International Journal of Bilingual Education and Bilingualism is a peer-reviewed multidisciplinary academic journal that publishes papers in the field of linguistics, focusing on bilingualism and bilingual education.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:297460",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Manitoba Schools Question was a political crisis in the Canadian province of Manitoba that occurred late in the 19th century, attacking publicly-funded separate schools for Roman Catholics and Protestants."
+      },
+      "statement_en": "The Manitoba Schools Question was a political crisis in the Canadian province of Manitoba that occurred late in the 19th century, attacking publicly-funded separate schools for Roman Catholics and Protestants.",
+      "confidence": "medium",
+      "source_page_id": 297460,
+      "source_revision_id": "1375813794",
+      "source_locator": "Introduction",
+      "source_quote": "The Manitoba Schools Question was a political crisis in the Canadian province of Manitoba that occurred late in the 19th century, attacking publicly-funded separate schools for Roman Catholics and Protestants.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:297460",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The crisis was precipitated by a series of provincial laws passed between 1890 and 1896, and another passed in 1916."
+      },
+      "statement_en": "The crisis was precipitated by a series of provincial laws passed between 1890 and 1896, and another passed in 1916.",
+      "confidence": "medium",
+      "source_page_id": 297460,
+      "source_revision_id": "1375813794",
+      "source_locator": "Introduction",
+      "source_quote": "The crisis was precipitated by a series of provincial laws passed between 1890 and 1896, and another passed in 1916.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:297460",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The teaching of any non-English language, as well as the use of such language as a language of instruction, were thereby prohibited in these schools."
+      },
+      "statement_en": "The teaching of any non-English language, as well as the use of such language as a language of instruction, were thereby prohibited in these schools.",
+      "confidence": "low",
+      "source_page_id": 297460,
+      "source_revision_id": "1375813794",
+      "source_locator": "Thornton Act",
+      "source_quote": "The teaching of any non-English language, as well as the use of such language as a language of instruction, were thereby prohibited in these schools.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:297460",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The AÉCFM encouraged francophone instructors to continue teaching French and to keep using it as a language of instruction without the knowledge of the authorities, even if this required lying to school inspectors."
+      },
+      "statement_en": "The AÉCFM encouraged francophone instructors to continue teaching French and to keep using it as a language of instruction without the knowledge of the authorities, even if this required lying to school inspectors.",
+      "confidence": "low",
+      "source_page_id": 297460,
+      "source_revision_id": "1375813794",
+      "source_locator": "Francophone resistance",
+      "source_quote": "The AÉCFM encouraged francophone instructors to continue teaching French and to keep using it as a language of instruction without the knowledge of the authorities, even if this required lying to school inspectors.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1570173",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Le Lycée français de Los Angeles (French School of Los Angeles) is a private bilingual education school located in the Westside Village neighborhood of Los Angeles, California."
+      },
+      "statement_en": "Le Lycée français de Los Angeles (French School of Los Angeles) is a private bilingual education school located in the Westside Village neighborhood of Los Angeles, California.",
+      "confidence": "medium",
+      "source_page_id": 1570173,
+      "source_revision_id": "1371342544",
+      "source_locator": "Introduction",
+      "source_quote": "Le Lycée français de Los Angeles (French School of Los Angeles) is a private bilingual education school located in the Westside Village neighborhood of Los Angeles, California.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1570173",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Lycée français de Los Angeles operated a San Fernando Valley campus in Woodland Hills, on the site of Platt Elementary School."
+      },
+      "statement_en": "Lycée français de Los Angeles operated a San Fernando Valley campus in Woodland Hills, on the site of Platt Elementary School.",
+      "confidence": "low",
+      "source_page_id": 1570173,
+      "source_revision_id": "1371342544",
+      "source_locator": "Former campuses",
+      "source_quote": "Lycée français de Los Angeles operated a San Fernando Valley campus in Woodland Hills, on the site of Platt Elementary School.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:2008924",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "French immersion is a form of bilingual education in which students who do not speak French as a first language will receive instruction in French."
+      },
+      "statement_en": "French immersion is a form of bilingual education in which students who do not speak French as a first language will receive instruction in French.",
+      "confidence": "medium",
+      "source_page_id": 2008924,
+      "source_revision_id": "1377032740",
+      "source_locator": "Introduction",
+      "source_quote": "French immersion is a form of bilingual education in which students who do not speak French as a first language will receive instruction in French.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2008924",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Most school boards in Canada offer French immersion starting in grade one and others start as early as kindergarten."
+      },
+      "statement_en": "Most school boards in Canada offer French immersion starting in grade one and others start as early as kindergarten.",
+      "confidence": "low",
+      "source_page_id": 2008924,
+      "source_revision_id": "1377032740",
+      "source_locator": "Introduction",
+      "source_quote": "Most school boards in Canada offer French immersion starting in grade one and others start as early as kindergarten.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2008924",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "French immersion students from elementary schools often experience difficulties when entering a high school which provides the full curriculum in English only."
+      },
+      "statement_en": "French immersion students from elementary schools often experience difficulties when entering a high school which provides the full curriculum in English only.",
+      "confidence": "low",
+      "source_page_id": 2008924,
+      "source_revision_id": "1377032740",
+      "source_locator": "Challenges",
+      "source_quote": "French immersion students from elementary schools often experience difficulties when entering a high school which provides the full curriculum in English only.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2008924",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Students in French immersion programs complete the same core curriculum subjects as students in the English-language program."
+      },
+      "statement_en": "Students in French immersion programs complete the same core curriculum subjects as students in the English-language program.",
+      "confidence": "low",
+      "source_page_id": 2008924,
+      "source_revision_id": "1377032740",
+      "source_locator": "Typical features",
+      "source_quote": "Students in French immersion programs complete the same core curriculum subjects as students in the English-language program.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2008924",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Often, because French immersion is a \"program of choice\" and not a required part of the curriculum, school boards charge parents busing fees to have their children attend a school other than the one in their own neighbourhood."
+      },
+      "statement_en": "Often, because French immersion is a \"program of choice\" and not a required part of the curriculum, school boards charge parents busing fees to have their children attend a school other than the one in their own neighbourhood.",
+      "confidence": "low",
+      "source_page_id": 2008924,
+      "source_revision_id": "1377032740",
+      "source_locator": "Controversy",
+      "source_quote": "Often, because French immersion is a \"program of choice\" and not a required part of the curriculum, school boards charge parents busing fees to have their children attend a school other than the one in their own neighbourhood.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2907984",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Lycée français de New York (LFNY), commonly called the Lycée (in English, \"The French High School of New York\"), is an independent bilingual French school based in Manhattan, New York City."
+      },
+      "statement_en": "The Lycée français de New York (LFNY), commonly called the Lycée (in English, \"The French High School of New York\"), is an independent bilingual French school based in Manhattan, New York City.",
+      "confidence": "medium",
+      "source_page_id": 2907984,
+      "source_revision_id": "1375125581",
+      "source_locator": "Introduction",
+      "source_quote": "The Lycée français de New York (LFNY), commonly called the Lycée (in English, \"The French High School of New York\"), is an independent bilingual French school based in Manhattan, New York City.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2907984",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school serves students from Nursery-3 to grade 12."
+      },
+      "statement_en": "The school serves students from Nursery-3 to grade 12.",
+      "confidence": "low",
+      "source_page_id": 2907984,
+      "source_revision_id": "1375125581",
+      "source_locator": "Introduction",
+      "source_quote": "The school serves students from Nursery-3 to grade 12.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:2907984",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school curriculum parallels the academic program laid out by the French Ministry of National Education and used in French schools throughout the world."
+      },
+      "statement_en": "The school curriculum parallels the academic program laid out by the French Ministry of National Education and used in French schools throughout the world.",
+      "confidence": "low",
+      "source_page_id": 2907984,
+      "source_revision_id": "1375125581",
+      "source_locator": "Curriculum",
+      "source_quote": "The school curriculum parallels the academic program laid out by the French Ministry of National Education and used in French schools throughout the world.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:5072356",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The French Immersion School of Washington is a bilingual day school for children ages 2½ to 11 years old in Bellevue, Washington, United States."
+      },
+      "statement_en": "The French Immersion School of Washington is a bilingual day school for children ages 2½ to 11 years old in Bellevue, Washington, United States.",
+      "confidence": "medium",
+      "source_page_id": 5072356,
+      "source_revision_id": "1367988446",
+      "source_locator": "Introduction",
+      "source_quote": "The French Immersion School of Washington is a bilingual day school for children ages 2½ to 11 years old in Bellevue, Washington, United States.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:7215996",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "International School of Boston (ISB; or LIB, previously École Internationale de Boston) is a bilingual co-educational TPS-12 private school in Cambridge, Massachusetts."
+      },
+      "statement_en": "International School of Boston (ISB; or LIB, previously École Internationale de Boston) is a bilingual co-educational TPS-12 private school in Cambridge, Massachusetts.",
+      "confidence": "medium",
+      "source_page_id": 7215996,
+      "source_revision_id": "1368082622",
+      "source_locator": "Introduction",
+      "source_quote": "International School of Boston (ISB; or LIB, previously École Internationale de Boston) is a bilingual co-educational TPS-12 private school in Cambridge, Massachusetts.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:7215996",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "With 540 students from over 50 countries, ISB is one of the few schools in New England offering the International Baccalaureate."
+      },
+      "statement_en": "With 540 students from over 50 countries, ISB is one of the few schools in New England offering the International Baccalaureate.",
+      "confidence": "medium",
+      "source_page_id": 7215996,
+      "source_revision_id": "1368082622",
+      "source_locator": "Introduction",
+      "source_quote": "With 540 students from over 50 countries, ISB is one of the few schools in New England offering the International Baccalaureate.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:8106765",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Silicon Valley International School, colloquially INTL (pronounced \"international\"), is a private grade day school located in Silicon Valley, with three campuses, two campuses in Palo Alto (formerly International School of the Peninsula, ISTP) and one in Menlo Park (formerly Alto International School)."
+      },
+      "statement_en": "Silicon Valley International School, colloquially INTL (pronounced \"international\"), is a private grade day school located in Silicon Valley, with three campuses, two campuses in Palo Alto (formerly International School of the Peninsula, ISTP) and one in Menlo Park (formerly Alto International School).",
+      "confidence": "medium",
+      "source_page_id": 8106765,
+      "source_revision_id": "1371823501",
+      "source_locator": "Introduction",
+      "source_quote": "Silicon Valley International School, colloquially INTL (pronounced \"international\"), is a private grade day school located in Silicon Valley, with three campuses, two campuses in Palo Alto (formerly International School of the Peninsula, ISTP) and one in Menlo Park (formerly Alto International School).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:8106765",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Silicon Valley International School teaches in English language, Mandarin Chinese, French language and German language."
+      },
+      "statement_en": "Silicon Valley International School teaches in English language, Mandarin Chinese, French language and German language.",
+      "confidence": "low",
+      "source_page_id": 8106765,
+      "source_revision_id": "1371823501",
+      "source_locator": "Introduction",
+      "source_quote": "Silicon Valley International School teaches in English language, Mandarin Chinese, French language and German language.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:8937742",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Inter-American Magnet School (IAMS; ) is a K-8 magnet school in Lake View, Chicago, Illinois."
+      },
+      "statement_en": "Inter-American Magnet School (IAMS; ) is a K-8 magnet school in Lake View, Chicago, Illinois.",
+      "confidence": "medium",
+      "source_page_id": 8937742,
+      "source_revision_id": "1378096768",
+      "source_locator": "Introduction",
+      "source_quote": "Inter-American Magnet School (IAMS; ) is a K-8 magnet school in Lake View, Chicago, Illinois.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:8937742",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The oldest two-way bilingual school in the Midwestern United States, it is a part of Chicago Public Schools (CPS)."
+      },
+      "statement_en": "The oldest two-way bilingual school in the Midwestern United States, it is a part of Chicago Public Schools (CPS).",
+      "confidence": "medium",
+      "source_page_id": 8937742,
+      "source_revision_id": "1378096768",
+      "source_locator": "Introduction",
+      "source_quote": "The oldest two-way bilingual school in the Midwestern United States, it is a part of Chicago Public Schools (CPS).",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:8937742",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school's Local School Council (LSC) was inspired by and modeled after the level of collaboration between parents, teachers and administration at Inter-American School before the days of school reform in the 1980s."
+      },
+      "statement_en": "The school's Local School Council (LSC) was inspired by and modeled after the level of collaboration between parents, teachers and administration at Inter-American School before the days of school reform in the 1980s.",
+      "confidence": "low",
+      "source_page_id": 8937742,
+      "source_revision_id": "1378096768",
+      "source_locator": "Organization",
+      "source_quote": "The school's Local School Council (LSC) was inspired by and modeled after the level of collaboration between parents, teachers and administration at Inter-American School before the days of school reform in the 1980s.",
+      "unesco_concepts": []
+    }
+  ]
+}

@@ -1,0 +1,730 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000080",
+  "pack_sha256": "c37743f05822438c1ea995e5fe900220648420bd2f7ef4d2cf4373986274008a",
+  "producer": "GPT-6 / ChatGPT (selection semi-automatisee et revue editorialement ciblee; non verifie independamment)",
+  "coverage_note": "Selection selective de passages du wikitext complet. Certaines connaissances sont des descriptions de pages; omissions possibles. Sources Wikipedia non verifiees independamment. Rattachements UNESCO seulement si directement appuyes.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:2403214",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "The District of Columbia Public Schools (DCPS) is the local public school system for the District of Columbia, in the United States."
+      },
+      "statement_en": "The District of Columbia Public Schools (DCPS) is the local public school system for the District of Columbia, in the United States.",
+      "confidence": "medium",
+      "source_page_id": 2403214,
+      "source_revision_id": "1372438623",
+      "source_locator": "Introduction",
+      "source_quote": "The District of Columbia Public Schools (DCPS) is the local public school system for the District of Columbia, in the United States.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2403214",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "The Council of the District of Columbia enacted the DC Public Education Reform Amendment Act of 2007."
+      },
+      "statement_en": "The Council of the District of Columbia enacted the DC Public Education Reform Amendment Act of 2007.",
+      "confidence": "low",
+      "source_page_id": 2403214,
+      "source_revision_id": "1372438623",
+      "source_locator": "D.C. Public Education Reform Amendment Act of 2007",
+      "source_quote": "The Council of the District of Columbia enacted the DC Public Education Reform Amendment Act of 2007.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2403214",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "In 2007, Karin Hess of the National Center for the Improvement of Educational Assessment conducted an analysis that has also gone into the alignment of DCPS standards and the \"DC CAS Alt\", the assessment for students with cognitive disabilities."
+      },
+      "statement_en": "In 2007, Karin Hess of the National Center for the Improvement of Educational Assessment conducted an analysis that has also gone into the alignment of DCPS standards and the \"DC CAS Alt\", the assessment for students with cognitive disabilities.",
+      "confidence": "low",
+      "source_page_id": 2403214,
+      "source_revision_id": "1372438623",
+      "source_locator": "No Child Left Behind compliance",
+      "source_quote": "In 2007, Karin Hess of the National Center for the Improvement of Educational Assessment conducted an analysis that has also gone into the alignment of DCPS standards and the \"DC CAS Alt\", the assessment for students with cognitive disabilities.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2403214",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "One condition of the District of Columbia Public Education Reform Amendment Act of 2007 was creating DCPS as a separate cabinet-level agency from the D.C. Board of Education."
+      },
+      "statement_en": "One condition of the District of Columbia Public Education Reform Amendment Act of 2007 was creating DCPS as a separate cabinet-level agency from the D.C. Board of Education.",
+      "confidence": "low",
+      "source_page_id": 2403214,
+      "source_revision_id": "1372438623",
+      "source_locator": "Governance",
+      "source_quote": "One condition of the District of Columbia Public Education Reform Amendment Act of 2007 was creating DCPS as a separate cabinet-level agency from the D.C. Board of Education.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2403214",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "Under Teacher Leadership Innovation (TLI), experienced teachers can apply for specialized positions in which they spend at least 50% of their time teaching in the classroom and the rest of the time coaching other teachers and leading school teams."
+      },
+      "statement_en": "Under Teacher Leadership Innovation (TLI), experienced teachers can apply for specialized positions in which they spend at least 50% of their time teaching in the classroom and the rest of the time coaching other teachers and leading school teams.",
+      "confidence": "low",
+      "source_page_id": 2403214,
+      "source_revision_id": "1372438623",
+      "source_locator": "Teachers",
+      "source_quote": "Under Teacher Leadership Innovation (TLI), experienced teachers can apply for specialized positions in which they spend at least 50% of their time teaching in the classroom and the rest of the time coaching other teachers and leading school teams.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2690493",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Vivian Juanita Malone Jones (July 15, 1942 – October 13, 2005) was the first Black American student to graduate from the University of Alabama, in 1965."
+      },
+      "statement_en": "Vivian Juanita Malone Jones (July 15, 1942 – October 13, 2005) was the first Black American student to graduate from the University of Alabama, in 1965.",
+      "confidence": "medium",
+      "source_page_id": 2690493,
+      "source_revision_id": "1374929459",
+      "source_locator": "Introduction",
+      "source_quote": "Vivian Juanita Malone Jones (July 15, 1942 – October 13, 2005) was the first Black American student to graduate from the University of Alabama, in 1965.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2690493",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "She and James Hood were the first Black students able to enroll at the university since Autherine Lucy and Pollie Myers initially strove to desegregate the school."
+      },
+      "statement_en": "She and James Hood were the first Black students able to enroll at the university since Autherine Lucy and Pollie Myers initially strove to desegregate the school.",
+      "confidence": "medium",
+      "source_page_id": 2690493,
+      "source_revision_id": "1374929459",
+      "source_locator": "Introduction",
+      "source_quote": "She and James Hood were the first Black students able to enroll at the university since Autherine Lucy and Pollie Myers initially strove to desegregate the school.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2690493",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The arrival of Vivian Malone Jones and James Hood to the University of Alabama, also known as Stand in the Schoolhouse Door, was depicted in the 1994 film Forrest Gump."
+      },
+      "statement_en": "The arrival of Vivian Malone Jones and James Hood to the University of Alabama, also known as Stand in the Schoolhouse Door, was depicted in the 1994 film Forrest Gump.",
+      "confidence": "low",
+      "source_page_id": 2690493,
+      "source_revision_id": "1374929459",
+      "source_locator": "Popular culture",
+      "source_quote": "The arrival of Vivian Malone Jones and James Hood to the University of Alabama, also known as Stand in the Schoolhouse Door, was depicted in the 1994 film Forrest Gump.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2690493",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The University of Alabama awards a student the Vivian Malone Jones Endowed Scholarship for Diversity each year."
+      },
+      "statement_en": "The University of Alabama awards a student the Vivian Malone Jones Endowed Scholarship for Diversity each year.",
+      "confidence": "low",
+      "source_page_id": 2690493,
+      "source_revision_id": "1374929459",
+      "source_locator": "Awards and community impact",
+      "source_quote": "The University of Alabama awards a student the Vivian Malone Jones Endowed Scholarship for Diversity each year.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3110444",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Melba Joy Patillo Beals (; born December 7, 1941) is an American journalist and educator who was a member of the Little Rock Nine, a group of black students who were the first to racially integrate Little Rock Central High School in Little Rock, Arkansas."
+      },
+      "statement_en": "Melba Joy Patillo Beals (; born December 7, 1941) is an American journalist and educator who was a member of the Little Rock Nine, a group of black students who were the first to racially integrate Little Rock Central High School in Little Rock, Arkansas.",
+      "confidence": "medium",
+      "source_page_id": 3110444,
+      "source_revision_id": "1370022875",
+      "source_locator": "Introduction",
+      "source_quote": "Melba Joy Patillo Beals (; born December 7, 1941) is an American journalist and educator who was a member of the Little Rock Nine, a group of black students who were the first to racially integrate Little Rock Central High School in Little Rock, Arkansas.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3110444",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Beals and her family faced Beals planned on returning to Central High for the 1958–1959 school year, but Governor Faubus shut down all Little Rock high schools that failed to resist integration, leading to other school districts across the South to do the same or to shift funding to private schools to avoid integration."
+      },
+      "statement_en": "Beals and her family faced Beals planned on returning to Central High for the 1958–1959 school year, but Governor Faubus shut down all Little Rock high schools that failed to resist integration, leading to other school districts across the South to do the same or to shift funding to private schools to avoid integration.",
+      "confidence": "low",
+      "source_page_id": 3110444,
+      "source_revision_id": "1370022875",
+      "source_locator": "High school education",
+      "source_quote": "Beals and her family faced Beals planned on returning to Central High for the 1958–1959 school year, but Governor Faubus shut down all Little Rock high schools that failed to resist integration, leading to other school districts across the South to do the same or to shift funding to private schools to avoid integration.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3627272",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "In the American education system, a superintendent or superintendent of schools is an administrator of a school district, a local government body overseeing public schools."
+      },
+      "statement_en": "In the American education system, a superintendent or superintendent of schools is an administrator of a school district, a local government body overseeing public schools.",
+      "confidence": "medium",
+      "source_page_id": 3627272,
+      "source_revision_id": "1359789523",
+      "source_locator": "Introduction",
+      "source_quote": "In the American education system, a superintendent or superintendent of schools is an administrator of a school district, a local government body overseeing public schools.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3627272",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "All school principals in a respective school district report to the superintendent."
+      },
+      "statement_en": "All school principals in a respective school district report to the superintendent.",
+      "confidence": "low",
+      "source_page_id": 3627272,
+      "source_revision_id": "1359789523",
+      "source_locator": "Introduction",
+      "source_quote": "All school principals in a respective school district report to the superintendent.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4366212",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Education for All Handicapped Children Act (sometimes referred to using the acronyms EAHCA or EHA, or Public Law (PL) 94-142) was enacted by the United States Congress in 1975."
+      },
+      "statement_en": "The Education for All Handicapped Children Act (sometimes referred to using the acronyms EAHCA or EHA, or Public Law (PL) 94-142) was enacted by the United States Congress in 1975.",
+      "confidence": "medium",
+      "source_page_id": 4366212,
+      "source_revision_id": "1368976098",
+      "source_locator": "Introduction",
+      "source_quote": "The Education for All Handicapped Children Act (sometimes referred to using the acronyms EAHCA or EHA, or Public Law (PL) 94-142) was enacted by the United States Congress in 1975.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4366212",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Public schools were required to evaluate children with disabilities and create an educational plan with parent input that would emulate as closely as possible the educational experience of non-disabled students."
+      },
+      "statement_en": "Public schools were required to evaluate children with disabilities and create an educational plan with parent input that would emulate as closely as possible the educational experience of non-disabled students.",
+      "confidence": "medium",
+      "source_page_id": 4366212,
+      "source_revision_id": "1368976098",
+      "source_locator": "Introduction",
+      "source_quote": "Public schools were required to evaluate children with disabilities and create an educational plan with parent input that would emulate as closely as possible the educational experience of non-disabled students.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4366212",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Supreme Court decided that EHA would be the exclusive remedy for disabled students asserting their right to equal access to public education in Smith v. Robinson, 468 U.S. 992 (1984)."
+      },
+      "statement_en": "The Supreme Court decided that EHA would be the exclusive remedy for disabled students asserting their right to equal access to public education in Smith v. Robinson, 468 U.S. 992 (1984).",
+      "confidence": "low",
+      "source_page_id": 4366212,
+      "source_revision_id": "1368976098",
+      "source_locator": "Functional relationship between EHA, the Rehabilitation Act, and the equal protection clause",
+      "source_quote": "The Supreme Court decided that EHA would be the exclusive remedy for disabled students asserting their right to equal access to public education in Smith v. Robinson, 468 U.S. 992 (1984).",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4608876",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Jean Lave is a social anthropologist who theorizes learning as changing participation in on-going changing practice."
+      },
+      "statement_en": "Jean Lave is a social anthropologist who theorizes learning as changing participation in on-going changing practice.",
+      "confidence": "medium",
+      "source_page_id": 4608876,
+      "source_revision_id": "1378100041",
+      "source_locator": "Introduction",
+      "source_quote": "Jean Lave is a social anthropologist who theorizes learning as changing participation in on-going changing practice.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4608876",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Lave received a Bachelor's from Stanford University, and completed her doctorate in social anthropology at Harvard University in 1968."
+      },
+      "statement_en": "Lave received a Bachelor's from Stanford University, and completed her doctorate in social anthropology at Harvard University in 1968.",
+      "confidence": "low",
+      "source_page_id": 4608876,
+      "source_revision_id": "1378100041",
+      "source_locator": "Education and career",
+      "source_quote": "Lave received a Bachelor's from Stanford University, and completed her doctorate in social anthropology at Harvard University in 1968.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:4628618",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Making the Most of the Micro is a TV series broadcast in 1983 as part of the BBC's Computer Literacy Project."
+      },
+      "statement_en": "Making the Most of the Micro is a TV series broadcast in 1983 as part of the BBC's Computer Literacy Project.",
+      "confidence": "medium",
+      "source_page_id": 4628618,
+      "source_revision_id": "1368634799",
+      "source_locator": "Introduction",
+      "source_quote": "Making the Most of the Micro is a TV series broadcast in 1983 as part of the BBC's Computer Literacy Project.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4628618",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Unlike its predecessor, Making the Most of the Micro delved somewhat deeper into the technicalities and uses that microcomputers could be put to, once again mainly using the BBC Micro in the studio for demonstration purposes."
+      },
+      "statement_en": "Unlike its predecessor, Making the Most of the Micro delved somewhat deeper into the technicalities and uses that microcomputers could be put to, once again mainly using the BBC Micro in the studio for demonstration purposes.",
+      "confidence": "low",
+      "source_page_id": 4628618,
+      "source_revision_id": "1368634799",
+      "source_locator": "Introduction",
+      "source_quote": "Unlike its predecessor, Making the Most of the Micro delved somewhat deeper into the technicalities and uses that microcomputers could be put to, once again mainly using the BBC Micro in the studio for demonstration purposes.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:4892335",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Diwan (; \"seed\" in Breton) is a federation of Breton-medium schools in Brittany."
+      },
+      "statement_en": "Diwan (; \"seed\" in Breton) is a federation of Breton-medium schools in Brittany.",
+      "confidence": "medium",
+      "source_page_id": 4892335,
+      "source_revision_id": "1334013126",
+      "source_locator": "Introduction",
+      "source_quote": "Diwan (; \"seed\" in Breton) is a federation of Breton-medium schools in Brittany.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:4892335",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The first Diwan school was created by a few parents in 1977 at Lampaul-Ploudalmézeau (Breton: Lambaol-Gwitalmeze) near Brest, because the centralised French state schools were unwilling to offer the Breton language in the curriculum."
+      },
+      "statement_en": "The first Diwan school was created by a few parents in 1977 at Lampaul-Ploudalmézeau (Breton: Lambaol-Gwitalmeze) near Brest, because the centralised French state schools were unwilling to offer the Breton language in the curriculum.",
+      "confidence": "low",
+      "source_page_id": 4892335,
+      "source_revision_id": "1334013126",
+      "source_locator": "History",
+      "source_quote": "The first Diwan school was created by a few parents in 1977 at Lampaul-Ploudalmézeau (Breton: Lambaol-Gwitalmeze) near Brest, because the centralised French state schools were unwilling to offer the Breton language in the curriculum.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4996077",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Discovery learning is a technique of inquiry-based learning and is considered a constructivist-based approach to education."
+      },
+      "statement_en": "Discovery learning is a technique of inquiry-based learning and is considered a constructivist-based approach to education.",
+      "confidence": "medium",
+      "source_page_id": 4996077,
+      "source_revision_id": "1361567088",
+      "source_locator": "Introduction",
+      "source_quote": "Discovery learning is a technique of inquiry-based learning and is considered a constructivist-based approach to education.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4996077",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Jerome Bruner is often credited with originating discovery learning in the 1960s, but his ideas are very similar to those of earlier writers such as John Dewey."
+      },
+      "statement_en": "Jerome Bruner is often credited with originating discovery learning in the 1960s, but his ideas are very similar to those of earlier writers such as John Dewey.",
+      "confidence": "medium",
+      "source_page_id": 4996077,
+      "source_revision_id": "1361567088",
+      "source_locator": "Introduction",
+      "source_quote": "Jerome Bruner is often credited with originating discovery learning in the 1960s, but his ideas are very similar to those of earlier writers such as John Dewey.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4996077",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "The teachers' role in discovery learning is therefore critical to the success of learning outcomes."
+      },
+      "statement_en": "The teachers' role in discovery learning is therefore critical to the success of learning outcomes.",
+      "confidence": "low",
+      "source_page_id": 4996077,
+      "source_revision_id": "1361567088",
+      "source_locator": "Teacher's role",
+      "source_quote": "The teachers' role in discovery learning is therefore critical to the success of learning outcomes.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:5829511",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Peer mentoring is a form of mentorship that usually takes place between a person who has lived through a specific experience (peer mentor) and a person who is new to that experience (the peer mentee)."
+      },
+      "statement_en": "Peer mentoring is a form of mentorship that usually takes place between a person who has lived through a specific experience (peer mentor) and a person who is new to that experience (the peer mentee).",
+      "confidence": "medium",
+      "source_page_id": 5829511,
+      "source_revision_id": "1341317266",
+      "source_locator": "Introduction",
+      "source_quote": "Peer mentoring is a form of mentorship that usually takes place between a person who has lived through a specific experience (peer mentor) and a person who is new to that experience (the peer mentee).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:5829511",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Peer mentoring provides individuals who have had a specific life experience the chance to learn from those who have recovered, or rehabilitated, following such an experience."
+      },
+      "statement_en": "Peer mentoring provides individuals who have had a specific life experience the chance to learn from those who have recovered, or rehabilitated, following such an experience.",
+      "confidence": "low",
+      "source_page_id": 5829511,
+      "source_revision_id": "1341317266",
+      "source_locator": "Introduction",
+      "source_quote": "Peer mentoring provides individuals who have had a specific life experience the chance to learn from those who have recovered, or rehabilitated, following such an experience.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:5829511",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Peer mentoring in education was promoted during the 1960s by educator and theorist Paulo Freire: Peer mentors appear mainly in secondary schools where students moving up from primary schools may need assistance in settling into the new schedule and lifestyle of secondary school life."
+      },
+      "statement_en": "Peer mentoring in education was promoted during the 1960s by educator and theorist Paulo Freire: Peer mentors appear mainly in secondary schools where students moving up from primary schools may need assistance in settling into the new schedule and lifestyle of secondary school life.",
+      "confidence": "low",
+      "source_page_id": 5829511,
+      "source_revision_id": "1341317266",
+      "source_locator": "In education",
+      "source_quote": "Peer mentoring in education was promoted during the 1960s by educator and theorist Paulo Freire: Peer mentors appear mainly in secondary schools where students moving up from primary schools may need assistance in settling into the new schedule and lifestyle of secondary school life.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:5829511",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Some peer mentoring programs promote assimilation among ethnic minority students because of the use of student role models who are perceived as successful in social and educational environments characterized by majority students."
+      },
+      "statement_en": "Some peer mentoring programs promote assimilation among ethnic minority students because of the use of student role models who are perceived as successful in social and educational environments characterized by majority students.",
+      "confidence": "low",
+      "source_page_id": 5829511,
+      "source_revision_id": "1341317266",
+      "source_locator": "Criticisms",
+      "source_quote": "Some peer mentoring programs promote assimilation among ethnic minority students because of the use of student role models who are perceived as successful in social and educational environments characterized by majority students.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:6869907",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Limited English proficiency (LEP) is a term used in the United States that refers to a person who is not fluent in the English language, often because it is not their native language."
+      },
+      "statement_en": "Limited English proficiency (LEP) is a term used in the United States that refers to a person who is not fluent in the English language, often because it is not their native language.",
+      "confidence": "medium",
+      "source_page_id": 6869907,
+      "source_revision_id": "1378461214",
+      "source_locator": "Introduction",
+      "source_quote": "Limited English proficiency (LEP) is a term used in the United States that refers to a person who is not fluent in the English language, often because it is not their native language.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:6869907",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The definition of \"limited English proficiency\" varies between states and within state districts."
+      },
+      "statement_en": "The definition of \"limited English proficiency\" varies between states and within state districts.",
+      "confidence": "low",
+      "source_page_id": 6869907,
+      "source_revision_id": "1378461214",
+      "source_locator": "Introduction",
+      "source_quote": "The definition of \"limited English proficiency\" varies between states and within state districts.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:6869907",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "ELL (English Language Learner), used by United States governments and school systems, was created by James Crawford of the Institute for Language and Education Policy in an effort to label learners positively, rather than ascribing a deficiency to them."
+      },
+      "statement_en": "ELL (English Language Learner), used by United States governments and school systems, was created by James Crawford of the Institute for Language and Education Policy in an effort to label learners positively, rather than ascribing a deficiency to them.",
+      "confidence": "low",
+      "source_page_id": 6869907,
+      "source_revision_id": "1378461214",
+      "source_locator": "History",
+      "source_quote": "ELL (English Language Learner), used by United States governments and school systems, was created by James Crawford of the Institute for Language and Education Policy in an effort to label learners positively, rather than ascribing a deficiency to them.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:9932917",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Mathematics and Computing Colleges were introduced in England in 2002 and Northern Ireland in 2006 as part of the United Kingdom Government's Specialist Schools programme, which was designed to raise standards in secondary education."
+      },
+      "statement_en": "Mathematics and Computing Colleges were introduced in England in 2002 and Northern Ireland in 2006 as part of the United Kingdom Government's Specialist Schools programme, which was designed to raise standards in secondary education.",
+      "confidence": "medium",
+      "source_page_id": 9932917,
+      "source_revision_id": "1372461285",
+      "source_locator": "Introduction",
+      "source_quote": "Mathematics and Computing Colleges were introduced in England in 2002 and Northern Ireland in 2006 as part of the United Kingdom Government's Specialist Schools programme, which was designed to raise standards in secondary education.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:9999581",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "George Dennison (1925–1987) was an American novelist and short-story author best known for The Lives of Children, his account of the First Street School."
+      },
+      "statement_en": "George Dennison (1925–1987) was an American novelist and short-story author best known for The Lives of Children, his account of the First Street School.",
+      "confidence": "medium",
+      "source_page_id": 9999581,
+      "source_revision_id": "1180661469",
+      "source_locator": "Introduction",
+      "source_quote": "George Dennison (1925–1987) was an American novelist and short-story author best known for The Lives of Children, his account of the First Street School.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:10026437",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "In 1961 black students and their parents sued the Board of Education of Oklahoma City to end the de jure dual school system."
+      },
+      "statement_en": "In 1961 black students and their parents sued the Board of Education of Oklahoma City to end the de jure dual school system.",
+      "confidence": "low",
+      "source_page_id": 10026437,
+      "source_revision_id": "1351346982",
+      "source_locator": "Facts",
+      "source_quote": "In 1961 black students and their parents sued the Board of Education of Oklahoma City to end the de jure dual school system.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:10026437",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "Federal supervision of school boards was intended to remedy past discrimination."
+      },
+      "statement_en": "Federal supervision of school boards was intended to remedy past discrimination.",
+      "confidence": "low",
+      "source_page_id": 10026437,
+      "source_revision_id": "1351346982",
+      "source_locator": "Supreme Court decision",
+      "source_quote": "Federal supervision of school boards was intended to remedy past discrimination.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:11440018",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Irish-medium primary schools in Northern Ireland provide education primarily through the Irish language."
+      },
+      "statement_en": "Irish-medium primary schools in Northern Ireland provide education primarily through the Irish language.",
+      "confidence": "medium",
+      "source_page_id": 11440018,
+      "source_revision_id": "1378437361",
+      "source_locator": "Introduction",
+      "source_quote": "This is a list of [[primary school]]s in [[Northern Ireland]] in which education is primarily conducted in [[Irish language|Irish]].",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:12240254",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "In Finland, every Faculty of Education has one or several normal schools to give aspiring teachers a chance for teaching practice as a part of their academic curriculum."
+      },
+      "statement_en": "In Finland, every Faculty of Education has one or several normal schools to give aspiring teachers a chance for teaching practice as a part of their academic curriculum.",
+      "confidence": "low",
+      "source_page_id": 12240254,
+      "source_revision_id": "1376426352",
+      "source_locator": "Finland",
+      "source_quote": "In Finland, every Faculty of Education has one or several normal schools to give aspiring teachers a chance for teaching practice as a part of their academic curriculum.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:12240254",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The academic curriculum followed by the pupils is the same as in all other schools of the same type, but the normal schools frequently engage in research programs which may necessitate minor curriculum alterations."
+      },
+      "statement_en": "The academic curriculum followed by the pupils is the same as in all other schools of the same type, but the normal schools frequently engage in research programs which may necessitate minor curriculum alterations.",
+      "confidence": "low",
+      "source_page_id": 12240254,
+      "source_revision_id": "1376426352",
+      "source_locator": "Finland",
+      "source_quote": "The academic curriculum followed by the pupils is the same as in all other schools of the same type, but the normal schools frequently engage in research programs which may necessitate minor curriculum alterations.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:12240254",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "The schools may, depending on the type of teachers educated, offer education for pupils in age groups 7–12, 13–19 or both."
+      },
+      "statement_en": "The schools may, depending on the type of teachers educated, offer education for pupils in age groups 7–12, 13–19 or both.",
+      "confidence": "low",
+      "source_page_id": 12240254,
+      "source_revision_id": "1376426352",
+      "source_locator": "Finland",
+      "source_quote": "The schools may, depending on the type of teachers educated, offer education for pupils in age groups 7–12, 13–19 or both.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:15608098",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "Frederick John Kasper Jr. (October 21, 1929 – April 7, 1998) was an American politician, Ku Klux Klan member, and a segregationist who took a militant stand against racial integration during the civil rights movement."
+      },
+      "statement_en": "Frederick John Kasper Jr. (October 21, 1929 – April 7, 1998) was an American politician, Ku Klux Klan member, and a segregationist who took a militant stand against racial integration during the civil rights movement.",
+      "confidence": "medium",
+      "source_page_id": 15608098,
+      "source_revision_id": "1372421565",
+      "source_locator": "Introduction",
+      "source_quote": "Frederick John Kasper Jr. (October 21, 1929 – April 7, 1998) was an American politician, Ku Klux Klan member, and a segregationist who took a militant stand against racial integration during the civil rights movement.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:15608098",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Raised in Merchantville, New Jersey, and educated at Columbia University, Kasper became a devotee of Ezra Pound and corresponded with the poet as a student."
+      },
+      "statement_en": "Raised in Merchantville, New Jersey, and educated at Columbia University, Kasper became a devotee of Ezra Pound and corresponded with the poet as a student.",
+      "confidence": "low",
+      "source_page_id": 15608098,
+      "source_revision_id": "1372421565",
+      "source_locator": "Life",
+      "source_quote": "Raised in Merchantville, New Jersey, and educated at Columbia University, Kasper became a devotee of Ezra Pound and corresponded with the poet as a student.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:15608098",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Kasper came to public attention during the integration of Clinton High School in Clinton, Tennessee."
+      },
+      "statement_en": "Kasper came to public attention during the integration of Clinton High School in Clinton, Tennessee.",
+      "confidence": "low",
+      "source_page_id": 15608098,
+      "source_revision_id": "1372421565",
+      "source_locator": "Defense of segregation",
+      "source_quote": "Kasper came to public attention during the integration of Clinton High School in Clinton, Tennessee.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    }
+  ]
+}

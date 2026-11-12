@@ -1,0 +1,86 @@
+{
+  "format": "encyklopedia.linked-article-review.v28/1",
+  "source_export": "EXPORT_V28_POUR_CHATGPT_0697a2dc825251f7.zip",
+  "source_export_sha256": "2e9e53a63875eac762d86877126034156e60c4f06ecf8fd10c616d82ec9c937d",
+  "source_csv_sha256": "0697a2dc825251f7f701cb72e714d5a3b924187e6fb5953ec5503877ba8094f1",
+  "catalogue_sequence_at_review": 34,
+  "branch_id": "unesco.mt1.10",
+  "counts": {
+    "reviewed_pairs": 1500,
+    "approved_pairs": 101,
+    "approved_unique_pages": 99,
+    "rejected_pairs": 282,
+    "held_pairs": 1117,
+    "previously_held_pairs_seen_again": 616,
+    "previously_held_now_approved": 0
+  },
+  "per_concept": {
+    "Language of instruction": {
+      "HOLD": 91,
+      "REJECT": 24,
+      "APPROVE": 30
+    },
+    "Educational discrimination": {
+      "REJECT": 46,
+      "APPROVE": 12,
+      "HOLD": 215
+    },
+    "State and education": {
+      "HOLD": 123,
+      "APPROVE": 13,
+      "REJECT": 51
+    },
+    "Right to education": {
+      "HOLD": 3
+    },
+    "Bilingual education": {
+      "HOLD": 65,
+      "REJECT": 17,
+      "APPROVE": 19
+    },
+    "Computer uses in education": {
+      "HOLD": 35,
+      "REJECT": 4
+    },
+    "Teacher policy": {
+      "HOLD": 21,
+      "REJECT": 4
+    },
+    "Alternative education": {
+      "APPROVE": 10,
+      "HOLD": 184,
+      "REJECT": 33
+    },
+    "Global citizenship education": {
+      "HOLD": 6,
+      "APPROVE": 2,
+      "REJECT": 6
+    },
+    "Educational reform": {
+      "HOLD": 264,
+      "APPROVE": 6,
+      "REJECT": 46
+    },
+    "Educational policy": {
+      "HOLD": 95,
+      "APPROVE": 8,
+      "REJECT": 39
+    },
+    "Compulsory education": {
+      "HOLD": 10,
+      "REJECT": 10,
+      "APPROVE": 1
+    },
+    "Study abroad": {
+      "HOLD": 3,
+      "REJECT": 2
+    },
+    "Educational experiments": {
+      "HOLD": 2
+    }
+  },
+  "interpretation": "Routage documentaire provisoire sur titres et preuves de liens/catégories, pas vérification des textes des pages candidates.",
+  "catalogue_modified_by_creation": false,
+  "canonical_admissions": 0,
+  "reviewed_sha256": "b22be4deeda96627df084b314cd037d462ec7d9db5cde3e8d10142c8cb2f1f5a"
+}

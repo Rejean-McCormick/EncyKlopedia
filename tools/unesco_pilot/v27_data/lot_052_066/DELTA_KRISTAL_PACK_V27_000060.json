@@ -1,0 +1,111 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000060",
+  "pack_sha256": "56b49c707a0cf603594d97c9321394e1240b4479807c5a5a57621013a399803d",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:42325",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Phonics is a method for teaching reading and writing to beginners."
+      },
+      "statement_en": "Phonics is a method for teaching reading and writing to beginners.",
+      "confidence": "low",
+      "source_page_id": 42325,
+      "source_revision_id": "1376064233",
+      "source_locator": "Introduction",
+      "source_quote": "Phonics is a method for teaching reading and writing to beginners.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:42325",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "To use phonics is to teach the relationship between the sounds of the spoken language (phonemes), and the letters (graphemes) or groups of letters or syllables of the written language."
+      },
+      "statement_en": "To use phonics is to teach the relationship between the sounds of the spoken language (phonemes), and the letters (graphemes) or groups of letters or syllables of the written language.",
+      "confidence": "medium",
+      "source_page_id": 42325,
+      "source_revision_id": "1376064233",
+      "source_locator": "Introduction",
+      "source_quote": "To use phonics is to teach the relationship between the sounds of the spoken language (phonemes), and the letters (graphemes) or groups of letters or syllables of the written language.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:42325",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Phonics is also known as the alphabetic principle or the alphabetic code."
+      },
+      "statement_en": "Phonics is also known as the alphabetic principle or the alphabetic code.",
+      "confidence": "low",
+      "source_page_id": 42325,
+      "source_revision_id": "1376064233",
+      "source_locator": "Introduction",
+      "source_quote": "Phonics is also known as the alphabetic principle or the alphabetic code.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:42325",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Phonics is also sometimes used as part of the process of teaching people from China (and other foreign students) to read and write Chinese characters, which are not alphabetic, using pinyin, which is alphabetic."
+      },
+      "statement_en": "Phonics is also sometimes used as part of the process of teaching people from China (and other foreign students) to read and write Chinese characters, which are not alphabetic, using pinyin, which is alphabetic.",
+      "confidence": "medium",
+      "source_page_id": 42325,
+      "source_revision_id": "1376064233",
+      "source_locator": "Introduction",
+      "source_quote": "Phonics is also sometimes used as part of the process of teaching people from China (and other foreign students) to read and write Chinese characters, which are not alphabetic, using pinyin, which is alphabetic.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:42325",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "For more about phonics as it applies to British English, see Synthetic phonics, a method by which the student learns the sounds represented by letters and letter combinations, and blends these sounds to pronounce words."
+      },
+      "statement_en": "For more about phonics as it applies to British English, see Synthetic phonics, a method by which the student learns the sounds represented by letters and letter combinations, and blends these sounds to pronounce words.",
+      "confidence": "medium",
+      "source_page_id": 42325,
+      "source_revision_id": "1376064233",
+      "source_locator": "Introduction",
+      "source_quote": "For more about phonics as it applies to British English, see Synthetic phonics, a method by which the student learns the sounds represented by letters and letter combinations, and blends these sounds to pronounce words.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:42325",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "The school curriculum in Ireland focuses on ensuring children are literate in both the English language and the Irish language."
+      },
+      "statement_en": "The school curriculum in Ireland focuses on ensuring children are literate in both the English language and the Irish language.",
+      "confidence": "low",
+      "source_page_id": 42325,
+      "source_revision_id": "1376064233",
+      "source_locator": "Republic of Ireland",
+      "source_quote": "The school curriculum in Ireland focuses on ensuring children are literate in both the English language and the Irish language.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000062",
+  "pack_sha256": "2bb4c549dbe1fd21fbc172b85ae4ff776507b84d99fcb4bd9ca18b3da377bf4a",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:49392",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Affirmative action (also sometimes called reservations, alternative access, positive discrimination or positive action in various countries' laws and policies) refers to a set of policies and practices within a government or organization seeking to address systemic discrimination."
+      },
+      "statement_en": "Affirmative action (also sometimes called reservations, alternative access, positive discrimination or positive action in various countries' laws and policies) refers to a set of policies and practices within a government or organization seeking to address systemic discrimination.",
+      "confidence": "medium",
+      "source_page_id": 49392,
+      "source_revision_id": "1378295745",
+      "source_locator": "Introduction",
+      "source_quote": "Affirmative action (also sometimes called reservations, alternative access, positive discrimination or positive action in various countries' laws and policies) refers to a set of policies and practices within a government or organization seeking to address systemic discrimination.",
+      "unesco_concepts": [
+        "concept9"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49392",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Some countries use a quota system to reserve a certain percentage of government jobs, political positions, and school vacancies for members of a certain group; an example of this is the reservation system in India."
+      },
+      "statement_en": "Some countries use a quota system to reserve a certain percentage of government jobs, political positions, and school vacancies for members of a certain group; an example of this is the reservation system in India.",
+      "confidence": "medium",
+      "source_page_id": 49392,
+      "source_revision_id": "1378295745",
+      "source_locator": "Introduction",
+      "source_quote": "Some countries use a quota system to reserve a certain percentage of government jobs, political positions, and school vacancies for members of a certain group; an example of this is the reservation system in India.",
+      "unesco_concepts": [
+        "concept9"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49392",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "In some other jurisdictions where quotas are not used, minority-group members are given preference or special consideration in selection processes."
+      },
+      "statement_en": "In some other jurisdictions where quotas are not used, minority-group members are given preference or special consideration in selection processes.",
+      "confidence": "medium",
+      "source_page_id": 49392,
+      "source_revision_id": "1378295745",
+      "source_locator": "Introduction",
+      "source_quote": "In some other jurisdictions where quotas are not used, minority-group members are given preference or special consideration in selection processes.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:49392",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "In the United States, affirmative action by executive order originally meant selection without regard to race but preferential treatment was widely used in college admissions, as upheld in the 2003 Supreme Court case Grutter v. Bollinger, until 2023, when this was overturned in Students for Fair Admissions v. Harvard."
+      },
+      "statement_en": "In the United States, affirmative action by executive order originally meant selection without regard to race but preferential treatment was widely used in college admissions, as upheld in the 2003 Supreme Court case Grutter v. Bollinger, until 2023, when this was overturned in Students for Fair Admissions v. Harvard.",
+      "confidence": "medium",
+      "source_page_id": 49392,
+      "source_revision_id": "1378295745",
+      "source_locator": "Introduction",
+      "source_quote": "In the United States, affirmative action by executive order originally meant selection without regard to race but preferential treatment was widely used in college admissions, as upheld in the 2003 Supreme Court case Grutter v. Bollinger, until 2023, when this was overturned in Students for Fair Admissions v. Harvard.",
+      "unesco_concepts": [
+        "concept9"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49392",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "In certain university education programs, including legal and medical education, there are quotas for persons who reach a certain standard of skills in the Swedish language; for students admitted in these quotas, the education is partially arranged in Swedish."
+      },
+      "statement_en": "In certain university education programs, including legal and medical education, there are quotas for persons who reach a certain standard of skills in the Swedish language; for students admitted in these quotas, the education is partially arranged in Swedish.",
+      "confidence": "low",
+      "source_page_id": 49392,
+      "source_revision_id": "1378295745",
+      "source_locator": "Finland",
+      "source_quote": "In certain university education programs, including legal and medical education, there are quotas for persons who reach a certain standard of skills in the Swedish language; for students admitted in these quotas, the education is partially arranged in Swedish.",
+      "unesco_concepts": [
+        "concept9"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49892",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "The method is also known as Socratic debate, the maieutic method, or the Socratic dialectic, and sometimes equated with the Greek term elenchus."
+      },
+      "statement_en": "The method is also known as Socratic debate, the maieutic method, or the Socratic dialectic, and sometimes equated with the Greek term elenchus.",
+      "confidence": "medium",
+      "source_page_id": 49892,
+      "source_revision_id": "1366359867",
+      "source_locator": "Introduction",
+      "source_quote": "The method is also known as Socratic debate, the maieutic method, or the Socratic dialectic, and sometimes equated with the Greek term elenchus.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49892",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Socratic dialogues between characters employing this method feature in many of the works of the ancient Greek philosopher Plato, where a fictionalized version of his real-life teacher Socrates debates or expounds upon various philosophical issues with a partner."
+      },
+      "statement_en": "Socratic dialogues between characters employing this method feature in many of the works of the ancient Greek philosopher Plato, where a fictionalized version of his real-life teacher Socrates debates or expounds upon various philosophical issues with a partner.",
+      "confidence": "medium",
+      "source_page_id": 49892,
+      "source_revision_id": "1366359867",
+      "source_locator": "Introduction",
+      "source_quote": "Socratic dialogues between characters employing this method feature in many of the works of the ancient Greek philosopher Plato, where a fictionalized version of his real-life teacher Socrates debates or expounds upon various philosophical issues with a partner.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49892",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "In Plato's dialogue Theaetetus, Socrates describes his method as a form of \"midwifery\" (maieutikós; source of the English adjective maieutic) because it is employed to help his interlocutors develop their understanding and lead it out of them in a way analogous to a child developing in the womb until it is ready for birth."
+      },
+      "statement_en": "In Plato's dialogue Theaetetus, Socrates describes his method as a form of \"midwifery\" (maieutikós; source of the English adjective maieutic) because it is employed to help his interlocutors develop their understanding and lead it out of them in a way analogous to a child developing in the womb until it is ready for birth.",
+      "confidence": "medium",
+      "source_page_id": 49892,
+      "source_revision_id": "1366359867",
+      "source_locator": "Introduction",
+      "source_quote": "In Plato's dialogue Theaetetus, Socrates describes his method as a form of \"midwifery\" (maieutikós; source of the English adjective maieutic) because it is employed to help his interlocutors develop their understanding and lead it out of them in a way analogous to a child developing in the womb until it is ready for birth.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49892",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Socratic seminars are based upon the interaction of peers."
+      },
+      "statement_en": "Socratic seminars are based upon the interaction of peers.",
+      "confidence": "low",
+      "source_page_id": 49892,
+      "source_revision_id": "1366359867",
+      "source_locator": "Questioning methods",
+      "source_quote": "Socratic seminars are based upon the interaction of peers.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:57445",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "Thoroughgood \"Thurgood\" Marshall (July 2, 1908 – January 24, 1993) was an American lawyer who served as an associate justice of the Supreme Court of the United States from 1967 until 1991."
+      },
+      "statement_en": "Thoroughgood \"Thurgood\" Marshall (July 2, 1908 – January 24, 1993) was an American lawyer who served as an associate justice of the Supreme Court of the United States from 1967 until 1991.",
+      "confidence": "medium",
+      "source_page_id": 57445,
+      "source_revision_id": "1378369945",
+      "source_locator": "Introduction",
+      "source_quote": "Thoroughgood \"Thurgood\" Marshall (July 2, 1908 – January 24, 1993) was an American lawyer who served as an associate justice of the Supreme Court of the United States from 1967 until 1991.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:57445",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Before his judicial service, he was an attorney who fought for civil rights, leading the NAACP Legal Defense and Educational Fund."
+      },
+      "statement_en": "Before his judicial service, he was an attorney who fought for civil rights, leading the NAACP Legal Defense and Educational Fund.",
+      "confidence": "medium",
+      "source_page_id": 57445,
+      "source_revision_id": "1378369945",
+      "source_locator": "Introduction",
+      "source_quote": "Before his judicial service, he was an attorney who fought for civil rights, leading the NAACP Legal Defense and Educational Fund.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:57445",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Marshall was a prominent figure in the movement to end racial segregation in American public schools."
+      },
+      "statement_en": "Marshall was a prominent figure in the movement to end racial segregation in American public schools.",
+      "confidence": "medium",
+      "source_page_id": 57445,
+      "source_revision_id": "1378369945",
+      "source_locator": "Introduction",
+      "source_quote": "Marshall was a prominent figure in the movement to end racial segregation in American public schools.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:57445",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "A staunch liberal, he frequently dissented as the Court became increasingly conservative."
+      },
+      "statement_en": "A staunch liberal, he frequently dissented as the Court became increasingly conservative.",
+      "confidence": "low",
+      "source_page_id": 57445,
+      "source_revision_id": "1378369945",
+      "source_locator": "Introduction",
+      "source_quote": "A staunch liberal, he frequently dissented as the Court became increasingly conservative.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:57445",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "In that case—Murray v. Pearson—Judge Eugene O'Dunne ordered that Murray be admitted, and the Maryland Court of Appeals affirmed, holding that it violated equal protection to admit white students to the law school while keeping blacks from being educated in-state."
+      },
+      "statement_en": "In that case—Murray v. Pearson—Judge Eugene O'Dunne ordered that Murray be admitted, and the Maryland Court of Appeals affirmed, holding that it violated equal protection to admit white students to the law school while keeping blacks from being educated in-state.",
+      "confidence": "low",
+      "source_page_id": 57445,
+      "source_revision_id": "1378369945",
+      "source_locator": "Legal career",
+      "source_quote": "In that case—Murray v. Pearson—Judge Eugene O'Dunne ordered that Murray be admitted, and the Maryland Court of Appeals affirmed, holding that it violated equal protection to admit white students to the law school while keeping blacks from being educated in-state.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:70919",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The United States Department of Education is a cabinet-level department of the United States government, originating in 1979."
+      },
+      "statement_en": "The United States Department of Education is a cabinet-level department of the United States government, originating in 1979.",
+      "confidence": "medium",
+      "source_page_id": 70919,
+      "source_revision_id": "1374920852",
+      "source_locator": "Introduction",
+      "source_quote": "The United States Department of Education is a cabinet-level department of the United States government, originating in 1979.",
+      "unesco_concepts": [
+        "concept9",
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:70919",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The department began operating on May 4, 1980, having been created after the Department of Health, Education, and Welfare was split into the Department of Education and the Department of Health and Human Services by the Department of Education Organization Act, which President Jimmy Carter signed into law on October 17, 1979."
+      },
+      "statement_en": "The department began operating on May 4, 1980, having been created after the Department of Health, Education, and Welfare was split into the Department of Education and the Department of Health and Human Services by the Department of Education Organization Act, which President Jimmy Carter signed into law on October 17, 1979.",
+      "confidence": "medium",
+      "source_page_id": 70919,
+      "source_revision_id": "1374920852",
+      "source_locator": "Introduction",
+      "source_quote": "The department began operating on May 4, 1980, having been created after the Department of Health, Education, and Welfare was split into the Department of Education and the Department of Health and Human Services by the Department of Education Organization Act, which President Jimmy Carter signed into law on October 17, 1979.",
+      "unesco_concepts": [
+        "concept9",
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:70919",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "An earlier iteration was formed in 1867 but was quickly demoted to the Office of Education a year later."
+      },
+      "statement_en": "An earlier iteration was formed in 1867 but was quickly demoted to the Office of Education a year later.",
+      "confidence": "medium",
+      "source_page_id": 70919,
+      "source_revision_id": "1374920852",
+      "source_locator": "Introduction",
+      "source_quote": "An earlier iteration was formed in 1867 but was quickly demoted to the Office of Education a year later.",
+      "unesco_concepts": [
+        "concept9",
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:70919",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "Since its official renaming, the department's official abbreviation is ED (\"DOE\" refers to the United States Department of Energy) but its name is also abbreviated informally as \"DoEd\"."
+      },
+      "statement_en": "Since its official renaming, the department's official abbreviation is ED (\"DOE\" refers to the United States Department of Energy) but its name is also abbreviated informally as \"DoEd\".",
+      "confidence": "medium",
+      "source_page_id": 70919,
+      "source_revision_id": "1374920852",
+      "source_locator": "Introduction",
+      "source_quote": "Since its official renaming, the department's official abbreviation is ED (\"DOE\" refers to the United States Department of Energy) but its name is also abbreviated informally as \"DoEd\".",
+      "unesco_concepts": [
+        "concept9"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:70919",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "Based on a preliminary review of the layoffs that were ordered, the majority of cuts were seen in the Federal Student Aid office which oversees financial aid disbursement and student loans, and the Office for Civil Rights, which protects students and teachers from discrimination."
+      },
+      "statement_en": "Based on a preliminary review of the layoffs that were ordered, the majority of cuts were seen in the Federal Student Aid office which oversees financial aid disbursement and student loans, and the Office for Civil Rights, which protects students and teachers from discrimination.",
+      "confidence": "low",
+      "source_page_id": 70919,
+      "source_revision_id": "1374920852",
+      "source_locator": "Impacts",
+      "source_quote": "Based on a preliminary review of the layoffs that were ordered, the majority of cuts were seen in the Federal Student Aid office which oversees financial aid disbursement and student loans, and the Office for Civil Rights, which protects students and teachers from discrimination.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:156766",
+      "predicate": "teacher_qualification_context",
+      "object": {
+        "type": "text",
+        "value": "Professional development, also known as professional education, is learning that leads to or emphasizes education in a specific professional career field or builds practical job applicable skills emphasizing praxis in addition to the transferable skills and theoretical academic knowledge found in traditional liberal arts and pure sciences education."
+      },
+      "statement_en": "Professional development, also known as professional education, is learning that leads to or emphasizes education in a specific professional career field or builds practical job applicable skills emphasizing praxis in addition to the transferable skills and theoretical academic knowledge found in traditional liberal arts and pure sciences education.",
+      "confidence": "medium",
+      "source_page_id": 156766,
+      "source_revision_id": "1370243030",
+      "source_locator": "Introduction",
+      "source_quote": "Professional development, also known as professional education, is learning that leads to or emphasizes education in a specific professional career field or builds practical job applicable skills emphasizing praxis in addition to the transferable skills and theoretical academic knowledge found in traditional liberal arts and pure sciences education.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:156766",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Professional education has been described as intensive and collaborative, ideally incorporating an evaluative stage."
+      },
+      "statement_en": "Professional education has been described as intensive and collaborative, ideally incorporating an evaluative stage.",
+      "confidence": "medium",
+      "source_page_id": 156766,
+      "source_revision_id": "1370243030",
+      "source_locator": "Introduction",
+      "source_quote": "Professional education has been described as intensive and collaborative, ideally incorporating an evaluative stage.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:156766",
+      "predicate": "teacher_qualification_context",
+      "object": {
+        "type": "text",
+        "value": "Continuing professional development (CPD) or continuing professional education (CPE) is continuing education to maintain knowledge and skills."
+      },
+      "statement_en": "Continuing professional development (CPD) or continuing professional education (CPE) is continuing education to maintain knowledge and skills.",
+      "confidence": "low",
+      "source_page_id": 156766,
+      "source_revision_id": "1370243030",
+      "source_locator": "Continuing",
+      "source_quote": "Continuing professional development (CPD) or continuing professional education (CPE) is continuing education to maintain knowledge and skills.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    }
+  ]
+}

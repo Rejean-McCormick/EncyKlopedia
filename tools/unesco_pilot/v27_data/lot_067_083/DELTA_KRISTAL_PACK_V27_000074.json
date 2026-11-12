@@ -1,0 +1,383 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000074",
+  "pack_sha256": "2e0d52bdf7ba2942916aae8aebe5b8ac9d4613ad2fdd4925281bdd9a77aaa900",
+  "producer": "GPT-6 / ChatGPT (selection semi-automatisee et revue editorialement ciblee; non verifie independamment)",
+  "coverage_note": "Selection selective de passages du wikitext complet. Certaines connaissances sont des descriptions de pages; omissions possibles. Sources Wikipedia non verifiees independamment. Rattachements UNESCO seulement si directement appuyes.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:1944675",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "Educational technology (often abbreviated as edtech) encompasses computer hardware, software, along with educational theories and practices, used to facilitate learning and teaching."
+      },
+      "statement_en": "Educational technology (often abbreviated as edtech) encompasses computer hardware, software, along with educational theories and practices, used to facilitate learning and teaching.",
+      "confidence": "low",
+      "source_page_id": 1944675,
+      "source_revision_id": "1375478593",
+      "source_locator": "Introduction",
+      "source_quote": "Educational technology (often abbreviated as edtech) encompasses computer hardware, software, along with educational theories and practices, used to facilitate learning and teaching.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1944675",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "When referred to by its abbreviation, \"EdTech,\" it often denotes the industry of companies that develop educational technology."
+      },
+      "statement_en": "When referred to by its abbreviation, \"EdTech,\" it often denotes the industry of companies that develop educational technology.",
+      "confidence": "low",
+      "source_page_id": 1944675,
+      "source_revision_id": "1375478593",
+      "source_locator": "Introduction",
+      "source_quote": "When referred to by its abbreviation, \"EdTech,\" it often denotes the industry of companies that develop educational technology.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1944675",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "In the UK, the Council for Educational Technology supported the use of educational technology, in particular administering the government's National Development Programme in Computer Aided Learning (1973–1977) and the Microelectronics Education Programme (1980–1986)."
+      },
+      "statement_en": "In the UK, the Council for Educational Technology supported the use of educational technology, in particular administering the government's National Development Programme in Computer Aided Learning (1973–1977) and the Microelectronics Education Programme (1980–1986).",
+      "confidence": "low",
+      "source_page_id": 1944675,
+      "source_revision_id": "1375478593",
+      "source_locator": "History",
+      "source_quote": "In the UK, the Council for Educational Technology supported the use of educational technology, in particular administering the government's National Development Programme in Computer Aided Learning (1973–1977) and the Microelectronics Education Programme (1980–1986).",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1944675",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "Educational technology is the process of integrating technology into education in a positive manner that promotes a more diverse and inclusive learning environment, enabling students to develop both technological literacy and subject-specific knowledge alongside their regular academic assignments."
+      },
+      "statement_en": "Educational technology is the process of integrating technology into education in a positive manner that promotes a more diverse and inclusive learning environment, enabling students to develop both technological literacy and subject-specific knowledge alongside their regular academic assignments.",
+      "confidence": "low",
+      "source_page_id": 1944675,
+      "source_revision_id": "1375478593",
+      "source_locator": "Definition",
+      "source_quote": "Educational technology is the process of integrating technology into education in a positive manner that promotes a more diverse and inclusive learning environment, enabling students to develop both technological literacy and subject-specific knowledge alongside their regular academic assignments.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1944675",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "Educational technology is an inclusive term that refers to both the tools and processes used to support learning and teaching, as well as the theoretical foundations behind them."
+      },
+      "statement_en": "Educational technology is an inclusive term that refers to both the tools and processes used to support learning and teaching, as well as the theoretical foundations behind them.",
+      "confidence": "low",
+      "source_page_id": 1944675,
+      "source_revision_id": "1375478593",
+      "source_locator": "Related terms",
+      "source_quote": "Educational technology is an inclusive term that refers to both the tools and processes used to support learning and teaching, as well as the theoretical foundations behind them.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1944675",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "The role of educational technology in enhancing access to education, particularly in impoverished areas and developing countries, is increasingly significant."
+      },
+      "statement_en": "The role of educational technology in enhancing access to education, particularly in impoverished areas and developing countries, is increasingly significant.",
+      "confidence": "low",
+      "source_page_id": 1944675,
+      "source_revision_id": "1375478593",
+      "source_locator": "Education and technology in developing countries",
+      "source_quote": "The role of educational technology in enhancing access to education, particularly in impoverished areas and developing countries, is increasingly significant.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3404866",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Constructivist teaching methods are based on constructivist learning theory."
+      },
+      "statement_en": "Constructivist teaching methods are based on constructivist learning theory.",
+      "confidence": "low",
+      "source_page_id": 3404866,
+      "source_revision_id": "1378640634",
+      "source_locator": "History",
+      "source_quote": "Constructivist teaching methods are based on constructivist learning theory.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3404866",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "An educational approach associated with problem-based learning in which the student learns through investigating issues or scenarios (Hakverdi-Can & Sonmez, 2012)."
+      },
+      "statement_en": "An educational approach associated with problem-based learning in which the student learns through investigating issues or scenarios (Hakverdi-Can & Sonmez, 2012).",
+      "confidence": "low",
+      "source_page_id": 3404866,
+      "source_revision_id": "1378640634",
+      "source_locator": "Inquiry-based learning",
+      "source_quote": "An educational approach associated with problem-based learning in which the student learns through investigating issues or scenarios (Hakverdi-Can & Sonmez, 2012).",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3404866",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "An educational approach associated with problem-based learning in which the educator introduces an 'anchor' or theme in which students will be able to explore (Kariuki & Duran, 2004)."
+      },
+      "statement_en": "An educational approach associated with problem-based learning in which the educator introduces an 'anchor' or theme in which students will be able to explore (Kariuki & Duran, 2004).",
+      "confidence": "low",
+      "source_page_id": 3404866,
+      "source_revision_id": "1378640634",
+      "source_locator": "Anchored instruction",
+      "source_quote": "An educational approach associated with problem-based learning in which the educator introduces an 'anchor' or theme in which students will be able to explore (Kariuki & Duran, 2004).",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4195174",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Sands School is a private democratic school in Ashburton, Devon in England."
+      },
+      "statement_en": "Sands School is a private democratic school in Ashburton, Devon in England.",
+      "confidence": "medium",
+      "source_page_id": 4195174,
+      "source_revision_id": "1368168985",
+      "source_locator": "Introduction",
+      "source_quote": "Sands School is a private democratic school in Ashburton, Devon in England.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4195174",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "Sands School is the second democratic school in England and was founded in 1987 by a group of students and teachers from the recently closed Dartington Hall School."
+      },
+      "statement_en": "Sands School is the second democratic school in England and was founded in 1987 by a group of students and teachers from the recently closed Dartington Hall School.",
+      "confidence": "low",
+      "source_page_id": 4195174,
+      "source_revision_id": "1368168985",
+      "source_locator": "Background",
+      "source_quote": "Sands School is the second democratic school in England and was founded in 1987 by a group of students and teachers from the recently closed Dartington Hall School.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4195174",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Sands School is run by a weekly School Meeting, which is open to all students and staff and where each person present has one vote, and a School Council consisting of seven elected students: six primary members and a \"First Reserve\", who will attend in the case that one of the primary members is not present; this group investigates and advises on daily events, feeding information back to the school meeting for decisions and action."
+      },
+      "statement_en": "Sands School is run by a weekly School Meeting, which is open to all students and staff and where each person present has one vote, and a School Council consisting of seven elected students: six primary members and a \"First Reserve\", who will attend in the case that one of the primary members is not present; this group investigates and advises on daily events, feeding information back to the school meeting for decisions and action.",
+      "confidence": "low",
+      "source_page_id": 4195174,
+      "source_revision_id": "1368168985",
+      "source_locator": "Philosophy",
+      "source_quote": "Sands School is run by a weekly School Meeting, which is open to all students and staff and where each person present has one vote, and a School Council consisting of seven elected students: six primary members and a \"First Reserve\", who will attend in the case that one of the primary members is not present; this group…",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:5153230",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "Cooper v. Aaron, 358 U.S. 1 (1958), is a landmark decision of the Supreme Court of the United States that denied the school board of Little Rock, Arkansas the right to delay racial desegregation for 30months."
+      },
+      "statement_en": "Cooper v. Aaron, 358 U.S. 1 (1958), is a landmark decision of the Supreme Court of the United States that denied the school board of Little Rock, Arkansas the right to delay racial desegregation for 30months.",
+      "confidence": "medium",
+      "source_page_id": 5153230,
+      "source_revision_id": "1372462699",
+      "source_locator": "Introduction",
+      "source_quote": "Cooper v. Aaron, 358 U.S. 1 (1958), is a landmark decision of the Supreme Court of the United States that denied the school board of Little Rock, Arkansas the right to delay racial desegregation for 30months.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:5153230",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "On September12, 1958, the Warren Court delivered a decision that held that the states are bound by the Court's decisions and must enforce them even if the states disagree with them, asserting the judicial supremacy established in Marbury v. Madison (1803)."
+      },
+      "statement_en": "On September12, 1958, the Warren Court delivered a decision that held that the states are bound by the Court's decisions and must enforce them even if the states disagree with them, asserting the judicial supremacy established in Marbury v. Madison (1803).",
+      "confidence": "medium",
+      "source_page_id": 5153230,
+      "source_revision_id": "1372462699",
+      "source_locator": "Introduction",
+      "source_quote": "On September12, 1958, the Warren Court delivered a decision that held that the states are bound by the Court's decisions and must enforce them even if the states disagree with them, asserting the judicial supremacy established in Marbury v. Madison (1803).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:5153230",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "On February 20, 1958, the school board filed a petition in the district court seeking to delay desegregation because of the danger and disruption to education that would be caused by the public's hostility to the desegregation plan."
+      },
+      "statement_en": "On February 20, 1958, the school board filed a petition in the district court seeking to delay desegregation because of the danger and disruption to education that would be caused by the public's hostility to the desegregation plan.",
+      "confidence": "low",
+      "source_page_id": 5153230,
+      "source_revision_id": "1372462699",
+      "source_locator": "Background",
+      "source_quote": "On February 20, 1958, the school board filed a petition in the district court seeking to delay desegregation because of the danger and disruption to education that would be caused by the public's hostility to the desegregation plan.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:6518342",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Formative assessment, formative evaluation, formative feedback, or assessment for learning, including diagnostic testing, is a range of formal and informal assessment procedures conducted by teachers during the learning process in order to modify teaching and learning activities to improve student attainment."
+      },
+      "statement_en": "Formative assessment, formative evaluation, formative feedback, or assessment for learning, including diagnostic testing, is a range of formal and informal assessment procedures conducted by teachers during the learning process in order to modify teaching and learning activities to improve student attainment.",
+      "confidence": "medium",
+      "source_page_id": 6518342,
+      "source_revision_id": "1377754289",
+      "source_locator": "Introduction",
+      "source_quote": "Formative assessment, formative evaluation, formative feedback, or assessment for learning, including diagnostic testing, is a range of formal and informal assessment procedures conducted by teachers during the learning process in order to modify teaching and learning activities to improve student attainment.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:6518342",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "The goal of a formative assessment is to monitor student learning to provide ongoing feedback that can help students identify their strengths and weaknesses and target areas that need work."
+      },
+      "statement_en": "The goal of a formative assessment is to monitor student learning to provide ongoing feedback that can help students identify their strengths and weaknesses and target areas that need work.",
+      "confidence": "medium",
+      "source_page_id": 6518342,
+      "source_revision_id": "1377754289",
+      "source_locator": "Introduction",
+      "source_quote": "The goal of a formative assessment is to monitor student learning to provide ongoing feedback that can help students identify their strengths and weaknesses and target areas that need work.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:6518342",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "In the UK education system, formative assessment (or assessment for learning) has been a key aspect of the agenda for personalized learning."
+      },
+      "statement_en": "In the UK education system, formative assessment (or assessment for learning) has been a key aspect of the agenda for personalized learning.",
+      "confidence": "low",
+      "source_page_id": 6518342,
+      "source_revision_id": "1377754289",
+      "source_locator": "In UK education",
+      "source_quote": "In the UK education system, formative assessment (or assessment for learning) has been a key aspect of the agenda for personalized learning.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:6518342",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Formative assessment is valuable for day-to-day teaching when used to adapt instructional methods to meet students' needs and for monitoring student progress toward learning goals."
+      },
+      "statement_en": "Formative assessment is valuable for day-to-day teaching when used to adapt instructional methods to meet students' needs and for monitoring student progress toward learning goals.",
+      "confidence": "low",
+      "source_page_id": 6518342,
+      "source_revision_id": "1377754289",
+      "source_locator": "In K–12",
+      "source_quote": "Formative assessment is valuable for day-to-day teaching when used to adapt instructional methods to meet students' needs and for monitoring student progress toward learning goals.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:6518342",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Formative assessments give in-process feedback about what students are or are not learning so instructional approaches, teaching materials, and academic support can be modified to the students' needs."
+      },
+      "statement_en": "Formative assessments give in-process feedback about what students are or are not learning so instructional approaches, teaching materials, and academic support can be modified to the students' needs.",
+      "confidence": "low",
+      "source_page_id": 6518342,
+      "source_revision_id": "1377754289",
+      "source_locator": "Definition",
+      "source_quote": "Formative assessments give in-process feedback about what students are or are not learning so instructional approaches, teaching materials, and academic support can be modified to the students' needs.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:10053418",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "Griffin v. County School Board of Prince Edward County, 377 U.S. 218 (1964), is a case decided by the Supreme Court of the United States that held that the County School Board of Prince Edward County, Virginia's decision to close all local, public schools and provide vouchers to attend private schools were constitutionally impermissible as violations of the Equal Protection Clause of the Fourteenth Amendment."
+      },
+      "statement_en": "Griffin v. County School Board of Prince Edward County, 377 U.S. 218 (1964), is a case decided by the Supreme Court of the United States that held that the County School Board of Prince Edward County, Virginia's decision to close all local, public schools and provide vouchers to attend private schools were constitutionally impermissible as violations of the Equal Protection Clause of the Fourteenth Amendment.",
+      "confidence": "medium",
+      "source_page_id": 10053418,
+      "source_revision_id": "1351337721",
+      "source_locator": "Introduction",
+      "source_quote": "Griffin v. County School Board of Prince Edward County, 377 U.S. 218 (1964), is a case decided by the Supreme Court of the United States that held that the County School Board of Prince Edward County, Virginia's decision to close all local, public schools and provide vouchers to attend private schools were constitutionally…",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:10053418",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "In response to the court's holding in Brown v. Board of Education, Virginia initiated a coordinated policy known as massive resistance to maintain segregationist policies."
+      },
+      "statement_en": "In response to the court's holding in Brown v. Board of Education, Virginia initiated a coordinated policy known as massive resistance to maintain segregationist policies.",
+      "confidence": "low",
+      "source_page_id": 10053418,
+      "source_revision_id": "1351337721",
+      "source_locator": "Background",
+      "source_quote": "In response to the court's holding in Brown v. Board of Education, Virginia initiated a coordinated policy known as massive resistance to maintain segregationist policies.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    }
+  ]
+}

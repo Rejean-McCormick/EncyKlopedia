@@ -1,0 +1,150 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000055",
+  "pack_sha256": "96d5533b5011480d228cfede0b8561fef9258a230d222f1d83323908cf971607",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:8997",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Distance education, also known as distance learning, is the education of students who may not always be physically present at school, or where the learner and the teacher are separated in both time and distance; today, it usually involves online education (also known as online learning, remote learning or remote education) through an online school."
+      },
+      "statement_en": "Distance education, also known as distance learning, is the education of students who may not always be physically present at school, or where the learner and the teacher are separated in both time and distance; today, it usually involves online education (also known as online learning, remote learning or remote education) through an online school.",
+      "confidence": "medium",
+      "source_page_id": 8997,
+      "source_revision_id": "1377184072",
+      "source_locator": "Introduction",
+      "source_quote": "Distance education, also known as distance learning, is the education of students who may not always be physically present at school, or where the learner and the teacher are separated in both time and distance; today, it usually involves online education (also known as online learning, remote learning or remote education) through an online school.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:8997",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "A distance learning program can either be completely online, or a combination of both online and traditional in-person (also known as, offline) classroom instruction (called hybrid or blended)."
+      },
+      "statement_en": "A distance learning program can either be completely online, or a combination of both online and traditional in-person (also known as, offline) classroom instruction (called hybrid or blended).",
+      "confidence": "medium",
+      "source_page_id": 8997,
+      "source_revision_id": "1377184072",
+      "source_locator": "Introduction",
+      "source_quote": "A distance learning program can either be completely online, or a combination of both online and traditional in-person (also known as, offline) classroom instruction (called hybrid or blended).",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:8997",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Massive open online courses (MOOCs), offering large-scale interactive participation and open access through the World Wide Web or other network technologies, are recent educational modes in distance education."
+      },
+      "statement_en": "Massive open online courses (MOOCs), offering large-scale interactive participation and open access through the World Wide Web or other network technologies, are recent educational modes in distance education.",
+      "confidence": "medium",
+      "source_page_id": 8997,
+      "source_revision_id": "1377184072",
+      "source_locator": "Introduction",
+      "source_quote": "Massive open online courses (MOOCs), offering large-scale interactive participation and open access through the World Wide Web or other network technologies, are recent educational modes in distance education.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:8997",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "A number of other terms (distributed learning, e-learning, m-learning, virtual classroom, etc.) are used roughly synonymously with distance education."
+      },
+      "statement_en": "A number of other terms (distributed learning, e-learning, m-learning, virtual classroom, etc.) are used roughly synonymously with distance education.",
+      "confidence": "medium",
+      "source_page_id": 8997,
+      "source_revision_id": "1377184072",
+      "source_locator": "Introduction",
+      "source_quote": "A number of other terms (distributed learning, e-learning, m-learning, virtual classroom, etc.) are used roughly synonymously with distance education.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:8997",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "\"The focus is shifted to the education transaction in the form of a virtual community of learners sustainable across time.\" One of the most significant issues encountered in the mainstream correspondence model of distance education is transactional distance, which results from the lack of appropriate communication between learner and teacher."
+      },
+      "statement_en": "\"The focus is shifted to the education transaction in the form of a virtual community of learners sustainable across time.\" One of the most significant issues encountered in the mainstream correspondence model of distance education is transactional distance, which results from the lack of appropriate communication between learner and teacher.",
+      "confidence": "low",
+      "source_page_id": 8997,
+      "source_revision_id": "1377184072",
+      "source_locator": "Educational technology",
+      "source_quote": "\"The focus is shifted to the education transaction in the form of a virtual community of learners sustainable across time.\" One of the most significant issues encountered in the mainstream correspondence model of distance education is transactional distance, which results from the lack of appropriate communication between learner and teacher.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:13603",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Homeschooling or home schooling (British English), also known as home education or elective home education (British English), is the education of school-aged children in places other than a traditional school."
+      },
+      "statement_en": "Homeschooling or home schooling (British English), also known as home education or elective home education (British English), is the education of school-aged children in places other than a traditional school.",
+      "confidence": "medium",
+      "source_page_id": 13603,
+      "source_revision_id": "1378650117",
+      "source_locator": "Introduction",
+      "source_quote": "Homeschooling or home schooling (British English), also known as home education or elective home education (British English), is the education of school-aged children in places other than a traditional school.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept5999"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:13603",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Homeschooling is usually conducted by a parent, tutor, or online teacher."
+      },
+      "statement_en": "Homeschooling is usually conducted by a parent, tutor, or online teacher.",
+      "confidence": "low",
+      "source_page_id": 13603,
+      "source_revision_id": "1378650117",
+      "source_locator": "Introduction",
+      "source_quote": "Homeschooling is usually conducted by a parent, tutor, or online teacher.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept5999"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:13603",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Unschooled children tend to score significantly below traditionally educated children, and higher parental involvement and the use of a structured curriculum is strongly positively correlated with homeschooling outcomes, as with conventionally schooled students."
+      },
+      "statement_en": "Unschooled children tend to score significantly below traditionally educated children, and higher parental involvement and the use of a structured curriculum is strongly positively correlated with homeschooling outcomes, as with conventionally schooled students.",
+      "confidence": "low",
+      "source_page_id": 13603,
+      "source_revision_id": "1378650117",
+      "source_locator": "Unschooling",
+      "source_quote": "Unschooled children tend to score significantly below traditionally educated children, and higher parental involvement and the use of a structured curriculum is strongly positively correlated with homeschooling outcomes, as with conventionally schooled students.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept5999"
+      ]
+    }
+  ]
+}

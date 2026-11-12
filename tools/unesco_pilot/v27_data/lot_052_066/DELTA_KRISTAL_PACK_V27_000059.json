@@ -1,0 +1,182 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000059",
+  "pack_sha256": "dcd3c91256e48b6e5760fe26be2143bf2de86f534a06732b927b6fe32e96cdd6",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:26316",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Segregation can involve the spatial separation of the races, and mandatory use of different institutions, such as schools and hospitals by people of different races."
+      },
+      "statement_en": "Segregation can involve the spatial separation of the races, and mandatory use of different institutions, such as schools and hospitals by people of different races.",
+      "confidence": "medium",
+      "source_page_id": 26316,
+      "source_revision_id": "1374228677",
+      "source_locator": "Introduction",
+      "source_quote": "Segregation can involve the spatial separation of the races, and mandatory use of different institutions, such as schools and hospitals by people of different races.",
+      "unesco_concepts": [
+        "concept1137",
+        "concept9"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26316",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Racial segregation has generally been outlawed worldwide."
+      },
+      "statement_en": "Racial segregation has generally been outlawed worldwide.",
+      "confidence": "low",
+      "source_page_id": 26316,
+      "source_revision_id": "1374228677",
+      "source_locator": "Introduction",
+      "source_quote": "Racial segregation has generally been outlawed worldwide.",
+      "unesco_concepts": [
+        "concept1137",
+        "concept9"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26316",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Racial segregation can amount to the international crime of apartheid and a crime against humanity under the 2002 Rome Declaration of Statute of the International Criminal Court."
+      },
+      "statement_en": "Racial segregation can amount to the international crime of apartheid and a crime against humanity under the 2002 Rome Declaration of Statute of the International Criminal Court.",
+      "confidence": "medium",
+      "source_page_id": 26316,
+      "source_revision_id": "1374228677",
+      "source_locator": "Introduction",
+      "source_quote": "Racial segregation can amount to the international crime of apartheid and a crime against humanity under the 2002 Rome Declaration of Statute of the International Criminal Court.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26316",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Jews in Europe were generally forced, by decree or by informal pressure, to live in highly segregated ghettos and shtetls."
+      },
+      "statement_en": "Jews in Europe were generally forced, by decree or by informal pressure, to live in highly segregated ghettos and shtetls.",
+      "confidence": "low",
+      "source_page_id": 26316,
+      "source_revision_id": "1374228677",
+      "source_locator": "Religious and racial antisemitism",
+      "source_quote": "Jews in Europe were generally forced, by decree or by informal pressure, to live in highly segregated ghettos and shtetls.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26316",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "In the United States, racial segregation was mandated by law in some states and enforced along with anti-miscegenation laws (prohibitions against interracial marriage), until the U.S. Supreme Court led by Chief Justice Earl Warren struck down racial segregation."
+      },
+      "statement_en": "In the United States, racial segregation was mandated by law in some states and enforced along with anti-miscegenation laws (prohibitions against interracial marriage), until the U.S. Supreme Court led by Chief Justice Earl Warren struck down racial segregation.",
+      "confidence": "low",
+      "source_page_id": 26316,
+      "source_revision_id": "1374228677",
+      "source_locator": "United States",
+      "source_quote": "In the United States, racial segregation was mandated by law in some states and enforced along with anti-miscegenation laws (prohibitions against interracial marriage), until the U.S. Supreme Court led by Chief Justice Earl Warren struck down racial segregation.",
+      "unesco_concepts": [
+        "concept1137",
+        "concept9"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31666",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "The Fourteenth Amendment (Amendment XIV) to the United States Constitution was adopted on July 9, 1868, as one of the Reconstruction Amendments."
+      },
+      "statement_en": "The Fourteenth Amendment (Amendment XIV) to the United States Constitution was adopted on July 9, 1868, as one of the Reconstruction Amendments.",
+      "confidence": "medium",
+      "source_page_id": 31666,
+      "source_revision_id": "1376039947",
+      "source_locator": "Introduction",
+      "source_quote": "The Fourteenth Amendment (Amendment XIV) to the United States Constitution was adopted on July 9, 1868, as one of the Reconstruction Amendments.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31666",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "The Fourteenth Amendment was a response to issues affecting freed slaves following the American Civil War, and its enactment was bitterly contested."
+      },
+      "statement_en": "The Fourteenth Amendment was a response to issues affecting freed slaves following the American Civil War, and its enactment was bitterly contested.",
+      "confidence": "medium",
+      "source_page_id": 31666,
+      "source_revision_id": "1376039947",
+      "source_locator": "Introduction",
+      "source_quote": "The Fourteenth Amendment was a response to issues affecting freed slaves following the American Civil War, and its enactment was bitterly contested.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31666",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "States of the defeated Confederacy were required to ratify it to regain representation in Congress."
+      },
+      "statement_en": "States of the defeated Confederacy were required to ratify it to regain representation in Congress.",
+      "confidence": "medium",
+      "source_page_id": 31666,
+      "source_revision_id": "1376039947",
+      "source_locator": "Introduction",
+      "source_quote": "States of the defeated Confederacy were required to ratify it to regain representation in Congress.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31666",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "The amendment's first section includes the Citizenship Clause, Privileges or Immunities Clause, Due Process Clause, and Equal Protection Clause."
+      },
+      "statement_en": "The amendment's first section includes the Citizenship Clause, Privileges or Immunities Clause, Due Process Clause, and Equal Protection Clause.",
+      "confidence": "medium",
+      "source_page_id": 31666,
+      "source_revision_id": "1376039947",
+      "source_locator": "Introduction",
+      "source_quote": "The amendment's first section includes the Citizenship Clause, Privileges or Immunities Clause, Due Process Clause, and Equal Protection Clause.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31666",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "Section 1 of the Fourteenth Amendment formally defines United States citizenship and protects various civil rights from being abridged or denied by any state law or state action."
+      },
+      "statement_en": "Section 1 of the Fourteenth Amendment formally defines United States citizenship and protects various civil rights from being abridged or denied by any state law or state action.",
+      "confidence": "low",
+      "source_page_id": 31666,
+      "source_revision_id": "1376039947",
+      "source_locator": "Background",
+      "source_quote": "Section 1 of the Fourteenth Amendment formally defines United States citizenship and protects various civil rights from being abridged or denied by any state law or state action.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    }
+  ]
+}

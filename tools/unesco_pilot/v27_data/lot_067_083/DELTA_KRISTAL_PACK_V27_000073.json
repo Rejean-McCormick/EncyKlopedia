@@ -1,0 +1,401 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000073",
+  "pack_sha256": "a4167c90d70adce91c9760f0a4a3874b57deeb96cb8d686f1bab78fab1c3ec4c",
+  "producer": "GPT-6 / ChatGPT (selection semi-automatisee et revue editorialement ciblee; non verifie independamment)",
+  "coverage_note": "Selection selective de passages du wikitext complet. Certaines connaissances sont des descriptions de pages; omissions possibles. Sources Wikipedia non verifiees independamment. Rattachements UNESCO seulement si directement appuyes.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:699350",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "A comprehensive school is a secondary school for pupils aged 11–16 or 11–18 that does not select its intake on the basis of academic achievement or aptitude."
+      },
+      "statement_en": "A comprehensive school is a secondary school for pupils aged 11–16 or 11–18 that does not select its intake on the basis of academic achievement or aptitude.",
+      "confidence": "medium",
+      "source_page_id": 699350,
+      "source_revision_id": "1368974149",
+      "source_locator": "Introduction",
+      "source_quote": "A comprehensive school is a secondary school for pupils aged 11–16 or 11–18 that does not select its intake on the basis of academic achievement or aptitude.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:699350",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The term is commonly used in relation to England and Wales, where comprehensive schools were introduced as state schools on an experimental basis in the 1940s and became more widespread from 1965."
+      },
+      "statement_en": "The term is commonly used in relation to England and Wales, where comprehensive schools were introduced as state schools on an experimental basis in the 1940s and became more widespread from 1965.",
+      "confidence": "medium",
+      "source_page_id": 699350,
+      "source_revision_id": "1368974149",
+      "source_locator": "Introduction",
+      "source_quote": "The term is commonly used in relation to England and Wales, where comprehensive schools were introduced as state schools on an experimental basis in the 1940s and became more widespread from 1965.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:699350",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Providing post-16 education cost-effectively becomes more challenging for smaller comprehensive schools, because of the number of courses needed to cover a broader curriculum with comparatively fewer students."
+      },
+      "statement_en": "Providing post-16 education cost-effectively becomes more challenging for smaller comprehensive schools, because of the number of courses needed to cover a broader curriculum with comparatively fewer students.",
+      "confidence": "low",
+      "source_page_id": 699350,
+      "source_revision_id": "1368974149",
+      "source_locator": "Description",
+      "source_quote": "Providing post-16 education cost-effectively becomes more challenging for smaller comprehensive schools, because of the number of courses needed to cover a broader curriculum with comparatively fewer students.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:699350",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "Prior to the transition into comprehensive schooling systems, primary and secondary state schools regularly measured students' academic merit based on their performance in public examinations."
+      },
+      "statement_en": "Prior to the transition into comprehensive schooling systems, primary and secondary state schools regularly measured students' academic merit based on their performance in public examinations.",
+      "confidence": "low",
+      "source_page_id": 699350,
+      "source_revision_id": "1368974149",
+      "source_locator": "Australia",
+      "source_quote": "Prior to the transition into comprehensive schooling systems, primary and secondary state schools regularly measured students' academic merit based on their performance in public examinations.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:723104",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Byrd served as Virginia's governor from 1926 until 1930, then represented the state as a U.S. senator from 1933 until 1965 and is the longest serving senator from Virginia with his tenure lasting for over 32 years and 8 months."
+      },
+      "statement_en": "Byrd served as Virginia's governor from 1926 until 1930, then represented the state as a U.S. senator from 1933 until 1965 and is the longest serving senator from Virginia with his tenure lasting for over 32 years and 8 months.",
+      "confidence": "medium",
+      "source_page_id": 723104,
+      "source_revision_id": "1376373911",
+      "source_locator": "Introduction",
+      "source_quote": "Byrd served as Virginia's governor from 1926 until 1930, then represented the state as a U.S. senator from 1933 until 1965 and is the longest serving senator from Virginia with his tenure lasting for over 32 years and 8 months.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:723104",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "He came to lead the conservative coalition in the Senate, and opposed President Franklin D. Roosevelt, largely blocking most liberal legislation after 1937."
+      },
+      "statement_en": "He came to lead the conservative coalition in the Senate, and opposed President Franklin D. Roosevelt, largely blocking most liberal legislation after 1937.",
+      "confidence": "low",
+      "source_page_id": 723104,
+      "source_revision_id": "1376373911",
+      "source_locator": "Introduction",
+      "source_quote": "He came to lead the conservative coalition in the Senate, and opposed President Franklin D. Roosevelt, largely blocking most liberal legislation after 1937.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:723104",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "In 2016, forty-five years after its 1971 founding, Harry F. Byrd Middle School, a National Blue Ribbon School in a suburb of Richmond, Virginia, was renamed to Quioccasin Middle School."
+      },
+      "statement_en": "In 2016, forty-five years after its 1971 founding, Harry F. Byrd Middle School, a National Blue Ribbon School in a suburb of Richmond, Virginia, was renamed to Quioccasin Middle School.",
+      "confidence": "low",
+      "source_page_id": 723104,
+      "source_revision_id": "1376373911",
+      "source_locator": "Legacy",
+      "source_quote": "In 2016, forty-five years after its 1971 founding, Harry F. Byrd Middle School, a National Blue Ribbon School in a suburb of Richmond, Virginia, was renamed to Quioccasin Middle School.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:723104",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Byrds had three sons: Harry F. Byrd Jr., Bradshaw Beverley Byrd, and Richard Byrd, and one daughter, Westwood Beverly Byrd."
+      },
+      "statement_en": "The Byrds had three sons: Harry F. Byrd Jr., Bradshaw Beverley Byrd, and Richard Byrd, and one daughter, Westwood Beverly Byrd.",
+      "confidence": "low",
+      "source_page_id": 723104,
+      "source_revision_id": "1376373911",
+      "source_locator": "Marriage and family",
+      "source_quote": "The Byrds had three sons: Harry F. Byrd Jr., Bradshaw Beverley Byrd, and Richard Byrd, and one daughter, Westwood Beverly Byrd.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:998898",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "198 (1850), was a court case seeking to end racial discrimination in Boston public schools."
+      },
+      "statement_en": "198 (1850), was a court case seeking to end racial discrimination in Boston public schools.",
+      "confidence": "medium",
+      "source_page_id": 998898,
+      "source_revision_id": "1357236951",
+      "source_locator": "Introduction",
+      "source_quote": "198 (1850), was a court case seeking to end racial discrimination in Boston public schools.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:998898",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Massachusetts Supreme Judicial Court ruled in favor of Boston, finding no constitutional basis for the suit."
+      },
+      "statement_en": "The Massachusetts Supreme Judicial Court ruled in favor of Boston, finding no constitutional basis for the suit.",
+      "confidence": "low",
+      "source_page_id": 998898,
+      "source_revision_id": "1357236951",
+      "source_locator": "Introduction",
+      "source_quote": "The Massachusetts Supreme Judicial Court ruled in favor of Boston, finding no constitutional basis for the suit.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:1076499",
+      "predicate": "international_education_context",
+      "object": {
+        "type": "text",
+        "value": "A student exchange program is a program in which students from a secondary school (high school) or higher education study abroad at one of their institution's partner institutions."
+      },
+      "statement_en": "A student exchange program is a program in which students from a secondary school (high school) or higher education study abroad at one of their institution's partner institutions.",
+      "confidence": "medium",
+      "source_page_id": 1076499,
+      "source_revision_id": "1370158957",
+      "source_locator": "Introduction",
+      "source_quote": "A student exchange program is a program in which students from a secondary school (high school) or higher education study abroad at one of their institution's partner institutions.",
+      "unesco_concepts": [
+        "concept9345"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1076499",
+      "predicate": "international_education_context",
+      "object": {
+        "type": "text",
+        "value": "A student exchange program may involve international travel, but does not necessarily require the student to study outside their home country."
+      },
+      "statement_en": "A student exchange program may involve international travel, but does not necessarily require the student to study outside their home country.",
+      "confidence": "low",
+      "source_page_id": 1076499,
+      "source_revision_id": "1370158957",
+      "source_locator": "Introduction",
+      "source_quote": "A student exchange program may involve international travel, but does not necessarily require the student to study outside their home country.",
+      "unesco_concepts": [
+        "concept9345"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1076499",
+      "predicate": "international_education_context",
+      "object": {
+        "type": "text",
+        "value": "The costs of student exchange are determined by the charges from a student exchange program organisation or the university or college."
+      },
+      "statement_en": "The costs of student exchange are determined by the charges from a student exchange program organisation or the university or college.",
+      "confidence": "low",
+      "source_page_id": 1076499,
+      "source_revision_id": "1370158957",
+      "source_locator": "Costs",
+      "source_quote": "The costs of student exchange are determined by the charges from a student exchange program organisation or the university or college.",
+      "unesco_concepts": [
+        "concept9345"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1500708",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The Indian Certificate of Secondary Education (ICSE) is an academic qualification awarded by the Council for the Indian School Certificate Examinations, a private, non-governmental board of education in India."
+      },
+      "statement_en": "The Indian Certificate of Secondary Education (ICSE) is an academic qualification awarded by the Council for the Indian School Certificate Examinations, a private, non-governmental board of education in India.",
+      "confidence": "medium",
+      "source_page_id": 1500708,
+      "source_revision_id": "1376172492",
+      "source_locator": "Introduction",
+      "source_quote": "The Indian Certificate of Secondary Education (ICSE) is an academic qualification awarded by the Council for the Indian School Certificate Examinations, a private, non-governmental board of education in India.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1500708",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "The CISCE conducts these examinations to assess students' performance in a course of general education, offered through the medium of English, and aligned with the recommendations of the New Education Policy 2020."
+      },
+      "statement_en": "The CISCE conducts these examinations to assess students' performance in a course of general education, offered through the medium of English, and aligned with the recommendations of the New Education Policy 2020.",
+      "confidence": "low",
+      "source_page_id": 1500708,
+      "source_revision_id": "1376172492",
+      "source_locator": "Introduction",
+      "source_quote": "The CISCE conducts these examinations to assess students' performance in a course of general education, offered through the medium of English, and aligned with the recommendations of the New Education Policy 2020.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1500708",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The Indian Certificate of Secondary Education Examination is conducted once a year, and usually spans 1 month."
+      },
+      "statement_en": "The Indian Certificate of Secondary Education Examination is conducted once a year, and usually spans 1 month.",
+      "confidence": "low",
+      "source_page_id": 1500708,
+      "source_revision_id": "1376172492",
+      "source_locator": "Examinations",
+      "source_quote": "The Indian Certificate of Secondary Education Examination is conducted once a year, and usually spans 1 month.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1570983",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Multilingualism is the use of more than one language, either by an individual speaker or by a group of speakers."
+      },
+      "statement_en": "Multilingualism is the use of more than one language, either by an individual speaker or by a group of speakers.",
+      "confidence": "medium",
+      "source_page_id": 1570983,
+      "source_revision_id": "1378871105",
+      "source_locator": "Introduction",
+      "source_quote": "Multilingualism is the use of more than one language, either by an individual speaker or by a group of speakers.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:1570983",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Multilingualism in computing can be considered part of a continuum between internationalization and localization."
+      },
+      "statement_en": "Multilingualism in computing can be considered part of a continuum between internationalization and localization.",
+      "confidence": "low",
+      "source_page_id": 1570983,
+      "source_revision_id": "1378871105",
+      "source_locator": "Introduction",
+      "source_quote": "Multilingualism in computing can be considered part of a continuum between internationalization and localization.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:1570983",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The definition of multilingualism is a subject of debate in the same way as that of language fluency."
+      },
+      "statement_en": "The definition of multilingualism is a subject of debate in the same way as that of language fluency.",
+      "confidence": "low",
+      "source_page_id": 1570983,
+      "source_revision_id": "1378871105",
+      "source_locator": "Definition",
+      "source_quote": "The definition of multilingualism is a subject of debate in the same way as that of language fluency.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:1570983",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Today, evidence of multilingualism in an area includes things such as bilingual signs, which represent the same message in more than one language."
+      },
+      "statement_en": "Today, evidence of multilingualism in an area includes things such as bilingual signs, which represent the same message in more than one language.",
+      "confidence": "low",
+      "source_page_id": 1570983,
+      "source_revision_id": "1378871105",
+      "source_locator": "History",
+      "source_quote": "Today, evidence of multilingualism in an area includes things such as bilingual signs, which represent the same message in more than one language.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:1570983",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Instead of categorizing someone as either monolingual or multilingual, multilingualism should be seen more as a multifaceted phenomenon."
+      },
+      "statement_en": "Instead of categorizing someone as either monolingual or multilingual, multilingualism should be seen more as a multifaceted phenomenon.",
+      "confidence": "low",
+      "source_page_id": 1570983,
+      "source_revision_id": "1378871105",
+      "source_locator": "Definition",
+      "source_quote": "Instead of categorizing someone as either monolingual or multilingual, multilingualism should be seen more as a multifaceted phenomenon.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:1705019",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The National Center for Education Statistics (NCES) is the principal federal agency responsible for collecting, analyzing, and reporting data on education in the United States."
+      },
+      "statement_en": "The National Center for Education Statistics (NCES) is the principal federal agency responsible for collecting, analyzing, and reporting data on education in the United States.",
+      "confidence": "medium",
+      "source_page_id": 1705019,
+      "source_revision_id": "1378362607",
+      "source_locator": "Introduction",
+      "source_quote": "The National Center for Education Statistics (NCES) is the principal federal agency responsible for collecting, analyzing, and reporting data on education in the United States.",
+      "unesco_concepts": [
+        "concept9"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1705019",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "NCES provides objective, relevant, timely, and methodologically rigorous education statistics covering preschool, elementary, secondary, and postsecondary education, ensuring data are free of bias, nonideological, and independent of partisan influence."
+      },
+      "statement_en": "NCES provides objective, relevant, timely, and methodologically rigorous education statistics covering preschool, elementary, secondary, and postsecondary education, ensuring data are free of bias, nonideological, and independent of partisan influence.",
+      "confidence": "medium",
+      "source_page_id": 1705019,
+      "source_revision_id": "1378362607",
+      "source_locator": "Introduction",
+      "source_quote": "NCES provides objective, relevant, timely, and methodologically rigorous education statistics covering preschool, elementary, secondary, and postsecondary education, ensuring data are free of bias, nonideological, and independent of partisan influence.",
+      "unesco_concepts": [
+        "concept9"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1705019",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "The origins of the National Center for Education Statistics (NCES) date back to 1867, when the U.S. Department of Education Act established a federal agency for collecting and reporting statistics on education in the United States."
+      },
+      "statement_en": "The origins of the National Center for Education Statistics (NCES) date back to 1867, when the U.S. Department of Education Act established a federal agency for collecting and reporting statistics on education in the United States.",
+      "confidence": "low",
+      "source_page_id": 1705019,
+      "source_revision_id": "1378362607",
+      "source_locator": "History",
+      "source_quote": "The origins of the National Center for Education Statistics (NCES) date back to 1867, when the U.S. Department of Education Act established a federal agency for collecting and reporting statistics on education in the United States.",
+      "unesco_concepts": [
+        "concept9"
+      ]
+    }
+  ]
+}

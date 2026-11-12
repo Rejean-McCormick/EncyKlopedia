@@ -1,0 +1,109 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000058",
+  "pack_sha256": "f58c4d71a843969b08c8a3a46565a0596ef24e5e9ab029435f9c7c32fc9f5231",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:26104",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Rudolf Joseph Lorenz Steiner (27 or 25 February 1861 – 30 March 1925) was an Austrian New Age guru, philosopher, occultist, social reformer, architect, esotericist, and claimed clairvoyant and speaker with the dead."
+      },
+      "statement_en": "Rudolf Joseph Lorenz Steiner (27 or 25 February 1861 – 30 March 1925) was an Austrian New Age guru, philosopher, occultist, social reformer, architect, esotericist, and claimed clairvoyant and speaker with the dead.",
+      "confidence": "medium",
+      "source_page_id": 26104,
+      "source_revision_id": "1378385755",
+      "source_locator": "Introduction",
+      "source_quote": "Rudolf Joseph Lorenz Steiner (27 or 25 February 1861 – 30 March 1925) was an Austrian New Age guru, philosopher, occultist, social reformer, architect, esotericist, and claimed clairvoyant and speaker with the dead.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26104",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Steiner gained initial recognition at the end of the nineteenth century as a literary critic and published works including The Philosophy of Freedom."
+      },
+      "statement_en": "Steiner gained initial recognition at the end of the nineteenth century as a literary critic and published works including The Philosophy of Freedom.",
+      "confidence": "medium",
+      "source_page_id": 26104,
+      "source_revision_id": "1378385755",
+      "source_locator": "Introduction",
+      "source_quote": "Steiner gained initial recognition at the end of the nineteenth century as a literary critic and published works including The Philosophy of Freedom.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26104",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "At the beginning of the twentieth century he founded an esoteric spiritual movement, anthroposophy, with roots in German idealist philosophy and theosophy."
+      },
+      "statement_en": "At the beginning of the twentieth century he founded an esoteric spiritual movement, anthroposophy, with roots in German idealist philosophy and theosophy.",
+      "confidence": "medium",
+      "source_page_id": 26104,
+      "source_revision_id": "1378385755",
+      "source_locator": "Introduction",
+      "source_quote": "At the beginning of the twentieth century he founded an esoteric spiritual movement, anthroposophy, with roots in German idealist philosophy and theosophy.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26104",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "In a second phase, beginning around 1907, he began working collaboratively in a variety of artistic media, including drama, dance and architecture, culminating in the building of the Goetheanum, a cultural centre to house all the arts."
+      },
+      "statement_en": "In a second phase, beginning around 1907, he began working collaboratively in a variety of artistic media, including drama, dance and architecture, culminating in the building of the Goetheanum, a cultural centre to house all the arts.",
+      "confidence": "medium",
+      "source_page_id": 26104,
+      "source_revision_id": "1378385755",
+      "source_locator": "Introduction",
+      "source_quote": "In a second phase, beginning around 1907, he began working collaboratively in a variety of artistic media, including drama, dance and architecture, culminating in the building of the Goetheanum, a cultural centre to house all the arts.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:26104",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Steiner advocated what has been described as ethical individualism, to which he later brought a more explicitly spiritual approach."
+      },
+      "statement_en": "Steiner advocated what has been described as ethical individualism, to which he later brought a more explicitly spiritual approach.",
+      "confidence": "medium",
+      "source_page_id": 26104,
+      "source_revision_id": "1378385755",
+      "source_locator": "Introduction",
+      "source_quote": "Steiner advocated what has been described as ethical individualism, to which he later brought a more explicitly spiritual approach.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:26104",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Steiner was founder and leader of the following: His independent Esoteric School of the Theosophical Society, founded in 1904."
+      },
+      "statement_en": "Steiner was founder and leader of the following: His independent Esoteric School of the Theosophical Society, founded in 1904.",
+      "confidence": "low",
+      "source_page_id": 26104,
+      "source_revision_id": "1378385755",
+      "source_locator": "Esoteric schools",
+      "source_quote": "Steiner was founder and leader of the following: His independent Esoteric School of the Theosophical Society, founded in 1904.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    }
+  ]
+}

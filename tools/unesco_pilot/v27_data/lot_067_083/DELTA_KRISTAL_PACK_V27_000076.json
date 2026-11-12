@@ -1,0 +1,772 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000076",
+  "pack_sha256": "da0497f5b05a897cbbcd98c8d2f019cd5ae5b43a346729d15dcf3ede5a7f1ff0",
+  "producer": "GPT-6 / ChatGPT (selection semi-automatisee et revue editorialement ciblee; non verifie independamment)",
+  "coverage_note": "Selection selective de passages du wikitext complet. Certaines connaissances sont des descriptions de pages; omissions possibles. Sources Wikipedia non verifiees independamment. Rattachements UNESCO seulement si directement appuyes.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:12963069",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Khalil Gibran International Academy is a public school in Boerum Hill, Brooklyn, New York City, New York that opened in September 2007 with about 60 sixth grade students."
+      },
+      "statement_en": "Khalil Gibran International Academy is a public school in Boerum Hill, Brooklyn, New York City, New York that opened in September 2007 with about 60 sixth grade students.",
+      "confidence": "medium",
+      "source_page_id": 12963069,
+      "source_revision_id": "1377270064",
+      "source_locator": "Introduction",
+      "source_quote": "Khalil Gibran International Academy is a public school in Boerum Hill, Brooklyn, New York City, New York that opened in September 2007 with about 60 sixth grade students.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:12963069",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Khalil Gibran International Academy transitioned to a public high school in 2012 and became an IB World School in 2015, making it one of the first public schools in NYC to offer the rigorous IB Diploma Programme."
+      },
+      "statement_en": "Khalil Gibran International Academy transitioned to a public high school in 2012 and became an IB World School in 2015, making it one of the first public schools in NYC to offer the rigorous IB Diploma Programme.",
+      "confidence": "low",
+      "source_page_id": 12963069,
+      "source_revision_id": "1377270064",
+      "source_locator": "Introduction",
+      "source_quote": "Khalil Gibran International Academy transitioned to a public high school in 2012 and became an IB World School in 2015, making it one of the first public schools in NYC to offer the rigorous IB Diploma Programme.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:12963069",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Khalil Gibran International Academy is one of 67 dual language schools in the city of New York; its status as the first US public school focused on Arabic language and culture has made it the target of criticism."
+      },
+      "statement_en": "The Khalil Gibran International Academy is one of 67 dual language schools in the city of New York; its status as the first US public school focused on Arabic language and culture has made it the target of criticism.",
+      "confidence": "low",
+      "source_page_id": 12963069,
+      "source_revision_id": "1377270064",
+      "source_locator": "Founding controversy",
+      "source_quote": "The Khalil Gibran International Academy is one of 67 dual language schools in the city of New York; its status as the first US public school focused on Arabic language and culture has made it the target of criticism.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:16874380",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "German International School Portland, formerly the German American School, is an independent, International Baccalaureate (IB) World School located in Beaverton, Oregon, in the Portland metropolitan area."
+      },
+      "statement_en": "German International School Portland, formerly the German American School, is an independent, International Baccalaureate (IB) World School located in Beaverton, Oregon, in the Portland metropolitan area.",
+      "confidence": "medium",
+      "source_page_id": 16874380,
+      "source_revision_id": "1377725160",
+      "source_locator": "Introduction",
+      "source_quote": "German International School Portland, formerly the German American School, is an independent, International Baccalaureate (IB) World School located in Beaverton, Oregon, in the Portland metropolitan area.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:16874380",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Founded as an elementary school, it has operated in Beaverton for several decades and expanded to include a middle school in 2023."
+      },
+      "statement_en": "Founded as an elementary school, it has operated in Beaverton for several decades and expanded to include a middle school in 2023.",
+      "confidence": "low",
+      "source_page_id": 16874380,
+      "source_revision_id": "1377725160",
+      "source_locator": "Introduction",
+      "source_quote": "Founded as an elementary school, it has operated in Beaverton for several decades and expanded to include a middle school in 2023.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:20084029",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Lycée Français de Chicago is a private, French international school located in Ravenswood / Lincoln Square, Chicago, Illinois."
+      },
+      "statement_en": "The Lycée Français de Chicago is a private, French international school located in Ravenswood / Lincoln Square, Chicago, Illinois.",
+      "confidence": "medium",
+      "source_page_id": 20084029,
+      "source_revision_id": "1368101774",
+      "source_locator": "Introduction",
+      "source_quote": "The Lycée Français de Chicago is a private, French international school located in Ravenswood / Lincoln Square, Chicago, Illinois.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:20084029",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Lycée is founded on the French National Curriculum as defined by the French Ministry of Education and complemented by an English language program in addition to foreign language courses."
+      },
+      "statement_en": "The Lycée is founded on the French National Curriculum as defined by the French Ministry of Education and complemented by an English language program in addition to foreign language courses.",
+      "confidence": "medium",
+      "source_page_id": 20084029,
+      "source_revision_id": "1368101774",
+      "source_locator": "Introduction",
+      "source_quote": "The Lycée is founded on the French National Curriculum as defined by the French Ministry of Education and complemented by an English language program in addition to foreign language courses.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:22627703",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Cupertino Language Immersion Program (CLIP) is an alternative K-8 education program located at John Muir Elementary School (K-5) and Joaquin Miller Middle School (6-8) in the Cupertino Union School District (CUSD)."
+      },
+      "statement_en": "Cupertino Language Immersion Program (CLIP) is an alternative K-8 education program located at John Muir Elementary School (K-5) and Joaquin Miller Middle School (6-8) in the Cupertino Union School District (CUSD).",
+      "confidence": "medium",
+      "source_page_id": 22627703,
+      "source_revision_id": "1375819774",
+      "source_locator": "Introduction",
+      "source_quote": "Cupertino Language Immersion Program (CLIP) is an alternative K-8 education program located at John Muir Elementary School (K-5) and Joaquin Miller Middle School (6-8) in the Cupertino Union School District (CUSD).",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:22627703",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "CLIP is the oldest public Mandarin Immersion program in California and the second oldest in the country."
+      },
+      "statement_en": "CLIP is the oldest public Mandarin Immersion program in California and the second oldest in the country.",
+      "confidence": "medium",
+      "source_page_id": 22627703,
+      "source_revision_id": "1375819774",
+      "source_locator": "Introduction",
+      "source_quote": "CLIP is the oldest public Mandarin Immersion program in California and the second oldest in the country.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:22627703",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Delivered in both Mandarin and English, CLIP students receive the same curriculum as all CUSD students."
+      },
+      "statement_en": "Delivered in both Mandarin and English, CLIP students receive the same curriculum as all CUSD students.",
+      "confidence": "low",
+      "source_page_id": 22627703,
+      "source_revision_id": "1375819774",
+      "source_locator": "Curriculum",
+      "source_quote": "Delivered in both Mandarin and English, CLIP students receive the same curriculum as all CUSD students.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:24375834",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Chinese American International School (CAIS) is an independent preschool through Grade 8 co-educational Chinese-English dual language immersion school located in San Francisco, California."
+      },
+      "statement_en": "Chinese American International School (CAIS) is an independent preschool through Grade 8 co-educational Chinese-English dual language immersion school located in San Francisco, California.",
+      "confidence": "medium",
+      "source_page_id": 24375834,
+      "source_revision_id": "1368081978",
+      "source_locator": "Introduction",
+      "source_quote": "Chinese American International School (CAIS) is an independent preschool through Grade 8 co-educational Chinese-English dual language immersion school located in San Francisco, California.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:24375834",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Preschool is full immersion, Kindergarten through Grade 5 are alternating days in conducted in Chinese."
+      },
+      "statement_en": "Preschool is full immersion, Kindergarten through Grade 5 are alternating days in conducted in Chinese.",
+      "confidence": "medium",
+      "source_page_id": 24375834,
+      "source_revision_id": "1368081978",
+      "source_locator": "Introduction",
+      "source_quote": "Preschool is full immersion, Kindergarten through Grade 5 are alternating days in conducted in Chinese.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26556560",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "RM plc is a British company that specialises in providing information technology products and services to educational organisations and establishments."
+      },
+      "statement_en": "RM plc is a British company that specialises in providing information technology products and services to educational organisations and establishments.",
+      "confidence": "medium",
+      "source_page_id": 26556560,
+      "source_revision_id": "1362551693",
+      "source_locator": "Introduction",
+      "source_quote": "RM plc is a British company that specialises in providing information technology products and services to educational organisations and establishments.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26556560",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "RM plc employs around 1,700 people, the majority based in the company's headquarters located on Milton Park, near Didcot, Oxfordshire."
+      },
+      "statement_en": "RM plc employs around 1,700 people, the majority based in the company's headquarters located on Milton Park, near Didcot, Oxfordshire.",
+      "confidence": "low",
+      "source_page_id": 26556560,
+      "source_revision_id": "1362551693",
+      "source_locator": "Introduction",
+      "source_quote": "RM plc employs around 1,700 people, the majority based in the company's headquarters located on Milton Park, near Didcot, Oxfordshire.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:26556560",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The company floated on the London Stock Exchange in November 1994 under the name RM plc."
+      },
+      "statement_en": "The company floated on the London Stock Exchange in November 1994 under the name RM plc.",
+      "confidence": "low",
+      "source_page_id": 26556560,
+      "source_revision_id": "1362551693",
+      "source_locator": "History",
+      "source_quote": "The company floated on the London Stock Exchange in November 1994 under the name RM plc.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31273100",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "German International School New York (also known as Deutsche Internationale Schule New York, or 'GISNY' for short) is a private, bilingual (German/English) college preparatory school that enrolls over 400 students in grades Pre-K through 12."
+      },
+      "statement_en": "German International School New York (also known as Deutsche Internationale Schule New York, or 'GISNY' for short) is a private, bilingual (German/English) college preparatory school that enrolls over 400 students in grades Pre-K through 12.",
+      "confidence": "medium",
+      "source_page_id": 31273100,
+      "source_revision_id": "1372649722",
+      "source_locator": "Introduction",
+      "source_quote": "German International School New York (also known as Deutsche Internationale Schule New York, or 'GISNY' for short) is a private, bilingual (German/English) college preparatory school that enrolls over 400 students in grades Pre-K through 12.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31273100",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The School is located in White Plains, New York, approximately 25 miles north of New York City, and is divided into three schools on the same campus: the Lower School, the Middle School and the Upper School."
+      },
+      "statement_en": "The School is located in White Plains, New York, approximately 25 miles north of New York City, and is divided into three schools on the same campus: the Lower School, the Middle School and the Upper School.",
+      "confidence": "medium",
+      "source_page_id": 31273100,
+      "source_revision_id": "1372649722",
+      "source_locator": "Introduction",
+      "source_quote": "The School is located in White Plains, New York, approximately 25 miles north of New York City, and is divided into three schools on the same campus: the Lower School, the Middle School and the Upper School.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31273100",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "German International School New York was founded by Siegfried A. Kessler in response to the need to provide educational continuity for the children of German-speaking executives based in the Tri-State area of New York, Connecticut and New Jersey."
+      },
+      "statement_en": "German International School New York was founded by Siegfried A. Kessler in response to the need to provide educational continuity for the children of German-speaking executives based in the Tri-State area of New York, Connecticut and New Jersey.",
+      "confidence": "low",
+      "source_page_id": 31273100,
+      "source_revision_id": "1372649722",
+      "source_locator": "Founding",
+      "source_quote": "German International School New York was founded by Siegfried A. Kessler in response to the need to provide educational continuity for the children of German-speaking executives based in the Tri-State area of New York, Connecticut and New Jersey.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:44140458",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Hinoki International School (previously known as the Japanese American School of South East Michigan or JASSEM) was a two-way Japanese-English language immersion elementary school in Livonia, Michigan in Metro Detroit which opened in 2010 as a charter school."
+      },
+      "statement_en": "Hinoki International School (previously known as the Japanese American School of South East Michigan or JASSEM) was a two-way Japanese-English language immersion elementary school in Livonia, Michigan in Metro Detroit which opened in 2010 as a charter school.",
+      "confidence": "medium",
+      "source_page_id": 44140458,
+      "source_revision_id": "1366371465",
+      "source_locator": "Introduction",
+      "source_quote": "Hinoki International School (previously known as the Japanese American School of South East Michigan or JASSEM) was a two-way Japanese-English language immersion elementary school in Livonia, Michigan in Metro Detroit which opened in 2010 as a charter school.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:44140458",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Hinoki International School was established in 2010 as the Japanese American School of South East Michigan (JASSEM, or 南東ミシガン日米学校), by Ted Delphia, co-owner of Himawari Preschool and head of the Michigan Japanese Bilingual Education Foundation (MJBEF), a 501(c)(3) public charity."
+      },
+      "statement_en": "Hinoki International School was established in 2010 as the Japanese American School of South East Michigan (JASSEM, or 南東ミシガン日米学校), by Ted Delphia, co-owner of Himawari Preschool and head of the Michigan Japanese Bilingual Education Foundation (MJBEF), a 501(c)(3) public charity.",
+      "confidence": "low",
+      "source_page_id": 44140458,
+      "source_revision_id": "1366371465",
+      "source_locator": "History",
+      "source_quote": "Hinoki International School was established in 2010 as the Japanese American School of South East Michigan (JASSEM, or 南東ミシガン日米学校), by Ted Delphia, co-owner of Himawari Preschool and head of the Michigan Japanese Bilingual Education Foundation (MJBEF), a 501(c)(3) public charity.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:46586914",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "La Scuola d'Italia Guglielmo Marconi is an independent Italian international school in Manhattan, New York City, serving Pre-Kindergarten through High School/Liceo."
+      },
+      "statement_en": "La Scuola d'Italia Guglielmo Marconi is an independent Italian international school in Manhattan, New York City, serving Pre-Kindergarten through High School/Liceo.",
+      "confidence": "medium",
+      "source_page_id": 46586914,
+      "source_revision_id": "1367981023",
+      "source_locator": "Introduction",
+      "source_quote": "La Scuola d'Italia Guglielmo Marconi is an independent Italian international school in Manhattan, New York City, serving Pre-Kindergarten through High School/Liceo.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:47191715",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Academy of the Americas is a public pre-kindergarten through high school of Detroit Public Schools, with its primary school campus located in the former St. Hedwig School in southwest Detroit."
+      },
+      "statement_en": "The Academy of the Americas is a public pre-kindergarten through high school of Detroit Public Schools, with its primary school campus located in the former St. Hedwig School in southwest Detroit.",
+      "confidence": "medium",
+      "source_page_id": 47191715,
+      "source_revision_id": "1275972191",
+      "source_locator": "Introduction",
+      "source_quote": "The Academy of the Americas is a public pre-kindergarten through high school of Detroit Public Schools, with its primary school campus located in the former St. Hedwig School in southwest Detroit.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:60096055",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school is part of a larger effort by the EBCI to save and revitalize the endangered Cherokee language by creating immersion and other language-learning opportunities; it also instills Cherokee cultural pride."
+      },
+      "statement_en": "The school is part of a larger effort by the EBCI to save and revitalize the endangered Cherokee language by creating immersion and other language-learning opportunities; it also instills Cherokee cultural pride.",
+      "confidence": "medium",
+      "source_page_id": 60096055,
+      "source_revision_id": "1366369159",
+      "source_locator": "Introduction",
+      "source_quote": "The school is part of a larger effort by the EBCI to save and revitalize the endangered Cherokee language by creating immersion and other language-learning opportunities; it also instills Cherokee cultural pride.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:60096055",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The word kituwah is used by the Eastern Cherokee to refer to both themselves and their language; it can also mean \"center\" or \"mother town\" depending on context."
+      },
+      "statement_en": "The word kituwah is used by the Eastern Cherokee to refer to both themselves and their language; it can also mean \"center\" or \"mother town\" depending on context.",
+      "confidence": "medium",
+      "source_page_id": 60096055,
+      "source_revision_id": "1366369159",
+      "source_locator": "Introduction",
+      "source_quote": "The word kituwah is used by the Eastern Cherokee to refer to both themselves and their language; it can also mean \"center\" or \"mother town\" depending on context.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:60096055",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "New Kituwah is independent from the Cherokee Central Schools at Qualla Boundary."
+      },
+      "statement_en": "New Kituwah is independent from the Cherokee Central Schools at Qualla Boundary.",
+      "confidence": "medium",
+      "source_page_id": 60096055,
+      "source_revision_id": "1366369159",
+      "source_locator": "Introduction",
+      "source_quote": "New Kituwah is independent from the Cherokee Central Schools at Qualla Boundary.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:65274981",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Education Française Bay Area or EFBA (French Education Bay Area) is a French-language non-profit dedicated to promoting a bilingual French education in the San Francisco Bay Area."
+      },
+      "statement_en": "Education Française Bay Area or EFBA (French Education Bay Area) is a French-language non-profit dedicated to promoting a bilingual French education in the San Francisco Bay Area.",
+      "confidence": "medium",
+      "source_page_id": 65274981,
+      "source_revision_id": "1352381419",
+      "source_locator": "Introduction",
+      "source_quote": "Education Française Bay Area or EFBA (French Education Bay Area) is a French-language non-profit dedicated to promoting a bilingual French education in the San Francisco Bay Area.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:71308867",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Four Rivers Community School (4RCC, ) is a K-12 charter school in Ontario, Oregon, United States."
+      },
+      "statement_en": "Four Rivers Community School (4RCC, ) is a K-12 charter school in Ontario, Oregon, United States.",
+      "confidence": "medium",
+      "source_page_id": 71308867,
+      "source_revision_id": "1359231622",
+      "source_locator": "Introduction",
+      "source_quote": "Four Rivers Community School (4RCC, ) is a K-12 charter school in Ontario, Oregon, United States.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:71308867",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "Initially the entity establishing the school negotiated with the Ontario School District 8C's school board, but the negotiations were unsuccessful, and the charter school got authorization from the State of Oregon."
+      },
+      "statement_en": "Initially the entity establishing the school negotiated with the Ontario School District 8C's school board, but the negotiations were unsuccessful, and the charter school got authorization from the State of Oregon.",
+      "confidence": "low",
+      "source_page_id": 71308867,
+      "source_revision_id": "1359231622",
+      "source_locator": "History",
+      "source_quote": "Initially the entity establishing the school negotiated with the Ontario School District 8C's school board, but the negotiations were unsuccessful, and the charter school got authorization from the State of Oregon.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:75289595",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "is a charter elementary school in Peachtree Corners, Georgia, in the Atlanta metropolitan area."
+      },
+      "statement_en": "is a charter elementary school in Peachtree Corners, Georgia, in the Atlanta metropolitan area.",
+      "confidence": "medium",
+      "source_page_id": 75289595,
+      "source_revision_id": "1359255797",
+      "source_locator": "Introduction",
+      "source_quote": "is a charter elementary school in Peachtree Corners, Georgia, in the Atlanta metropolitan area.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:75289595",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school is directly chartered by the State of Georgia."
+      },
+      "statement_en": "The school is directly chartered by the State of Georgia.",
+      "confidence": "medium",
+      "source_page_id": 75289595,
+      "source_revision_id": "1359255797",
+      "source_locator": "Introduction",
+      "source_quote": "The school is directly chartered by the State of Georgia.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:76116912",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "École Pointe-au-Chien (EPAC) is a public French immersion elementary school in Pointe-aux-Chênes, an unincorporated area in Terrebonne Parish, Louisiana."
+      },
+      "statement_en": "École Pointe-au-Chien (EPAC) is a public French immersion elementary school in Pointe-aux-Chênes, an unincorporated area in Terrebonne Parish, Louisiana.",
+      "confidence": "medium",
+      "source_page_id": 76116912,
+      "source_revision_id": "1366371371",
+      "source_locator": "Introduction",
+      "source_quote": "École Pointe-au-Chien (EPAC) is a public French immersion elementary school in Pointe-aux-Chênes, an unincorporated area in Terrebonne Parish, Louisiana.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:76116912",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Louisiana Legislature created the school, which is governed by a board of trustees appointed by various entities."
+      },
+      "statement_en": "The Louisiana Legislature created the school, which is governed by a board of trustees appointed by various entities.",
+      "confidence": "medium",
+      "source_page_id": 76116912,
+      "source_revision_id": "1366371371",
+      "source_locator": "Introduction",
+      "source_quote": "The Louisiana Legislature created the school, which is governed by a board of trustees appointed by various entities.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:16655007",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The three-language formula is a language learning policy first formulated in 1968 by the Ministry of Education of the Government of India in consultation with the states."
+      },
+      "statement_en": "The three-language formula is a language learning policy first formulated in 1968 by the Ministry of Education of the Government of India in consultation with the states.",
+      "confidence": "medium",
+      "source_page_id": 16655007,
+      "source_revision_id": "1364446949",
+      "source_locator": "Introduction",
+      "source_quote": "The three-language formula is a language learning policy first formulated in 1968 by the Ministry of Education of the Government of India in consultation with the states.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:16655007",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "The 1968 formula was supplanted in 2020 by the implementation of the National Education Policy 2020."
+      },
+      "statement_en": "The 1968 formula was supplanted in 2020 by the implementation of the National Education Policy 2020.",
+      "confidence": "medium",
+      "source_page_id": 16655007,
+      "source_revision_id": "1364446949",
+      "source_locator": "Introduction",
+      "source_quote": "The 1968 formula was supplanted in 2020 by the implementation of the National Education Policy 2020.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:998987",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Lum v. Rice, 275 U.S. 78 (1927), is a United States Supreme Court case in which the Court held that the exclusion on account of race of a child of Chinese ancestry from a public school did not violate the Fourteenth Amendment to the United States Constitution."
+      },
+      "statement_en": "Lum v. Rice, 275 U.S. 78 (1927), is a United States Supreme Court case in which the Court held that the exclusion on account of race of a child of Chinese ancestry from a public school did not violate the Fourteenth Amendment to the United States Constitution.",
+      "confidence": "medium",
+      "source_page_id": 998987,
+      "source_revision_id": "1378520871",
+      "source_locator": "Introduction",
+      "source_quote": "Lum v. Rice, 275 U.S. 78 (1927), is a United States Supreme Court case in which the Court held that the exclusion on account of race of a child of Chinese ancestry from a public school did not violate the Fourteenth Amendment to the United States Constitution.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:998987",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The decision effectively approved the exclusion of any minority children from schools reserved for whites."
+      },
+      "statement_en": "The decision effectively approved the exclusion of any minority children from schools reserved for whites.",
+      "confidence": "low",
+      "source_page_id": 998987,
+      "source_revision_id": "1378520871",
+      "source_locator": "Introduction",
+      "source_quote": "The decision effectively approved the exclusion of any minority children from schools reserved for whites.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:998987",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "In the 1885 case Tape v. Hurley, California's Supreme Court held that a Chinese student's exclusion from a San Francisco public school was unconstitutional; the state responded by allowing the establishment of segregated schools."
+      },
+      "statement_en": "In the 1885 case Tape v. Hurley, California's Supreme Court held that a Chinese student's exclusion from a San Francisco public school was unconstitutional; the state responded by allowing the establishment of segregated schools.",
+      "confidence": "low",
+      "source_page_id": 998987,
+      "source_revision_id": "1378520871",
+      "source_locator": "Legal background",
+      "source_quote": "In the 1885 case Tape v. Hurley, California's Supreme Court held that a Chinese student's exclusion from a San Francisco public school was unconstitutional; the state responded by allowing the establishment of segregated schools.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:998987",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "Flowers' brief for the Supreme Court justices was inconsistent, alternating between defending segregation but attacking it inasmuch as he argued the Constitution protected Lum from being forced to attend a colored school, yet ending with a suggestion that segregated schools were inherently unequal."
+      },
+      "statement_en": "Flowers' brief for the Supreme Court justices was inconsistent, alternating between defending segregation but attacking it inasmuch as he argued the Constitution protected Lum from being forced to attend a colored school, yet ending with a suggestion that segregated schools were inherently unequal.",
+      "confidence": "low",
+      "source_page_id": 998987,
+      "source_revision_id": "1378520871",
+      "source_locator": "Before the Court",
+      "source_quote": "Flowers' brief for the Supreme Court justices was inconsistent, alternating between defending segregation but attacking it inasmuch as he argued the Constitution protected Lum from being forced to attend a colored school, yet ending with a suggestion that segregated schools were inherently unequal.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3707784",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Association des conseils scolaires des écoles publiques de l'Ontario (Ontario French-language Public School Boards' Association in English), or ACÉPO, is an educational organization with its headquarters on University Avenue, in Toronto, Ontario, Canada."
+      },
+      "statement_en": "The Association des conseils scolaires des écoles publiques de l'Ontario (Ontario French-language Public School Boards' Association in English), or ACÉPO, is an educational organization with its headquarters on University Avenue, in Toronto, Ontario, Canada.",
+      "confidence": "medium",
+      "source_page_id": 3707784,
+      "source_revision_id": "1359672656",
+      "source_locator": "Introduction",
+      "source_quote": "The Association des conseils scolaires des écoles publiques de l'Ontario (Ontario French-language Public School Boards' Association in English), or ACÉPO, is an educational organization with its headquarters on University Avenue, in Toronto, Ontario, Canada.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:68789322",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Sturgeon Falls Education Crisis was a 1971 language-rights conflict in Ontario centered on the provision of French-language education for the Franco-Ontarian community in Sturgeon Falls, Northern Ontario."
+      },
+      "statement_en": "The Sturgeon Falls Education Crisis was a 1971 language-rights conflict in Ontario centered on the provision of French-language education for the Franco-Ontarian community in Sturgeon Falls, Northern Ontario.",
+      "confidence": "medium",
+      "source_page_id": 68789322,
+      "source_revision_id": "1367447411",
+      "source_locator": "Introduction",
+      "source_quote": "The Sturgeon Falls Education Crisis was a 1971 language-rights conflict in Ontario centered on the provision of French-language education for the Franco-Ontarian community in Sturgeon Falls, Northern Ontario.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:68789322",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Despite 80% of the population of Sturgeon Falls being francophone, the Nipissing School Board refused to create a French-language high school in the town after the Ontarian government began allowing French-language public schools in 1968."
+      },
+      "statement_en": "Despite 80% of the population of Sturgeon Falls being francophone, the Nipissing School Board refused to create a French-language high school in the town after the Ontarian government began allowing French-language public schools in 1968.",
+      "confidence": "low",
+      "source_page_id": 68789322,
+      "source_revision_id": "1367447411",
+      "source_locator": "Crisis",
+      "source_quote": "Despite 80% of the population of Sturgeon Falls being francophone, the Nipissing School Board refused to create a French-language high school in the town after the Ontarian government began allowing French-language public schools in 1968.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:68789322",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Historically, anglophone governments in Ontario have attempted to suppress the French language, especially in education, such as through the Regulation 17, which outlawed education in the French language in the province."
+      },
+      "statement_en": "Historically, anglophone governments in Ontario have attempted to suppress the French language, especially in education, such as through the Regulation 17, which outlawed education in the French language in the province.",
+      "confidence": "low",
+      "source_page_id": 68789322,
+      "source_revision_id": "1367447411",
+      "source_locator": "Background",
+      "source_quote": "Historically, anglophone governments in Ontario have attempted to suppress the French language, especially in education, such as through the Regulation 17, which outlawed education in the French language in the province.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:72199096",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Association des enseignantes et des enseignants franco-ontariens (AEFO; ) is a Canadian trade union representing 13,110 teachers and other workers in Ontario's French-language public education system, including employees both of secular and Roman Catholic school boards."
+      },
+      "statement_en": "The Association des enseignantes et des enseignants franco-ontariens (AEFO; ) is a Canadian trade union representing 13,110 teachers and other workers in Ontario's French-language public education system, including employees both of secular and Roman Catholic school boards.",
+      "confidence": "medium",
+      "source_page_id": 72199096,
+      "source_revision_id": "1375600727",
+      "source_locator": "Introduction",
+      "source_quote": "The Association des enseignantes et des enseignants franco-ontariens (AEFO; ) is a Canadian trade union representing 13,110 teachers and other workers in Ontario's French-language public education system, including employees both of secular and Roman Catholic school boards.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:72199096",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "Founded on 12 May 1939, the association is an affiliate of the Ontario Teachers' Federation and the Canadian Teachers' Federation."
+      },
+      "statement_en": "Founded on 12 May 1939, the association is an affiliate of the Ontario Teachers' Federation and the Canadian Teachers' Federation.",
+      "confidence": "medium",
+      "source_page_id": 72199096,
+      "source_revision_id": "1375600727",
+      "source_locator": "Introduction",
+      "source_quote": "Founded on 12 May 1939, the association is an affiliate of the Ontario Teachers' Federation and the Canadian Teachers' Federation.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:37159435",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Global education is a mental development program that seeks to improve global human development based on the understanding of global dynamics, through the various sectors of human development delivery."
+      },
+      "statement_en": "Global education is a mental development program that seeks to improve global human development based on the understanding of global dynamics, through the various sectors of human development delivery.",
+      "confidence": "medium",
+      "source_page_id": 37159435,
+      "source_revision_id": "1372573121",
+      "source_locator": "Introduction",
+      "source_quote": "Global education is a mental development program that seeks to improve global human development based on the understanding of global dynamics, through the various sectors of human development delivery.",
+      "unesco_concepts": [
+        "concept7859"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:37159435",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "In formal education, as a mode of human development delivery, it is integrated into formal educational programs, as an advanced program where global dimensions to local problems are appreciated through interconnectivity."
+      },
+      "statement_en": "In formal education, as a mode of human development delivery, it is integrated into formal educational programs, as an advanced program where global dimensions to local problems are appreciated through interconnectivity.",
+      "confidence": "medium",
+      "source_page_id": 37159435,
+      "source_revision_id": "1372573121",
+      "source_locator": "Introduction",
+      "source_quote": "In formal education, as a mode of human development delivery, it is integrated into formal educational programs, as an advanced program where global dimensions to local problems are appreciated through interconnectivity.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:37159435",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The National Education Association (NEA) recognizes Global Education to be a goal that educators strive to succeed in the classroom."
+      },
+      "statement_en": "The National Education Association (NEA) recognizes Global Education to be a goal that educators strive to succeed in the classroom.",
+      "confidence": "low",
+      "source_page_id": 37159435,
+      "source_revision_id": "1372573121",
+      "source_locator": "In the United States",
+      "source_quote": "The National Education Association (NEA) recognizes Global Education to be a goal that educators strive to succeed in the classroom.",
+      "unesco_concepts": [
+        "concept7859"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "canonical_KQ_KP_KA_KS_created": 0,
+  "existing_files_replaced": 0,
+  "files_sha256": {
+    "LIRE_DABORD_OVERLAY_V27.md": "73555593ba8a08918733ccfb77a0d1d538fe55266e1c068c94dd5f2295cce779",
+    "PRODUIRE_KRISTALS_V27.ps1": "e427e6d46b3bab3b8e6ed4704e6c662cd18e3120dab06d0daf91f935e819d5e6",
+    "docs/UNESCO_PRODUCTION_KRISTALS_V27.md": "542e9a0366d68f2bdb8f2d7a4a181d05ed1e3df4f3c6a6a17f5dca213d375a78",
+    "tests/test_production_kristals_v27.py": "22eeee3ddb9baa4a99f01918d5c48fde04f81d97ebdf61d6f7ff91a67b5e8350",
+    "tools/unesco_pilot/production_kristals_v27.py": "ab84d5282dc710eb5502d9b410634c37d02b762125ef7fdea3294c3601b893d8"
+  },
+  "format": "encyklopedia.overlay-production-v27/1",
+  "installation": "extract_to_repo_root_no_installer",
+  "publication_authorized": false,
+  "source_snapshot": "znapshot_EncyKlopedia_11101940.zip",
+  "source_sqlite_read_only": true,
+  "source_xml_read_only": true,
+  "tests": {
+    "existing_v25": 13,
+    "new_v27": 13,
+    "real_D_drive_execution": "not_tested_here"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000061",
+  "pack_sha256": "3b408b72f40c2a31efa34c8bc968580e067b2556c6b14e240a858481e5fba394",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:49001",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "The civil rights movement was a social movement in the United States from 1954 to 1968 which aimed to abolish legalized racial segregation, discrimination, and disenfranchisement in the country, which most commonly affected African Americans."
+      },
+      "statement_en": "The civil rights movement was a social movement in the United States from 1954 to 1968 which aimed to abolish legalized racial segregation, discrimination, and disenfranchisement in the country, which most commonly affected African Americans.",
+      "confidence": "medium",
+      "source_page_id": 49001,
+      "source_revision_id": "1378280882",
+      "source_locator": "Introduction",
+      "source_quote": "The civil rights movement was a social movement in the United States from 1954 to 1968 which aimed to abolish legalized racial segregation, discrimination, and disenfranchisement in the country, which most commonly affected African Americans.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49001",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "The movement had origins in the Reconstruction era in the late 19th century, and modern roots in the 1940s and in Mahatma Gandhi's nonviolent movement in India."
+      },
+      "statement_en": "The movement had origins in the Reconstruction era in the late 19th century, and modern roots in the 1940s and in Mahatma Gandhi's nonviolent movement in India.",
+      "confidence": "medium",
+      "source_page_id": 49001,
+      "source_revision_id": "1378280882",
+      "source_locator": "Introduction",
+      "source_quote": "The movement had origins in the Reconstruction era in the late 19th century, and modern roots in the 1940s and in Mahatma Gandhi's nonviolent movement in India.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:49001",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "Following the American Civil War (1861–1865), the three Reconstruction Amendments to the U.S. Constitution abolished slavery and granted citizenship to all African Americans, the majority of whom had recently been enslaved in the southern states."
+      },
+      "statement_en": "Following the American Civil War (1861–1865), the three Reconstruction Amendments to the U.S. Constitution abolished slavery and granted citizenship to all African Americans, the majority of whom had recently been enslaved in the southern states.",
+      "confidence": "medium",
+      "source_page_id": 49001,
+      "source_revision_id": "1378280882",
+      "source_locator": "Introduction",
+      "source_quote": "Following the American Civil War (1861–1865), the three Reconstruction Amendments to the U.S. Constitution abolished slavery and granted citizenship to all African Americans, the majority of whom had recently been enslaved in the southern states.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:49001",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "During Reconstruction, African-American men in the South voted and held political office, but after 1877 they were increasingly deprived of civil rights under racist Jim Crow laws (which for example banned interracial marriage, introduced literacy tests for voters, and segregated schools) and were subjected to violence from white supremacists during the nadir of American race relations."
+      },
+      "statement_en": "During Reconstruction, African-American men in the South voted and held political office, but after 1877 they were increasingly deprived of civil rights under racist Jim Crow laws (which for example banned interracial marriage, introduced literacy tests for voters, and segregated schools) and were subjected to violence from white supremacists during the nadir of American race relations.",
+      "confidence": "medium",
+      "source_page_id": 49001,
+      "source_revision_id": "1378280882",
+      "source_locator": "Introduction",
+      "source_quote": "During Reconstruction, African-American men in the South voted and held political office, but after 1877 they were increasingly deprived of civil rights under racist Jim Crow laws (which for example banned interracial marriage, introduced literacy tests for voters, and segregated schools) and were subjected to violence from white supremacists during the nadir of American race relations.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49001",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "Legal racial discrimination was upheld by the Supreme Court in its 1896 decision in Plessy v. Ferguson, which established the doctrine of \"separate but equal\"."
+      },
+      "statement_en": "Legal racial discrimination was upheld by the Supreme Court in its 1896 decision in Plessy v. Ferguson, which established the doctrine of \"separate but equal\".",
+      "confidence": "medium",
+      "source_page_id": 49001,
+      "source_revision_id": "1378280882",
+      "source_locator": "Introduction",
+      "source_quote": "Legal racial discrimination was upheld by the Supreme Court in its 1896 decision in Plessy v. Ferguson, which established the doctrine of \"separate but equal\".",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49001",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "From November 1963 through April 1964, the Chester school protests were a series of civil rights protests led by George Raymond of the National Association for the Advancement of Colored Persons (NAACP) and Stanley Branche of the Committee for Freedom Now (CFFN) that made Chester, Pennsylvania one of the key northern sites of the civil rights movement."
+      },
+      "statement_en": "From November 1963 through April 1964, the Chester school protests were a series of civil rights protests led by George Raymond of the National Association for the Advancement of Colored Persons (NAACP) and Stanley Branche of the Committee for Freedom Now (CFFN) that made Chester, Pennsylvania one of the key northern sites of the civil rights movement.",
+      "confidence": "low",
+      "source_page_id": 49001,
+      "source_revision_id": "1378280882",
+      "source_locator": "Chester school protests, Spring 1964",
+      "source_quote": "From November 1963 through April 1964, the Chester school protests were a series of civil rights protests led by George Raymond of the National Association for the Advancement of Colored Persons (NAACP) and Stanley Branche of the Committee for Freedom Now (CFFN) that made Chester, Pennsylvania one of the key northern sites of the civil rights movement.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,727 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000054",
+  "pack_sha256": "5148a5baff323a7d12b9383a41c5b470d902f65fa9eb37ac68a2dff3b93ad3cf",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:18118161",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "YK Pao School is a private international school in Shanghai, China, named after shipping magnate Yue-Kong Pao."
+      },
+      "statement_en": "YK Pao School is a private international school in Shanghai, China, named after shipping magnate Yue-Kong Pao.",
+      "confidence": "medium",
+      "source_page_id": 18118161,
+      "source_revision_id": "1362667220",
+      "source_locator": "Introduction",
+      "source_quote": "YK Pao School is a private international school in Shanghai, China, named after shipping magnate Yue-Kong Pao.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:18118161",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The YK Pao School provides instruction in Chinese and English."
+      },
+      "statement_en": "The YK Pao School provides instruction in Chinese and English.",
+      "confidence": "low",
+      "source_page_id": 18118161,
+      "source_revision_id": "1362667220",
+      "source_locator": "Academics",
+      "source_quote": "The YK Pao School provides instruction in Chinese and English.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:20220048",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Language Instruction for Newcomers to Canada (LINC; , CLIC) program is a free language education programme—funded and regulated by the Canadian government's Department of Immigration, Refugees and Citizenship—that offers full-time and part-time English- (excluding Quebec) and French-language lessons to adult permanent residents (or those with approval-in-principle) and Convention refugees."
+      },
+      "statement_en": "The Language Instruction for Newcomers to Canada (LINC; , CLIC) program is a free language education programme—funded and regulated by the Canadian government's Department of Immigration, Refugees and Citizenship—that offers full-time and part-time English- (excluding Quebec) and French-language lessons to adult permanent residents (or those with approval-in-principle) and Convention refugees.",
+      "confidence": "medium",
+      "source_page_id": 20220048,
+      "source_revision_id": "1255321547",
+      "source_locator": "Introduction",
+      "source_quote": "The Language Instruction for Newcomers to Canada (LINC; , CLIC) program is a free language education programme—funded and regulated by the Canadian government's Department of Immigration, Refugees and Citizenship—that offers full-time and part-time English- (excluding Quebec) and French-language lessons to adult permanent residents (or those with approval-in-principle) and Convention refugees.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:20220048",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The LINC is not available for Canadian citizens, refugee claimants, temporary residents (e.g., foreign students, foreign workers, or visitors)."
+      },
+      "statement_en": "The LINC is not available for Canadian citizens, refugee claimants, temporary residents (e.g., foreign students, foreign workers, or visitors).",
+      "confidence": "medium",
+      "source_page_id": 20220048,
+      "source_revision_id": "1255321547",
+      "source_locator": "Introduction",
+      "source_quote": "The LINC is not available for Canadian citizens, refugee claimants, temporary residents (e.g., foreign students, foreign workers, or visitors).",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:20220048",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The program is designed to meet English language needs, ranging from day-to-day living to job searching."
+      },
+      "statement_en": "The program is designed to meet English language needs, ranging from day-to-day living to job searching.",
+      "confidence": "medium",
+      "source_page_id": 20220048,
+      "source_revision_id": "1255321547",
+      "source_locator": "Introduction",
+      "source_quote": "The program is designed to meet English language needs, ranging from day-to-day living to job searching.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:23184385",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "St. Peter's School is an international school located in Barcelona, Spain."
+      },
+      "statement_en": "St. Peter's School is an international school located in Barcelona, Spain.",
+      "confidence": "low",
+      "source_page_id": 23184385,
+      "source_revision_id": "1376310392",
+      "source_locator": "Introduction",
+      "source_quote": "St. Peter's School is an international school located in Barcelona, Spain.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:23184385",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "St. Peter's School was founded in 1964 as a coeducational educational project."
+      },
+      "statement_en": "St. Peter's School was founded in 1964 as a coeducational educational project.",
+      "confidence": "low",
+      "source_page_id": 23184385,
+      "source_revision_id": "1376310392",
+      "source_locator": "History",
+      "source_quote": "St. Peter's School was founded in 1964 as a coeducational educational project.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:23368284",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Varga Katalin Gymnasium is a secondary school in Szolnok, Hungary established in 1930, which was named after Katalin Bánffy between 1936 and 1951."
+      },
+      "statement_en": "The Varga Katalin Gymnasium is a secondary school in Szolnok, Hungary established in 1930, which was named after Katalin Bánffy between 1936 and 1951.",
+      "confidence": "medium",
+      "source_page_id": 23368284,
+      "source_revision_id": "1377255195",
+      "source_locator": "Introduction",
+      "source_quote": "The Varga Katalin Gymnasium is a secondary school in Szolnok, Hungary established in 1930, which was named after Katalin Bánffy between 1936 and 1951.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:23368284",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Its address is Szabadság tér 6, near the confluence of the Tisza and Zagyva rivers."
+      },
+      "statement_en": "Its address is Szabadság tér 6, near the confluence of the Tisza and Zagyva rivers.",
+      "confidence": "low",
+      "source_page_id": 23368284,
+      "source_revision_id": "1377255195",
+      "source_locator": "Introduction",
+      "source_quote": "Its address is Szabadság tér 6, near the confluence of the Tisza and Zagyva rivers.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:23368284",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "On 4 July 1930, the Hungarian Ministry of Religion and Public Education decided to found the Royal Hungarian School for Girls of Szolnok; on 7 July the establishment of the school was authorized by Minister of Culture Count Kunó von Klebelsberg."
+      },
+      "statement_en": "On 4 July 1930, the Hungarian Ministry of Religion and Public Education decided to found the Royal Hungarian School for Girls of Szolnok; on 7 July the establishment of the school was authorized by Minister of Culture Count Kunó von Klebelsberg.",
+      "confidence": "low",
+      "source_page_id": 23368284,
+      "source_revision_id": "1377255195",
+      "source_locator": "History",
+      "source_quote": "On 4 July 1930, the Hungarian Ministry of Religion and Public Education decided to found the Royal Hungarian School for Girls of Szolnok; on 7 July the establishment of the school was authorized by Minister of Culture Count Kunó von Klebelsberg.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:28261561",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The English School (TES) officially known as the 'Colegio de Inglaterra' is a private school and is owned and managed by the Fundación Educativa de Inglaterra (FEI) Bogotá, Colombia."
+      },
+      "statement_en": "The English School (TES) officially known as the 'Colegio de Inglaterra' is a private school and is owned and managed by the Fundación Educativa de Inglaterra (FEI) Bogotá, Colombia.",
+      "confidence": "medium",
+      "source_page_id": 28261561,
+      "source_revision_id": "1339793547",
+      "source_locator": "Introduction",
+      "source_quote": "The English School (TES) officially known as the 'Colegio de Inglaterra' is a private school and is owned and managed by the Fundación Educativa de Inglaterra (FEI) Bogotá, Colombia.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:28261561",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "The school was founded by Elisabeth Masson in 1961 to offer a bilingual (Spanish) and English education to Colombians, as well as to the children of English-speaking foreign residents of Colombia from the UK, the U.S., and other nations."
+      },
+      "statement_en": "The school was founded by Elisabeth Masson in 1961 to offer a bilingual (Spanish) and English education to Colombians, as well as to the children of English-speaking foreign residents of Colombia from the UK, the U.S., and other nations.",
+      "confidence": "medium",
+      "source_page_id": 28261561,
+      "source_revision_id": "1339793547",
+      "source_locator": "Introduction",
+      "source_quote": "The school was founded by Elisabeth Masson in 1961 to offer a bilingual (Spanish) and English education to Colombians, as well as to the children of English-speaking foreign residents of Colombia from the UK, the U.S., and other nations.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31518776",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Kantakuzina Katarina Branković Serbian Orthodox Secondary School, abbreviated as SPOG, is a coeducational gymnasium (analogous to a preparatory high school or grammar school) affiliated with the Metropolitanate of Zagreb and Ljubljana."
+      },
+      "statement_en": "The Kantakuzina Katarina Branković Serbian Orthodox Secondary School, abbreviated as SPOG, is a coeducational gymnasium (analogous to a preparatory high school or grammar school) affiliated with the Metropolitanate of Zagreb and Ljubljana.",
+      "confidence": "medium",
+      "source_page_id": 31518776,
+      "source_revision_id": "1364820108",
+      "source_locator": "Introduction",
+      "source_quote": "The Kantakuzina Katarina Branković Serbian Orthodox Secondary School, abbreviated as SPOG, is a coeducational gymnasium (analogous to a preparatory high school or grammar school) affiliated with the Metropolitanate of Zagreb and Ljubljana.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31518776",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Established in 2005, the school claims to perpetuate a 200-year tradition of Orthodox minority education in Zagreb."
+      },
+      "statement_en": "Established in 2005, the school claims to perpetuate a 200-year tradition of Orthodox minority education in Zagreb.",
+      "confidence": "medium",
+      "source_page_id": 31518776,
+      "source_revision_id": "1364820108",
+      "source_locator": "Introduction",
+      "source_quote": "Established in 2005, the school claims to perpetuate a 200-year tradition of Orthodox minority education in Zagreb.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31518776",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Although the modern-day school was established in 2005, the tradition of education organized by the Metropolitanate of Zagreb and Ljubljana dates back to early 1814."
+      },
+      "statement_en": "Although the modern-day school was established in 2005, the tradition of education organized by the Metropolitanate of Zagreb and Ljubljana dates back to early 1814.",
+      "confidence": "low",
+      "source_page_id": 31518776,
+      "source_revision_id": "1364820108",
+      "source_locator": "History",
+      "source_quote": "Although the modern-day school was established in 2005, the tradition of education organized by the Metropolitanate of Zagreb and Ljubljana dates back to early 1814.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31633586",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Nikola Tesla Serbian School , now officially known as Serbian Kindergarten, Primary School, High School and Students' Home , is an educational institution located in Budapest, Hungary."
+      },
+      "statement_en": "Nikola Tesla Serbian School , now officially known as Serbian Kindergarten, Primary School, High School and Students' Home , is an educational institution located in Budapest, Hungary.",
+      "confidence": "medium",
+      "source_page_id": 31633586,
+      "source_revision_id": "1345431282",
+      "source_locator": "Introduction",
+      "source_quote": "Nikola Tesla Serbian School , now officially known as Serbian Kindergarten, Primary School, High School and Students' Home , is an educational institution located in Budapest, Hungary.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31633586",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school began its work in Pécs, but was soon out of political reasons, moved to Budapest."
+      },
+      "statement_en": "The school began its work in Pécs, but was soon out of political reasons, moved to Budapest.",
+      "confidence": "low",
+      "source_page_id": 31633586,
+      "source_revision_id": "1345431282",
+      "source_locator": "Introduction",
+      "source_quote": "The school began its work in Pécs, but was soon out of political reasons, moved to Budapest.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31633641",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Vukovar Gymnasium is a secondary school (gymnasium) in Vukovar in eastern Croatia."
+      },
+      "statement_en": "Vukovar Gymnasium is a secondary school (gymnasium) in Vukovar in eastern Croatia.",
+      "confidence": "low",
+      "source_page_id": 31633641,
+      "source_revision_id": "1339833319",
+      "source_locator": "Introduction",
+      "source_quote": "Vukovar Gymnasium is a secondary school (gymnasium) in Vukovar in eastern Croatia.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31633641",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The gymnasium was opened in 1891 at the Kod zvijezde facility. 44 male pupils enrolled at that time, and the first principal of the new school was Joseph Vitanović."
+      },
+      "statement_en": "The gymnasium was opened in 1891 at the Kod zvijezde facility. 44 male pupils enrolled at that time, and the first principal of the new school was Joseph Vitanović.",
+      "confidence": "low",
+      "source_page_id": 31633641,
+      "source_revision_id": "1339833319",
+      "source_locator": "History",
+      "source_quote": "The gymnasium was opened in 1891 at the Kod zvijezde facility. 44 male pupils enrolled at that time, and the first principal of the new school was Joseph Vitanović.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31868616",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Panyaden International School is an international school for both preschool (nursery and kindergarten) primary and secondary children south of Chiang Mai (north Thailand)."
+      },
+      "statement_en": "Panyaden International School is an international school for both preschool (nursery and kindergarten) primary and secondary children south of Chiang Mai (north Thailand).",
+      "confidence": "medium",
+      "source_page_id": 31868616,
+      "source_revision_id": "1311554047",
+      "source_locator": "Introduction",
+      "source_quote": "Panyaden International School is an international school for both preschool (nursery and kindergarten) primary and secondary children south of Chiang Mai (north Thailand).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31868616",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Panyaden International School is registered with the Thai Ministry of Education Its curriculum is taught in both Thai and English from nursery to Year 13 (Secondary school)."
+      },
+      "statement_en": "Panyaden International School is registered with the Thai Ministry of Education Its curriculum is taught in both Thai and English from nursery to Year 13 (Secondary school).",
+      "confidence": "low",
+      "source_page_id": 31868616,
+      "source_revision_id": "1311554047",
+      "source_locator": "Curriculum",
+      "source_quote": "Panyaden International School is registered with the Thai Ministry of Education Its curriculum is taught in both Thai and English from nursery to Year 13 (Secondary school).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:34079310",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Silvania National College is a bilingual high school located at 1 Unirii Street, Zalău, Romania, with both Romanian and Hungarian language classes."
+      },
+      "statement_en": "Silvania National College is a bilingual high school located at 1 Unirii Street, Zalău, Romania, with both Romanian and Hungarian language classes.",
+      "confidence": "medium",
+      "source_page_id": 34079310,
+      "source_revision_id": "1339600410",
+      "source_locator": "Introduction",
+      "source_quote": "Silvania National College is a bilingual high school located at 1 Unirii Street, Zalău, Romania, with both Romanian and Hungarian language classes.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:34079310",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "In 2002 it had 949 students, of whom 747 participated in Romanian and 202 in Hungarian language education."
+      },
+      "statement_en": "In 2002 it had 949 students, of whom 747 participated in Romanian and 202 in Hungarian language education.",
+      "confidence": "medium",
+      "source_page_id": 34079310,
+      "source_revision_id": "1339600410",
+      "source_locator": "Introduction",
+      "source_quote": "In 2002 it had 949 students, of whom 747 participated in Romanian and 202 in Hungarian language education.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:34079310",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The high school was formed by the Calvinist community in Zilah (present-day Zalău) in the first half of the 17th century."
+      },
+      "statement_en": "The high school was formed by the Calvinist community in Zilah (present-day Zalău) in the first half of the 17th century.",
+      "confidence": "low",
+      "source_page_id": 34079310,
+      "source_revision_id": "1339600410",
+      "source_locator": "History",
+      "source_quote": "The high school was formed by the Calvinist community in Zilah (present-day Zalău) in the first half of the 17th century.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:34860829",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Dalj High School is a public high school in Dalj, Croatia."
+      },
+      "statement_en": "Dalj High School is a public high school in Dalj, Croatia.",
+      "confidence": "low",
+      "source_page_id": 34860829,
+      "source_revision_id": "1364818579",
+      "source_locator": "Introduction",
+      "source_quote": "Dalj High School is a public high school in Dalj, Croatia.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:34860829",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "In the high school since the beginning of the nineties operates Student cooperative."
+      },
+      "statement_en": "In the high school since the beginning of the nineties operates Student cooperative.",
+      "confidence": "low",
+      "source_page_id": 34860829,
+      "source_revision_id": "1364818579",
+      "source_locator": "Student cooperative",
+      "source_quote": "In the high school since the beginning of the nineties operates Student cooperative.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:36713706",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "The Tășnad Technological High School is a bilingual high school located at 44/A Nicolae Bălcescu Street, Tășnad, Romania, with both Romanian and Hungarian language classes."
+      },
+      "statement_en": "The Tășnad Technological High School is a bilingual high school located at 44/A Nicolae Bălcescu Street, Tășnad, Romania, with both Romanian and Hungarian language classes.",
+      "confidence": "medium",
+      "source_page_id": 36713706,
+      "source_revision_id": "1339872140",
+      "source_locator": "Introduction",
+      "source_quote": "The Tășnad Technological High School is a bilingual high school located at 44/A Nicolae Bălcescu Street, Tășnad, Romania, with both Romanian and Hungarian language classes.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:38606860",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The German School London (often referred to in both languages by its German abbreviation DSL) is an independent school based in the grounds of Douglas House in Petersham in the London Borough of Richmond upon Thames."
+      },
+      "statement_en": "The German School London (often referred to in both languages by its German abbreviation DSL) is an independent school based in the grounds of Douglas House in Petersham in the London Borough of Richmond upon Thames.",
+      "confidence": "medium",
+      "source_page_id": 38606860,
+      "source_revision_id": "1368159584",
+      "source_locator": "Introduction",
+      "source_quote": "The German School London (often referred to in both languages by its German abbreviation DSL) is an independent school based in the grounds of Douglas House in Petersham in the London Borough of Richmond upon Thames.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:38606860",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Founded in 1971, today it serves a student body of over 800, from kindergarten to the end of high school."
+      },
+      "statement_en": "Founded in 1971, today it serves a student body of over 800, from kindergarten to the end of high school.",
+      "confidence": "medium",
+      "source_page_id": 38606860,
+      "source_revision_id": "1368159584",
+      "source_locator": "Introduction",
+      "source_quote": "Founded in 1971, today it serves a student body of over 800, from kindergarten to the end of high school.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:38606860",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The curriculum in the elementary school consists of German, English, mathematics, social studies & sciences, music, arts, religion and physical education."
+      },
+      "statement_en": "The curriculum in the elementary school consists of German, English, mathematics, social studies & sciences, music, arts, religion and physical education.",
+      "confidence": "low",
+      "source_page_id": 38606860,
+      "source_revision_id": "1368159584",
+      "source_locator": "Elementary school",
+      "source_quote": "The curriculum in the elementary school consists of German, English, mathematics, social studies & sciences, music, arts, religion and physical education.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:44108963",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Daystar Academy is a private international bilingual school in Chaoyang District, Beijing."
+      },
+      "statement_en": "Daystar Academy is a private international bilingual school in Chaoyang District, Beijing.",
+      "confidence": "low",
+      "source_page_id": 44108963,
+      "source_revision_id": "1353042527",
+      "source_locator": "Introduction",
+      "source_quote": "Daystar Academy is a private international bilingual school in Chaoyang District, Beijing.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:44108963",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Providing instruction in both Chinese and English, it has over 850 students represented by 20 nationalities from kindergarten to grade 12."
+      },
+      "statement_en": "Providing instruction in both Chinese and English, it has over 850 students represented by 20 nationalities from kindergarten to grade 12.",
+      "confidence": "medium",
+      "source_page_id": 44108963,
+      "source_revision_id": "1353042527",
+      "source_locator": "Introduction",
+      "source_quote": "Providing instruction in both Chinese and English, it has over 850 students represented by 20 nationalities from kindergarten to grade 12.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:44108963",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Established in 2002, Daystar Academy is a bilingual school with instruction in Chinese and English and follows a Montessori program."
+      },
+      "statement_en": "Established in 2002, Daystar Academy is a bilingual school with instruction in Chinese and English and follows a Montessori program.",
+      "confidence": "low",
+      "source_page_id": 44108963,
+      "source_revision_id": "1353042527",
+      "source_locator": "Overview",
+      "source_quote": "Established in 2002, Daystar Academy is a bilingual school with instruction in Chinese and English and follows a Montessori program.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:46544355",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Mixing students, teachers and teaching methods of both countries, DFG/LFAs are highly selective schools of excellence."
+      },
+      "statement_en": "Mixing students, teachers and teaching methods of both countries, DFG/LFAs are highly selective schools of excellence.",
+      "confidence": "medium",
+      "source_page_id": 46544355,
+      "source_revision_id": "1347272945",
+      "source_locator": "Introduction",
+      "source_quote": "Mixing students, teachers and teaching methods of both countries, DFG/LFAs are highly selective schools of excellence.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:46544355",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "In the spirit of post-war friendship and two years before the signing of the conciliatory Éysée Treaty between West Germany and France, the first DFG/LFA was established in Saarbrücken in 1961 as a cooperation between a French and a German school."
+      },
+      "statement_en": "In the spirit of post-war friendship and two years before the signing of the conciliatory Éysée Treaty between West Germany and France, the first DFG/LFA was established in Saarbrücken in 1961 as a cooperation between a French and a German school.",
+      "confidence": "medium",
+      "source_page_id": 46544355,
+      "source_revision_id": "1347272945",
+      "source_locator": "Introduction",
+      "source_quote": "In the spirit of post-war friendship and two years before the signing of the conciliatory Éysée Treaty between West Germany and France, the first DFG/LFA was established in Saarbrücken in 1961 as a cooperation between a French and a German school.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:46544355",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Students at DFG/LFA schools complete their education with the bilingual French-German Baccalaureate (deutsch-französisches Abitur / baccalauréat franco-allemand)."
+      },
+      "statement_en": "Students at DFG/LFA schools complete their education with the bilingual French-German Baccalaureate (deutsch-französisches Abitur / baccalauréat franco-allemand).",
+      "confidence": "low",
+      "source_page_id": 46544355,
+      "source_revision_id": "1347272945",
+      "source_locator": "French-German Baccalaureate",
+      "source_quote": "Students at DFG/LFA schools complete their education with the bilingual French-German Baccalaureate (deutsch-französisches Abitur / baccalauréat franco-allemand).",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:47818853",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Auburn High School is a public co-educational high school located in Hawthorn East, Melbourne, Victoria, Australia, serving Year 7 to Year 12."
+      },
+      "statement_en": "Auburn High School is a public co-educational high school located in Hawthorn East, Melbourne, Victoria, Australia, serving Year 7 to Year 12.",
+      "confidence": "medium",
+      "source_page_id": 47818853,
+      "source_revision_id": "1359630405",
+      "source_locator": "Introduction",
+      "source_quote": "Auburn High School is a public co-educational high school located in Hawthorn East, Melbourne, Victoria, Australia, serving Year 7 to Year 12.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:47818853",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Formerly known as Hawthorn Secondary College, it was re-established under its current name in January 2014."
+      },
+      "statement_en": "Formerly known as Hawthorn Secondary College, it was re-established under its current name in January 2014.",
+      "confidence": "medium",
+      "source_page_id": 47818853,
+      "source_revision_id": "1359630405",
+      "source_locator": "Introduction",
+      "source_quote": "Formerly known as Hawthorn Secondary College, it was re-established under its current name in January 2014.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:60116292",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Brussels International Catholic School (BICS) is an independent pre-primary through secondary Catholic school in the municipality of Etterbeek in Brussels, Belgium."
+      },
+      "statement_en": "Brussels International Catholic School (BICS) is an independent pre-primary through secondary Catholic school in the municipality of Etterbeek in Brussels, Belgium.",
+      "confidence": "medium",
+      "source_page_id": 60116292,
+      "source_revision_id": "1350370591",
+      "source_locator": "Introduction",
+      "source_quote": "Brussels International Catholic School (BICS) is an independent pre-primary through secondary Catholic school in the municipality of Etterbeek in Brussels, Belgium.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:60116292",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Brussel International Catholic School followed in the primary department is based upon a Belgian program for the French-speaking part and the Cambridge Primary for the English-speaking part."
+      },
+      "statement_en": "Brussel International Catholic School followed in the primary department is based upon a Belgian program for the French-speaking part and the Cambridge Primary for the English-speaking part.",
+      "confidence": "low",
+      "source_page_id": 60116292,
+      "source_revision_id": "1350370591",
+      "source_locator": "Curriculum",
+      "source_quote": "Brussel International Catholic School followed in the primary department is based upon a Belgian program for the French-speaking part and the Cambridge Primary for the English-speaking part.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:13734742",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "The Alcides Figueroa Bilingual School (formerly Sergio Ramírez de Arellano-Hostos Regional Bilingual Secondary School) is a bilingual, magnet secondary school located in Añasco, Puerto Rico."
+      },
+      "statement_en": "The Alcides Figueroa Bilingual School (formerly Sergio Ramírez de Arellano-Hostos Regional Bilingual Secondary School) is a bilingual, magnet secondary school located in Añasco, Puerto Rico.",
+      "confidence": "medium",
+      "source_page_id": 13734742,
+      "source_revision_id": "1376875660",
+      "source_locator": "Introduction",
+      "source_quote": "The Alcides Figueroa Bilingual School (formerly Sergio Ramírez de Arellano-Hostos Regional Bilingual Secondary School) is a bilingual, magnet secondary school located in Añasco, Puerto Rico.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:13734742",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Alcides is run by the Puerto Rico Department of Education and falls under its Specialized Schools Unit (UnEE, for its initials in Spanish)."
+      },
+      "statement_en": "Alcides is run by the Puerto Rico Department of Education and falls under its Specialized Schools Unit (UnEE, for its initials in Spanish).",
+      "confidence": "medium",
+      "source_page_id": 13734742,
+      "source_revision_id": "1376875660",
+      "source_locator": "Introduction",
+      "source_quote": "Alcides is run by the Puerto Rico Department of Education and falls under its Specialized Schools Unit (UnEE, for its initials in Spanish).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:13734742",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "School facilities include: Athletic track Basketball court Small central plaza with basketball hoop Cafeteria Library The upkeep of the school grounds is the responsibility of the Office for the Management of Public Buildings (OMEP, for its initials in Spanish)."
+      },
+      "statement_en": "School facilities include: Athletic track Basketball court Small central plaza with basketball hoop Cafeteria Library The upkeep of the school grounds is the responsibility of the Office for the Management of Public Buildings (OMEP, for its initials in Spanish).",
+      "confidence": "low",
+      "source_page_id": 13734742,
+      "source_revision_id": "1376875660",
+      "source_locator": "School grounds",
+      "source_quote": "School facilities include: Athletic track Basketball court Small central plaza with basketball hoop Cafeteria Library The upkeep of the school grounds is the responsibility of the Office for the Management of Public Buildings (OMEP, for its initials in Spanish).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:78029789",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Oyster-Adams Bilingual School (Oyster-Adams or OA) is a bilingual (English-Spanish) K-8 school in Washington, D.C. The Oyster Campus in Woodley Park serves grades PK to 3 and the Adams Campus in Adams Morgan serves grades 4 to 8."
+      },
+      "statement_en": "Oyster-Adams Bilingual School (Oyster-Adams or OA) is a bilingual (English-Spanish) K-8 school in Washington, D.C. The Oyster Campus in Woodley Park serves grades PK to 3 and the Adams Campus in Adams Morgan serves grades 4 to 8.",
+      "confidence": "medium",
+      "source_page_id": 78029789,
+      "source_revision_id": "1371082712",
+      "source_locator": "Introduction",
+      "source_quote": "Oyster-Adams Bilingual School (Oyster-Adams or OA) is a bilingual (English-Spanish) K-8 school in Washington, D.C. The Oyster Campus in Woodley Park serves grades PK to 3 and the Adams Campus in Adams Morgan serves grades 4 to 8.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:78029789",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "After the passage of Brown v. Board of Education in 1954, parents and teachers from the two segregated elementary schools came together in 1955 to implement desegregation."
+      },
+      "statement_en": "After the passage of Brown v. Board of Education in 1954, parents and teachers from the two segregated elementary schools came together in 1955 to implement desegregation.",
+      "confidence": "low",
+      "source_page_id": 78029789,
+      "source_revision_id": "1371082712",
+      "source_locator": "John Quincy Adams School",
+      "source_quote": "After the passage of Brown v. Board of Education in 1954, parents and teachers from the two segregated elementary schools came together in 1955 to implement desegregation.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:78029789",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The James F. Oyster School opened on September 20, 1926, at the intersection of 29th St NW and Calvert St NW in the Woodley Park neighborhood of Washington, D.C. The school was built over a period of ten months by contractor George E. Wyne at a cost of $250,000."
+      },
+      "statement_en": "The James F. Oyster School opened on September 20, 1926, at the intersection of 29th St NW and Calvert St NW in the Woodley Park neighborhood of Washington, D.C. The school was built over a period of ten months by contractor George E. Wyne at a cost of $250,000.",
+      "confidence": "low",
+      "source_page_id": 78029789,
+      "source_revision_id": "1371082712",
+      "source_locator": "James F. Oyster School",
+      "source_quote": "The James F. Oyster School opened on September 20, 1926, at the intersection of 29th St NW and Calvert St NW in the Woodley Park neighborhood of Washington, D.C. The school was built over a period of ten months by contractor George E. Wyne at a cost of $250,000.",
+      "unesco_concepts": []
+    }
+  ]
+}

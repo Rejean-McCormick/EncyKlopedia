@@ -1,0 +1,3394 @@
+{
+  "schema": "encyklopedia.category-review.v26/1",
+  "source_signature": "425489ba0d600f064ef797922295980c7ae6298d0bcd7ce2d0edb3d6d16fd2fb",
+  "unesco_sha256": "d767bf401f4053355a61aa05573d4882143cc63492d843eb113e0213560b338c",
+  "reviewed_from": "EXPORT_INVENTAIRE_V26_POUR_CHATGPT_001.zip + RESULTATS_REQUETES_V26_a0fe7a1f3c77_11888463.zip",
+  "review_method": "Revue IA de 241 catégories, échantillons <=14 membres directs, fusion sans altérer les 213 décisions précédentes; non une vérification de tous les articles.",
+  "review_scope": "unesco.mt1.10; depth_limit=0; base SQL source inchangée; décisions candidates, non canonique.",
+  "decisions": [
+    {
+      "concept_id": "concept17189",
+      "category_id": 113850788,
+      "category_title": "Multilingual education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Correspondance nominale exacte, mais aucun membre échantillonné : vérifier les membres ou catégories descendantes avant activation."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 24743394,
+      "category_title": "Alternative education",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie directement consacrée aux formes alternatives d’éducation. Activer uniquement les membres directs; des exemples périphériques devront être filtrés au niveau article."
+    },
+    {
+      "concept_id": "concept3894",
+      "category_id": 43898798,
+      "category_title": "Bilingual education",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie thématique spécifique à l’enseignement bilingue, confirmée par plusieurs articles exemplaires; sous-catégories à contrôler séparément."
+    },
+    {
+      "concept_id": "concept5999",
+      "category_id": 70982925,
+      "category_title": "Compulsory education",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "La catégorie porte explicitement sur la scolarité obligatoire et présente des textes historiques et juridiques correspondant à ce sujet."
+    },
+    {
+      "concept_id": "concept7282",
+      "category_id": 108556693,
+      "category_title": "Educational reform",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Correspondance exacte avec « Educational reform », mais catégorie sans exemple : vérifier l’existence de membres exploitables."
+    },
+    {
+      "concept_id": "concept7790",
+      "category_id": 127194074,
+      "category_title": "School desegregation",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "La déségrégation scolaire est liée à l’intégration scolaire mais les deux notions ne sont pas équivalentes."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 104090066,
+      "category_title": "International education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept1139",
+      "category_id": 112671555,
+      "category_title": "Free education initiatives",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Initiatives de gratuité de l’éducation, nom pertinent mais aucun article échantillonné pour confirmer la portée."
+    },
+    {
+      "concept_id": "concept17112",
+      "category_id": 54988094,
+      "category_title": "Closed schools in California",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de bâtiments/établissements disparus ou intitulé anecdotique; elle ne traite pas directement de la fermeture scolaire comme politique ou événement."
+    },
+    {
+      "concept_id": "concept17112",
+      "category_id": 130009037,
+      "category_title": "Closed schools in Pennsylvania",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de bâtiments/établissements disparus ou intitulé anecdotique; elle ne traite pas directement de la fermeture scolaire comme politique ou événement."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 75887002,
+      "category_title": "Alternative education activists",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Militants de l’éducation alternative potentiellement pertinents, mais aucune page d’exemple dans l’inventaire."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 75887003,
+      "category_title": "Alternative education advocates",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Défenseurs de l’éducation alternative potentiellement pertinents; vérifier les personnes et leur rôle éducatif réel."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 44076851,
+      "category_title": "Alternative education articles by quality",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 99361640,
+      "category_title": "Alternative education organizations",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Organisations d’éducation alternative : échantillon hétérogène, incluant des organismes périphériques; filtrage nécessaire."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 27089026,
+      "category_title": "WikiProject Alternative education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 39476133,
+      "category_title": "Wikipedians interested in Alternative education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 39476135,
+      "category_title": "Wikipedians interested in alternative education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 39476134,
+      "category_title": "Wikipedians interested in the Alternative education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 39476136,
+      "category_title": "Wikipedians interested in the alternative education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2112",
+      "category_id": 109453229,
+      "category_title": "Experimental education in Taiwan",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Éducation expérimentale à Taïwan : sous-ensemble géographique probablement pertinent, sans exemples dans l’export."
+    },
+    {
+      "concept_id": "concept3894",
+      "category_id": 97922252,
+      "category_title": "Advocates for bilingual education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Personnes défendant l’enseignement bilingue : catégorie biographique connexe, pas nécessairement un thème direct."
+    },
+    {
+      "concept_id": "concept3894",
+      "category_id": 97922263,
+      "category_title": "Bilingual education in the United States",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Enseignement bilingue aux États-Unis : sous-ensemble géographique pertinent du même concept, avec programme et organismes spécialisés."
+    },
+    {
+      "concept_id": "concept3894",
+      "category_id": 68672420,
+      "category_title": "Intercultural bilingual education",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "L’enseignement interculturel bilingue relève explicitement de l’éducation bilingue; rattachement secondaire possible sans duplication d’article."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 56696134,
+      "category_title": "Assistant Secretaries of State for Education and Culture",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 105979947,
+      "category_title": "Assistant secretaries of state for education and culture",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 54682472,
+      "category_title": "Cyprus Ministers of Education and Culture",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 54844404,
+      "category_title": "Education and Culture Ministers of Uruguay",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 101313335,
+      "category_title": "Education and culture ministers of East Timor",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 104122832,
+      "category_title": "Education and culture ministers of Timor-Leste",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 97250213,
+      "category_title": "Education and culture ministers of Uruguay",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7273",
+      "category_id": 62840129,
+      "category_title": "Curriculum Development (the SPICES Model)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Modèle SPICES pour la conception curriculaire : lien étroit mais catégorie très spécifique et sans membre échantillonné."
+    },
+    {
+      "concept_id": "concept7790",
+      "category_id": 63793591,
+      "category_title": "Democrats against school desegregation",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie politiquement ou historiquement connexe à la déségrégation, mais non adaptée comme pont automatique à l’intégration scolaire."
+    },
+    {
+      "concept_id": "concept7790",
+      "category_id": 44214078,
+      "category_title": "School desegregation case law",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Jurisprudence sur la déségrégation : potentiellement reliée à l’intégration scolaire, nécessite une liaison secondaire explicite."
+    },
+    {
+      "concept_id": "concept7790",
+      "category_id": 127194063,
+      "category_title": "School desegregation in the United States",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Déségrégation aux États-Unis : enjeu associé à l’intégration scolaire, mais le rapprochement ne suffit pas pour une équivalence."
+    },
+    {
+      "concept_id": "concept7790",
+      "category_id": 20555246,
+      "category_title": "School desegregation pioneers",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Biographies de pionniers de la déségrégation : relation historique à contrôler article par article."
+    },
+    {
+      "concept_id": "concept7790",
+      "category_id": 57923413,
+      "category_title": "School segregation in the United States",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ségrégation scolaire : concept historique opposé ou associé à la déségrégation, pas synonyme d’intégration."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 64462430,
+      "category_title": "Asia-Pacific Association for International Education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 111302123,
+      "category_title": "Institute of International Education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 76476340,
+      "category_title": "International education industry",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 112044723,
+      "category_title": "International education programs",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept9",
+      "category_id": 112994513,
+      "category_title": "Educational policy in Germany",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Politiques éducatives en Allemagne : sous-ensemble géographique plausible, sans membre échantillonné."
+    },
+    {
+      "concept_id": "concept9345",
+      "category_id": 128829220,
+      "category_title": "Study abroad organizations",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Organisations d’études à l’étranger : liens institutionnels plausibles, sans exemples pour établir le périmètre."
+    },
+    {
+      "concept_id": "concept9345",
+      "category_id": 40544597,
+      "category_title": "Study abroad programs",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’études à l’étranger et de mobilité académique avec des exemples de programmes pertinents; examen individuel ultérieur nécessaire."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 44076850,
+      "category_title": "A-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 26681891,
+      "category_title": "B-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 23155326,
+      "category_title": "C-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 31901892,
+      "category_title": "Category-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 35127173,
+      "category_title": "Disambig-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 23143495,
+      "category_title": "Draft-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 44076852,
+      "category_title": "FA-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 44076853,
+      "category_title": "FL-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 44076854,
+      "category_title": "FM-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 44076855,
+      "category_title": "File-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 44076856,
+      "category_title": "GA-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 83488043,
+      "category_title": "High-importance Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 53759586,
+      "category_title": "Image-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 27041476,
+      "category_title": "List-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 83488044,
+      "category_title": "Low-importance Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 83488045,
+      "category_title": "Mid-importance Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 23143496,
+      "category_title": "NA-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 83488046,
+      "category_title": "NA-importance Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 47573907,
+      "category_title": "Non-article Alternative education pages",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 30195671,
+      "category_title": "Portal-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 31748145,
+      "category_title": "Project-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 26738896,
+      "category_title": "Redirect-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 23084677,
+      "category_title": "Start-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 27194842,
+      "category_title": "Stub-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 44076857,
+      "category_title": "Template-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 83488047,
+      "category_title": "Top-importance Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 40140681,
+      "category_title": "Unassessed Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 36475695,
+      "category_title": "Unassessed-Class Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 83488048,
+      "category_title": "Unknown-importance Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 31748146,
+      "category_title": "WikiProject Alternative Education members",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 43809944,
+      "category_title": "WikiProject Alternative education articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 10208258,
+      "category_title": "WikiProject Alternative education members",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept2107",
+      "category_id": 22803544,
+      "category_title": "WikiProject Alternative education participants",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 98301156,
+      "category_title": "Ministers of education and culture of Cyprus",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7790",
+      "category_id": 44214081,
+      "category_title": "United States school desegregation case law",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Jurisprudence états-unienne : catégorie de cas juridiques connexes, sans identité sémantique avec l’intégration scolaire."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 127181960,
+      "category_title": "Comparative and International Education scholars",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 94456378,
+      "category_title": "Dashboard.wikiedu.org courses, Institute for the International Education of Students",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 82097822,
+      "category_title": "Project sockpuppets of London International Education College",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 82090412,
+      "category_title": "Suspected Wikipedia sockpuppets of London International Education College",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept1124",
+      "category_id": 100166758,
+      "category_title": "Open access education journals",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "« Open access » décrit l’accès ouvert aux publications, et non l’accès à l’enseignement."
+    },
+    {
+      "concept_id": "concept1139",
+      "category_id": 54077397,
+      "category_title": "Education in the Free State (province)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Faux rapprochement lexical : « free » renvoie ici à un lieu ou à un contenu libre, pas à la gratuité scolaire."
+    },
+    {
+      "concept_id": "concept1139",
+      "category_id": 88873555,
+      "category_title": "Free content from Journal of Interdisciplinary Studies in Education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Faux rapprochement lexical : « free » renvoie ici à un lieu ou à un contenu libre, pas à la gratuité scolaire."
+    },
+    {
+      "concept_id": "concept1140",
+      "category_id": 35631888,
+      "category_title": "All India Council for Technical Education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Un conseil technique indien n’est pas une catégorie d’éducation universelle; correspondance fondée sur des mots génériques."
+    },
+    {
+      "concept_id": "concept1140",
+      "category_id": 126047604,
+      "category_title": "All India Council for Technical Education, New Delhi",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Un conseil technique indien n’est pas une catégorie d’éducation universelle; correspondance fondée sur des mots génériques."
+    },
+    {
+      "concept_id": "concept17112",
+      "category_id": 114103004,
+      "category_title": "Closed private middle schools in Maryland",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de bâtiments/établissements disparus ou intitulé anecdotique; elle ne traite pas directement de la fermeture scolaire comme politique ou événement."
+    },
+    {
+      "concept_id": "concept17112",
+      "category_id": 81893907,
+      "category_title": "Defunct black public schools in the United States that closed when schools were integrated",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Fermetures d’écoles liées à la déségrégation : intérêt historique, mais catégories d’institutions et d’événements à distinguer."
+    },
+    {
+      "concept_id": "concept17112",
+      "category_id": 100297290,
+      "category_title": "Defunct black public schools that closed when schools were integrated",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de bâtiments/établissements disparus ou intitulé anecdotique; elle ne traite pas directement de la fermeture scolaire comme politique ou événement."
+    },
+    {
+      "concept_id": "concept17112",
+      "category_id": 44213985,
+      "category_title": "List of Schools that the Internet Radio is Closed Every Friday",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de bâtiments/établissements disparus ou intitulé anecdotique; elle ne traite pas directement de la fermeture scolaire comme politique ou événement."
+    },
+    {
+      "concept_id": "concept17112",
+      "category_id": 62789576,
+      "category_title": "Schools closed by snow",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Fermetures scolaires dues à la neige : pertinent pour les fermetures temporaires, à vérifier sur des exemples réels."
+    },
+    {
+      "concept_id": "concept17112",
+      "category_id": 100166774,
+      "category_title": "Schools closed in 1966",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de bâtiments/établissements disparus ou intitulé anecdotique; elle ne traite pas directement de la fermeture scolaire comme politique ou événement."
+    },
+    {
+      "concept_id": "concept3898",
+      "category_id": 68672420,
+      "category_title": "Intercultural bilingual education",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "L’enseignement interculturel bilingue recoupe directement l’éducation interculturelle; conserver ce rattachement secondaire distinct."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 90894776,
+      "category_title": "Alumni of the Church of Ireland College of Education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Homonymie géographique (« Falls Church ») ou catégorie de diplômés; aucune relation directe Église-éducation établie."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 125432723,
+      "category_title": "Church of England private schools in the Diocese of Chichester also Hurst is a school that gives over 1000 students a private education including their very own church",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Homonymie géographique (« Falls Church ») ou catégorie de diplômés; aucune relation directe Église-éducation établie."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 100344366,
+      "category_title": "Church of Ireland College of Education alumni",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Homonymie géographique (« Falls Church ») ou catégorie de diplômés; aucune relation directe Église-éducation établie."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 46083109,
+      "category_title": "Commissioners of Church Education (LDS Church)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Responsables éducatifs d’une Église particulière : sous-ensemble connexe à contrôler dans le cadre du concept Église et éducation."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 55476668,
+      "category_title": "Education in Falls Church, Virginia",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Homonymie géographique (« Falls Church ») ou catégorie de diplômés; aucune relation directe Église-éducation établie."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 76834017,
+      "category_title": "Dashboard.wikiedu.org courses, Steinhardt School of Culture, Education, and Human Development",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 70510931,
+      "category_title": "Dicastery for Culture and Education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 110279516,
+      "category_title": "Documents of the Dicastery for Culture and Education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 90468580,
+      "category_title": "Education in culture",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Famille « Education in culture » ambiguë : ne pas confondre représentations culturelles de l’école avec facteurs culturels en pédagogie."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 32262846,
+      "category_title": "Education in popular culture",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "L’éducation dans la culture populaire relève de la représentation culturelle, possiblement secondaire seulement."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 72756197,
+      "category_title": "Education, culture",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 114302331,
+      "category_title": "Education, culture and propaganda under Francoism",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 91703742,
+      "category_title": "Minister of Education, Culture, Sports, Science and Technology Commendation for Science and Technology Award Winners",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 127186270,
+      "category_title": "Ministers of Education, Culture and Science of the Netherlands",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 113066826,
+      "category_title": "Ministry of Education, Culture, Sports, Science and Technology",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 67694219,
+      "category_title": "Steinhardt School of Culture, Education, and Human Development alumni",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7078",
+      "category_id": 82823819,
+      "category_title": "Steinhardt School of Culture, Education, and Human Development faculty",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Portefeuille administratif « éducation et culture » ou institution/personnes apparentées, distinct de l’interaction entre éducation et culture."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 26870839,
+      "category_title": "Education International",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 127181963,
+      "category_title": "International Academy of Education members",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 44498638,
+      "category_title": "International Falcon Movement – Socialist Education International",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 21402895,
+      "category_title": "International Institute for Science, Technology and Education academic journals",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 43904159,
+      "category_title": "International Law, Higher Education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 113567796,
+      "category_title": "International medical education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept7859",
+      "category_id": 84075464,
+      "category_title": "International relations education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "L’éducation internationale, les organismes ou projets associés ne sont pas synonymes de l’éducation à la citoyenneté mondiale."
+    },
+    {
+      "concept_id": "concept9042",
+      "category_id": 76476340,
+      "category_title": "International education industry",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Une industrie de services d’éducation internationale n’illustre pas à elle seule les relations entre industrie et éducation."
+    },
+    {
+      "concept_id": "concept9343",
+      "category_id": 50425819,
+      "category_title": "Teachable units for language instruction",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Méthodes/unités d’enseignement d’une langue, distinctes de la langue utilisée comme médium d’instruction."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 56696134,
+      "category_title": "Assistant Secretaries of State for Education and Culture",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695463,
+      "category_title": "B-Class Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695464,
+      "category_title": "C-Class Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695465,
+      "category_title": "Category-Class Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 60263012,
+      "category_title": "Commissioners of Education of the State of New York",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Commissionnaires de l’éducation de New York : fonction publique potentiellement pertinente, aucune page échantillonnée."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 59432620,
+      "category_title": "Connecticut State Board of Education members",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 59432619,
+      "category_title": "Connecticut State Department of Education",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Département public de l’éducation du Connecticut, lié à l’administration éducative de l’État; les pages associées restent à filtrer individuellement."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45540810,
+      "category_title": "Education in (state name)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 37325497,
+      "category_title": "Education in Australia by state or territory",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20337415,
+      "category_title": "Education in Bremen (state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20341778,
+      "category_title": "Education in Chihuahua (state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 25377114,
+      "category_title": "Education in Edo State",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 28954640,
+      "category_title": "Education in Georgia (U.S. state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 38871411,
+      "category_title": "Education in Georgia (U.S. state) articles needing attention",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 60182883,
+      "category_title": "Education in Georgia (U.S. state) by county",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 60182880,
+      "category_title": "Education in Georgia (U.S. state) by populated place",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 59460402,
+      "category_title": "Education in Georgia (U.S. state) task force",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695466,
+      "category_title": "Education in Georgia (U.S. state) task force articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 53545353,
+      "category_title": "Education in Germany by state",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20341788,
+      "category_title": "Education in Hidalgo (state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 36545842,
+      "category_title": "Education in India by state",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 47536639,
+      "category_title": "Education in India by state or union territory",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 26613795,
+      "category_title": "Education in Katsina State",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20342452,
+      "category_title": "Education in Lagos State",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 48949093,
+      "category_title": "Education in Malaysia by state",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20341772,
+      "category_title": "Education in Mexico by state",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 44946138,
+      "category_title": "Education in New York (state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 55004092,
+      "category_title": "Education in New York (state) by county",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 67433745,
+      "category_title": "Education in Nigeria by state",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 54093142,
+      "category_title": "Education in Ogun State",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20342449,
+      "category_title": "Education in Oyo State",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 26243356,
+      "category_title": "Education in Rivers State",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 44116772,
+      "category_title": "Education in State Name",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20334699,
+      "category_title": "Education in Tyrol (state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 38919619,
+      "category_title": "Education in Victoria (state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 47177719,
+      "category_title": "Education in Washington (U.S. state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 27967822,
+      "category_title": "Education in Washington (state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 60297047,
+      "category_title": "Education in Washington (state) by county",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 54077397,
+      "category_title": "Education in the Free State (province)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20341795,
+      "category_title": "Education in the State of Mexico",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20514179,
+      "category_title": "Education in the State of Palestine",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 46839891,
+      "category_title": "Education in the United States by state",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 23083953,
+      "category_title": "Education in the United States by state or territory",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695467,
+      "category_title": "GA-Class Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 34058197,
+      "category_title": "Georgia (U.S. state) education navigational boxes",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 67818224,
+      "category_title": "Georgia (U.S. state) education-related lists",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695468,
+      "category_title": "High-importance Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45251404,
+      "category_title": "Higher education in the State of Palestine",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695469,
+      "category_title": "List-Class Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45589573,
+      "category_title": "Louisiana State Superintendents of Education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695470,
+      "category_title": "Low-importance Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695471,
+      "category_title": "Mid-importance Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695472,
+      "category_title": "NA-importance Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 34058225,
+      "category_title": "New York (state) education navigational boxes",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 59642255,
+      "category_title": "New York (state) education templates",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 42945153,
+      "category_title": "New York (state) education-related lists",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20347295,
+      "category_title": "New York State Education Department",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Département de l’éducation de New York : échantillon mêlant administration et établissements; contrôler le périmètre."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 43907409,
+      "category_title": "Oklahoma State System of Higher Education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 30428105,
+      "category_title": "Pennsylvania State System of Higher Education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 55004833,
+      "category_title": "Performing arts education in New York (state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 51621907,
+      "category_title": "Permanent Under-Secretaries of State for Education and Employment",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 51621908,
+      "category_title": "Permanent Under-Secretaries of State for Education and Skills",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 55004861,
+      "category_title": "Public education in New York (state)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Éducation publique dans l’État de New York : catégorie territoriale mixte comprenant des politiques et des établissements."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 59507493,
+      "category_title": "Public education in the United States by state or territory",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695473,
+      "category_title": "Redirect-Class Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 66465123,
+      "category_title": "Russian State University of Physical Education, Sport, Youth and Tourism alumni",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 66465122,
+      "category_title": "Russian State University of Physical Education, Sport, Youth and Tourism, Department of Chess alumni",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 60263375,
+      "category_title": "Schools of education in New York (state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 26123360,
+      "category_title": "Schools of education in the United States by state",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 27758428,
+      "category_title": "Secretaries of State for Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministres de l’éducation (secrétaires d’État) : fonction de gouvernance plausible, aucun membre échantillonné."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 30973570,
+      "category_title": "Secretaries of State for Education (UK)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Secrétaires d’État chargés de l’éducation au Royaume-Uni : fonction politique pertinente, mais aucun exemple échantillonné."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 27758429,
+      "category_title": "Secretaries of State for Education and Employment",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 27758430,
+      "category_title": "Secretaries of State for Education and Science",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 27758431,
+      "category_title": "Secretaries of State for Education and Skills",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695474,
+      "category_title": "Start-Class Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 60369222,
+      "category_title": "State Council for Technical Education & Vocational Training",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Conseil public chargé de la formation technique et professionnelle; catégorie spécifique avec membres mêlés."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 50275809,
+      "category_title": "State boards of education in the United States",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Conseils publics d’éducation des États américains : organismes participant directement à la gouvernance éducative."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 29602354,
+      "category_title": "State departments of education of the United States",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Départements publics de l’éducation des États américains : institutions de mise en œuvre des politiques éducatives."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 129751260,
+      "category_title": "State education commissioners of New York (state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 50060764,
+      "category_title": "State education departments in the United States",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Départements d’éducation des États américains : nom pertinent, mais catégorie sans exemple malgré une catégorie voisine active."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 55662490,
+      "category_title": "State secondary education boards of India",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Conseils des États indiens chargés de l’enseignement secondaire : fonction de réglementation et de gouvernance scolaire."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20458410,
+      "category_title": "State secondary education boards of Nigeria",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Conseils étatiques de l’enseignement secondaire nigérian : organismes participant à l’administration publique de l’éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695475,
+      "category_title": "Stub-Class Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695476,
+      "category_title": "Template-Class Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695477,
+      "category_title": "Top-importance Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 27967823,
+      "category_title": "United States education by state",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 49531463,
+      "category_title": "United States education navigational boxes by state",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 45695478,
+      "category_title": "Unknown-importance Education in Georgia (U.S. state) articles",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 49531494,
+      "category_title": "Washington (U.S. state) education navigational boxes",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 34058242,
+      "category_title": "Washington (state) education navigational boxes",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie de maintenance, de contributeurs ou de pages de projet Wikipédia, pas une famille d’articles encyclopédiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 67881391,
+      "category_title": "Washington (state) education-related lists",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 53554841,
+      "category_title": "Women's education in Washington (state)",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 53554842,
+      "category_title": "Women's education in the United States by state or territory",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Coïncidence lexicale : « state » désigne principalement un territoire; la catégorie couvre des établissements ou lieux, pas les relations État-éducation."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704258,
+      "category_title": "Abia State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704259,
+      "category_title": "Adamawa State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept1487",
+      "category_id": 58268007,
+      "category_title": "After school programs",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Activités périscolaires organisées pendant le temps libre des élèves ; rattachement thématique à loisirs et éducation, à vérifier article par article."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704260,
+      "category_title": "Akwa Ibom State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 32407754,
+      "category_title": "Alumni of De La Salle Teacher Training College, Waterford",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704261,
+      "category_title": "Anambra State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704262,
+      "category_title": "Bauchi State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704263,
+      "category_title": "Bayelsa State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704264,
+      "category_title": "Benue State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704265,
+      "category_title": "Borno State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704266,
+      "category_title": "Cross River State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 100344345,
+      "category_title": "De La Salle Teacher Training College, Waterford alumni",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 128525292,
+      "category_title": "De La Salle Teacher Training College, Waterford, alumni",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704267,
+      "category_title": "Delta State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704268,
+      "category_title": "Ebonyi State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704269,
+      "category_title": "Edo State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept7282",
+      "category_id": 43901472,
+      "category_title": "Education Reform",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Sujet voisin de réforme éducative mais échantillon direct absent ou trop pauvre ; vérifier avant activation."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 26777622,
+      "category_title": "Education by religious affiliation",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 128361057,
+      "category_title": "Education ministry of Nepal",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept7282",
+      "category_id": 27012594,
+      "category_title": "Education reform",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Famille centrale de réformes éducatives. Les membres directs sont des candidats, y compris certains organismes à filtrer au niveau de l’article."
+    },
+    {
+      "concept_id": "concept7282",
+      "category_id": 106740906,
+      "category_title": "Education reform activists",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Sujet voisin de réforme éducative mais échantillon direct absent ou trop pauvre ; vérifier avant activation."
+    },
+    {
+      "concept_id": "concept7282",
+      "category_id": 98065515,
+      "category_title": "Education reform in California",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Famille territoriale de réformes scolaires californiennes ; sélection des membres directs seulement, sans présumer que chaque établissement est une réforme."
+    },
+    {
+      "concept_id": "concept7282",
+      "category_id": 113953208,
+      "category_title": "Education reform in India",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Sujet voisin de réforme éducative mais échantillon direct absent ou trop pauvre ; vérifier avant activation."
+    },
+    {
+      "concept_id": "concept7282",
+      "category_id": 98065413,
+      "category_title": "Education reform in the United States",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Famille de réformes du système éducatif américain, présentant des instruments juridiques et programmes ; contrôle page par page requis."
+    },
+    {
+      "concept_id": "concept10",
+      "category_id": 90910654,
+      "category_title": "Education rights",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie consacrée aux droits dans le domaine éducatif ; plusieurs membres relèvent directement du droit à l’éducation, les autres restent à qualifier."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 43901507,
+      "category_title": "Educational Technology",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 108420227,
+      "category_title": "Educational Technology (EdTech)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 111501076,
+      "category_title": "Educational Technology Founders",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 108410957,
+      "category_title": "Educational ai technology",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 27508200,
+      "category_title": "Educational technology",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "La technologie éducative est plus large que les utilisations informatiques en éducation ; sélectionner uniquement des sous-familles numériquement précises après audit."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 69582893,
+      "category_title": "Educational technology academic and professional associations",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "La technologie éducative est plus large que les utilisations informatiques en éducation ; sélectionner uniquement des sous-familles numériquement précises après audit."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 100196573,
+      "category_title": "Educational technology academic associations",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 100190854,
+      "category_title": "Educational technology authors and researchers",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 65844550,
+      "category_title": "Educational technology companies",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 112453853,
+      "category_title": "Educational technology companies in Bangladesh",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 68772467,
+      "category_title": "Educational technology companies of Australia",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 115392613,
+      "category_title": "Educational technology companies of Bangladesh",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 52892809,
+      "category_title": "Educational technology companies of Canada",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 108719993,
+      "category_title": "Educational technology companies of China",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 127276161,
+      "category_title": "Educational technology companies of Egypt",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 108739747,
+      "category_title": "Educational technology companies of Finland",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 90704815,
+      "category_title": "Educational technology companies of France",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 90945837,
+      "category_title": "Educational technology companies of India",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 113693976,
+      "category_title": "Educational technology companies of Japan",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 127644707,
+      "category_title": "Educational technology companies of Lithuania",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 128988761,
+      "category_title": "Educational technology companies of Malaysia",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 115885626,
+      "category_title": "Educational technology companies of Nepal",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 125525864,
+      "category_title": "Educational technology companies of Nigeria",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 90945838,
+      "category_title": "Educational technology companies of Norway",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 112671553,
+      "category_title": "Educational technology companies of Pakistan",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 130110590,
+      "category_title": "Educational technology companies of Poland",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 90945839,
+      "category_title": "Educational technology companies of Singapore",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 108720091,
+      "category_title": "Educational technology companies of South Korea",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 129526096,
+      "category_title": "Educational technology companies of Sweden",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 108720292,
+      "category_title": "Educational technology companies of Ukraine",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 126309947,
+      "category_title": "Educational technology companies of Vietnam",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 71034949,
+      "category_title": "Educational technology companies of the United Kingdom",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 76245299,
+      "category_title": "Educational technology companies of the United States",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 115719970,
+      "category_title": "Educational technology in Bangladesh",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 128989884,
+      "category_title": "Educational technology in China",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 109310944,
+      "category_title": "Educational technology in India",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 116275703,
+      "category_title": "Educational technology in Sri Lanka",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 25404107,
+      "category_title": "Educational technology journals",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "La technologie éducative est plus large que les utilisations informatiques en éducation ; sélectionner uniquement des sous-familles numériquement précises après audit."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 108194639,
+      "category_title": "Educational technology non-profits",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "La technologie éducative est plus large que les utilisations informatiques en éducation ; sélectionner uniquement des sous-familles numériquement précises après audit."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 113140341,
+      "category_title": "Educational technology organizations",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 114107254,
+      "category_title": "Educational technology organizations in the United States",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 110466414,
+      "category_title": "Educational technology people",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 20230257,
+      "category_title": "Educational technology projects",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Projets de technologies et réseaux numériques à usage éducatif ; correspondance thématique partielle avec les usages informatiques dans l’enseignement."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 109466296,
+      "category_title": "Educational technology research centers",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "La technologie éducative est plus large que les utilisations informatiques en éducation ; sélectionner uniquement des sous-familles numériquement précises après audit."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 112670319,
+      "category_title": "Educational technology researchers",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 114216432,
+      "category_title": "Educational technology software",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 109400899,
+      "category_title": "Educational technology standards",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Normes techniques pour les systèmes et échanges numériques dans l’éducation : sous-ensemble pertinent des usages de l’informatique éducative."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704270,
+      "category_title": "Ekiti State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9343",
+      "category_id": 126585229,
+      "category_title": "English Medium of Instruction Secondary Schools in Hong Kong",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Établissements scolaires classés par langue ; risque de déverser des listes d’écoles plutôt que des articles sur la langue d’enseignement."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704271,
+      "category_title": "Enugu State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept2112",
+      "category_id": 107123444,
+      "category_title": "Experimental schools",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Établissements et modèles scolaires expérimentaux, pertinents pour les expérimentations éducatives, à distinguer des simples noms d’écoles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704273,
+      "category_title": "Federal Capital Territory (Nigeria) Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 71461240,
+      "category_title": "Former teacher training colleges in Ireland",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 126312231,
+      "category_title": "German educational technology companies",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704274,
+      "category_title": "Gombe State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 86751218,
+      "category_title": "Governmental educational technology organisations",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de technologie éducative non documentée par un échantillon direct dans cet export ; contrôler la portée informatique et les membres avant activation."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 86767861,
+      "category_title": "Governmental educational technology organizations",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "La technologie éducative est plus large que les utilisations informatiques en éducation ; sélectionner uniquement des sous-familles numériquement précises après audit."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704275,
+      "category_title": "Imo State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704276,
+      "category_title": "Jigawa State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 109443359,
+      "category_title": "Journal of the Ministry of Education editors",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 108875065,
+      "category_title": "Journals of the Higher Attestation Commission of the Ministry of Education and Science of Russia",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704277,
+      "category_title": "Kaduna State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704278,
+      "category_title": "Kano State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704279,
+      "category_title": "Katsina State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 115648075,
+      "category_title": "Kazakh National Women's Teacher Training University alumni",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704280,
+      "category_title": "Kebbi State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704281,
+      "category_title": "Kogi State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704282,
+      "category_title": "Kwara State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704283,
+      "category_title": "Lagos State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 45090111,
+      "category_title": "Language teacher training",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Formation des enseignants de langues, sous-famille pratique des politiques de formation du corps enseignant ; rattachement contextuel."
+    },
+    {
+      "concept_id": "concept7282",
+      "category_id": 29176478,
+      "category_title": "Mathematics education reform",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Réformes de l’enseignement des mathématiques, famille thématique de politiques de réforme éducative ; échantillon pertinent mais hétérogène."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 97232506,
+      "category_title": "Mathematics teacher training programs in the United States",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Programmes américains de formation d’enseignants de mathématiques ; exemple particulier de développement professionnel enseignement."
+    },
+    {
+      "concept_id": "concept9343",
+      "category_id": 88027806,
+      "category_title": "Medium of instruction",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie correspondant aux langues utilisées pour enseigner ; articles et litiges linguistiques directement associés à la langue d’enseignement."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 63246144,
+      "category_title": "Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 69433523,
+      "category_title": "Ministry of Education (Bangladesh)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20347293,
+      "category_title": "Ministry of Education (Chile)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114273442,
+      "category_title": "Ministry of Education (China)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 60520774,
+      "category_title": "Ministry of Education (India)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 112356650,
+      "category_title": "Ministry of Education (Iran)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20359341,
+      "category_title": "Ministry of Education (Jordan)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 20347292,
+      "category_title": "Ministry of Education (Malaysia)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 68004385,
+      "category_title": "Ministry of Education (Pakistan)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 97739978,
+      "category_title": "Ministry of Education (Peru)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 109568489,
+      "category_title": "Ministry of Education (South Korea)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 70433349,
+      "category_title": "Ministry of Education (Thailand)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 68281971,
+      "category_title": "Ministry of Education (Ukraine)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 66182071,
+      "category_title": "Ministry of Education and Cults (France)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 27018073,
+      "category_title": "Ministry of Education and Science (Lithuania)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114086020,
+      "category_title": "Ministry of Education and Science (Mongolia)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 102097559,
+      "category_title": "Ministry of Education of the People's Republic of China",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 69954742,
+      "category_title": "Ministry of Higher Education (Malaysia)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 60527400,
+      "category_title": "Ministry of Higher Education and Scientific Research (Jordan)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 113439499,
+      "category_title": "Ministry of Higher Education and Scientific Research ministers of Algeria",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 70435942,
+      "category_title": "Ministry of Higher Education, Science, Research and Innovation (Thailand)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 56431974,
+      "category_title": "Ministry of National Education (Turkey)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 69433524,
+      "category_title": "Ministry of Primary and Mass Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 90910666,
+      "category_title": "Ministry of Science and Higher Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 92037657,
+      "category_title": "Ministry of education (Ghana)",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704284,
+      "category_title": "Nasarawa State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 29955206,
+      "category_title": "People in educational technology",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 102097561,
+      "category_title": "People of the Ministry of Education of the People's Republic of China",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 51621882,
+      "category_title": "Permanent Secretaries of the Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 111741110,
+      "category_title": "Permanent secretaries of the Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept7282",
+      "category_id": 42587736,
+      "category_title": "Reform Judaism higher education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "« Reform » désigne un courant religieux et non la réforme du système éducatif ; faux positif lexical."
+    },
+    {
+      "concept_id": "concept7282",
+      "category_id": 42587738,
+      "category_title": "Reform and Progressive Jewish higher education",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "« Reform » désigne un courant religieux et non la réforme du système éducatif ; faux positif lexical."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 28637069,
+      "category_title": "Religious education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328305,
+      "category_title": "Religious education by country",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20330517,
+      "category_title": "Religious education in Africa",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328307,
+      "category_title": "Religious education in Algeria",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20344689,
+      "category_title": "Religious education in Asia",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328306,
+      "category_title": "Religious education in Australia",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328308,
+      "category_title": "Religious education in Austria",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404761,
+      "category_title": "Religious education in Bangladesh",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404752,
+      "category_title": "Religious education in Belgium",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404751,
+      "category_title": "Religious education in Belize",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328297,
+      "category_title": "Religious education in Brazil",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404767,
+      "category_title": "Religious education in Brunei",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328304,
+      "category_title": "Religious education in Canada",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20364486,
+      "category_title": "Religious education in Chile",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20403697,
+      "category_title": "Religious education in China",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20372135,
+      "category_title": "Religious education in Colombia",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404771,
+      "category_title": "Religious education in Croatia",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328310,
+      "category_title": "Religious education in Denmark",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328302,
+      "category_title": "Religious education in Egypt",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404773,
+      "category_title": "Religious education in El Salvador",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404423,
+      "category_title": "Religious education in Ethiopia",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328301,
+      "category_title": "Religious education in Europe",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404780,
+      "category_title": "Religious education in Fiji",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328312,
+      "category_title": "Religious education in Germany",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404427,
+      "category_title": "Religious education in Ghana",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 34068991,
+      "category_title": "Religious education in Guyana",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404415,
+      "category_title": "Religious education in Hong Kong",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404749,
+      "category_title": "Religious education in India",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405754,
+      "category_title": "Religious education in Iran",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404787,
+      "category_title": "Religious education in Ireland",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404786,
+      "category_title": "Religious education in Italy",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405745,
+      "category_title": "Religious education in Ivory Coast",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404419,
+      "category_title": "Religious education in Japan",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404739,
+      "category_title": "Religious education in Jordan",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404795,
+      "category_title": "Religious education in Kenya",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405196,
+      "category_title": "Religious education in Lithuania",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328311,
+      "category_title": "Religious education in Malaysia",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405200,
+      "category_title": "Religious education in Malta",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404733,
+      "category_title": "Religious education in Mauritius",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404738,
+      "category_title": "Religious education in Mexico",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405202,
+      "category_title": "Religious education in Namibia",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404729,
+      "category_title": "Religious education in New Zealand",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328299,
+      "category_title": "Religious education in Nigeria",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404417,
+      "category_title": "Religious education in North America",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405199,
+      "category_title": "Religious education in Paraguay",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405206,
+      "category_title": "Religious education in Portugal",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405755,
+      "category_title": "Religious education in Romania",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405210,
+      "category_title": "Religious education in Sierra Leone",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404737,
+      "category_title": "Religious education in Singapore",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405208,
+      "category_title": "Religious education in Slovakia",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20484710,
+      "category_title": "Religious education in South Africa",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20330064,
+      "category_title": "Religious education in South America",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404742,
+      "category_title": "Religious education in South Korea",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328314,
+      "category_title": "Religious education in Spain",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20328313,
+      "category_title": "Religious education in Sri Lanka",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405751,
+      "category_title": "Religious education in Zimbabwe",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 34068992,
+      "category_title": "Religious education in the Bahamas",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404766,
+      "category_title": "Religious education in the Czech Republic",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20405757,
+      "category_title": "Religious education in the Maldives",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept5178",
+      "category_id": 20404745,
+      "category_title": "Religious education in the Philippines",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Enseignement religieux à distinguer des seules relations Église-éducation ; rapprochement trop étroit pour ce concept UNESCO et dimension territoriale pouvant relever d’autres branches."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 70502731,
+      "category_title": "Rivers State Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept6020",
+      "category_id": 129704134,
+      "category_title": "Scholars of educational technology",
+      "decision": "EXCLUDE",
+      "depth_limit": 0,
+      "justification": "Catégorie d’entreprises ou de personnes du secteur EdTech, non synonyme de l’usage des ordinateurs dans l’éducation ; exclue de ce concept, sans exclusion de l’encyclopédie mondiale."
+    },
+    {
+      "concept_id": "concept1137",
+      "category_id": 57923413,
+      "category_title": "School segregation in the United States",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Ségrégation scolaire américaine : sujet central de discrimination dans l’éducation. Ne pas assimiler automatiquement à l’intégration scolaire."
+    },
+    {
+      "concept_id": "concept9343",
+      "category_id": 62307853,
+      "category_title": "Schools by medium of instruction",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Établissements scolaires classés par langue ; risque de déverser des listes d’écoles plutôt que des articles sur la langue d’enseignement."
+    },
+    {
+      "concept_id": "concept7282",
+      "category_id": 109486764,
+      "category_title": "Science education reform",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Sujet voisin de réforme éducative mais échantillon direct absent ou trop pauvre ; vérifier avant activation."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 52737513,
+      "category_title": "Teacher education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de formation des enseignants non suffisamment qualifiée par ses exemples ou centrée sur des établissements/personnes plutôt que sur les politiques."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 110093357,
+      "category_title": "Teacher education colleges in India",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de formation des enseignants non suffisamment qualifiée par ses exemples ou centrée sur des établissements/personnes plutôt que sur les politiques."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 66440632,
+      "category_title": "Teacher education in India",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Institutions, programmes et réglementation de formation enseignante en Inde ; lien avec les politiques enseignantes sans équivalence de concepts."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 43501773,
+      "category_title": "Teacher training",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Formation des enseignants : sous-thème important des politiques enseignantes ; candidature par membres directs uniquement."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 33231250,
+      "category_title": "Teacher training colleges",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 68218967,
+      "category_title": "Teacher training colleges in Bangladesh",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 69715293,
+      "category_title": "Teacher training colleges in India",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 60527292,
+      "category_title": "Teacher training colleges in Ireland",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 108655006,
+      "category_title": "Teacher training colleges in Timor-Leste",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 109190361,
+      "category_title": "Teacher training colleges in the United Arab Emirates",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 24393358,
+      "category_title": "Teacher training colleges in the United Kingdom",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie d’anciens élèves, de collèges ou d’établissements de formation : familles d’institutions à classer à un niveau spécifique, sans déverser automatiquement leurs membres dans la politique enseignante."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 85880254,
+      "category_title": "Teacher training programs",
+      "decision": "INCLUDE",
+      "depth_limit": 0,
+      "justification": "Programmes de formation initiale et professionnelle des enseignants ; famille de mise en œuvre des politiques enseignantes."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 114704272,
+      "category_title": "The Federal Capital Territory (Nigeria) Ministry of Education",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    },
+    {
+      "concept_id": "concept17163",
+      "category_id": 82815081,
+      "category_title": "University of Teacher Education Fukuoka alumni",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Catégorie de formation des enseignants non suffisamment qualifiée par ses exemples ou centrée sur des établissements/personnes plutôt que sur les politiques."
+    },
+    {
+      "concept_id": "concept9344",
+      "category_id": 102097562,
+      "category_title": "Vice Ministers of the Ministry of Education of the People's Republic of China",
+      "decision": "HOLD",
+      "depth_limit": 0,
+      "justification": "Ministère ou organisme national/régional : la famille de gouvernance éducative est utile, mais la requête renvoie des administrations par pays, souvent sans membres directs ; attendre une règle d’ensemble plutôt que des activations ponctuelles."
+    }
+  ]
+}

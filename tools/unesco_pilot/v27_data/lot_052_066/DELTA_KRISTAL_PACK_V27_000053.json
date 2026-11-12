@@ -1,0 +1,921 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000053",
+  "pack_sha256": "b9c3fcc80201dffb0ba2b39733849e828b3620fe6a2388e60be290cc264c4293",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:78783614",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The State Medical Faculty of West Bengal (SMFWB) is an autonomous body constituted by the Government of West Bengal in India."
+      },
+      "statement_en": "The State Medical Faculty of West Bengal (SMFWB) is an autonomous body constituted by the Government of West Bengal in India.",
+      "confidence": "medium",
+      "source_page_id": 78783614,
+      "source_revision_id": "1368282039",
+      "source_locator": "Introduction",
+      "source_quote": "The State Medical Faculty of West Bengal (SMFWB) is an autonomous body constituted by the Government of West Bengal in India.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:78783614",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The State Medical Faculty of West Bengal (formerly known as The State Medical Faculty, Bengal) was established in 1914 by the then-Governor General of India, as detailed in a historical account published in \"The Indian Medical Gazette\" (Volume 49, Issue 10, pages 404-408, 1914)."
+      },
+      "statement_en": "The State Medical Faculty of West Bengal (formerly known as The State Medical Faculty, Bengal) was established in 1914 by the then-Governor General of India, as detailed in a historical account published in \"The Indian Medical Gazette\" (Volume 49, Issue 10, pages 404-408, 1914).",
+      "confidence": "low",
+      "source_page_id": 78783614,
+      "source_revision_id": "1368282039",
+      "source_locator": "History",
+      "source_quote": "The State Medical Faculty of West Bengal (formerly known as The State Medical Faculty, Bengal) was established in 1914 by the then-Governor General of India, as detailed in a historical account published in \"The Indian Medical Gazette\" (Volume 49, Issue 10, pages 404-408, 1914).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:8395780",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "Parents Involved in Community Schools v. Seattle School District No. 1, 551 U.S. 701 (2007), also known as the PICS case, is a United States Supreme Court case which found it unconstitutional for a school district to use race as a factor in assigning students to schools in order to bring its racial composition in line with the composition of the district as a whole, unless it was remedying a prior history of de jure segregation."
+      },
+      "statement_en": "Parents Involved in Community Schools v. Seattle School District No. 1, 551 U.S. 701 (2007), also known as the PICS case, is a United States Supreme Court case which found it unconstitutional for a school district to use race as a factor in assigning students to schools in order to bring its racial composition in line with the composition of the district as a whole, unless it was remedying a prior history of de jure segregation.",
+      "confidence": "medium",
+      "source_page_id": 8395780,
+      "source_revision_id": "1366472120",
+      "source_locator": "Introduction",
+      "source_quote": "Parents Involved in Community Schools v. Seattle School District No. 1, 551 U.S. 701 (2007), also known as the PICS case, is a United States Supreme Court case which found it unconstitutional for a school district to use race as a factor in assigning students to schools in order to bring its racial composition in line with the composition of the district as a whole, unless it was remedying a prior history of de jure segregation.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:8395780",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Chief Justice Roberts wrote in his plurality opinion that \"The way to stop discrimination on the basis of race is to stop discriminating on the basis of race.\" At issue were efforts for voluntary school desegregation and integration in Seattle, Washington, and Louisville, Kentucky."
+      },
+      "statement_en": "Chief Justice Roberts wrote in his plurality opinion that \"The way to stop discrimination on the basis of race is to stop discriminating on the basis of race.\" At issue were efforts for voluntary school desegregation and integration in Seattle, Washington, and Louisville, Kentucky.",
+      "confidence": "medium",
+      "source_page_id": 8395780,
+      "source_revision_id": "1366472120",
+      "source_locator": "Introduction",
+      "source_quote": "Chief Justice Roberts wrote in his plurality opinion that \"The way to stop discrimination on the basis of race is to stop discriminating on the basis of race.\" At issue were efforts for voluntary school desegregation and integration in Seattle, Washington, and Louisville, Kentucky.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:8395780",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "First, \"remedying the effects of past intentional discrimination.\" But the Seattle schools had never been segregated by law; and the Kentucky schools, though previously segregated by law, had their desegregation decree dissolved by a District Court in 2000 on the finding the school district had \"eliminated the vestiges associated with the former policy of segregation and its pernicious effects\"."
+      },
+      "statement_en": "First, \"remedying the effects of past intentional discrimination.\" But the Seattle schools had never been segregated by law; and the Kentucky schools, though previously segregated by law, had their desegregation decree dissolved by a District Court in 2000 on the finding the school district had \"eliminated the vestiges associated with the former policy of segregation and its pernicious effects\".",
+      "confidence": "low",
+      "source_page_id": 8395780,
+      "source_revision_id": "1366472120",
+      "source_locator": "Opinion of the Court",
+      "source_quote": "First, \"remedying the effects of past intentional discrimination.\" But the Seattle schools had never been segregated by law; and the Kentucky schools, though previously segregated by law, had their desegregation decree dissolved by a District Court in 2000 on the finding the school district had \"eliminated the vestiges associated with the former policy of segregation and its pernicious effects\".",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:471603",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "State-funded schools are global with each country showcasing distinct structures and curricula."
+      },
+      "statement_en": "State-funded schools are global with each country showcasing distinct structures and curricula.",
+      "confidence": "low",
+      "source_page_id": 471603,
+      "source_revision_id": "1378661029",
+      "source_locator": "Introduction",
+      "source_quote": "State-funded schools are global with each country showcasing distinct structures and curricula.",
+      "unesco_concepts": [
+        "concept9",
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:471603",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Alternatives to this system include homeschooling, private schools, charter schools, and other educational options."
+      },
+      "statement_en": "Alternatives to this system include homeschooling, private schools, charter schools, and other educational options.",
+      "confidence": "medium",
+      "source_page_id": 471603,
+      "source_revision_id": "1378661029",
+      "source_locator": "Introduction",
+      "source_quote": "Alternatives to this system include homeschooling, private schools, charter schools, and other educational options.",
+      "unesco_concepts": [
+        "concept9",
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:471603",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Danish school system is supported today by tax-based governmental and municipal funding from day care through primary and secondary education to higher education and there are no tuition fees for regular students in public schools and universities."
+      },
+      "statement_en": "The Danish school system is supported today by tax-based governmental and municipal funding from day care through primary and secondary education to higher education and there are no tuition fees for regular students in public schools and universities.",
+      "confidence": "low",
+      "source_page_id": 471603,
+      "source_revision_id": "1378661029",
+      "source_locator": "Denmark",
+      "source_quote": "The Danish school system is supported today by tax-based governmental and municipal funding from day care through primary and secondary education to higher education and there are no tuition fees for regular students in public schools and universities.",
+      "unesco_concepts": [
+        "concept9",
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:7650447",
+      "predicate": "teacher_qualification_context",
+      "object": {
+        "type": "text",
+        "value": "Alternative teacher certification is a process by which a person is awarded a teaching license even though that person has not completed a traditional teacher certification program."
+      },
+      "statement_en": "Alternative teacher certification is a process by which a person is awarded a teaching license even though that person has not completed a traditional teacher certification program.",
+      "confidence": "medium",
+      "source_page_id": 7650447,
+      "source_revision_id": "1318762878",
+      "source_locator": "Introduction",
+      "source_quote": "Alternative teacher certification is a process by which a person is awarded a teaching license even though that person has not completed a traditional teacher certification program.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:7650447",
+      "predicate": "teacher_qualification_context",
+      "object": {
+        "type": "text",
+        "value": "In the US, traditional teacher certification is earned through completing a bachelor's or master's degree in education, taking standardized tests (usually a Praxis test), and fulfilling additional state requirements."
+      },
+      "statement_en": "In the US, traditional teacher certification is earned through completing a bachelor's or master's degree in education, taking standardized tests (usually a Praxis test), and fulfilling additional state requirements.",
+      "confidence": "medium",
+      "source_page_id": 7650447,
+      "source_revision_id": "1318762878",
+      "source_locator": "Introduction",
+      "source_quote": "In the US, traditional teacher certification is earned through completing a bachelor's or master's degree in education, taking standardized tests (usually a Praxis test), and fulfilling additional state requirements.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:7650447",
+      "predicate": "teacher_qualification_context",
+      "object": {
+        "type": "text",
+        "value": "Alternatively certified teachers typically possess a bachelor's degree from an accredited college or university and are completing (or have completed) an alternative certification program while teaching full-time."
+      },
+      "statement_en": "Alternatively certified teachers typically possess a bachelor's degree from an accredited college or university and are completing (or have completed) an alternative certification program while teaching full-time.",
+      "confidence": "medium",
+      "source_page_id": 7650447,
+      "source_revision_id": "1318762878",
+      "source_locator": "Introduction",
+      "source_quote": "Alternatively certified teachers typically possess a bachelor's degree from an accredited college or university and are completing (or have completed) an alternative certification program while teaching full-time.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:44782516",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The Rivers State Ministry of Education is a ministry of the Government of Rivers State of Nigeria, created to encourage development of education in the state."
+      },
+      "statement_en": "The Rivers State Ministry of Education is a ministry of the Government of Rivers State of Nigeria, created to encourage development of education in the state.",
+      "confidence": "medium",
+      "source_page_id": 44782516,
+      "source_revision_id": "1368542407",
+      "source_locator": "Introduction",
+      "source_quote": "The Rivers State Ministry of Education is a ministry of the Government of Rivers State of Nigeria, created to encourage development of education in the state.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:44782516",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The ministry is tasked with the formulation of policies for promoting and realizing effective educational standards, and practices similar to those of other jurisdictions."
+      },
+      "statement_en": "The ministry is tasked with the formulation of policies for promoting and realizing effective educational standards, and practices similar to those of other jurisdictions.",
+      "confidence": "medium",
+      "source_page_id": 44782516,
+      "source_revision_id": "1368542407",
+      "source_locator": "Introduction",
+      "source_quote": "The ministry is tasked with the formulation of policies for promoting and realizing effective educational standards, and practices similar to those of other jurisdictions.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:44782516",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The ministry is headquartered at the 7th Floor of the State Secretariat Complex in Port Harcourt."
+      },
+      "statement_en": "The ministry is headquartered at the 7th Floor of the State Secretariat Complex in Port Harcourt.",
+      "confidence": "medium",
+      "source_page_id": 44782516,
+      "source_revision_id": "1368542407",
+      "source_locator": "Introduction",
+      "source_quote": "The ministry is headquartered at the 7th Floor of the State Secretariat Complex in Port Harcourt.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1470859",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Washington School is a bilingual school (offering both English language and Spanish language) located in Belgrano, Buenos Aires, Argentina, which offers education in both elementary and secondary levels."
+      },
+      "statement_en": "Washington School is a bilingual school (offering both English language and Spanish language) located in Belgrano, Buenos Aires, Argentina, which offers education in both elementary and secondary levels.",
+      "confidence": "medium",
+      "source_page_id": 1470859,
+      "source_revision_id": "1376112094",
+      "source_locator": "Introduction",
+      "source_quote": "Washington School is a bilingual school (offering both English language and Spanish language) located in Belgrano, Buenos Aires, Argentina, which offers education in both elementary and secondary levels.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1470859",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school also offers the International Baccalaureate and AICE programs."
+      },
+      "statement_en": "The school also offers the International Baccalaureate and AICE programs.",
+      "confidence": "low",
+      "source_page_id": 1470859,
+      "source_revision_id": "1376112094",
+      "source_locator": "Introduction",
+      "source_quote": "The school also offers the International Baccalaureate and AICE programs.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:2018079",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Athens College (formally Hellenic-American Educational Foundation (HAEF), Ελληνο-Αμερικανικό Εκπαιδευτικό Ίδρυμα) is a co-educational private preparatory school in Psychiko, Greece, a suburb of Athens, part of the Hellenic-American Educational Foundation (Ελληνοαμερικανικό Εκπαιδευτικό Ίδρυμα) which also includes Psychico College, although both schools are usually referred to as \"Athens College\"."
+      },
+      "statement_en": "Athens College (formally Hellenic-American Educational Foundation (HAEF), Ελληνο-Αμερικανικό Εκπαιδευτικό Ίδρυμα) is a co-educational private preparatory school in Psychiko, Greece, a suburb of Athens, part of the Hellenic-American Educational Foundation (Ελληνοαμερικανικό Εκπαιδευτικό Ίδρυμα) which also includes Psychico College, although both schools are usually referred to as \"Athens College\".",
+      "confidence": "medium",
+      "source_page_id": 2018079,
+      "source_revision_id": "1371557077",
+      "source_locator": "Introduction",
+      "source_quote": "Athens College (formally Hellenic-American Educational Foundation (HAEF), Ελληνο-Αμερικανικό Εκπαιδευτικό Ίδρυμα) is a co-educational private preparatory school in Psychiko, Greece, a suburb of Athens, part of the Hellenic-American Educational Foundation (Ελληνοαμερικανικό Εκπαιδευτικό Ίδρυμα) which also includes Psychico College, although both schools are usually referred to as \"Athens College\".",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:2018079",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Among the school's founders and big donors had been Emmanuel Benakis, namesake of the Benaki Museum of Athens, as well as the school's main building, and Stephanos Deltas who the school's athletic facilities were named by."
+      },
+      "statement_en": "Among the school's founders and big donors had been Emmanuel Benakis, namesake of the Benaki Museum of Athens, as well as the school's main building, and Stephanos Deltas who the school's athletic facilities were named by.",
+      "confidence": "medium",
+      "source_page_id": 2018079,
+      "source_revision_id": "1371557077",
+      "source_locator": "Introduction",
+      "source_quote": "Among the school's founders and big donors had been Emmanuel Benakis, namesake of the Benaki Museum of Athens, as well as the school's main building, and Stephanos Deltas who the school's athletic facilities were named by.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:2018079",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Athens College was established in 1925 by a group of Greeks (Emmanuel Benakis and Stephanos Delta among them) with the support of American philhellenes, including Dr. Bert Hodge, Director of the American School of Classical Studies at Athens."
+      },
+      "statement_en": "Athens College was established in 1925 by a group of Greeks (Emmanuel Benakis and Stephanos Delta among them) with the support of American philhellenes, including Dr. Bert Hodge, Director of the American School of Classical Studies at Athens.",
+      "confidence": "low",
+      "source_page_id": 2018079,
+      "source_revision_id": "1371557077",
+      "source_locator": "History",
+      "source_quote": "Athens College was established in 1925 by a group of Greeks (Emmanuel Benakis and Stephanos Delta among them) with the support of American philhellenes, including Dr. Bert Hodge, Director of the American School of Classical Studies at Athens.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:2659498",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Founded in 1995 under the name École Française de Shanghai (EFS), it is currently affiliated with the Agency for French Education Abroad (AEFE) as a contracted school (conventionné)."
+      },
+      "statement_en": "Founded in 1995 under the name École Française de Shanghai (EFS), it is currently affiliated with the Agency for French Education Abroad (AEFE) as a contracted school (conventionné).",
+      "confidence": "medium",
+      "source_page_id": 2659498,
+      "source_revision_id": "1373974533",
+      "source_locator": "Introduction",
+      "source_quote": "Founded in 1995 under the name École Française de Shanghai (EFS), it is currently affiliated with the Agency for French Education Abroad (AEFE) as a contracted school (conventionné).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:2659498",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "The French as Language of Instruction (FLSco) program at Shanghai French School is designed to support students whose first language is not French, enabling them to integrate into the French education system."
+      },
+      "statement_en": "The French as Language of Instruction (FLSco) program at Shanghai French School is designed to support students whose first language is not French, enabling them to integrate into the French education system.",
+      "confidence": "low",
+      "source_page_id": 2659498,
+      "source_revision_id": "1373974533",
+      "source_locator": "Non-native families embracing French education",
+      "source_quote": "The French as Language of Instruction (FLSco) program at Shanghai French School is designed to support students whose first language is not French, enabling them to integrate into the French education system.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3129284",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Anglo Colombian School is a co-ed, private school, in Bogotá, Colombia, in February 1956 by Jaime Jaramillo Arango."
+      },
+      "statement_en": "The Anglo Colombian School is a co-ed, private school, in Bogotá, Colombia, in February 1956 by Jaime Jaramillo Arango.",
+      "confidence": "medium",
+      "source_page_id": 3129284,
+      "source_revision_id": "1360599046",
+      "source_locator": "Introduction",
+      "source_quote": "The Anglo Colombian School is a co-ed, private school, in Bogotá, Colombia, in February 1956 by Jaime Jaramillo Arango.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:3129284",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The house that wins the most events is announced at the end of the school year."
+      },
+      "statement_en": "The house that wins the most events is announced at the end of the school year.",
+      "confidence": "low",
+      "source_page_id": 3129284,
+      "source_revision_id": "1360599046",
+      "source_locator": "House system",
+      "source_quote": "The house that wins the most events is announced at the end of the school year.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:3928293",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Escuela Internacional Sampedrana (EIS) is a private coeducational K-12 school located in the Lomas del Potosí neighborhood of San Pedro Sula, Cortés Department, Honduras."
+      },
+      "statement_en": "Escuela Internacional Sampedrana (EIS) is a private coeducational K-12 school located in the Lomas del Potosí neighborhood of San Pedro Sula, Cortés Department, Honduras.",
+      "confidence": "medium",
+      "source_page_id": 3928293,
+      "source_revision_id": "1339798799",
+      "source_locator": "Introduction",
+      "source_quote": "Escuela Internacional Sampedrana (EIS) is a private coeducational K-12 school located in the Lomas del Potosí neighborhood of San Pedro Sula, Cortés Department, Honduras.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:3928293",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The school is accredited by the Southern Association of Colleges and Schools (SACS)."
+      },
+      "statement_en": "The school is accredited by the Southern Association of Colleges and Schools (SACS).",
+      "confidence": "low",
+      "source_page_id": 3928293,
+      "source_revision_id": "1339798799",
+      "source_locator": "Introduction",
+      "source_quote": "The school is accredited by the Southern Association of Colleges and Schools (SACS).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:3928293",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Extracurricular activities include: National Honor Society Student Council Yearbook Knowledge Bowl Model United Nations SPSMUN, the annual conference held by the EIS MUN club, was started by alumni Shady Zummar and Christopher Harris under the supervision of Nicolas Harris, the club's advisor at the time."
+      },
+      "statement_en": "Extracurricular activities include: National Honor Society Student Council Yearbook Knowledge Bowl Model United Nations SPSMUN, the annual conference held by the EIS MUN club, was started by alumni Shady Zummar and Christopher Harris under the supervision of Nicolas Harris, the club's advisor at the time.",
+      "confidence": "low",
+      "source_page_id": 3928293,
+      "source_revision_id": "1339798799",
+      "source_locator": "Extracurricular activities",
+      "source_quote": "Extracurricular activities include: National Honor Society Student Council Yearbook Knowledge Bowl Model United Nations SPSMUN, the annual conference held by the EIS MUN club, was started by alumni Shady Zummar and Christopher Harris under the supervision of Nicolas Harris, the club's advisor at the time.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:6342977",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Sarasas Ektra School (Thai: โรงเรียนสารสาสน์เอกตรา) is a Catholic bilingual co-educational school in central Bangkok."
+      },
+      "statement_en": "Sarasas Ektra School (Thai: โรงเรียนสารสาสน์เอกตรา) is a Catholic bilingual co-educational school in central Bangkok.",
+      "confidence": "medium",
+      "source_page_id": 6342977,
+      "source_revision_id": "1339804539",
+      "source_locator": "Introduction",
+      "source_quote": "Sarasas Ektra School (Thai: โรงเรียนสารสาสน์เอกตรา) is a Catholic bilingual co-educational school in central Bangkok.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:6342977",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "As of 2009, the school had approximately 2,900 students and conducted a fully bilingual program in Thai and English from kindergarten 1 (3-year-olds) to matayom 6 (17-year-olds)."
+      },
+      "statement_en": "As of 2009, the school had approximately 2,900 students and conducted a fully bilingual program in Thai and English from kindergarten 1 (3-year-olds) to matayom 6 (17-year-olds).",
+      "confidence": "medium",
+      "source_page_id": 6342977,
+      "source_revision_id": "1339804539",
+      "source_locator": "Introduction",
+      "source_quote": "As of 2009, the school had approximately 2,900 students and conducted a fully bilingual program in Thai and English from kindergarten 1 (3-year-olds) to matayom 6 (17-year-olds).",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:6768233",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "The John F. Kennedy School is a primary and secondary school in Berlin, Germany offering integrated, bilingual education for both German and American children."
+      },
+      "statement_en": "The John F. Kennedy School is a primary and secondary school in Berlin, Germany offering integrated, bilingual education for both German and American children.",
+      "confidence": "medium",
+      "source_page_id": 6768233,
+      "source_revision_id": "1373061082",
+      "source_locator": "Introduction",
+      "source_quote": "The John F. Kennedy School is a primary and secondary school in Berlin, Germany offering integrated, bilingual education for both German and American children.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:6768233",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school was originally established in 1960 by the U.S. Military Government along with local Berlin authorities and parents."
+      },
+      "statement_en": "The school was originally established in 1960 by the U.S. Military Government along with local Berlin authorities and parents.",
+      "confidence": "low",
+      "source_page_id": 6768233,
+      "source_revision_id": "1373061082",
+      "source_locator": "History",
+      "source_quote": "The school was originally established in 1960 by the U.S. Military Government along with local Berlin authorities and parents.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:7127965",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Mazapan School is a N-12 co-educational bilingual school offering a US-style college preparatory instruction program."
+      },
+      "statement_en": "Mazapan School is a N-12 co-educational bilingual school offering a US-style college preparatory instruction program.",
+      "confidence": "medium",
+      "source_page_id": 7127965,
+      "source_revision_id": "1348062490",
+      "source_locator": "Introduction",
+      "source_quote": "Mazapan School is a N-12 co-educational bilingual school offering a US-style college preparatory instruction program.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:7127965",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Mazapan School was founded in 1928 by the Standard Fruit Company, known today as Dole."
+      },
+      "statement_en": "Mazapan School was founded in 1928 by the Standard Fruit Company, known today as Dole.",
+      "confidence": "low",
+      "source_page_id": 7127965,
+      "source_revision_id": "1348062490",
+      "source_locator": "History",
+      "source_quote": "Mazapan School was founded in 1928 by the Standard Fruit Company, known today as Dole.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:8253748",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Holyrood Elementary School is a bilingual school in Edmonton, Alberta, Canada named after Holyrood Palace in Edinburgh, Scotland."
+      },
+      "statement_en": "Holyrood Elementary School is a bilingual school in Edmonton, Alberta, Canada named after Holyrood Palace in Edinburgh, Scotland.",
+      "confidence": "medium",
+      "source_page_id": 8253748,
+      "source_revision_id": "1368162809",
+      "source_locator": "Introduction",
+      "source_quote": "Holyrood Elementary School is a bilingual school in Edmonton, Alberta, Canada named after Holyrood Palace in Edinburgh, Scotland.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:8253748",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Holyrood School opened in 1955 when Edmonton was growing rapidly due to the Post-World War II baby boom and discovery of oil near Edmonton in 1947."
+      },
+      "statement_en": "Holyrood School opened in 1955 when Edmonton was growing rapidly due to the Post-World War II baby boom and discovery of oil near Edmonton in 1947.",
+      "confidence": "low",
+      "source_page_id": 8253748,
+      "source_revision_id": "1368162809",
+      "source_locator": "History",
+      "source_quote": "Holyrood School opened in 1955 when Edmonton was growing rapidly due to the Post-World War II baby boom and discovery of oil near Edmonton in 1947.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:8671498",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Humble Hearts School, Kenya's first bilingual school for the deaf using Kenyan Sign Language (KSL) and English on an equal basis, was started by Beatrice Anunda on 9 September 2003."
+      },
+      "statement_en": "Humble Hearts School, Kenya's first bilingual school for the deaf using Kenyan Sign Language (KSL) and English on an equal basis, was started by Beatrice Anunda on 9 September 2003.",
+      "confidence": "medium",
+      "source_page_id": 8671498,
+      "source_revision_id": "1339803129",
+      "source_locator": "Introduction",
+      "source_quote": "Humble Hearts School, Kenya's first bilingual school for the deaf using Kenyan Sign Language (KSL) and English on an equal basis, was started by Beatrice Anunda on 9 September 2003.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:8671498",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Humble Hearts has a sister school, Trillium Charter School, located in Portland, Oregon, United States."
+      },
+      "statement_en": "Humble Hearts has a sister school, Trillium Charter School, located in Portland, Oregon, United States.",
+      "confidence": "low",
+      "source_page_id": 8671498,
+      "source_revision_id": "1339803129",
+      "source_locator": "Sister school",
+      "source_quote": "Humble Hearts has a sister school, Trillium Charter School, located in Portland, Oregon, United States.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:9646163",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Lincoln International Academy is located in Managua, Nicaragua."
+      },
+      "statement_en": "Lincoln International Academy is located in Managua, Nicaragua.",
+      "confidence": "low",
+      "source_page_id": 9646163,
+      "source_revision_id": "1344550972",
+      "source_locator": "Introduction",
+      "source_quote": "Lincoln International Academy is located in Managua, Nicaragua.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:9646163",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "LIA is accredited by the Southern Association of Colleges and Schools since February 2009."
+      },
+      "statement_en": "LIA is accredited by the Southern Association of Colleges and Schools since February 2009.",
+      "confidence": "low",
+      "source_page_id": 9646163,
+      "source_revision_id": "1344550972",
+      "source_locator": "Introduction",
+      "source_quote": "LIA is accredited by the Southern Association of Colleges and Schools since February 2009.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:9646163",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Founded in Managua in 1991 and later moved to a campus, the new campus was built with the construction building code of California, USA, and has a highly advanced security system."
+      },
+      "statement_en": "Founded in Managua in 1991 and later moved to a campus, the new campus was built with the construction building code of California, USA, and has a highly advanced security system.",
+      "confidence": "low",
+      "source_page_id": 9646163,
+      "source_revision_id": "1344550972",
+      "source_locator": "History",
+      "source_quote": "Founded in Managua in 1991 and later moved to a campus, the new campus was built with the construction building code of California, USA, and has a highly advanced security system.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:9672173",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The American School of Tegucigalpa (or AST) is a private, coeducational international school located in the neighbourhood of Lomas del Guijarro, in Tegucigalpa, Honduras."
+      },
+      "statement_en": "The American School of Tegucigalpa (or AST) is a private, coeducational international school located in the neighbourhood of Lomas del Guijarro, in Tegucigalpa, Honduras.",
+      "confidence": "medium",
+      "source_page_id": 9672173,
+      "source_revision_id": "1344550645",
+      "source_locator": "Introduction",
+      "source_quote": "The American School of Tegucigalpa (or AST) is a private, coeducational international school located in the neighbourhood of Lomas del Guijarro, in Tegucigalpa, Honduras.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:9672173",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The initial school had 42 students and three classrooms."
+      },
+      "statement_en": "The initial school had 42 students and three classrooms.",
+      "confidence": "low",
+      "source_page_id": 9672173,
+      "source_revision_id": "1344550645",
+      "source_locator": "History",
+      "source_quote": "The initial school had 42 students and three classrooms.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:14231064",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Sekolah Dyatmika or Dyatmika School is a bilingual (Indonesian/English) private school in Denpasar, Bali, Indonesia, serving students from early childhood through secondary school (Playgroup through Class 12)."
+      },
+      "statement_en": "Sekolah Dyatmika or Dyatmika School is a bilingual (Indonesian/English) private school in Denpasar, Bali, Indonesia, serving students from early childhood through secondary school (Playgroup through Class 12).",
+      "confidence": "medium",
+      "source_page_id": 14231064,
+      "source_revision_id": "1339615283",
+      "source_locator": "Introduction",
+      "source_quote": "Sekolah Dyatmika or Dyatmika School is a bilingual (Indonesian/English) private school in Denpasar, Bali, Indonesia, serving students from early childhood through secondary school (Playgroup through Class 12).",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:14231064",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Dyatmika is accredited by Cambridge Assessment International Education (CAIE) and serves as a Cambridge International School and Examination Centre."
+      },
+      "statement_en": "Dyatmika is accredited by Cambridge Assessment International Education (CAIE) and serves as a Cambridge International School and Examination Centre.",
+      "confidence": "low",
+      "source_page_id": 14231064,
+      "source_revision_id": "1339615283",
+      "source_locator": "Curriculum and accreditation",
+      "source_quote": "Dyatmika is accredited by Cambridge Assessment International Education (CAIE) and serves as a Cambridge International School and Examination Centre.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:14231064",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "In Early Years and Primary levels, Dyatmika implements a dual-language programme: instruction is delivered in both Bahasa Indonesia and English."
+      },
+      "statement_en": "In Early Years and Primary levels, Dyatmika implements a dual-language programme: instruction is delivered in both Bahasa Indonesia and English.",
+      "confidence": "low",
+      "source_page_id": 14231064,
+      "source_revision_id": "1339615283",
+      "source_locator": "Language and educational approach",
+      "source_quote": "In Early Years and Primary levels, Dyatmika implements a dual-language programme: instruction is delivered in both Bahasa Indonesia and English.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:14305147",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "The Discovery School is a bilingual (English/Spanish) school located in Tegucigalpa, the capital city of Honduras."
+      },
+      "statement_en": "The Discovery School is a bilingual (English/Spanish) school located in Tegucigalpa, the capital city of Honduras.",
+      "confidence": "medium",
+      "source_page_id": 14305147,
+      "source_revision_id": "1349981947",
+      "source_locator": "Introduction",
+      "source_quote": "The Discovery School is a bilingual (English/Spanish) school located in Tegucigalpa, the capital city of Honduras.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:14305147",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Discovery School uses a U.S.-style curriculum and adopted Common Core in math and language arts."
+      },
+      "statement_en": "Discovery School uses a U.S.-style curriculum and adopted Common Core in math and language arts.",
+      "confidence": "low",
+      "source_page_id": 14305147,
+      "source_revision_id": "1349981947",
+      "source_locator": "Academics",
+      "source_quote": "Discovery School uses a U.S.-style curriculum and adopted Common Core in math and language arts.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17298194",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "The Saint Andrew's Scots School , also referred to as Saint Andrew's, is an Argentine bilingual school in Olivos, Vicente López Partido, Buenos Aires Province."
+      },
+      "statement_en": "The Saint Andrew's Scots School , also referred to as Saint Andrew's, is an Argentine bilingual school in Olivos, Vicente López Partido, Buenos Aires Province.",
+      "confidence": "medium",
+      "source_page_id": 17298194,
+      "source_revision_id": "1360405755",
+      "source_locator": "Introduction",
+      "source_quote": "The Saint Andrew's Scots School , also referred to as Saint Andrew's, is an Argentine bilingual school in Olivos, Vicente López Partido, Buenos Aires Province.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:17298194",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "After leaving St. Andrew's, Hutton founded his own institution, the Buenos Aires English High School, where he applied his ideas on the teaching of sports in Argentina."
+      },
+      "statement_en": "After leaving St. Andrew's, Hutton founded his own institution, the Buenos Aires English High School, where he applied his ideas on the teaching of sports in Argentina.",
+      "confidence": "low",
+      "source_page_id": 17298194,
+      "source_revision_id": "1360405755",
+      "source_locator": "History",
+      "source_quote": "After leaving St. Andrew's, Hutton founded his own institution, the Buenos Aires English High School, where he applied his ideas on the teaching of sports in Argentina.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17655556",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Kaiserin-Friedrich-Gymnasium (abbreviation: KFG; Empress Frederick Gymnasium) is a secondary school in Bad Homburg vor der Höhe, Hesse, Germany."
+      },
+      "statement_en": "The Kaiserin-Friedrich-Gymnasium (abbreviation: KFG; Empress Frederick Gymnasium) is a secondary school in Bad Homburg vor der Höhe, Hesse, Germany.",
+      "confidence": "medium",
+      "source_page_id": 17655556,
+      "source_revision_id": "1352443291",
+      "source_locator": "Introduction",
+      "source_quote": "The Kaiserin-Friedrich-Gymnasium (abbreviation: KFG; Empress Frederick Gymnasium) is a secondary school in Bad Homburg vor der Höhe, Hesse, Germany.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17655556",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school has 116 teachers and 1,351 students, making it one of the largest schools in the Hochtaunuskreis."
+      },
+      "statement_en": "The school has 116 teachers and 1,351 students, making it one of the largest schools in the Hochtaunuskreis.",
+      "confidence": "low",
+      "source_page_id": 17655556,
+      "source_revision_id": "1352443291",
+      "source_locator": "Education",
+      "source_quote": "The school has 116 teachers and 1,351 students, making it one of the largest schools in the Hochtaunuskreis.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17660517",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Humboldtschule (abbreviation: HUS) is one of two Gymnasiums, besides the Kaiserin-Friedrich-Gymnasium (KFG), in Bad Homburg vor der Höhe, Hesse, Germany."
+      },
+      "statement_en": "The Humboldtschule (abbreviation: HUS) is one of two Gymnasiums, besides the Kaiserin-Friedrich-Gymnasium (KFG), in Bad Homburg vor der Höhe, Hesse, Germany.",
+      "confidence": "medium",
+      "source_page_id": 17660517,
+      "source_revision_id": "1352443288",
+      "source_locator": "Introduction",
+      "source_quote": "The Humboldtschule (abbreviation: HUS) is one of two Gymnasiums, besides the Kaiserin-Friedrich-Gymnasium (KFG), in Bad Homburg vor der Höhe, Hesse, Germany.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17660517",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The eponyms are Alexander (1769–1859) and Wilhelm von Humboldt (1767–1835)."
+      },
+      "statement_en": "The eponyms are Alexander (1769–1859) and Wilhelm von Humboldt (1767–1835).",
+      "confidence": "low",
+      "source_page_id": 17660517,
+      "source_revision_id": "1352443288",
+      "source_locator": "Introduction",
+      "source_quote": "The eponyms are Alexander (1769–1859) and Wilhelm von Humboldt (1767–1835).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17660517",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "The students can choose French as first foreign language with the choice of bilingual education in geography in classes 7 and 8."
+      },
+      "statement_en": "The students can choose French as first foreign language with the choice of bilingual education in geography in classes 7 and 8.",
+      "confidence": "low",
+      "source_page_id": 17660517,
+      "source_revision_id": "1352443288",
+      "source_locator": "Bilingual education",
+      "source_quote": "The students can choose French as first foreign language with the choice of bilingual education in geography in classes 7 and 8.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:17668601",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Europagymnasium Kerpen (German, European high school Kerpen) is a Gymnasium in Kerpen, North Rhine-Westphalia, Germany."
+      },
+      "statement_en": "The Europagymnasium Kerpen (German, European high school Kerpen) is a Gymnasium in Kerpen, North Rhine-Westphalia, Germany.",
+      "confidence": "medium",
+      "source_page_id": 17668601,
+      "source_revision_id": "1339608539",
+      "source_locator": "Introduction",
+      "source_quote": "The Europagymnasium Kerpen (German, European high school Kerpen) is a Gymnasium in Kerpen, North Rhine-Westphalia, Germany.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17668601",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "In the sixth form the students can take a vocational education as foreign language correspondent."
+      },
+      "statement_en": "In the sixth form the students can take a vocational education as foreign language correspondent.",
+      "confidence": "low",
+      "source_page_id": 17668601,
+      "source_revision_id": "1339608539",
+      "source_locator": "Vocational education foreign language correspondence",
+      "source_quote": "In the sixth form the students can take a vocational education as foreign language correspondent.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17689540",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Rhein-Main International Montessori School (abbreviation: RIMS) was a private school and one of two secondary schools in Friedrichsdorf, Hesse, Germany."
+      },
+      "statement_en": "The Rhein-Main International Montessori School (abbreviation: RIMS) was a private school and one of two secondary schools in Friedrichsdorf, Hesse, Germany.",
+      "confidence": "medium",
+      "source_page_id": 17689540,
+      "source_revision_id": "1339614185",
+      "source_locator": "Introduction",
+      "source_quote": "The Rhein-Main International Montessori School (abbreviation: RIMS) was a private school and one of two secondary schools in Friedrichsdorf, Hesse, Germany.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17689540",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "A secondary school was introduced in the 2008/2009 school year; however, teaching there was not based on the Montessori method."
+      },
+      "statement_en": "A secondary school was introduced in the 2008/2009 school year; however, teaching there was not based on the Montessori method.",
+      "confidence": "low",
+      "source_page_id": 17689540,
+      "source_revision_id": "1339614185",
+      "source_locator": "School",
+      "source_quote": "A secondary school was introduced in the 2008/2009 school year; however, teaching there was not based on the Montessori method.",
+      "unesco_concepts": []
+    }
+  ]
+}

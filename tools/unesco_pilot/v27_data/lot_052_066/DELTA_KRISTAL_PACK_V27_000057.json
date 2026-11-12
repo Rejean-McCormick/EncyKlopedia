@@ -1,0 +1,113 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000057",
+  "pack_sha256": "f17e0e9125aa578c2bec6b999ef77610965c3d60032a7555e20bdcdee6d194d4",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:24983",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "The philosophy of education is the branch of applied philosophy that investigates the nature of education as well as its aims and problems."
+      },
+      "statement_en": "The philosophy of education is the branch of applied philosophy that investigates the nature of education as well as its aims and problems.",
+      "confidence": "medium",
+      "source_page_id": 24983,
+      "source_revision_id": "1374026181",
+      "source_locator": "Introduction",
+      "source_quote": "The philosophy of education is the branch of applied philosophy that investigates the nature of education as well as its aims and problems.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:24983",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Many of its theories focus specifically on education in schools but it also encompasses other forms of education."
+      },
+      "statement_en": "Many of its theories focus specifically on education in schools but it also encompasses other forms of education.",
+      "confidence": "medium",
+      "source_page_id": 24983,
+      "source_revision_id": "1374026181",
+      "source_locator": "Introduction",
+      "source_quote": "Many of its theories focus specifically on education in schools but it also encompasses other forms of education.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:24983",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Its theories are often divided into descriptive theories, which provide a value-neutral description of what education is, and normative theories, which investigate how education should be practiced."
+      },
+      "statement_en": "Its theories are often divided into descriptive theories, which provide a value-neutral description of what education is, and normative theories, which investigate how education should be practiced.",
+      "confidence": "medium",
+      "source_page_id": 24983,
+      "source_revision_id": "1374026181",
+      "source_locator": "Introduction",
+      "source_quote": "Its theories are often divided into descriptive theories, which provide a value-neutral description of what education is, and normative theories, which investigate how education should be practiced.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:24983",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "A great variety of topics are discussed in the philosophy of education."
+      },
+      "statement_en": "A great variety of topics are discussed in the philosophy of education.",
+      "confidence": "low",
+      "source_page_id": 24983,
+      "source_revision_id": "1374026181",
+      "source_locator": "Introduction",
+      "source_quote": "A great variety of topics are discussed in the philosophy of education.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:24983",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Others center around the aims or purpose of education, like passing on knowledge and the development of the abilities of good reasoning, judging, and acting."
+      },
+      "statement_en": "Others center around the aims or purpose of education, like passing on knowledge and the development of the abilities of good reasoning, judging, and acting.",
+      "confidence": "medium",
+      "source_page_id": 24983,
+      "source_revision_id": "1374026181",
+      "source_locator": "Introduction",
+      "source_quote": "Others center around the aims or purpose of education, like passing on knowledge and the development of the abilities of good reasoning, judging, and acting.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:24983",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Unschooling is a range of educational philosophies and practices centered on allowing children to learn through their natural life experiences, including child directed play, game play, household responsibilities, work experience, and social interaction, rather than through a more traditional school curriculum."
+      },
+      "statement_en": "Unschooling is a range of educational philosophies and practices centered on allowing children to learn through their natural life experiences, including child directed play, game play, household responsibilities, work experience, and social interaction, rather than through a more traditional school curriculum.",
+      "confidence": "low",
+      "source_page_id": 24983,
+      "source_revision_id": "1374026181",
+      "source_locator": "Unschooling",
+      "source_quote": "Unschooling is a range of educational philosophies and practices centered on allowing children to learn through their natural life experiences, including child directed play, game play, household responsibilities, work experience, and social interaction, rather than through a more traditional school curriculum.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    }
+  ]
+}

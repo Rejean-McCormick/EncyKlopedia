@@ -1,0 +1,453 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000065",
+  "pack_sha256": "31e67c34d64557f039000552a7173d5798a0200f9d140fb78401f2374c0e45a1",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:618870",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Paulo Reglus Neves Freire (19 September 1921 – 2 May 1997) was a Brazilian educator and Marxist philosopher whose work has affected global thought on education."
+      },
+      "statement_en": "Paulo Reglus Neves Freire (19 September 1921 – 2 May 1997) was a Brazilian educator and Marxist philosopher whose work has affected global thought on education.",
+      "confidence": "medium",
+      "source_page_id": 618870,
+      "source_revision_id": "1375058364",
+      "source_locator": "Introduction",
+      "source_quote": "Paulo Reglus Neves Freire (19 September 1921 – 2 May 1997) was a Brazilian educator and Marxist philosopher whose work has affected global thought on education.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:618870",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "In terms of pedagogy, Freire is best known for his criticism of what he called the \"banking\" concept of education, in which students are viewed as empty accounts to be filled by teachers."
+      },
+      "statement_en": "In terms of pedagogy, Freire is best known for his criticism of what he called the \"banking\" concept of education, in which students are viewed as empty accounts to be filled by teachers.",
+      "confidence": "low",
+      "source_page_id": 618870,
+      "source_revision_id": "1375058364",
+      "source_locator": "Criticism of the \"banking model\" of education",
+      "source_quote": "In terms of pedagogy, Freire is best known for his criticism of what he called the \"banking\" concept of education, in which students are viewed as empty accounts to be filled by teachers.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:618870",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Teachers and students must be made aware of the politics that surround education."
+      },
+      "statement_en": "Teachers and students must be made aware of the politics that surround education.",
+      "confidence": "low",
+      "source_page_id": 618870,
+      "source_revision_id": "1375058364",
+      "source_locator": "Pedagogy",
+      "source_quote": "Teachers and students must be made aware of the politics that surround education.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:618870",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "During his childhood and adolescence, Freire ended up four grades behind, and his social life revolved around playing pick-up football with other poor children, from whom he claims to have learned a great deal."
+      },
+      "statement_en": "During his childhood and adolescence, Freire ended up four grades behind, and his social life revolved around playing pick-up football with other poor children, from whom he claims to have learned a great deal.",
+      "confidence": "low",
+      "source_page_id": 618870,
+      "source_revision_id": "1375058364",
+      "source_locator": "Biography",
+      "source_quote": "During his childhood and adolescence, Freire ended up four grades behind, and his social life revolved around playing pick-up football with other poor children, from whom he claims to have learned a great deal.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:663596",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "The Citizens' Councils (also known as White Citizen's Councils) were an associated network of white supremacist, segregationist organizations in the United States, concentrated in the South and created as part of a white backlash against the US Supreme Court's landmark Brown v. Board of Education ruling."
+      },
+      "statement_en": "The Citizens' Councils (also known as White Citizen's Councils) were an associated network of white supremacist, segregationist organizations in the United States, concentrated in the South and created as part of a white backlash against the US Supreme Court's landmark Brown v. Board of Education ruling.",
+      "confidence": "medium",
+      "source_page_id": 663596,
+      "source_revision_id": "1374493389",
+      "source_locator": "Introduction",
+      "source_quote": "The Citizens' Councils (also known as White Citizen's Councils) were an associated network of white supremacist, segregationist organizations in the United States, concentrated in the South and created as part of a white backlash against the US Supreme Court's landmark Brown v. Board of Education ruling.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:663596",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The first was formed on July 11, 1954 in Indianola, Mississippi."
+      },
+      "statement_en": "The first was formed on July 11, 1954 in Indianola, Mississippi.",
+      "confidence": "low",
+      "source_page_id": 663596,
+      "source_revision_id": "1374493389",
+      "source_locator": "Introduction",
+      "source_quote": "The first was formed on July 11, 1954 in Indianola, Mississippi.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:663596",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The name was changed to the Citizens' Councils of America in 1956, when the organization's influence grew beyond Mississippi."
+      },
+      "statement_en": "The name was changed to the Citizens' Councils of America in 1956, when the organization's influence grew beyond Mississippi.",
+      "confidence": "medium",
+      "source_page_id": 663596,
+      "source_revision_id": "1374493389",
+      "source_locator": "Introduction",
+      "source_quote": "The name was changed to the Citizens' Councils of America in 1956, when the organization's influence grew beyond Mississippi.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:663596",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "By the 1970s, as white Southerners' attitudes towards desegregation began to change following the passage of federal civil rights legislation and the enforcement of integration and voting rights in the 1960s, the activities of the White Citizens' Councils began to wane."
+      },
+      "statement_en": "By the 1970s, as white Southerners' attitudes towards desegregation began to change following the passage of federal civil rights legislation and the enforcement of integration and voting rights in the 1960s, the activities of the White Citizens' Councils began to wane.",
+      "confidence": "low",
+      "source_page_id": 663596,
+      "source_revision_id": "1374493389",
+      "source_locator": "Demise and reconstitution",
+      "source_quote": "By the 1970s, as white Southerners' attitudes towards desegregation began to change following the passage of federal civil rights legislation and the enforcement of integration and voting rights in the 1960s, the activities of the White Citizens' Councils began to wane.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:665948",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Collaborative learning is a situation in which two or more people learn or attempt to learn something together."
+      },
+      "statement_en": "Collaborative learning is a situation in which two or more people learn or attempt to learn something together.",
+      "confidence": "medium",
+      "source_page_id": 665948,
+      "source_revision_id": "1375075589",
+      "source_locator": "Introduction",
+      "source_quote": "Collaborative learning is a situation in which two or more people learn or attempt to learn something together.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:665948",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "More specifically, collaborative learning is based on the model that knowledge can be created within a population where members actively interact by sharing experiences and take on asymmetric roles."
+      },
+      "statement_en": "More specifically, collaborative learning is based on the model that knowledge can be created within a population where members actively interact by sharing experiences and take on asymmetric roles.",
+      "confidence": "medium",
+      "source_page_id": 665948,
+      "source_revision_id": "1375075589",
+      "source_locator": "Introduction",
+      "source_quote": "More specifically, collaborative learning is based on the model that knowledge can be created within a population where members actively interact by sharing experiences and take on asymmetric roles.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:665948",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Put differently, collaborative learning refers to methodologies and environments in which learners engage in a common task where each individual depends on and is accountable to each other."
+      },
+      "statement_en": "Put differently, collaborative learning refers to methodologies and environments in which learners engage in a common task where each individual depends on and is accountable to each other.",
+      "confidence": "medium",
+      "source_page_id": 665948,
+      "source_revision_id": "1375075589",
+      "source_locator": "Introduction",
+      "source_quote": "Put differently, collaborative learning refers to methodologies and environments in which learners engage in a common task where each individual depends on and is accountable to each other.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:665948",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Often, collaborative learning is used as an umbrella term for a variety of approaches in education that involve joint intellectual effort by students or students and teachers by engaging individuals in interdependent learning activities."
+      },
+      "statement_en": "Often, collaborative learning is used as an umbrella term for a variety of approaches in education that involve joint intellectual effort by students or students and teachers by engaging individuals in interdependent learning activities.",
+      "confidence": "low",
+      "source_page_id": 665948,
+      "source_revision_id": "1375075589",
+      "source_locator": "Classroom",
+      "source_quote": "Often, collaborative learning is used as an umbrella term for a variety of approaches in education that involve joint intellectual effort by students or students and teachers by engaging individuals in interdependent learning activities.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:728927",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Friedrich Wilhelm August Fröbel or Froebel (21 April 1782 – 21 June 1852) was a German pedagogue, a student of Johann Heinrich Pestalozzi, who laid the foundation for modern education based on the recognition that children have unique needs and capabilities."
+      },
+      "statement_en": "Friedrich Wilhelm August Fröbel or Froebel (21 April 1782 – 21 June 1852) was a German pedagogue, a student of Johann Heinrich Pestalozzi, who laid the foundation for modern education based on the recognition that children have unique needs and capabilities.",
+      "confidence": "medium",
+      "source_page_id": 728927,
+      "source_revision_id": "1378449230",
+      "source_locator": "Introduction",
+      "source_quote": "Friedrich Wilhelm August Fröbel or Froebel (21 April 1782 – 21 June 1852) was a German pedagogue, a student of Johann Heinrich Pestalozzi, who laid the foundation for modern education based on the recognition that children have unique needs and capabilities.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:728927",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Fröbel's great insight was to recognise the importance of the activity of the child in learning."
+      },
+      "statement_en": "Fröbel's great insight was to recognise the importance of the activity of the child in learning.",
+      "confidence": "low",
+      "source_page_id": 728927,
+      "source_revision_id": "1378449230",
+      "source_locator": "Philosophy",
+      "source_quote": "Fröbel's great insight was to recognise the importance of the activity of the child in learning.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:728927",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Fröbel's building forms and movement games are forerunners of abstract art as well as a source of inspiration to the Bauhaus movement."
+      },
+      "statement_en": "Fröbel's building forms and movement games are forerunners of abstract art as well as a source of inspiration to the Bauhaus movement.",
+      "confidence": "low",
+      "source_page_id": 728927,
+      "source_revision_id": "1378449230",
+      "source_locator": "Cultural influence",
+      "source_quote": "Fröbel's building forms and movement games are forerunners of abstract art as well as a source of inspiration to the Bauhaus movement.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:728927",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Friedrich Fröbel was born at Oberweißbach in the Principality of Schwarzburg-Rudolstadt in Thuringia."
+      },
+      "statement_en": "Friedrich Fröbel was born at Oberweißbach in the Principality of Schwarzburg-Rudolstadt in Thuringia.",
+      "confidence": "low",
+      "source_page_id": 728927,
+      "source_revision_id": "1378449230",
+      "source_locator": "Biography",
+      "source_quote": "Friedrich Fröbel was born at Oberweißbach in the Principality of Schwarzburg-Rudolstadt in Thuringia.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:742316",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Critical pedagogy is a philosophy of education and social movement that developed and applied concepts from critical theory and related traditions to the field of education and the study of culture."
+      },
+      "statement_en": "Critical pedagogy is a philosophy of education and social movement that developed and applied concepts from critical theory and related traditions to the field of education and the study of culture.",
+      "confidence": "medium",
+      "source_page_id": 742316,
+      "source_revision_id": "1375059358",
+      "source_locator": "Introduction",
+      "source_quote": "Critical pedagogy is a philosophy of education and social movement that developed and applied concepts from critical theory and related traditions to the field of education and the study of culture.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:742316",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "The goal of critical pedagogy is emancipation from oppression through an awakening of the critical consciousness, based on the Portuguese term conscientização."
+      },
+      "statement_en": "The goal of critical pedagogy is emancipation from oppression through an awakening of the critical consciousness, based on the Portuguese term conscientização.",
+      "confidence": "medium",
+      "source_page_id": 742316,
+      "source_revision_id": "1375059358",
+      "source_locator": "Introduction",
+      "source_quote": "The goal of critical pedagogy is emancipation from oppression through an awakening of the critical consciousness, based on the Portuguese term conscientização.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:742316",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Critical pedagogy was founded by the Brazilian philosopher and educator Paulo Freire, who promoted it through his 1968 book, Pedagogy of the Oppressed."
+      },
+      "statement_en": "Critical pedagogy was founded by the Brazilian philosopher and educator Paulo Freire, who promoted it through his 1968 book, Pedagogy of the Oppressed.",
+      "confidence": "medium",
+      "source_page_id": 742316,
+      "source_revision_id": "1375059358",
+      "source_locator": "Introduction",
+      "source_quote": "Critical pedagogy was founded by the Brazilian philosopher and educator Paulo Freire, who promoted it through his 1968 book, Pedagogy of the Oppressed.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:742316",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Advocates of critical pedagogy insist that teachers, then, must become learners alongside their students, as well as students of their students."
+      },
+      "statement_en": "Advocates of critical pedagogy insist that teachers, then, must become learners alongside their students, as well as students of their students.",
+      "confidence": "low",
+      "source_page_id": 742316,
+      "source_revision_id": "1375059358",
+      "source_locator": "Critical pedagogy of teaching",
+      "source_quote": "Advocates of critical pedagogy insist that teachers, then, must become learners alongside their students, as well as students of their students.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:861410",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Jonathan Kozol (born September 5, 1936) is an American writer, progressive activist, and educator, best known for his books on public education in the United States."
+      },
+      "statement_en": "Jonathan Kozol (born September 5, 1936) is an American writer, progressive activist, and educator, best known for his books on public education in the United States.",
+      "confidence": "medium",
+      "source_page_id": 861410,
+      "source_revision_id": "1378690371",
+      "source_locator": "Introduction",
+      "source_quote": "Jonathan Kozol (born September 5, 1936) is an American writer, progressive activist, and educator, best known for his books on public education in the United States.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:861410",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Jonathan Kozol was born to Jewish parents Harry Kozol and Ruth (Massell) Kozol in Boston, Massachusetts in 1936."
+      },
+      "statement_en": "Jonathan Kozol was born to Jewish parents Harry Kozol and Ruth (Massell) Kozol in Boston, Massachusetts in 1936.",
+      "confidence": "low",
+      "source_page_id": 861410,
+      "source_revision_id": "1378690371",
+      "source_locator": "Early life, family and education",
+      "source_quote": "Jonathan Kozol was born to Jewish parents Harry Kozol and Ruth (Massell) Kozol in Boston, Massachusetts in 1936.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:861410",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Kozol documents the continuing and often worsening segregation in public schools in the United States, and the increasing influence of neoconservative ideology on the way children, particularly children of color and poor children of urban areas, are educated."
+      },
+      "statement_en": "Kozol documents the continuing and often worsening segregation in public schools in the United States, and the increasing influence of neoconservative ideology on the way children, particularly children of color and poor children of urban areas, are educated.",
+      "confidence": "low",
+      "source_page_id": 861410,
+      "source_revision_id": "1378690371",
+      "source_locator": "Writing career",
+      "source_quote": "Kozol documents the continuing and often worsening segregation in public schools in the United States, and the increasing influence of neoconservative ideology on the way children, particularly children of color and poor children of urban areas, are educated.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:911131",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Desegregation is largely a legal matter, integration largely a social one."
+      },
+      "statement_en": "Desegregation is largely a legal matter, integration largely a social one.",
+      "confidence": "low",
+      "source_page_id": 911131,
+      "source_revision_id": "1375956305",
+      "source_locator": "Introduction",
+      "source_quote": "Desegregation is largely a legal matter, integration largely a social one.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:911131",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Desegregation,\" on the other hand, \"was the legal remedy to segregation.\" In 1997, Henry Organ, who identified himself as \"a participant in the Civil Rights Movement on the (San Francisco) Peninsula in the '60s ... and ... an African American,\" wrote that the \"term 'desegregation' is normally reserved to the legal/legislative domain, and it was the legalization of discrimination in public institutions based on race that many fought against in the 1960s."
+      },
+      "statement_en": "Desegregation,\" on the other hand, \"was the legal remedy to segregation.\" In 1997, Henry Organ, who identified himself as \"a participant in the Civil Rights Movement on the (San Francisco) Peninsula in the '60s ... and ... an African American,\" wrote that the \"term 'desegregation' is normally reserved to the legal/legislative domain, and it was the legalization of discrimination in public institutions based on race that many fought against in the 1960s.",
+      "confidence": "low",
+      "source_page_id": 911131,
+      "source_revision_id": "1375956305",
+      "source_locator": "Distinguishing ''integration'' from ''desegregation''",
+      "source_quote": "Desegregation,\" on the other hand, \"was the legal remedy to segregation.\" In 1997, Henry Organ, who identified himself as \"a participant in the Civil Rights Movement on the (San Francisco) Peninsula in the '60s ... and ... an African American,\" wrote that the \"term 'desegregation' is normally reserved to the legal/legislative domain, and it was the legalization of discrimination in public institutions based on race that many fought against in the 1960s.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:911131",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Although widespread, the distinction between integration and desegregation is not universally accepted."
+      },
+      "statement_en": "Although widespread, the distinction between integration and desegregation is not universally accepted.",
+      "confidence": "low",
+      "source_page_id": 911131,
+      "source_revision_id": "1375956305",
+      "source_locator": "Distinction not universally accepted",
+      "source_quote": "Although widespread, the distinction between integration and desegregation is not universally accepted.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    }
+  ]
+}

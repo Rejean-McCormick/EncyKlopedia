@@ -463,11 +463,15 @@ def seed_branch(src, db, branch):
             'category_tasks': db.execute('SELECT category_tasks FROM branches WHERE branch_id=?', (bid,)).fetchone()[0]}
 
 
-def work_one_batch(src, db, branches, batch_size):
+def work_one_batch(src, db, branches, batch_size, branch_filter=None):
     # One bounded transaction = one durable resume point. Deterministic SQLite rowid keyset.
     db.execute('BEGIN IMMEDIATE')
     try:
-        task = db.execute("SELECT * FROM category_tasks WHERE state='PENDING' ORDER BY task_id LIMIT 1").fetchone()
+        if branch_filter is None:
+            task = db.execute("SELECT * FROM category_tasks WHERE state='PENDING' ORDER BY task_id LIMIT 1").fetchone()
+        else:
+            task = db.execute("SELECT * FROM category_tasks WHERE state='PENDING' AND branch_id=? "
+                              "ORDER BY task_id LIMIT 1", (branch_filter,)).fetchone()
         if task is None:
             db.commit()
             return None
@@ -611,8 +615,8 @@ def snapshot(db, path, out_root, sample_limit):
             parent_id = sorted(local_parents)[0] if local_parents else None
             parents[r['concept_id']] = parent_id
             children[parent_id].append(r['concept_id'])
-        for seq in children.values():
-            seq.sort(key=lambda cid: index[cid]['label_fr'].casefold())
+        for child_ids in children.values():
+            child_ids.sort(key=lambda cid: index[cid]['label_fr'].casefold())
         visited_nav = set()
         def nav_node(cid, stack):
             if cid in stack or cid in visited_nav:
@@ -676,7 +680,7 @@ def snapshot(db, path, out_root, sample_limit):
               'branches': stats, 'editorial_status': 'DISCOVERY_CANDIDATES_NOT_REVIEWED',
               'coverage_claim': 'INDEXED_CATEGORY_EXPLORATION_NOT_EXHAUSTIVE_WIKIPEDIA_CLASSIFICATION',
               'score_interpretation': 'HEURISTIC_RANKING_NOT_PROBABILITY',
-              'category_caps_require_review': True, 'sampling_limit': sample_limit,
+              'category_caps_require_review': any('CAPPED' in b['category_tasks'] for b in stats), 'sampling_limit': sample_limit,
               'raw_wikipedia_texts_imported': 0, 'source_sql_read_only': True,
               'canonical_admissions': 0, 'publication_authorized': False}
     files['RAPPORT_V25.json'] = blob(report)

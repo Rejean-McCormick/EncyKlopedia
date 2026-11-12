@@ -1,0 +1,439 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000064",
+  "pack_sha256": "576d723fd9b7221290441f85bdd184e8b7603079b905b5b56c81fac206fb67e4",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:313297",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "The method was started in the 20th century by Italian physician Maria Montessori, who developed her theories through scientific experimentation with children in many different situations."
+      },
+      "statement_en": "The method was started in the 20th century by Italian physician Maria Montessori, who developed her theories through scientific experimentation with children in many different situations.",
+      "confidence": "medium",
+      "source_page_id": 313297,
+      "source_revision_id": "1378050081",
+      "source_locator": "Introduction",
+      "source_quote": "The method was started in the 20th century by Italian physician Maria Montessori, who developed her theories through scientific experimentation with children in many different situations.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:313297",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "The method has since been used in many parts of the world, in public and private schools."
+      },
+      "statement_en": "The method has since been used in many parts of the world, in public and private schools.",
+      "confidence": "low",
+      "source_page_id": 313297,
+      "source_revision_id": "1378050081",
+      "source_locator": "Introduction",
+      "source_quote": "The method has since been used in many parts of the world, in public and private schools.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:313297",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "A range of practices, schools, and materials exists under the name \"Montessori\", which is not trademarked."
+      },
+      "statement_en": "A range of practices, schools, and materials exists under the name \"Montessori\", which is not trademarked.",
+      "confidence": "medium",
+      "source_page_id": 313297,
+      "source_revision_id": "1378050081",
+      "source_locator": "Introduction",
+      "source_quote": "A range of practices, schools, and materials exists under the name \"Montessori\", which is not trademarked.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:313297",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "A teacher's role within a Montessori classroom is to guide and consult students individually by letting each child create their own learning pathway."
+      },
+      "statement_en": "A teacher's role within a Montessori classroom is to guide and consult students individually by letting each child create their own learning pathway.",
+      "confidence": "low",
+      "source_page_id": 313297,
+      "source_revision_id": "1378050081",
+      "source_locator": "Preschool and kindergarten",
+      "source_quote": "A teacher's role within a Montessori classroom is to guide and consult students individually by letting each child create their own learning pathway.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:334171",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Diane Silvers Ravitch (born July 1, 1938) is an American historian of education, an educational policy analyst, and a research professor at New York University's Steinhardt School of Culture, Education, and Human Development."
+      },
+      "statement_en": "Diane Silvers Ravitch (born July 1, 1938) is an American historian of education, an educational policy analyst, and a research professor at New York University's Steinhardt School of Culture, Education, and Human Development.",
+      "confidence": "medium",
+      "source_page_id": 334171,
+      "source_revision_id": "1378000133",
+      "source_locator": "Introduction",
+      "source_quote": "Diane Silvers Ravitch (born July 1, 1938) is an American historian of education, an educational policy analyst, and a research professor at New York University's Steinhardt School of Culture, Education, and Human Development.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:334171",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Previously, she was a U.S. Assistant Secretary of Education."
+      },
+      "statement_en": "Previously, she was a U.S. Assistant Secretary of Education.",
+      "confidence": "low",
+      "source_page_id": 334171,
+      "source_revision_id": "1378000133",
+      "source_locator": "Introduction",
+      "source_quote": "Previously, she was a U.S. Assistant Secretary of Education.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:334171",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "In 2010, she became \"an activist on behalf of public schools.\" Her blog at DianeRavitch.net has received more than 36 million page views since she began blogging in 2012."
+      },
+      "statement_en": "In 2010, she became \"an activist on behalf of public schools.\" Her blog at DianeRavitch.net has received more than 36 million page views since she began blogging in 2012.",
+      "confidence": "medium",
+      "source_page_id": 334171,
+      "source_revision_id": "1378000133",
+      "source_locator": "Introduction",
+      "source_quote": "In 2010, she became \"an activist on behalf of public schools.\" Her blog at DianeRavitch.net has received more than 36 million page views since she began blogging in 2012.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:334171",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "\"The best predictor of low academic performance is poverty—not bad teachers.\" Ravitch said that the charter school and testing reform movement was started by billionaires and \"right wing think tanks like The Heritage Foundation\" for the purpose of destroying public education and teachers' unions."
+      },
+      "statement_en": "\"The best predictor of low academic performance is poverty—not bad teachers.\" Ravitch said that the charter school and testing reform movement was started by billionaires and \"right wing think tanks like The Heritage Foundation\" for the purpose of destroying public education and teachers' unions.",
+      "confidence": "low",
+      "source_page_id": 334171,
+      "source_revision_id": "1378000133",
+      "source_locator": "School choice and testing",
+      "source_quote": "\"The best predictor of low academic performance is poverty—not bad teachers.\" Ravitch said that the charter school and testing reform movement was started by billionaires and \"right wing think tanks like The Heritage Foundation\" for the purpose of destroying public education and teachers' unions.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:339716",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "A school district commonly is responsible for managing the money received, commonly from the superintending, superior governing body for the region."
+      },
+      "statement_en": "A school district commonly is responsible for managing the money received, commonly from the superintending, superior governing body for the region.",
+      "confidence": "medium",
+      "source_page_id": 339716,
+      "source_revision_id": "1378890347",
+      "source_locator": "Introduction",
+      "source_quote": "A school district commonly is responsible for managing the money received, commonly from the superintending, superior governing body for the region.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:339716",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "School districts are commonly responsible for the hiring of employees and the payment that can be effectively earned and withhold with the exception of the legal rights given by the superior regional body identified by the country or determinate state."
+      },
+      "statement_en": "School districts are commonly responsible for the hiring of employees and the payment that can be effectively earned and withhold with the exception of the legal rights given by the superior regional body identified by the country or determinate state.",
+      "confidence": "medium",
+      "source_page_id": 339716,
+      "source_revision_id": "1378890347",
+      "source_locator": "Introduction",
+      "source_quote": "School districts are commonly responsible for the hiring of employees and the payment that can be effectively earned and withhold with the exception of the legal rights given by the superior regional body identified by the country or determinate state.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:339716",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "There were 130,000 school districts in the country in 1930, with an average student population of 150."
+      },
+      "statement_en": "There were 130,000 school districts in the country in 1930, with an average student population of 150.",
+      "confidence": "low",
+      "source_page_id": 339716,
+      "source_revision_id": "1378890347",
+      "source_locator": "History",
+      "source_quote": "There were 130,000 school districts in the country in 1930, with an average student population of 150.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:399908",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "White flight, also known as white exodus, refers to the sudden or gradual large-scale migration of white people from areas becoming more racially or ethnoculturally diverse to more racially homogenous suburban or exurban regions."
+      },
+      "statement_en": "White flight, also known as white exodus, refers to the sudden or gradual large-scale migration of white people from areas becoming more racially or ethnoculturally diverse to more racially homogenous suburban or exurban regions.",
+      "confidence": "medium",
+      "source_page_id": 399908,
+      "source_revision_id": "1374778685",
+      "source_locator": "Introduction",
+      "source_quote": "White flight, also known as white exodus, refers to the sudden or gradual large-scale migration of white people from areas becoming more racially or ethnoculturally diverse to more racially homogenous suburban or exurban regions.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:399908",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "The term has more recently been applied to other migrations by whites from older, inner suburbs to rural areas, as well as from the American Northeast and Midwest to the milder climate in the South and West."
+      },
+      "statement_en": "The term has more recently been applied to other migrations by whites from older, inner suburbs to rural areas, as well as from the American Northeast and Midwest to the milder climate in the South and West.",
+      "confidence": "medium",
+      "source_page_id": 399908,
+      "source_revision_id": "1374778685",
+      "source_locator": "Introduction",
+      "source_quote": "The term has more recently been applied to other migrations by whites from older, inner suburbs to rural areas, as well as from the American Northeast and Midwest to the milder climate in the South and West.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:399908",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "The term \"white flight\" has also been used for large-scale post-colonial emigration of whites from Africa, or parts of that continent, driven by levels of violent crime and anti-colonial or anti-white state policies."
+      },
+      "statement_en": "The term \"white flight\" has also been used for large-scale post-colonial emigration of whites from Africa, or parts of that continent, driven by levels of violent crime and anti-colonial or anti-white state policies.",
+      "confidence": "medium",
+      "source_page_id": 399908,
+      "source_revision_id": "1374778685",
+      "source_locator": "Introduction",
+      "source_quote": "The term \"white flight\" has also been used for large-scale post-colonial emigration of whites from Africa, or parts of that continent, driven by levels of violent crime and anti-colonial or anti-white state policies.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:399908",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Starting in the 1950s and 1960s, the terms became popular, especially in the United States."
+      },
+      "statement_en": "Starting in the 1950s and 1960s, the terms became popular, especially in the United States.",
+      "confidence": "low",
+      "source_page_id": 399908,
+      "source_revision_id": "1374778685",
+      "source_locator": "Introduction",
+      "source_quote": "Starting in the 1950s and 1960s, the terms became popular, especially in the United States.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:399908",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "In Swann v. Charlotte-Mecklenburg Board of Education (1971), the Supreme Court ordered the desegregation busing of poor black students to suburban white schools, and suburban white students to the city to try to integrate student populations."
+      },
+      "statement_en": "In Swann v. Charlotte-Mecklenburg Board of Education (1971), the Supreme Court ordered the desegregation busing of poor black students to suburban white schools, and suburban white students to the city to try to integrate student populations.",
+      "confidence": "low",
+      "source_page_id": 399908,
+      "source_revision_id": "1374778685",
+      "source_locator": "Desegregation of schools",
+      "source_quote": "In Swann v. Charlotte-Mecklenburg Board of Education (1971), the Supreme Court ordered the desegregation busing of poor black students to suburban white schools, and suburban white students to the city to try to integrate student populations.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:445239",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "A study by Jerome I. Rotgans and Henk G. Schmidt showed a correlation between three teachers' characteristics and students' situational interest in an active learning classroom."
+      },
+      "statement_en": "A study by Jerome I. Rotgans and Henk G. Schmidt showed a correlation between three teachers' characteristics and students' situational interest in an active learning classroom.",
+      "confidence": "low",
+      "source_page_id": 445239,
+      "source_revision_id": "1375058228",
+      "source_locator": "Teacher's characteristics in active learning",
+      "source_quote": "A study by Jerome I. Rotgans and Henk G. Schmidt showed a correlation between three teachers' characteristics and students' situational interest in an active learning classroom.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:445239",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Total participation offers two major techniques for teachers to apply in their classrooms."
+      },
+      "statement_en": "Total participation offers two major techniques for teachers to apply in their classrooms.",
+      "confidence": "low",
+      "source_page_id": 445239,
+      "source_revision_id": "1375058228",
+      "source_locator": "Ensuring that all students are actively learning",
+      "source_quote": "Total participation offers two major techniques for teachers to apply in their classrooms.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:445239",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Active learning can be used effectively for teaching comprehension and memory."
+      },
+      "statement_en": "Active learning can be used effectively for teaching comprehension and memory.",
+      "confidence": "low",
+      "source_page_id": 445239,
+      "source_revision_id": "1375058228",
+      "source_locator": "Science of active learning",
+      "source_quote": "Active learning can be used effectively for teaching comprehension and memory.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:445239",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Active learning is the opposite of passive learning; it is learner-centered, not teacher-centered, and requires more than just listening; the active participation of each and every student is a necessary aspect in active learning."
+      },
+      "statement_en": "Active learning is the opposite of passive learning; it is learner-centered, not teacher-centered, and requires more than just listening; the active participation of each and every student is a necessary aspect in active learning.",
+      "confidence": "low",
+      "source_page_id": 445239,
+      "source_revision_id": "1375058228",
+      "source_locator": "Nature of active learning",
+      "source_quote": "Active learning is the opposite of passive learning; it is learner-centered, not teacher-centered, and requires more than just listening; the active participation of each and every student is a necessary aspect in active learning.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:445239",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Learning through discovery, influenced by Jerome Bruner, where students learn through discovery of ideas with the help of situations provided by the teacher."
+      },
+      "statement_en": "Learning through discovery, influenced by Jerome Bruner, where students learn through discovery of ideas with the help of situations provided by the teacher.",
+      "confidence": "low",
+      "source_page_id": 445239,
+      "source_revision_id": "1375058228",
+      "source_locator": "Constructivist framework",
+      "source_quote": "Learning through discovery, influenced by Jerome Bruner, where students learn through discovery of ideas with the help of situations provided by the teacher.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:554691",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Alexander Sutherland Neill (17 October 1883 – 23 September 1973) was a Scottish educator and author known for his school, Summerhill, and its philosophy of freedom from adult coercion and community self-governance."
+      },
+      "statement_en": "Alexander Sutherland Neill (17 October 1883 – 23 September 1973) was a Scottish educator and author known for his school, Summerhill, and its philosophy of freedom from adult coercion and community self-governance.",
+      "confidence": "medium",
+      "source_page_id": 554691,
+      "source_revision_id": "1366575663",
+      "source_locator": "Introduction",
+      "source_quote": "Alexander Sutherland Neill (17 October 1883 – 23 September 1973) was a Scottish educator and author known for his school, Summerhill, and its philosophy of freedom from adult coercion and community self-governance.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:554691",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Raised in Scotland, Neill taught at several schools before attending the University of Edinburgh in 1908–1912."
+      },
+      "statement_en": "Raised in Scotland, Neill taught at several schools before attending the University of Edinburgh in 1908–1912.",
+      "confidence": "medium",
+      "source_page_id": 554691,
+      "source_revision_id": "1366575663",
+      "source_locator": "Introduction",
+      "source_quote": "Raised in Scotland, Neill taught at several schools before attending the University of Edinburgh in 1908–1912.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:554691",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "The school picked up some notoriety and the average enrolment was 40 pupils."
+      },
+      "statement_en": "The school picked up some notoriety and the average enrolment was 40 pupils.",
+      "confidence": "low",
+      "source_page_id": 554691,
+      "source_revision_id": "1366575663",
+      "source_locator": "Summerhill School",
+      "source_quote": "The school picked up some notoriety and the average enrolment was 40 pupils.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:554691",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Neill felt that children (and human nature) were innately good, and that children naturally became just and virtuous when allowed to grow without adult imposition of morality."
+      },
+      "statement_en": "Neill felt that children (and human nature) were innately good, and that children naturally became just and virtuous when allowed to grow without adult imposition of morality.",
+      "confidence": "low",
+      "source_page_id": 554691,
+      "source_revision_id": "1366575663",
+      "source_locator": "Philosophy",
+      "source_quote": "Neill felt that children (and human nature) were innately good, and that children naturally became just and virtuous when allowed to grow without adult imposition of morality.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    }
+  ]
+}

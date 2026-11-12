@@ -1,0 +1,409 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000063",
+  "pack_sha256": "7bfdc1a32a978bd34b75a4de61bc125d661832947b31146fbb138cf4943e473a",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:167146",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "Swann v. Charlotte-Mecklenburg Board of Education, 402 U.S. 1 (1971), was a landmark United States Supreme Court case dealing with the busing of students to promote integration in public schools."
+      },
+      "statement_en": "Swann v. Charlotte-Mecklenburg Board of Education, 402 U.S. 1 (1971), was a landmark United States Supreme Court case dealing with the busing of students to promote integration in public schools.",
+      "confidence": "medium",
+      "source_page_id": 167146,
+      "source_revision_id": "1361610459",
+      "source_locator": "Introduction",
+      "source_quote": "Swann v. Charlotte-Mecklenburg Board of Education, 402 U.S. 1 (1971), was a landmark United States Supreme Court case dealing with the busing of students to promote integration in public schools.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:167146",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "The Court held that busing was an appropriate remedy for the problem of racial imbalance in schools."
+      },
+      "statement_en": "The Court held that busing was an appropriate remedy for the problem of racial imbalance in schools.",
+      "confidence": "medium",
+      "source_page_id": 167146,
+      "source_revision_id": "1361610459",
+      "source_locator": "Introduction",
+      "source_quote": "The Court held that busing was an appropriate remedy for the problem of racial imbalance in schools.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:167146",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "When the courts mandated that busing should occur to desegregate the schools, they also noted that one day when the school system was thought to be unitary, busing would end and the school board would be able to come up with a new plan which would best suit the education of students in Charlotte-Mecklenburg."
+      },
+      "statement_en": "When the courts mandated that busing should occur to desegregate the schools, they also noted that one day when the school system was thought to be unitary, busing would end and the school board would be able to come up with a new plan which would best suit the education of students in Charlotte-Mecklenburg.",
+      "confidence": "low",
+      "source_page_id": 167146,
+      "source_revision_id": "1361610459",
+      "source_locator": "Timeline of the case being overturned",
+      "source_quote": "When the courts mandated that busing should occur to desegregate the schools, they also noted that one day when the school system was thought to be unitary, busing would end and the school board would be able to come up with a new plan which would best suit the education of students in Charlotte-Mecklenburg.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:188746",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "The Civil Rights Act of 1964 is a landmark civil rights and labor law in the United States that outlaws discrimination based on race, color, religion, sex, and national origin."
+      },
+      "statement_en": "The Civil Rights Act of 1964 is a landmark civil rights and labor law in the United States that outlaws discrimination based on race, color, religion, sex, and national origin.",
+      "confidence": "medium",
+      "source_page_id": 188746,
+      "source_revision_id": "1377510833",
+      "source_locator": "Introduction",
+      "source_quote": "The Civil Rights Act of 1964 is a landmark civil rights and labor law in the United States that outlaws discrimination based on race, color, religion, sex, and national origin.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:188746",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "The act is considered one of the most significant legislative achievements in American history."
+      },
+      "statement_en": "The act is considered one of the most significant legislative achievements in American history.",
+      "confidence": "low",
+      "source_page_id": 188746,
+      "source_revision_id": "1377510833",
+      "source_locator": "Introduction",
+      "source_quote": "The act is considered one of the most significant legislative achievements in American history.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:188746",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Initially, powers given to enforce the act were weak, but these were supplemented during later years."
+      },
+      "statement_en": "Initially, powers given to enforce the act were weak, but these were supplemented during later years.",
+      "confidence": "medium",
+      "source_page_id": 188746,
+      "source_revision_id": "1377510833",
+      "source_locator": "Introduction",
+      "source_quote": "Initially, powers given to enforce the act were weak, but these were supplemented during later years.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:188746",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "The legislation was proposed by President John F. Kennedy in June 1963, but it was opposed by filibuster in the Senate."
+      },
+      "statement_en": "The legislation was proposed by President John F. Kennedy in June 1963, but it was opposed by filibuster in the Senate.",
+      "confidence": "medium",
+      "source_page_id": 188746,
+      "source_revision_id": "1377510833",
+      "source_locator": "Introduction",
+      "source_quote": "The legislation was proposed by President John F. Kennedy in June 1963, but it was opposed by filibuster in the Senate.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:188746",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "After Kennedy was assassinated on November 22, 1963, President Lyndon B. Johnson pushed the bill forward."
+      },
+      "statement_en": "After Kennedy was assassinated on November 22, 1963, President Lyndon B. Johnson pushed the bill forward.",
+      "confidence": "medium",
+      "source_page_id": 188746,
+      "source_revision_id": "1377510833",
+      "source_locator": "Introduction",
+      "source_quote": "After Kennedy was assassinated on November 22, 1963, President Lyndon B. Johnson pushed the bill forward.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:188746",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Title IV enforced the desegregation of public schools and authorized the U.S. Attorney General to file suits to enforce said act."
+      },
+      "statement_en": "Title IV enforced the desegregation of public schools and authorized the U.S. Attorney General to file suits to enforce said act.",
+      "confidence": "low",
+      "source_page_id": 188746,
+      "source_revision_id": "1377510833",
+      "source_locator": "Title IV{{snd}}desegregation of public education",
+      "source_quote": "Title IV enforced the desegregation of public schools and authorized the U.S. Attorney General to file suits to enforce said act.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:210031",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "Separate but equal was a legal doctrine in United States constitutional law, according to which racial segregation did not necessarily violate the Fourteenth Amendment to the United States Constitution, which nominally guaranteed \"equal protection\" under the law to all people."
+      },
+      "statement_en": "Separate but equal was a legal doctrine in United States constitutional law, according to which racial segregation did not necessarily violate the Fourteenth Amendment to the United States Constitution, which nominally guaranteed \"equal protection\" under the law to all people.",
+      "confidence": "medium",
+      "source_page_id": 210031,
+      "source_revision_id": "1375447258",
+      "source_locator": "Introduction",
+      "source_quote": "Separate but equal was a legal doctrine in United States constitutional law, according to which racial segregation did not necessarily violate the Fourteenth Amendment to the United States Constitution, which nominally guaranteed \"equal protection\" under the law to all people.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:210031",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "The phrase was derived from a Louisiana law of 1890, although the law actually used the phrase \"equal but separate.\" The doctrine was confirmed in the U.S. Supreme Court decision Plessy v. Ferguson (1896), which allowed state-sponsored segregation."
+      },
+      "statement_en": "The phrase was derived from a Louisiana law of 1890, although the law actually used the phrase \"equal but separate.\" The doctrine was confirmed in the U.S. Supreme Court decision Plessy v. Ferguson (1896), which allowed state-sponsored segregation.",
+      "confidence": "medium",
+      "source_page_id": 210031,
+      "source_revision_id": "1375447258",
+      "source_locator": "Introduction",
+      "source_quote": "The phrase was derived from a Louisiana law of 1890, although the law actually used the phrase \"equal but separate.\" The doctrine was confirmed in the U.S. Supreme Court decision Plessy v. Ferguson (1896), which allowed state-sponsored segregation.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:210031",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Although segregation laws existed before that case, the decision emboldened segregation states during the Jim Crow era, which had commenced in 1876, and supplanted the Black Codes, which restricted the civil rights and civil liberties of African Americans during the Reconstruction era."
+      },
+      "statement_en": "Although segregation laws existed before that case, the decision emboldened segregation states during the Jim Crow era, which had commenced in 1876, and supplanted the Black Codes, which restricted the civil rights and civil liberties of African Americans during the Reconstruction era.",
+      "confidence": "medium",
+      "source_page_id": 210031,
+      "source_revision_id": "1375447258",
+      "source_locator": "Introduction",
+      "source_quote": "Although segregation laws existed before that case, the decision emboldened segregation states during the Jim Crow era, which had commenced in 1876, and supplanted the Black Codes, which restricted the civil rights and civil liberties of African Americans during the Reconstruction era.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:210031",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "In 1953, Earl Warren became the 14th Chief Justice of the United States, and the Warren Court started a liberal constitutional revolution which outlawed racial segregation and \"separate but equal\" throughout the United States in a series of landmark rulings."
+      },
+      "statement_en": "In 1953, Earl Warren became the 14th Chief Justice of the United States, and the Warren Court started a liberal constitutional revolution which outlawed racial segregation and \"separate but equal\" throughout the United States in a series of landmark rulings.",
+      "confidence": "low",
+      "source_page_id": 210031,
+      "source_revision_id": "1375447258",
+      "source_locator": "The Warren Court",
+      "source_quote": "In 1953, Earl Warren became the 14th Chief Justice of the United States, and the Warren Court started a liberal constitutional revolution which outlawed racial segregation and \"separate but equal\" throughout the United States in a series of landmark rulings.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:236515",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Ivan Dominic Illich (4 September 1926 – 2 December 2002) was an Austrian Catholic priest, theologian, philosopher, and social critic."
+      },
+      "statement_en": "Ivan Dominic Illich (4 September 1926 – 2 December 2002) was an Austrian Catholic priest, theologian, philosopher, and social critic.",
+      "confidence": "medium",
+      "source_page_id": 236515,
+      "source_revision_id": "1375979277",
+      "source_locator": "Introduction",
+      "source_quote": "Ivan Dominic Illich (4 September 1926 – 2 December 2002) was an Austrian Catholic priest, theologian, philosopher, and social critic.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:236515",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Particularly striking in 1971 was his call for advanced technology to support \"learning webs\": According to a review in the Libertarian Forum, \"Illich's advocacy of the free market in education is the bone in the throat that is choking the public educators.\" Yet, unlike libertarians, Illich opposes not merely publicly funded schooling, but schools as such."
+      },
+      "statement_en": "Particularly striking in 1971 was his call for advanced technology to support \"learning webs\": According to a review in the Libertarian Forum, \"Illich's advocacy of the free market in education is the bone in the throat that is choking the public educators.\" Yet, unlike libertarians, Illich opposes not merely publicly funded schooling, but schools as such.",
+      "confidence": "low",
+      "source_page_id": 236515,
+      "source_revision_id": "1375979277",
+      "source_locator": "''Deschooling Society''",
+      "source_quote": "Particularly striking in 1971 was his call for advanced technology to support \"learning webs\": According to a review in the Libertarian Forum, \"Illich's advocacy of the free market in education is the bone in the throat that is choking the public educators.\" Yet, unlike libertarians, Illich opposes not merely publicly funded schooling, but schools as such.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:236515",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "In 1942, after his grandfather's death, when Ivan was 16 years old, his mother fled with him and his brothers from Vienna, Austria for Florence, Italy, to escape the Nazi persecution of Jews."
+      },
+      "statement_en": "In 1942, after his grandfather's death, when Ivan was 16 years old, his mother fled with him and his brothers from Vienna, Austria for Florence, Italy, to escape the Nazi persecution of Jews.",
+      "confidence": "low",
+      "source_page_id": 236515,
+      "source_revision_id": "1375979277",
+      "source_locator": "Education in Italy",
+      "source_quote": "In 1942, after his grandfather's death, when Ivan was 16 years old, his mother fled with him and his brothers from Vienna, Austria for Florence, Italy, to escape the Nazi persecution of Jews.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:236515",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Tools for Conviviality was published in 1973, two years after Deschooling Society."
+      },
+      "statement_en": "Tools for Conviviality was published in 1973, two years after Deschooling Society.",
+      "confidence": "low",
+      "source_page_id": 236515,
+      "source_revision_id": "1375979277",
+      "source_locator": "''Tools for Conviviality''",
+      "source_quote": "Tools for Conviviality was published in 1973, two years after Deschooling Society.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:249234",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "A Bachelor of Education (B.Ed. or BEd) is an undergraduate academic degree which prepares students for work as a teacher in schools."
+      },
+      "statement_en": "A Bachelor of Education (B.Ed. or BEd) is an undergraduate academic degree which prepares students for work as a teacher in schools.",
+      "confidence": "medium",
+      "source_page_id": 249234,
+      "source_revision_id": "1375551510",
+      "source_locator": "Introduction",
+      "source_quote": "A Bachelor of Education (B.Ed. or BEd) is an undergraduate academic degree which prepares students for work as a teacher in schools.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:249234",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "The curriculum is designed to provide foundational knowledge in pedagogy, educational psychology, teaching methodologies, and subject-specific training."
+      },
+      "statement_en": "The curriculum is designed to provide foundational knowledge in pedagogy, educational psychology, teaching methodologies, and subject-specific training.",
+      "confidence": "medium",
+      "source_page_id": 249234,
+      "source_revision_id": "1375551510",
+      "source_locator": "Introduction",
+      "source_quote": "The curriculum is designed to provide foundational knowledge in pedagogy, educational psychology, teaching methodologies, and subject-specific training.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:249234",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Graduates of this program are equipped with the skills necessary to foster a supportive and effective learning environment for their students."
+      },
+      "statement_en": "Graduates of this program are equipped with the skills necessary to foster a supportive and effective learning environment for their students.",
+      "confidence": "medium",
+      "source_page_id": 249234,
+      "source_revision_id": "1375551510",
+      "source_locator": "Introduction",
+      "source_quote": "Graduates of this program are equipped with the skills necessary to foster a supportive and effective learning environment for their students.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:249234",
+      "predicate": "educational_approach_context",
+      "object": {
+        "type": "text",
+        "value": "While the word \"licenciatura\" is often used in Spanish-speaking countries to refer to all bachelor's degrees, in Colombia it refers exclusively to bachelor's degrees focused on education whose purpose is to educate the student to become a teacher."
+      },
+      "statement_en": "While the word \"licenciatura\" is often used in Spanish-speaking countries to refer to all bachelor's degrees, in Colombia it refers exclusively to bachelor's degrees focused on education whose purpose is to educate the student to become a teacher.",
+      "confidence": "low",
+      "source_page_id": 249234,
+      "source_revision_id": "1375551510",
+      "source_locator": "Colombia",
+      "source_quote": "While the word \"licenciatura\" is often used in Spanish-speaking countries to refer to all bachelor's degrees, in Colombia it refers exclusively to bachelor's degrees focused on education whose purpose is to educate the student to become a teacher.",
+      "unesco_concepts": [
+        "concept17163"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:254320",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Summerhill School is an independent (i.e. fee-charging) day and boarding school in Leiston, Suffolk, England."
+      },
+      "statement_en": "Summerhill School is an independent (i.e. fee-charging) day and boarding school in Leiston, Suffolk, England.",
+      "confidence": "medium",
+      "source_page_id": 254320,
+      "source_revision_id": "1376731409",
+      "source_locator": "Introduction",
+      "source_quote": "Summerhill School is an independent (i.e. fee-charging) day and boarding school in Leiston, Suffolk, England.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:254320",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Members of the community are free to do as they please, so long as their actions do not cause any harm to others, according to Neill's principle \"Freedom, not Licence.\" This extends to the freedom for pupils to choose which lessons, if any, they attend."
+      },
+      "statement_en": "Members of the community are free to do as they please, so long as their actions do not cause any harm to others, according to Neill's principle \"Freedom, not Licence.\" This extends to the freedom for pupils to choose which lessons, if any, they attend.",
+      "confidence": "medium",
+      "source_page_id": 254320,
+      "source_revision_id": "1376731409",
+      "source_locator": "Introduction",
+      "source_quote": "Members of the community are free to do as they please, so long as their actions do not cause any harm to others, according to Neill's principle \"Freedom, not Licence.\" This extends to the freedom for pupils to choose which lessons, if any, they attend.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:254320",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Summerhill is noted for its philosophy that children learn best with freedom from coercion, a philosophy that was promoted by the New Ideals in Education Conferences (1914–37) that helped to define the good modern primary school as child-centred."
+      },
+      "statement_en": "Summerhill is noted for its philosophy that children learn best with freedom from coercion, a philosophy that was promoted by the New Ideals in Education Conferences (1914–37) that helped to define the good modern primary school as child-centred.",
+      "confidence": "low",
+      "source_page_id": 254320,
+      "source_revision_id": "1376731409",
+      "source_locator": "Philosophy and educational structure",
+      "source_quote": "Summerhill is noted for its philosophy that children learn best with freedom from coercion, a philosophy that was promoted by the New Ideals in Education Conferences (1914–37) that helped to define the good modern primary school as child-centred.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000067",
+  "pack_sha256": "f70f8731b0d7ba79074d3ff70f1e72746c2ed0ef58a1fd606bf0c19237d77f43",
+  "producer": "GPT-6 / ChatGPT (selection semi-automatisee et revue editorialement ciblee; non verifie independamment)",
+  "coverage_note": "Selection selective de passages du wikitext complet. Certaines connaissances sont des descriptions de pages; omissions possibles. Sources Wikipedia non verifiees independamment. Rattachements UNESCO seulement si directement appuyes.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:1636960",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Project-based learning is a teaching method that uses a dynamic classroom approach in which students acquire deeper knowledge through active exploration of real-world challenges and problems."
+      },
+      "statement_en": "Project-based learning is a teaching method that uses a dynamic classroom approach in which students acquire deeper knowledge through active exploration of real-world challenges and problems.",
+      "confidence": "medium",
+      "source_page_id": 1636960,
+      "source_revision_id": "1376354702",
+      "source_locator": "Introduction",
+      "source_quote": "Project-based learning is a teaching method that uses a dynamic classroom approach in which students acquire deeper knowledge through active exploration of real-world challenges and problems.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1636960",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Project-based learning contrasts with paper-based, rote memorization, or teacher-led instruction that presents established facts or portrays a smooth path to knowledge by instead posing questions, problems, or scenarios."
+      },
+      "statement_en": "Project-based learning contrasts with paper-based, rote memorization, or teacher-led instruction that presents established facts or portrays a smooth path to knowledge by instead posing questions, problems, or scenarios.",
+      "confidence": "low",
+      "source_page_id": 1636960,
+      "source_revision_id": "1376354702",
+      "source_locator": "Introduction",
+      "source_quote": "Project-based learning contrasts with paper-based, rote memorization, or teacher-led instruction that presents established facts or portrays a smooth path to knowledge by instead posing questions, problems, or scenarios.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1636960",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Blumenfeld & Krajcik (2006) cited studies that show students in project-based learning classrooms obtain higher test scores than students in traditional classroom."
+      },
+      "statement_en": "Blumenfeld & Krajcik (2006) cited studies that show students in project-based learning classrooms obtain higher test scores than students in traditional classroom.",
+      "confidence": "low",
+      "source_page_id": 1636960,
+      "source_revision_id": "1376354702",
+      "source_locator": "Outcomes",
+      "source_quote": "Blumenfeld & Krajcik (2006) cited studies that show students in project-based learning classrooms obtain higher test scores than students in traditional classroom.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1636960",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "Teachers who implement Project-Based Learning assert that this approach emphasizes teachers helping their students track and develop their own processes of thinking, making them more aware of problem-solving strategies they can use in the future."
+      },
+      "statement_en": "Teachers who implement Project-Based Learning assert that this approach emphasizes teachers helping their students track and develop their own processes of thinking, making them more aware of problem-solving strategies they can use in the future.",
+      "confidence": "low",
+      "source_page_id": 1636960,
+      "source_revision_id": "1376354702",
+      "source_locator": "Outcomes",
+      "source_quote": "Teachers who implement Project-Based Learning assert that this approach emphasizes teachers helping their students track and develop their own processes of thinking, making them more aware of problem-solving strategies they can use in the future.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1735417",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The Washington Assessment of Student Learning (WASL) was a standardized educational assessment system given as the primary assessment in the state of Washington from spring 1997 to summer 2009."
+      },
+      "statement_en": "The Washington Assessment of Student Learning (WASL) was a standardized educational assessment system given as the primary assessment in the state of Washington from spring 1997 to summer 2009.",
+      "confidence": "medium",
+      "source_page_id": 1735417,
+      "source_revision_id": "1372327841",
+      "source_locator": "Introduction",
+      "source_quote": "The Washington Assessment of Student Learning (WASL) was a standardized educational assessment system given as the primary assessment in the state of Washington from spring 1997 to summer 2009.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1735417",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The WASL was also used as a high school graduation examination beginning in the spring of 2006 and ending in 2009."
+      },
+      "statement_en": "The WASL was also used as a high school graduation examination beginning in the spring of 2006 and ending in 2009.",
+      "confidence": "medium",
+      "source_page_id": 1735417,
+      "source_revision_id": "1372327841",
+      "source_locator": "Introduction",
+      "source_quote": "The WASL was also used as a high school graduation examination beginning in the spring of 2006 and ending in 2009.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:1735417",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "In order to address concerns that only math, science, reading and writing will be assessed, classroom based assessments in many fields have been created and piloted by actual students through an OSPI project focused on student voice and authentic assessment."
+      },
+      "statement_en": "In order to address concerns that only math, science, reading and writing will be assessed, classroom based assessments in many fields have been created and piloted by actual students through an OSPI project focused on student voice and authentic assessment.",
+      "confidence": "low",
+      "source_page_id": 1735417,
+      "source_revision_id": "1372327841",
+      "source_locator": "Washington Classroom-Based Performance Assessment (WCBPA)",
+      "source_quote": "In order to address concerns that only math, science, reading and writing will be assessed, classroom based assessments in many fields have been created and piloted by actual students through an OSPI project focused on student voice and authentic assessment.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2515017",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Outdoor education is organized learning that takes place in the outdoors, such as during school camping trips."
+      },
+      "statement_en": "Outdoor education is organized learning that takes place in the outdoors, such as during school camping trips.",
+      "confidence": "medium",
+      "source_page_id": 2515017,
+      "source_revision_id": "1378189211",
+      "source_locator": "Introduction",
+      "source_quote": "Outdoor education is organized learning that takes place in the outdoors, such as during school camping trips.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2515017",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Outdoor education programs sometimes involve residential or journey wilderness-based experiences which engage participants in a variety of adventurous challenges and outdoor activities such as hiking, climbing, canoeing, ropes courses and group games."
+      },
+      "statement_en": "Outdoor education programs sometimes involve residential or journey wilderness-based experiences which engage participants in a variety of adventurous challenges and outdoor activities such as hiking, climbing, canoeing, ropes courses and group games.",
+      "confidence": "low",
+      "source_page_id": 2515017,
+      "source_revision_id": "1378189211",
+      "source_locator": "Introduction",
+      "source_quote": "Outdoor education programs sometimes involve residential or journey wilderness-based experiences which engage participants in a variety of adventurous challenges and outdoor activities such as hiking, climbing, canoeing, ropes courses and group games.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2515017",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The Australian Curriculum Assessment and Reporting Authority with support from Outdoor Education Australia has developed curriculum documents to support schools to conduct outdoor education throughout the country primarily through the learning areas of Science, Health and Physical Education and Humanities."
+      },
+      "statement_en": "The Australian Curriculum Assessment and Reporting Authority with support from Outdoor Education Australia has developed curriculum documents to support schools to conduct outdoor education throughout the country primarily through the learning areas of Science, Health and Physical Education and Humanities.",
+      "confidence": "low",
+      "source_page_id": 2515017,
+      "source_revision_id": "1378189211",
+      "source_locator": "Australia and New Zealand",
+      "source_quote": "The Australian Curriculum Assessment and Reporting Authority with support from Outdoor Education Australia has developed curriculum documents to support schools to conduct outdoor education throughout the country primarily through the learning areas of Science, Health and Physical Education and Humanities.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2515017",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "At Finnish schools, the term “outdoor education” represents teaching and learning that takes place outside the classroom with the aim to achieve goals in the National core curriculum for basic education as and in the National core curriculum for upper secondary schools."
+      },
+      "statement_en": "At Finnish schools, the term “outdoor education” represents teaching and learning that takes place outside the classroom with the aim to achieve goals in the National core curriculum for basic education as and in the National core curriculum for upper secondary schools.",
+      "confidence": "low",
+      "source_page_id": 2515017,
+      "source_revision_id": "1378189211",
+      "source_locator": "Finland",
+      "source_quote": "At Finnish schools, the term “outdoor education” represents teaching and learning that takes place outside the classroom with the aim to achieve goals in the National core curriculum for basic education as and in the National core curriculum for upper secondary schools.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2515017",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The EOC deems outdoor education as \"providing depth to the curriculum and makes an important contribution to students' physical, personal and social education.\"."
+      },
+      "statement_en": "The EOC deems outdoor education as \"providing depth to the curriculum and makes an important contribution to students' physical, personal and social education.\".",
+      "confidence": "low",
+      "source_page_id": 2515017,
+      "source_revision_id": "1378189211",
+      "source_locator": "UK",
+      "source_quote": "The EOC deems outdoor education as \"providing depth to the curriculum and makes an important contribution to students' physical, personal and social education.\".",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3044408",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Global citizenship is a form of transnationality, specifically the idea that one's identity transcends geography or political borders and that responsibilities or rights are derived from membership in a broader global class of \"humanity\"."
+      },
+      "statement_en": "Global citizenship is a form of transnationality, specifically the idea that one's identity transcends geography or political borders and that responsibilities or rights are derived from membership in a broader global class of \"humanity\".",
+      "confidence": "medium",
+      "source_page_id": 3044408,
+      "source_revision_id": "1372565431",
+      "source_locator": "Introduction",
+      "source_quote": "Global citizenship is a form of transnationality, specifically the idea that one's identity transcends geography or political borders and that responsibilities or rights are derived from membership in a broader global class of \"humanity\".",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:3044408",
+      "predicate": "international_education_context",
+      "object": {
+        "type": "text",
+        "value": "Within the educational system, the concept of global citizenship education (GCED) is beginning to supersede or overarch movements such as multicultural education, peace education, human rights education, Education for Sustainable Development, and international education."
+      },
+      "statement_en": "Within the educational system, the concept of global citizenship education (GCED) is beginning to supersede or overarch movements such as multicultural education, peace education, human rights education, Education for Sustainable Development, and international education.",
+      "confidence": "low",
+      "source_page_id": 3044408,
+      "source_revision_id": "1372565431",
+      "source_locator": "Global citizenship education",
+      "source_quote": "Within the educational system, the concept of global citizenship education (GCED) is beginning to supersede or overarch movements such as multicultural education, peace education, human rights education, Education for Sustainable Development, and international education.",
+      "unesco_concepts": [
+        "concept7859"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3044408",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The term \"global society\" is sometimes used to indicate a global studies set of learning objectives for students to prepare them for global citizenship (see, for example, the Global Studies Center at the University of Pittsburgh)."
+      },
+      "statement_en": "The term \"global society\" is sometimes used to indicate a global studies set of learning objectives for students to prepare them for global citizenship (see, for example, the Global Studies Center at the University of Pittsburgh).",
+      "confidence": "low",
+      "source_page_id": 3044408,
+      "source_revision_id": "1372565431",
+      "source_locator": "Education",
+      "source_quote": "The term \"global society\" is sometimes used to indicate a global studies set of learning objectives for students to prepare them for global citizenship (see, for example, the Global Studies Center at the University of Pittsburgh).",
+      "unesco_concepts": [
+        "concept7859"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:3044408",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Global citizenship, in some contexts, may refer to a brand of ethics or political philosophy in which it is proposed that the core social, political, economic, and environmental realities of the world today should be addressed at all levels—by individuals, civil society organizations, communities, and nation states—through a global lens."
+      },
+      "statement_en": "Global citizenship, in some contexts, may refer to a brand of ethics or political philosophy in which it is proposed that the core social, political, economic, and environmental realities of the world today should be addressed at all levels—by individuals, civil society organizations, communities, and nation states—through a global lens.",
+      "confidence": "low",
+      "source_page_id": 3044408,
+      "source_revision_id": "1372565431",
+      "source_locator": "Philosophy",
+      "source_quote": "Global citizenship, in some contexts, may refer to a brand of ethics or political philosophy in which it is proposed that the core social, political, economic, and environmental realities of the world today should be addressed at all levels—by individuals, civil society organizations, communities, and nation states—through…",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:3044408",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Global pollsters and psychologists have studied individual differences in the sense of global citizenship."
+      },
+      "statement_en": "Global pollsters and psychologists have studied individual differences in the sense of global citizenship.",
+      "confidence": "low",
+      "source_page_id": 3044408,
+      "source_revision_id": "1372565431",
+      "source_locator": "Psychological studies",
+      "source_quote": "Global pollsters and psychologists have studied individual differences in the sense of global citizenship.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:5441736",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "Racial segregation in the United States was the legally and/or socially enforced separation of black people from white people, as well as the de facto separation of other ethnic minorities from majority communities."
+      },
+      "statement_en": "Racial segregation in the United States was the legally and/or socially enforced separation of black people from white people, as well as the de facto separation of other ethnic minorities from majority communities.",
+      "confidence": "medium",
+      "source_page_id": 5441736,
+      "source_revision_id": "1376175087",
+      "source_locator": "Introduction",
+      "source_quote": "Racial segregation in the United States was the legally and/or socially enforced separation of black people from white people, as well as the de facto separation of other ethnic minorities from majority communities.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:5441736",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "Facilities and services such as housing, healthcare, education, employment, and transportation were, and in some ways are still, systematically separated in the United States on the basis of racial categorizations."
+      },
+      "statement_en": "Facilities and services such as housing, healthcare, education, employment, and transportation were, and in some ways are still, systematically separated in the United States on the basis of racial categorizations.",
+      "confidence": "medium",
+      "source_page_id": 5441736,
+      "source_revision_id": "1376175087",
+      "source_locator": "Introduction",
+      "source_quote": "Facilities and services such as housing, healthcare, education, employment, and transportation were, and in some ways are still, systematically separated in the United States on the basis of racial categorizations.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:5441736",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "De facto segregation continues today in such closely related areas as residential segregation and school segregation because of both contemporary behavior and the historical legacy of de jure segregation."
+      },
+      "statement_en": "De facto segregation continues today in such closely related areas as residential segregation and school segregation because of both contemporary behavior and the historical legacy of de jure segregation.",
+      "confidence": "low",
+      "source_page_id": 5441736,
+      "source_revision_id": "1376175087",
+      "source_locator": "Laws Pass Court",
+      "source_quote": "De facto segregation continues today in such closely related areas as residential segregation and school segregation because of both contemporary behavior and the historical legacy of de jure segregation.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:5441736",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "In Brown v. Board of Education, 347 U.S. 483 (1954), the Supreme Court outlawed segregated public education facilities for black people and white people at the state level."
+      },
+      "statement_en": "In Brown v. Board of Education, 347 U.S. 483 (1954), the Supreme Court outlawed segregated public education facilities for black people and white people at the state level.",
+      "confidence": "low",
+      "source_page_id": 5441736,
+      "source_revision_id": "1376175087",
+      "source_locator": "Jim Crow era",
+      "source_quote": "In Brown v. Board of Education, 347 U.S. 483 (1954), the Supreme Court outlawed segregated public education facilities for black people and white people at the state level.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:5441736",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "In the 1849 case Roberts v. City of Boston, the Massachusetts Supreme Judicial Court ruled that segregated schools were allowed under the Constitution of Massachusetts."
+      },
+      "statement_en": "In the 1849 case Roberts v. City of Boston, the Massachusetts Supreme Judicial Court ruled that segregated schools were allowed under the Constitution of Massachusetts.",
+      "confidence": "low",
+      "source_page_id": 5441736,
+      "source_revision_id": "1376175087",
+      "source_locator": "Antebellum era",
+      "source_quote": "In the 1849 case Roberts v. City of Boston, the Massachusetts Supreme Judicial Court ruled that segregated schools were allowed under the Constitution of Massachusetts.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:5441736",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "The United States Supreme Court tried to deal with school segregation more than six decades ago but impoverished and colored students still do not have equal access to opportunities in education."
+      },
+      "statement_en": "The United States Supreme Court tried to deal with school segregation more than six decades ago but impoverished and colored students still do not have equal access to opportunities in education.",
+      "confidence": "low",
+      "source_page_id": 5441736,
+      "source_revision_id": "1376175087",
+      "source_locator": "Education",
+      "source_quote": "The United States Supreme Court tried to deal with school segregation more than six decades ago but impoverished and colored students still do not have equal access to opportunities in education.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    }
+  ]
+}

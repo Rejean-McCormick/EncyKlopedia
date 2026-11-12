@@ -1,0 +1,603 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000052",
+  "pack_sha256": "ed9b049c09d52c5d3eae2b07f07d5b9063d3c01ee4dea358901bca23080f1653",
+  "producer": "GPT-6 / ChatGPT (selection de passages du wikitext, revue prudente, v27)",
+  "coverage_note": "Extraction selective de passages; aucune exhaustivite; les concepts UNESCO restent des candidats; certaines phrases sont citees quasi litteralement du wikitext nettoye.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:766507",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Becta, originally known as the British Educational Communications and Technology Agency, was a non-departmental public body (popularly known as a Quango) funded by the Department for Education and its predecessor departments, in the United Kingdom."
+      },
+      "statement_en": "Becta, originally known as the British Educational Communications and Technology Agency, was a non-departmental public body (popularly known as a Quango) funded by the Department for Education and its predecessor departments, in the United Kingdom.",
+      "confidence": "medium",
+      "source_page_id": 766507,
+      "source_revision_id": "1319477214",
+      "source_locator": "Introduction",
+      "source_quote": "Becta, originally known as the British Educational Communications and Technology Agency, was a non-departmental public body (popularly known as a Quango) funded by the Department for Education and its predecessor departments, in the United Kingdom.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:766507",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The abolition of Becta was announced in the May 2010 post-election spending review."
+      },
+      "statement_en": "The abolition of Becta was announced in the May 2010 post-election spending review.",
+      "confidence": "low",
+      "source_page_id": 766507,
+      "source_revision_id": "1319477214",
+      "source_locator": "Introduction",
+      "source_quote": "The abolition of Becta was announced in the May 2010 post-election spending review.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:766507",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The National Grid for Learning (NGfL) was managed by Becta and was set up as a gateway to educational resources to support schools and colleges across the UK."
+      },
+      "statement_en": "The National Grid for Learning (NGfL) was managed by Becta and was set up as a gateway to educational resources to support schools and colleges across the UK.",
+      "confidence": "low",
+      "source_page_id": 766507,
+      "source_revision_id": "1319477214",
+      "source_locator": "National Grid for Learning",
+      "source_quote": "The National Grid for Learning (NGfL) was managed by Becta and was set up as a gateway to educational resources to support schools and colleges across the UK.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2797763",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Mayatan Bilingual School is a non-profit, private, independent bilingual (Spanish/English) co-educational day school located in Copán Ruinas, Copán, Honduras."
+      },
+      "statement_en": "Mayatan Bilingual School is a non-profit, private, independent bilingual (Spanish/English) co-educational day school located in Copán Ruinas, Copán, Honduras.",
+      "confidence": "medium",
+      "source_page_id": 2797763,
+      "source_revision_id": "1338775332",
+      "source_locator": "Introduction",
+      "source_quote": "Mayatan Bilingual School is a non-profit, private, independent bilingual (Spanish/English) co-educational day school located in Copán Ruinas, Copán, Honduras.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:2797763",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school is accredited with the Honduran Department of Education."
+      },
+      "statement_en": "The school is accredited with the Honduran Department of Education.",
+      "confidence": "low",
+      "source_page_id": 2797763,
+      "source_revision_id": "1338775332",
+      "source_locator": "Academics",
+      "source_quote": "The school is accredited with the Honduran Department of Education.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:14097013",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Cofradia Bilingual School is a bilingual (English/Spanish) school located in the town of Cofradia, located 20 minutes away from San Pedro Sula, in Honduras."
+      },
+      "statement_en": "Cofradia Bilingual School is a bilingual (English/Spanish) school located in the town of Cofradia, located 20 minutes away from San Pedro Sula, in Honduras.",
+      "confidence": "medium",
+      "source_page_id": 14097013,
+      "source_revision_id": "1339607101",
+      "source_locator": "Introduction",
+      "source_quote": "Cofradia Bilingual School is a bilingual (English/Spanish) school located in the town of Cofradia, located 20 minutes away from San Pedro Sula, in Honduras.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:14097013",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school teaches children from preschool up to grade 11 with a team of volunteer teachers from around the globe and a few local Honduran teachers."
+      },
+      "statement_en": "The school teaches children from preschool up to grade 11 with a team of volunteer teachers from around the globe and a few local Honduran teachers.",
+      "confidence": "medium",
+      "source_page_id": 14097013,
+      "source_revision_id": "1339607101",
+      "source_locator": "Introduction",
+      "source_quote": "The school teaches children from preschool up to grade 11 with a team of volunteer teachers from around the globe and a few local Honduran teachers.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:14105970",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "The Graz International Bilingual School (GIBS) is an Austria bilingual (English/German) university preparatory semi-independent charter school Gymnasium in Graz, Austria."
+      },
+      "statement_en": "The Graz International Bilingual School (GIBS) is an Austria bilingual (English/German) university preparatory semi-independent charter school Gymnasium in Graz, Austria.",
+      "confidence": "medium",
+      "source_page_id": 14105970,
+      "source_revision_id": "1369653344",
+      "source_locator": "Introduction",
+      "source_quote": "The Graz International Bilingual School (GIBS) is an Austria bilingual (English/German) university preparatory semi-independent charter school Gymnasium in Graz, Austria.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:14105970",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school mainly focuses on languages, offering German, English, Russian, Latin, French and Spanish."
+      },
+      "statement_en": "The school mainly focuses on languages, offering German, English, Russian, Latin, French and Spanish.",
+      "confidence": "medium",
+      "source_page_id": 14105970,
+      "source_revision_id": "1369653344",
+      "source_locator": "Introduction",
+      "source_quote": "The school mainly focuses on languages, offering German, English, Russian, Latin, French and Spanish.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:14105970",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "GIBS is a bilingual (German-English) university preparatory charter school."
+      },
+      "statement_en": "GIBS is a bilingual (German-English) university preparatory charter school.",
+      "confidence": "low",
+      "source_page_id": 14105970,
+      "source_revision_id": "1369653344",
+      "source_locator": "School profile",
+      "source_quote": "GIBS is a bilingual (German-English) university preparatory charter school.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31125893",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "The Deák Ferenc Bilingual High School (Hungarian: Deák Ferenc Gimnázium) is a public, co-educational secondary school located on József Attila sugárút in Szeged in Csongrád-Csanád, Hungary."
+      },
+      "statement_en": "The Deák Ferenc Bilingual High School (Hungarian: Deák Ferenc Gimnázium) is a public, co-educational secondary school located on József Attila sugárút in Szeged in Csongrád-Csanád, Hungary.",
+      "confidence": "medium",
+      "source_page_id": 31125893,
+      "source_revision_id": "1378865183",
+      "source_locator": "Introduction",
+      "source_quote": "The Deák Ferenc Bilingual High School (Hungarian: Deák Ferenc Gimnázium) is a public, co-educational secondary school located on József Attila sugárút in Szeged in Csongrád-Csanád, Hungary.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31125893",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Founded in 1988, the school teaches through Hungarian and English."
+      },
+      "statement_en": "Founded in 1988, the school teaches through Hungarian and English.",
+      "confidence": "low",
+      "source_page_id": 31125893,
+      "source_revision_id": "1378865183",
+      "source_locator": "Introduction",
+      "source_quote": "Founded in 1988, the school teaches through Hungarian and English.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:31125893",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "In the Hungarian-English Bilingual program—present since the opening of the school—has started among the first such programs in Hungary."
+      },
+      "statement_en": "In the Hungarian-English Bilingual program—present since the opening of the school—has started among the first such programs in Hungary.",
+      "confidence": "low",
+      "source_page_id": 31125893,
+      "source_revision_id": "1378865183",
+      "source_locator": "Hungarian-English Bilingual program",
+      "source_quote": "In the Hungarian-English Bilingual program—present since the opening of the school—has started among the first such programs in Hungary.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:142123",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "Plessy v. Ferguson, 163 U.S. 537 (1896), was a landmark United States Supreme Court decision ruling that racial segregation laws did not violate the U.S. Constitution as long as the facilities for each race were equal in quality, a doctrine that came to be known as \"separate but equal\"."
+      },
+      "statement_en": "Plessy v. Ferguson, 163 U.S. 537 (1896), was a landmark United States Supreme Court decision ruling that racial segregation laws did not violate the U.S. Constitution as long as the facilities for each race were equal in quality, a doctrine that came to be known as \"separate but equal\".",
+      "confidence": "medium",
+      "source_page_id": 142123,
+      "source_revision_id": "1378884296",
+      "source_locator": "Introduction",
+      "source_quote": "Plessy v. Ferguson, 163 U.S. 537 (1896), was a landmark United States Supreme Court decision ruling that racial segregation laws did not violate the U.S. Constitution as long as the facilities for each race were equal in quality, a doctrine that came to be known as \"separate but equal\".",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:142123",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "The decision legitimized the many \"Jim Crow laws\" re-establishing racial segregation that had been passed in the American South after the end of the Reconstruction era in 1877."
+      },
+      "statement_en": "The decision legitimized the many \"Jim Crow laws\" re-establishing racial segregation that had been passed in the American South after the end of the Reconstruction era in 1877.",
+      "confidence": "medium",
+      "source_page_id": 142123,
+      "source_revision_id": "1378884296",
+      "source_locator": "Introduction",
+      "source_quote": "The decision legitimized the many \"Jim Crow laws\" re-establishing racial segregation that had been passed in the American South after the end of the Reconstruction era in 1877.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:142123",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "The underlying case began in 1892 when Homer Plessy, a mixed-race man, deliberately boarded a whites-only train car in New Orleans."
+      },
+      "statement_en": "The underlying case began in 1892 when Homer Plessy, a mixed-race man, deliberately boarded a whites-only train car in New Orleans.",
+      "confidence": "medium",
+      "source_page_id": 142123,
+      "source_revision_id": "1378884296",
+      "source_locator": "Introduction",
+      "source_quote": "The underlying case began in 1892 when Homer Plessy, a mixed-race man, deliberately boarded a whites-only train car in New Orleans.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:142123",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "On May 18, 1896, the Supreme Court issued a 7–1 decision against Plessy that upheld the constitutionality of Louisiana's train car segregation laws."
+      },
+      "statement_en": "On May 18, 1896, the Supreme Court issued a 7–1 decision against Plessy that upheld the constitutionality of Louisiana's train car segregation laws.",
+      "confidence": "low",
+      "source_page_id": 142123,
+      "source_revision_id": "1378884296",
+      "source_locator": "Decision",
+      "source_quote": "On May 18, 1896, the Supreme Court issued a 7–1 decision against Plessy that upheld the constitutionality of Louisiana's train car segregation laws.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:184191",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Gallaudet University is a private federally chartered university in Washington, D.C., for the education of the deaf and hard of hearing."
+      },
+      "statement_en": "Gallaudet University is a private federally chartered university in Washington, D.C., for the education of the deaf and hard of hearing.",
+      "confidence": "medium",
+      "source_page_id": 184191,
+      "source_revision_id": "1378763399",
+      "source_locator": "Introduction",
+      "source_quote": "Gallaudet University is a private federally chartered university in Washington, D.C., for the education of the deaf and hard of hearing.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:184191",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Hearing students are admitted to the graduate school and a small number are also admitted as undergraduates each year."
+      },
+      "statement_en": "Hearing students are admitted to the graduate school and a small number are also admitted as undergraduates each year.",
+      "confidence": "medium",
+      "source_page_id": 184191,
+      "source_revision_id": "1378763399",
+      "source_locator": "Introduction",
+      "source_quote": "Hearing students are admitted to the graduate school and a small number are also admitted as undergraduates each year.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:184191",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The university was named after Thomas Hopkins Gallaudet, a notable figure in the advancement of deaf education."
+      },
+      "statement_en": "The university was named after Thomas Hopkins Gallaudet, a notable figure in the advancement of deaf education.",
+      "confidence": "medium",
+      "source_page_id": 184191,
+      "source_revision_id": "1378763399",
+      "source_locator": "Introduction",
+      "source_quote": "The university was named after Thomas Hopkins Gallaudet, a notable figure in the advancement of deaf education.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:184191",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Gallaudet University is officially bilingual, with American Sign Language (ASL) and written English used for instruction and by the college community."
+      },
+      "statement_en": "Gallaudet University is officially bilingual, with American Sign Language (ASL) and written English used for instruction and by the college community.",
+      "confidence": "medium",
+      "source_page_id": 184191,
+      "source_revision_id": "1378763399",
+      "source_locator": "Introduction",
+      "source_quote": "Gallaudet University is officially bilingual, with American Sign Language (ASL) and written English used for instruction and by the college community.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:184191",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The campus is shared with Kendall Demonstration Elementary School, a day school serving deaf and hard of hearing students from birth through grade 8, and the Model Secondary School for the Deaf, a day and residential high school for deaf and hard of hearing students."
+      },
+      "statement_en": "The campus is shared with Kendall Demonstration Elementary School, a day school serving deaf and hard of hearing students from birth through grade 8, and the Model Secondary School for the Deaf, a day and residential high school for deaf and hard of hearing students.",
+      "confidence": "low",
+      "source_page_id": 184191,
+      "source_revision_id": "1378763399",
+      "source_locator": "Pre-college education",
+      "source_quote": "The campus is shared with Kendall Demonstration Elementary School, a day school serving deaf and hard of hearing students from birth through grade 8, and the Model Secondary School for the Deaf, a day and residential high school for deaf and hard of hearing students.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:12067648",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "Pūnana Leo (often translated as \"language nest\") are private, non-profit preschools run by families, in which the Hawaiian language is the language of instruction and administration."
+      },
+      "statement_en": "Pūnana Leo (often translated as \"language nest\") are private, non-profit preschools run by families, in which the Hawaiian language is the language of instruction and administration.",
+      "confidence": "medium",
+      "source_page_id": 12067648,
+      "source_revision_id": "1332555834",
+      "source_locator": "Introduction",
+      "source_quote": "Pūnana Leo (often translated as \"language nest\") are private, non-profit preschools run by families, in which the Hawaiian language is the language of instruction and administration.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:12067648",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Initially opened illegally, the first Pūnana Leo opened in 1984 in Kekaha, Kauai."
+      },
+      "statement_en": "Initially opened illegally, the first Pūnana Leo opened in 1984 in Kekaha, Kauai.",
+      "confidence": "low",
+      "source_page_id": 12067648,
+      "source_revision_id": "1332555834",
+      "source_locator": "Introduction",
+      "source_quote": "Initially opened illegally, the first Pūnana Leo opened in 1984 in Kekaha, Kauai.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:12067648",
+      "predicate": "language_of_instruction_context",
+      "object": {
+        "type": "text",
+        "value": "In particular, public school education using Hawaiian as the language of instruction was banned by a law requiring the use of English as the medium of instruction through grade eight."
+      },
+      "statement_en": "In particular, public school education using Hawaiian as the language of instruction was banned by a law requiring the use of English as the medium of instruction through grade eight.",
+      "confidence": "low",
+      "source_page_id": 12067648,
+      "source_revision_id": "1332555834",
+      "source_locator": "History",
+      "source_quote": "In particular, public school education using Hawaiian as the language of instruction was banned by a law requiring the use of English as the medium of instruction through grade eight.",
+      "unesco_concepts": [
+        "concept3894"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:19481110",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Jim Crow laws were state and local laws introduced in the Southern United States from the late 19th century to the mid-20th century that enforced racial segregation."
+      },
+      "statement_en": "The Jim Crow laws were state and local laws introduced in the Southern United States from the late 19th century to the mid-20th century that enforced racial segregation.",
+      "confidence": "medium",
+      "source_page_id": 19481110,
+      "source_revision_id": "1378709024",
+      "source_locator": "Introduction",
+      "source_quote": "The Jim Crow laws were state and local laws introduced in the Southern United States from the late 19th century to the mid-20th century that enforced racial segregation.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:19481110",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "The origin of the term Jim Crow is obscure, but probably refers to a minstrel show song called \"Jump Jim Crow\"."
+      },
+      "statement_en": "The origin of the term Jim Crow is obscure, but probably refers to a minstrel show song called \"Jump Jim Crow\".",
+      "confidence": "medium",
+      "source_page_id": 19481110,
+      "source_revision_id": "1378709024",
+      "source_locator": "Introduction",
+      "source_quote": "The origin of the term Jim Crow is obscure, but probably refers to a minstrel show song called \"Jump Jim Crow\".",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:19481110",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Formal and informal racial segregation policies were present in other areas of the United States as well, even as several states outside the South had banned discrimination in public accommodations and voting."
+      },
+      "statement_en": "Formal and informal racial segregation policies were present in other areas of the United States as well, even as several states outside the South had banned discrimination in public accommodations and voting.",
+      "confidence": "medium",
+      "source_page_id": 19481110,
+      "source_revision_id": "1378709024",
+      "source_locator": "Introduction",
+      "source_quote": "Formal and informal racial segregation policies were present in other areas of the United States as well, even as several states outside the South had banned discrimination in public accommodations and voting.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:19481110",
+      "predicate": "civil_rights_and_education_context",
+      "object": {
+        "type": "text",
+        "value": "Southern laws were enacted by white-dominated state legislatures (Redeemers) to disenfranchise and remove political and economic gains made by African Americans during the Reconstruction era."
+      },
+      "statement_en": "Southern laws were enacted by white-dominated state legislatures (Redeemers) to disenfranchise and remove political and economic gains made by African Americans during the Reconstruction era.",
+      "confidence": "medium",
+      "source_page_id": 19481110,
+      "source_revision_id": "1378709024",
+      "source_locator": "Introduction",
+      "source_quote": "Southern laws were enacted by white-dominated state legislatures (Redeemers) to disenfranchise and remove political and economic gains made by African Americans during the Reconstruction era.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:19481110",
+      "predicate": "legal_and_educational_equality_context",
+      "object": {
+        "type": "text",
+        "value": "In 1971, the U.S. Supreme Court (the Burger Court), in Swann v. Charlotte-Mecklenburg Board of Education, upheld desegregation busing of students to achieve integration."
+      },
+      "statement_en": "In 1971, the U.S. Supreme Court (the Burger Court), in Swann v. Charlotte-Mecklenburg Board of Education, upheld desegregation busing of students to achieve integration.",
+      "confidence": "low",
+      "source_page_id": 19481110,
+      "source_revision_id": "1378709024",
+      "source_locator": "Later court cases",
+      "source_quote": "In 1971, the U.S. Supreme Court (the Burger Court), in Swann v. Charlotte-Mecklenburg Board of Education, upheld desegregation busing of students to achieve integration.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4815986",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The Illinois State Board of Education (ISBE) administers public education in the state of Illinois."
+      },
+      "statement_en": "The Illinois State Board of Education (ISBE) administers public education in the state of Illinois.",
+      "confidence": "medium",
+      "source_page_id": 4815986,
+      "source_revision_id": "1342522333",
+      "source_locator": "Introduction",
+      "source_quote": "The Illinois State Board of Education (ISBE) administers public education in the state of Illinois.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4815986",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The State Board consists of nine members who are appointed by the Governor with the consent of the Senate."
+      },
+      "statement_en": "The State Board consists of nine members who are appointed by the Governor with the consent of the Senate.",
+      "confidence": "medium",
+      "source_page_id": 4815986,
+      "source_revision_id": "1342522333",
+      "source_locator": "Introduction",
+      "source_quote": "The State Board consists of nine members who are appointed by the Governor with the consent of the Senate.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:4815986",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The board sets educational policies and guidelines for public and private schools, preschool through grade 12."
+      },
+      "statement_en": "The board sets educational policies and guidelines for public and private schools, preschool through grade 12.",
+      "confidence": "medium",
+      "source_page_id": 4815986,
+      "source_revision_id": "1342522333",
+      "source_locator": "Introduction",
+      "source_quote": "The board sets educational policies and guidelines for public and private schools, preschool through grade 12.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:39973692",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The West Bengal State Council of Technical & Vocational Education and Skill Development (Erstwhile West Bengal State Council of Vocational Education and Training) is a statutory body under the Department of Technical Education, Training and Skill Development of Government of West Bengal for administration and examining vocational courses in West Bengal."
+      },
+      "statement_en": "The West Bengal State Council of Technical & Vocational Education and Skill Development (Erstwhile West Bengal State Council of Vocational Education and Training) is a statutory body under the Department of Technical Education, Training and Skill Development of Government of West Bengal for administration and examining vocational courses in West Bengal.",
+      "confidence": "medium",
+      "source_page_id": 39973692,
+      "source_revision_id": "1373833606",
+      "source_locator": "Introduction",
+      "source_quote": "The West Bengal State Council of Technical & Vocational Education and Skill Development (Erstwhile West Bengal State Council of Vocational Education and Training) is a statutory body under the Department of Technical Education, Training and Skill Development of Government of West Bengal for administration and examining vocational courses in West Bengal.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:39973692",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "The courses are offered from various affiliated institutions, including Higher Secondary, Secondary Schools and Polytechnic Colleges across the state."
+      },
+      "statement_en": "The courses are offered from various affiliated institutions, including Higher Secondary, Secondary Schools and Polytechnic Colleges across the state.",
+      "confidence": "medium",
+      "source_page_id": 39973692,
+      "source_revision_id": "1373833606",
+      "source_locator": "Introduction",
+      "source_quote": "The courses are offered from various affiliated institutions, including Higher Secondary, Secondary Schools and Polytechnic Colleges across the state.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:39973692",
+      "predicate": "education_governance_context",
+      "object": {
+        "type": "text",
+        "value": "Before 2005 West Bengal Council of Higher Secondary Education was in the administration of vocational education in West Bengal."
+      },
+      "statement_en": "Before 2005 West Bengal Council of Higher Secondary Education was in the administration of vocational education in West Bengal.",
+      "confidence": "low",
+      "source_page_id": 39973692,
+      "source_revision_id": "1373833606",
+      "source_locator": "History",
+      "source_quote": "Before 2005 West Bengal Council of Higher Secondary Education was in the administration of vocational education in West Bengal.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "format": "encyklopedia.safe-overlay.v30/1",
+  "description": "EncyKlopedia v30 — centre de production local, dix postes, file SQLite et pagination UNESCO complète",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "files": [
+    {
+      "path": "LANCER_POSTE_CHATGPT_V30.ps1",
+      "sha256": "90a446c125e3f7aa805dee40688f5824c130530d89c9fe3303bd9a4140a87c7f"
+    },
+    {
+      "path": "LIRE_DABORD_POSTE_V30.md",
+      "sha256": "dc76506929f160be2908c47bc74f8bb56af8918993cb4a46b09634015cf82f83"
+    },
+    {
+      "path": "docs/POSTE_CHATGPT_V30_ARCHITECTURE.md",
+      "sha256": "a440c2eb3c22169f3545bdc023d8f6a4e6afe647d289c3059609aecf00296ba1"
+    },
+    {
+      "path": "tools/unesco_pilot/poste_chatgpt_v30.py",
+      "sha256": "9c9df40f755791854685387c98862277726b1fb8979d936631e8f1679f47fbdb"
+    },
+    {
+      "path": "tools/unesco_pilot/poste_chatgpt_v30.html",
+      "sha256": "855c578e4782d8eb9a38abe96669f0c724baac60134aa98b1b6d77308622b88b"
+    },
+    {
+      "path": "tools/unesco_pilot/poste_chatgpt_v30.js",
+      "sha256": "faab3bfb1a4b1522a7c937ff913b08d61b17a50f4a432973388b1340a072091c"
+    },
+    {
+      "path": "tests/test_poste_chatgpt_v30.py",
+      "sha256": "2e3af443d9f47369e45611667cea0147bbb5f6043f93b32a07cc7d648556a70e"
+    }
+  ]
+}

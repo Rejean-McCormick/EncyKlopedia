@@ -1,0 +1,15 @@
+{
+  "format": "encyklopedia.repo-root-overlay.v28/1",
+  "source_snapshot": "znapshot_EncyKlopedia_11111438.zip",
+  "delivery": "Unzip at root; no installation script",
+  "files_sha256": {
+    "DECOUVRIR_ARTICLES_RELIES_V28.ps1": "98eeaa6194061af54c6fb8f0af1f2eeb103d3e329fe4ce647b5cda182e24776a",
+    "tools/unesco_pilot/decouvrir_articles_relies_v28.py": "9dfe1971dc5e793ec5e41304f2cd108c159edbf68ff05c75410d3d4f4b13b9bb",
+    "docs/UNESCO_DECOUVERTE_ARTICLES_RELIES_V28.md": "5422723e6a52dc69cbb1993554aef47ef4b1cd72b3fc87bc9bcacedd29d53e9c",
+    "tests/test_decouverte_articles_relies_v28.py": "648691653205bc82dc7d429792c937c466f88b1cf6881ad0ecf930fafcb7d2a7",
+    "LIRE_DABORD_OVERLAY_V28.md": "e52515381c88ff2f14d4da7b7ef9822b1bd5afbd07fbd971210fbe6c74a756f5"
+  },
+  "source_databases_modified_by_overlay": false,
+  "canonical_admissions": 0,
+  "correction": "v28.1 : SQL-vs-XML revision divergence audited; in-place resume; index-vs-XML remains strict"
+}

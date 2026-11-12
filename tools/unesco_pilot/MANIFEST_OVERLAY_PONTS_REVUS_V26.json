@@ -1,0 +1,50 @@
+{
+  "format": "encyklopedia.overlay-root.v26-reviewed-bridges/1",
+  "reference_snapshot": "znapshot_EncyKlopedia_11101940.zip",
+  "reference_snapshot_sha256": "94b0a162f21dee7b1a33366b02b782b692bb87fd7b9d22f0c521dc3de6c92e04",
+  "target_root": "C:\\mycode\\EncyKlopedia\\EncyKlopedia",
+  "installation": "EXTRACT_OVER_ROOT_NO_INSTALLER",
+  "review": {
+    "decisions": 423,
+    "include": 28,
+    "hold": 189,
+    "exclude": 206,
+    "review_csv_sha256": "42ead00d55c765bc078990e726ec187524a5a048d207cfd7a394fc108aa0df52"
+  },
+  "files": [
+    {
+      "path": "INTEGRER_PONTS_REVUS_UNESCO_V26.ps1",
+      "previous_sha256": null,
+      "new_sha256": "4283be1435e7a42231fd10fbb4613a9f2a61120302bd691b6adb84fe3627789e"
+    },
+    {
+      "path": "tools/unesco_pilot/catalogue_global_v25.py",
+      "previous_sha256": "ec7d97be1bf74915c2b2008455e0a71b02fa25eaa7b3a6f1f710edcf4f6deed3",
+      "new_sha256": "9133b4829cee79b7418190286ff6cfda373487ef7d70a501bc5fd5c2e2b45cf3"
+    },
+    {
+      "path": "tools/unesco_pilot/integrer_ponts_revus_v26.py",
+      "previous_sha256": null,
+      "new_sha256": "97be419b49999c11dd2221dfc302333cf982eaf37a87307937523c108ed63ad3"
+    },
+    {
+      "path": "tools/unesco_pilot/v26_data/PONTS_REVUS_V26_c1126b2f88bb.csv",
+      "previous_sha256": null,
+      "new_sha256": "42ead00d55c765bc078990e726ec187524a5a048d207cfd7a394fc108aa0df52"
+    },
+    {
+      "path": "docs/UNESCO_PONTS_V26_INTEGRATION.md",
+      "previous_sha256": null,
+      "new_sha256": "f61799c86b67a6698725a2289f462273ca8ae9fc1550e200652fbd529090a229"
+    },
+    {
+      "path": "tests/test_integration_ponts_revus_v26.py",
+      "previous_sha256": null,
+      "new_sha256": "52659f5bb9983cddf6c128588b4c10f3561dcb31e39df3ff814d6144f831d510"
+    }
+  ],
+  "source_wikipedia": "READ_ONLY",
+  "existing_v25_catalog": "PRESERVED_INCREMENTAL",
+  "canonical_admissions": 0,
+  "publication_authorized": false
+}

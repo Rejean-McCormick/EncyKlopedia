@@ -1,0 +1,513 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000071",
+  "pack_sha256": "07da1fbace7644050fd1a66bf757616c80dbb56f7bb2adcaef8f4e154b7a0a96",
+  "producer": "GPT-6 / ChatGPT (selection semi-automatisee et revue editorialement ciblee; non verifie independamment)",
+  "coverage_note": "Selection selective de passages du wikitext complet. Certaines connaissances sont des descriptions de pages; omissions possibles. Sources Wikipedia non verifiees independamment. Rattachements UNESCO seulement si directement appuyes.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:32799139",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Stanley Plan was a package of 13 statutes adopted in September 1956 by the U.S. state of Virginia."
+      },
+      "statement_en": "The Stanley Plan was a package of 13 statutes adopted in September 1956 by the U.S. state of Virginia.",
+      "confidence": "medium",
+      "source_page_id": 32799139,
+      "source_revision_id": "1365703508",
+      "source_locator": "Introduction",
+      "source_quote": "The Stanley Plan was a package of 13 statutes adopted in September 1956 by the U.S. state of Virginia.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:32799139",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Stanley plan was a critical element in the policy of \"massive resistance\" to the Brown ruling advocated by U.S. Senator Harry F. Byrd Sr."
+      },
+      "statement_en": "The Stanley plan was a critical element in the policy of \"massive resistance\" to the Brown ruling advocated by U.S. Senator Harry F. Byrd Sr.",
+      "confidence": "medium",
+      "source_page_id": 32799139,
+      "source_revision_id": "1365703508",
+      "source_locator": "Introduction",
+      "source_quote": "The Stanley plan was a critical element in the policy of \"massive resistance\" to the Brown ruling advocated by U.S. Senator Harry F. Byrd Sr.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:32799139",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "Under the new Stanley plan, however, a school board could petition to have the schools reopened, although this would require that the Assembly take over the district, the governor to act as the Assembly's agent, and the governor to implement a segregationist pupil assignment plan."
+      },
+      "statement_en": "Under the new Stanley plan, however, a school board could petition to have the schools reopened, although this would require that the Assembly take over the district, the governor to act as the Assembly's agent, and the governor to implement a segregationist pupil assignment plan.",
+      "confidence": "low",
+      "source_page_id": 32799139,
+      "source_revision_id": "1365703508",
+      "source_locator": "Compromise and passage",
+      "source_quote": "Under the new Stanley plan, however, a school board could petition to have the schools reopened, although this would require that the Assembly take over the district, the governor to act as the Assembly's agent, and the governor to implement a segregationist pupil assignment plan.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:32799139",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Much of the Stanley plan was designed so that the governor or the Assembly would be the focus of the courts, and not local school districts or school district officials and employees."
+      },
+      "statement_en": "Much of the Stanley plan was designed so that the governor or the Assembly would be the focus of the courts, and not local school districts or school district officials and employees.",
+      "confidence": "low",
+      "source_page_id": 32799139,
+      "source_revision_id": "1365703508",
+      "source_locator": "Stanley Plan as enacted",
+      "source_quote": "Much of the Stanley plan was designed so that the governor or the Assembly would be the focus of the courts, and not local school districts or school district officials and employees.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:32799139",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Stanley plan was not the only segregationist legislative package introduced at the special session of the Assembly."
+      },
+      "statement_en": "The Stanley plan was not the only segregationist legislative package introduced at the special session of the Assembly.",
+      "confidence": "low",
+      "source_page_id": 32799139,
+      "source_revision_id": "1365703508",
+      "source_locator": "Other plans",
+      "source_quote": "The Stanley plan was not the only segregationist legislative package introduced at the special session of the Assembly.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:39911771",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The National Institute of Open Schooling (NIOS) is a national level board of education in India, controlled and managed by the Union of India."
+      },
+      "statement_en": "The National Institute of Open Schooling (NIOS) is a national level board of education in India, controlled and managed by the Union of India.",
+      "confidence": "medium",
+      "source_page_id": 39911771,
+      "source_revision_id": "1377332990",
+      "source_locator": "Introduction",
+      "source_quote": "The National Institute of Open Schooling (NIOS) is a national level board of education in India, controlled and managed by the Union of India.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:39911771",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The NIOS operates through a network of five departments, 23 regional centres, two sub-regional centres, two NIOS cells, and more than 7,400 study centres (AIs/AVIs) across India and abroad."
+      },
+      "statement_en": "The NIOS operates through a network of five departments, 23 regional centres, two sub-regional centres, two NIOS cells, and more than 7,400 study centres (AIs/AVIs) across India and abroad.",
+      "confidence": "low",
+      "source_page_id": 39911771,
+      "source_revision_id": "1377332990",
+      "source_locator": "Introduction",
+      "source_quote": "The NIOS operates through a network of five departments, 23 regional centres, two sub-regional centres, two NIOS cells, and more than 7,400 study centres (AIs/AVIs) across India and abroad.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:44422388",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The Council for the Indian School Certificate Examinations (CISCE) is a non-governmental privately held national-level board of school education in India that conducts the Indian Certificate of Secondary Education (ICSE) Examination for Class X and the Indian School Certificate (ISC) for Class XII."
+      },
+      "statement_en": "The Council for the Indian School Certificate Examinations (CISCE) is a non-governmental privately held national-level board of school education in India that conducts the Indian Certificate of Secondary Education (ICSE) Examination for Class X and the Indian School Certificate (ISC) for Class XII.",
+      "confidence": "medium",
+      "source_page_id": 44422388,
+      "source_revision_id": "1371081228",
+      "source_locator": "Introduction",
+      "source_quote": "The Council for the Indian School Certificate Examinations (CISCE) is a non-governmental privately held national-level board of school education in India that conducts the Indian Certificate of Secondary Education (ICSE) Examination for Class X and the Indian School Certificate (ISC) for Class XII.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:44422388",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The Derozio Award is an annual prize awarded to the top Indian educationists by the Council for the Indian School Certificate Examinations."
+      },
+      "statement_en": "The Derozio Award is an annual prize awarded to the top Indian educationists by the Council for the Indian School Certificate Examinations.",
+      "confidence": "low",
+      "source_page_id": 44422388,
+      "source_revision_id": "1371081228",
+      "source_locator": "Derozio Award",
+      "source_quote": "The Derozio Award is an annual prize awarded to the top Indian educationists by the Council for the Indian School Certificate Examinations.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:47946817",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The West Bengal Joint Entrance Examinations Board is the State Government administered Statutory Body established by Government of West Bengal."
+      },
+      "statement_en": "The West Bengal Joint Entrance Examinations Board is the State Government administered Statutory Body established by Government of West Bengal.",
+      "confidence": "medium",
+      "source_page_id": 47946817,
+      "source_revision_id": "1357607117",
+      "source_locator": "Introduction",
+      "source_quote": "The West Bengal Joint Entrance Examinations Board is the State Government administered Statutory Body established by Government of West Bengal.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:48715391",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "The Every Student Succeeds Act (ESSA) is a US law passed in December 2015 that governs the United States K–12 public education policy."
+      },
+      "statement_en": "The Every Student Succeeds Act (ESSA) is a US law passed in December 2015 that governs the United States K–12 public education policy.",
+      "confidence": "medium",
+      "source_page_id": 48715391,
+      "source_revision_id": "1370507702",
+      "source_locator": "Introduction",
+      "source_quote": "The Every Student Succeeds Act (ESSA) is a US law passed in December 2015 that governs the United States K–12 public education policy.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:48715391",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Every Student Succeeds Act passed both chambers of Congress with bipartisan support."
+      },
+      "statement_en": "The Every Student Succeeds Act passed both chambers of Congress with bipartisan support.",
+      "confidence": "low",
+      "source_page_id": 48715391,
+      "source_revision_id": "1370507702",
+      "source_locator": "Introduction",
+      "source_quote": "The Every Student Succeeds Act passed both chambers of Congress with bipartisan support.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:48715391",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The Every Student Succeeds Act statute, regulations, and guidance give states broad discretion to design and implement assessment systems."
+      },
+      "statement_en": "The Every Student Succeeds Act statute, regulations, and guidance give states broad discretion to design and implement assessment systems.",
+      "confidence": "low",
+      "source_page_id": 48715391,
+      "source_revision_id": "1370507702",
+      "source_locator": "State testing under ESSA",
+      "source_quote": "The Every Student Succeeds Act statute, regulations, and guidance give states broad discretion to design and implement assessment systems.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:48715391",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "All states must have a multiple-measure accountability system, which include the following four indicators: achievement and/or growth on annual reading/language arts and math assessments; English language proficiency, an elementary and middle school academic measure of student growth; and high school graduation rates."
+      },
+      "statement_en": "All states must have a multiple-measure accountability system, which include the following four indicators: achievement and/or growth on annual reading/language arts and math assessments; English language proficiency, an elementary and middle school academic measure of student growth; and high school graduation rates.",
+      "confidence": "low",
+      "source_page_id": 48715391,
+      "source_revision_id": "1370507702",
+      "source_locator": "Overview",
+      "source_quote": "All states must have a multiple-measure accountability system, which include the following four indicators: achievement and/or growth on annual reading/language arts and math assessments; English language proficiency, an elementary and middle school academic measure of student growth; and high school graduation rates.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:56386848",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "A charter management organization (CMO) is an educational organization that operates charter schools in the United States."
+      },
+      "statement_en": "A charter management organization (CMO) is an educational organization that operates charter schools in the United States.",
+      "confidence": "medium",
+      "source_page_id": 56386848,
+      "source_revision_id": "1073832530",
+      "source_locator": "Introduction",
+      "source_quote": "A charter management organization (CMO) is an educational organization that operates charter schools in the United States.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:56386848",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Charter schools are public schools that operate independently of the local government school district."
+      },
+      "statement_en": "Charter schools are public schools that operate independently of the local government school district.",
+      "confidence": "medium",
+      "source_page_id": 56386848,
+      "source_revision_id": "1073832530",
+      "source_locator": "Introduction",
+      "source_quote": "Charter schools are public schools that operate independently of the local government school district.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:146262",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "Milliken v. Bradley, 418 U.S. 717 (1974), was a significant United States Supreme Court case dealing with the planned desegregation busing of public school students across district lines among 53 school districts in metropolitan Detroit."
+      },
+      "statement_en": "Milliken v. Bradley, 418 U.S. 717 (1974), was a significant United States Supreme Court case dealing with the planned desegregation busing of public school students across district lines among 53 school districts in metropolitan Detroit.",
+      "confidence": "medium",
+      "source_page_id": 146262,
+      "source_revision_id": "1351969401",
+      "source_locator": "Introduction",
+      "source_quote": "Milliken v. Bradley, 418 U.S. 717 (1974), was a significant United States Supreme Court case dealing with the planned desegregation busing of public school students across district lines among 53 school districts in metropolitan Detroit.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:146262",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The ruling clarified the distinction between de jure and de facto segregation, confirming that segregation was allowed if it was not considered an explicit policy of each school district."
+      },
+      "statement_en": "The ruling clarified the distinction between de jure and de facto segregation, confirming that segregation was allowed if it was not considered an explicit policy of each school district.",
+      "confidence": "medium",
+      "source_page_id": 146262,
+      "source_revision_id": "1351969401",
+      "source_locator": "Introduction",
+      "source_quote": "The ruling clarified the distinction between de jure and de facto segregation, confirming that segregation was allowed if it was not considered an explicit policy of each school district.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:146262",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The residential patterns in metropolitan Detroit at the time Milliken v. Bradley was decided all but guaranteed that most city schools would be \"racially identifiable\"."
+      },
+      "statement_en": "The residential patterns in metropolitan Detroit at the time Milliken v. Bradley was decided all but guaranteed that most city schools would be \"racially identifiable\".",
+      "confidence": "low",
+      "source_page_id": 146262,
+      "source_revision_id": "1351969401",
+      "source_locator": "School segregation in Detroit",
+      "source_quote": "The residential patterns in metropolitan Detroit at the time Milliken v. Bradley was decided all but guaranteed that most city schools would be \"racially identifiable\".",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:173466",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Hampshire College is a private liberal arts college in Amherst, Massachusetts, United States."
+      },
+      "statement_en": "Hampshire College is a private liberal arts college in Amherst, Massachusetts, United States.",
+      "confidence": "medium",
+      "source_page_id": 173466,
+      "source_revision_id": "1378554336",
+      "source_locator": "Introduction",
+      "source_quote": "Hampshire College is a private liberal arts college in Amherst, Massachusetts, United States.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:173466",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Hampshire College alumni, faculty, and researchers include a Nobel laureate, 5 MacArthur Fellows, 32 Fulbright scholars, and 7 members of the National Academy of Sciences."
+      },
+      "statement_en": "Hampshire College alumni, faculty, and researchers include a Nobel laureate, 5 MacArthur Fellows, 32 Fulbright scholars, and 7 members of the National Academy of Sciences.",
+      "confidence": "low",
+      "source_page_id": 173466,
+      "source_revision_id": "1378554336",
+      "source_locator": "Introduction",
+      "source_quote": "Hampshire College alumni, faculty, and researchers include a Nobel laureate, 5 MacArthur Fellows, 32 Fulbright scholars, and 7 members of the National Academy of Sciences.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:173466",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "In the spring of 2004, a student group calling itself Re-Radicalization of Hampshire College (Re-Rad) emerged with a manifesto called \"The Re-Making of a College\", which critiqued what they saw as a betrayal of Hampshire's founding ideas in alternative education and student-centered learning."
+      },
+      "statement_en": "In the spring of 2004, a student group calling itself Re-Radicalization of Hampshire College (Re-Rad) emerged with a manifesto called \"The Re-Making of a College\", which critiqued what they saw as a betrayal of Hampshire's founding ideas in alternative education and student-centered learning.",
+      "confidence": "low",
+      "source_page_id": 173466,
+      "source_revision_id": "1378554336",
+      "source_locator": "\"Re-Radicalization\" student group",
+      "source_quote": "In the spring of 2004, a student group calling itself Re-Radicalization of Hampshire College (Re-Rad) emerged with a manifesto called \"The Re-Making of a College\", which critiqued what they saw as a betrayal of Hampshire's founding ideas in alternative education and student-centered learning.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:173466",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Hampshire College describes itself as \"experimenting\" rather than \"experimental\", to emphasize the changing nature of its curriculum."
+      },
+      "statement_en": "Hampshire College describes itself as \"experimenting\" rather than \"experimental\", to emphasize the changing nature of its curriculum.",
+      "confidence": "low",
+      "source_page_id": 173466,
+      "source_revision_id": "1378554336",
+      "source_locator": "Curriculum",
+      "source_quote": "Hampshire College describes itself as \"experimenting\" rather than \"experimental\", to emphasize the changing nature of its curriculum.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:173466",
+      "predicate": "educational_innovation_context",
+      "object": {
+        "type": "text",
+        "value": "Hampshire College uses an alternative curriculum emphasizing progressive pedagogy, student-directed study, portfolios and narrative evaluation."
+      },
+      "statement_en": "Hampshire College uses an alternative curriculum emphasizing progressive pedagogy, student-directed study, portfolios and narrative evaluation.",
+      "confidence": "medium",
+      "source_page_id": 173466,
+      "source_revision_id": "1378554336",
+      "source_locator": "Introduction",
+      "source_quote": "The college uses an alternative curriculum, with an emphasis on [[Progressive education|progressive pedagogy]] and self-directed academic concentrations, a focus on portfolios",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:182654",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The source catalogues examples of democratic schools around the world, including Sudbury schools and free schools."
+      },
+      "statement_en": "The source catalogues examples of democratic schools around the world, including Sudbury schools and free schools.",
+      "confidence": "medium",
+      "source_page_id": 182654,
+      "source_revision_id": "1342165845",
+      "source_locator": "Introduction",
+      "source_quote": "This list also includes sub-branches of democratic schools such as [[Sudbury school]]s inspired by the [[Sudbury Valley School]] and certain [[anarchistic free school]]s",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:182663",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Sudbury Valley School is a private school founded in 1968 by a community of people in Framingham, Massachusetts, United States."
+      },
+      "statement_en": "The Sudbury Valley School is a private school founded in 1968 by a community of people in Framingham, Massachusetts, United States.",
+      "confidence": "medium",
+      "source_page_id": 182663,
+      "source_revision_id": "1378030455",
+      "source_locator": "Introduction",
+      "source_quote": "The Sudbury Valley School is a private school founded in 1968 by a community of people in Framingham, Massachusetts, United States.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:182663",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The school is considered a Democratic School and has three basic tenets: educational freedom, democratic governance and personal responsibility."
+      },
+      "statement_en": "The school is considered a Democratic School and has three basic tenets: educational freedom, democratic governance and personal responsibility.",
+      "confidence": "medium",
+      "source_page_id": 182663,
+      "source_revision_id": "1378030455",
+      "source_locator": "Introduction",
+      "source_quote": "The school is considered a Democratic School and has three basic tenets: educational freedom, democratic governance and personal responsibility.",
+      "unesco_concepts": [
+        "concept2107",
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:216746",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "John Caldwell Holt (April 14, 1923 – September 14, 1985) was an American author and educator, a proponent of homeschooling (specifically the unschooling approach), and a pioneer in youth rights theory."
+      },
+      "statement_en": "John Caldwell Holt (April 14, 1923 – September 14, 1985) was an American author and educator, a proponent of homeschooling (specifically the unschooling approach), and a pioneer in youth rights theory.",
+      "confidence": "medium",
+      "source_page_id": 216746,
+      "source_revision_id": "1372738153",
+      "source_locator": "Introduction",
+      "source_quote": "John Caldwell Holt (April 14, 1923 – September 14, 1985) was an American author and educator, a proponent of homeschooling (specifically the unschooling approach), and a pioneer in youth rights theory.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:216746",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "After a six-year stint teaching elementary school in the 1950s, Holt wrote the book How Children Fail (1964), which cataloged the problems he saw with the American school system."
+      },
+      "statement_en": "After a six-year stint teaching elementary school in the 1950s, Holt wrote the book How Children Fail (1964), which cataloged the problems he saw with the American school system.",
+      "confidence": "low",
+      "source_page_id": 216746,
+      "source_revision_id": "1372738153",
+      "source_locator": "Introduction",
+      "source_quote": "After a six-year stint teaching elementary school in the 1950s, Holt wrote the book How Children Fail (1964), which cataloged the problems he saw with the American school system.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:216746",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "In 1981, the first edition of Holt's most noteworthy book on unschooling, Teach Your Own: The John Holt Manual on Homeschooling, was published."
+      },
+      "statement_en": "In 1981, the first edition of Holt's most noteworthy book on unschooling, Teach Your Own: The John Holt Manual on Homeschooling, was published.",
+      "confidence": "low",
+      "source_page_id": 216746,
+      "source_revision_id": "1372738153",
+      "source_locator": "Teach Your Own (1981)",
+      "source_quote": "In 1981, the first edition of Holt's most noteworthy book on unschooling, Teach Your Own: The John Holt Manual on Homeschooling, was published.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    }
+  ]
+}

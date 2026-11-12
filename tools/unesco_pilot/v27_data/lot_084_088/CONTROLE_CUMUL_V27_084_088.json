@@ -1,0 +1,20 @@
+{
+  "status": "V27_LOT_084_088_TEST_VALIDATED",
+  "scope": "PRIVATE_KRISTAL_CANDIDATES_ONLY",
+  "source_catalogue_sequence": 35,
+  "packs_first": 84,
+  "packs_last": 88,
+  "packs": 5,
+  "articles": 85,
+  "new_claims_in_deltas": 203,
+  "baseline_articles_before": 1049,
+  "baseline_claims_before": 3254,
+  "baseline_imported_deltas_before": 83,
+  "expected_claims_after_if_baseline_unchanged": 3457,
+  "expected_articles_after_if_baseline_unchanged": 1134,
+  "expected_deltas_after_if_baseline_unchanged": 88,
+  "test_result": "5 deltas imported into empty temporary private v27 store, 85 unique article_visits, no duplicate imports on repeat; engine real v27",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "editorial_note": "Source wikitext quoted or located; selective knowledge candidates not independent fact checks. Historical decisions do not imply present law."
+}

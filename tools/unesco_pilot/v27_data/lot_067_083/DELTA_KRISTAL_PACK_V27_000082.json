@@ -1,0 +1,815 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000082",
+  "pack_sha256": "4d16518d4e31a2bd5ab2897fe356f55648ef987b41adc7039f4ba23d83b7d39d",
+  "producer": "GPT-6 / ChatGPT (selection semi-automatisee et revue editorialement ciblee; non verifie independamment)",
+  "coverage_note": "Selection selective de passages du wikitext complet. Certaines connaissances sont des descriptions de pages; omissions possibles. Sources Wikipedia non verifiees independamment. Rattachements UNESCO seulement si directement appuyes.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:31450230",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "Morgan v. Hennigan was the case that defined the school busing controversy in Boston, Massachusetts during the 1970s."
+      },
+      "statement_en": "Morgan v. Hennigan was the case that defined the school busing controversy in Boston, Massachusetts during the 1970s.",
+      "confidence": "medium",
+      "source_page_id": 31450230,
+      "source_revision_id": "1376794353",
+      "source_locator": "Introduction",
+      "source_quote": "Morgan v. Hennigan was the case that defined the school busing controversy in Boston, Massachusetts during the 1970s.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31450230",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "On March 14, 1972, the Boston chapter of the NAACP filed a class action lawsuit against the Boston School Committee on behalf of 14 black parents and 44 children."
+      },
+      "statement_en": "On March 14, 1972, the Boston chapter of the NAACP filed a class action lawsuit against the Boston School Committee on behalf of 14 black parents and 44 children.",
+      "confidence": "low",
+      "source_page_id": 31450230,
+      "source_revision_id": "1376794353",
+      "source_locator": "Introduction",
+      "source_quote": "On March 14, 1972, the Boston chapter of the NAACP filed a class action lawsuit against the Boston School Committee on behalf of 14 black parents and 44 children.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31450230",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "In the November 1977 school board elections, three vocal anti-busing School Committee members were defeated, while John D. O'Bryant became the first black man to be elected to the Committee in the 20th century."
+      },
+      "statement_en": "In the November 1977 school board elections, three vocal anti-busing School Committee members were defeated, while John D. O'Bryant became the first black man to be elected to the Committee in the 20th century.",
+      "confidence": "low",
+      "source_page_id": 31450230,
+      "source_revision_id": "1376794353",
+      "source_locator": "Master Plan",
+      "source_quote": "In the November 1977 school board elections, three vocal anti-busing School Committee members were defeated, while John D. O'Bryant became the first black man to be elected to the Committee in the 20th century.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31819810",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "Student Robotics is a registered charity that runs an annual robotics competition for teams of 16 to 19 year-olds."
+      },
+      "statement_en": "Student Robotics is a registered charity that runs an annual robotics competition for teams of 16 to 19 year-olds.",
+      "confidence": "medium",
+      "source_page_id": 31819810,
+      "source_revision_id": "1376460189",
+      "source_locator": "Introduction",
+      "source_quote": "Student Robotics is a registered charity that runs an annual robotics competition for teams of 16 to 19 year-olds.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31819810",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "The charity aims to foster a world where engineering and artificial intelligence is accessible to young people with a stated mission \"to bring the excitement of engineering and the challenge of coding to young people through robotics\"."
+      },
+      "statement_en": "The charity aims to foster a world where engineering and artificial intelligence is accessible to young people with a stated mission \"to bring the excitement of engineering and the challenge of coding to young people through robotics\".",
+      "confidence": "medium",
+      "source_page_id": 31819810,
+      "source_revision_id": "1376460189",
+      "source_locator": "Introduction",
+      "source_quote": "The charity aims to foster a world where engineering and artificial intelligence is accessible to young people with a stated mission \"to bring the excitement of engineering and the challenge of coding to young people through robotics\".",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31819810",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "The competitors may program their robot in Python via an IDE provided by Student Robotics."
+      },
+      "statement_en": "The competitors may program their robot in Python via an IDE provided by Student Robotics.",
+      "confidence": "low",
+      "source_page_id": 31819810,
+      "source_revision_id": "1376460189",
+      "source_locator": "Student Robotics competition",
+      "source_quote": "The competitors may program their robot in Python via an IDE provided by Student Robotics.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:31819810",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "As the competition is free to enter, Student Robotics requires that the kit is returned post-competition."
+      },
+      "statement_en": "As the competition is free to enter, Student Robotics requires that the kit is returned post-competition.",
+      "confidence": "low",
+      "source_page_id": 31819810,
+      "source_revision_id": "1376460189",
+      "source_locator": "Robotics kit",
+      "source_quote": "As the competition is free to enter, Student Robotics requires that the kit is returned post-competition.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:36475843",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Code Club is a voluntary initiative, founded in 2012."
+      },
+      "statement_en": "Code Club is a voluntary initiative, founded in 2012.",
+      "confidence": "medium",
+      "source_page_id": 36475843,
+      "source_revision_id": "1348739982",
+      "source_locator": "Introduction",
+      "source_quote": "Code Club is a voluntary initiative, founded in 2012.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:36475843",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "As of November 2015, over 3,800 schools and other public venues established a Code Club, regularly attended by an estimated 44,000 young people across the UK."
+      },
+      "statement_en": "As of November 2015, over 3,800 schools and other public venues established a Code Club, regularly attended by an estimated 44,000 young people across the UK.",
+      "confidence": "low",
+      "source_page_id": 36475843,
+      "source_revision_id": "1348739982",
+      "source_locator": "Introduction",
+      "source_quote": "As of November 2015, over 3,800 schools and other public venues established a Code Club, regularly attended by an estimated 44,000 young people across the UK.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:44507772",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "The Council for Educational Technology (originally called the National Council for Educational Technology (NCET) but reformed as the Council for Educational Technology (CET) in 1972) was set up in 1967 by the Department of Education and Science in the UK."
+      },
+      "statement_en": "The Council for Educational Technology (originally called the National Council for Educational Technology (NCET) but reformed as the Council for Educational Technology (CET) in 1972) was set up in 1967 by the Department of Education and Science in the UK.",
+      "confidence": "medium",
+      "source_page_id": 44507772,
+      "source_revision_id": "1351598815",
+      "source_locator": "Introduction",
+      "source_quote": "The Council for Educational Technology (originally called the National Council for Educational Technology (NCET) but reformed as the Council for Educational Technology (CET) in 1972) was set up in 1967 by the Department of Education and Science in the UK.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:44507772",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "Initially it consisted of a large council of experts with a small administrative team whose purpose was to \"advise educational services and industrial training organisations on the use of audio visual aids and media\" but it quickly became more than this, developing projects, producing an academic journal BJET and advising government on setting up major computer aided learning programmes (NDPCAL and MEP)."
+      },
+      "statement_en": "Initially it consisted of a large council of experts with a small administrative team whose purpose was to \"advise educational services and industrial training organisations on the use of audio visual aids and media\" but it quickly became more than this, developing projects, producing an academic journal BJET and advising government on setting up major computer aided learning programmes (NDPCAL and MEP).",
+      "confidence": "medium",
+      "source_page_id": 44507772,
+      "source_revision_id": "1351598815",
+      "source_locator": "Introduction",
+      "source_quote": "Initially it consisted of a large council of experts with a small administrative team whose purpose was to \"advise educational services and industrial training organisations on the use of audio visual aids and media\" but it quickly became more than this, developing projects, producing an academic journal BJET and advising…",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:45658856",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "The Smarter Balanced Assessment Consortium (SBAC) is a standardized test consortium."
+      },
+      "statement_en": "The Smarter Balanced Assessment Consortium (SBAC) is a standardized test consortium.",
+      "confidence": "medium",
+      "source_page_id": 45658856,
+      "source_revision_id": "1352540500",
+      "source_locator": "Introduction",
+      "source_quote": "The Smarter Balanced Assessment Consortium (SBAC) is a standardized test consortium.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49350872",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "National Coding Week was founded by former headteacher Richard Rolfe and tech entrepreneur Jordan Love, who was appointed EU Code Week Ambassador for the UK."
+      },
+      "statement_en": "National Coding Week was founded by former headteacher Richard Rolfe and tech entrepreneur Jordan Love, who was appointed EU Code Week Ambassador for the UK.",
+      "confidence": "medium",
+      "source_page_id": 49350872,
+      "source_revision_id": "1317112903",
+      "source_locator": "Introduction",
+      "source_quote": "National Coding Week was founded by former headteacher Richard Rolfe and tech entrepreneur Jordan Love, who was appointed EU Code Week Ambassador for the UK.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:49350872",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "The week is run by volunteers in hubs, libraries, schools, businesses and NGOs with the intention of supporting adults to learn digital skills including coding."
+      },
+      "statement_en": "The week is run by volunteers in hubs, libraries, schools, businesses and NGOs with the intention of supporting adults to learn digital skills including coding.",
+      "confidence": "medium",
+      "source_page_id": 49350872,
+      "source_revision_id": "1317112903",
+      "source_locator": "Introduction",
+      "source_quote": "The week is run by volunteers in hubs, libraries, schools, businesses and NGOs with the intention of supporting adults to learn digital skills including coding.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:51238380",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Code for Life is a British-based not-for-profit platform that provides free educational resources which teach children how to code in the classroom, or at home."
+      },
+      "statement_en": "Code for Life is a British-based not-for-profit platform that provides free educational resources which teach children how to code in the classroom, or at home.",
+      "confidence": "medium",
+      "source_page_id": 51238380,
+      "source_revision_id": "1369408220",
+      "source_locator": "Introduction",
+      "source_quote": "Code for Life is a British-based not-for-profit platform that provides free educational resources which teach children how to code in the classroom, or at home.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:51956589",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "Code First Girls is a social enterprise that provides free coding courses to women and non-binary people across the UK, Ireland, the USA, Switzerland and the Netherlands."
+      },
+      "statement_en": "Code First Girls is a social enterprise that provides free coding courses to women and non-binary people across the UK, Ireland, the USA, Switzerland and the Netherlands.",
+      "confidence": "medium",
+      "source_page_id": 51956589,
+      "source_revision_id": "1359407592",
+      "source_locator": "Introduction",
+      "source_quote": "Code First Girls is a social enterprise that provides free coding courses to women and non-binary people across the UK, Ireland, the USA, Switzerland and the Netherlands.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:51956589",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "Code First Girls began in late 2012 as \"a nine-week, free, part-time course to get female graduates from all walks of life not only interested in coding, but also better equipped to contribute to technical discussions in high-tech businesses\"."
+      },
+      "statement_en": "Code First Girls began in late 2012 as \"a nine-week, free, part-time course to get female graduates from all walks of life not only interested in coding, but also better equipped to contribute to technical discussions in high-tech businesses\".",
+      "confidence": "low",
+      "source_page_id": 51956589,
+      "source_revision_id": "1359407592",
+      "source_locator": "History",
+      "source_quote": "Code First Girls began in late 2012 as \"a nine-week, free, part-time course to get female graduates from all walks of life not only interested in coding, but also better equipped to contribute to technical discussions in high-tech businesses\".",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:54292928",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Sentinus is an educational charity based in Lisburn, Northern Ireland that provides educational programs for young people interested in science, technology, engineering and mathematics (STEM)."
+      },
+      "statement_en": "Sentinus is an educational charity based in Lisburn, Northern Ireland that provides educational programs for young people interested in science, technology, engineering and mathematics (STEM).",
+      "confidence": "medium",
+      "source_page_id": 54292928,
+      "source_revision_id": "1351644800",
+      "source_locator": "Introduction",
+      "source_quote": "Sentinus is an educational charity based in Lisburn, Northern Ireland that provides educational programs for young people interested in science, technology, engineering and mathematics (STEM).",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:54292928",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Sentinus hosts the annual Big Bang Northern Ireland Fair which incorporates Sentinus Young Innovators."
+      },
+      "statement_en": "Sentinus hosts the annual Big Bang Northern Ireland Fair which incorporates Sentinus Young Innovators.",
+      "confidence": "low",
+      "source_page_id": 54292928,
+      "source_revision_id": "1351644800",
+      "source_locator": "Sentinus Young Innovators",
+      "source_quote": "Sentinus hosts the annual Big Bang Northern Ireland Fair which incorporates Sentinus Young Innovators.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:61222518",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "The National Centre for Computing Education is a government-funded initiative, offering teacher training and resources for computing."
+      },
+      "statement_en": "The National Centre for Computing Education is a government-funded initiative, offering teacher training and resources for computing.",
+      "confidence": "medium",
+      "source_page_id": 61222518,
+      "source_revision_id": "1349785875",
+      "source_locator": "Introduction",
+      "source_quote": "The National Centre for Computing Education is a government-funded initiative, offering teacher training and resources for computing.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:61222518",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "The National Centre for Computing Education provides professional development in computing education for primary and secondary schools and colleges, including face-to-face courses around England, and remote and online courses."
+      },
+      "statement_en": "The National Centre for Computing Education provides professional development in computing education for primary and secondary schools and colleges, including face-to-face courses around England, and remote and online courses.",
+      "confidence": "low",
+      "source_page_id": 61222518,
+      "source_revision_id": "1349785875",
+      "source_locator": "Function",
+      "source_quote": "The National Centre for Computing Education provides professional development in computing education for primary and secondary schools and colleges, including face-to-face courses around England, and remote and online courses.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:61339102",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Canterbury Female Boarding School, in Canterbury, Connecticut, was operated by its founder, Prudence Crandall, from 1831 to 1834."
+      },
+      "statement_en": "The Canterbury Female Boarding School, in Canterbury, Connecticut, was operated by its founder, Prudence Crandall, from 1831 to 1834.",
+      "confidence": "medium",
+      "source_page_id": 61339102,
+      "source_revision_id": "1368692330",
+      "source_locator": "Introduction",
+      "source_quote": "The Canterbury Female Boarding School, in Canterbury, Connecticut, was operated by its founder, Prudence Crandall, from 1831 to 1834.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:61339102",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "When townspeople would not allow African-American girls to enroll, Crandall decided to turn it into a school for African-American girls only, the first such in the United States."
+      },
+      "statement_en": "When townspeople would not allow African-American girls to enroll, Crandall decided to turn it into a school for African-American girls only, the first such in the United States.",
+      "confidence": "low",
+      "source_page_id": 61339102,
+      "source_revision_id": "1368692330",
+      "source_locator": "Introduction",
+      "source_quote": "When townspeople would not allow African-American girls to enroll, Crandall decided to turn it into a school for African-American girls only, the first such in the United States.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:61339102",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "On May 24, 1833, the Connecticut General Assembly enacted a Black Law, drafted by Crandall's leading enemy Judson, which prohibited anyone from operating a school teaching African Americans from outside of Connecticut without the permission of the town in which the school was to be located."
+      },
+      "statement_en": "On May 24, 1833, the Connecticut General Assembly enacted a Black Law, drafted by Crandall's leading enemy Judson, which prohibited anyone from operating a school teaching African Americans from outside of Connecticut without the permission of the town in which the school was to be located.",
+      "confidence": "low",
+      "source_page_id": 61339102,
+      "source_revision_id": "1368692330",
+      "source_locator": "Legal measures",
+      "source_quote": "On May 24, 1833, the Connecticut General Assembly enacted a Black Law, drafted by Crandall's leading enemy Judson, which prohibited anyone from operating a school teaching African Americans from outside of Connecticut without the permission of the town in which the school was to be located.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:61339102",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "In 1831, the town of Canterbury approached Prudence Crandall, a well-educated Quaker teacher, who was teaching in nearby Plainfield."
+      },
+      "statement_en": "In 1831, the town of Canterbury approached Prudence Crandall, a well-educated Quaker teacher, who was teaching in nearby Plainfield.",
+      "confidence": "low",
+      "source_page_id": 61339102,
+      "source_revision_id": "1368692330",
+      "source_locator": "Background",
+      "source_quote": "In 1831, the town of Canterbury approached Prudence Crandall, a well-educated Quaker teacher, who was teaching in nearby Plainfield.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:61339102",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "In November, 1832, she asked Prudence to admit her to the school; she wished to become a teacher of black students."
+      },
+      "statement_en": "In November, 1832, she asked Prudence to admit her to the school; she wished to become a teacher of black students.",
+      "confidence": "low",
+      "source_page_id": 61339102,
+      "source_revision_id": "1368692330",
+      "source_locator": "Sarah Harris",
+      "source_quote": "In November, 1832, she asked Prudence to admit her to the school; she wished to become a teacher of black students.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:675054",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The State University System of Florida (SUSF or SUS) is a system of twelve public universities in the U.S. state of Florida."
+      },
+      "statement_en": "The State University System of Florida (SUSF or SUS) is a system of twelve public universities in the U.S. state of Florida.",
+      "confidence": "medium",
+      "source_page_id": 675054,
+      "source_revision_id": "1375504741",
+      "source_locator": "Introduction",
+      "source_quote": "The State University System of Florida (SUSF or SUS) is a system of twelve public universities in the U.S. state of Florida.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:675054",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Florida Board of Governors was created in 2003 to centralize the administration of the State University System of Florida."
+      },
+      "statement_en": "The Florida Board of Governors was created in 2003 to centralize the administration of the State University System of Florida.",
+      "confidence": "medium",
+      "source_page_id": 675054,
+      "source_revision_id": "1375504741",
+      "source_locator": "Introduction",
+      "source_quote": "The Florida Board of Governors was created in 2003 to centralize the administration of the State University System of Florida.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:675054",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Board of Regents governed until it was disbanded by the Florida Legislature in 2001, and its authority was divided between the Florida Board of Education (which was given some authority over all levels of public education in the state), and appointed university boards of trustees, which operated independently for each separate institution."
+      },
+      "statement_en": "The Board of Regents governed until it was disbanded by the Florida Legislature in 2001, and its authority was divided between the Florida Board of Education (which was given some authority over all levels of public education in the state), and appointed university boards of trustees, which operated independently for each separate institution.",
+      "confidence": "low",
+      "source_page_id": 675054,
+      "source_revision_id": "1375504741",
+      "source_locator": "History and governance",
+      "source_quote": "The Board of Regents governed until it was disbanded by the Florida Legislature in 2001, and its authority was divided between the Florida Board of Education (which was given some authority over all levels of public education in the state), and appointed university boards of trustees, which operated independently for each…",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:7773098",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The State Council of Higher Education for Virginia (SCHEV) is the Commonwealth's coordinating body for higher education."
+      },
+      "statement_en": "The State Council of Higher Education for Virginia (SCHEV) is the Commonwealth's coordinating body for higher education.",
+      "confidence": "medium",
+      "source_page_id": 7773098,
+      "source_revision_id": "1304510678",
+      "source_locator": "Introduction",
+      "source_quote": "The State Council of Higher Education for Virginia (SCHEV) is the Commonwealth's coordinating body for higher education.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26486343",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Across Canada's provinces and territories, language policies vary."
+      },
+      "statement_en": "Across Canada's provinces and territories, language policies vary.",
+      "confidence": "low",
+      "source_page_id": 26486343,
+      "source_revision_id": "1368732751",
+      "source_locator": "Introduction",
+      "source_quote": "Across Canada's provinces and territories, language policies vary.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26486343",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Although the federal government operates as an officially bilingual institution, providing services in English and French, several provincial governments have also instituted or legislated their own language policies."
+      },
+      "statement_en": "Although the federal government operates as an officially bilingual institution, providing services in English and French, several provincial governments have also instituted or legislated their own language policies.",
+      "confidence": "low",
+      "source_page_id": 26486343,
+      "source_revision_id": "1368732751",
+      "source_locator": "Introduction",
+      "source_quote": "Although the federal government operates as an officially bilingual institution, providing services in English and French, several provincial governments have also instituted or legislated their own language policies.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26486343",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "The French Language School Board was created on July 1, 1990."
+      },
+      "statement_en": "The French Language School Board was created on July 1, 1990.",
+      "confidence": "low",
+      "source_page_id": 26486343,
+      "source_revision_id": "1368732751",
+      "source_locator": "Prince Edward Island",
+      "source_quote": "The French Language School Board was created on July 1, 1990.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26486343",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "The government publishes an educational curriculum to assists teachers of Chinese, German, Italian, Japanese, Latin, Punjabi, Spanish, and Ukrainian, as well as of Cree and Blackfoot."
+      },
+      "statement_en": "The government publishes an educational curriculum to assists teachers of Chinese, German, Italian, Japanese, Latin, Punjabi, Spanish, and Ukrainian, as well as of Cree and Blackfoot.",
+      "confidence": "low",
+      "source_page_id": 26486343,
+      "source_revision_id": "1368732751",
+      "source_locator": "Alberta",
+      "source_quote": "The government publishes an educational curriculum to assists teachers of Chinese, German, Italian, Japanese, Latin, Punjabi, Spanish, and Ukrainian, as well as of Cree and Blackfoot.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26486343",
+      "predicate": "language_education_context",
+      "object": {
+        "type": "text",
+        "value": "Since that time, Quebec has used provincial law to encourage the use of French (see Charter of the French Language) ahead of other languages, while the other provinces have begun to offer more and more services in French and in other languages besides English, including aboriginal languages and immigrant languages."
+      },
+      "statement_en": "Since that time, Quebec has used provincial law to encourage the use of French (see Charter of the French Language) ahead of other languages, while the other provinces have begun to offer more and more services in French and in other languages besides English, including aboriginal languages and immigrant languages.",
+      "confidence": "low",
+      "source_page_id": 26486343,
+      "source_revision_id": "1368732751",
+      "source_locator": "Introduction",
+      "source_quote": "Since that time, Quebec has used provincial law to encourage the use of French (see Charter of the French Language) ahead of other languages, while the other provinces have begun to offer more and more services in French and in other languages besides English, including aboriginal languages and immigrant languages.",
+      "unesco_concepts": [
+        "concept9343"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:34288046",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The office also makes recommendations to the Governor and legislators for the improvement of public education."
+      },
+      "statement_en": "The office also makes recommendations to the Governor and legislators for the improvement of public education.",
+      "confidence": "low",
+      "source_page_id": 34288046,
+      "source_revision_id": "1363943251",
+      "source_locator": "Introduction",
+      "source_quote": "The office also makes recommendations to the Governor and legislators for the improvement of public education.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:34288241",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Washington State Department of Early Learning, or DEL, was a Washington state agency responsible for early childhood education."
+      },
+      "statement_en": "The Washington State Department of Early Learning, or DEL, was a Washington state agency responsible for early childhood education.",
+      "confidence": "medium",
+      "source_page_id": 34288241,
+      "source_revision_id": "1269283603",
+      "source_locator": "Introduction",
+      "source_quote": "The Washington State Department of Early Learning, or DEL, was a Washington state agency responsible for early childhood education.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:34288241",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The agency was informed by the Washington State Early Learning Advisory Council."
+      },
+      "statement_en": "The agency was informed by the Washington State Early Learning Advisory Council.",
+      "confidence": "medium",
+      "source_page_id": 34288241,
+      "source_revision_id": "1269283603",
+      "source_locator": "Introduction",
+      "source_quote": "The agency was informed by the Washington State Early Learning Advisory Council.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:24223289",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Colorado Department of Higher Education (DHE) is the principal department of the Colorado state government responsible for implementing the policies of the Colorado Commission on Higher Education (CCHE)."
+      },
+      "statement_en": "The Colorado Department of Higher Education (DHE) is the principal department of the Colorado state government responsible for implementing the policies of the Colorado Commission on Higher Education (CCHE).",
+      "confidence": "medium",
+      "source_page_id": 24223289,
+      "source_revision_id": "1368366676",
+      "source_locator": "Introduction",
+      "source_quote": "The Colorado Department of Higher Education (DHE) is the principal department of the Colorado state government responsible for implementing the policies of the Colorado Commission on Higher Education (CCHE).",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:24223289",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "As the policy and advocacy coordinating board for Colorado's system of public higher education, the Department and Colorado Commission on Higher Education carry out the policies of the General Assembly and serve as a bridge between the Governor and Legislature and the governing boards of the institutions of higher education."
+      },
+      "statement_en": "As the policy and advocacy coordinating board for Colorado's system of public higher education, the Department and Colorado Commission on Higher Education carry out the policies of the General Assembly and serve as a bridge between the Governor and Legislature and the governing boards of the institutions of higher education.",
+      "confidence": "low",
+      "source_page_id": 24223289,
+      "source_revision_id": "1368366676",
+      "source_locator": "Introduction",
+      "source_quote": "As the policy and advocacy coordinating board for Colorado's system of public higher education, the Department and Colorado Commission on Higher Education carry out the policies of the General Assembly and serve as a bridge between the Governor and Legislature and the governing boards of the institutions of higher education.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:57465488",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "Bihar Combined Entrance Competitive Examination Board (BCECEB) conducts competitive examinations and counsellings every year for admissions in various courses of Medical, Engineering and Agricultural streams in the Institutions of Bihar."
+      },
+      "statement_en": "Bihar Combined Entrance Competitive Examination Board (BCECEB) conducts competitive examinations and counsellings every year for admissions in various courses of Medical, Engineering and Agricultural streams in the Institutions of Bihar.",
+      "confidence": "low",
+      "source_page_id": 57465488,
+      "source_revision_id": "1367965855",
+      "source_locator": "Introduction",
+      "source_quote": "Bihar Combined Entrance Competitive Examination Board (BCECEB) conducts competitive examinations and counsellings every year for admissions in various courses of Medical, Engineering and Agricultural streams in the Institutions of Bihar.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:57465488",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "Office of the board is situated in IAS Association Building, Patna."
+      },
+      "statement_en": "Office of the board is situated in IAS Association Building, Patna.",
+      "confidence": "medium",
+      "source_page_id": 57465488,
+      "source_revision_id": "1367965855",
+      "source_locator": "Introduction",
+      "source_quote": "Office of the board is situated in IAS Association Building, Patna.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:594781",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The University of the State of New York (USNY, ) is the governmental umbrella organization of New York State that oversees all educational and cultural institutions, including pre-kindergarten programs, kindergartens, schools, colleges, universities, libraries, and museums."
+      },
+      "statement_en": "The University of the State of New York (USNY, ) is the governmental umbrella organization of New York State that oversees all educational and cultural institutions, including pre-kindergarten programs, kindergartens, schools, colleges, universities, libraries, and museums.",
+      "confidence": "medium",
+      "source_page_id": 594781,
+      "source_revision_id": "1378600327",
+      "source_locator": "Introduction",
+      "source_quote": "The University of the State of New York (USNY, ) is the governmental umbrella organization of New York State that oversees all educational and cultural institutions, including pre-kindergarten programs, kindergartens, schools, colleges, universities, libraries, and museums.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:594781",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Despite the name, the University of the State of New York is not an educational institution but rather a governmental licensing and accreditation body that sets standards for schools operating in New York State, from pre-kindergarten through professional and graduate school, as well as for the practice of a wide variety of professions."
+      },
+      "statement_en": "Despite the name, the University of the State of New York is not an educational institution but rather a governmental licensing and accreditation body that sets standards for schools operating in New York State, from pre-kindergarten through professional and graduate school, as well as for the practice of a wide variety of professions.",
+      "confidence": "medium",
+      "source_page_id": 594781,
+      "source_revision_id": "1378600327",
+      "source_locator": "Introduction",
+      "source_quote": "Despite the name, the University of the State of New York is not an educational institution but rather a governmental licensing and accreditation body that sets standards for schools operating in New York State, from pre-kindergarten through professional and graduate school, as well as for the practice of a wide variety of…",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:594781",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Board of Regents of the University of the State of New York was established by statute on May 1, 1784, to re-establish and oversee King's College as Columbia University and any other colleges and academies incorporated in the state thereafter."
+      },
+      "statement_en": "The Board of Regents of the University of the State of New York was established by statute on May 1, 1784, to re-establish and oversee King's College as Columbia University and any other colleges and academies incorporated in the state thereafter.",
+      "confidence": "low",
+      "source_page_id": 594781,
+      "source_revision_id": "1378600327",
+      "source_locator": "History",
+      "source_quote": "The Board of Regents of the University of the State of New York was established by statute on May 1, 1784, to re-establish and oversee King's College as Columbia University and any other colleges and academies incorporated in the state thereafter.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:15587934",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Florida College System, previously the Florida Community College System, is a system of 28 public community colleges and state colleges in the U.S. state of Florida."
+      },
+      "statement_en": "The Florida College System, previously the Florida Community College System, is a system of 28 public community colleges and state colleges in the U.S. state of Florida.",
+      "confidence": "medium",
+      "source_page_id": 15587934,
+      "source_revision_id": "1368483347",
+      "source_locator": "Introduction",
+      "source_quote": "The Florida College System, previously the Florida Community College System, is a system of 28 public community colleges and state colleges in the U.S. state of Florida.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:15587934",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "Administratively, the chancellor of the Florida College System is the chief executive officer of the system, reporting to the commissioner of Education who serves as the chief executive officer of Florida's public education system."
+      },
+      "statement_en": "Administratively, the chancellor of the Florida College System is the chief executive officer of the system, reporting to the commissioner of Education who serves as the chief executive officer of Florida's public education system.",
+      "confidence": "medium",
+      "source_page_id": 15587934,
+      "source_revision_id": "1368483347",
+      "source_locator": "Introduction",
+      "source_quote": "Administratively, the chancellor of the Florida College System is the chief executive officer of the system, reporting to the commissioner of Education who serves as the chief executive officer of Florida's public education system.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:15587934",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "James L. Wattenbarger, distinguished service professor emeritus, University of Florida and Harry T. Albertson, former chief executive officer, Florida Association of Community Colleges, outlined the history of the Florida College System through 2009."
+      },
+      "statement_en": "James L. Wattenbarger, distinguished service professor emeritus, University of Florida and Harry T. Albertson, former chief executive officer, Florida Association of Community Colleges, outlined the history of the Florida College System through 2009.",
+      "confidence": "low",
+      "source_page_id": 15587934,
+      "source_revision_id": "1368483347",
+      "source_locator": "Timeline",
+      "source_quote": "James L. Wattenbarger, distinguished service professor emeritus, University of Florida and Harry T. Albertson, former chief executive officer, Florida Association of Community Colleges, outlined the history of the Florida College System through 2009.",
+      "unesco_concepts": [
+        "concept9344"
+      ]
+    }
+  ]
+}

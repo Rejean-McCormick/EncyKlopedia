@@ -1,0 +1,584 @@
+{
+  "format": "encyklopedia.kristal-ai-delta.v27/1",
+  "pack_id": "PACK_V27_000081",
+  "pack_sha256": "55a0398ea29e33455d58869e6210120edce919d3934ddaff4570c937d33b06cc",
+  "producer": "GPT-6 / ChatGPT (selection semi-automatisee et revue editorialement ciblee; non verifie independamment)",
+  "coverage_note": "Selection selective de passages du wikitext complet. Certaines connaissances sont des descriptions de pages; omissions possibles. Sources Wikipedia non verifiees independamment. Rattachements UNESCO seulement si directement appuyes.",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
+  "claims": [
+    {
+      "subject_ref": "enwiki:17604930",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Convention on the Rights of Persons with Disabilities (CRPD) is an international human rights treaty of the United Nations intended to protect the rights and dignity of persons with disabilities."
+      },
+      "statement_en": "The Convention on the Rights of Persons with Disabilities (CRPD) is an international human rights treaty of the United Nations intended to protect the rights and dignity of persons with disabilities.",
+      "confidence": "medium",
+      "source_page_id": 17604930,
+      "source_revision_id": "1374039850",
+      "source_locator": "Introduction",
+      "source_quote": "The Convention on the Rights of Persons with Disabilities (CRPD) is an international human rights treaty of the United Nations intended to protect the rights and dignity of persons with disabilities.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17604930",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Parties to the convention are required to promote, protect, and ensure the full enjoyment of human rights by persons with disabilities and ensure that persons with disabilities enjoy full equality under the law."
+      },
+      "statement_en": "Parties to the convention are required to promote, protect, and ensure the full enjoyment of human rights by persons with disabilities and ensure that persons with disabilities enjoy full equality under the law.",
+      "confidence": "medium",
+      "source_page_id": 17604930,
+      "source_revision_id": "1374039850",
+      "source_locator": "Introduction",
+      "source_quote": "Parties to the convention are required to promote, protect, and ensure the full enjoyment of human rights by persons with disabilities and ensure that persons with disabilities enjoy full equality under the law.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17604930",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Convention on the Rights of Persons with Disabilities, like the other United Nations human rights conventions, (such as the International Covenant on Civil and Political Rights and the Convention on the Elimination of All Forms of Discrimination against Women) resulted from decades of activity during which group rights standards developed from aspirations to binding treaties."
+      },
+      "statement_en": "The Convention on the Rights of Persons with Disabilities, like the other United Nations human rights conventions, (such as the International Covenant on Civil and Political Rights and the Convention on the Elimination of All Forms of Discrimination against Women) resulted from decades of activity during which group rights standards developed from aspirations to binding treaties.",
+      "confidence": "low",
+      "source_page_id": 17604930,
+      "source_revision_id": "1374039850",
+      "source_locator": "History",
+      "source_quote": "The Convention on the Rights of Persons with Disabilities, like the other United Nations human rights conventions, (such as the International Covenant on Civil and Political Rights and the Convention on the Elimination of All Forms of Discrimination against Women) resulted from decades of activity during which group rights…",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:17604930",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The convention's Article 24 states that persons with disabilities should be guaranteed the right to inclusive education at all levels, regardless of age, without discrimination and on the basis of equal opportunity."
+      },
+      "statement_en": "The convention's Article 24 states that persons with disabilities should be guaranteed the right to inclusive education at all levels, regardless of age, without discrimination and on the basis of equal opportunity.",
+      "confidence": "low",
+      "source_page_id": 17604930,
+      "source_revision_id": "1374039850",
+      "source_locator": "Right to education",
+      "source_quote": "The convention's Article 24 states that persons with disabilities should be guaranteed the right to inclusive education at all levels, regardless of age, without discrimination and on the basis of equal opportunity.",
+      "unesco_concepts": [
+        "concept9"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:17604930",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The Optional Protocol to the Convention on the Rights of Persons with Disabilities is a side-agreement to the Convention which allows its parties to recognise the competence of the Committee on the Rights of Persons with Disabilities to consider complaints from individuals."
+      },
+      "statement_en": "The Optional Protocol to the Convention on the Rights of Persons with Disabilities is a side-agreement to the Convention which allows its parties to recognise the competence of the Committee on the Rights of Persons with Disabilities to consider complaints from individuals.",
+      "confidence": "low",
+      "source_page_id": 17604930,
+      "source_revision_id": "1374039850",
+      "source_locator": "Optional protocol",
+      "source_quote": "The Optional Protocol to the Convention on the Rights of Persons with Disabilities is a side-agreement to the Convention which allows its parties to recognise the competence of the Committee on the Rights of Persons with Disabilities to consider complaints from individuals.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:18622119",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "He is regarded as one of the greatest and most influential authors of all time."
+      },
+      "statement_en": "He is regarded as one of the greatest and most influential authors of all time.",
+      "confidence": "medium",
+      "source_page_id": 18622119,
+      "source_revision_id": "1375171072",
+      "source_locator": "Introduction",
+      "source_quote": "He is regarded as one of the greatest and most influential authors of all time.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:18622119",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Born to an aristocratic family, Tolstoy achieved acclaim in his twenties with his semi-autobiographical trilogy, Childhood, Boyhood and Youth (1852–1856), and with Sevastopol Sketches (1855), based on his experiences in the Crimean War."
+      },
+      "statement_en": "Born to an aristocratic family, Tolstoy achieved acclaim in his twenties with his semi-autobiographical trilogy, Childhood, Boyhood and Youth (1852–1856), and with Sevastopol Sketches (1855), based on his experiences in the Crimean War.",
+      "confidence": "low",
+      "source_page_id": 18622119,
+      "source_revision_id": "1375171072",
+      "source_locator": "Introduction",
+      "source_quote": "Born to an aristocratic family, Tolstoy achieved acclaim in his twenties with his semi-autobiographical trilogy, Childhood, Boyhood and Youth (1852–1856), and with Sevastopol Sketches (1855), based on his experiences in the Crimean War.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:18622119",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "In 1844, he began studying law and oriental languages at Kazan University, where teachers described him as \"both unable and unwilling to learn\"."
+      },
+      "statement_en": "In 1844, he began studying law and oriental languages at Kazan University, where teachers described him as \"both unable and unwilling to learn\".",
+      "confidence": "low",
+      "source_page_id": 18622119,
+      "source_revision_id": "1375171072",
+      "source_locator": "Life and career",
+      "source_quote": "In 1844, he began studying law and oriental languages at Kazan University, where teachers described him as \"both unable and unwilling to learn\".",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:18622119",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "In the 1870s, Tolstoy experienced a profound moral crisis, followed by what he regarded as an equally profound spiritual awakening, as outlined in his non-fiction work Confession (1882)."
+      },
+      "statement_en": "In the 1870s, Tolstoy experienced a profound moral crisis, followed by what he regarded as an equally profound spiritual awakening, as outlined in his non-fiction work Confession (1882).",
+      "confidence": "low",
+      "source_page_id": 18622119,
+      "source_revision_id": "1375171072",
+      "source_locator": "Introduction",
+      "source_quote": "In the 1870s, Tolstoy experienced a profound moral crisis, followed by what he regarded as an equally profound spiritual awakening, as outlined in his non-fiction work Confession (1882).",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:18622119",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "He received nominations for the Nobel Prize in Literature every year from 1902 to 1906 and for the Nobel Peace Prize in 1901, 1902, and 1909."
+      },
+      "statement_en": "He received nominations for the Nobel Prize in Literature every year from 1902 to 1906 and for the Nobel Peace Prize in 1901, 1902, and 1909.",
+      "confidence": "low",
+      "source_page_id": 18622119,
+      "source_revision_id": "1375171072",
+      "source_locator": "Introduction",
+      "source_quote": "He received nominations for the Nobel Prize in Literature every year from 1902 to 1906 and for the Nobel Peace Prize in 1901, 1902, and 1909.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:18622119",
+      "predicate": "educational_innovation_context",
+      "object": {
+        "type": "text",
+        "value": "Leo Tolstoy founded schools for children of emancipated Russian peasants at Yasnaya Polyana."
+      },
+      "statement_en": "Leo Tolstoy founded schools for children of emancipated Russian peasants at Yasnaya Polyana.",
+      "confidence": "medium",
+      "source_page_id": 18622119,
+      "source_revision_id": "1375171072",
+      "source_locator": "Life and career",
+      "source_quote": "Tolstoy returned to Yasnaya Polyana and founded 13 schools for the children of Russia's peasants",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:18835020",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "Alexander v. Holmes County Board of Education, 396 U.S. 19 (1969), was a United States Supreme Court case in which the Court ordered immediate desegregation of public schools in the American South."
+      },
+      "statement_en": "Alexander v. Holmes County Board of Education, 396 U.S. 19 (1969), was a United States Supreme Court case in which the Court ordered immediate desegregation of public schools in the American South.",
+      "confidence": "medium",
+      "source_page_id": 18835020,
+      "source_revision_id": "1370575941",
+      "source_locator": "Introduction",
+      "source_quote": "Alexander v. Holmes County Board of Education, 396 U.S. 19 (1969), was a United States Supreme Court case in which the Court ordered immediate desegregation of public schools in the American South.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:18835020",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "Early in the summer of 1969, the federal appeals court had asked the US Department of Health, Education, and Welfare (HEW) to submit desegregation plans for thirty-three school districts in Mississippi including Holmes County School District, so HEW could order them implemented at the beginning of the school year."
+      },
+      "statement_en": "Early in the summer of 1969, the federal appeals court had asked the US Department of Health, Education, and Welfare (HEW) to submit desegregation plans for thirty-three school districts in Mississippi including Holmes County School District, so HEW could order them implemented at the beginning of the school year.",
+      "confidence": "low",
+      "source_page_id": 18835020,
+      "source_revision_id": "1370575941",
+      "source_locator": "Procedural history",
+      "source_quote": "Early in the summer of 1969, the federal appeals court had asked the US Department of Health, Education, and Welfare (HEW) to submit desegregation plans for thirty-three school districts in Mississippi including Holmes County School District, so HEW could order them implemented at the beginning of the school year.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:18835020",
+      "predicate": "education_policy_context",
+      "object": {
+        "type": "text",
+        "value": "In 1968, freedom of choice plans had been condemned by the Supreme Court in Green v. County School Board of New Kent County."
+      },
+      "statement_en": "In 1968, freedom of choice plans had been condemned by the Supreme Court in Green v. County School Board of New Kent County.",
+      "confidence": "low",
+      "source_page_id": 18835020,
+      "source_revision_id": "1370575941",
+      "source_locator": "Background",
+      "source_quote": "In 1968, freedom of choice plans had been condemned by the Supreme Court in Green v. County School Board of New Kent County.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:20791096",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Bett (formerly known as the British Educational Training and Technology Show) is a global series of education shows organised by Hyve Group marketing information technology in education."
+      },
+      "statement_en": "Bett (formerly known as the British Educational Training and Technology Show) is a global series of education shows organised by Hyve Group marketing information technology in education.",
+      "confidence": "medium",
+      "source_page_id": 20791096,
+      "source_revision_id": "1368846601",
+      "source_locator": "Introduction",
+      "source_quote": "Bett (formerly known as the British Educational Training and Technology Show) is a global series of education shows organised by Hyve Group marketing information technology in education.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:20791096",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Bett is also a global community for education technology, which hosts webinars, CPD sessions and publish articles from the leaders in education."
+      },
+      "statement_en": "Bett is also a global community for education technology, which hosts webinars, CPD sessions and publish articles from the leaders in education.",
+      "confidence": "medium",
+      "source_page_id": 20791096,
+      "source_revision_id": "1368846601",
+      "source_locator": "Introduction",
+      "source_quote": "Bett is also a global community for education technology, which hosts webinars, CPD sessions and publish articles from the leaders in education.",
+      "unesco_concepts": [
+        "concept6020"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:21830224",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "The European Democratic Education Community (EUDEC) is a European non-profit organisation that promotes democratic education as a sensible educational model for all democratic states."
+      },
+      "statement_en": "The European Democratic Education Community (EUDEC) is a European non-profit organisation that promotes democratic education as a sensible educational model for all democratic states.",
+      "confidence": "medium",
+      "source_page_id": 21830224,
+      "source_revision_id": "1360499676",
+      "source_locator": "Introduction",
+      "source_quote": "The European Democratic Education Community (EUDEC) is a European non-profit organisation that promotes democratic education as a sensible educational model for all democratic states.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:21830224",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "Founded in February 2008 as a project of the United Kingdom-based Phoenix Education Trust, the organisation has been an independently registered non-profit NGO in Germany since 2009."
+      },
+      "statement_en": "Founded in February 2008 as a project of the United Kingdom-based Phoenix Education Trust, the organisation has been an independently registered non-profit NGO in Germany since 2009.",
+      "confidence": "low",
+      "source_page_id": 21830224,
+      "source_revision_id": "1360499676",
+      "source_locator": "Introduction",
+      "source_quote": "Founded in February 2008 as a project of the United Kingdom-based Phoenix Education Trust, the organisation has been an independently registered non-profit NGO in Germany since 2009.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:21830224",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "Learning can take place in classrooms, as in conventional schools, but also in many ways outside classrooms as informal learning, such as independent study, internet research, internships, playing games, volunteering, doing projects, visiting museums, travel and discussions with friends and teachers."
+      },
+      "statement_en": "Learning can take place in classrooms, as in conventional schools, but also in many ways outside classrooms as informal learning, such as independent study, internet research, internships, playing games, volunteering, doing projects, visiting museums, travel and discussions with friends and teachers.",
+      "confidence": "low",
+      "source_page_id": 21830224,
+      "source_revision_id": "1360499676",
+      "source_locator": "Democratic Education",
+      "source_quote": "Learning can take place in classrooms, as in conventional schools, but also in many ways outside classrooms as informal learning, such as independent study, internet research, internships, playing games, volunteering, doing projects, visiting museums, travel and discussions with friends and teachers.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:23415325",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The Ole Miss riot of 1962 (September 30 – October 1, 1962), also known as the Battle of Oxford, was a race riot that occurred at the University of Mississippi—commonly called Ole Miss—in Oxford, Mississippi, as segregationist rioters sought to prevent the enrollment of African American applicant James Meredith."
+      },
+      "statement_en": "The Ole Miss riot of 1962 (September 30 – October 1, 1962), also known as the Battle of Oxford, was a race riot that occurred at the University of Mississippi—commonly called Ole Miss—in Oxford, Mississippi, as segregationist rioters sought to prevent the enrollment of African American applicant James Meredith.",
+      "confidence": "medium",
+      "source_page_id": 23415325,
+      "source_revision_id": "1377686811",
+      "source_locator": "Introduction",
+      "source_quote": "The Ole Miss riot of 1962 (September 30 – October 1, 1962), also known as the Battle of Oxford, was a race riot that occurred at the University of Mississippi—commonly called Ole Miss—in Oxford, Mississippi, as segregationist rioters sought to prevent the enrollment of African American applicant James Meredith.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:23415325",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "President John F. Kennedy eventually quelled the riot by mobilizing more than 30,000 troops, the most for a single disturbance in United States history."
+      },
+      "statement_en": "President John F. Kennedy eventually quelled the riot by mobilizing more than 30,000 troops, the most for a single disturbance in United States history.",
+      "confidence": "low",
+      "source_page_id": 23415325,
+      "source_revision_id": "1377686811",
+      "source_locator": "Introduction",
+      "source_quote": "President John F. Kennedy eventually quelled the riot by mobilizing more than 30,000 troops, the most for a single disturbance in United States history.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:23415325",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "In 1954, the U.S. Supreme Court ruled in Brown v. Board of Education that segregation in public schools was unconstitutional."
+      },
+      "statement_en": "In 1954, the U.S. Supreme Court ruled in Brown v. Board of Education that segregation in public schools was unconstitutional.",
+      "confidence": "low",
+      "source_page_id": 23415325,
+      "source_revision_id": "1377686811",
+      "source_locator": "Meredith's attempts to enroll",
+      "source_quote": "In 1954, the U.S. Supreme Court ruled in Brown v. Board of Education that segregation in public schools was unconstitutional.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:23415325",
+      "predicate": "educational_civil_rights_context",
+      "object": {
+        "type": "text",
+        "value": "The riot and the federal crackdown were a major turning point in the civil rights movement and resulted in the desegregation of Ole Miss—the first integration of any public educational facility in Mississippi."
+      },
+      "statement_en": "The riot and the federal crackdown were a major turning point in the civil rights movement and resulted in the desegregation of Ole Miss—the first integration of any public educational facility in Mississippi.",
+      "confidence": "medium",
+      "source_page_id": 23415325,
+      "source_revision_id": "1377686811",
+      "source_locator": "Introduction",
+      "source_quote": "The riot and the federal crackdown were a major turning point in the civil rights movement and resulted in the desegregation of Ole Miss—the first integration of any public educational facility in Mississippi.",
+      "unesco_concepts": [
+        "concept1137"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:24221402",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "NCC Education Ltd. is a private provider and awarding body of English education."
+      },
+      "statement_en": "NCC Education Ltd. is a private provider and awarding body of English education.",
+      "confidence": "medium",
+      "source_page_id": 24221402,
+      "source_revision_id": "1376630169",
+      "source_locator": "Introduction",
+      "source_quote": "NCC Education Ltd. is a private provider and awarding body of English education.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:24472802",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "The act does not apply in Scotland, Northern Ireland or Wales, in those nations the school-leaving age remains around 16, without additional requirements (depending on the person's birthday)."
+      },
+      "statement_en": "The act does not apply in Scotland, Northern Ireland or Wales, in those nations the school-leaving age remains around 16, without additional requirements (depending on the person's birthday).",
+      "confidence": "low",
+      "source_page_id": 24472802,
+      "source_revision_id": "1363328893",
+      "source_locator": "Introduction",
+      "source_quote": "The act does not apply in Scotland, Northern Ireland or Wales, in those nations the school-leaving age remains around 16, without additional requirements (depending on the person's birthday).",
+      "unesco_concepts": [
+        "concept5999"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:24472802",
+      "predicate": "encyclopedic_context",
+      "object": {
+        "type": "text",
+        "value": "There was some criticism, based on the theory that the government wanted to decrease unemployment figures by removing this group of young people from those looking for work."
+      },
+      "statement_en": "There was some criticism, based on the theory that the government wanted to decrease unemployment figures by removing this group of young people from those looking for work.",
+      "confidence": "medium",
+      "source_page_id": 24472802,
+      "source_revision_id": "1363328893",
+      "source_locator": "Introduction",
+      "source_quote": "There was some criticism, based on the theory that the government wanted to decrease unemployment figures by removing this group of young people from those looking for work.",
+      "unesco_concepts": []
+    },
+    {
+      "subject_ref": "enwiki:26024420",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "Daniel Asher Greenberg (28 September 1934 – 2 December 2021), was one of the founders of the Sudbury Valley School, has published several books on the Sudbury model of school organization, and was described by Sudbury Valley School trustee Peter Gray as the \"principal philosopher\" among its founders."
+      },
+      "statement_en": "Daniel Asher Greenberg (28 September 1934 – 2 December 2021), was one of the founders of the Sudbury Valley School, has published several books on the Sudbury model of school organization, and was described by Sudbury Valley School trustee Peter Gray as the \"principal philosopher\" among its founders.",
+      "confidence": "medium",
+      "source_page_id": 26024420,
+      "source_revision_id": "1371904059",
+      "source_locator": "Introduction",
+      "source_quote": "Daniel Asher Greenberg (28 September 1934 – 2 December 2021), was one of the founders of the Sudbury Valley School, has published several books on the Sudbury model of school organization, and was described by Sudbury Valley School trustee Peter Gray as the \"principal philosopher\" among its founders.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:26024420",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "He was a physics professor at Columbia University, and was described by Lois Holzman as the school's \"chief 'philosophical writer'\"."
+      },
+      "statement_en": "He was a physics professor at Columbia University, and was described by Lois Holzman as the school's \"chief 'philosophical writer'\".",
+      "confidence": "medium",
+      "source_page_id": 26024420,
+      "source_revision_id": "1371904059",
+      "source_locator": "Introduction",
+      "source_quote": "He was a physics professor at Columbia University, and was described by Lois Holzman as the school's \"chief 'philosophical writer'\".",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:27408374",
+      "predicate": "education_technology_context",
+      "object": {
+        "type": "text",
+        "value": "Computers in the classroom include any digital technology used to enhance, supplement, or replace a traditional educational curriculum with computer science education."
+      },
+      "statement_en": "Computers in the classroom include any digital technology used to enhance, supplement, or replace a traditional educational curriculum with computer science education.",
+      "confidence": "low",
+      "source_page_id": 27408374,
+      "source_revision_id": "1367068929",
+      "source_locator": "Introduction",
+      "source_quote": "Computers in the classroom include any digital technology used to enhance, supplement, or replace a traditional educational curriculum with computer science education.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:27408374",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "As computers have become more accessible, inexpensive, and powerful, the demand for this technology has increased, leading to more frequent use of computer resources within classes, and a decrease in the student-to-computer ratio within schools."
+      },
+      "statement_en": "As computers have become more accessible, inexpensive, and powerful, the demand for this technology has increased, leading to more frequent use of computer resources within classes, and a decrease in the student-to-computer ratio within schools.",
+      "confidence": "low",
+      "source_page_id": 27408374,
+      "source_revision_id": "1367068929",
+      "source_locator": "Introduction",
+      "source_quote": "As computers have become more accessible, inexpensive, and powerful, the demand for this technology has increased, leading to more frequent use of computer resources within classes, and a decrease in the student-to-computer ratio within schools.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:27408374",
+      "predicate": "teacher_education_context",
+      "object": {
+        "type": "text",
+        "value": "Intrinsic barriers such as a belief in more traditional teaching practices and individual attitudes towards computers in education as well as the teachers own comfort with computers and their ability to use them all result in varying effectiveness in the integrations of computers in the classroom."
+      },
+      "statement_en": "Intrinsic barriers such as a belief in more traditional teaching practices and individual attitudes towards computers in education as well as the teachers own comfort with computers and their ability to use them all result in varying effectiveness in the integrations of computers in the classroom.",
+      "confidence": "low",
+      "source_page_id": 27408374,
+      "source_revision_id": "1367068929",
+      "source_locator": "Ineffective use",
+      "source_quote": "Intrinsic barriers such as a belief in more traditional teaching practices and individual attitudes towards computers in education as well as the teachers own comfort with computers and their ability to use them all result in varying effectiveness in the integrations of computers in the classroom.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:28065463",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "THINK Global School (TGS) is an independent high school that travels the world with students studying in eight countries, over the course of two years."
+      },
+      "statement_en": "THINK Global School (TGS) is an independent high school that travels the world with students studying in eight countries, over the course of two years.",
+      "confidence": "medium",
+      "source_page_id": 28065463,
+      "source_revision_id": "1375283664",
+      "source_locator": "Introduction",
+      "source_quote": "THINK Global School (TGS) is an independent high school that travels the world with students studying in eight countries, over the course of two years.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:28065463",
+      "predicate": "institutional_education_context",
+      "object": {
+        "type": "text",
+        "value": "THINK Global School was founded by Harald and Joann McPike."
+      },
+      "statement_en": "THINK Global School was founded by Harald and Joann McPike.",
+      "confidence": "medium",
+      "source_page_id": 28065463,
+      "source_revision_id": "1375283664",
+      "source_locator": "Introduction",
+      "source_quote": "THINK Global School was founded by Harald and Joann McPike.",
+      "unesco_concepts": [
+        "concept2107"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:28864897",
+      "predicate": "pedagogical_approach_context",
+      "object": {
+        "type": "text",
+        "value": "\"Teaching to the test\" refers to an educational strategy where curriculum and teachers' instruction are heavily focused on preparing students for standardized tests."
+      },
+      "statement_en": "\"Teaching to the test\" refers to an educational strategy where curriculum and teachers' instruction are heavily focused on preparing students for standardized tests.",
+      "confidence": "medium",
+      "source_page_id": 28864897,
+      "source_revision_id": "1354607143",
+      "source_locator": "Introduction",
+      "source_quote": "\"Teaching to the test\" refers to an educational strategy where curriculum and teachers' instruction are heavily focused on preparing students for standardized tests.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    },
+    {
+      "subject_ref": "enwiki:28864897",
+      "predicate": "education_assessment_context",
+      "object": {
+        "type": "text",
+        "value": "Critics of teaching to the test argue that it narrows the curriculum, emphasizing only those skills and knowledge required for standardized tests."
+      },
+      "statement_en": "Critics of teaching to the test argue that it narrows the curriculum, emphasizing only those skills and knowledge required for standardized tests.",
+      "confidence": "low",
+      "source_page_id": 28864897,
+      "source_revision_id": "1354607143",
+      "source_locator": "Criticism and debate",
+      "source_quote": "Critics of teaching to the test argue that it narrows the curriculum, emphasizing only those skills and knowledge required for standardized tests.",
+      "unesco_concepts": [
+        "concept7282"
+      ]
+    }
+  ]
+}

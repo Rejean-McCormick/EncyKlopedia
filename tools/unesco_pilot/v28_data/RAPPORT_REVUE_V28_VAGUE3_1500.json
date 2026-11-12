@@ -1,0 +1,39 @@
+{
+  "format": "encyklopedia.linked-article-review.v28/1",
+  "edition": "vague3_sequence35_1500",
+  "source_csv": "REVUE_ARTICLES_RELIES_V28_s0000000035_top1500.csv",
+  "source_csv_sha256": "45c96dac977e07dfe3e1369383b8edb00f75965fc54e7d39656cc6aff93dca8e",
+  "source_catalogue_sequence": "35",
+  "decisions_total": 1500,
+  "decisions": {
+    "HOLD": 843,
+    "APPROVE": 100,
+    "REJECT": 557
+  },
+  "approved_distinct_pages": 99,
+  "overlap_previous_vague2_hold": 1117,
+  "prior_hold_now": {
+    "HOLD": 707,
+    "REJECT": 410
+  },
+  "new_to_vague3": {
+    "APPROVE": 100,
+    "HOLD": 136,
+    "REJECT": 147
+  },
+  "approved_by_concept": {
+    "Language of instruction": 46,
+    "State and education": 27,
+    "Educational discrimination": 2,
+    "Bilingual education": 2,
+    "Alternative education": 19,
+    "Educational reform": 2,
+    "Educational policy": 2
+  },
+  "csv_validated_with_actual_v28_read_decisions": true,
+  "only_decision_justification_edited": true,
+  "documentary_routing_only": true,
+  "complete_article_text_not_in_export": true,
+  "canonical_admissions": 0,
+  "note": "Les candidats approuves sont seulement des routages documentaires. Aucune verification independante des faits des articles cibles."
+}
