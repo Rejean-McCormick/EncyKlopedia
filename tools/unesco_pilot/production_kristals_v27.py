@@ -116,10 +116,14 @@ def validated_sources(catalogue, index, xml):
         if json.loads(value(ix, 'v21_meta', 'complete') or 'false') is not True:
             raise Refusal('Index v21 incomplet, aucun nouveau parcours XML lance')
         sig = xml_signature(xml)
-        if json.loads(value(ix, 'v21_meta', 'source_signature') or 'null') != sig:
-            raise Refusal('Le fichier XML ne correspond pas a l index v21')
+        indexed_sig = json.loads(value(ix, 'v21_meta', 'source_signature') or 'null')
+        if not isinstance(indexed_sig,dict) or not all(k in indexed_sig for k in
+                ('bytes','head_tail_sha256','hash_scope','path','mtime_ns')):
+            raise Refusal('Signature index v21 absente ou invalide')
+        matches = indexed_sig == sig
         return catalog, ix, {'catalog_source_sha': origin, 'catalog_sequence': int(sequence),
-                             'xml_signature': sig}
+                             'xml_signature': sig, 'index_v21_matches_current_xml': matches,
+                             'xml_access': 'VERIFIED_OFFSETS' if matches else 'VERIFIED_OFFSETS_OR_TARGETED_FULLTEXT'}
     except BaseException:
         catalog.close()
         ix.close()
@@ -161,6 +165,11 @@ CREATE INDEX IF NOT EXISTS idx_queue_pending ON queue(state,score DESC,page_id);
 CREATE TABLE IF NOT EXISTS packs(
  pack_id TEXT PRIMARY KEY,zip_path TEXT NOT NULL,sha256 TEXT NOT NULL,
  article_count INTEGER NOT NULL,created_utc TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS source_epoch_history(
+ id INTEGER PRIMARY KEY AUTOINCREMENT, previous_signature_json TEXT NOT NULL,
+ new_signature_json TEXT NOT NULL, switched_utc TEXT NOT NULL,
+ last_pack_sequence INTEGER NOT NULL
 );
 '''
 
@@ -204,16 +213,40 @@ CREATE TABLE IF NOT EXISTS text_variants(
 '''
 
 
-def bind_work(queue, source):
+def bind_work(queue, source, work=None):
+    """Keep source history while allowing newer XML revisions for future v27 packs.
+
+    Existing PACKED rows and their ZIPs are immutable; each ZIP already carries
+    its own XML source signature. Only v27 PENDING articles use the new XML.
+    """
     expected = {'catalog_source_sha': source['catalog_source_sha'],
                 'xml_signature': source['xml_signature'], 'selection_scope': 'all-catalogue-branches'}
+    # Do not migrate a queue to another catalogue or selection scope.
+    for k in ('catalog_source_sha','selection_scope'):
+        v = json.dumps(expected[k], ensure_ascii=False, sort_keys=True)
+        old = value(queue, 'meta', k)
+        if old is not None and old != v:
+            raise Refusal('Source/portee modifiee depuis la construction des packs: ' + k)
+    previous = value(queue,'meta','xml_signature')
+    current = json.dumps(expected['xml_signature'],ensure_ascii=False,sort_keys=True)
+    if previous is not None and previous != current and work is not None:
+        # Restore orphan ZIPs from the former epoch before recording a new one.
+        prior = dict(source)
+        prior['xml_signature'] = json.loads(previous)
+        recover_orphans(queue,work,prior)
     with queue:
+        if previous is not None and previous != current:
+            queue.execute('''INSERT INTO source_epoch_history
+              (previous_signature_json,new_signature_json,switched_utc,last_pack_sequence)
+              VALUES(?,?,?,?)''',
+              (previous,current,utc(),int(value(queue,'meta','pack_sequence') or '0')))
         for k, v in expected.items():
             serialized = json.dumps(v, ensure_ascii=False, sort_keys=True)
-            old = value(queue, 'meta', k)
-            if old is not None and old != serialized:
-                raise Refusal('Source/portee modifiee depuis la construction des packs: ' + k)
-            queue.execute('INSERT OR IGNORE INTO meta(key,value) VALUES(?,?)', (k, serialized))
+            if k == 'xml_signature':
+                queue.execute('''INSERT INTO meta(key,value) VALUES(?,?)
+                     ON CONFLICT(key) DO UPDATE SET value=excluded.value''', (k, serialized))
+            else:
+                queue.execute('INSERT OR IGNORE INTO meta(key,value) VALUES(?,?)', (k, serialized))
         queue.execute('INSERT OR IGNORE INTO meta(key,value) VALUES(?,?)', ('pack_sequence', '0'))
 
 
@@ -282,13 +315,174 @@ def page_from_index(ix, xml_handle, page_id):
     return wikitext.encode('utf-8'), str(rev), title
 
 
+XML_FULLTEXT_CACHE_SCHEMA = 'encyklopedia.kristal-xml-integral-verified-cache.v27/1'
+
+def local(tag):
+    return tag.rsplit('}', 1)[-1]
+
+
+def direct(element, name):
+    return next((e for e in element if local(e.tag) == name), None)
+
+
+def text_at(element, name):
+    e = direct(element, name) if element is not None else None
+    return e.text if e is not None and e.text is not None else ''
+
+
+class IntegrityError(ValueError):
+    """Source changed or cache tampered: do not mark the candidate as FAILED."""
+
+
+class VerifiedXmlResolver:
+    def __init__(self, ix, xml, work, queue, signature, index_matches, indexed_reader, refusal_type):
+        self.ix=ix
+        self.xml=Path(xml)
+        self.work=Path(work)
+        self.queue=queue
+        self.signature=signature
+        self.index_matches=bool(index_matches)
+        self.indexed_reader=indexed_reader
+        self.refusal_type=refusal_type
+        self.cache=None
+        self.scan_attempted=False
+        self.index_verified=0
+        self.cache_hits=0
+        self.scanned_pages=0
+        self.cached_pages=0
+        self.offset_failures=0
+
+    def close(self):
+        if self.cache is not None:
+            self.cache.close()
+            self.cache=None
+
+    def _db(self):
+        if self.cache is not None:
+            return self.cache
+        token=hashlib.sha256(json.dumps(self.signature,sort_keys=True,ensure_ascii=False).encode('utf-8')).hexdigest()[:16]
+        path=self.work/('CACHE_XML_INTEGRAL_VERIFIE_V27_'+token+'.sqlite')
+        path.parent.mkdir(parents=True,exist_ok=True)
+        if path.is_symlink():
+            raise IntegrityError('Cache XML ne peut pas etre un lien symbolique')
+        db=sqlite3.connect(path,timeout=120)
+        db.row_factory=sqlite3.Row
+        try:
+            db.execute('PRAGMA busy_timeout=120000')
+            db.execute('PRAGMA journal_mode=WAL')
+            db.executescript('''
+              CREATE TABLE IF NOT EXISTS meta(key TEXT PRIMARY KEY,value TEXT NOT NULL);
+              CREATE TABLE IF NOT EXISTS pages(
+               page_id INTEGER PRIMARY KEY,title TEXT NOT NULL,revision_id TEXT NOT NULL,
+               wikitext BLOB NOT NULL,text_sha256 TEXT NOT NULL);
+            ''')
+            expected={'schema':XML_FULLTEXT_CACHE_SCHEMA,'xml_signature':json.dumps(self.signature,sort_keys=True,ensure_ascii=False)}
+            for k,v in expected.items():
+                old=db.execute('SELECT value FROM meta WHERE key=?',(k,)).fetchone()
+                if old is not None and old[0]!=v:
+                    raise IntegrityError('Cache de textes intégraux lié à un autre dump XML : '+k)
+                db.execute('INSERT OR IGNORE INTO meta(key,value) VALUES(?,?)',(k,v))
+            db.commit()
+        except BaseException:
+            db.close()
+            raise
+        self.cache=db
+        return db
+
+    def _cached(self,pid):
+        db=self._db()
+        row=db.execute('SELECT title,revision_id,wikitext,text_sha256 FROM pages WHERE page_id=?',(pid,)).fetchone()
+        if not row:
+            return None
+        raw=bytes(row['wikitext'])
+        if not raw.strip() or hashlib.sha256(raw).hexdigest()!=row['text_sha256']:
+            raise IntegrityError('Cache XML intégral altéré pour page_id='+str(pid))
+        self.cache_hits+=1
+        return raw,row['revision_id'],row['title']
+
+    def _scan_missing_pending(self):
+        db=self._db()
+        targets={int(r[0]) for r in self.queue.execute("SELECT page_id FROM queue WHERE state='PENDING'")}
+        if not targets:
+            return
+        # Reprend le cache existant; jamais une extraction globale des articles.
+        have={int(r[0]) for r in db.execute('SELECT page_id FROM pages')}
+        pending=targets-have
+        if not pending:
+            return
+        print(json.dumps({'event':'V27_XML_RECOUPAGE_CIBLE','targets_missing':len(pending),
+                          'note':'lecture sequentielle du XML source; pas de reconstruction index v21'}),flush=True)
+        seen=0
+        try:
+            with self.xml.open('rb') as source:
+                parser=ET.iterparse(source,events=('start','end'))
+                _,root=next(parser)
+                for event,e in parser:
+                    if event!='end' or local(e.tag)!='page':
+                        continue
+                    try:
+                        pid=int(text_at(e,'id') or '0')
+                        if pid in pending and text_at(e,'ns')=='0' and direct(e,'redirect') is None:
+                            rev=direct(e,'revision')
+                            revision=text_at(rev,'id')
+                            txt=text_at(rev,'text')
+                            if revision and txt.strip():
+                                raw=txt.encode('utf-8')
+                                db.execute('INSERT OR IGNORE INTO pages VALUES(?,?,?,?,?)',
+                                           (pid,text_at(e,'title'),str(revision),raw,hashlib.sha256(raw).hexdigest()))
+                                self.cached_pages+=1
+                                pending.remove(pid)
+                                if self.cached_pages%64==0:db.commit()
+                    finally:
+                        seen+=1
+                        e.clear()
+                        root.clear()
+                    if seen%500000==0:
+                        print(json.dumps({'event':'V27_XML_RECOUPAGE_PROGRESS',
+                                          'pages_parsed':seen,'missing':len(pending)}),flush=True)
+                    if not pending:
+                        break
+            db.commit()
+        except BaseException:
+            db.rollback()
+            raise
+        self.scanned_pages+=seen
+        print(json.dumps({'event':'V27_XML_RECOUPAGE_TERMINE',
+                          'pages_parsed':seen,'new_fulltexts':self.cached_pages,
+                          'not_found':len(pending)}),flush=True)
+
+    def read(self,pid,indexed_handle):
+        # Même en cas de signatures différentes, le lecteur v21 contrôle
+        # les octets, le page_id, le titre et la révision de CHAQUE page.
+        if self.index_matches:
+            return self.indexed_reader(self.ix,indexed_handle,pid)
+        cached=self._cached(pid) if self.cache is not None else None
+        if cached is not None:
+            return cached
+        try:
+            result=self.indexed_reader(self.ix,indexed_handle,pid)
+            self.index_verified+=1
+            return result
+        except ValueError:
+            self.offset_failures+=1
+        if not self.scan_attempted:
+            self.scan_attempted=True
+            self._scan_missing_pending()
+        result=self._cached(pid)
+        if result is None:
+            raise self.refusal_type('Article absent de la version XML actuelle apres parcours cible : '+str(pid))
+        return result
+
+
+
+
 def all_assignments(cat, page_id):
     return [dict(r) for r in cat.execute('SELECT branch_id,vocabulary,concept_id,score,evidence_kind,evidence_origin '
                                         "FROM assignments WHERE wiki='enwiki' AND page_id=? "
                                         'ORDER BY score DESC,branch_id,concept_id', (page_id,))]
 
 
-def pack_articles(queue, cat, ix, xml, max_articles, target_words, target_bytes):
+def pack_articles(queue, cat, ix, xml, max_articles, target_words, target_bytes, resolver=None):
     """Priority keyset scan; skip any number of missing pages without user multipass."""
     entries = []
     total_words = total_bytes = 0
@@ -310,7 +504,8 @@ def pack_articles(queue, cat, ix, xml, max_articles, target_words, target_bytes)
                 last_score, last_pid = int(candidate['score']), int(candidate['page_id'])
                 pid = last_pid
                 try:
-                    raw, revision, title = page_from_index(ix, inp, pid)
+                    raw, revision, title = (resolver.read(pid,inp) if resolver is not None
+                                            else page_from_index(ix, inp, pid))
                 except Refusal as e:
                     with queue:
                         queue.execute("UPDATE queue SET state='FAILED',error=? WHERE page_id=? AND state='PENDING'",
@@ -483,35 +678,44 @@ def produce(args):
     try:
         queue = state_db(args.work / 'FILE_PACKS_V27.sqlite', WORK_FORMAT, QUEUE_SQL)
         try:
-            bind_work(queue, source)
+            bind_work(queue, source, args.work)
             sync = synchronize(catalogue, queue, source['catalog_sequence'])
             recovered = recover_orphans(queue, args.work, source)
+            resolver = VerifiedXmlResolver(ix, args.xml, args.work, queue, source['xml_signature'],
+                                           source['index_v21_matches_current_xml'], page_from_index, Refusal)
             outputs = []
-            for _ in range(args.max_packs):
-                entries = pack_articles(queue, catalogue, ix, args.xml, args.max_articles,
-                                        args.target_words, args.target_bytes)
-                if not entries:
-                    break
-                seq = int(value(queue,'meta','pack_sequence') or 0) + 1
-                pack_id = 'PACK_V27_' + f'{seq:06d}'
-                file, _ = make_pack(entries, pack_id, source, args.work)
-                h = hash_file(file)
-                with queue:
-                    queue.execute('INSERT INTO packs VALUES(?,?,?,?,?)', (pack_id, str(file), h, len(entries), utc()))
-                    for a in entries:
-                        queue.execute("UPDATE queue SET state='PACKED',pack_id=?,xml_revision=?,text_sha256=? WHERE page_id=? AND state='PENDING'",
-                                      (pack_id,a['revision_id'],digest(a['text']),a['page_id']))
-                    queue.execute("UPDATE meta SET value=? WHERE key='pack_sequence'", (str(seq),))
-                outputs.append({'pack_id': pack_id, 'path': str(file), 'sha256': h,
-                                'articles': len(entries), 'words': sum(x['word_count'] for x in entries),
-                                'uncompressed_text_bytes': sum(len(x['text']) for x in entries)})
-                print(json.dumps({'event':'V27_PACK_READY', **outputs[-1]},ensure_ascii=False),flush=True)
+            try:
+                for _ in range(args.max_packs):
+                    entries = pack_articles(queue, catalogue, ix, args.xml, args.max_articles,
+                                            args.target_words, args.target_bytes, resolver=resolver)
+                    if not entries:
+                        break
+                    seq = int(value(queue,'meta','pack_sequence') or 0) + 1
+                    pack_id = 'PACK_V27_' + f'{seq:06d}'
+                    file, _ = make_pack(entries, pack_id, source, args.work)
+                    h = hash_file(file)
+                    with queue:
+                        queue.execute('INSERT INTO packs VALUES(?,?,?,?,?)', (pack_id, str(file), h, len(entries), utc()))
+                        for a in entries:
+                            queue.execute("UPDATE queue SET state='PACKED',pack_id=?,xml_revision=?,text_sha256=? WHERE page_id=? AND state='PENDING'",
+                                          (pack_id,a['revision_id'],digest(a['text']),a['page_id']))
+                        queue.execute("UPDATE meta SET value=? WHERE key='pack_sequence'", (str(seq),))
+                    outputs.append({'pack_id': pack_id, 'path': str(file), 'sha256': h,
+                                    'articles': len(entries), 'words': sum(x['word_count'] for x in entries),
+                                    'uncompressed_text_bytes': sum(len(x['text']) for x in entries)})
+                    print(json.dumps({'event':'V27_PACK_READY', **outputs[-1]},ensure_ascii=False),flush=True)
+            finally:
+                resolver.close()
             stats = {r['state']: r['n'] for r in queue.execute('SELECT state,count(*) n FROM queue GROUP BY state')}
             return {'status': 'V27_PACKS_READY', 'source_catalogue_sequence': source['catalog_sequence'],
                     'packets_created_this_run': len(outputs), 'packs': outputs,
                     'queue': stats, 'recoveries': recovered, 'catalogue_sync': sync,
                     'source_xml_read_only': True,'catalogue_read_only': True,
-                    'source_articles_untruncated': True,'canonical_admissions':0}
+                    'source_articles_untruncated': True,'canonical_admissions':0,
+                    'index_v21_matches_current_xml':source['index_v21_matches_current_xml'],
+                    'xml_fulltexts_verified_by_offset':resolver.index_verified,
+                    'xml_fulltexts_verified_by_cache':resolver.cache_hits,
+                    'xml_pages_scanned_in_fallback':resolver.scanned_pages}
         finally:
             queue.close()
     finally:
@@ -745,7 +949,7 @@ def main(argv=None):
                     'articles_count':m['articles_count'],'sha256':hash_file(args.pack)}
         print(json.dumps(result,ensure_ascii=False,indent=2),flush=True)
         return 0
-    except (Refusal,OSError,sqlite3.DatabaseError,ValueError,KeyError,zipfile.BadZipFile,UnicodeError) as e:
+    except (Refusal,OSError,sqlite3.DatabaseError,ValueError,KeyError,zipfile.BadZipFile,UnicodeError,ET.ParseError) as e:
         print(json.dumps({'status':'V27_REFUS_SANS_CANONISATION','error':str(e)},ensure_ascii=False),file=sys.stderr,flush=True)
         return 2
 

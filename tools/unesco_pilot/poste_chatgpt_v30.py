@@ -33,8 +33,10 @@ import zipfile
 
 VERSION='encyklopedia.station.v30/1'
 LANES=10
-REVIEW_SIZE=110
-MIN_REVIEW_SIZE=55
+REVIEW_SIZE=880
+MIN_REVIEW_SIZE=650
+MAX_REVIEW_SIZE=880
+REVIEW_BUDGET=3200
 QUEUE_BUFFER=20
 MAX_REQUEST=110*1024*1024
 MAX_FILE=100*1024*1024
@@ -74,6 +76,7 @@ CREATE INDEX IF NOT EXISTS idx_review_priority ON review_index(state,priority DE
 CREATE TABLE IF NOT EXISTS receipts(id INTEGER PRIMARY KEY AUTOINCREMENT,at_utc TEXT NOT NULL,
  filename TEXT NOT NULL,job_id TEXT,status TEXT NOT NULL,detail TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS events(id INTEGER PRIMARY KEY AUTOINCREMENT,at_utc TEXT NOT NULL,message TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS v311_job_routes(job_id TEXT PRIMARY KEY REFERENCES jobs(id),branch_id TEXT NOT NULL,manifest_path TEXT NOT NULL,stage_path TEXT NOT NULL,work_path TEXT NOT NULL,branch_signature TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS updates(id TEXT PRIMARY KEY,status TEXT NOT NULL,manifest_json TEXT NOT NULL,zip_path TEXT NOT NULL,backup_path TEXT NOT NULL,created_utc TEXT NOT NULL,applied_utc TEXT,error TEXT NOT NULL DEFAULT '');
 '''
 
@@ -121,7 +124,7 @@ def json_text(obj):return (json.dumps(obj,ensure_ascii=False,indent=2)+'\n').enc
 def prompt(job):
     if job['kind']=='v27':
         return f'''ENCYKLOPEDIA — KRISTAL PRIVE v27 — {job['key']}\n\nANALYSE LE ZIP JOINT: {Path(job['bundle_path']).name}\nSHA-256 exact du pack: {job['source_sha256']}\n\nLis MANIFEST_PACK_V27.json, MODELE_DELTA_KRISTAL_V27.json et les textes complets. Extrait des faits encyclopédiques SELECTIFS, précis, appuyés sur leurs propres passages. Ne fabrique rien d'après un titre ou une déduction. Source Wikipédia non vérifiée indépendamment. Respecte chaque page_id, revision_id et concept_id. Fournis source_locator et courte source_quote quand disponible. Garde les rattachements UNESCO uniquement si le contenu les justifie. Pas de canon, pas de publication.\n\nRENVOIE UN SEUL ZIP contenant DELTA_KRISTAL_{job['key']}.json conforme au modèle du pack, format encyklopedia.kristal-ai-delta.v27/1, pack_id={job['key']}, pack_sha256={job['source_sha256']}, canonical_admissions=0, publication_authorized=false. AUCUN script ou exécutable. La validité des faits est toujours candidate, pas canonique.\n'''
-    return f'''ENCYKLOPEDIA — REVUE UNESCO v28 — TACHE {job['id']}\n\nANALYSE LE ZIP JOINT : {Path(job['bundle_path']).name} ({job['count']} propositions).\n\nLis chaque ligne du CSV REVUE_*.csv ET du fichier CONTEXTES_DOCUMENTAIRES_V28.jsonl (meme candidate_id). Les preuves complementaires incluent les notes de portee UNESCO, les categories et, si disponible, un extrait du texte Wikipedia original par index local. Le manifeste indique explicitement les textes absents. APPROVE lorsque l'article traite substantiellement du concept UNESCO (et pas une simple mention), justification francaise de 20 caracteres minimum. REJECT les rapprochements manifestement hors sujet ou accessoires. HOLD seulement si l'information disponible ne permet pas une decision defendable. Ne fabrique aucun fait, ni connaissance canonique.\n\nRENVOIE UN SEUL ZIP contenant exactement DECISIONS_{job['id']}.csv, UTF-8, avec STRICTEMENT trois colonnes candidate_id,decision,justification. OBLIGATOIRE : une ligne pour CHACUN des {job['count']} candidate_id, y compris HOLD. Ceci prouve au moins que chaque candidat a reçu une décision; ne fabrique aucun identifiant. Un CSV de réponses abrégé peut être accepté pour compatibilité, mais l'interface exigera alors une confirmation humaine avant import. Une revue tout-HOLD demande aussi confirmation. N'ajoute aucun code exécutable.\n\nAprès vérification des identifiants et des preuves, l'interface reconstruira le CSV complet pour le véritable importeur v28.\n'''
+    return f'''ENCYKLOPEDIA — REVUE UNESCO v28 — TACHE {job['id']}\n\nANALYSE LE ZIP JOINT : {Path(job['bundle_path']).name} ({job['count']} propositions).\n\nLis chaque ligne du CSV REVUE_*.csv ET du fichier CONTEXTES_DOCUMENTAIRES_V28.jsonl (meme candidate_id). Lis toutes les propositions, meme dans les lots de 650 a 880 (dernier lot possiblement plus petit). Les preuves complementaires incluent les notes de portee UNESCO, les categories et, si disponible, un extrait du texte Wikipedia original par index local. Le manifeste indique explicitement les textes absents. APPROVE lorsque l'article traite substantiellement du concept UNESCO (pas une simple mention). Justification concise en francais de 20 caracteres minimum, expliquant le lien sans inventer de faits. REJECT les rapprochements manifestement hors sujet ou accessoires. HOLD seulement si l'information disponible ne permet pas une decision defendable. Ne fabrique aucun fait, ni connaissance canonique.\n\nRENVOIE UN SEUL ZIP contenant exactement DECISIONS_{job['id']}.csv, UTF-8, avec STRICTEMENT trois colonnes candidate_id,decision,justification. OBLIGATOIRE : une ligne pour CHACUN des {job['count']} candidate_id, y compris HOLD. Ceci prouve au moins que chaque candidat a reçu une décision; ne fabrique aucun identifiant. Un CSV de réponses abrégé peut être accepté pour compatibilité, mais l'interface exigera alors une confirmation humaine avant import. Une revue tout-HOLD demande aussi confirmation. N'ajoute aucun code exécutable.\n\nAprès vérification des identifiants et des preuves, l'interface reconstruira le CSV complet pour le véritable importeur v28.\n'''
 
 
 def extract_zip_files(name:str,raw:bytes):
@@ -265,7 +268,17 @@ class Station:
             updates=[dict(r) for r in self.db.execute('SELECT id,status,created_utc,applied_utc FROM updates ORDER BY created_utc DESC LIMIT 3')]
             quality_row=self.db.execute("SELECT COALESCE(SUM(review_approved),0),COALESCE(SUM(review_rejected),0),COALESCE(SUM(review_hold),0) FROM jobs WHERE status='DONE' AND kind='v28'").fetchone()
             quality={'approved':quality_row[0],'rejected':quality_row[1],'hold':quality_row[2]}
-            return {'version':VERSION,'busy':self.busy,'operation':self.operation,'lanes':lanes,'jobs':stat,
+            qualification={'available':False,'cursor_page_id':None,'cached_bytes':0}
+            qpath=self.work.parent/'qualification_multibranche_v31'/'qualification_multibranche_v31.sqlite'
+            if qpath.is_file():
+                qualification['available']=True
+                qualification['cached_bytes']=qpath.stat().st_size
+                try:
+                    with closing(uri_ro(qpath)) as qdb:
+                        rr=qdb.execute("SELECT value FROM meta WHERE key='cursor_page_id'").fetchone()
+                        qualification['cursor_page_id']=int(rr[0]) if rr else None
+                except (ValueError,sqlite3.Error):pass
+            return {'qualification_v31':qualification,'version':VERSION,'busy':self.busy,'operation':self.operation,'lanes':lanes,'jobs':stat,
                     'review_index':ix,'stats':self._counts(),'events':events,'receipts':receipts,'updates':updates,'quality':quality,'work':str(self.work),
                     'v28_frozen':self._open_review_count()>0}
 
@@ -305,7 +318,7 @@ class Station:
     def _batch(self):
         self._log('BATCH : empaquetage v27, découverte protégée v28, index complet et file')
         for pass_i in range(12):
-            text=self._run('PRODUIRE_KRISTALS_V27.ps1',['-Action','Packs','-MaxPacks','100','-MaxArticles','16','-TargetWords','18000'])
+            text=self._run('PRODUIRE_KRISTALS_V27.ps1',['-Action','Packs','-MaxPacks','100','-MaxArticles','24','-TargetWords','80000','-TargetBytes','12582912'])
             if re.search(r'"queue"\s*:\s*\{\s*"PACKED"',text) or re.search(r'"PENDING"\s*:\s*0\b',text):break
             if re.search(r'"packets_created_this_run"\s*:\s*0\b',text):break
             if pass_i==11:self._log('12 passes v27 atteintes; prochain batch continuera les packs.')
@@ -314,11 +327,27 @@ class Station:
             self._log('DÉCOUVERTE REPORTÉE : retours v28 en cours; preuves figées jusqu’à clôture des lots.')
         else:
             for step in range(12):
-                res=self._run('DECOUVRIR_ARTICLES_RELIES_V28.ps1',['-Action','Discover','-MaxSeeds','10000'])
+                try:
+                    res=self._run('DECOUVRIR_ARTICLES_RELIES_V28.ps1',['-Action','Discover','-MaxSeeds','10000'])
+                except ValueError as ex:
+                    reason=str(ex).lower()
+                    # Seule l'incompatibilité avérée XML/index entraîne un changement
+                    # de moteur de découverte; les contrôles de source restent actifs.
+                    mismatch=('ne correspond pas a l index v21' in reason or
+                              'ne correspond pas à l index v21' in reason or
+                              'signature du xml differente' in reason)
+                    if not mismatch:raise
+                    from routage_branches_v311 import relational_discover
+                    self._log('Index XML v21 incompatible : découverte SQL relationnelle sans citations XML')
+                    res=relational_discover(self,self._v28_engine(),self._v28_engine().v25.DEFAULT_BRANCH,
+                                            self.v28,max_seeds=10000)
                 mo=re.search(r'"seeds_pending"\s*:\s*(\d+)',res)
                 if mo and int(mo.group(1))==0:break
-                mo_done=re.search(r'"seeds_processed_this_run"\s*:\s*(\d+)',res)
+                mo_done=re.search(r'"(?:seeds_processed_this_run|seeds_processed)"\s*:\s*(\d+)',res)
                 if mo_done and int(mo_done.group(1))==0:break
+            from routage_branches_v311 import discover_other
+            other=discover_other(self,self._v28_engine())
+            if other:self._log('Découvertes multibranches mises à jour : '+', '.join(other))
         self._prepare()
 
     def prepare(self):self._start('Préparation des postes',self._prepare)
@@ -363,13 +392,27 @@ class Station:
     def _refresh_review_index(self):
         stage=self.v28/'DECOUVERTE_ARTICLES_RELIES_V28.sqlite'
         if not stage.is_file():
-            self._log('Découverte v28 absente : aucun index UNESCO créé');return 0
+            self._log('Découverte historique v28 absente : vérification des autres branches')
+            from routage_branches_v311 import refresh
+            return refresh(self,self._v28_engine())
         m=self._v28_engine();branch=m.v25.load_branch(m.v25.DEFAULT_BRANCH)
         work=uri_ro(stage)
         try:
             if m.v25.meta(work,'schema')!=m.FORMAT or m.v25.meta(work,'branch_signature')!=branch['signature']:
                 raise ValueError('Découverte v28 et branche UNESCO incompatibles')
             labels={c['unesco_id']:m.v25.label(c,'en') for c in branch['concepts']}
+            from priorisation_native_v31 import score as v31_score
+            # Cache multibranche V31 réutilisé si déjà alimenté ; jamais un prérequis
+            # pour les imports/retours des tâches en cours.
+            profile_db=None
+            cache=self.work.parent/'qualification_multibranche_v31'/'qualification_multibranche_v31.sqlite'
+            if cache.is_file():
+                try:
+                    profile_db=uri_ro(cache)
+                    profile_db.execute('SELECT 1 FROM branch_suggestions LIMIT 1').fetchone()
+                except (ValueError,sqlite3.Error):
+                    if profile_db:profile_db.close()
+                    profile_db=None
             classified=set()
             if self.catalogue.is_file():
                 with closing(uri_ro(self.catalogue)) as cat:
@@ -418,7 +461,14 @@ class Station:
                         if key in classified:continue
                         if r['concept_id'] not in labels:continue
                         cid=m.candidate_id(branch['id'],r['concept_id'],int(r['page_id']))
-                        score=m.priority(r,labels[r['concept_id']]);checked+=1
+                        score=v31_score(r,labels[r['concept_id']])
+                        if profile_db is not None:
+                            prof=profile_db.execute('SELECT score,concept_id_suggested FROM branch_suggestions WHERE page_id=? AND branch_id=?',
+                                (int(r['page_id']),branch['id'])).fetchone()
+                            if prof is not None:
+                                score=min(100,round(score*0.8+int(prof['score'])*0.2+
+                                    (5 if prof['concept_id_suggested']==r['concept_id'] else 0)))
+                        checked+=1
                         cur=self.db.execute('''INSERT OR IGNORE INTO review_index(candidate_id,branch_id,concept_id,page_id,title,
                             priority,seed_count,link_evidence,category_evidence,subcategory_evidence,state,last_seen_utc)
                             VALUES(?,?,?,?,?,?,?,?,?,?,'PENDING',?)''',
@@ -427,35 +477,55 @@ class Station:
                         added+=cur.rowcount
                         # Re-rank only unscheduled tasks; never invalidate a pending ChatGPT job.
                         self.db.execute('''UPDATE review_index SET priority=?,seed_count=?,link_evidence=?,
-                             category_evidence=?,subcategory_evidence=?,title=?,last_seen_utc=?
-                             WHERE candidate_id=? AND state='PENDING' ''',
-                             (score,int(r['seed_count']),int(r['links']),int(r['shared']),int(r['subs']),r['title'],now(),cid))
+                             category_evidence=?,subcategory_evidence=?,title=?,last_seen_utc=?,
+                             state=CASE WHEN ?<15 AND ?=0 THEN 'DEFERRED' ELSE 'PENDING' END
+                             WHERE candidate_id=? AND state IN ('PENDING','DEFERRED') ''',
+                             (score,int(r['seed_count']),int(r['links']),int(r['shared']),int(r['subs']),r['title'],now(),
+                              score,int(r['links']),cid))
             self._log(f'Index UNESCO v30 : {checked} propositions éligibles, {added} nouvelles; HOLD conservés.')
-            return added
-        finally:work.close()
+            from routage_branches_v311 import refresh
+            return added+refresh(self,m)
+        finally:
+            work.close()
+            if 'profile_db' in locals() and profile_db is not None:profile_db.close()
 
     def _prepare_v28(self):
         queued=self.db.execute("SELECT count(*) FROM jobs WHERE kind='v28' AND status IN ('WAITING','READY','SENT','ERROR','IMPORTING','NEEDS_CONFIRMATION')").fetchone()[0]
         if queued>=QUEUE_BUFFER:return 0
         m=self._v28_engine();branch=m.v25.load_branch(m.v25.DEFAULT_BRANCH)
+        from routage_branches_v311 import live
+        active_extras=live(self,m)
+        legacy_target=(QUEUE_BUFFER if not active_extras else min(QUEUE_BUFFER,max(queued,QUEUE_BUFFER//(len(active_extras)+1))))
         labels={c['unesco_id']:m.v25.label(c,'en') for c in branch['concepts']}
         stage=self.v28/'DECOUVERTE_ARTICLES_RELIES_V28.sqlite'
         if not stage.is_file():return 0
         work=uri_ro(stage)
         created=0
         try:
-            while queued<QUEUE_BUFFER:
-                count=REVIEW_SIZE
-                # Reserve candidates strictly by current global score; no top-3000 export ceiling.
-                ranked=list(self.db.execute('''SELECT * FROM review_index WHERE state='PENDING'
+            while queued<legacy_target:
+                # Packs natifs élargis : qualification V31 + exploration stratifiée.
+                # Aucun candidat n'est rejeté automatiquement et aucune tâche existante n'est remaniée.
+                from priorisation_native_v31 import select as v31_select
+                ranked=list(self.db.execute('''SELECT * FROM review_index WHERE state='PENDING' AND branch_id=?
                     ORDER BY priority DESC,seed_count DESC,
                     (link_evidence+category_evidence+subcategory_evidence) DESC,page_id ASC,concept_id DESC
-                    LIMIT ?''',(count,)))
-                if not ranked:break
+                    LIMIT ?''',(branch['id'],max(REVIEW_SIZE*15,6000))))
+                if not ranked:break  # le stock faible reste en réserve, non rejeté
+                take=min(REVIEW_SIZE,MAX_REVIEW_SIZE)
+                top=v31_select(ranked,min(len(ranked),round(take*.75)),explore=0.18)
+                weak=list(self.db.execute('''SELECT * FROM review_index WHERE state='DEFERRED' AND branch_id=?
+                    ORDER BY priority DESC,seed_count DESC,page_id ASC LIMIT ?''',
+                    (branch['id'],max(REVIEW_SIZE*15,6000))))
+                reserve=v31_select(weak,min(take-len(top),len(weak)),explore=1.0)
+                picked=top+reserve
+                if len(picked)<take:
+                    seen={x['candidate_id'] for x in picked}
+                    picked.extend(x for x in ranked if x['candidate_id'] not in seen)
+                    picked=picked[:take]
                 rows=[];ids=[];complexity=0
-                for r in ranked:
+                for r in picked:
                     item_cost=1+min(3,(int(r['link_evidence'])+int(r['category_evidence'])+int(r['subcategory_evidence']))//8)
-                    if len(rows)>=MIN_REVIEW_SIZE and complexity+item_cost>REVIEW_SIZE:break
+                    if len(rows)>=MIN_REVIEW_SIZE and complexity+item_cost>REVIEW_BUDGET:break
                     complexity+=item_cost
                     src=work.execute('SELECT * FROM candidates WHERE branch_id=? AND concept_id=? AND page_id=?',
                                      (r['branch_id'],r['concept_id'],r['page_id'])).fetchone()
@@ -494,7 +564,7 @@ class Station:
                 self.db.execute('''INSERT OR IGNORE INTO jobs(id,kind,key,count,status,source_path,source_sha256,
                  bundle_path,bundle_sha256,created_utc,source_generation) VALUES(?,?,?,?,?,?,?,?,?,?,?)''',
                  (jid,'v28',jid,len(rows),'WAITING',str(srcpath),sha(raw),str(bundle),sha_path(bundle),now(),str(m.v25.meta(work,'catalogue_sequence') or '')))
-                self.db.executemany("UPDATE review_index SET state='QUEUED',task_id=?,evidence_sha256=? WHERE candidate_id=? AND state='PENDING'",
+                self.db.executemany("UPDATE review_index SET state='QUEUED',task_id=?,evidence_sha256=? WHERE candidate_id=? AND state IN ('PENDING','DEFERRED')",
                     [(jid,r['evidence_sha256'],r['candidate_id']) for r in rows])
                 queued+=1;created+=1
             self.db.commit()
@@ -507,6 +577,8 @@ class Station:
         self._refresh_review_index()
         with self.lock:
             b=self._prepare_v28()
+            from routage_branches_v311 import prepare as prepare_branches
+            b+=prepare_branches(self,self._v28_engine())
             with self.db:self._fill_lanes()
         self._log(f'File alimentée : {a} packs Kristal et {b} nouvelles revues UNESCO ; 10 postes renouvelés.')
 
@@ -531,8 +603,10 @@ class Station:
             original=Path(job['source_path'])
             if not original.is_file() or sha_path(original)!=job['source_sha256']:
                 raise ValueError('Source UNESCO originale absente ou modifiée : '+jid)
-            return context.cached_enriched_bundle(path,original,self.repo,
-                self.v28/'DECOUVERTE_ARTICLES_RELIES_V28.sqlite',self.work)
+            from routage_branches_v311 import job_route
+            route=job_route(self,jid)
+            stage=Path(route['stage_path']) if route is not None else self.v28/'DECOUVERTE_ARTICLES_RELIES_V28.sqlite'
+            return context.cached_enriched_bundle(path,original,self.repo,stage,self.work)
         return path
 
     def mark_sent(self,jid):
@@ -697,8 +771,9 @@ $clipboard.SetFileDropList($items)
                     return
                 complete=store/(jid+'_'+sha(merged)[:16]+'_COMPLET.csv')
                 if not complete.exists():complete.write_bytes(merged)
-                self._run('DECOUVRIR_ARTICLES_RELIES_V28.ps1',['-Action','Apply','-DecisionsFile',str(complete),'-DryRun'])
-                self._run('DECOUVRIR_ARTICLES_RELIES_V28.ps1',['-Action','Apply','-DecisionsFile',str(complete)])
+                from routage_branches_v311 import apply as routed_apply
+                routed_apply(self,self._v28_engine(),job,complete,True)
+                routed_apply(self,self._v28_engine(),job,complete,False)
             self._complete(job,kind,content,counts)
         except Exception as ex:
             with self.lock:
@@ -727,6 +802,8 @@ $clipboard.SetFileDropList($items)
             if kind=='v28':
                 try:
                     self._prepare_v28()
+                    from routage_branches_v311 import prepare as prepare_branches
+                    prepare_branches(self,self._v28_engine())
                     with self.db:self._fill_lanes()
                 except Exception as ex:self._log('Préparation de nouveaux lots différée : '+str(ex))
 
@@ -743,10 +820,9 @@ $clipboard.SetFileDropList($items)
             if counts['APPROVE'] or counts['REJECT']:
                 store=self.work/'returns';complete=store/(jid+'_'+sha(merged)[:16]+'_COMPLET.csv')
                 if not complete.exists():complete.write_bytes(merged)
-                self._run('DECOUVRIR_ARTICLES_RELIES_V28.ps1',
-                          ['-Action','Apply','-DecisionsFile',str(complete),'-DryRun'])
-                self._run('DECOUVRIR_ARTICLES_RELIES_V28.ps1',
-                          ['-Action','Apply','-DecisionsFile',str(complete)])
+                from routage_branches_v311 import apply as routed_apply
+                routed_apply(self,self._v28_engine(),dict(j),complete,True)
+                routed_apply(self,self._v28_engine(),dict(j),complete,False)
             self._complete(dict(j),'v28',content,counts)
             return {'ok':True}
 
@@ -775,6 +851,8 @@ $clipboard.SetFileDropList($items)
                 self._fill_lanes()
             if j['kind']=='v28':
                 self._prepare_v28()
+                from routage_branches_v311 import prepare as prepare_branches
+                prepare_branches(self,self._v28_engine())
                 with self.db:self._fill_lanes()
             self._log('Tâche ignorée : '+jid)
             return {'ok':True}

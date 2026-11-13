@@ -1,0 +1,36 @@
+{
+  "format": "encyklopedia.mode-volume.v31.2/1",
+  "description": "Packs 880 UNESCO et Kristal 24 articles, 80k mots, sans modifier le travail figé",
+  "files": [
+    {
+      "path": "tools/unesco_pilot/poste_chatgpt_v30.py",
+      "sha256": "2857faf01dc927f7e0222fe3c0d033a5d3750895baf6b179ebda5de704e97629",
+      "allowed_previous_sha256": [
+        "8aa2bab545e54f6af70806ac1dd2fbcfe1edb6ad68bc03899073e61bfd04e911"
+      ],
+      "require_existing": true
+    },
+    {
+      "path": "tests/test_integration_v31.py",
+      "sha256": "09805ea5c4d5cb51558c2a028eb33873e7cadd9f7f266654bd59355c8163c5b6",
+      "allowed_previous_sha256": [
+        "f9dafa94e8742dcde9134ee50b66bfe18cb14fc881d490286f3eb58e88269f3f"
+      ],
+      "require_existing": true
+    },
+    {
+      "path": "tests/test_megamaj_v311.py",
+      "sha256": "8fd7257f741baac873aad458f667030c47d1fe26a93a5368d5e5d6e8319b3e98",
+      "allowed_previous_sha256": [
+        "12471b88af1e66d65cebb29cd6347d32e4b94b6072d581f21cfaabdea43603d9"
+      ],
+      "require_existing": true
+    },
+    {
+      "path": "tests/test_mode_volume_v312.py",
+      "sha256": "fb0345d25e854e78297b8868414c735d4979108b4e064c1589e5bbc92668863a",
+      "allowed_previous_sha256": [],
+      "require_existing": false
+    }
+  ]
+}

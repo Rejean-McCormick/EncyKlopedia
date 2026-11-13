@@ -1,0 +1,83 @@
+{
+  "format": "encyklopedia.unesco-priority-model.v28/1",
+  "method": "Logistic regression L2 C=2 class_weight=balanced, trained offline on 5 reviewed v28 lots; sklearn used for training only, inference standard library",
+  "trained_rows": 519,
+  "trained_approved": 58,
+  "trained_rejected": 461,
+  "scope": "Prioritization only; not documentary judgments; HOLD excluded",
+  "intercept": -3.338637240341982,
+  "coefficients": {
+    "direct_links": 1.1248419545408774,
+    "direct_sources": 1.406052443176096,
+    "category_links": -0.7388000958228808,
+    "subcategory_links": 0.7280165431307613,
+    "seeds": 1.0457597577026925,
+    "title_concept_overlap": -0.6291523227926055,
+    "category_concept_overlap": 0.6605216881711743,
+    "source_concept_overlap": 0.31289545809318886,
+    "title_educational": -2.0014032901166736,
+    "category_educational": 3.2772604383915915,
+    "source_educational": 0.29907048369889083,
+    "generic_geography": -0.9405627728509545,
+    "article_is_abstract": -1.492946151215359,
+    "title_substantive": 1.9061466754312137,
+    "text_available": 0.0,
+    "text_concept": 0.0,
+    "scope_note": -0.26276750502793533
+  },
+  "validation": {
+    "strategy": "leave-one-pack-out (5 packs), only APPROVE and REJECT rows",
+    "auc_roc": 0.8665,
+    "avg_precision": 0.4277,
+    "baseline_approval": 0.1118,
+    "top_20_percent_approval": 0.3689,
+    "top_20_percent_approval_recall": 0.6552,
+    "by_pack": [
+      {
+        "pack": "v28_8a8fa9d7f64943_2c002128",
+        "evaluated": 107,
+        "approved": 2,
+        "top_count": 21,
+        "top_approved": 2,
+        "top_approval_rate": 0.095,
+        "top_recall": 1.0
+      },
+      {
+        "pack": "v28_4ed3944536fcaf_d5c6ea81",
+        "evaluated": 99,
+        "approved": 25,
+        "top_count": 19,
+        "top_approved": 7,
+        "top_approval_rate": 0.368,
+        "top_recall": 0.28
+      },
+      {
+        "pack": "v28_4de731107e2e3f_22792d99",
+        "evaluated": 103,
+        "approved": 15,
+        "top_count": 20,
+        "top_approved": 12,
+        "top_approval_rate": 0.6,
+        "top_recall": 0.8
+      },
+      {
+        "pack": "v28_d9fe42ed4c76ce_6b649e1c",
+        "evaluated": 102,
+        "approved": 9,
+        "top_count": 20,
+        "top_approved": 3,
+        "top_approval_rate": 0.15,
+        "top_recall": 0.333
+      },
+      {
+        "pack": "v28_f4029f99b40ea2_e02fb995",
+        "evaluated": 108,
+        "approved": 7,
+        "top_count": 21,
+        "top_approved": 5,
+        "top_approval_rate": 0.238,
+        "top_recall": 0.714
+      }
+    ]
+  }
+}

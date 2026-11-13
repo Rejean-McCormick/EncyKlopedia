@@ -1,0 +1,11 @@
+{
+  "format": "encyklopedia.v28.packs-adaptatifs/1",
+  "mode": "planification_audit_pas_de_patch_prod_automatique",
+  "objectif_candidats": 300,
+  "minimum_souhaite": 150,
+  "maximum_candidats": 500,
+  "budget_caracteres_preuves": 750000,
+  "part_exploration": 0.25,
+  "taille_minimale_contexte_estime": 2200,
+  "avertissement": "Le planificateur ne doit intervenir qu'avant creation/gel des taches. Ne pas regrouper les ZIPs existants."
+}

@@ -22,7 +22,7 @@ import zipfile
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 FORMAT = 'encyklopedia.unesco-review-context.v28/1'
-CACHE_VERSION = 2
+CACHE_VERSION = 3
 MAX_PAGE_XML_BYTES = 2_000_000
 MAX_EXCERPT_CHARS = 3400
 MAX_EVIDENCE = 18
@@ -64,7 +64,41 @@ def _plain_lead(wikitext: str) -> str:
     return text[:MAX_EXCERPT_CHARS]
 
 
-def _concepts(repo: Path):
+def _concepts(repo: Path, stage: Path | None = None):
+    # La branche du fichier v28 provient des métadonnées de la découverte, pas
+    # d'un intitulé fourni par ChatGPT. Le code original ne connaissait que MT1.10.
+    if stage is not None and stage.is_file():
+        try:
+            with closing(sqlite3.connect(stage.resolve().as_uri()+'?mode=ro',uri=True)) as db:
+                value=db.execute("SELECT value FROM meta WHERE key='branch_id'").fetchone()
+            bid=value[0] if value else None
+            if bid:
+                import catalogue_global_v25 as v25
+                root=repo/'tools'/'unesco_pilot'/'v25_data'
+                for manifest in sorted(root.rglob('branche_*.json')) if root.is_dir() else []:
+                    b=v25.load_branch(manifest)
+                    if b['id']!=bid:continue
+                    result={}
+                    for c in b['concepts']:
+                        cid=c['unesco_id']
+                        def vals(name,language):
+                            item=c.get(name,{})
+                            if isinstance(item,dict):
+                                x=item.get(language,[])
+                                return x if isinstance(x,list) else [x] if isinstance(x,str) else []
+                            return []
+                        result[cid]={
+                          'titre_en':vals('preferred_labels','en')[:1],
+                          'titre_fr':vals('preferred_labels','fr')[:1],
+                          'note_portee_en':vals('scope_notes','en')[:2],
+                          'note_portee_fr':vals('scope_notes','fr')[:2],
+                          'autres_libelles_en':vals('alternate_labels','en')[:8],
+                          'relations_broader':c.get('broader',[])[:10],
+                          'source':'UNESCO Thesaurus local / '+bid}
+                    return result
+                return {}  # Manifeste non retrouvé : ne pas inventer des notes.
+        except (OSError,ValueError,sqlite3.Error,KeyError,TypeError):
+            pass
     path = repo/'tools'/'unesco_pilot'/'v25_data'/'unesco_2026_educational_policy.json'
     try:
         data = json.loads(path.read_text('utf-8'))
@@ -115,6 +149,50 @@ def _open_optional_xml_context():
         return None, None, 'XML/index non utilisable : '+str(ex)
 
 
+
+
+def _open_prepared_xml_v31():
+    """Cache d'extraits construit sur le XML lui-même (pas sur les offsets v21)."""
+    from pathlib import Path
+    import production_kristals_v27 as v27
+    import preuves_xml_v31 as v31
+    p=v31.DEFAULT_CACHE
+    if not p.is_file():return None,'Cache XML V31 absent'
+    db=None
+    try:
+        actual=v31.xml_sig(v27.DEFAULT_XML)
+        db=sqlite3.connect(p.resolve().as_uri()+'?mode=ro',uri=True,timeout=10)
+        db.row_factory=sqlite3.Row
+        schema=db.execute("SELECT value FROM meta WHERE key='schema'").fetchone()
+        sig=db.execute("SELECT value FROM meta WHERE key='xml_signature'").fetchone()
+        if not schema or schema[0]!=v31.VERSION or not sig or sig[0]!=actual:
+            raise ValueError('signature XML du cache v31 incompatible')
+        return db,None
+    except (ValueError,OSError,sqlite3.Error) as ex:
+        if db:db.close()
+        return None,'Cache V31 indisponible : '+str(ex)
+
+
+def _prepared_article_v31(db,source,pid,labels):
+    """Ne présente pas une citation si la révision ne correspond pas à wiki_pages."""
+    if source is None:return {'etat':'verification_revision_impossible'}
+    r=db.execute('SELECT * FROM prepared_pages WHERE page_id=?',(pid,)).fetchone()
+    if r is None:return {'etat':'introuvable_dans_cache_v31'}
+    page=source.execute('SELECT latest_revision,title FROM wiki_pages WHERE page_id=? AND ns=0',(pid,)).fetchone()
+    if page is None or str(page[0])!=str(r['revision_id']):
+        return {'etat':'revision_xml_differente','revision_xml':r['revision_id'],
+                'revision_index':page[0] if page else None}
+    wikitext=r['wikitext']
+    if _sha(wikitext.encode('utf-8'))!=r['sha256_stored']:
+        return {'etat':'cache_v31_empreinte_incoherente'}
+    if r['complete_text'] and r['sha256_full']!=r['sha256_stored']:
+        return {'etat':'cache_v31_empreinte_originale_incoherente'}
+    return {'etat':'texte_source_verifie','title_xml':r['title'],'revision_id':r['revision_id'],
+            'texte_intro':_plain_lead(wikitext),
+            'passages_termes_concept':_targeted_passages(wikitext,labels),
+            'empreinte_wikitexte_sha256':r['sha256_full'],
+            'extrait_tronque':not bool(r['complete_text']),
+            'source_extrait':'parcours_XML_v31_sans_index_offsets'}
 
 
 def _targeted_passages(wikitext: str, labels: list[str]):
@@ -217,14 +295,20 @@ def enriched_bytes(original: bytes, source_csv: bytes, repo: Path, stage: Path):
     """Augment only documentary context; never alter the original CSV or IDs."""
     import poste_chatgpt_v30 as v30
     rows = v30.read_baseline(source_csv)
-    concepts = _concepts(repo)
-    ix = xhandle = None
+    concepts = _concepts(repo,stage)
+    ix = xhandle = prepared_v31 = None
     source = work = None
     reason = None
     from pathlib import Path
     import production_kristals_v27 as v27
     try:
         ix,xhandle,reason = _open_optional_xml_context()
+        if ix is None:
+            prepared_v31, cache_reason = _open_prepared_xml_v31()
+            if prepared_v31 is not None:
+                reason='Extraits XML V31 verifies directement (sans index v21)'
+            else:
+                reason='; '.join(filter(None,(reason,cache_reason)))
         source = _open_source()
         try:
             work = v27.ro_sql(stage) if stage.is_file() else None
@@ -237,7 +321,9 @@ def enriched_bytes(original: bytes, source_csv: bytes, repo: Path, stage: Path):
             pid=int(row['page_id'])
             concept=concepts.get(row['concept_id'],{'titre_en':[row['concept_en']]})
             labels=concept.get('titre_en',[])+concept.get('autres_libelles_en',[])
-            article=_safe_article(ix,xhandle,pid,cached,labels) if ix is not None else {'etat':'non_disponible', 'motif':reason}
+            article=(_safe_article(ix,xhandle,pid,cached,labels) if ix is not None else
+                _prepared_article_v31(prepared_v31,source,pid,labels) if prepared_v31 is not None else
+                {'etat':'non_disponible','motif':reason})
             readable += article['etat']=='texte_source_verifie'
             data.append({
                 'candidate_id':row['candidate_id'],'concept_id':row['concept_id'],
@@ -281,6 +367,7 @@ def enriched_bytes(original: bytes, source_csv: bytes, repo: Path, stage: Path):
         if source is not None:source.close()
         if xhandle is not None:xhandle.close()
         if ix is not None:ix.close()
+        if prepared_v31 is not None:prepared_v31.close()
 
 
 def _input_state(stage: Path):
@@ -293,7 +380,9 @@ def _input_state(stage: Path):
             return [s.st_size,s.st_mtime_ns]
         except OSError:
             return None
+    import preuves_xml_v31 as v31
     return {'xml':stat(v27.DEFAULT_XML),'index':stat(v27.DEFAULT_INDEX),
+            'xml_cache_v31':stat(v31.DEFAULT_CACHE),
             'wikipedia_sqlite':stat(v25.DEFAULT_SOURCE),'v28_stage':stat(stage)}
 
 
