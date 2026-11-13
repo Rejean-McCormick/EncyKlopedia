@@ -121,7 +121,7 @@ def json_text(obj):return (json.dumps(obj,ensure_ascii=False,indent=2)+'\n').enc
 def prompt(job):
     if job['kind']=='v27':
         return f'''ENCYKLOPEDIA — KRISTAL PRIVE v27 — {job['key']}\n\nANALYSE LE ZIP JOINT: {Path(job['bundle_path']).name}\nSHA-256 exact du pack: {job['source_sha256']}\n\nLis MANIFEST_PACK_V27.json, MODELE_DELTA_KRISTAL_V27.json et les textes complets. Extrait des faits encyclopédiques SELECTIFS, précis, appuyés sur leurs propres passages. Ne fabrique rien d'après un titre ou une déduction. Source Wikipédia non vérifiée indépendamment. Respecte chaque page_id, revision_id et concept_id. Fournis source_locator et courte source_quote quand disponible. Garde les rattachements UNESCO uniquement si le contenu les justifie. Pas de canon, pas de publication.\n\nRENVOIE UN SEUL ZIP contenant DELTA_KRISTAL_{job['key']}.json conforme au modèle du pack, format encyklopedia.kristal-ai-delta.v27/1, pack_id={job['key']}, pack_sha256={job['source_sha256']}, canonical_admissions=0, publication_authorized=false. AUCUN script ou exécutable. La validité des faits est toujours candidate, pas canonique.\n'''
-    return f'''ENCYKLOPEDIA — REVUE UNESCO v28 — TACHE {job['id']}\n\nANALYSE LE ZIP JOINT : {Path(job['bundle_path']).name} ({job['count']} propositions).\n\nLis chaque ligne du CSV. Ce pack ne contient PAS les textes complets des articles; ce sont uniquement des titres et des preuves de liens/catégories. APPROVE uniquement si le sujet documentaire est explicitement pertinent pour ce concept UNESCO, avec une justification française de 20 caractères minimum. REJECT les faux liens évidents. Sinon HOLD. N'ajoute pas de connaissances factuelles; aucune admission canonique.\n\nRENVOIE UN SEUL ZIP contenant exactement DECISIONS_{job['id']}.csv, UTF-8, avec STRICTEMENT trois colonnes candidate_id,decision,justification. OBLIGATOIRE : une ligne pour CHACUN des {job['count']} candidate_id, y compris HOLD. Ceci prouve au moins que chaque candidat a reçu une décision; ne fabrique aucun identifiant. Un CSV de réponses abrégé peut être accepté pour compatibilité, mais l'interface exigera alors une confirmation humaine avant import. Une revue tout-HOLD demande aussi confirmation. N'ajoute aucun code exécutable.\n\nAprès vérification des identifiants et des preuves, l'interface reconstruira le CSV complet pour le véritable importeur v28.\n'''
+    return f'''ENCYKLOPEDIA — REVUE UNESCO v28 — TACHE {job['id']}\n\nANALYSE LE ZIP JOINT : {Path(job['bundle_path']).name} ({job['count']} propositions).\n\nLis chaque ligne du CSV REVUE_*.csv ET du fichier CONTEXTES_DOCUMENTAIRES_V28.jsonl (meme candidate_id). Les preuves complementaires incluent les notes de portee UNESCO, les categories et, si disponible, un extrait du texte Wikipedia original par index local. Le manifeste indique explicitement les textes absents. APPROVE lorsque l'article traite substantiellement du concept UNESCO (et pas une simple mention), justification francaise de 20 caracteres minimum. REJECT les rapprochements manifestement hors sujet ou accessoires. HOLD seulement si l'information disponible ne permet pas une decision defendable. Ne fabrique aucun fait, ni connaissance canonique.\n\nRENVOIE UN SEUL ZIP contenant exactement DECISIONS_{job['id']}.csv, UTF-8, avec STRICTEMENT trois colonnes candidate_id,decision,justification. OBLIGATOIRE : une ligne pour CHACUN des {job['count']} candidate_id, y compris HOLD. Ceci prouve au moins que chaque candidat a reçu une décision; ne fabrique aucun identifiant. Un CSV de réponses abrégé peut être accepté pour compatibilité, mais l'interface exigera alors une confirmation humaine avant import. Une revue tout-HOLD demande aussi confirmation. N'ajoute aucun code exécutable.\n\nAprès vérification des identifiants et des preuves, l'interface reconstruira le CSV complet pour le véritable importeur v28.\n'''
 
 
 def extract_zip_files(name:str,raw:bytes):
@@ -521,6 +521,18 @@ class Station:
         job=self.task(jid);path=Path(job['bundle_path'])
         if not path.is_file() or sha_path(path)!=job['bundle_sha256']:
             raise ValueError('Paquet source absent ou modifié : '+jid)
+        if job['kind']=='v28':
+            # Enrichment is only an extra review document. The immutable baseline CSV,
+            # task id, input hashes, review DB, and imported decisions are unchanged.
+            path_context=self.repo/'tools'/'unesco_pilot'/'contexte_revue_unesco_v28.py'
+            spec=importlib.util.spec_from_file_location('encyklopedia_v28_context',path_context)
+            context=importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(context)
+            original=Path(job['source_path'])
+            if not original.is_file() or sha_path(original)!=job['source_sha256']:
+                raise ValueError('Source UNESCO originale absente ou modifiée : '+jid)
+            return context.cached_enriched_bundle(path,original,self.repo,
+                self.v28/'DECOUVERTE_ARTICLES_RELIES_V28.sqlite',self.work)
         return path
 
     def mark_sent(self,jid):
