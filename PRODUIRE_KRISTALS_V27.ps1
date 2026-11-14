@@ -3,9 +3,9 @@ param(
   [ValidateSet('Packs','Import','Status','Export','VerifyPack')]
   [string]$Action = 'Packs',
   [int]$MaxPacks = 5,
-  [int]$MaxArticles = 12,
-  [int]$TargetWords = 35000,
-  [int]$TargetBytes = 6291456,
+  [int]$MaxArticles = 120,
+  [int]$TargetWords = 400000,
+  [int]$TargetBytes = 62914560,
   [string]$CataloguePath = 'D:\EncyKlopedia\80_search_indexes\EncyKlopedia\catalogue_global_unesco_wikipedia_v25.sqlite',
   [string]$XmlPath = 'D:\EncyKlopedia\30_working\wikipedia_en_uncompressed\enwiki-latest-pages-articles-multistream.xml',
   [string]$IndexPath = 'D:\EncyKlopedia\80_search_indexes\mediatheque-references\wikipedia_en_direct_pages_v21.sqlite',

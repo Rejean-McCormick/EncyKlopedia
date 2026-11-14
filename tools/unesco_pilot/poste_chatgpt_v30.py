@@ -20,10 +20,16 @@ import os
 from pathlib import Path, PurePosixPath
 import re
 import secrets
+import statistics
 import shutil
 import sqlite3
 import subprocess
 import sys
+# ENCYK_V315_IMPORT_ROUTAGE_START
+_encyk_pilot_dir = str(Path(__file__).resolve().parent)
+if _encyk_pilot_dir not in sys.path:
+    sys.path.insert(0, _encyk_pilot_dir)
+# ENCYK_V315_IMPORT_ROUTAGE_END
 import threading
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -123,7 +129,34 @@ def json_text(obj):return (json.dumps(obj,ensure_ascii=False,indent=2)+'\n').enc
 
 def prompt(job):
     if job['kind']=='v27':
-        return f'''ENCYKLOPEDIA — KRISTAL PRIVE v27 — {job['key']}\n\nANALYSE LE ZIP JOINT: {Path(job['bundle_path']).name}\nSHA-256 exact du pack: {job['source_sha256']}\n\nLis MANIFEST_PACK_V27.json, MODELE_DELTA_KRISTAL_V27.json et les textes complets. Extrait des faits encyclopédiques SELECTIFS, précis, appuyés sur leurs propres passages. Ne fabrique rien d'après un titre ou une déduction. Source Wikipédia non vérifiée indépendamment. Respecte chaque page_id, revision_id et concept_id. Fournis source_locator et courte source_quote quand disponible. Garde les rattachements UNESCO uniquement si le contenu les justifie. Pas de canon, pas de publication.\n\nRENVOIE UN SEUL ZIP contenant DELTA_KRISTAL_{job['key']}.json conforme au modèle du pack, format encyklopedia.kristal-ai-delta.v27/1, pack_id={job['key']}, pack_sha256={job['source_sha256']}, canonical_admissions=0, publication_authorized=false. AUCUN script ou exécutable. La validité des faits est toujours candidate, pas canonique.\n'''
+        return f'''ENCYKLOPEDIA — KRISTAL PRIVE v27 / MODE SYNTHESE v31.6 — {job['key']}
+
+TRAITE CE ZIP COMPLET : {Path(job['bundle_path']).name}
+SHA-256 exact du ZIP SOURCE : {job['source_sha256']}
+
+MISSION : construire une excellente encyclopedie de synthese, pas recopier Wikipedia. Les grands packs
+peuvent contenir jusqu a 120 articles / 400 000 mots de texte original. Consacre le travail necessaire
+aux analyses; la priorite est de limiter les interventions humaines, pas de finir vite.
+
+1. Lis MANIFEST_PACK_V27.json et MODELE_DELTA_KRISTAL_V27.json.
+2. Si present, exploite DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl comme guide de navigation pour TOUS
+   les articles; ses extraits sont verbatim mais non exhaustifs. Les articles/ sont les seules sources.
+3. Examine chaque article, son importance et ses faits structurants. Complete au besoin depuis le
+   texte original, sans essayer de reproduire tous les details secondaires. Une synthese utile peut
+   contenir 3 a 8 connaissances par article, parfois moins ou beaucoup plus; aucun quota force.
+4. Pour CHAQUE connaissance, preserve page_id/revision_id, source_locator et une source_quote courte
+   et EXACTE dans le wikitext de la revision correspondante. Une citation lexicalement exacte mais
+   semantiquement inadaptee n est pas suffisante. N invente aucune reference.
+5. Les connaissances UNESCO sont des rattachements candidats, jamais canonises. Distingue faits
+   histories, lois potentiellement modifiees, opinions attribuees et controverses.
+6. Dans coverage_note, fais un bilan court pour CHAQUE article, y compris ceux sans fait retenu.
+
+RENVOIE UN SEUL ZIP contenant DELTA_KRISTAL_{job['key']}.json, format
+encyklopedia.kristal-ai-delta.v27/1, pack_id={job['key']},
+pack_sha256={job['source_sha256']}, canonical_admissions=0,
+publication_authorized=false. Uniquement des donnees, aucun executable.
+Les connaissances restent privees et candidates. Ne demande pas a l utilisateur de decouper le lot.
+'''
     return f'''ENCYKLOPEDIA — REVUE UNESCO v28 — TACHE {job['id']}\n\nANALYSE LE ZIP JOINT : {Path(job['bundle_path']).name} ({job['count']} propositions).\n\nLis chaque ligne du CSV REVUE_*.csv ET du fichier CONTEXTES_DOCUMENTAIRES_V28.jsonl (meme candidate_id). Lis toutes les propositions, meme dans les lots de 650 a 880 (dernier lot possiblement plus petit). Les preuves complementaires incluent les notes de portee UNESCO, les categories et, si disponible, un extrait du texte Wikipedia original par index local. Le manifeste indique explicitement les textes absents. APPROVE lorsque l'article traite substantiellement du concept UNESCO (pas une simple mention). Justification concise en francais de 20 caracteres minimum, expliquant le lien sans inventer de faits. REJECT les rapprochements manifestement hors sujet ou accessoires. HOLD seulement si l'information disponible ne permet pas une decision defendable. Ne fabrique aucun fait, ni connaissance canonique.\n\nRENVOIE UN SEUL ZIP contenant exactement DECISIONS_{job['id']}.csv, UTF-8, avec STRICTEMENT trois colonnes candidate_id,decision,justification. OBLIGATOIRE : une ligne pour CHACUN des {job['count']} candidate_id, y compris HOLD. Ceci prouve au moins que chaque candidat a reçu une décision; ne fabrique aucun identifiant. Un CSV de réponses abrégé peut être accepté pour compatibilité, mais l'interface exigera alors une confirmation humaine avant import. Une revue tout-HOLD demande aussi confirmation. N'ajoute aucun code exécutable.\n\nAprès vérification des identifiants et des preuves, l'interface reconstruira le CSV complet pour le véritable importeur v28.\n'''
 
 
@@ -254,6 +287,113 @@ class Station:
         if packs.is_dir():x['packs']=len(list(packs.glob('PACK_V27_*.zip')))
         return x
 
+    def _small_ready_group(self):
+        # Group only already-prepared UNESCO jobs. NEVER rewrite their source ZIP,
+        # review_index, hashes, lane assignments or frozen evidence.
+        selected=[];total=0
+        for j in self.db.execute("""SELECT * FROM jobs WHERE kind='v28' AND status='READY'
+                                   AND count BETWEEN 1 AND 300 ORDER BY created_utc,id"""):
+            if len(selected)>=10:break
+            if total+int(j['count'])>880:continue
+            selected.append(j);total+=int(j['count'])
+        return selected,total
+
+    def dispatch_small_v315(self):
+        # Multiple unchanged task ZIPs carried in a single transfer envelope.
+        # One response ZIP with separate DECISIONS_<task_id>.csv files can be
+        # imported through the existing, fully validated multi-CSV importer.
+        with self.lock:
+            group,total=self._small_ready_group()
+            if len(group)<2:raise ValueError('Au moins deux petits packs UNESCO READY sont requis')
+            parts=[];nbytes=0
+            for j in group:
+                # bundle() checks the immutable original and enriches in a cache.
+                path=self.bundle(j['id'])
+                raw=path.read_bytes()
+                if not zipfile.is_zipfile(io.BytesIO(raw)):
+                    raise ValueError('Bundle non ZIP : '+j['id'])
+                nbytes+=len(raw)
+                if nbytes>80*1024*1024:
+                    raise ValueError('Lot consolidé >80 Mio; utiliser les packs individuellement')
+                parts.append((j,raw))
+            manifest={'format':'encyklopedia.transfert-multi-v28.v315/1',
+                      'mode':'transport-uniquement','count':total,'tasks':[
+                {'job_id':j['id'],'candidate_count':j['count'],
+                 'source_sha256':j['source_sha256'],'bundle_transfer_sha256':sha(raw)}
+                for j,raw in parts]}
+            instruction=['ENCYKLOPEDIA — TRANSFERT GROUPE DE PETITS PACKS UNESCO v28',
+                'Ce ZIP est une enveloppe de transport. Chaque ZIP dans PACKS/ reste une tâche originale distincte.',
+                'Lis et décompresse TOUS les ZIP contenus dans PACKS/, puis examine chaque REVUE_*.csv avec son contexte.',
+                'Pour chaque tâche, produis EXACTEMENT DECISIONS_<job_id>.csv : colonnes candidate_id,decision,justification.',
+                'Une ligne pour CHACUN des candidate_id du CSV original, sans exception, y compris HOLD.',
+                'APPROVE si le sujet traite substantiellement du concept UNESCO; REJECT si lien accessoire; HOLD si incertain.',
+                'Justifications APPROVE en français d’au moins 20 caractères. Ne jamais inventer de citation.',
+                'IMPORTANT : ne combine jamais deux listes de candidats dans un seul CSV.',
+                'RENVOIE UN ZIP UNIQUE contenant chaque CSV de décision individuel à la racine.',
+                'Le moteur importera chaque CSV avec son identifiant original et vérifiera les preuves et tous les champs.',
+                'Aucune admission canonique, aucune publication, aucun script exécutable.',
+                'Tâches du transfert:']
+            instruction.extend(f"- {j['id']}: {j['count']} propositions, réponse DECISIONS_{j['id']}.csv" for j,_ in parts)
+            b=io.BytesIO()
+            with zipfile.ZipFile(b,'w',zipfile.ZIP_DEFLATED,compresslevel=7) as z:
+                z.writestr('MANIFEST_TRANSFERT_MULTI_V315.json',json_text(manifest))
+                z.writestr('INSTRUCTIONS_TRANSFERT_MULTI_V315.txt','\n'.join(instruction)+'\n')
+                for j,raw in parts:
+                    z.writestr('PACKS/'+j['id']+'.zip',raw,compress_type=zipfile.ZIP_STORED)
+            data=b.getvalue()
+            name='TRANSFERT_MULTI_V28_'+sha(data)[:16]+'.zip'
+            return name,data
+
+    def volume_v315(self):
+        # Non-destructive telemetry. Measures elapsed time INCLUDING human idle time.
+        # Pack size does not prove which version created a job.
+        from collections import Counter
+        jobs=list(self.db.execute('''SELECT id,kind,count,status,created_utc,sent_utc,finished_utc
+                                      FROM jobs ORDER BY created_utc,id'''))
+        grouped,group_total=self._small_ready_group()
+        open_jobs=[j for j in jobs if j['status'] in OPEN]
+        unesco=[j for j in open_jobs if j['kind']=='v28']
+        kristal=[j for j in open_jobs if j['kind']=='v27']
+        sizes={'petits_300_ou_moins':sum(j['count']<=300 for j in unesco),
+               'intermediaires_301_649':sum(301<=j['count']<650 for j in unesco),
+               'volume_650_880':sum(650<=j['count']<=880 for j in unesco),
+               'hors_plage':sum(j['count']>880 or j['count']<=0 for j in unesco)}
+        ready=[{'id':j['id'],'kind':j['kind'],'taille':j['count'],'etat':j['status']}
+               for j in jobs if j['status']=='READY']
+        durations=[]
+        format_delays={'unesco_300_ou_moins':[], 'unesco_301_649':[], 'unesco_650_880':[], 'kristal':[]}
+        for j in jobs:
+            if j['status']!='DONE' or not j['sent_utc'] or not j['finished_utc']:continue
+            try:
+                begin=datetime.fromisoformat(j['sent_utc'])
+                end=datetime.fromisoformat(j['finished_utc'])
+                elapsed=(end-begin).total_seconds()/60
+            except (ValueError, TypeError):continue
+            if 0<=elapsed<=60*24*60:
+                durations.append(elapsed)
+                if j['kind']=='v27':bucket='kristal'
+                elif j['count']<=300:bucket='unesco_300_ou_moins'
+                elif j['count']<650:bucket='unesco_301_649'
+                else:bucket='unesco_650_880'
+                format_delays[bucket].append(elapsed)
+        by_format={key:{'mediane':round(statistics.median(values),1) if values else None,
+                        'observations':len(values)} for key,values in format_delays.items()}
+        return {
+            'contrat':{'unesco_cible':REVIEW_SIZE,'unesco_plafond':MAX_REVIEW_SIZE,
+                       'unesco_minimum_souple':MIN_REVIEW_SIZE,'kristal_articles_max':120,
+                       'kristal_mots_cibles':400000,'conversations':LANES},
+            'total_ouverts':len(open_jobs),'unesco_ouverts':len(unesco),
+            'kristal_ouverts':len(kristal),'unesco_par_taille':sizes,
+            'ready_par_type':dict(Counter(j['kind'] for j in jobs if j['status']=='READY')),
+            'transfert_groupe':{'packs':len(grouped),'propositions':group_total,'possible':len(grouped)>=2},
+            'ready_details':ready,'unesco_en_attente':dict(Counter(j['status'] for j in unesco)),
+            'delai_par_format_minutes':by_format,
+            'delai_transfert_import_minutes':{
+                'mediane':round(statistics.median(durations),1) if durations else None,
+                'observations':len(durations),
+                'interpretation':'Délai entre clic de transmission et import : inclut les pauses humaines, pas le seul travail IA'},
+            'note':'Les petits packs existants ne sont jamais reconditionnés. Leur taille ne date pas avec certitude leur création.'}
+
     def snapshot(self):
         with self.lock:
             lanes=[]
@@ -278,7 +418,7 @@ class Station:
                         rr=qdb.execute("SELECT value FROM meta WHERE key='cursor_page_id'").fetchone()
                         qualification['cursor_page_id']=int(rr[0]) if rr else None
                 except (ValueError,sqlite3.Error):pass
-            return {'qualification_v31':qualification,'version':VERSION,'busy':self.busy,'operation':self.operation,'lanes':lanes,'jobs':stat,
+            return {'volume_v315':self.volume_v315(),'qualification_v31':qualification,'version':VERSION,'busy':self.busy,'operation':self.operation,'lanes':lanes,'jobs':stat,
                     'review_index':ix,'stats':self._counts(),'events':events,'receipts':receipts,'updates':updates,'quality':quality,'work':str(self.work),
                     'v28_frozen':self._open_review_count()>0}
 
@@ -318,7 +458,7 @@ class Station:
     def _batch(self):
         self._log('BATCH : empaquetage v27, découverte protégée v28, index complet et file')
         for pass_i in range(12):
-            text=self._run('PRODUIRE_KRISTALS_V27.ps1',['-Action','Packs','-MaxPacks','100','-MaxArticles','24','-TargetWords','80000','-TargetBytes','12582912'])
+            text=self._run('PRODUIRE_KRISTALS_V27.ps1',['-Action','Packs','-MaxPacks','100','-MaxArticles','120','-TargetWords','400000','-TargetBytes','62914560'])
             if re.search(r'"queue"\s*:\s*\{\s*"PACKED"',text) or re.search(r'"PENDING"\s*:\s*0\b',text):break
             if re.search(r'"packets_created_this_run"\s*:\s*0\b',text):break
             if pass_i==11:self._log('12 passes v27 atteintes; prochain batch continuera les packs.')
@@ -489,21 +629,21 @@ class Station:
             work.close()
             if 'profile_db' in locals() and profile_db is not None:profile_db.close()
 
-    def _prepare_v28(self):
-        # All branches share ONE buffer. Counting legacy jobs alone can exceed
-        # QUEUE_BUFFER when secondary routes already occupy the station.
+    def _prepare_v28(self, allow_fallback=False):
+        # v31.5: one GLOBAL buffer shared by all UNESCO branches. The historical
+        # branch receives a fair first pass; only a later fallback may fill spare
+        # slots after other branches have had a chance to prepare their work.
         queued=self._open_review_count()
         if queued>=QUEUE_BUFFER:return 0
         m=self._v28_engine();branch=m.v25.load_branch(m.v25.DEFAULT_BRANCH)
         from routage_branches_v311 import live
         active_extras=live(self,m)
-        # Existing jobs without an explicit v31.1 route use the historical branch.
-        # Never touch them, and give the legacy branch a fair share of new slots.
         legacy_queued=self.db.execute('''SELECT count(*) FROM jobs j
             WHERE j.kind='v28' AND j.status IN
             ('WAITING','READY','SENT','ERROR','IMPORTING','NEEDS_CONFIRMATION')
             AND NOT EXISTS (SELECT 1 FROM v311_job_routes r WHERE r.job_id=j.id)''').fetchone()[0]
-        legacy_target=QUEUE_BUFFER if not active_extras else max(1,QUEUE_BUFFER//(len(active_extras)+1))
+        legacy_target=(QUEUE_BUFFER if allow_fallback or not active_extras
+                       else max(1,QUEUE_BUFFER//(len(active_extras)+1)))
         labels={c['unesco_id']:m.v25.label(c,'en') for c in branch['concepts']}
         stage=self.v28/'DECOUVERTE_ARTICLES_RELIES_V28.sqlite'
         if not stage.is_file():return 0
@@ -587,6 +727,7 @@ class Station:
             b=self._prepare_v28()
             from routage_branches_v311 import prepare as prepare_branches
             b+=prepare_branches(self,self._v28_engine())
+            b+=self._prepare_v28(allow_fallback=True)
             with self.db:self._fill_lanes()
         self._log(f'File alimentée : {a} packs Kristal et {b} nouvelles revues UNESCO ; 10 postes renouvelés.')
 
@@ -812,6 +953,7 @@ $clipboard.SetFileDropList($items)
                     self._prepare_v28()
                     from routage_branches_v311 import prepare as prepare_branches
                     prepare_branches(self,self._v28_engine())
+                    self._prepare_v28(allow_fallback=True)
                     with self.db:self._fill_lanes()
                 except Exception as ex:self._log('Préparation de nouveaux lots différée : '+str(ex))
 
@@ -861,6 +1003,7 @@ $clipboard.SetFileDropList($items)
                 self._prepare_v28()
                 from routage_branches_v311 import prepare as prepare_branches
                 prepare_branches(self,self._v28_engine())
+                self._prepare_v28(allow_fallback=True)
                 with self.db:self._fill_lanes()
             self._log('Tâche ignorée : '+jid)
             return {'ok':True}
@@ -1027,6 +1170,8 @@ class Handler(BaseHTTPRequestHandler):
             elif p=='/app.js':self._send(200,(s.repo/'tools/unesco_pilot/poste_chatgpt_v30.js').read_bytes(),'text/javascript; charset=utf-8')
             elif p=='/bootstrap.js':self._send(200,('window.STATION_TOKEN='+json.dumps(self.server.token)+';').encode(),'text/javascript; charset=utf-8')
             elif p=='/api/state':self._send(200,s.snapshot())
+            elif p=='/api/dispatch-small':
+                name,raw=s.dispatch_small_v315();self._send(200,raw,'application/zip',name)
             elif p.startswith('/api/prompt/'):
                 j=s.task(unquote(p.split('/')[-1]));self._send(200,{'prompt':prompt(j)})
             elif p.startswith('/api/bundle/'):

@@ -1,21 +1,38 @@
 {
   "format": "encyklopedia.safe-overlay.v30/1",
-  "description": "EncyKlopedia v31.2.1 : tampon global UNESCO multibranche sans modification de preuves/taches",
+  "description": "EncyKlopedia v31.6 — Mode Synthese x5 : 120 articles, 400000 mots et dossier de lecture, futurs packs uniquement",
+  "canonical_admissions": 0,
+  "publication_authorized": false,
   "files": [
     {
+      "path": "PRODUIRE_KRISTALS_V27.ps1",
+      "sha256": "35b1c60254691c6b86749b184d70444b1e368c32c58baf70d2b8a620d8890f5a",
+      "requires_sha256": "e427e6d46b3bab3b8e6ed4704e6c662cd18e3120dab06d0daf91f935e819d5e6"
+    },
+    {
+      "path": "docs/historique_mises_a_jour/README_MODE_SYNTHESE_V316.md",
+      "sha256": "503310326eba5bef07bb42bce051fa2da28da62eac57023a14d14d44b08722be",
+      "requires_sha256": null
+    },
+    {
+      "path": "tests/test_kristal_synthese_v316.py",
+      "sha256": "71a8a840917a4ab8927a4a100de417aec592a9faee9681969ffb73bfba4ac011",
+      "requires_sha256": null
+    },
+    {
+      "path": "tools/unesco_pilot/poste_chatgpt_v30.html",
+      "sha256": "b72910c4df1de8a7bf4a72ac04d449ba15d2446e1d279ef8fa4b797152a4522d",
+      "requires_sha256": "b296f67a106b28f10f42436b643734fe8b7b4088c29020506a83b368aa8c4f43"
+    },
+    {
       "path": "tools/unesco_pilot/poste_chatgpt_v30.py",
-      "sha256": "6c9f2bd2099f3829cedc54c02a15caf1e85ed85b90dd60bb152fcfe3449b4652",
-      "requires_sha256": "2857faf01dc927f7e0222fe3c0d033a5d3750895baf6b179ebda5de704e97629"
+      "sha256": "2d79f81ade463387668e0c03680db705c19ce8b68b2f3c74dfcd7b1b78906ed0",
+      "requires_sha256": "adecd97c56059dd172cba95ade40666614cb71dc4993efce0bbf1f7088fecb80"
     },
     {
-      "path": "tests/test_volume_backpressure_v3121.py",
-      "sha256": "50c3c867873a107c234efbd0456e0e8f9d8b7e54dd399a9f06dd34cc84c96582",
-      "requires_sha256": null
-    },
-    {
-      "path": "docs/historique_mises_a_jour/README_CORRECTIF_VOLUME_V3121.md",
-      "sha256": "6d45fc8ecdb0f8a64047807d2884fcada86d877bb147e9d8a26237bf8bd5fdbe",
-      "requires_sha256": null
+      "path": "tools/unesco_pilot/production_kristals_v27.py",
+      "sha256": "1aa261d9479c9a9b7b5e00a2cf3158a47ae003d78ad905e6793a82e455acea12",
+      "requires_sha256": "e53046fccdd34318493b2bae37afce3bb83a5c5038578150a4aca17f1c439d4a"
     }
   ]
 }

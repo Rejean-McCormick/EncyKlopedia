@@ -531,6 +531,68 @@ def pack_articles(queue, cat, ix, xml, max_articles, target_words, target_bytes,
     return entries
 
 
+GUIDE_FORMAT = 'encyklopedia.kristal-reading-guide.v316/1'
+_GUIDE_HEADING_RE = re.compile(r'^(={2,6})\s*(.*?)\s*\1\s*$')
+_GUIDE_LOW_VALUE_RE = re.compile(r'(?i)^(references|notes|citations|external links|see also|further reading|bibliography|sources|footnotes|gallery|links)$')
+_GUIDE_PRIORITY_RE = re.compile(r'(?i)(history|background|overview|early life|education|career|works|achievement|contribution|legacy|impact|activities|policy|program|structure|mission|rights|criticism|controvers|development|origin|significance|function|practice|formation)')
+
+
+def _guide_excerpt(lines, max_words):
+    """Return a verbatim span of a useful prose line, NEVER rewritten or invented."""
+    for original in lines:
+        line=original.strip()
+        if len(line)<55 or line.startswith(('{{','|','*',';','#','[[Category:',
+                                            '[[File:', '[[Image:', '<ref','{|','|-','!')):
+            continue
+        if line in ('}}','}}}', '{{-}}') or line.startswith(('http://','https://')):
+            continue
+        spans=list(re.finditer(r'\S+', line))
+        if len(spans)<10:
+            continue
+        end=spans[min(len(spans), max_words)-1].end()
+        return line[:end]  # exact substring of unmodified source article
+    return ''
+
+
+def _reading_guide(article):
+    """Navigation aids only; extracted spans are checked against full wikitext."""
+    raw=article['text'].decode('utf-8')
+    segments=[('Introduction',[])]
+    for line in raw.splitlines():
+        match=_GUIDE_HEADING_RE.match(line.strip())
+        if match:
+            segments.append((match.group(2).strip(),[]))
+        else:
+            segments[-1][1].append(line)
+    samples=[]
+    lead=_guide_excerpt(segments[0][1],210)
+    if lead:
+        samples.append({'section':'Introduction','exact_excerpt':lead})
+    sections=[(i,header,lines) for i,(header,lines) in enumerate(segments[1:],start=1)
+              if not _GUIDE_LOW_VALUE_RE.fullmatch(header.strip())]
+    # Prefer notable sections but return them in their original document order.
+    prioritized=sorted(sections,key=lambda section:(0 if _GUIDE_PRIORITY_RE.search(section[1]) else 1,section[0]))[:6]
+    for _index, header, lines in sorted(prioritized):
+        excerpt=_guide_excerpt(lines,70)
+        if excerpt:
+            samples.append({'section':header[:180],'exact_excerpt':excerpt})
+    if not samples:
+        # Even very short/template-heavy articles remain in the guide and in the inventory.
+        fallback=_guide_excerpt(raw.splitlines(),70)
+        if fallback:
+            samples.append({'section':'Article','exact_excerpt':fallback})
+    if any(item['exact_excerpt'] not in raw for item in samples):
+        raise Refusal('Extrait de lecture non present dans la source : '+str(article['page_id']))
+    return {'page_id':article['page_id'],'revision_id':article['revision_id'],
+            'article_id':'enwiki:'+str(article['page_id']),
+            'title':article['xml_title'],
+            'text_path':f"articles/enwiki-{article['page_id']}.wikitext.txt",
+            'text_sha256':digest(article['text']),
+            'approx_words':article['word_count'],
+            'samples':samples,
+            'reading_note':'Extraits verbatim d orientation, non exhaustifs. Verifier les affirmations dans le wikitext integral.'}
+
+
 def make_pack(entries, pack_id, source, work):
     files = {}
     article_manifest = []
@@ -550,12 +612,18 @@ def make_pack(entries, pack_id, source, work):
                 'articles_count': len(article_manifest), 'source': source,
                 'articles': article_manifest, 'raw_article_texts_complete': True,
                 'overlarge_single_article_allowed_without_truncation': True,
-                'semantic_analysis_may_be_selective': True, 'status': 'PRIVATE_RESEARCH',
+                'semantic_analysis_may_be_selective': True, 'reading_guide': 'DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl', 'reading_guide_format': GUIDE_FORMAT, 'status': 'PRIVATE_RESEARCH',
                 'wikipedia_license_note': 'Attribution and share-alike may apply; verify rights before publication.',
                 'canonical_admissions': 0, 'publication_authorized': False}
     files['MANIFEST_PACK_V27.json'] = encoded(manifest)
+    # A separate extractive guide keeps the 120-article mission navigable.
+    # Every article, revision, and exact source quote remains traceable to its full text.
+    guide_rows = [_reading_guide(item) for item in entries]
+    files['DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl'] = (
+        '\n'.join(json.dumps(row,ensure_ascii=False,separators=(',',':')) for row in guide_rows)+'\n'
+    ).encode('utf-8')
     model = {'format': DELTA_FORMAT, 'pack_id': pack_id, 'pack_sha256': 'REMPLACER_PAR_SHA256_DU_ZIP',
-             'producer': 'GPT-6 / ChatGPT', 'coverage_note': 'Analyse selective; omission de connaissances permise',
+             'producer': 'GPT-6 / ChatGPT', 'coverage_note': 'Bilan par article des connaissances essentielles retenues, aspects verifies et lacunes; synthese sans fait invente',
              'claims': [{'source_page_id': article_manifest[0]['page_id'],
                          'source_revision_id': article_manifest[0]['revision_id'],
                          'subject_ref': article_manifest[0]['article_id'],
@@ -564,18 +632,36 @@ def make_pack(entries, pack_id, source, work):
                          'unesco_concepts': [], 'source_locator': 'Introduction ou section du texte',
                          'source_quote': '', 'confidence': 'medium'}]}
     files['MODELE_DELTA_KRISTAL_V27.json'] = encoded(model)
-    files['INSTRUCTIONS_CHATGPT.md'] = (f'''# Pack {pack_id} — EncyKlopedia v27\n\n'''
-        '''Lis les articles anglais COMPLETS dans `articles/`. Ils contiennent du wikitext, references incluses.\n'''
-        '''Choisis les connaissances encyclopediques pertinentes. Il n'est PAS necessaire de tout extraire.\n'''
-        '''Genere un fichier JSON conforme au modele `MODELE_DELTA_KRISTAL_V27.json`.\n'''
-        '''Remplace `pack_sha256` par l'empreinte SHA-256 du ZIP indiquee par le lanceur local.\n'''
-        '''Ancre chaque connaissance au vrai page_id / revision_id de l'article du manifeste.\n'''
-        '''`subject_ref` est un identifiant `enwiki:123`, `unesco:concept9` ou `wikidata:Q42`.\n'''
-        '''`predicate` est un nom de relation en anglais et en snake_case (non canonique KP).\n'''
-        '''`object` est `{"type":"text|entity|number|date|boolean","value":"..."}`.\n'''
-        '''Indique la section dans `source_locator`, une citation courte optionnelle dans `source_quote`.\n'''
-        '''Les references Wikipedia sont un CONTEXTE, pas une verification independante.\n'''
-        '''Aucun KQ/KP/KA/KS canonique, aucune publication, aucune obligation d'exhaustivite.\n''').encode('utf-8')
+    files['INSTRUCTIONS_CHATGPT.md'] = (f'''# Pack {pack_id} — EncyKlopedia v27 / synthese v31.6
+
+OBJECTIF : construire une EXCELLENTE ENCYCLOPEDIE DE SYNTHESE, pas reproduire Wikipedia.
+Le dossier `DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl` contient, pour CHAQUE article, des extraits
+EXACTS et un parcours de lecture. Commence par ce dossier, puis consulte les fichiers integraux
+`articles/enwiki-*.wikitext.txt` pour completer le contexte et verifier chaque citation.
+Le dossier est un INDEX EXTRACTIF : il n est pas une source nouvelle, ni une verification independante.
+Ne lis pas aveuglement 400 000 mots dans une seule fenetre de contexte : organise ton analyse
+article par article a l aide des fichiers, en privilégiant les informations essentielles.
+
+POUR CHAQUE ARTICLE, examine son identite, sa definition, son importance et ses faits distinctifs.
+Selectionne les dates, acteurs, realisations, mecanismes et relations majeurs.
+Oublie les inventaires exhaustifs, le remplissage et les anecdotes secondaires. 3 a 8 faits
+majeurs peuvent suffire dans bien des cas, mais ce n est PAS un quota ; les articles importants
+ou difficiles peuvent en exiger plus, et un article sans fait solide peut recevoir 0 fait.
+N invente jamais une citation ni un fait. Chaque fait exige page_id, revision_id,
+source_locator precis et source_quote EXACTE issue du texte integral, 500 caracteres max.
+Assure-toi que le texte cite soutient vraiment l affirmation (pas juste une correspondance de mots).
+Attributions, conflits de versions et donnees historiques doivent etre signales si necessaire.
+Les concepts UNESCO sont des CANDIDATS de rattachement, jamais des faits par eux-memes.
+
+Le retour est UN ZIP unique contenant `DELTA_KRISTAL_{pack_id}.json` suivant
+`MODELE_DELTA_KRISTAL_V27.json` et le format encyklopedia.kristal-ai-delta.v27/1.
+Remplace `pack_sha256` par le SHA-256 du pack source donne par la station.
+Preserve identifiants, revisions et empreintes, avec canonical_admissions=0 et
+publication_authorized=false. Pas de code executable.
+Dans `coverage_note`, donne un bilan bref PAR ARTICLE des grandes dimensions examinees,
+et signale les lacunes sans inventer de connaissances. Aucun article ne doit disparaitre du bilan.
+Le temps de travail peut etre long : minimise les interventions humaines, pas la rigueur.
+''').encode('utf-8')
     target = Path(work) / 'packs' / (pack_id + '.zip')
     target.parent.mkdir(parents=True, exist_ok=True)
     if target.exists():
@@ -609,6 +695,25 @@ def verify_pack(path):
                 not PACK_ID_RE.fullmatch(m.get('pack_id', ''))):
             raise Refusal('Manifeste de pack incompatible')
         allowed = {'MANIFEST_PACK_V27.json','MODELE_DELTA_KRISTAL_V27.json','INSTRUCTIONS_CHATGPT.md'}
+        guide_name='DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl'
+        if m.get('reading_guide') == guide_name and guide_name not in names:
+            raise Refusal('Dossier de lecture declare mais absent du ZIP')
+        if guide_name in names:
+            if m.get('reading_guide') != guide_name or m.get('reading_guide_format') != GUIDE_FORMAT:
+                raise Refusal('Manifeste du dossier de lecture incompatible')
+            guide_lines=z.read(guide_name).decode('utf-8').splitlines()
+            if len(guide_lines) != m.get('articles_count'):
+                raise Refusal('Dossier de lecture incomplet')
+            guide_rows=[json.loads(row) for row in guide_lines]
+            for a,row in zip(m.get('articles',[]),guide_rows):
+                if (row.get('page_id') != a['page_id'] or row.get('revision_id') != a['revision_id']
+                        or row.get('text_sha256') != a['text_sha256']):
+                    raise Refusal('Dossier de lecture et source desynchronises')
+                original=z.read(a['text_path']).decode('utf-8')
+                if any(not isinstance(s,dict) or not isinstance(s.get('exact_excerpt'),str)
+                       or s['exact_excerpt'] not in original for s in row.get('samples',[])):
+                    raise Refusal('Dossier de lecture altere ou non ancre: '+str(a['page_id']))
+            allowed.add(guide_name)
         ids = set()
         for a in m.get('articles', []):
             pid = a['page_id']
@@ -670,7 +775,7 @@ def check_private_work(work, sources=()):
 
 
 def produce(args):
-    if not (1 <= args.max_articles <= 100 and 100 <= args.target_words <= 1_000_000
+    if not (1 <= args.max_articles <= 120 and 100 <= args.target_words <= 1_000_000
             and 65536 <= args.target_bytes <= 200_000_000 and 1 <= args.max_packs <= 1000):
         raise Refusal('Bornes de production invalides')
     check_private_work(args.work, (args.catalogue,args.index,args.xml))

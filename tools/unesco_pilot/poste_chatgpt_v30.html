@@ -17,6 +17,11 @@
 <div class="actions"><button class="btn primary" id="batch">▶ Préparer toute la prochaine vague</button><button class="btn" id="prepare">↻ Reprendre depuis les fichiers existants</button><button class="btn" id="choose">⬆ Déposer des ZIP corrigés</button><span class="meta">SQLite persistent · Local 127.0.0.1 · 0 admission canonique</span></div>
 <div id="quality" class="callout">Qualité des revues : <strong>0</strong> approbation, <strong>0</strong> rejet, <strong>0</strong> HOLD enregistrés. Les décisions restent documentaires, jamais canoniques.</div>
 <div id="freeze" class="callout hidden">🔒 <strong>Preuves UNESCO figées.</strong> Des revues ChatGPT sont en cours. Un nouveau batch peut produire les packs Kristal, mais la découverte v28 est reportée pour ne pas invalider les tâches envoyées.</div>
+<section class="panel" style="margin-bottom:18px" aria-label="Transition Mode Volume">
+<h3>📦 Mode Synthèse v31.6 — Packs ×5 sans perte</h3>
+<div id="volumeTransition" class="sub" aria-live="polite">Analyse des tâches existantes…</div>
+<div class="actions" style="margin:11px 0 0"><button class="btn small primary" id="dispatchSmall" disabled>↓ Regrouper les petits packs UNESCO prêts</button><span class="sub" id="dispatchHint">Au moins deux packs READY, total ≤880 propositions. Les tâches individuelles et preuves restent intactes.</span></div>
+</section>
 <div class="sectionheading"><h2>Dix conversations en parallèle</h2><p>Un clic pour les instructions et le ZIP; un ZIP de retour renouvelle le poste.</p></div>
 <section id="lanes" class="lanes" aria-live="polite"></section>
 <section class="drop" id="drop" tabindex="0" role="button" aria-label="Déposer des ZIP de retour"><div><strong>⬇ Dépose ici les ZIP corrigés par ChatGPT</strong><span>Plusieurs fichiers à la fois · reconnaissance automatique · validation et importation par les moteurs v27/v28</span></div><button class="btn primary" id="dropPick">Choisir les fichiers</button></section>

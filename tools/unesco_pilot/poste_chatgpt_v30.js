@@ -18,6 +18,20 @@ function render(st){current=st;const occupied=st.lanes.filter(x=>x.job).length;
  $('#status').innerHTML='<span class="dot '+(st.busy?'busy':'')+'"></span>'+esc(st.busy?st.operation:'Prêt pour la prochaine tâche');
  $('#batch').disabled=$('#prepare').disabled=st.busy;$('#choose').disabled=st.busy;
  $('#freeze').classList.toggle('hidden',!st.v28_frozen);
+ const v=st.volume_v315||{};const b=v.unesco_par_taille||{};const delay=v.delai_transfert_import_minutes||{};
+ const ready=(v.ready_details||[]).map(x=>`${x.kind==='v28'?'UNESCO':'Kristal'} : ${x.taille} ${x.kind==='v28'?'propositions':'articles'} (${x.id})`).join(' · ');
+ const elapsed=delay.mediane===null||delay.mediane===undefined?'non mesuré':`${delay.mediane.toLocaleString('fr-CA')} min sur ${delay.observations} retours`;
+ const by=v.delai_par_format_minutes||{};const fmt=k=>by[k]?.mediane===null||by[k]?.mediane===undefined?'—':`${by[k].mediane} min (${by[k].observations})`;
+
+ $('#volumeTransition').textContent=`UNESCO en cours : ${v.unesco_ouverts??'—'} packs · 300 ou moins : ${b.petits_300_ou_moins??'—'} · 301–649 : ${b.intermediaires_301_649??'—'} · 650–880 : ${b.volume_650_880??'—'} | Kristal en cours : ${v.kristal_ouverts??'—'} packs.
+`+
+  `Tâches READY : ${ready||'aucune'}.
+`+
+  `Délai transfert → import (inclut temps humain, ne mesure PAS le temps IA) : ${elapsed}. Petits UNESCO : ${fmt('unesco_300_ou_moins')} · Volume UNESCO : ${fmt('unesco_650_880')} · Kristal : ${fmt('kristal')}. `+
+  `Les ZIP déjà préparés ne sont ni fusionnés ni reconstruits; les nouveaux lots UNESCO visent ${v.contrat?.unesco_cible??880} lorsque la création est permise.`;
+ $('#volumeTransition').style.whiteSpace='pre-line';
+ $('#dispatchSmall').disabled=st.busy||!v.transfert_groupe?.possible;
+ $('#dispatchHint').textContent=v.transfert_groupe?.possible?`${v.transfert_groupe.packs} packs originaux / ${v.transfert_groupe.propositions} propositions. Répondre par un ZIP contenant un CSV distinct par tâche.`:'Au moins deux petits packs UNESCO READY sont requis (sans remanier les packs déjà envoyés).';
  const k=st.quality||{};$('#quality').textContent=`Qualité des revues importées : ${num(k.approved||0)} approbations, ${num(k.rejected||0)} rejets, ${num(k.hold||0)} HOLD. Classification provisoire, sans canonisation.`;
  const sig=JSON.stringify(st.lanes);if(sig!==lastCards){lastCards=sig;
  $('#lanes').innerHTML=st.lanes.map(({lane,job:j})=>{
@@ -60,6 +74,14 @@ async function action(type,id){try{
  }catch(e){toast(e.message,true);}}
 $('#lanes').addEventListener('click',e=>{const b=e.target.closest('button[data-act]');if(b)action(b.dataset.act,b.dataset.id);});
 async function background(endpoint,label){try{await api(endpoint,'POST');toast(label);setTimeout(refresh,400);}catch(e){toast(e.message,true);}}
+$('#dispatchSmall').addEventListener('click',async()=>{try{
+ const r=await fetch('/api/dispatch-small');if(!r.ok){const d=await r.json();throw Error(d.error||'Regroupement refusé');}
+ const blob=await r.blob();const disposition=r.headers.get('Content-Disposition')||'';
+ const match=disposition.match(/filename="([a-zA-Z0-9_.-]+)"/);
+ const name=match?match[1]:'TRANSFERT_MULTI_V28.zip';
+ const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);
+ toast('ZIP de transport téléchargé : joins-le à une seule conversation. Les tâches originales restent READY. Renvoie un ZIP contenant un CSV par tâche.');
+ }catch(e){toast(e.message,true);}});
 $('#batch').addEventListener('click',()=>background('/api/batch','Batch local global démarré. Le journal affichera les étapes.'));
 $('#prepare').addEventListener('click',()=>background('/api/prepare','Tâches locales en cours de préparation.'));
 $('#reopen').addEventListener('click',async()=>{if(!confirm('Remettre volontairement 500 anciennes propositions HOLD dans la file de revue ?'))return;try{const d=await api('/api/reopen-holds','POST');toast(`${d.reopened} propositions HOLD remises dans la file.`);}catch(e){toast(e.message,true);}});

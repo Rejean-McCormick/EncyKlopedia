@@ -1,0 +1,12 @@
+{
+  "status": "IMPORT_ROUTAGE_V315_OK",
+  "station": "C:\\mycode\\EncyKlopedia\\EncyKlopedia\\tools\\unesco_pilot\\poste_chatgpt_v30.py",
+  "module": "C:\\mycode\\EncyKlopedia\\EncyKlopedia\\tools\\unesco_pilot\\routage_branches_v311.py",
+  "backup": "C:\\mycode\\EncyKlopedia\\EncyKlopedia\\tools\\unesco_pilot\\poste_chatgpt_v30.py.AVANT_ROUTAGE_V315_20261114T163310Z.bak",
+  "sha256_before": "d93a5b7201303525ddaa80edbb36639d9a65790e488d7f45f3939385ca274a19",
+  "sha256_after": "fa6b2830f06473ef284c1c717717e1b1b5da92f2d1c83c0363f5c76fdf59f068",
+  "route_sha256": "7bac5977304121b7a329922bab90fc81e0e91335313f55c0de6d27f8083f72cb",
+  "change": "ajout au sys.path du repertoire local du moteur uniquement",
+  "sqlite_modified": false,
+  "evidence_modified": false
+}
