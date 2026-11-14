@@ -29,18 +29,25 @@ function render(st){current=st;const occupied=st.lanes.filter(x=>x.job).length;
 `+
   `Délai transfert → import (inclut temps humain, ne mesure PAS le temps IA) : ${elapsed}. Petits UNESCO : ${fmt('unesco_300_ou_moins')} · Volume UNESCO : ${fmt('unesco_650_880')} · Kristal : ${fmt('kristal')}. `+
   `Les ZIP déjà préparés ne sont ni fusionnés ni reconstruits; les nouveaux lots UNESCO visent ${v.contrat?.unesco_cible??880} lorsque la création est permise.`;
+ const preload=st.preload||{};
+ const summary=preload.enabled?`\nPréchargement automatique : ${preload.ready??0} / ${preload.total??0} ZIP prêts${preload.loading?' · création en cours…':''}${preload.failed?' · '+preload.failed+' échec(s), bouton de secours disponible':''}. Les ZIP sources et les preuves restent inchangés.`:'';
+ $('#volumeTransition').textContent+=summary;
  $('#volumeTransition').style.whiteSpace='pre-line';
  $('#dispatchSmall').disabled=st.busy||!v.transfert_groupe?.possible;
  $('#dispatchHint').textContent=v.transfert_groupe?.possible?`${v.transfert_groupe.packs} packs originaux / ${v.transfert_groupe.propositions} propositions. Répondre par un ZIP contenant un CSV distinct par tâche.`:'Au moins deux petits packs UNESCO READY sont requis (sans remanier les packs déjà envoyés).';
  const k=st.quality||{};$('#quality').textContent=`Qualité des revues importées : ${num(k.approved||0)} approbations, ${num(k.rejected||0)} rejets, ${num(k.hold||0)} HOLD. Classification provisoire, sans canonisation.`;
- const sig=JSON.stringify(st.lanes);if(sig!==lastCards){lastCards=sig;
+ const sig=JSON.stringify([st.lanes,st.preload?.jobs]);if(sig!==lastCards){lastCards=sig;
  $('#lanes').innerHTML=st.lanes.map(({lane,job:j})=>{
  const number=String(lane).padStart(2,'0');if(!j)return `<article class="lane empty"><div class="lanehead"><span class="number">POSTE ${number}</span><span class="chip">Libre</span></div><h3>En attente de travail</h3><p>Lance le batch global ou reprends les tâches locales.</p></article>`;
  const key=esc(j.id),is27=j.kind==='v27',isError=j.status==='ERROR',hold=j.status==='NEEDS_CONFIRMATION';
  let controls='';
  if(hold){controls=`<button class="btn primary small" data-act="confirm" data-id="${key}">✓ Confirmer la revue</button>`;}
  else if(j.status==='IMPORTING'){controls=`<span class="sub">Importation en cours…</span>`;}
- else {controls=`<button class="btn primary small" data-act="copy" data-id="${key}">📋 Copier + ZIP</button><button class="btn small" data-act="download" data-id="${key}">↓ ZIP</button><button class="btn small" data-act="prompt" data-id="${key}">Prompt</button>`;
+ else {
+ const transferState=st.preload?.jobs?.[j.id];
+ const awaiting=st.preload?.enabled&&['PENDING','LOADING'].includes(transferState);
+ const copyCaption=awaiting?'⏳ Préchargement…':'📋 Copier + ZIP';
+ controls=`<button class="btn primary small" data-act="copy" data-id="${key}" ${awaiting?'disabled':''}>${copyCaption}</button><button class="btn small" data-act="download" data-id="${key}" ${awaiting?'disabled':''}>↓ ZIP</button><button class="btn small" data-act="prompt" data-id="${key}">Prompt</button>`;
  if(isError)controls+=`<button class="btn small" data-act="retry" data-id="${key}">↻ Réessayer</button>`;
  controls+=`<button class="btn ghost small" data-act="skip" data-id="${key}">Ignorer</button>`;}
  return `<article class="lane" data-job="${key}"><div class="lanehead"><span class="number">POSTE ${number} · ${is27?'KRISTAL':'UNESCO'}</span><span class="chip ${is27?'':'v28'} ${isError?'error':hold?'warn':''}">${esc(statusLabel(j.status))}</span></div><div><h3>${esc(is27?j.key:`${j.count} correspondances à examiner`)}</h3><p>${esc(is27?`${j.count} article(s) Wikipédia · delta JSON`:`${j.id} · décisions documentaires`)} · ${esc(j.sent_utc?'Tâche préparée pour transfert':'Tâche prête')}</p></div>${hold?`<div class="errorline">À confirmer : ${j.review_approved} approuvé(s), ${j.review_rejected} rejeté(s), ${j.review_hold} HOLD. Retour abrégé ou tout-HOLD.</div>`:''}${j.error?`<div class="errorline">${esc(j.error)}</div>`:''}<div class="laneactions">${controls}</div></article>`;

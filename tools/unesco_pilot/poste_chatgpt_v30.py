@@ -189,6 +189,16 @@ class Station:
     def __init__(self,repo:Path,work:Path,v27:Path=V27_DEFAULT,v28:Path=V28_DEFAULT,catalogue:Path=CAT_DEFAULT):
         self.repo=repo.resolve();self.work=work.resolve();self.v27=v27;self.v28=v28;self.catalogue=catalogue
         self.lock=threading.RLock();self.busy=False;self.operation='';self._event_count=0
+        # Preload only current lanes; no mutation of existing tasks, proofs or job ZIPs.
+        self._warm_lock=threading.RLock()
+        self._warm_guard=threading.RLock()
+        self._warm_event=threading.Event()
+        self._warm_stop=threading.Event()
+        self._warm_thread=None
+        self._warm_entries={}
+        self._warm_loading=set()
+        self._warm_errors={}
+        self._review_context_module=None
         self.work.mkdir(parents=True,exist_ok=True)
         self.db=sqlite3.connect(self.work/'station_v30.sqlite',check_same_thread=False,timeout=15)
         self.db.row_factory=sqlite3.Row
@@ -269,6 +279,7 @@ class Station:
             self.db.execute("UPDATE jobs SET status='READY' WHERE id=?",(chosen['id'],))
             self.db.execute('UPDATE lanes SET job_id=? WHERE lane=?',(chosen['id'],lane))
             in_lane[chosen['kind']]+=1
+        if self._warm_thread is not None:self._warm_event.set()
 
     def _counts(self):
         x={'articles':None,'claims':None,'deltas':None,'packs':None}
@@ -420,7 +431,7 @@ class Station:
                 except (ValueError,sqlite3.Error):pass
             return {'volume_v315':self.volume_v315(),'qualification_v31':qualification,'version':VERSION,'busy':self.busy,'operation':self.operation,'lanes':lanes,'jobs':stat,
                     'review_index':ix,'stats':self._counts(),'events':events,'receipts':receipts,'updates':updates,'quality':quality,'work':str(self.work),
-                    'v28_frozen':self._open_review_count()>0}
+                    'v28_frozen':self._open_review_count()>0,'preload':self.preload_status(lanes)}
 
     def _start(self,name,fn,*args):
         with self.lock:
@@ -731,6 +742,150 @@ class Station:
             with self.db:self._fill_lanes()
         self._log(f'File alimentée : {a} packs Kristal et {b} nouvelles revues UNESCO ; 10 postes renouvelés.')
 
+    def _load_review_context(self):
+        with self._warm_lock:
+            if self._review_context_module is None:
+                path=self.repo/'tools'/'unesco_pilot'/'contexte_revue_unesco_v28.py'
+                spec=importlib.util.spec_from_file_location('encyklopedia_v28_context',path)
+                if spec is None or spec.loader is None:raise ValueError('Module de contexte UNESCO introuvable')
+                module=importlib.util.module_from_spec(spec)
+                spec.loader.exec_module(module)
+                self._review_context_module=module
+            return self._review_context_module
+
+    @staticmethod
+    def _warm_stat(path):
+        try:
+            st=Path(path).stat()
+            return (st.st_size,st.st_mtime_ns,st.st_ctime_ns)
+        except OSError:return None
+
+    def _review_stage(self,jid):
+        from routage_branches_v311 import job_route
+        route=job_route(self,jid)
+        return Path(route['stage_path']) if route is not None else self.v28/'DECOUVERTE_ARTICLES_RELIES_V28.sqlite'
+
+    def _review_inputs(self,jid):
+        return self._load_review_context()._input_state(self._review_stage(jid))
+
+    def _warm_is_current(self,jid,job,entry):
+        if entry is None:return False
+        path=Path(entry['path'])
+        if (entry['bundle_sha256']!=job['bundle_sha256'] or
+                entry['source_sha256']!=job['source_sha256'] or
+                entry['bundle_path']!=job['bundle_path'] or
+                entry['source_path']!=job['source_path'] or
+                entry['result_stat']!=self._warm_stat(path) or
+                entry['bundle_stat']!=self._warm_stat(job['bundle_path']) or
+                entry['source_stat']!=self._warm_stat(job['source_path'])):
+            return False
+        if job['kind']=='v28' and entry['review_inputs']!=self._review_inputs(jid):
+            return False
+        # Immutable originals remain protected by the stored SHA-256, even when
+        # the local file size and timestamp appear unchanged.
+        if sha_path(Path(job['bundle_path']))!=job['bundle_sha256']:
+            return False
+        if job['kind']=='v28' and sha_path(Path(job['source_path']))!=job['source_sha256']:
+            return False
+        # Protect the prepared enriched ZIP as carefully as the task ZIP.
+        return sha_path(path)==entry['result_sha256']
+
+    def _warm_one(self,jid):
+        job=self.task(jid)
+        with self._warm_lock: entry=self._warm_entries.get(jid)
+        # Fast path is OUTSIDE the global preparation guard: a ready station
+        # remains instantly usable while another station's ZIP is being built.
+        if self._warm_is_current(jid,job,entry):return Path(entry['path'])
+        with self._warm_guard:  # serialize only slow enrichment work
+            job=self.task(jid)
+            with self._warm_lock: entry=self._warm_entries.get(jid)
+            if self._warm_is_current(jid,job,entry):return Path(entry['path'])
+            with self._warm_lock:
+                self._warm_loading.add(jid)
+                self._warm_errors.pop(jid,None)
+            try:
+                path=self.bundle(jid)  # original SHA + frozen review source + context cache validation
+                job=self.task(jid)      # do not cache tasks that finished during preparation
+                record={'path':str(path),'bundle_path':job['bundle_path'],
+                        'source_path':job['source_path'],'bundle_sha256':job['bundle_sha256'],
+                        'source_sha256':job['source_sha256'],
+                        'result_stat':self._warm_stat(path),
+                        'bundle_stat':self._warm_stat(job['bundle_path']),
+                        'source_stat':self._warm_stat(job['source_path']),
+                        'review_inputs':self._review_inputs(jid) if job['kind']=='v28' else None,
+                        'result_sha256':sha_path(path)}
+                if record['result_stat'] is None:raise ValueError('ZIP de transfert introuvable : '+jid)
+                with self._warm_lock:
+                    self._warm_entries[jid]=record
+                    self._warm_errors.pop(jid,None)
+                return Path(path)
+            except Exception as ex:
+                with self._warm_lock:
+                    self._warm_entries.pop(jid,None)
+                    self._warm_errors[jid]=str(ex)[:160]
+                raise
+            finally:
+                with self._warm_lock:self._warm_loading.discard(jid)
+
+    def transfer_path(self,jid):
+        return self._warm_one(jid)
+
+    def _lane_transfer_ids(self):
+        with self.lock:
+            return [r['job_id'] for r in self.db.execute("""SELECT l.job_id FROM lanes l
+                JOIN jobs j ON j.id=l.job_id WHERE j.status IN ('READY','SENT','ERROR')
+                AND l.job_id IS NOT NULL ORDER BY l.lane""")]
+
+    def preload_status(self,lanes=None):
+        ids=(self._lane_transfer_ids() if lanes is None else
+             [item['job']['id'] for item in lanes if item.get('job') and
+              item['job']['status'] in ('READY','SENT','ERROR')])
+        with self._warm_lock:
+            statuses={jid:('LOADING' if jid in self._warm_loading else
+                           'FAILED' if jid in self._warm_errors else
+                           'READY' if jid in self._warm_entries else 'PENDING') for jid in ids}
+            return {'enabled':self._warm_thread is not None,'total':len(ids),
+                    'ready':sum(v=='READY' for v in statuses.values()),
+                    'loading':sum(v=='LOADING' for v in statuses.values()),
+                    'failed':sum(v=='FAILED' for v in statuses.values()),
+                    'jobs':statuses}
+
+    def warm_current_lanes(self):
+        ids=self._lane_transfer_ids()
+        with self._warm_lock:
+            for old in list(self._warm_entries):
+                if old not in ids:self._warm_entries.pop(old,None)
+            for old in list(self._warm_errors):
+                if old not in ids:self._warm_errors.pop(old,None)
+        for jid in ids:
+            if self._warm_stop.is_set():break
+            try:self._warm_one(jid)
+            except (OSError,ValueError,RuntimeError,sqlite3.Error,ImportError) as ex:
+                # Keep failures visible and preserve a normal on-demand fallback.
+                self._log('Préchargement différé '+jid+' : '+str(ex)[:450])
+
+    def _preload_loop(self):
+        while not self._warm_stop.is_set():
+            self._warm_event.wait()
+            self._warm_event.clear()
+            if self._warm_stop.is_set():break
+            try:self.warm_current_lanes()
+            except Exception as ex:
+                if not self._warm_stop.is_set():self._log('Préchargement général interrompu : '+str(ex)[:450])
+
+    def start_preload(self):
+        with self._warm_lock:
+            if self._warm_thread is not None:return
+            self._warm_thread=threading.Thread(target=self._preload_loop,daemon=True,name='encyk-preload-v3161')
+            self._warm_thread.start()
+        self._warm_event.set()
+
+    def stop_preload(self):
+        self._warm_stop.set()
+        self._warm_event.set()
+        th=self._warm_thread
+        if th is not None and th.is_alive():th.join(timeout=2)
+
     def task(self,jid):
         with self.lock:
             j=self._row(jid)
@@ -745,16 +900,11 @@ class Station:
         if job['kind']=='v28':
             # Enrichment is only an extra review document. The immutable baseline CSV,
             # task id, input hashes, review DB, and imported decisions are unchanged.
-            path_context=self.repo/'tools'/'unesco_pilot'/'contexte_revue_unesco_v28.py'
-            spec=importlib.util.spec_from_file_location('encyklopedia_v28_context',path_context)
-            context=importlib.util.module_from_spec(spec)
-            spec.loader.exec_module(context)
+            context=self._load_review_context()
             original=Path(job['source_path'])
             if not original.is_file() or sha_path(original)!=job['source_sha256']:
                 raise ValueError('Source UNESCO originale absente ou modifiée : '+jid)
-            from routage_branches_v311 import job_route
-            route=job_route(self,jid)
-            stage=Path(route['stage_path']) if route is not None else self.v28/'DECOUVERTE_ARTICLES_RELIES_V28.sqlite'
+            stage=self._review_stage(jid)
             return context.cached_enriched_bundle(path,original,self.repo,stage,self.work)
         return path
 
@@ -766,10 +916,17 @@ class Station:
             return {'ok':True,'sent':True}
 
     def native_clipboard(self,jid):
-        job=self.task(jid);txt=prompt(job);path=self.bundle(jid)
+        job=self.task(jid);txt=prompt(job);path=self.transfer_path(jid)
         if os.name!='nt':return False,'Presse-papiers Windows indisponible; texte et téléchargement séparés.'
-        exe=shutil.which('powershell.exe') or shutil.which('powershell')
-        if not exe:return False,'Windows PowerShell introuvable'
+        from presse_papiers_windows_v3161 import copy_text_and_file
+        try:
+            copy_text_and_file(txt,path)
+            return True,'Presse-papiers natif Windows : texte et fichier préparés'
+        except (OSError,RuntimeError,ValueError) as ex:
+            # Legacy PowerShell is retained as an exact operational fallback.
+            exe=shutil.which('powershell.exe') or shutil.which('powershell')
+            if not exe:return False,'Presse-papiers Windows indisponible : '+str(ex)
+
         t=base64.b64encode(txt.encode('utf-8')).decode('ascii')
         p=base64.b64encode(str(path).encode('utf-8')).decode('ascii')
         command=f'''Add-Type -AssemblyName System.Windows.Forms
@@ -1175,7 +1332,7 @@ class Handler(BaseHTTPRequestHandler):
             elif p.startswith('/api/prompt/'):
                 j=s.task(unquote(p.split('/')[-1]));self._send(200,{'prompt':prompt(j)})
             elif p.startswith('/api/bundle/'):
-                path=s.bundle(unquote(p.split('/')[-1]));self._send(200,path.read_bytes(),'application/zip',path.name)
+                path=s.transfer_path(unquote(p.split('/')[-1]));self._send(200,path.read_bytes(),'application/zip',path.name)
             else:self._send(404,{'error':'Route inconnue'})
         except (ValueError,OSError) as ex:self._send(400,{'error':str(ex)})
     def do_POST(self):
@@ -1234,7 +1391,7 @@ def main():
     ap.add_argument('--catalogue',type=Path,default=CAT_DEFAULT)
     ap.add_argument('--port',type=int,default=0)
     ap.add_argument('--no-browser',action='store_true')
-    args=ap.parse_args();station=Station(args.repo,args.work,args.v27_work,args.v28_work,args.catalogue)
+    args=ap.parse_args();station=Station(args.repo,args.work,args.v27_work,args.v28_work,args.catalogue);station.start_preload()
     server=ThreadingHTTPServer(('127.0.0.1',args.port),Handler);server.station=station;server.token=secrets.token_urlsafe(32)
     url=f'http://127.0.0.1:{server.server_address[1]}/'
     print('POSTE_CHATGPT_V30_OK '+url,flush=True)
@@ -1242,5 +1399,5 @@ def main():
     if not args.no_browser:threading.Timer(.7,lambda:webbrowser.open(url)).start()
     try:server.serve_forever(poll_interval=.25)
     except KeyboardInterrupt:pass
-    finally:server.server_close();station.db.close()
+    finally:server.server_close();station.stop_preload();station.db.close()
 if __name__=='__main__':main()
