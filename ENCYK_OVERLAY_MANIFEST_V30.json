@@ -1,36 +1,21 @@
 {
   "format": "encyklopedia.safe-overlay.v30/1",
-  "description": "EncyKlopedia v30 — centre de production local, dix postes, file SQLite et pagination UNESCO complète",
-  "canonical_admissions": 0,
-  "publication_authorized": false,
+  "description": "EncyKlopedia v31.2.1 : tampon global UNESCO multibranche sans modification de preuves/taches",
   "files": [
     {
-      "path": "LANCER_POSTE_CHATGPT_V30.ps1",
-      "sha256": "90a446c125e3f7aa805dee40688f5824c130530d89c9fe3303bd9a4140a87c7f"
-    },
-    {
-      "path": "LIRE_DABORD_POSTE_V30.md",
-      "sha256": "dc76506929f160be2908c47bc74f8bb56af8918993cb4a46b09634015cf82f83"
-    },
-    {
-      "path": "docs/POSTE_CHATGPT_V30_ARCHITECTURE.md",
-      "sha256": "a440c2eb3c22169f3545bdc023d8f6a4e6afe647d289c3059609aecf00296ba1"
-    },
-    {
       "path": "tools/unesco_pilot/poste_chatgpt_v30.py",
-      "sha256": "9c9df40f755791854685387c98862277726b1fb8979d936631e8f1679f47fbdb"
+      "sha256": "6c9f2bd2099f3829cedc54c02a15caf1e85ed85b90dd60bb152fcfe3449b4652",
+      "requires_sha256": "2857faf01dc927f7e0222fe3c0d033a5d3750895baf6b179ebda5de704e97629"
     },
     {
-      "path": "tools/unesco_pilot/poste_chatgpt_v30.html",
-      "sha256": "855c578e4782d8eb9a38abe96669f0c724baac60134aa98b1b6d77308622b88b"
+      "path": "tests/test_volume_backpressure_v3121.py",
+      "sha256": "50c3c867873a107c234efbd0456e0e8f9d8b7e54dd399a9f06dd34cc84c96582",
+      "requires_sha256": null
     },
     {
-      "path": "tools/unesco_pilot/poste_chatgpt_v30.js",
-      "sha256": "faab3bfb1a4b1522a7c937ff913b08d61b17a50f4a432973388b1340a072091c"
-    },
-    {
-      "path": "tests/test_poste_chatgpt_v30.py",
-      "sha256": "2e3af443d9f47369e45611667cea0147bbb5f6043f93b32a07cc7d648556a70e"
+      "path": "docs/historique_mises_a_jour/README_CORRECTIF_VOLUME_V3121.md",
+      "sha256": "6d45fc8ecdb0f8a64047807d2884fcada86d877bb147e9d8a26237bf8bd5fdbe",
+      "requires_sha256": null
     }
   ]
 }

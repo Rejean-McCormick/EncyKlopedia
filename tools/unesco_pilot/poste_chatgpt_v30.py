@@ -490,19 +490,27 @@ class Station:
             if 'profile_db' in locals() and profile_db is not None:profile_db.close()
 
     def _prepare_v28(self):
-        queued=self.db.execute("SELECT count(*) FROM jobs WHERE kind='v28' AND status IN ('WAITING','READY','SENT','ERROR','IMPORTING','NEEDS_CONFIRMATION')").fetchone()[0]
+        # All branches share ONE buffer. Counting legacy jobs alone can exceed
+        # QUEUE_BUFFER when secondary routes already occupy the station.
+        queued=self._open_review_count()
         if queued>=QUEUE_BUFFER:return 0
         m=self._v28_engine();branch=m.v25.load_branch(m.v25.DEFAULT_BRANCH)
         from routage_branches_v311 import live
         active_extras=live(self,m)
-        legacy_target=(QUEUE_BUFFER if not active_extras else min(QUEUE_BUFFER,max(queued,QUEUE_BUFFER//(len(active_extras)+1))))
+        # Existing jobs without an explicit v31.1 route use the historical branch.
+        # Never touch them, and give the legacy branch a fair share of new slots.
+        legacy_queued=self.db.execute('''SELECT count(*) FROM jobs j
+            WHERE j.kind='v28' AND j.status IN
+            ('WAITING','READY','SENT','ERROR','IMPORTING','NEEDS_CONFIRMATION')
+            AND NOT EXISTS (SELECT 1 FROM v311_job_routes r WHERE r.job_id=j.id)''').fetchone()[0]
+        legacy_target=QUEUE_BUFFER if not active_extras else max(1,QUEUE_BUFFER//(len(active_extras)+1))
         labels={c['unesco_id']:m.v25.label(c,'en') for c in branch['concepts']}
         stage=self.v28/'DECOUVERTE_ARTICLES_RELIES_V28.sqlite'
         if not stage.is_file():return 0
         work=uri_ro(stage)
         created=0
         try:
-            while queued<legacy_target:
+            while queued<QUEUE_BUFFER and legacy_queued<legacy_target:
                 # Packs natifs élargis : qualification V31 + exploration stratifiée.
                 # Aucun candidat n'est rejeté automatiquement et aucune tâche existante n'est remaniée.
                 from priorisation_native_v31 import select as v31_select
@@ -566,7 +574,7 @@ class Station:
                  (jid,'v28',jid,len(rows),'WAITING',str(srcpath),sha(raw),str(bundle),sha_path(bundle),now(),str(m.v25.meta(work,'catalogue_sequence') or '')))
                 self.db.executemany("UPDATE review_index SET state='QUEUED',task_id=?,evidence_sha256=? WHERE candidate_id=? AND state IN ('PENDING','DEFERRED')",
                     [(jid,r['evidence_sha256'],r['candidate_id']) for r in rows])
-                queued+=1;created+=1
+                queued+=1;legacy_queued+=1;created+=1
             self.db.commit()
             return created
         finally:work.close()
