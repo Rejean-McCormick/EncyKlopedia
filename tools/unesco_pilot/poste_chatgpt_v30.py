@@ -39,10 +39,10 @@ import zipfile
 
 VERSION='encyklopedia.station.v30/1'
 LANES=10
-REVIEW_SIZE=880
-MIN_REVIEW_SIZE=650
-MAX_REVIEW_SIZE=880
-REVIEW_BUDGET=3200
+REVIEW_SIZE=4000
+MIN_REVIEW_SIZE=3000
+MAX_REVIEW_SIZE=4000
+REVIEW_BUDGET=16000
 QUEUE_BUFFER=20
 MAX_REQUEST=110*1024*1024
 MAX_FILE=100*1024*1024
@@ -157,7 +157,7 @@ pack_sha256={job['source_sha256']}, canonical_admissions=0,
 publication_authorized=false. Uniquement des donnees, aucun executable.
 Les connaissances restent privees et candidates. Ne demande pas a l utilisateur de decouper le lot.
 '''
-    return f'''ENCYKLOPEDIA — REVUE UNESCO v28 — TACHE {job['id']}\n\nANALYSE LE ZIP JOINT : {Path(job['bundle_path']).name} ({job['count']} propositions).\n\nLis chaque ligne du CSV REVUE_*.csv ET du fichier CONTEXTES_DOCUMENTAIRES_V28.jsonl (meme candidate_id). Lis toutes les propositions, meme dans les lots de 650 a 880 (dernier lot possiblement plus petit). Les preuves complementaires incluent les notes de portee UNESCO, les categories et, si disponible, un extrait du texte Wikipedia original par index local. Le manifeste indique explicitement les textes absents. APPROVE lorsque l'article traite substantiellement du concept UNESCO (pas une simple mention). Justification concise en francais de 20 caracteres minimum, expliquant le lien sans inventer de faits. REJECT les rapprochements manifestement hors sujet ou accessoires. HOLD seulement si l'information disponible ne permet pas une decision defendable. Ne fabrique aucun fait, ni connaissance canonique.\n\nRENVOIE UN SEUL ZIP contenant exactement DECISIONS_{job['id']}.csv, UTF-8, avec STRICTEMENT trois colonnes candidate_id,decision,justification. OBLIGATOIRE : une ligne pour CHACUN des {job['count']} candidate_id, y compris HOLD. Ceci prouve au moins que chaque candidat a reçu une décision; ne fabrique aucun identifiant. Un CSV de réponses abrégé peut être accepté pour compatibilité, mais l'interface exigera alors une confirmation humaine avant import. Une revue tout-HOLD demande aussi confirmation. N'ajoute aucun code exécutable.\n\nAprès vérification des identifiants et des preuves, l'interface reconstruira le CSV complet pour le véritable importeur v28.\n'''
+    return f'''ENCYKLOPEDIA — REVUE UNESCO v28 — TACHE {job['id']}\n\nANALYSE LE ZIP JOINT : {Path(job['bundle_path']).name} ({job['count']} propositions).\n\nLis chaque ligne du CSV REVUE_*.csv ET du fichier CONTEXTES_DOCUMENTAIRES_V28.jsonl (meme candidate_id). Lis toutes les propositions, y compris les packs de 4 000 (dernier lot possiblement plus petit). Travaille par tranches internes de 250 a 500 candidats pour couvrir tout le lot sans demander plusieurs envois. Un seul CSV final et un seul ZIP de retour. Ne classe jamais une proposition par defaut sans consulter son contexte; en cas de preuve insuffisante, choisis HOLD avec justification. Les preuves complementaires incluent les notes de portee UNESCO, les categories et, si disponible, un extrait du texte Wikipedia original par index local. Le manifeste indique explicitement les textes absents. APPROVE lorsque l'article traite substantiellement du concept UNESCO (pas une simple mention). Justification concise en francais de 20 caracteres minimum, expliquant le lien sans inventer de faits. REJECT les rapprochements manifestement hors sujet ou accessoires. HOLD seulement si l'information disponible ne permet pas une decision defendable. Ne fabrique aucun fait, ni connaissance canonique.\n\nRENVOIE UN SEUL ZIP contenant exactement DECISIONS_{job['id']}.csv, UTF-8, avec STRICTEMENT trois colonnes candidate_id,decision,justification. OBLIGATOIRE : une ligne pour CHACUN des {job['count']} candidate_id, y compris HOLD. Ceci prouve au moins que chaque candidat a reçu une décision; ne fabrique aucun identifiant. Un CSV de réponses abrégé peut être accepté pour compatibilité, mais l'interface exigera alors une confirmation humaine avant import. Une revue tout-HOLD demande aussi confirmation. N'ajoute aucun code exécutable.\n\nAprès vérification des identifiants et des preuves, l'interface reconstruira le CSV complet pour le véritable importeur v28.\n'''
 
 
 def extract_zip_files(name:str,raw:bytes):
@@ -368,11 +368,14 @@ class Station:
         sizes={'petits_300_ou_moins':sum(j['count']<=300 for j in unesco),
                'intermediaires_301_649':sum(301<=j['count']<650 for j in unesco),
                'volume_650_880':sum(650<=j['count']<=880 for j in unesco),
-               'hors_plage':sum(j['count']>880 or j['count']<=0 for j in unesco)}
+               'volume_881_3999':sum(881<=j['count']<4000 for j in unesco),
+               'volume_4000':sum(j['count']==4000 for j in unesco),
+               'hors_plage':sum(j['count']>4000 or j['count']<=0 for j in unesco)}
         ready=[{'id':j['id'],'kind':j['kind'],'taille':j['count'],'etat':j['status']}
                for j in jobs if j['status']=='READY']
         durations=[]
-        format_delays={'unesco_300_ou_moins':[], 'unesco_301_649':[], 'unesco_650_880':[], 'kristal':[]}
+        format_delays={'unesco_300_ou_moins':[], 'unesco_301_649':[], 'unesco_650_880':[],
+                       'unesco_881_3999':[], 'unesco_4000':[], 'kristal':[]}
         for j in jobs:
             if j['status']!='DONE' or not j['sent_utc'] or not j['finished_utc']:continue
             try:
@@ -385,7 +388,9 @@ class Station:
                 if j['kind']=='v27':bucket='kristal'
                 elif j['count']<=300:bucket='unesco_300_ou_moins'
                 elif j['count']<650:bucket='unesco_301_649'
-                else:bucket='unesco_650_880'
+                elif j['count']<=880:bucket='unesco_650_880'
+                elif j['count']<4000:bucket='unesco_881_3999'
+                else:bucket='unesco_4000'
                 format_delays[bucket].append(elapsed)
         by_format={key:{'mediane':round(statistics.median(values),1) if values else None,
                         'observations':len(values)} for key,values in format_delays.items()}
@@ -713,7 +718,7 @@ class Station:
                 if srcpath.is_file() and sha_path(srcpath)!=sha(raw):raise ValueError('Source v28 existante modifiée : '+jid)
                 if not srcpath.is_file():srcpath.write_bytes(raw)
                 description={'id':jid,'kind':'v28','count':len(rows),'bundle_path':str(bundle)}
-                inst='''REVUE DOCUMENTAIRE UNESCO : titres et preuves uniquement. Renvoie DECISIONS_<id>.csv, exactement 3 colonnes candidate_id,decision,justification, AVEC UNE LIGNE PAR CANDIDAT (HOLD explicite). Aucune colonne source recopiée. APPROVE : justification de 20 caractères minimum. Ne fabrique aucun fait ou identifiant. Pas de canon.\n'''
+                inst='''REVUE DOCUMENTAIRE UNESCO : titres et preuves uniquement. Lot jusqu a 4 000 candidats. Examine chaque candidat et le contexte correspondant, par tranches internes si utile, puis renvoie UN seul DECISIONS_<id>.csv, exactement 3 colonnes candidate_id,decision,justification, AVEC UNE LIGNE PAR CANDIDAT (HOLD explicite). Aucune colonne source recopiée. APPROVE : justification de 20 caractères minimum. Ne fabrique aucun fait ou identifiant. Pas de canon.\n'''
                 temp=bundle.with_suffix('.tmp')
                 with zipfile.ZipFile(temp,'w',zipfile.ZIP_DEFLATED,compresslevel=7) as z:
                     z.writestr('REVUE_'+jid+'.csv',raw)

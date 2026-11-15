@@ -23,12 +23,12 @@ function render(st){current=st;const occupied=st.lanes.filter(x=>x.job).length;
  const elapsed=delay.mediane===null||delay.mediane===undefined?'non mesuré':`${delay.mediane.toLocaleString('fr-CA')} min sur ${delay.observations} retours`;
  const by=v.delai_par_format_minutes||{};const fmt=k=>by[k]?.mediane===null||by[k]?.mediane===undefined?'—':`${by[k].mediane} min (${by[k].observations})`;
 
- $('#volumeTransition').textContent=`UNESCO en cours : ${v.unesco_ouverts??'—'} packs · 300 ou moins : ${b.petits_300_ou_moins??'—'} · 301–649 : ${b.intermediaires_301_649??'—'} · 650–880 : ${b.volume_650_880??'—'} | Kristal en cours : ${v.kristal_ouverts??'—'} packs.
+ $('#volumeTransition').textContent=`UNESCO en cours : ${v.unesco_ouverts??'—'} packs · 300 ou moins : ${b.petits_300_ou_moins??'—'} · 301–649 : ${b.intermediaires_301_649??'—'} · 650–880 : ${b.volume_650_880??'—'} · 881–3 999 : ${b.volume_881_3999??'—'} · 4 000 : ${b.volume_4000??'—'} | Kristal en cours : ${v.kristal_ouverts??'—'} packs.
 `+
   `Tâches READY : ${ready||'aucune'}.
 `+
-  `Délai transfert → import (inclut temps humain, ne mesure PAS le temps IA) : ${elapsed}. Petits UNESCO : ${fmt('unesco_300_ou_moins')} · Volume UNESCO : ${fmt('unesco_650_880')} · Kristal : ${fmt('kristal')}. `+
-  `Les ZIP déjà préparés ne sont ni fusionnés ni reconstruits; les nouveaux lots UNESCO visent ${v.contrat?.unesco_cible??880} lorsque la création est permise.`;
+  `Délai transfert → import (inclut temps humain, ne mesure PAS le temps IA) : ${elapsed}. Petits UNESCO : ${fmt('unesco_300_ou_moins')} · UNESCO 650–880 : ${fmt('unesco_650_880')} · UNESCO 881–3 999 : ${fmt('unesco_881_3999')} · UNESCO 4 000 : ${fmt('unesco_4000')} · Kristal : ${fmt('kristal')}. `+
+  `Les ZIP déjà préparés ne sont ni fusionnés ni reconstruits; les nouveaux lots UNESCO visent ${v.contrat?.unesco_cible??4000} lorsque la création est permise.`;
  const preload=st.preload||{};
  const summary=preload.enabled?`\nPréchargement automatique : ${preload.ready??0} / ${preload.total??0} ZIP prêts${preload.loading?' · création en cours…':''}${preload.failed?' · '+preload.failed+' échec(s), bouton de secours disponible':''}. Les ZIP sources et les preuves restent inchangés.`:'';
  $('#volumeTransition').textContent+=summary;
