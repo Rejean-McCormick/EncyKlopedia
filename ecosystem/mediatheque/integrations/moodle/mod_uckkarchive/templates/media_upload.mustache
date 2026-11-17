@@ -1,0 +1,463 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+
+    @template mod_uckkarchive/media_upload
+
+    Media upload panel for mod_uckkarchive.
+
+    Context variables:
+    {
+        "uniqid": "uckkarchive-media-upload-123",
+        "cmid": 42,
+        "archiveid": 7,
+        "mediaid": 0,
+        "draftitemid": 123456,
+        "maxbytes": "50MB",
+        "acceptedtypes": ".jpg,.png,.mp4,.mp3,.pdf",
+        "canupload": true,
+        "canversion": true,
+        "isversionupload": false,
+        "returnurl": "https://example.test/mod/uckkarchive/media.php?id=42",
+        "uploadurl": "https://example.test/webservice/ajax/server.php",
+        "title": "",
+        "description": "",
+        "alttext": "",
+        "caption": "",
+        "language": "en",
+        "license": "",
+        "rightsnote": "",
+        "sourceid": 0,
+        "mediatypes": [
+            {"value": "image", "label": "Image", "selected": true}
+        ],
+        "visibilityoptions": [
+            {"value": "course", "label": "Course", "selected": true}
+        ],
+        "audienceoptions": [
+            {"value": "guided", "label": "Guided", "selected": true}
+        ],
+        "statusoptions": [
+            {"value": "draft", "label": "Draft", "selected": true}
+        ],
+        "sources": [
+            {"id": 1, "label": "Original recording", "selected": false}
+        ],
+        "warnings": []
+    }
+}}
+
+<div
+    id="{{uniqid}}"
+    class="uckkarchive-media-upload"
+    data-region="uckkarchive-media-upload"
+    data-cmid="{{cmid}}"
+    data-archiveid="{{archiveid}}"
+    data-mediaid="{{mediaid}}"
+    data-draftitemid="{{draftitemid}}"
+    data-uploadurl="{{uploadurl}}"
+    data-returnurl="{{returnurl}}"
+>
+    <div class="card">
+        <div class="card-header d-flex align-items-center justify-content-between">
+            <div>
+                <h3 class="h5 mb-0">
+                    {{#isversionupload}}
+                        {{#str}} mediaupload:newversion, uckkarchive {{/str}}
+                    {{/isversionupload}}
+                    {{^isversionupload}}
+                        {{#str}} mediaupload:title, uckkarchive {{/str}}
+                    {{/isversionupload}}
+                </h3>
+
+                <div class="small text-muted mt-1">
+                    {{#str}} mediaupload:description, uckkarchive {{/str}}
+                </div>
+            </div>
+
+            {{#returnurl}}
+                <a class="btn btn-sm btn-outline-secondary" href="{{returnurl}}">
+                    {{#str}} cancel {{/str}}
+                </a>
+            {{/returnurl}}
+        </div>
+
+        <div class="card-body">
+            {{#warnings}}
+                <div class="alert alert-warning" role="alert">
+                    <strong>{{warningcode}}</strong>
+                    <span>{{message}}</span>
+                </div>
+            {{/warnings}}
+
+            {{^canupload}}
+                <div class="alert alert-danger" role="alert">
+                    {{#str}} mediaupload:nopermission, uckkarchive {{/str}}
+                </div>
+            {{/canupload}}
+
+            {{#canupload}}
+                <form method="post" enctype="multipart/form-data" data-region="media-upload-form">
+                    <input type="hidden" name="cmid" value="{{cmid}}">
+                    <input type="hidden" name="archiveid" value="{{archiveid}}">
+                    <input type="hidden" name="mediaid" value="{{mediaid}}">
+                    <input type="hidden" name="draftitemid" value="{{draftitemid}}">
+                    <input type="hidden" name="sesskey" value="{{sesskey}}">
+
+                    <section class="mb-4" aria-labelledby="{{uniqid}}-file-heading">
+                        <h4 id="{{uniqid}}-file-heading" class="h6">
+                            {{#str}} mediaupload:file, uckkarchive {{/str}}
+                        </h4>
+
+                        <div
+                            class="uckkarchive-media-upload-dropzone border rounded p-4 text-center"
+                            data-region="dropzone"
+                            tabindex="0"
+                            role="button"
+                            aria-describedby="{{uniqid}}-file-help"
+                        >
+                            <div class="mb-2" aria-hidden="true">
+                                <i class="icon fa fa-cloud-upload fa-2x"></i>
+                            </div>
+
+                            <p class="mb-2">
+                                {{#str}} mediaupload:dropfile, uckkarchive {{/str}}
+                            </p>
+
+                            <label class="btn btn-primary mb-0">
+                                {{#str}} choosefile {{/str}}
+                                <input
+                                    class="sr-only"
+                                    type="file"
+                                    name="mediafile"
+                                    data-region="file-input"
+                                    {{#acceptedtypes}}accept="{{acceptedtypes}}"{{/acceptedtypes}}
+                                >
+                            </label>
+
+                            <div id="{{uniqid}}-file-help" class="small text-muted mt-3">
+                                {{#maxbytes}}
+                                    {{#str}} mediaupload:maxbytes, uckkarchive, {{maxbytes}} {{/str}}
+                                {{/maxbytes}}
+                                {{#acceptedtypes}}
+                                    <span class="ml-2">
+                                        {{#str}} mediaupload:acceptedtypes, uckkarchive, {{acceptedtypes}} {{/str}}
+                                    </span>
+                                {{/acceptedtypes}}
+                            </div>
+                        </div>
+
+                        <div class="mt-3 d-none" data-region="selected-file">
+                            <div class="d-flex align-items-center justify-content-between border rounded p-2">
+                                <div>
+                                    <strong data-region="selected-file-name"></strong>
+                                    <div class="small text-muted" data-region="selected-file-size"></div>
+                                </div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary" data-action="clear-file">
+                                    {{#str}} remove {{/str}}
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="progress mt-3 d-none" data-region="upload-progress" aria-hidden="true">
+                            <div
+                                class="progress-bar"
+                                data-region="upload-progress-bar"
+                                role="progressbar"
+                                style="width: 0%;"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                                aria-valuenow="0"
+                            >
+                                <span data-region="upload-progress-label">0%</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="mb-4" aria-labelledby="{{uniqid}}-metadata-heading">
+                        <h4 id="{{uniqid}}-metadata-heading" class="h6">
+                            {{#str}} mediaupload:metadata, uckkarchive {{/str}}
+                        </h4>
+
+                        <div class="form-group">
+                            <label for="{{uniqid}}-title">
+                                {{#str}} title {{/str}}
+                                <span class="text-danger" aria-hidden="true">*</span>
+                            </label>
+                            <input
+                                id="{{uniqid}}-title"
+                                class="form-control"
+                                type="text"
+                                name="title"
+                                value="{{title}}"
+                                maxlength="255"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="{{uniqid}}-description">
+                                {{#str}} description {{/str}}
+                            </label>
+                            <textarea
+                                id="{{uniqid}}-description"
+                                class="form-control"
+                                name="description"
+                                rows="4"
+                            >{{description}}</textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="{{uniqid}}-alttext">
+                                {{#str}} media:alttext, uckkarchive {{/str}}
+                            </label>
+                            <input
+                                id="{{uniqid}}-alttext"
+                                class="form-control"
+                                type="text"
+                                name="alttext"
+                                value="{{alttext}}"
+                                maxlength="255"
+                            >
+                            <small class="form-text text-muted">
+                                {{#str}} media:alttext_help, uckkarchive {{/str}}
+                            </small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="{{uniqid}}-caption">
+                                {{#str}} media:caption, uckkarchive {{/str}}
+                            </label>
+                            <textarea
+                                id="{{uniqid}}-caption"
+                                class="form-control"
+                                name="caption"
+                                rows="3"
+                            >{{caption}}</textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="{{uniqid}}-mediatype">
+                                    {{#str}} media:type, uckkarchive {{/str}}
+                                </label>
+                                <select id="{{uniqid}}-mediatype" class="custom-select" name="mediatype">
+                                    {{#mediatypes}}
+                                        <option value="{{value}}" {{#selected}}selected{{/selected}}>
+                                            {{label}}
+                                        </option>
+                                    {{/mediatypes}}
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="{{uniqid}}-language">
+                                    {{#str}} language {{/str}}
+                                </label>
+                                <input
+                                    id="{{uniqid}}-language"
+                                    class="form-control"
+                                    type="text"
+                                    name="language"
+                                    value="{{language}}"
+                                    maxlength="20"
+                                >
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="mb-4" aria-labelledby="{{uniqid}}-access-heading">
+                        <h4 id="{{uniqid}}-access-heading" class="h6">
+                            {{#str}} mediaupload:access, uckkarchive {{/str}}
+                        </h4>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="{{uniqid}}-status">
+                                    {{#str}} status {{/str}}
+                                </label>
+                                <select id="{{uniqid}}-status" class="custom-select" name="status">
+                                    {{#statusoptions}}
+                                        <option value="{{value}}" {{#selected}}selected{{/selected}}>
+                                            {{label}}
+                                        </option>
+                                    {{/statusoptions}}
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-4">
+                                <label for="{{uniqid}}-visibility">
+                                    {{#str}} visibility {{/str}}
+                                </label>
+                                <select id="{{uniqid}}-visibility" class="custom-select" name="visibility">
+                                    {{#visibilityoptions}}
+                                        <option value="{{value}}" {{#selected}}selected{{/selected}}>
+                                            {{label}}
+                                        </option>
+                                    {{/visibilityoptions}}
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-4">
+                                <label for="{{uniqid}}-audience">
+                                    {{#str}} media:audiencesuitability, uckkarchive {{/str}}
+                                </label>
+                                <select id="{{uniqid}}-audience" class="custom-select" name="audiencesuitability">
+                                    {{#audienceoptions}}
+                                        <option value="{{value}}" {{#selected}}selected{{/selected}}>
+                                            {{label}}
+                                        </option>
+                                    {{/audienceoptions}}
+                                </select>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="mb-4" aria-labelledby="{{uniqid}}-rights-heading">
+                        <h4 id="{{uniqid}}-rights-heading" class="h6">
+                            {{#str}} mediaupload:rights, uckkarchive {{/str}}
+                        </h4>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="{{uniqid}}-license">
+                                    {{#str}} media:license, uckkarchive {{/str}}
+                                </label>
+                                <input
+                                    id="{{uniqid}}-license"
+                                    class="form-control"
+                                    type="text"
+                                    name="license"
+                                    value="{{license}}"
+                                    maxlength="255"
+                                >
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="{{uniqid}}-source">
+                                    {{#str}} media:source, uckkarchive {{/str}}
+                                </label>
+                                <select id="{{uniqid}}-source" class="custom-select" name="sourceid">
+                                    <option value="0">{{#str}} none {{/str}}</option>
+                                    {{#sources}}
+                                        <option value="{{id}}" {{#selected}}selected{{/selected}}>
+                                            {{label}}
+                                        </option>
+                                    {{/sources}}
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="{{uniqid}}-rightsnote">
+                                {{#str}} media:rightsnote, uckkarchive {{/str}}
+                            </label>
+                            <textarea
+                                id="{{uniqid}}-rightsnote"
+                                class="form-control"
+                                name="rightsnote"
+                                rows="3"
+                            >{{rightsnote}}</textarea>
+                        </div>
+                    </section>
+
+                    {{#canversion}}
+                        <section class="mb-4" aria-labelledby="{{uniqid}}-version-heading">
+                            <h4 id="{{uniqid}}-version-heading" class="h6">
+                                {{#str}} mediaupload:versioning, uckkarchive {{/str}}
+                            </h4>
+
+                            <div class="custom-control custom-checkbox">
+                                <input
+                                    id="{{uniqid}}-isversionupload"
+                                    class="custom-control-input"
+                                    type="checkbox"
+                                    name="isversionupload"
+                                    value="1"
+                                    {{#isversionupload}}checked{{/isversionupload}}
+                                >
+                                <label class="custom-control-label" for="{{uniqid}}-isversionupload">
+                                    {{#str}} mediaupload:isversionupload, uckkarchive {{/str}}
+                                </label>
+                            </div>
+
+                            <div class="form-group mt-3" data-region="version-note">
+                                <label for="{{uniqid}}-versionnote">
+                                    {{#str}} mediaupload:versionnote, uckkarchive {{/str}}
+                                </label>
+                                <textarea
+                                    id="{{uniqid}}-versionnote"
+                                    class="form-control"
+                                    name="versionnote"
+                                    rows="3"
+                                >{{versionnote}}</textarea>
+                            </div>
+                        </section>
+                    {{/canversion}}
+
+                    <section class="mb-4" aria-labelledby="{{uniqid}}-advisory-heading">
+                        <h4 id="{{uniqid}}-advisory-heading" class="h6">
+                            {{#str}} contentadvisory:title, uckkarchive {{/str}}
+                        </h4>
+
+                        <div class="custom-control custom-checkbox">
+                            <input
+                                id="{{uniqid}}-needsadvisory"
+                                class="custom-control-input"
+                                type="checkbox"
+                                name="needsadvisory"
+                                value="1"
+                                {{#needsadvisory}}checked{{/needsadvisory}}
+                            >
+                            <label class="custom-control-label" for="{{uniqid}}-needsadvisory">
+                                {{#str}} mediaupload:needsadvisory, uckkarchive {{/str}}
+                            </label>
+                        </div>
+
+                        <div class="mt-3" data-region="advisory-placeholder">
+                            {{#advisoryhtml}}
+                                {{{advisoryhtml}}}
+                            {{/advisoryhtml}}
+                            {{^advisoryhtml}}
+                                <div class="alert alert-info mb-0">
+                                    {{#str}} mediaupload:advisorylater, uckkarchive {{/str}}
+                                </div>
+                            {{/advisoryhtml}}
+                        </div>
+                    </section>
+
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="text-muted small" data-region="upload-status" aria-live="polite"></div>
+
+                        <div>
+                            {{#returnurl}}
+                                <a class="btn btn-secondary" href="{{returnurl}}">
+                                    {{#str}} cancel {{/str}}
+                                </a>
+                            {{/returnurl}}
+
+                            <button type="submit" class="btn btn-primary" data-action="upload-media">
+                                {{#isversionupload}}
+                                    {{#str}} mediaupload:saveversion, uckkarchive {{/str}}
+                                {{/isversionupload}}
+                                {{^isversionupload}}
+                                    {{#str}} mediaupload:save, uckkarchive {{/str}}
+                                {{/isversionupload}}
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            {{/canupload}}
+        </div>
+    </div>
+</div>
+
+{{#js}}
+require(['mod_uckkarchive/media'], function(Media) {
+    Media.initUpload('{{uniqid}}');
+});
+{{/js}}

@@ -1,0 +1,3258 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "اقتصاديات الزراعة"
+        ],
+        "es": [
+          "Agroeconomía",
+          "Economía agrícola"
+        ],
+        "fr": [
+          "Économie agraire",
+          "Économie agricole"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:07+00:00",
+      "narrower": [
+        "concept1733",
+        "concept1737",
+        "concept1739",
+        "concept1740",
+        "concept1743",
+        "concept1744",
+        "concept1745",
+        "concept1746"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقتصاد زراعي"
+        ],
+        "en": [
+          "Agricultural economics"
+        ],
+        "es": [
+          "Economía agraria"
+        ],
+        "fr": [
+          "Agroéconomie"
+        ],
+        "ru": [
+          "Экономика сельского хозяйства"
+        ]
+      },
+      "related": [
+        "concept1703",
+        "concept1748",
+        "concept1749"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept596",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept596",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اراضي صالحة للزراعة"
+        ],
+        "en": [
+          "Arable land"
+        ],
+        "es": [
+          "Suelo cultivable",
+          "Suelo laborable",
+          "Tierra cultivable",
+          "Tierra laborable"
+        ],
+        "fr": [
+          "Sol arable",
+          "Terre arable",
+          "Terre labourable"
+        ],
+        "ru": [
+          "Пахотная земля"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:30+00:00",
+      "narrower": [
+        "concept1775"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اراضي زراعية"
+        ],
+        "en": [
+          "Agricultural land"
+        ],
+        "es": [
+          "Tierra agrícola"
+        ],
+        "fr": [
+          "Terre agricole"
+        ],
+        "ru": [
+          "Сельскохозяйственные земли"
+        ]
+      },
+      "related": [
+        "concept1777",
+        "concept1778",
+        "concept1779",
+        "concept1780",
+        "concept1781",
+        "concept442",
+        "concept599",
+        "concept603"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept597",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept597",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "فلاحة"
+        ],
+        "en": [
+          "Farming"
+        ],
+        "ru": [
+          "Фермерское хозяйство"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:31+00:00",
+      "narrower": [
+        "concept1717",
+        "concept1721",
+        "concept1753",
+        "concept1818"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زراعة"
+        ],
+        "en": [
+          "Agriculture"
+        ],
+        "es": [
+          "Agricultura"
+        ],
+        "fr": [
+          "Agriculture"
+        ],
+        "ru": [
+          "Сельское хозяйство"
+        ]
+      },
+      "related": [
+        "concept1710",
+        "concept1777",
+        "concept1843",
+        "concept599",
+        "concept600",
+        "concept603"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept598",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept598",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الفلاحة",
+          "هندسة زراعية"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:14:27+00:00",
+      "narrower": [
+        "concept1777",
+        "concept1865",
+        "concept1866",
+        "concept1867"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الزراعة"
+        ],
+        "en": [
+          "Agronomy"
+        ],
+        "es": [
+          "Agronomía"
+        ],
+        "fr": [
+          "Agronomie"
+        ],
+        "ru": [
+          "Агрономия"
+        ]
+      },
+      "related": [
+        "concept164",
+        "concept597",
+        "concept598",
+        "concept600",
+        "concept603",
+        "concept619"
+      ],
+      "scope_notes": {
+        "ar": [
+          "علم إدارة المحاصيل والتربة."
+        ],
+        "en": [
+          "The science of crop and soil management."
+        ],
+        "es": [
+          "Ciencia encargada de gestionar el suelo para que sea adecuado para la cosecha."
+        ],
+        "fr": [
+          "Science de la gestion des cultures et des sols."
+        ],
+        "ru": [
+          "Наука управления урожаем и почвами."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept599",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept599",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية الابقار",
+          "تربية الماشية",
+          "تربية المواشي",
+          "تربية ماشية الالبان",
+          "حظائر ابقار",
+          "صناعة الالبان",
+          "مزارع الالبان"
+        ],
+        "en": [
+          "Dairy farming",
+          "Stock farming"
+        ],
+        "es": [
+          "Cría animal"
+        ],
+        "fr": [
+          "Exploitation d'élevage",
+          "Élevage",
+          "Élevage de bétail laitier",
+          "Élevage laitier"
+        ],
+        "ru": [
+          "Производство молочной продукции",
+          "Разведение домашнего скота"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية الحيوانات"
+        ],
+        "en": [
+          "Animal husbandry"
+        ],
+        "es": [
+          "Zootecnia"
+        ],
+        "fr": [
+          "Zootechnie"
+        ],
+        "ru": [
+          "Животноводство"
+        ]
+      },
+      "related": [
+        "concept1323",
+        "concept1765",
+        "concept1850",
+        "concept2410",
+        "concept2423",
+        "concept598",
+        "concept599"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept600",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept600",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادارة مصائد الاسماك",
+          "ادارة مصايد الاسماك",
+          "مصايد الاسماك"
+        ],
+        "en": [
+          "Fishery management"
+        ],
+        "es": [
+          "Gestión de la pesca"
+        ],
+        "fr": [
+          "Gestion de la pêche"
+        ],
+        "ru": [
+          "Управление рыбной ловлей"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:13+00:00",
+      "narrower": [
+        "concept10917",
+        "concept10918",
+        "concept1323"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مصائد الاسماك"
+        ],
+        "en": [
+          "Fisheries"
+        ],
+        "es": [
+          "Pesquería"
+        ],
+        "fr": [
+          "Pêche"
+        ],
+        "ru": [
+          "Рыбные промыслы"
+        ]
+      },
+      "related": [
+        "concept174",
+        "concept2443",
+        "concept2625"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept601",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept601",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا غذائية",
+          "هندسة الاغذية",
+          "هندسة غذائية"
+        ],
+        "en": [
+          "Food engineering"
+        ],
+        "es": [
+          "Ingeniería agroalimentaria",
+          "Ingeniería en alimentos",
+          "Tecnología alimenticia"
+        ],
+        "fr": [
+          "Génie alimentaire",
+          "Génie industriel alimentaire",
+          "Ingénierie agroalimentaire"
+        ],
+        "ru": [
+          "Технологии пищевой промышленности"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:22+00:00",
+      "narrower": [
+        "concept11011"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا الاغذية"
+        ],
+        "en": [
+          "Food technology"
+        ],
+        "es": [
+          "Tecnología alimentaria"
+        ],
+        "fr": [
+          "Technologie alimentaire"
+        ],
+        "ru": [
+          "Пищевая технология"
+        ]
+      },
+      "related": [
+        "concept10928",
+        "concept619",
+        "concept620"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept602",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept602",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الحراجة"
+        ],
+        "fr": [
+          "Sciences forestières"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:24+00:00",
+      "narrower": [
+        "concept11077",
+        "concept1850",
+        "concept1853",
+        "concept4070"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الغابات"
+        ],
+        "en": [
+          "Forestry"
+        ],
+        "es": [
+          "Ciencias forestales"
+        ],
+        "fr": [
+          "Foresterie"
+        ],
+        "ru": [
+          "Лесоводство"
+        ]
+      },
+      "related": [
+        "concept10928",
+        "concept1813",
+        "concept2672",
+        "concept597",
+        "concept598",
+        "concept599",
+        "concept619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept603",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept603",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استزراع الاسماك",
+          "استزراع سمكي",
+          "تربية اسماك المياه العذبة",
+          "تربية الاحياء المائية",
+          "تربية الاسماك",
+          "تربية المائيات"
+        ],
+        "en": [
+          "Fish farming",
+          "Freshwater fish culture"
+        ],
+        "es": [
+          "Cría de peces",
+          "Piscicultura"
+        ],
+        "fr": [
+          "Alevinage",
+          "Pisciculture",
+          "Élevage de poissons"
+        ],
+        "ru": [
+          "Пресноводная рыбная культура",
+          "Разведение рыб"
+        ]
+      },
+      "broader": [
+        "concept601"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:21+00:00",
+      "narrower": [
+        "concept1325"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استزراع مائي"
+        ],
+        "en": [
+          "Aquaculture"
+        ],
+        "es": [
+          "Acuicultura"
+        ],
+        "fr": [
+          "Aquaculture"
+        ],
+        "ru": [
+          "Аквакультура"
+        ]
+      },
+      "related": [
+        "concept2623",
+        "concept600"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1323",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1323",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية الاحياء المائية البحرية",
+          "مزارع مائية بحرية"
+        ]
+      },
+      "broader": [
+        "concept1323"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:15:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية الاحياء البحرية"
+        ],
+        "en": [
+          "Marine aquaculture"
+        ],
+        "es": [
+          "Acuicultura marina"
+        ],
+        "fr": [
+          "Aquaculture marine"
+        ],
+        "ru": [
+          "Морская аквакультура"
+        ]
+      },
+      "related": [
+        "concept10913",
+        "concept5508"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1325",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1325",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انظمة زراعية",
+          "بنية زراعية",
+          "نظم زراعية"
+        ],
+        "en": [
+          "Agrarian systems"
+        ],
+        "es": [
+          "Sistema agrario"
+        ],
+        "fr": [
+          "Système agraire"
+        ],
+        "ru": [
+          "Аграрные системы"
+        ]
+      },
+      "broader": [
+        "concept1746"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:33:22+00:00",
+      "narrower": [
+        "concept1701"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هيكل زراعي"
+        ],
+        "en": [
+          "Agrarian structure"
+        ],
+        "es": [
+          "Estructura agraria"
+        ],
+        "fr": [
+          "Structure agraire"
+        ],
+        "ru": [
+          "Аграрная структура"
+        ]
+      },
+      "related": [
+        "concept1703"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مجموعة من العلاقات المتشعبة القائمة بين حيازة الأراضي والإنتاج والخدمات الداعمة والمؤسسات الريفية المرتبطة بها، يشكل كل منها جزءاً لا يتجزأ من كيان أوسع."
+        ],
+        "en": [
+          "A complex of relationships which exist among land tenure, production and supporting services, and related rural institutions, each constituting an integral part of the wider whole."
+        ],
+        "es": [
+          "Red compleja de relaciones entre la posesión de tierras, la producción agrícola, los servicios de los que ella depende y las otras instituciones rurales, constituyendo cada parte una unidad integral de todo el conjunto."
+        ],
+        "fr": [
+          "Réseau complexe de relations existant entre le régime foncier, la production agricole et les services dont elle dépend, et les autres institutions rurales rattachées, chacun constituant un tout dans un ensemble plus grand."
+        ],
+        "ru": [
+          "Порядок отношений между землевладением, аграрным производством, сервисным агропромышленным комплексом и связанными с ними аграрными институтами, входящими в единую систему."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1699",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1699",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اصلاح اراضي"
+        ],
+        "en": [
+          "Agrarian reform"
+        ],
+        "es": [
+          "Reforma agraria"
+        ],
+        "fr": [
+          "Réforme agraire"
+        ],
+        "ru": [
+          "Аграрная реформа"
+        ]
+      },
+      "broader": [
+        "concept1699"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:15:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اصلاح زراعي"
+        ],
+        "en": [
+          "Land reform"
+        ],
+        "es": [
+          "Reforma de la tierra"
+        ],
+        "fr": [
+          "Réforme foncière"
+        ],
+        "ru": [
+          "Земельная реформа"
+        ]
+      },
+      "related": [
+        "concept13174",
+        "concept1741"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1701",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1701",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "زراعة استهلاكية",
+          "زراعة معيشية",
+          "فلاحة الكفاف"
+        ]
+      },
+      "broader": [
+        "concept1737"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زراعة الكفاف"
+        ],
+        "en": [
+          "Subsistence agriculture"
+        ],
+        "es": [
+          "Agricultura de subsistencia"
+        ],
+        "fr": [
+          "Agriculture de subsistance"
+        ],
+        "ru": [
+          "Натуральное сельское хозяйство"
+        ]
+      },
+      "related": [
+        "concept1703",
+        "concept3592"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1714",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1714",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيولوجيا زراعية"
+        ],
+        "es": [
+          "Biología agraria"
+        ]
+      },
+      "broader": [
+        "concept598"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:44:03+00:00",
+      "narrower": [
+        "concept1718"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الأحياء الزراعي"
+        ],
+        "en": [
+          "Agricultural biology"
+        ],
+        "es": [
+          "Biología agrícola"
+        ],
+        "fr": [
+          "Biologie agricole"
+        ],
+        "ru": [
+          "Биология сельского хозяйства"
+        ]
+      },
+      "related": [
+        "concept219"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1717",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1717",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة وراثية زراعية",
+          "وراثة زراعية"
+        ]
+      },
+      "broader": [
+        "concept1717"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الوراثة الزراعي"
+        ],
+        "en": [
+          "Agricultural genetics"
+        ],
+        "es": [
+          "Genética agrícola"
+        ],
+        "fr": [
+          "Génétique agricole"
+        ],
+        "ru": [
+          "Сельскохозяйственная генетика"
+        ]
+      },
+      "related": [
+        "concept17060",
+        "concept1765",
+        "concept1766",
+        "concept619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1718",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1718",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept598"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:14:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء زراعية"
+        ],
+        "en": [
+          "Agricultural chemistry"
+        ],
+        "es": [
+          "Química agrícola"
+        ],
+        "fr": [
+          "Chimie agricole"
+        ],
+        "ru": [
+          "Химия сельского хозяйства"
+        ]
+      },
+      "related": [
+        "concept1723",
+        "concept1724",
+        "concept1725",
+        "concept1726",
+        "concept619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1721",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1721",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اقراض زراعي",
+          "بنوك زراعية",
+          "تسليف زراعي",
+          "قروض زراعية",
+          "مصارف زراعية"
+        ],
+        "en": [
+          "Agricultural banks"
+        ],
+        "es": [
+          "Banca agrícola"
+        ],
+        "fr": [
+          "Banque agricole"
+        ],
+        "ru": [
+          "Сельскохозяйственные банки"
+        ]
+      },
+      "broader": [
+        "concept596"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:44:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ائتمان زراعي"
+        ],
+        "en": [
+          "Agricultural credit"
+        ],
+        "es": [
+          "Crédito agrícola"
+        ],
+        "fr": [
+          "Crédit agricole"
+        ],
+        "ru": [
+          "Сельскохозяйственный кредит"
+        ]
+      },
+      "related": [
+        "concept1735"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1733",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1733",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تطوير زراعي"
+        ]
+      },
+      "broader": [
+        "concept596"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:08+00:00",
+      "narrower": [
+        "concept1714"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنمية زراعية"
+        ],
+        "en": [
+          "Agricultural development"
+        ],
+        "es": [
+          "Desarrollo agrícola"
+        ],
+        "fr": [
+          "Développement agricole"
+        ],
+        "ru": [
+          "Сельскохозяйственное развитие"
+        ]
+      },
+      "related": [
+        "concept1739",
+        "concept1740",
+        "concept1741",
+        "concept446",
+        "concept594"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1737",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1737",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Aménagement agricole"
+        ]
+      },
+      "broader": [
+        "concept596"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:15:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخطيط زراعي"
+        ],
+        "en": [
+          "Agricultural planning"
+        ],
+        "es": [
+          "Planificación agrícola"
+        ],
+        "fr": [
+          "Planification agricole"
+        ],
+        "ru": [
+          "Планирование в области сельского хозяйства"
+        ]
+      },
+      "related": [
+        "concept1737",
+        "concept1740",
+        "concept1795"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1739",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1739",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سياسة الغذاء",
+          "سياسة غذائية"
+        ],
+        "en": [
+          "Food policy"
+        ],
+        "es": [
+          "Política agrícola",
+          "Política alimentaria"
+        ],
+        "fr": [
+          "Politique alimentaire"
+        ],
+        "ru": [
+          "Политика в области продовольствия"
+        ]
+      },
+      "broader": [
+        "concept596"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:15:43+00:00",
+      "narrower": [
+        "concept1789",
+        "concept1798"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة زراعية"
+        ],
+        "en": [
+          "Agricultural policy"
+        ],
+        "es": [
+          "Política agraria"
+        ],
+        "fr": [
+          "Politique agricole"
+        ],
+        "ru": [
+          "Политика в области сельского хозяйства"
+        ]
+      },
+      "related": [
+        "concept1737",
+        "concept1739",
+        "concept1800"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1740",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1740",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept596"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:15:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اسواق زراعية"
+        ],
+        "en": [
+          "Agricultural markets"
+        ],
+        "es": [
+          "Mercado agrícola"
+        ],
+        "fr": [
+          "Marché agricole"
+        ],
+        "ru": [
+          "Сельскохозяйственные рынки"
+        ]
+      },
+      "related": [
+        "concept1789",
+        "concept634"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1743",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1743",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Producción agraria"
+        ]
+      },
+      "broader": [
+        "concept596"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انتاج زراعي"
+        ],
+        "en": [
+          "Agricultural production"
+        ],
+        "es": [
+          "Producción agrícola"
+        ],
+        "fr": [
+          "Production agricole"
+        ],
+        "ru": [
+          "Сельскохозяйственное производство"
+        ]
+      },
+      "related": [
+        "concept1807",
+        "concept1808",
+        "concept634"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1744",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1744",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احصائيات زراعية"
+        ]
+      },
+      "broader": [
+        "concept596"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:26+00:00",
+      "narrower": [
+        "concept1824"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احصاءات زراعية"
+        ],
+        "en": [
+          "Agricultural statistics"
+        ],
+        "es": [
+          "Estadísticas agrícolas"
+        ],
+        "fr": [
+          "Statistique agricole"
+        ],
+        "ru": [
+          "Статистика в области сельского хозяйства"
+        ]
+      },
+      "related": [
+        "concept1826"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1745",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1745",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept596"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:53+00:00",
+      "narrower": [
+        "concept13162",
+        "concept13163",
+        "concept1699",
+        "concept8044",
+        "concept8391"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقتصاديات الاراضي"
+        ],
+        "en": [
+          "Land economics"
+        ],
+        "es": [
+          "Economía de la tierra"
+        ],
+        "fr": [
+          "Économie foncière"
+        ],
+        "ru": [
+          "Земельное хозяйство"
+        ]
+      },
+      "related": [
+        "concept1780",
+        "concept442"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1746",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1746",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Génie rural"
+        ]
+      },
+      "broader": [
+        "concept598"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:14:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة زراعية"
+        ],
+        "en": [
+          "Agricultural engineering"
+        ],
+        "es": [
+          "Ingeniería agrícola"
+        ],
+        "fr": [
+          "Génie agricole"
+        ],
+        "ru": [
+          "Сельскохозяйственное машиностроение"
+        ]
+      },
+      "related": [
+        "concept1751",
+        "concept1759"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1753",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1753",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اراض عشبية",
+          "اراضي الرعي",
+          "اراضي عشبية",
+          "مراع",
+          "مروج"
+        ],
+        "en": [
+          "Pasture"
+        ],
+        "es": [
+          "Pasto"
+        ],
+        "fr": [
+          "Pâturage"
+        ],
+        "ru": [
+          "Пастбища"
+        ]
+      },
+      "broader": [
+        "concept597"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراعي"
+        ],
+        "en": [
+          "Grazing land"
+        ],
+        "es": [
+          "Tierra de pastoreo"
+        ],
+        "fr": [
+          "Terre de pâturage"
+        ],
+        "ru": [
+          "Пастбищные земли"
+        ]
+      },
+      "related": [
+        "concept4071"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1775",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1775",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استنبات",
+          "انظمة الزراعة",
+          "حرث",
+          "نظم الحصاد",
+          "نظم الزرع",
+          "نظم المحاصيل",
+          "نظم زراعة المحاصيل",
+          "نظم زراعية"
+        ],
+        "en": [
+          "Cropping systems",
+          "Cultivation systems",
+          "Farming systems"
+        ],
+        "es": [
+          "Sistema de cultivo",
+          "Sistema de explotación agrícola",
+          "Sistema de producción agrícola"
+        ],
+        "fr": [
+          "Système cultural",
+          "Système d'exploitation agricole",
+          "Système de culture",
+          "Système de production agricole"
+        ],
+        "ru": [
+          "Сельскохозяйственные приемы",
+          "Системы земледелия",
+          "Системы культивации"
+        ]
+      },
+      "broader": [
+        "concept599"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:36:26+00:00",
+      "narrower": [
+        "concept1808",
+        "concept2850",
+        "concept6682",
+        "concept6924"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حراثة"
+        ],
+        "en": [
+          "Cultivation"
+        ],
+        "es": [
+          "Cultivo"
+        ],
+        "fr": [
+          "Culture du sol"
+        ],
+        "ru": [
+          "Культивация"
+        ]
+      },
+      "related": [
+        "concept1779",
+        "concept1811",
+        "concept1850",
+        "concept1866",
+        "concept1867",
+        "concept597",
+        "concept598"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1777",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1777",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجتثاث الغابات",
+          "ازالة الأحراج",
+          "قطع الغابات"
+        ]
+      },
+      "broader": [
+        "concept1853"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ازالة الغابات"
+        ],
+        "en": [
+          "Deforestation"
+        ],
+        "es": [
+          "Deforestación"
+        ],
+        "fr": [
+          "Déboisement"
+        ],
+        "ru": [
+          "Сведение лесов"
+        ]
+      },
+      "related": [
+        "concept207",
+        "concept597",
+        "concept7557"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1778",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1778",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اسعار المنتجات الزراعية"
+        ]
+      },
+      "broader": [
+        "concept1740"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اسعار زراعية"
+        ],
+        "en": [
+          "Agricultural prices"
+        ],
+        "es": [
+          "Precio agrícola"
+        ],
+        "fr": [
+          "Prix agricole"
+        ],
+        "ru": [
+          "Цены на сельскохозяйственную продукцию"
+        ]
+      },
+      "related": [
+        "concept1743",
+        "concept1803",
+        "concept1804"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1789",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1789",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Seguridad alimenticia"
+        ]
+      },
+      "broader": [
+        "concept1740"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:15:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "امن غذائي"
+        ],
+        "en": [
+          "Food security"
+        ],
+        "es": [
+          "Seguridad alimentaria"
+        ],
+        "fr": [
+          "Sécurité alimentaire"
+        ],
+        "ru": [
+          "Продовольственная безопасность"
+        ]
+      },
+      "related": [
+        "concept2446",
+        "concept8222"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الوصول إلى الغذاء الكافي لحياة نشطة وصحية من قبل جميع الناس في جميع الأوقات."
+        ],
+        "en": [
+          "Access by all people at all times to enough food for an active, healthy life."
+        ],
+        "es": [
+          "Acceso por parte de todos y en todo momento a la comida en cantidad suficiente para llevar una vida activa y sana."
+        ],
+        "fr": [
+          "Accès pour tous et en tout temps à la nourriture en quantité suffisante pour mener une vie active et saine."
+        ],
+        "ru": [
+          "Неограниченный по времени доступ всего населения к продовольственным ресурсам, достаточным для активной, здоровой жизни."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1798",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1798",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انتاج الغذاء",
+          "انتاج المواد الغذائية",
+          "انتاج غذائي"
+        ],
+        "es": [
+          "Producción alimenticia"
+        ],
+        "fr": [
+          "Production vivrière"
+        ]
+      },
+      "broader": [
+        "concept1777"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:15:49+00:00",
+      "narrower": [
+        "concept17102"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انتاج الاغذية"
+        ],
+        "en": [
+          "Food production"
+        ],
+        "es": [
+          "Producción alimentaria"
+        ],
+        "fr": [
+          "Production alimentaire"
+        ],
+        "ru": [
+          "Производство продуктов питания"
+        ]
+      },
+      "related": [
+        "concept10928",
+        "concept1744",
+        "concept2446"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1808",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1808",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحوث زراعية"
+        ],
+        "es": [
+          "Investigación agronómica"
+        ],
+        "fr": [
+          "Recherche agronomique"
+        ]
+      },
+      "broader": [
+        "concept598"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحث زراعي"
+        ],
+        "en": [
+          "Agricultural research"
+        ],
+        "es": [
+          "Investigación agrícola"
+        ],
+        "fr": [
+          "Recherche agricole"
+        ],
+        "ru": [
+          "Исследования в области сельского хозяйства"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "تهدف إلى تحسين المحاصيل، وزيادة الغلة، وزيادة القدرة على مقاومة الأمراض."
+        ],
+        "en": [
+          "Designed to improve crops, increase yields, develop resistances to diseases."
+        ],
+        "es": [
+          "Investigación destinada a mejorar las cosechas, aumentar el rendimiento y desarrollar la resistencia a las enfermedades."
+        ],
+        "fr": [
+          "Destinée à améliorer les récoltes, accroître le rendement, développer la résistance aux maladies."
+        ],
+        "ru": [
+          "Предназначены улучшить сорта зерновых культур, повысить урожайность, выработать устойчивость к болезням."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1818",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1818",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احصاءات الغذاء",
+          "احصائيات الاغذية",
+          "احصائيات الغذاء"
+        ]
+      },
+      "broader": [
+        "concept1745"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:15:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احصاءات الاغذية"
+        ],
+        "en": [
+          "Food statistics"
+        ],
+        "es": [
+          "Estadísticas alimentarias"
+        ],
+        "fr": [
+          "Statistique alimentaire"
+        ],
+        "ru": [
+          "Статистика в области продовольствия"
+        ]
+      },
+      "related": [
+        "concept5835"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1824",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1824",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حراجة زراعية",
+          "زراعة الغابات"
+        ],
+        "en": [
+          "Agrisilviculture",
+          "Forest farming"
+        ],
+        "fr": [
+          "Agrosylviculture"
+        ],
+        "ru": [
+          "Агро- и лесное хозяйство",
+          "Разведение лесов"
+        ]
+      },
+      "broader": [
+        "concept603"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زراعة حراجية"
+        ],
+        "en": [
+          "Agroforestry"
+        ],
+        "es": [
+          "Agrosilvicultura"
+        ],
+        "fr": [
+          "Agroforesterie"
+        ],
+        "ru": [
+          "Агролесоводство"
+        ]
+      },
+      "related": [
+        "concept1777",
+        "concept1853",
+        "concept600"
+      ],
+      "scope_notes": {
+        "ar": [
+          "زراعة الأشجار والمحاصيل الغذائية و/ أو تربية الثروة الحيوانية في آن واحد على قطعة الأرض ذاتها."
+        ],
+        "en": [
+          "Simultaneous growing of trees with food crops and/or livestock on the same piece of land."
+        ],
+        "es": [
+          "Cultura simultánea de árboles, productos víveres y/o cría de ganado en una misma parcela de tierra."
+        ],
+        "fr": [
+          "Culture simultanée d'arbres, de produits vivriers et/ou élevage de bétail sur une même parcelle de terre."
+        ],
+        "ru": [
+          "Одновременное выращивание деревьев и зерновых и/или сельскохозяйственных животных на одном и том же участке земли."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1850",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1850",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادارة الاحراج",
+          "اعادة التأجيم",
+          "اعادة التحريج",
+          "اعادة التشجير",
+          "تحريج",
+          "تشجير",
+          "غرس الاشجار",
+          "غرس الغابات"
+        ],
+        "en": [
+          "Afforestation",
+          "Reforestation"
+        ],
+        "es": [
+          "Explotación forestal",
+          "Forestación",
+          "Reforestación",
+          "Repoblación forestal"
+        ],
+        "fr": [
+          "Boisement",
+          "Exploitation forestière",
+          "Reboisement"
+        ],
+        "ru": [
+          "Лесовосстановление",
+          "Лесонасаждение"
+        ]
+      },
+      "broader": [
+        "concept603"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:03+00:00",
+      "narrower": [
+        "concept1778"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادارة الغابات"
+        ],
+        "en": [
+          "Forest management"
+        ],
+        "es": [
+          "Gestión forestal"
+        ],
+        "fr": [
+          "Gestion forestière"
+        ],
+        "ru": [
+          "Управление лесным хозяйством"
+        ]
+      },
+      "related": [
+        "concept11063",
+        "concept1850",
+        "concept442",
+        "concept4649",
+        "concept6352"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشير إلى الجوانب المتعلقة باستخراج الأخشاب وإعادة تشجير الغابات."
+        ],
+        "en": [
+          "Refers to timber extraction and reforestation aspects of forestry."
+        ],
+        "es": [
+          "Se refiere a los aspectos de la explotación forestal y de la reforestación de los bosques."
+        ],
+        "fr": [
+          "Se réfère aux aspects exploitation forestière et reboisement de la foresterie."
+        ],
+        "ru": [
+          "Относится к производству древесины и лесовосстановительным аспектам лесоводства."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1853",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1853",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بستنة",
+          "بستنة تجارية",
+          "بستنة سوقية",
+          "فلاحة البساتين"
+        ],
+        "en": [
+          "Market gardening"
+        ],
+        "es": [
+          "Cultivo de hortalizas",
+          "Horticultura ornamental"
+        ],
+        "fr": [
+          "Culture légumière",
+          "Culture maraîchère",
+          "Horticulture ornementale",
+          "Horticulture vivrière",
+          "Maraîchage"
+        ],
+        "ru": [
+          "Промышленное садоводство"
+        ]
+      },
+      "broader": [
+        "concept599"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زراعة البساتين"
+        ],
+        "en": [
+          "Horticulture"
+        ],
+        "es": [
+          "Horticultura"
+        ],
+        "fr": [
+          "Horticulture"
+        ],
+        "ru": [
+          "Садоводство"
+        ]
+      },
+      "related": [
+        "concept10945",
+        "concept11238",
+        "concept11975"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1865",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1865",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مكافحة الحشرات"
+        ],
+        "en": [
+          "Insect control"
+        ],
+        "es": [
+          "Control de los insectos",
+          "Control de los parásitos",
+          "Intervención fitosanitaria",
+          "Lucha antiparasitaria"
+        ],
+        "fr": [
+          "Contrôle des insectes",
+          "Intervention phytosanitaire",
+          "Lutte antiparasitaire",
+          "Lutte contre les animaux nuisibles",
+          "Lutte contre les ravageurs"
+        ],
+        "ru": [
+          "Борьба с насекомыми"
+        ]
+      },
+      "broader": [
+        "concept599"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:16+00:00",
+      "narrower": [
+        "concept2400"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مكافحة الافات"
+        ],
+        "en": [
+          "Pest control"
+        ],
+        "es": [
+          "Control de plagas"
+        ],
+        "fr": [
+          "Lutte anti-parasite"
+        ],
+        "ru": [
+          "Борьба с вредителями"
+        ]
+      },
+      "related": [
+        "concept1726",
+        "concept1777",
+        "concept2461",
+        "concept3180",
+        "concept4006"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1866",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1866",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مكافحة الحشائش الضارة"
+        ],
+        "fr": [
+          "Désherbage",
+          "Lutte contre les mauvaises herbes",
+          "Répression des mauvaises herbes"
+        ]
+      },
+      "broader": [
+        "concept599"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مكافحة الاعشاب الضارة"
+        ],
+        "en": [
+          "Weed control"
+        ],
+        "es": [
+          "Lucha contra las malas hierbas"
+        ],
+        "fr": [
+          "Lutte contre les plantes adventices"
+        ],
+        "ru": [
+          "Борьба с сорняками"
+        ]
+      },
+      "related": [
+        "concept1724",
+        "concept1777",
+        "concept4006"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1867",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1867",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Peste"
+        ],
+        "fr": [
+          "Animal nuisible",
+          "Déprédateur",
+          "Ennemi des cultures",
+          "Ravageur"
+        ]
+      },
+      "broader": [
+        "concept1866"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "افات"
+        ],
+        "en": [
+          "Pests"
+        ],
+        "es": [
+          "Plaga"
+        ],
+        "fr": [
+          "Organisme nuisible"
+        ],
+        "ru": [
+          "Вредители"
+        ]
+      },
+      "related": [
+        "concept12641",
+        "concept2396",
+        "concept2461",
+        "concept250",
+        "concept4260",
+        "concept5653"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2400",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2400",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "زراعة الاراضي الجافة",
+          "زراعة بعلية"
+        ],
+        "en": [
+          "Dry land agriculture"
+        ],
+        "es": [
+          "Agricultura en tierras áridas"
+        ],
+        "fr": [
+          "Culture sèche"
+        ],
+        "ru": [
+          "Ведение сельского хозяйства в засушливых районах"
+        ]
+      },
+      "broader": [
+        "concept1777"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زراعة جافة"
+        ],
+        "en": [
+          "Dry farming"
+        ],
+        "es": [
+          "Cultivo en tierras áridas"
+        ],
+        "fr": [
+          "Aridoculture"
+        ],
+        "ru": [
+          "Агротехнические приемы для засушливых районов"
+        ]
+      },
+      "related": [
+        "concept1779",
+        "concept2842",
+        "concept2849"
+      ],
+      "scope_notes": {
+        "ar": [
+          "نظام لإنتاج المحاصيل في المناطق القاحلة وشبه القاحلة دون استخدام مياه الري."
+        ],
+        "en": [
+          "A system of producing crops in arid and semi-arid regions without the use of irrigation."
+        ],
+        "es": [
+          "Sistema de producción agrícola en regiones áridas y semiáridas sin posibilidad de irrigación."
+        ],
+        "fr": [
+          "Système de production agricole en régions arides et semi-arides sans avoir recours à l'irrigation."
+        ],
+        "ru": [
+          "Приемы и методы выращивания сельскохозяйственных культур в засушливых и полузасушливых регионах без применения ирригации."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2850",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2850",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احراج"
+        ]
+      },
+      "broader": [
+        "concept603"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:44:03+00:00",
+      "narrower": [
+        "concept4247"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "غابات"
+        ],
+        "en": [
+          "Forests"
+        ],
+        "es": [
+          "Bosque"
+        ],
+        "fr": [
+          "Forêt"
+        ],
+        "ru": [
+          "Леса"
+        ]
+      },
+      "related": [
+        "concept10905",
+        "concept11079",
+        "concept2672",
+        "concept4050",
+        "concept4264",
+        "concept9695",
+        "concept9696"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4070",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4070",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "غابات استوائية"
+        ]
+      },
+      "broader": [
+        "concept4070"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "غابات مدارية"
+        ],
+        "en": [
+          "Tropical forests"
+        ],
+        "es": [
+          "Bosque y selva tropicales"
+        ],
+        "fr": [
+          "Forêt tropicale"
+        ],
+        "ru": [
+          "Тропические леса"
+        ]
+      },
+      "related": [
+        "concept11063",
+        "concept12056",
+        "concept13049"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4247",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4247",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حفظ الطعام",
+          "حفظ الغذاء"
+        ],
+        "es": [
+          "Conserva de los alimentos",
+          "Conservación de los comestibles"
+        ],
+        "fr": [
+          "Conservation des denrées alimentaires",
+          "Mise en conserve des produits alimentaires"
+        ]
+      },
+      "broader": [
+        "concept11011"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:14:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حفظ الاغذية"
+        ],
+        "en": [
+          "Food preservation"
+        ],
+        "es": [
+          "Conservación de los alimentos"
+        ],
+        "fr": [
+          "Conservation des aliments"
+        ],
+        "ru": [
+          "Сохранение продуктов питания"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6323",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6323",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جني",
+          "قطف"
+        ]
+      },
+      "broader": [
+        "concept1777"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حصاد"
+        ],
+        "en": [
+          "Harvesting"
+        ],
+        "es": [
+          "Cosecha"
+        ],
+        "fr": [
+          "Récolte"
+        ],
+        "ru": [
+          "Сбор урожая"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6682",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6682",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "زراعة التراحيل",
+          "زراعة متبدلة"
+        ]
+      },
+      "broader": [
+        "concept1777"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زراعة متنقلة"
+        ],
+        "en": [
+          "Shifting cultivation"
+        ],
+        "es": [
+          "Cultivo migratorio"
+        ],
+        "fr": [
+          "Culture itinérante"
+        ],
+        "ru": [
+          "Подсечно-переложное земледелие"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "استخدام الأراضي الزراعية في الزراعة على نحو مؤقت ما دامت خصبة."
+        ],
+        "en": [
+          "Temporary use of agricultural land for cultivation as long as it is fertile."
+        ],
+        "es": [
+          "Empleo de una tierra agrícola para el cultivo durante el tiempo en el que está fertil."
+        ],
+        "fr": [
+          "Utilisation temporaire d'une terre agricole pour la culture tant qu'elle reste fertile."
+        ],
+        "ru": [
+          "Временная культивация сельскохозяйственных земель в течение срока сохранения их плодородия."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6924",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6924",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مساحة المزارع"
+        ]
+      },
+      "broader": [
+        "concept1746"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حجم المزرعة"
+        ],
+        "en": [
+          "Farm size"
+        ],
+        "es": [
+          "Tamaño de la granja"
+        ],
+        "fr": [
+          "Dimension de la ferme"
+        ],
+        "ru": [
+          "Размер фермерского хозяйства"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8044",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8044",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استصلاح التربة",
+          "دفن النفايات في الارض",
+          "مدافن القمامة",
+          "مقالب القمامة",
+          "مكبات النفايات",
+          "مواقع طمر النفايات"
+        ],
+        "en": [
+          "Landfill"
+        ],
+        "es": [
+          "Recuperación de tierras"
+        ],
+        "fr": [
+          "Remise en état des terres"
+        ],
+        "ru": [
+          "Мусорная яма"
+        ]
+      },
+      "broader": [
+        "concept1746"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:32:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استصلاح الاراضي"
+        ],
+        "en": [
+          "Land reclamation"
+        ],
+        "es": [
+          "Reclamación de tierras"
+        ],
+        "fr": [
+          "Récupération des terres"
+        ],
+        "ru": [
+          "Восстановление земель"
+        ]
+      },
+      "related": [
+        "concept1781",
+        "concept196",
+        "concept612",
+        "concept8387",
+        "concept8390"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8391",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8391",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صناعة الصيد",
+          "صناعة المصايد",
+          "صناعة سمكية"
+        ],
+        "es": [
+          "Producción pesquera"
+        ],
+        "fr": [
+          "Industrie halieutique",
+          "Industrie poissonnière"
+        ]
+      },
+      "broader": [
+        "concept601"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:14:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صناعة صيد الاسماك"
+        ],
+        "en": [
+          "Fishing industry"
+        ],
+        "es": [
+          "Industria pesquera"
+        ],
+        "fr": [
+          "Industrie de la pêche"
+        ],
+        "ru": [
+          "Рыболовная промышленность"
+        ]
+      },
+      "related": [
+        "concept10928"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10917",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10917",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صيد الاسماك الساحلي",
+          "صيد الاسماك في اعماق البحار",
+          "صيد الاسماك في البحر",
+          "صيد بحري",
+          "صيد ساحلي",
+          "صيد في اعالي البحار",
+          "صيد في الاعماق"
+        ],
+        "en": [
+          "Coastal fishing",
+          "Deep sea fishing",
+          "Marine fishing"
+        ],
+        "es": [
+          "Pesca costera",
+          "Pesca en agua salada",
+          "Pesca en alta mar",
+          "Pesca marítima"
+        ],
+        "fr": [
+          "Pêche côtière",
+          "Pêche en eau salée",
+          "Pêche en haute mer"
+        ],
+        "ru": [
+          "Прибрежное рыболовство",
+          "Рыболовство в море",
+          "Рыболовство на больших глубинах"
+        ]
+      },
+      "broader": [
+        "concept601"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-17T16:38:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صيد البحر"
+        ],
+        "en": [
+          "Sea fishing"
+        ],
+        "es": [
+          "Pesca marina"
+        ],
+        "fr": [
+          "Pêche en mer"
+        ],
+        "ru": [
+          "Морское рыболовство"
+        ]
+      },
+      "related": [
+        "concept10913",
+        "concept2443"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10918",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10918",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تجهيز الاغذية",
+          "تصنيع الاغذية",
+          "معالجة الاغذية"
+        ],
+        "es": [
+          "Transformación de los alimentos"
+        ],
+        "fr": [
+          "Transformation des aliments",
+          "Transformation des produits alimentaires"
+        ]
+      },
+      "broader": [
+        "concept602"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:52+00:00",
+      "narrower": [
+        "concept6323"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحضير الاغذية"
+        ],
+        "en": [
+          "Food processing"
+        ],
+        "es": [
+          "Procesamiento de alimentos"
+        ],
+        "fr": [
+          "Traitement des aliments"
+        ],
+        "ru": [
+          "Переработка продуктов питания"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11011",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11011",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "زراعة الأحراج"
+        ]
+      },
+      "broader": [
+        "concept603"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زراعة الغابات"
+        ],
+        "en": [
+          "Silviculture"
+        ],
+        "es": [
+          "Silvicultura"
+        ],
+        "fr": [
+          "Sylviculture"
+        ],
+        "ru": [
+          "Лесное хозяйство"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "قطاع الغابات المعني بتنمية أشجار الغابات وإكثارها ورعايتها."
+        ],
+        "en": [
+          "A sector of forestry that deals with the development, reproduction and care of forest trees."
+        ],
+        "es": [
+          "Sector de las ciencias forestales que se ocupa del desarrollo, de la reproducción y del cuidado de los árboles del bosque."
+        ],
+        "fr": [
+          "Secteur de la foresterie qui s'occuppe du développement, de la reproduction et de la garde des arbres forestiers."
+        ],
+        "ru": [
+          "Отрасль лесоводства, в рамках которой осуществляется развитие, воспроизводство и защита лесных деревьев."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11077",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11077",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "توزيع الاراضي",
+          "حيازة الاراضي"
+        ],
+        "en": [
+          "Land distribution"
+        ],
+        "es": [
+          "Distribución de tierras",
+          "Posesión de la tierra"
+        ],
+        "fr": [
+          "Tenure foncière"
+        ],
+        "ru": [
+          "Распределение земель"
+        ]
+      },
+      "broader": [
+        "concept1746"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:15:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ملكية الاراضي"
+        ],
+        "en": [
+          "Land tenure"
+        ],
+        "es": [
+          "Tenencia de la tierra"
+        ],
+        "fr": [
+          "Régime foncier"
+        ],
+        "ru": [
+          "Землепользование"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13162",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13162",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1746"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:14:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قيمة الاراضي"
+        ],
+        "en": [
+          "Land value"
+        ],
+        "es": [
+          "Valor de la tierra"
+        ],
+        "fr": [
+          "Valeur des terres"
+        ],
+        "ru": [
+          "Стоимость земли"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13163",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13163",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انتاج النبيذ",
+          "تخمير العنب",
+          "تصنيع النبيذ",
+          "صناعة الخمور",
+          "علم الخمر",
+          "علم صناعة الخمور"
+        ],
+        "en": [
+          "Oenology",
+          "Vinification",
+          "Wine making",
+          "Wine production"
+        ],
+        "fr": [
+          "Fabrication du vin",
+          "Oenologie"
+        ]
+      },
+      "broader": [
+        "concept1808"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.35"
+      ],
+      "modified": "2019-12-15T14:16:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صناعة النبيذ"
+        ],
+        "en": [
+          "Winemaking"
+        ],
+        "es": [
+          "Vinificación"
+        ],
+        "fr": [
+          "Vinification"
+        ]
+      },
+      "related": [
+        "concept1993"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17102",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17102",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt6.35",
+    "labels": {
+      "en": "Agriculture",
+      "fr": "Agriculture"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt6.35"
+  }
+}

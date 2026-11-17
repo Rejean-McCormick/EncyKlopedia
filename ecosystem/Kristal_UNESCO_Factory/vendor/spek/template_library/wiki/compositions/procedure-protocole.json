@@ -1,0 +1,76 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-procedure-protocole",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-04",
+    "slug": "procedure-protocole",
+    "name": "Procedure / Protocol"
+  },
+  "source_arketype_file": "archetypes/procedure-protocole.json",
+  "editorial_rationale": "Structure Arketype ARK-04: Ordered and conditional steps, roles, prerequisites and exceptions. SOPs, institutional protocols and checklists.",
+  "source_structural_primitives": [
+    "conditions_entree",
+    "etapes",
+    "transitions",
+    "branches",
+    "roles",
+    "ressources",
+    "issues",
+    "exceptions",
+    "references_normatives"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "description",
+      "title_function": "Étapes descriptives",
+      "layout_id": "learning-path",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "conditions_entree",
+        "etapes",
+        "ressources"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "objective": 1,
+        "prerequisites": 1,
+        "steps": 2,
+        "reflection": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Un parcours pédagogique n’est pas un moteur d’exécution de protocole."
+    },
+    {
+      "section_id": "controles",
+      "title_function": "Contrôles et vérifications",
+      "layout_id": "observation-inference",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "issues",
+        "exceptions",
+        "references_normatives"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "observations": 1,
+        "interpretation": 1,
+        "verification": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Ne pas générer d’instruction opératoire à partir d’une seule hypothèse."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "protocol-flow"
+  ],
+  "integrity_rule": "Description, execution and authorization are different.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

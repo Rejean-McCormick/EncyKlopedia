@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:unesco-mt5-35",
+  "source_fingerprint": "sha256:fb1c8129e8cfeaa58face027603b147eb335c4756bf27b0b3f9a231d887edac6",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 93645,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 47436,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-unesco-mt5-35-unesco-source-1e23f2f80b.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 47436,
+      "sha256": "sha256:dc9277ea9276c55402a447cdd3cf9be2b12697878f8adb38f7c624942aa4efb3"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 726,
+      "sha256": "sha256:c091bcac1c10df9de2c3166d524d89ebe23612c575c956f1b43fdb1e8b9a5e22"
+    },
+    {
+      "path": "canon/domain/unesco-source.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 45483,
+      "sha256": "sha256:242a6ac31b2ea065152f2ea06805e24bd653aecc0b951bf328792ce8614538cf"
+    }
+  ],
+  "segments": []
+}

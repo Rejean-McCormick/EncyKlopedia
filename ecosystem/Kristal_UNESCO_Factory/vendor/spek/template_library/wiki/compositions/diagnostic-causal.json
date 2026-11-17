@@ -1,0 +1,92 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-diagnostic-causal",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-08",
+    "slug": "diagnostic-causal",
+    "name": "Causal Diagnosis"
+  },
+  "source_arketype_file": "archetypes/diagnostic-causal.json",
+  "editorial_rationale": "Structure Arketype ARK-08: Symptoms, possible causes, test results and competing explanations. System troubleshooting, vehicle diagnosis and fault isolation.",
+  "source_structural_primitives": [
+    "topologie",
+    "etats_operatoires",
+    "perturbations",
+    "observations",
+    "hypotheses",
+    "tests",
+    "inference_derivee"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "constats",
+      "title_function": "Observation, hypothèse, vérification",
+      "layout_id": "observation-inference",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "observations",
+        "hypotheses",
+        "tests"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "observations": 1,
+        "interpretation": 1,
+        "verification": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Séparer données mesurées et inférences."
+    },
+    {
+      "section_id": "argumentation",
+      "title_function": "Justification des causes candidates",
+      "layout_id": "argument-map",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "perturbations",
+        "hypotheses",
+        "inference_derivee"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "thesis": 1,
+        "premises": 1,
+        "inference": 1,
+        "objection": 1,
+        "conclusion": 1
+      },
+      "editorial_constraint": "L’argument doit contenir toutes ses obligations critiques."
+    },
+    {
+      "section_id": "resultats",
+      "title_function": "Résultats des tests",
+      "layout_id": "result-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "etats_operatoires",
+        "tests"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "claim": 1,
+        "conditions": 1,
+        "evidence": 1,
+        "uncertainty": 1
+      },
+      "editorial_constraint": "Ne pas produire de consigne d’intervention non autorisée."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "causal-graph"
+  ],
+  "integrity_rule": "Inferences are not permissions to perform interventions.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

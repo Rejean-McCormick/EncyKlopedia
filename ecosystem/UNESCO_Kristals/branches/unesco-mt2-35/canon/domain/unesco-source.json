@@ -1,0 +1,3537 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "en": [
+          "Geosciences"
+        ],
+        "es": [
+          "Geociencias"
+        ],
+        "fr": [
+          "Géosciences"
+        ],
+        "ru": [
+          "Геонауки"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علوم الارض"
+        ],
+        "en": [
+          "Earth sciences"
+        ],
+        "es": [
+          "Ciencias de la tierra"
+        ],
+        "fr": [
+          "Sciences de la terre"
+        ],
+        "ru": [
+          "Науки о Земле"
+        ]
+      },
+      "related": [
+        "concept158",
+        "concept159",
+        "concept160",
+        "concept162",
+        "concept164",
+        "concept172",
+        "concept173",
+        "concept175",
+        "concept185",
+        "concept188",
+        "concept198",
+        "concept8595"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept157",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept157",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جيودينامية",
+          "جيوديناميكا",
+          "ديناميات جيولوجية",
+          "عمليات جيولوجية"
+        ],
+        "en": [
+          "Geological processes"
+        ],
+        "es": [
+          "Dinámica de la corteza terrestre",
+          "Proceso geológico"
+        ],
+        "fr": [
+          "Processus géologique"
+        ],
+        "ru": [
+          "Геологические процессы"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:09+00:00",
+      "narrower": [
+        "concept10151",
+        "concept11406",
+        "concept8595"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ديناميكية الارض"
+        ],
+        "en": [
+          "Geodynamics"
+        ],
+        "es": [
+          "Geodinámica"
+        ],
+        "fr": [
+          "Géodynamique"
+        ],
+        "ru": [
+          "Геодинамика"
+        ]
+      },
+      "related": [
+        "concept132",
+        "concept157"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept158",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept158",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الارض"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2025-10-09T14:59:20+00:00",
+      "narrower": [
+        "concept6494",
+        "concept7432"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جيولوجيا"
+        ],
+        "en": [
+          "Geology"
+        ],
+        "es": [
+          "Geología"
+        ],
+        "fr": [
+          "Géologie"
+        ],
+        "ru": [
+          "Геология"
+        ]
+      },
+      "related": [
+        "concept11415",
+        "concept11439",
+        "concept11444",
+        "concept11445",
+        "concept157",
+        "concept160",
+        "concept162",
+        "concept163",
+        "concept164",
+        "concept165",
+        "concept17180",
+        "concept173",
+        "concept3236",
+        "concept3983",
+        "concept4083",
+        "concept9788"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept159",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept159",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جيوفيزيقيا",
+          "علم طبيعة الارض",
+          "علم فيزياء الارض",
+          "فيزياء ارضية"
+        ],
+        "es": [
+          "Física terrestre"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:32+00:00",
+      "narrower": [
+        "concept11446",
+        "concept11459",
+        "concept11460",
+        "concept3236",
+        "concept4551",
+        "concept5039",
+        "concept5167",
+        "concept8601"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جيوفيزياء"
+        ],
+        "en": [
+          "Geophysics"
+        ],
+        "es": [
+          "Geofísica"
+        ],
+        "fr": [
+          "Géophysique"
+        ],
+        "ru": [
+          "Геофизика"
+        ]
+      },
+      "related": [
+        "concept132",
+        "concept157",
+        "concept159",
+        "concept4083",
+        "concept9788"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept160",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept160",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم التعدين"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:33:33+00:00",
+      "narrower": [
+        "concept5419",
+        "concept7676"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم المعادن"
+        ],
+        "en": [
+          "Mineralogy"
+        ],
+        "es": [
+          "Mineralogía"
+        ],
+        "fr": [
+          "Minéralogie"
+        ],
+        "ru": [
+          "Минералогия"
+        ]
+      },
+      "related": [
+        "concept123",
+        "concept163",
+        "concept5692"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept161",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept161",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الحفريات البيولوجية",
+          "علم الحفريات الحيوانية",
+          "علم الحفريات النباتية",
+          "علم الحيوان القديم"
+        ],
+        "en": [
+          "Palaeobiology",
+          "Palaeobotany",
+          "Palaeozoology",
+          "Paleontology"
+        ],
+        "es": [
+          "Paleobiología",
+          "Paleobotánica",
+          "Paleontología animal",
+          "Paleontología vegetal",
+          "Paleozoología"
+        ],
+        "fr": [
+          "Paléobiologie",
+          "Paléobotanique",
+          "Paléontologie animale",
+          "Paléontologie végétale",
+          "Paléozoologie"
+        ],
+        "ru": [
+          "Палеобиология",
+          "Палеоботаника",
+          "Палеозоология"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:42+00:00",
+      "narrower": [
+        "concept4045",
+        "concept5452"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الحفريات"
+        ],
+        "en": [
+          "Palaeontology"
+        ],
+        "es": [
+          "Paleontología"
+        ],
+        "fr": [
+          "Paléontologie"
+        ],
+        "ru": [
+          "Палеонтология"
+        ]
+      },
+      "related": [
+        "concept11905",
+        "concept157",
+        "concept159",
+        "concept219"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept162",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept162",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بتروجرافيا",
+          "بترولوجيا",
+          "علم الحصيات",
+          "علم الخصائص الحجرية",
+          "علم النفط",
+          "علم وصف الصخور",
+          "ليثولوجيا"
+        ],
+        "en": [
+          "Lithology",
+          "Petrography"
+        ],
+        "es": [
+          "Litología",
+          "Petrografía"
+        ],
+        "fr": [
+          "Lithologie",
+          "Pétrographie"
+        ],
+        "ru": [
+          "Литология",
+          "Петрография"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:28+00:00",
+      "narrower": [
+        "concept4431"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الصخور"
+        ],
+        "en": [
+          "Petrology"
+        ],
+        "es": [
+          "Petrología"
+        ],
+        "fr": [
+          "Pétrologie"
+        ],
+        "ru": [
+          "Петрология"
+        ]
+      },
+      "related": [
+        "concept159",
+        "concept161",
+        "concept5039"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept163",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept163",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيدولوجيا",
+          "علم التربة"
+        ],
+        "en": [
+          "Pedology"
+        ],
+        "es": [
+          "Pedología"
+        ],
+        "fr": [
+          "Pédologie"
+        ],
+        "ru": [
+          "Почвоведение"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:04+00:00",
+      "narrower": [
+        "concept10791",
+        "concept14174",
+        "concept4706",
+        "concept5320",
+        "concept6333",
+        "concept9808"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علوم التربة"
+        ],
+        "en": [
+          "Soil sciences"
+        ],
+        "es": [
+          "Edafología de los suelos"
+        ],
+        "fr": [
+          "Sciences du sol"
+        ],
+        "ru": [
+          "Науки о почвах"
+        ]
+      },
+      "related": [
+        "concept157",
+        "concept159",
+        "concept1876",
+        "concept599"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept164",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept164",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استراتيجرافية",
+          "جيولوجيا تاريخية",
+          "علم تاريخ الارض",
+          "علم وصف طبقات الارض"
+        ],
+        "en": [
+          "Historical geology"
+        ],
+        "es": [
+          "Geología histórica"
+        ],
+        "fr": [
+          "Géologie historique"
+        ],
+        "ru": [
+          "Историческая геология"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:13+00:00",
+      "narrower": [
+        "concept11445"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم طبقات الارض"
+        ],
+        "en": [
+          "Stratigraphy"
+        ],
+        "es": [
+          "Estratigrafía"
+        ],
+        "fr": [
+          "Stratigraphie"
+        ],
+        "ru": [
+          "Стратиграфия"
+        ]
+      },
+      "related": [
+        "concept11444",
+        "concept11905",
+        "concept159"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept165",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept165",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انخساف الارض",
+          "تغوّر الارض"
+        ],
+        "es": [
+          "Subsidencia"
+        ],
+        "fr": [
+          "Subsidence",
+          "Tassement du sol",
+          "Tassement du terrain"
+        ]
+      },
+      "broader": [
+        "concept8595"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:33:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هبوط الارض"
+        ],
+        "en": [
+          "Land subsidence"
+        ],
+        "es": [
+          "Hundimiento del suelo"
+        ],
+        "fr": [
+          "Abaissement du terrain"
+        ],
+        "ru": [
+          "Оседание земли (грунта)"
+        ]
+      },
+      "related": [
+        "concept5320",
+        "concept614"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept969",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept969",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept16102"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رمال"
+        ],
+        "en": [
+          "Sands"
+        ],
+        "es": [
+          "Arena"
+        ],
+        "fr": [
+          "Sable"
+        ],
+        "ru": [
+          "Пески"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2834",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2834",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Suelo árido"
+        ]
+      },
+      "broader": [
+        "concept14174"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:33:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترب صحراوية"
+        ],
+        "en": [
+          "Desert soils"
+        ],
+        "es": [
+          "Suelo desértico"
+        ],
+        "fr": [
+          "Sol désertique"
+        ],
+        "ru": [
+          "Пустынные почвы"
+        ]
+      },
+      "related": [
+        "concept2842",
+        "concept2848"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2846",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2846",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم المساحة التطبيقية",
+          "علم مساحة الارض",
+          "قياس مساحة الارض"
+        ],
+        "en": [
+          "Earth measurement"
+        ],
+        "es": [
+          "Medición de la tierra",
+          "Medida de la tierra"
+        ],
+        "fr": [
+          "Levé géodésique",
+          "Mesure de la terre",
+          "Mesure géodésique"
+        ],
+        "ru": [
+          "Измерение Земли"
+        ]
+      },
+      "broader": [
+        "concept160"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جيوديسيا"
+        ],
+        "en": [
+          "Geodesy"
+        ],
+        "es": [
+          "Geodesia"
+        ],
+        "fr": [
+          "Géodésie"
+        ],
+        "ru": [
+          "Геодезия"
+        ]
+      },
+      "related": [
+        "concept11403",
+        "concept152",
+        "concept159",
+        "concept5899",
+        "concept615"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3236",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3236",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كيمياء الارض الحيوية"
+        ]
+      },
+      "broader": [
+        "concept5039"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء جيولوجية حيوية"
+        ],
+        "en": [
+          "Biogeochemistry"
+        ],
+        "es": [
+          "Biogeoquímica"
+        ],
+        "fr": [
+          "Biogéochimie"
+        ],
+        "ru": [
+          "Биогеохимия"
+        ]
+      },
+      "related": [
+        "concept143",
+        "concept159",
+        "concept219",
+        "concept3985"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3983",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3983",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احافير",
+          "احفوريات",
+          "متحجرات",
+          "مستحاثات"
+        ]
+      },
+      "broader": [
+        "concept162"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T14:36:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حفريات"
+        ],
+        "en": [
+          "Fossils"
+        ],
+        "es": [
+          "Fósil"
+        ],
+        "fr": [
+          "Fossile"
+        ],
+        "ru": [
+          "Окаменелости"
+        ]
+      },
+      "related": [
+        "concept17062",
+        "concept219"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4045",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4045",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جَنْدَل",
+          "حجارة",
+          "خواص الصخور",
+          "ميكانيكا الصخور"
+        ],
+        "en": [
+          "Rock mechanics",
+          "Rock properties",
+          "Stones (rocks)"
+        ],
+        "es": [
+          "Mecánica de las rocas",
+          "Piedra",
+          "Propiedades de las rocas"
+        ],
+        "fr": [
+          "Mécanique des roches",
+          "Pierre (roche)",
+          "Propriété des roches"
+        ],
+        "ru": [
+          "Горная механика",
+          "Камни (породы)",
+          "Свойства горной породы"
+        ]
+      },
+      "broader": [
+        "concept163"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:38+00:00",
+      "narrower": [
+        "concept12162",
+        "concept14031",
+        "concept16102"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صخور"
+        ],
+        "en": [
+          "Rocks"
+        ],
+        "es": [
+          "Roca"
+        ],
+        "fr": [
+          "Roche"
+        ],
+        "ru": [
+          "Горные породы"
+        ]
+      },
+      "related": [
+        "concept14174",
+        "concept4411"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4431",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4431",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حرارة جوفية",
+          "درجة الحرارة الارضية"
+        ],
+        "en": [
+          "Geotemperature",
+          "Geothermics"
+        ],
+        "es": [
+          "Calor terráqueo",
+          "Geotemperatura",
+          "Geotermia"
+        ],
+        "fr": [
+          "Géotempérature",
+          "Géothermie"
+        ],
+        "ru": [
+          "Геотемпература",
+          "Геотермика"
+        ]
+      },
+      "broader": [
+        "concept160"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:44+00:00",
+      "narrower": [
+        "concept11471"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حرارة ارضية"
+        ],
+        "en": [
+          "Terrestrial heat"
+        ],
+        "es": [
+          "Calor terrestre"
+        ],
+        "fr": [
+          "Chaleur terrestre"
+        ],
+        "ru": [
+          "Земное тепло"
+        ]
+      },
+      "related": [
+        "concept4549"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4551",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4551",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Roche carbonatée"
+        ]
+      },
+      "broader": [
+        "concept16102"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صخور كربونية"
+        ],
+        "en": [
+          "Carbonate rocks"
+        ],
+        "es": [
+          "Roca carbonatada"
+        ],
+        "fr": [
+          "Roche carbonifère"
+        ],
+        "ru": [
+          "Карбонатные породы"
+        ]
+      },
+      "related": [
+        "concept4429"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4654",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4654",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Mapa del suelo"
+        ],
+        "fr": [
+          "Carte des sols"
+        ]
+      },
+      "broader": [
+        "concept164"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خرائط التربة"
+        ],
+        "en": [
+          "Soil maps"
+        ],
+        "es": [
+          "Mapa edafológico"
+        ],
+        "fr": [
+          "Carte pédologique"
+        ],
+        "ru": [
+          "Почвенные карты"
+        ]
+      },
+      "related": [
+        "concept14174",
+        "concept9808"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4706",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4706",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كيمياء الارض"
+        ]
+      },
+      "broader": [
+        "concept160"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:22+00:00",
+      "narrower": [
+        "concept3983"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء جيولوجية"
+        ],
+        "en": [
+          "Geochemistry"
+        ],
+        "es": [
+          "Geoquímica"
+        ],
+        "fr": [
+          "Géochimie"
+        ],
+        "ru": [
+          "Геохимия"
+        ]
+      },
+      "related": [
+        "concept143",
+        "concept163"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5039",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5039",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تأريخ الارض",
+          "تأريخ جيولوجي"
+        ]
+      },
+      "broader": [
+        "concept160"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقويم جيولوجي"
+        ],
+        "en": [
+          "Geochronology"
+        ],
+        "es": [
+          "Geocronología"
+        ],
+        "fr": [
+          "Géochronologie"
+        ],
+        "ru": [
+          "Геохронология"
+        ]
+      },
+      "related": [
+        "concept2676",
+        "concept4526"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5167",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5167",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انضغاط التربة",
+          "تراص التربة",
+          "تلبد التربة",
+          "دمك التربة"
+        ],
+        "en": [
+          "Soil compaction"
+        ],
+        "es": [
+          "Compactación de los suelos"
+        ],
+        "fr": [
+          "Compactage des sols",
+          "Compaction des sols"
+        ],
+        "ru": [
+          "Уплотнение почвы"
+        ]
+      },
+      "broader": [
+        "concept164"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميكانيكا التربة"
+        ],
+        "en": [
+          "Soil mechanics"
+        ],
+        "es": [
+          "Mecánica de los suelos"
+        ],
+        "fr": [
+          "Mécanique des sols"
+        ],
+        "ru": [
+          "Почвенная механика"
+        ]
+      },
+      "related": [
+        "concept14174",
+        "concept4320",
+        "concept610",
+        "concept6156",
+        "concept6408",
+        "concept7822",
+        "concept969"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5320",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5320",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Sustancia mineral"
+        ],
+        "fr": [
+          "Substance minérale"
+        ]
+      },
+      "broader": [
+        "concept161"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:32+00:00",
+      "narrower": [
+        "concept11342",
+        "concept12932"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معادن"
+        ],
+        "en": [
+          "Minerals"
+        ],
+        "es": [
+          "Mineral"
+        ],
+        "fr": [
+          "Minerai"
+        ],
+        "ru": [
+          "Полезные ископаемые"
+        ]
+      },
+      "related": [
+        "concept14174",
+        "concept2821",
+        "concept4652",
+        "concept5692",
+        "concept640",
+        "concept7676"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5419",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5419",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم مناخ ما قبل التاريخ"
+        ],
+        "en": [
+          "Paleoclimatology"
+        ]
+      },
+      "broader": [
+        "concept162"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم المناخ القديم"
+        ],
+        "en": [
+          "Palaeoclimatology"
+        ],
+        "es": [
+          "Paleoclimatología"
+        ],
+        "fr": [
+          "Paléoclimatologie"
+        ],
+        "ru": [
+          "Палеоклиматология"
+        ]
+      },
+      "related": [
+        "concept183"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5452",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5452",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انجراف ساحلي",
+          "تحات ساحلي"
+        ]
+      },
+      "broader": [
+        "concept10151"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2023-09-28T09:57:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تآكل ساحلي"
+        ],
+        "en": [
+          "Coastal erosion"
+        ],
+        "es": [
+          "Erosión costera"
+        ],
+        "fr": [
+          "Érosion côtière"
+        ],
+        "ru": [
+          "Береговая эрозия"
+        ]
+      },
+      "related": [
+        "concept5506",
+        "concept5507",
+        "concept5508"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5504",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5504",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حفظ التربة",
+          "صيانة التربة",
+          "محافظة على التربة"
+        ],
+        "es": [
+          "Defensa y restauración del suelo",
+          "Protección del suelo"
+        ],
+        "fr": [
+          "Défense et restauration du sol",
+          "Protection du sol"
+        ]
+      },
+      "broader": [
+        "concept164"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حفاظ على التربة"
+        ],
+        "en": [
+          "Soil conservation"
+        ],
+        "es": [
+          "Conservación del suelo"
+        ],
+        "fr": [
+          "Conservation du sol"
+        ],
+        "ru": [
+          "Сохранение почв"
+        ]
+      },
+      "related": [
+        "concept1781",
+        "concept6329"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6333",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6333",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جرف قاري",
+          "زحزحة القارات",
+          "زحف قاري"
+        ]
+      },
+      "broader": [
+        "concept8595"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انجراف قاري"
+        ],
+        "en": [
+          "Continental drift"
+        ],
+        "es": [
+          "Deriva de los continentes"
+        ],
+        "fr": [
+          "Dérive des continents"
+        ],
+        "ru": [
+          "Дрейф континентов"
+        ]
+      },
+      "related": [
+        "concept6491",
+        "concept6494"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6492",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6492",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "غلاف ارضي",
+          "غلاف يابس",
+          "قشرة الارض"
+        ],
+        "en": [
+          "Lithosphere"
+        ],
+        "es": [
+          "Litosfera"
+        ],
+        "fr": [
+          "Lithosphère"
+        ],
+        "ru": [
+          "Литосфера"
+        ]
+      },
+      "broader": [
+        "concept159"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قشرة ارضية"
+        ],
+        "en": [
+          "Earth's crust"
+        ],
+        "es": [
+          "Corteza terrestre"
+        ],
+        "fr": [
+          "Écorce terrestre"
+        ],
+        "ru": [
+          "Земная кора"
+        ]
+      },
+      "related": [
+        "concept4083",
+        "concept6492",
+        "concept8595"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6494",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6494",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حقبة رابعة",
+          "دهر رابع",
+          "زمن رابع",
+          "عصر جليدي",
+          "عصر جيولوجي رابع"
+        ],
+        "en": [
+          "Ice age"
+        ],
+        "es": [
+          "Edad glaciar",
+          "Holoceno",
+          "Período glaciar",
+          "Pleistoceno"
+        ],
+        "fr": [
+          "Période glaciaire",
+          "Âge glaciaire",
+          "Époque glaciaire"
+        ],
+        "ru": [
+          "Ледниковый период"
+        ]
+      },
+      "broader": [
+        "concept11445"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حقبة جيولوجية رابعة"
+        ],
+        "en": [
+          "Quaternary"
+        ],
+        "es": [
+          "Cuaternario"
+        ],
+        "fr": [
+          "Quaternaire"
+        ],
+        "ru": [
+          "Четвертичный период"
+        ]
+      },
+      "related": [
+        "concept11914",
+        "concept14499",
+        "concept14903",
+        "concept14909"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6908",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6908",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معلومات جيولوجية"
+        ]
+      },
+      "broader": [
+        "concept159"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بيانات جيولوجية"
+        ],
+        "en": [
+          "Geological data"
+        ],
+        "es": [
+          "Datos geológicos"
+        ],
+        "fr": [
+          "Donnée géologique"
+        ],
+        "ru": [
+          "Геологические данные"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7432",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7432",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انجراف التربة",
+          "تآكل التربة",
+          "تجريف التربة",
+          "تحات التربة",
+          "حث التربة"
+        ]
+      },
+      "broader": [
+        "concept10151"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2023-09-28T09:57:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعرية التربة"
+        ],
+        "en": [
+          "Soil erosion"
+        ],
+        "es": [
+          "Erosión del suelo"
+        ],
+        "fr": [
+          "Érosion du sol"
+        ],
+        "ru": [
+          "Эрозия почвы"
+        ]
+      },
+      "related": [
+        "concept1218",
+        "concept1778",
+        "concept2847",
+        "concept7560"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7557",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7557",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept7676"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رواسب الملح"
+        ],
+        "en": [
+          "Salt deposits"
+        ],
+        "es": [
+          "Depósito de sal"
+        ],
+        "fr": [
+          "Dépôt de sel"
+        ],
+        "ru": [
+          "Месторождения соли"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7668",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7668",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رواسب فلزية"
+        ],
+        "es": [
+          "Depósitos de metal"
+        ],
+        "fr": [
+          "Gisement métallique",
+          "Gîte métallique"
+        ]
+      },
+      "broader": [
+        "concept7676"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T14:33:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترسيبات معادن"
+        ],
+        "en": [
+          "Metallic deposits"
+        ],
+        "es": [
+          "Yacimientos de metal"
+        ],
+        "fr": [
+          "Dépôt métallique"
+        ],
+        "ru": [
+          "Месторождения металлических руд"
+        ]
+      },
+      "related": [
+        "concept641"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7674",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7674",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رواسب الخامات",
+          "رواسب الخامات المعدنية",
+          "رواسب معدنية"
+        ],
+        "en": [
+          "Ore deposits"
+        ],
+        "es": [
+          "Depósitos de minerales"
+        ],
+        "fr": [
+          "Gisement minéral",
+          "Gîte minéral"
+        ],
+        "ru": [
+          "Рудные месторождения"
+        ]
+      },
+      "broader": [
+        "concept161"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:53+00:00",
+      "narrower": [
+        "concept7668",
+        "concept7674"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترسبات معدنية"
+        ],
+        "en": [
+          "Mineral deposits"
+        ],
+        "es": [
+          "Yacimientos de minerales"
+        ],
+        "fr": [
+          "Dépôt minéral"
+        ],
+        "ru": [
+          "Месторождения полезных ископаемых"
+        ]
+      },
+      "related": [
+        "concept11342",
+        "concept5419",
+        "concept5692"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7676",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7676",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تغير جيولوجي",
+          "علم تشكل الصخور"
+        ],
+        "en": [
+          "Geological deformation"
+        ],
+        "es": [
+          "Deformación geológica",
+          "Estructura terráquea",
+          "Geología estructural"
+        ],
+        "fr": [
+          "Déformation géologique",
+          "Géologie structurale"
+        ],
+        "ru": [
+          "Геологическая деформация"
+        ]
+      },
+      "broader": [
+        "concept158"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:31+00:00",
+      "narrower": [
+        "concept6492",
+        "concept969"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكتونيات"
+        ],
+        "en": [
+          "Tectonics"
+        ],
+        "es": [
+          "Tectónica"
+        ],
+        "fr": [
+          "Tectonique"
+        ],
+        "ru": [
+          "Тектоника"
+        ]
+      },
+      "related": [
+        "concept157",
+        "concept6494",
+        "concept7822"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8595",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8595",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سيسمولوجيا"
+        ],
+        "fr": [
+          "Séismologie"
+        ]
+      },
+      "broader": [
+        "concept160"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:36+00:00",
+      "narrower": [
+        "concept16329",
+        "concept8609"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الزلازل"
+        ],
+        "en": [
+          "Seismology"
+        ],
+        "es": [
+          "Sismología"
+        ],
+        "fr": [
+          "Sismologie"
+        ],
+        "ru": [
+          "Сейсмология"
+        ]
+      },
+      "related": [
+        "concept6408",
+        "concept8600",
+        "concept8605",
+        "concept8610"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8601",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8601",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اهتزازية",
+          "سيزمية"
+        ],
+        "es": [
+          "Actividad sísmica",
+          "Frecuencia de seísmos"
+        ],
+        "fr": [
+          "Activité sismique",
+          "Séismicité"
+        ]
+      },
+      "broader": [
+        "concept8601"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زلزالية"
+        ],
+        "en": [
+          "Seismicity"
+        ],
+        "es": [
+          "Sismicidad"
+        ],
+        "fr": [
+          "Sismicité"
+        ],
+        "ru": [
+          "Сейсмичность"
+        ]
+      },
+      "related": [
+        "concept16329",
+        "concept8600"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تواتر وتوزيع الزلازل."
+        ],
+        "en": [
+          "Frequency and distribution of earthquakes."
+        ],
+        "es": [
+          "Frecuencia y distribución geográfica de los terremotos."
+        ],
+        "fr": [
+          "Fréquence et distribution géographiques des tremblements de terre."
+        ],
+        "ru": [
+          "Частота и географическое распределение землетрясений."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8609",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8609",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حصر الاراضي",
+          "مسوح الاراضي"
+        ],
+        "es": [
+          "Prospección del suelo"
+        ],
+        "fr": [
+          "Prospection des sols",
+          "Prospection pédologique"
+        ]
+      },
+      "broader": [
+        "concept164"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مسوح التربة"
+        ],
+        "en": [
+          "Soil surveys"
+        ],
+        "es": [
+          "Reconocimiento del terreno"
+        ],
+        "fr": [
+          "Enquête pédologique"
+        ],
+        "ru": [
+          "Почвенная съемка"
+        ]
+      },
+      "related": [
+        "concept14174",
+        "concept4706",
+        "concept7393"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9808",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9808",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحات",
+          "تعرية"
+        ]
+      },
+      "broader": [
+        "concept158"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:58+00:00",
+      "narrower": [
+        "concept5504",
+        "concept7557"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انجراف"
+        ],
+        "en": [
+          "Erosion"
+        ],
+        "es": [
+          "Erosión"
+        ],
+        "fr": [
+          "Érosion"
+        ],
+        "ru": [
+          "Эрозия"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10151",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10151",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحسين الارض",
+          "تحسين التربة",
+          "خصوبة الارض"
+        ],
+        "en": [
+          "Land amelioration",
+          "Soil improvement"
+        ],
+        "es": [
+          "Fecundidad del suelo",
+          "Optimización del suelo",
+          "Riqueza del suelo"
+        ],
+        "fr": [
+          "Amendement du sol",
+          "Amélioration du sol",
+          "Mise en valeur des terres",
+          "Mise en valeur du sol"
+        ],
+        "ru": [
+          "Мелиорация земель",
+          "Улучшение почв"
+        ]
+      },
+      "broader": [
+        "concept164"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خصوبة التربة"
+        ],
+        "en": [
+          "Soil fertility"
+        ],
+        "es": [
+          "Fertilidad del suelo"
+        ],
+        "fr": [
+          "Fertilité du sol"
+        ],
+        "ru": [
+          "Плодородие почвы"
+        ]
+      },
+      "related": [
+        "concept1723",
+        "concept4261",
+        "concept7560"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10791",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10791",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اراض متجمدة",
+          "اراضي متجمدة",
+          "تربة صقيعية",
+          "تربة متجمدة",
+          "ثلوج دائمة",
+          "جليد دائم",
+          "جمد سرمدي"
+        ],
+        "en": [
+          "Frozen ground"
+        ],
+        "es": [
+          "Suelo congelado"
+        ],
+        "fr": [
+          "Gélisol",
+          "Pergélisol"
+        ],
+        "ru": [
+          "Замерзший грунт"
+        ]
+      },
+      "broader": [
+        "concept11459"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T14:37:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ارض دائمة التجمّد"
+        ],
+        "en": [
+          "Permafrost"
+        ],
+        "es": [
+          "Gelisuelo"
+        ],
+        "fr": [
+          "Permafrost"
+        ],
+        "ru": [
+          "Вечная мерзлота"
+        ]
+      },
+      "related": [
+        "concept11233",
+        "concept11526",
+        "concept14174",
+        "concept5444"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11235",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11235",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الاحجار الكريمة",
+          "علم الجواهر"
+        ],
+        "en": [
+          "Gemmology"
+        ],
+        "es": [
+          "Gema",
+          "Gemología"
+        ],
+        "fr": [
+          "Gemmologie"
+        ],
+        "ru": [
+          "Геммология"
+        ]
+      },
+      "broader": [
+        "concept5419"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T14:36:52+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احجار كريمة"
+        ],
+        "en": [
+          "Gems"
+        ],
+        "es": [
+          "Piedra preciosa"
+        ],
+        "fr": [
+          "Pierre précieuse"
+        ],
+        "ru": [
+          "Драгоценные и поделочные камни"
+        ]
+      },
+      "related": [
+        "concept7676"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11342",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11342",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ترسبات",
+          "ترسيب",
+          "تَثَفُّل",
+          "رسوب",
+          "رواسب",
+          "علم الترسبات",
+          "علم الرسوبيات"
+        ],
+        "en": [
+          "Sediment",
+          "Sedimentology"
+        ],
+        "es": [
+          "Sedimentología",
+          "Sedimentos"
+        ],
+        "fr": [
+          "Sédiment",
+          "Sédimentologie"
+        ],
+        "ru": [
+          "Седимент",
+          "Седиментология"
+        ]
+      },
+      "broader": [
+        "concept158"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T14:24:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترسب"
+        ],
+        "en": [
+          "Sedimentation"
+        ],
+        "es": [
+          "Sedimentación"
+        ],
+        "fr": [
+          "Sédimentation"
+        ],
+        "ru": [
+          "Седиментация (геол.)"
+        ]
+      },
+      "related": [
+        "concept16102"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11406",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11406",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جيولوجيا تاريخية"
+        ],
+        "en": [
+          "Paleogeology"
+        ]
+      },
+      "broader": [
+        "concept165"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:36+00:00",
+      "narrower": [
+        "concept14903",
+        "concept6908"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جيولوجيا قديمة"
+        ],
+        "en": [
+          "Palaeogeology"
+        ],
+        "es": [
+          "Paleogeología"
+        ],
+        "fr": [
+          "Paléogéologie"
+        ],
+        "ru": [
+          "Палеогеология"
+        ]
+      },
+      "related": [
+        "concept11905",
+        "concept159"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11445",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11445",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جيومغناطيسية"
+        ],
+        "en": [
+          "Terrestrial magnetism"
+        ],
+        "es": [
+          "Magnetismo terrestre"
+        ],
+        "fr": [
+          "Magnétisme terrestre"
+        ],
+        "ru": [
+          "Земной магнетизм"
+        ]
+      },
+      "broader": [
+        "concept160"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:33:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مغناطيسية ارضية"
+        ],
+        "en": [
+          "Geomagnetism"
+        ],
+        "es": [
+          "Geomagnetismo"
+        ],
+        "fr": [
+          "Géomagnétisme"
+        ],
+        "ru": [
+          "Геомагнетизм"
+        ]
+      },
+      "related": [
+        "concept125"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11446",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11446",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الجليديات"
+        ]
+      },
+      "broader": [
+        "concept160"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:05+00:00",
+      "narrower": [
+        "concept11235",
+        "concept11530"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الجليد"
+        ],
+        "en": [
+          "Glaciology"
+        ],
+        "es": [
+          "Glaciología"
+        ],
+        "fr": [
+          "Glaciologie"
+        ],
+        "ru": [
+          "Гляциология"
+        ]
+      },
+      "related": [
+        "concept11433",
+        "concept11526",
+        "concept11528",
+        "concept188"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11459",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11459",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رصد البراكين"
+        ],
+        "en": [
+          "Volcano surveillance"
+        ],
+        "es": [
+          "Estudio de los volcanes",
+          "Vigilancia de los volcanes",
+          "Volcanología"
+        ],
+        "fr": [
+          "Surveillance des volcans",
+          "Volcanologie"
+        ],
+        "ru": [
+          "Наблюдения за вулканами"
+        ]
+      },
+      "broader": [
+        "concept160"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:48+00:00",
+      "narrower": [
+        "concept14298"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم البراكين"
+        ],
+        "en": [
+          "Volcanology"
+        ],
+        "es": [
+          "Vulcanología"
+        ],
+        "fr": [
+          "Vulcanologie"
+        ],
+        "ru": [
+          "Вулканология"
+        ]
+      },
+      "related": [
+        "concept10155"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11460",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11460",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حمم فوارة",
+          "ينابيع ساخنة"
+        ],
+        "en": [
+          "Geysers"
+        ],
+        "es": [
+          "Geiser"
+        ],
+        "fr": [
+          "Geyser"
+        ],
+        "ru": [
+          "Гейзеры"
+        ]
+      },
+      "broader": [
+        "concept4551"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ينابيع حارة"
+        ],
+        "en": [
+          "Thermal springs"
+        ],
+        "es": [
+          "Manantial de agua termal"
+        ],
+        "fr": [
+          "Source thermale"
+        ],
+        "ru": [
+          "Термальные источники"
+        ]
+      },
+      "related": [
+        "concept191",
+        "concept9714"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11471",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11471",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انهار جليدية",
+          "ثلاجات",
+          "جليديات",
+          "مثالج"
+        ]
+      },
+      "broader": [
+        "concept11459"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T14:36:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كتل جليدية"
+        ],
+        "en": [
+          "Glaciers"
+        ],
+        "es": [
+          "Glaciar"
+        ],
+        "fr": [
+          "Glacier"
+        ],
+        "ru": [
+          "Ледники"
+        ]
+      },
+      "related": [
+        "concept11526",
+        "concept5444"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11530",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11530",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صخور بركانية"
+        ],
+        "es": [
+          "Roca de magma",
+          "Roca eruptiva",
+          "Roca magmática"
+        ],
+        "fr": [
+          "Roche magmatique",
+          "Roche éruptive"
+        ]
+      },
+      "broader": [
+        "concept4431"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صخور نارية"
+        ],
+        "en": [
+          "Igneous rocks"
+        ],
+        "es": [
+          "Roca ígnea"
+        ],
+        "fr": [
+          "Roche ignée"
+        ],
+        "ru": [
+          "Вулканические породы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12162",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12162",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيريت (معدن اصفر مؤلف من كبريت وحديد)",
+          "ركاز الحديد"
+        ],
+        "en": [
+          "Pyrite"
+        ],
+        "es": [
+          "Pirita"
+        ],
+        "fr": [
+          "Pyrite"
+        ],
+        "ru": [
+          "Пирит"
+        ]
+      },
+      "broader": [
+        "concept5419"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T14:33:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خامات الحديد"
+        ],
+        "en": [
+          "Iron ores"
+        ],
+        "es": [
+          "Mineral de hierro"
+        ],
+        "fr": [
+          "Minerai de fer"
+        ],
+        "ru": [
+          "Железные руды"
+        ]
+      },
+      "related": [
+        "concept10788"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12932",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12932",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربة حمراء",
+          "تربة شبه طينية حمراء",
+          "تربة صلصاليّة استوائيّة"
+        ]
+      },
+      "broader": [
+        "concept14174"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:35:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "لاتريتات"
+        ],
+        "en": [
+          "Laterites"
+        ],
+        "es": [
+          "Laterita"
+        ],
+        "fr": [
+          "Latérite"
+        ],
+        "ru": [
+          "Латеритные почвы"
+        ]
+      },
+      "related": [
+        "concept5446"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13259",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13259",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Métamorphite"
+        ]
+      },
+      "broader": [
+        "concept4431"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صخور متحولة"
+        ],
+        "en": [
+          "Metamorphic rocks"
+        ],
+        "es": [
+          "Roca metamórfica"
+        ],
+        "fr": [
+          "Roche métamorphique"
+        ],
+        "ru": [
+          "Метаморфические породы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14031",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14031",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انماط الترب",
+          "انواع التربة",
+          "تربة",
+          "تصنيف الاراضي",
+          "تصنيف التربة"
+        ],
+        "en": [
+          "Soil classification",
+          "Soil types"
+        ],
+        "es": [
+          "Clasificación de suelos",
+          "Tipo de suelo"
+        ],
+        "fr": [
+          "Classification des sols",
+          "Type de sol"
+        ],
+        "ru": [
+          "Классификация почв",
+          "Типы почв"
+        ]
+      },
+      "broader": [
+        "concept164"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T14:37:16+00:00",
+      "narrower": [
+        "concept13259",
+        "concept16183",
+        "concept16558",
+        "concept16559",
+        "concept2846"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترب"
+        ],
+        "en": [
+          "Soils"
+        ],
+        "es": [
+          "Suelo"
+        ],
+        "fr": [
+          "Sol"
+        ],
+        "ru": [
+          "Почвы"
+        ]
+      },
+      "related": [
+        "concept11235",
+        "concept12055",
+        "concept1781",
+        "concept1876",
+        "concept4261",
+        "concept4431",
+        "concept4706",
+        "concept5320",
+        "concept5419",
+        "concept6448",
+        "concept9808"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14174",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14174",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept11460"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:33:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "براكين"
+        ],
+        "en": [
+          "Volcanoes"
+        ],
+        "es": [
+          "Volcán"
+        ],
+        "fr": [
+          "Volcan"
+        ],
+        "ru": [
+          "Вулканы"
+        ]
+      },
+      "related": [
+        "concept10155",
+        "concept13164",
+        "concept16559"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14298",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14298",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بريكمبري",
+          "ما قَبل الكَمْبَري"
+        ]
+      },
+      "broader": [
+        "concept11445"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ما قبل الكامبري"
+        ],
+        "en": [
+          "Precambrian"
+        ],
+        "es": [
+          "Precámbrico"
+        ],
+        "fr": [
+          "Précambrien"
+        ],
+        "ru": [
+          "Докембрий"
+        ]
+      },
+      "related": [
+        "concept6908"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14903",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14903",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4431"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:36+00:00",
+      "narrower": [
+        "concept2834",
+        "concept4654"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صخور رسوبية"
+        ],
+        "en": [
+          "Sedimentary rocks"
+        ],
+        "es": [
+          "Roca sedimentaria"
+        ],
+        "fr": [
+          "Roche sédimentaire"
+        ],
+        "ru": [
+          "Осадочные породы"
+        ]
+      },
+      "related": [
+        "concept11406"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16102",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16102",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ترب متملحة"
+        ],
+        "es": [
+          "Suelo halomorfo",
+          "Suelo salado"
+        ],
+        "fr": [
+          "Sol halomorphe",
+          "Sol salé"
+        ]
+      },
+      "broader": [
+        "concept14174"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-22T15:25:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترب مالحة"
+        ],
+        "en": [
+          "Saline soils"
+        ],
+        "es": [
+          "Suelo salino"
+        ],
+        "fr": [
+          "Sol salin"
+        ],
+        "ru": [
+          "Солончаки"
+        ]
+      },
+      "related": [
+        "concept1884",
+        "concept5004",
+        "concept6448"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16183",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16183",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مناطق زلزالية"
+        ],
+        "es": [
+          "Región sísmica"
+        ]
+      },
+      "broader": [
+        "concept8601"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناطق اهتزازية"
+        ],
+        "en": [
+          "Seismic areas"
+        ],
+        "es": [
+          "Zona sísmica"
+        ],
+        "fr": [
+          "Zone sismique"
+        ],
+        "ru": [
+          "Сейсмичные районы"
+        ]
+      },
+      "related": [
+        "concept8609"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16329",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16329",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Suelo insaturado"
+        ],
+        "fr": [
+          "Sol insaturé"
+        ]
+      },
+      "broader": [
+        "concept14174"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:33:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترب غير مشبعة"
+        ],
+        "en": [
+          "Unsaturated soils"
+        ],
+        "es": [
+          "Suelo no saturado"
+        ],
+        "fr": [
+          "Sol non saturé"
+        ],
+        "ru": [
+          "Несатурированные почвы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16558",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16558",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Sol d'origine volcanique"
+        ]
+      },
+      "broader": [
+        "concept14174"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.35"
+      ],
+      "modified": "2019-12-15T13:34:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترب بركانية"
+        ],
+        "en": [
+          "Volcanic soils"
+        ],
+        "es": [
+          "Suelos volcánicos"
+        ],
+        "fr": [
+          "Sol volcanique"
+        ],
+        "ru": [
+          "Вулканические почвы"
+        ]
+      },
+      "related": [
+        "concept14298"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16559",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16559",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt2.35",
+    "labels": {
+      "en": "Earth sciences",
+      "fr": "Sciences de la terre"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt2.35"
+  }
+}

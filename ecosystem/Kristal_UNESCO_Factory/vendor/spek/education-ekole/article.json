@@ -1,0 +1,412 @@
+{
+  "article": {
+    "abstract_key": "abstract",
+    "id": "urn:example:spek:fictional-school-garden",
+    "subtitle_key": "subtitle",
+    "title_key": "title"
+  },
+  "evidence": [
+    {
+      "external_ref": "ekole:fictional-garden:e.a",
+      "id": "e.a",
+      "locator": "fixture:education/e.a",
+      "realization_key": "e.a",
+      "status": "illustrative_fixture"
+    },
+    {
+      "external_ref": "ekole:fictional-garden:e.b",
+      "id": "e.b",
+      "locator": "fixture:education/e.b",
+      "realization_key": "e.b",
+      "status": "illustrative_fixture"
+    }
+  ],
+  "format": "kristal.layout-article-source/0.1",
+  "sections": [
+    {
+      "heading_key": "h.concept",
+      "id": "concept",
+      "layout": "concept-card",
+      "slots": {
+        "context": [
+          "u.context"
+        ],
+        "counterexamples": [
+          "u.counter"
+        ],
+        "definition": [
+          "u.def"
+        ],
+        "examples": [
+          "u.ex1",
+          "u.ex2"
+        ],
+        "limits": [
+          "u.limit1"
+        ]
+      }
+    },
+    {
+      "heading_key": "h.path",
+      "id": "path",
+      "layout": "learning-path",
+      "slots": {
+        "limits": [
+          "u.limit2"
+        ],
+        "objective": [
+          "u.objective"
+        ],
+        "prerequisites": [
+          "u.pre1"
+        ],
+        "reflection": [
+          "u.reflect"
+        ],
+        "steps": [
+          "u.step1",
+          "u.step2",
+          "u.step3"
+        ]
+      }
+    },
+    {
+      "heading_key": "h.compare",
+      "id": "comparison",
+      "layout": "evidence-comparison",
+      "slots": {
+        "limits": [
+          "u.limit3"
+        ],
+        "perspective_a": [
+          "u.pa"
+        ],
+        "perspective_b": [
+          "u.pb"
+        ],
+        "question": [
+          "u.question"
+        ],
+        "source_a": [
+          "e.a"
+        ],
+        "source_b": [
+          "e.b"
+        ],
+        "synthesis": [
+          "u.synth"
+        ]
+      }
+    },
+    {
+      "heading_key": "h.observation",
+      "id": "observation",
+      "layout": "observation-inference",
+      "slots": {
+        "interpretation": [
+          "u.infer"
+        ],
+        "limits": [
+          "u.limit4"
+        ],
+        "observations": [
+          "u.obs1",
+          "u.obs2"
+        ],
+        "verification": [
+          "u.verify"
+        ]
+      }
+    },
+    {
+      "heading_key": "h.chronology",
+      "id": "timeline",
+      "layout": "chronology",
+      "slots": {
+        "context": [
+          "u.chrono.context"
+        ],
+        "events": [
+          "u.event1",
+          "u.event2",
+          "u.event3"
+        ],
+        "interpretation": [
+          "u.chrono.inference"
+        ],
+        "limits": [
+          "u.limit5"
+        ]
+      }
+    }
+  ],
+  "source": {
+    "artifact_refs": [],
+    "dataset_ref": "ekole:fictional-garden:0.1",
+    "disclosure": "local_demo_only",
+    "external_system": "ekole",
+    "language_review": {
+      "en": "fixture",
+      "fr": "fixture",
+      "it": "fixture"
+    },
+    "origin": "external_projection",
+    "projection_sha256": "sha256:f6ffd9501b2b938387abf4f2604b220bb62eba8292662d8534845a290b564dab",
+    "reader_policy_ref": "ekole:student-fixture:no-identities",
+    "scientific_review": "not_submitted",
+    "state_commitment": null,
+    "state_ref": null
+  },
+  "units": [
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.def",
+      "id": "u.def",
+      "kind": "definition",
+      "realization_key": "def"
+    },
+    {
+      "epistemic_status": "hypothesis",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.ex1",
+      "id": "u.ex1",
+      "kind": "example",
+      "realization_key": "ex1"
+    },
+    {
+      "epistemic_status": "hypothesis",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.ex2",
+      "id": "u.ex2",
+      "kind": "example",
+      "realization_key": "ex2"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.counter",
+      "id": "u.counter",
+      "kind": "counterexample",
+      "realization_key": "counter"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.context",
+      "id": "u.context",
+      "kind": "context",
+      "realization_key": "context"
+    },
+    {
+      "epistemic_status": "limitation",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.limit1",
+      "id": "u.limit1",
+      "kind": "qualification",
+      "realization_key": "limit1"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.objective",
+      "id": "u.objective",
+      "kind": "objective",
+      "realization_key": "objective"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.pre1",
+      "id": "u.pre1",
+      "kind": "prerequisite",
+      "realization_key": "pre1"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.step1",
+      "id": "u.step1",
+      "kind": "step",
+      "realization_key": "step1"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.step2",
+      "id": "u.step2",
+      "kind": "step",
+      "realization_key": "step2"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.step3",
+      "id": "u.step3",
+      "kind": "step",
+      "realization_key": "step3"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.reflect",
+      "id": "u.reflect",
+      "kind": "reflection",
+      "realization_key": "reflect"
+    },
+    {
+      "epistemic_status": "limitation",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.limit2",
+      "id": "u.limit2",
+      "kind": "qualification",
+      "realization_key": "limit2"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.question",
+      "id": "u.question",
+      "kind": "question",
+      "realization_key": "question"
+    },
+    {
+      "epistemic_status": "observation",
+      "evidence_refs": [
+        "e.a"
+      ],
+      "external_ref": "ekole:fictional-garden:u.pa",
+      "id": "u.pa",
+      "kind": "perspective",
+      "realization_key": "pa"
+    },
+    {
+      "epistemic_status": "observation",
+      "evidence_refs": [
+        "e.b"
+      ],
+      "external_ref": "ekole:fictional-garden:u.pb",
+      "id": "u.pb",
+      "kind": "perspective",
+      "realization_key": "pb"
+    },
+    {
+      "epistemic_status": "hypothesis",
+      "evidence_refs": [
+        "e.a",
+        "e.b"
+      ],
+      "external_ref": "ekole:fictional-garden:u.synth",
+      "id": "u.synth",
+      "kind": "conclusion",
+      "realization_key": "synth"
+    },
+    {
+      "epistemic_status": "limitation",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.limit3",
+      "id": "u.limit3",
+      "kind": "qualification",
+      "realization_key": "limit3"
+    },
+    {
+      "epistemic_status": "observation",
+      "evidence_refs": [
+        "e.a"
+      ],
+      "external_ref": "ekole:fictional-garden:u.obs1",
+      "id": "u.obs1",
+      "kind": "observation",
+      "realization_key": "obs1"
+    },
+    {
+      "epistemic_status": "observation",
+      "evidence_refs": [
+        "e.b"
+      ],
+      "external_ref": "ekole:fictional-garden:u.obs2",
+      "id": "u.obs2",
+      "kind": "observation",
+      "realization_key": "obs2"
+    },
+    {
+      "epistemic_status": "hypothesis",
+      "evidence_refs": [
+        "e.a",
+        "e.b"
+      ],
+      "external_ref": "ekole:fictional-garden:u.infer",
+      "id": "u.infer",
+      "kind": "interpretation",
+      "realization_key": "infer"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.verify",
+      "id": "u.verify",
+      "kind": "method",
+      "realization_key": "verify"
+    },
+    {
+      "epistemic_status": "limitation",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.limit4",
+      "id": "u.limit4",
+      "kind": "qualification",
+      "realization_key": "limit4"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.chrono.context",
+      "id": "u.chrono.context",
+      "kind": "context",
+      "realization_key": "chrono.context"
+    },
+    {
+      "epistemic_status": "observation",
+      "evidence_refs": [
+        "e.a"
+      ],
+      "external_ref": "ekole:fictional-garden:u.event1",
+      "id": "u.event1",
+      "kind": "event",
+      "realization_key": "event1"
+    },
+    {
+      "epistemic_status": "observation",
+      "evidence_refs": [
+        "e.a"
+      ],
+      "external_ref": "ekole:fictional-garden:u.event2",
+      "id": "u.event2",
+      "kind": "event",
+      "realization_key": "event2"
+    },
+    {
+      "epistemic_status": "method",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.event3",
+      "id": "u.event3",
+      "kind": "event",
+      "realization_key": "event3"
+    },
+    {
+      "epistemic_status": "hypothesis",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.chrono.inference",
+      "id": "u.chrono.inference",
+      "kind": "interpretation",
+      "realization_key": "chrono.inference"
+    },
+    {
+      "epistemic_status": "limitation",
+      "evidence_refs": [],
+      "external_ref": "ekole:fictional-garden:u.limit5",
+      "id": "u.limit5",
+      "kind": "qualification",
+      "realization_key": "limit5"
+    }
+  ]
+}

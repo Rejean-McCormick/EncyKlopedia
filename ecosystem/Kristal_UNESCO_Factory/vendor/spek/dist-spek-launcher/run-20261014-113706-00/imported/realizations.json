@@ -1,0 +1,786 @@
+{
+  "entries": {
+    "abstract": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "This fictional scenario separates definitions, observations, interpretations, sources and learning paths without evaluating any student."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Ce scénario fictif montre comment distinguer définition, observation, interprétation, sources et parcours, sans évaluer un élève."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Questo scenario fittizio distingue definizioni, osservazioni, interpretazioni, fonti e percorsi senza valutare studenti."
+      }
+    },
+    "chrono.context": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "The events below describe a fictional notebook sequence."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Les événements ci-dessous décrivent une séquence fictive de carnet."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Gli eventi seguenti descrivono una sequenza fittizia di quaderno."
+      }
+    },
+    "chrono.inference": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "The order of dates proves no causal relationship."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "La succession des dates ne prouve aucune relation causale."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "L’ordine delle date non prova alcuna relazione causale."
+      }
+    },
+    "context": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Observations depend on temperature, wind and measurement conditions."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Les observations dépendent de la température, du vent et des conditions de mesure."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Le osservazioni dipendono da temperatura, vento e condizioni di misura."
+      }
+    },
+    "counter": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Melting ice is not evaporation."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "La fonte de la glace n’est pas une évaporation."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Lo scioglimento del ghiaccio non è evaporazione."
+      }
+    },
+    "def": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Evaporation is the change from liquid water to water vapor."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "L’évaporation est le passage de l’eau liquide à l’état de vapeur."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "L’evaporazione è il passaggio dell’acqua liquida allo stato di vapore."
+      }
+    },
+    "e.a": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Record A: fictional values entered in a measurement notebook."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Trace A : valeurs fictives inscrites dans un carnet de mesure."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Traccia A: valori fittizi annotati su un quaderno di misura."
+      }
+    },
+    "e.b": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Record B: fictional description of the dish’s appearance."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Trace B : description fictive de l’état de la coupelle."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Traccia B: descrizione fittizia dell’aspetto della vaschetta."
+      }
+    },
+    "event1": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Day 1: initial level recorded."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Jour 1 : niveau initial noté."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Giorno 1: livello iniziale annotato."
+      }
+    },
+    "event2": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Day 2: second reading recorded."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Jour 2 : seconde lecture inscrite."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Giorno 2: seconda lettura annotata."
+      }
+    },
+    "event3": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Day 3: possible explanations discussed."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Jour 3 : discussion des explications possibles."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Giorno 3: discussione delle spiegazioni possibili."
+      }
+    },
+    "ex1": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Water in a shallow dish may decrease over time."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "De l’eau dans une coupelle peut diminuer avec le temps."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "L’acqua in una vaschetta può diminuire nel tempo."
+      }
+    },
+    "ex2": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "A wet surface can dry without boiling."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Une surface humide peut sécher sans bouillir."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Una superficie bagnata può asciugarsi senza bollire."
+      }
+    },
+    "h.chronology": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "A short documented timeline"
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Une petite chronologie documentée"
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Una breve cronologia documentata"
+      }
+    },
+    "h.compare": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Comparing two records"
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Comparer deux traces"
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Confrontare due registrazioni"
+      }
+    },
+    "h.concept": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "A concept: evaporation"
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Une notion : évaporation"
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Un concetto: evaporazione"
+      }
+    },
+    "h.observation": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Separating observation from explanation"
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Séparer fait et explication"
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Distinguere osservazione e spiegazione"
+      }
+    },
+    "h.path": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Understanding an observation"
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Comprendre une observation"
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Comprendere un’osservazione"
+      }
+    },
+    "infer": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Evaporation is one possible explanation, not a proven conclusion."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "L’évaporation est une explication possible, pas une conclusion démontrée."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "L’evaporazione è una spiegazione possibile, non una conclusione dimostrata."
+      }
+    },
+    "limit1": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "A lower water level alone does not establish the mechanism."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Une baisse du niveau d’eau ne démontre pas seule son mécanisme."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Un livello d’acqua più basso non dimostra da solo il meccanismo."
+      }
+    },
+    "limit2": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "This card proposes a study path; it does not certify competency."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Cette fiche propose un chemin d’étude; elle ne valide aucune compétence."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Questa scheda propone un percorso di studio; non certifica competenze."
+      }
+    },
+    "limit3": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "No real measurement or photograph is supplied in this demonstration."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Aucune mesure ni photographie réelle n’est fournie dans cette démonstration."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "In questa dimostrazione non è fornita alcuna misura né fotografia reale."
+      }
+    },
+    "limit4": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "The fictional setup cannot identify a certain cause."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Le dispositif fictif ne permet pas d’identifier une cause certaine."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "L’allestimento fittizio non permette di individuare una causa certa."
+      }
+    },
+    "limit5": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Dates and records are invented; no field evidence is claimed."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Dates et traces inventées; aucune preuve de terrain n’est revendiquée."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Date e registrazioni inventate; non si rivendicano prove sul campo."
+      }
+    },
+    "objective": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Distinguish an observation from an interpretation supported by sources."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Distinguer une observation d’une interprétation appuyée par des sources."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Distinguere un’osservazione da un’interpretazione sostenuta da fonti."
+      }
+    },
+    "obs1": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "The fictional level is lower at the second reading."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Le niveau fictif est plus bas lors de la deuxième lecture."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Il livello fittizio è più basso alla seconda lettura."
+      }
+    },
+    "obs2": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "The dish is described as uncovered during the interval."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "La coupelle est décrite comme découverte durant la période."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "La vaschetta è descritta come scoperta durante l’intervallo."
+      }
+    },
+    "pa": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "The notebook gives numbers but no independent calibration."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Le carnet fournit des nombres, mais aucune calibration indépendante."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Il quaderno offre numeri ma nessuna calibrazione indipendente."
+      }
+    },
+    "pb": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "The description offers visual context but no exact quantity."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "La description offre un contexte visuel, mais pas de quantité exacte."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "La descrizione offre un contesto visivo ma non una quantità esatta."
+      }
+    },
+    "pre1": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Recognize a liquid and read a measurement in a table."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Savoir reconnaître un liquide et repérer une mesure dans un tableau."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Riconoscere un liquido e leggere una misura in una tabella."
+      }
+    },
+    "question": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "What can the two records actually establish?"
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Que permettent réellement d’affirmer les deux traces ?"
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Che cosa consentono di affermare le due registrazioni?"
+      }
+    },
+    "reflect": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "What alternative explanation should be checked before drawing a conclusion?"
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Quelle autre explication faut-il examiner avant de conclure ?"
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Quale spiegazione alternativa va esaminata prima di concludere?"
+      }
+    },
+    "step1": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Observe and record the dish’s initial water level."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Observer et consigner le niveau initial de la coupelle."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Osservare e annotare il livello iniziale dell’acqua."
+      }
+    },
+    "step2": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Record another measurement in the same location."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Consigner une nouvelle mesure au même endroit."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Annotare una nuova misura nello stesso luogo."
+      }
+    },
+    "step3": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Compare the readings and identify unknown conditions."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Comparer les mesures et identifier les conditions inconnues."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Confrontare le misure e individuare le condizioni sconosciute."
+      }
+    },
+    "subtitle": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Five structured layouts; fictional, unevaluated example"
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Cinq fiches structurées; exemple fictif non évalué"
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Cinque schede strutturate; esempio fittizio non valutato"
+      }
+    },
+    "synth": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "The two records complement each other without proving a cause on their own."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Les deux traces se complètent sans prouver à elles seules une cause."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Le due tracce si completano senza dimostrare da sole una causa."
+      }
+    },
+    "title": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Observing the school garden"
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Observer le jardin de l’école"
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Osservare il giardino della scuola"
+      }
+    },
+    "verify": {
+      "en": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Repeat the measurement and check for spills."
+      },
+      "fr": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Répéter la mesure et contrôler les pertes par renversement."
+      },
+      "it": {
+        "channel": "legacy",
+        "provider": "manual_demo_fixture",
+        "status": "fixture",
+        "text": "Ripetere la misura e controllare eventuali fuoriuscite."
+      }
+    }
+  },
+  "format": "kristal.layout-realizations/0.1",
+  "note": "Explicit manual fictional phrases, not generated/certified by SemantiK."
+}

@@ -1,0 +1,28 @@
+{
+  "format": "encyklopedia.educational-policy.identity-triage/1",
+  "concepts": 41,
+  "proposed_crosswalks": 36,
+  "without_qid": 5,
+  "approved": 0,
+  "important_changes": [
+    {
+      "kq": "KQ2",
+      "qid": "Q452348",
+      "finding": "English Wikidata page aligns with broad education policy; indexed French label alone misleading",
+      "status": "recommend_only"
+    },
+    {
+      "kq": "KQ3",
+      "qid": "Q69370",
+      "finding": "Wikidata carries UNESCO concept10 identifier",
+      "status": "recommend_only"
+    },
+    {
+      "kq": "KQ26",
+      "qid": "Q3595759",
+      "finding": "UNESCO treats international education as entry term for Global citizenship education; does not establish exact item equivalence",
+      "status": "recommend_only"
+    }
+  ],
+  "no_canonical_decision": true
+}

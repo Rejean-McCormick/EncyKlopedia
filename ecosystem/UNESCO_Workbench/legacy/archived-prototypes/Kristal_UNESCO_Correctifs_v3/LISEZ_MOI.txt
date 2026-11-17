@@ -1,0 +1,28 @@
+KRISTAL UNESCO - OUTILS V3 (CHEMINS CORRIGES)
+
+1. Ne pas recopier ces fichiers dans les depots source.
+2. Decompresser le ZIP dans Telechargements.
+3. Pour le pilote, ouvrir le dossier Kristal_UNESCO_Pilote_v3
+   puis double-cliquer LANCER_UI.cmd ou Pilote_Kristal_UNESCO.pyw.
+4. Pour le diagnostic de chemins et journaux, double-cliquer
+   LANCER_DIAGNOSTIC.cmd (ou Diagnostic_Kristal_UNESCO_UI_v3.pyw).
+5. Les deux interfaces ont des champs modifiables et produisent
+   les rapports ZIP dans Telechargements.
+
+Chemins pre-remplis issus du rapport de diagnostic Windows :
+  Kristal: C:\mycode\Kristal
+  SemantiK: C:\mycode\SemantiK_Architect\SemantiK_Architect
+  EncyKlopedia: D:\EncyKlopedia
+  PGF existant: C:\mycode\SemantiK_Architect\SemantiK_Architect\runtime\konstellation-fr-3\grammar.pgf
+  Adaptateur: C:\mycode\SemantiK_Architect\SemantiK_Architect\src\semantik_architect\adapters\realization\gf\pgf_runtime.py
+  Python PGF: %LOCALAPPDATA%\Programs\Python\Python312\python.exe si present
+  RUN: dernier RUN detecte automatiquement
+
+IMPORTANT : grammar.pgf du profil Konstellation prouve seulement
+qu'un PGF precompile est disponible. Il ne contient pas la grammaire
+UNESCO FR/EN a construire. Le compilateur gf.exe reste sans chemin
+par defaut car il n'a pas ete localise. Le pilote l'indique sans
+revendiquer de realisation GF UNESCO. Aucun contenu n'est publie.
+
+Les extraits de rapport peuvent contenir des chemins locaux et
+etiquettes de concepts. Examiner le ZIP avant de le partager.

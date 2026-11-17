@@ -1,0 +1,248 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+}}
+{{!
+    @template mod_uckkarchive/content_advisory_panel
+
+    Content advisory panel for media, external works, and archive items.
+
+    Context variables:
+    {
+        "id": 12,
+        "title": "Content advisories",
+        "summary": "This material includes sensitive themes.",
+        "hasmarkers": true,
+        "markers": [
+            {
+                "id": 4,
+                "tag": "sexual_violence",
+                "label": "Sexual violence",
+                "severity": "strong",
+                "severitylabel": "Strong",
+                "audiencesuitability": "mature",
+                "audiencesuitabilitylabel": "Mature",
+                "locatortype": "timecode_range",
+                "locator": "00:42:10-00:44:18",
+                "note": "Scene should be contextualised before viewing.",
+                "requirescontext": true,
+                "restricted": false,
+                "culturalprotocol": false,
+                "reviewstate": "approved",
+                "reviewstatelabel": "Approved",
+                "reviewedby": "Teacher One",
+                "timereviewed": "27 May 2026"
+            }
+        ],
+        "hasprotocols": true,
+        "protocols": [],
+        "hasrestricted": true,
+        "canmanage": true,
+        "canreview": true,
+        "editurl": "https://example.invalid",
+        "reviewurl": "https://example.invalid",
+        "addmarkerurl": "https://example.invalid"
+    }
+}}
+
+<section
+    class="uckkarchive-content-advisory-panel"
+    data-region="uckkarchive-content-advisory-panel"
+    data-id="{{id}}"
+>
+    <div class="uckkarchive-content-advisory-panel__header">
+        <div>
+            <h3 class="uckkarchive-content-advisory-panel__title">
+                {{#title}}{{title}}{{/title}}
+                {{^title}}{{#str}} contentadvisory, uckkarchive {{/str}}{{/title}}
+            </h3>
+
+            {{#summary}}
+                <div class="uckkarchive-content-advisory-panel__summary">
+                    {{{summary}}}
+                </div>
+            {{/summary}}
+        </div>
+
+        {{#canmanage}}
+            <div class="uckkarchive-content-advisory-panel__actions">
+                {{#addmarkerurl}}
+                    <a
+                        class="btn btn-secondary btn-sm"
+                        href="{{addmarkerurl}}"
+                        data-action="add-content-marker"
+                    >
+                        {{#str}} addcontentmarker, uckkarchive {{/str}}
+                    </a>
+                {{/addmarkerurl}}
+
+                {{#editurl}}
+                    <a
+                        class="btn btn-outline-secondary btn-sm"
+                        href="{{editurl}}"
+                        data-action="edit-content-advisory"
+                    >
+                        {{#str}} edit, moodle {{/str}}
+                    </a>
+                {{/editurl}}
+            </div>
+        {{/canmanage}}
+    </div>
+
+    {{#hasrestricted}}
+        <div class="alert alert-warning uckkarchive-content-advisory-panel__restricted" role="alert">
+            <strong>{{#str}} restrictedcontent, uckkarchive {{/str}}</strong>
+            <span>{{#str}} restrictedcontentnotice, uckkarchive {{/str}}</span>
+        </div>
+    {{/hasrestricted}}
+
+    {{#hasprotocols}}
+        <div class="uckkarchive-content-advisory-panel__protocols">
+            <h4 class="uckkarchive-content-advisory-panel__subtitle">
+                {{#str}} culturalprotocols, uckkarchive {{/str}}
+            </h4>
+
+            <ul class="list-unstyled uckkarchive-content-advisory-panel__protocol-list">
+                {{#protocols}}
+                    <li class="uckkarchive-content-advisory-panel__protocol">
+                        <div class="uckkarchive-content-advisory-panel__protocol-title">
+                            {{#label}}{{label}}{{/label}}
+                            {{^label}}{{tag}}{{/label}}
+                        </div>
+
+                        {{#note}}
+                            <div class="uckkarchive-content-advisory-panel__protocol-note">
+                                {{{note}}}
+                            </div>
+                        {{/note}}
+
+                        {{#locator}}
+                            <div class="uckkarchive-content-advisory-panel__locator">
+                                <span class="text-muted">{{#str}} location, moodle {{/str}}:</span>
+                                <span>{{locator}}</span>
+                            </div>
+                        {{/locator}}
+                    </li>
+                {{/protocols}}
+            </ul>
+        </div>
+    {{/hasprotocols}}
+
+    {{#hasmarkers}}
+        <div class="uckkarchive-content-advisory-panel__markers">
+            <h4 class="uckkarchive-content-advisory-panel__subtitle">
+                {{#str}} contentwarnings, uckkarchive {{/str}}
+            </h4>
+
+            <ul class="list-unstyled uckkarchive-content-advisory-panel__marker-list">
+                {{#markers}}
+                    <li
+                        class="uckkarchive-content-advisory-panel__marker uckkarchive-content-advisory-panel__marker--{{severity}}"
+                        data-marker-id="{{id}}"
+                        data-review-state="{{reviewstate}}"
+                    >
+                        <div class="uckkarchive-content-advisory-panel__marker-main">
+                            <div class="uckkarchive-content-advisory-panel__marker-heading">
+                                <span class="uckkarchive-content-advisory-panel__marker-label">
+                                    {{#label}}{{label}}{{/label}}
+                                    {{^label}}{{tag}}{{/label}}
+                                </span>
+
+                                {{#severitylabel}}
+                                    <span class="badge badge-secondary uckkarchive-content-advisory-panel__severity">
+                                        {{severitylabel}}
+                                    </span>
+                                {{/severitylabel}}
+
+                                {{#audiencesuitabilitylabel}}
+                                    <span class="badge badge-light uckkarchive-content-advisory-panel__audience">
+                                        {{audiencesuitabilitylabel}}
+                                    </span>
+                                {{/audiencesuitabilitylabel}}
+
+                                {{#restricted}}
+                                    <span class="badge badge-warning uckkarchive-content-advisory-panel__restricted-badge">
+                                        {{#str}} restricted, uckkarchive {{/str}}
+                                    </span>
+                                {{/restricted}}
+
+                                {{#culturalprotocol}}
+                                    <span class="badge badge-info uckkarchive-content-advisory-panel__protocol-badge">
+                                        {{#str}} culturalprotocol, uckkarchive {{/str}}
+                                    </span>
+                                {{/culturalprotocol}}
+                            </div>
+
+                            {{#locator}}
+                                <div class="uckkarchive-content-advisory-panel__locator">
+                                    <span class="text-muted">
+                                        {{#locatortypelabel}}{{locatortypelabel}}{{/locatortypelabel}}
+                                        {{^locatortypelabel}}{{#str}} location, moodle {{/str}}{{/locatortypelabel}}:
+                                    </span>
+                                    <span>{{locator}}</span>
+                                </div>
+                            {{/locator}}
+
+                            {{#note}}
+                                <div class="uckkarchive-content-advisory-panel__note">
+                                    {{{note}}}
+                                </div>
+                            {{/note}}
+
+                            {{#requirescontext}}
+                                <div class="uckkarchive-content-advisory-panel__requires-context">
+                                    {{#str}} requirescontextnotice, uckkarchive {{/str}}
+                                </div>
+                            {{/requirescontext}}
+                        </div>
+
+                        <div class="uckkarchive-content-advisory-panel__marker-review">
+                            {{#reviewstatelabel}}
+                                <span class="badge badge-light uckkarchive-content-advisory-panel__review-state">
+                                    {{reviewstatelabel}}
+                                </span>
+                            {{/reviewstatelabel}}
+
+                            {{#reviewedby}}
+                                <div class="small text-muted">
+                                    {{#str}} reviewedby, uckkarchive {{/str}}: {{reviewedby}}
+                                </div>
+                            {{/reviewedby}}
+
+                            {{#timereviewed}}
+                                <div class="small text-muted">
+                                    {{timereviewed}}
+                                </div>
+                            {{/timereviewed}}
+
+                            {{#canreview}}
+                                {{#reviewurl}}
+                                    <a
+                                        class="btn btn-link btn-sm p-0"
+                                        href="{{reviewurl}}"
+                                        data-action="review-content-marker"
+                                        data-marker-id="{{id}}"
+                                    >
+                                        {{#str}} review, uckkarchive {{/str}}
+                                    </a>
+                                {{/reviewurl}}
+                            {{/canreview}}
+                        </div>
+                    </li>
+                {{/markers}}
+            </ul>
+        </div>
+    {{/hasmarkers}}
+
+    {{^hasmarkers}}
+        {{^hasprotocols}}
+            <div class="uckkarchive-content-advisory-panel__empty text-muted">
+                {{#str}} nocontentadvisories, uckkarchive {{/str}}
+            </div>
+        {{/hasprotocols}}
+    {{/hasmarkers}}
+</section>

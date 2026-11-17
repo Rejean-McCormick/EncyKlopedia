@@ -1,0 +1,224 @@
+{
+  "format": "spek.wiki-template-design-backlog/1.0",
+  "status": "TYPED_SPEK_LAYOUTS_AVAILABLE_REQUIRE_EXPLICIT_CONTENT_AND_AUTHORITY",
+  "count": 19,
+  "templates": [
+    {
+      "id": "agroecosystem-network",
+      "label": "Réseau agroécologique",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "agriculture"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "boundary-relation-map",
+      "label": "Frontières de domaine et références croisées",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "aerospace"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "crossscale-distinctions-map",
+      "label": "Distinctions entre échelles",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "aging"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "double-entry-ledger",
+      "label": "Matrice journaux, comptes, débit et crédit",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "accounting"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "event-document-chain",
+      "label": "Événement → justificatif → enregistrement",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "accounting"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "evidence-constraint-matrix",
+      "label": "Tableau de preuves, conditions et limites",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "aging",
+        "agriculture",
+        "ai"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "functional-trajectory-map",
+      "label": "Trajectoires fonctionnelles et variantes",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "aging"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "inputs-practices-matrix",
+      "label": "Correspondance intrants, pratiques et contraintes",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "agriculture"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "mission-phase-map",
+      "label": "Architecture de mission et phases non datées",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "aerospace"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "multiscale-relations-map",
+      "label": "Graphe multi-échelles",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "aging"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "period-rollup-matrix",
+      "label": "Regroupement par périodes et états",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "accounting"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "practice-interface-map",
+      "label": "Interfaces et pratiques non prescriptives",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "agriculture"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "process-interface-map",
+      "label": "Flux de processus et interfaces",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "ai"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "relation-network",
+      "label": "Graphe de relations étiquetées",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "agriculture",
+        "ai"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "source-provenance-index",
+      "label": "Inventaire des sources et de la provenance",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "accounting",
+        "aerospace",
+        "aging",
+        "ai"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "stage-interaction-network",
+      "label": "Carte de phases et interactions non linéaires",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "ai"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "system-interface-map",
+      "label": "Carte véhicules, sous-systèmes et ressources",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "aerospace"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "taxonomy-tree",
+      "label": "Arbre de concepts et spécialisations",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "accounting",
+        "aerospace",
+        "ai"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    },
+    {
+      "id": "trajectory-constraints-map",
+      "label": "Trajectoires et contraintes contextuelles",
+      "status": "TYPED_RENDERER_AVAILABLE_NOT_SEMANTICALLY_FILLED",
+      "referenced_by": [
+        "aerospace"
+      ],
+      "requires_contract_validation": true,
+      "requires_renderer_implementation": false,
+      "requires_semantik_slots": true
+    }
+  ]
+}

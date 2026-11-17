@@ -1,0 +1,14 @@
+{
+  "adapter_id": "spek.presentation.preview",
+  "provider": "spek",
+  "contract_version": "0.5.0",
+  "capabilities": [
+    "render_kristals"
+  ],
+  "data_policy": {
+    "student_pii_export": false,
+    "private_diagnostic_export": false,
+    "private_teacher_constraints_export": false
+  },
+  "event_subscriptions": []
+}

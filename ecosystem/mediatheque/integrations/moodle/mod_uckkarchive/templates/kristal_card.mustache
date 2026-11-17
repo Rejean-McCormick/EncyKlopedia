@@ -1,0 +1,235 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+}}
+{{!
+    @template mod_uckkarchive/kristal_card
+
+    Kristal card for UCKK Archives.
+
+    This template is render-only. All values must be permission-filtered,
+    context-aware and formatted by PHP output classes or external services.
+}}
+
+<article
+    class="uckkarchive-kristal-card {{statusclass}} {{visibilityclass}}"
+    data-region="uckkarchive-kristal-card"
+    data-kristal-id="{{id}}"
+    data-archive-id="{{archiveid}}"
+    data-item-id="{{itemid}}"
+    data-cmid="{{cmid}}"
+    data-context-id="{{contextid}}"
+>
+    <header class="uckkarchive-kristal-card__header">
+        <div class="uckkarchive-kristal-card__identity">
+            <p class="uckkarchive-kristal-card__eyebrow">
+                {{#str}} kristal, uckkarchive {{/str}}
+            </p>
+
+            <h3 class="uckkarchive-kristal-card__title">
+                {{#url}}
+                    <a href="{{url}}" class="uckkarchive-kristal-card__title-link">
+                        {{title}}
+                    </a>
+                {{/url}}
+                {{^url}}
+                    {{title}}
+                {{/url}}
+            </h3>
+
+            <div class="uckkarchive-kristal-card__meta">
+                {{#shortname}}
+                    <span class="uckkarchive-kristal-card__badge uckkarchive-kristal-card__badge--shortname">
+                        {{#str}} shortname, uckkarchive {{/str}}: {{shortname}}
+                    </span>
+                {{/shortname}}
+
+                {{#kristaltypelabel}}
+                    <span class="uckkarchive-kristal-card__badge uckkarchive-kristal-card__badge--type">
+                        {{kristaltypelabel}}
+                    </span>
+                {{/kristaltypelabel}}
+
+                {{#statuslabel}}
+                    <span class="uckkarchive-kristal-card__badge uckkarchive-kristal-card__badge--status {{statusclass}}">
+                        {{#str}} status, uckkarchive {{/str}}: {{statuslabel}}
+                    </span>
+                {{/statuslabel}}
+
+                {{#visibilitylabel}}
+                    <span class="uckkarchive-kristal-card__badge uckkarchive-kristal-card__badge--visibility {{visibilityclass}}">
+                        {{visibilitylabel}}
+                    </span>
+                {{/visibilitylabel}}
+
+                {{#versionlabel}}
+                    <span class="uckkarchive-kristal-card__badge uckkarchive-kristal-card__badge--version">
+                        {{versionlabel}}
+                    </span>
+                {{/versionlabel}}
+            </div>
+        </div>
+    </header>
+
+    {{#hassummary}}
+        <section class="uckkarchive-kristal-card__section uckkarchive-kristal-card__summary">
+            <h4 class="uckkarchive-kristal-card__section-title">
+                {{#str}} summary, uckkarchive {{/str}}
+            </h4>
+            <div class="uckkarchive-kristal-card__section-content">
+                {{{summaryhtml}}}
+            </div>
+        </section>
+    {{/hassummary}}
+
+    {{#hascontent}}
+        <section class="uckkarchive-kristal-card__section uckkarchive-kristal-card__content">
+            <h4 class="uckkarchive-kristal-card__section-title">
+                {{#str}} title, uckkarchive {{/str}}
+            </h4>
+            <div class="uckkarchive-kristal-card__section-content">
+                {{{contenthtml}}}
+            </div>
+        </section>
+    {{/hascontent}}
+
+    {{#hassource}}
+        <section class="uckkarchive-kristal-card__section uckkarchive-kristal-card__source">
+            <h4 class="uckkarchive-kristal-card__section-title">
+                {{#str}} provenance, uckkarchive {{/str}}
+            </h4>
+
+            <dl class="uckkarchive-kristal-card__facts">
+                {{#sourcetitle}}
+                    <div class="uckkarchive-kristal-card__fact">
+                        <dt>{{#str}} sourcetitle, uckkarchive {{/str}}</dt>
+                        <dd>{{sourcetitle}}</dd>
+                    </div>
+                {{/sourcetitle}}
+
+                {{#sourceauthor}}
+                    <div class="uckkarchive-kristal-card__fact">
+                        <dt>{{#str}} sourceauthor, uckkarchive {{/str}}</dt>
+                        <dd>{{sourceauthor}}</dd>
+                    </div>
+                {{/sourceauthor}}
+
+                {{#sourceurl}}
+                    <div class="uckkarchive-kristal-card__fact">
+                        <dt>{{#str}} sourceurl, uckkarchive {{/str}}</dt>
+                        <dd>
+                            <a href="{{sourceurl}}" rel="noopener noreferrer">
+                                {{sourceurl}}
+                            </a>
+                        </dd>
+                    </div>
+                {{/sourceurl}}
+
+                {{#sourcecomponent}}
+                    <div class="uckkarchive-kristal-card__fact">
+                        <dt>{{#str}} sourcecomponent, uckkarchive {{/str}}</dt>
+                        <dd>{{sourcecomponent}}</dd>
+                    </div>
+                {{/sourcecomponent}}
+            </dl>
+        </section>
+    {{/hassource}}
+
+    {{#hasuncertaintynotes}}
+        <section class="uckkarchive-kristal-card__section uckkarchive-kristal-card__uncertainty">
+            <h4 class="uckkarchive-kristal-card__section-title">
+                {{#str}} uncertaintynotes, uckkarchive {{/str}}
+            </h4>
+            <div class="uckkarchive-kristal-card__section-content">
+                {{{uncertaintynotes}}}
+            </div>
+        </section>
+    {{/hasuncertaintynotes}}
+
+    {{#hasproofs}}
+        <section class="uckkarchive-kristal-card__section uckkarchive-kristal-card__proofs">
+            <h4 class="uckkarchive-kristal-card__section-title">
+                {{#str}} proofs, uckkarchive {{/str}}
+            </h4>
+
+            <ul class="uckkarchive-kristal-card__proof-list">
+                {{#proofs}}
+                    <li class="uckkarchive-kristal-card__proof">
+                        {{#url}}
+                            <a href="{{url}}" class="uckkarchive-kristal-card__proof-title">
+                                {{title}}
+                            </a>
+                        {{/url}}
+                        {{^url}}
+                            <span class="uckkarchive-kristal-card__proof-title">{{title}}</span>
+                        {{/url}}
+
+                        {{#prooftypelabel}}
+                            <span class="uckkarchive-kristal-card__proof-type">{{prooftypelabel}}</span>
+                        {{/prooftypelabel}}
+
+                        {{#statuslabel}}
+                            <span class="uckkarchive-kristal-card__proof-status status-{{status}}">
+                                {{statuslabel}}
+                            </span>
+                        {{/statuslabel}}
+
+                        {{#summary}}
+                            <p class="uckkarchive-kristal-card__proof-summary">{{summary}}</p>
+                        {{/summary}}
+                    </li>
+                {{/proofs}}
+            </ul>
+        </section>
+    {{/hasproofs}}
+
+    {{#haswarnings}}
+        <section class="uckkarchive-kristal-card__section uckkarchive-kristal-card__warnings">
+            <h4 class="uckkarchive-kristal-card__section-title">
+                {{#str}} warnings, moodle {{/str}}
+            </h4>
+
+            <ul class="uckkarchive-kristal-card__warning-list">
+                {{#warnings}}
+                    <li class="uckkarchive-kristal-card__warning">{{.}}</li>
+                {{/warnings}}
+            </ul>
+        </section>
+    {{/haswarnings}}
+
+    <footer class="uckkarchive-kristal-card__footer">
+        <div class="uckkarchive-kristal-card__dates">
+            {{#timecreatedlabel}}
+                <p class="uckkarchive-kristal-card__date">
+                    {{#str}} timecreated, moodle {{/str}}: {{timecreatedlabel}}
+                </p>
+            {{/timecreatedlabel}}
+
+            {{#timemodifiedlabel}}
+                <p class="uckkarchive-kristal-card__date">
+                    {{#str}} timemodified, moodle {{/str}}: {{timemodifiedlabel}}
+                </p>
+            {{/timemodifiedlabel}}
+        </div>
+
+        {{#hasprovenancehash}}
+            <p class="uckkarchive-kristal-card__hash">
+                <code>{{provenancehash}}</code>
+            </p>
+        {{/hasprovenancehash}}
+
+        {{#hasactions}}
+            <div class="uckkarchive-kristal-card__actions">
+                {{#actions}}
+                    <a href="{{url}}" class="btn {{class}}">
+                        {{label}}
+                    </a>
+                {{/actions}}
+            </div>
+        {{/hasactions}}
+    </footer>
+</article>

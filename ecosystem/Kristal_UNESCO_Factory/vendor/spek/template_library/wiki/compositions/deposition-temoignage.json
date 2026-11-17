@@ -1,0 +1,101 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-deposition-temoignage",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-16",
+    "slug": "deposition-temoignage",
+    "name": "Testimony / Deposition"
+  },
+  "source_arketype_file": "archetypes/deposition-temoignage.json",
+  "editorial_rationale": "Structure Arketype ARK-16: Attributed accounts with recordings, transcriptions and revisions. Witness records and declarative evidence dossiers.",
+  "source_structural_primitives": [
+    "declarants_et_pseudonymes",
+    "seances_et_intervenants",
+    "questions_reponses",
+    "enonces_attribues",
+    "dates_des_faits_allegues",
+    "dates_de_recueil",
+    "supports_originaux",
+    "transcriptions_et_traductions",
+    "corrections_ajouts_retractations",
+    "consentements_et_bases_de_traitement",
+    "restrictions_d_acces",
+    "references_externes_de_corroboration",
+    "preuves_de_capture_et_chaine_de_conservation"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "reception",
+      "title_function": "Séances et dates déclarées",
+      "layout_id": "chronology",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "seances_et_intervenants",
+        "dates_de_recueil",
+        "dates_des_faits_allegues"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "context": 1,
+        "events": 2,
+        "limits": 1
+      },
+      "editorial_constraint": "Distinguer date du récit, date alléguée et date de recueil."
+    },
+    {
+      "section_id": "pieces",
+      "title_function": "Confrontation des supports",
+      "layout_id": "evidence-comparison",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "supports_originaux",
+        "transcriptions_et_traductions",
+        "references_externes_de_corroboration"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "question": 1,
+        "source_a": 1,
+        "source_b": 1,
+        "perspective_a": 1,
+        "perspective_b": 1,
+        "synthesis": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Une transcription et une source originale ne sont pas deux confirmations indépendantes."
+    },
+    {
+      "section_id": "allegations",
+      "title_function": "Énoncés attribués et corroboration",
+      "layout_id": "observation-inference",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "enonces_attribues",
+        "questions_reponses",
+        "corrections_ajouts_retractations"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "observations": 1,
+        "interpretation": 1,
+        "verification": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Ne jamais transformer un témoignage en fait vérifié."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "attributed-testimony",
+    "casefile-view"
+  ],
+  "integrity_rule": "Reported claims are not automatically verified facts.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

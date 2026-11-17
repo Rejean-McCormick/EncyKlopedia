@@ -1,0 +1,161 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.walton-practical-reasoning",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Objectif, moyens, effets",
+  "research_basis": {
+    "family": "argument",
+    "relation": "walton.practical",
+    "source": "WALTON",
+    "source_url": "https://journals.sagepub.com/doi/full/10.1080/19462166.2015.1123772",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "walton.practical",
+    "editorial_relation_required": true,
+    "semantic_warning": "L’action proposée est une recommandation conditionnelle, pas une prescription automatique.",
+    "critical_questions": [
+      "Existe-t-il d’autres moyens ?",
+      "Quels sont les effets indésirables ?"
+    ]
+  },
+  "slots": {
+    "goal": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "objective"
+      ],
+      "visual_role": "paragraph"
+    },
+    "actions": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 5,
+      "allowed_kinds": [
+        "method"
+      ],
+      "visual_role": "paragraph"
+    },
+    "expected_effect": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "implication"
+      ],
+      "visual_role": "paragraph"
+    },
+    "risks": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "goal",
+    "actions",
+    "expected_effect",
+    "risks"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "expected_effect"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "walton.practical",
+    "focus_slot": "goal",
+    "moves": [
+      {
+        "slot": "goal",
+        "function": "goal",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "actions",
+        "function": "actions",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "expected_effect",
+        "function": "expected_effect",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "risks",
+        "function": "risk",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "actions",
+        "to_slot": "goal",
+        "relation": "walton.practical",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "expected_effect",
+        "to_slot": "goal",
+        "relation": "walton.practical",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "risks",
+        "to_slot": "goal",
+        "relation": "walton.practical",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "goal",
+        "actions"
+      ],
+      [
+        "expected_effect",
+        "risks"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [
+        "Existe-t-il d’autres moyens ?",
+        "Quels sont les effets indésirables ?"
+      ],
+      "warning": "L’action proposée est une recommandation conditionnelle, pas une prescription automatique."
+    }
+  }
+}

@@ -1,0 +1,476 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+}}
+{{!
+    @template mod_uckkarchive/archive_item_card
+
+    Archive item card for UCKK Archives.
+
+    This template is render-only. It expects permission-filtered and already
+    formatted data from mod_uckkarchive output classes or services.
+
+    Example context:
+    {
+        "id": 12,
+        "cmid": 45,
+        "courseid": 7,
+        "contextid": 120,
+        "title": "Validated challenge proof",
+        "itemtype": "proof",
+        "itemtypelabel": "Proof",
+        "status": "validated",
+        "statuslabel": "Validated",
+        "statusclass": "status-validated",
+        "visibility": "course",
+        "visibilitylabel": "Course",
+        "visibilityclass": "visibility-course",
+        "validationstate": "verified",
+        "validationstatelabel": "Verified",
+        "validationstateclass": "validation-verified",
+        "provenance": "challenge",
+        "provenancelabel": "Challenge",
+        "summaryhtml": "<p>Summary.</p>",
+        "hassummary": true,
+        "contenthtml": "<p>Content.</p>",
+        "hascontent": true,
+        "sourcecomponent": "mod_uckkchallenge",
+        "hasorigin": true,
+        "originurl": "https://example.test/mod/uckkchallenge/view.php?id=9",
+        "originlabel": "Challenge source",
+        "authorlabel": "Ada Example",
+        "hasauthor": true,
+        "timecreatedlabel": "12 May 2026",
+        "timemodifiedlabel": "12 May 2026",
+        "versionno": 2,
+        "hasversion": true,
+        "provenancehash": "abc123",
+        "hasprovenancehash": true,
+        "proofs": [],
+        "hasproofs": false,
+        "revisions": [],
+        "hasrevisions": false,
+        "exports": [],
+        "hasexports": false,
+        "kristal": {},
+        "haskristal": false,
+        "warnings": [],
+        "haswarnings": false,
+        "actions": [],
+        "hasactions": true,
+        "sesskey": "..."
+    }
+}}
+
+<article
+    class="uckkarchive-item-card {{statusclass}} {{visibilityclass}} {{validationstateclass}}"
+    data-region="uckkarchive-item-card"
+    data-item-id="{{id}}"
+    data-cmid="{{cmid}}"
+    data-course-id="{{courseid}}"
+    data-context-id="{{contextid}}"
+>
+    <header class="uckkarchive-item-card__header">
+        <div class="uckkarchive-item-card__identity">
+            <p class="uckkarchive-item-card__eyebrow">
+                {{#str}} archiveitem, uckkarchive {{/str}}
+            </p>
+
+            <h3 class="uckkarchive-item-card__title">
+                {{#url}}
+                    <a href="{{url}}" class="uckkarchive-item-card__title-link">
+                        {{title}}
+                    </a>
+                {{/url}}
+                {{^url}}
+                    {{title}}
+                {{/url}}
+            </h3>
+
+            <div class="uckkarchive-item-card__meta">
+                {{#itemtypelabel}}
+                    <span class="uckkarchive-item-card__meta-item uckkarchive-item-card__type">
+                        {{itemtypelabel}}
+                    </span>
+                {{/itemtypelabel}}
+
+                {{#statuslabel}}
+                    <span class="uckkarchive-item-card__meta-item uckkarchive-item-card__status {{statusclass}}">
+                        {{statuslabel}}
+                    </span>
+                {{/statuslabel}}
+
+                {{#visibilitylabel}}
+                    <span class="uckkarchive-item-card__meta-item uckkarchive-item-card__visibility {{visibilityclass}}">
+                        {{visibilitylabel}}
+                    </span>
+                {{/visibilitylabel}}
+
+                {{#validationstatelabel}}
+                    <span class="uckkarchive-item-card__meta-item uckkarchive-item-card__validation {{validationstateclass}}">
+                        {{validationstatelabel}}
+                    </span>
+                {{/validationstatelabel}}
+            </div>
+        </div>
+
+        {{#haskristal}}
+            <div class="uckkarchive-item-card__kristal-mark" aria-label="{{#str}} kristal, uckkarchive {{/str}}">
+                {{#kristal.url}}
+                    <a href="{{kristal.url}}" class="uckkarchive-item-card__kristal-link">
+                        {{#str}} kristal, uckkarchive {{/str}}
+                    </a>
+                {{/kristal.url}}
+                {{^kristal.url}}
+                    <span>{{#str}} kristal, uckkarchive {{/str}}</span>
+                {{/kristal.url}}
+            </div>
+        {{/haskristal}}
+    </header>
+
+    {{#haswarnings}}
+        <div class="uckkarchive-item-card__warnings" role="status">
+            {{#warnings}}
+                <div class="alert {{class}} uckkarchive-item-card__warning">
+                    {{message}}
+                </div>
+            {{/warnings}}
+        </div>
+    {{/haswarnings}}
+
+    <dl class="uckkarchive-item-card__facts">
+        {{#hasauthor}}
+            <div class="uckkarchive-item-card__fact">
+                <dt>{{#str}} author, uckkarchive {{/str}}</dt>
+                <dd>{{authorlabel}}</dd>
+            </div>
+        {{/hasauthor}}
+
+        {{#timecreatedlabel}}
+            <div class="uckkarchive-item-card__fact">
+                <dt>{{#str}} timecreated, uckkarchive {{/str}}</dt>
+                <dd>{{timecreatedlabel}}</dd>
+            </div>
+        {{/timecreatedlabel}}
+
+        {{#timemodifiedlabel}}
+            <div class="uckkarchive-item-card__fact">
+                <dt>{{#str}} timemodified, moodle {{/str}}</dt>
+                <dd>{{timemodifiedlabel}}</dd>
+            </div>
+        {{/timemodifiedlabel}}
+
+        {{#hasversion}}
+            <div class="uckkarchive-item-card__fact">
+                <dt>{{#str}} version, uckkarchive {{/str}}</dt>
+                <dd>{{versionno}}</dd>
+            </div>
+        {{/hasversion}}
+
+        {{#provenancelabel}}
+            <div class="uckkarchive-item-card__fact">
+                <dt>{{#str}} provenance, uckkarchive {{/str}}</dt>
+                <dd>{{provenancelabel}}</dd>
+            </div>
+        {{/provenancelabel}}
+
+        {{#hasorigin}}
+            <div class="uckkarchive-item-card__fact">
+                <dt>{{#str}} origin, uckkarchive {{/str}}</dt>
+                <dd>
+                    {{#originurl}}
+                        <a href="{{originurl}}">
+                            {{originlabel}}
+                        </a>
+                    {{/originurl}}
+                    {{^originurl}}
+                        {{originlabel}}
+                    {{/originurl}}
+                </dd>
+            </div>
+        {{/hasorigin}}
+
+        {{#hasprovenancehash}}
+            <div class="uckkarchive-item-card__fact">
+                <dt>{{#str}} provenancehash, uckkarchive {{/str}}</dt>
+                <dd>
+                    <code>{{provenancehash}}</code>
+                </dd>
+            </div>
+        {{/hasprovenancehash}}
+    </dl>
+
+    {{#hassummary}}
+        <section class="uckkarchive-item-card__section uckkarchive-item-card__summary">
+            <h4 class="uckkarchive-item-card__section-title">
+                {{#str}} summary, uckkarchive {{/str}}
+            </h4>
+
+            <div class="uckkarchive-item-card__section-content">
+                {{{summaryhtml}}}
+            </div>
+        </section>
+    {{/hassummary}}
+
+    {{#hascontent}}
+        <section class="uckkarchive-item-card__section uckkarchive-item-card__content">
+            <h4 class="uckkarchive-item-card__section-title">
+                {{#str}} archiveitemcontent, uckkarchive {{/str}}
+            </h4>
+
+            <div class="uckkarchive-item-card__section-content">
+                {{{contenthtml}}}
+            </div>
+        </section>
+    {{/hascontent}}
+
+    {{#hasproofs}}
+        <section class="uckkarchive-item-card__section uckkarchive-item-card__proofs">
+            <h4 class="uckkarchive-item-card__section-title">
+                {{#str}} proofs, uckkarchive {{/str}}
+            </h4>
+
+            <ul class="uckkarchive-item-card__proof-list">
+                {{#proofs}}
+                    <li class="uckkarchive-item-card__proof">
+                        {{#url}}
+                            <a href="{{url}}" class="uckkarchive-item-card__proof-title">
+                                {{title}}
+                            </a>
+                        {{/url}}
+                        {{^url}}
+                            <span class="uckkarchive-item-card__proof-title">
+                                {{title}}
+                            </span>
+                        {{/url}}
+
+                        {{#prooftypelabel}}
+                            <span class="uckkarchive-item-card__proof-type">
+                                {{prooftypelabel}}
+                            </span>
+                        {{/prooftypelabel}}
+
+                        {{#statuslabel}}
+                            <span class="uckkarchive-item-card__proof-status status-{{status}}">
+                                {{statuslabel}}
+                            </span>
+                        {{/statuslabel}}
+
+                        {{#summary}}
+                            <p class="uckkarchive-item-card__proof-summary">
+                                {{summary}}
+                            </p>
+                        {{/summary}}
+                    </li>
+                {{/proofs}}
+            </ul>
+        </section>
+    {{/hasproofs}}
+
+    {{#hasprovenanceitems}}
+        <section class="uckkarchive-item-card__section uckkarchive-item-card__provenance">
+            <h4 class="uckkarchive-item-card__section-title">
+                {{#str}} provenance, uckkarchive {{/str}}
+            </h4>
+
+            <ol class="uckkarchive-item-card__provenance-list">
+                {{#provenanceitems}}
+                    <li class="uckkarchive-item-card__provenance-item">
+                        <strong>{{label}}</strong>
+
+                        {{#value}}
+                            <span>{{value}}</span>
+                        {{/value}}
+
+                        {{#description}}
+                            <p>{{description}}</p>
+                        {{/description}}
+
+                        {{#url}}
+                            <a href="{{url}}">
+                                {{#str}} viewsource, uckkarchive {{/str}}
+                            </a>
+                        {{/url}}
+                    </li>
+                {{/provenanceitems}}
+            </ol>
+        </section>
+    {{/hasprovenanceitems}}
+
+    {{#hasrevisions}}
+        <section class="uckkarchive-item-card__section uckkarchive-item-card__revisions">
+            <h4 class="uckkarchive-item-card__section-title">
+                {{#str}} revisionhistory, uckkarchive {{/str}}
+            </h4>
+
+            <ol class="uckkarchive-item-card__revision-list">
+                {{#revisions}}
+                    <li class="uckkarchive-item-card__revision">
+                        <div class="uckkarchive-item-card__revision-header">
+                            <strong>
+                                {{#versionlabel}}
+                                    {{versionlabel}}
+                                {{/versionlabel}}
+                                {{^versionlabel}}
+                                    {{#str}} version, uckkarchive {{/str}} {{versionno}}
+                                {{/versionlabel}}
+                            </strong>
+
+                            {{#statuslabel}}
+                                <span class="uckkarchive-item-card__revision-status status-{{status}}">
+                                    {{statuslabel}}
+                                </span>
+                            {{/statuslabel}}
+
+                            {{#timecreatedlabel}}
+                                <span class="uckkarchive-item-card__revision-date">
+                                    {{timecreatedlabel}}
+                                </span>
+                            {{/timecreatedlabel}}
+                        </div>
+
+                        {{#summary}}
+                            <p class="uckkarchive-item-card__revision-summary">
+                                {{summary}}
+                            </p>
+                        {{/summary}}
+                    </li>
+                {{/revisions}}
+            </ol>
+        </section>
+    {{/hasrevisions}}
+
+    {{#hasexports}}
+        <section class="uckkarchive-item-card__section uckkarchive-item-card__exports">
+            <h4 class="uckkarchive-item-card__section-title">
+                {{#str}} exports, uckkarchive {{/str}}
+            </h4>
+
+            <ul class="uckkarchive-item-card__export-list">
+                {{#exports}}
+                    <li class="uckkarchive-item-card__export">
+                        {{#url}}
+                            <a href="{{url}}">
+                                {{exporttypelabel}}
+                            </a>
+                        {{/url}}
+                        {{^url}}
+                            <span>{{exporttypelabel}}</span>
+                        {{/url}}
+
+                        {{#statuslabel}}
+                            <span class="uckkarchive-item-card__export-status status-{{status}}">
+                                {{statuslabel}}
+                            </span>
+                        {{/statuslabel}}
+
+                        {{#timecreatedlabel}}
+                            <span class="uckkarchive-item-card__export-date">
+                                {{timecreatedlabel}}
+                            </span>
+                        {{/timecreatedlabel}}
+                    </li>
+                {{/exports}}
+            </ul>
+        </section>
+    {{/hasexports}}
+
+    {{#hasintegrity}}
+        <section class="uckkarchive-item-card__section uckkarchive-item-card__integrity">
+            <h4 class="uckkarchive-item-card__section-title">
+                {{#str}} integrity, uckkarchive {{/str}}
+            </h4>
+
+            {{#integrity.statuslabel}}
+                <p>
+                    <strong>{{#str}} status, moodle {{/str}}:</strong>
+                    {{integrity.statuslabel}}
+                </p>
+            {{/integrity.statuslabel}}
+
+            {{#integrity.summary}}
+                <p>{{integrity.summary}}</p>
+            {{/integrity.summary}}
+
+            {{#integrity.url}}
+                <a href="{{integrity.url}}" class="btn btn-secondary btn-sm">
+                    {{#str}} viewintegrityrecord, uckkarchive {{/str}}
+                </a>
+            {{/integrity.url}}
+        </section>
+    {{/hasintegrity}}
+
+    {{#hasactions}}
+        <footer class="uckkarchive-item-card__actions">
+            {{#actions}}
+                {{#ispost}}
+                    <form
+                        method="post"
+                        action="{{url}}"
+                        class="uckkarchive-item-card__action-form"
+                    >
+                        <input type="hidden" name="sesskey" value="{{sesskey}}">
+                        <input type="hidden" name="itemid" value="{{id}}">
+                        <input type="hidden" name="action" value="{{key}}">
+
+                        {{#requiresummary}}
+                            <div class="form-group">
+                                <label for="{{summaryfieldid}}">
+                                    {{#str}} summary, uckkarchive {{/str}}
+                                </label>
+                                <textarea
+                                    id="{{summaryfieldid}}"
+                                    name="summary"
+                                    class="form-control"
+                                    rows="3"
+                                    maxlength="4000"
+                                    required
+                                ></textarea>
+                            </div>
+                        {{/requiresummary}}
+
+                        <button
+                            type="submit"
+                            class="btn {{#primary}}btn-primary{{/primary}}{{#secondary}}btn-secondary{{/secondary}}{{#danger}}btn-danger{{/danger}}"
+                            {{#disabled}}disabled{{/disabled}}
+                        >
+                            {{label}}
+                        </button>
+
+                        {{#hasdisabledreason}}
+                            <span class="uckkarchive-item-card__disabled-reason">
+                                {{disabledreason}}
+                            </span>
+                        {{/hasdisabledreason}}
+                    </form>
+                {{/ispost}}
+
+                {{#isget}}
+                    <a
+                        href="{{url}}"
+                        class="btn {{#primary}}btn-primary{{/primary}}{{#secondary}}btn-secondary{{/secondary}}{{#danger}}btn-danger{{/danger}}"
+                        {{#disabled}}aria-disabled="true" tabindex="-1"{{/disabled}}
+                    >
+                        {{label}}
+                    </a>
+
+                    {{#hasdisabledreason}}
+                        <span class="uckkarchive-item-card__disabled-reason">
+                            {{disabledreason}}
+                        </span>
+                    {{/hasdisabledreason}}
+                {{/isget}}
+            {{/actions}}
+        </footer>
+    {{/hasactions}}
+
+    {{#notice}}
+        <div class="alert alert-info uckkarchive-item-card__notice" role="status">
+            {{notice}}
+        </div>
+    {{/notice}}
+</article>

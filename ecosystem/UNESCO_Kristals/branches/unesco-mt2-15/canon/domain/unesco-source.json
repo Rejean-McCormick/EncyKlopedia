@@ -1,0 +1,1806 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "علوم رياضية"
+        ],
+        "en": [
+          "Mathematical sciences"
+        ],
+        "es": [
+          "Ciencias exactas",
+          "Trigonometría"
+        ],
+        "fr": [
+          "Sciences mathématiques"
+        ],
+        "ru": [
+          "Математические науки"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T14:32:17+00:00",
+      "narrower": [
+        "concept11451",
+        "concept13559",
+        "concept2018",
+        "concept2020",
+        "concept2246",
+        "concept2860",
+        "concept5633",
+        "concept5636",
+        "concept5637",
+        "concept8945"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رياضيات"
+        ],
+        "en": [
+          "Mathematics"
+        ],
+        "es": [
+          "Matemáticas"
+        ],
+        "fr": [
+          "Mathématiques"
+        ],
+        "ru": [
+          "Математика"
+        ]
+      },
+      "related": [
+        "concept119",
+        "concept13826"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept118",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept118",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طرق احصائية",
+          "منهجية احصائية"
+        ],
+        "en": [
+          "Statistical methodology",
+          "Statistical methods"
+        ],
+        "es": [
+          "Metodología estadística",
+          "Método estadístico"
+        ],
+        "fr": [
+          "Méthode statistique",
+          "Méthodologie statistique"
+        ],
+        "ru": [
+          "Методология статистики",
+          "Статистические методы"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T14:36:25+00:00",
+      "narrower": [
+        "concept13824",
+        "concept5835"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احصاء"
+        ],
+        "en": [
+          "Statistics"
+        ],
+        "es": [
+          "Estadística"
+        ],
+        "fr": [
+          "Statistique"
+        ],
+        "ru": [
+          "Статистика"
+        ]
+      },
+      "related": [
+        "concept118",
+        "concept4040",
+        "concept8654"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم عند الإشارة إلى علم الإحصاء. لمجموعات الإحصاءات، استخدم \"البيانات الإحصائية\"، أو واصفة أكثر تحديدًا، على سبيل المثال، \"الإحصاءات التعليمية\"، إلخ."
+        ],
+        "en": [
+          "Use when referring to the science of statistics. For collections of statistics, use \"statistical data\", or more specific descriptor, e.g. \"educational statistics\", etc."
+        ],
+        "es": [
+          "Utilizar para referirse a la ciencia de la estadística. Para referirse a la recogida de informaciones estadísticas, emplear \"dato estadístico\" o un descriptor más específico como \"estadística de la educación\"."
+        ],
+        "fr": [
+          "Utiliser quand il s'agit de la science des statistiques. Pour la collecte de statistiques, utiliser \"donnée statistique\" ou un descripteur plus spécifique, p.ex. \"statistique de l'éducation\", etc."
+        ],
+        "ru": [
+          "Используется по отношению к статистической науке. В отношении собраний статистических данных используйте термин \"Статистические данные\" или более точный дескриптор, например, \"Статистика в области образования\" и пр."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept119",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept119",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept118"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:33:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جبر"
+        ],
+        "en": [
+          "Algebra"
+        ],
+        "es": [
+          "Álgebra"
+        ],
+        "fr": [
+          "Algèbre"
+        ],
+        "ru": [
+          "Алгебра"
+        ]
+      },
+      "related": [
+        "concept2020"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2018",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2018",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نظرية الارقام"
+        ],
+        "es": [
+          "Aritmética formal"
+        ],
+        "fr": [
+          "Arithmétique formelle"
+        ]
+      },
+      "broader": [
+        "concept118"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:34:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظرية الاعداد"
+        ],
+        "en": [
+          "Number theory"
+        ],
+        "es": [
+          "Teoría de los números"
+        ],
+        "fr": [
+          "Théorie des nombres"
+        ],
+        "ru": [
+          "Теория чисел"
+        ]
+      },
+      "related": [
+        "concept2018",
+        "concept2860"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2020",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2020",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept13559"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خوارزميات"
+        ],
+        "en": [
+          "Algorithms"
+        ],
+        "es": [
+          "Algoritmo"
+        ],
+        "fr": [
+          "Algorithme"
+        ],
+        "ru": [
+          "Алгоритмы"
+        ]
+      },
+      "related": [
+        "concept521"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2024",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2024",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل انحداري"
+        ]
+      },
+      "broader": [
+        "concept6658"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل الارتداد"
+        ],
+        "en": [
+          "Regression analysis"
+        ],
+        "es": [
+          "Análisis de regresión"
+        ],
+        "fr": [
+          "Analyse de régression"
+        ],
+        "ru": [
+          "Регрессионный анализ"
+        ]
+      },
+      "related": [
+        "concept10682"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2226",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2226",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل الفروق"
+        ],
+        "fr": [
+          "Analyse d'écart"
+        ]
+      },
+      "broader": [
+        "concept2238"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-22T15:25:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل التباين"
+        ],
+        "en": [
+          "Variance analysis"
+        ],
+        "es": [
+          "Análisis de variancia"
+        ],
+        "fr": [
+          "Analyse de variance"
+        ],
+        "ru": [
+          "Вариационный анализ"
+        ]
+      },
+      "related": [
+        "concept6658"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2228",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2228",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept13824"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:51+00:00",
+      "narrower": [
+        "concept10665",
+        "concept10666",
+        "concept2228",
+        "concept2248",
+        "concept6658"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل احصائي"
+        ],
+        "en": [
+          "Statistical analysis"
+        ],
+        "es": [
+          "Análisis estadístico"
+        ],
+        "fr": [
+          "Analyse statistique"
+        ],
+        "ru": [
+          "Статистический анализ"
+        ]
+      },
+      "related": [
+        "concept6659"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2238",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2238",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل عاملي"
+        ],
+        "es": [
+          "Análisis de factores"
+        ],
+        "fr": [
+          "Analyse des facteurs"
+        ]
+      },
+      "broader": [
+        "concept2248"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T14:33:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل العامل"
+        ],
+        "en": [
+          "Factor analysis"
+        ],
+        "es": [
+          "Análisis factorial"
+        ],
+        "fr": [
+          "Analyse factorielle"
+        ],
+        "ru": [
+          "Факторный анализ"
+        ]
+      },
+      "related": [
+        "concept10682"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2240",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2240",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept2246"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل دالي"
+        ],
+        "en": [
+          "Functional analysis"
+        ],
+        "es": [
+          "Análisis funcional"
+        ],
+        "fr": [
+          "Analyse fonctionnelle"
+        ],
+        "ru": [
+          "Функциональный анализ"
+        ]
+      },
+      "related": [
+        "concept2250"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2242",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2242",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept118"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:33:39+00:00",
+      "narrower": [
+        "concept2242",
+        "concept2250",
+        "concept4510"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل رياضي"
+        ],
+        "en": [
+          "Mathematical analysis"
+        ],
+        "es": [
+          "Análisis matemático"
+        ],
+        "fr": [
+          "Analyse mathématique"
+        ],
+        "ru": [
+          "Математический анализ"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2246",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2246",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل متعدد التغير"
+        ]
+      },
+      "broader": [
+        "concept2238"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-22T15:25:29+00:00",
+      "narrower": [
+        "concept2240"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل متعدد المتغيرات"
+        ],
+        "en": [
+          "Multivariate analysis"
+        ],
+        "es": [
+          "Análisis multivariado"
+        ],
+        "fr": [
+          "Analyse multivariée"
+        ],
+        "ru": [
+          "Многовариантный анализ"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2248",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2248",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طرق عددية"
+        ],
+        "en": [
+          "Numerical methods"
+        ],
+        "es": [
+          "Método numérico"
+        ],
+        "fr": [
+          "Méthode numérique"
+        ],
+        "ru": [
+          "Численные методы"
+        ]
+      },
+      "broader": [
+        "concept2246"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل عددي"
+        ],
+        "en": [
+          "Numerical analysis"
+        ],
+        "es": [
+          "Análisis numérico"
+        ],
+        "fr": [
+          "Analyse numérique"
+        ],
+        "ru": [
+          "Численный анализ"
+        ]
+      },
+      "related": [
+        "concept2242"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2250",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2250",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept118"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حساب"
+        ],
+        "en": [
+          "Arithmetic"
+        ],
+        "es": [
+          "Aritmética"
+        ],
+        "fr": [
+          "Arithmétique"
+        ],
+        "ru": [
+          "Арифметика"
+        ]
+      },
+      "related": [
+        "concept2020"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2860",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2860",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept2246"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:34:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حساب التفاضل والتكامل"
+        ],
+        "en": [
+          "Calculus"
+        ],
+        "es": [
+          "Cálculo"
+        ],
+        "fr": [
+          "Calcul"
+        ],
+        "ru": [
+          "Исчисление"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4510",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4510",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept118"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:34:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رياضيات توافقية"
+        ],
+        "en": [
+          "Combinatorial mathematics"
+        ],
+        "es": [
+          "Matemática combinatoria"
+        ],
+        "fr": [
+          "Mathématiques combinatoires"
+        ],
+        "ru": [
+          "Комбинаторная математика"
+        ]
+      },
+      "related": [
+        "concept3058",
+        "concept5635",
+        "concept5636",
+        "concept5637"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5633",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5633",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5637"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظرية الرسم البياني"
+        ],
+        "en": [
+          "Graph theory"
+        ],
+        "es": [
+          "Teoría de los gráficos"
+        ],
+        "fr": [
+          "Théorie des graphes"
+        ],
+        "ru": [
+          "Теория графов"
+        ]
+      },
+      "related": [
+        "concept2224",
+        "concept3058",
+        "concept5633"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5635",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5635",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept118"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:34:03+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظرية المجموعات"
+        ],
+        "en": [
+          "Set theory"
+        ],
+        "es": [
+          "Teoría de los conjuntos"
+        ],
+        "fr": [
+          "Théorie des ensembles"
+        ],
+        "ru": [
+          "Теория множеств"
+        ]
+      },
+      "related": [
+        "concept5633"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5636",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5636",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تشابه",
+          "تماثل",
+          "توبولوجيا"
+        ],
+        "en": [
+          "Homology"
+        ],
+        "es": [
+          "Homología"
+        ],
+        "fr": [
+          "Homologie"
+        ],
+        "ru": [
+          "Гомология"
+        ]
+      },
+      "broader": [
+        "concept118"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-22T15:25:42+00:00",
+      "narrower": [
+        "concept5635"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طوبولوجيا"
+        ],
+        "en": [
+          "Topology"
+        ],
+        "es": [
+          "Topología"
+        ],
+        "fr": [
+          "Topologie"
+        ],
+        "ru": [
+          "Топология"
+        ]
+      },
+      "related": [
+        "concept17000",
+        "concept2224",
+        "concept5633"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5637",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5637",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيانات عددية"
+        ],
+        "en": [
+          "Numerical data"
+        ],
+        "es": [
+          "Datos numéricos"
+        ],
+        "fr": [
+          "Donnée numérique"
+        ],
+        "ru": [
+          "Цифровые данные"
+        ]
+      },
+      "broader": [
+        "concept119"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:17+00:00",
+      "narrower": [
+        "concept11036",
+        "concept7388"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بيانات احصائية"
+        ],
+        "en": [
+          "Statistical data"
+        ],
+        "es": [
+          "Datos estadísticos"
+        ],
+        "fr": [
+          "Donnée statistique"
+        ],
+        "ru": [
+          "Статистические данные"
+        ]
+      },
+      "related": [
+        "concept10022",
+        "concept17",
+        "concept1824",
+        "concept1826",
+        "concept5802",
+        "concept7083",
+        "concept7181",
+        "concept7387",
+        "concept7607",
+        "concept8839",
+        "concept8873"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5835",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5835",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Relación"
+        ]
+      },
+      "broader": [
+        "concept2238"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:34:09+00:00",
+      "narrower": [
+        "concept2226"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ارتباط"
+        ],
+        "en": [
+          "Correlation"
+        ],
+        "es": [
+          "Correlación"
+        ],
+        "fr": [
+          "Corrélation"
+        ],
+        "ru": [
+          "Корреляция"
+        ]
+      },
+      "related": [
+        "concept2228",
+        "concept6659"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6658",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6658",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تمثيل احصائي"
+        ]
+      },
+      "broader": [
+        "concept5835"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T14:34:07+00:00",
+      "narrower": [
+        "concept17105"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عرض الاحصاءات"
+        ],
+        "en": [
+          "Statistics presentation"
+        ],
+        "es": [
+          "Presentación de estadísticas"
+        ],
+        "fr": [
+          "Présentation de statistiques"
+        ],
+        "ru": [
+          "Представление статистических данных"
+        ]
+      },
+      "related": [
+        "concept2214"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7388",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7388",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عمليات تصادفية"
+        ],
+        "en": [
+          "Stochastic processes"
+        ],
+        "es": [
+          "Azar",
+          "Proceso estocástico"
+        ],
+        "fr": [
+          "Processus stochastique"
+        ],
+        "ru": [
+          "Стохастические процессы"
+        ]
+      },
+      "broader": [
+        "concept11319"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:34:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عمليات عشوائية"
+        ],
+        "en": [
+          "Random processes"
+        ],
+        "es": [
+          "Proceso aleatorio"
+        ],
+        "fr": [
+          "Processus aléatoire"
+        ],
+        "ru": [
+          "Произвольные процессы"
+        ]
+      },
+      "related": [
+        "concept11036",
+        "concept2567",
+        "concept3058",
+        "concept7515"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7525",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7525",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept118"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معادلات"
+        ],
+        "en": [
+          "Equations"
+        ],
+        "es": [
+          "Ecuación"
+        ],
+        "fr": [
+          "Équation"
+        ],
+        "ru": [
+          "Уравнения"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8945",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8945",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استقراء خارجي",
+          "استكمال خارجي"
+        ]
+      },
+      "broader": [
+        "concept2238"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-22T15:25:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استكمال"
+        ],
+        "en": [
+          "Extrapolation"
+        ],
+        "es": [
+          "Extrapolación"
+        ],
+        "fr": [
+          "Extrapolation"
+        ],
+        "ru": [
+          "Экстраполяция"
+        ]
+      },
+      "related": [
+        "concept10666"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10665",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10665",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استقراء داخلي",
+          "استكمال",
+          "استكمال داخلي"
+        ]
+      },
+      "broader": [
+        "concept2238"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T14:33:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حساب الاستكمال"
+        ],
+        "en": [
+          "Interpolation"
+        ],
+        "es": [
+          "Interpolación"
+        ],
+        "fr": [
+          "Interpolation"
+        ],
+        "ru": [
+          "Интерполяция"
+        ]
+      },
+      "related": [
+        "concept10665"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10666",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10666",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقدير"
+        ],
+        "en": [
+          "Estimation"
+        ],
+        "es": [
+          "Estimación estadística"
+        ],
+        "fr": [
+          "Estimation"
+        ],
+        "ru": [
+          "Математическая оценка"
+        ]
+      },
+      "broader": [
+        "concept13824"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:34:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استدلال احصائي"
+        ],
+        "en": [
+          "Statistical inference"
+        ],
+        "es": [
+          "Inferencia estadística"
+        ],
+        "fr": [
+          "Inférence statistique"
+        ],
+        "ru": [
+          "Статистический вывод"
+        ]
+      },
+      "related": [
+        "concept2226",
+        "concept2240",
+        "concept2567",
+        "concept7516"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10682",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10682",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Chronique",
+          "Série chronologique"
+        ]
+      },
+      "broader": [
+        "concept5835"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:34:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سلاسل زمنية"
+        ],
+        "en": [
+          "Time series"
+        ],
+        "es": [
+          "Series temporales"
+        ],
+        "fr": [
+          "Série temporelle"
+        ],
+        "ru": [
+          "Временны́е ряды"
+        ]
+      },
+      "related": [
+        "concept7516",
+        "concept7525"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11036",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11036",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احتمال احصائي"
+        ],
+        "en": [
+          "Statistical probability"
+        ],
+        "es": [
+          "Probabilidad estadística",
+          "Teoría de la probabilidad"
+        ],
+        "fr": [
+          "Probabilités et statistiques",
+          "Théorie de la probabilité"
+        ],
+        "ru": [
+          "Статистическая вероятность"
+        ]
+      },
+      "broader": [
+        "concept13824"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:50+00:00",
+      "narrower": [
+        "concept7525"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظرية الاحتمالات"
+        ],
+        "en": [
+          "Probability theory"
+        ],
+        "es": [
+          "Teoría de las probabilidades"
+        ],
+        "fr": [
+          "Théorie des probabilités"
+        ],
+        "ru": [
+          "Теория вероятностей"
+        ]
+      },
+      "related": [
+        "concept7524"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11319",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11319",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept118"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة"
+        ],
+        "en": [
+          "Geometry"
+        ],
+        "es": [
+          "Geometría"
+        ],
+        "fr": [
+          "Géométrie"
+        ],
+        "ru": [
+          "Геометрия"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11451",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11451",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept118"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:25+00:00",
+      "narrower": [
+        "concept2024"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منطق رياضي"
+        ],
+        "en": [
+          "Mathematical logic"
+        ],
+        "es": [
+          "Lógica matemática"
+        ],
+        "fr": [
+          "Logique mathématique"
+        ],
+        "ru": [
+          "Математическая логика"
+        ]
+      },
+      "related": [
+        "concept3055"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13559",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13559",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احصاء رياضي"
+        ],
+        "en": [
+          "Mathematical statistics"
+        ],
+        "es": [
+          "Cálculo estadístico",
+          "Estadísticas matemáticas"
+        ],
+        "fr": [
+          "Statistiques mathématiques"
+        ],
+        "ru": [
+          "Математическая статистика"
+        ]
+      },
+      "broader": [
+        "concept119"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T14:36:13+00:00",
+      "narrower": [
+        "concept10682",
+        "concept11319",
+        "concept13861",
+        "concept2238"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رياضيات احصائية"
+        ],
+        "en": [
+          "Statistical mathematics"
+        ],
+        "es": [
+          "Matemáticas estadísticas"
+        ],
+        "fr": [
+          "Mathématiques statistiques"
+        ],
+        "ru": [
+          "Статистическая математика"
+        ]
+      },
+      "related": [
+        "concept2567"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13824",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13824",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بناء النماذج",
+          "نماذج احصائية",
+          "نمذجة"
+        ],
+        "en": [
+          "Modelling",
+          "Statistical models"
+        ],
+        "es": [
+          "Modelización",
+          "Modelo estadístico"
+        ],
+        "fr": [
+          "Modèle statistique",
+          "Modélisation"
+        ],
+        "ru": [
+          "Моделирование",
+          "Статистические модели"
+        ]
+      },
+      "broader": [
+        "concept13824"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T13:35:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نماذج رياضية"
+        ],
+        "en": [
+          "Mathematical models"
+        ],
+        "es": [
+          "Modelo matemático"
+        ],
+        "fr": [
+          "Modèle mathématique"
+        ],
+        "ru": [
+          "Математические модели"
+        ]
+      },
+      "related": [
+        "concept2567",
+        "concept7121"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13861",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13861",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انفوجراف",
+          "رسوم بيانية",
+          "رسوم معلوماتية",
+          "مؤثرات عرض البيانات",
+          "معلومات مصورة"
+        ],
+        "en": [
+          "Dataviz",
+          "Infographics"
+        ],
+        "fr": [
+          "Graphisme d'information"
+        ]
+      },
+      "broader": [
+        "concept7388"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.15"
+      ],
+      "modified": "2019-12-15T14:37:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصوير البيانات"
+        ],
+        "en": [
+          "Data visualization"
+        ],
+        "es": [
+          "Visualización de datos"
+        ],
+        "fr": [
+          "Visualisation de données"
+        ]
+      },
+      "related": [
+        "concept11605",
+        "concept2214",
+        "concept6012"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17105",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17105",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt2.15",
+    "labels": {
+      "en": "Mathematics and statistics",
+      "fr": "Mathématiques et statistiques"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt2.15"
+  }
+}

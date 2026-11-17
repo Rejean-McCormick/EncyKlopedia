@@ -1,0 +1,258 @@
+{
+  "format": "spek.wiki-arketype-assemblages-context/1.0",
+  "status": "non_normative_source_reference_only",
+  "note": "These 23 Arketype recipes do not authorize any projection and are not applied by Spek.",
+  "assemblages": [
+    {
+      "id": "atlas-preuves",
+      "primary_archetype": "carte-jalons-preuves",
+      "component_archetypes": [
+        "invariant-theorie",
+        "memoire-recherche"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/atlas-preuves.json"
+    },
+    {
+      "id": "carte-preuves-longues",
+      "primary_archetype": "carte-jalons-preuves",
+      "component_archetypes": [
+        "invariant-theorie",
+        "memoire-recherche"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/carte-preuves-longues.json"
+    },
+    {
+      "id": "collection-traditions",
+      "primary_archetype": "compilation-collection",
+      "component_archetypes": [
+        "interpretations-couches",
+        "referentiel-semantique"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/collection-traditions.json"
+    },
+    {
+      "id": "diagnostic-vehicule",
+      "primary_archetype": "diagnostic-causal",
+      "component_archetypes": [
+        "modele-multiplexe",
+        "simulation-transition"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/diagnostic-vehicule.json"
+    },
+    {
+      "id": "dossier-civique",
+      "primary_archetype": "dossier-suivi",
+      "component_archetypes": [
+        "registre-evenementiel",
+        "deposition-temoignage"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/dossier-civique.json"
+    },
+    {
+      "id": "dossier-depositions",
+      "primary_archetype": "deposition-temoignage",
+      "component_archetypes": [
+        "registre-evenementiel",
+        "interpretations-couches",
+        "carte-jalons-preuves"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/dossier-depositions.json"
+    },
+    {
+      "id": "dossier-medical",
+      "primary_archetype": "dossier-suivi",
+      "component_archetypes": [
+        "registre-evenementiel",
+        "diagnostic-causal"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/dossier-medical.json"
+    },
+    {
+      "id": "dossier-scolaire",
+      "primary_archetype": "dossier-suivi",
+      "component_archetypes": [
+        "registre-evenementiel",
+        "parcours-pedagogique"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/dossier-scolaire.json"
+    },
+    {
+      "id": "ekole-multiusage",
+      "primary_archetype": "referentiel-semantique",
+      "component_archetypes": [
+        "modele-multiplexe",
+        "parcours-pedagogique"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/ekole-multiusage.json"
+    },
+    {
+      "id": "environnement-protocolaire",
+      "primary_archetype": "procedure-protocole",
+      "component_archetypes": [
+        "registre-evenementiel",
+        "simulation-transition"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/environnement-protocolaire.json"
+    },
+    {
+      "id": "etat-de-systemes",
+      "primary_archetype": "etat-systemes",
+      "component_archetypes": [
+        "registre-evenementiel"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/etat-de-systemes.json"
+    },
+    {
+      "id": "livre-recettes",
+      "primary_archetype": "compilation-collection",
+      "component_archetypes": [
+        "procedure-protocole"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/livre-recettes.json"
+    },
+    {
+      "id": "medi-connaissances",
+      "primary_archetype": "composition-hybride",
+      "component_archetypes": [
+        "referentiel-semantique",
+        "procedure-protocole",
+        "diagnostic-causal"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/medi-connaissances.json"
+    },
+    {
+      "id": "operations-protocoles",
+      "primary_archetype": "procedure-protocole",
+      "component_archetypes": [
+        "registre-evenementiel",
+        "simulation-transition"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/operations-protocoles.json"
+    },
+    {
+      "id": "organisations-contextuelles",
+      "primary_archetype": "modele-multiplexe",
+      "component_archetypes": [
+        "registre-evenementiel",
+        "referentiel-semantique"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/organisations-contextuelles.json"
+    },
+    {
+      "id": "parcours-moodle",
+      "primary_archetype": "parcours-pedagogique",
+      "component_archetypes": [
+        "federation-topologie"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/parcours-moodle.json"
+    },
+    {
+      "id": "recherche-mathematique",
+      "primary_archetype": "memoire-recherche",
+      "component_archetypes": [
+        "carte-jalons-preuves",
+        "invariant-theorie"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/recherche-mathematique.json"
+    },
+    {
+      "id": "suivi-employe",
+      "primary_archetype": "dossier-suivi",
+      "component_archetypes": [
+        "registre-evenementiel",
+        "deposition-temoignage"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/suivi-employe.json"
+    },
+    {
+      "id": "systeme-scolaire",
+      "primary_archetype": "modele-multiplexe",
+      "component_archetypes": [
+        "referentiel-semantique",
+        "parcours-pedagogique"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/systeme-scolaire.json"
+    },
+    {
+      "id": "taxonomie-nature",
+      "primary_archetype": "taxonomie-classification",
+      "component_archetypes": [
+        "referentiel-semantique"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/taxonomie-nature.json"
+    },
+    {
+      "id": "troubleshooting-systeme",
+      "primary_archetype": "diagnostic-causal",
+      "component_archetypes": [
+        "registre-evenementiel",
+        "etat-systemes",
+        "composition-hybride"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/troubleshooting-systeme.json"
+    },
+    {
+      "id": "uckk-campus",
+      "primary_archetype": "federation-topologie",
+      "component_archetypes": [
+        "parcours-pedagogique"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/uckk-campus.json"
+    },
+    {
+      "id": "univers-medias",
+      "primary_archetype": "univers-oeuvres-medias",
+      "component_archetypes": [
+        "compilation-collection",
+        "registre-evenementiel"
+      ],
+      "composition_status": "design_only",
+      "publication_authorization": false,
+      "source_path": "assemblages/univers-medias.json"
+    }
+  ]
+}

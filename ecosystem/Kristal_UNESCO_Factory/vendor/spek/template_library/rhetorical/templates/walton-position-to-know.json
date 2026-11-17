@@ -1,0 +1,161 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.walton-position-to-know",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Source en position de savoir",
+  "research_basis": {
+    "family": "argument",
+    "relation": "walton.position-to-know",
+    "source": "WALTON",
+    "source_url": "https://journals.sagepub.com/doi/full/10.1080/19462166.2015.1123772",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "walton.position-to-know",
+    "editorial_relation_required": true,
+    "semantic_warning": "Témoignage attribué, fiabilité non présumée.",
+    "critical_questions": [
+      "La source est-elle fiable ?",
+      "La connaissance est-elle de première main ?"
+    ]
+  },
+  "slots": {
+    "source_position": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "context"
+      ],
+      "visual_role": "paragraph"
+    },
+    "testimony": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "evidence"
+      ],
+      "visual_role": "paragraph"
+    },
+    "inference": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "inference"
+      ],
+      "visual_role": "paragraph"
+    },
+    "reliability": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "source_position",
+    "testimony",
+    "inference",
+    "reliability"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "inference"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "walton.position-to-know",
+    "focus_slot": "inference",
+    "moves": [
+      {
+        "slot": "source_position",
+        "function": "source_position",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "testimony",
+        "function": "testimony",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "inference",
+        "function": "inference",
+        "nuclearity": "focus",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "reliability",
+        "function": "reliability",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "source_position",
+        "to_slot": "inference",
+        "relation": "walton.position-to-know",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "testimony",
+        "to_slot": "inference",
+        "relation": "walton.position-to-know",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "reliability",
+        "to_slot": "inference",
+        "relation": "walton.position-to-know",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "source_position",
+        "testimony"
+      ],
+      [
+        "inference",
+        "reliability"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [
+        "La source est-elle fiable ?",
+        "La connaissance est-elle de première main ?"
+      ],
+      "warning": "Témoignage attribué, fiabilité non présumée."
+    }
+  }
+}

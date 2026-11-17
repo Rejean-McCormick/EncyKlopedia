@@ -1,0 +1,297 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+}}
+{{!
+    @template mod_uckkarchive/media_library_editor
+
+    Unified media-library editor for mod_uckkarchive.
+
+    This template is render-only. All access decisions, save operations,
+    publication decisions, restrictions, content-advisory review, and export
+    authority must be handled server-side before this context is rendered.
+
+    Context variables are prepared by \mod_uckkarchive\output\media_library_editor.
+}}
+
+<section
+    class="uckkarchive-media-library-editor"
+    data-region="uckkarchive-media-library-editor"
+    data-cmid="{{cmid}}"
+    data-contextid="{{contextid}}"
+    data-action="{{action}}"
+>
+    <header class="uckkarchive-media-library-editor__header">
+        <div class="uckkarchive-media-library-editor__heading">
+            <div class="uckkarchive-media-library-editor__eyebrow">
+                {{archive.name}}
+            </div>
+
+            <h2 class="uckkarchive-media-library-editor__title">
+                {{strings.medialibraryeditor}}
+            </h2>
+
+            <p class="uckkarchive-media-library-editor__intro">
+                {{strings.medialibraryeditor_desc}}
+            </p>
+        </div>
+
+        <nav class="uckkarchive-media-library-editor__topactions" aria-label="{{strings.mediaeditoractions}}">
+            <a class="btn btn-outline-secondary" href="{{urls.library}}">
+                {{strings.backtomedialibrary}}
+            </a>
+
+            {{#isnew}}
+                {{#capabilities.addmedia}}
+                    <a class="btn btn-primary" href="{{urls.add}}">
+                        {{strings.addmedia}}
+                    </a>
+                {{/capabilities.addmedia}}
+            {{/isnew}}
+
+            {{#showexportentry}}
+                <a class="btn btn-outline-secondary" href="{{urls.export}}">
+                    {{strings.export}}
+                </a>
+            {{/showexportentry}}
+        </nav>
+    </header>
+
+    {{#hasnotification}}
+        <div
+            class="alert alert-{{notificationtype}} uckkarchive-media-library-editor__notification"
+            role="status"
+            data-region="media-editor-notification"
+        >
+            {{{notification}}}
+        </div>
+    {{/hasnotification}}
+
+    <div class="uckkarchive-media-library-editor__statusbar" aria-label="{{strings.mediaeditorgovernance}}">
+        <span class="uckkarchive-media-library-editor__badge {{media.mediatypeclass}}">
+            {{media.mediatypelabel}}
+        </span>
+        <span class="uckkarchive-media-library-editor__badge {{media.statusclass}}">
+            {{media.statuslabel}}
+        </span>
+        <span class="uckkarchive-media-library-editor__badge {{media.visibilityclass}}">
+            {{media.visibilitylabel}}
+        </span>
+        <span class="uckkarchive-media-library-editor__badge {{media.audiencesuitabilityclass}}">
+            {{media.audiencesuitabilitylabel}}
+        </span>
+
+        {{#media.isrestricted}}
+            <span class="uckkarchive-media-library-editor__badge is-restricted">
+                {{#str}} restricted, mod_uckkarchive {{/str}}
+            </span>
+        {{/media.isrestricted}}
+
+        {{#media.isculturallyrestricted}}
+            <span class="uckkarchive-media-library-editor__badge is-cultural">
+                {{#str}} culturallyrestricted, mod_uckkarchive {{/str}}
+            </span>
+        {{/media.isculturallyrestricted}}
+
+        {{#media.isintegrityrestricted}}
+            <span class="uckkarchive-media-library-editor__badge is-integrity">
+                {{#str}} integrityrestricted, mod_uckkarchive {{/str}}
+            </span>
+        {{/media.isintegrityrestricted}}
+    </div>
+
+    <div class="uckkarchive-media-library-editor__layout">
+        <aside class="uckkarchive-media-library-editor__preview" aria-labelledby="uckkarchive-media-editor-preview-title">
+            <h3 id="uckkarchive-media-editor-preview-title">
+                {{strings.mediaeditorpreview}}
+            </h3>
+
+            <div class="uckkarchive-media-library-editor__preview-card">
+                <div class="uckkarchive-media-library-editor__media-icon {{media.mediatypeclass}}" aria-hidden="true">
+                    {{#media.hasversion}}v{{media.versionno}}{{/media.hasversion}}
+                    {{^media.hasversion}}+{{/media.hasversion}}
+                </div>
+
+                <h4 class="uckkarchive-media-library-editor__media-title">
+                    {{media.title}}
+                </h4>
+
+                {{#media.hasdescription}}
+                    <div class="uckkarchive-media-library-editor__media-description">
+                        {{{media.description}}}
+                    </div>
+                {{/media.hasdescription}}
+
+                <dl class="uckkarchive-media-library-editor__metadata-list">
+                    {{#media.haslanguage}}
+                        <dt>{{#str}} medialanguage, mod_uckkarchive {{/str}}</dt>
+                        <dd>{{media.language}}</dd>
+                    {{/media.haslanguage}}
+
+                    {{#media.hassource}}
+                        <dt>{{#str}} mediasource, mod_uckkarchive {{/str}}</dt>
+                        <dd>{{media.source}}</dd>
+                    {{/media.hassource}}
+
+                    {{#media.haslicense}}
+                        <dt>{{#str}} medialicense, mod_uckkarchive {{/str}}</dt>
+                        <dd>{{media.license}}</dd>
+                    {{/media.haslicense}}
+
+                    {{#media.timemodifiedformatted}}
+                        <dt>{{#str}} modified, mod_uckkarchive {{/str}}</dt>
+                        <dd>{{media.timemodifiedformatted}}</dd>
+                    {{/media.timemodifiedformatted}}
+                </dl>
+            </div>
+
+            <nav class="uckkarchive-media-library-editor__workflow-nav" aria-label="{{strings.mediaeditorworkflow}}">
+                {{#workflow}}
+                    <button
+                        type="button"
+                        class="uckkarchive-media-library-editor__workflow-step {{class}}"
+                        data-action="uckkarchive-media-editor-jump"
+                        data-target="{{target}}"
+                        {{^available}}disabled{{/available}}
+                    >
+                        <span class="uckkarchive-media-library-editor__workflow-number">{{number}}</span>
+                        <span class="uckkarchive-media-library-editor__workflow-label">{{label}}</span>
+                    </button>
+                {{/workflow}}
+            </nav>
+        </aside>
+
+        <main class="uckkarchive-media-library-editor__main" aria-labelledby="uckkarchive-media-editor-form-title">
+            <section
+                id="uckkarchive-media-editor-panel-reception"
+                class="uckkarchive-media-library-editor__panel"
+                data-region="media-editor-panel"
+            >
+                <h3 id="uckkarchive-media-editor-form-title">{{strings.mediaeditorform}}</h3>
+                <p class="text-muted">
+                    {{#str}} mediaeditorform_desc, mod_uckkarchive {{/str}}
+                </p>
+
+                {{{formhtml}}}
+            </section>
+
+            {{#hasmedia}}
+                <section
+                    id="uckkarchive-media-editor-panel-markers"
+                    class="uckkarchive-media-library-editor__panel"
+                    data-region="media-editor-panel"
+                >
+                    <h3>{{strings.passagemarkers}}</h3>
+                    <p>
+                        {{#str}} passagemarkers_desc, mod_uckkarchive {{/str}}
+                    </p>
+
+                    <div class="uckkarchive-media-library-editor__metric">
+                        <strong>{{markersummary.count}}</strong>
+                        <span>{{markersummary.label}}</span>
+                    </div>
+
+                    {{#showmarkerentry}}
+                        <a class="btn btn-outline-primary" href="{{urls.markers}}">
+                            {{#str}} managepassagemarkers, mod_uckkarchive {{/str}}
+                        </a>
+                    {{/showmarkerentry}}
+                </section>
+
+                <section
+                    id="uckkarchive-media-editor-panel-advisories"
+                    class="uckkarchive-media-library-editor__panel"
+                    data-region="media-editor-panel"
+                >
+                    <h3>{{strings.contentadvisories}}</h3>
+                    <p>
+                        {{#str}} mediaeditoradvisories_desc, mod_uckkarchive {{/str}}
+                    </p>
+
+                    {{#showmarkerentry}}
+                        <a class="btn btn-outline-primary" href="{{urls.markers}}">
+                            {{#str}} manageadvisories, mod_uckkarchive {{/str}}
+                        </a>
+                    {{/showmarkerentry}}
+                </section>
+
+                <section
+                    id="uckkarchive-media-editor-panel-relations"
+                    class="uckkarchive-media-library-editor__panel"
+                    data-region="media-editor-panel"
+                >
+                    <h3>{{strings.mediarelations}}</h3>
+                    <p>
+                        {{#str}} mediaeditorrelations_desc, mod_uckkarchive {{/str}}
+                    </p>
+
+                    <div class="uckkarchive-media-library-editor__metric">
+                        <strong>{{relationsummary.count}}</strong>
+                        <span>{{relationsummary.label}}</span>
+                    </div>
+                </section>
+
+                <section
+                    id="uckkarchive-media-editor-panel-validation"
+                    class="uckkarchive-media-library-editor__panel"
+                    data-region="media-editor-panel"
+                >
+                    <h3>{{strings.validation}}</h3>
+                    <p>
+                        {{#str}} mediaeditorvalidation_desc, mod_uckkarchive {{/str}}
+                    </p>
+                </section>
+            {{/hasmedia}}
+        </main>
+
+        <aside class="uckkarchive-media-library-editor__governance" aria-labelledby="uckkarchive-media-editor-governance-title">
+            <h3 id="uckkarchive-media-editor-governance-title">
+                {{strings.mediaeditorgovernance}}
+            </h3>
+
+            {{#hasgovernanceitems}}
+                <dl class="uckkarchive-media-library-editor__governance-list">
+                    {{#governanceitems}}
+                        <dt>{{label}}</dt>
+                        <dd>
+                            <span class="uckkarchive-media-library-editor__badge {{class}}">
+                                {{value}}
+                            </span>
+                        </dd>
+                    {{/governanceitems}}
+                </dl>
+            {{/hasgovernanceitems}}
+
+            <div class="uckkarchive-media-library-editor__side-panel">
+                <h4>{{strings.versions}}</h4>
+                <div class="uckkarchive-media-library-editor__metric">
+                    <strong>{{versionsummary.count}}</strong>
+                    <span>{{versionsummary.label}}</span>
+                </div>
+                {{#showversionentry}}
+                    <a class="btn btn-sm btn-outline-secondary" href="{{urls.versions}}">
+                        {{strings.versions}}
+                    </a>
+                {{/showversionentry}}
+            </div>
+
+            <div class="uckkarchive-media-library-editor__side-panel">
+                <h4>{{strings.provenance}}</h4>
+                <p class="text-muted">
+                    {{#str}} mediaeditorprovenance_desc, mod_uckkarchive {{/str}}
+                </p>
+            </div>
+
+            <div class="uckkarchive-media-library-editor__side-panel">
+                <h4>{{strings.mediaeditoractions}}</h4>
+                <a class="btn btn-sm btn-outline-secondary" href="{{urls.library}}">
+                    {{strings.backtomedialibrary}}
+                </a>
+            </div>
+        </aside>
+    </div>
+</section>

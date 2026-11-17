@@ -1,0 +1,3668 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة اذاعية"
+        ],
+        "en": [
+          "Broadcasting engineering"
+        ],
+        "es": [
+          "Ingeniería de la radioteledifusión",
+          "Tecnología de la teledifusión",
+          "Tecnología electromagnética"
+        ],
+        "fr": [
+          "Ingénierie de la radiotélédiffusion",
+          "Technologie de la télédiffusion"
+        ],
+        "ru": [
+          "Вещательная техника"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:36+00:00",
+      "narrower": [
+        "concept4333",
+        "concept4363",
+        "concept4364",
+        "concept4365"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا البث الاذاعي"
+        ],
+        "en": [
+          "Broadcasting technology"
+        ],
+        "es": [
+          "Tecnología de radiodifusión"
+        ],
+        "fr": [
+          "Technologie de radiodiffusion"
+        ],
+        "ru": [
+          "Вещательная технология"
+        ]
+      },
+      "related": [
+        "concept4325",
+        "concept478",
+        "concept531"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept519",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept519",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:00:09+00:00",
+      "narrower": [
+        "concept2727",
+        "concept2730",
+        "concept3052",
+        "concept3411",
+        "concept4455",
+        "concept6009",
+        "concept6011",
+        "concept6012",
+        "concept6017"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تطبيقات الحاسب"
+        ],
+        "en": [
+          "Computer applications"
+        ],
+        "es": [
+          "Aplicación informática"
+        ],
+        "fr": [
+          "Application informatique"
+        ],
+        "ru": [
+          "Компьютерные приложения"
+        ]
+      },
+      "related": [
+        "concept17000",
+        "concept2196",
+        "concept2731",
+        "concept3401",
+        "concept3406",
+        "concept4479",
+        "concept450",
+        "concept534",
+        "concept5803",
+        "concept5824",
+        "concept6018",
+        "concept6019",
+        "concept6020",
+        "concept6021",
+        "concept6022"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم مصطلحًا أكثر تحديدا عند الضرورة."
+        ],
+        "en": [
+          "Use more specific term if appropriate."
+        ],
+        "es": [
+          "Utilice, si es posible, un término más específico."
+        ],
+        "fr": [
+          "Utilisez, si possible, un terme plus spécifique."
+        ],
+        "ru": [
+          "В необходимых случаях используйте более точный термин."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept520",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept520",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "برمجة الحاسب"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:36:45+00:00",
+      "narrower": [
+        "concept6007",
+        "concept6081",
+        "concept6082",
+        "concept6083",
+        "concept6084"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "برمجة حاسوبية"
+        ],
+        "en": [
+          "Computer programming"
+        ],
+        "es": [
+          "Programación informática"
+        ],
+        "fr": [
+          "Programmation informatique"
+        ],
+        "ru": [
+          "Компьютерное программирование"
+        ]
+      },
+      "related": [
+        "concept2024",
+        "concept3053",
+        "concept450",
+        "concept534",
+        "concept6086"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept521",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept521",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعامل مع البيانات",
+          "معالجة البيانات عن بُعد",
+          "معالجة الكترونية للبيانات",
+          "معالجة عن بعد",
+          "معالجة وكشف الاشارات",
+          "معاملة البيانات"
+        ],
+        "en": [
+          "Data handling",
+          "EDP",
+          "Electronic data processing",
+          "Remote data processing",
+          "Signal processing and detection",
+          "Teleprocessing"
+        ],
+        "es": [
+          "Cálculo de datos",
+          "Elaboración de datos",
+          "Manipulación de datos",
+          "PED",
+          "Tratamiento de datos",
+          "Tratamiento electrónico de datos"
+        ],
+        "fr": [
+          "Exploitation des données",
+          "Maniement des données",
+          "TED",
+          "Traitement des données à distance",
+          "Traitement et détection du signal",
+          "Traitement électronique des données",
+          "Télétraitement"
+        ],
+        "ru": [
+          "Дистанционная обработка данных",
+          "Работа с данными",
+          "Телеобработка",
+          "Установление и обработка сигнала",
+          "ЭОД - электронная обработка данных",
+          "Электронная обработка данных"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:36:40+00:00",
+      "narrower": [
+        "concept2214",
+        "concept5530",
+        "concept7387",
+        "concept7396",
+        "concept7411"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معالجة البيانات"
+        ],
+        "en": [
+          "Data processing"
+        ],
+        "es": [
+          "Procesamiento de datos"
+        ],
+        "fr": [
+          "Traitement des données"
+        ],
+        "ru": [
+          "Обработка данных"
+        ]
+      },
+      "related": [
+        "concept2076",
+        "concept450",
+        "concept513",
+        "concept534",
+        "concept7413",
+        "concept7414"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التعامل المنهجي في معالجة وحساب البيانات والتي تقتضي دائمًا استخدام الكمبيوتر. يرجى عدم الخلط مع مصطلح \"معالجة المعلومات\"."
+        ],
+        "en": [
+          "Systematic handling, manipulation, and computation of data, always involving the use of computers. Do not confuse with \"information processing\"."
+        ],
+        "es": [
+          "Tratamiento sistemático, manipulación y cálculo de datos mediante el empleo de ordenadores. No confundir con \"tratamiento de la información\"."
+        ],
+        "fr": [
+          "Traitement systématique, manipulation et calcul de données, impliquant toujours l'utilisation d'ordinateurs. Ne pas confondre avec le \"traitement de l'information\"."
+        ],
+        "ru": [
+          "Систематическая работа с данными, в т.ч. их компиляция, всегда с использованием компьютеров. Не путать с термином \"Обработка информации\"."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept522",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept522",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا المعلومات والاتصالات"
+        ],
+        "en": [
+          "ICT"
+        ],
+        "es": [
+          "TIC"
+        ],
+        "fr": [
+          "TIC"
+        ],
+        "ru": [
+          "ИКТ - информационные и коммуникационные технологии"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:42+00:00",
+      "narrower": [
+        "concept5824",
+        "concept5840"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا المعلومات"
+        ],
+        "en": [
+          "Information technology"
+        ],
+        "es": [
+          "Tecnología de la información"
+        ],
+        "fr": [
+          "Technologie de l'information"
+        ],
+        "ru": [
+          "Информационная технология"
+        ]
+      },
+      "related": [
+        "concept10614",
+        "concept1151",
+        "concept16994",
+        "concept17004",
+        "concept455",
+        "concept527",
+        "concept539",
+        "concept6067",
+        "concept9548",
+        "concept97"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يتضمن تكنولوجيا نظم إدارة قاعدة البيانات، وكذلك توزيع المعلومات، مثل نظم المعالجة عن بُعد وشبكات المحطات ونظم الفيديوتكس والتصوير المجهري...إلخ."
+        ],
+        "en": [
+          "Includes technology for data base management systems, as well as for information distribution, such as teleprocessing systems, networks of terminals, videotex systems, micrography, etc."
+        ],
+        "es": [
+          "Incluye la tecnología relacionada con los sistemas de gestión de bases de datos y de distribución de información, como los sistemas de telegestión, las redes de terminales, los sistemas videotex o la micrografía."
+        ],
+        "fr": [
+          "Inclue la technologie liée aux systèmes de gestion de bases de données aussi bien que de distribution de l'information, tels que les systèmes de télégestion, les réseaux de terminaux, les systèmes vidéotex, la micrographie, etc."
+        ],
+        "ru": [
+          "Включает технологии управления базами данных, а также технологии распространения информации, такие как системы телеобработки, локальные сети, системы видеотекса, микрографию и т.д."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept523",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept523",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعمال السكرتارية",
+          "خدمات مكتبية",
+          "كتابة"
+        ],
+        "en": [
+          "Secretarial work",
+          "Typing"
+        ],
+        "es": [
+          "Dactilografía",
+          "Mecanografía",
+          "Trabajo de oficina"
+        ],
+        "fr": [
+          "Dactylographie",
+          "Service de secrétariat",
+          "Travail de secrétariat"
+        ],
+        "ru": [
+          "Машинопись",
+          "Работа секретаря"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:36:24+00:00",
+      "narrower": [
+        "concept1361"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خدمات المكاتب"
+        ],
+        "en": [
+          "Office services"
+        ],
+        "es": [
+          "Servicio de oficina"
+        ],
+        "fr": [
+          "Service de bureau"
+        ],
+        "ru": [
+          "Офисные услуги"
+        ]
+      },
+      "related": [
+        "concept14748",
+        "concept516",
+        "concept526",
+        "concept536",
+        "concept9624"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept524",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept524",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استنساخ الوثائق",
+          "نسخ الوثائق",
+          "نسخ تصويري"
+        ],
+        "en": [
+          "Document reproduction",
+          "Photocopying"
+        ],
+        "es": [
+          "Fotocopia",
+          "Reproducción de documentos"
+        ],
+        "fr": [
+          "Photocopie",
+          "Reproduction de documents"
+        ],
+        "ru": [
+          "Воспроизведение документов",
+          "Фотокопирование"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استنساخ ضوئي"
+        ],
+        "en": [
+          "Reprography"
+        ],
+        "es": [
+          "Reprografía"
+        ],
+        "fr": [
+          "Reprographie"
+        ],
+        "ru": [
+          "Репрография"
+        ]
+      },
+      "related": [
+        "concept14106",
+        "concept4186",
+        "concept524",
+        "concept525"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept526",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept526",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:58:46+00:00",
+      "narrower": [
+        "concept12608",
+        "concept5782",
+        "concept5823",
+        "concept6062",
+        "concept7413"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتصالات سلكية ولاسلكية"
+        ],
+        "en": [
+          "Telecommunications"
+        ],
+        "es": [
+          "Telecomunicación"
+        ],
+        "fr": [
+          "Télécommunication"
+        ],
+        "ru": [
+          "Телекоммуникации"
+        ]
+      },
+      "related": [
+        "concept1557",
+        "concept4364",
+        "concept4365",
+        "concept478",
+        "concept523",
+        "concept5824",
+        "concept5840",
+        "concept6019",
+        "concept6086"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept527",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept527",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تطبيقات الاتصالات عن بعد"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:32+00:00",
+      "narrower": [
+        "concept6086",
+        "concept6661"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تطبيقات الاتصالات"
+        ],
+        "en": [
+          "Telecommunications applications"
+        ],
+        "es": [
+          "Aplicación de telecomunicaciones"
+        ],
+        "fr": [
+          "Application de télécommunications"
+        ],
+        "ru": [
+          "Телекоммуникационные приложения"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept528",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept528",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "وصول مباشر"
+        ],
+        "en": [
+          "Direct access"
+        ],
+        "es": [
+          "Acceso al azar",
+          "Acceso casual",
+          "Acceso directo",
+          "Acceso selectivo"
+        ],
+        "fr": [
+          "Accès direct",
+          "Accès sélectif"
+        ],
+        "ru": [
+          "Прямой доступ"
+        ]
+      },
+      "broader": [
+        "concept6082"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وصول عشوائي"
+        ],
+        "en": [
+          "Random access"
+        ],
+        "es": [
+          "Acceso aleatorio"
+        ],
+        "fr": [
+          "Accès aléatoire"
+        ],
+        "ru": [
+          "Произвольный доступ"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1132",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1132",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept524"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:57:58+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادارة المكاتب"
+        ],
+        "en": [
+          "Office management"
+        ],
+        "es": [
+          "Administración de oficina"
+        ],
+        "fr": [
+          "Gestion de bureau"
+        ],
+        "ru": [
+          "Офисное управление"
+        ]
+      },
+      "related": [
+        "concept4455",
+        "concept516"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1361",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1361",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة الاستشعار",
+          "قياس عن بعد"
+        ],
+        "en": [
+          "Sensors",
+          "Telemetry"
+        ],
+        "es": [
+          "Captor",
+          "Detector",
+          "Sonda",
+          "Telemetría",
+          "Televigilancia"
+        ],
+        "fr": [
+          "Capteur",
+          "Détection à distance",
+          "Sonde",
+          "Sonde de mesure",
+          "Télémesure",
+          "Télémétrie",
+          "Télésurveillance"
+        ],
+        "ru": [
+          "Сенсоры",
+          "Телеметрия"
+        ]
+      },
+      "broader": [
+        "concept5530"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:58:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استشعار عن بُعد"
+        ],
+        "en": [
+          "Remote sensing"
+        ],
+        "es": [
+          "Teledetección"
+        ],
+        "fr": [
+          "Télédétection"
+        ],
+        "ru": [
+          "Дистанционное зондирование"
+        ]
+      },
+      "related": [
+        "concept10624",
+        "concept11168",
+        "concept12690",
+        "concept1555",
+        "concept3269",
+        "concept4954",
+        "concept527",
+        "concept615"
+      ],
+      "scope_notes": {
+        "ar": [
+          "نظام متقدم لجمع المعلومات لمراقبة توقعات الحالة الجوية وتطوراتها على سطح الأرض والتعرف على الموارد الطبيعية لمنطقة ما من خلال النظر إلى العالم من الطائرات أو المناطيد أو الأقمار الصناعية وتقييم البيانات التي تم جمعها."
+        ],
+        "en": [
+          "An advanced system of information gathering to monitor and forecast developments on the surface of the earth and identify an area's natural resources by looking at the world from aircraft, balloons, or satellites and evaluating the data gathered."
+        ],
+        "es": [
+          "Sistema de recogida de información para controlar y prever los movimientos en la superficie terrestre e identificar los recursos naturales de una región, a través de la observación del planeta desde un avión, un globo o un satélite, y la evaluación de los datos obtenidos."
+        ],
+        "fr": [
+          "Système de pointe de collecte d'information pour gérer et prévoir les mouvements à la surface de la terre et identifier les ressources naturelles d'une région en observant la planète à partir d'un aéronef, d'un ballon ou de satellites et en évaluant les données recueillies."
+        ],
+        "ru": [
+          "Передовая система сбора и анализа данных о состоянии земной поверхности и природных ресурсов в целях мониторинга, прогнозирования и оценки, осуществляемая с борта самолета, с помощью зонда или спутника."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1557",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1557",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "توزيع الترددات"
+        ],
+        "es": [
+          "Adjudicación de frecuencias",
+          "Distribución de frecuencias",
+          "Reparto de frecuencias"
+        ],
+        "fr": [
+          "Répartition des fréquences"
+        ]
+      },
+      "broader": [
+        "concept4364"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخصيص الترددات"
+        ],
+        "en": [
+          "Allocation of frequencies"
+        ],
+        "es": [
+          "Atribución de frecuencias"
+        ],
+        "fr": [
+          "Attribution de fréquences"
+        ],
+        "ru": [
+          "Распределение частот"
+        ]
+      },
+      "related": [
+        "concept2076",
+        "concept478"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2074",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2074",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تلفزيون عالي الجودة",
+          "تلفزيون عالي الوضوح"
+        ]
+      },
+      "broader": [
+        "concept4365"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تلفزيون عالي الدقة"
+        ],
+        "en": [
+          "High definition TV"
+        ],
+        "es": [
+          "Televisión de alta definición"
+        ],
+        "fr": [
+          "Télévision haute définition"
+        ],
+        "ru": [
+          "Телевидение c высоким разрешением"
+        ]
+      },
+      "related": [
+        "concept4363",
+        "concept4493",
+        "concept5469"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2091",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2091",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept522"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:58:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل البيانات"
+        ],
+        "en": [
+          "Data analysis"
+        ],
+        "es": [
+          "Análisis de datos"
+        ],
+        "fr": [
+          "Analyse de données"
+        ],
+        "ru": [
+          "Анализ данных"
+        ]
+      },
+      "related": [
+        "concept106",
+        "concept17105",
+        "concept5530",
+        "concept7387",
+        "concept7388"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2214",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2214",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتمتة الارشيفات",
+          "ارشيفات مقروءة آليا"
+        ],
+        "en": [
+          "Machine readable archives"
+        ],
+        "es": [
+          "Archivos informatizados"
+        ],
+        "fr": [
+          "Archives informatiques"
+        ],
+        "ru": [
+          "Машиночитаемые архивы"
+        ]
+      },
+      "broader": [
+        "concept520"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:37:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تشغيل آلي للارشيفات"
+        ],
+        "en": [
+          "Archive automation"
+        ],
+        "es": [
+          "Informatización de archivos"
+        ],
+        "fr": [
+          "Informatisation des archives"
+        ],
+        "ru": [
+          "Автоматизация архивов"
+        ]
+      },
+      "related": [
+        "concept2730",
+        "concept2731"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2727",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2727",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تشغيل آلي للمكتبات",
+          "توثيق محوسب",
+          "مكتبات مجهزة بالحاسبات",
+          "مكتبات محوسبة",
+          "ميكنة المكتبات"
+        ],
+        "en": [
+          "Computerized documentation",
+          "Computerized libraries"
+        ],
+        "es": [
+          "Biblioteca computerizada",
+          "Biblioteca informatizada",
+          "Documentación computerizada",
+          "Documentación informatizada"
+        ],
+        "fr": [
+          "Bibliothèque informatisée",
+          "Documentation informatisée"
+        ],
+        "ru": [
+          "Компьютеризированная документация",
+          "Компьютеризированные библиотеки"
+        ]
+      },
+      "broader": [
+        "concept520"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:37:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتمتة المكتبات"
+        ],
+        "en": [
+          "Library automation"
+        ],
+        "es": [
+          "Automatización de bibliotecas"
+        ],
+        "fr": [
+          "Informatisation des bibliothèques"
+        ],
+        "ru": [
+          "Автоматизация библиотек"
+        ]
+      },
+      "related": [
+        "concept2727"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2730",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2730",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept520"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:56+00:00",
+      "narrower": [
+        "concept3053",
+        "concept3054",
+        "concept3055"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ذكاء صناعي"
+        ],
+        "en": [
+          "Artificial intelligence"
+        ],
+        "es": [
+          "Inteligencia artificial"
+        ],
+        "fr": [
+          "Intelligence artificielle"
+        ],
+        "ru": [
+          "Искусственный интеллект"
+        ]
+      },
+      "related": [
+        "concept3057",
+        "concept3058",
+        "concept3059",
+        "concept387",
+        "concept389",
+        "concept450",
+        "concept534"
+      ],
+      "scope_notes": {
+        "ar": [
+          "قدرة جهاز على أداء وظائف مرتبطة عادة بالذكاء البشري."
+        ],
+        "en": [
+          "Capability of a device to perform functions normally associated with human intelligence."
+        ],
+        "es": [
+          "Capacidad de un instrumento mecánico de efectuar operaciones normalmente propias de la inteligencia humana."
+        ],
+        "fr": [
+          "Capacité d'un instrument mécanique à réaliser des opérations normalement associées à l'intelligence humaine."
+        ],
+        "ru": [
+          "Способность технического устройства выполнять функции, обычно присущие человеческому интеллекту."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3052",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3052",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نظم الخبرة",
+          "نظم قائمة على المعرفة"
+        ],
+        "en": [
+          "Knowledge based systems"
+        ],
+        "es": [
+          "Sistema basado en el conocimiento"
+        ],
+        "fr": [
+          "Système fondé sur le savoir"
+        ],
+        "ru": [
+          "Системы, основанные на знаниях"
+        ]
+      },
+      "broader": [
+        "concept3052"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:36:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم خبيرة"
+        ],
+        "en": [
+          "Expert systems"
+        ],
+        "es": [
+          "Sistema experto"
+        ],
+        "fr": [
+          "Système expert"
+        ],
+        "ru": [
+          "Экспертные системы"
+        ]
+      },
+      "related": [
+        "concept10614",
+        "concept521"
+      ],
+      "scope_notes": {
+        "ar": [
+          "نظام حاسب مبني على قاعدة بيانات تم إنشاؤها بواسطة علماء في موضوع معين."
+        ],
+        "en": [
+          "Computer system based on a data base created by human authorities on a particular subject."
+        ],
+        "es": [
+          "Sistema informático creado en función de una base de datos concebida por expertos sobre un tema específico."
+        ],
+        "fr": [
+          "Système informatique fondé sur une base de données conçue par des personnes faisant autorité sur un sujet particulier."
+        ],
+        "ru": [
+          "Компьютерные системы"
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3053",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3053",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تمييز الانماط"
+        ]
+      },
+      "broader": [
+        "concept3052"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعرّف على الانماط"
+        ],
+        "en": [
+          "Pattern recognition"
+        ],
+        "es": [
+          "Reconocimiento de formas"
+        ],
+        "fr": [
+          "Reconnaissance des formes"
+        ],
+        "ru": [
+          "Распознавание моделей"
+        ]
+      },
+      "related": [
+        "concept3057"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3054",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3054",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "روبوتيات (علم الآليات الُمبرمَجة)"
+        ]
+      },
+      "broader": [
+        "concept3052"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علوم التحكم الآلي"
+        ],
+        "en": [
+          "Robotics"
+        ],
+        "es": [
+          "Robótica"
+        ],
+        "fr": [
+          "Robotique"
+        ],
+        "ru": [
+          "Робототехника"
+        ]
+      },
+      "related": [
+        "concept13559",
+        "concept3057",
+        "concept3058",
+        "concept3399",
+        "concept3401",
+        "concept3403",
+        "concept534"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مجال الذكاء الصناعي المطبق على الاستخدام الصناعي للروبوتات لأداء المهام المتكررة."
+        ],
+        "en": [
+          "An area of artificial intelligence applied to the industrial use of robots for performance of repetitive tasks."
+        ],
+        "es": [
+          "Area de la inteligencia artificial que se aplica a la industria para la realización de tareas repetitivas."
+        ],
+        "fr": [
+          "Domaine d'activité de l'intelligence artificielle appliquée à l'utilisation industrielle de robots pour la réalisation de tâches répétitives."
+        ],
+        "ru": [
+          "Применение искусственного интеллекта в производстве роботов для выполнения повторяющихся трудовых операций."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3055",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3055",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Machine translation"
+        ],
+        "es": [
+          "Traducción por ordenador"
+        ],
+        "fr": [
+          "Traduction assistée par ordinateur"
+        ],
+        "ru": [
+          "Машинный перевод"
+        ]
+      },
+      "broader": [
+        "concept3411"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:58:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترجمة آلية"
+        ],
+        "en": [
+          "Automatic translation"
+        ],
+        "es": [
+          "Traducción automática"
+        ],
+        "fr": [
+          "Traduction automatique"
+        ],
+        "ru": [
+          "Автоматизированный перевод"
+        ]
+      },
+      "related": [
+        "concept314",
+        "concept3406"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3410",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3410",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم اللغة الحاسوبي",
+          "علم لغة الحاسب",
+          "لغويات الحاسب"
+        ],
+        "en": [
+          "Computer linguistics"
+        ],
+        "es": [
+          "Lingüística asistida por ordenador"
+        ],
+        "fr": [
+          "Linguistique assistée par ordinateur"
+        ],
+        "ru": [
+          "Компьютерная лингвистика"
+        ]
+      },
+      "broader": [
+        "concept520"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:36:23+00:00",
+      "narrower": [
+        "concept3410"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "لغويات حاسوبية"
+        ],
+        "en": [
+          "Computational linguistics"
+        ],
+        "es": [
+          "Lingüística informática"
+        ],
+        "fr": [
+          "Informatique linguistique"
+        ],
+        "ru": [
+          "Вычислительная лингвистика"
+        ]
+      },
+      "related": [
+        "concept3406",
+        "concept6007"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3411",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3411",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بث بالاقمار الصناعية",
+          "بث مباشر"
+        ],
+        "en": [
+          "Direct broadcasting"
+        ],
+        "es": [
+          "Emisión en directo",
+          "Radiodifusión en directo"
+        ],
+        "fr": [
+          "Diffusion directe",
+          "Radiodiffusion directe",
+          "Émission directe"
+        ],
+        "ru": [
+          "Прямое вещание"
+        ]
+      },
+      "broader": [
+        "concept519"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:00:03+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بث فضائي"
+        ],
+        "en": [
+          "Satellite broadcasting"
+        ],
+        "es": [
+          "Radiodifusión por satélite"
+        ],
+        "fr": [
+          "Radiodiffusion par satellite"
+        ],
+        "ru": [
+          "Спутниковое вещание"
+        ]
+      },
+      "related": [
+        "concept3067",
+        "concept478"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4333",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4333",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تلفزيون الكابل",
+          "تلفزيون سلكي"
+        ],
+        "es": [
+          "Cabledifusión"
+        ],
+        "fr": [
+          "Câblodiffusion",
+          "Télédistribution par câble"
+        ]
+      },
+      "broader": [
+        "concept519"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تلفزيون كابلي"
+        ],
+        "en": [
+          "Cable television"
+        ],
+        "es": [
+          "Televisión por cable"
+        ],
+        "fr": [
+          "Télévision par câble"
+        ],
+        "ru": [
+          "Кабельное телевидение"
+        ]
+      },
+      "related": [
+        "concept2091",
+        "concept4365",
+        "concept4493"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4363",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4363",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة اذاعية",
+          "هندسة لاسلكية"
+        ]
+      },
+      "broader": [
+        "concept519"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:36:39+00:00",
+      "narrower": [
+        "concept2074"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة الراديو"
+        ],
+        "en": [
+          "Radio engineering"
+        ],
+        "es": [
+          "Radioingeniería"
+        ],
+        "fr": [
+          "Technologie de la radio"
+        ],
+        "ru": [
+          "Радиотехника"
+        ]
+      },
+      "related": [
+        "concept2076",
+        "concept4338",
+        "concept4343",
+        "concept4365",
+        "concept527",
+        "concept5840"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4364",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4364",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept519"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:58:27+00:00",
+      "narrower": [
+        "concept2091",
+        "concept4493",
+        "concept5469"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة التلفزيون"
+        ],
+        "en": [
+          "Television engineering"
+        ],
+        "es": [
+          "Ingeniería de la televisión"
+        ],
+        "fr": [
+          "Technologie de la télévision"
+        ],
+        "ru": [
+          "Телевизионная техника"
+        ]
+      },
+      "related": [
+        "concept4330",
+        "concept4338",
+        "concept4344",
+        "concept4363",
+        "concept4364",
+        "concept527",
+        "concept5840"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4365",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4365",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تشغيل آلي للمكاتب"
+        ]
+      },
+      "broader": [
+        "concept520"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:37:20+00:00",
+      "narrower": [
+        "concept7414"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتمتة المكاتب"
+        ],
+        "en": [
+          "Office automation"
+        ],
+        "es": [
+          "Ofimática"
+        ],
+        "fr": [
+          "Bureautique"
+        ],
+        "ru": [
+          "Автоматизация офисных операций"
+        ]
+      },
+      "related": [
+        "concept1361",
+        "concept536",
+        "concept5824",
+        "concept6123"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4455",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4455",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تليفزيون الدائرة المغلقة"
+        ]
+      },
+      "broader": [
+        "concept4365"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دائرة تلفزيونية مغلقة"
+        ],
+        "en": [
+          "Closed circuit television"
+        ],
+        "es": [
+          "Televisión de circuito cerrado"
+        ],
+        "fr": [
+          "Télévision en circuit fermé"
+        ],
+        "ru": [
+          "Телевидение по замкнутому каналу"
+        ]
+      },
+      "related": [
+        "concept2091",
+        "concept4363",
+        "concept5469"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4493",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4493",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعرف ضوئي على الحروف",
+          "تمييز الحروف",
+          "تمييز ضوئي للحروف"
+        ],
+        "en": [
+          "OCR",
+          "Optical character recognition"
+        ],
+        "es": [
+          "ROC",
+          "Reconocimiento óptico de caracteres"
+        ],
+        "fr": [
+          "ROC",
+          "Reconnaissance optique des caractères"
+        ],
+        "ru": [
+          "Оптическое распознавание знаков",
+          "Технология ОРЗ (оптического распознавания знаков)"
+        ]
+      },
+      "broader": [
+        "concept5530"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:34:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعرف على الحروف"
+        ],
+        "en": [
+          "Character recognition"
+        ],
+        "es": [
+          "Reconocimiento de caracteres"
+        ],
+        "fr": [
+          "Reconnaissance des caractères"
+        ],
+        "ru": [
+          "Распознавание знаков"
+        ]
+      },
+      "related": [
+        "concept1557",
+        "concept3057"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4954",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4954",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4365"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:58:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تليفزيون ملون"
+        ],
+        "en": [
+          "Colour television"
+        ],
+        "es": [
+          "Televisión en color"
+        ],
+        "fr": [
+          "Télévision couleur"
+        ],
+        "ru": [
+          "Цветное телевидение"
+        ]
+      },
+      "related": [
+        "concept2091",
+        "concept4493"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5469",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5469",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تشفير",
+          "تكويد",
+          "جمع البيانات"
+        ],
+        "en": [
+          "Data capture",
+          "Keyboarding"
+        ],
+        "es": [
+          "Captación de datos",
+          "Entrada de datos"
+        ],
+        "fr": [
+          "Capture de données",
+          "Encodage",
+          "Entrée de données",
+          "Saisie de données"
+        ],
+        "ru": [
+          "Ручной ввод данных",
+          "Составление данных"
+        ]
+      },
+      "broader": [
+        "concept522"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-24T11:22:14+00:00",
+      "narrower": [
+        "concept1557",
+        "concept4954"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترميز"
+        ],
+        "en": [
+          "Encoding"
+        ],
+        "es": [
+          "Codificación"
+        ],
+        "fr": [
+          "Codage"
+        ],
+        "ru": [
+          "Кодирование"
+        ]
+      },
+      "related": [
+        "concept2214",
+        "concept3058",
+        "concept5533"
+      ],
+      "scope_notes": {
+        "ar": [
+          "\"تحويل البيانات\" أو تمثيلها باستخدام \"كود\"."
+        ],
+        "en": [
+          "\"Data transformation\" or representation applying a \"code\"."
+        ],
+        "es": [
+          "Transformación o representación de datos a través de un código."
+        ],
+        "fr": [
+          "Transformation ou représentation de données au moyen d'un code."
+        ],
+        "ru": [
+          "\"Трансформация данных\" или их представление с использованием \"кода\"."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5530",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5530",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتصالات متنقلة",
+          "اتصالات محمولة",
+          "اتصالات نقالة"
+        ],
+        "es": [
+          "Comunicación sin hilos"
+        ],
+        "fr": [
+          "Communication sans fil"
+        ]
+      },
+      "broader": [
+        "concept527"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:00:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتصال بالاجهزة المحمولة"
+        ],
+        "en": [
+          "Mobile communication"
+        ],
+        "es": [
+          "Comunicación móvil"
+        ],
+        "fr": [
+          "Communication mobile"
+        ],
+        "ru": [
+          "Мобильная коммуникация"
+        ]
+      },
+      "related": [
+        "concept17086"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5782",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5782",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتصال بين النجوم"
+        ],
+        "en": [
+          "Interstellar communication"
+        ],
+        "es": [
+          "Comunicación interestelar"
+        ],
+        "fr": [
+          "Communication interstellaire"
+        ],
+        "ru": [
+          "Межзвездное сообщение"
+        ]
+      },
+      "broader": [
+        "concept527"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-24T11:22:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتصالات فضائية"
+        ],
+        "en": [
+          "Space communication"
+        ],
+        "es": [
+          "Comunicación espacial"
+        ],
+        "fr": [
+          "Communication spatiale"
+        ],
+        "ru": [
+          "Космическое сообщение"
+        ]
+      },
+      "related": [
+        "concept10626",
+        "concept3067"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5823",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5823",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معالجة البيانات عن بعد",
+          "معالجة المعلومات عن بعد",
+          "معلوماتية عن بعد"
+        ],
+        "en": [
+          "Teleinformatics"
+        ],
+        "es": [
+          "Teleinformática"
+        ],
+        "fr": [
+          "Téléinformatique"
+        ],
+        "ru": [
+          "Телеинформатика"
+        ]
+      },
+      "broader": [
+        "concept523"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:36:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تليماتيك"
+        ],
+        "en": [
+          "Telematics"
+        ],
+        "es": [
+          "Telemática"
+        ],
+        "fr": [
+          "Télématique"
+        ],
+        "ru": [
+          "Телематика"
+        ]
+      },
+      "related": [
+        "concept1151",
+        "concept3067",
+        "concept4455",
+        "concept450",
+        "concept490",
+        "concept520",
+        "concept527",
+        "concept534",
+        "concept5840",
+        "concept5844",
+        "concept6061",
+        "concept6661",
+        "concept7421"
+      ],
+      "scope_notes": {
+        "ar": [
+          "خدمات لنقل البيانات من خلال أنظمة الاتصالات."
+        ],
+        "en": [
+          "Data transfer services via telecommunication systems."
+        ],
+        "es": [
+          "Servicio de transmisión de datos a través de un sistema de telecomunicación."
+        ],
+        "fr": [
+          "Service de transfert de données au moyen d'un système de télécommunication."
+        ],
+        "ru": [
+          "Услуги по передаче данных через телекоммуникационные системы."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5824",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5824",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا الاتصالات السلكية واللاسلكية",
+          "هندسة الاتصالات",
+          "هندسة الاتصالات السلكية واللاسلكية"
+        ],
+        "en": [
+          "Communication engineering",
+          "Telecommunications engineering",
+          "Telecommunications technology"
+        ],
+        "es": [
+          "Ingeniería de comunicaciones",
+          "Ingeniería de telecomunicaciones",
+          "Tecnología de las telecomunicaciones"
+        ],
+        "fr": [
+          "Génie des télécommunications",
+          "Ingénierie des communications",
+          "Technologie des télécommunications"
+        ],
+        "ru": [
+          "Организация и средства передачи информации и связи",
+          "Телекоммуникационная техника",
+          "Телекоммуникационная технология"
+        ]
+      },
+      "broader": [
+        "concept523"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:00:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا الاتصالات"
+        ],
+        "en": [
+          "Communication technology"
+        ],
+        "es": [
+          "Tecnología de la comunicación"
+        ],
+        "fr": [
+          "Technologie de la communication"
+        ],
+        "ru": [
+          "Технология передачи информации и связи"
+        ]
+      },
+      "related": [
+        "concept4364",
+        "concept4365",
+        "concept490",
+        "concept527",
+        "concept5824",
+        "concept5844",
+        "concept5845",
+        "concept629"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5840",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5840",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "لغات البرمجة"
+        ],
+        "en": [
+          "Programming languages"
+        ],
+        "es": [
+          "Lenguaje informático"
+        ],
+        "fr": [
+          "Langage informatique"
+        ],
+        "ru": [
+          "Языки программирования"
+        ]
+      },
+      "broader": [
+        "concept521"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "لغات الحاسب"
+        ],
+        "en": [
+          "Computer languages"
+        ],
+        "es": [
+          "Lenguaje de programación"
+        ],
+        "fr": [
+          "Langage de programmation"
+        ],
+        "ru": [
+          "Компьютерные языки"
+        ]
+      },
+      "related": [
+        "concept308",
+        "concept3411"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6007",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6007",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "CAD"
+        ],
+        "es": [
+          "CAD"
+        ],
+        "fr": [
+          "CAD"
+        ],
+        "ru": [
+          "САПР"
+        ]
+      },
+      "broader": [
+        "concept520"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:58:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصميم بمساعدة الحاسب"
+        ],
+        "en": [
+          "Computer aided design"
+        ],
+        "es": [
+          "Diseño por ordenador"
+        ],
+        "fr": [
+          "Conception assistée par ordinateur"
+        ],
+        "ru": [
+          "Системы автоматизированного проектирования"
+        ]
+      },
+      "related": [
+        "concept17030",
+        "concept6011",
+        "concept6012"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6009",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6009",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "CAM"
+        ],
+        "es": [
+          "CAM",
+          "FAO (Fabricación asistida por ordenador)",
+          "PAO (Publicación asistida por ordenador)"
+        ],
+        "fr": [
+          "FAO",
+          "PAO",
+          "Production assistée par ordinateur"
+        ],
+        "ru": [
+          "САП"
+        ]
+      },
+      "broader": [
+        "concept520"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:58:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصنيع بمساعدة الحاسب"
+        ],
+        "en": [
+          "Computer aided manufacturing"
+        ],
+        "es": [
+          "Fabricación asistida por ordenador"
+        ],
+        "fr": [
+          "Fabrication assistée par ordinateur"
+        ],
+        "ru": [
+          "Системы автоматизированного производства"
+        ]
+      },
+      "related": [
+        "concept3403",
+        "concept6009",
+        "concept6015"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6011",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6011",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رسوم تصويرية بالحاسب"
+        ],
+        "es": [
+          "Gráficos por computadora"
+        ]
+      },
+      "broader": [
+        "concept520"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:00:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رسومات الحاسب"
+        ],
+        "en": [
+          "Computer graphics"
+        ],
+        "es": [
+          "Infografía"
+        ],
+        "fr": [
+          "Infographie"
+        ],
+        "ru": [
+          "Компьютерная графика"
+        ]
+      },
+      "related": [
+        "concept17030",
+        "concept17105",
+        "concept343",
+        "concept6009",
+        "concept6020"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6012",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6012",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept520"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:00:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "العاب الفيديو"
+        ],
+        "en": [
+          "Video games"
+        ],
+        "es": [
+          "Vídeojuego"
+        ],
+        "fr": [
+          "Jeu vidéo"
+        ],
+        "ru": [
+          "Видеоигры"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6017",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6017",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "شبكات الاتصالات (تكنولوجيا المعلومات)",
+          "نظم الاتصالات (تكنولوجيا المعلومات)",
+          "وصلات الاتصالات السلكية واللاسلكية"
+        ],
+        "en": [
+          "Communication networks (IT)",
+          "Communication systems (IT)",
+          "Telecommunications links"
+        ],
+        "es": [
+          "Red de comunicación",
+          "Sistema de comunicación"
+        ],
+        "fr": [
+          "Liaison de communication",
+          "Réseau de communication (TI)",
+          "Système de communication (TI)"
+        ],
+        "ru": [
+          "Коммуникационные сети (ИТ)",
+          "Системы коммуникаций (ИТ)",
+          "Телекоммуникационная связь"
+        ]
+      },
+      "broader": [
+        "concept527"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "شبكات الاتصالات السلكية واللاسلكية"
+        ],
+        "en": [
+          "Telecommunications networks"
+        ],
+        "es": [
+          "Red de telecomunicaciones"
+        ],
+        "fr": [
+          "Réseau de télécommunications"
+        ],
+        "ru": [
+          "Телекоммуникационные сети"
+        ]
+      },
+      "related": [
+        "concept6019"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6062",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6062",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "برامج الحاسب",
+          "برمجيات اساسية",
+          "برمجيات التطبيقات",
+          "مجموعات البرمجيات",
+          "نظم التشغيل"
+        ],
+        "en": [
+          "Application software",
+          "Basic software",
+          "Computer programs",
+          "Operating systems",
+          "Software packages"
+        ],
+        "es": [
+          "Programa informático",
+          "Software"
+        ],
+        "fr": [
+          "Logiciel d'application",
+          "Logiciel de base",
+          "Progiciel",
+          "Programme informatique",
+          "Système d'exploitation"
+        ],
+        "ru": [
+          "Базовое программное обеспечение",
+          "Компьютерные программы",
+          "Операционные системы",
+          "Пакеты программного обеспечения",
+          "Прикладное программное обеспечение"
+        ]
+      },
+      "broader": [
+        "concept521"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:00:14+00:00",
+      "narrower": [
+        "concept17094"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "برمجيات الحاسب"
+        ],
+        "en": [
+          "Computer software"
+        ],
+        "es": [
+          "Programa de ordenador"
+        ],
+        "fr": [
+          "Logiciel"
+        ],
+        "ru": [
+          "Компьютерное программное обеспечение"
+        ]
+      },
+      "related": [
+        "concept534",
+        "concept6028",
+        "concept6101"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6081",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6081",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تنظيم تخزين الحاسب"
+        ],
+        "en": [
+          "Computer storage organization"
+        ],
+        "es": [
+          "Estructuración de los ficheros",
+          "Orden de los ficheros"
+        ],
+        "fr": [
+          "Organisation de la mémoire",
+          "Structure des fichiers"
+        ],
+        "ru": [
+          "Организация компьютерной памяти"
+        ]
+      },
+      "broader": [
+        "concept521"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:58:08+00:00",
+      "narrower": [
+        "concept1132",
+        "concept7398"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنظيم الملفات"
+        ],
+        "en": [
+          "File organization"
+        ],
+        "es": [
+          "Organización de ficheros"
+        ],
+        "fr": [
+          "Organisation des fichiers"
+        ],
+        "ru": [
+          "Организация файлов"
+        ]
+      },
+      "related": [
+        "concept501",
+        "concept6072"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6082",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6082",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نظم اقتسام الوقت",
+          "نظم مشاركة الوقت"
+        ],
+        "en": [
+          "Timesharing systems"
+        ],
+        "es": [
+          "Sistema a tiempo compartido"
+        ],
+        "fr": [
+          "Système à temps partagé"
+        ],
+        "ru": [
+          "Системы разделенного времени"
+        ]
+      },
+      "broader": [
+        "concept521"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم متعددة المستخدمين"
+        ],
+        "en": [
+          "Multiuser systems"
+        ],
+        "es": [
+          "Configuración multipuesta"
+        ],
+        "fr": [
+          "Configuration multiposte"
+        ],
+        "ru": [
+          "Мультипользовательские системы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6083",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6083",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نظم الوقت الحقيقي",
+          "نظم الوقت الفعلي",
+          "نظم تفاعلية عبر الانترنت",
+          "نظم تفاعلية عبر الخط المباشر"
+        ],
+        "en": [
+          "Interactive online systems",
+          "Realtime systems"
+        ],
+        "es": [
+          "Sistema a tiempo real",
+          "Sistema interactivo"
+        ],
+        "fr": [
+          "Système en temps réel",
+          "Système interactif en ligne"
+        ],
+        "ru": [
+          "Интерактивные онлайновые системы",
+          "Системы реального времени"
+        ]
+      },
+      "broader": [
+        "concept521"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-24T11:21:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم عبر الخط المباشر"
+        ],
+        "en": [
+          "Online systems"
+        ],
+        "es": [
+          "Sistema en línea"
+        ],
+        "fr": [
+          "Système en ligne"
+        ],
+        "ru": [
+          "Онлайновые системы"
+        ]
+      },
+      "related": [
+        "concept4758"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6084",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6084",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عقد المؤتمرات الافتراضية",
+          "عقد المؤتمرات بالفيديو",
+          "عقد المؤتمرات عن طريق الحاسب"
+        ],
+        "en": [
+          "Computer conferencing",
+          "Videoconferencing",
+          "Virtual conferencing"
+        ],
+        "es": [
+          "Ciberconferencia",
+          "Conferencia asistida por ordenador",
+          "Conferencia electrónica",
+          "Conferencia virtual"
+        ],
+        "fr": [
+          "Conférence assistée par ordinateur",
+          "Conférence virtuelle",
+          "Conférence électronique",
+          "Cyberconférence",
+          "Téléconférence assistée par ordinateur",
+          "Téléconférence informatisée"
+        ],
+        "ru": [
+          "Видеоконференцсвязь",
+          "Компьютерные совещания"
+        ]
+      },
+      "broader": [
+        "concept528"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عقد المؤتمرات عن بعد"
+        ],
+        "en": [
+          "Teleconferencing"
+        ],
+        "es": [
+          "Teleconferencia"
+        ],
+        "fr": [
+          "Téléconférence"
+        ],
+        "ru": [
+          "Телеконференцсвязь"
+        ]
+      },
+      "related": [
+        "concept521",
+        "concept527",
+        "concept5735",
+        "concept6218"
+      ],
+      "scope_notes": {
+        "ar": [
+          "إجراء مؤتمرات في مواقع متفرقة في وقت واحد باستخدام الفيديو أو الهاتف أو وسيط ذو صلة."
+        ],
+        "en": [
+          "Conducting conferences simultaneously at dispersed locations using video, telephone or related media."
+        ],
+        "es": [
+          "Conferencia organizada simultáneamente desde lugares dispersos empleando el vídeo, el teléfono u otros medios."
+        ],
+        "fr": [
+          "Conférence organisée simultanément dans des endroits dispersés, utilisant la vidéo, le téléphone ou autres médias."
+        ],
+        "ru": [
+          "Проведение одновременных сеансов связи с разбросанными географическими точками с использованием видео-, телефонных или иных средств."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6086",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6086",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رسائل الكترونية",
+          "مراسلة الكترونية",
+          "نُظم التراسل",
+          "نُظم المراسلة"
+        ],
+        "en": [
+          "E-mail",
+          "Electronic messaging",
+          "Messaging systems"
+        ],
+        "es": [
+          "Mensajería electrónica",
+          "Sistema de mensajería"
+        ],
+        "fr": [
+          "Courriel",
+          "Messagerie Internet",
+          "Messagerie électronique",
+          "Mél",
+          "Système de messagerie"
+        ],
+        "ru": [
+          "Системы почтовых сообщений",
+          "Э-почта",
+          "Электронные сообщения"
+        ]
+      },
+      "broader": [
+        "concept528"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بريد الكتروني"
+        ],
+        "en": [
+          "Electronic mail"
+        ],
+        "es": [
+          "Correo electrónico"
+        ],
+        "fr": [
+          "Courrier électronique"
+        ],
+        "ru": [
+          "Электронная почта"
+        ]
+      },
+      "related": [
+        "concept17067",
+        "concept5824",
+        "concept7414"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يتضمن إنشاء الرسائل والبريد والحفظ الإلكترونيَين."
+        ],
+        "en": [
+          "Includes message creation, electronic mail and electronic filing."
+        ],
+        "es": [
+          "Incluye la creación de mensajes, el correo electrónico y la transmisión electrónica de documentos."
+        ],
+        "fr": [
+          "Comprend la création de messages, le courrier électronique ainsi que la transmission électronique de documents."
+        ],
+        "ru": [
+          "Включает составление сообщений, электронную почту и хранение электронных файлов."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6661",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6661",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تجميع البيانات",
+          "حصول على البيانات"
+        ],
+        "en": [
+          "Data acquisition",
+          "Data compilation"
+        ],
+        "es": [
+          "Compilación de datos",
+          "Recogida de datos"
+        ],
+        "fr": [
+          "Acquisition de données",
+          "Compilation de données"
+        ],
+        "ru": [
+          "Компиляция данных",
+          "Поступление данных"
+        ]
+      },
+      "broader": [
+        "concept522"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:00:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جمع البيانات"
+        ],
+        "en": [
+          "Data collection"
+        ],
+        "es": [
+          "Recopilación de datos"
+        ],
+        "fr": [
+          "Recueil de données"
+        ],
+        "ru": [
+          "Сбор данных"
+        ]
+      },
+      "related": [
+        "concept2214",
+        "concept4830",
+        "concept503",
+        "concept5835",
+        "concept6916",
+        "concept7393"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7387",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7387",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept522"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:00:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تبادل البيانات"
+        ],
+        "en": [
+          "Data exchange"
+        ],
+        "es": [
+          "Intercambio de datos"
+        ],
+        "fr": [
+          "Échange des données"
+        ],
+        "ru": [
+          "Обмен данными"
+        ]
+      },
+      "related": [
+        "concept7398",
+        "concept7399"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7396",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7396",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تخطيط البيانات",
+          "صيغ البيانات"
+        ],
+        "en": [
+          "Data layout"
+        ],
+        "es": [
+          "Configuración de datos",
+          "Disposición de datos"
+        ],
+        "fr": [
+          "Disposition des données",
+          "Modèle des données"
+        ],
+        "ru": [
+          "Представление данных"
+        ]
+      },
+      "broader": [
+        "concept6082"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:37:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اشكال البيانات"
+        ],
+        "en": [
+          "Data formats"
+        ],
+        "es": [
+          "Formato de datos"
+        ],
+        "fr": [
+          "Format des données"
+        ],
+        "ru": [
+          "Форматы данных"
+        ]
+      },
+      "related": [
+        "concept7396"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7398",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7398",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدفق البيانات عبر الحدود"
+        ],
+        "en": [
+          "Transborder data flow"
+        ],
+        "es": [
+          "Circulación internacional de datos",
+          "Flujo transfronterizo de datos",
+          "Transferencia internacional de datos"
+        ],
+        "fr": [
+          "Circulation transfrontière de données",
+          "Communication transfrontière de données",
+          "Flux transfrontière de données"
+        ],
+        "ru": [
+          "Трансграничные потоки данных"
+        ]
+      },
+      "broader": [
+        "concept7413"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T14:00:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدفق البيانات عبر الحدود الوطنية"
+        ],
+        "en": [
+          "Transnational data flow"
+        ],
+        "es": [
+          "Transmisión internacional de datos"
+        ],
+        "fr": [
+          "Transmission internationale des données"
+        ],
+        "ru": [
+          "Транснациональные потоки данных"
+        ]
+      },
+      "related": [
+        "concept7396"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7399",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7399",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا رقمية"
+        ],
+        "en": [
+          "Digital technology"
+        ],
+        "es": [
+          "Tecnología digital",
+          "Tecnología numérica"
+        ],
+        "fr": [
+          "Technologie numérique"
+        ],
+        "ru": [
+          "Цифровая технология"
+        ]
+      },
+      "broader": [
+        "concept522"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2025-10-10T10:14:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رقمنة"
+        ],
+        "en": [
+          "Digitization"
+        ],
+        "es": [
+          "Digitalización"
+        ],
+        "fr": [
+          "Numérisation"
+        ],
+        "ru": [
+          "Оцифровка"
+        ]
+      },
+      "related": [
+        "concept17010",
+        "concept17042",
+        "concept17157",
+        "concept17181",
+        "concept2782",
+        "concept6107",
+        "concept8030"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تحويل الصورة الورقية أو أي حامل تقليدي آخر للوثائق إلى صورة إلكترونية."
+        ],
+        "en": [
+          "Conversion of paper image or any other traditional document support into electronic image."
+        ],
+        "es": [
+          "Conversión a imagen electrónica de una imagen en papel o en otro soporte tradicional."
+        ],
+        "fr": [
+          "Conversion d'image sur papier ou sur tout autre support traditionnel de documents, en image électronique."
+        ],
+        "ru": [
+          "Перевод изображения на бумажном носителе или иного вида традиционной документальной поддержки в электронный формат."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7411",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7411",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ارسال البيانات"
+        ],
+        "es": [
+          "Transferencia de datos"
+        ]
+      },
+      "broader": [
+        "concept527"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:58:36+00:00",
+      "narrower": [
+        "concept7399"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل البيانات"
+        ],
+        "en": [
+          "Data transmission"
+        ],
+        "es": [
+          "Transmisión de datos"
+        ],
+        "fr": [
+          "Transmission des données"
+        ],
+        "ru": [
+          "Передача данных"
+        ]
+      },
+      "related": [
+        "concept522",
+        "concept539",
+        "concept7421"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7413",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7413",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معالجة الكترونية للنصوص",
+          "معالجة الكلمات"
+        ],
+        "en": [
+          "Electronic text processing"
+        ],
+        "es": [
+          "Tratamiento electrónico de textos",
+          "Tratamiento informático de textos"
+        ],
+        "fr": [
+          "Traitement électronique de texte"
+        ],
+        "ru": [
+          "Обработка текстов в электронной форме"
+        ]
+      },
+      "broader": [
+        "concept4455"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معالجة النصوص"
+        ],
+        "en": [
+          "Word processing"
+        ],
+        "es": [
+          "Tratamiento de textos"
+        ],
+        "fr": [
+          "Traitement de texte"
+        ],
+        "ru": [
+          "Обработка текстов"
+        ]
+      },
+      "related": [
+        "concept522",
+        "concept536",
+        "concept6123",
+        "concept6661"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7414",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7414",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة التليفون"
+        ],
+        "es": [
+          "Telefonía"
+        ],
+        "fr": [
+          "Téléphonie"
+        ]
+      },
+      "broader": [
+        "concept527"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2019-12-15T13:59:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة الهاتف"
+        ],
+        "en": [
+          "Telephone engineering"
+        ],
+        "es": [
+          "Ingeniería telefónica"
+        ],
+        "fr": [
+          "Technologie du téléphone"
+        ],
+        "ru": [
+          "Телефонная техника"
+        ]
+      },
+      "related": [
+        "concept12747"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12608",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12608",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "برمجيات مجانية ومفتوحة المصدر"
+        ],
+        "en": [
+          "FOSS",
+          "Free and open source software"
+        ],
+        "fr": [
+          "Logiciel open source",
+          "Logiciel ouvert"
+        ]
+      },
+      "broader": [
+        "concept6081"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.40"
+      ],
+      "modified": "2021-09-28T11:46:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "برمجيات مفتوحة المصدر"
+        ],
+        "en": [
+          "Open source software"
+        ],
+        "es": [
+          "Software de código abierto"
+        ],
+        "fr": [
+          "Logiciel libre"
+        ],
+        "ru": [
+          "Свободное и открытое программное обеспечение"
+        ]
+      },
+      "related": [
+        "concept1129",
+        "concept17126",
+        "concept17127",
+        "concept3090"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17094",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17094",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt5.40",
+    "labels": {
+      "en": "Information technology (software)",
+      "fr": "Technologie de l'information (logiciels)"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt5.40"
+  }
+}

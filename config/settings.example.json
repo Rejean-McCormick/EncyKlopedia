@@ -1,0 +1,19 @@
+{
+  "wikipedia_sql": "D:\\EncyKlopedia\\80_search_indexes\\mediatheque-references\\wikipedia_en.sqlite",
+  "wikidata_sql": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+  "wikipedia_xml": "D:\\EncyKlopedia\\30_working\\wikipedia_en_uncompressed\\enwiki-latest-pages-articles-multistream.xml",
+  "wikipedia_direct_index": "D:\\EncyKlopedia\\80_search_indexes\\mediatheque-references\\wikipedia_en_direct_pages_v21.sqlite",
+  "catalogue_v25": "D:\\EncyKlopedia\\80_search_indexes\\EncyKlopedia\\catalogue_global_unesco_wikipedia_v25.sqlite",
+  "station_v30": "D:\\EncyKlopedia\\30_working\\poste_chatgpt_v30\\station_v30.sqlite",
+  "select_pack_size": 150,
+  "selection_excerpt_chars": 3500,
+  "enrich_pack_articles": 60,
+  "enrich_word_budget": 200000,
+  "enrich_byte_budget": 47185920,
+  "graph_per_anchor_limit": 2500,
+  "lane_count": 10,
+  "extraction_profile": "encyk.generic.v1",
+  "prepare_scan_limit": 5000,
+  "source_retry_seconds": 3600,
+  "source_epoch": ""
+}

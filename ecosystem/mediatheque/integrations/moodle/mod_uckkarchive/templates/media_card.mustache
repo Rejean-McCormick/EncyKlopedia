@@ -1,0 +1,445 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+
+    @template mod_uckkarchive/media_card
+
+    Media card template for the UCKK Archive media library.
+
+    Context example:
+    {
+        "id": 42,
+        "uuid": "a4f0b43a-cc51-4f28-9f46-83e2d504f2ff",
+        "title": "Interview excerpt",
+        "summary": "Short description.",
+        "description": "Longer description.",
+        "mediatype": "video",
+        "mimetype": "video/mp4",
+        "status": "active",
+        "visibility": "course",
+        "audiencesuitability": "guided",
+        "source": "produced_by_uckk",
+        "sourcetype": "external_reference_only",
+        "sourceurl": "https://example.test/external/source",
+        "externalurl": "https://example.test/external/source",
+        "hasexternalurl": true,
+        "canopenexternal": true,
+        "openexternallabel": "Ouvrir la référence externe",
+        "thumbnailurl": "https://example.test/pluginfile.php/1/mod_uckkarchive/media_thumbnail/42/thumb.jpg",
+        "previewurl": "https://example.test/pluginfile.php/1/mod_uckkarchive/media_preview/42/preview.mp4",
+        "viewurl": "https://example.test/mod/uckkarchive/media.php?id=12&mediaid=42&action=view",
+        "editurl": "https://example.test/mod/uckkarchive/media.php?id=12&mediaid=42&action=edit",
+        "downloadurl": "https://example.test/pluginfile.php/1/mod_uckkarchive/media_original/42/file.mp4",
+        "versionurl": "https://example.test/mod/uckkarchive/media.php?id=12&mediaid=42&action=versions",
+        "exporturl": "https://example.test/mod/uckkarchive/media.php?id=12&mediaid=42&action=exportmedia",
+        "hasthumbnail": true,
+        "haspreview": true,
+        "hasadvisory": true,
+        "isrestricted": false,
+        "isculturallyrestricted": false,
+        "isexternalreference": true,
+        "isimage": false,
+        "isvideo": true,
+        "isaudio": false,
+        "isdocument": false,
+        "canview": true,
+        "canedit": true,
+        "candelete": false,
+        "candownload": true,
+        "canversion": true,
+        "canexport": true,
+        "canviewadvisories": true,
+        "tags": [
+            {"name": "interview"}
+        ],
+        "advisories": [
+            {"tag": "requires_context", "severity": "notice", "label": "Requires context"}
+        ]
+    }
+}}
+
+<article
+    class="uckkarchive-media-card card mb-3 {{#isrestricted}}uckkarchive-media-card--restricted{{/isrestricted}} {{#isculturallyrestricted}}uckkarchive-media-card--cultural{{/isculturallyrestricted}} {{#isexternalreference}}uckkarchive-media-card--external-reference{{/isexternalreference}}"
+    data-region="uckkarchive-media-card"
+    data-mediaid="{{id}}"
+    data-mediauuid="{{uuid}}"
+    data-mediatype="{{mediatype}}"
+    data-status="{{status}}"
+    data-visibility="{{visibility}}"
+    {{#sourcetype}}data-sourcetype="{{sourcetype}}"{{/sourcetype}}
+>
+    <div class="card-body">
+        <div class="d-flex align-items-start">
+            <div class="uckkarchive-media-card__preview mr-3" data-region="media-preview">
+                {{#hasthumbnail}}
+                    <a href="{{viewurl}}" class="d-block" data-action="uckkarchive-open-media" data-mediaid="{{id}}">
+                        <img
+                            src="{{thumbnailurl}}"
+                            alt="{{#alttext}}{{alttext}}{{/alttext}}{{^alttext}}{{title}}{{/alttext}}"
+                            class="img-fluid uckkarchive-media-card__thumbnail"
+                            loading="lazy"
+                        >
+                    </a>
+                {{/hasthumbnail}}
+
+                {{^hasthumbnail}}
+                    <a
+                        href="{{viewurl}}"
+                        class="uckkarchive-media-card__placeholder d-flex align-items-center justify-content-center"
+                        data-action="uckkarchive-open-media"
+                        data-mediaid="{{id}}"
+                    >
+                        {{#isimage}}
+                            <span aria-hidden="true" class="uckkarchive-media-card__icon">🖼</span>
+                            <span class="sr-only">{{#str}} image, mod_uckkarchive {{/str}}</span>
+                        {{/isimage}}
+
+                        {{#isvideo}}
+                            <span aria-hidden="true" class="uckkarchive-media-card__icon">▶</span>
+                            <span class="sr-only">{{#str}} video, mod_uckkarchive {{/str}}</span>
+                        {{/isvideo}}
+
+                        {{#isaudio}}
+                            <span aria-hidden="true" class="uckkarchive-media-card__icon">♪</span>
+                            <span class="sr-only">{{#str}} audio, mod_uckkarchive {{/str}}</span>
+                        {{/isaudio}}
+
+                        {{#isdocument}}
+                            <span aria-hidden="true" class="uckkarchive-media-card__icon">▣</span>
+                            <span class="sr-only">{{#str}} document, mod_uckkarchive {{/str}}</span>
+                        {{/isdocument}}
+
+                        {{^isimage}}
+                            {{^isvideo}}
+                                {{^isaudio}}
+                                    {{^isdocument}}
+                                        <span aria-hidden="true" class="uckkarchive-media-card__icon">●</span>
+                                        <span class="sr-only">{{#str}} media, mod_uckkarchive {{/str}}</span>
+                                    {{/isdocument}}
+                                {{/isaudio}}
+                            {{/isvideo}}
+                        {{/isimage}}
+                    </a>
+                {{/hasthumbnail}}
+            </div>
+
+            <div class="uckkarchive-media-card__main flex-fill">
+                <header class="uckkarchive-media-card__header">
+                    <h3 class="h5 mb-1">
+                        <a
+                            href="{{viewurl}}"
+                            data-action="uckkarchive-open-media"
+                            data-mediaid="{{id}}"
+                        >
+                            {{title}}
+                        </a>
+                    </h3>
+
+                    <div class="uckkarchive-media-card__badges mb-2">
+                        {{#mediatype}}
+                            <span class="badge badge-secondary" data-region="media-type">{{mediatype}}</span>
+                        {{/mediatype}}
+
+                        {{#status}}
+                            <span class="badge badge-light" data-region="media-status">{{status}}</span>
+                        {{/status}}
+
+                        {{#visibility}}
+                            <span class="badge badge-light" data-region="media-visibility">{{visibility}}</span>
+                        {{/visibility}}
+
+                        {{#audiencesuitability}}
+                            <span class="badge badge-info" data-region="media-audience">{{audiencesuitability}}</span>
+                        {{/audiencesuitability}}
+
+                        {{#isexternalreference}}
+                            <span class="badge badge-warning" data-region="media-external-reference">
+                                {{#str}} externalreference, mod_uckkarchive {{/str}}
+                            </span>
+                        {{/isexternalreference}}
+
+                        {{#isgithub}}
+                            <span class="badge badge-dark" data-region="media-github">GitHub</span>
+                        {{/isgithub}}
+
+                        {{#isrestricted}}
+                            <span class="badge badge-danger" data-region="media-restricted">
+                                {{#str}} restricted, mod_uckkarchive {{/str}}
+                            </span>
+                        {{/isrestricted}}
+
+                        {{#isculturallyrestricted}}
+                            <span class="badge badge-danger" data-region="media-cultural-restricted">
+                                {{#str}} culturallyrestricted, mod_uckkarchive {{/str}}
+                            </span>
+                        {{/isculturallyrestricted}}
+
+                        {{#hasadvisory}}
+                            <span class="badge badge-warning" data-region="media-advisory-indicator">
+                                {{#str}} contentadvisory, mod_uckkarchive {{/str}}
+                            </span>
+                        {{/hasadvisory}}
+                    </div>
+                </header>
+
+                {{#summary}}
+                    <div class="uckkarchive-media-card__summary mb-2" data-region="media-summary">
+                        {{{summary}}}
+                    </div>
+                {{/summary}}
+
+                {{#description}}
+                    <div class="uckkarchive-media-card__description mb-2" data-region="media-description">
+                        {{{description}}}
+                    </div>
+                {{/description}}
+
+                <dl class="uckkarchive-media-card__meta row mb-2">
+                    {{#mimetype}}
+                        <dt class="col-sm-3">{{#str}} mimetype, mod_uckkarchive {{/str}}</dt>
+                        <dd class="col-sm-9">{{mimetype}}</dd>
+                    {{/mimetype}}
+
+                    {{#source}}
+                        <dt class="col-sm-3">{{#str}} source, mod_uckkarchive {{/str}}</dt>
+                        <dd class="col-sm-9">{{source}}</dd>
+                    {{/source}}
+
+                    {{#sourcetype}}
+                        <dt class="col-sm-3">{{#str}} sourcetype, mod_uckkarchive {{/str}}</dt>
+                        <dd class="col-sm-9">{{sourcetype}}</dd>
+                    {{/sourcetype}}
+
+                    {{#hasexternalurl}}
+                        <dt class="col-sm-3">URL externe</dt>
+                        <dd class="col-sm-9">
+                            <a
+                                href="{{externalurl}}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-action="uckkarchive-open-external-reference"
+                                data-mediaid="{{id}}"
+                            >
+                                {{externalurl}}
+                            </a>
+                        </dd>
+                    {{/hasexternalurl}}
+
+                    {{#ownername}}
+                        <dt class="col-sm-3">{{#str}} owner, mod_uckkarchive {{/str}}</dt>
+                        <dd class="col-sm-9">{{ownername}}</dd>
+                    {{/ownername}}
+
+                    {{#timecreatedformatted}}
+                        <dt class="col-sm-3">{{#str}} timecreated, mod_uckkarchive {{/str}}</dt>
+                        <dd class="col-sm-9">{{timecreatedformatted}}</dd>
+                    {{/timecreatedformatted}}
+
+                    {{#timemodifiedformatted}}
+                        <dt class="col-sm-3">{{#str}} timemodified, mod_uckkarchive {{/str}}</dt>
+                        <dd class="col-sm-9">{{timemodifiedformatted}}</dd>
+                    {{/timemodifiedformatted}}
+                </dl>
+
+                {{#tags.0}}
+                    <div class="uckkarchive-media-card__tags mb-2" data-region="media-tags">
+                        <span class="sr-only">{{#str}} tags, mod_uckkarchive {{/str}}</span>
+                        {{#tags}}
+                            <span class="badge badge-light" data-tag="{{name}}">{{name}}</span>
+                        {{/tags}}
+                    </div>
+                {{/tags.0}}
+
+                {{#canviewadvisories}}
+                    {{#advisories.0}}
+                        <div class="uckkarchive-media-card__advisories alert alert-warning mb-2" data-region="media-advisories">
+                            <strong>{{#str}} contentadvisory, mod_uckkarchive {{/str}}</strong>
+
+                            <ul class="mb-0">
+                                {{#advisories}}
+                                    <li
+                                        data-advisory-tag="{{tag}}"
+                                        data-advisory-severity="{{severity}}"
+                                    >
+                                        {{#label}}{{label}}{{/label}}{{^label}}{{tag}}{{/label}}
+                                        {{#severity}}
+                                            <span class="badge badge-warning">{{severity}}</span>
+                                        {{/severity}}
+                                    </li>
+                                {{/advisories}}
+                            </ul>
+                        </div>
+                    {{/advisories.0}}
+                {{/canviewadvisories}}
+
+                {{#relations.0}}
+                    <div class="uckkarchive-media-card__relations mb-2" data-region="media-relations">
+                        <strong>{{#str}} relations, mod_uckkarchive {{/str}}</strong>
+                        <ul class="mb-0">
+                            {{#relations}}
+                                <li>
+                                    {{#relationtype}}{{relationtype}}: {{/relationtype}}
+                                    {{#targettitle}}{{targettitle}}{{/targettitle}}
+                                    {{^targettitle}}{{targetid}}{{/targettitle}}
+                                </li>
+                            {{/relations}}
+                        </ul>
+                    </div>
+                {{/relations.0}}
+
+                <footer class="uckkarchive-media-card__actions mt-3" data-region="media-card-actions">
+                    {{#canview}}
+                        <a
+                            href="{{viewurl}}"
+                            class="btn btn-primary btn-sm"
+                            data-action="uckkarchive-open-media"
+                            data-mediaid="{{id}}"
+                        >
+                            {{#str}} view, mod_uckkarchive {{/str}}
+                        </a>
+                    {{/canview}}
+
+                    {{#hasexternalurl}}
+                        <a
+                            href="{{externalurl}}"
+                            class="btn btn-outline-secondary btn-sm"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-action="uckkarchive-open-external-reference"
+                            data-mediaid="{{id}}"
+                        >
+                            {{#isgithub}}GitHub ↗{{/isgithub}}{{^isgithub}}Lien externe ↗{{/isgithub}}
+                        </a>
+                    {{/hasexternalurl}}
+
+                    {{#canopenexternal}}
+                        {{#externalurl}}
+                            <a
+                                href="{{externalurl}}"
+                                class="btn btn-outline-primary btn-sm"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-action="uckkarchive-open-external-reference"
+                                data-mediaid="{{id}}"
+                            >
+                                {{#openexternallabel}}
+                                    {{openexternallabel}}
+                                {{/openexternallabel}}
+                                {{^openexternallabel}}
+                                    Ouvrir la référence externe
+                                {{/openexternallabel}}
+                            </a>
+                        {{/externalurl}}
+                    {{/canopenexternal}}
+
+                    {{#haspreview}}
+                        <a
+                            href="{{previewurl}}"
+                            class="btn btn-secondary btn-sm"
+                            data-action="uckkarchive-preview-media"
+                            data-mediaid="{{id}}"
+                        >
+                            {{#str}} preview, mod_uckkarchive {{/str}}
+                        </a>
+                    {{/haspreview}}
+
+                    {{#candownload}}
+                        {{#downloadurl}}
+                            <a
+                                href="{{downloadurl}}"
+                                class="btn btn-secondary btn-sm"
+                                data-action="uckkarchive-download-media"
+                                data-mediaid="{{id}}"
+                            >
+                                {{#str}} download, mod_uckkarchive {{/str}}
+                            </a>
+                        {{/downloadurl}}
+                    {{/candownload}}
+
+                    {{#canedit}}
+                        <a
+                            href="{{editurl}}"
+                            class="btn btn-secondary btn-sm"
+                            data-action="uckkarchive-edit-media"
+                            data-mediaid="{{id}}"
+                        >
+                            {{#str}} edit, mod_uckkarchive {{/str}}
+                        </a>
+                    {{/canedit}}
+
+                    {{#canversion}}
+                        <a
+                            href="{{versionurl}}"
+                            class="btn btn-secondary btn-sm"
+                            data-action="uckkarchive-version-media"
+                            data-mediaid="{{id}}"
+                        >
+                            {{#str}} versions, mod_uckkarchive {{/str}}
+                        </a>
+                    {{/canversion}}
+
+                    {{#canexport}}
+                        <a
+                            href="{{exporturl}}"
+                            class="btn btn-secondary btn-sm"
+                            data-action="uckkarchive-export-media"
+                            data-mediaid="{{id}}"
+                        >
+                            {{#str}} export, mod_uckkarchive {{/str}}
+                        </a>
+                    {{/canexport}}
+
+                    {{#canmanageadvisories}}
+                        <button
+                            type="button"
+                            class="btn btn-secondary btn-sm"
+                            data-action="uckkarchive-manage-media-advisories"
+                            data-mediaid="{{id}}"
+                        >
+                            {{#str}} manageadvisories, mod_uckkarchive {{/str}}
+                        </button>
+                    {{/canmanageadvisories}}
+
+                    {{#canaddtocollection}}
+                        <button
+                            type="button"
+                            class="btn btn-secondary btn-sm"
+                            data-action="uckkarchive-add-media-to-collection"
+                            data-mediaid="{{id}}"
+                        >
+                            {{#str}} addtocollection, mod_uckkarchive {{/str}}
+                        </button>
+                    {{/canaddtocollection}}
+
+                    {{#canremovefromcollection}}
+                        <button
+                            type="button"
+                            class="btn btn-outline-danger btn-sm"
+                            data-action="uckkarchive-remove-media-from-collection"
+                            data-mediaid="{{id}}"
+                            data-collectionid="{{collectionid}}"
+                        >
+                            {{#str}} remove, mod_uckkarchive {{/str}}
+                        </button>
+                    {{/canremovefromcollection}}
+
+                    {{#candelete}}
+                        <button
+                            type="button"
+                            class="btn btn-outline-danger btn-sm"
+                            data-action="uckkarchive-delete-media"
+                            data-mediaid="{{id}}"
+                            data-confirm="{{#str}} confirmdeletemedia, mod_uckkarchive {{/str}}"
+                        >
+                            {{#str}} delete, mod_uckkarchive {{/str}}
+                        </button>
+                    {{/candelete}}
+                </footer>
+            </div>
+        </div>
+    </div>
+</article>

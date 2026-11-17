@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kristal:ai-coverage:1.0",
+  "title": "Kristal AI Coverage",
+  "type": "object",
+  "required": ["format", "state_ref", "state_logical_commitment", "semantic_ownership", "external_reference_count", "semantic_closure", "limitations"],
+  "properties": {
+    "format": {"const": "kristal.ai-coverage/1.0"},
+    "semantic_closure": {"enum": ["self_contained", "contains_pinned_external_references"]},
+    "external_reference_count": {"type": "integer", "minimum": 0},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  }
+}

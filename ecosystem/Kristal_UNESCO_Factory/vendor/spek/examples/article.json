@@ -1,0 +1,202 @@
+{
+  "format": "kristal.layout-article-source/0.1",
+  "article": {
+    "id": "urn:example:kristal:structured-publication-demo",
+    "title_key": "title",
+    "subtitle_key": "subtitle",
+    "abstract_key": "abstract"
+  },
+  "source": {
+    "origin": "illustrative_fixture",
+    "state_ref": null,
+    "state_commitment": null,
+    "artifact_refs": [],
+    "scientific_review": "not_submitted",
+    "disclosure": "local_demo_only",
+    "language_review": {
+      "fr": "fixture",
+      "en": "fixture",
+      "it": "fixture"
+    }
+  },
+  "units": [
+    {
+      "id": "u.result.claim",
+      "kind": "claim",
+      "realization_key": "u.result.claim",
+      "epistemic_status": "design_proposal",
+      "evidence_refs": [
+        "e.layout",
+        "e.tests"
+      ]
+    },
+    {
+      "id": "u.result.scope",
+      "kind": "scope",
+      "realization_key": "u.result.scope",
+      "epistemic_status": "method",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.result.limit",
+      "kind": "qualification",
+      "realization_key": "u.result.limit",
+      "epistemic_status": "limitation",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.result.impact",
+      "kind": "implication",
+      "realization_key": "u.result.impact",
+      "epistemic_status": "hypothesis",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.argument.thesis",
+      "kind": "thesis",
+      "realization_key": "u.argument.thesis",
+      "epistemic_status": "hypothesis",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.argument.premise1",
+      "kind": "premise",
+      "realization_key": "u.argument.premise1",
+      "epistemic_status": "method",
+      "evidence_refs": [
+        "e.layout"
+      ]
+    },
+    {
+      "id": "u.argument.premise2",
+      "kind": "premise",
+      "realization_key": "u.argument.premise2",
+      "epistemic_status": "observation",
+      "evidence_refs": [
+        "e.tests"
+      ]
+    },
+    {
+      "id": "u.argument.inference",
+      "kind": "inference",
+      "realization_key": "u.argument.inference",
+      "epistemic_status": "hypothesis",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.argument.objection",
+      "kind": "objection",
+      "realization_key": "u.argument.objection",
+      "epistemic_status": "limitation",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.argument.conclusion",
+      "kind": "conclusion",
+      "realization_key": "u.argument.conclusion",
+      "epistemic_status": "design_proposal",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.compare.topic",
+      "kind": "question",
+      "realization_key": "u.compare.topic",
+      "epistemic_status": "method",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.compare.criterion",
+      "kind": "criterion",
+      "realization_key": "u.compare.criterion",
+      "epistemic_status": "method",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.compare.prose",
+      "kind": "approach",
+      "realization_key": "u.compare.prose",
+      "epistemic_status": "design_proposal",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.compare.layout",
+      "kind": "approach",
+      "realization_key": "u.compare.layout",
+      "epistemic_status": "design_proposal",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.compare.conclusion",
+      "kind": "conclusion",
+      "realization_key": "u.compare.conclusion",
+      "epistemic_status": "hypothesis",
+      "evidence_refs": []
+    },
+    {
+      "id": "u.compare.limit",
+      "kind": "qualification",
+      "realization_key": "u.compare.limit",
+      "epistemic_status": "limitation",
+      "evidence_refs": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e.layout",
+      "realization_key": "e.layout",
+      "status": "local_artifact",
+      "locator": "layouts/*.json"
+    },
+    {
+      "id": "e.tests",
+      "realization_key": "e.tests",
+      "status": "local_artifact",
+      "locator": "tests/test_compiler.py"
+    }
+  ],
+  "sections": [
+    {
+      "id": "result",
+      "layout": "result-card",
+      "heading_key": "heading.result",
+      "slots": {
+        "claim": "u.result.claim",
+        "conditions": "u.result.scope",
+        "evidence": [
+          "e.layout",
+          "e.tests"
+        ],
+        "uncertainty": "u.result.limit",
+        "implications": "u.result.impact"
+      }
+    },
+    {
+      "id": "argument",
+      "layout": "argument-map",
+      "heading_key": "heading.argument",
+      "slots": {
+        "thesis": "u.argument.thesis",
+        "premises": [
+          "u.argument.premise1",
+          "u.argument.premise2"
+        ],
+        "inference": "u.argument.inference",
+        "objection": "u.argument.objection",
+        "conclusion": "u.argument.conclusion"
+      }
+    },
+    {
+      "id": "comparison",
+      "layout": "comparison",
+      "heading_key": "heading.comparison",
+      "slots": {
+        "topic": "u.compare.topic",
+        "criterion": "u.compare.criterion",
+        "approach_a": "u.compare.prose",
+        "approach_b": "u.compare.layout",
+        "synthesis": "u.compare.conclusion",
+        "limitations": "u.compare.limit"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "title":"Authoring Kit v4 reviewed identity-role map for safe diK conversion",
+ "type":"object","additionalProperties":false,
+ "required":["format","source_sha256","roles","review"],
+ "properties":{
+  "format":{"const":"kristal.identity-role-map/11.0"},
+  "source_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},
+  "roles":{"type":"array","minItems":1,"items":{
+    "type":"object","additionalProperties":false,"required":["path","role"],
+    "properties":{"path":{"type":"string","pattern":"^/"},"role":{"enum":["entity","property"]}}
+  }},
+  "review":{"type":"object","additionalProperties":false,"required":["decision_id","reviewer","reason","evidence_refs"],
+    "properties":{"decision_id":{"type":"string","minLength":1},"reviewer":{"type":"string","minLength":1},
+      "reason":{"type":"string","minLength":1},
+      "evidence_refs":{"type":"array","minItems":1,"uniqueItems":true,"items":{"type":"string","pattern":"^KS[1-9][0-9]*$"}}}}
+ }
+}

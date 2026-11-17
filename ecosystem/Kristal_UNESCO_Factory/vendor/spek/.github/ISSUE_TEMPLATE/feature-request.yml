@@ -1,0 +1,15 @@
+name: Feature proposal
+description: Suggest a layout, connector, or safety improvement
+title: "feature: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: User problem and scientific publishing use case
+    validations:
+      required: true
+  - type: textarea
+    id: contracts
+    attributes:
+      label: Affected semantic kinds, slots, or trust boundaries

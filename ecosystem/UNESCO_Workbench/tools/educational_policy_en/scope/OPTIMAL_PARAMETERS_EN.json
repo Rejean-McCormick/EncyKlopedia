@@ -1,0 +1,78 @@
+{
+  "format": "kristal.unesco.educational-policy.scope-optimization/2.0",
+  "branch_id": "mt1.10",
+  "branch_slug": "unesco-mt1-10",
+  "expected_concepts": 41,
+  "working_language": "en",
+  "identity_policy": {
+    "seed_authority": "UNESCO SKOS membership from locked Factory RUN",
+    "wikidata_root_source": "SINGLE_P3916_CANDIDATE and FOUND_IN_LOCAL_INDEX only",
+    "candidate_is_not_exact_match": true,
+    "auto_approve_identity": false,
+    "auto_promote_claims": false
+  },
+  "kristalizer": {
+    "max_results_per_label": 12,
+    "mode": "scan_only_before_review",
+    "note": "Kristalizer 1.2.2 accepts --max-results, not --scope. Scan may report MIGRATION_V11_REQUISE."
+  },
+  "maxwd": {
+    "selection_mode": "existing_domain_concepts",
+    "search_languages": ["en", "fr"],
+    "language_policy": "English is editorial language; French aliases are fallback identity leads only",
+    "exclude_migration_metadata": true,
+    "raw_properties": "all",
+    "follow_linked_entities": false,
+    "include_draft_for_private_research": true,
+    "candidates_per_label": 12,
+    "query_batch": 250,
+    "extraction_batch": 100,
+    "workers": 2,
+    "max_claims": 150000,
+    "verify_checksums": false,
+    "verification_policy": "Selection remains exploratory; checksum-disabled exports cannot be certified evidence without later independent verification",
+    "minimum_free_gib": 2,
+    "note": "Values are a scoped proposal. MaxWD's fixed 16 prepared workspaces cannot run this new project until a prepared workspace and manifest are properly produced."
+  },
+  "skope": {
+    "root_selection": "up_to_8_distinct_unambiguous_indexed_P3916_candidate_QIDs; prioritize_concept10_then_distribute_across_sorted_UNESCO_ids",
+    "max_roots": 8,
+    "outbound": {
+      "direction": "out",
+      "default_depth": 0,
+      "branches": {
+        "P31:out": 1,
+        "P279:out": 1,
+        "P361:out": 1,
+        "P527:out": 1,
+        "P749:out": 1,
+        "P17:out": 1,
+        "P101:out": 1
+      },
+      "max_entities": 160
+    },
+    "inbound_optional_review_only": {
+      "direction": "in",
+      "default_depth": 0,
+      "branches": {
+        "P279:in": 1,
+        "P361:in": 1
+      },
+      "max_entities": 80
+    },
+    "convergence": {
+      "threshold_percent": 5,
+      "min_support": 3,
+      "extra_depth": 0,
+      "include": []
+    },
+    "geography": {"mode": "off"},
+    "profile_pass_limit": 32,
+    "execution_policy": "recipe_proposals_only; do_not_auto_run"
+  },
+  "article_quality_policy": {
+    "required": ["sourced_definition", "jurisdiction_or_scope", "historical_context_where_relevant", "policy_mechanism", "evidence_and_limitations", "cross_branch_links", "primary_references"],
+    "wikidata_statements_as_canonical_facts": false,
+    "editorial_sampling": "concept10 first, then contrasting concepts, then complete 41"
+  }
+}

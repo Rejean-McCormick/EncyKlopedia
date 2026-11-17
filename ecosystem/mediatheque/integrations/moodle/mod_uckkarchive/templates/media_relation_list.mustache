@@ -1,0 +1,355 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+}}
+{{!
+    @template mod_uckkarchive/media_relation_list
+
+    Media relation list for UCKK Archive.
+
+    This template is UI-only. It displays relation data already filtered by
+    server-side permissions. It must not expose hidden relation metadata or
+    decide whether the current user can view, edit, remove, export, or traverse
+    restricted media.
+
+    Context example:
+    {
+        "cmid": 12,
+        "mediaid": 45,
+        "canmanagerelations": true,
+        "hasrelations": true,
+        "relationcount": 2,
+        "relations": [
+            {
+                "id": 1,
+                "uuid": "6f3e5e0e-1111-4444-9999-3d7d2b88a111",
+                "relationtype": "derivative_of",
+                "relationtypelabel": "Derivative of",
+                "direction": "outgoing",
+                "directionlabel": "Outgoing",
+                "sourceid": 45,
+                "sourcetitle": "Edited video",
+                "sourceurl": "https://example.test/mod/uckkarchive/media.php?id=12&mediaid=45",
+                "targetid": 31,
+                "targettitle": "Original video",
+                "targettype": "media",
+                "targettypelabel": "Media",
+                "targeturl": "https://example.test/mod/uckkarchive/media.php?id=12&mediaid=31",
+                "description": "Short relation note.",
+                "hasdescription": true,
+                "isrestricted": false,
+                "isculturalrestricted": false,
+                "isredacted": false,
+                "canviewtarget": true,
+                "canremove": true
+            }
+        ]
+    }
+}}
+
+<section
+    class="uckkarchive-media-relation-list"
+    data-region="uckkarchive-media-relation-list"
+    data-cmid="{{cmid}}"
+    data-mediaid="{{mediaid}}"
+>
+    <div class="uckkarchive-media-relation-list__header d-flex align-items-center justify-content-between mb-3">
+        <div>
+            <h3 class="h5 mb-1">
+                {{#str}} mediarelations, mod_uckkarchive {{/str}}
+            </h3>
+
+            <div class="text-muted small" data-region="media-relation-count">
+                {{#hasrelations}}
+                    {{#str}} relationcount, mod_uckkarchive, {{relationcount}} {{/str}}
+                {{/hasrelations}}
+                {{^hasrelations}}
+                    {{#str}} norelations, mod_uckkarchive {{/str}}
+                {{/hasrelations}}
+            </div>
+        </div>
+
+        <div class="uckkarchive-media-relation-list__actions">
+            <button
+                type="button"
+                class="btn btn-secondary btn-sm"
+                data-action="refresh-media-relations"
+                data-mediaid="{{mediaid}}"
+            >
+                {{#str}} refresh, moodle {{/str}}
+            </button>
+
+            {{#canmanagerelations}}
+                <button
+                    type="button"
+                    class="btn btn-primary btn-sm"
+                    data-action="open-media-relation-form"
+                    data-mediaid="{{mediaid}}"
+                >
+                    {{#str}} addmediarelation, mod_uckkarchive {{/str}}
+                </button>
+            {{/canmanagerelations}}
+        </div>
+    </div>
+
+    <div
+        class="uckkarchive-media-relation-list__status alert alert-info"
+        data-region="media-relation-status"
+        role="status"
+        aria-live="polite"
+        hidden
+    ></div>
+
+    {{#hasrelations}}
+        <ul class="list-group uckkarchive-media-relation-list__items">
+            {{#relations}}
+                <li
+                    class="list-group-item uckkarchive-media-relation"
+                    data-region="uckkarchive-media-relation"
+                    data-relationid="{{id}}"
+                    data-relationuuid="{{uuid}}"
+                    data-mediaid="{{sourceid}}"
+                    data-targetid="{{targetid}}"
+                    data-targettype="{{targettype}}"
+                >
+                    <div class="d-flex align-items-start justify-content-between">
+                        <div class="uckkarchive-media-relation__main">
+                            <div class="uckkarchive-media-relation__title mb-1">
+                                <span class="badge badge-info uckkarchive-media-relation__type">
+                                    {{relationtypelabel}}
+                                </span>
+
+                                {{#directionlabel}}
+                                    <span class="badge badge-light uckkarchive-media-relation__direction">
+                                        {{directionlabel}}
+                                    </span>
+                                {{/directionlabel}}
+
+                                {{#isrestricted}}
+                                    <span class="badge badge-danger uckkarchive-media-relation__restricted">
+                                        {{#str}} restricted, mod_uckkarchive {{/str}}
+                                    </span>
+                                {{/isrestricted}}
+
+                                {{#isculturalrestricted}}
+                                    <span class="badge badge-warning uckkarchive-media-relation__cultural">
+                                        {{#str}} culturalprotocol, mod_uckkarchive {{/str}}
+                                    </span>
+                                {{/isculturalrestricted}}
+
+                                {{#isredacted}}
+                                    <span class="badge badge-secondary uckkarchive-media-relation__redacted">
+                                        {{#str}} redacted, mod_uckkarchive {{/str}}
+                                    </span>
+                                {{/isredacted}}
+                            </div>
+
+                            <div class="uckkarchive-media-relation__path">
+                                <span class="uckkarchive-media-relation__source">
+                                    {{#sourceurl}}
+                                        <a href="{{sourceurl}}">
+                                            {{sourcetitle}}
+                                        </a>
+                                    {{/sourceurl}}
+                                    {{^sourceurl}}
+                                        {{sourcetitle}}
+                                    {{/sourceurl}}
+                                </span>
+
+                                <span class="uckkarchive-media-relation__arrow" aria-hidden="true">
+                                    →
+                                </span>
+
+                                <span class="uckkarchive-media-relation__target">
+                                    {{#canviewtarget}}
+                                        {{#targeturl}}
+                                            <a href="{{targeturl}}">
+                                                {{targettitle}}
+                                            </a>
+                                        {{/targeturl}}
+                                        {{^targeturl}}
+                                            {{targettitle}}
+                                        {{/targeturl}}
+                                    {{/canviewtarget}}
+
+                                    {{^canviewtarget}}
+                                        <span class="text-muted">
+                                            {{#str}} restrictedtarget, mod_uckkarchive {{/str}}
+                                        </span>
+                                    {{/canviewtarget}}
+                                </span>
+                            </div>
+
+                            <div class="uckkarchive-media-relation__meta text-muted small mt-1">
+                                {{#targettypelabel}}
+                                    <span>
+                                        {{#str}} targettype, mod_uckkarchive {{/str}}:
+                                        {{targettypelabel}}
+                                    </span>
+                                {{/targettypelabel}}
+
+                                {{#uuid}}
+                                    <span class="ml-2">
+                                        UUID: {{uuid}}
+                                    </span>
+                                {{/uuid}}
+                            </div>
+
+                            {{#hasdescription}}
+                                <div class="uckkarchive-media-relation__description mt-2">
+                                    {{{description}}}
+                                </div>
+                            {{/hasdescription}}
+
+                            {{#hasmetadata}}
+                                <details class="uckkarchive-media-relation__metadata mt-2">
+                                    <summary>
+                                        {{#str}} metadata, mod_uckkarchive {{/str}}
+                                    </summary>
+
+                                    <dl class="row mb-0 mt-2">
+                                        {{#metadata}}
+                                            <dt class="col-sm-4">{{key}}</dt>
+                                            <dd class="col-sm-8">{{value}}</dd>
+                                        {{/metadata}}
+                                    </dl>
+                                </details>
+                            {{/hasmetadata}}
+                        </div>
+
+                        <div class="uckkarchive-media-relation__controls ml-3">
+                            {{#canviewtarget}}
+                                {{#targeturl}}
+                                    <a
+                                        class="btn btn-secondary btn-sm"
+                                        href="{{targeturl}}"
+                                    >
+                                        {{#str}} view, moodle {{/str}}
+                                    </a>
+                                {{/targeturl}}
+                            {{/canviewtarget}}
+
+                            {{#canmanagerelations}}
+                                {{#canremove}}
+                                    <button
+                                        type="button"
+                                        class="btn btn-danger btn-sm"
+                                        data-action="remove-media-relation"
+                                        data-relationid="{{id}}"
+                                        data-mediaid="{{sourceid}}"
+                                    >
+                                        {{#str}} remove, moodle {{/str}}
+                                    </button>
+                                {{/canremove}}
+                            {{/canmanagerelations}}
+                        </div>
+                    </div>
+                </li>
+            {{/relations}}
+        </ul>
+    {{/hasrelations}}
+
+    {{^hasrelations}}
+        <div class="alert alert-info uckkarchive-media-relation-list__empty" data-region="media-relation-empty">
+            {{#str}} nomediarelations, mod_uckkarchive {{/str}}
+        </div>
+    {{/hasrelations}}
+
+    {{#canmanagerelations}}
+        <div
+            class="uckkarchive-media-relation-list__form mt-3"
+            data-region="media-relation-form-container"
+            hidden
+        >
+            <form data-region="media-relation-form">
+                <input type="hidden" name="cmid" value="{{cmid}}">
+                <input type="hidden" name="mediaid" value="{{mediaid}}">
+
+                <div class="form-group">
+                    <label for="uckkarchive-media-relation-type-{{mediaid}}">
+                        {{#str}} relationtype, mod_uckkarchive {{/str}}
+                    </label>
+                    <select
+                        id="uckkarchive-media-relation-type-{{mediaid}}"
+                        class="form-control"
+                        name="relationtype"
+                        required
+                    >
+                        {{#relationtypes}}
+                            <option value="{{key}}">{{label}}</option>
+                        {{/relationtypes}}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="uckkarchive-media-relation-target-type-{{mediaid}}">
+                        {{#str}} targettype, mod_uckkarchive {{/str}}
+                    </label>
+                    <select
+                        id="uckkarchive-media-relation-target-type-{{mediaid}}"
+                        class="form-control"
+                        name="targettype"
+                        required
+                    >
+                        <option value="media">
+                            {{#str}} media, mod_uckkarchive {{/str}}
+                        </option>
+                        <option value="external_work">
+                            {{#str}} externalwork, mod_uckkarchive {{/str}}
+                        </option>
+                        <option value="archive_item">
+                            {{#str}} archiveitem, mod_uckkarchive {{/str}}
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="uckkarchive-media-relation-target-id-{{mediaid}}">
+                        {{#str}} targetid, mod_uckkarchive {{/str}}
+                    </label>
+                    <input
+                        id="uckkarchive-media-relation-target-id-{{mediaid}}"
+                        class="form-control"
+                        type="number"
+                        name="targetid"
+                        min="1"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="uckkarchive-media-relation-description-{{mediaid}}">
+                        {{#str}} description, moodle {{/str}}
+                    </label>
+                    <textarea
+                        id="uckkarchive-media-relation-description-{{mediaid}}"
+                        class="form-control"
+                        name="description"
+                        rows="3"
+                    ></textarea>
+                </div>
+
+                <div class="d-flex justify-content-end">
+                    <button
+                        type="button"
+                        class="btn btn-secondary mr-2"
+                        data-action="close-media-relation-form"
+                    >
+                        {{#str}} cancel, moodle {{/str}}
+                    </button>
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary"
+                    >
+                        {{#str}} savechanges, moodle {{/str}}
+                    </button>
+                </div>
+            </form>
+        </div>
+    {{/canmanagerelations}}
+</section>

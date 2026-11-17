@@ -1,0 +1,101 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.rst-preparation",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Amorce puis contenu central",
+  "research_basis": {
+    "family": "coherence",
+    "relation": "rst.preparation",
+    "source": "RST",
+    "source_url": "https://www.sfu.ca/rst/07french/definitions.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "rst.preparation",
+    "editorial_relation_required": true,
+    "semantic_warning": "Amorce portant sur le contenu, pas de remplissage décoratif.",
+    "critical_questions": []
+  },
+  "slots": {
+    "preparation": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "context"
+      ],
+      "visual_role": "paragraph"
+    },
+    "nucleus": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "claim"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "preparation",
+    "nucleus"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": []
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "rst.preparation",
+    "focus_slot": "nucleus",
+    "moves": [
+      {
+        "slot": "preparation",
+        "function": "preparation",
+        "nuclearity": "satellite",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "nucleus",
+        "function": "nucleus",
+        "nuclearity": "nucleus",
+        "group": 1,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "preparation",
+        "to_slot": "nucleus",
+        "relation": "rst.preparation",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "preparation",
+        "nucleus"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Amorce portant sur le contenu, pas de remplissage décoratif."
+    }
+  }
+}

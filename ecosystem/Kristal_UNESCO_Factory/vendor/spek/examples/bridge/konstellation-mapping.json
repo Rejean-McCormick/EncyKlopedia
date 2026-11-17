@@ -1,0 +1,82 @@
+{
+  "format": "spek.bridge-map/0.1",
+  "expected_context": {
+    "dataset_ref": "demo:dataset:v1",
+    "reader_policy_ref": "demo:reader-policy:v1"
+  },
+  "navigation_template": "https://konstellation.example.org/explore?focus={id}",
+  "unit_bindings": {
+    "u.result.claim": {
+      "ref": "a.u.result.claim",
+      "payload_sha256": "sha256:6226548b2293541358f58164bb7267ff87057c22de590ce791fa7128f4904166"
+    },
+    "u.result.scope": {
+      "ref": "a.u.result.scope",
+      "payload_sha256": "sha256:101474a4dd488696337b1aed291452860d66a9b887d3048149c128fdefe119e1"
+    },
+    "u.result.limit": {
+      "ref": "a.u.result.limit",
+      "payload_sha256": "sha256:56e6dcb9cd1931b0eb18627148a470560eb4ba1c66e80b21dfffab33a927966a"
+    },
+    "u.result.impact": {
+      "ref": "a.u.result.impact",
+      "payload_sha256": "sha256:8e7d2016b7f1a73533b61b0aa6c55df0f1f3b75343e21a18e46e20ecfe1d3389"
+    },
+    "u.argument.thesis": {
+      "ref": "a.u.argument.thesis",
+      "payload_sha256": "sha256:9f03ab257b8b3e9c11fa5ede3a4a387d3dda2e308c3e3fbf6440f4947177749e"
+    },
+    "u.argument.premise1": {
+      "ref": "a.u.argument.premise1",
+      "payload_sha256": "sha256:c4d94f90f3b35109331c73908f84895d339eae191274074e956b92ba3d41e33c"
+    },
+    "u.argument.premise2": {
+      "ref": "a.u.argument.premise2",
+      "payload_sha256": "sha256:1bbf4c010068ee4a830f55337f1687ed5c8957715fd41966455fca53a5d98bc0"
+    },
+    "u.argument.inference": {
+      "ref": "a.u.argument.inference",
+      "payload_sha256": "sha256:2ada20edf8d039172293baebfa682cb2ce6ee8db8405ecbd65d5730fd5612c58"
+    },
+    "u.argument.objection": {
+      "ref": "a.u.argument.objection",
+      "payload_sha256": "sha256:a3d427047d535e34652036a6b5b2e8ec6fc1ae317f3348815ce38d0d714be6c6"
+    },
+    "u.argument.conclusion": {
+      "ref": "a.u.argument.conclusion",
+      "payload_sha256": "sha256:79c285976a40c013c47f2c2c0b8273a949c182d987847b3b0e9b25c589f69df3"
+    },
+    "u.compare.topic": {
+      "ref": "a.u.compare.topic",
+      "payload_sha256": "sha256:56ede36638aa4527176941c400847d498c731f30fa8227b3474eb956a3e17ee0"
+    },
+    "u.compare.criterion": {
+      "ref": "a.u.compare.criterion",
+      "payload_sha256": "sha256:7a33cadf597d8eb9ff378c1544c191f6f82999a6d460187280421ffbc7acdeac"
+    },
+    "u.compare.prose": {
+      "ref": "a.u.compare.prose",
+      "payload_sha256": "sha256:4ab5f3249ce58b900e98bd5b7fa1628593170b5c2967700d96758455b1b9374f"
+    },
+    "u.compare.layout": {
+      "ref": "a.u.compare.layout",
+      "payload_sha256": "sha256:4fcdbced0a8273d14870325140602979bf8f8212e8c197b17d0d2877fe474655"
+    },
+    "u.compare.conclusion": {
+      "ref": "a.u.compare.conclusion",
+      "payload_sha256": "sha256:73af0b579d23c029608e56a4b895314fbe8218487ce6dd5e8a22a1226872e31a"
+    },
+    "u.compare.limit": {
+      "ref": "a.u.compare.limit",
+      "payload_sha256": "sha256:6780102c12dac725736b825a515b2fa6286826e4d2d5206d2e445c6ab7f70419"
+    }
+  },
+  "evidence_bindings": {
+    "e.layout": {
+      "ref": "s.e.layout"
+    },
+    "e.tests": {
+      "ref": "s.e.tests"
+    }
+  }
+}

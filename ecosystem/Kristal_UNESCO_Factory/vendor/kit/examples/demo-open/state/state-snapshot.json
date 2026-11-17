@@ -1,0 +1,12 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:demo-open",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:172b8ace95a6f798f16bb482eb87be4601e0ea0b9269aeca7b22ceaf68362fe4"
+  },
+  "members": [],
+  "references": [],
+  "parents": []
+}

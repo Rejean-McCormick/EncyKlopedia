@@ -1,0 +1,4569 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادوات منزلية",
+          "تجهيزات منزلية",
+          "معدات منزلية"
+        ],
+        "en": [
+          "Household appliances"
+        ],
+        "es": [
+          "Aparato electrodoméstico"
+        ],
+        "fr": [
+          "Appareil ménager",
+          "Équipement ménager"
+        ],
+        "ru": [
+          "Бытовые приборы"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجهزة منزلية"
+        ],
+        "en": [
+          "Domestic appliances"
+        ],
+        "es": [
+          "Electrodoméstico"
+        ],
+        "fr": [
+          "Appareil électroménager"
+        ],
+        "ru": [
+          "Домашние приборы"
+        ]
+      },
+      "related": [
+        "concept647"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept646",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept646",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة كهربائية",
+          "تجهيزات كهربائية",
+          "تركيبات كهربائية",
+          "تمديدات كهربائية"
+        ],
+        "en": [
+          "Electrical installations"
+        ],
+        "es": [
+          "Instalación eléctrica",
+          "Material eléctrico"
+        ],
+        "fr": [
+          "Installation électrique"
+        ],
+        "ru": [
+          "Электроустановки"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:39+00:00",
+      "narrower": [
+        "concept9505"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدات كهربائية"
+        ],
+        "en": [
+          "Electrical equipment"
+        ],
+        "es": [
+          "Equipamiento eléctrico"
+        ],
+        "fr": [
+          "Équipement électrique"
+        ],
+        "ru": [
+          "Электрическое оборудование"
+        ]
+      },
+      "related": [
+        "concept1941",
+        "concept535",
+        "concept621",
+        "concept646"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept647",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept647",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة التدفئة",
+          "معدات التسخين"
+        ],
+        "fr": [
+          "Matériel thermique"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:32:48+00:00",
+      "narrower": [
+        "concept1942"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدات التدفئة"
+        ],
+        "en": [
+          "Heating equipment"
+        ],
+        "es": [
+          "Equipamiento de calefacción"
+        ],
+        "fr": [
+          "Équipement de chauffage"
+        ],
+        "ru": [
+          "Нагревательное оборудование"
+        ]
+      },
+      "related": [
+        "concept630"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept648",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept648",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "منشآت صناعية"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:55+00:00",
+      "narrower": [
+        "concept10674",
+        "concept12207",
+        "concept3249"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مرافق صناعية"
+        ],
+        "en": [
+          "Industrial facilities"
+        ],
+        "es": [
+          "Instalación industrial"
+        ],
+        "fr": [
+          "Installation industrielle"
+        ],
+        "ru": [
+          "Материально-техническая база промышленности"
+        ]
+      },
+      "related": [
+        "concept608"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept649",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept649",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة",
+          "الية",
+          "ماكينات",
+          "معدات"
+        ],
+        "en": [
+          "Machinery"
+        ],
+        "es": [
+          "Maquinaria"
+        ],
+        "fr": [
+          "Machinerie"
+        ],
+        "ru": [
+          "Машинное оборудование"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:03+00:00",
+      "narrower": [
+        "concept13600",
+        "concept13604",
+        "concept1759",
+        "concept3403"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الات"
+        ],
+        "en": [
+          "Machines"
+        ],
+        "es": [
+          "Máquina"
+        ],
+        "fr": [
+          "Machine"
+        ],
+        "ru": [
+          "Машины"
+        ]
+      },
+      "related": [
+        "concept3418",
+        "concept625",
+        "concept651"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept650",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept650",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة ميكانيكية",
+          "معدات الية"
+        ],
+        "fr": [
+          "Équipement technique"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:05+00:00",
+      "narrower": [
+        "concept10117",
+        "concept1226",
+        "concept6564"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدات ميكانيكية"
+        ],
+        "en": [
+          "Mechanical equipment"
+        ],
+        "es": [
+          "Equipamiento mecánico"
+        ],
+        "fr": [
+          "Équipement mécanique"
+        ],
+        "ru": [
+          "Механическое оборудование"
+        ]
+      },
+      "related": [
+        "concept625",
+        "concept650"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept651",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept651",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عتاد عسكري",
+          "معدات حربية"
+        ],
+        "es": [
+          "Material militar"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:09+00:00",
+      "narrower": [
+        "concept2864"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدات عسكرية"
+        ],
+        "en": [
+          "Military equipment"
+        ],
+        "es": [
+          "Equipamiento militar"
+        ],
+        "fr": [
+          "Équipement militaire"
+        ],
+        "ru": [
+          "Военное оборудование"
+        ]
+      },
+      "related": [
+        "concept613"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept652",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept652",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة الامان",
+          "اجهزة السلامة الوقائية"
+        ],
+        "en": [
+          "Protective safety devices"
+        ],
+        "es": [
+          "Mecanismo de seguridad"
+        ],
+        "fr": [
+          "Appareil de sécurité préventive",
+          "Dispositif de sûreté",
+          "Organe de sécurité"
+        ],
+        "ru": [
+          "Защитные устройства"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:34+00:00",
+      "narrower": [
+        "concept17045"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجهزة السلامة"
+        ],
+        "en": [
+          "Safety devices"
+        ],
+        "es": [
+          "Dispositivo de seguridad"
+        ],
+        "fr": [
+          "Dispositif de sécurité"
+        ],
+        "ru": [
+          "Устройства безопасности"
+        ]
+      },
+      "related": [
+        "concept10030",
+        "concept1161",
+        "concept1170",
+        "concept5845"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept653",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept653",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة علمية",
+          "ادوات علمية",
+          "تكنولوجيا الاجهزة"
+        ],
+        "en": [
+          "Instrumentation technology",
+          "Scientific instruments"
+        ],
+        "es": [
+          "Aparato científico",
+          "Herramienta científica",
+          "Instrumental científico"
+        ],
+        "fr": [
+          "Instrument scientifique",
+          "Technologie des grands instruments"
+        ],
+        "ru": [
+          "Контрольно-измерительные приборы",
+          "Научные инструменты"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:55+00:00",
+      "narrower": [
+        "concept10109",
+        "concept10122",
+        "concept11813",
+        "concept12690",
+        "concept3237",
+        "concept8550"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدات علمية"
+        ],
+        "en": [
+          "Scientific equipment"
+        ],
+        "es": [
+          "Equipamiento científico"
+        ],
+        "fr": [
+          "Équipement scientifique"
+        ],
+        "ru": [
+          "Научное оборудование"
+        ]
+      },
+      "related": [
+        "concept655"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept654",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept654",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مرافق البحوث",
+          "منشآت البحوث"
+        ],
+        "en": [
+          "Research facilities"
+        ],
+        "es": [
+          "Instalación para la investigación"
+        ],
+        "fr": [
+          "Installation de recherche"
+        ],
+        "ru": [
+          "Материально-техническая база научных исследований"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:24:59+00:00",
+      "narrower": [
+        "concept10251",
+        "concept10255",
+        "concept1122",
+        "concept13097",
+        "concept14202",
+        "concept15722",
+        "concept3221",
+        "concept4447",
+        "concept4850",
+        "concept8605"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مرافق علمية"
+        ],
+        "en": [
+          "Scientific facilities"
+        ],
+        "es": [
+          "Instalación científica"
+        ],
+        "fr": [
+          "Installation scientifique"
+        ],
+        "ru": [
+          "Материально-техническая база науки"
+        ]
+      },
+      "related": [
+        "concept4893",
+        "concept654"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept655",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept655",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بنية اساسية للنقل"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:58+00:00",
+      "narrower": [
+        "concept10253",
+        "concept11740",
+        "concept1567",
+        "concept4318",
+        "concept4580",
+        "concept4696"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بنية تحتية للنقل"
+        ],
+        "en": [
+          "Transport infrastructure"
+        ],
+        "es": [
+          "Infraestructura de transportes"
+        ],
+        "fr": [
+          "Infrastructure des transports"
+        ],
+        "ru": [
+          "Транспортная инфраструктура"
+        ]
+      },
+      "related": [
+        "concept4320",
+        "concept5319",
+        "concept631"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept656",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept656",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Medio de transporte"
+        ],
+        "fr": [
+          "Moyen de transport"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:05+00:00",
+      "narrower": [
+        "concept14291",
+        "concept1577",
+        "concept15808",
+        "concept3890",
+        "concept4445"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مركبات"
+        ],
+        "en": [
+          "Vehicles"
+        ],
+        "es": [
+          "Vehículo"
+        ],
+        "fr": [
+          "Véhicule"
+        ],
+        "ru": [
+          "Транспортные средства"
+        ]
+      },
+      "related": [
+        "concept14202",
+        "concept631"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept657",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept657",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة تحطيم الذرة",
+          "سيكلوترونات",
+          "مسرعات مدارية",
+          "معجلات الجسيمات"
+        ],
+        "en": [
+          "Cyclotrons"
+        ],
+        "es": [
+          "Ciclotrón"
+        ],
+        "fr": [
+          "Cyclotron"
+        ],
+        "ru": [
+          "Циклотроны"
+        ]
+      },
+      "broader": [
+        "concept655"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مسارعات الجسيمات"
+        ],
+        "en": [
+          "Particle accelerators"
+        ],
+        "es": [
+          "Acelerador de partículas"
+        ],
+        "fr": [
+          "Accélérateur de particules"
+        ],
+        "ru": [
+          "Ускорители частиц"
+        ]
+      },
+      "related": [
+        "concept128",
+        "concept144"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1122",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1122",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Equipo acústico"
+        ]
+      },
+      "broader": [
+        "concept651"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T12:47:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدات صوتية"
+        ],
+        "en": [
+          "Acoustic equipment"
+        ],
+        "es": [
+          "Equipo de sonido"
+        ],
+        "fr": [
+          "Équipement acoustique"
+        ],
+        "ru": [
+          "Акустическое оборудование"
+        ]
+      },
+      "related": [
+        "concept122"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1226",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1226",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "موانئ جوية"
+        ]
+      },
+      "broader": [
+        "concept656"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:24:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مطارات"
+        ],
+        "en": [
+          "Airports"
+        ],
+        "es": [
+          "Aeropuerto"
+        ],
+        "fr": [
+          "Aéroport"
+        ],
+        "ru": [
+          "Аэропорты"
+        ]
+      },
+      "related": [
+        "concept1959",
+        "concept1960"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1567",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1567",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مركبات جوية"
+        ],
+        "es": [
+          "Aeronave",
+          "Aeroplano",
+          "Avioneta"
+        ],
+        "fr": [
+          "Aéronef",
+          "Aéroplane"
+        ]
+      },
+      "broader": [
+        "concept657"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طائرات"
+        ],
+        "en": [
+          "Aircraft"
+        ],
+        "es": [
+          "Avión"
+        ],
+        "fr": [
+          "Avion"
+        ],
+        "ru": [
+          "Летательные аппараты"
+        ]
+      },
+      "related": [
+        "concept1572",
+        "concept1959"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1577",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1577",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ماكينات زراعية",
+          "معدات  زراعية"
+        ],
+        "es": [
+          "Máquina agrícola"
+        ],
+        "fr": [
+          "Instrument aratoire",
+          "Machine agricole"
+        ]
+      },
+      "broader": [
+        "concept650"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الات زراعية"
+        ],
+        "en": [
+          "Agricultural machinery"
+        ],
+        "es": [
+          "Maquinaria agrícola"
+        ],
+        "fr": [
+          "Matériel agricole"
+        ],
+        "ru": [
+          "Сельскохозяйственные машины"
+        ]
+      },
+      "related": [
+        "concept1753"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1759",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1759",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مضخات الحرارة"
+        ]
+      },
+      "broader": [
+        "concept648"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مضخات حرارية"
+        ],
+        "en": [
+          "Heat pumps"
+        ],
+        "es": [
+          "Bomba de calor"
+        ],
+        "fr": [
+          "Pompe à chaleur"
+        ],
+        "ru": [
+          "Нагреватели"
+        ]
+      },
+      "related": [
+        "concept1938",
+        "concept630"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1942",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1942",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحلية المياه باستخدام الطاقة الشمسية"
+        ],
+        "es": [
+          "Destilador solar"
+        ],
+        "fr": [
+          "Distillateur solaire"
+        ]
+      },
+      "broader": [
+        "concept4865"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقطرات شمسية"
+        ],
+        "en": [
+          "Solar stills"
+        ],
+        "es": [
+          "Alambique solar"
+        ],
+        "fr": [
+          "Alambic solaire"
+        ],
+        "ru": [
+          "Солнечные опреснители"
+        ]
+      },
+      "related": [
+        "concept12597",
+        "concept4820"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1975",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1975",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مسجلات البلانكتون",
+          "مسجلات الهوائم النباتية والحيوانية"
+        ]
+      },
+      "broader": [
+        "concept4270"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مسجلات العوالق"
+        ],
+        "en": [
+          "Plankton recorders"
+        ],
+        "es": [
+          "Aparato registrador de plancton"
+        ],
+        "fr": [
+          "Enregistreur de plancton"
+        ],
+        "ru": [
+          "Приборы для регистрации планктона"
+        ]
+      },
+      "related": [
+        "concept13753"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2542",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2542",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تسلح",
+          "سلاح"
+        ],
+        "en": [
+          "Armaments"
+        ],
+        "es": [
+          "Armamento"
+        ],
+        "fr": [
+          "Armement"
+        ],
+        "ru": [
+          "Вооружение"
+        ]
+      },
+      "broader": [
+        "concept652"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:34+00:00",
+      "narrower": [
+        "concept14200",
+        "concept2866",
+        "concept7376"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اسلحة"
+        ],
+        "en": [
+          "Weapons"
+        ],
+        "es": [
+          "Arma"
+        ],
+        "fr": [
+          "Arme"
+        ],
+        "ru": [
+          "Оружие"
+        ]
+      },
+      "related": [
+        "concept12047",
+        "concept2891",
+        "concept2898",
+        "concept4043",
+        "concept613"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2864",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2864",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اسلحة التدمير الشامل",
+          "اسلحة الدمار الشامل",
+          "اسلحة ذرية",
+          "قنبلة ذرية"
+        ],
+        "en": [
+          "Atomic bomb",
+          "Atomic weapons",
+          "Weapons of mass destruction"
+        ],
+        "es": [
+          "Arma atómica",
+          "Armas de destrucción masiva",
+          "Artefacto nuclear",
+          "Bomba atómica",
+          "Bomba nuclear"
+        ],
+        "fr": [
+          "Arme atomique",
+          "Armes de destruction massive",
+          "Bombe atomique",
+          "Bombe nucléaire",
+          "Engin nucléaire"
+        ],
+        "ru": [
+          "Атомная бомба",
+          "Атомное оружие",
+          "Оружие массового уничтожения"
+        ]
+      },
+      "broader": [
+        "concept2864"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اسلحة نووية"
+        ],
+        "en": [
+          "Nuclear weapons"
+        ],
+        "es": [
+          "Arma nuclear"
+        ],
+        "fr": [
+          "Arme nucléaire"
+        ],
+        "ru": [
+          "Ядерное оружие"
+        ]
+      },
+      "related": [
+        "concept11682",
+        "concept627"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2866",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2866",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اقمار اصطناعية",
+          "سواتل اصطناعية",
+          "سواتل صناعية"
+        ]
+      },
+      "broader": [
+        "concept14202"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:33+00:00",
+      "narrower": [
+        "concept3067",
+        "concept3068"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقمار صناعية"
+        ],
+        "en": [
+          "Artificial satellites"
+        ],
+        "es": [
+          "Satélite artificial"
+        ],
+        "fr": [
+          "Satellite artificiel"
+        ],
+        "ru": [
+          "Искусственные спутники"
+        ]
+      },
+      "related": [
+        "concept152",
+        "concept3070",
+        "concept3071",
+        "concept629"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3066",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3066",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سواتل الاتصالات",
+          "وصلات الاقمار الصناعية",
+          "وصلات ساتلية"
+        ],
+        "en": [
+          "Satellite links"
+        ],
+        "fr": [
+          "Lien satellite"
+        ],
+        "ru": [
+          "Спутниковая связь"
+        ]
+      },
+      "broader": [
+        "concept3066"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:33:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقمار الاتصالات"
+        ],
+        "en": [
+          "Communication satellites"
+        ],
+        "es": [
+          "Satélite de comunicación"
+        ],
+        "fr": [
+          "Satellite de communication"
+        ],
+        "ru": [
+          "Спутники связи"
+        ]
+      },
+      "related": [
+        "concept4333",
+        "concept539",
+        "concept5823",
+        "concept5824"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3067",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3067",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سواتل الارصاد الجوية"
+        ]
+      },
+      "broader": [
+        "concept3066"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:24:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقمار صناعية للارصاد الجوية"
+        ],
+        "en": [
+          "Meteorological satellites"
+        ],
+        "es": [
+          "Satélite meteorológico"
+        ],
+        "fr": [
+          "Satellite météorologique"
+        ],
+        "ru": [
+          "Метеорологические спутники"
+        ]
+      },
+      "related": [
+        "concept185",
+        "concept7436"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3068",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3068",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept655"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراصد فلكية"
+        ],
+        "en": [
+          "Astronomical observatories"
+        ],
+        "es": [
+          "Observatorio astronómico"
+        ],
+        "fr": [
+          "Observatoire astronomique"
+        ],
+        "ru": [
+          "Астрономические обсерватории"
+        ]
+      },
+      "related": [
+        "concept151",
+        "concept152"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3221",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3221",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادوات بصرية",
+          "تلسكوبات",
+          "عدسات",
+          "مرايا",
+          "مقرابات",
+          "مناظير"
+        ],
+        "en": [
+          "Lenses",
+          "Mirrors",
+          "Telescopes"
+        ],
+        "es": [
+          "Anteojo",
+          "Catalejo",
+          "Dispositivo óptico",
+          "Gafas",
+          "Lentillas",
+          "Periscopio",
+          "Telescopio"
+        ],
+        "fr": [
+          "Dispositif optique",
+          "Lentille",
+          "Miroir",
+          "Télescope"
+        ],
+        "ru": [
+          "Зеркала",
+          "Линзы",
+          "Телескопы"
+        ]
+      },
+      "broader": [
+        "concept654"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجهزة بصرية"
+        ],
+        "en": [
+          "Optical instruments"
+        ],
+        "es": [
+          "Instrumento óptico"
+        ],
+        "fr": [
+          "Instrument optique"
+        ],
+        "ru": [
+          "Оптические инструменты"
+        ]
+      },
+      "related": [
+        "concept129",
+        "concept152",
+        "concept537",
+        "concept9537"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3237",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3237",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ورش التصليح"
+        ]
+      },
+      "broader": [
+        "concept649"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ورش الاصلاح"
+        ],
+        "en": [
+          "Repair workshops"
+        ],
+        "es": [
+          "Taller de reparación"
+        ],
+        "fr": [
+          "Atelier de réparation"
+        ],
+        "ru": [
+          "Ремонтные мастерские"
+        ]
+      },
+      "related": [
+        "concept10674",
+        "concept13095",
+        "concept3251",
+        "concept9776"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3249",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3249",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انسان الي",
+          "رجال اليون",
+          "روبوتات"
+        ],
+        "en": [
+          "Robots"
+        ],
+        "es": [
+          "Robot"
+        ],
+        "fr": [
+          "Robot"
+        ],
+        "ru": [
+          "Роботы"
+        ]
+      },
+      "broader": [
+        "concept650"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "روبوتات صناعية"
+        ],
+        "en": [
+          "Industrial robots"
+        ],
+        "es": [
+          "Robot industrial"
+        ],
+        "fr": [
+          "Robot industriel"
+        ],
+        "ru": [
+          "Промышленные роботы"
+        ]
+      },
+      "related": [
+        "concept3055",
+        "concept3399",
+        "concept3401",
+        "concept6011",
+        "concept6127",
+        "concept9777"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3403",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3403",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دراجات هوائية"
+        ],
+        "fr": [
+          "Vélo"
+        ]
+      },
+      "broader": [
+        "concept657"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دراجات"
+        ],
+        "en": [
+          "Bicycles"
+        ],
+        "es": [
+          "Bicicleta"
+        ],
+        "fr": [
+          "Bicyclette"
+        ],
+        "ru": [
+          "Велосипеды"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3890",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3890",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept10117"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مضخات"
+        ],
+        "en": [
+          "Pumps"
+        ],
+        "es": [
+          "Bomba"
+        ],
+        "fr": [
+          "Pompe"
+        ],
+        "ru": [
+          "Насосы"
+        ]
+      },
+      "related": [
+        "concept612"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4170",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4170",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عوامات اوقيانوجرافية"
+        ],
+        "es": [
+          "Boya acuática",
+          "Boya marina",
+          "Boya marítima"
+        ]
+      },
+      "broader": [
+        "concept10122"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:31:20+00:00",
+      "narrower": [
+        "concept2542"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عوامات محيطية"
+        ],
+        "en": [
+          "Oceanographic buoys"
+        ],
+        "es": [
+          "Boya oceanográfica"
+        ],
+        "fr": [
+          "Bouée océanographique"
+        ],
+        "ru": [
+          "Океанографические буйки"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4270",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4270",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جسور",
+          "قناطر"
+        ]
+      },
+      "broader": [
+        "concept656"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كباري"
+        ],
+        "en": [
+          "Bridges"
+        ],
+        "es": [
+          "Puente"
+        ],
+        "fr": [
+          "Pont"
+        ],
+        "ru": [
+          "Мосты"
+        ]
+      },
+      "related": [
+        "concept4320",
+        "concept4321"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4318",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4318",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Vessels"
+        ],
+        "es": [
+          "Barco",
+          "Embarcación",
+          "Navío"
+        ],
+        "fr": [
+          "Bateau",
+          "Vaisseau"
+        ],
+        "ru": [
+          "Корабли"
+        ]
+      },
+      "broader": [
+        "concept657"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:24:17+00:00",
+      "narrower": [
+        "concept13759"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سفن"
+        ],
+        "en": [
+          "Ships"
+        ],
+        "es": [
+          "Buque"
+        ],
+        "fr": [
+          "Navire"
+        ],
+        "ru": [
+          "Суда"
+        ]
+      },
+      "related": [
+        "concept11387",
+        "concept11744",
+        "concept4447",
+        "concept6403"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4445",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4445",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "السفن البحثية",
+          "سفن بحوث"
+        ],
+        "en": [
+          "Research vessels"
+        ],
+        "ru": [
+          "Научно-исследовательские корабли"
+        ]
+      },
+      "broader": [
+        "concept655"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:24:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سفن ابحاث"
+        ],
+        "en": [
+          "Research ships"
+        ],
+        "es": [
+          "Buque de investigación"
+        ],
+        "fr": [
+          "Navire de recherche"
+        ],
+        "ru": [
+          "Научно-исследовательские суда"
+        ]
+      },
+      "related": [
+        "concept10122",
+        "concept10255",
+        "concept10630",
+        "concept12902",
+        "concept13099",
+        "concept4445"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4447",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4447",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ترع"
+        ]
+      },
+      "broader": [
+        "concept656"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قنوات"
+        ],
+        "en": [
+          "Canals"
+        ],
+        "es": [
+          "Canal"
+        ],
+        "fr": [
+          "Canal"
+        ],
+        "ru": [
+          "Каналы"
+        ]
+      },
+      "related": [
+        "concept1874",
+        "concept4582",
+        "concept4583"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4580",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4580",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept656"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طرق"
+        ],
+        "en": [
+          "Roads"
+        ],
+        "es": [
+          "Carretera"
+        ],
+        "fr": [
+          "Route"
+        ],
+        "ru": [
+          "Дороги"
+        ]
+      },
+      "related": [
+        "concept14294",
+        "concept4321"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4696",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4696",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Célula fotovoltaíca"
+        ],
+        "fr": [
+          "Cellule photovoltaïque",
+          "Pile solaire"
+        ]
+      },
+      "broader": [
+        "concept4865"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:23:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خلايا شمسية"
+        ],
+        "en": [
+          "Solar cells"
+        ],
+        "es": [
+          "Célula solar"
+        ],
+        "fr": [
+          "Cellule solaire"
+        ],
+        "ru": [
+          "Солнечные батареи"
+        ]
+      },
+      "related": [
+        "concept12597",
+        "concept1975"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4820",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4820",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "محطات الطاقة الكهربائية",
+          "محطات توليد الكهرباء"
+        ]
+      },
+      "broader": [
+        "concept655"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:37+00:00",
+      "narrower": [
+        "concept4861",
+        "concept4863",
+        "concept4865",
+        "concept4867"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محطات توليد الطاقة الكهربائية"
+        ],
+        "en": [
+          "Electric power stations"
+        ],
+        "es": [
+          "Central eléctrica"
+        ],
+        "fr": [
+          "Centrale électrique"
+        ],
+        "ru": [
+          "Электростанции"
+        ]
+      },
+      "related": [
+        "concept9508"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4850",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4850",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "محطات الطاقة الكهربائية المائية",
+          "محطات توليد الطاقة الكهرومائية"
+        ]
+      },
+      "broader": [
+        "concept4850"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محطات الطاقة الكهرومائية"
+        ],
+        "en": [
+          "Hydroelectric power stations"
+        ],
+        "es": [
+          "Central hidroeléctrica"
+        ],
+        "fr": [
+          "Centrale hydroélectrique"
+        ],
+        "ru": [
+          "Гидроэлектростанции"
+        ]
+      },
+      "related": [
+        "concept12080",
+        "concept3585",
+        "concept612",
+        "concept7359"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4861",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4861",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Central atómica"
+        ],
+        "fr": [
+          "Centrale atomique"
+        ]
+      },
+      "broader": [
+        "concept4850"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:16+00:00",
+      "narrower": [
+        "concept14623"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محطات الطاقة النووية"
+        ],
+        "en": [
+          "Nuclear power stations"
+        ],
+        "es": [
+          "Central nuclear"
+        ],
+        "fr": [
+          "Centrale nucléaire"
+        ],
+        "ru": [
+          "Атомные электростанции"
+        ]
+      },
+      "related": [
+        "concept14625",
+        "concept627",
+        "concept7378",
+        "concept9717"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4863",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4863",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Central electrosolar"
+        ],
+        "fr": [
+          "Centrale électrosolaire"
+        ]
+      },
+      "broader": [
+        "concept4850"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:23:40+00:00",
+      "narrower": [
+        "concept1975",
+        "concept4820"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محطات الطاقة الشمسية"
+        ],
+        "en": [
+          "Solar power stations"
+        ],
+        "es": [
+          "Central solar"
+        ],
+        "fr": [
+          "Centrale solaire"
+        ],
+        "ru": [
+          "Электростанции, работающие от энергии солнца"
+        ]
+      },
+      "related": [
+        "concept12597",
+        "concept6688",
+        "concept9719"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4865",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4865",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "محطات حرارية لتوليد الكهرباء"
+        ],
+        "es": [
+          "Central termoeléctrica"
+        ],
+        "fr": [
+          "Centrale thermoélectrique",
+          "Usine thermique"
+        ]
+      },
+      "broader": [
+        "concept4850"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محطات الطاقة الحرارية"
+        ],
+        "en": [
+          "Thermal power stations"
+        ],
+        "es": [
+          "Central térmica"
+        ],
+        "fr": [
+          "Centrale thermique"
+        ],
+        "ru": [
+          "Тепловые электростанции"
+        ]
+      },
+      "related": [
+        "concept9721"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4867",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4867",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة قياس الزمن",
+          "ساعات"
+        ],
+        "en": [
+          "Clocks"
+        ],
+        "es": [
+          "Cronómetro",
+          "Despertador",
+          "Péndulo",
+          "Reloj"
+        ],
+        "fr": [
+          "Horloge",
+          "Montre",
+          "Pendule",
+          "Réveil",
+          "Réveille-matin"
+        ],
+        "ru": [
+          "Часы"
+        ]
+      },
+      "broader": [
+        "concept12690"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادوات قياس الوقت"
+        ],
+        "en": [
+          "Time measuring instruments"
+        ],
+        "es": [
+          "Instrumento de medición del tiempo"
+        ],
+        "fr": [
+          "Instrument de mesure du temps"
+        ],
+        "ru": [
+          "Инструменты времяисчисления"
+        ]
+      },
+      "related": [
+        "concept2676",
+        "concept4526",
+        "concept5166"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5168",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5168",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept12690"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:24:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رادار"
+        ],
+        "en": [
+          "Radar"
+        ],
+        "es": [
+          "Radar"
+        ],
+        "fr": [
+          "Radar"
+        ],
+        "ru": [
+          "Радар"
+        ]
+      },
+      "related": [
+        "concept5840",
+        "concept653"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5845",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5845",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انظمة التبريد"
+        ],
+        "es": [
+          "Método de enfriamiento"
+        ]
+      },
+      "broader": [
+        "concept651"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم التبريد"
+        ],
+        "en": [
+          "Cooling systems"
+        ],
+        "es": [
+          "Sistema de enfriamiento"
+        ],
+        "fr": [
+          "Système de refroidissement"
+        ],
+        "ru": [
+          "Системы охлаждения"
+        ]
+      },
+      "related": [
+        "concept4425",
+        "concept6276",
+        "concept6566",
+        "concept6567"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6564",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6564",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استجهار",
+          "تشخيص مجهري",
+          "فحص مجهري",
+          "مجاهر",
+          "مجاهر الكترونية",
+          "ميكروسكوبات الكترونية"
+        ],
+        "en": [
+          "Electron microscopes",
+          "Microscopy"
+        ],
+        "es": [
+          "Microscopio electrónico"
+        ],
+        "fr": [
+          "Microscope électronique",
+          "Microscopie"
+        ],
+        "ru": [
+          "Микроскопия",
+          "Электронные микроскопы"
+        ]
+      },
+      "broader": [
+        "concept10109"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميكروسكوبات"
+        ],
+        "en": [
+          "Microscopes"
+        ],
+        "es": [
+          "Microscopio"
+        ],
+        "fr": [
+          "Microscope"
+        ],
+        "ru": [
+          "Микроскопы"
+        ]
+      },
+      "related": [
+        "concept10596",
+        "concept123"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6903",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6903",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "الغام برية",
+          "الغام مضادة للافراد"
+        ],
+        "en": [
+          "Antipersonnel mines"
+        ],
+        "es": [
+          "Mina antipersona",
+          "Mina antipersonal"
+        ],
+        "fr": [
+          "Mine antipersonnel"
+        ],
+        "ru": [
+          "Противопехотные мины"
+        ]
+      },
+      "broader": [
+        "concept2864"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الغام ارضية"
+        ],
+        "en": [
+          "Land mines"
+        ],
+        "es": [
+          "Mina terrestre"
+        ],
+        "fr": [
+          "Mine terrestre"
+        ],
+        "ru": [
+          "Наземные мины"
+        ]
+      },
+      "related": [
+        "concept204",
+        "concept559",
+        "concept8105",
+        "concept8106"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7376",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7376",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معدات الغطس"
+        ],
+        "es": [
+          "Equipo de inmersión",
+          "Equipo de submarinismo"
+        ]
+      },
+      "broader": [
+        "concept10122"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدات الغوص"
+        ],
+        "en": [
+          "Diving equipment"
+        ],
+        "es": [
+          "Equipo de buceo"
+        ],
+        "fr": [
+          "Équipement de plongée"
+        ],
+        "ru": [
+          "Оборудование для подводного погружения"
+        ]
+      },
+      "related": [
+        "concept7535"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7537",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7537",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة طبية",
+          "ادوات طبية",
+          "تجهيزات طبية"
+        ],
+        "en": [
+          "Medical instruments"
+        ],
+        "es": [
+          "Equipamiento médico",
+          "Equipo sanitario",
+          "Instrumental médico",
+          "Instrumental sanitario",
+          "Material médico"
+        ],
+        "fr": [
+          "Instrument médical"
+        ],
+        "ru": [
+          "Медицинские инструменты"
+        ]
+      },
+      "broader": [
+        "concept654"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدات طبية"
+        ],
+        "en": [
+          "Medical equipment"
+        ],
+        "es": [
+          "Material sanitario"
+        ],
+        "fr": [
+          "Équipement médical"
+        ],
+        "ru": [
+          "Медицинское оборудование"
+        ]
+      },
+      "related": [
+        "concept242",
+        "concept5033"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8550",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8550",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مراصد الاهتزازات"
+        ]
+      },
+      "broader": [
+        "concept655"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراصد الزلازل"
+        ],
+        "en": [
+          "Seismological observatories"
+        ],
+        "es": [
+          "Observatorio sismológico"
+        ],
+        "fr": [
+          "Observatoire sismologique"
+        ],
+        "ru": [
+          "Сейсмологические станции"
+        ]
+      },
+      "related": [
+        "concept8143",
+        "concept8600",
+        "concept8601"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8605",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8605",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة قياس الزلازل",
+          "اجهزة قياس الهزات",
+          "سيزموجرافات",
+          "سيزمومتر",
+          "مسجلات الاهتزازات",
+          "مسجلات الزلازل",
+          "مقاييس سيزمية"
+        ],
+        "en": [
+          "Seismographs"
+        ],
+        "es": [
+          "Seismógrafo",
+          "Sismógrafo"
+        ],
+        "fr": [
+          "Sismographe",
+          "Séismographe"
+        ],
+        "ru": [
+          "Сейсмографы"
+        ]
+      },
+      "broader": [
+        "concept12690"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقاييس الزلازل"
+        ],
+        "en": [
+          "Seismometers"
+        ],
+        "es": [
+          "Sismómetro"
+        ],
+        "fr": [
+          "Sismomètre"
+        ],
+        "ru": [
+          "Сейсмометры"
+        ]
+      },
+      "related": [
+        "concept8600",
+        "concept8601",
+        "concept9788"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8610",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8610",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ماكينات كهربائية"
+        ]
+      },
+      "broader": [
+        "concept647"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الات كهربائية"
+        ],
+        "en": [
+          "Electric machines"
+        ],
+        "es": [
+          "Máquina eléctrica"
+        ],
+        "fr": [
+          "Machine électrique"
+        ],
+        "ru": [
+          "Электрические машины"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9505",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9505",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة المختبرات",
+          "اجهزة المعامل",
+          "ادوات المختبرات",
+          "ادوات المعامل",
+          "معدات المعامل"
+        ],
+        "en": [
+          "Laboratory instruments"
+        ],
+        "es": [
+          "Equipamiento de laboratorio",
+          "Instrumental de laboratorio",
+          "Instrumentos de laboratorio"
+        ],
+        "fr": [
+          "Appareil de laboratoire",
+          "Matériel de laboratoire"
+        ],
+        "ru": [
+          "Лабораторные инструменты"
+        ]
+      },
+      "broader": [
+        "concept654"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:30+00:00",
+      "narrower": [
+        "concept10236",
+        "concept6903"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدات المختبرات"
+        ],
+        "en": [
+          "Laboratory equipment"
+        ],
+        "es": [
+          "Material de laboratorio"
+        ],
+        "fr": [
+          "Équipement de laboratoire"
+        ],
+        "ru": [
+          "Лабораторное оборудование"
+        ]
+      },
+      "related": [
+        "concept12690",
+        "concept13095",
+        "concept13097"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10109",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10109",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احتياطيات عائمة",
+          "انابيب",
+          "عوامات",
+          "محطات عائمة",
+          "معدات مائية",
+          "معدات هيدرولوجية",
+          "معدات هيدرولية",
+          "مواسير"
+        ],
+        "en": [
+          "Floats",
+          "Pipes"
+        ],
+        "es": [
+          "Boya",
+          "Cañería"
+        ],
+        "fr": [
+          "Canalisation",
+          "Flotteur"
+        ],
+        "ru": [
+          "Поплавки",
+          "Трубы"
+        ]
+      },
+      "broader": [
+        "concept651"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:35+00:00",
+      "narrower": [
+        "concept4170"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدات هيدروليكية"
+        ],
+        "en": [
+          "Hydraulic equipment"
+        ],
+        "es": [
+          "Equipamiento hidráulico"
+        ],
+        "fr": [
+          "Équipement hydraulique"
+        ],
+        "ru": [
+          "Гидравлическое оборудование"
+        ]
+      },
+      "related": [
+        "concept10310",
+        "concept612"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10117",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10117",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة اوقيانوجرافية",
+          "ادوات اوقيانوجرافية",
+          "معدات علمية بحرية"
+        ],
+        "en": [
+          "Oceanographic instruments"
+        ],
+        "es": [
+          "Herramienta oceanográfica",
+          "Instrumento oceanográfico",
+          "Material oceanográfico"
+        ],
+        "fr": [
+          "Appareil océanographique",
+          "Instrument océanographique"
+        ],
+        "ru": [
+          "Океанографические инструменты"
+        ]
+      },
+      "broader": [
+        "concept654"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:30+00:00",
+      "narrower": [
+        "concept4270",
+        "concept7537"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدات اوقيانوجرافية"
+        ],
+        "en": [
+          "Oceanographic equipment"
+        ],
+        "es": [
+          "Equipo oceanográfico"
+        ],
+        "fr": [
+          "Équipement océanographique"
+        ],
+        "ru": [
+          "Океанографическое оборудование"
+        ]
+      },
+      "related": [
+        "concept12078",
+        "concept12902",
+        "concept13099",
+        "concept4447",
+        "concept7438"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10122",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10122",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل طيفي",
+          "تحليل طيفي للكتل",
+          "تخطيط طيفي",
+          "تصوير طيفي",
+          "رسم طيفي",
+          "رصد طيفي",
+          "قياس الطيف الكُتلي",
+          "قياس طيفي",
+          "مطيافات",
+          "مناظير طيفية"
+        ],
+        "en": [
+          "Mass spectroscopy",
+          "Spectophotography",
+          "Spectrography",
+          "Spectroscopy"
+        ],
+        "es": [
+          "Espectrografía",
+          "Espectrometría de masas",
+          "Espectroscopia"
+        ],
+        "fr": [
+          "Spectrographie",
+          "Spectrométrie de masse",
+          "Spectroscopie",
+          "Spectroscopie de masse"
+        ],
+        "ru": [
+          "Масс-спектроскопия",
+          "Спектофотография",
+          "Спектрография",
+          "Спектроскопия"
+        ]
+      },
+      "broader": [
+        "concept10109"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقاييس الطيف"
+        ],
+        "en": [
+          "Spectrometers"
+        ],
+        "es": [
+          "Espectrómetro"
+        ],
+        "fr": [
+          "Spectromètre"
+        ],
+        "ru": [
+          "Спектрометры"
+        ]
+      },
+      "related": [
+        "concept12690",
+        "concept2236"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10236",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10236",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "محطات الفضاء",
+          "مراصد فضائية"
+        ],
+        "en": [
+          "Space observatories"
+        ],
+        "es": [
+          "Base lunar",
+          "Observatorio espacial",
+          "Plataforma espacial"
+        ],
+        "fr": [
+          "Base lunaire",
+          "Observatoire spatial",
+          "Plateforme spatiale"
+        ],
+        "ru": [
+          "Космические обсерватории"
+        ]
+      },
+      "broader": [
+        "concept655"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:24:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محطات فضائية"
+        ],
+        "en": [
+          "Space stations"
+        ],
+        "es": [
+          "Estación espacial"
+        ],
+        "fr": [
+          "Station spatiale"
+        ],
+        "ru": [
+          "Космические станции"
+        ]
+      },
+      "related": [
+        "concept10626",
+        "concept14202",
+        "concept629"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يتضمن المحطات الفضائية المدارية والقواعد القمرية .. إلخ."
+        ],
+        "en": [
+          "Includes orbiting space stations, lunar bases, etc."
+        ],
+        "fr": [
+          "Inclue les stations spatiales de mise en orbite, les bases lunaires, etc."
+        ],
+        "ru": [
+          "Включает орбитальные космические станции, луноходы и т.д."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10251",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10251",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "محطات القطار"
+        ],
+        "es": [
+          "Estación ferroviaria"
+        ],
+        "fr": [
+          "Gare",
+          "Gare de chemin de fer"
+        ]
+      },
+      "broader": [
+        "concept656"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محطات السكك الحديدية"
+        ],
+        "en": [
+          "Railway stations"
+        ],
+        "es": [
+          "Estación de tren"
+        ],
+        "fr": [
+          "Gare ferroviaire"
+        ],
+        "ru": [
+          "Железнодорожные станции"
+        ]
+      },
+      "related": [
+        "concept15808"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10253",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10253",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Estación oceánica"
+        ]
+      },
+      "broader": [
+        "concept655"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محطات محيطية"
+        ],
+        "en": [
+          "Ocean stations"
+        ],
+        "es": [
+          "Plataforma oceánica"
+        ],
+        "fr": [
+          "Station océanique"
+        ],
+        "ru": [
+          "Океанические станции"
+        ]
+      },
+      "related": [
+        "concept12902",
+        "concept13099",
+        "concept4447"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10255",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10255",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مصانع",
+          "وحدات الانتاج الصناعية",
+          "وحدات صناعية"
+        ],
+        "en": [
+          "Factories"
+        ],
+        "es": [
+          "Factoría",
+          "Manufactura"
+        ],
+        "fr": [
+          "Fabrique",
+          "Manufacture"
+        ],
+        "ru": [
+          "Фабрики"
+        ]
+      },
+      "broader": [
+        "concept649"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:31:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منشآت صناعية"
+        ],
+        "en": [
+          "Industrial plants"
+        ],
+        "es": [
+          "Fábrica"
+        ],
+        "fr": [
+          "Usine"
+        ],
+        "ru": [
+          "Промышленные заводы"
+        ]
+      },
+      "related": [
+        "concept3249"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10674",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10674",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مرافئ"
+        ],
+        "en": [
+          "Ports"
+        ],
+        "es": [
+          "Muelle",
+          "Puerto"
+        ],
+        "fr": [
+          "Port"
+        ],
+        "ru": [
+          "Порты"
+        ]
+      },
+      "broader": [
+        "concept656"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موانئ"
+        ],
+        "en": [
+          "Harbours"
+        ],
+        "es": [
+          "Instalación portuaria"
+        ],
+        "fr": [
+          "Installation portuaire"
+        ],
+        "ru": [
+          "Бухты"
+        ]
+      },
+      "related": [
+        "concept11744",
+        "concept5520"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11740",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11740",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رسوم بيانية مائية",
+          "رسوم مائية",
+          "هيدروجرافيات"
+        ]
+      },
+      "broader": [
+        "concept654"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خريطة مائية"
+        ],
+        "en": [
+          "Hydrographs"
+        ],
+        "es": [
+          "Hidrógrafo"
+        ],
+        "fr": [
+          "Hydrographe"
+        ],
+        "ru": [
+          "Гидрографы"
+        ]
+      },
+      "related": [
+        "concept12097"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11813",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11813",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "توربينات الماء",
+          "توربينات المياه"
+        ],
+        "fr": [
+          "Turbine hydraulique"
+        ]
+      },
+      "broader": [
+        "concept13604"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توربينات مائية"
+        ],
+        "en": [
+          "Water turbines"
+        ],
+        "es": [
+          "Turbina hidráulica"
+        ],
+        "fr": [
+          "Turbine à eau"
+        ],
+        "ru": [
+          "Водяные турбины"
+        ]
+      },
+      "related": [
+        "concept4861",
+        "concept612"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12080",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12080",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept649"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:23:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ورش الطباعة"
+        ],
+        "en": [
+          "Printing workshops"
+        ],
+        "es": [
+          "Imprenta"
+        ],
+        "fr": [
+          "Imprimerie"
+        ],
+        "ru": [
+          "Типографии"
+        ]
+      },
+      "related": [
+        "concept538"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12207",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12207",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة القياس",
+          "اجهزة دقيقة",
+          "اجهزة قياس بالغة الدقة",
+          "ادوات دقيقة",
+          "الات القياس",
+          "مقاييس",
+          "وسائل القياس"
+        ],
+        "en": [
+          "Gauges",
+          "Precision instruments"
+        ],
+        "es": [
+          "Aparato de medición",
+          "Instrumento de medición"
+        ],
+        "fr": [
+          "Appareil de mesure",
+          "Instrument de précision",
+          "Jauge"
+        ],
+        "ru": [
+          "Датчики",
+          "Прецизионные инструменты"
+        ]
+      },
+      "broader": [
+        "concept654"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:28+00:00",
+      "narrower": [
+        "concept5168",
+        "concept5845",
+        "concept8610"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادوات القياس"
+        ],
+        "en": [
+          "Measuring instruments"
+        ],
+        "es": [
+          "Instrumento de medida"
+        ],
+        "fr": [
+          "Instrument de mesure"
+        ],
+        "ru": [
+          "Измерительные инструменты"
+        ]
+      },
+      "related": [
+        "concept10109",
+        "concept10236",
+        "concept13884",
+        "concept1557",
+        "concept17045",
+        "concept5899"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12690",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12690",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مختبرات البحوث",
+          "معامل الابحاث",
+          "معامل البحوث"
+        ]
+      },
+      "broader": [
+        "concept655"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:33+00:00",
+      "narrower": [
+        "concept13099"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مختبرات الابحاث"
+        ],
+        "en": [
+          "Research laboratories"
+        ],
+        "es": [
+          "Laboratorio de investigación"
+        ],
+        "fr": [
+          "Laboratoire de recherche"
+        ],
+        "ru": [
+          "Исследовательские лаборатории"
+        ]
+      },
+      "related": [
+        "concept10109",
+        "concept4893"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13097",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13097",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مختبرات علوم المحيطات"
+        ],
+        "es": [
+          "Laboratorios de oceanografía",
+          "Laboratorios marinos"
+        ],
+        "fr": [
+          "Laboratoire d'océanographie",
+          "Laboratoire d'océanologie"
+        ]
+      },
+      "broader": [
+        "concept13097"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:24:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مختبرات اوقيانوجرافية"
+        ],
+        "en": [
+          "Oceanographic laboratories"
+        ],
+        "es": [
+          "Laboratorio oceanográfico"
+        ],
+        "fr": [
+          "Laboratoire océanographique"
+        ],
+        "ru": [
+          "Океанографические лаборатории"
+        ]
+      },
+      "related": [
+        "concept10122",
+        "concept10255",
+        "concept12098",
+        "concept12902",
+        "concept4447",
+        "concept7438"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13099",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13099",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عِدَد الية",
+          "عِدَد مكنية"
+        ]
+      },
+      "broader": [
+        "concept650"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادوات الية"
+        ],
+        "en": [
+          "Machine tools"
+        ],
+        "es": [
+          "Máquina herramienta"
+        ],
+        "fr": [
+          "Machine-outil"
+        ],
+        "ru": [
+          "Станки"
+        ]
+      },
+      "related": [
+        "concept2978",
+        "concept9777"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13600",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13600",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عنفات"
+        ]
+      },
+      "broader": [
+        "concept650"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:24:43+00:00",
+      "narrower": [
+        "concept12080"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توربينات"
+        ],
+        "en": [
+          "Turbines"
+        ],
+        "es": [
+          "Turbina"
+        ],
+        "fr": [
+          "Turbine"
+        ],
+        "ru": [
+          "Турбины"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13604",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13604",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4445"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "غواصات"
+        ],
+        "en": [
+          "Submarines"
+        ],
+        "es": [
+          "Submarino"
+        ],
+        "fr": [
+          "Sous-marin"
+        ],
+        "ru": [
+          "Подводные лодки"
+        ]
+      },
+      "related": [
+        "concept11387",
+        "concept11744",
+        "concept12078"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13759",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13759",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صواريخ باليستية",
+          "صواريخ تسيارية",
+          "قذائف",
+          "قذائف تسيارية"
+        ],
+        "en": [
+          "Ballistic missiles"
+        ],
+        "es": [
+          "Misil balístico"
+        ],
+        "fr": [
+          "Missile balistique"
+        ],
+        "ru": [
+          "Баллистические ракеты"
+        ]
+      },
+      "broader": [
+        "concept2864"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:25:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صواريخ"
+        ],
+        "en": [
+          "Missiles"
+        ],
+        "es": [
+          "Misil"
+        ],
+        "fr": [
+          "Missile"
+        ],
+        "ru": [
+          "Ракеты"
+        ]
+      },
+      "related": [
+        "concept14202"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14200",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14200",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سفن الفضاء",
+          "مركبات الفضاء"
+        ],
+        "en": [
+          "Space vehicles"
+        ],
+        "es": [
+          "Cohete",
+          "Nave espacial",
+          "Platillo espacial"
+        ],
+        "fr": [
+          "Navette spatiale",
+          "Véhicule spatial"
+        ],
+        "ru": [
+          "Космические транспортные средства"
+        ]
+      },
+      "broader": [
+        "concept655"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:24:55+00:00",
+      "narrower": [
+        "concept3066"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مركبات فضائية"
+        ],
+        "en": [
+          "Spacecraft"
+        ],
+        "es": [
+          "Vehículo espacial"
+        ],
+        "fr": [
+          "Vaisseau spatial"
+        ],
+        "ru": [
+          "Космические аппараты"
+        ]
+      },
+      "related": [
+        "concept10251",
+        "concept14200",
+        "concept629",
+        "concept657"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14202",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14202",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سيارات النقل",
+          "شاحنات",
+          "شاحنات النقل",
+          "عربات",
+          "مركبات",
+          "مركبات الية",
+          "ناقلات"
+        ],
+        "en": [
+          "Automobiles",
+          "Cars",
+          "Trucks"
+        ],
+        "es": [
+          "Auto",
+          "Automóvil",
+          "Coche"
+        ],
+        "fr": [
+          "Automobile",
+          "Voiture"
+        ],
+        "ru": [
+          "Автомобили",
+          "Грузовые автомобили",
+          "Легковые автомобили"
+        ]
+      },
+      "broader": [
+        "concept657"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سيارات"
+        ],
+        "en": [
+          "Motor vehicles"
+        ],
+        "es": [
+          "Vehículo automotor"
+        ],
+        "fr": [
+          "Véhicule à moteur"
+        ],
+        "ru": [
+          "Автомашины"
+        ]
+      },
+      "related": [
+        "concept14294",
+        "concept4321"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14291",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14291",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مفاعلات الاندماج",
+          "مفاعلات الانشطار",
+          "مفاعلات الانصهار"
+        ],
+        "en": [
+          "Fusion reactors"
+        ],
+        "es": [
+          "Reactor de fusión nuclear"
+        ],
+        "fr": [
+          "Pile atomique",
+          "Réacteur à fusion",
+          "Réacteur à fusion nucléaire"
+        ],
+        "ru": [
+          "Реакторы ядерного синтеза"
+        ]
+      },
+      "broader": [
+        "concept4863"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-19T08:59:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مفاعلات نووية"
+        ],
+        "en": [
+          "Nuclear reactors"
+        ],
+        "es": [
+          "Reactor nuclear"
+        ],
+        "fr": [
+          "Réacteur nucléaire"
+        ],
+        "ru": [
+          "Ядерные реакторы"
+        ]
+      },
+      "related": [
+        "concept10637",
+        "concept14625",
+        "concept5644",
+        "concept627",
+        "concept7378",
+        "concept9717"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14623",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14623",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مجلات علمية"
+        ],
+        "en": [
+          "Scientific journals"
+        ],
+        "es": [
+          "Revista científica"
+        ],
+        "fr": [
+          "Revue scientifique"
+        ]
+      },
+      "broader": [
+        "concept15722"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دوريات علمية"
+        ],
+        "en": [
+          "Scientific periodicals"
+        ],
+        "es": [
+          "Publicación científica periódica"
+        ],
+        "fr": [
+          "Périodique scientifique"
+        ],
+        "ru": [
+          "Научные периодические издания"
+        ]
+      },
+      "related": [
+        "concept12435"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15070",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15070",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مطبوعات علمية"
+        ]
+      },
+      "broader": [
+        "concept655"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2021-09-27T09:51:07+00:00",
+      "narrower": [
+        "concept15070"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منشورات علمية"
+        ],
+        "en": [
+          "Scientific publications"
+        ],
+        "es": [
+          "Publicación científica"
+        ],
+        "fr": [
+          "Publication scientifique"
+        ],
+        "ru": [
+          "Научные публикации"
+        ]
+      },
+      "related": [
+        "concept12435",
+        "concept17126"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15722",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15722",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept657"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قطارات"
+        ],
+        "en": [
+          "Trains"
+        ],
+        "es": [
+          "Tren"
+        ],
+        "fr": [
+          "Train"
+        ],
+        "ru": [
+          "Поезда"
+        ]
+      },
+      "related": [
+        "concept10253",
+        "concept15809"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15808",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15808",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة الانذار",
+          "نظم التنبيه"
+        ],
+        "en": [
+          "Alarm systems",
+          "Warning devices"
+        ],
+        "es": [
+          "Dispositivo de alerta",
+          "Sistema de alarma"
+        ],
+        "fr": [
+          "Dispositif d'alerte",
+          "Système d'alarme",
+          "Témoin sonore"
+        ],
+        "ru": [
+          "Тревожная сигнализация",
+          "Устройства сигнализации"
+        ]
+      },
+      "broader": [
+        "concept653"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.60"
+      ],
+      "modified": "2019-12-15T14:26:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم الانذار"
+        ],
+        "en": [
+          "Warning systems"
+        ],
+        "es": [
+          "Sistema de alerta"
+        ],
+        "fr": [
+          "Système d'alerte"
+        ],
+        "ru": [
+          "Системы сигнализации"
+        ]
+      },
+      "related": [
+        "concept12690",
+        "concept15283",
+        "concept4100",
+        "concept8139"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17045",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17045",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt6.60",
+    "labels": {
+      "en": "Equipment and facilities",
+      "fr": "Equipements et installations"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt6.60"
+  }
+}

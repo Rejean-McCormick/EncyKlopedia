@@ -1,0 +1,152 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.dita-concept",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Concept et explication",
+  "research_basis": {
+    "family": "genre",
+    "relation": "dita.concept",
+    "source": "DITA",
+    "source_url": "https://docs.oasis-open.org/dita/dita/v1.3/csd01/part2-tech-content/archSpec/technicalContent/dita_technicalContent_InformationTypes.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "dita.concept",
+    "editorial_relation_required": true,
+    "semantic_warning": "Adaptation éditoriale, pas document DITA XML conforme.",
+    "critical_questions": []
+  },
+  "slots": {
+    "term": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "concept"
+      ],
+      "visual_role": "paragraph"
+    },
+    "definition": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "definition"
+      ],
+      "visual_role": "paragraph"
+    },
+    "details": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 6,
+      "allowed_kinds": [
+        "context"
+      ],
+      "visual_role": "paragraph"
+    },
+    "examples": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 5,
+      "allowed_kinds": [
+        "example"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "term",
+    "definition",
+    "details",
+    "examples"
+  ],
+  "presentation_policy": {
+    "layout_variant": "stack",
+    "show_template_labels": false
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "dita.concept",
+    "focus_slot": "definition",
+    "moves": [
+      {
+        "slot": "term",
+        "function": "term",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "definition",
+        "function": "definition",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "details",
+        "function": "elaboration",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "examples",
+        "function": "examples",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "term",
+        "to_slot": "definition",
+        "relation": "dita.concept",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "details",
+        "to_slot": "definition",
+        "relation": "dita.concept",
+        "status": "requires_external_semantic_review",
+        "relation_function": "elaborates"
+      },
+      {
+        "from_slot": "examples",
+        "to_slot": "definition",
+        "relation": "dita.concept",
+        "status": "requires_external_semantic_review",
+        "relation_function": "instantiates"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "term",
+        "definition"
+      ],
+      [
+        "details",
+        "examples"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Adaptation éditoriale, pas document DITA XML conforme."
+    }
+  }
+}

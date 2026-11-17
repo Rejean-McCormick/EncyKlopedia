@@ -1,0 +1,3870 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "موضوعات الدراسة الاساسية"
+        ],
+        "es": [
+          "Materia de enseñanza básica"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:44:40+00:00",
+      "narrower": [
+        "concept1519",
+        "concept3608",
+        "concept3609"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مواد دراسية اساسية"
+        ],
+        "en": [
+          "Basic study subjects"
+        ],
+        "es": [
+          "Asignaturas de enseñanza básica"
+        ],
+        "fr": [
+          "Matière de l'enseignement de base"
+        ],
+        "ru": [
+          "Предметы базового курса обучения"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept53",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept53",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم ثقافي"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:45:09+00:00",
+      "narrower": [
+        "concept1584",
+        "concept1587",
+        "concept1588",
+        "concept5831",
+        "concept6800",
+        "concept7032"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية ثقافية"
+        ],
+        "en": [
+          "Cultural education"
+        ],
+        "es": [
+          "Educación cultural"
+        ],
+        "fr": [
+          "Éducation culturelle"
+        ],
+        "ru": [
+          "Образование в области культуры"
+        ]
+      },
+      "related": [
+        "concept336",
+        "concept3898",
+        "concept4605",
+        "concept6968",
+        "concept6972"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept54",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept54",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثقيف بيئي",
+          "تدريب بيئي",
+          "تعليم بيئي"
+        ],
+        "en": [
+          "Environmental training"
+        ],
+        "es": [
+          "Educación ecológica",
+          "Formación ambiental"
+        ],
+        "fr": [
+          "Formation à l'environnement",
+          "Initiation à l'environnement",
+          "Éducation écologique"
+        ],
+        "ru": [
+          "Подготовка кадров в области окружающей среды"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2021-03-09T12:09:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية بيئية"
+        ],
+        "en": [
+          "Environmental education"
+        ],
+        "es": [
+          "Educación ambiental"
+        ],
+        "fr": [
+          "Éducation environnementale"
+        ],
+        "ru": [
+          "Экологическое образование"
+        ]
+      },
+      "related": [
+        "concept10009",
+        "concept10013",
+        "concept17095",
+        "concept17118",
+        "concept3602",
+        "concept57",
+        "concept63",
+        "concept9785"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept55",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept55",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم التكنولوجيا",
+          "تعليم تقني منوع",
+          "تعليم فني عام"
+        ],
+        "en": [
+          "Polytechnical education",
+          "Technology education"
+        ],
+        "es": [
+          "Enseñanza politécnica"
+        ],
+        "fr": [
+          "Enseignement polytechnique"
+        ],
+        "ru": [
+          "Политехническое образование",
+          "Технологическое образование"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:44:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم تقني عام"
+        ],
+        "en": [
+          "General technical education"
+        ],
+        "es": [
+          "Enseñanza técnica general"
+        ],
+        "fr": [
+          "Enseignement technique général"
+        ],
+        "ru": [
+          "Общее техническое образование"
+        ]
+      },
+      "related": [
+        "concept70",
+        "concept9891"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يوفر المعرفة بمبادئ الإنتاج والعمليات والمهارات العملية اللازمة للمشاركة في العمل المنتج."
+        ],
+        "en": [
+          "Provides knowledge about production principles and processes and practical skills needed for participation in productive work."
+        ],
+        "es": [
+          "Transmisión de conocimientos sobre los principios, los mecanismos de producción y las competencias necesarias para realizar un trabajo productivo."
+        ],
+        "fr": [
+          "Transmet des connaissances sur les principes et mécanismes de production et développe les compétences nécessaires à la réalisation d'un travail productif."
+        ],
+        "ru": [
+          "Обеспечивает знания о производственных принципах, процессах и практических навыках, необходимых для участия в производительном труде."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept56",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept56",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثقيف صحي",
+          "تربية وقائية"
+        ],
+        "en": [
+          "Preventive education"
+        ],
+        "es": [
+          "Educación preventiva"
+        ],
+        "fr": [
+          "Éducation préventive",
+          "Éducation à la santé"
+        ],
+        "ru": [
+          "Профилактическое образование"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:53+00:00",
+      "narrower": [
+        "concept1930",
+        "concept1932",
+        "concept1933",
+        "concept1990",
+        "concept3610",
+        "concept9002"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية صحية"
+        ],
+        "en": [
+          "Health education"
+        ],
+        "es": [
+          "Educación sanitaria"
+        ],
+        "fr": [
+          "Éducation sanitaire"
+        ],
+        "ru": [
+          "Образование в области здравоохранения"
+        ]
+      },
+      "related": [
+        "concept11758",
+        "concept1344",
+        "concept238",
+        "concept3180",
+        "concept3602",
+        "concept412",
+        "concept5458",
+        "concept55",
+        "concept61",
+        "concept62"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept57",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept57",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم التدبير المنزلي"
+        ],
+        "en": [
+          "Domestic science education"
+        ],
+        "es": [
+          "Educación en economía familiar",
+          "Formación en economía familiar"
+        ],
+        "fr": [
+          "Cours d'art ménager",
+          "Enseignement de l'économie domestique",
+          "Éducation à l'économie familiale"
+        ],
+        "ru": [
+          "Образование в области ведения домашнего хозяйства"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:09:58+00:00",
+      "narrower": [
+        "concept11005"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الاقتصاد المنزلي"
+        ],
+        "en": [
+          "Home economics education"
+        ],
+        "es": [
+          "Enseñanza de economía doméstica"
+        ],
+        "fr": [
+          "Enseignement ménager"
+        ],
+        "ru": [
+          "Обучение домоводству"
+        ]
+      },
+      "related": [
+        "concept10702",
+        "concept1475",
+        "concept2135"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept58",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept58",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعلم اللغات",
+          "تعليم اللغات"
+        ],
+        "en": [
+          "Language education",
+          "Language learning",
+          "Language teaching"
+        ],
+        "es": [
+          "Aprendizaje de lenguas"
+        ],
+        "fr": [
+          "Apprentissage des langues",
+          "Didactique des langues"
+        ],
+        "ru": [
+          "Изучение языков",
+          "Преподавание языков",
+          "Языковое образование"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-17T16:38:28+00:00",
+      "narrower": [
+        "concept10651",
+        "concept3932"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريس اللغات"
+        ],
+        "en": [
+          "Language instruction"
+        ],
+        "es": [
+          "Enseñanza de idiomas"
+        ],
+        "fr": [
+          "Enseignement des langues"
+        ],
+        "ru": [
+          "Обучение языку"
+        ]
+      },
+      "related": [
+        "concept10442",
+        "concept13204",
+        "concept310",
+        "concept3608",
+        "concept3935",
+        "concept3937",
+        "concept9282",
+        "concept9361",
+        "concept9865"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept59",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept59",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:08:55+00:00",
+      "narrower": [
+        "concept9873"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الرياضيات"
+        ],
+        "en": [
+          "Mathematics education"
+        ],
+        "es": [
+          "Enseñanza de las matemáticas"
+        ],
+        "fr": [
+          "Enseignement des mathématiques"
+        ],
+        "ru": [
+          "Математическое образование"
+        ]
+      },
+      "related": [
+        "concept3609"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept60",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept60",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم العاب القوى"
+        ],
+        "en": [
+          "Athletics education"
+        ],
+        "es": [
+          "Educación deportiva",
+          "Formación deportiva",
+          "Gimnasia"
+        ],
+        "fr": [
+          "Éducation athlétique"
+        ],
+        "ru": [
+          "Атлетическая подготовка"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:52:24+00:00",
+      "narrower": [
+        "concept3543"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية بدنية"
+        ],
+        "en": [
+          "Physical education"
+        ],
+        "es": [
+          "Educación física"
+        ],
+        "fr": [
+          "Éducation physique"
+        ],
+        "ru": [
+          "Физическая подготовка"
+        ]
+      },
+      "related": [
+        "concept57",
+        "concept7666",
+        "concept9206"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept61",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept61",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Formación en prevención de riesgos"
+        ],
+        "fr": [
+          "Formation à la prévention des accidents",
+          "Formation à la sécurité"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:50:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توعية بالسلامة"
+        ],
+        "en": [
+          "Safety education"
+        ],
+        "es": [
+          "Enseñanza de medidas de seguridad"
+        ],
+        "fr": [
+          "Enseignement des mesures de sécurité"
+        ],
+        "ru": [
+          "Образование в области техники безопасности"
+        ]
+      },
+      "related": [
+        "concept3602",
+        "concept57"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept62",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept62",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:39+00:00",
+      "narrower": [
+        "concept3626",
+        "concept4046",
+        "concept5041",
+        "concept9859",
+        "concept9869"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم العلوم"
+        ],
+        "en": [
+          "Science education"
+        ],
+        "es": [
+          "Enseñanza de las ciencias"
+        ],
+        "fr": [
+          "Enseignement des sciences"
+        ],
+        "ru": [
+          "Научное образование"
+        ]
+      },
+      "related": [
+        "concept1751",
+        "concept1756",
+        "concept4603",
+        "concept55",
+        "concept69",
+        "concept70",
+        "concept9783",
+        "concept9785",
+        "concept9871"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept63",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept63",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دراسات حرة"
+        ],
+        "en": [
+          "Liberal studies"
+        ],
+        "es": [
+          "Educación general",
+          "Formación general"
+        ],
+        "fr": [
+          "Formation générale",
+          "Éducation générale"
+        ],
+        "ru": [
+          "Изучение гуманитарных наук"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:50:00+00:00",
+      "narrower": [
+        "concept10338",
+        "concept10442",
+        "concept3606",
+        "concept5292",
+        "concept5295",
+        "concept7628"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريس العلوم الاجتماعية"
+        ],
+        "en": [
+          "Social science education"
+        ],
+        "es": [
+          "Enseñanza de las ciencias sociales"
+        ],
+        "fr": [
+          "Enseignement des sciences sociales"
+        ],
+        "ru": [
+          "Образование в области общественных наук"
+        ]
+      },
+      "related": [
+        "concept8858"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept64",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept64",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1519"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:09:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محو الامية الوظيفية"
+        ],
+        "en": [
+          "Functional literacy"
+        ],
+        "es": [
+          "Alfabetización funcional"
+        ],
+        "fr": [
+          "Alphabétisation fonctionnelle"
+        ],
+        "ru": [
+          "Функциональная грамотность"
+        ]
+      },
+      "related": [
+        "concept11264",
+        "concept1480",
+        "concept1516",
+        "concept17061",
+        "concept3602"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مفهوم عام يربط معرفة القراءة والكتابة بتحسين الظروف المعيشية."
+        ],
+        "en": [
+          "General concept of relating literacy to improved living conditions."
+        ],
+        "es": [
+          "Concepto general que asocia la alfabetización a la mejora de las condiciones de vida."
+        ],
+        "fr": [
+          "Concept général associant l'alphabétisation à l'amélioration des conditions de vie."
+        ],
+        "ru": [
+          "Общее понятие, связывающее грамотность и улучшенные условия жизни."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1518",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1518",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept53"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:49:38+00:00",
+      "narrower": [
+        "concept1518",
+        "concept17061",
+        "concept17077",
+        "concept17147",
+        "concept6018"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محو الامية"
+        ],
+        "en": [
+          "Literacy"
+        ],
+        "es": [
+          "Alfabetización"
+        ],
+        "fr": [
+          "Alphabétisation"
+        ],
+        "ru": [
+          "Грамотность"
+        ]
+      },
+      "related": [
+        "concept10",
+        "concept13482",
+        "concept1480",
+        "concept1491",
+        "concept1516",
+        "concept1520",
+        "concept2194",
+        "concept3602",
+        "concept3607",
+        "concept3608",
+        "concept3609",
+        "concept9863"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1519",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1519",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept54"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:44:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية جمالية"
+        ],
+        "en": [
+          "Aesthetic education"
+        ],
+        "es": [
+          "Educación estética"
+        ],
+        "fr": [
+          "Éducation esthétique"
+        ],
+        "ru": [
+          "Эстетическое образование"
+        ]
+      },
+      "related": [
+        "concept1586",
+        "concept1587",
+        "concept1588"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1584",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1584",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept54"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:43:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية فنية"
+        ],
+        "en": [
+          "Art education"
+        ],
+        "es": [
+          "Educación artística"
+        ],
+        "fr": [
+          "Éducation artistique"
+        ],
+        "ru": [
+          "Художественное образование"
+        ]
+      },
+      "related": [
+        "concept1584",
+        "concept336",
+        "concept342",
+        "concept343"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم للإشارة إلى الرسم، فن الرسم، التصوير، النحت."
+        ],
+        "en": [
+          "Use for drawing, graphics, painting, and sculpture."
+        ],
+        "es": [
+          "Utilizar para referirse al dibujo, grafismo, pintura y escultura."
+        ],
+        "fr": [
+          "Utiliser pour le dessin, le graphisme, la peinture et la sculpture."
+        ],
+        "ru": [
+          "Применяется по отношению к рисованию, графике, живописи и скульптуре."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1587",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1587",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم الموسيقى"
+        ]
+      },
+      "broader": [
+        "concept54"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية موسيقية"
+        ],
+        "en": [
+          "Music education"
+        ],
+        "es": [
+          "Educación musical"
+        ],
+        "fr": [
+          "Éducation musicale"
+        ],
+        "ru": [
+          "Музыкальное образование"
+        ]
+      },
+      "related": [
+        "concept1584"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1588",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1588",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثقيف بشأن الايدز"
+        ]
+      },
+      "broader": [
+        "concept57"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-17T16:38:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توعية بمرض الايدز"
+        ],
+        "en": [
+          "AIDS education"
+        ],
+        "es": [
+          "Educación para la prevención del sida"
+        ],
+        "fr": [
+          "Éducation pour la prévention du sida"
+        ],
+        "ru": [
+          "Просвещение в области заболевания СПИДом"
+        ]
+      },
+      "related": [
+        "concept1932",
+        "concept1933"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1930",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1930",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Prevención de la toxicomanía"
+        ],
+        "fr": [
+          "Prévention de la toxicomanie",
+          "Sensibilisation aux dangers de la drogue",
+          "Éducation antidrogue"
+        ]
+      },
+      "broader": [
+        "concept57"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-17T16:38:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تثقيف عن المخدرات"
+        ],
+        "en": [
+          "Drug education"
+        ],
+        "es": [
+          "Educación antidrogadicción"
+        ],
+        "fr": [
+          "Éducation contre l'abus des drogues"
+        ],
+        "ru": [
+          "Просвещение в области наркозависимости"
+        ]
+      },
+      "related": [
+        "concept1343",
+        "concept1930",
+        "concept1990",
+        "concept3606",
+        "concept5292",
+        "concept8533"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1932",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1932",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية جنسية"
+        ],
+        "en": [
+          "Sex education"
+        ]
+      },
+      "broader": [
+        "concept57"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تثقيف جنسي"
+        ],
+        "en": [
+          "Sexuality education"
+        ],
+        "es": [
+          "Educación sexual"
+        ],
+        "fr": [
+          "Éducation sexuelle"
+        ],
+        "ru": [
+          "Половое просвещение"
+        ]
+      },
+      "related": [
+        "concept1929",
+        "concept1930",
+        "concept3610"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1933",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1933",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية لمقاومة الكحوليات"
+        ]
+      },
+      "broader": [
+        "concept57"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T14:32:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توعية بشأن الكحوليات"
+        ],
+        "en": [
+          "Alcohol education"
+        ],
+        "es": [
+          "Educación antialcohólica"
+        ],
+        "fr": [
+          "Éducation anti-alcoolique"
+        ],
+        "ru": [
+          "Просвещение в области алкогольной зависимости"
+        ]
+      },
+      "related": [
+        "concept1342",
+        "concept1932"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1990",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1990",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مخاطبة الجمهور"
+        ]
+      },
+      "broader": [
+        "concept5831"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:52:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خطابة"
+        ],
+        "en": [
+          "Public speaking"
+        ],
+        "es": [
+          "Oratoria"
+        ],
+        "fr": [
+          "Art oratoire"
+        ],
+        "ru": [
+          "Выступления перед аудиторией"
+        ]
+      },
+      "related": [
+        "concept10648",
+        "concept1542",
+        "concept5828",
+        "concept8165"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2992",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2992",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم الرقص"
+        ],
+        "en": [
+          "Dance education"
+        ],
+        "es": [
+          "Enseñanza de la danza"
+        ],
+        "fr": [
+          "Enseignement de la danse"
+        ],
+        "ru": [
+          "Танцевальное образование"
+        ]
+      },
+      "broader": [
+        "concept61"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:52:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية حركية"
+        ],
+        "en": [
+          "Movement education"
+        ],
+        "es": [
+          "Expresión corporal"
+        ],
+        "fr": [
+          "Expression corporelle"
+        ],
+        "ru": [
+          "Образование в области техники движения"
+        ]
+      },
+      "related": [
+        "concept351",
+        "concept3538",
+        "concept7032"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3543",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3543",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية وطنية",
+          "تعليم المواطنة"
+        ],
+        "en": [
+          "Citizenship education"
+        ],
+        "es": [
+          "Educación cívica"
+        ],
+        "fr": [
+          "Éducation citoyenne",
+          "Éducation civique",
+          "Éducation à la citoyenneté"
+        ],
+        "ru": [
+          "Воспитание гражданского самосознания"
+        ]
+      },
+      "broader": [
+        "concept64"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:45:22+00:00",
+      "narrower": [
+        "concept5289",
+        "concept5290"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية مدنية"
+        ],
+        "en": [
+          "Civic education"
+        ],
+        "es": [
+          "Educación ciudadana"
+        ],
+        "fr": [
+          "Instruction civique"
+        ],
+        "ru": [
+          "Общественно-политическая подготовка"
+        ]
+      },
+      "related": [
+        "concept1932",
+        "concept3602",
+        "concept5292",
+        "concept5293",
+        "concept5294",
+        "concept5295"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3606",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3606",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كتابة بخط اليد"
+        ]
+      },
+      "broader": [
+        "concept3608"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T14:34:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الخط"
+        ],
+        "en": [
+          "Handwriting instruction"
+        ],
+        "es": [
+          "Enseñanza de la escritura"
+        ],
+        "fr": [
+          "Enseignement de l'écriture"
+        ],
+        "ru": [
+          "Обучение письму"
+        ]
+      },
+      "related": [
+        "concept1519",
+        "concept3602",
+        "concept4547",
+        "concept9857"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3607",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3607",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدريس باللغة الام",
+          "تعليم باللغة الام"
+        ]
+      },
+      "broader": [
+        "concept53"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2026-02-25T11:46:49+00:00",
+      "narrower": [
+        "concept3607",
+        "concept9857",
+        "concept9863"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم اللغة الام"
+        ],
+        "en": [
+          "Mother tongue instruction"
+        ],
+        "es": [
+          "Enseñanza de la lengua materna"
+        ],
+        "fr": [
+          "Enseignement de la langue maternelle"
+        ],
+        "ru": [
+          "Обучение родному языку"
+        ]
+      },
+      "related": [
+        "concept11645",
+        "concept13214",
+        "concept1519",
+        "concept17189",
+        "concept3602",
+        "concept3894",
+        "concept59",
+        "concept6816",
+        "concept7966",
+        "concept9343"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3608",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3608",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مهارات عددية"
+        ],
+        "en": [
+          "Number skills"
+        ],
+        "es": [
+          "Aptitudes numéricas",
+          "Capacidad de cálculo",
+          "Capacidad numérica",
+          "Nociones de cálculo"
+        ],
+        "fr": [
+          "Capacité de calcul",
+          "Notions de calcul",
+          "Numératie"
+        ],
+        "ru": [
+          "Навыки счета"
+        ]
+      },
+      "broader": [
+        "concept53"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-17T16:38:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حساب"
+        ],
+        "en": [
+          "Numeracy"
+        ],
+        "es": [
+          "Conocimientos aritméticos"
+        ],
+        "fr": [
+          "Numération"
+        ],
+        "ru": [
+          "Счет"
+        ]
+      },
+      "related": [
+        "concept1519",
+        "concept3602",
+        "concept60"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3609",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3609",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية للحياة الاسرية",
+          "تعليم تنظيم الاسرة",
+          "تعليم سكاني"
+        ],
+        "en": [
+          "Family life education",
+          "Family planning education"
+        ],
+        "es": [
+          "Educación en planificación familiar"
+        ],
+        "fr": [
+          "Éducation en matière de planification familiale",
+          "Éducation à la vie familiale"
+        ],
+        "ru": [
+          "Просвещение в области семейного планирования",
+          "Просвещение в области семейной жизни"
+        ]
+      },
+      "broader": [
+        "concept57"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية سكانية"
+        ],
+        "en": [
+          "Population education"
+        ],
+        "es": [
+          "Educación a la vida familiar"
+        ],
+        "fr": [
+          "Éducation en matière de population"
+        ],
+        "ru": [
+          "Просвещение населения"
+        ]
+      },
+      "related": [
+        "concept1933",
+        "concept3602",
+        "concept4113",
+        "concept4116",
+        "concept435",
+        "concept7896"
+      ],
+      "scope_notes": {
+        "ar": [
+          "لا ينبغي الخلط بينه وبين مصطلح \"التربية الأسرية\"."
+        ],
+        "en": [
+          "Do not confuse with \"family education\"."
+        ],
+        "es": [
+          "No confundir con \"educación familiar\"."
+        ],
+        "fr": [
+          "Ne pas confondre avec \"éducation familiale\"."
+        ],
+        "ru": [
+          "Не путать с термином \"Семейное образование\"."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3610",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3610",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Enseñanza de ciencias básicas"
+        ]
+      },
+      "broader": [
+        "concept63"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:45:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم العلوم الاساسية"
+        ],
+        "en": [
+          "Basic science education"
+        ],
+        "es": [
+          "Enseñanza de ciencias fundamentales"
+        ],
+        "fr": [
+          "Enseignement des sciences fondamentales"
+        ],
+        "ru": [
+          "Базовое научное образование"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3626",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3626",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم اللغات الاجنبية"
+        ],
+        "en": [
+          "Foreign language instruction"
+        ],
+        "es": [
+          "Enseñanza de una lengua extranjera"
+        ],
+        "fr": [
+          "Enseignement d'une langue étrangère"
+        ],
+        "ru": [
+          "Обучение иностранному языку"
+        ]
+      },
+      "broader": [
+        "concept59"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:10:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعلم لغة ثانية"
+        ],
+        "en": [
+          "Second language instruction"
+        ],
+        "es": [
+          "Enseñanza de una segunda lengua"
+        ],
+        "fr": [
+          "Enseignement d'une langue seconde"
+        ],
+        "ru": [
+          "Обучение второму языку"
+        ]
+      },
+      "related": [
+        "concept3894",
+        "concept3895",
+        "concept3937"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3932",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3932",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم البيولوجيا"
+        ]
+      },
+      "broader": [
+        "concept63"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:45:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الاحياء"
+        ],
+        "en": [
+          "Biology education"
+        ],
+        "es": [
+          "Enseñanza de la biología"
+        ],
+        "fr": [
+          "Enseignement de la biologie"
+        ],
+        "ru": [
+          "Биологическое образование"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4046",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4046",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept63"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:08:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الكيمياء"
+        ],
+        "en": [
+          "Chemistry education"
+        ],
+        "es": [
+          "Enseñanza de la química"
+        ],
+        "fr": [
+          "Enseignement de la chimie"
+        ],
+        "ru": [
+          "Химическое образование"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5041",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5041",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثقيف في مجال حقوق الانسان"
+        ],
+        "es": [
+          "Educación para los derechos de la persona",
+          "Educación para los derechos del individuo"
+        ],
+        "fr": [
+          "Éducation aux droits de l'homme",
+          "Éducation aux droits de la personne",
+          "Éducation aux droits humains"
+        ]
+      },
+      "broader": [
+        "concept3606"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم حقوق الانسان"
+        ],
+        "en": [
+          "Human rights education"
+        ],
+        "es": [
+          "Educación para los derechos humanos"
+        ],
+        "fr": [
+          "Éducation pour les droits de l'homme"
+        ],
+        "ru": [
+          "Образование в области прав человека"
+        ]
+      },
+      "related": [
+        "concept5290",
+        "concept5292",
+        "concept6942",
+        "concept7233",
+        "concept7859"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5289",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5289",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم من اجل السلام"
+        ]
+      },
+      "broader": [
+        "concept3606"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:30+00:00",
+      "narrower": [
+        "concept8134"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية من اجل السلام"
+        ],
+        "en": [
+          "Peace education"
+        ],
+        "es": [
+          "Educación para la paz"
+        ],
+        "fr": [
+          "Éducation pour la paix"
+        ],
+        "ru": [
+          "Уроки мира"
+        ]
+      },
+      "related": [
+        "concept5289",
+        "concept5292",
+        "concept6942",
+        "concept7233",
+        "concept7859",
+        "concept8136"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5290",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5290",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept64"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:52:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية اخلاقية"
+        ],
+        "en": [
+          "Moral education"
+        ],
+        "es": [
+          "Educación moral"
+        ],
+        "fr": [
+          "Éducation morale"
+        ],
+        "ru": [
+          "Нравственное воспитание"
+        ]
+      },
+      "related": [
+        "concept10358",
+        "concept1932",
+        "concept283",
+        "concept3606",
+        "concept5060",
+        "concept5289",
+        "concept5290",
+        "concept7628",
+        "concept8134"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5292",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5292",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept64"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:49:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية سياسية"
+        ],
+        "en": [
+          "Political education"
+        ],
+        "es": [
+          "Formación política"
+        ],
+        "fr": [
+          "Éducation politique"
+        ],
+        "ru": [
+          "Политическое образование"
+        ]
+      },
+      "related": [
+        "concept3606",
+        "concept5731"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5295",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5295",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم الخطابة"
+        ],
+        "en": [
+          "Elocution education"
+        ],
+        "es": [
+          "Educación de la locución",
+          "Ejercitación de la expresión oral",
+          "Formación en locución"
+        ],
+        "fr": [
+          "Formation à l'expression orale"
+        ],
+        "ru": [
+          "Обучение искусству красноречия"
+        ]
+      },
+      "broader": [
+        "concept54"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:41+00:00",
+      "narrower": [
+        "concept2992"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الكلام"
+        ],
+        "en": [
+          "Speech education"
+        ],
+        "es": [
+          "Educación de la expresión oral"
+        ],
+        "fr": [
+          "Entraînement à l'expression orale"
+        ],
+        "ru": [
+          "Риторика"
+        ]
+      },
+      "related": [
+        "concept10648",
+        "concept14861",
+        "concept1542"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشمل جوانب مختلفة من الاتصال الشفوي مثل المناقشة والمحادثة والنقاش والقراءة التفسيرية والدراما."
+        ],
+        "en": [
+          "Includes various aspects of oral communication such as discussion, conversation, debate, interpretative reading and drama."
+        ],
+        "es": [
+          "Comprende diversos aspectos de la comunicación oral tales como la discusión, la conversación, el debate, la lectura y la interpretación dramática."
+        ],
+        "fr": [
+          "Comprend divers aspects de la communication orale tels que la discussion, la conversation, le débat, la lecture et l'interprétation dramatiques."
+        ],
+        "ru": [
+          "Включает различные аспекты устной коммуникации, такие как дискуссия, беседа, диспут, пересказ прочитанного и драматическое представление."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5831",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5831",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "المام باستخدام الحاسب",
+          "المام بالتكنولوجيا الرقمية",
+          "محو الامية الحاسوبية",
+          "محو الامية الرقمية",
+          "مهارات رقمية"
+        ],
+        "en": [
+          "Computer literacy",
+          "Digital literacy"
+        ],
+        "es": [
+          "Alfabetización digital",
+          "Habilidades digitales",
+          "Iniciación a la informática"
+        ],
+        "fr": [
+          "Initiation informatique"
+        ],
+        "ru": [
+          "Компьютерная грамотность"
+        ]
+      },
+      "broader": [
+        "concept1519"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2024-03-25T11:02:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "المهارات الرقمية"
+        ],
+        "en": [
+          "Digital skills"
+        ],
+        "es": [
+          "Competencia digital"
+        ],
+        "fr": [
+          "Compétence numérique"
+        ],
+        "ru": [
+          "цифровые навыки"
+        ]
+      },
+      "related": [
+        "concept17077",
+        "concept520",
+        "concept6023",
+        "concept6049"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استيعاب قدرات الحاسب وتطبيقاته. ويمكن أن يشمل أيضا القدرة على استخدام الحاسب."
+        ],
+        "en": [
+          "Comprehension of the capabilities and applications of computers. May include the ability to use computers to solve problems."
+        ],
+        "es": [
+          "Conjunto de conocimientos que permiten comprender las capacidades y las aplicaciones corrientes de los ordenadores. Puede referirse a la capacidad de utilizar la informática para resolver problemas."
+        ],
+        "fr": [
+          "Ensemble de connaissances qui permettent de comprendre les performances et les applications courantes des ordinateurs. Peut signifier la capacité à utiliser les ordinateurs pour résoudre des problèmes."
+        ],
+        "ru": [
+          "Постижение возможностей компьютера и его приложений",
+          "может также включать способность пользоваться компьютером."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6018",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6018",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept54"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:09:01+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الحرف اليدوية"
+        ],
+        "en": [
+          "Handicrafts education"
+        ],
+        "es": [
+          "Enseñanza de la artesanía"
+        ],
+        "fr": [
+          "Formation à l'artisanat"
+        ],
+        "ru": [
+          "Обучение народным промыслам"
+        ]
+      },
+      "related": [
+        "concept3043",
+        "concept344"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6800",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6800",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Creación literaria"
+        ],
+        "fr": [
+          "Création littéraire"
+        ]
+      },
+      "broader": [
+        "concept10651"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:45:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كتابة ابداعية"
+        ],
+        "en": [
+          "Creative writing"
+        ],
+        "es": [
+          "Escritura creativa"
+        ],
+        "fr": [
+          "Écriture créative"
+        ],
+        "ru": [
+          "Письменное творчество"
+        ]
+      },
+      "related": [
+        "concept3086",
+        "concept328",
+        "concept3608",
+        "concept6818"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6816",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6816",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Clases de teatro",
+          "Enseñanza de interpretación teatral"
+        ],
+        "fr": [
+          "Enseignement du théâtre"
+        ]
+      },
+      "broader": [
+        "concept54"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:43:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الدراما"
+        ],
+        "en": [
+          "Drama education"
+        ],
+        "es": [
+          "Enseñanza de arte dramático"
+        ],
+        "fr": [
+          "Enseignement des arts dramatiques"
+        ],
+        "ru": [
+          "Образование в области драматического искусства"
+        ]
+      },
+      "related": [
+        "concept3543",
+        "concept8399"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7032",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7032",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept64"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية دينية"
+        ],
+        "en": [
+          "Religious education"
+        ],
+        "es": [
+          "Educación religiosa"
+        ],
+        "fr": [
+          "Éducation religieuse"
+        ],
+        "ru": [
+          "Религиозное образование"
+        ]
+      },
+      "related": [
+        "concept289",
+        "concept5180",
+        "concept5292",
+        "concept8994",
+        "concept9018"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7628",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7628",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم التنمية"
+        ]
+      },
+      "broader": [
+        "concept10338"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:50:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية تنموية"
+        ],
+        "en": [
+          "Development education"
+        ],
+        "es": [
+          "Educación sobre el desarrollo"
+        ],
+        "fr": [
+          "Éducation sur le développement"
+        ],
+        "ru": [
+          "Образование в области развития"
+        ]
+      },
+      "related": [
+        "concept594",
+        "concept7233",
+        "concept7859"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التثقيف بشأن القضايا المهمة في عملية التنمية الموجهة للشباب والكبار في الدول المتقدمة."
+        ],
+        "en": [
+          "Education on the issues of concern in the development process addressed to youth and adults in developed countries."
+        ],
+        "es": [
+          "Educación sobre cuestiones relativas al proceso de desarrollo dirigidas a jóvenes y adultos de los países desarrollados."
+        ],
+        "fr": [
+          "Education sur les questions concernant le processus de développement à l'intention des jeunes et des adultes des pays développés."
+        ],
+        "ru": [
+          "Образование по вопросам процесса развития, затрагивающим интересы молодежи и взрослого населения развитых стран."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7857",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7857",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5290"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:44:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تثقيف في مجال نزع السلاح"
+        ],
+        "en": [
+          "Disarmament education"
+        ],
+        "es": [
+          "Educación para el desarme"
+        ],
+        "fr": [
+          "Éducation pour le désarmement"
+        ],
+        "ru": [
+          "Образование в области разоружения"
+        ]
+      },
+      "related": [
+        "concept5292",
+        "concept7233",
+        "concept8136"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8134",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8134",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية غذائية",
+          "توعية غذائية"
+        ]
+      },
+      "broader": [
+        "concept57"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تثقيف غذائي"
+        ],
+        "en": [
+          "Nutrition education"
+        ],
+        "es": [
+          "Educación nutricional"
+        ],
+        "fr": [
+          "Éducation nutritionnelle"
+        ],
+        "ru": [
+          "Просвещение в области правильного питания"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9002",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9002",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept10442"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:01+00:00",
+      "narrower": [
+        "concept17169"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم التاريخ"
+        ],
+        "en": [
+          "History education"
+        ],
+        "es": [
+          "Enseñanza de la historia"
+        ],
+        "fr": [
+          "Enseignement de l'histoire"
+        ],
+        "ru": [
+          "Историческое образование"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9854",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9854",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم الاملاء"
+        ]
+      },
+      "broader": [
+        "concept3608"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-17T16:44:01+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم التهجئة"
+        ],
+        "en": [
+          "Spelling instruction"
+        ],
+        "es": [
+          "Enseñanza de la ortografía"
+        ],
+        "fr": [
+          "Enseignement de l'orthographe"
+        ],
+        "ru": [
+          "Обучение правописанию"
+        ]
+      },
+      "related": [
+        "concept3607",
+        "concept9863"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9857",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9857",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept63"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:09:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الجغرافيا"
+        ],
+        "en": [
+          "Geography education"
+        ],
+        "es": [
+          "Enseñanza de la geografía"
+        ],
+        "fr": [
+          "Enseignement de la géographie"
+        ],
+        "ru": [
+          "Географическое образование"
+        ]
+      },
+      "related": [
+        "concept172"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9859",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9859",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3608"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:09:06+00:00",
+      "narrower": [
+        "concept13317",
+        "concept13319"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم القراءة"
+        ],
+        "en": [
+          "Reading instruction"
+        ],
+        "es": [
+          "Enseñanza de la lectura"
+        ],
+        "fr": [
+          "Enseignement de la lecture"
+        ],
+        "ru": [
+          "Обучение чтению"
+        ]
+      },
+      "related": [
+        "concept11719",
+        "concept13436",
+        "concept1519",
+        "concept9353",
+        "concept9366",
+        "concept9857"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9863",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9863",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدريس الادب"
+        ]
+      },
+      "broader": [
+        "concept10442"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:09:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الادب"
+        ],
+        "en": [
+          "Literature education"
+        ],
+        "es": [
+          "Enseñanza de la literatura"
+        ],
+        "fr": [
+          "Enseignement de la littérature"
+        ],
+        "ru": [
+          "Литературное образование"
+        ]
+      },
+      "related": [
+        "concept59"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9865",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9865",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept10442"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:09:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريس الفلسفة"
+        ],
+        "en": [
+          "Philosophy education"
+        ],
+        "es": [
+          "Enseñanza de la filosofía"
+        ],
+        "fr": [
+          "Enseignement de la philosophie"
+        ],
+        "ru": [
+          "Философское образование"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9867",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9867",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept63"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:46:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الفيزياء"
+        ],
+        "en": [
+          "Physics education"
+        ],
+        "es": [
+          "Enseñanza de la física"
+        ],
+        "fr": [
+          "Enseignement de la physique"
+        ],
+        "ru": [
+          "Физическое образование"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9869",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9869",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept60"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:09:51+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الاحصاء"
+        ],
+        "en": [
+          "Statistics education"
+        ],
+        "es": [
+          "Enseñanza de la estadística"
+        ],
+        "fr": [
+          "Enseignement de la statistique"
+        ],
+        "ru": [
+          "Образование в области статистики"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9873",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9873",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Études sur les femmes"
+        ]
+      },
+      "broader": [
+        "concept10338"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دراسات نسائية"
+        ],
+        "en": [
+          "Womens studies"
+        ],
+        "es": [
+          "Estudios sobre las mujeres"
+        ],
+        "fr": [
+          "Études féministes"
+        ],
+        "ru": [
+          "Женские исследования"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10336",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10336",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept64"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:50:51+00:00",
+      "narrower": [
+        "concept10336",
+        "concept7857"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دراسات اجتماعية"
+        ],
+        "en": [
+          "Social studies"
+        ],
+        "es": [
+          "Estudios sociales"
+        ],
+        "fr": [
+          "Études sociales"
+        ],
+        "ru": [
+          "Изучение общественных наук"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "تكييف المعارف من العلوم الاجتماعية لأغراض التدريس في المرحلتين الابتدائية والثانوية من التعليم."
+        ],
+        "en": [
+          "Adaptations of knowledge from the social sciences for teaching purposes at the primary and secondary levels of education."
+        ],
+        "es": [
+          "Adaptación del conocimiento de las ciencias sociales a los objetivos de la enseñanza en los niveles primario y secundario de la educación."
+        ],
+        "fr": [
+          "Adaptation de la connaissance issue des sciences sociales à des fins d'enseignement aux niveaux primaire et secondaire."
+        ],
+        "ru": [
+          "Адаптация знаний из области общественных наук в целях их преподавания в школах начального и среднего уровня."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10338",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10338",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدريس العلوم الانسانية",
+          "تعليم العلوم الانسانية",
+          "دراسات انسانية",
+          "علوم انسانية"
+        ],
+        "en": [
+          "Humanities"
+        ],
+        "es": [
+          "Estudios humanistas",
+          "Estudios sobre el hombre"
+        ],
+        "fr": [
+          "Humanités"
+        ],
+        "ru": [
+          "Гуманитарные науки"
+        ]
+      },
+      "broader": [
+        "concept64"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:56+00:00",
+      "narrower": [
+        "concept9854",
+        "concept9865",
+        "concept9867"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الانسانيات"
+        ],
+        "en": [
+          "Humanities education"
+        ],
+        "es": [
+          "Humanidades"
+        ],
+        "fr": [
+          "Études littéraires"
+        ],
+        "ru": [
+          "Гуманитарное образование"
+        ]
+      },
+      "related": [
+        "concept59"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دراسات تتمحور حول الإنسان، على سبيل المثال الأدب والتاريخ والفلسفة واللغات الحديثة والكلاسيكية."
+        ],
+        "en": [
+          "Studies dealing with man as the central concern, e.g. literature, history, philosophy, and modern and classical languages."
+        ],
+        "es": [
+          "Estudios cuyo tema central es el hombre como la literatura, la historia, la filosofía y las lenguas modenas y clásicas."
+        ],
+        "fr": [
+          "Études dont les sujets traités sont centrés sur l'homme, par exemple la littérature, l'histoire, la philosophie, ainsi que les langues modernes et classiques."
+        ],
+        "ru": [
+          "Изучение наук, в центре которых находится человек, т.е. литература, история, философия, современные и классические языки."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10442",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10442",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نص ادبى"
+        ],
+        "en": [
+          "Literary composition"
+        ],
+        "es": [
+          "Composición literaria",
+          "Expresión escrita"
+        ],
+        "fr": [
+          "Composition littéraire",
+          "Rédaction"
+        ],
+        "ru": [
+          "Литературная композиция"
+        ]
+      },
+      "broader": [
+        "concept59"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-17T16:38:05+00:00",
+      "narrower": [
+        "concept6816"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كتابة (تعبير)"
+        ],
+        "en": [
+          "Writing (composition)"
+        ],
+        "es": [
+          "Redacción"
+        ],
+        "fr": [
+          "Expression écrite"
+        ],
+        "ru": [
+          "Письмо (сочинение)"
+        ]
+      },
+      "related": [
+        "concept15881"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10651",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10651",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "فن الطبخ"
+        ],
+        "en": [
+          "Cookery"
+        ],
+        "es": [
+          "Cocina"
+        ],
+        "fr": [
+          "Cuisine"
+        ],
+        "ru": [
+          "Кулинария"
+        ]
+      },
+      "broader": [
+        "concept58"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T12:09:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعداد الطعام"
+        ],
+        "en": [
+          "Food preparation"
+        ],
+        "es": [
+          "Preparación de alimentos"
+        ],
+        "fr": [
+          "Préparation des aliments"
+        ],
+        "ru": [
+          "Приготовление пищи"
+        ]
+      },
+      "related": [
+        "concept6726"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11005",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11005",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept9863"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:50:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قراءة شفهية"
+        ],
+        "en": [
+          "Oral reading"
+        ],
+        "es": [
+          "Lectura oral"
+        ],
+        "fr": [
+          "Lecture orale"
+        ],
+        "ru": [
+          "Чтение вслух"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13317",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13317",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept9863"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قراءة سريعة"
+        ],
+        "en": [
+          "Speed reading"
+        ],
+        "es": [
+          "Lectura rápida"
+        ],
+        "fr": [
+          "Lecture rapide"
+        ],
+        "ru": [
+          "Скоростное чтение"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13319",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13319",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثقيف اعلامي",
+          "تثقيف في مجال وسائل الاعلام",
+          "تعليم في مجال الاتصالات",
+          "محو الامية الاعلامية"
+        ],
+        "en": [
+          "Education for communication",
+          "Media literacy"
+        ],
+        "es": [
+          "Alfabetización mediática",
+          "Educación mediática"
+        ],
+        "ru": [
+          "Грамотность в области средств массовой информации",
+          "Образование в области передачи информации и связи"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2023-08-08T12:07:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية اعلامية"
+        ],
+        "en": [
+          "Media education"
+        ],
+        "es": [
+          "Educación sobre medios de comunicación"
+        ],
+        "fr": [
+          "Éducation aux médias"
+        ],
+        "ru": [
+          "Образование в области деятельности средств массовой информации"
+        ]
+      },
+      "related": [
+        "concept1546",
+        "concept17077",
+        "concept17116",
+        "concept3321",
+        "concept482",
+        "concept487",
+        "concept5761"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يهدف إلى جعل الناس قادرين على فهم طريقة العمل الإعلامي في المجتمع وكيفية تحليل رسائله بشكل نقدي."
+        ],
+        "en": [
+          "Seeks to enable people to gain an understanding of the way the media act and operate in society, and critically analyze media messages."
+        ],
+        "es": [
+          "Educación encaminada a hacer comprender cómo actúan y cómo operan los medios de comunicación en la sociedad y a enseñar a analizar sus mensajes críticamente ."
+        ],
+        "fr": [
+          "Enseignement du rôle et fonctionnement des médias dans la société, y compris l'analyse critique du contenu des messages véhiculés."
+        ],
+        "ru": [
+          "Ориентировано на то, чтобы объяснить слушателям, как работают средства массовой информации в обществе и научить критически анализировать содержание СМИ."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17017",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17017",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احتياجات التعلم الاساسية",
+          "مهارات اساسية",
+          "مهارات الحياة الاساسية"
+        ],
+        "en": [
+          "Basic learning needs",
+          "Basic life skills",
+          "Basic skills"
+        ],
+        "fr": [
+          "Besoins éducatifs fondamentaux",
+          "Compétences fondamentales"
+        ],
+        "ru": [
+          "Базовые жизненные навыки",
+          "Базовые навыки",
+          "Базовые учебные потребности"
+        ]
+      },
+      "broader": [
+        "concept1519"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2019-12-15T13:51:11+00:00",
+      "narrower": [
+        "concept17111",
+        "concept17134"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مهارات حياتية"
+        ],
+        "en": [
+          "Life skills"
+        ],
+        "es": [
+          "Competencias para la vida"
+        ],
+        "fr": [
+          "Compétences de la vie courante"
+        ],
+        "ru": [
+          "Жизненные навыки"
+        ]
+      },
+      "related": [
+        "concept1518",
+        "concept3602",
+        "concept3611",
+        "concept999"
+      ],
+      "scope_notes": {
+        "ar": [
+          "القدرة والاستعداد لمواجهة وحل متطلبات وتحديات الحياة اليومية."
+        ],
+        "en": [
+          "The ability and readiness to face and solve demands and challenges of everyday life."
+        ],
+        "fr": [
+          "Les capacités qui nous permettent de faire face aux exigences et aux défis de la vie quotidienne."
+        ],
+        "ru": [
+          "Подготовленность к решению проблем и выполнению требований повседневной жизни."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17061",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17061",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ثقافة معلوماتية",
+          "دراية معلوماتية",
+          "طلاقة معلوماتية",
+          "كفاءة معلوماتية",
+          "وعي معلوماتي"
+        ],
+        "en": [
+          "Information competency",
+          "Information fluency"
+        ],
+        "fr": [
+          "Compétence informationnelle",
+          "Culture de l'information",
+          "Culture informationnelle",
+          "Éducation à l'information"
+        ]
+      },
+      "broader": [
+        "concept1519"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2026-04-17T11:52:01+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محو الامية المعلوماتية"
+        ],
+        "en": [
+          "Information literacy"
+        ],
+        "es": [
+          "Alfabetización informacional"
+        ],
+        "fr": [
+          "Maîtrise de l'information"
+        ],
+        "ru": [
+          "Информационная грамотность"
+        ]
+      },
+      "related": [
+        "concept1129",
+        "concept17007",
+        "concept17017",
+        "concept6018"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشتمل على الكفاءات اللازمة للتعرف على احتياجات المعلومات وتحديدها وتقييمها وتطبيقها وإنتاجها في إطار السياقات الثقافية والاجتماعية ."
+        ],
+        "en": [
+          "Comprises the competencies to recognize information needs and to locate, evaluate, apply and create information within cultural and social contexts"
+        ],
+        "es": [
+          "Incluye las competencias para reconocer las necesidades de información y para localizar, evaluar, aplicar y crear información dentro de contextos sociales y culturales"
+        ],
+        "fr": [
+          "Inclut les compétences nécessaires pour reconnaître les besoins en information et pour localiser, évaluer, appliquer et créer une information dans un contexte culturel et social donné"
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17077",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17077",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم من اجل الاستدامة"
+        ],
+        "en": [
+          "ESD",
+          "Education for sustainability"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2024-03-25T10:58:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم من اجل التنمية المستدامة"
+        ],
+        "en": [
+          "Education for sustainable development"
+        ],
+        "es": [
+          "Educación para el desarrollo sostenible"
+        ],
+        "fr": [
+          "Éducation pour le développement durable"
+        ],
+        "ru": [
+          "Образование в интересах устойчивого развития"
+        ]
+      },
+      "related": [
+        "concept55",
+        "concept7775",
+        "concept7859",
+        "concept7878"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17095",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17095",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استراتيجية التأقلم",
+          "تكيف"
+        ],
+        "en": [
+          "Coping strategy"
+        ],
+        "fr": [
+          "Capacité d'adaptation"
+        ]
+      },
+      "broader": [
+        "concept17061"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2020-09-27T15:11:51+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مرونة"
+        ],
+        "en": [
+          "Resilience"
+        ],
+        "es": [
+          "Resiliencia"
+        ],
+        "fr": [
+          "Résilience"
+        ],
+        "ru": [
+          "устойчивость"
+        ]
+      },
+      "related": [
+        "concept17096",
+        "concept206"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17111",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17111",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Socio-emotional learning"
+        ],
+        "es": [
+          "Aprendizaje social y emocional"
+        ]
+      },
+      "broader": [
+        "concept17061"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2022-12-12T10:56:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "التعلم الاجتماعي العاطفي"
+        ],
+        "en": [
+          "Social and emotional learning"
+        ],
+        "es": [
+          "Aprendizaje socioemocional"
+        ],
+        "fr": [
+          "Apprentissage social et émotionnel"
+        ]
+      },
+      "related": [
+        "concept1597",
+        "concept17154",
+        "concept395",
+        "concept5058"
+      ],
+      "scope_notes": {
+        "ar": [
+          "عملية من خلالها يفهم الأطفال والكبار عواطفهم، ويديرونها، ويضعون أهدافًا إيجابية، ويحققونها، ويشعرون بالتعاطف تجاه الآخرين، ويظهرونه، ويكونون علاقات إيجابية، ويحافظون عليها، ويتخذون قرارات مسئولة."
+        ],
+        "en": [
+          "Process through which children and adults understand and manage emotions, set and achieve positive goals, feel and show empathy for others, establish and maintain positive relationships, and make responsible decisions."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17134",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17134",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "القدرة على قراءة المستقبل"
+        ],
+        "es": [
+          "Alfabetización del futuro",
+          "Alfabetización en futuros",
+          "Alfabetización prospectiva"
+        ]
+      },
+      "broader": [
+        "concept1519"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2023-05-16T15:23:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قراءة المستقبل"
+        ],
+        "en": [
+          "Futures literacy"
+        ],
+        "es": [
+          "Cultura prospectiva"
+        ],
+        "fr": [
+          "Littératie des futurs"
+        ],
+        "ru": [
+          "навыки перспективного анализа"
+        ]
+      },
+      "related": [
+        "concept11034",
+        "concept5945"
+      ],
+      "scope_notes": {
+        "en": [
+          "Skill that allows people to better understand the role of the future in what they see and do."
+        ],
+        "fr": [
+          "Compétence qui permet aux individus de mieux comprendre le rôle du futur dans ce qu'ils voient et réalisent."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17147",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17147",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Education about the Holocaust",
+          "Teaching and learning about the Holocaust"
+        ],
+        "fr": [
+          "Enseignement de la Shoah",
+          "Éducation sur la Shoah"
+        ]
+      },
+      "broader": [
+        "concept9854"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.45"
+      ],
+      "modified": "2026-04-17T11:52:01+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "التعليم بشأن الهولوكوست"
+        ],
+        "en": [
+          "Holocaust education"
+        ],
+        "es": [
+          "Enseñanza del Holocausto"
+        ],
+        "fr": [
+          "Enseignement de l'Holocauste"
+        ],
+        "ru": [
+          "Просвещение по вопросам Холокоста"
+        ]
+      },
+      "related": [
+        "concept11393",
+        "concept2530"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17169",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17169",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt1.45",
+    "labels": {
+      "en": "Basic and general study subjects",
+      "fr": "Matières de l'enseignement de base et général"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt1.45"
+  }
+}

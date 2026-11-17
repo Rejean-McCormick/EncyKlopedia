@@ -1,0 +1,43 @@
+{
+  "format": "kristal.editorial-layout/0.1",
+  "id": "argument-map",
+  "version": "1.0.0",
+  "intent": "sequence_reasoning_without_paragraph_generation",
+  "slots": {
+    "thesis": {
+      "allowed_kinds": [
+        "thesis"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "premises": {
+      "allowed_kinds": [
+        "premise"
+      ],
+      "min": 1,
+      "max": 4
+    },
+    "inference": {
+      "allowed_kinds": [
+        "inference"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "objection": {
+      "allowed_kinds": [
+        "objection"
+      ],
+      "min": 1,
+      "max": 2
+    },
+    "conclusion": {
+      "allowed_kinds": [
+        "conclusion"
+      ],
+      "min": 1,
+      "max": 1
+    }
+  }
+}

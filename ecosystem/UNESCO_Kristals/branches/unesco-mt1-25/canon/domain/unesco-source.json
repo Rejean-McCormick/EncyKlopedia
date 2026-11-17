@@ -1,0 +1,1735 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "سنة دراسية",
+          "عام دراسي"
+        ],
+        "en": [
+          "Educational year"
+        ],
+        "es": [
+          "Año escolar",
+          "Año universitario",
+          "Curso"
+        ],
+        "fr": [
+          "Année scolaire",
+          "Année universitaire"
+        ],
+        "ru": [
+          "Учебный год"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T14:37:07+00:00",
+      "narrower": [
+        "concept1109",
+        "concept1110",
+        "concept1111",
+        "concept1112"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سنة اكاديمية"
+        ],
+        "en": [
+          "Academic year"
+        ],
+        "es": [
+          "Año académico"
+        ],
+        "fr": [
+          "Année académique"
+        ],
+        "ru": [
+          "Академический год"
+        ]
+      },
+      "related": [
+        "concept1114"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept27",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept27",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "قسائم تعليمية",
+          "كفالة تعليمية",
+          "مكافآت تعليمية",
+          "منح الدراسة",
+          "منح طلابية"
+        ],
+        "en": [
+          "Educational awards",
+          "Educational vouchers",
+          "Student grants",
+          "Study grants"
+        ],
+        "es": [
+          "Beca estudiantil",
+          "Subvención estudiantil"
+        ],
+        "fr": [
+          "Bourse d'étude",
+          "Bourse d'étudiant"
+        ],
+        "ru": [
+          "Образовательные ваучеры",
+          "Студенческие гранты",
+          "Учебные гранты",
+          "Учебные награды"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:33+00:00",
+      "narrower": [
+        "concept2073",
+        "concept3685",
+        "concept3687",
+        "concept9239"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منح دراسية"
+        ],
+        "en": [
+          "Educational grants"
+        ],
+        "es": [
+          "Subvención educativa"
+        ],
+        "fr": [
+          "Allocation d'étude"
+        ],
+        "ru": [
+          "Гранты в сфере образования"
+        ]
+      },
+      "related": [
+        "concept8864"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept28",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept28",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تجميع اكاديمي",
+          "تجميع مدرسي"
+        ],
+        "en": [
+          "Academic grouping",
+          "School grouping"
+        ],
+        "es": [
+          "Agrupamiento académico",
+          "Agrupamiento escolar",
+          "Agrupamiento pedagógico"
+        ],
+        "fr": [
+          "Groupement académique",
+          "Groupement pédagogique",
+          "Groupement scolaire"
+        ],
+        "ru": [
+          "Академическое группирование",
+          "Школьное группирование"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T22:36:40+00:00",
+      "narrower": [
+        "concept1002",
+        "concept5365"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجميع تربوي"
+        ],
+        "en": [
+          "Educational grouping"
+        ],
+        "es": [
+          "Agrupamiento educacional"
+        ],
+        "fr": [
+          "Groupement éducatif"
+        ],
+        "ru": [
+          "Группирование в рамках учебного процесса"
+        ]
+      },
+      "related": [
+        "concept31",
+        "concept5542",
+        "concept7790"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept29",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept29",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ارشاد تربوي",
+          "توجيهات الاجازات المدرسية",
+          "خدمات التوجيه"
+        ],
+        "en": [
+          "Educational counselling",
+          "Guidance service",
+          "School leaving guidance"
+        ],
+        "es": [
+          "Orientación académica",
+          "Orientación educativa",
+          "Orientación escolar",
+          "Orientación estudiantil",
+          "Servicio de orientación"
+        ],
+        "fr": [
+          "Orientation en fin d'études",
+          "Orientation en fin de scolarité",
+          "Orientation scolaire",
+          "Orientation éducative",
+          "Service d'orientation"
+        ],
+        "ru": [
+          "Консультационные услуги на этапе завершения школьного обучения",
+          "Наставнические услуги",
+          "Оказание консультационных услуг в сфере образования"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:07+00:00",
+      "narrower": [
+        "concept4675"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توجيه تربوي"
+        ],
+        "en": [
+          "Educational guidance"
+        ],
+        "es": [
+          "Orientación pedagógica"
+        ],
+        "fr": [
+          "Orientation pédagogique"
+        ],
+        "ru": [
+          "Учебно-воспитательная работа"
+        ]
+      },
+      "related": [
+        "concept1049",
+        "concept17013",
+        "concept3117",
+        "concept32",
+        "concept9027"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تقديم المشورة للطلاب حول تقدمهم الأكاديمي أو فرصهم الوظيفية أو الصعوبات التي يواجهونها أو مشاغلهم الشخصية."
+        ],
+        "en": [
+          "Advising pupils or students on their educational progress, on career opportunities, or personal difficulties or anxieties."
+        ],
+        "es": [
+          "Consejos dados a los alumnos o estudiantes sobre su evolución académica, sus perspectivas laborales, sus dificultades o angustias personales."
+        ],
+        "fr": [
+          "Conseils donnés aux élèves ou aux étudiants à propos de leur évolution académique, leurs perspectives de carrière, leurs difficultés ou angoisses personnelles."
+        ],
+        "ru": [
+          "Консультации и советы учащимся или студентам по учебному процессу, возможностям карьерного роста или в решении личных проблем."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept30",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept30",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادارة اكاديمية",
+          "ادارة التعليم",
+          "ادارة المدارس",
+          "ادارة مدرسية"
+        ],
+        "en": [
+          "Academic management",
+          "School administration",
+          "School management"
+        ],
+        "es": [
+          "Gestión académica",
+          "Gestión educativa",
+          "Gestión escolar"
+        ],
+        "fr": [
+          "Administration scolaire",
+          "Gestion académique",
+          "Gestion scolaire"
+        ],
+        "ru": [
+          "Академический менеджмент",
+          "Школьная администрация",
+          "Школьное управление"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:48+00:00",
+      "narrower": [
+        "concept1089"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادارة تربوية"
+        ],
+        "en": [
+          "Educational management"
+        ],
+        "es": [
+          "Gestión educacional"
+        ],
+        "fr": [
+          "Gestion de l'éducation"
+        ],
+        "ru": [
+          "Управление в области образования"
+        ]
+      },
+      "related": [
+        "concept1114",
+        "concept21",
+        "concept29",
+        "concept3045",
+        "concept3427",
+        "concept6186",
+        "concept7050",
+        "concept7501",
+        "concept7790",
+        "concept8864"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تستخدم عندما يتعلق الأمر بإدارة المؤسسات التعليمية."
+        ],
+        "en": [
+          "Use to mean the management of educational establishments."
+        ],
+        "es": [
+          "Utilizar para referirse a la gestión de un establecimiento educativo."
+        ],
+        "fr": [
+          "Utiliser quand il s'agit de la gestion d'un établissement éducatif."
+        ],
+        "ru": [
+          "Используется для обозначения управления в образовательных учреждениях."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept31",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept31",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتمام الدراسة",
+          "انتهاء من الدراسة",
+          "تاركو المدارس",
+          "تخرج من المدرسة",
+          "سن ترك الدراسة"
+        ],
+        "en": [
+          "School leavers",
+          "School leaving age"
+        ],
+        "es": [
+          "Fin de la escolaridad",
+          "Fin del colegio"
+        ],
+        "fr": [
+          "Âge de fin de scolarité",
+          "Élève finissant",
+          "Élève partant"
+        ],
+        "ru": [
+          "Возраст завершения школьного обучения",
+          "Выпускники школ"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:34:56+00:00",
+      "narrower": [
+        "concept9482"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترك المدرسة"
+        ],
+        "en": [
+          "School leaving"
+        ],
+        "es": [
+          "Fin de la escuela"
+        ],
+        "fr": [
+          "Fin de scolarité"
+        ],
+        "ru": [
+          "Завершение школьного обучения"
+        ]
+      },
+      "related": [
+        "concept30",
+        "concept4675",
+        "concept9027"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept32",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept32",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رعاية الطلاب",
+          "رعاية تعليمية",
+          "ضمان اجتماعي للطلاب"
+        ],
+        "en": [
+          "Educational welfare"
+        ],
+        "es": [
+          "Protección social del estudiante",
+          "Seguridad social del estudiante"
+        ],
+        "fr": [
+          "Protection sociale de l'étudiant",
+          "Sécurité sociale étudiante"
+        ],
+        "ru": [
+          "Социальное обеспечение в образовании"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T14:33:32+00:00",
+      "narrower": [
+        "concept16218",
+        "concept16238",
+        "concept2082",
+        "concept4593",
+        "concept9043"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رعاية اجتماعية للطلاب"
+        ],
+        "en": [
+          "Student welfare"
+        ],
+        "es": [
+          "Bienestar del estudiante"
+        ],
+        "fr": [
+          "Protection de l'étudiant"
+        ],
+        "ru": [
+          "Социальное обеспечение учащихся"
+        ]
+      },
+      "related": [
+        "concept415",
+        "concept5181",
+        "concept9395"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept33",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept33",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تفريع",
+          "تقسيم"
+        ],
+        "en": [
+          "Streaming"
+        ],
+        "es": [
+          "División en función de las aptitudes",
+          "Grupos de nivel"
+        ],
+        "fr": [
+          "Groupes de niveau",
+          "Répartition en classes homogènes"
+        ],
+        "ru": [
+          "Распределение по потокам"
+        ]
+      },
+      "broader": [
+        "concept29"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجميع حسب القدرات"
+        ],
+        "en": [
+          "Ability grouping"
+        ],
+        "es": [
+          "Agrupamiento por aptitudes"
+        ],
+        "fr": [
+          "Groupement par aptitudes"
+        ],
+        "ru": [
+          "Группирование по способностям"
+        ]
+      },
+      "related": [
+        "concept1005",
+        "concept17016"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1002",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1002",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اختيار الطلاب",
+          "قبول اكاديمي",
+          "قبول الطلاب",
+          "قبول بالمدارس",
+          "قبول في المؤسسات التعليمية",
+          "قبول مبكر",
+          "معايير القبول"
+        ],
+        "en": [
+          "Academic admission",
+          "Admission criteria",
+          "Early admission",
+          "Educational admission",
+          "School admission",
+          "Student admission",
+          "Student selection"
+        ],
+        "es": [
+          "Admisión académica",
+          "Admisión de estudiantes",
+          "Admisión en el colegio",
+          "Admisión en la universidad",
+          "Criterios de ingreso",
+          "Ingreso en el colegio",
+          "Ingreso en la escuela",
+          "Requisitos de ingreso",
+          "Selección de estudiantes"
+        ],
+        "fr": [
+          "Admission académique",
+          "Admission au collège",
+          "Admission précoce",
+          "Admission à l'université",
+          "Admission à l'école",
+          "Critères d'admission",
+          "Sélection d'étudiants"
+        ],
+        "ru": [
+          "Допуск к учебе",
+          "Досрочное поступление",
+          "Критерии поступления",
+          "Отбор учащихся",
+          "Прием в учебное заведение",
+          "Прием в школу",
+          "Прием учащихся в учебное заведение"
+        ]
+      },
+      "broader": [
+        "concept31"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:34:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "شروط القبول"
+        ],
+        "en": [
+          "Admission requirements"
+        ],
+        "es": [
+          "Condiciones de admisión"
+        ],
+        "fr": [
+          "Conditions d'admission"
+        ],
+        "ru": [
+          "Условия приема в учебное заведение"
+        ]
+      },
+      "related": [
+        "concept1047",
+        "concept1453"
+      ],
+      "scope_notes": {
+        "ar": [
+          "شروط (شهادات الامتحان، إثبات المهارات، إلخ) الالتحاق بدورات الدراسة، لمواصلة الدراسة، التدريب، إلخ."
+        ],
+        "en": [
+          "Conditions (examination certificates, proof of skills, etc.) of entrance to courses of study, further study, training, etc."
+        ],
+        "es": [
+          "Condiciones exigidas (exámenes de ingreso, pruebas de aptitud, etc.) para acceder a un programa de estudios, un curso de enseñanzas, una formación, etc."
+        ],
+        "fr": [
+          "Conditions requises (certificats d'examen, preuves de compétences, etc.) pour accéder à un programme de cours, poursuivre des études, faire une formation, etc."
+        ],
+        "ru": [
+          "Условия (наличие экзаменационного листа, диплома, подтверждающего определенные навыки, и т.д.), позволяющие поступить на учебные курсы, продолжить дальнейшую учебу, подготовку и т.д."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1089",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1089",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجازة تعليمية"
+        ],
+        "es": [
+          "Permiso de formación"
+        ],
+        "fr": [
+          "Congé de formation",
+          "Congé-formation"
+        ]
+      },
+      "broader": [
+        "concept27"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجازة دراسية"
+        ],
+        "en": [
+          "Educational leave"
+        ],
+        "es": [
+          "Permiso de estudios"
+        ],
+        "fr": [
+          "Congé d'études"
+        ],
+        "ru": [
+          "Учебный отпуск"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "استخدامها عندما تكون إجازة مدفوعة الأجر أو غير مدفوعة الأجر تُمنح للموظف للأغراض التعليمية."
+        ],
+        "en": [
+          "Use in connection with paid or unpaid leave granted to employees for educational purposes."
+        ],
+        "es": [
+          "Utilizar cuando se trata de un permiso, remunerado o no, otorgado a un empleado con fines educativos."
+        ],
+        "fr": [
+          "Utiliser quand il s'agit d'un congé, rémunéré ou non, accordé à un employé à des fins éducatives."
+        ],
+        "ru": [
+          "Используется по отношению к оплачиваемому или неоплачиваемому отпуску, предоставляемому сотрудникам в образовательных целях."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1109",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1109",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جداول اكاديمية"
+        ],
+        "en": [
+          "Academic timetables"
+        ],
+        "fr": [
+          "Emploi du temps académique",
+          "Horaire académique",
+          "Horaire scolaire"
+        ],
+        "ru": [
+          "Академические расписания"
+        ]
+      },
+      "broader": [
+        "concept27"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:34:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جداول تعليمية"
+        ],
+        "en": [
+          "Educational timetables"
+        ],
+        "es": [
+          "Horario escolar"
+        ],
+        "fr": [
+          "Emploi du temps scolaire"
+        ],
+        "ru": [
+          "Учебные расписания"
+        ]
+      },
+      "related": [
+        "concept1114"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1110",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1110",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجازات مدرسية"
+        ]
+      },
+      "broader": [
+        "concept27"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عطلات مدرسية"
+        ],
+        "en": [
+          "School holidays"
+        ],
+        "es": [
+          "Vacaciones escolares"
+        ],
+        "fr": [
+          "Vacances scolaires"
+        ],
+        "ru": [
+          "Школьные каникулы"
+        ]
+      },
+      "related": [
+        "concept1114"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1111",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1111",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "وقت الدراسة"
+        ],
+        "es": [
+          "Ritmo escolar"
+        ],
+        "fr": [
+          "Rythme scolaire"
+        ]
+      },
+      "broader": [
+        "concept27"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:33:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وقت المدرسة"
+        ],
+        "en": [
+          "School time"
+        ],
+        "es": [
+          "Tiempo escolar"
+        ],
+        "fr": [
+          "Temps scolaire"
+        ],
+        "ru": [
+          "Учебное время"
+        ]
+      },
+      "related": [
+        "concept1114"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1112",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1112",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Bourse de voyage"
+        ]
+      },
+      "broader": [
+        "concept28"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T12:03:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منح السفر"
+        ],
+        "en": [
+          "Travel grants"
+        ],
+        "es": [
+          "Beca de viaje"
+        ],
+        "fr": [
+          "Allocation de voyage"
+        ],
+        "ru": [
+          "Гранты на научные поездки"
+        ]
+      },
+      "related": [
+        "concept13294",
+        "concept9345",
+        "concept9842"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2073",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2073",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سكن الطلاب"
+        ],
+        "es": [
+          "Residencia de estudiantes"
+        ]
+      },
+      "broader": [
+        "concept33"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اسكان الطلاب"
+        ],
+        "en": [
+          "Student housing"
+        ],
+        "es": [
+          "Alojamiento para estudiantes"
+        ],
+        "fr": [
+          "Logement des étudiants"
+        ],
+        "ru": [
+          "Жилье для учащихся"
+        ]
+      },
+      "related": [
+        "concept1524",
+        "concept9395"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2082",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2082",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept28"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:33:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مِنح دراسية"
+        ],
+        "en": [
+          "Scholarships"
+        ],
+        "es": [
+          "Beca de estudios"
+        ],
+        "fr": [
+          "Bourse d'études"
+        ],
+        "ru": [
+          "Стипендии"
+        ]
+      },
+      "related": [
+        "concept2064"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تستخدم فيما يتعلق بالمدرسة والمستوى قبل الأخير من التعليم."
+        ],
+        "en": [
+          "Reserve for school and undergraduate levels of education."
+        ],
+        "es": [
+          "Reservada a escolares y estudiantes de primer ciclo."
+        ],
+        "fr": [
+          "Octroi monétaire aux collégiens et aux étudiants de premier cycle."
+        ],
+        "ru": [
+          "Используется по отношению к школьному и предпоследнему уровню обучения."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3685",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3685",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "منح دراسية"
+        ],
+        "es": [
+          "Ayuda a la investigación",
+          "Subvención a investigadores"
+        ]
+      },
+      "broader": [
+        "concept28"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زمالات"
+        ],
+        "en": [
+          "Fellowships"
+        ],
+        "es": [
+          "Beca de investigación"
+        ],
+        "fr": [
+          "Bourse de recherche"
+        ],
+        "ru": [
+          "Научные стипендии"
+        ]
+      },
+      "related": [
+        "concept2071"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يمنح للطالب لمتابعة مستويات أعلى من التعليم."
+        ],
+        "en": [
+          "Award to continue studies to an advanced level."
+        ],
+        "es": [
+          "Atribuída a un estudiante para efectuar estudios de nivel superior."
+        ],
+        "fr": [
+          "Attribuée à un étudiant pour la poursuite d'études de niveau supérieur."
+        ],
+        "ru": [
+          "Денежные средства, выделяемые для продолжения учебы на более высоком уровне."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3687",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3687",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تغذية مدرسية"
+        ],
+        "en": [
+          "School feeding"
+        ],
+        "es": [
+          "Alimentación escolar",
+          "Restaurante escolar"
+        ],
+        "fr": [
+          "Alimentation scolaire",
+          "Cafétéria scolaire",
+          "Repas scolaire",
+          "Restaurant scolaire"
+        ]
+      },
+      "broader": [
+        "concept33"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وجبات مدرسية"
+        ],
+        "en": [
+          "School meals"
+        ],
+        "es": [
+          "Comedor escolar"
+        ],
+        "fr": [
+          "Cantine scolaire"
+        ],
+        "ru": [
+          "Школьное питание"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4593",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4593",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ارشاد وظيفي",
+          "توجيه وظيفي",
+          "مشورة مهنية"
+        ],
+        "en": [
+          "Career counselling",
+          "Career guidance",
+          "Occupational guidance"
+        ],
+        "es": [
+          "Asesoramiento profesional",
+          "Consejo profesional"
+        ],
+        "fr": [
+          "Counselling de carrière",
+          "Counselling professionnel",
+          "Orientation de carrière"
+        ],
+        "ru": [
+          "Консультации по выбору карьеры",
+          "Ориентация при выборе карьеры",
+          "Профессиональная ориентация"
+        ]
+      },
+      "broader": [
+        "concept30"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توجيه مهني"
+        ],
+        "en": [
+          "Vocational guidance"
+        ],
+        "es": [
+          "Orientación profesional"
+        ],
+        "fr": [
+          "Orientation professionnelle"
+        ],
+        "ru": [
+          "Профессионально-техническая ориентация"
+        ]
+      },
+      "related": [
+        "concept17109",
+        "concept3117",
+        "concept32",
+        "concept4669",
+        "concept677",
+        "concept678",
+        "concept71",
+        "concept8863",
+        "concept9027"
+      ],
+      "scope_notes": {
+        "ar": [
+          "المساعدة المقدمة للطالب داخل أو خارج النظام المدرسي في اختيار المهنة."
+        ],
+        "en": [
+          "Help given to the individual inside or outside the school system in choosing a career or occupation."
+        ],
+        "es": [
+          "Asistencia proporcionada a un individuo, dentro o fuera del sistema escolar, para facilitarle la elección de una carrera u oficio."
+        ],
+        "fr": [
+          "Aide apportée à un individu, dans le cadre ou à l'extérieur du système scolaire, pour faciliter le choix d'une carrière ou d'un métier."
+        ],
+        "ru": [
+          "Помощь, оказываемая учащемуся в пределах или за пределами школьной системы в выборе профессии."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4675",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4675",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "فصول",
+          "فصول مدرسية"
+        ],
+        "en": [
+          "School classes"
+        ],
+        "ru": [
+          "Школьные классы"
+        ]
+      },
+      "broader": [
+        "concept29"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:27+00:00",
+      "narrower": [
+        "concept17016"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صفوف دراسية"
+        ],
+        "en": [
+          "Classes"
+        ],
+        "es": [
+          "Clase"
+        ],
+        "fr": [
+          "Classe"
+        ],
+        "ru": [
+          "Классы"
+        ]
+      },
+      "related": [
+        "concept1005",
+        "concept5378"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5365",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5365",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "توظيف الطلاب"
+        ],
+        "es": [
+          "Empleo estudiantil",
+          "Trabajo estudiantil"
+        ],
+        "fr": [
+          "Embauche des étudiants"
+        ]
+      },
+      "broader": [
+        "concept33"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تشغيل الطلاب"
+        ],
+        "en": [
+          "Student employment"
+        ],
+        "es": [
+          "Empleo del estudiante"
+        ],
+        "fr": [
+          "Emploi des étudiants"
+        ],
+        "ru": [
+          "Трудоустройство учащихся"
+        ]
+      },
+      "related": [
+        "concept1524",
+        "concept5142",
+        "concept8863",
+        "concept9044"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9043",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9043",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "قروض طلابية"
+        ],
+        "es": [
+          "Préstamo para estudiantes"
+        ],
+        "fr": [
+          "Prêt aux étudiants",
+          "Prêt étudiant"
+        ]
+      },
+      "broader": [
+        "concept28"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:34:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قروض الطلاب"
+        ],
+        "en": [
+          "Student loans"
+        ],
+        "es": [
+          "Préstamo para estudios"
+        ],
+        "fr": [
+          "Prêt d'études"
+        ],
+        "ru": [
+          "Студенческие ссуды"
+        ]
+      },
+      "related": [
+        "concept1524"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9239",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9239",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتمام الدراسية الثانوية",
+          "انهاء التعليم الثانوي",
+          "تخرج من المرحلة الثانوية",
+          "ترك المرحلة الثانوية"
+        ],
+        "es": [
+          "Fin de los estudios secundarios"
+        ],
+        "fr": [
+          "Fin d'études secondaires"
+        ]
+      },
+      "broader": [
+        "concept32"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:35:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اكمال المرحلة الثانوية"
+        ],
+        "en": [
+          "Secondary school leaving"
+        ],
+        "es": [
+          "Fin de escuela secundaria"
+        ],
+        "fr": [
+          "Fin de scolarité secondaire"
+        ],
+        "ru": [
+          "Завершение средней школы"
+        ]
+      },
+      "related": [
+        "concept9291"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9482",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9482",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Servicio de higiene escolar",
+          "Servicio de salud escolar"
+        ],
+        "fr": [
+          "Service d'hygiène scolaire",
+          "Service de santé scolaire",
+          "Service de santé à l'école"
+        ]
+      },
+      "broader": [
+        "concept33"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T12:46:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خدمات الصحة المدرسية"
+        ],
+        "en": [
+          "School health services"
+        ],
+        "es": [
+          "Servicio escolar de salud"
+        ],
+        "fr": [
+          "Service médical scolaire"
+        ],
+        "ru": [
+          "Школьное медицинское обслуживание"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16218",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16218",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حافلات مدرسية",
+          "نقل مدرسي"
+        ],
+        "en": [
+          "School buses",
+          "School transport"
+        ],
+        "es": [
+          "Autobus escolar",
+          "Transporte estudiantil"
+        ],
+        "fr": [
+          "Autobus scolaire",
+          "Transport scolaire"
+        ],
+        "ru": [
+          "Школьные автобусы",
+          "Школьный транспорт"
+        ]
+      },
+      "broader": [
+        "concept33"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2019-12-15T13:34:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل الطلاب"
+        ],
+        "en": [
+          "Student transportation"
+        ],
+        "es": [
+          "Transporte escolar"
+        ],
+        "fr": [
+          "Transport d'élèves"
+        ],
+        "ru": [
+          "Перевозки учащихся"
+        ]
+      },
+      "related": [
+        "concept16236",
+        "concept660"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16238",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16238",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادماج",
+          "الحاق بالصفوف النظامية",
+          "تعليم جامع"
+        ],
+        "en": [
+          "Mainstreaming",
+          "Regular class placement"
+        ],
+        "es": [
+          "Educación integradora",
+          "Reinserción escolar"
+        ],
+        "fr": [
+          "Réinsertion scolaire",
+          "Éducation intégratrice"
+        ],
+        "ru": [
+          "Выделение ведущего звена",
+          "Размещение в обычном классе"
+        ]
+      },
+      "broader": [
+        "concept5365"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.25"
+      ],
+      "modified": "2026-04-17T11:52:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم شامل"
+        ],
+        "en": [
+          "Inclusive education"
+        ],
+        "es": [
+          "Educación inclusiva"
+        ],
+        "fr": [
+          "Éducation inclusive"
+        ],
+        "ru": [
+          "Инклюзивное образование"
+        ]
+      },
+      "related": [
+        "concept1002",
+        "concept1140",
+        "concept17020",
+        "concept2131",
+        "concept8089"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17016",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17016",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt1.25",
+    "labels": {
+      "en": "Educational management",
+      "fr": "Gestion de l'éducation"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt1.25"
+  }
+}

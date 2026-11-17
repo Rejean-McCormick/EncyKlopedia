@@ -1,0 +1,58 @@
+{
+  "format": "kristal.editorial-layout/0.1",
+  "id": "evidence-comparison",
+  "version": "1.0.0",
+  "intent": "contrast_sources_without_silencing_perspectives",
+  "audience": "general_or_educational",
+  "slots": {
+    "question": {
+      "allowed_kinds": [
+        "question"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "source_a": {
+      "allowed_kinds": [
+        "evidence"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "source_b": {
+      "allowed_kinds": [
+        "evidence"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "perspective_a": {
+      "allowed_kinds": [
+        "perspective"
+      ],
+      "min": 1,
+      "max": 2
+    },
+    "perspective_b": {
+      "allowed_kinds": [
+        "perspective"
+      ],
+      "min": 1,
+      "max": 2
+    },
+    "synthesis": {
+      "allowed_kinds": [
+        "conclusion"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "limits": {
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "min": 1,
+      "max": 2
+    }
+  }
+}

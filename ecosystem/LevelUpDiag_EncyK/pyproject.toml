@@ -1,0 +1,9 @@
+[project]
+name = "levelupdiag-encyk"
+version = "1.2.0"
+description = "Dedicated read-only diagnostics for EncyKlopedia"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.levelupdiag]
+mode = "standalone-encyk-only"

@@ -1,0 +1,11 @@
+# Exemple de manifeste d’instance. Copier dans un dossier frère `mediatheque-<nom>/`.
+[mediatheque]
+id = "example"
+name = "Médiathèque Example"
+engine = "../mediatheque"
+backend = "sqlite"
+
+[content]
+root = "."
+kristal_roots = ["kristals"]
+document_roots = ["documents"]

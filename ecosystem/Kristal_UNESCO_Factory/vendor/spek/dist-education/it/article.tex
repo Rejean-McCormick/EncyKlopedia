@@ -1,0 +1,72 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\IfFontExistsTF{DejaVu Sans}{\setmainfont{DejaVu Sans}}{\IfFontExistsTF{Segoe UI}{\setmainfont{Segoe UI}}{\setmainfont{Latin Modern Roman}}}
+\usepackage[margin=24mm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{parskip}
+\definecolor{kblue}{HTML}{215D8E}
+\definecolor{ksoft}{HTML}{EDF3F7}
+\newcommand{\spekSlot}[2]{\par\medskip{\small\bfseries\color{kblue}#1}\par\smallskip #2\par}
+\newcommand{\spekFeatured}[2]{\par\medskip\noindent\fcolorbox{kblue}{ksoft}{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{\textbf{#1}\par\medskip #2}}\par\bigskip}
+\hypersetup{colorlinks=true,linkcolor=kblue}
+\title{Osservare il giardino della scuola}
+\date{}
+\begin{document}
+\maketitle
+\noindent\fbox{\parbox{0.95\textwidth}{\textbf{DIMOSTRAZIONE — NON CONVALIDATA SCIENTIFICAMENTE}}}
+
+\begin{abstract}
+Questo scenario fittizio distingue definizioni, osservazioni, interpretazioni, fonti e percorsi senza valutare studenti.
+\end{abstract}
+\tableofcontents
+\newpage
+\section{Un concetto: evaporazione}
+\textit{Scheda concetto}
+
+% spek-section-id: concept
+
+\spekFeatured{Definizione}{L’evaporazione è il passaggio dell’acqua liquida allo stato di vapore.\par{\scriptsize\ttfamily u.def · definition · method · source-ref: ekole:fictional-garden:u.def}}
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Esempi}{L’acqua in una vaschetta può diminuire nel tempo.\par{\scriptsize\ttfamily u.ex1 · example · hypothesis · source-ref: ekole:fictional-garden:u.ex1}\par\smallskip Una superficie bagnata può asciugarsi senza bollire.\par{\scriptsize\ttfamily u.ex2 · example · hypothesis · source-ref: ekole:fictional-garden:u.ex2}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Controesempi}{Lo scioglimento del ghiaccio non è evaporazione.\par{\scriptsize\ttfamily u.counter · counterexample · method · source-ref: ekole:fictional-garden:u.counter}}\end{minipage}\par\bigskip
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Contesto}{Le osservazioni dipendono da temperatura, vento e condizioni di misura.\par{\scriptsize\ttfamily u.context · context · method · source-ref: ekole:fictional-garden:u.context}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Limiti}{Un livello d’acqua più basso non dimostra da solo il meccanismo.\par{\scriptsize\ttfamily u.limit1 · qualification · limitation · source-ref: ekole:fictional-garden:u.limit1}}\end{minipage}\par\bigskip
+\section{Comprendere un’osservazione}
+\textit{Percorso di apprendimento}
+
+% spek-section-id: path
+
+\spekFeatured{Obiettivo}{Distinguere un’osservazione da un’interpretazione sostenuta da fonti.\par{\scriptsize\ttfamily u.objective · objective · method · source-ref: ekole:fictional-garden:u.objective}}
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Prerequisiti}{Riconoscere un liquido e leggere una misura in una tabella.\par{\scriptsize\ttfamily u.pre1 · prerequisite · method · source-ref: ekole:fictional-garden:u.pre1}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Domanda di riflessione}{Quale spiegazione alternativa va esaminata prima di concludere?\par{\scriptsize\ttfamily u.reflect · reflection · method · source-ref: ekole:fictional-garden:u.reflect}}\end{minipage}\par\bigskip
+\spekSlot{Passaggi}{Osservare e annotare il livello iniziale dell’acqua.\par{\scriptsize\ttfamily u.step1 · step · method · source-ref: ekole:fictional-garden:u.step1}\par\smallskip Annotare una nuova misura nello stesso luogo.\par{\scriptsize\ttfamily u.step2 · step · method · source-ref: ekole:fictional-garden:u.step2}\par\smallskip Confrontare le misure e individuare le condizioni sconosciute.\par{\scriptsize\ttfamily u.step3 · step · method · source-ref: ekole:fictional-garden:u.step3}}
+\spekSlot{Limiti}{Questa scheda propone un percorso di studio; non certifica competenze.\par{\scriptsize\ttfamily u.limit2 · qualification · limitation · source-ref: ekole:fictional-garden:u.limit2}}
+\section{Confrontare due registrazioni}
+\textit{Confronto delle fonti}
+
+% spek-section-id: comparison
+
+\spekFeatured{Domanda}{Che cosa consentono di affermare le due registrazioni?\par{\scriptsize\ttfamily u.question · question · method · source-ref: ekole:fictional-garden:u.question}}
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Fonte A}{Traccia A: valori fittizi annotati su un quaderno di misura.\par{\scriptsize\ttfamily e.a · evidence · illustrative\_fixture · locator: fixture:education/e.a · source-ref: ekole:fictional-garden:e.a}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Fonte B}{Traccia B: descrizione fittizia dell’aspetto della vaschetta.\par{\scriptsize\ttfamily e.b · evidence · illustrative\_fixture · locator: fixture:education/e.b · source-ref: ekole:fictional-garden:e.b}}\end{minipage}\par\bigskip
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Prospettiva A}{Il quaderno offre numeri ma nessuna calibrazione indipendente.\par{\scriptsize\ttfamily u.pa · perspective · observation · refs: e.a · source-ref: ekole:fictional-garden:u.pa}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Prospettiva B}{La descrizione offre un contesto visivo ma non una quantità esatta.\par{\scriptsize\ttfamily u.pb · perspective · observation · refs: e.b · source-ref: ekole:fictional-garden:u.pb}}\end{minipage}\par\bigskip
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Sintesi}{Le due tracce si completano senza dimostrare da sole una causa.\par{\scriptsize\ttfamily u.synth · conclusion · hypothesis · refs: e.a, e.b · source-ref: ekole:fictional-garden:u.synth}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Limiti}{In questa dimostrazione non è fornita alcuna misura né fotografia reale.\par{\scriptsize\ttfamily u.limit3 · qualification · limitation · source-ref: ekole:fictional-garden:u.limit3}}\end{minipage}\par\bigskip
+\section{Distinguere osservazione e spiegazione}
+\textit{Osservazione e inferenza}
+
+% spek-section-id: observation
+
+\spekFeatured{Osservazioni}{Il livello fittizio è più basso alla seconda lettura.\par{\scriptsize\ttfamily u.obs1 · observation · observation · refs: e.a · source-ref: ekole:fictional-garden:u.obs1}\par\smallskip La vaschetta è descritta come scoperta durante l’intervallo.\par{\scriptsize\ttfamily u.obs2 · observation · observation · refs: e.b · source-ref: ekole:fictional-garden:u.obs2}}
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Interpretazione}{L’evaporazione è una spiegazione possibile, non una conclusione dimostrata.\par{\scriptsize\ttfamily u.infer · interpretation · hypothesis · refs: e.a, e.b · source-ref: ekole:fictional-garden:u.infer}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Come verificare}{Ripetere la misura e controllare eventuali fuoriuscite.\par{\scriptsize\ttfamily u.verify · method · method · source-ref: ekole:fictional-garden:u.verify}}\end{minipage}\par\bigskip
+\spekSlot{Limiti}{L’allestimento fittizio non permette di individuare una causa certa.\par{\scriptsize\ttfamily u.limit4 · qualification · limitation · source-ref: ekole:fictional-garden:u.limit4}}
+\section{Una breve cronologia documentata}
+\textit{Cronologia documentata}
+
+% spek-section-id: timeline
+
+\spekFeatured{Contesto}{Gli eventi seguenti descrivono una sequenza fittizia di quaderno.\par{\scriptsize\ttfamily u.chrono.context · context · method · source-ref: ekole:fictional-garden:u.chrono.context}}
+\spekSlot{Eventi}{Giorno 1: livello iniziale annotato.\par{\scriptsize\ttfamily u.event1 · event · observation · refs: e.a · source-ref: ekole:fictional-garden:u.event1}\par\smallskip Giorno 2: seconda lettura annotata.\par{\scriptsize\ttfamily u.event2 · event · observation · refs: e.a · source-ref: ekole:fictional-garden:u.event2}\par\smallskip Giorno 3: discussione delle spiegazioni possibili.\par{\scriptsize\ttfamily u.event3 · event · method · source-ref: ekole:fictional-garden:u.event3}}
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Interpretazione}{L’ordine delle date non prova alcuna relazione causale.\par{\scriptsize\ttfamily u.chrono.inference · interpretation · hypothesis · source-ref: ekole:fictional-garden:u.chrono.inference}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Limiti}{Date e registrazioni inventate; non si rivendicano prove sul campo.\par{\scriptsize\ttfamily u.limit5 · qualification · limitation · source-ref: ekole:fictional-garden:u.limit5}}\end{minipage}\par\bigskip
+\section*{Tracciabilità}
+\small Stato: Identità canonica non verificata
+\par Origine: \nolinkurl{sha256:8cd72bce589ac690fb6ccfd25f82258a8f29a51e53194c92f35cc6e6fffbcbbb}
+\par Realizzazioni: \nolinkurl{sha256:66d51bb1481cd296e2e8ada225ebfc6602b654a935a4b4c3ce8b3129fd776188}
+\par Layout: \nolinkurl{sha256:77c5d1a2639afe1a346253f5ddc5f5723f6e2a25931f714bb7cdcd647b9319eb}
+\end{document}

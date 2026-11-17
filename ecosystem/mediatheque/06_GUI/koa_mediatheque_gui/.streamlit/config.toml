@@ -1,0 +1,33 @@
+[global]
+developmentMode = false
+
+[server]
+headless = true
+address = "localhost"
+port = 8501
+runOnSave = false
+fileWatcherType = "auto"
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 1024
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+base = "light"
+primaryColor = "#6C4AB6"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F7"
+textColor = "#1F1F1F"
+font = "sans serif"
+
+[client]
+showErrorDetails = true
+toolbarMode = "minimal"
+
+[runner]
+magicEnabled = true
+fastReruns = true

@@ -1,0 +1,23 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:v11-test",
+  "classification": {},
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "undecided",
+    "organization": "unknown",
+    "materialization_profiles": [],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "tiny",
+    "tracked_local_bytes": 7908,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:8f71428093ae6d3fd2ab1163098377fbe09864472d994873b3221e15b7653f44",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

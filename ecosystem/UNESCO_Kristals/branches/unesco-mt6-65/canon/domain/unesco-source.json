@@ -1,0 +1,1167 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "تجارة الخدمات",
+          "خدمات",
+          "صناعات خدمية"
+        ],
+        "en": [
+          "Service trades",
+          "Services"
+        ],
+        "es": [
+          "Sector de los servicios",
+          "Servicios"
+        ],
+        "fr": [
+          "Industrie du tertiaire",
+          "Industrie tertiaire",
+          "Profession du secteur tertiaire",
+          "Secteur des services",
+          "Service",
+          "Tertiaire"
+        ],
+        "ru": [
+          "Отрасли услуг",
+          "Услуги"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-19T08:59:32+00:00",
+      "narrower": [
+        "concept11979",
+        "concept12330"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صناعات الخدمات"
+        ],
+        "en": [
+          "Service industries"
+        ],
+        "es": [
+          "Sector terciario"
+        ],
+        "fr": [
+          "Secteur tertiaire"
+        ],
+        "ru": [
+          "Индустрия услуг"
+        ]
+      },
+      "related": [
+        "concept12382",
+        "concept3214",
+        "concept3560",
+        "concept4347",
+        "concept5660",
+        "concept660",
+        "concept8367"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept659",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept659",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:26:14+00:00",
+      "narrower": [
+        "concept11744",
+        "concept12861",
+        "concept14294",
+        "concept15295",
+        "concept15714",
+        "concept15809",
+        "concept16136",
+        "concept1959",
+        "concept4582",
+        "concept5254",
+        "concept5887",
+        "concept5888",
+        "concept8744"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل"
+        ],
+        "en": [
+          "Transport"
+        ],
+        "es": [
+          "Transporte"
+        ],
+        "fr": [
+          "Transport"
+        ],
+        "ru": [
+          "Транспорт"
+        ]
+      },
+      "related": [
+        "concept12857",
+        "concept16238",
+        "concept6441",
+        "concept659",
+        "concept661"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشير إلى نقل الأشخاص ونقل البضائع. عند الضرورة، استخدم واصفة أكثر دقة."
+        ],
+        "en": [
+          "Refers to both transportation and transport of goods. Use more specific descriptor where appropriate."
+        ],
+        "es": [
+          "Se refiere a los sistemas de transporte y al transporte de mercancias. Utilice un descriptor más preciso cuando sea necesario."
+        ],
+        "fr": [
+          "Se réfère à la fois aux systèmes de transport et au transport de marchandises. Utiliser un descripteur plus précis si possible."
+        ],
+        "ru": [
+          "Относится к перевозкам людей и транспортировке грузов. В необходимых случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept660",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept660",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2025-05-27T11:30:24+00:00",
+      "narrower": [
+        "concept16677"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سفر"
+        ],
+        "en": [
+          "Travel"
+        ],
+        "es": [
+          "Viaje"
+        ],
+        "fr": [
+          "Voyage"
+        ],
+        "ru": [
+          "Путешествия"
+        ]
+      },
+      "related": [
+        "concept11691",
+        "concept11925",
+        "concept17177",
+        "concept367",
+        "concept370",
+        "concept660"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept661",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept661",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حركة الطيران",
+          "مرور جوي",
+          "ملاحة جوية"
+        ],
+        "fr": [
+          "Trafic aérien"
+        ]
+      },
+      "broader": [
+        "concept5254"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:25:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حركة جوية"
+        ],
+        "en": [
+          "Air traffic"
+        ],
+        "es": [
+          "Tráfico aéreo"
+        ],
+        "fr": [
+          "Circulation aérienne"
+        ],
+        "ru": [
+          "Движение воздушного транспорта"
+        ]
+      },
+      "related": [
+        "concept1171"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1956",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1956",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:25:52+00:00",
+      "narrower": [
+        "concept1960"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل جوي"
+        ],
+        "en": [
+          "Air transport"
+        ],
+        "es": [
+          "Transporte aéreo"
+        ],
+        "fr": [
+          "Transport aérien"
+        ],
+        "ru": [
+          "Воздушный транспорт"
+        ]
+      },
+      "related": [
+        "concept1567",
+        "concept1577",
+        "concept1962"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1959",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1959",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1959"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:24:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طيران مدني"
+        ],
+        "en": [
+          "Civil aviation"
+        ],
+        "es": [
+          "Aviación civil"
+        ],
+        "fr": [
+          "Aviation civile"
+        ],
+        "ru": [
+          "Гражданская авиация"
+        ]
+      },
+      "related": [
+        "concept1567"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1960",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1960",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Transport par voies navigables intérieures"
+        ]
+      },
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:26:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل مائي داخلي"
+        ],
+        "en": [
+          "Inland water transport"
+        ],
+        "es": [
+          "Transporte fluvial y lacustre"
+        ],
+        "fr": [
+          "Transport fluvial et lacustre"
+        ],
+        "ru": [
+          "Внутренний водный транспорт"
+        ]
+      },
+      "related": [
+        "concept3679",
+        "concept4580",
+        "concept4583"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4582",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4582",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حركة المرور"
+        ],
+        "fr": [
+          "Trafic"
+        ]
+      },
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:25:05+00:00",
+      "narrower": [
+        "concept1956",
+        "concept5264"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مرور"
+        ],
+        "en": [
+          "Traffic"
+        ],
+        "es": [
+          "Tráfico"
+        ],
+        "fr": [
+          "Circulation"
+        ],
+        "ru": [
+          "Движение транспорта"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5254",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5254",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حركة المرور الحضرية",
+          "حركة المرور في المدن",
+          "مرور المناطق الحضرية"
+        ],
+        "fr": [
+          "Trafic urbain"
+        ]
+      },
+      "broader": [
+        "concept5254"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:26:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حركة السير في المناطق الحضرية"
+        ],
+        "en": [
+          "Urban traffic"
+        ],
+        "es": [
+          "Tráfico urbano"
+        ],
+        "fr": [
+          "Circulation urbaine"
+        ],
+        "ru": [
+          "Движение городского транспорта"
+        ]
+      },
+      "related": [
+        "concept12004",
+        "concept2148",
+        "concept5884",
+        "concept5888"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5264",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5264",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:25:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخطيط النقل"
+        ],
+        "en": [
+          "Transport planning"
+        ],
+        "es": [
+          "Planificación del transporte"
+        ],
+        "fr": [
+          "Planification des transports"
+        ],
+        "ru": [
+          "Транспортное планирование"
+        ]
+      },
+      "related": [
+        "concept5884",
+        "concept5888",
+        "concept631"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5887",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5887",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نقل في المناطق الحضرية"
+        ],
+        "fr": [
+          "Transport en commun"
+        ]
+      },
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-19T08:59:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل حضري"
+        ],
+        "en": [
+          "Urban transport"
+        ],
+        "es": [
+          "Transporte urbano"
+        ],
+        "fr": [
+          "Transport urbain"
+        ],
+        "ru": [
+          "Городской транспорт"
+        ]
+      },
+      "related": [
+        "concept12004",
+        "concept2148",
+        "concept5264",
+        "concept5884",
+        "concept5887"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5888",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5888",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:25:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقتصاديات النقل"
+        ],
+        "en": [
+          "Transport economics"
+        ],
+        "es": [
+          "Economía del transporte"
+        ],
+        "fr": [
+          "Économie des transports"
+        ],
+        "ru": [
+          "Экономика транспорта"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8744",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8744",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صناعة الشحن",
+          "صناعة النقل البحري"
+        ],
+        "en": [
+          "Sea transport",
+          "Shipping industry"
+        ],
+        "es": [
+          "Industria de transporte marítimo",
+          "Industria del transporte",
+          "Transporte en barco",
+          "Transporte naval",
+          "Transporte por mar"
+        ],
+        "fr": [
+          "Industrie du transport",
+          "Industrie du transport maritime",
+          "Transport par mer"
+        ],
+        "ru": [
+          "Индустрия фрахтования",
+          "Мореплавательный транспорт"
+        ]
+      },
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-19T08:59:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل بحري"
+        ],
+        "en": [
+          "Maritime transport"
+        ],
+        "es": [
+          "Transporte marítimo"
+        ],
+        "fr": [
+          "Transport maritime"
+        ],
+        "ru": [
+          "Морской транспорт"
+        ]
+      },
+      "related": [
+        "concept11387",
+        "concept11740",
+        "concept13759",
+        "concept4445"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11744",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11744",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صناعات الفندقة",
+          "صناعات فندقية",
+          "قطاع الفنادق"
+        ]
+      },
+      "broader": [
+        "concept659"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:26:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صناعة الفنادق"
+        ],
+        "en": [
+          "Hotel industry"
+        ],
+        "es": [
+          "Industria hotelera"
+        ],
+        "fr": [
+          "Industrie hôtelière"
+        ],
+        "ru": [
+          "Гостиничная индустрия"
+        ]
+      },
+      "related": [
+        "concept370"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11979",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11979",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "قطاع السياحة"
+        ],
+        "es": [
+          "Industria del turismo"
+        ],
+        "fr": [
+          "Industrie du tourisme"
+        ]
+      },
+      "broader": [
+        "concept659"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:26:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صناعة السياحة"
+        ],
+        "en": [
+          "Tourist industry"
+        ],
+        "es": [
+          "Industria turística"
+        ],
+        "fr": [
+          "Industrie touristique"
+        ],
+        "ru": [
+          "Индустрия туризма"
+        ]
+      },
+      "related": [
+        "concept370"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12330",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12330",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:26:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل دولي"
+        ],
+        "en": [
+          "International transport"
+        ],
+        "es": [
+          "Transporte internacional"
+        ],
+        "fr": [
+          "Transport international"
+        ],
+        "ru": [
+          "Международный транспорт"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12861",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12861",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نقل بالطرق البرية",
+          "نقل على الطرق"
+        ],
+        "es": [
+          "Transporte por tierra",
+          "Transporte vial"
+        ]
+      },
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-19T08:59:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل بري"
+        ],
+        "en": [
+          "Road transport"
+        ],
+        "es": [
+          "Transporte por carretera"
+        ],
+        "fr": [
+          "Transport routier"
+        ],
+        "ru": [
+          "Дорожный транспорт"
+        ]
+      },
+      "related": [
+        "concept14291",
+        "concept4321",
+        "concept4696"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14294",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14294",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-19T08:59:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة النقل"
+        ],
+        "en": [
+          "Transport policy"
+        ],
+        "es": [
+          "Política de transporte"
+        ],
+        "fr": [
+          "Politique des transports"
+        ],
+        "ru": [
+          "Транспортная политика"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15295",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15295",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مواصلات عامة"
+        ]
+      },
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:26:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل عام"
+        ],
+        "en": [
+          "Public transport"
+        ],
+        "es": [
+          "Transporte público"
+        ],
+        "fr": [
+          "Transport public"
+        ],
+        "ru": [
+          "Общественный транспорт"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15714",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15714",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Transporte en tren"
+        ],
+        "fr": [
+          "Transport par chemin de fer",
+          "Transport par train"
+        ]
+      },
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:26:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل بالسكك الحديدية"
+        ],
+        "en": [
+          "Railway transport"
+        ],
+        "es": [
+          "Transporte ferroviario"
+        ],
+        "fr": [
+          "Transport ferroviaire"
+        ],
+        "ru": [
+          "Железнодорожный транспорт"
+        ]
+      },
+      "related": [
+        "concept15808"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15809",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15809",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نقل في المناطق الريفية"
+        ]
+      },
+      "broader": [
+        "concept660"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-15T14:24:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل ريفي"
+        ],
+        "en": [
+          "Rural transport"
+        ],
+        "es": [
+          "Transporte rural"
+        ],
+        "fr": [
+          "Transport rural"
+        ],
+        "ru": [
+          "Сельский транспорт"
+        ]
+      },
+      "related": [
+        "concept12003",
+        "concept1795",
+        "concept446"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16136",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16136",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سفر دولي"
+        ],
+        "en": [
+          "International travel"
+        ],
+        "es": [
+          "Viaje internacional"
+        ],
+        "fr": [
+          "Voyage international"
+        ],
+        "ru": [
+          "Международные путешествия"
+        ]
+      },
+      "broader": [
+        "concept661"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.65"
+      ],
+      "modified": "2019-12-19T08:59:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سفر إلى الخارج"
+        ],
+        "en": [
+          "Travel abroad"
+        ],
+        "es": [
+          "Viaje al extranjero"
+        ],
+        "fr": [
+          "Voyage à l'étranger"
+        ],
+        "ru": [
+          "Зарубежные поездки"
+        ]
+      },
+      "related": [
+        "concept13294",
+        "concept370"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16677",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16677",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt6.65",
+    "labels": {
+      "en": "Services",
+      "fr": "Services"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt6.65"
+  }
+}

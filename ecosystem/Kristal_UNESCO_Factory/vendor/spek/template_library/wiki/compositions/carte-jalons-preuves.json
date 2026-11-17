@@ -1,0 +1,90 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-carte-jalons-preuves",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-03",
+    "slug": "carte-jalons-preuves",
+    "name": "Milestone and Proof Map"
+  },
+  "source_arketype_file": "archetypes/carte-jalons-preuves.json",
+  "editorial_rationale": "Structure Arketype ARK-03: Sparse milestones, branches and pointers to proofs held elsewhere. Progress maps, mathematical roadmaps and cross-theory docking points.",
+  "source_structural_primitives": [
+    "carrefours",
+    "points_terminaux",
+    "frontieres_atteintes",
+    "arcs_resume",
+    "references_de_preuve",
+    "points_arrimage",
+    "obligations_ouvertes"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "jalons",
+      "title_function": "Jalons documentés",
+      "layout_id": "chronology",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "carrefours",
+        "points_terminaux",
+        "frontieres_atteintes"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "context": 1,
+        "events": 2,
+        "limits": 1
+      },
+      "editorial_constraint": "N’utiliser que des jalons qui constituent de vrais événements datables."
+    },
+    {
+      "section_id": "preuves",
+      "title_function": "Chemin argumentatif et obligations",
+      "layout_id": "argument-map",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "references_de_preuve",
+        "obligations_ouvertes"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "thesis": 1,
+        "premises": 1,
+        "inference": 1,
+        "objection": 1,
+        "conclusion": 1
+      },
+      "editorial_constraint": "Présenter un argument uniquement si thèse, prémisses, objection, inférence et conclusion existent."
+    },
+    {
+      "section_id": "resultats",
+      "title_function": "Résultat ou frontière atteinte",
+      "layout_id": "result-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "frontieres_atteintes",
+        "points_terminaux"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "claim": 1,
+        "conditions": 1,
+        "evidence": 1,
+        "uncertainty": 1
+      },
+      "editorial_constraint": "Ne jamais assimiler un arc résumé à une preuve."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "proof-dag"
+  ],
+  "integrity_rule": "A shortcut edge does not constitute proof; pin exact proof references.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

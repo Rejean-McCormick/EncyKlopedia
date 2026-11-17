@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kristal:authoring-state-index:2.0.0",
+  "title": "Kristal v9 Authoring State Index",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["format", "canonical_artifacts", "external_references", "derived_artifacts"],
+  "properties": {
+    "format": {"const": "kristal.authoring-state-index/2.0.0"},
+    "canonical_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["artifact_id", "path", "logical_contract", "commitment"],
+        "properties": {
+          "artifact_id": {"type": "string", "minLength": 1},
+          "path": {"type": "string", "minLength": 1},
+          "logical_contract": {
+            "type": "object",
+            "required": ["id", "version"],
+            "properties": {"id": {"type": "string", "minLength": 1}, "version": {"type": "string", "minLength": 1}}
+          },
+          "commitment": {
+            "type": "object",
+            "required": ["mode"],
+            "properties": {
+              "mode": {"enum": ["compute-json-jcs", "precomputed"]},
+              "profile": {"type": "string", "minLength": 1},
+              "digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}
+            }
+          },
+          "authority_ref": {"type": "string"},
+          "scope": {"type": "object"},
+          "extensions": {"type": "object"},
+          "dependencies": {"type": "array"}
+        }
+      }
+    },
+    "external_references": {"type": "array", "items": {"type": "object"}},
+    "derived_artifacts": {"type": "array"}
+  }
+}

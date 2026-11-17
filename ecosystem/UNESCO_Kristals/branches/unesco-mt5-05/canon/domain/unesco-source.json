@@ -1,0 +1,3094 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقنيات الحاسب",
+          "تكنولوجيا الحاسب",
+          "معلوماتية"
+        ],
+        "en": [
+          "Computer techniques",
+          "Computer technology",
+          "Informatics"
+        ],
+        "es": [
+          "Tecnología informática"
+        ],
+        "fr": [
+          "Science informatique",
+          "Technologie informatique"
+        ],
+        "ru": [
+          "Информатика",
+          "Компьютерная технология",
+          "Компьютерные приемы"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:41+00:00",
+      "narrower": [
+        "concept3057"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الحاسب"
+        ],
+        "en": [
+          "Computer science"
+        ],
+        "es": [
+          "Informática"
+        ],
+        "fr": [
+          "Informatique"
+        ],
+        "ru": [
+          "Компьютерные науки"
+        ]
+      },
+      "related": [
+        "concept3052",
+        "concept455",
+        "concept520",
+        "concept521",
+        "concept522",
+        "concept534",
+        "concept5824",
+        "concept6049"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept450",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept450",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "لغات الاسترجاع",
+          "لغات التوثيق"
+        ],
+        "en": [
+          "Documentary languages",
+          "Retrieval languages"
+        ],
+        "es": [
+          "Lenguaje de búsqueda documental",
+          "Lenguaje de indización",
+          "Lenguaje documental"
+        ],
+        "fr": [
+          "Langage de recherche documentaire",
+          "Langage documentaire"
+        ],
+        "ru": [
+          "Документальные языки",
+          "Поисковые языки"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:00+00:00",
+      "narrower": [
+        "concept12263",
+        "concept3379",
+        "concept6523",
+        "concept6549"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "لغات التكشيف"
+        ],
+        "en": [
+          "Indexing languages"
+        ],
+        "es": [
+          "Lenguaje de indexación"
+        ],
+        "fr": [
+          "Langage d'indexation"
+        ],
+        "ru": [
+          "Языки индексирования"
+        ]
+      },
+      "related": [
+        "concept310",
+        "concept514",
+        "concept7984"
+      ],
+      "scope_notes": {
+        "ar": [
+          "لغة اصطناعية تستخدم من قبل أنظمة التوثيق لأغراض التكشيف."
+        ],
+        "en": [
+          "An artificial language used by documentation systems for purposes of indexing."
+        ],
+        "es": [
+          "Lenguaje artificial empleado por los sistemas de documentación con fines de indexación."
+        ],
+        "fr": [
+          "Langage artificiel utilisé dans les systèmes d'information documentaire à des fins d'indexation."
+        ],
+        "ru": [
+          "Искусственный язык, используемый в документальных системах в целях индексирования."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept451",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept451",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:18+00:00",
+      "narrower": [
+        "concept12435",
+        "concept12437",
+        "concept5769",
+        "concept7094",
+        "concept9259"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات"
+        ],
+        "en": [
+          "Information"
+        ],
+        "es": [
+          "Información"
+        ],
+        "fr": [
+          "Information"
+        ],
+        "ru": [
+          "Информация"
+        ]
+      },
+      "related": [
+        "concept1151",
+        "concept469",
+        "concept6288"
+      ],
+      "scope_notes": {
+        "ar": [
+          "بشكل عام، البيانات التي تم تنظيمها بطريقة تحقق معنى."
+        ],
+        "en": [
+          "Data that has been organized in such a way that it achieves meaning, in a generalized way."
+        ],
+        "es": [
+          "Datos organizados de manera coherente y significativa en el marco de un sistema generalizado."
+        ],
+        "fr": [
+          "Données organisées de manière cohérente et significative au moyen d'un système généralisé."
+        ],
+        "ru": [
+          "Организованные и обобщенные данные, представляющие смысл."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept452",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept452",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقاسم المعلومات",
+          "مشاركة في المعلومات"
+        ],
+        "en": [
+          "Information sharing"
+        ],
+        "ru": [
+          "Информационный обмен"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2023-06-27T11:41:28+00:00",
+      "narrower": [
+        "concept4193"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تبادل المعلومات"
+        ],
+        "en": [
+          "Information exchange"
+        ],
+        "es": [
+          "Intercambio de información"
+        ],
+        "fr": [
+          "Échange d'information"
+        ],
+        "ru": [
+          "Обмен информацией"
+        ]
+      },
+      "related": [
+        "concept1151",
+        "concept17162",
+        "concept3761",
+        "concept512"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept453",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept453",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اوعية المعلومات",
+          "وسائط الإعلام"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:42+00:00",
+      "narrower": [
+        "concept10826",
+        "concept4186",
+        "concept6107"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وسائل الإعلام"
+        ],
+        "en": [
+          "Information media"
+        ],
+        "es": [
+          "Medios de información"
+        ],
+        "fr": [
+          "Média d'information"
+        ],
+        "ru": [
+          "Информационные носители"
+        ]
+      },
+      "related": [
+        "concept487"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept454",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept454",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-24T11:22:12+00:00",
+      "narrower": [
+        "concept2744",
+        "concept2790",
+        "concept4764"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علوم المعلومات"
+        ],
+        "en": [
+          "Information sciences"
+        ],
+        "es": [
+          "Ciencias de la información"
+        ],
+        "fr": [
+          "Sciences de l'information"
+        ],
+        "ru": [
+          "Информационные науки"
+        ]
+      },
+      "related": [
+        "concept3058",
+        "concept450",
+        "concept483",
+        "concept523"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept455",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept455",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Investigación en biblioteconomía"
+        ],
+        "fr": [
+          "Recherche en bibliothéconomie"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:22+00:00",
+      "narrower": [
+        "concept2196",
+        "concept3802",
+        "concept3857"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث المعلومات/المكتبات"
+        ],
+        "en": [
+          "Information/library research"
+        ],
+        "es": [
+          "Información/biblioteca, investigación"
+        ],
+        "fr": [
+          "Information/bibliothèque, recherche"
+        ],
+        "ru": [
+          "Исследования в области информации/библиотечного дела"
+        ]
+      },
+      "related": [
+        "concept2790",
+        "concept4504"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept456",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept456",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معايير المكتبات"
+        ],
+        "en": [
+          "Library standards"
+        ],
+        "es": [
+          "Normas de las bibliotecas"
+        ],
+        "fr": [
+          "Normes de la bibliothèque"
+        ],
+        "ru": [
+          "Библиотечные стандарты"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T14:36:50+00:00",
+      "narrower": [
+        "concept4763"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معايير المعلومات/المكتبات"
+        ],
+        "en": [
+          "Information/library standards"
+        ],
+        "es": [
+          "Información/biblioteca, norma"
+        ],
+        "fr": [
+          "Information/bibliothèque, norme"
+        ],
+        "ru": [
+          "Информационные/библиотечные стандарты"
+        ]
+      },
+      "related": [
+        "concept471",
+        "concept4765"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept457",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept457",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استخلاص آلي",
+          "تحليل النص التلقائي",
+          "تصنيف آلي"
+        ],
+        "en": [
+          "Automatic abstracting",
+          "Automatic classification"
+        ],
+        "es": [
+          "Clasificación automática"
+        ],
+        "fr": [
+          "Classification automatique",
+          "Résumé automatique de textes"
+        ],
+        "ru": [
+          "Автоматизированная классификация",
+          "Автоматизированное реферирование"
+        ]
+      },
+      "broader": [
+        "concept456"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-24T11:22:04+00:00",
+      "narrower": [
+        "concept3406"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل آلي للنص"
+        ],
+        "en": [
+          "Automatic text analysis"
+        ],
+        "es": [
+          "Análisis automático de textos"
+        ],
+        "fr": [
+          "Analyse automatique de textes"
+        ],
+        "ru": [
+          "Автоматизированный текстовый анализ"
+        ]
+      },
+      "related": [
+        "concept520"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2196",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2196",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم المحفوظات"
+        ],
+        "es": [
+          "Archivística"
+        ]
+      },
+      "broader": [
+        "concept455"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:51:31+00:00",
+      "narrower": [
+        "concept2788"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الارشيف"
+        ],
+        "en": [
+          "Archive science"
+        ],
+        "es": [
+          "Archivología"
+        ],
+        "fr": [
+          "Archivistique"
+        ],
+        "ru": [
+          "Архивоведение"
+        ]
+      },
+      "related": [
+        "concept2740",
+        "concept2745",
+        "concept2790",
+        "concept492"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2744",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2744",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept2744"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:51:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تاريخ الارشيفات"
+        ],
+        "en": [
+          "History of archives"
+        ],
+        "es": [
+          "Historia de los archivos"
+        ],
+        "fr": [
+          "Histoire des archives"
+        ],
+        "ru": [
+          "История архивов"
+        ]
+      },
+      "related": [
+        "concept302",
+        "concept492"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2788",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2788",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مكتبيات"
+        ],
+        "en": [
+          "Librarianship"
+        ],
+        "ru": [
+          "Библиотечное дело"
+        ]
+      },
+      "broader": [
+        "concept455"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-24T11:22:04+00:00",
+      "narrower": [
+        "concept11852"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم المكتبات"
+        ],
+        "en": [
+          "Library science"
+        ],
+        "es": [
+          "Bibliotecología"
+        ],
+        "fr": [
+          "Bibliothéconomie"
+        ],
+        "ru": [
+          "Библиотековедение"
+        ]
+      },
+      "related": [
+        "concept2744",
+        "concept2773",
+        "concept3857",
+        "concept456",
+        "concept4764"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2790",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2790",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سيبرنتيكا",
+          "سيبرنيات",
+          "علم التحكم الآلي",
+          "علم التحكم الاوتوماتيكي",
+          "علم التحكم الذاتي",
+          "علم التحكم والاتصال",
+          "علم الضبط والاتصال العصبي"
+        ]
+      },
+      "broader": [
+        "concept450"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سيبرنطيقا"
+        ],
+        "en": [
+          "Cybernetics"
+        ],
+        "es": [
+          "Cibernética"
+        ],
+        "fr": [
+          "Cybernétique"
+        ],
+        "ru": [
+          "Кибернетика"
+        ]
+      },
+      "related": [
+        "concept2224",
+        "concept3052",
+        "concept3054",
+        "concept3055",
+        "concept3058",
+        "concept3399",
+        "concept4954",
+        "concept6101",
+        "concept622",
+        "concept7323"
+      ],
+      "scope_notes": {
+        "ar": [
+          "علم التحكم والاتصال، وعلى وجه التحديد التفاعل بين التحكم الآلي والأشخاص."
+        ],
+        "en": [
+          "The science of control and communication, specifically the interaction between automatic control and people."
+        ],
+        "es": [
+          "Ciencia del control de sistemas y de la comunicación. Desde una óptica más específica se refiere a la interacción entre el control automático y el hombre."
+        ],
+        "fr": [
+          "La science du contrôle des systèmes et de la communication, de manière plus spécifique, l'interaction entre le contrôle automatique et l'homme."
+        ],
+        "ru": [
+          "Наука управления и передачи информации, особенно в области взаимодействия человека и средств автоматического управления."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3057",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3057",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "افلام ثابتة",
+          "شرائط الافلام"
+        ]
+      },
+      "broader": [
+        "concept10826"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T14:33:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اشرطة الافلام"
+        ],
+        "en": [
+          "Film strips"
+        ],
+        "es": [
+          "Cinta de película"
+        ],
+        "fr": [
+          "Film fixe"
+        ],
+        "ru": [
+          "Диафильмы"
+        ]
+      },
+      "related": [
+        "concept3333",
+        "concept508",
+        "concept7968"
+      ],
+      "scope_notes": {
+        "ar": [
+          "شريط من الصور المتحركة يحمل صورة ثابتة، أو غيرها من المواد المصورة، على كل إطار من إطاراته. يستخدم على نطاق واسع كأداة للتعليم السمعي البصري."
+        ],
+        "en": [
+          "A strip of motion picture carrying a still photograph, or other graphic material, on each of its frames. Widely used as an audiovisual instruction tool."
+        ],
+        "es": [
+          "Banda de película donde están las imágenes fotográficas u otro material gráfico proyectadas como imágenes fijas, muy empleado como herramienta de enseñanza de las artes audiovisuales."
+        ],
+        "fr": [
+          "Bande de film comportant des images photographiques ou autre matériel graphique projetés comme images fixes. Largement utilisé comme support à l'enseignement audiovisuel."
+        ],
+        "ru": [
+          "Фотолента, на каждом кадре которой изображена фотография или иной графический материал",
+          "широко используется в качестве аудиовизуального учебного пособия."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3341",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3341",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ملفات استنادية"
+        ]
+      },
+      "broader": [
+        "concept451"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T14:37:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قوائم استنادية"
+        ],
+        "en": [
+          "Authority lists"
+        ],
+        "es": [
+          "Lista oficial de autoridades"
+        ],
+        "fr": [
+          "Liste d'autorité"
+        ],
+        "ru": [
+          "Рубрикаторы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3379",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3379",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكشيف بمساعدة الحاسب",
+          "تكشيف بوسائل آلية"
+        ],
+        "en": [
+          "Computer assisted indexing",
+          "Machine indexing"
+        ],
+        "es": [
+          "Autoindexación",
+          "Indexación asistida por ordenador",
+          "Indización automática"
+        ],
+        "fr": [
+          "Auto-indexation",
+          "Indexation assistée par ordinateur"
+        ],
+        "ru": [
+          "Компьютерное индексирование",
+          "Машинное индексирование"
+        ]
+      },
+      "broader": [
+        "concept2196"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:50:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكشيف آلي"
+        ],
+        "en": [
+          "Automatic indexing"
+        ],
+        "es": [
+          "Indexación automática"
+        ],
+        "fr": [
+          "Indexation automatique"
+        ],
+        "ru": [
+          "Автоматизированное индексирование"
+        ]
+      },
+      "related": [
+        "concept2731",
+        "concept3410",
+        "concept3411",
+        "concept3412",
+        "concept520"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3406",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3406",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "شكل موحد للاتصال",
+          "صيغ التسجيلات الببليوجرافية",
+          "صيغ الفهارس",
+          "صيغة الاتصال العام",
+          "فهرسة مقروءة آليا",
+          "مارك",
+          "يونيمارك"
+        ],
+        "en": [
+          "Bibliographic record formats",
+          "CCF",
+          "Catalogue formats",
+          "Common Communication Format",
+          "MARC",
+          "UNIMARC"
+        ],
+        "es": [
+          "CCF",
+          "Formato de catalogación",
+          "Formato de registros bibliográficos",
+          "MARC",
+          "Normalización documental",
+          "UNIMARC"
+        ],
+        "fr": [
+          "CCF",
+          "Format de catalogage",
+          "Format des registres bibliographiques",
+          "MARC",
+          "Normalisation documentaire",
+          "Norme des notices bibliographiques",
+          "UNIMARC"
+        ],
+        "ru": [
+          "ОКФ - общий коммуникационный формат",
+          "Общий коммуникационный формат",
+          "Стандарт MARC",
+          "Стандарт UNIMARC",
+          "Форматы библиографических записей",
+          "Форматы каталогов"
+        ]
+      },
+      "broader": [
+        "concept4763"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-24T11:22:10+00:00",
+      "narrower": [
+        "concept3785",
+        "concept3786",
+        "concept3787"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معايير ببليوجرافية"
+        ],
+        "en": [
+          "Bibliographic standards"
+        ],
+        "es": [
+          "Norma bibliográfica"
+        ],
+        "fr": [
+          "Norme bibliographique"
+        ],
+        "ru": [
+          "Библиографические стандарты"
+        ]
+      },
+      "related": [
+        "concept3759",
+        "concept453"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3761",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3761",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدوب (د)",
+          "تدوب (ك)",
+          "تدوب (م غ ك)",
+          "تقنين دولي للوصف الببليوجرافي",
+          "تقنين دولي للوصف الببليوجرافي للدوريات",
+          "تقنين دولي للوصف الببليوجرافي للكتب",
+          "تقنين دولي للوصف الببليوجرافي للمواد غير الكتب"
+        ],
+        "en": [
+          "ISBD (M)",
+          "ISBD (NBM)",
+          "ISBD (S)"
+        ],
+        "es": [
+          "ISBD (M)",
+          "ISBD (NBM)",
+          "ISBD (S)"
+        ],
+        "fr": [
+          "ISBD (M)",
+          "ISBD (NBM)",
+          "ISBD (S)"
+        ],
+        "ru": [
+          "Код ISBD (M)",
+          "Код ISBD (NBM)",
+          "Код ISBD (S)"
+        ]
+      },
+      "broader": [
+        "concept3761"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T14:37:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدوب"
+        ],
+        "en": [
+          "ISBD"
+        ],
+        "es": [
+          "ISBD"
+        ],
+        "fr": [
+          "ISBD"
+        ],
+        "ru": [
+          "Код ISBD"
+        ]
+      },
+      "related": [
+        "concept4227",
+        "concept507",
+        "concept7424"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التقنين الدولي للوصف الببليوجرافي."
+        ],
+        "en": [
+          "International standard bibliographic description."
+        ],
+        "es": [
+          "Descripción bibliográfica internacional normalizada"
+        ],
+        "fr": [
+          "Description bibliographique internationale normalisée."
+        ],
+        "ru": [
+          "Международный стандарт библиографического описания документа."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3785",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3785",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدمك",
+          "ترقيم دولي موحد للكتاب",
+          "رقم دولي معياري للكتاب"
+        ]
+      },
+      "broader": [
+        "concept3761"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ردمك"
+        ],
+        "en": [
+          "ISBN"
+        ],
+        "es": [
+          "ISBN"
+        ],
+        "fr": [
+          "ISBN"
+        ],
+        "ru": [
+          "Код ISBN"
+        ]
+      },
+      "related": [
+        "concept3787",
+        "concept500"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الرقم الدولي المعياري للكتاب."
+        ],
+        "en": [
+          "International standard book number."
+        ],
+        "es": [
+          "Número internacional normalizado de libros"
+        ],
+        "fr": [
+          "Numéro international normalisé du livre."
+        ],
+        "ru": [
+          "Стандартный международный номер книжного издания"
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3786",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3786",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رقم دولي معياري للدوريات"
+        ]
+      },
+      "broader": [
+        "concept3761"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ردمد"
+        ],
+        "en": [
+          "ISSN"
+        ],
+        "es": [
+          "ISSN"
+        ],
+        "fr": [
+          "ISSN"
+        ],
+        "ru": [
+          "Код ISSN"
+        ]
+      },
+      "related": [
+        "concept3786",
+        "concept507"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الرقم الدولي المعياري للدوريات."
+        ],
+        "en": [
+          "International standard serial number."
+        ],
+        "es": [
+          "Número internacional normalizado de publicaciones en serie."
+        ],
+        "fr": [
+          "Numéro international normalisé des publications en série."
+        ],
+        "ru": [
+          "Международный стандарт кодирования периодических изданий."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3787",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3787",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جمع الكتب",
+          "علم الكتاب",
+          "قياسات ببليوجرافية"
+        ],
+        "en": [
+          "Bibliometrics",
+          "Book collecting"
+        ],
+        "es": [
+          "Bibliofilia",
+          "Bibliometría"
+        ],
+        "fr": [
+          "Bibliométrie",
+          "Bibliophilie"
+        ],
+        "ru": [
+          "Библиометрия",
+          "Коллекционирование книг"
+        ]
+      },
+      "broader": [
+        "concept456"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:51:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ببليولوجيا"
+        ],
+        "en": [
+          "Bibliology"
+        ],
+        "es": [
+          "Bibliología"
+        ],
+        "fr": [
+          "Bibliologie"
+        ],
+        "ru": [
+          "Библиология"
+        ]
+      },
+      "related": [
+        "concept3809",
+        "concept3810"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الدراسة المنهجية لخصائص ومميزات الكتب المتعلقة بعملية النشر أو تقنيات الطباعة والإنتاج والتسويق."
+        ],
+        "en": [
+          "The systematic study of the properties and characteristics of books in relation to the publication process or to the techniques of printing, production and marketing."
+        ],
+        "es": [
+          "Estudio sistemático de las propiedades y características de los libros en relación con los procesos de publicación o con las técnicas de impresión, producción y marketing."
+        ],
+        "fr": [
+          "Étude systématique des propriétés et caractéristiques des livres, axée sur les processus de publication ou les techniques d'impression, de production et de marketing."
+        ],
+        "ru": [
+          "Систематизированное изучение свойств и особенностей книг по отношению к издательскому процессу или технологии, производству и распространению печатной продукции."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3802",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3802",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept456"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم المكتبات المقارن"
+        ],
+        "en": [
+          "Comparative librarianship"
+        ],
+        "es": [
+          "Bibliotecología comparada"
+        ],
+        "fr": [
+          "Bibliothéconomie comparée"
+        ],
+        "ru": [
+          "Сравнительное библиотековедение"
+        ]
+      },
+      "related": [
+        "concept2790"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3857",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3857",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعلام مطبوع",
+          "اوعية مطبوعة",
+          "صحافة مكتوبة",
+          "مطبوعات",
+          "مواد مطبوعة",
+          "وسائط مطبوعة",
+          "وسائل الإعلام المطبوعة"
+        ],
+        "en": [
+          "Printed matter"
+        ],
+        "es": [
+          "Impresos",
+          "Texto impreso"
+        ],
+        "fr": [
+          "Imprimé",
+          "Matière imprimé",
+          "Produit imprimé",
+          "Texte imprimé"
+        ],
+        "ru": [
+          "Печатная продукция"
+        ]
+      },
+      "broader": [
+        "concept454"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T14:34:01+00:00",
+      "narrower": [
+        "concept4201"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وسائط الإعلام المطبوعة"
+        ],
+        "en": [
+          "Print media"
+        ],
+        "es": [
+          "Medios impresos"
+        ],
+        "fr": [
+          "Média imprimé"
+        ],
+        "ru": [
+          "Печатные носители"
+        ]
+      },
+      "related": [
+        "concept4183",
+        "concept4216",
+        "concept525",
+        "concept526"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4186",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4186",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تبادل المنشورات"
+        ]
+      },
+      "broader": [
+        "concept453"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T14:37:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تبادل المطبوعات"
+        ],
+        "en": [
+          "Exchange of publications"
+        ],
+        "es": [
+          "Intercambio de publicaciones"
+        ],
+        "fr": [
+          "Échange de publications"
+        ],
+        "ru": [
+          "Обмен публикациями"
+        ]
+      },
+      "related": [
+        "concept4188",
+        "concept4194",
+        "concept6580",
+        "concept8318"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4193",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4193",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ورق (وسائط)",
+          "ورق (وسائل الإعلام)"
+        ],
+        "en": [
+          "Paper (media)"
+        ],
+        "es": [
+          "Papel de imprimir"
+        ],
+        "fr": [
+          "Papier (support)",
+          "Papier d'imprimerie",
+          "Support papier"
+        ],
+        "ru": [
+          "Бумага (носитель)"
+        ]
+      },
+      "broader": [
+        "concept4186"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T14:32:07+00:00",
+      "narrower": [
+        "concept14542"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ورق الطباعة"
+        ],
+        "en": [
+          "Printing paper"
+        ],
+        "es": [
+          "Papel de imprenta"
+        ],
+        "fr": [
+          "Papier d'impression"
+        ],
+        "ru": [
+          "Печатная бумага"
+        ]
+      },
+      "related": [
+        "concept4179",
+        "concept538"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4201",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4201",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انظمة التصنيف",
+          "بحوث التصنيف",
+          "تصنيف الكولون",
+          "تصنيف النظام العريض للترتيب",
+          "تصنيف بليس",
+          "تصنيف ديوي",
+          "تصنيف عشري عالمي",
+          "تصنيف مكتبة الكونجرس",
+          "خطط التصنيف"
+        ],
+        "en": [
+          "BLISS classification",
+          "BSO classification",
+          "Classification research",
+          "Classification schemes",
+          "Colon classification",
+          "Dewey",
+          "LCC",
+          "UDC"
+        ],
+        "es": [
+          "CDU",
+          "Clasificación decimal",
+          "Dewey",
+          "Esquema de clasificación",
+          "Investigación en clasificación",
+          "LCC",
+          "Método de clasificación",
+          "Regla de clasificación"
+        ],
+        "fr": [
+          "CDU",
+          "Classification décimale",
+          "Classification à facettes",
+          "Dewey",
+          "LCC",
+          "Recherche en classification",
+          "Schéma de classification",
+          "Système de classification"
+        ],
+        "ru": [
+          "Десятичная классификация Дьюи",
+          "Классификационные исследования",
+          "Классификационные схемы",
+          "Классификация BLISS",
+          "Классификация BSO",
+          "Классификация Библиотеки Конгресса США",
+          "Классификация двоеточием",
+          "УДК - универсальная десятичная классификация"
+        ]
+      },
+      "broader": [
+        "concept6549"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-24T11:22:13+00:00",
+      "narrower": [
+        "concept5406"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم التصنيف"
+        ],
+        "en": [
+          "Classification systems"
+        ],
+        "es": [
+          "Sistema de clasificación"
+        ],
+        "fr": [
+          "Cadre de classement"
+        ],
+        "ru": [
+          "Системы классификации"
+        ]
+      },
+      "related": [
+        "concept456"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4504",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4504",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Cataloging rules"
+        ]
+      },
+      "broader": [
+        "concept457"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:50:42+00:00",
+      "narrower": [
+        "concept3761"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قواعد الفهرسة"
+        ],
+        "en": [
+          "Cataloguing rules"
+        ],
+        "es": [
+          "Norma de catalogación"
+        ],
+        "fr": [
+          "Norme de catalogage"
+        ],
+        "ru": [
+          "Правила каталогизирования"
+        ]
+      },
+      "related": [
+        "concept3799"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4763",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4763",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept455"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:51:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توثيق"
+        ],
+        "en": [
+          "Documentation"
+        ],
+        "es": [
+          "Documentación"
+        ],
+        "fr": [
+          "Documentation"
+        ],
+        "ru": [
+          "Документирование"
+        ]
+      },
+      "related": [
+        "concept2790",
+        "concept3412",
+        "concept3799",
+        "concept513"
+      ],
+      "scope_notes": {
+        "ar": [
+          "المعالجة المستمرة والمنهجية للوثائق أو البيانات لمستخدمي المعلومات المتخصصين."
+        ],
+        "en": [
+          "The continuous and systematic processing of documents or data for specialized information users."
+        ],
+        "es": [
+          "Tratamiento continuo y sistemático de documentos o de datos para los usuarios de información especializada."
+        ],
+        "fr": [
+          "Traitement continu et systématique de documents ou de données pour des utilisateurs d'information spécialisée."
+        ],
+        "ru": [
+          "Непрерывный и систематический процесс обработки документов или данных для информационных пользователей."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4764",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4764",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رءوس الموضوعات"
+        ],
+        "fr": [
+          "Mot-matière",
+          "Mot-sujet"
+        ]
+      },
+      "broader": [
+        "concept4504"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T14:36:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رؤوس الموضوعات"
+        ],
+        "en": [
+          "Subject headings"
+        ],
+        "es": [
+          "Encabezamiento por materia"
+        ],
+        "fr": [
+          "Vedette-matière"
+        ],
+        "ru": [
+          "Рубрики"
+        ]
+      },
+      "related": [
+        "concept12263"
+      ],
+      "scope_notes": {
+        "ar": [
+          "كلمة أو مصطلح أو عبارة تم اختيارها للتعبير عن مفهوم أو مجموعة من المفاهيم عند الفهرسة وتشكيل مدخل"
+        ],
+        "en": [
+          "A word, term or a phrase chosen to express a concept or a concept combination in indexing and to constitute an entry."
+        ],
+        "es": [
+          "Palabra, término o locución elegida para expresar un concepto o una asociación de conceptos."
+        ],
+        "fr": [
+          "Mot, terme ou locution choisi pour exprimer un concept ou une association de concepts."
+        ],
+        "ru": [
+          "Слово, термин или фраза, выбранные для выражения понятия или комбинации понятий при индексировании и составляющие отдельную запись."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5406",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5406",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept452"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:49:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات الاتصال"
+        ],
+        "en": [
+          "Communication information"
+        ],
+        "es": [
+          "Información sobre comunicación"
+        ],
+        "fr": [
+          "Information en matière de communication"
+        ],
+        "ru": [
+          "Коммуникационная информация"
+        ]
+      },
+      "related": [
+        "concept5771"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5769",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5769",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انشاء المكانز",
+          "تطوير المكانز"
+        ],
+        "en": [
+          "Thesaurus development"
+        ],
+        "es": [
+          "Desarrollo del tesauro"
+        ],
+        "fr": [
+          "Développement de thésaurus"
+        ],
+        "ru": [
+          "Развитие тезаурусов"
+        ]
+      },
+      "broader": [
+        "concept12263"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-24T11:22:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجميع المكانز"
+        ],
+        "en": [
+          "Thesaurus compilation"
+        ],
+        "es": [
+          "Compilación de tesauro"
+        ],
+        "fr": [
+          "Compilation de thésaurus"
+        ],
+        "ru": [
+          "Составление тезаурусов"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5937",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5937",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ميكروفورم"
+        ]
+      },
+      "broader": [
+        "concept10826"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:38+00:00",
+      "narrower": [
+        "concept14100",
+        "concept14103"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مصغرات"
+        ],
+        "en": [
+          "Microforms"
+        ],
+        "es": [
+          "Microforma"
+        ],
+        "fr": [
+          "Microforme"
+        ],
+        "ru": [
+          "Микроформы"
+        ]
+      },
+      "related": [
+        "concept10103",
+        "concept14106",
+        "concept508",
+        "concept523",
+        "concept6064"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6067",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6067",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعلام الكتروني",
+          "وسائط إعلام الكترونية",
+          "وسائط الإعلام الإلكترونية",
+          "وسائل اتصال الكترونية"
+        ],
+        "en": [
+          "Digital media"
+        ],
+        "es": [
+          "Medios digitales"
+        ],
+        "fr": [
+          "Média numérique"
+        ]
+      },
+      "broader": [
+        "concept454"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2024-10-07T11:54:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وسائط الكترونية"
+        ],
+        "en": [
+          "Electronic media"
+        ],
+        "es": [
+          "Medios electrónicos"
+        ],
+        "fr": [
+          "Média électronique"
+        ],
+        "ru": [
+          "Электронные носители"
+        ]
+      },
+      "related": [
+        "concept2731",
+        "concept6072",
+        "concept7411"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6107",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6107",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحكم في المصطلحات",
+          "ضبط المفردات"
+        ],
+        "en": [
+          "Vocabulary control"
+        ],
+        "es": [
+          "Control del vocabulario"
+        ],
+        "fr": [
+          "Contrôle du vocabulaire"
+        ],
+        "ru": [
+          "Вокабулярный контроль"
+        ]
+      },
+      "broader": [
+        "concept451"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-24T11:22:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ضبط المصطلحات"
+        ],
+        "en": [
+          "Terminological control"
+        ],
+        "es": [
+          "Control terminológico"
+        ],
+        "fr": [
+          "Contrôle terminologique"
+        ],
+        "ru": [
+          "Терминологический контроль"
+        ]
+      },
+      "related": [
+        "concept12263"
+      ],
+      "scope_notes": {
+        "ar": [
+          "ضوابط يمكن الإحالة إليها من المرادفات وأشباه المرادفات على حد سواء، والألفاظ المتجانسة والمشتركات اللفظية التي تُميز بالواصفات."
+        ],
+        "en": [
+          "Controls that synonyms and near-synonyms are cross-referenced equivalently and homonyms and polysemes are distinguished by qualifiers."
+        ],
+        "es": [
+          "Vigilar que los sinónimos y las palabras afines sean reflejadas como equivalentes y que los homónimos y las palabras polisémicas sean diferenciadas por calificativos."
+        ],
+        "fr": [
+          "Veille à ce que les synonymes et les mots proches soient renvoyés comme équivalents et que les homonymes et les mots polysémiques soient différenciés par des qualificatifs."
+        ],
+        "ru": [
+          "Обеспечивает взаимосвязанность ссылок между полными и частичными синонимами, а также выделение определителями омонимов и полисемов."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6523",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6523",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept451"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:50:04+00:00",
+      "narrower": [
+        "concept4504"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "لغات مقيدة"
+        ],
+        "en": [
+          "Controlled languages"
+        ],
+        "es": [
+          "Lenguajes controlados"
+        ],
+        "fr": [
+          "Langage contrôlé"
+        ],
+        "ru": [
+          "Контролируемые языки"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6549",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6549",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept452"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات ثقافية"
+        ],
+        "en": [
+          "Cultural information"
+        ],
+        "es": [
+          "Información cultural"
+        ],
+        "fr": [
+          "Information culturelle"
+        ],
+        "ru": [
+          "Культурная информация"
+        ]
+      },
+      "related": [
+        "concept264"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7094",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7094",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعميم العلوم",
+          "مبادرة علمية",
+          "محو الامية التقنية",
+          "محو الامية التكنولوجية",
+          "محو الامية العلمية"
+        ],
+        "en": [
+          "Scientific initiation",
+          "Scientific literacy",
+          "Technical literacy",
+          "Technological literacy"
+        ],
+        "es": [
+          "Difusión del saber científico",
+          "Divulgación tecnológica"
+        ],
+        "fr": [
+          "Alphabétisation scientifique",
+          "Alphabétisation technologique",
+          "Initiation scientifique",
+          "Initiation à la science",
+          "Popularisation de la science"
+        ],
+        "ru": [
+          "Научная грамотность",
+          "Посвящение в науку",
+          "Техническая грамотность",
+          "Технологическая грамотность"
+        ]
+      },
+      "broader": [
+        "concept12435"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-24T11:22:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تبسيط العلوم"
+        ],
+        "en": [
+          "Science popularization"
+        ],
+        "es": [
+          "Divulgación científica"
+        ],
+        "fr": [
+          "Vulgarisation scientifique"
+        ],
+        "ru": [
+          "Популяризация науки"
+        ]
+      },
+      "related": [
+        "concept15881",
+        "concept3974",
+        "concept6935"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8279",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8279",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept12437"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:50:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات اقتصادية"
+        ],
+        "en": [
+          "Economic information"
+        ],
+        "es": [
+          "Información económica"
+        ],
+        "fr": [
+          "Information économique"
+        ],
+        "ru": [
+          "Экономическая информация"
+        ]
+      },
+      "related": [
+        "concept585"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8794",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8794",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "توثيق تربوي"
+        ],
+        "en": [
+          "Educational documentation"
+        ],
+        "es": [
+          "Información educativa"
+        ],
+        "fr": [
+          "Documentation éducative",
+          "Information sur l'éducation"
+        ],
+        "ru": [
+          "Образовательная документация"
+        ]
+      },
+      "broader": [
+        "concept452"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:50:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات تربوية"
+        ],
+        "en": [
+          "Educational information"
+        ],
+        "es": [
+          "Información educacional"
+        ],
+        "fr": [
+          "Information pédagogique"
+        ],
+        "ru": [
+          "Образовательная информация"
+        ]
+      },
+      "related": [
+        "concept9261",
+        "concept9262",
+        "concept9263",
+        "concept96"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9259",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9259",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Información sobre la energía"
+        ],
+        "fr": [
+          "Information sur l'énergie"
+        ]
+      },
+      "broader": [
+        "concept12435"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات الطاقة"
+        ],
+        "en": [
+          "Energy information"
+        ],
+        "es": [
+          "Información energética"
+        ],
+        "fr": [
+          "Information énergétique"
+        ],
+        "ru": [
+          "Информация по энергетике"
+        ]
+      },
+      "related": [
+        "concept212"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9744",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9744",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Información medioambiental"
+        ],
+        "fr": [
+          "Information environnementale"
+        ]
+      },
+      "broader": [
+        "concept12435"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:51:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات بيئية"
+        ],
+        "en": [
+          "Environmental information"
+        ],
+        "es": [
+          "Información ambiental"
+        ],
+        "fr": [
+          "Information en matière d'environnement"
+        ],
+        "ru": [
+          "Информация об окружающей среде"
+        ]
+      },
+      "related": [
+        "concept10009",
+        "concept55"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10013",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10013",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اوعية فيلمية",
+          "وسائط الإعلام السينمائية"
+        ]
+      },
+      "broader": [
+        "concept454"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-24T11:21:57+00:00",
+      "narrower": [
+        "concept3341",
+        "concept6067"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وسائط الإعلام الفيلمية"
+        ],
+        "en": [
+          "Film media"
+        ],
+        "es": [
+          "Cine (medios)"
+        ],
+        "fr": [
+          "Film (médias)"
+        ],
+        "ru": [
+          "Пленочные носители"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10826",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10826",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept2790"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:50:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تاريخ المكتبات"
+        ],
+        "en": [
+          "History of libraries"
+        ],
+        "es": [
+          "Historia de las bibliotecas"
+        ],
+        "fr": [
+          "Histoire des bibliothèques"
+        ],
+        "ru": [
+          "История библиотек"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11852",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11852",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مكانز احادية اللغة",
+          "مكانز متعددة اللغات",
+          "واصفات"
+        ],
+        "en": [
+          "Descriptors",
+          "Monolingual thesauri",
+          "Multilingual thesauri"
+        ],
+        "es": [
+          "Descriptores",
+          "Tesauro monolingüe",
+          "Tesauro multilingüe",
+          "Thesauro"
+        ],
+        "fr": [
+          "Descripteur",
+          "Thésaurus monolingue",
+          "Thésaurus multilingue",
+          "Thésaurus unilingue"
+        ],
+        "ru": [
+          "Дескрипторы",
+          "Многоязычные тезаурусы",
+          "Моноязычные тезаурусы"
+        ]
+      },
+      "broader": [
+        "concept451"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:32+00:00",
+      "narrower": [
+        "concept5937"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مكانز"
+        ],
+        "en": [
+          "Thesauri"
+        ],
+        "es": [
+          "Tesauro"
+        ],
+        "fr": [
+          "Thésaurus"
+        ],
+        "ru": [
+          "Тезаурусы"
+        ]
+      },
+      "related": [
+        "concept3271",
+        "concept5406",
+        "concept6523",
+        "concept7984"
+      ],
+      "scope_notes": {
+        "ar": [
+          "لغة وثائقية محكمة وديناميكية تحتوي على مصطلحات دلالية وعمومية ذات صلة، والتي تغطي مجالًا محددًا من المعرفة بشكل شامل."
+        ],
+        "en": [
+          "A controlled and dynamic documentary language containing semantically and generically related terms, which comprehensively covers a specific domain of knowledge."
+        ],
+        "es": [
+          "Lenguaje documental controlado y dinámico que contiene términos relacionados semántica y genéricamente que abarcan de manera exhaustiva una esfera concreta del conocimiento."
+        ],
+        "fr": [
+          "Langage documentaire contrôlé et dynamique contenant des termes sémantiquement et génériquement reliés, lequel couvre de manière exhaustive un domaine spécifique de la connaissance."
+        ],
+        "ru": [
+          "Контролируемый и динамический документальный язык в конкретной области знания, содержащий семантически и родственно связанные термины."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12263",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12263",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معلومات تقنية",
+          "معلومات علمية وتقنية"
+        ],
+        "en": [
+          "STI",
+          "Scientific and technical information",
+          "Technical information"
+        ],
+        "es": [
+          "IST",
+          "Información técnica",
+          "Tecnologías de la información"
+        ],
+        "fr": [
+          "IST",
+          "Information scientifique et technique",
+          "Information technique"
+        ],
+        "ru": [
+          "НТИ - научно-техническая информация",
+          "Научная и техническая информация",
+          "Техническая информация"
+        ]
+      },
+      "broader": [
+        "concept452"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2021-09-27T09:48:59+00:00",
+      "narrower": [
+        "concept10013",
+        "concept8279",
+        "concept9744"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات علمية"
+        ],
+        "en": [
+          "Scientific information"
+        ],
+        "es": [
+          "Información científica"
+        ],
+        "fr": [
+          "Information scientifique"
+        ],
+        "ru": [
+          "Научная информация"
+        ]
+      },
+      "related": [
+        "concept15070",
+        "concept15722",
+        "concept15881",
+        "concept16282",
+        "concept17126",
+        "concept1784",
+        "concept3777",
+        "concept512",
+        "concept8017",
+        "concept8759"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12435",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12435",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept452"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:34+00:00",
+      "narrower": [
+        "concept12439",
+        "concept12442",
+        "concept8794"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات العلوم الاجتماعية"
+        ],
+        "en": [
+          "Social science information"
+        ],
+        "es": [
+          "Información sobre ciencias sociales"
+        ],
+        "fr": [
+          "Information en sciences sociales"
+        ],
+        "ru": [
+          "Информация по общественным наукам"
+        ]
+      },
+      "related": [
+        "concept380",
+        "concept8759"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12437",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12437",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعلام سياسي"
+        ]
+      },
+      "broader": [
+        "concept12437"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:51:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات سياسية"
+        ],
+        "en": [
+          "Political information"
+        ],
+        "es": [
+          "Información política"
+        ],
+        "fr": [
+          "Information politique"
+        ],
+        "ru": [
+          "Политическая информация"
+        ]
+      },
+      "related": [
+        "concept568"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12439",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12439",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعلام اجتماعي"
+        ]
+      },
+      "broader": [
+        "concept12437"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات اجتماعية"
+        ],
+        "en": [
+          "Social information"
+        ],
+        "es": [
+          "Información social"
+        ],
+        "fr": [
+          "Information sociale"
+        ],
+        "ru": [
+          "Общественная информация"
+        ]
+      },
+      "related": [
+        "concept9692"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12442",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12442",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "شرائح مجهرية"
+        ]
+      },
+      "broader": [
+        "concept6067"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-24T11:22:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميكروفيش"
+        ],
+        "en": [
+          "Microfiches"
+        ],
+        "es": [
+          "Microficha"
+        ],
+        "fr": [
+          "Microfiche"
+        ],
+        "ru": [
+          "Микрофиши"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14100",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14100",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مصغرات فيلمية"
+        ]
+      },
+      "broader": [
+        "concept6067"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-24T11:22:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميكروفيلم"
+        ],
+        "en": [
+          "Microfilms"
+        ],
+        "es": [
+          "Microfilm"
+        ],
+        "fr": [
+          "Microfilm"
+        ],
+        "ru": [
+          "Микрофильмы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14103",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14103",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ورق الصحف"
+        ]
+      },
+      "broader": [
+        "concept4201"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.05"
+      ],
+      "modified": "2019-12-15T13:52:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ورق الجرائد"
+        ],
+        "en": [
+          "Newsprint"
+        ],
+        "es": [
+          "Papel de periódico"
+        ],
+        "fr": [
+          "Papier journal"
+        ],
+        "ru": [
+          "Газетная бумага"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14542",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14542",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt5.05",
+    "labels": {
+      "en": "Information sciences",
+      "fr": "Sciences de l'information"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt5.05"
+  }
+}

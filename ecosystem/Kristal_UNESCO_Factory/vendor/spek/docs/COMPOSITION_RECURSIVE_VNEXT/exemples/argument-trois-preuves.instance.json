@@ -1,0 +1,96 @@
+{
+  "format": "spek.composition-instance/1.0",
+  "instance_id": "wiki-argument-01",
+  "template_ref": "rhetorical.argument-evidence@1.0.0",
+  "bindings": {
+    "thesis": {
+      "node_type": "template_ref",
+      "template_ref": "rhetorical.assertion@1.0.0",
+      "bindings": {
+        "statement": {
+          "node_type": "text_slot",
+          "realization_key": "arg1.thesis",
+          "communication_request_ref": "requests/arg1.thesis.json"
+        }
+      }
+    },
+    "evidence": {
+      "node_type": "repeat",
+      "template_ref": "rhetorical.evidence@1.0.0",
+      "min": 3,
+      "max": 3,
+      "instances": [
+        {
+          "instance_id": "proof-1",
+          "node_type": "template_ref",
+          "template_ref": "rhetorical.evidence@1.0.0",
+          "bindings": {
+            "statement": {
+              "node_type": "text_slot",
+              "realization_key": "arg1.proof.1",
+              "communication_request_ref": "requests/arg1.proof.1.json"
+            }
+          }
+        },
+        {
+          "instance_id": "proof-2",
+          "node_type": "template_ref",
+          "template_ref": "rhetorical.evidence@1.0.0",
+          "bindings": {
+            "statement": {
+              "node_type": "text_slot",
+              "realization_key": "arg1.proof.2",
+              "communication_request_ref": "requests/arg1.proof.2.json"
+            }
+          }
+        },
+        {
+          "instance_id": "proof-3",
+          "node_type": "template_ref",
+          "template_ref": "rhetorical.evidence@1.0.0",
+          "bindings": {
+            "statement": {
+              "node_type": "text_slot",
+              "realization_key": "arg1.proof.3",
+              "communication_request_ref": "requests/arg1.proof.3.json"
+            }
+          }
+        }
+      ]
+    },
+    "inference": {
+      "node_type": "text_slot",
+      "realization_key": "arg1.inference",
+      "communication_request_ref": "requests/arg1.inference.json"
+    },
+    "objection": {
+      "node_type": "template_ref",
+      "template_ref": "rhetorical.qualification@1.0.0",
+      "bindings": {
+        "statement": {
+          "node_type": "text_slot",
+          "realization_key": "arg1.objection",
+          "communication_request_ref": "requests/arg1.objection.json"
+        }
+      }
+    },
+    "conclusion": {
+      "node_type": "template_ref",
+      "template_ref": "rhetorical.conclusion@1.0.0",
+      "bindings": {
+        "statement": {
+          "node_type": "text_slot",
+          "realization_key": "arg1.conclusion",
+          "communication_request_ref": "requests/arg1.conclusion.json"
+        }
+      }
+    }
+  },
+  "presentation": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "lead_slot": "thesis",
+    "join_mode": "block"
+  },
+  "authority": "editorial_bindings_explicit_not_approved"
+}

@@ -1,0 +1,264 @@
+{
+  "schema": "levelupdiag.manifest.v2",
+  "standard": "LevelUpDiag-EncyK",
+  "standard_version": "1.0.0",
+  "suite_name": "LevelUpDiag EncyK — diagnostics dédiés",
+  "suite_version": "1.2.0",
+  "repository_mode": "standalone-external-target",
+  "control_dir_default": ".levelupdiag/encyk",
+  "levels": [
+    {
+      "id": "N00",
+      "name": "Diagnostic integrity",
+      "module": "levels.n00_diagnostic_integrity",
+      "order": 0,
+      "required": true,
+      "depends_on": [],
+      "timeout_seconds": 50,
+      "parallel_safe": true
+    },
+    {
+      "id": "N01",
+      "name": "Target context",
+      "module": "levels.n01_target_context",
+      "order": 10,
+      "required": true,
+      "depends_on": [
+        "N00"
+      ],
+      "timeout_seconds": 50,
+      "parallel_safe": true
+    },
+    {
+      "id": "N02",
+      "name": "Repository inventory",
+      "module": "levels.n02_repository_inventory",
+      "order": 20,
+      "required": false,
+      "depends_on": [
+        "N01"
+      ],
+      "timeout_seconds": 50,
+      "parallel_safe": true
+    },
+    {
+      "id": "N03",
+      "name": "Repository hygiene",
+      "module": "levels.n03_repository_hygiene",
+      "order": 30,
+      "required": false,
+      "depends_on": [
+        "N02"
+      ],
+      "timeout_seconds": 80,
+      "parallel_safe": true
+    },
+    {
+      "id": "N04",
+      "name": "Tooling discovery",
+      "module": "levels.n04_tooling_discovery",
+      "order": 40,
+      "required": false,
+      "depends_on": [
+        "N01"
+      ],
+      "timeout_seconds": 50,
+      "parallel_safe": true
+    },
+    {
+      "id": "N05",
+      "name": "Declared validators",
+      "module": "levels.n05_declared_validations",
+      "order": 50,
+      "required": true,
+      "depends_on": [
+        "N01"
+      ],
+      "timeout_seconds": 50,
+      "parallel_safe": false
+    },
+    {
+      "id": "N06",
+      "name": "Security hygiene",
+      "module": "levels.n06_security_hygiene",
+      "order": 60,
+      "required": false,
+      "depends_on": [
+        "N02"
+      ],
+      "timeout_seconds": 80,
+      "parallel_safe": true
+    },
+    {
+      "id": "N07",
+      "name": "EncyK / D: topology (decoupled)",
+      "module": "levels.encyk_topology",
+      "order": 70,
+      "required": true,
+      "depends_on": [
+        "N01"
+      ],
+      "timeout_seconds": 35,
+      "parallel_safe": true,
+      "purpose": "Read-only bounded EncyK evidence with stable diagnostic verdicts."
+    },
+    {
+      "id": "N08",
+      "name": "Wikidata SQLite index",
+      "module": "levels.encyk_wikidata",
+      "order": 80,
+      "required": true,
+      "depends_on": [
+        "N01"
+      ],
+      "timeout_seconds": 35,
+      "parallel_safe": true,
+      "purpose": "Read-only bounded EncyK evidence with stable diagnostic verdicts."
+    },
+    {
+      "id": "N09",
+      "name": "EncyK-owned fast reader and sidecars",
+      "module": "levels.encyk_reader",
+      "order": 90,
+      "required": true,
+      "depends_on": [
+        "N01"
+      ],
+      "timeout_seconds": 35,
+      "parallel_safe": true,
+      "purpose": "Read-only bounded EncyK evidence with stable diagnostic verdicts."
+    },
+    {
+      "id": "N10",
+      "name": "Pont EncyK : disponibilité de l’API Skope externe",
+      "module": "levels.encyk_skope",
+      "order": 100,
+      "required": false,
+      "depends_on": [
+        "N01"
+      ],
+      "timeout_seconds": 35,
+      "parallel_safe": true,
+      "purpose": "Read-only bounded EncyK evidence with stable diagnostic verdicts."
+    },
+    {
+      "id": "N11",
+      "name": "QID and extraction inventories",
+      "module": "levels.encyk_inventory",
+      "order": 110,
+      "required": false,
+      "depends_on": [
+        "N01"
+      ],
+      "timeout_seconds": 35,
+      "parallel_safe": true,
+      "purpose": "Read-only bounded EncyK evidence with stable diagnostic verdicts."
+    },
+    {
+      "id": "N12",
+      "name": "Kristal workspace compatibility",
+      "module": "levels.encyk_kristal",
+      "order": 120,
+      "required": false,
+      "depends_on": [
+        "N01"
+      ],
+      "timeout_seconds": 35,
+      "parallel_safe": true,
+      "purpose": "Read-only bounded EncyK evidence with stable diagnostic verdicts."
+    },
+    {
+      "id": "N13",
+      "name": "Alignement du lecteur EncyK avec le service Skope",
+      "module": "levels.encyk_parity",
+      "order": 130,
+      "required": false,
+      "depends_on": [
+        "N01"
+      ],
+      "timeout_seconds": 35,
+      "parallel_safe": true,
+      "purpose": "Read-only bounded EncyK evidence with stable diagnostic verdicts."
+    },
+    {
+      "id": "N14",
+      "name": "EncyK ↔ Skope pull bridge",
+      "module": "levels.encyk_bridge",
+      "order": 140,
+      "required": true,
+      "depends_on": [
+        "N01"
+      ],
+      "timeout_seconds": 35,
+      "parallel_safe": true,
+      "purpose": "Read-only diagnostics of decoupled EncyK and standalone Skope."
+    }
+  ],
+  "campaigns": {
+    "reader": {
+      "levels": [
+        "N00",
+        "N01",
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N13"
+      ]
+    },
+    "quick": {
+      "levels": [
+        "N00",
+        "N01",
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12",
+        "N13",
+        "N14"
+      ]
+    },
+    "repository": {
+      "levels": [
+        "N00",
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N14"
+      ]
+    },
+    "standard": {
+      "levels": [
+        "N00",
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12",
+        "N13",
+        "N14"
+      ]
+    },
+    "bridge": {
+      "levels": [
+        "N00",
+        "N01",
+        "N07",
+        "N10",
+        "N14"
+      ]
+    }
+  }
+}

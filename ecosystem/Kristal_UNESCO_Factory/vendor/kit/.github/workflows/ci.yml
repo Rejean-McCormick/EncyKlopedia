@@ -1,0 +1,40 @@
+name: Kristal Local Kit v4.0 draft.4 CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Repository check
+        run: python scripts/check_repo.py
+      - name: Deterministic release build
+        run: |
+          python scripts/generate_repo_manifest.py
+          python scripts/build_release.py /tmp/a.zip
+          python scripts/build_release.py /tmp/b.zip
+          cmp /tmp/a.zip /tmp/b.zip
+
+      # Independent v11 schema checks need a pinned Framework checkout supplied
+      # by an approved fixture/release job. Local authoring still runs offline.
+      # The verifier fails closed on changed Framework schema/tool digests.
+
+      - name: diK v11 interop and recovery
+        run: python -m unittest -v tests.test_v11_dik_draft3

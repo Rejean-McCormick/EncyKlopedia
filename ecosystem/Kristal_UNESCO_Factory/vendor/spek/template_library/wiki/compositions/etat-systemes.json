@@ -1,0 +1,91 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-etat-systemes",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-18",
+    "slug": "etat-systemes",
+    "name": "System-State Matrix"
+  },
+  "source_arketype_file": "archetypes/etat-systemes.json",
+  "editorial_rationale": "Structure Arketype ARK-18: Observed condition of multiple systems across dimensions. Infrastructure status, asset state and configuration review.",
+  "source_structural_primitives": [
+    "systemes",
+    "composants",
+    "dimensions_d_etat",
+    "valeurs",
+    "dates_d_observation",
+    "statuts",
+    "ecarts"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "mesures",
+      "title_function": "Observations et interprétations",
+      "layout_id": "observation-inference",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "dimensions_d_etat",
+        "valeurs",
+        "dates_d_observation"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "observations": 1,
+        "interpretation": 1,
+        "verification": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Ne pas confondre observation, état cible et estimation."
+    },
+    {
+      "section_id": "constats",
+      "title_function": "Constats bornés",
+      "layout_id": "result-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "statuts",
+        "ecarts",
+        "systemes"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "claim": 1,
+        "conditions": 1,
+        "evidence": 1,
+        "uncertainty": 1
+      },
+      "editorial_constraint": "Un écart doit indiquer portée, preuve et incertitude."
+    },
+    {
+      "section_id": "composants",
+      "title_function": "Contrôles par composant",
+      "layout_id": "observation-inference",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "composants",
+        "dimensions_d_etat"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "observations": 1,
+        "interpretation": 1,
+        "verification": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Deuxième section uniquement si des contrôles détaillés sont sélectionnés."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "state-matrix"
+  ],
+  "integrity_rule": "Observed, desired and inferred states must remain separate.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

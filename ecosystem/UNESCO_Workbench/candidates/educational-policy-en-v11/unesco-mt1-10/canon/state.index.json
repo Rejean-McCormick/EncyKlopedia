@@ -1,0 +1,68 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:unesco-mt1-10:unesco-source",
+      "path": "canon/domain/unesco-source.json",
+      "logical_contract": {
+        "id": "kristal.unesco-import-snapshot",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:unesco-mt1-10:v11:registry",
+      "path": "canon/domain/v11/registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:unesco-mt1-10:v11:graph",
+      "path": "canon/domain/v11/graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:unesco-mt1-10:v11:crosswalk",
+      "path": "canon/domain/v11/crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:unesco-mt1-10:v11:dictionaries-catalog",
+      "path": "canon/domain/v11/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [],
+  "notes": "Register authoritative Logical Artifacts here. Physical materializations, indexes, caches and build outputs stay derived."
+}

@@ -1,0 +1,3907 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقنيات التعلم",
+          "طرق التعلم",
+          "طرق الدراسة",
+          "مهارات الدراسة"
+        ],
+        "en": [
+          "Learning techniques",
+          "Study methods",
+          "Study skills"
+        ],
+        "es": [
+          "Método de estudio",
+          "Técnica de aprendizaje",
+          "Técnica de estudio"
+        ],
+        "fr": [
+          "Méthode d'étude",
+          "Technique d'apprentissage",
+          "Technique d'étude"
+        ],
+        "ru": [
+          "Методы изучения",
+          "Учебные навыки",
+          "Учебные приемы"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T14:00:13+00:00",
+      "narrower": [
+        "concept10332",
+        "concept1304",
+        "concept1308",
+        "concept13294",
+        "concept17113",
+        "concept2590",
+        "concept2592",
+        "concept3389",
+        "concept8237",
+        "concept8242"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اساليب التعلم"
+        ],
+        "en": [
+          "Learning methods"
+        ],
+        "es": [
+          "Método de aprendizaje"
+        ],
+        "fr": [
+          "Méthode d'apprentissage"
+        ],
+        "ru": [
+          "Учебные методы"
+        ]
+      },
+      "related": [
+        "concept8243",
+        "concept83",
+        "concept9345"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept81",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept81",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم",
+          "عملية التدريس"
+        ],
+        "en": [
+          "Instruction",
+          "Teaching process"
+        ],
+        "es": [
+          "Instrucción",
+          "Proceso de enseñanza"
+        ],
+        "fr": [
+          "Instruction",
+          "Processus d'enseignement"
+        ],
+        "ru": [
+          "Обучение",
+          "Преподавательский процесс"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:58:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريس"
+        ],
+        "en": [
+          "Teaching"
+        ],
+        "es": [
+          "Enseñanza"
+        ],
+        "fr": [
+          "Enseignement"
+        ],
+        "ru": [
+          "Преподавание"
+        ]
+      },
+      "related": [
+        "concept1086",
+        "concept83",
+        "concept84"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الجوانب الفنية لعملية التدريس. استخدم واصفة أكثر دقة عند الضرورة."
+        ],
+        "en": [
+          "Technical aspects of the teaching process. Use more specific descriptor where appropriate."
+        ],
+        "es": [
+          "Aspectos técnicos del proceso de enseñanza. Utilizar un descriptor más preciso cuando sea necesario."
+        ],
+        "fr": [
+          "Aspects techniques du processus d'enseignement. Utiliser un descripteur plus précis quand c'est pertinent."
+        ],
+        "ru": [
+          "Технические аспекты преподавательского процесса. В необходимых случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept82",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept82",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اساليب التدريس",
+          "اساليب تربوية",
+          "اساليب تعليمية",
+          "استراتيجيات التدريس",
+          "تقنيات التدريس"
+        ],
+        "en": [
+          "Didactics",
+          "Educational methods",
+          "Instructional methods",
+          "Teaching strategies",
+          "Teaching techniques"
+        ],
+        "es": [
+          "Estrategia de enseñanza",
+          "Método educativo",
+          "Técnica de enseñanza",
+          "Técnica pedagógica"
+        ],
+        "fr": [
+          "Méthode éducative",
+          "Stratégie d'enseignement",
+          "Technique d'enseignement",
+          "Technique pédagogique"
+        ],
+        "ru": [
+          "Методики для обучения",
+          "Образовательные методики",
+          "Приемы преподавания",
+          "Стратегии преподавания"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2020-12-02T11:08:31+00:00",
+      "narrower": [
+        "concept1005",
+        "concept1090",
+        "concept13484",
+        "concept16236",
+        "concept3342",
+        "concept5370",
+        "concept5917",
+        "concept5930",
+        "concept7619",
+        "concept7620",
+        "concept8180",
+        "concept8183",
+        "concept8184",
+        "concept9232",
+        "concept9361",
+        "concept9886",
+        "concept9906"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طرق التدريس"
+        ],
+        "en": [
+          "Teaching methods"
+        ],
+        "es": [
+          "Método de enseñanza"
+        ],
+        "fr": [
+          "Méthode pédagogique"
+        ],
+        "ru": [
+          "Методики преподавания"
+        ]
+      },
+      "related": [
+        "concept14097",
+        "concept17113",
+        "concept7268",
+        "concept81",
+        "concept82",
+        "concept85",
+        "concept9267",
+        "concept9345"
+      ],
+      "scope_notes": {
+        "ar": [
+          "أنماط سلوك المعلم المتكررة والقابلة للتطبيق على موضوعات مختلفة، والتي تميز أكثر من معلم وذات صلة بالتعلم."
+        ],
+        "en": [
+          "Patterns of teacher behaviour that are recurrent, applicable to various subject matters, characteristic of more than one teacher and relevant to learning."
+        ],
+        "es": [
+          "Modelo de un profesor que es recurrente y aplicable a diversas materias, característico de más de un profesor y propicio para el aprendizaje."
+        ],
+        "fr": [
+          "Modèle récurrent de comportement d'un enseignant, applicable à diverses matières, caractéristique à plus d'un enseignant et propice à l'apprentissage."
+        ],
+        "ru": [
+          "Воспроизводимые модели поведения преподавателя, применимые для обучения различным предметным дисциплинам, характерные для нескольких преподавателей и имеющие отношение к обучению."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept83",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept83",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Capacitación"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T14:00:13+00:00",
+      "narrower": [
+        "concept1484",
+        "concept1829",
+        "concept3605",
+        "concept3636",
+        "concept4674"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريب"
+        ],
+        "en": [
+          "Training"
+        ],
+        "es": [
+          "Formación"
+        ],
+        "fr": [
+          "Formation"
+        ],
+        "ru": [
+          "Подготовка"
+        ]
+      },
+      "related": [
+        "concept1507",
+        "concept82"
+      ],
+      "scope_notes": {
+        "ar": [
+          "عملية تربوية منهجية يتعلم بها الشخص مهارات جديدة."
+        ],
+        "en": [
+          "Systematic educative process by which one learns new skills."
+        ],
+        "es": [
+          "Proceso educativo sistemático por el que uno desarrolla nuevas capacidades."
+        ],
+        "fr": [
+          "Processus éducatif systématique par lequel on développe de nouvelles compétences."
+        ],
+        "ru": [
+          "Систематический образовательный процесс, способствующий освоению новых навыков."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept84",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept84",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T12:10:09+00:00",
+      "narrower": [
+        "concept2577",
+        "concept4610",
+        "concept7299"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اساليب التدريب"
+        ],
+        "en": [
+          "Training methods"
+        ],
+        "es": [
+          "Método de formación"
+        ],
+        "fr": [
+          "Méthode de formation"
+        ],
+        "ru": [
+          "Методы подготовки кадров"
+        ]
+      },
+      "related": [
+        "concept1497",
+        "concept83"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept85",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept85",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادارة الفصول الدراسية",
+          "ترتيب الفصول الدراسية"
+        ],
+        "en": [
+          "Classroom arrangement",
+          "Classroom management"
+        ],
+        "es": [
+          "Estructuración de las clases",
+          "Gestión de las clases",
+          "Organización de las clases"
+        ],
+        "fr": [
+          "Aménagement de la salle de classe",
+          "Gestion de la classe",
+          "Organisation de la classe"
+        ],
+        "ru": [
+          "Организация и планировка классной комнаты",
+          "Управление учебным классом"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T14:00:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقنيات التدريس"
+        ],
+        "en": [
+          "Classroom techniques"
+        ],
+        "es": [
+          "Técnica didáctica"
+        ],
+        "fr": [
+          "Technique de la classe"
+        ],
+        "ru": [
+          "Приемы организации учебного процесса в классе"
+        ]
+      },
+      "related": [
+        "concept1002",
+        "concept5365",
+        "concept5413"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التقنيات المستخدمة في الفصول الدراسية أو في أي بيئة تعليمية أخرى لخلق ظروف تعليمية ملائمة. يشمل الانضباط، الإدارة، ترتيب الجلوس."
+        ],
+        "en": [
+          "Techniques used in the classroom or in any other educational setting to create propitious learning conditions. Includes discipline, management, sitting arrangement."
+        ],
+        "es": [
+          "Método empleado en un aula o en cualquier otro entorno educativo para crear condiciones que favorezcan el aprendizaje. Incluye los aspectos de disciplina, gestión, y la disposición de los alumnos en la clase."
+        ],
+        "fr": [
+          "Méthode utilisée dans une salle de classe ou dans tout autre cadre éducatif pour créer des conditions propices à l'apprentissage. Comprend discipline, gestion, disposition des élèves dans la classe."
+        ],
+        "ru": [
+          "Приемы, используемые в классе или другой учебной группе для создания условий, благоприятствующих учебному процессу. К таким приемам могут относиться дисциплина, управление, правильное размещение учащихся и т.д."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1005",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1005",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم قائم على الكفاءة",
+          "تعليم معتمد على الاداء"
+        ],
+        "en": [
+          "Competency based education",
+          "Performance based education"
+        ],
+        "es": [
+          "Educación basada en las competencias"
+        ],
+        "fr": [
+          "Formation basée sur les compétences",
+          "Éducation basée sur les performances"
+        ],
+        "ru": [
+          "Обучение по методике достижения запланированного уровня успеваемости",
+          "Обучение по методике профессиональной компетентностии"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريس قائم على الكفاءة"
+        ],
+        "en": [
+          "Competency based teaching"
+        ],
+        "es": [
+          "Enseñanza centrada en el rendimiento"
+        ],
+        "fr": [
+          "Enseignement basé sur les performances"
+        ],
+        "ru": [
+          "Обучение, основанное на компетенциях"
+        ]
+      },
+      "related": [
+        "concept1047",
+        "concept5922",
+        "concept5929",
+        "concept5930"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشير إلى مهارات التدريس المحددة للتفاعل مع الطلاب في الفصول الدراسية، بناءً على التعريف الواضح للمعرفة والمهارات والمواقف التي يجب اكتسابها. (يستخدم IBE: التعليم القائم على الكفاءة)"
+        ],
+        "en": [
+          "Refers to specific teaching skills of interacting with students in classrooms, based on the clear definition of the knowledge, skills and attitudes to be acquired. (IBE uses: competency-based education)"
+        ],
+        "es": [
+          "Se refiere a los instrumentos pedagógicos empleados para favorecer el diálogo interactivo con los estudiantes en el aula, basándose en una percepción clara del conocimiento, la competencia profesional y las actitudes a transmitir."
+        ],
+        "fr": [
+          "Se réfère à des aptitudes pédagogiques à favoriser le dialogue interactif avec les étudiants dans une salle de classe, basées sur une perception claire de la connaissance, du savoir-faire et des attitudes à transmettre."
+        ],
+        "ru": [
+          "Относится к специальным учебным приемам взаимодействия с учащимися в классе, основанным на четком определении знаний, навыков и отношений, которые они должны получить или выработать."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1090",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1090",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اساليب النشاط",
+          "تعلم بالخبرة",
+          "تعلم تجريبي",
+          "تعلم من خلال الممارسة"
+        ],
+        "en": [
+          "Activity methods",
+          "Experiential learning"
+        ],
+        "es": [
+          "Aprendizaje a través de la experiencia",
+          "Aprendizaje mediante la praxis",
+          "Aprendizaje mediante la práctica",
+          "Método activo"
+        ],
+        "fr": [
+          "Apprentissage par l'expérience",
+          "Apprentissage par la pratique",
+          "Apprentissage sur le tas",
+          "Méthode active"
+        ],
+        "ru": [
+          "Методы деятельности",
+          "Эмпирическое изучение"
+        ]
+      },
+      "broader": [
+        "concept81"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-17T16:38:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعلم بالنشاط"
+        ],
+        "en": [
+          "Activity learning"
+        ],
+        "es": [
+          "Aprendizaje activo"
+        ],
+        "fr": [
+          "Apprentissage par l'action"
+        ],
+        "ru": [
+          "Обучение в процессе деятельности"
+        ]
+      },
+      "related": [
+        "concept1308"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التعلم بالممارسة."
+        ],
+        "en": [
+          "Learning by doing."
+        ],
+        "es": [
+          "Aprender haciendo, actuando"
+        ],
+        "fr": [
+          "Apprendre en faisant."
+        ],
+        "ru": [
+          "Обучение в ходе многократного выполнения каких-либо действий."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1304",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1304",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عمل مختبري"
+        ],
+        "en": [
+          "Laboratory work"
+        ],
+        "es": [
+          "Práctica",
+          "Trabajo de laboratorio"
+        ],
+        "fr": [
+          "Travail de laboratoire"
+        ],
+        "ru": [
+          "Лабораторная работа"
+        ]
+      },
+      "broader": [
+        "concept81"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:30+00:00",
+      "narrower": [
+        "concept15419"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نشاط عملي (طريقة تعلم)"
+        ],
+        "en": [
+          "Practical work (learning method)"
+        ],
+        "es": [
+          "Trabajos prácticos"
+        ],
+        "fr": [
+          "Travaux pratiques"
+        ],
+        "ru": [
+          "Практическая работа (учебный метод)"
+        ]
+      },
+      "related": [
+        "concept10544",
+        "concept11831",
+        "concept1304",
+        "concept7620",
+        "concept9191",
+        "concept9232"
+      ],
+      "scope_notes": {
+        "ar": [
+          "جزء من الجدول الزمني حيث يقوم الطلاب بنشاط عملي في المختبر أو ورشة العمل."
+        ],
+        "en": [
+          "Part of timetable where students do practical work in laboratory or workshop."
+        ],
+        "es": [
+          "Franja de las horas lectivas que el alumno dedica a los trabajos prácticos en un taller o en un laboratorio."
+        ],
+        "fr": [
+          "Partie de l'emploi du temps d'un étudiant pendant laquelle il s'adonne à des travaux pratiques en laboratoire ou en atelier."
+        ],
+        "ru": [
+          "Часть учебного расписания, посвященная практическим занятиям учащихся в лабораториях или мастерских."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1308",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1308",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دورات لتجديد المعارف"
+        ],
+        "es": [
+          "Curso de perfeccionamiento"
+        ],
+        "fr": [
+          "Cours d'appoint",
+          "Cours de perfectionnement",
+          "Cours de rattrapage",
+          "Cours de recyclage",
+          "Stage d'actualisation des connaissances"
+        ]
+      },
+      "broader": [
+        "concept7299"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T14:16:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دورات تنشيطية"
+        ],
+        "en": [
+          "Refresher courses"
+        ],
+        "es": [
+          "Actualización de los conocimientos"
+        ],
+        "fr": [
+          "Mise à niveau des connaissances"
+        ],
+        "ru": [
+          "Курсы усовершенствования"
+        ]
+      },
+      "related": [
+        "concept3636"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1319",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1319",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept84"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:57:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريب اضافي"
+        ],
+        "en": [
+          "Further training"
+        ],
+        "es": [
+          "Perfeccionamiento"
+        ],
+        "fr": [
+          "Perfectionnement"
+        ],
+        "ru": [
+          "Дальнейшая подготовка"
+        ]
+      },
+      "related": [
+        "concept1473",
+        "concept3605",
+        "concept3636",
+        "concept4674"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مصطلح عام لتدريب لاحق ومكمل للتدريب الأولي."
+        ],
+        "en": [
+          "Global term for training subsequent and complementary to initial training."
+        ],
+        "es": [
+          "Término general que designa toda formación ulterior y complementaria de una formación inicial."
+        ],
+        "fr": [
+          "Terme général désignant toute formation ultérieure et complémentaire à une formation initiale."
+        ],
+        "ru": [
+          "Общий термин, подразумевающий получение дополнительного образования после завершения первоначального."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1484",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1484",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدريب على العمل",
+          "تدريب وظيفي"
+        ],
+        "en": [
+          "Job training",
+          "Occupational training"
+        ],
+        "fr": [
+          "Formation métiers",
+          "Initiation au travail"
+        ],
+        "ru": [
+          "Обучение профессии",
+          "Подготовка по профессии"
+        ]
+      },
+      "broader": [
+        "concept84"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:50+00:00",
+      "narrower": [
+        "concept3611"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريب مهني"
+        ],
+        "en": [
+          "Vocational training"
+        ],
+        "es": [
+          "Formación profesional"
+        ],
+        "fr": [
+          "Formation professionnelle"
+        ],
+        "ru": [
+          "Профессиональная подготовка"
+        ]
+      },
+      "related": [
+        "concept12345",
+        "concept1497",
+        "concept1755",
+        "concept2577",
+        "concept3605",
+        "concept3636",
+        "concept4610",
+        "concept5795",
+        "concept9910",
+        "concept9927"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تدريب يهدف إلى توفير المهارات والمعرفة والسلوكيات المطلوبة للعمل في مهنة معينة، أو مجموعة من المهن ذات الصلة، في أي مجال من مجالات النشاط الاقتصادي."
+        ],
+        "en": [
+          "Training aiming at providing the skills, knowledge and attitudes required for employment in a particular occupation, or group of related occupations, in any field of economic activity."
+        ],
+        "es": [
+          "Desarrollo de competencias, conocimientos y actitudes necesarias en un empleo para realizar una tarea particular o un conjunto de tareas relacionadas entre sí, en cualquier campo de la actividad económica."
+        ],
+        "fr": [
+          "Formation visant à développer les compétences, la connaissance et les attitudes requises pour un emploi dans un métier particulier ou un ensemble de métiers connexes, et ce, dans tout domaine de l'activité économique."
+        ],
+        "ru": [
+          "Подготовка, ориентированная на развитие навыков, приобретение знаний и установок, требуемых для работы по конкретной специальности или группе специальностей в любой области экономической деятельности."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1829",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1829",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تلمذة صناعية"
+        ]
+      },
+      "broader": [
+        "concept85"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريب مهني"
+        ],
+        "en": [
+          "Apprenticeship"
+        ],
+        "es": [
+          "Aprendizaje (oficios)"
+        ],
+        "fr": [
+          "Apprentissage (métiers)"
+        ],
+        "ru": [
+          "Ученичество"
+        ]
+      },
+      "related": [
+        "concept1829",
+        "concept2576"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2577",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2577",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept81"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:57:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعلم لفظي"
+        ],
+        "en": [
+          "Verbal learning"
+        ],
+        "es": [
+          "Aprendizaje verbal"
+        ],
+        "fr": [
+          "Apprentissage verbal"
+        ],
+        "ru": [
+          "Вербальное обучение"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2590",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2590",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept81"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:57:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعلم بصري"
+        ],
+        "en": [
+          "Visual learning"
+        ],
+        "es": [
+          "Aprendizaje visual"
+        ],
+        "fr": [
+          "Apprentissage visuel"
+        ],
+        "ru": [
+          "Визуальное обучение"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2592",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2592",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حلقات العمل (طريقة تدريس)"
+        ]
+      },
+      "broader": [
+        "concept8183"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ورش العمل (طريقة تدريس)"
+        ],
+        "en": [
+          "Workshops (teaching method)"
+        ],
+        "es": [
+          "Taller (método pedagógico)"
+        ],
+        "fr": [
+          "Atelier (méthode pédagogique)"
+        ],
+        "ru": [
+          "Учебные семинары (метод преподавания)"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "اجتماعات عادة ما تكون بين الأفراد ذوي المصالح والمشاكل المشتركة وبين الخبراء، لتبادل المعلومات وتعلم المهارات أو التقنيات اللازمة."
+        ],
+        "en": [
+          "Meetings of individuals with common interests and problems, usually with experts, to exchange information and learn needed skills or techniques."
+        ],
+        "es": [
+          "Reuniones de individuos, generalmente expertos, con intereses y problemas comunes, para intercambiar información y adquirir habilidades y técnicas útiles."
+        ],
+        "fr": [
+          "Réunion d'individus, généralement des experts, partageant les mêmes intérêts et les mêmes problèmes, pour favoriser les échanges d'information et acquérir des habiletés et des techniques utiles."
+        ],
+        "ru": [
+          "Встречи лиц, объединенных общими интересами и проблемами, с экспертами в целях обмена информацией и обучения необходимым навыкам или приемам."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3244",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3244",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3342"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم سمعي بصري"
+        ],
+        "en": [
+          "Audiovisual instruction"
+        ],
+        "es": [
+          "Enseñanza audiovisual"
+        ],
+        "fr": [
+          "Enseignement audiovisuel"
+        ],
+        "ru": [
+          "Аудиовизуальное обучение"
+        ]
+      },
+      "related": [
+        "concept3333",
+        "concept3352"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3339",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3339",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم بمساعدة الوسائط"
+        ],
+        "en": [
+          "Media assisted education"
+        ],
+        "es": [
+          "Educación a través de los medios de comunicación"
+        ],
+        "fr": [
+          "Éducation par les médias"
+        ],
+        "ru": [
+          "Образование с использованием современных технологий"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:58:32+00:00",
+      "narrower": [
+        "concept3339"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم متعدد الوسائط"
+        ],
+        "en": [
+          "Multimedia instruction"
+        ],
+        "es": [
+          "Enseñanza multimedia"
+        ],
+        "fr": [
+          "Enseignement multimédias"
+        ],
+        "ru": [
+          "Мультимедийное обучение"
+        ]
+      },
+      "related": [
+        "concept3333",
+        "concept3334",
+        "concept3335",
+        "concept3336",
+        "concept96",
+        "concept97"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دمج أكثر من وسيط في عرض تقديمي أو وحدة إرشادية."
+        ],
+        "en": [
+          "Integration of more than one medium in a presentation or module of instruction."
+        ],
+        "es": [
+          "Integración de al menos dos medios de comunicación en una presentación o en un módulo de formación."
+        ],
+        "fr": [
+          "Intégration d'au moins deux médias dans une présentation ou dans un module de formation."
+        ],
+        "ru": [
+          "Интеграция одного или нескольких информационных носителей в учебное объяснение или учебный модуль."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3342",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3342",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اساليب التعليم الذاتي"
+        ],
+        "en": [
+          "Self teaching methods"
+        ],
+        "es": [
+          "Autodidacta",
+          "Autodidactismo",
+          "Autoeducación",
+          "Método de autoaprendizaje"
+        ],
+        "fr": [
+          "Auto-apprentissage",
+          "Auto-éducation",
+          "Autoapprentissage",
+          "Autodidactie",
+          "Autodidaxie",
+          "Autoéducation"
+        ],
+        "ru": [
+          "Методы самообучения"
+        ]
+      },
+      "broader": [
+        "concept81"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:06+00:00",
+      "narrower": [
+        "concept9399"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم ذاتي"
+        ],
+        "en": [
+          "Self instruction"
+        ],
+        "es": [
+          "Autoaprendizaje"
+        ],
+        "fr": [
+          "Autoenseignement"
+        ],
+        "ru": [
+          "Самообучение"
+        ]
+      },
+      "related": [
+        "concept3344",
+        "concept8242",
+        "concept8243"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الدراسة الذاتية دون مساعدة من المعلم."
+        ],
+        "en": [
+          "Learning by oneself without the aid of a teacher."
+        ],
+        "es": [
+          "Aprendizaje por uno mismo sin la ayuda de un profesor."
+        ],
+        "fr": [
+          "Acquisition par soi-même de connaissances sans l'aide d'un enseignant."
+        ],
+        "ru": [
+          "Самостоятельное обучение без помощи преподавателя."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3389",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3389",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept84"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريب اساسي"
+        ],
+        "en": [
+          "Basic training"
+        ],
+        "es": [
+          "Formación básica"
+        ],
+        "fr": [
+          "Formation de base"
+        ],
+        "ru": [
+          "Базовая подготовка"
+        ]
+      },
+      "related": [
+        "concept1484",
+        "concept1829",
+        "concept3602",
+        "concept3636"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تدريب منظم بشكل خاص، يقدم خارج أنشطة الإنتاج الخاصة بمهمة ما، ويهدف إلى نقل المعرفة والمهارات الأساسية المطلوبة في مجموعة معينة من المهن."
+        ],
+        "en": [
+          "Specially organized training, given outside of production activities of an undertaking, and aimed at imparting the basic knowledge and skill required for a given group of occupations."
+        ],
+        "es": [
+          "Formación organizada de manera especial e impartida al margen de las actividades de producción de una empresa, de manera que aporte los conocimientos básicos y las cualificaciones requeridas para determinadas funciones."
+        ],
+        "fr": [
+          "Formation organisée spécialement et donnée en marge des activités de production d'une entreprise, de manière à procurer les connaissances de base et les qualifications requises pour certains types de fonctions."
+        ],
+        "ru": [
+          "Специальная подготовка, осуществляемая во внерабочее время и нацеленная на передачу основных знаний и навыков, необходимых данной профессиональной категории работников."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3605",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3605",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Desarrollo de competencias",
+          "Desarrollo de cualificaciones",
+          "Desarrollo de destrezas"
+        ],
+        "fr": [
+          "Développement des habiletés",
+          "Développement des qualifications"
+        ]
+      },
+      "broader": [
+        "concept1829"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T12:10:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنمية المهارات"
+        ],
+        "en": [
+          "Skills development"
+        ],
+        "es": [
+          "Desarrollo de las habilidades"
+        ],
+        "fr": [
+          "Développement des compétences"
+        ],
+        "ru": [
+          "Развитие навыков"
+        ]
+      },
+      "related": [
+        "concept14685",
+        "concept17061",
+        "concept3602",
+        "concept4541"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3611",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3611",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تأهيل مهني"
+        ],
+        "en": [
+          "Reskilling",
+          "Vocational rehabilitation"
+        ],
+        "es": [
+          "Readaptación profesional",
+          "Reeducación profesional",
+          "Renovación profesional"
+        ],
+        "fr": [
+          "Réadaptation professionnelle",
+          "Rééducation professionnelle"
+        ],
+        "ru": [
+          "Профессиональная реабилитация"
+        ]
+      },
+      "broader": [
+        "concept84"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2026-02-26T15:10:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعادة التدريب"
+        ],
+        "en": [
+          "Retraining"
+        ],
+        "es": [
+          "Reciclaje profesional"
+        ],
+        "fr": [
+          "Recyclage professionnel"
+        ],
+        "ru": [
+          "Переподготовка"
+        ]
+      },
+      "related": [
+        "concept1319",
+        "concept1484",
+        "concept1829",
+        "concept3605"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التدريب على مهنة جديدة."
+        ],
+        "en": [
+          "Training for a new occupation."
+        ],
+        "es": [
+          "Formación para un nuevo empleo."
+        ],
+        "fr": [
+          "Formation à un nouvel emploi."
+        ],
+        "ru": [
+          "Подготовка для новой профессии."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3636",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3636",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدريب اثناء العمل"
+        ],
+        "en": [
+          "On the job training"
+        ],
+        "fr": [
+          "Formation en milieu de travail",
+          "Formation en situation de travail",
+          "Formation sur le tas"
+        ],
+        "ru": [
+          "Подготовка с отрывом/без отрыва от производства"
+        ]
+      },
+      "broader": [
+        "concept85"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريب اثناء الخدمة"
+        ],
+        "en": [
+          "Inservice training"
+        ],
+        "es": [
+          "Formación en horas de trabajo"
+        ],
+        "fr": [
+          "Formation en cours d'emploi"
+        ],
+        "ru": [
+          "Подготовка в рамках повышения квалификации"
+        ]
+      },
+      "related": [
+        "concept11100",
+        "concept1829",
+        "concept4674"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التدريب الذي يتم تلقيه أثناء التوظيف."
+        ],
+        "en": [
+          "Training acquired during employment."
+        ],
+        "es": [
+          "Formación adquirida en las horas de trabajo."
+        ],
+        "fr": [
+          "Formation acquise en cours d'exercice."
+        ],
+        "ru": [
+          "Обучение, получаемое работающими в процессе профессиональной занятости."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4610",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4610",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدريب المهنيين",
+          "تدريب حرفي"
+        ],
+        "en": [
+          "Training of professionals"
+        ],
+        "es": [
+          "Formación de profesionales"
+        ],
+        "fr": [
+          "Formation des professionnels"
+        ],
+        "ru": [
+          "Подготовка профессионалов"
+        ]
+      },
+      "broader": [
+        "concept84"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T14:00:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريب مهني"
+        ],
+        "en": [
+          "Professional training"
+        ],
+        "es": [
+          "Formación profesional superior"
+        ],
+        "fr": [
+          "Formation professionnelle supérieure"
+        ],
+        "ru": [
+          "Обучение специальности"
+        ]
+      },
+      "related": [
+        "concept1484",
+        "concept4300",
+        "concept4610",
+        "concept677",
+        "concept9012"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تعليمات خاصة لتطوير المهارات اللازمة لتحسين الأداء الوظيفي للموظفين المهنيين، وعادة ما تكون قصيرة الأجل ولوظيفة محددة."
+        ],
+        "en": [
+          "Special instruction to develop skills needed to improve job performance of professional personnel, usually short term and job specific."
+        ],
+        "es": [
+          "Formación especial para desarrollar las aptitudes necesarias para mejorar el rendimiento laboral de los profesionales. Normalmente se refiere a una formación breve relacionada con una tarea específica."
+        ],
+        "fr": [
+          "Formation spéciale visant le développement de compétences nécessaires à l'amélioration du rendement au travail du personnel professionnel, se réfère habituellement à une formation à court terme et en rapport avec un travail spécifique."
+        ],
+        "ru": [
+          "Специальное обучение для развития навыков, необходимых для улучшения производственных показателей специалистов",
+          "как правило, краткосрочное или относящееся к конкретной рабочей специальности."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4674",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4674",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T14:32:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محاضرات (طريقة تدريس)"
+        ],
+        "en": [
+          "Lectures (teaching method)"
+        ],
+        "es": [
+          "Clase magistral"
+        ],
+        "fr": [
+          "Cours magistral"
+        ],
+        "ru": [
+          "Лекции (метод преподавания)"
+        ]
+      },
+      "related": [
+        "concept8183"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5370",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5370",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم تصحيحي",
+          "تعليم تعويضي"
+        ],
+        "en": [
+          "Remedial teaching"
+        ],
+        "es": [
+          "Ortopedagogía"
+        ],
+        "fr": [
+          "Orthopédagogie",
+          "Remise à niveau",
+          "Remédiation"
+        ],
+        "ru": [
+          "Преподавание отстающим"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T14:00:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم علاجي"
+        ],
+        "en": [
+          "Remedial instruction"
+        ],
+        "es": [
+          "Enseñanza correctiva"
+        ],
+        "fr": [
+          "Enseignement correctif"
+        ],
+        "ru": [
+          "Обучение отстающих"
+        ]
+      },
+      "related": [
+        "concept5914",
+        "concept8075"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مصممة للحاق بركب موضوع أو مجال معين."
+        ],
+        "en": [
+          "Designed to catch up with a lag in a given subject or field."
+        ],
+        "es": [
+          "Enseñanza concebida para que un alumno retrasado se ponga al día en una materia o área determinada."
+        ],
+        "fr": [
+          "Enseignement conçu pour rattrapper un retard dans un sujet ou un domaine particuliers."
+        ],
+        "ru": [
+          "Направлено на преодоление пробелов в знаниях по конкретному предмету или в определенной области."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5917",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5917",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدريس فردي",
+          "تعليم إفرادي"
+        ],
+        "en": [
+          "Individualized teaching"
+        ],
+        "es": [
+          "Clases individuales",
+          "Enseñanza personalizada",
+          "Formación individualizada"
+        ],
+        "fr": [
+          "Enseignement personnalisé",
+          "Formation individualisée",
+          "Formation personnalisée",
+          "Instruction individualisée"
+        ],
+        "ru": [
+          "Индивидуальное преподавание"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-17T16:44:03+00:00",
+      "narrower": [
+        "concept8075"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم فردي"
+        ],
+        "en": [
+          "Individualized instruction"
+        ],
+        "es": [
+          "Enseñanza individualizada"
+        ],
+        "fr": [
+          "Enseignement individualisé"
+        ],
+        "ru": [
+          "Индивидуальное обучение"
+        ]
+      },
+      "related": [
+        "concept1090",
+        "concept8001",
+        "concept8183",
+        "concept8242"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5930",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5930",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادارة التعليم بالحاسب",
+          "تدريس بمساعدة الحاسب",
+          "تعلم بمساعدة الحاسب",
+          "تعليم مبرمج"
+        ],
+        "en": [
+          "Computer assisted learning",
+          "Computer assisted teaching",
+          "Computer managed instruction"
+        ],
+        "es": [
+          "Aprendizaje asistido por ordenador",
+          "Enseñanza informatizada",
+          "Formación asistida por ordenador"
+        ],
+        "fr": [
+          "Apprentissage assisté par ordinateur",
+          "Enseignement géré par ordinateur",
+          "Formation assistée par ordinateur"
+        ],
+        "ru": [
+          "Автоматизированные обучающие системы",
+          "Автоматизированные учебные системы",
+          "Обучение, управляемое компьютером"
+        ]
+      },
+      "broader": [
+        "concept9399"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم بمساعدة الحاسب"
+        ],
+        "en": [
+          "Computer assisted instruction"
+        ],
+        "es": [
+          "Enseñanza asistida por ordenador"
+        ],
+        "fr": [
+          "Enseignement assisté par ordinateur"
+        ],
+        "ru": [
+          "Обучение с помощью компьютера"
+        ]
+      },
+      "related": [
+        "concept16979",
+        "concept3344",
+        "concept6018",
+        "concept6020",
+        "concept6028"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6023",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6023",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دروس بالمراسلة",
+          "دورات دراسية بالمراسلة"
+        ],
+        "en": [
+          "Correspondence courses"
+        ],
+        "es": [
+          "Curso por correspondencia"
+        ],
+        "fr": [
+          "Cours par correspondance"
+        ],
+        "ru": [
+          "Заочные курсы"
+        ]
+      },
+      "broader": [
+        "concept8237"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-17T16:38:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم بالمراسلة"
+        ],
+        "en": [
+          "Correspondence education"
+        ],
+        "es": [
+          "Enseñanza por correspondencia"
+        ],
+        "fr": [
+          "Enseignement par correspondance"
+        ],
+        "ru": [
+          "Заочное образование"
+        ]
+      },
+      "related": [
+        "concept1490"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6666",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6666",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "برامج التدريب"
+        ],
+        "en": [
+          "Training programmes"
+        ],
+        "es": [
+          "Curso de capacitación",
+          "Programa de formación"
+        ],
+        "fr": [
+          "Programme de formation"
+        ],
+        "ru": [
+          "Стажировочные программы"
+        ]
+      },
+      "broader": [
+        "concept85"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-17T16:38:19+00:00",
+      "narrower": [
+        "concept11831",
+        "concept12345",
+        "concept12858",
+        "concept1319"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دورات تدريبية"
+        ],
+        "en": [
+          "Training courses"
+        ],
+        "es": [
+          "Curso de formación"
+        ],
+        "fr": [
+          "Stage de formation"
+        ],
+        "ru": [
+          "Курсы профессиональной подготовки"
+        ]
+      },
+      "related": [
+        "concept50"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دورات منظمة في بيئة مهنية أثناء أو بعد الانتهاء من العملية التعليمية."
+        ],
+        "en": [
+          "Courses organized in a professional environment during or at the end of the educational process."
+        ],
+        "es": [
+          "Cursos organizados en un entorno profesional durante o después de un proceso educativo."
+        ],
+        "fr": [
+          "Cours organisé dans un environnement professionnel pendant ou à la fin d'un processus éducatif."
+        ],
+        "ru": [
+          "Курсы, организуемые в профессиональной среде во время или после завершения образовательного процесса."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7299",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7299",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-17T16:38:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عروض تعليمية"
+        ],
+        "en": [
+          "Demonstrations (educational)"
+        ],
+        "es": [
+          "Demostración pedagógica"
+        ],
+        "fr": [
+          "Démonstration pédagogique"
+        ],
+        "ru": [
+          "Демонстрации (учебные)"
+        ]
+      },
+      "related": [
+        "concept7620"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7619",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7619",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T14:00:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجارب (دروس)"
+        ],
+        "en": [
+          "Experiments (lessons)"
+        ],
+        "es": [
+          "Experimento (en clase)"
+        ],
+        "fr": [
+          "Expérience (en classe)"
+        ],
+        "ru": [
+          "Эксперименты (уроки)"
+        ]
+      },
+      "related": [
+        "concept10591",
+        "concept1308",
+        "concept7619",
+        "concept9191"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7620",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7620",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Representación de un papel"
+        ]
+      },
+      "broader": [
+        "concept8183"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:58:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تمثيل الدور"
+        ],
+        "en": [
+          "Role playing"
+        ],
+        "es": [
+          "Desempeño de un papel"
+        ],
+        "fr": [
+          "Jeu de rôle"
+        ],
+        "ru": [
+          "Ролевые игры"
+        ]
+      },
+      "related": [
+        "concept9227",
+        "concept9229"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7792",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7792",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدريب"
+        ],
+        "en": [
+          "Coaching"
+        ],
+        "es": [
+          "Apoyo pedagógico",
+          "Asistencia pedagógica",
+          "Clases particulares"
+        ],
+        "fr": [
+          "Accompagnement pédagogique",
+          "Coaching",
+          "Cours particuliers",
+          "Encadrement pédagogique",
+          "Préceptorat",
+          "Soutien scolaire"
+        ],
+        "ru": [
+          "Учебная подготовка"
+        ]
+      },
+      "broader": [
+        "concept5930"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2020-08-17T15:53:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دروس خصوصية"
+        ],
+        "en": [
+          "Tutoring"
+        ],
+        "es": [
+          "Tutoría (educación)"
+        ],
+        "fr": [
+          "Tutorat"
+        ],
+        "ru": [
+          "Репетиторство"
+        ]
+      },
+      "related": [
+        "concept5917",
+        "concept9906"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التدريس المكثف الخاص، عادة لطالب واحد."
+        ],
+        "en": [
+          "Private intensive teaching, usually of a single student."
+        ],
+        "es": [
+          "Enseñanza privada intensiva dispensada habitualmente a un solo estudiante."
+        ],
+        "fr": [
+          "Enseignement privé intensif, dispensé habituellement à un seul étudiant."
+        ],
+        "ru": [
+          "Интенсивное обучение в частном порядке, как правило, одного учащегося."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8075",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8075",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نقاش (طريقة تدريس)"
+        ],
+        "en": [
+          "Debate (teaching method)"
+        ],
+        "es": [
+          "Debate (método pedagógico)"
+        ],
+        "fr": [
+          "Débat (méthode pédagogique)"
+        ],
+        "ru": [
+          "Диспут (метод преподавания)"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناقشات (طريقة تدريس)"
+        ],
+        "en": [
+          "Discussions (teaching method)"
+        ],
+        "es": [
+          "Discusión (método pedagógico)"
+        ],
+        "fr": [
+          "Discussion (méthode pédagogique)"
+        ],
+        "ru": [
+          "Дискуссии (метод преподавания)"
+        ]
+      },
+      "related": [
+        "concept8183",
+        "concept8184",
+        "concept8185"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8180",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8180",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم جماعي"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:58:44+00:00",
+      "narrower": [
+        "concept11645",
+        "concept3244",
+        "concept7792",
+        "concept8185",
+        "concept9227"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم المجموعات"
+        ],
+        "en": [
+          "Group instruction"
+        ],
+        "es": [
+          "Enseñanza en grupo"
+        ],
+        "fr": [
+          "Enseignement de groupe"
+        ],
+        "ru": [
+          "Групповое обучение"
+        ]
+      },
+      "related": [
+        "concept1544",
+        "concept5370",
+        "concept5930",
+        "concept8180",
+        "concept9886"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8183",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8183",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "أساليب طرح الأسئلة"
+        ],
+        "en": [
+          "Questioning techniques"
+        ],
+        "es": [
+          "Método interrogativo"
+        ],
+        "fr": [
+          "Méthode interrogative"
+        ],
+        "ru": [
+          "Приемы опроса"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طرح الأسئلة (طريقة تدريس)"
+        ],
+        "en": [
+          "Questioning (teaching method)"
+        ],
+        "es": [
+          "Interrogación (método pedagógico)"
+        ],
+        "fr": [
+          "Interrogation (méthode pédagogique)"
+        ],
+        "ru": [
+          "Опрос (метод преподавания)"
+        ]
+      },
+      "related": [
+        "concept8180"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8184",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8184",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حلقات دراسية للطلاب",
+          "سمنارات (طريقة تدريس)",
+          "ندوات (طريقة تدريس)"
+        ],
+        "en": [
+          "Student seminars"
+        ],
+        "es": [
+          "Seminario para estudiantes",
+          "Seminarios universitarios"
+        ],
+        "fr": [
+          "Séminaire pour étudiants"
+        ],
+        "ru": [
+          "Студенческие семинары"
+        ]
+      },
+      "broader": [
+        "concept8183"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حلقات دراسية (طريقة تدريس)"
+        ],
+        "en": [
+          "Seminars (teaching method)"
+        ],
+        "es": [
+          "Seminario (método pedagógico)"
+        ],
+        "fr": [
+          "Séminaire (méthode pédagogique)"
+        ],
+        "ru": [
+          "Семинары (метод преподавания)"
+        ]
+      },
+      "related": [
+        "concept8180"
+      ],
+      "scope_notes": {
+        "ar": [
+          "اجتماع مجموعة من الطلاب المشاركين في بحث أو دراسة متقدمة، تحت إشراف واحد أو أكثر من المشرفين، لمناقشة القضايا ذات الاهتمام المشترك."
+        ],
+        "en": [
+          "Meetings of a group of students engaged in research or advanced study under the direction of one or more leaders to discuss problems of mutual interest."
+        ],
+        "es": [
+          "Reunión de un grupo de estudiantes ocupados en una investigación o en un estudio avanzado común, bajo la dirección de una o varias personas, para discutir problemas de interés mútuo."
+        ],
+        "fr": [
+          "Réunion d'un groupe d'étudiants engagés dans une recherche ou une étude avancée, sour la direction d'un ou de plusieurs animateurs, pour discuter de problèmes d'intérêt mutuel."
+        ],
+        "ru": [
+          "Собрание группы студентов, занятых научными исследованиями или изучением научных проблем, под руководством одного или нескольких преподавателей для обсуждения вопросов, представляющих взаимный интерес."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8185",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8185",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعلم موزع",
+          "تعليم موزع",
+          "دراسة عن بعد",
+          "نظم التعليم المفتوح"
+        ],
+        "en": [
+          "Distance study",
+          "Distributed education",
+          "Distributed learning",
+          "Open learning systems"
+        ],
+        "es": [
+          "Enseñanza a distancia",
+          "Formación a distancia",
+          "Teleformación"
+        ],
+        "fr": [
+          "Formation distancielle",
+          "Formation à distance",
+          "Téléformation"
+        ],
+        "ru": [
+          "Дистанционное обучение",
+          "Открытые системы обучения",
+          "Системы открытого образования",
+          "Системы открытого обучения"
+        ]
+      },
+      "broader": [
+        "concept81"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2020-08-14T14:13:48+00:00",
+      "narrower": [
+        "concept16979",
+        "concept6666"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم عن بُعد"
+        ],
+        "en": [
+          "Distance education"
+        ],
+        "es": [
+          "Educación a distancia"
+        ],
+        "fr": [
+          "Enseignement à distance"
+        ],
+        "ru": [
+          "Дистанционное образование"
+        ]
+      },
+      "related": [
+        "concept17113"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تلقي التعليم عن بُعد من خلال استخدام تكنولوجيا المعلومات/الاتصالات: الإذاعة أو التلفزيون أو الهاتف أو المراسلات أو البريد الإلكتروني أو مؤتمرات الفيديو أو المؤتمرات الصوتية أو الأقراص المدمجة أو عبر الإنترنت."
+        ],
+        "en": [
+          "Education imparted at a distance through the use of information/communication technology: radio, TV, the telephone, correspondence, e-mail, videoconferencing, audioconferencing, cd-roms, or online."
+        ],
+        "es": [
+          "Educación impartida a distancia utilizando las tecnologías de la información/comunicación: radio, televisión, teléfono, correspondencia, correo electrónico, teleconferencia, cd-roms, o en línea."
+        ],
+        "fr": [
+          "Education transmise à distance utilisant les technologies de l'information et de la communication: radio, télévision, téléphone, correspondance, courrier électronique, téléconférence, cédéroms, ou en ligne."
+        ],
+        "ru": [
+          "Образование, полученное на расстоянии посредством использования информационных и/или коммуникационных технологий: радио, ТВ, телефона, почты, электронная почты, видеоконференций, аудиоконференций, СД-РОМов, режима онлайн."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8237",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8237",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دراسة فردية"
+        ],
+        "en": [
+          "Individual study"
+        ],
+        "fr": [
+          "Études individuelles",
+          "Études indépendantes"
+        ],
+        "ru": [
+          "Самостоятельное изучение"
+        ]
+      },
+      "broader": [
+        "concept81"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:58:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دراسة مستقلة"
+        ],
+        "en": [
+          "Independent study"
+        ],
+        "es": [
+          "Estudios por libre"
+        ],
+        "fr": [
+          "Études libres"
+        ],
+        "ru": [
+          "Самостоятельное обучение"
+        ]
+      },
+      "related": [
+        "concept10332",
+        "concept3389",
+        "concept5930",
+        "concept8243"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الدراسة التي يتم إجرائها مع الحد الأدنى أو الغياب الكامل للتوجيه الخارجي. لا ينبغي الخلط مع مصطلح \"التعليم الفردي\"."
+        ],
+        "en": [
+          "Study carried out with a minimum or a complete absence of external guidance. Do not confuse with \"individualized instruction\"."
+        ],
+        "es": [
+          "Estudios efectuados con un mínimo o nada de asistencia exterior. No confundir con \"enseñanza individualizada\"."
+        ],
+        "fr": [
+          "Études effectuées avec un minimum ou en l'absence complète d'encadrement extérieur. Ne pas confondre avec \"enseignement individualisé\"."
+        ],
+        "ru": [
+          "Обучение, проводимое при минимальном или полном отсутствии внешнего надзора. Не путать с термином \"Индивидуальное обучение\"."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8242",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8242",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "العاب الاطفال",
+          "العاب تجريبية"
+        ],
+        "en": [
+          "Childrens games",
+          "Experimental games"
+        ],
+        "es": [
+          "Juego de niños",
+          "Juego experimental",
+          "Juego infantil",
+          "Juego pedagógico"
+        ],
+        "fr": [
+          "Jeu expérimental",
+          "Jeux d'enfants"
+        ],
+        "ru": [
+          "Игры для детей",
+          "Экспериментальные игры"
+        ]
+      },
+      "broader": [
+        "concept8183"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-17T16:44:01+00:00",
+      "narrower": [
+        "concept9229"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "العاب تعليمية"
+        ],
+        "en": [
+          "Educational games"
+        ],
+        "es": [
+          "Juego educativo"
+        ],
+        "fr": [
+          "Jeu éducatif"
+        ],
+        "ru": [
+          "Развивающие игры"
+        ]
+      },
+      "related": [
+        "concept7792",
+        "concept9231",
+        "concept9232",
+        "concept9233",
+        "concept99"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9227",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9227",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept9227"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T12:02:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "العاب المحاكاة"
+        ],
+        "en": [
+          "Simulation games"
+        ],
+        "es": [
+          "Juego de simulación"
+        ],
+        "fr": [
+          "Jeu de simulation"
+        ],
+        "ru": [
+          "Симуляционные игры"
+        ]
+      },
+      "related": [
+        "concept7792"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9229",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9229",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم بالاكتشاف (التدريس)",
+          "طريقة تجريبية (التدريس)"
+        ],
+        "es": [
+          "Método pedagógico empírico"
+        ],
+        "fr": [
+          "Méthode pédagogique empirique"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طريقة استكشافية (التدريس)"
+        ],
+        "en": [
+          "Heuristic method (teaching)"
+        ],
+        "es": [
+          "Método heurístico (enseñanza)"
+        ],
+        "fr": [
+          "Méthode heuristique (enseignement)"
+        ],
+        "ru": [
+          "Эвристический метод (преподавания)"
+        ]
+      },
+      "related": [
+        "concept1308",
+        "concept9227"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9232",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9232",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعلم اثناء النوم",
+          "تعليم ايحائي"
+        ],
+        "en": [
+          "Sleep teaching"
+        ],
+        "es": [
+          "Hipnopedia"
+        ],
+        "fr": [
+          "Hypnopédie",
+          "Hypnosopédie"
+        ],
+        "ru": [
+          "Обучение во сне"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T14:32:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طريقة ايحائية"
+        ],
+        "en": [
+          "Suggestopaedia"
+        ],
+        "es": [
+          "Sugestopedia"
+        ],
+        "fr": [
+          "Suggestopédie"
+        ],
+        "ru": [
+          "Сугестопедия"
+        ]
+      },
+      "related": [
+        "concept1049",
+        "concept16462",
+        "concept3692",
+        "concept59"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9361",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9361",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعلم مبرمج",
+          "دورات مبرمجة",
+          "مواد مبرمجة"
+        ],
+        "en": [
+          "Programmed courses",
+          "Programmed learning",
+          "Programmed materials"
+        ],
+        "es": [
+          "Aprendizaje programado",
+          "Curso programado",
+          "Educación programada"
+        ],
+        "fr": [
+          "Apprentissage programmé",
+          "Cours programmé",
+          "Enseignement microgradué",
+          "Enseignement séquentiel",
+          "Instruction programmée"
+        ],
+        "ru": [
+          "Программированная учеба",
+          "Программированные курсы",
+          "Программированные материалы"
+        ]
+      },
+      "broader": [
+        "concept3389"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:38+00:00",
+      "narrower": [
+        "concept6023"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم مبرمج"
+        ],
+        "en": [
+          "Programmed instruction"
+        ],
+        "es": [
+          "Enseñanza programada"
+        ],
+        "fr": [
+          "Enseignement programmé"
+        ],
+        "ru": [
+          "Программированное обучение"
+        ]
+      },
+      "related": [
+        "concept3344",
+        "concept6028",
+        "concept8243",
+        "concept97"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9399",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9399",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Coenseignement",
+          "Enseignement couplé",
+          "Enseignement en tandem",
+          "Enseignement par équipe"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:58:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريس فريقي"
+        ],
+        "en": [
+          "Team teaching"
+        ],
+        "es": [
+          "Enseñanza en equipo"
+        ],
+        "fr": [
+          "Enseignement en équipe"
+        ],
+        "ru": [
+          "Обучение в команде"
+        ]
+      },
+      "related": [
+        "concept8183"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9886",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9886",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم النظراء"
+        ],
+        "en": [
+          "Peer tutoring"
+        ],
+        "fr": [
+          "Enseignement par les pairs"
+        ],
+        "ru": [
+          "Репетиторские услуги сверстников"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الاقران"
+        ],
+        "en": [
+          "Peer teaching"
+        ],
+        "es": [
+          "Enseñanza mutua"
+        ],
+        "fr": [
+          "Enseignement mutuel"
+        ],
+        "ru": [
+          "Занятия учащихся с отстающими сверстниками"
+        ]
+      },
+      "related": [
+        "concept8075",
+        "concept9185"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الاستعانة بطلاب من نفس الفئة العمرية أو فئة عمرية قريبة للمساعدة في إرشاد الطلاب الذين قد يحتاجون إلى مساعدة إضافية."
+        ],
+        "en": [
+          "The practice of having students of the same or similar age assist with the instruction of other students who may need supplemental aid."
+        ],
+        "es": [
+          "Enseñanza efectuada entre alumnos de una misma clase o de un mismo nivel con el objetivo de ayudar a aquellos que necesitan una ayuda suplementaria."
+        ],
+        "fr": [
+          "Type d'enseignement intervenant entre élèves d'une même classe ou d'un même niveau dans le but d'aider ceux qui ont besoin d'une assistance supplémentaire."
+        ],
+        "ru": [
+          "Практика оказания учебной помощи отстающим учащимся их сверстниками или учащимися близкой возрастной группы."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9906",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9906",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Homework"
+        ],
+        "es": [
+          "Trabajo escolar",
+          "Trabajo extraescolar"
+        ],
+        "fr": [
+          "Devoir à la maison"
+        ]
+      },
+      "broader": [
+        "concept81"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2020-08-17T15:53:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دراسة منزلية"
+        ],
+        "en": [
+          "Home study"
+        ],
+        "es": [
+          "Estudio en casa"
+        ],
+        "fr": [
+          "Études à domicile"
+        ],
+        "ru": [
+          "Домашние занятия"
+        ]
+      },
+      "related": [
+        "concept38",
+        "concept8242"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الدراسة في المنزل خارج ساعات الدراسة النظامية بما في ذلك الواجبات المدرسية والمشاريع المجتمعية والمهام التي يتم تنفيذها للتغلب على المشكلات الفردية."
+        ],
+        "en": [
+          "Studying done at home outside school hours, including work on school assignments, community projects, or individual problems. Do not confuse with \"Home education\"."
+        ],
+        "es": [
+          "Estudio efectuado en casa fuera de las horas de clase incluidos los deberes exigidos por el colegio, los proyectos comunitarios y las tareas llevadas a cabo para superar problemas individuales. No confundir con \"Enseñanza a domicilio\"."
+        ],
+        "fr": [
+          "Etudes effectuées à la maison en dehors des horaires scolaires. Comprend les devoirs exigés par l'école, les projets communautaires, ou un travail entrepris pour surmonter des difficultés individuelles. Ne pas confondre avec \"Enseignement à domicile\"."
+        ],
+        "ru": [
+          "Занятия, осуществляемые дома во внеучебное время, включая работу над домашними заданиями, в рамках общественных проектов или для решения индивидуальных задач. Не путать с термином \"Домашнее образование\"."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10332",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10332",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رواية القصص",
+          "سرد قصصي"
+        ],
+        "fr": [
+          "Art de conter"
+        ]
+      },
+      "broader": [
+        "concept8183"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-17T16:38:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حكاية القصص"
+        ],
+        "en": [
+          "Story telling"
+        ],
+        "es": [
+          "Narración de cuentos"
+        ],
+        "fr": [
+          "Narration d'histoires"
+        ],
+        "ru": [
+          "Устный рассказ"
+        ]
+      },
+      "related": [
+        "concept3608"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11645",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11645",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept7299"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T12:46:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خدمات الدراسة (التعليم العالي)"
+        ],
+        "en": [
+          "Study service (higher education)"
+        ],
+        "es": [
+          "Servicio universitario"
+        ],
+        "fr": [
+          "Service universitaire"
+        ],
+        "ru": [
+          "Учебная стажировка (высшее образование)"
+        ]
+      },
+      "related": [
+        "concept1308",
+        "concept14127",
+        "concept1485",
+        "concept14982"
+      ],
+      "scope_notes": {
+        "ar": [
+          "جزء اختياري أو إلزامي من برنامج الدراسات حيث يتم منح وحدات دراسية للعمل خارج الحرم الجامعي في مجال الخدمات الاجتماعية أو التنموية، في الحكومة المحلية والمنظمات الصناعية أو غيرها من المنظمات."
+        ],
+        "en": [
+          "Optional or compulsory part of a programme of studies where credit is given for work off-campus in social or development services, local government, and industrial or other organizations."
+        ],
+        "es": [
+          "Parte opcional u obligatoria de un programa de estudios en la que se otorgan créditos por trabajar fuera del campus en un servicio de desarrollo, un servicio social, el gobierno local, una organización industrial u otras organizaciones."
+        ],
+        "fr": [
+          "Partie optionnelle ou obligatoire d'un programme d'études en fonction de laquelle un crédit est accordé pour un travail hors campus dans un service de développement ou un service social, un gouvernment local, une organisation industrielle ou autre."
+        ],
+        "ru": [
+          "Факультативная или обязательная часть учебной программы, в рамках которой учащийся получает зачетные единицы за работу вне вуза в области социальных услуг или развития, в местных государственных, производственных или иных организациях."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11831",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11831",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "برامج الدراسة والعمل",
+          "تدريب بالتناوب (المملكة المتحدة)",
+          "تعليم تعاوني (الولايات المتحدة الامريكية)",
+          "تعليم وعمل منتج",
+          "دروس بالتناوب (المملكة المتحدة)"
+        ],
+        "en": [
+          "Cooperative education (USA)",
+          "Education and productive work",
+          "Sandwich courses (UK)",
+          "Sandwich training (UK)",
+          "Work study programmes"
+        ],
+        "es": [
+          "Formación combinada",
+          "Programa combinado estudios-trabajo",
+          "Programa de alternancia estudios-trabajo"
+        ],
+        "fr": [
+          "Cours en alternance",
+          "Enseignement coopératif",
+          "Formation en alternance",
+          "Programme d'alternance travail-études",
+          "Programme d'expérience de travail",
+          "Programme travail-études",
+          "Éducation coopérative",
+          "Éducation et travail productif"
+        ],
+        "ru": [
+          "Комбинированное обучение (Великобритания)",
+          "Комбинированные курсы (Великобритания)",
+          "Кооперативное образование (США)",
+          "Образование и производственная работа",
+          "Учебно-производственные программы"
+        ]
+      },
+      "broader": [
+        "concept7299"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-17T16:44:01+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "برامج خبرة العمل"
+        ],
+        "en": [
+          "Work experience programmes"
+        ],
+        "es": [
+          "Programa integrado estudios-trabajo"
+        ],
+        "fr": [
+          "Programme intégré études-travail"
+        ],
+        "ru": [
+          "Программы трудовой практики"
+        ]
+      },
+      "related": [
+        "concept1829",
+        "concept71",
+        "concept9900"
+      ],
+      "scope_notes": {
+        "ar": [
+          "البرامج الإرشادية التي تنص على قضاء جزء من وقت الطلاب في أحد قطاعات الإنتاج."
+        ],
+        "en": [
+          "Instructional programmes providing for some part of the students' time to be spent in one of the sectors of production."
+        ],
+        "es": [
+          "Programa de enseñanza que prevé que una parte del tiempo de los estudiantes sea consagrada al trabajo en uno de los sectores de producción."
+        ],
+        "fr": [
+          "Programme d'enseignement prévoyant qu'une partie du temps des étudiants soit consacré au travail dans un des secteurs de production."
+        ],
+        "ru": [
+          "Учебные программы, предусматривающие занятость учащегося на производстве в течение части времени, отведенного на занятия."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12345",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12345",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept7299"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T12:09:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "برامج التدريب الدولية"
+        ],
+        "en": [
+          "International training programmes"
+        ],
+        "es": [
+          "Programas de formación internacional"
+        ],
+        "fr": [
+          "Programme de formation international"
+        ],
+        "ru": [
+          "Международные программы обучения"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12858",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12858",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رحلات دراسية",
+          "سفر للتعليم في الخارج"
+        ],
+        "en": [
+          "Educational travel abroad"
+        ],
+        "es": [
+          "Viaje de fin de curso",
+          "Viaje de fin de estudios",
+          "Viaje escolar",
+          "Viaje estudiantil"
+        ],
+        "fr": [
+          "Séjour d'études à l'étranger",
+          "Voyage d'études à l'étranger",
+          "Voyage pédagogique à l'étranger",
+          "Voyage scolaire à l'étranger"
+        ],
+        "ru": [
+          "Зарубежные учебные поездки"
+        ]
+      },
+      "broader": [
+        "concept81"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T14:33:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جولات دراسية"
+        ],
+        "en": [
+          "Study tours"
+        ],
+        "es": [
+          "Viaje de estudios"
+        ],
+        "fr": [
+          "Voyage d'études"
+        ],
+        "ru": [
+          "Учебные поездки"
+        ]
+      },
+      "related": [
+        "concept16677",
+        "concept2073",
+        "concept9345"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13294",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13294",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:58:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طرق محو الامية"
+        ],
+        "en": [
+          "Literacy methods"
+        ],
+        "es": [
+          "Método de alfabetización"
+        ],
+        "fr": [
+          "Méthode d'alphabétisation"
+        ],
+        "ru": [
+          "Методы ликвидации безграмотности"
+        ]
+      },
+      "related": [
+        "concept9352"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13484",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13484",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مشروعات الطلبة"
+        ],
+        "es": [
+          "Proyecto del estudiante"
+        ],
+        "fr": [
+          "Projet étudiant"
+        ]
+      },
+      "broader": [
+        "concept1308"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T12:08:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مشاريع الطلبة"
+        ],
+        "en": [
+          "Student projects"
+        ],
+        "es": [
+          "Proyecto del alumno"
+        ],
+        "fr": [
+          "Projet d'élève"
+        ],
+        "ru": [
+          "Студенческие проекты"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15419",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15419",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رحلات مدرسية",
+          "زيارات تثقيفية",
+          "زيارات تعليمية"
+        ],
+        "en": [
+          "Educational visits",
+          "School excursions"
+        ],
+        "es": [
+          "Excursión del colegio",
+          "Excursión escolar",
+          "Visita educacional",
+          "Visita educativa"
+        ],
+        "fr": [
+          "Excursion pédagogique",
+          "Excursion scolaire",
+          "Sortie pédagogique",
+          "Sortie scolaire",
+          "Visite éducative"
+        ],
+        "ru": [
+          "Образовательные визиты",
+          "Школьные экскурсии"
+        ]
+      },
+      "broader": [
+        "concept83"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زيارات مدرسية"
+        ],
+        "en": [
+          "School visits"
+        ],
+        "es": [
+          "Visita escolar"
+        ],
+        "fr": [
+          "Visite scolaire"
+        ],
+        "ru": [
+          "Школьные визиты"
+        ]
+      },
+      "related": [
+        "concept16238"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16236",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16236",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعلم افتراضي",
+          "تعلم بالاجهزة المحمولة",
+          "تعلم عبر الانترنت"
+        ],
+        "en": [
+          "E-learning",
+          "M-learning",
+          "Mlearning",
+          "Mobile learning",
+          "Online learning",
+          "Virtual learning"
+        ],
+        "es": [
+          "Aprendizaje a distancia",
+          "Aprendizaje electrónico",
+          "Aprendizaje móvil",
+          "Aprendizaje virtual",
+          "Teleaprendizaje"
+        ],
+        "fr": [
+          "Apprentissage mobile",
+          "Apprentissage numérique nomade",
+          "Apprentissage virtuel",
+          "Apprentissage à distance",
+          "Apprentissage électronique",
+          "Téléapprentissage"
+        ],
+        "ru": [
+          "Виртуальное обучение",
+          "Обучение в режиме онлайн",
+          "Э-обучение"
+        ]
+      },
+      "broader": [
+        "concept8237"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2019-12-15T13:59:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعلم الكتروني"
+        ],
+        "en": [
+          "Electronic learning"
+        ],
+        "es": [
+          "Aprendizaje en línea"
+        ],
+        "fr": [
+          "Apprentissage en ligne"
+        ],
+        "ru": [
+          "Обучение в электронной форме"
+        ]
+      },
+      "related": [
+        "concept17067",
+        "concept3335",
+        "concept6023"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التعلم عبر الإنترنت من خلال الإنترنت أو تقنية الإنترانت."
+        ],
+        "en": [
+          "Online learning via the Internet or an intranet."
+        ],
+        "es": [
+          "Aprendizaje a distancia via el Internet o un intranet."
+        ],
+        "fr": [
+          "Apprentissage à distance via Internet ou un intranet."
+        ],
+        "ru": [
+          "Обучение в режиме онлайн через Интернет или технологии Интранет."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16979",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16979",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعلم مختلط",
+          "تعلم هجين"
+        ],
+        "en": [
+          "Hybrid learning"
+        ],
+        "es": [
+          "Aprendizaje combinado",
+          "Aprendizaje híbrido"
+        ],
+        "fr": [
+          "Apprentissage mixte"
+        ]
+      },
+      "broader": [
+        "concept81"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.60"
+      ],
+      "modified": "2020-09-28T15:18:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعلم مدمج"
+        ],
+        "en": [
+          "Blended learning"
+        ],
+        "es": [
+          "Aprendizaje semipresencial"
+        ],
+        "fr": [
+          "Apprentissage hybride"
+        ]
+      },
+      "related": [
+        "concept8237",
+        "concept83"
+      ],
+      "scope_notes": {
+        "en": [
+          "Learning approach that combines both remote learning and in-person learning"
+        ],
+        "es": [
+          "Enfoque de aprendizaje que combina tanto el aprendizaje a distancia como el aprendizaje en persona"
+        ],
+        "fr": [
+          "Approche pédagogique qui combine des séquences de formation en ligne (e-learning) et en présentiel."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17113",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17113",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt1.60",
+    "labels": {
+      "en": "Teaching and training",
+      "fr": "Enseignement et formation"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt1.60"
+  }
+}

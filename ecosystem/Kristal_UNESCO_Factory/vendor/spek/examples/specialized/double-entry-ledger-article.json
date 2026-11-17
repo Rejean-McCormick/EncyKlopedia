@@ -1,0 +1,75 @@
+{
+  "format": "kristal.layout-article-source/0.1",
+  "article": {
+    "id": "article.special.demo",
+    "title_key": "title",
+    "subtitle_key": "subtitle",
+    "abstract_key": "abstract"
+  },
+  "source": {
+    "origin": "illustrative_fixture",
+    "state_ref": null,
+    "state_commitment": null,
+    "artifact_refs": [],
+    "scientific_review": "not_submitted",
+    "disclosure": "local_demo_only",
+    "language_review": {
+      "fr": "fixture",
+      "en": "fixture",
+      "it": "fixture"
+    }
+  },
+  "units": [
+    {
+      "id": "u1",
+      "kind": "context",
+      "realization_key": "text1",
+      "epistemic_status": "design_proposal",
+      "evidence_refs": []
+    },
+    {
+      "id": "u2",
+      "kind": "concept",
+      "realization_key": "text2",
+      "epistemic_status": "design_proposal",
+      "evidence_refs": []
+    },
+    {
+      "id": "u3",
+      "kind": "entry",
+      "realization_key": "text3",
+      "epistemic_status": "design_proposal",
+      "evidence_refs": []
+    },
+    {
+      "id": "u4",
+      "kind": "qualification",
+      "realization_key": "text4",
+      "epistemic_status": "design_proposal",
+      "evidence_refs": []
+    }
+  ],
+  "evidence": [],
+  "sections": [
+    {
+      "id": "specialized",
+      "layout": "double-entry-ledger",
+      "heading_key": "heading",
+      "slots": {
+        "period_context": [
+          "u1"
+        ],
+        "accounts": [
+          "u2"
+        ],
+        "entries": [
+          "u3"
+        ],
+        "reconciliations": [],
+        "limits": [
+          "u4"
+        ]
+      }
+    }
+  ]
+}

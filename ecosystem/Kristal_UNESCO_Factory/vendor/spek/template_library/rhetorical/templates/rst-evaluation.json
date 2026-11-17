@@ -1,0 +1,130 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.rst-evaluation",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Fait et jugement attribué",
+  "research_basis": {
+    "family": "coherence",
+    "relation": "rst.evaluation",
+    "source": "RST",
+    "source_url": "https://www.sfu.ca/rst/07french/definitions.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "rst.evaluation",
+    "editorial_relation_required": true,
+    "semantic_warning": "L’évaluation doit rester attribuée, pas naturalisée en fait.",
+    "critical_questions": []
+  },
+  "slots": {
+    "situation": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "observation"
+      ],
+      "visual_role": "paragraph"
+    },
+    "evaluation": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "perspective"
+      ],
+      "visual_role": "paragraph"
+    },
+    "scope": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "scope"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "situation",
+    "evaluation",
+    "scope"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "scope"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "rst.evaluation",
+    "focus_slot": "situation",
+    "moves": [
+      {
+        "slot": "situation",
+        "function": "situation",
+        "nuclearity": "nucleus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "evaluation",
+        "function": "evaluation",
+        "nuclearity": "satellite",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "scope",
+        "function": "scope",
+        "nuclearity": "satellite",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "evaluation",
+        "to_slot": "situation",
+        "relation": "rst.evaluation",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "scope",
+        "to_slot": "situation",
+        "relation": "rst.evaluation",
+        "status": "requires_external_semantic_review",
+        "relation_function": "qualifies"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "situation",
+        "evaluation"
+      ],
+      [
+        "scope"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "L’évaluation doit rester attribuée, pas naturalisée en fait."
+    }
+  }
+}

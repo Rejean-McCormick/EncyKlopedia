@@ -1,0 +1,44 @@
+{
+  "format": "kristal.editorial-layout/0.1",
+  "id": "learning-path",
+  "version": "1.0.0",
+  "intent": "explain_a_non_assessing_learning_path",
+  "audience": "general_or_educational",
+  "slots": {
+    "objective": {
+      "allowed_kinds": [
+        "objective"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "prerequisites": {
+      "allowed_kinds": [
+        "prerequisite"
+      ],
+      "min": 1,
+      "max": 4
+    },
+    "steps": {
+      "allowed_kinds": [
+        "step"
+      ],
+      "min": 2,
+      "max": 6
+    },
+    "reflection": {
+      "allowed_kinds": [
+        "reflection"
+      ],
+      "min": 1,
+      "max": 2
+    },
+    "limits": {
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "min": 1,
+      "max": 2
+    }
+  }
+}

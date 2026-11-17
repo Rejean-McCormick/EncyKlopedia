@@ -1,0 +1,71 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-dossier-suivi",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-19",
+    "slug": "dossier-suivi",
+    "name": "Casefile / Follow-Up"
+  },
+  "source_arketype_file": "archetypes/dossier-suivi.json",
+  "editorial_rationale": "Structure Arketype ARK-19: Central record of documents, notes, actions and follow-ups. Employee follow-up, case management and tracked interventions.",
+  "source_structural_primitives": [
+    "dossiers",
+    "pieces",
+    "notes",
+    "actions",
+    "jalons",
+    "evaluations",
+    "restrictions_d_acces"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "parcours",
+      "title_function": "Historique du suivi",
+      "layout_id": "chronology",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "actions",
+        "jalons",
+        "notes"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "context": 1,
+        "events": 2,
+        "limits": 1
+      },
+      "editorial_constraint": "Événements datés seulement; garder les pièces sous leur autorité."
+    },
+    {
+      "section_id": "decisions",
+      "title_function": "Décisions et portée",
+      "layout_id": "result-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "evaluations",
+        "pieces"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "claim": 1,
+        "conditions": 1,
+        "evidence": 1,
+        "uncertainty": 1
+      },
+      "editorial_constraint": "Respecter restrictions d’accès et gouvernance du dossier."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "casefile-view"
+  ],
+  "integrity_rule": "Sensitive assessments and decisions require explicit governance.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

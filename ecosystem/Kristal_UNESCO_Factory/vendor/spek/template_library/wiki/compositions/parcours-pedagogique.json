@@ -1,0 +1,73 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-parcours-pedagogique",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-10",
+    "slug": "parcours-pedagogique",
+    "name": "Learning Path"
+  },
+  "source_arketype_file": "archetypes/parcours-pedagogique.json",
+  "editorial_rationale": "Structure Arketype ARK-10: Sequenced objectives, prerequisites and activities. Curricula and personalized learning journeys.",
+  "source_structural_primitives": [
+    "objectifs",
+    "dependances",
+    "sequences",
+    "activites",
+    "criteres_evaluation",
+    "references_savoir"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "parcours",
+      "title_function": "Objectifs et progression",
+      "layout_id": "learning-path",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "objectifs",
+        "dependances",
+        "sequences",
+        "activites"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "objective": 1,
+        "prerequisites": 1,
+        "steps": 2,
+        "reflection": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Le parcours ne remplace pas le référentiel de savoir."
+    },
+    {
+      "section_id": "notions",
+      "title_function": "Notions associées",
+      "layout_id": "concept-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "references_savoir",
+        "criteres_evaluation"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "definition": 1,
+        "examples": 1,
+        "context": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Les critères évaluatifs ne sont pas des acquis constatés."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "branching-learning-path"
+  ],
+  "integrity_rule": "Learning projection is not the whole knowledge base.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

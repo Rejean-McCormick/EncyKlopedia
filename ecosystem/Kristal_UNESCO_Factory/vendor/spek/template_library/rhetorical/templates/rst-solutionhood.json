@@ -1,0 +1,130 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.rst-solutionhood",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Problème + réponse documentée",
+  "research_basis": {
+    "family": "coherence",
+    "relation": "rst.solutionhood",
+    "source": "RST",
+    "source_url": "https://www.sfu.ca/rst/07french/definitions.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "rst.solutionhood",
+    "editorial_relation_required": true,
+    "semantic_warning": "Une solution proposée n’est pas nécessairement validée.",
+    "critical_questions": []
+  },
+  "slots": {
+    "problem": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "context"
+      ],
+      "visual_role": "paragraph"
+    },
+    "solution": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "method"
+      ],
+      "visual_role": "paragraph"
+    },
+    "constraints": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "problem",
+    "solution",
+    "constraints"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "constraints"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "rst.solutionhood",
+    "focus_slot": "solution",
+    "moves": [
+      {
+        "slot": "problem",
+        "function": "problem",
+        "nuclearity": "satellite",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "solution",
+        "function": "solution",
+        "nuclearity": "nucleus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "constraints",
+        "function": "constraints",
+        "nuclearity": "satellite",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "problem",
+        "to_slot": "solution",
+        "relation": "rst.solutionhood",
+        "status": "requires_external_semantic_review",
+        "relation_function": "motivates"
+      },
+      {
+        "from_slot": "constraints",
+        "to_slot": "solution",
+        "relation": "rst.solutionhood",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "problem",
+        "solution"
+      ],
+      [
+        "constraints"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Une solution proposée n’est pas nécessairement validée."
+    }
+  }
+}

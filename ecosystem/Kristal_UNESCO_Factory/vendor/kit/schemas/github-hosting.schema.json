@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kristal:authoring-host:github:1.0",
+  "title": "Kristal Authoring GitHub Host Link",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "profile", "repository", "branch", "state_path", "qualify_workflow", "publish_workflow", "framework"],
+  "properties": {
+    "format": {"const": "kristal.authoring-host/github/1.0"},
+    "profile": {"const": "kristal.host/github/1.0"},
+    "repository": {"type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"},
+    "branch": {"type": "string", "minLength": 1},
+    "state_path": {"type": "string", "minLength": 1},
+    "qualify_workflow": {"type": "string", "minLength": 1},
+    "publish_workflow": {"type": "string", "minLength": 1},
+    "framework": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["repository", "commit"],
+      "properties": {
+        "repository": {"type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"},
+        "commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"}
+      }
+    }
+  }
+}

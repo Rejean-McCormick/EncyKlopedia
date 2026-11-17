@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a compiler, renderer, or validation issue
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not submit confidential Kristal data or credentials."
+  - type: textarea
+    id: behaviour
+    attributes:
+      label: Observed and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal public reproduction or sample fixture
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Python and operating system

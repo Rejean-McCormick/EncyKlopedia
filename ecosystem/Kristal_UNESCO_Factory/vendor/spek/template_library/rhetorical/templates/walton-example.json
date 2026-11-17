@@ -1,0 +1,134 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.walton-example",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Généralisation à partir d’exemples",
+  "research_basis": {
+    "family": "argument",
+    "relation": "walton.example",
+    "source": "WALTON",
+    "source_url": "https://journals.sagepub.com/doi/full/10.1080/19462166.2015.1123772",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "walton.example",
+    "editorial_relation_required": true,
+    "semantic_warning": "Ne pas généraliser sans échantillonnage approprié.",
+    "critical_questions": [
+      "L’échantillon est-il représentatif ?"
+    ]
+  },
+  "slots": {
+    "examples": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 10,
+      "allowed_kinds": [
+        "example"
+      ],
+      "visual_role": "paragraph"
+    },
+    "generalization": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "claim"
+      ],
+      "visual_role": "paragraph"
+    },
+    "limits": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "examples",
+    "generalization",
+    "limits"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "limits"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "walton.example",
+    "focus_slot": "generalization",
+    "moves": [
+      {
+        "slot": "examples",
+        "function": "examples",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "generalization",
+        "function": "generalization",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "limits",
+        "function": "limitations",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "examples",
+        "to_slot": "generalization",
+        "relation": "walton.example",
+        "status": "requires_external_semantic_review",
+        "relation_function": "instantiates"
+      },
+      {
+        "from_slot": "limits",
+        "to_slot": "generalization",
+        "relation": "walton.example",
+        "status": "requires_external_semantic_review",
+        "relation_function": "qualifies"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "examples",
+        "generalization"
+      ],
+      [
+        "limits"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [
+        "L’échantillon est-il représentatif ?"
+      ],
+      "warning": "Ne pas généraliser sans échantillonnage approprié."
+    }
+  }
+}

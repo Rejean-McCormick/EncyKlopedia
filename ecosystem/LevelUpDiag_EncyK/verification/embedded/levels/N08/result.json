@@ -1,0 +1,79 @@
+{
+  "schema": "levelupdiag.report.v2",
+  "standard": "LevelUpDiag",
+  "standard_version": "1.0.0",
+  "run_id": "20260909T173406Z-3fc0ab1b",
+  "level_id": "N08",
+  "level_name": "Schema, architecture and types",
+  "purpose": "",
+  "target_repo_root": "/workspace/scratch/537b727e15f3/orgo",
+  "started_at": "2026-09-09T17:34:06+00:00",
+  "ended_at": "2026-09-09T17:34:13+00:00",
+  "verdict": "PASS",
+  "findings": [
+    {
+      "id": "orgo.generate",
+      "verdict": "PASS",
+      "category": "validation",
+      "message": "Public Orgo validator: generate",
+      "evidence": {
+        "argv": [
+          "node",
+          "/workspace/scratch/537b727e15f3/levelupdiag-orgo/adapters/diag-step.mjs",
+          "generate",
+          "/workspace/scratch/537b727e15f3/orgo"
+        ],
+        "cwd": "/workspace/scratch/537b727e15f3/orgo",
+        "exit_code": 0,
+        "timed_out": false,
+        "duration_seconds": 2.021,
+        "stdout_tail": "\n> orgo@0.1.0 db:generate\n> npm run db:generate -w api\n\n\n> api@0.1.0 db:generate\n> prisma generate\n\nPrisma schema loaded from prisma/schema.prisma\n\n✔ Generated Prisma Client (v5.14.0) to ./../../node_modules/@prisma/client in 605ms\n\nStart using Prisma Client in Node.js (See: https://pris.ly/d/client)\n```\nimport { PrismaClient } from '@prisma/client'\nconst prisma = new PrismaClient()\n```\nor start using Prisma Client at the edge (See: https://pris.ly/d/accelerate)\n```\nimport { PrismaClient } from '@prisma/client/edge'\nconst prisma = new PrismaClient()\n```\n\nSee other ways of importing Prisma Client: http://pris.ly/d/importing-client\n\n┌─────────────────────────────────────────────────────────────┐\n│  Deploying your app to serverless or edge functions?        │\n│  Try Prisma Accelerate for connection pooling and caching.  │\n│  https://pris.ly/cli/--accelerate                           │\n└─────────────────────────────────────────────────────────────┘\n\n",
+        "stderr_tail": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\nnpm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n"
+      }
+    },
+    {
+      "id": "orgo.architecture",
+      "verdict": "PASS",
+      "category": "validation",
+      "message": "Public Orgo validator: architecture",
+      "evidence": {
+        "argv": [
+          "node",
+          "/workspace/scratch/537b727e15f3/levelupdiag-orgo/adapters/diag-step.mjs",
+          "architecture",
+          "/workspace/scratch/537b727e15f3/orgo"
+        ],
+        "cwd": "/workspace/scratch/537b727e15f3/orgo",
+        "exit_code": 0,
+        "timed_out": false,
+        "duration_seconds": 0.266,
+        "stdout_tail": "\n> orgo@0.1.0 check:architecture\n> node scripts/check-architecture.mjs\n\nArchitecture checks passed.\n",
+        "stderr_tail": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n"
+      }
+    },
+    {
+      "id": "orgo.types",
+      "verdict": "PASS",
+      "category": "validation",
+      "message": "Public Orgo validator: types",
+      "evidence": {
+        "argv": [
+          "node",
+          "/workspace/scratch/537b727e15f3/levelupdiag-orgo/adapters/diag-step.mjs",
+          "types",
+          "/workspace/scratch/537b727e15f3/orgo"
+        ],
+        "cwd": "/workspace/scratch/537b727e15f3/orgo",
+        "exit_code": 0,
+        "timed_out": false,
+        "duration_seconds": 4.936,
+        "stdout_tail": "\n> orgo@0.1.0 typecheck\n> npm run typecheck -w api && npm run typecheck -w web\n\n\n> api@0.1.0 typecheck\n> tsc --noEmit\n\n\n> web@0.1.0 typecheck\n> tsc --noEmit\n\n",
+        "stderr_tail": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\nnpm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\nnpm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n"
+      }
+    }
+  ],
+  "artifacts": [],
+  "metrics": {
+    "worker_duration_seconds": 7.278
+  }
+}

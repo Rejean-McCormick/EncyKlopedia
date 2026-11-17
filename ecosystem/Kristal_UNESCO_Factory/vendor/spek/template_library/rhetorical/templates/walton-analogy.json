@@ -1,0 +1,189 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.walton-analogy",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Argument par analogie",
+  "research_basis": {
+    "family": "argument",
+    "relation": "walton.analogy",
+    "source": "WALTON",
+    "source_url": "https://journals.sagepub.com/doi/full/10.1080/19462166.2015.1123772",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "walton.analogy",
+    "editorial_relation_required": true,
+    "semantic_warning": "Une analogie ne constitue pas une preuve de causalité.",
+    "critical_questions": [
+      "Les similarités sont-elles pertinentes ?",
+      "Les différences sont-elles déterminantes ?"
+    ]
+  },
+  "slots": {
+    "source_case": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "example"
+      ],
+      "visual_role": "paragraph"
+    },
+    "target_case": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "example"
+      ],
+      "visual_role": "paragraph"
+    },
+    "relevant_similarity": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "relation"
+      ],
+      "visual_role": "paragraph"
+    },
+    "inference": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "inference"
+      ],
+      "visual_role": "paragraph"
+    },
+    "limits": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "source_case",
+    "target_case",
+    "relevant_similarity",
+    "inference",
+    "limits"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "inference",
+      "limits"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "walton.analogy",
+    "focus_slot": "inference",
+    "moves": [
+      {
+        "slot": "source_case",
+        "function": "source_case",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "target_case",
+        "function": "target_case",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "relevant_similarity",
+        "function": "relevant_similarity",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "inference",
+        "function": "inference",
+        "nuclearity": "focus",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "limits",
+        "function": "limitations",
+        "nuclearity": "supporting",
+        "group": 3,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "source_case",
+        "to_slot": "inference",
+        "relation": "walton.analogy",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "target_case",
+        "to_slot": "inference",
+        "relation": "walton.analogy",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "relevant_similarity",
+        "to_slot": "inference",
+        "relation": "walton.analogy",
+        "status": "requires_external_semantic_review",
+        "relation_function": "compares"
+      },
+      {
+        "from_slot": "limits",
+        "to_slot": "inference",
+        "relation": "walton.analogy",
+        "status": "requires_external_semantic_review",
+        "relation_function": "qualifies"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "source_case",
+        "target_case",
+        "relevant_similarity"
+      ],
+      [
+        "inference"
+      ],
+      [
+        "limits"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [
+        "Les similarités sont-elles pertinentes ?",
+        "Les différences sont-elles déterminantes ?"
+      ],
+      "warning": "Une analogie ne constitue pas une preuve de causalité."
+    }
+  }
+}

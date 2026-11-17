@@ -1,0 +1,373 @@
+test_copies_only_whitelist_results (test_sauvegarde.TestsResultats.test_copies_only_whitelist_results) ... 
+=== SAUVEGARDE DES RESULTATS ENCYKLOPEDIA ===
+Dossier donnees : /tmp/tmptxt13lw4/Donnees/EncyKlopedia
+Destination : /tmp/tmptxt13lw4/HorsProduction/Sauvegardes
+  INCLUS STATION: 0.0 Mio
+  INCLUS KRISTAL_PRIVE: 0.0 Mio
+  INCLUS CATALOGUE_UNESCO: 0.0 Mio
+  INCLUS DECOUVERTE_UNESCO: 0.0 Mio
+  INCLUS FILE_HISTORIQUE_V27: 0.0 Mio
+  INCLUS QUALIFICATION_V31: 0.0 Mio
+  INCLUS PREUVES_XML_V31: 0.0 Mio
+EXCLUS SANS EXCEPTION : code, corpus Wikipedia, packs, retours, deltas, autres fichiers de travail.
+Les producteurs doivent etre arretes pour garantir la coherence entre les bases.
+  1/7 Sauvegarde STATION...
+  2/7 Sauvegarde KRISTAL_PRIVE...
+  3/7 Sauvegarde CATALOGUE_UNESCO...
+  4/7 Sauvegarde DECOUVERTE_UNESCO...
+  5/7 Sauvegarde FILE_HISTORIQUE_V27...
+  6/7 Sauvegarde QUALIFICATION_V31...
+  7/7 Sauvegarde PREUVES_XML_V31...
+ok
+test_derived_is_explicit (test_sauvegarde.TestsResultats.test_derived_is_explicit) ... VERIFICATION REUSSIE : 7 bases SQLite, 77,824 octets, SHA-256 et quick_check conformes.
+
+SUCCES : /tmp/tmptxt13lw4/HorsProduction/Sauvegardes/ENCYK_RESULTATS_20261115T173003Z_9ebdb7
+Etat photographie depuis les copies :
+{
+  "station_v30.sqlite": {
+    "taches_terminees": 1,
+    "taches_ouvertes": 0
+  },
+  "KRISTAL_CUMULATIF_PRIVE_V27.sqlite": {
+    "connaissances_privees": 1,
+    "citations": 1
+  },
+  "catalogue_global_unesco_wikipedia_v25.sqlite": {
+    "articles": 1,
+    "affectations": 1
+  }
+}
+Aucun fichier de production modifie. Copiez le dossier sur un disque distinct.
+VERIFICATION REUSSIE : 7 bases SQLite, 77,824 octets, SHA-256 et quick_check conformes.
+
+=== SAUVEGARDE DES RESULTATS ENCYKLOPEDIA ===
+Dossier donnees : /tmp/tmpdl97ijst/Donnees/EncyKlopedia
+Destination : /tmp/tmpdl97ijst/HorsProduction/Sauvegardes
+  INCLUS STATION: 0.0 Mio
+  INCLUS KRISTAL_PRIVE: 0.0 Mio
+  INCLUS CATALOGUE_UNESCO: 0.0 Mio
+  INCLUS DECOUVERTE_UNESCO: 0.0 Mio
+  INCLUS FILE_HISTORIQUE_V27: 0.0 Mio
+  INCLUS QUALIFICATION_V31: 0.0 Mio
+  INCLUS PREUVES_XML_V31: 0.0 Mio
+  INCLUS INVENTAIRE_CATEGORIES_V26: 0.0 Mio
+EXCLUS SANS EXCEPTION : code, corpus Wikipedia, packs, retours, deltas, autres fichiers de travail.
+Les producteurs doivent etre arretes pour garantir la coherence entre les bases.
+  1/8 Sauvegarde STATION...
+  2/8 Sauvegarde KRISTAL_PRIVE...
+  3/8 Sauvegarde CATALOGUE_UNESCO...
+  4/8 Sauvegarde DECOUVERTE_UNESCO...
+  5/8 Sauvegarde FILE_HISTORIQUE_V27...
+  6/8 Sauvegarde QUALIFICATION_V31...
+  7/8 Sauvegarde PREUVES_XML_V31...
+  8/8 Sauvegarde INVENTAIRE_CATEGORIES_V26...
+ok
+test_five_realistic_databases_two_optional_missing (test_sauvegarde.TestsResultats.test_five_realistic_databases_two_optional_missing) ... VERIFICATION REUSSIE : 8 bases SQLite, 86,016 octets, SHA-256 et quick_check conformes.
+
+SUCCES : /tmp/tmpdl97ijst/HorsProduction/Sauvegardes/ENCYK_RESULTATS_20261115T173003Z_c419fc
+Etat photographie depuis les copies :
+{
+  "station_v30.sqlite": {
+    "taches_terminees": 1,
+    "taches_ouvertes": 0
+  },
+  "KRISTAL_CUMULATIF_PRIVE_V27.sqlite": {
+    "connaissances_privees": 1,
+    "citations": 1
+  },
+  "catalogue_global_unesco_wikipedia_v25.sqlite": {
+    "articles": 1,
+    "affectations": 1
+  }
+}
+Aucun fichier de production modifie. Copiez le dossier sur un disque distinct.
+
+=== SAUVEGARDE DES RESULTATS ENCYKLOPEDIA ===
+Dossier donnees : /tmp/tmpgk28nfqh/Donnees/EncyKlopedia
+Destination : /tmp/tmpgk28nfqh/HorsProduction/Sauvegardes
+  INCLUS STATION: 0.0 Mio
+  INCLUS KRISTAL_PRIVE: 0.0 Mio
+  INCLUS CATALOGUE_UNESCO: 0.0 Mio
+  INCLUS DECOUVERTE_UNESCO: 0.0 Mio
+  INCLUS FILE_HISTORIQUE_V27: 0.0 Mio
+  FACULTATIF ABSENT : QUALIFICATION_V31 /tmp/tmpgk28nfqh/Donnees/EncyKlopedia/30_working/qualification_multibranche_v31/qualification_multibranche_v31.sqlite
+  FACULTATIF ABSENT : PREUVES_XML_V31 /tmp/tmpgk28nfqh/Donnees/EncyKlopedia/30_working/preuves_xml_cibles_v31/PREUVES_XML_CIBLES_V31.sqlite
+EXCLUS SANS EXCEPTION : code, corpus Wikipedia, packs, retours, deltas, autres fichiers de travail.
+Les producteurs doivent etre arretes pour garantir la coherence entre les bases.
+  1/5 Sauvegarde STATION...
+  2/5 Sauvegarde KRISTAL_PRIVE...
+  3/5 Sauvegarde CATALOGUE_UNESCO...
+  4/5 Sauvegarde DECOUVERTE_UNESCO...
+  5/5 Sauvegarde FILE_HISTORIQUE_V27...
+ok
+test_inside_source_blocked (test_sauvegarde.TestsResultats.test_inside_source_blocked) ... ok
+test_missing_core_is_error (test_sauvegarde.TestsResultats.test_missing_core_is_error) ... ok
+test_no_extra_file_in_backup (test_sauvegarde.TestsResultats.test_no_extra_file_in_backup) ... VERIFICATION REUSSIE : 5 bases SQLite, 61,440 octets, SHA-256 et quick_check conformes.
+
+SUCCES : /tmp/tmpgk28nfqh/HorsProduction/Sauvegardes/ENCYK_RESULTATS_20261115T173003Z_5befe4
+Etat photographie depuis les copies :
+{
+  "station_v30.sqlite": {
+    "taches_terminees": 1,
+    "taches_ouvertes": 0
+  },
+  "KRISTAL_CUMULATIF_PRIVE_V27.sqlite": {
+    "connaissances_privees": 1,
+    "citations": 1
+  },
+  "catalogue_global_unesco_wikipedia_v25.sqlite": {
+    "articles": 1,
+    "affectations": 1
+  }
+}
+Aucun fichier de production modifie. Copiez le dossier sur un disque distinct.
+VERIFICATION REUSSIE : 5 bases SQLite, 61,440 octets, SHA-256 et quick_check conformes.
+
+=== SAUVEGARDE DES RESULTATS ENCYKLOPEDIA ===
+Dossier donnees : /tmp/tmphs6wxi8h/Donnees/EncyKlopedia
+Destination : /tmp/tmphs6wxi8h/HorsProduction/Sauvegardes
+  INCLUS KRISTAL_PRIVE: 0.0 Mio
+  INCLUS CATALOGUE_UNESCO: 0.0 Mio
+  INCLUS DECOUVERTE_UNESCO: 0.0 Mio
+  INCLUS FILE_HISTORIQUE_V27: 0.0 Mio
+  INCLUS QUALIFICATION_V31: 0.0 Mio
+  INCLUS PREUVES_XML_V31: 0.0 Mio
+  INDISPENSABLE ABSENT : STATION /tmp/tmphs6wxi8h/Donnees/EncyKlopedia/30_working/poste_chatgpt_v30/station_v30.sqlite
+EXCLUS SANS EXCEPTION : code, corpus Wikipedia, packs, retours, deltas, autres fichiers de travail.
+Les producteurs doivent etre arretes pour garantir la coherence entre les bases.
+
+=== SAUVEGARDE DES RESULTATS ENCYKLOPEDIA ===
+Dossier donnees : /tmp/tmp0b4jzhkc/Donnees/EncyKlopedia
+Destination : /tmp/tmp0b4jzhkc/HorsProduction/Sauvegardes
+  INCLUS STATION: 0.0 Mio
+  INCLUS KRISTAL_PRIVE: 0.0 Mio
+  INCLUS CATALOGUE_UNESCO: 0.0 Mio
+  INCLUS DECOUVERTE_UNESCO: 0.0 Mio
+  INCLUS FILE_HISTORIQUE_V27: 0.0 Mio
+  INCLUS QUALIFICATION_V31: 0.0 Mio
+  INCLUS PREUVES_XML_V31: 0.0 Mio
+EXCLUS SANS EXCEPTION : code, corpus Wikipedia, packs, retours, deltas, autres fichiers de travail.
+Les producteurs doivent etre arretes pour garantir la coherence entre les bases.
+  1/7 Sauvegarde STATION...
+  2/7 Sauvegarde KRISTAL_PRIVE...
+  3/7 Sauvegarde CATALOGUE_UNESCO...
+  4/7 Sauvegarde DECOUVERTE_UNESCO...
+  5/7 Sauvegarde FILE_HISTORIQUE_V27...
+  6/7 Sauvegarde QUALIFICATION_V31...
+  7/7 Sauvegarde PREUVES_XML_V31...
+ok
+test_preflight_no_copy (test_sauvegarde.TestsResultats.test_preflight_no_copy) ... ok
+test_sha_tamper_refused (test_sauvegarde.TestsResultats.test_sha_tamper_refused) ... VERIFICATION REUSSIE : 7 bases SQLite, 77,824 octets, SHA-256 et quick_check conformes.
+
+SUCCES : /tmp/tmp0b4jzhkc/HorsProduction/Sauvegardes/ENCYK_RESULTATS_20261115T173003Z_fe294d
+Etat photographie depuis les copies :
+{
+  "station_v30.sqlite": {
+    "taches_terminees": 1,
+    "taches_ouvertes": 0
+  },
+  "KRISTAL_CUMULATIF_PRIVE_V27.sqlite": {
+    "connaissances_privees": 1,
+    "citations": 1
+  },
+  "catalogue_global_unesco_wikipedia_v25.sqlite": {
+    "articles": 1,
+    "affectations": 1
+  }
+}
+Aucun fichier de production modifie. Copiez le dossier sur un disque distinct.
+
+=== SAUVEGARDE DES RESULTATS ENCYKLOPEDIA ===
+Dossier donnees : /tmp/tmpd2m1yhgv/Donnees/EncyKlopedia
+Destination : /tmp/tmpd2m1yhgv/HorsProduction/Sauvegardes
+  INCLUS STATION: 0.0 Mio
+  INCLUS KRISTAL_PRIVE: 0.0 Mio
+  INCLUS CATALOGUE_UNESCO: 0.0 Mio
+  INCLUS DECOUVERTE_UNESCO: 0.0 Mio
+  INCLUS FILE_HISTORIQUE_V27: 0.0 Mio
+  INCLUS QUALIFICATION_V31: 0.0 Mio
+  INCLUS PREUVES_XML_V31: 0.0 Mio
+EXCLUS SANS EXCEPTION : code, corpus Wikipedia, packs, retours, deltas, autres fichiers de travail.
+Les producteurs doivent etre arretes pour garantir la coherence entre les bases.
+PRECONTROLE OK (aucun fichier cree).
+
+=== SAUVEGARDE DES RESULTATS ENCYKLOPEDIA ===
+Dossier donnees : /tmp/tmp0zeic6ef/Donnees/EncyKlopedia
+Destination : /tmp/tmp0zeic6ef/HorsProduction/Sauvegardes
+  INCLUS STATION: 0.0 Mio
+  INCLUS KRISTAL_PRIVE: 0.0 Mio
+  INCLUS CATALOGUE_UNESCO: 0.0 Mio
+  INCLUS DECOUVERTE_UNESCO: 0.0 Mio
+  INCLUS FILE_HISTORIQUE_V27: 0.0 Mio
+  INCLUS QUALIFICATION_V31: 0.0 Mio
+  INCLUS PREUVES_XML_V31: 0.0 Mio
+EXCLUS SANS EXCEPTION : code, corpus Wikipedia, packs, retours, deltas, autres fichiers de travail.
+Les producteurs doivent etre arretes pour garantir la coherence entre les bases.
+  1/7 Sauvegarde STATION...
+  2/7 Sauvegarde KRISTAL_PRIVE...
+  3/7 Sauvegarde CATALOGUE_UNESCO...
+  4/7 Sauvegarde DECOUVERTE_UNESCO...
+  5/7 Sauvegarde FILE_HISTORIQUE_V27...
+  6/7 Sauvegarde QUALIFICATION_V31...
+  7/7 Sauvegarde PREUVES_XML_V31...
+ok
+test_sqlite_wal_snapshot_includes_committed_data (test_sauvegarde.TestsResultats.test_sqlite_wal_snapshot_includes_committed_data) ... ok
+test_station_must_be_closed (test_sauvegarde.TestsResultats.test_station_must_be_closed) ... ok
+test_strict_verifier_still_refuses_unexpected_sqlite_shm (test_sauvegarde.TestsResultats.test_strict_verifier_still_refuses_unexpected_sqlite_shm) ... VERIFICATION REUSSIE : 7 bases SQLite, 77,824 octets, SHA-256 et quick_check conformes.
+
+SUCCES : /tmp/tmp0zeic6ef/HorsProduction/Sauvegardes/ENCYK_RESULTATS_20261115T173004Z_63f3b5
+Etat photographie depuis les copies :
+{
+  "station_v30.sqlite": {
+    "taches_terminees": 1,
+    "taches_ouvertes": 0
+  },
+  "KRISTAL_CUMULATIF_PRIVE_V27.sqlite": {
+    "connaissances_privees": 1,
+    "citations": 1
+  },
+  "catalogue_global_unesco_wikipedia_v25.sqlite": {
+    "articles": 1,
+    "affectations": 1
+  }
+}
+Aucun fichier de production modifie. Copiez le dossier sur un disque distinct.
+
+=== SAUVEGARDE DES RESULTATS ENCYKLOPEDIA ===
+Dossier donnees : /tmp/tmpo48brlrr/Donnees/EncyKlopedia
+Destination : /tmp/tmpo48brlrr/HorsProduction/Sauvegardes
+  INCLUS STATION: 0.0 Mio
+  INCLUS KRISTAL_PRIVE: 0.0 Mio
+  INCLUS CATALOGUE_UNESCO: 0.0 Mio
+  INCLUS DECOUVERTE_UNESCO: 0.0 Mio
+  INCLUS FILE_HISTORIQUE_V27: 0.0 Mio
+  INCLUS QUALIFICATION_V31: 0.0 Mio
+  INCLUS PREUVES_XML_V31: 0.0 Mio
+EXCLUS SANS EXCEPTION : code, corpus Wikipedia, packs, retours, deltas, autres fichiers de travail.
+Les producteurs doivent etre arretes pour garantir la coherence entre les bases.
+
+=== SAUVEGARDE DES RESULTATS ENCYKLOPEDIA ===
+Dossier donnees : /tmp/tmpwrv6uieo/Donnees/EncyKlopedia
+Destination : /tmp/tmpwrv6uieo/HorsProduction/Sauvegardes
+  INCLUS STATION: 0.0 Mio
+  INCLUS KRISTAL_PRIVE: 0.0 Mio
+  INCLUS CATALOGUE_UNESCO: 0.0 Mio
+  INCLUS DECOUVERTE_UNESCO: 0.0 Mio
+  INCLUS FILE_HISTORIQUE_V27: 0.0 Mio
+  INCLUS QUALIFICATION_V31: 0.0 Mio
+  INCLUS PREUVES_XML_V31: 0.0 Mio
+EXCLUS SANS EXCEPTION : code, corpus Wikipedia, packs, retours, deltas, autres fichiers de travail.
+Les producteurs doivent etre arretes pour garantir la coherence entre les bases.
+  1/7 Sauvegarde STATION...
+  2/7 Sauvegarde KRISTAL_PRIVE...
+  3/7 Sauvegarde CATALOGUE_UNESCO...
+  4/7 Sauvegarde DECOUVERTE_UNESCO...
+  5/7 Sauvegarde FILE_HISTORIQUE_V27...
+  6/7 Sauvegarde QUALIFICATION_V31...
+  7/7 Sauvegarde PREUVES_XML_V31...
+ok
+test_verifier_refuses_wal_header_without_sidecar (test_sauvegarde.TestsResultats.test_verifier_refuses_wal_header_without_sidecar) ... VERIFICATION REUSSIE : 7 bases SQLite, 77,824 octets, SHA-256 et quick_check conformes.
+
+SUCCES : /tmp/tmpwrv6uieo/HorsProduction/Sauvegardes/ENCYK_RESULTATS_20261115T173004Z_f42706
+Etat photographie depuis les copies :
+{
+  "station_v30.sqlite": {
+    "taches_terminees": 1,
+    "taches_ouvertes": 0
+  },
+  "KRISTAL_CUMULATIF_PRIVE_V27.sqlite": {
+    "connaissances_privees": 1,
+    "citations": 1
+  },
+  "catalogue_global_unesco_wikipedia_v25.sqlite": {
+    "articles": 1,
+    "affectations": 1
+  }
+}
+Aucun fichier de production modifie. Copiez le dossier sur un disque distinct.
+
+=== SAUVEGARDE DES RESULTATS ENCYKLOPEDIA ===
+Dossier donnees : /tmp/tmpbwf775dm/Donnees/EncyKlopedia
+Destination : /tmp/tmpbwf775dm/HorsProduction/Sauvegardes
+  INCLUS STATION: 0.0 Mio
+  INCLUS KRISTAL_PRIVE: 0.0 Mio
+  INCLUS CATALOGUE_UNESCO: 0.0 Mio
+  INCLUS DECOUVERTE_UNESCO: 0.0 Mio
+  INCLUS FILE_HISTORIQUE_V27: 0.0 Mio
+  INCLUS QUALIFICATION_V31: 0.0 Mio
+  INCLUS PREUVES_XML_V31: 0.0 Mio
+EXCLUS SANS EXCEPTION : code, corpus Wikipedia, packs, retours, deltas, autres fichiers de travail.
+Les producteurs doivent etre arretes pour garantir la coherence entre les bases.
+  1/7 Sauvegarde STATION...
+  2/7 Sauvegarde KRISTAL_PRIVE...
+  3/7 Sauvegarde CATALOGUE_UNESCO...
+  4/7 Sauvegarde DECOUVERTE_UNESCO...
+  5/7 Sauvegarde FILE_HISTORIQUE_V27...
+  6/7 Sauvegarde QUALIFICATION_V31...
+  7/7 Sauvegarde PREUVES_XML_V31...
+ok
+test_wal_source_full_backup_is_standalone_without_shm (test_sauvegarde.TestsResultats.test_wal_source_full_backup_is_standalone_without_shm) ... VERIFICATION REUSSIE : 7 bases SQLite, 77,824 octets, SHA-256 et quick_check conformes.
+
+SUCCES : /tmp/tmpbwf775dm/HorsProduction/Sauvegardes/ENCYK_RESULTATS_20261115T173004Z_d3daa1
+Etat photographie depuis les copies :
+{
+  "station_v30.sqlite": {
+    "taches_terminees": 1,
+    "taches_ouvertes": 0
+  },
+  "KRISTAL_CUMULATIF_PRIVE_V27.sqlite": {
+    "connaissances_privees": 1,
+    "citations": 1
+  },
+  "catalogue_global_unesco_wikipedia_v25.sqlite": {
+    "articles": 1,
+    "affectations": 1
+  }
+}
+Aucun fichier de production modifie. Copiez le dossier sur un disque distinct.
+
+=== SAUVEGARDE DES RESULTATS ENCYKLOPEDIA ===
+Dossier donnees : /tmp/tmphny3cgln/Donnees/EncyKlopedia
+Destination : /tmp/tmphny3cgln/HorsProduction/Sauvegardes
+  INCLUS STATION: 0.0 Mio
+  INCLUS KRISTAL_PRIVE: 0.0 Mio
+  INCLUS CATALOGUE_UNESCO: 0.0 Mio
+  INCLUS DECOUVERTE_UNESCO: 0.0 Mio
+  INCLUS FILE_HISTORIQUE_V27: 0.0 Mio
+  INCLUS QUALIFICATION_V31: 0.0 Mio
+  INCLUS PREUVES_XML_V31: 0.0 Mio
+EXCLUS SANS EXCEPTION : code, corpus Wikipedia, packs, retours, deltas, autres fichiers de travail.
+Les producteurs doivent etre arretes pour garantir la coherence entre les bases.
+  1/7 Sauvegarde STATION...
+  2/7 Sauvegarde KRISTAL_PRIVE...
+  3/7 Sauvegarde CATALOGUE_UNESCO...
+  4/7 Sauvegarde DECOUVERTE_UNESCO...
+  5/7 Sauvegarde FILE_HISTORIQUE_V27...
+  6/7 Sauvegarde QUALIFICATION_V31...
+  7/7 Sauvegarde PREUVES_XML_V31...
+ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.418s
+
+OK
+VERIFICATION REUSSIE : 7 bases SQLite, 77,824 octets, SHA-256 et quick_check conformes.
+
+SUCCES : /tmp/tmphny3cgln/HorsProduction/Sauvegardes/ENCYK_RESULTATS_20261115T173004Z_72f4ca
+Etat photographie depuis les copies :
+{
+  "station_v30.sqlite": {
+    "taches_terminees": 1,
+    "taches_ouvertes": 0
+  },
+  "KRISTAL_CUMULATIF_PRIVE_V27.sqlite": {
+    "connaissances_privees": 1,
+    "citations": 1
+  },
+  "catalogue_global_unesco_wikipedia_v25.sqlite": {
+    "articles": 1,
+    "affectations": 1
+  }
+}
+Aucun fichier de production modifie. Copiez le dossier sur un disque distinct.
+VERIFICATION REUSSIE : 7 bases SQLite, 77,824 octets, SHA-256 et quick_check conformes.

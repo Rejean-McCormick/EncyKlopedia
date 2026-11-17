@@ -1,0 +1,11 @@
+{
+  "format": "kristal.source-catalog/2.0.0",
+  "sources": [
+    {
+      "id": "src:demo",
+      "title": "Example source",
+      "kind": "example",
+      "locator": "external://example"
+    }
+  ]
+}

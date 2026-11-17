@@ -1,0 +1,2014 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "جو",
+          "غلاف جوي ارضي",
+          "هواء"
+        ],
+        "en": [
+          "Air",
+          "Terrestrial atmosphere"
+        ],
+        "es": [
+          "Aire",
+          "Atmósfera terrestre"
+        ],
+        "fr": [
+          "Air",
+          "Atmosphère terrestre"
+        ],
+        "ru": [
+          "Воздух",
+          "Земная атмосфера"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:34:52+00:00",
+      "narrower": [
+        "concept3275",
+        "concept3276"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "غلاف جوي"
+        ],
+        "en": [
+          "Atmosphere"
+        ],
+        "es": [
+          "Atmósfera"
+        ],
+        "fr": [
+          "Atmosphère"
+        ],
+        "ru": [
+          "Атмосфера"
+        ]
+      },
+      "related": [
+        "concept185",
+        "concept1946",
+        "concept1952",
+        "concept3277",
+        "concept3278",
+        "concept3279"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept181",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept181",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:33:10+00:00",
+      "narrower": [
+        "concept2842",
+        "concept5443",
+        "concept5444",
+        "concept5445",
+        "concept5446"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناطق مناخية"
+        ],
+        "en": [
+          "Climatic zones"
+        ],
+        "es": [
+          "Zona climática"
+        ],
+        "fr": [
+          "Zone climatique"
+        ],
+        "ru": [
+          "Климатические зоны"
+        ]
+      },
+      "related": [
+        "concept183",
+        "concept5434",
+        "concept5448"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept182",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept182",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:35:44+00:00",
+      "narrower": [
+        "concept1843",
+        "concept3279",
+        "concept3962",
+        "concept5434"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم المناخ"
+        ],
+        "en": [
+          "Climatology"
+        ],
+        "es": [
+          "Climatología"
+        ],
+        "fr": [
+          "Climatologie"
+        ],
+        "ru": [
+          "Климатология"
+        ]
+      },
+      "related": [
+        "concept1217",
+        "concept182",
+        "concept185",
+        "concept3280",
+        "concept4559",
+        "concept5452"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept183",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept183",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ارصاد جوية مائية",
+          "ارصاد جوية هيدرولوجية",
+          "ميتورولوجيا المياه",
+          "هيدرومتيورولوجيا"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T14:37:17+00:00",
+      "narrower": [
+        "concept11526",
+        "concept1217",
+        "concept5195"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الارصاد الجوية المائية"
+        ],
+        "en": [
+          "Hydrometeorology"
+        ],
+        "es": [
+          "Hidrometeorología"
+        ],
+        "fr": [
+          "Hydrométéorologie"
+        ],
+        "ru": [
+          "Гидрометеорология"
+        ]
+      },
+      "related": [
+        "concept10949",
+        "concept185",
+        "concept3279"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دراسة تواجد المياه وحركتها والتغيرات في حالتها في الغلاف الجوي."
+        ],
+        "en": [
+          "The study of the occurence, movement and changes in the state of water in the atmosphere."
+        ],
+        "es": [
+          "Estudio de la aparición, del movimiento y de los cambios en el estado del agua en la atmósfera."
+        ],
+        "fr": [
+          "Étude de l'apparition, du mouvement et des changements d'état de l'eau dans l'atmosphère."
+        ],
+        "ru": [
+          "Изучение появления, движения и изменения состояния воды в атмосфере."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept184",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept184",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الظواهر الجوية",
+          "علوم الجو",
+          "علوم الغلاف الجوي",
+          "علوم جوية",
+          "ميتيورولوجيا"
+        ],
+        "en": [
+          "Atmospheric sciences"
+        ],
+        "es": [
+          "Ciencias atmosféricas",
+          "Ciencias de la atmósfera"
+        ],
+        "fr": [
+          "Sciences atmosphériques",
+          "Sciences de l'atmosphère"
+        ],
+        "ru": [
+          "Науки об атмосфере"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:34:57+00:00",
+      "narrower": [
+        "concept7436"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الارصاد الجوية"
+        ],
+        "en": [
+          "Meteorology"
+        ],
+        "es": [
+          "Meteorología"
+        ],
+        "fr": [
+          "Météorologie"
+        ],
+        "ru": [
+          "Метеорология"
+        ]
+      },
+      "related": [
+        "concept14043",
+        "concept157",
+        "concept181",
+        "concept183",
+        "concept184",
+        "concept3068",
+        "concept3279",
+        "concept3280"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept185",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept185",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تساقط",
+          "سقوط الامطار"
+        ]
+      },
+      "broader": [
+        "concept184"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-22T15:25:36+00:00",
+      "narrower": [
+        "concept1218",
+        "concept3447"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هطول الامطار"
+        ],
+        "en": [
+          "Precipitation"
+        ],
+        "es": [
+          "Precipitación"
+        ],
+        "fr": [
+          "Précipitation"
+        ],
+        "ru": [
+          "Осадки"
+        ]
+      },
+      "related": [
+        "concept10949",
+        "concept1215",
+        "concept183",
+        "concept5195",
+        "concept5434",
+        "concept5439",
+        "concept7571",
+        "concept8388"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1217",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1217",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "امطار",
+          "سقوط الامطار",
+          "سقوط المطر",
+          "معدل هطول الامطار"
+        ],
+        "en": [
+          "Rainfall"
+        ],
+        "es": [
+          "Pluviosidad",
+          "Precipitaciones"
+        ],
+        "fr": [
+          "Chute de pluie",
+          "Pluviosité"
+        ],
+        "ru": [
+          "Дождевые осадки"
+        ]
+      },
+      "broader": [
+        "concept1217"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:45:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مطر"
+        ],
+        "en": [
+          "Rain"
+        ],
+        "es": [
+          "Lluvia"
+        ],
+        "fr": [
+          "Pluie"
+        ],
+        "ru": [
+          "Дождь"
+        ]
+      },
+      "related": [
+        "concept1215",
+        "concept191",
+        "concept3447",
+        "concept7557"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1218",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1218",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept183"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:33:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم المناخ الزراعي"
+        ],
+        "en": [
+          "Agroclimatology"
+        ],
+        "es": [
+          "Agroclimatología"
+        ],
+        "fr": [
+          "Agroclimatologie"
+        ],
+        "ru": [
+          "Агроклиматология"
+        ]
+      },
+      "related": [
+        "concept598"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1843",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1843",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "قطب جنوبي"
+        ],
+        "en": [
+          "South Pole"
+        ],
+        "es": [
+          "Polo sur",
+          "Región antárctica"
+        ],
+        "fr": [
+          "Pôle Sud"
+        ],
+        "ru": [
+          "Южный полюс"
+        ]
+      },
+      "broader": [
+        "concept5444"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:35:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناطق قطبية جنوبية"
+        ],
+        "en": [
+          "Antarctic regions"
+        ],
+        "es": [
+          "Región antártica"
+        ],
+        "fr": [
+          "Région antarctique"
+        ],
+        "ru": [
+          "Антарктические регионы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2482",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2482",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "قطب شمالي",
+          "مناطق شبه قطبية شمالية"
+        ],
+        "en": [
+          "North Pole",
+          "Subarctic regions"
+        ],
+        "es": [
+          "Polo norte",
+          "Región subártica"
+        ],
+        "fr": [
+          "Pôle Nord",
+          "Région subarctique"
+        ],
+        "ru": [
+          "Северный полюс",
+          "Субарктические регионы"
+        ]
+      },
+      "broader": [
+        "concept5444"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:35:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناطق قطبية شمالية"
+        ],
+        "en": [
+          "Arctic regions"
+        ],
+        "es": [
+          "Región ártica"
+        ],
+        "fr": [
+          "Région arctique"
+        ],
+        "ru": [
+          "Арктические регионы"
+        ]
+      },
+      "related": [
+        "concept2822"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2824",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2824",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اراضي جافة",
+          "مناطق جافة",
+          "مناطق شبه جافة",
+          "مناطق شبه قاحلة"
+        ],
+        "en": [
+          "Drylands",
+          "Semiarid zones"
+        ],
+        "es": [
+          "Región seca",
+          "Región semi-árida",
+          "Región árida",
+          "Tierra árida",
+          "Zona semi-árida"
+        ],
+        "fr": [
+          "Région sèche",
+          "Terre aride",
+          "Zone semi-aride",
+          "Zone sèche"
+        ],
+        "ru": [
+          "Засушливые земли",
+          "Полупустынные зоны"
+        ]
+      },
+      "broader": [
+        "concept182"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T14:36:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناطق قاحلة"
+        ],
+        "en": [
+          "Arid zones"
+        ],
+        "es": [
+          "Zona árida"
+        ],
+        "fr": [
+          "Zone aride"
+        ],
+        "ru": [
+          "Аридные зоны"
+        ]
+      },
+      "related": [
+        "concept170",
+        "concept2846",
+        "concept2847",
+        "concept2848",
+        "concept2849",
+        "concept2850",
+        "concept732",
+        "concept955"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2842",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2842",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دوران جوي"
+        ]
+      },
+      "broader": [
+        "concept181"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:35:48+00:00",
+      "narrower": [
+        "concept3280"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دوران الغلاف الجوي"
+        ],
+        "en": [
+          "Atmospheric circulation"
+        ],
+        "es": [
+          "Circulación atmosférica"
+        ],
+        "fr": [
+          "Circulation atmosphérique"
+        ],
+        "ru": [
+          "Циркуляция атмосферы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3275",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3275",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept181"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:35:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ضغط جوي"
+        ],
+        "en": [
+          "Atmospheric pressure"
+        ],
+        "es": [
+          "Presión atmosférica"
+        ],
+        "fr": [
+          "Pression atmosphérique"
+        ],
+        "ru": [
+          "Атмосферное давление"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3276",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3276",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احوال جوية",
+          "ارصاد جوية",
+          "جو",
+          "حالة الجو المناخية"
+        ],
+        "es": [
+          "Condiciones atmosféricas",
+          "Metereología",
+          "Tiempo atmosférico"
+        ],
+        "fr": [
+          "Conditions météorologiques",
+          "Météo"
+        ]
+      },
+      "broader": [
+        "concept183"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:45:21+00:00",
+      "narrower": [
+        "concept14043",
+        "concept5439"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طقس"
+        ],
+        "en": [
+          "Weather"
+        ],
+        "es": [
+          "Condiciones metereológicas"
+        ],
+        "fr": [
+          "Conditions atmosphériques"
+        ],
+        "ru": [
+          "Погода"
+        ]
+      },
+      "related": [
+        "concept181",
+        "concept184",
+        "concept185",
+        "concept5434"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3279",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3279",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3275"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:42:48+00:00",
+      "narrower": [
+        "concept5197",
+        "concept7340"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رياح"
+        ],
+        "en": [
+          "Winds"
+        ],
+        "es": [
+          "Viento"
+        ],
+        "fr": [
+          "Vent"
+        ],
+        "ru": [
+          "Ветры"
+        ]
+      },
+      "related": [
+        "concept14043",
+        "concept183",
+        "concept185",
+        "concept9712"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3280",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3280",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مطر ثلجي"
+        ],
+        "en": [
+          "Sleet"
+        ],
+        "es": [
+          "Aguanieve",
+          "Escarcha",
+          "Granizada",
+          "Granizo",
+          "Rocío"
+        ],
+        "fr": [
+          "Giboulée",
+          "Givre",
+          "Granules de glace",
+          "Grésil",
+          "Grêle",
+          "Verglas"
+        ],
+        "ru": [
+          "Мокрый снег"
+        ]
+      },
+      "broader": [
+        "concept1217"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:43:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ثلج"
+        ],
+        "en": [
+          "Snow"
+        ],
+        "es": [
+          "Nieve"
+        ],
+        "fr": [
+          "Neige"
+        ],
+        "ru": [
+          "Снег"
+        ]
+      },
+      "related": [
+        "concept11526",
+        "concept1218",
+        "concept2118",
+        "concept7810"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3447",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3447",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم المناخ الأحيائي",
+          "علم المناخيات الأحيائية"
+        ]
+      },
+      "broader": [
+        "concept183"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:33:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم المناخ الحيوي"
+        ],
+        "en": [
+          "Bioclimatology"
+        ],
+        "es": [
+          "Bioclimatología"
+        ],
+        "fr": [
+          "Bioclimatologie"
+        ],
+        "ru": [
+          "Биоклиматология"
+        ]
+      },
+      "related": [
+        "concept219",
+        "concept3964"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3962",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3962",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5434"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T14:32:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خرائط مناخية"
+        ],
+        "en": [
+          "Climatic maps"
+        ],
+        "es": [
+          "Mapa climático"
+        ],
+        "fr": [
+          "Carte climatique"
+        ],
+        "ru": [
+          "Климатические карты"
+        ]
+      },
+      "related": [
+        "concept5437"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4698",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4698",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دورة الماء",
+          "دورة المياه",
+          "دورة هيدرولوجية"
+        ],
+        "en": [
+          "Water cycle"
+        ],
+        "fr": [
+          "Cycle de l'eau"
+        ],
+        "ru": [
+          "Водный цикл"
+        ]
+      },
+      "broader": [
+        "concept184"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:35:32+00:00",
+      "narrower": [
+        "concept7357"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دورة مائية"
+        ],
+        "en": [
+          "Hydrological cycle"
+        ],
+        "es": [
+          "Ciclo hidrológico"
+        ],
+        "fr": [
+          "Cycle hydrologique"
+        ],
+        "ru": [
+          "Гидрологический цикл"
+        ]
+      },
+      "related": [
+        "concept1217",
+        "concept17104",
+        "concept188",
+        "concept191",
+        "concept7571"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الدوران المستمر للمياه عن طريق التبخر وهطول الأمطار."
+        ],
+        "en": [
+          "The continuous circulation of water through evaporation and precipitation."
+        ],
+        "es": [
+          "Fenómeno continuo de circulación de agua a través de la evaporación, la condensación y la precipitación."
+        ],
+        "fr": [
+          "Phénomène continu de circulation de l'eau à travers l'évaporation, la condensation et la précipitation."
+        ],
+        "ru": [
+          "Непрерывная циркуляция воды, обусловленная стадиями испарения и выпадения осадков."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5195",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5195",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعاصير استوائية",
+          "اعاصير التَّيفون",
+          "اعاصير مدارية",
+          "زوابع",
+          "عواصِف مداريَّة دواميّة"
+        ],
+        "en": [
+          "Hurricanes",
+          "Tropical cyclones",
+          "Typhoons"
+        ],
+        "es": [
+          "Ciclón tropical",
+          "Huracán",
+          "Tifón",
+          "Torbellino",
+          "Tornado"
+        ],
+        "fr": [
+          "Cyclone tropical",
+          "Ouragan",
+          "Tornade",
+          "Typhon"
+        ],
+        "ru": [
+          "Тайфуны",
+          "Тропические циклоны",
+          "Ураганы"
+        ]
+      },
+      "broader": [
+        "concept3280"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T14:37:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعاصير"
+        ],
+        "en": [
+          "Cyclones"
+        ],
+        "es": [
+          "Ciclón"
+        ],
+        "fr": [
+          "Cyclone"
+        ],
+        "ru": [
+          "Циклоны"
+        ]
+      },
+      "related": [
+        "concept4772",
+        "concept7340"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5197",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5197",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طقس"
+        ]
+      },
+      "broader": [
+        "concept183"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:35:48+00:00",
+      "narrower": [
+        "concept4698",
+        "concept5437"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناخ"
+        ],
+        "en": [
+          "Climate"
+        ],
+        "es": [
+          "Clima"
+        ],
+        "fr": [
+          "Climat"
+        ],
+        "ru": [
+          "Климат"
+        ]
+      },
+      "related": [
+        "concept1217",
+        "concept182",
+        "concept3279"
+      ],
+      "scope_notes": {
+        "ar": [
+          "متوسط الطقس لأي منطقة."
+        ],
+        "en": [
+          "Average weather of any region."
+        ],
+        "es": [
+          "Condiciones meteorológicas predominantes en una región."
+        ],
+        "fr": [
+          "Déterminé par l'ensemble des conditions météorologiques prévalant dans une région."
+        ],
+        "ru": [
+          "Среднестатистические погодные условия в любом регионе."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5434",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5434",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5434"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:35:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بيانات مناخية"
+        ],
+        "en": [
+          "Climatic data"
+        ],
+        "es": [
+          "Datos climáticos"
+        ],
+        "fr": [
+          "Donnée climatique"
+        ],
+        "ru": [
+          "Климатические данные"
+        ]
+      },
+      "related": [
+        "concept4698"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5437",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5437",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استجداء المطر",
+          "استمطار",
+          "استمطار صناعي",
+          "تحكم في الاحوال الجوية",
+          "تحكم في الطقس",
+          "تعديل الاحوال الجوية",
+          "تعديل الطقس",
+          "تغيرات جوية",
+          "تغيير الاحوال الجوية",
+          "تكوين المطر",
+          "تلقيح السحب",
+          "حقن السحب",
+          "هطول الامطار الاصطناعية"
+        ],
+        "en": [
+          "Artificial precipitation",
+          "Cloud seeding",
+          "Rain making",
+          "Weather control"
+        ],
+        "es": [
+          "Control de las precipitaciones",
+          "Lluvia provocada",
+          "Precipitaciones artificiales",
+          "Precipitaciones provocadas"
+        ],
+        "fr": [
+          "Ensemencement des nuages",
+          "Modification artificielle du temps",
+          "Modification du temps",
+          "Pluie provoquée",
+          "Provocation artificielle de la pluie",
+          "Précipitation artificielle",
+          "Précipitation provoquée"
+        ],
+        "ru": [
+          "Засев облаков (химическими реагентами)",
+          "Искусственное вызывание дождя",
+          "Искусственные осадки",
+          "Контроль за погодой"
+        ]
+      },
+      "broader": [
+        "concept3279"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-22T15:25:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تغيير الطقس"
+        ],
+        "en": [
+          "Weather modification"
+        ],
+        "es": [
+          "Control meteorológico"
+        ],
+        "fr": [
+          "Contrôle météorologique"
+        ],
+        "ru": [
+          "Изменение погодных условий"
+        ]
+      },
+      "related": [
+        "concept1217",
+        "concept4559"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5439",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5439",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Humedal"
+        ]
+      },
+      "broader": [
+        "concept182"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:33:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناطق رطبة"
+        ],
+        "en": [
+          "Humid zones"
+        ],
+        "es": [
+          "Zona húmeda"
+        ],
+        "fr": [
+          "Zone humide"
+        ],
+        "ru": [
+          "Влажные зоны"
+        ]
+      },
+      "related": [
+        "concept12053"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5443",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5443",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مناطق باردة",
+          "منطقتان قطبيتان"
+        ],
+        "en": [
+          "Cold zones"
+        ],
+        "es": [
+          "Casquete polar",
+          "Zona polar"
+        ],
+        "fr": [
+          "Région froide",
+          "Zone polaire"
+        ],
+        "ru": [
+          "Зоны холода"
+        ]
+      },
+      "broader": [
+        "concept182"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:44:40+00:00",
+      "narrower": [
+        "concept2482",
+        "concept2824"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناطق قطبية"
+        ],
+        "en": [
+          "Polar regions"
+        ],
+        "es": [
+          "Regiones polares"
+        ],
+        "fr": [
+          "Région polaire"
+        ],
+        "ru": [
+          "Полярные регионы"
+        ]
+      },
+      "related": [
+        "concept11235",
+        "concept11526",
+        "concept11530"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5444",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5444",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مناطق معتدلة الحرارة",
+          "مناطق معتدلة المناخ"
+        ],
+        "es": [
+          "Región templada"
+        ]
+      },
+      "broader": [
+        "concept182"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:43:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناطق معتدلة"
+        ],
+        "en": [
+          "Temperate zones"
+        ],
+        "es": [
+          "Zona templada"
+        ],
+        "fr": [
+          "Zone tempérée"
+        ],
+        "ru": [
+          "Зоны умеренного климата"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5445",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5445",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مناطق استوائية"
+        ],
+        "en": [
+          "Equatorial zones"
+        ],
+        "es": [
+          "Franja ecuatorial",
+          "Franja tropical",
+          "Región tropical",
+          "Trópicos",
+          "Zona ecuatorial",
+          "Zona intertropical"
+        ],
+        "fr": [
+          "Tropiques",
+          "Zone intertropicale",
+          "Zone torride",
+          "Zone équatoriale"
+        ],
+        "ru": [
+          "Экваториальные зоны"
+        ]
+      },
+      "broader": [
+        "concept182"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:45:12+00:00",
+      "narrower": [
+        "concept12056"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناطق مدارية"
+        ],
+        "en": [
+          "Tropical zones"
+        ],
+        "es": [
+          "Zona tropical"
+        ],
+        "fr": [
+          "Zone tropicale"
+        ],
+        "ru": [
+          "Тропические зоны"
+        ]
+      },
+      "related": [
+        "concept11616",
+        "concept13049",
+        "concept13259",
+        "concept5508"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5446",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5446",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3280"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:45:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عواصف"
+        ],
+        "en": [
+          "Storms"
+        ],
+        "es": [
+          "Tempestad"
+        ],
+        "fr": [
+          "Tempête"
+        ],
+        "ru": [
+          "Штормы"
+        ]
+      },
+      "related": [
+        "concept4772",
+        "concept5197"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7340",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7340",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تبخر نتحي",
+          "نتح تبخري"
+        ]
+      },
+      "broader": [
+        "concept5195"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:34:52+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بخر ونتح"
+        ],
+        "en": [
+          "Evapotranspiration"
+        ],
+        "es": [
+          "Evapotranspiración"
+        ],
+        "fr": [
+          "Évapotranspiration"
+        ],
+        "ru": [
+          "Испарение воды в атмосферу"
+        ]
+      },
+      "related": [
+        "concept3585",
+        "concept3641",
+        "concept7571",
+        "concept8527"
+      ],
+      "scope_notes": {
+        "ar": [
+          "فقدان الماء عن طريق التبخر."
+        ],
+        "en": [
+          "Water loss through evaporation."
+        ],
+        "es": [
+          "Agua perdida durante la evaporación."
+        ],
+        "fr": [
+          "Eau dégagée par évaporation."
+        ],
+        "ru": [
+          "Потеря воды в результате испарения."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7357",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7357",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept185"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:43:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بيانات الارصاد الجوية"
+        ],
+        "en": [
+          "Meteorological data"
+        ],
+        "es": [
+          "Datos meteorológicos"
+        ],
+        "fr": [
+          "Donnée météorologique"
+        ],
+        "ru": [
+          "Метеорологические данные"
+        ]
+      },
+      "related": [
+        "concept3068"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7436",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7436",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جمد",
+          "جَلَد",
+          "قرس"
+        ]
+      },
+      "broader": [
+        "concept11526"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:35:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صقيع"
+        ],
+        "en": [
+          "Frost"
+        ],
+        "es": [
+          "Helada"
+        ],
+        "fr": [
+          "Gel"
+        ],
+        "ru": [
+          "Мороз"
+        ]
+      },
+      "related": [
+        "concept11235"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11233",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11233",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ثلج"
+        ]
+      },
+      "broader": [
+        "concept184"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:43:48+00:00",
+      "narrower": [
+        "concept11233"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جليد"
+        ],
+        "en": [
+          "Ice"
+        ],
+        "es": [
+          "Hielo"
+        ],
+        "fr": [
+          "Glace"
+        ],
+        "ru": [
+          "Лед"
+        ]
+      },
+      "related": [
+        "concept11235",
+        "concept11459",
+        "concept11530",
+        "concept189",
+        "concept3447",
+        "concept5444"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11526",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11526",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مناطق استوائية رطبة"
+        ]
+      },
+      "broader": [
+        "concept5446"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:34:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناطق مدارية رطبة"
+        ],
+        "en": [
+          "Humid tropics"
+        ],
+        "es": [
+          "Trópicos húmedos"
+        ],
+        "fr": [
+          "Tropiques humides"
+        ],
+        "ru": [
+          "Влажные тропики"
+        ]
+      },
+      "related": [
+        "concept4247"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12056",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12056",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تنبؤ بالاحوال الجوية",
+          "تنبؤ بحالة الطقس",
+          "تنبؤ جوي",
+          "تنبؤات جوية",
+          "توقع حالة الطقس"
+        ],
+        "es": [
+          "Previsión metereológica",
+          "Pronóstico del tiempo"
+        ],
+        "fr": [
+          "Prévision du temps"
+        ]
+      },
+      "broader": [
+        "concept3279"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.45"
+      ],
+      "modified": "2019-12-15T13:45:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنبؤ بالطقس"
+        ],
+        "en": [
+          "Weather forecasting"
+        ],
+        "es": [
+          "Pronóstico meteorológico"
+        ],
+        "fr": [
+          "Prévision météorologique"
+        ],
+        "ru": [
+          "Прогнозирование погоды"
+        ]
+      },
+      "related": [
+        "concept185",
+        "concept3280"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14043",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14043",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt2.45",
+    "labels": {
+      "en": "Meteorology",
+      "fr": "Météorologie"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt2.45"
+  }
+}

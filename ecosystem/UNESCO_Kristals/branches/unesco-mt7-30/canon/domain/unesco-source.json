@@ -1,0 +1,682 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain7"
+      ],
+      "microthesaurus_ids": [
+        "mt7.30"
+      ],
+      "modified": "2019-12-15T14:16:54+00:00",
+      "narrower": [
+        "concept773",
+        "concept851",
+        "concept882",
+        "concept894",
+        "concept898",
+        "concept903",
+        "concept908",
+        "concept918",
+        "concept920",
+        "concept927"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بلدان مجلس التعاضد الاقتصادي"
+        ],
+        "en": [
+          "CMEA countries"
+        ],
+        "es": [
+          "País del CAEM"
+        ],
+        "fr": [
+          "Pays du CAEM"
+        ],
+        "ru": [
+          "Страны СЭВ"
+        ]
+      },
+      "related": [
+        "concept899"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مجلس التعاضد الاقتصادي. استخدم للمراجع التاريخية فقط."
+        ],
+        "en": [
+          "Council for Mutual Economic Assistance. Use for historical references only."
+        ],
+        "es": [
+          "Consejo de Asistencia Económica Mutua. Utilice solamente para referencias de carácter histórico."
+        ],
+        "fr": [
+          "Conseil d'assistance économique mutuelle. N'utiliser que pour des références à caractère historique."
+        ],
+        "ru": [
+          "Совет Экономической Взаимопомощи. Используется только для исторических справок."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept938",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept938",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بلدان صناعية",
+          "بلدان صناعية متقدمة",
+          "دول صناعية",
+          "دول صناعية متقدمة",
+          "دول متقدمة"
+        ],
+        "en": [
+          "AIC",
+          "Advanced industrial countries",
+          "Industrialized countries"
+        ],
+        "es": [
+          "PD",
+          "País económicamente avanzado",
+          "País industrialmente desarrollado",
+          "Primer mundo"
+        ],
+        "fr": [
+          "PD",
+          "Pays industriellement avancé",
+          "Pays industriellement développé"
+        ],
+        "ru": [
+          "Индустриальные страны",
+          "ПРС (промышленно развитые страны)",
+          "Промышленно развитые страны"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain7"
+      ],
+      "microthesaurus_ids": [
+        "mt7.30"
+      ],
+      "modified": "2019-12-15T14:16:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بلدان متقدمة"
+        ],
+        "en": [
+          "Developed countries"
+        ],
+        "es": [
+          "País desarrollado"
+        ],
+        "fr": [
+          "Pays développé"
+        ],
+        "ru": [
+          "Развитые страны"
+        ]
+      },
+      "related": [
+        "concept17007",
+        "concept7845",
+        "concept941"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept939",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept939",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دول نامية",
+          "عالم ثالث"
+        ],
+        "en": [
+          "Third world"
+        ],
+        "es": [
+          "País en vías de desarrollo",
+          "País subdesarrollado",
+          "Tercer mundo"
+        ],
+        "fr": [
+          "PED",
+          "Pays en voie de développement",
+          "Tiers-monde"
+        ],
+        "ru": [
+          "Страны \"третьего мира\""
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain7"
+      ],
+      "microthesaurus_ids": [
+        "mt7.30"
+      ],
+      "modified": "2019-12-15T14:16:24+00:00",
+      "narrower": [
+        "concept7850"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بلدان نامية"
+        ],
+        "en": [
+          "Developing countries"
+        ],
+        "es": [
+          "País en desarrollo"
+        ],
+        "fr": [
+          "Pays en développement"
+        ],
+        "ru": [
+          "Развивающиеся страны"
+        ]
+      },
+      "related": [
+        "concept5583",
+        "concept5815",
+        "concept593",
+        "concept594",
+        "concept7852",
+        "concept7853"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept940",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept940",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بلدان حديثة التصنيع"
+        ],
+        "en": [
+          "NICs"
+        ],
+        "es": [
+          "NPI",
+          "País de industrialización reciente"
+        ],
+        "fr": [
+          "NPI",
+          "PNI",
+          "Pays nouvellement industrialisé"
+        ],
+        "ru": [
+          "НИС - новые индустриальные страны"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain7"
+      ],
+      "microthesaurus_ids": [
+        "mt7.30"
+      ],
+      "modified": "2019-12-15T14:15:36+00:00",
+      "narrower": [
+        "concept17028",
+        "concept757",
+        "concept764",
+        "concept787",
+        "concept828",
+        "concept829",
+        "concept839",
+        "concept846",
+        "concept865",
+        "concept873"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بلدان حديثة العهد بالتصنيع"
+        ],
+        "en": [
+          "Newly industrializing countries"
+        ],
+        "es": [
+          "País de nueva industrialización"
+        ],
+        "fr": [
+          "Nouveau pays industrialisé"
+        ],
+        "ru": [
+          "Новые индустриальные страны"
+        ]
+      },
+      "related": [
+        "concept12340",
+        "concept7845",
+        "concept939"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept941",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept941",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain7"
+      ],
+      "microthesaurus_ids": [
+        "mt7.30"
+      ],
+      "modified": "2019-12-15T14:16:47+00:00",
+      "narrower": [
+        "concept10480",
+        "concept10481",
+        "concept12132",
+        "concept14609",
+        "concept7343",
+        "concept7367",
+        "concept766",
+        "concept787",
+        "concept806",
+        "concept814",
+        "concept835",
+        "concept839",
+        "concept854",
+        "concept8621",
+        "concept876",
+        "concept890",
+        "concept893",
+        "concept902",
+        "concept904",
+        "concept905",
+        "concept907",
+        "concept908",
+        "concept909",
+        "concept910",
+        "concept913",
+        "concept917",
+        "concept918",
+        "concept919",
+        "concept923",
+        "concept924",
+        "concept925"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بلدان منظمة التعاون الاقتصادي والتنمية"
+        ],
+        "en": [
+          "OECD countries"
+        ],
+        "es": [
+          "País de la OCDE"
+        ],
+        "fr": [
+          "Pays de l'OCDE"
+        ],
+        "ru": [
+          "Страны ОЭСР"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept942",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept942",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بلدان اقل نموا"
+        ],
+        "en": [
+          "LDC"
+        ],
+        "es": [
+          "PMA",
+          "País menos adelantado",
+          "País menos avanzado"
+        ],
+        "fr": [
+          "PMA",
+          "Pays le moins développé"
+        ],
+        "ru": [
+          "НРС - наименее развитые страны"
+        ]
+      },
+      "broader": [
+        "concept940"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain7"
+      ],
+      "microthesaurus_ids": [
+        "mt7.30"
+      ],
+      "modified": "2019-12-15T14:37:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقل البلدان نموا"
+        ],
+        "en": [
+          "Least developed countries"
+        ],
+        "es": [
+          "País menos desarrolado"
+        ],
+        "fr": [
+          "Pays le moins avancé"
+        ],
+        "ru": [
+          "Наименее развитые страны"
+        ]
+      },
+      "related": [
+        "concept7853"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7850",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7850",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بلدان جزرية",
+          "دول الجزر الصغيرة النامية",
+          "دول جزرية"
+        ],
+        "en": [
+          "Island countries",
+          "Island states",
+          "SIDS"
+        ],
+        "es": [
+          "Estado insular",
+          "PEID",
+          "País insular"
+        ],
+        "fr": [
+          "PEID",
+          "Pays insulaire",
+          "État insulaire"
+        ],
+        "ru": [
+          "МОРГ - малые островные развивающиеся государства",
+          "Островные государства",
+          "Островные страны"
+        ]
+      },
+      "broader": [
+        "concept17035"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain7"
+      ],
+      "microthesaurus_ids": [
+        "mt7.30"
+      ],
+      "modified": "2022-05-10T11:50:49+00:00",
+      "narrower": [
+        "concept14719",
+        "concept14720",
+        "concept16993",
+        "concept17084",
+        "concept17085",
+        "concept696",
+        "concept700",
+        "concept714",
+        "concept722",
+        "concept734",
+        "concept736",
+        "concept755",
+        "concept756",
+        "concept758",
+        "concept759",
+        "concept760",
+        "concept761",
+        "concept765",
+        "concept773",
+        "concept774",
+        "concept775",
+        "concept779",
+        "concept782",
+        "concept783",
+        "concept785",
+        "concept788",
+        "concept789",
+        "concept795",
+        "concept796",
+        "concept797",
+        "concept799",
+        "concept801",
+        "concept802",
+        "concept804",
+        "concept811",
+        "concept815",
+        "concept820",
+        "concept823",
+        "concept824",
+        "concept825",
+        "concept838",
+        "concept847",
+        "concept848",
+        "concept849",
+        "concept852",
+        "concept853",
+        "concept855",
+        "concept863",
+        "concept866",
+        "concept875",
+        "concept878",
+        "concept881"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دول جزرية صغيرة نامية"
+        ],
+        "en": [
+          "Small island developing States"
+        ],
+        "es": [
+          "Pequeño Estado insular en desarrollo"
+        ],
+        "fr": [
+          "Petit État insulaire en développement"
+        ],
+        "ru": [
+          "Малые островные развивающиеся государства"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "البلدان الجزرية الصغيرة والبلدان الساحلية المنخفضة ذات التحديات والمخاوف البيئية المشتركة والمتشابهة بشأن التنمية المستدامة."
+        ],
+        "en": [
+          "Small island and low-lying coastal countries that share similar sustainable development challenges and concerns about the environment."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17034",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17034",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بلدان صغيرة",
+          "دول صغرى"
+        ],
+        "en": [
+          "Microstates",
+          "Small countries"
+        ],
+        "es": [
+          "Microestado",
+          "Pequeño país"
+        ],
+        "fr": [
+          "Micro-État",
+          "Petit pays"
+        ],
+        "ru": [
+          "Малые страны",
+          "Микрогосударства"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain7"
+      ],
+      "microthesaurus_ids": [
+        "mt7.30"
+      ],
+      "modified": "2019-12-15T14:16:08+00:00",
+      "narrower": [
+        "concept17034"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دول صغيرة"
+        ],
+        "en": [
+          "Small states"
+        ],
+        "es": [
+          "Pequeño Estado"
+        ],
+        "fr": [
+          "Petit État"
+        ],
+        "ru": [
+          "Малые государства"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17035",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17035",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بلدان تسعة ذات اعداد ضخمة من السكان"
+        ],
+        "en": [
+          "E9 countries",
+          "Nine High-Population Countries"
+        ],
+        "es": [
+          "Nueve Países muy Poblados",
+          "Países de la Iniciativa E-9"
+        ],
+        "fr": [
+          "Neuf pays à forte population"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain7"
+      ],
+      "microthesaurus_ids": [
+        "mt7.30"
+      ],
+      "modified": "2019-12-17T16:38:33+00:00",
+      "narrower": [
+        "concept12233",
+        "concept5114",
+        "concept706",
+        "concept728",
+        "concept764",
+        "concept787",
+        "concept816",
+        "concept830",
+        "concept858"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بلدان مجموعة التسعة"
+        ],
+        "en": [
+          "E-9 countries"
+        ],
+        "es": [
+          "Países del Grupo E-9"
+        ],
+        "fr": [
+          "Pays de l'E-9"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17100",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17100",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt7.30",
+    "labels": {
+      "en": "Economic groupings",
+      "fr": "Ensembles économiques"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt7.30"
+  }
+}

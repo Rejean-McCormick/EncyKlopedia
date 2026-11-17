@@ -1,0 +1,4077 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "اقتصاديات البحث",
+          "اقتصاديات التكنولوجيا"
+        ],
+        "en": [
+          "Economics of research",
+          "Economics of technology"
+        ],
+        "es": [
+          "Economía científica",
+          "Economía de la tecnología"
+        ],
+        "fr": [
+          "Économie de la recherche",
+          "Économie de la technologie"
+        ],
+        "ru": [
+          "Экономика исследований",
+          "Экономика технологий"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:29:00+00:00",
+      "narrower": [
+        "concept8871",
+        "concept8872",
+        "concept8873",
+        "concept8874",
+        "concept8875"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقتصاديات العلم"
+        ],
+        "en": [
+          "Economics of science"
+        ],
+        "es": [
+          "Economía de la ciencia"
+        ],
+        "fr": [
+          "Économie de la science"
+        ],
+        "ru": [
+          "Экономика науки"
+        ]
+      },
+      "related": [
+        "concept8877"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept109",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept109",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تنسيق البحث"
+        ],
+        "en": [
+          "Research coordination"
+        ],
+        "es": [
+          "Coordinación de la investigación",
+          "Estructuración de la investigación"
+        ],
+        "fr": [
+          "Coordination de la recherche"
+        ],
+        "ru": [
+          "Координация научных исследований"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:42+00:00",
+      "narrower": [
+        "concept10299",
+        "concept1277",
+        "concept14843",
+        "concept14844",
+        "concept14845",
+        "concept8877"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنظيم البحث"
+        ],
+        "en": [
+          "Organization of research"
+        ],
+        "es": [
+          "Organización de la investigación"
+        ],
+        "fr": [
+          "Organisation de la recherche"
+        ],
+        "ru": [
+          "Организация научных исследований"
+        ]
+      },
+      "related": [
+        "concept112"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept110",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept110",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحث علمي"
+        ],
+        "en": [
+          "Scientific research"
+        ],
+        "es": [
+          "Investigación científica"
+        ],
+        "fr": [
+          "Recherche scientifique"
+        ],
+        "ru": [
+          "Научные исследования"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2024-10-08T09:18:10+00:00",
+      "narrower": [
+        "concept11269",
+        "concept12756",
+        "concept2563"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحث"
+        ],
+        "en": [
+          "Research"
+        ],
+        "es": [
+          "Investigación"
+        ],
+        "fr": [
+          "Recherche"
+        ],
+        "ru": [
+          "Исследования"
+        ]
+      },
+      "related": [
+        "concept14843",
+        "concept15607",
+        "concept17174",
+        "concept9615"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept111",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept111",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادارة البحوث",
+          "ادارة تكنولوجية"
+        ],
+        "en": [
+          "Research administration",
+          "Research management",
+          "Technological administration"
+        ],
+        "es": [
+          "Administración de la investigación",
+          "Administración de la tecnología",
+          "Gestión de la investigación"
+        ],
+        "fr": [
+          "Administration de la recherche",
+          "Administration de la technologie",
+          "Gestion de la recherche"
+        ],
+        "ru": [
+          "Руководство в сфере технологий",
+          "Руководство научными исследованиями",
+          "Управление научными исследованиями"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-22T15:25:30+00:00",
+      "narrower": [
+        "concept14828"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادارة العلم"
+        ],
+        "en": [
+          "Science administration"
+        ],
+        "es": [
+          "Administración de la ciencia"
+        ],
+        "fr": [
+          "Administration de la science"
+        ],
+        "ru": [
+          "Управление наукой"
+        ]
+      },
+      "related": [
+        "concept110",
+        "concept15495",
+        "concept6570"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept112",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept112",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سياسة البحوث",
+          "سياسة التكنولوجيا"
+        ],
+        "en": [
+          "Research policy",
+          "Technology policy"
+        ],
+        "es": [
+          "Política de la investigación",
+          "Política tecnológica"
+        ],
+        "fr": [
+          "Politique de la recherche",
+          "Politique de la science et de la technologie",
+          "Politique en matière de technologie",
+          "Politique scientifique et technologique"
+        ],
+        "ru": [
+          "Политика в области научных исследований",
+          "Технологическая политика"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-23T18:34:18+00:00",
+      "narrower": [
+        "concept15495",
+        "concept17126",
+        "concept6570"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة العلم"
+        ],
+        "en": [
+          "Science policy"
+        ],
+        "es": [
+          "Política científica"
+        ],
+        "fr": [
+          "Politique scientifique"
+        ],
+        "ru": [
+          "Научная политика"
+        ]
+      },
+      "related": [
+        "concept114",
+        "concept14845",
+        "concept1800",
+        "concept8877"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept113",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept113",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تطور تكنولوجي"
+        ],
+        "en": [
+          "Technological development"
+        ],
+        "es": [
+          "Desarrollo tecnológico",
+          "Desarrollo técnico"
+        ],
+        "fr": [
+          "Développement technique",
+          "Développement technologique"
+        ],
+        "ru": [
+          "Технологическое развитие"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-22T15:25:40+00:00",
+      "narrower": [
+        "concept4566",
+        "concept5207"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تطور علمي"
+        ],
+        "en": [
+          "Scientific development"
+        ],
+        "es": [
+          "Desarrollo científico"
+        ],
+        "fr": [
+          "Développement scientifique"
+        ],
+        "ru": [
+          "Научное развитие"
+        ]
+      },
+      "related": [
+        "concept113",
+        "concept14844"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept114",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept114",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "موظفون تقنيون",
+          "موظفون في مجال التكنولوجيا"
+        ],
+        "en": [
+          "Technical personnel",
+          "Technological personnel"
+        ],
+        "es": [
+          "Personal científico y tecnológico",
+          "Personal técnico"
+        ],
+        "fr": [
+          "Personnel scientifique et technologique",
+          "Personnel technique"
+        ],
+        "ru": [
+          "Технический персонал",
+          "Технологический персонал"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:35:49+00:00",
+      "narrower": [
+        "concept14703",
+        "concept5222"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موظفون علميون"
+        ],
+        "en": [
+          "Scientific personnel"
+        ],
+        "es": [
+          "Personal científico"
+        ],
+        "fr": [
+          "Personnel scientifique"
+        ],
+        "ru": [
+          "Научный персонал"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept115",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept115",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم وتكنولوجيا"
+        ],
+        "en": [
+          "Science and technology"
+        ],
+        "es": [
+          "Ciencia y tecnología"
+        ],
+        "fr": [
+          "Science et technologie"
+        ],
+        "ru": [
+          "Наука и техника"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-22T15:25:38+00:00",
+      "narrower": [
+        "concept11824",
+        "concept17065",
+        "concept2600",
+        "concept2601"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا"
+        ],
+        "en": [
+          "Technology"
+        ],
+        "es": [
+          "Tecnología"
+        ],
+        "fr": [
+          "Technologie"
+        ],
+        "ru": [
+          "Технология"
+        ]
+      },
+      "related": [
+        "concept104",
+        "concept608",
+        "concept6459",
+        "concept70"
+      ],
+      "scope_notes": {
+        "ar": [
+          "المهارات والمعرفة والأجهزة والإجراءات اللازمة لتوفير السلع والخدمات النافعة."
+        ],
+        "en": [
+          "The skills, knowledge, hardware, and procedures for providing useful goods and services."
+        ],
+        "es": [
+          "Competencia, conocimiento, equipamiento y procedimientos para asegurar la producción de bienes y servicios."
+        ],
+        "fr": [
+          "Compétence, connaissance, équipement et façon de procéder pour assurer la production de biens et services."
+        ],
+        "ru": [
+          "Навыки, знания, оборудование и процедуры производства необходимых товаров и услуг."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept116",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept116",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept14828"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T14:37:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اكاديميات العلوم"
+        ],
+        "en": [
+          "Academies of science"
+        ],
+        "es": [
+          "Academia de ciencias"
+        ],
+        "fr": [
+          "Académie de sciences"
+        ],
+        "ru": [
+          "Академии наук"
+        ]
+      },
+      "related": [
+        "concept1117"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1041",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1041",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انشطة البحوث"
+        ],
+        "en": [
+          "Research activities"
+        ],
+        "es": [
+          "Actividad de investigación"
+        ],
+        "fr": [
+          "Activité de recherche"
+        ],
+        "ru": [
+          "Исследовательская деятельность"
+        ]
+      },
+      "broader": [
+        "concept110"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2024-10-08T09:21:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انشطة علمية"
+        ],
+        "en": [
+          "Scientific activities"
+        ],
+        "es": [
+          "Actividad científica"
+        ],
+        "fr": [
+          "Activité scientifique"
+        ],
+        "ru": [
+          "Научная деятельность"
+        ]
+      },
+      "related": [
+        "concept14828",
+        "concept17174"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1277",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1277",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept14828"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:33:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خدمات نقل التكنولوجيا"
+        ],
+        "en": [
+          "Technology transfer services"
+        ],
+        "es": [
+          "Servicio de transferencia de tecnología"
+        ],
+        "fr": [
+          "Service de transfert de technologie"
+        ],
+        "ru": [
+          "Услуги в области трансфера технологий"
+        ]
+      },
+      "related": [
+        "concept13924",
+        "concept1769",
+        "concept3777",
+        "concept4313",
+        "concept8017"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1772",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1772",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "زمالات بحثية"
+        ],
+        "en": [
+          "Research fellowships"
+        ],
+        "es": [
+          "Beca para investigación",
+          "Beca para investigadores"
+        ],
+        "fr": [
+          "Subvention de recherche",
+          "Subvention à la recherche"
+        ],
+        "ru": [
+          "Стипендии на научные исследования"
+        ]
+      },
+      "broader": [
+        "concept8872"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-22T15:25:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منح البحوث"
+        ],
+        "en": [
+          "Research grants"
+        ],
+        "es": [
+          "Subvención para investigación"
+        ],
+        "fr": [
+          "Allocation de recherche"
+        ],
+        "ru": [
+          "Гранты на исследования"
+        ]
+      },
+      "related": [
+        "concept10993",
+        "concept3687",
+        "concept7658"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2071",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2071",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انصار حماية البيئة",
+          "دعاة حماية البيئة"
+        ],
+        "fr": [
+          "Environnementaliste"
+        ]
+      },
+      "broader": [
+        "concept5222"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2026-04-17T12:26:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علماء البيئة"
+        ],
+        "en": [
+          "Environmentalists"
+        ],
+        "es": [
+          "Ambientalista"
+        ],
+        "fr": [
+          "Écologiste"
+        ],
+        "ru": [
+          "Специалисты в области окружающей среды"
+        ]
+      },
+      "related": [
+        "concept198",
+        "concept3964",
+        "concept678"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2138",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2138",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept111"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:55+00:00",
+      "narrower": [
+        "concept2564",
+        "concept2565"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحث تطبيقي"
+        ],
+        "en": [
+          "Applied research"
+        ],
+        "es": [
+          "Investigación aplicada"
+        ],
+        "fr": [
+          "Recherche appliquée"
+        ],
+        "ru": [
+          "Прикладные исследования"
+        ]
+      },
+      "related": [
+        "concept2567"
+      ],
+      "scope_notes": {
+        "ar": [
+          "بحث تم تصميمه لابتكار تقنية جديدة."
+        ],
+        "en": [
+          "Research which is designed to create a new technology."
+        ],
+        "es": [
+          "Investigación que tiene por objetivo la creación de una nueva tecnología."
+        ],
+        "fr": [
+          "Recherche ayant pour but la création d'une nouvelle technologie."
+        ],
+        "ru": [
+          "Научные исследования, ориентированные на создание новой технологии."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2563",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2563",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحث مركز على المشكلة",
+          "بحث موجه"
+        ],
+        "en": [
+          "Problem focused research"
+        ],
+        "fr": [
+          "Recherche centrée sur un problème"
+        ],
+        "ru": [
+          "Проблемные исследования"
+        ]
+      },
+      "broader": [
+        "concept2563"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-22T15:25:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحث لمهمة معينة"
+        ],
+        "en": [
+          "Mission oriented research"
+        ],
+        "es": [
+          "Investigación centrada en un problema"
+        ],
+        "fr": [
+          "Recherche axée sur les problèmes"
+        ],
+        "ru": [
+          "Целевые научные исследования"
+        ]
+      },
+      "related": [
+        "concept12756",
+        "concept7517"
+      ],
+      "scope_notes": {
+        "ar": [
+          "بحث تم تصميمه لحل مشكلة محددة."
+        ],
+        "en": [
+          "Research designed for the solution of a specific problem."
+        ],
+        "es": [
+          "Investigación concebida para encontrar la solución a un problema específico."
+        ],
+        "fr": [
+          "Recherche conçue pour trouver la solution à un problème spécifique."
+        ],
+        "ru": [
+          "Научные исследования, ориентированные на решение конкретной проблемы."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2564",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2564",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحث صناعي",
+          "بحث وتطوير تجريبي"
+        ],
+        "en": [
+          "Industrial research",
+          "R & D",
+          "Research and experimental development"
+        ],
+        "es": [
+          "I+D",
+          "Investigación industrial",
+          "Investigación y desarrollo experimental"
+        ],
+        "fr": [
+          "R & D",
+          "R et D",
+          "Recherche et développement expérimental",
+          "Recherche industrielle"
+        ],
+        "ru": [
+          "Исследования и экспериментальные разработки",
+          "НИОКР",
+          "Промышленные исследования"
+        ]
+      },
+      "broader": [
+        "concept2563"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:29:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحث وتطوير"
+        ],
+        "en": [
+          "Research and development"
+        ],
+        "es": [
+          "Investigación y desarrollo"
+        ],
+        "fr": [
+          "Recherche et développement"
+        ],
+        "ru": [
+          "Научно-исследовательские и опытно-конструкторские разработки"
+        ]
+      },
+      "related": [
+        "concept14843",
+        "concept2567",
+        "concept623",
+        "concept8019"
+      ],
+      "scope_notes": {
+        "ar": [
+          ".بحث موجه نحو تطوير المنتجات والعمليات الجديدة"
+        ],
+        "en": [
+          "Research directed towards the development of new products and processes."
+        ],
+        "es": [
+          "Investigación orientada al desarrollo de nuevos productos y procedimientos."
+        ],
+        "fr": [
+          "Recherche orientée vers le développement de nouveaux produits et procédés."
+        ],
+        "ru": [
+          "Исследования, направленные на разработку новой продукции и процессов."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2565",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2565",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا بديلة",
+          "تكنولوجيا وسيطة"
+        ],
+        "en": [
+          "Alternative technology",
+          "Intermediate technology"
+        ],
+        "es": [
+          "Tecnología alternativa",
+          "Tecnología apropiada",
+          "Tecnología intermediaria"
+        ],
+        "fr": [
+          "Technologie alternative",
+          "Technologie intermédiaire"
+        ],
+        "ru": [
+          "Альтернативная технология",
+          "Промежуточная технология"
+        ]
+      },
+      "broader": [
+        "concept5128"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا ملائمة"
+        ],
+        "en": [
+          "Appropriate technology"
+        ],
+        "es": [
+          "Tecnología adecuada"
+        ],
+        "fr": [
+          "Technologie appropriée"
+        ],
+        "ru": [
+          "Приемлемая технология"
+        ]
+      },
+      "related": [
+        "concept2599",
+        "concept2600",
+        "concept2601"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التكنولوجيا التي تتلائم مع احتياجات ونظام الإنتاج والموارد الطبيعية لبلد ما."
+        ],
+        "en": [
+          "Technology adapted to the needs, production system, and natural resources of a given country."
+        ],
+        "es": [
+          "Tecnología adaptada a las necesidades, al sistema de producción y a los recursos naturales de un país determinado."
+        ],
+        "fr": [
+          "Technologie adaptée aux besoins, au système de production et aux ressources naturelles d'un pays donné."
+        ],
+        "ru": [
+          "Технология, адаптированная к потребностям, производственной системе и природным ресурсам конкретной страны."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2596",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2596",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نقل افقي للتكنولوجيا",
+          "نقل التقنيات",
+          "نقل رأسي للتكنولوجيا"
+        ],
+        "en": [
+          "Horizontal technology transfer",
+          "Transfer of techniques",
+          "Vertical technology transfer"
+        ],
+        "es": [
+          "Intercambio tecnológico",
+          "Transferencia de técnicas",
+          "Transferencia horizontal de tecnología",
+          "Transferencia vertical de tecnología"
+        ],
+        "fr": [
+          "Transfert de technique",
+          "Transfert horizontal de technologie",
+          "Transfert vertical de technologie"
+        ],
+        "ru": [
+          "Вертикальный трансфер технологий",
+          "Горизонтальный трансфер технологий",
+          "Трансфер технических навыков"
+        ]
+      },
+      "broader": [
+        "concept116"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:35:43+00:00",
+      "narrower": [
+        "concept8013"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل التكنولوجيا"
+        ],
+        "en": [
+          "Technology transfer"
+        ],
+        "es": [
+          "Transferencia de tecnología"
+        ],
+        "fr": [
+          "Transfert de technologie"
+        ],
+        "ru": [
+          "Трансфер технологий"
+        ]
+      },
+      "related": [
+        "concept1151",
+        "concept2596",
+        "concept4566",
+        "concept5128",
+        "concept6585",
+        "concept8214"
+      ],
+      "scope_notes": {
+        "ar": [
+          "إمكانية الوصول إلى التكنولوجيا الجديدة من منتجات وتقنيات الإنتاج، كعامل رئيسي في النمو الاقتصادي للدول النامية."
+        ],
+        "en": [
+          "Access to new technology, both products and production techniques, as a key factor in the economic growth of developing countries."
+        ],
+        "es": [
+          "Acceso a las nuevas tecnologías, tanto a los productos como a las técnicas de producción, como factor clave del crecimiento económico en los países en desarrollo."
+        ],
+        "fr": [
+          "Accès aux nouvelles technologies, tant aux produits qu'aux techniques de production, en tant que facteur clé de la croissance économique des pays en développement."
+        ],
+        "ru": [
+          "Доступ к новой технологии в виде готовой продукции и производственных процессов в качестве ключевого фактора экономического роста развивающихся стран."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2600",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2600",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا محلية"
+        ],
+        "en": [
+          "Endogenous technology"
+        ],
+        "ru": [
+          "Эндогенная технология"
+        ]
+      },
+      "broader": [
+        "concept116"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-22T15:25:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا تقليدية"
+        ],
+        "en": [
+          "Traditional technology"
+        ],
+        "es": [
+          "Tecnología tradicional"
+        ],
+        "fr": [
+          "Technologie traditionnelle"
+        ],
+        "ru": [
+          "Традиционная технология"
+        ]
+      },
+      "related": [
+        "concept17023",
+        "concept2596",
+        "concept2599",
+        "concept3592",
+        "concept6291",
+        "concept6801",
+        "concept6992",
+        "concept9673"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تقنيات تناقلت من جيل إلى آخر (رغم أنها قد تشتمل على بعض المكونات أو العمليات الحديثة)."
+        ],
+        "en": [
+          "Techniques passed from generation to generation (although some modernized components or processes may be included)."
+        ],
+        "es": [
+          "Técnica transmitida de generación en generación aunque se hayan incorporado algunos componentes o procedimientos modernos."
+        ],
+        "fr": [
+          "Technique transmise de génération en génération, bien que certaines composantes ou certains processus modernes aient pu être intégrés."
+        ],
+        "ru": [
+          "Технологии, передаваемые из поколения в поколение (с возможной модернизацией отдельных элементов или процессов)."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2601",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2601",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتمتة"
+        ]
+      },
+      "broader": [
+        "concept4566"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T14:37:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تشغيل آلي"
+        ],
+        "en": [
+          "Automation"
+        ],
+        "es": [
+          "Automatización"
+        ],
+        "fr": [
+          "Automatisation"
+        ],
+        "ru": [
+          "Автоматизация"
+        ]
+      },
+      "related": [
+        "concept3055",
+        "concept3399",
+        "concept3403",
+        "concept3418",
+        "concept3419",
+        "concept520"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدام الآلات التي لا تحتاج إلى تحكم بشري أو ربما تحتاج إلى تحكم بشري ضئيل، وذلك لحل محل العمالة البشرية."
+        ],
+        "en": [
+          "The act or practice of using machines that need little or no human control, especially to replace workers."
+        ],
+        "es": [
+          "Empleo de máquinas que necesitan poca o ninguna intervención humana, especialmente para reemplazar mano de obra."
+        ],
+        "fr": [
+          "Utilisation de machines nécessitant peu ou pas d'intervention humaine, spécialement pour remplacer la main-d'oeuvre."
+        ],
+        "ru": [
+          "Процесс или практика применения оборудования, которое не требует контроля со стороны человека или требует его в минимальной степени. Используется в целях замещения работников."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3401",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3401",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4566"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميكنة"
+        ],
+        "en": [
+          "Mechanization"
+        ],
+        "es": [
+          "Mecanización"
+        ],
+        "fr": [
+          "Mécanisation"
+        ],
+        "ru": [
+          "Механизация"
+        ]
+      },
+      "related": [
+        "concept3401",
+        "concept650"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3418",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3418",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept8872"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميزانيات العلم"
+        ],
+        "en": [
+          "Science budgets"
+        ],
+        "es": [
+          "Presupuesto para ciencia"
+        ],
+        "fr": [
+          "Budget de la science"
+        ],
+        "ru": [
+          "Бюджетные средства, выделяемые на развитие науки"
+        ]
+      },
+      "related": [
+        "concept7658"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4388",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4388",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحول تكنولوجي",
+          "تكنولوجيا جديدة",
+          "ثورة تكنولوجية"
+        ],
+        "en": [
+          "Technological revolution"
+        ],
+        "es": [
+          "Nuevas tecnologías",
+          "Revolución tecnológica"
+        ],
+        "fr": [
+          "Mutation technologique",
+          "Nouvelle technologie",
+          "Révolution technologique"
+        ],
+        "ru": [
+          "Новая технология",
+          "Технологическая революция"
+        ]
+      },
+      "broader": [
+        "concept114"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2024-03-25T11:02:06+00:00",
+      "narrower": [
+        "concept17181",
+        "concept3401",
+        "concept3418",
+        "concept8019"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تغير تكنولوجي"
+        ],
+        "en": [
+          "Technological change"
+        ],
+        "es": [
+          "Cambio tecnológico"
+        ],
+        "fr": [
+          "Changement technologique"
+        ],
+        "ru": [
+          "Технологический прогресс"
+        ]
+      },
+      "related": [
+        "concept11824",
+        "concept17144",
+        "concept2600",
+        "concept3419",
+        "concept3974",
+        "concept7766"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4566",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4566",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مؤسسات البحث",
+          "مؤسسات البحوث",
+          "مؤسسات بحثية",
+          "مراكز البحث",
+          "معاهد البحث",
+          "معاهد البحوث",
+          "وحدات البحث",
+          "وحدات البحوث"
+        ],
+        "en": [
+          "Research institutes",
+          "Research units"
+        ],
+        "es": [
+          "Instituto de investigación",
+          "Unidad de investigación"
+        ],
+        "fr": [
+          "Institut de recherche",
+          "Unité de recherche"
+        ],
+        "ru": [
+          "Исследовательские подразделения",
+          "Научно-исследовательские институты"
+        ]
+      },
+      "broader": [
+        "concept14828"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T14:36:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراكز البحوث"
+        ],
+        "en": [
+          "Research centres"
+        ],
+        "es": [
+          "Centro de investigación"
+        ],
+        "fr": [
+          "Centre de recherche"
+        ],
+        "ru": [
+          "Исследовательские центры"
+        ]
+      },
+      "related": [
+        "concept10993",
+        "concept13097",
+        "concept6306",
+        "concept655"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4893",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4893",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "باحثون",
+          "مشتغلون بالبحث العلمي"
+        ],
+        "en": [
+          "Research workers",
+          "Researchers"
+        ],
+        "es": [
+          "Investigador"
+        ],
+        "fr": [
+          "Chercheur"
+        ],
+        "ru": [
+          "Исследователи",
+          "Научные работники"
+        ]
+      },
+      "broader": [
+        "concept5222"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2024-10-08T09:17:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "باحثون علميون"
+        ],
+        "en": [
+          "Scientific researchers"
+        ],
+        "es": [
+          "Investigador científico"
+        ],
+        "fr": [
+          "Chercheur scientifique"
+        ],
+        "ru": [
+          "Научные исследователи"
+        ]
+      },
+      "related": [
+        "concept17174",
+        "concept4614",
+        "concept678"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5046",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5046",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept8875"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:33+00:00",
+      "narrower": [
+        "concept2596"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اختيار التكنولوجيا"
+        ],
+        "en": [
+          "Choice of technology"
+        ],
+        "es": [
+          "Elección de tecnología"
+        ],
+        "fr": [
+          "Choix de technologie"
+        ],
+        "ru": [
+          "Выбор технологии"
+        ]
+      },
+      "related": [
+        "concept2600"
+      ],
+      "scope_notes": {
+        "ar": [
+          "اتخاذ قرار بشأن طرق العمل بالصناعات كثيفة العمالة أو كثيفة رأس المال والاختيار من بين عمليات التصنيع المتنوعة، إلخ."
+        ],
+        "en": [
+          "Deciding on labour intensive or capital intensive methods, choosing among various manufacturing processes, etc."
+        ],
+        "es": [
+          "Elección de métodos de trabajo en función de la presencia de la mano de obra frente a la presencia de equipos, en función del proceso de manufacturación, etc."
+        ],
+        "fr": [
+          "Option à prendre entre des méthodes favorisant l'accroissement de la main-d'oeuvre ou de l'équipement, choix entre différents procédés manufacturiers, etc."
+        ],
+        "ru": [
+          "Выбор между трудоемкими и капиталоемкими методами, между различными обрабатывающими процессами и пр."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5128",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5128",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept114"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:51+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم وتنمية"
+        ],
+        "en": [
+          "Science and development"
+        ],
+        "es": [
+          "Ciencia y desarrollo"
+        ],
+        "fr": [
+          "Science et développement"
+        ],
+        "ru": [
+          "Наука и развитие"
+        ]
+      },
+      "related": [
+        "concept5724",
+        "concept5725",
+        "concept594",
+        "concept8877"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشير إلى إدماج العلوم والتكنولوجيا في عملية التنمية."
+        ],
+        "en": [
+          "Refers to the integration of science and technology into the development process."
+        ],
+        "es": [
+          "Se refiere a la integración de la ciencia y de la tecnología en el proceso de desarrollo."
+        ],
+        "fr": [
+          "Fait référence à l'intégration de la science et de la technologie dans le processus de développement."
+        ],
+        "ru": [
+          "Используется по отношению к проблемам интеграции науки и технологий в процесс развития."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5207",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5207",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نساء عالمات"
+        ],
+        "es": [
+          "Mujer investigadora"
+        ]
+      },
+      "broader": [
+        "concept5222"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:34:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عالمات"
+        ],
+        "en": [
+          "Women scientists"
+        ],
+        "es": [
+          "Mujer científica"
+        ],
+        "fr": [
+          "Femme scientifique"
+        ],
+        "ru": [
+          "Женщины-ученые"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5220",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5220",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Scientific communities"
+        ],
+        "es": [
+          "Comunidad científica"
+        ],
+        "fr": [
+          "Communauté scientifique"
+        ],
+        "ru": [
+          "Научные сообщества"
+        ]
+      },
+      "broader": [
+        "concept115"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-22T15:25:31+00:00",
+      "narrower": [
+        "concept11423",
+        "concept11816",
+        "concept13826",
+        "concept2138",
+        "concept5046",
+        "concept5220",
+        "concept9779"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علماء"
+        ],
+        "en": [
+          "Scientists"
+        ],
+        "es": [
+          "Científico"
+        ],
+        "fr": [
+          "Scientifique"
+        ],
+        "ru": [
+          "Ученые"
+        ]
+      },
+      "related": [
+        "concept678"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5222",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5222",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept14828"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-22T15:25:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مجالس البحوث"
+        ],
+        "en": [
+          "Research councils"
+        ],
+        "es": [
+          "Consejo de investigación"
+        ],
+        "fr": [
+          "Conseil de recherche"
+        ],
+        "ru": [
+          "Исследовательские советы"
+        ]
+      },
+      "related": [
+        "concept4893"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6306",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6306",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعاون بحثي",
+          "تعاون تكنولوجي",
+          "تعاون في مجال البحوث"
+        ],
+        "en": [
+          "Research cooperation",
+          "Technological cooperation"
+        ],
+        "es": [
+          "Cooperación en investigación",
+          "Cooperación tecnológica"
+        ],
+        "fr": [
+          "Coopération en matière de recherche",
+          "Coopération technologique"
+        ],
+        "ru": [
+          "Сотрудничество в области научных исследований",
+          "Технологическое сотрудничество"
+        ]
+      },
+      "broader": [
+        "concept113"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2021-09-27T09:53:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعاون علمي"
+        ],
+        "en": [
+          "Scientific cooperation"
+        ],
+        "es": [
+          "Cooperación científica"
+        ],
+        "fr": [
+          "Coopération scientifique"
+        ],
+        "ru": [
+          "Научное сотрудничество"
+        ]
+      },
+      "related": [
+        "concept112",
+        "concept17126"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6570",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6570",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نفقات البحث",
+          "نفقات تكنولوجية"
+        ],
+        "en": [
+          "Research expenditure",
+          "Technological expenditure"
+        ],
+        "es": [
+          "Gastos en ciencia",
+          "Gastos en tecnología"
+        ],
+        "fr": [
+          "Dépense de recherche",
+          "Dépense en technologie"
+        ],
+        "ru": [
+          "Расходы на научные исследования",
+          "Расходы на технологии"
+        ]
+      },
+      "broader": [
+        "concept8872"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:29:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نفقات علمية"
+        ],
+        "en": [
+          "Scientific expenditure"
+        ],
+        "es": [
+          "Gastos de la ciencia"
+        ],
+        "fr": [
+          "Dépense scientifique"
+        ],
+        "ru": [
+          "Расходы на науку"
+        ]
+      },
+      "related": [
+        "concept2071",
+        "concept4388"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7658",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7658",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مشروعات ريادية"
+        ],
+        "en": [
+          "Experimental projects"
+        ],
+        "es": [
+          "Proyecto experimental"
+        ],
+        "fr": [
+          "Projet expérimental"
+        ],
+        "ru": [
+          "Экспериментальные проекты"
+        ]
+      },
+      "broader": [
+        "concept15607"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:27:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مشروعات تجريبية"
+        ],
+        "en": [
+          "Pilot projects"
+        ],
+        "es": [
+          "Proyecto piloto"
+        ],
+        "fr": [
+          "Projet pilote"
+        ],
+        "ru": [
+          "Пилотные проекты"
+        ]
+      },
+      "related": [
+        "concept7894",
+        "concept7899"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7901",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7901",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نشر الابتكارات"
+        ],
+        "en": [
+          "Diffusion of innovations"
+        ],
+        "es": [
+          "Difusión de innovación"
+        ],
+        "fr": [
+          "Diffusion de l'innovation"
+        ],
+        "ru": [
+          "Распространение инноваций"
+        ]
+      },
+      "broader": [
+        "concept2600"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:27:34+00:00",
+      "narrower": [
+        "concept8017"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نشر التكنولوجيا"
+        ],
+        "en": [
+          "Diffusion of technology"
+        ],
+        "es": [
+          "Difusión de tecnologías"
+        ],
+        "fr": [
+          "Diffusion de la technologie"
+        ],
+        "ru": [
+          "Распространение технологий"
+        ]
+      },
+      "related": [
+        "concept8018",
+        "concept8019"
+      ],
+      "scope_notes": {
+        "ar": [
+          "نقل تقنية جديدة من المستخدم التجاري الأول إلى عدد من المستخدمين المتنافسين."
+        ],
+        "en": [
+          "Transfer of a new technology from the first commercial user to a number of competing users."
+        ],
+        "es": [
+          "Transferencia de una nueva tecnología del primer utilizador comercial a un cierto número de usuarios concurrentes."
+        ],
+        "fr": [
+          "Transfert d'une nouvelle technologie du premier utilisateur commercial à un certain nombre d'utilisateurs concurrents."
+        ],
+        "ru": [
+          "Передача новой технологии от первого коммерческого пользователя к нескольким конкурирующим."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8013",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8013",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نقل الخبرات الفنية"
+        ]
+      },
+      "broader": [
+        "concept8013"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-22T15:25:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل المعرفة الفنية"
+        ],
+        "en": [
+          "Know-how transfer"
+        ],
+        "es": [
+          "Transferencia de conocimientos"
+        ],
+        "fr": [
+          "Transfert de savoir-faire"
+        ],
+        "ru": [
+          "Передача ноу-хау"
+        ]
+      },
+      "related": [
+        "concept10614",
+        "concept1151",
+        "concept12435",
+        "concept1772",
+        "concept4313",
+        "concept623",
+        "concept6288",
+        "concept6416",
+        "concept6585"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الخبرة الفنية والإدارية اللازمة لتطبيق تكنولوجيا ما."
+        ],
+        "en": [
+          "Technical and managerial expertise necessary to implement a technology."
+        ],
+        "es": [
+          "Se refiere a los conocimientos técnicos y de gestión necesarios para la aplicación de una tecnología."
+        ],
+        "fr": [
+          "Expertise en technique et en gestion nécessaire à la mise en application d'une technologie."
+        ],
+        "ru": [
+          "Знания в области техники и управления, необходимые для реализации технологии."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8017",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8017",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept8875"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:26:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نتائج البحث"
+        ],
+        "en": [
+          "Research results"
+        ],
+        "es": [
+          "Resultado de búsqueda"
+        ],
+        "fr": [
+          "Résultat de recherche"
+        ],
+        "ru": [
+          "Результаты научных исследований"
+        ]
+      },
+      "related": [
+        "concept8013",
+        "concept8019"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8018",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8018",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ابتكارات تكنولوجية",
+          "اختراعات",
+          "اكتشافات تكنولوجية",
+          "اكتشافات علمية",
+          "تقدم تقني",
+          "تقدم علمي"
+        ],
+        "en": [
+          "Inventions",
+          "Scientific discoveries",
+          "Scientific progress",
+          "Technical progress",
+          "Technological discoveries",
+          "Technological innovations"
+        ],
+        "es": [
+          "Descubrimiento científico",
+          "Descubrimiento tecnológico",
+          "Innovación tecnológica",
+          "Invención",
+          "Progreso científico",
+          "Progreso técnico"
+        ],
+        "fr": [
+          "Découverte scientifique",
+          "Découverte technologique",
+          "Innovation technologique",
+          "Invention",
+          "Progrès scientifique",
+          "Progrès technique"
+        ],
+        "ru": [
+          "Изобретения",
+          "Научные открытия",
+          "Научный прогресс",
+          "Технический прогресс",
+          "Технологические инновации",
+          "Технологические открытия"
+        ]
+      },
+      "broader": [
+        "concept4566"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2024-03-21T16:29:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ابتكارات علمية"
+        ],
+        "en": [
+          "Scientific innovations"
+        ],
+        "es": [
+          "Innovación científica"
+        ],
+        "fr": [
+          "Innovation scientifique"
+        ],
+        "ru": [
+          "Научные инновации"
+        ]
+      },
+      "related": [
+        "concept17170",
+        "concept2565",
+        "concept4313",
+        "concept8013",
+        "concept8018"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8019",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8019",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Atraso tecnológico",
+          "Desfase tecnológico",
+          "Retraso tecnológico"
+        ],
+        "fr": [
+          "Décalage technologique",
+          "Fossé technologique",
+          "Fracture technologique",
+          "Retard technologique"
+        ]
+      },
+      "broader": [
+        "concept14844"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:35:00+00:00",
+      "narrower": [
+        "concept16994"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فجوة تكنولوجية"
+        ],
+        "en": [
+          "Technological gap"
+        ],
+        "es": [
+          "Disparidad tecnológica"
+        ],
+        "fr": [
+          "Écart technologique"
+        ],
+        "ru": [
+          "Технологический разрыв"
+        ]
+      },
+      "related": [
+        "concept2600"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8214",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8214",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept109"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتجاهات البحث"
+        ],
+        "en": [
+          "Research trends"
+        ],
+        "es": [
+          "Tendencia de la investigación"
+        ],
+        "fr": [
+          "Tendance de la recherche"
+        ],
+        "ru": [
+          "Тенденции в исследованиях"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8871",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8871",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تمويل البحوث",
+          "تمويل التكنولوجيا",
+          "تمويل العلم"
+        ],
+        "en": [
+          "Research financing",
+          "Science financing",
+          "Technology financing"
+        ],
+        "es": [
+          "Financiación de la investigación",
+          "Financiación de la tecnología"
+        ],
+        "fr": [
+          "Financement de la recherche",
+          "Financement de la technologie"
+        ],
+        "ru": [
+          "Финансирование науки",
+          "Финансирование научных исследований",
+          "Финансирование технологий"
+        ]
+      },
+      "broader": [
+        "concept109"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:29:11+00:00",
+      "narrower": [
+        "concept2071",
+        "concept4388",
+        "concept7658"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مالية العلم"
+        ],
+        "en": [
+          "Science finance"
+        ],
+        "es": [
+          "Financiación de la ciencia"
+        ],
+        "fr": [
+          "Financement de la science"
+        ],
+        "ru": [
+          "Финансы в сфере науки"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8872",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8872",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احصاءات التكنولوجيا",
+          "احصائيات التكنولوجيا",
+          "احصائيات العلم"
+        ],
+        "en": [
+          "Technology statistics"
+        ],
+        "es": [
+          "Estadísticas tecnológicas"
+        ],
+        "fr": [
+          "Statistiques technologiques"
+        ],
+        "ru": [
+          "Статистика технологий"
+        ]
+      },
+      "broader": [
+        "concept109"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2020-03-08T08:57:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احصاءات العلم"
+        ],
+        "en": [
+          "Science statistics"
+        ],
+        "es": [
+          "Estadísticas científicas"
+        ],
+        "fr": [
+          "Statistique scientifique"
+        ],
+        "ru": [
+          "Статистика науки"
+        ]
+      },
+      "related": [
+        "concept5835"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8873",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8873",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تنبؤ العلم"
+        ],
+        "en": [
+          "Science forecasting"
+        ],
+        "es": [
+          "Previsión científica"
+        ],
+        "fr": [
+          "Prévision scientifique"
+        ],
+        "ru": [
+          "Прогнозирование науки"
+        ]
+      },
+      "broader": [
+        "concept109"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:34:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنبؤ تكنولوجي"
+        ],
+        "en": [
+          "Technological forecasting"
+        ],
+        "es": [
+          "Previsión tecnológica"
+        ],
+        "fr": [
+          "Prévision technologique"
+        ],
+        "ru": [
+          "Технологическое прогнозирование"
+        ]
+      },
+      "related": [
+        "concept8875"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8874",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8874",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Technology evaluation"
+        ],
+        "es": [
+          "Valoración de la tecnología"
+        ],
+        "fr": [
+          "Évaluation de la technologie"
+        ],
+        "ru": [
+          "Технологическая оценка"
+        ]
+      },
+      "broader": [
+        "concept109"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:34:58+00:00",
+      "narrower": [
+        "concept5128",
+        "concept8018"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم التكنولوجيا"
+        ],
+        "en": [
+          "Technology assessment"
+        ],
+        "es": [
+          "Evaluación de la tecnología"
+        ],
+        "fr": [
+          "Prospective technologique"
+        ],
+        "ru": [
+          "Оценка технологии"
+        ]
+      },
+      "related": [
+        "concept3317",
+        "concept8874"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشير إلى فحص وتقييم النتائج المحتملة لاستحداث تكنولوجيات جديدة."
+        ],
+        "en": [
+          "Refers to the examination and evaluation of the possible consequences of the introduction of new technologies."
+        ],
+        "es": [
+          "Se refiere al examen y la evaluación de las posibles consecuencias de la introducción de nuevas tecnologías."
+        ],
+        "fr": [
+          "Fait référence à l'examen et à l'évaluation des conséquences possibles de l'introduction d'une technologie nouvelle."
+        ],
+        "ru": [
+          "Относится к исследованиям и оценке возможных последствий применения новых технологий."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8875",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8875",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تخطيط البحوث",
+          "تخطيط تكنولوجي"
+        ],
+        "en": [
+          "Research planning",
+          "Technology planning"
+        ],
+        "es": [
+          "Planificación de la investigación",
+          "Planificación de la tecnología"
+        ],
+        "fr": [
+          "Planification de la recherche",
+          "Planification de la technologie"
+        ],
+        "ru": [
+          "Планирование научных исследований",
+          "Планирование технологий"
+        ]
+      },
+      "broader": [
+        "concept110"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:29:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخطيط علمي"
+        ],
+        "en": [
+          "Science planning"
+        ],
+        "es": [
+          "Planificación de la ciencia"
+        ],
+        "fr": [
+          "Planification de la science"
+        ],
+        "ru": [
+          "Планирование науки"
+        ]
+      },
+      "related": [
+        "concept109",
+        "concept113",
+        "concept5207"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8877",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8877",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5222"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مهندسون"
+        ],
+        "en": [
+          "Engineers"
+        ],
+        "es": [
+          "Ingeniero"
+        ],
+        "fr": [
+          "Ingénieur"
+        ],
+        "ru": [
+          "Инженеры"
+        ]
+      },
+      "related": [
+        "concept623",
+        "concept678"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9779",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9779",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept110"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:29:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استراتيجيات البحث"
+        ],
+        "en": [
+          "Research strategies"
+        ],
+        "es": [
+          "Estrategias en la investigación"
+        ],
+        "fr": [
+          "Stratégie de la recherche"
+        ],
+        "ru": [
+          "Стратегии научных исследований"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10299",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10299",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept14828"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-22T15:25:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مؤسسات البحوث"
+        ],
+        "en": [
+          "Research foundations"
+        ],
+        "es": [
+          "Fundación de investigación"
+        ],
+        "fr": [
+          "Fondation de recherche"
+        ],
+        "ru": [
+          "Исследовательские фонды"
+        ]
+      },
+      "related": [
+        "concept2071",
+        "concept4893"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10993",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10993",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحث حر",
+          "بحث نظري"
+        ],
+        "en": [
+          "Basic research",
+          "Free research",
+          "Pure research"
+        ],
+        "es": [
+          "Investigación de base",
+          "Investigación fundamental"
+        ],
+        "fr": [
+          "Recherche de base",
+          "Recherche pure"
+        ],
+        "ru": [
+          "Исследования основ науки",
+          "Независимые исследования",
+          "Теоретические исследования"
+        ]
+      },
+      "broader": [
+        "concept111"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2024-01-16T15:42:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحث اساسي"
+        ],
+        "en": [
+          "Fundamental research"
+        ],
+        "es": [
+          "Investigación básica"
+        ],
+        "fr": [
+          "Recherche fondamentale"
+        ],
+        "ru": [
+          "Фундаментальные исследования"
+        ]
+      },
+      "related": [
+        "concept17168"
+      ],
+      "scope_notes": {
+        "ar": [
+          "بحث تم تصميمه بغرض التوصل لفهم جديد للمبادئ والعمليات الأساسية المُستند إليها."
+        ],
+        "en": [
+          "Research designed to produce new understanding of basic underlying principles and processes."
+        ],
+        "es": [
+          "Investigación encaminada a la elaboración de una nueva visión de los principios y mecanismos fundamentales que subyacen en una disciplina científica."
+        ],
+        "fr": [
+          "Recherche visant l'élaboration d'une nouvelle compréhension des principes et mécanismes fondamentaux sous-jacents dans une discipline scientifique donnée."
+        ],
+        "ru": [
+          "Исследования, ориентированные на получение нового представления об основополагающих принципах и процессах."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11269",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11269",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5222"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جغرافيون"
+        ],
+        "en": [
+          "Geographers"
+        ],
+        "es": [
+          "Geógrafo"
+        ],
+        "fr": [
+          "Géographe"
+        ],
+        "ru": [
+          "Географы"
+        ]
+      },
+      "related": [
+        "concept172",
+        "concept678"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11423",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11423",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علماء المياه"
+        ]
+      },
+      "broader": [
+        "concept5222"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هيدرولوﭼيون"
+        ],
+        "en": [
+          "Hydrologists"
+        ],
+        "es": [
+          "Hidrólogo"
+        ],
+        "fr": [
+          "Hydrologue"
+        ],
+        "ru": [
+          "Гидрологи"
+        ]
+      },
+      "related": [
+        "concept188",
+        "concept678"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11816",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11816",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا فائقة",
+          "تكنولوجيا متقدمة"
+        ],
+        "en": [
+          "Advanced technology",
+          "Frontier technologies",
+          "New technology"
+        ],
+        "es": [
+          "Alta tecnología",
+          "Nuevas tecnologías",
+          "Tecnología de vanguardia",
+          "Tecnología punta"
+        ],
+        "fr": [
+          "Haute technologie",
+          "Nouvelle technologie",
+          "Technologie avancée",
+          "Technologie d'avant-garde"
+        ],
+        "ru": [
+          "Передовая технология"
+        ]
+      },
+      "broader": [
+        "concept116"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2024-03-25T11:02:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا متطورة"
+        ],
+        "en": [
+          "High technology"
+        ],
+        "es": [
+          "Tecnología avanzada"
+        ],
+        "fr": [
+          "Technologie de pointe"
+        ],
+        "ru": [
+          "Высокая технология"
+        ]
+      },
+      "related": [
+        "concept4566"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11824",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11824",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كفاءات تقنية رفيعة"
+        ]
+      },
+      "broader": [
+        "concept14703"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T14:36:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كبار التقنيين"
+        ],
+        "en": [
+          "Higher technical personnel"
+        ],
+        "es": [
+          "Personal técnico superior"
+        ],
+        "fr": [
+          "Personnel technique supérieur"
+        ],
+        "ru": [
+          "Инженерные кадры"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11835",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11835",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحث متعدد التخصصات"
+        ],
+        "en": [
+          "Multidisciplinary research"
+        ],
+        "es": [
+          "Investigación multidisciplinaria"
+        ],
+        "fr": [
+          "Recherche multidisciplinaire"
+        ],
+        "ru": [
+          "Мультидисциплинарные исследования"
+        ]
+      },
+      "broader": [
+        "concept111"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحث بين التخصصات"
+        ],
+        "en": [
+          "Interdisciplinary research"
+        ],
+        "es": [
+          "Investigación interdisciplinaria"
+        ],
+        "fr": [
+          "Recherche interdisciplinaire"
+        ],
+        "ru": [
+          "Междисциплинарные исследования"
+        ]
+      },
+      "related": [
+        "concept2564",
+        "concept2595",
+        "concept6101"
+      ],
+      "scope_notes": {
+        "ar": [
+          "بحث يؤسس لعلاقات مفاهيمية ومنهجية بين تخصصات متنوعة."
+        ],
+        "en": [
+          "Research which establishes conceptual and methodological relationships among various disciplines."
+        ],
+        "es": [
+          "Investigación que establece relaciones conceptuales y metodológicas entre varias disciplinas."
+        ],
+        "fr": [
+          "Recherche établissant des liens conceptuels et méthodologiques entre diverses disciplines."
+        ],
+        "ru": [
+          "Исследования, устанавливающие концептуальные и методологические связи между различными дисциплинами."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12756",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12756",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اختصاصيو الرياضيات"
+        ]
+      },
+      "broader": [
+        "concept5222"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:29:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علماء الرياضيات"
+        ],
+        "en": [
+          "Mathematicians"
+        ],
+        "es": [
+          "Matemático"
+        ],
+        "fr": [
+          "Mathématicien"
+        ],
+        "ru": [
+          "Математики"
+        ]
+      },
+      "related": [
+        "concept118"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13826",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13826",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "فنيون"
+        ]
+      },
+      "broader": [
+        "concept115"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:33:26+00:00",
+      "narrower": [
+        "concept11835"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقنيون"
+        ],
+        "en": [
+          "Technicians"
+        ],
+        "es": [
+          "Técnico"
+        ],
+        "fr": [
+          "Technicien"
+        ],
+        "ru": [
+          "Техники"
+        ]
+      },
+      "related": [
+        "concept678",
+        "concept70"
+      ],
+      "scope_notes": {
+        "ar": [
+          "رتبة وظيفية أقل من المستوى الوظيفي المهني وأعلى من المستوي الوظيفي الكتابي أو العمّالي."
+        ],
+        "en": [
+          "Below level of professional but above clerical or labour levels."
+        ],
+        "es": [
+          "Por debajo del nivel profesional pero por encima de los niveles de secretariado o de trabajo manual."
+        ],
+        "fr": [
+          "En deça du niveau professionnel mais au-delà des niveaux du secrétariat ou du travail manuel."
+        ],
+        "ru": [
+          "Ниже уровня специалистов высшего звена, но выше конторских и неквалифицированных работников."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14703",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14703",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مؤسسات البحث",
+          "مؤسسات علمية"
+        ],
+        "en": [
+          "Research institutions",
+          "Scientific institutions"
+        ],
+        "es": [
+          "Establecimiento científico",
+          "Establecimiento de investigación",
+          "Institución científica",
+          "Institución de investigación"
+        ],
+        "fr": [
+          "Institution de recherche",
+          "Institution scientifique",
+          "Établissement de recherche",
+          "Établissement scientifique"
+        ],
+        "ru": [
+          "Научно-исследовательские учреждения",
+          "Научные учреждения"
+        ]
+      },
+      "broader": [
+        "concept112"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-22T15:25:26+00:00",
+      "narrower": [
+        "concept1041",
+        "concept10993",
+        "concept1772",
+        "concept4893",
+        "concept6306"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منظمات علمية"
+        ],
+        "en": [
+          "Scientific organizations"
+        ],
+        "es": [
+          "Organismo científico"
+        ],
+        "fr": [
+          "Organisme scientifique"
+        ],
+        "ru": [
+          "Научные организации"
+        ]
+      },
+      "related": [
+        "concept1277",
+        "concept14845"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14828",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14828",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept110"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:42+00:00",
+      "narrower": [
+        "concept15607"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "برامج البحث"
+        ],
+        "en": [
+          "Research programmes"
+        ],
+        "es": [
+          "Programa de investigación"
+        ],
+        "fr": [
+          "Programme de recherche"
+        ],
+        "ru": [
+          "Научно-исследовательские программы"
+        ]
+      },
+      "related": [
+        "concept111",
+        "concept14845",
+        "concept2565"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14843",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14843",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "امكانات تكنولوجية",
+          "قدرة علمية"
+        ],
+        "en": [
+          "Scientific capability",
+          "Technological potential"
+        ],
+        "es": [
+          "Capacidad científica",
+          "Capacidad tecnológica",
+          "Potencial tecnológico"
+        ],
+        "fr": [
+          "Capacité scientifique",
+          "Capacité technologique",
+          "Potentiel technologique"
+        ],
+        "ru": [
+          "Возможности науки",
+          "Технологический потенциал"
+        ]
+      },
+      "broader": [
+        "concept110"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T14:37:01+00:00",
+      "narrower": [
+        "concept8214"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "امكانات علمية"
+        ],
+        "en": [
+          "Scientific potential"
+        ],
+        "es": [
+          "Potencial científico"
+        ],
+        "fr": [
+          "Potentiel scientifique"
+        ],
+        "ru": [
+          "Научный потенциал"
+        ]
+      },
+      "related": [
+        "concept114"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14844",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14844",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "برامج تكنولوجية"
+        ],
+        "en": [
+          "Technological programmes"
+        ],
+        "es": [
+          "Programa tecnológico"
+        ],
+        "fr": [
+          "Programme de technologie"
+        ],
+        "ru": [
+          "Технологические программы"
+        ]
+      },
+      "broader": [
+        "concept110"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:35:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "برامج علمية"
+        ],
+        "en": [
+          "Scientific programmes"
+        ],
+        "es": [
+          "Programa científico"
+        ],
+        "fr": [
+          "Programme scientifique"
+        ],
+        "ru": [
+          "Научные программы"
+        ]
+      },
+      "related": [
+        "concept113",
+        "concept14828",
+        "concept14843"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14845",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14845",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احتياجات البحث"
+        ],
+        "en": [
+          "Research needs"
+        ],
+        "es": [
+          "Necesidades de investigación"
+        ],
+        "fr": [
+          "Besoin de recherche"
+        ],
+        "ru": [
+          "Потребности в научных исследованиях"
+        ]
+      },
+      "broader": [
+        "concept113"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T14:36:58+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اولويات البحث"
+        ],
+        "en": [
+          "Research priorities"
+        ],
+        "es": [
+          "Prioridades de investigación"
+        ],
+        "fr": [
+          "Priorité de recherche"
+        ],
+        "ru": [
+          "Приоритеты в области научных исследований"
+        ]
+      },
+      "related": [
+        "concept112"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15495",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15495",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept14843"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:27:19+00:00",
+      "narrower": [
+        "concept7901"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مشروعات البحث"
+        ],
+        "en": [
+          "Research projects"
+        ],
+        "es": [
+          "Proyecto de investigación"
+        ],
+        "fr": [
+          "Projet de recherche"
+        ],
+        "ru": [
+          "Научно-исследовательские проекты"
+        ]
+      },
+      "related": [
+        "concept111"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15607",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15607",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Digital gap"
+        ],
+        "es": [
+          "Fractura digital"
+        ],
+        "fr": [
+          "Fracture numérique",
+          "Inégalité numérique",
+          "Écart numérique"
+        ],
+        "ru": [
+          "Цифровой разрыв"
+        ]
+      },
+      "broader": [
+        "concept8214"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:28:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فجوة رقمية"
+        ],
+        "en": [
+          "Digital divide"
+        ],
+        "es": [
+          "Brecha digital"
+        ],
+        "fr": [
+          "Fossé numérique"
+        ],
+        "ru": [
+          "Цифровое разделение"
+        ]
+      },
+      "related": [
+        "concept1129",
+        "concept17067",
+        "concept523",
+        "concept5722",
+        "concept8759"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التباين بين الدول أو داخل الدولة الواحدة في إمكانية الوصول إلى تكنولوجيا المعلومات والاتصالات كالإنترنت ومن ثم استخدامها."
+        ],
+        "en": [
+          "Disparities in access to, and use of information and communication technologies such as Internet, between as well as within countries."
+        ],
+        "es": [
+          "Irregularidades en el acceso y en el empleo de las tecnologías de la información y de la comunicación, como Internet, tanto entre diferentes países como dentro de un mismo país."
+        ],
+        "fr": [
+          "Inégalité d'accès et d'utilisation des technologies de l'information et de la communication telles qu'Internet, aussi bien entre les pays qu'à l'intérieur des pays."
+        ],
+        "ru": [
+          "Различия в доступе и использовании информационных и коммуникационных технологий, таких как Интернет, отмечаемые как между отдельными странами, так и между отдельными регионами в пределах одной страны."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16994",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16994",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا نانوية",
+          "علوم النانو",
+          "نانو تكنولوجيا"
+        ],
+        "en": [
+          "Nanoscience"
+        ],
+        "ru": [
+          "Нанонаука"
+        ]
+      },
+      "broader": [
+        "concept116"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2019-12-15T13:29:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا النانو"
+        ],
+        "en": [
+          "Nanotechnology"
+        ],
+        "es": [
+          "Nanotecnología"
+        ],
+        "fr": [
+          "Nanotechnologie"
+        ],
+        "ru": [
+          "Нанотехнология"
+        ]
+      },
+      "related": [
+        "concept623"
+      ],
+      "scope_notes": {
+        "ar": [
+          "البحوث والهندسة التي أجريت على النانو."
+        ],
+        "en": [
+          "Research and engineering conducted at the nanoscale."
+        ],
+        "es": [
+          "Se aplica para la investigación y la ingeniería a escala nanométrica."
+        ],
+        "fr": [
+          "S'applique à la recherche et à l'ingénierie à l'échelle nanométrique."
+        ],
+        "ru": [
+          "Научные исследования и технические разработки, проводимые на наноуровне."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17065",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17065",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Open research"
+        ],
+        "es": [
+          "Investigación abierta"
+        ]
+      },
+      "broader": [
+        "concept113"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2026-01-23T16:36:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "العلم المفتوح"
+        ],
+        "en": [
+          "Open science"
+        ],
+        "es": [
+          "Ciencia abierta"
+        ],
+        "fr": [
+          "Science ouverte"
+        ],
+        "ru": [
+          "открытая наука"
+        ]
+      },
+      "related": [
+        "concept104",
+        "concept1129",
+        "concept12435",
+        "concept15722",
+        "concept17094",
+        "concept17127",
+        "concept17128",
+        "concept17188",
+        "concept4191",
+        "concept6570"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يضم الحركات والممارسات المختلفة التي تهدف إلى جعل المعرفة العلمية متاحة بشكل أكثر انفتاحًا، ويمكن الوصول إليها، وإعادة استخدامها من قِبَل الجميع."
+        ],
+        "en": [
+          "Combines various movements and practices aiming to make scientific knowledge openly available, accessible and reusable for everyone."
+        ],
+        "es": [
+          "Combina diversos movimientos y prácticas con el fin de que los conocimientos, los métodos, los datos y las pruebas de carácter científico estén disponibles libremente y sean accesibles para todos."
+        ],
+        "fr": [
+          "Englobe différents mouvements et pratiques visant à rendre les connaissances, les méthodes, les données et les preuves scientifiques librement accessibles à tous."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17126",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17126",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4566"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.10"
+      ],
+      "modified": "2025-10-10T10:18:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "التحول الرقمي"
+        ],
+        "en": [
+          "Digital transformation"
+        ],
+        "es": [
+          "Transformación digital"
+        ],
+        "fr": [
+          "Transformation numérique"
+        ],
+        "ru": [
+          "цифровое преобразование"
+        ]
+      },
+      "related": [
+        "concept4451",
+        "concept7001",
+        "concept7411"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17181",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17181",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt2.10",
+    "labels": {
+      "en": "Science and research management",
+      "fr": "Administration de la science et de la recherche"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt2.10"
+  }
+}

@@ -1,0 +1,57 @@
+name: Layout quality (no publication)
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test-and-preview:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Tests including semantic output parity and PDF pagination
+        run: python -m unittest discover -s tests -v
+      - name: Validate fixture
+        run: python -m spek check
+      - name: Build illustration only
+        run: python -m spek build --out preview-site --formats html,pdf,tex
+      - name: Verify output integrity
+        run: python -m spek verify-site preview-site
+      - name: Archive private preview (NOT GitHub Pages)
+        uses: actions/upload-artifact@v4
+        with:
+          name: illustrative-trilingual-preview-${{ matrix.os }}
+          path: preview-site/
+      - name: Test standalone Konstellation export adapter (no network)
+        run: python -m spek bridge-import --adapter konstellation --input examples/bridge/konstellation-resultset.json --template examples/article.json --mapping examples/bridge/konstellation-mapping.json --out bridge-article.json
+      - name: Test second independent source adapter
+        run: python -m spek bridge-import --adapter exchange --input examples/bridge/external-system-exchange.json --template examples/article.json --mapping examples/bridge/external-system-mapping.json --out external-article.json
+      - name: Test preconstructed AI import without SemantiK
+        run: python -m spek import-ai --input examples/bridge/ai-preconstructed-example.json --base examples/bridge/realizations-without-example-claim.json --out ai-realizations.json
+      - name: Compile bridged publication with AI fixture
+        run: python -m spek build --source external-article.json --realizations ai-realizations.json --out preview-external --formats html,tex
+      - name: Verify bridged publication
+        run: python -m spek verify-site preview-external
+
+      - name: Test curated Ekole education import
+        run: python -m spek import-educational --adapter ekole --input examples/education/ekole-curated-preview.json --out-dir education-ekole
+      - name: Compile educational preview (never published)
+        run: python -m spek build --source education-ekole/article.json --realizations education-ekole/realizations.json --out preview-education --formats html,pdf,tex
+      - name: Verify educational preview
+        run: python -m spek verify-site preview-education
+      - name: Test Kompose preauthorized public excerpt import
+        run: python -m spek import-educational --adapter kompose --input examples/education/kompose-public-excerpt.json --out-dir education-kompose
+      - name: Compile Kompose public excerpt locally only
+        run: python -m spek build --source education-kompose/article.json --realizations education-kompose/realizations.json --out preview-kompose --formats html,pdf,tex
+      - name: Verify Kompose local preview
+        run: python -m spek verify-site preview-kompose

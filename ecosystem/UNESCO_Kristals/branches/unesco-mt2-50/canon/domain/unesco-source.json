@@ -1,0 +1,2970 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "جغرافيا مائية",
+          "علم المساحة البحرية",
+          "علم وصف المياه",
+          "علوم المياه",
+          "هيدروغرافيا",
+          "هيدرولوجيا"
+        ],
+        "en": [
+          "Hydrography",
+          "Water sciences"
+        ],
+        "es": [
+          "Ciencias del agua",
+          "Hidrografía"
+        ],
+        "fr": [
+          "Hydrographie",
+          "Hydroscience",
+          "Sciences de l'eau"
+        ],
+        "ru": [
+          "Гидрография",
+          "Науки о воде"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-22T15:25:39+00:00",
+      "narrower": [
+        "concept11444",
+        "concept12097",
+        "concept12107",
+        "concept12110",
+        "concept17104",
+        "concept4085"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم المياه"
+        ],
+        "en": [
+          "Hydrology"
+        ],
+        "es": [
+          "Hidrología"
+        ],
+        "fr": [
+          "Hydrologie"
+        ],
+        "ru": [
+          "Гидрология"
+        ]
+      },
+      "related": [
+        "concept10965",
+        "concept11459",
+        "concept11816",
+        "concept12120",
+        "concept157",
+        "concept175",
+        "concept1874",
+        "concept1878",
+        "concept1888",
+        "concept191",
+        "concept3926",
+        "concept4583",
+        "concept5195",
+        "concept612",
+        "concept8575",
+        "concept9784",
+        "concept985"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دراسة مياه الأرض وجريانها وتوزيعها وخصائصها."
+        ],
+        "en": [
+          "The study of the waters of the earth, their circulation, distribution and properties."
+        ],
+        "es": [
+          "Ciencia que estudia el agua del planeta: su circulación, distribución y propiedades."
+        ],
+        "fr": [
+          "Science ayant pour objet l'eau de la planète dans ses différents états, sa circulation, sa distribution et ses propriétés."
+        ],
+        "ru": [
+          "Изучение вод на поверхности Земли, их кругооборот, распределение и свойства."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept188",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept188",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ماء"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:43:09+00:00",
+      "narrower": [
+        "concept12065",
+        "concept1878",
+        "concept1880",
+        "concept1884",
+        "concept7810"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مياه"
+        ],
+        "en": [
+          "Water"
+        ],
+        "es": [
+          "Agua"
+        ],
+        "fr": [
+          "Eau"
+        ],
+        "ru": [
+          "Вода"
+        ]
+      },
+      "related": [
+        "concept10966",
+        "concept11526",
+        "concept1564",
+        "concept2626",
+        "concept2627",
+        "concept4652"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept189",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept189",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جودة المياه"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2021-06-17T14:57:09+00:00",
+      "narrower": [
+        "concept2230",
+        "concept5005"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نوعية المياه"
+        ],
+        "en": [
+          "Water quality"
+        ],
+        "es": [
+          "Calidad del agua"
+        ],
+        "fr": [
+          "Qualité de l'eau"
+        ],
+        "ru": [
+          "Качество воды"
+        ]
+      },
+      "related": [
+        "concept17124",
+        "concept1880",
+        "concept1882",
+        "concept1884",
+        "concept1886",
+        "concept2632",
+        "concept3180",
+        "concept4533",
+        "concept5002",
+        "concept8424"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept190",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept190",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مصادر المياه"
+        ],
+        "es": [
+          "Recursos hidráulicos"
+        ],
+        "fr": [
+          "Ressources hydrauliques",
+          "Ressources hydriques"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2023-03-16T15:00:08+00:00",
+      "narrower": [
+        "concept12120",
+        "concept14552",
+        "concept1874",
+        "concept1888",
+        "concept3926",
+        "concept8387"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد مائية"
+        ],
+        "en": [
+          "Water resources"
+        ],
+        "es": [
+          "Recursos hídricos"
+        ],
+        "fr": [
+          "Ressources en eau"
+        ],
+        "ru": [
+          "Водные ресурсы"
+        ]
+      },
+      "related": [
+        "concept11471",
+        "concept1218",
+        "concept17159",
+        "concept188",
+        "concept213",
+        "concept5195"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept191",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept191",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تنمية الموارد المائية"
+        ],
+        "en": [
+          "Water resources development"
+        ],
+        "es": [
+          "Administración de los recursos hídricos",
+          "Adminstración de los recursos hidráulicos",
+          "Gestión de los recursos hidráulicos",
+          "Planificación de los recursos hidráulicos",
+          "Planificación de los recursos hídricos"
+        ],
+        "fr": [
+          "Aménagement des ressources en eau",
+          "Gestion des ressources hydrauliques",
+          "Gestion des ressources hydriques",
+          "Mise en valeur des ressources en eau"
+        ],
+        "ru": [
+          "Развитие водных ресурсов"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-22T15:25:36+00:00",
+      "narrower": [
+        "concept12102",
+        "concept17124",
+        "concept17152",
+        "concept17159",
+        "concept4789",
+        "concept6331",
+        "concept6385",
+        "concept985"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادارة الموارد المائية"
+        ],
+        "en": [
+          "Water resources management"
+        ],
+        "es": [
+          "Gestión de los recursos hídricos"
+        ],
+        "fr": [
+          "Gestion des ressources en eau"
+        ],
+        "ru": [
+          "Управление водными ресурсами"
+        ]
+      },
+      "related": [
+        "concept10043",
+        "concept8142"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept192",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept192",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احتياجات مائيّة",
+          "تزويد بالمياه",
+          "توزيع المياه",
+          "كمية لازمة من المياه"
+        ],
+        "en": [
+          "Water distribution",
+          "Water requirements"
+        ],
+        "es": [
+          "Aprovisionamiento de agua",
+          "Distribución de agua",
+          "Necesidad de agua",
+          "Suministro de agua"
+        ],
+        "fr": [
+          "Approvisionnement en eau",
+          "Besoins en eau",
+          "Distribution d'eau"
+        ],
+        "ru": [
+          "Потребности в воде",
+          "Распределение воды"
+        ]
+      },
+      "broader": [
+        "concept192"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2021-06-17T14:58:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "امدادات المياه"
+        ],
+        "en": [
+          "Water supply"
+        ],
+        "es": [
+          "Abastecimiento de agua"
+        ],
+        "fr": [
+          "Alimentation en eau"
+        ],
+        "ru": [
+          "Водоснабжение"
+        ]
+      },
+      "related": [
+        "concept11542",
+        "concept17124",
+        "concept1779",
+        "concept188",
+        "concept1880",
+        "concept2080",
+        "concept5005",
+        "concept6331",
+        "concept8388",
+        "concept8425",
+        "concept8527"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept985",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept985",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مياه السطح"
+        ],
+        "es": [
+          "Agua de superficie"
+        ],
+        "fr": [
+          "Eau de ruissellement",
+          "Eau superficielle"
+        ]
+      },
+      "broader": [
+        "concept191"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:14+00:00",
+      "narrower": [
+        "concept3679",
+        "concept4583",
+        "concept8392"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مياه سطحية"
+        ],
+        "en": [
+          "Surface water"
+        ],
+        "es": [
+          "Agua superficial"
+        ],
+        "fr": [
+          "Eau de surface"
+        ],
+        "ru": [
+          "Поверхностные воды"
+        ]
+      },
+      "related": [
+        "concept176",
+        "concept178",
+        "concept188",
+        "concept1888",
+        "concept3652",
+        "concept3926",
+        "concept4085",
+        "concept4580",
+        "concept8527"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1874",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1874",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1888"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:19+00:00",
+      "narrower": [
+        "concept12055"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مياه التربة"
+        ],
+        "en": [
+          "Soil water"
+        ],
+        "es": [
+          "Agua del suelo"
+        ],
+        "fr": [
+          "Eau du sol"
+        ],
+        "ru": [
+          "Почвенная вода"
+        ]
+      },
+      "related": [
+        "concept14174",
+        "concept164"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1876",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1876",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ماء عذب"
+        ]
+      },
+      "broader": [
+        "concept189"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مياه عذبة"
+        ],
+        "en": [
+          "Freshwater"
+        ],
+        "es": [
+          "Agua dulce"
+        ],
+        "fr": [
+          "Eau douce"
+        ],
+        "ru": [
+          "Пресная вода"
+        ]
+      },
+      "related": [
+        "concept1872",
+        "concept188",
+        "concept1884",
+        "concept2631",
+        "concept7810"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1878",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1878",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ماء صالح للشرب",
+          "مياه صالحة للشرب"
+        ],
+        "en": [
+          "Potable water"
+        ],
+        "es": [
+          "Agua de beber",
+          "Agua del grifo",
+          "Agua doméstica",
+          "Agua para el consumo"
+        ],
+        "fr": [
+          "Eau buvable",
+          "Eau de boisson",
+          "Eau de consommation",
+          "Eau domestique",
+          "Eau du robinet"
+        ],
+        "ru": [
+          "Вода, пригодная для питья"
+        ]
+      },
+      "broader": [
+        "concept189"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مياه الشرب"
+        ],
+        "en": [
+          "Drinking water"
+        ],
+        "es": [
+          "Agua potable"
+        ],
+        "fr": [
+          "Eau potable"
+        ],
+        "ru": [
+          "Питьевая вода"
+        ]
+      },
+      "related": [
+        "concept190",
+        "concept6385",
+        "concept8424",
+        "concept8425",
+        "concept985"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1880",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1880",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ماء ملحي"
+        ],
+        "en": [
+          "Salt water"
+        ],
+        "es": [
+          "Agua salina"
+        ],
+        "fr": [
+          "Eau saline"
+        ],
+        "ru": [
+          "Соленая вода"
+        ]
+      },
+      "broader": [
+        "concept189"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-22T15:25:39+00:00",
+      "narrower": [
+        "concept1886"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مياه مالحة"
+        ],
+        "en": [
+          "Saline water"
+        ],
+        "es": [
+          "Agua salada"
+        ],
+        "fr": [
+          "Eau salée"
+        ],
+        "ru": [
+          "Вода, содержащая соль"
+        ]
+      },
+      "related": [
+        "concept16183",
+        "concept1872",
+        "concept1878",
+        "concept190",
+        "concept5002",
+        "concept5004"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1884",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1884",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ماء أخضم",
+          "ماء راكد",
+          "ماء مَسوس",
+          "مياه آسنة",
+          "مياه راكدة",
+          "مياه قليلة الملوحة",
+          "مياه متوسطة الملوحة"
+        ],
+        "en": [
+          "Stagnant water"
+        ],
+        "es": [
+          "Agua semisalada"
+        ],
+        "fr": [
+          "Eau stagnante"
+        ],
+        "ru": [
+          "Стоячая вода"
+        ]
+      },
+      "broader": [
+        "concept1884"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ماء أجاج"
+        ],
+        "en": [
+          "Brackish water"
+        ],
+        "es": [
+          "Agua salobre"
+        ],
+        "fr": [
+          "Eau saumâtre"
+        ],
+        "ru": [
+          "Солоноватая вода"
+        ]
+      },
+      "related": [
+        "concept190"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1886",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1886",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ماء ارضي",
+          "ماء تحت الارض"
+        ],
+        "en": [
+          "Underground water"
+        ],
+        "fr": [
+          "Eau de fond",
+          "Nappe souterraine"
+        ],
+        "ru": [
+          "Подземные водные ресурсы"
+        ]
+      },
+      "broader": [
+        "concept191"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:47+00:00",
+      "narrower": [
+        "concept11642",
+        "concept1876",
+        "concept2640"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مياه جوفية"
+        ],
+        "en": [
+          "Groundwater"
+        ],
+        "es": [
+          "Agua subterránea"
+        ],
+        "fr": [
+          "Eau souterraine"
+        ],
+        "ru": [
+          "Подземные воды"
+        ]
+      },
+      "related": [
+        "concept11444",
+        "concept1874",
+        "concept188"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1888",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1888",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Reservas de agua"
+        ]
+      },
+      "broader": [
+        "concept6331"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:43:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخزين المياه"
+        ],
+        "en": [
+          "Water storage"
+        ],
+        "es": [
+          "Almacenamiento de agua"
+        ],
+        "fr": [
+          "Stockage d'eau"
+        ],
+        "ru": [
+          "Запасы воды"
+        ]
+      },
+      "related": [
+        "concept1779",
+        "concept3585",
+        "concept8527",
+        "concept985"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2080",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2080",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل الماء"
+        ],
+        "es": [
+          "Análisis hidráulico"
+        ]
+      },
+      "broader": [
+        "concept190"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:00+00:00",
+      "narrower": [
+        "concept8652"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل المياه"
+        ],
+        "en": [
+          "Water analysis"
+        ],
+        "es": [
+          "Análisis del agua"
+        ],
+        "fr": [
+          "Analyse de l'eau"
+        ],
+        "ru": [
+          "Анализ воды"
+        ]
+      },
+      "related": [
+        "concept12097",
+        "concept12098",
+        "concept5004",
+        "concept5005"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2230",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2230",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "خزانات المياه الجوفية",
+          "خزانات جوفية",
+          "طبقات صخريّة مائيّة",
+          "مستودعات المياه الجوفية"
+        ]
+      },
+      "broader": [
+        "concept1888"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طبقات المياه الجوفية"
+        ],
+        "en": [
+          "Aquifers"
+        ],
+        "es": [
+          "Capa acuífera"
+        ],
+        "fr": [
+          "Nappe aquifère"
+        ],
+        "ru": [
+          "Водоносные пласты"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2640",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2640",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4583"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احواض الانهار"
+        ],
+        "en": [
+          "River basins"
+        ],
+        "es": [
+          "Cuenca fluvial"
+        ],
+        "fr": [
+          "Bassin fluvial"
+        ],
+        "ru": [
+          "Речные бассейны"
+        ]
+      },
+      "related": [
+        "concept3639",
+        "concept3652",
+        "concept7357",
+        "concept7741"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3641",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3641",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احواض التجميع",
+          "احواض الصبابة",
+          "احواض مستجمعات المياه",
+          "احواض هيدرولوجية",
+          "حوض التصريف",
+          "حوض النهر",
+          "حوض مائي",
+          "مستجمع المياه",
+          "مستجمعات مياه الامطار"
+        ],
+        "en": [
+          "Catchment area",
+          "Catchment basins",
+          "Drainage area",
+          "Hydrological basins"
+        ],
+        "es": [
+          "Cuenca hidrográfica",
+          "Cuenca hidrológica",
+          "Cuenca receptora"
+        ],
+        "fr": [
+          "Bassin d'alimentation",
+          "Bassin hydrographique",
+          "Bassin hydrologique",
+          "Bassin récepteur",
+          "Bassin versant"
+        ],
+        "ru": [
+          "Гидрологические бассейны"
+        ]
+      },
+      "broader": [
+        "concept8387"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احواض الصرف"
+        ],
+        "en": [
+          "Drainage basins"
+        ],
+        "es": [
+          "Cuenca de drenaje"
+        ],
+        "fr": [
+          "Bassin de drainage"
+        ],
+        "ru": [
+          "Водосборные бассейны"
+        ]
+      },
+      "related": [
+        "concept1874",
+        "concept3641"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3652",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3652",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احواض",
+          "برك"
+        ],
+        "en": [
+          "Ponds"
+        ],
+        "es": [
+          "Estanque",
+          "Pantano"
+        ],
+        "fr": [
+          "Étang"
+        ],
+        "ru": [
+          "Пруды"
+        ]
+      },
+      "broader": [
+        "concept1874"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:57+00:00",
+      "narrower": [
+        "concept13156"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحيرات"
+        ],
+        "en": [
+          "Lakes"
+        ],
+        "es": [
+          "Lago"
+        ],
+        "fr": [
+          "Lac"
+        ],
+        "ru": [
+          "Озера"
+        ]
+      },
+      "related": [
+        "concept10488",
+        "concept10950",
+        "concept3675",
+        "concept4582",
+        "concept8527"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3679",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3679",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رصيد مائي",
+          "ميزان مائي",
+          "ميزانية المياه"
+        ],
+        "es": [
+          "Equilibrio hidrológico"
+        ],
+        "fr": [
+          "Bilan d'eau",
+          "Bilan hydrologique",
+          "Régime hydrique"
+        ]
+      },
+      "broader": [
+        "concept191"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توازن مائي"
+        ],
+        "en": [
+          "Water balance"
+        ],
+        "es": [
+          "Equilibrio hídrico"
+        ],
+        "fr": [
+          "Bilan hydrique"
+        ],
+        "ru": [
+          "Водный баланс"
+        ]
+      },
+      "related": [
+        "concept12120",
+        "concept1874",
+        "concept188"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التدفق والتخزين في وحدة هيدرولوجية، مثل حوض صرف أو تربة أو بحيرة أو خزان، والعلاقة بين التبخر والتكثف والماء الجاري والتغير في تخزين المياه."
+        ],
+        "en": [
+          "The flow and storage in a hydrologic unit such as a drainage basin, a soil zone, a lake or reservoir and the relationship between evaporation, precipitation, runoff and the change in water storage."
+        ],
+        "es": [
+          "Caudal y almacenamiento de agua en una unidad hidrológica (cuenca de drenaje, zona pedológica, lago o presa) y relación entre la evaporación, la precipitación, el desagüe y el cambio de nivel en esta unidad."
+        ],
+        "fr": [
+          "Le débit et le stockage d'eau dans une unité hydrologique telle qu'un bassin de drainage, une zone pédologique, un lac ou un réservoir, et le rapport entre l'évaporation, la précipitation, l'écoulement et le changement au niveau de la réserve d'eau."
+        ],
+        "ru": [
+          "Поток и хранение в гидрологической единице, как, например, дренажный бассейн, почвенная зона, озеро или водохранилище, и взаимоотношения между испарением, осадками, стоком и изменением уровня запасов воды."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3926",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3926",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "غلاف الارض المائي",
+          "محيط مائي"
+        ]
+      },
+      "broader": [
+        "concept188"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "غلاف مائي"
+        ],
+        "en": [
+          "Hydrosphere"
+        ],
+        "es": [
+          "Hidrosfera"
+        ],
+        "fr": [
+          "Hydrosphère"
+        ],
+        "ru": [
+          "Гидросфера"
+        ]
+      },
+      "related": [
+        "concept1874",
+        "concept3277",
+        "concept4083"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الجزء المائي من الأرض، على سبيل المثال، المحيطات والبحيرات والأنهار."
+        ],
+        "en": [
+          "That part of the earth that is water e.g. oceans, lakes and rivers."
+        ],
+        "es": [
+          "Parte de la tierra que es agua, como los oceános, los lagos y los ríos."
+        ],
+        "fr": [
+          "Partie de la terre correspondant à l'élément \"eau\", p.ex. les océans, les lacs et les rivières."
+        ],
+        "ru": [
+          "Часть поверхности Земли, покрытая водой, например, океанами, озерами, реками и пр."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4085",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4085",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جداول",
+          "مجار مائية",
+          "مجاري مائية"
+        ],
+        "en": [
+          "Streams"
+        ],
+        "es": [
+          "Arroyo"
+        ],
+        "fr": [
+          "Rivière",
+          "Ruisseau"
+        ],
+        "ru": [
+          "Ручьи"
+        ]
+      },
+      "broader": [
+        "concept1874"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T14:31:55+00:00",
+      "narrower": [
+        "concept3641",
+        "concept7741"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انهار"
+        ],
+        "en": [
+          "Rivers"
+        ],
+        "es": [
+          "Río"
+        ],
+        "fr": [
+          "Cours d'eau"
+        ],
+        "ru": [
+          "Реки"
+        ]
+      },
+      "related": [
+        "concept10949",
+        "concept10950",
+        "concept188",
+        "concept2632",
+        "concept4580",
+        "concept4582",
+        "concept5517",
+        "concept5518",
+        "concept7710"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4583",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4583",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept11444"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خرائط هيدروجيولوجية"
+        ],
+        "en": [
+          "Hydrogeological maps"
+        ],
+        "es": [
+          "Mapa hidrogeológico"
+        ],
+        "fr": [
+          "Carte hydrogéologique"
+        ],
+        "ru": [
+          "Гидрогеологические карты"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4704",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4704",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صرف المياه"
+        ],
+        "es": [
+          "Evacuación de agua"
+        ],
+        "fr": [
+          "Évacuation d'eau"
+        ]
+      },
+      "broader": [
+        "concept192"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصريف المياه"
+        ],
+        "en": [
+          "Water discharge"
+        ],
+        "es": [
+          "Derrame de agua"
+        ],
+        "fr": [
+          "Déversement des eaux"
+        ],
+        "ru": [
+          "Сток воды"
+        ]
+      },
+      "related": [
+        "concept7741"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4789",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4789",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كيمياء الماء"
+        ],
+        "es": [
+          "Hidroquímica"
+        ],
+        "fr": [
+          "Composition chimique de l'eau",
+          "Hydrochimie"
+        ]
+      },
+      "broader": [
+        "concept190"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:01+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء المياه"
+        ],
+        "en": [
+          "Water chemistry"
+        ],
+        "es": [
+          "Química del agua"
+        ],
+        "fr": [
+          "Chimie des eaux"
+        ],
+        "ru": [
+          "Химия воды"
+        ]
+      },
+      "related": [
+        "concept169",
+        "concept2230",
+        "concept2632",
+        "concept8652",
+        "concept985"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5005",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5005",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حفظ الماء",
+          "صون المياه",
+          "صيانة الماء",
+          "محافظة على المياه"
+        ]
+      },
+      "broader": [
+        "concept192"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:34+00:00",
+      "narrower": [
+        "concept2080"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حفاظ على المياه"
+        ],
+        "en": [
+          "Water conservation"
+        ],
+        "es": [
+          "Conservación del agua"
+        ],
+        "fr": [
+          "Conservation de l'eau"
+        ],
+        "ru": [
+          "Сохранение воды"
+        ]
+      },
+      "related": [
+        "concept6329",
+        "concept985"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6331",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6331",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استخدام المياه",
+          "استعمال الماء"
+        ],
+        "en": [
+          "Water use",
+          "Water utilization"
+        ],
+        "es": [
+          "Uso de los recursos hidráulicos",
+          "Uso de los recursos hídricos",
+          "Uso del agua"
+        ],
+        "fr": [
+          "Consommation en eau",
+          "Utilisation des ressources hydrauliques"
+        ],
+        "ru": [
+          "Использование воды"
+        ]
+      },
+      "broader": [
+        "concept192"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استهلاك المياه"
+        ],
+        "en": [
+          "Water consumption"
+        ],
+        "es": [
+          "Consumo de agua"
+        ],
+        "fr": [
+          "Consommation d'eau"
+        ],
+        "ru": [
+          "Потребление воды"
+        ]
+      },
+      "related": [
+        "concept1880",
+        "concept7710"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6385",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6385",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept12110"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بيانات هيدرولوجية"
+        ],
+        "en": [
+          "Hydrological data"
+        ],
+        "es": [
+          "Datos hidrológicos"
+        ],
+        "fr": [
+          "Donnée hydrologique"
+        ],
+        "ru": [
+          "Гидрологические данные"
+        ]
+      },
+      "related": [
+        "concept12097"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7434",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7434",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدفق الانهار",
+          "تدفق المجرى النهري",
+          "دفق المجرى المائي",
+          "صرف مياه الانهار",
+          "مصبات الانهار"
+        ]
+      },
+      "broader": [
+        "concept4583"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصريف مياه الانهار"
+        ],
+        "en": [
+          "River discharge"
+        ],
+        "es": [
+          "Desagüe de ríos"
+        ],
+        "fr": [
+          "Déversement des rivières"
+        ],
+        "ru": [
+          "Речной сток"
+        ]
+      },
+      "related": [
+        "concept15920",
+        "concept3641",
+        "concept4789"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7741",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7741",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ذوبان الثلج",
+          "مياه الجليد الذائب"
+        ],
+        "fr": [
+          "Neige fondante",
+          "Sloche"
+        ]
+      },
+      "broader": [
+        "concept189"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ثلج ذائب"
+        ],
+        "en": [
+          "Snowmelt"
+        ],
+        "es": [
+          "Deshielo"
+        ],
+        "fr": [
+          "Fonte des neiges"
+        ],
+        "ru": [
+          "Талые воды"
+        ]
+      },
+      "related": [
+        "concept1878",
+        "concept3447",
+        "concept8388"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7810",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7810",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تصريف",
+          "صرف المياه",
+          "صرف صحي"
+        ]
+      },
+      "broader": [
+        "concept191"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:15+00:00",
+      "narrower": [
+        "concept3652",
+        "concept8388",
+        "concept8389"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صرف"
+        ],
+        "en": [
+          "Drainage"
+        ],
+        "es": [
+          "Drenaje"
+        ],
+        "fr": [
+          "Drainage"
+        ],
+        "ru": [
+          "Дренаж"
+        ]
+      },
+      "related": [
+        "concept1779",
+        "concept612",
+        "concept8390",
+        "concept8391",
+        "concept8392"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8387",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8387",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جريان",
+          "جريان المياه",
+          "مياه الجريان السطحي"
+        ],
+        "fr": [
+          "Ruissellement"
+        ]
+      },
+      "broader": [
+        "concept8387"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:01+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جريان سطحي"
+        ],
+        "en": [
+          "Runoff"
+        ],
+        "es": [
+          "Escorrentía"
+        ],
+        "fr": [
+          "Écoulement"
+        ],
+        "ru": [
+          "Стоки"
+        ]
+      },
+      "related": [
+        "concept1217",
+        "concept7810",
+        "concept8389",
+        "concept985"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8388",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8388",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احواض مائية",
+          "حدود فاصلة",
+          "خطوط تقسيم المياه"
+        ]
+      },
+      "broader": [
+        "concept8387"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مستجمعات المياه"
+        ],
+        "en": [
+          "Watersheds"
+        ],
+        "es": [
+          "Vertiente"
+        ],
+        "fr": [
+          "Ligne de partage des eaux"
+        ],
+        "ru": [
+          "Водоразделы"
+        ]
+      },
+      "related": [
+        "concept8388"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8389",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8389",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اراض غدقة",
+          "اراضي رطبة",
+          "اراضي غدقة",
+          "اهوار",
+          "مستنقعات"
+        ],
+        "en": [
+          "Bogs",
+          "Marshes",
+          "Swamps"
+        ],
+        "es": [
+          "Barrizal",
+          "Ciénaga",
+          "Fango",
+          "Marisma",
+          "Pantanal",
+          "Tierra húmeda"
+        ],
+        "fr": [
+          "Marais",
+          "Marécage",
+          "Terre humide",
+          "Tourbière"
+        ],
+        "ru": [
+          "Болота",
+          "Топи",
+          "Трясины"
+        ]
+      },
+      "broader": [
+        "concept1874"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T14:31:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اراض رطبة"
+        ],
+        "en": [
+          "Wetlands"
+        ],
+        "es": [
+          "Tierra pantanosa"
+        ],
+        "fr": [
+          "Terre marécageuse"
+        ],
+        "ru": [
+          "Переувлажненные земли"
+        ]
+      },
+      "related": [
+        "concept11085",
+        "concept5508",
+        "concept5518",
+        "concept8387"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8392",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8392",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معاينة المياه"
+        ],
+        "fr": [
+          "Prélèvement d'échantillons d'eau"
+        ]
+      },
+      "broader": [
+        "concept2230"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اخذ عينات المياه"
+        ],
+        "en": [
+          "Water sampling"
+        ],
+        "es": [
+          "Muestreo de aguas"
+        ],
+        "fr": [
+          "Échantillonage d'eau"
+        ],
+        "ru": [
+          "Отбор проб воды"
+        ]
+      },
+      "related": [
+        "concept10045",
+        "concept2632",
+        "concept5005"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8652",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8652",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جيولوجيا الماء",
+          "جيولوجيا المياه الجوفية",
+          "جيولوجيا مائية",
+          "جيوهيدرولوجي",
+          "علم الجيولوجيا المائية",
+          "علم المياه الباطنية",
+          "هيدرولوجيا جوفية",
+          "هيدرولوجيا جيولوجية"
+        ],
+        "en": [
+          "Geohydrology",
+          "Ground water geology"
+        ],
+        "es": [
+          "Geohidrología",
+          "Hidrología de las aguas dulces",
+          "Hidrología de las aguas subterráneas"
+        ],
+        "fr": [
+          "Géohydrologie",
+          "Hydrologie des eaux souterraines",
+          "Hydrologie souterraine"
+        ],
+        "ru": [
+          "Геогидрология",
+          "Геология подземных вод"
+        ]
+      },
+      "broader": [
+        "concept188"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:18+00:00",
+      "narrower": [
+        "concept4704"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم المياه الجوفية"
+        ],
+        "en": [
+          "Hydrogeology"
+        ],
+        "es": [
+          "Hidrogeología"
+        ],
+        "fr": [
+          "Hydrogéologie"
+        ],
+        "ru": [
+          "Гидрогеология"
+        ]
+      },
+      "related": [
+        "concept159",
+        "concept165",
+        "concept1888",
+        "concept5521"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11444",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11444",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ابار المياه",
+          "ابار مائية"
+        ],
+        "en": [
+          "Water wells"
+        ],
+        "fr": [
+          "Puits d'eau"
+        ],
+        "ru": [
+          "Водяные колодцы"
+        ]
+      },
+      "broader": [
+        "concept1888"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ابار"
+        ],
+        "en": [
+          "Wells"
+        ],
+        "es": [
+          "Pozo"
+        ],
+        "fr": [
+          "Puits"
+        ],
+        "ru": [
+          "Колодцы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11642",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11642",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1876"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رطوبة التربة"
+        ],
+        "en": [
+          "Soil moisture"
+        ],
+        "es": [
+          "Humedad del suelo"
+        ],
+        "fr": [
+          "Humidité du sol"
+        ],
+        "ru": [
+          "Почвенная влага"
+        ]
+      },
+      "related": [
+        "concept12053",
+        "concept14174"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12055",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12055",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تبخر المياه"
+        ]
+      },
+      "broader": [
+        "concept189"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بخار الماء"
+        ],
+        "en": [
+          "Water vapour"
+        ],
+        "es": [
+          "Vapor de agua"
+        ],
+        "fr": [
+          "Vapeur d'eau"
+        ],
+        "ru": [
+          "Водные испарения"
+        ]
+      },
+      "related": [
+        "concept12053"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12065",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12065",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "قياس كثافة السوائل"
+        ],
+        "en": [
+          "Hydrometry"
+        ],
+        "es": [
+          "Hidrometría"
+        ],
+        "fr": [
+          "Hydrométrie"
+        ],
+        "ru": [
+          "Гидрометрия"
+        ]
+      },
+      "broader": [
+        "concept188"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:43:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قياسات هيدرولوجية"
+        ],
+        "en": [
+          "Hydrological measurement"
+        ],
+        "es": [
+          "Medición hidrológica"
+        ],
+        "fr": [
+          "Mesure hydrologique"
+        ],
+        "ru": [
+          "Гидрологические измерения"
+        ]
+      },
+      "related": [
+        "concept11813",
+        "concept12098",
+        "concept2230",
+        "concept3662",
+        "concept7434"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12097",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12097",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "توقعات مائية"
+        ]
+      },
+      "broader": [
+        "concept192"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنبؤ هيدرولوجي"
+        ],
+        "en": [
+          "Hydrological forecasting"
+        ],
+        "es": [
+          "Previsión hidrológica"
+        ],
+        "fr": [
+          "Prévision hydrologique"
+        ],
+        "ru": [
+          "Гидрологическое прогнозирование"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12102",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12102",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "شبكات المياه",
+          "شبكات مائية"
+        ]
+      },
+      "broader": [
+        "concept188"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T14:32:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "شبكات هيدرولوجية"
+        ],
+        "en": [
+          "Hydrological networks"
+        ],
+        "es": [
+          "Red hidrológica"
+        ],
+        "fr": [
+          "Réseau hydrologique"
+        ],
+        "ru": [
+          "Гидрологические сети"
+        ]
+      },
+      "related": [
+        "concept3777"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12107",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12107",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحث هيدرولوجي"
+        ]
+      },
+      "broader": [
+        "concept188"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:44:42+00:00",
+      "narrower": [
+        "concept7434"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث هيدرولوجية"
+        ],
+        "en": [
+          "Hydrological research"
+        ],
+        "es": [
+          "Investigación hidrológica"
+        ],
+        "fr": [
+          "Recherche hydrologique"
+        ],
+        "ru": [
+          "Гидрологические исследования"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "استخدم للأعمال المتعلقة بمشاريع البحث. للأعمال العلمية العامة، استخدم \"الهيدرولوجيا\"."
+        ],
+        "en": [
+          "Use for works dealing with research projects. For general scientific works, use \"hydrology\"."
+        ],
+        "es": [
+          "Se refiere a los trabajos relacionados con proyectos de investigación. Para trabajos científicos generales emplear \"hidrología\"."
+        ],
+        "fr": [
+          "S'applique aux travaux liés à des projets de recherche. Pour des travaux scientifiques généraux, utiliser \"hydrologie\"."
+        ],
+        "ru": [
+          "Используется по отношению к работам в рамках исследовательских проектов. Для работ общего научного характера следует использовать термин \"Гидрология\"."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12110",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12110",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نظام مائي"
+        ]
+      },
+      "broader": [
+        "concept191"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظام المياه"
+        ],
+        "en": [
+          "Regime of waters"
+        ],
+        "es": [
+          "Régimen de las aguas"
+        ],
+        "fr": [
+          "Régime des eaux"
+        ],
+        "ru": [
+          "Режим вод"
+        ]
+      },
+      "related": [
+        "concept188",
+        "concept3926"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12120",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12120",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اهوار",
+          "بحيرات",
+          "بحيرات شاطئية"
+        ]
+      },
+      "broader": [
+        "concept3679"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحيرات ضحلة"
+        ],
+        "en": [
+          "Lagoons"
+        ],
+        "es": [
+          "Laguna"
+        ],
+        "fr": [
+          "Lagon"
+        ],
+        "ru": [
+          "Лагуны"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13156",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13156",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "منسوب المياه",
+          "ميزان مائي"
+        ],
+        "es": [
+          "Altura del agua",
+          "Nivel freático"
+        ],
+        "fr": [
+          "Hauteur d'eau",
+          "Niveau de l'eau",
+          "Niveau phréatique"
+        ]
+      },
+      "broader": [
+        "concept191"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2019-12-15T13:45:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مستوى المياه"
+        ],
+        "en": [
+          "Water level"
+        ],
+        "es": [
+          "Nivel del agua"
+        ],
+        "fr": [
+          "Niveau d'eau"
+        ],
+        "ru": [
+          "Уровень воды"
+        ]
+      },
+      "related": [
+        "concept11403"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14552",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14552",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept188"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2020-09-30T10:16:21+00:00",
+      "narrower": [],
+      "non_literal_values": {
+        "definitions": [
+          {
+            "kind": "URIRef",
+            "value": "http://vocabularies.unesco.org/thesaurus/xDef_5c63c230"
+          },
+          {
+            "kind": "URIRef",
+            "value": "http://vocabularies.unesco.org/thesaurus/xDef_d4587470"
+          }
+        ]
+      },
+      "preferred_labels": {
+        "ar": [
+          "هيدرولوجيا إيكولوجية"
+        ],
+        "en": [
+          "Ecohydrology"
+        ],
+        "es": [
+          "Ecohidrología"
+        ],
+        "fr": [
+          "Écohydrologie"
+        ],
+        "ru": [
+          "Экогидрологии"
+        ]
+      },
+      "related": [
+        "concept211",
+        "concept5195"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17104",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17104",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Sécurité hydrique"
+        ],
+        "ru": [
+          "Водная безопасность",
+          "безопасность воды"
+        ]
+      },
+      "broader": [
+        "concept192"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2022-08-26T17:51:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الأمن المائي"
+        ],
+        "en": [
+          "Water security"
+        ],
+        "es": [
+          "Seguridad hídrica"
+        ],
+        "fr": [
+          "Sécurité de l’eau"
+        ],
+        "ru": [
+          "Безопасность водных ресурсов"
+        ]
+      },
+      "related": [
+        "concept17152",
+        "concept190",
+        "concept8139",
+        "concept985"
+      ],
+      "scope_notes": {
+        "en": [
+          "Capacity of a population to safeguard access to adequate quantities of water of acceptable quality for sustaining human and ecosystem health on a watershed basis, and to ensure efficient protection of life and property against water-related hazards – floods, landslides, land subsidence and droughts."
+        ],
+        "es": [
+          "Capacidad de una determinada población para salvaguardar el acceso a cantidades adecuadas de agua de calidad aceptable, que permita sustentar tanto la salud humana como la del ecosistema, basándose en las cuencas hidrográficas, así como garantizar la protección de la vida y la propiedad contra riesgos relacionados con el agua – inundaciones, derrumbes, subsidencia de suelos y sequías."
+        ],
+        "fr": [
+          "Capacité d’une population de préserver l’accès à des quantités suffisantes d’eau de qualité acceptable pour maintenir durablement la santé des êtres humains et des écosystèmes à l’échelle d’un bassin hydrologique, et d’assurer une protection efficace de la vie et des biens contre les risques liés à l’eau: inondations, glissements et affaissements de terrains, sécheresses."
+        ],
+        "ru": [
+          "Способность населения сохранять доступ к достаточному количеству воды приемлемого качества, необходимому для устойчивого поддержания здоровья человека и состояния экосистем в масштабах водосборных бассейнов, а также обеспечить эффективную защиту жизни и имущества людей от связанных с водой опасностей - наводнений, оползней, просадки почвы и засух."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17124",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17124",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept192"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2022-08-26T17:53:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منازعات بشأن الماء"
+        ],
+        "en": [
+          "Water conflicts"
+        ],
+        "es": [
+          "Conflicto relacionado con el agua"
+        ],
+        "fr": [
+          "Conflit relatif à l'eau"
+        ],
+        "ru": [
+          "конфликт по вопросу воды"
+        ]
+      },
+      "related": [
+        "concept17124",
+        "concept2670"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17152",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17152",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Transboundary aquifers",
+          "Transboundary groundwaters",
+          "Transboundary lakes",
+          "Transboundary rivers",
+          "Transboundary water resources",
+          "Transboundary watercourses"
+        ],
+        "es": [
+          "Acuíferos transfronterizos"
+        ],
+        "fr": [
+          "Aquifères transfrontaliers"
+        ]
+      },
+      "broader": [
+        "concept192"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.50"
+      ],
+      "modified": "2023-03-16T15:19:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "المياه العابرة للحدود"
+        ],
+        "en": [
+          "Transboundary waters"
+        ],
+        "es": [
+          "Aguas transfronterizas"
+        ],
+        "fr": [
+          "Eaux transfrontalières"
+        ],
+        "ru": [
+          "Трансграничные воды"
+        ]
+      },
+      "related": [
+        "concept191",
+        "concept4271",
+        "concept5705"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17159",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17159",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt2.50",
+    "labels": {
+      "en": "Hydrology",
+      "fr": "Hydrologie"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt2.50"
+  }
+}

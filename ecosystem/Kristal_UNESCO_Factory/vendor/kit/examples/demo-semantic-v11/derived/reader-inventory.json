@@ -1,0 +1,99 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:v11-test",
+  "source_fingerprint": "sha256:8f71428093ae6d3fd2ab1163098377fbe09864472d994873b3221e15b7653f44",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 7908,
+    "tracked_file_count": 9,
+    "max_tracked_file_bytes": 1666,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 4,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-test-catalog-eb82b0b5de.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1054,
+      "sha256": "sha256:f8707408ead7304b6b26cabc567451b85e14fb5dd95aae277aa3c21a74b17fa0"
+    },
+    {
+      "path": "build/v9/artifacts/urn-test-crosswalk-7bf4298766.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 978,
+      "sha256": "sha256:c78574b7ef364d43b776e9d8c636e638653afe5cc3051c6d45880e8931f28d56"
+    },
+    {
+      "path": "build/v9/artifacts/urn-test-graph-2272959446.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 916,
+      "sha256": "sha256:c57d24ada27df00b8f0c30a5d691c64df5708bc3f32ff6776c753b38d63aff58"
+    },
+    {
+      "path": "build/v9/artifacts/urn-test-registry-7ba5e7c165.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1031,
+      "sha256": "sha256:3881b90de876df39b872e90789402c29e390ccce747e8cbc9655f754d59cd8d2"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 1666,
+      "sha256": "sha256:0aa653bbaf902e91930e9ed70cda50e835ba241290dac7eca91f06381b9324f9"
+    },
+    {
+      "path": "canon/domain/v11/crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 551,
+      "sha256": "sha256:077b7a86286c0c942a8897c1ab8cb182b4bb026d34a5bbe003894dc8fffbd525"
+    },
+    {
+      "path": "canon/domain/v11/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 627,
+      "sha256": "sha256:873bb7952807871e647e45c8e8a039e70a2b547e600b2e419f62b9a404b8d47e"
+    },
+    {
+      "path": "canon/domain/v11/graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 491,
+      "sha256": "sha256:ad463ff8e4741c69beecad1423a67563c5a1b1b391e507bcdbb0a729bb23d74c"
+    },
+    {
+      "path": "canon/domain/v11/registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 594,
+      "sha256": "sha256:292ffc58e0e9650992b23593671fa12c78e5e7d958bdd7daeba723118069a544"
+    }
+  ],
+  "segments": []
+}

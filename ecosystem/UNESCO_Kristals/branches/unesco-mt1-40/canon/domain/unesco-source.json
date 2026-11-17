@@ -1,0 +1,1226 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "برنامج الدراسة",
+          "محتوى الدورة",
+          "محتوى المقرر",
+          "محتوى المنهج الدراسي",
+          "مخطط دراسي",
+          "مقرر دراسي"
+        ],
+        "en": [
+          "Course content",
+          "Curriculum content",
+          "Programme of study",
+          "Syllabus"
+        ],
+        "es": [
+          "Contenido del curso",
+          "Plan del curso",
+          "Programa de estudios",
+          "Programa del curso"
+        ],
+        "fr": [
+          "Contenu du cours",
+          "Contenu du curriculum",
+          "Programme d'étude",
+          "Syllabus"
+        ],
+        "ru": [
+          "План занятий",
+          "Содержание курса",
+          "Содержание учебного плана",
+          "Учебная программа"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:44:39+00:00",
+      "narrower": [
+        "concept1282",
+        "concept17031",
+        "concept6620",
+        "concept7255",
+        "concept7257",
+        "concept7259",
+        "concept7263",
+        "concept7267",
+        "concept7268"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منهج دراسي"
+        ],
+        "en": [
+          "Curriculum"
+        ],
+        "es": [
+          "Plan de estudios"
+        ],
+        "fr": [
+          "Curriculum"
+        ],
+        "ru": [
+          "Учебный план"
+        ]
+      },
+      "related": [
+        "concept2107",
+        "concept50",
+        "concept7269"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم للإشارة إلى الموضوعات التي تم تدريسها والوقت المخصص لكل منها والتسلسل الدراسي."
+        ],
+        "en": [
+          "Use to mean the subjects taught, the time allotted to each, and the sequence."
+        ],
+        "es": [
+          "Utilizar para referirse a las asignaturas impartidas, al tiempo dedicado a cada una y a su integración en un programa."
+        ],
+        "fr": [
+          "Utiliser pour signifier les matières enseignées, le temps alloué à chacune, leur enchaînement dans un programme."
+        ],
+        "ru": [
+          "Преподаваемые предметы, выделяемое на них время и последовательность изучения."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept49",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept49",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Cours de formation"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T14:33:02+00:00",
+      "narrower": [
+        "concept1118",
+        "concept6622",
+        "concept6770",
+        "concept6772",
+        "concept6779",
+        "concept6782"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقررات تعليمية"
+        ],
+        "en": [
+          "Educational courses"
+        ],
+        "es": [
+          "Curso de enseñanza"
+        ],
+        "fr": [
+          "Cours d'enseignement"
+        ],
+        "ru": [
+          "Учебные курсы"
+        ]
+      },
+      "related": [
+        "concept49",
+        "concept7269",
+        "concept7299"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الجوانب الإدارية للبرامج قيد التنفيذ. استخدم واصفة أكثر دقة."
+        ],
+        "en": [
+          "Administrative aspects of subject programmes. Use more specific descriptor."
+        ],
+        "es": [
+          "Aspectos administrativos de los programas en curso. Utilizar un descriptor más preciso."
+        ],
+        "fr": [
+          "Aspects administratifs des programmes de cours. Utiliser un descripteur plus précis."
+        ],
+        "ru": [
+          "Административные аспекты предметных программ. В необходимых случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept50",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept50",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دورات معجلة"
+        ]
+      },
+      "broader": [
+        "concept50"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:44:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقررات متسارعة"
+        ],
+        "en": [
+          "Accelerated courses"
+        ],
+        "es": [
+          "Curso acelerado"
+        ],
+        "fr": [
+          "Cours accéléré"
+        ],
+        "ru": [
+          "Ускоренные курсы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1118",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1118",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انشطة خارجة عن المنهج",
+          "انشطة لامنهجية",
+          "انشطة ما بعد المدرسة"
+        ],
+        "en": [
+          "After school activities"
+        ],
+        "es": [
+          "Actividad paraescolar"
+        ],
+        "fr": [
+          "Activité parascolaire"
+        ],
+        "ru": [
+          "Внешкольные мероприятия"
+        ]
+      },
+      "broader": [
+        "concept49"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:43:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انشطة لاصفية"
+        ],
+        "en": [
+          "Extracurricular activities"
+        ],
+        "es": [
+          "Actividad fuera de programa"
+        ],
+        "fr": [
+          "Activité hors programme"
+        ],
+        "ru": [
+          "Внеплановые учебные мероприятия"
+        ]
+      },
+      "related": [
+        "concept1489",
+        "concept368",
+        "concept5486",
+        "concept9158",
+        "concept9888"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الأنشطة التي تنظمها المدرسة، والمشاركة فيها ليست إلزامية."
+        ],
+        "en": [
+          "Activities organized by the school, for which participation is generally not compulsory."
+        ],
+        "es": [
+          "Actividades organizadas por los colegios en las que generalmente no es obligatoria la participación."
+        ],
+        "fr": [
+          "Activité organisée par l'école, à laquelle la participation n'est généralement pas obligatoire."
+        ],
+        "ru": [
+          "Мероприятия, организуемые школой, участие в которых не является обязательным."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1282",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1282",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "منهج اساسي",
+          "منهج مشترك"
+        ],
+        "en": [
+          "Common core"
+        ],
+        "es": [
+          "Cuerpo común de enseñanzas"
+        ],
+        "fr": [
+          "Cours communs",
+          "Programme de base"
+        ],
+        "ru": [
+          "Базовый курс"
+        ]
+      },
+      "broader": [
+        "concept49"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:45:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منهج محوري"
+        ],
+        "en": [
+          "Core curriculum"
+        ],
+        "es": [
+          "Programa obligatorio común"
+        ],
+        "fr": [
+          "Tronc commun"
+        ],
+        "ru": [
+          "Основной курс"
+        ]
+      },
+      "related": [
+        "concept6622"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الأجزاء الأساسية في مناهج المؤسسة التعليمية التي يدرسها جميع طلابها بغض النظر عن المواد الاختيارية التي قام الطلاب باختيارها."
+        ],
+        "en": [
+          "Essential or basic parts of the curriculum of an educational institution that are studied by all its students even though each has a choice of optional subjects in addition."
+        ],
+        "es": [
+          "Parte esencial del programa de una institución educativa impartido a la totalidad de los estudiantes, sean cuales sean las materias optativas elegidas por cada uno."
+        ],
+        "fr": [
+          "Partie essentielle du programme d'une institution éducative enseignée à l'ensemble de ses étudiants, quelles que soient les matières optionnelles choisies par ailleurs par chacun."
+        ],
+        "ru": [
+          "Главная, или базовая, часть учебного курса в образовательном учреждении, которую изучают все студенты, не зависимо от выбранных факультативных предметов."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6620",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6620",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دورات اختيارية"
+        ],
+        "en": [
+          "Optional courses"
+        ],
+        "es": [
+          "Curso de libre elección",
+          "Curso opcional"
+        ],
+        "ru": [
+          "Необязательные курсы"
+        ]
+      },
+      "broader": [
+        "concept50"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:44:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقررات اختيارية"
+        ],
+        "en": [
+          "Elective courses"
+        ],
+        "es": [
+          "Curso optativo"
+        ],
+        "fr": [
+          "Cours à option"
+        ],
+        "ru": [
+          "Факультативные курсы"
+        ]
+      },
+      "related": [
+        "concept6620"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الدورات التي يختارها الطالب بحرية من بين عدد من البدائل."
+        ],
+        "en": [
+          "Courses chosen freely by a student from among a number of alternatives."
+        ],
+        "es": [
+          "Curso elegido libremente por el estudiate entre un cierto número de cursos propuestos."
+        ],
+        "fr": [
+          "Cours sélectionné librement par un étudiant parmi un certain nombre de cours proposés."
+        ],
+        "ru": [
+          "Курсы, выбираемые по желанию учащегося из числа нескольких альтернатив."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6622",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6622",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مقررات توجيهية"
+        ],
+        "es": [
+          "Curso de guía",
+          "Curso de iniciación",
+          "Curso de introducción"
+        ],
+        "fr": [
+          "Cours d'initiation",
+          "Cours d'introduction"
+        ]
+      },
+      "broader": [
+        "concept50"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T14:31:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دورات توجيهية"
+        ],
+        "en": [
+          "Orientation courses"
+        ],
+        "es": [
+          "Curso de orientación"
+        ],
+        "fr": [
+          "Cours d'orientation"
+        ],
+        "ru": [
+          "Вводные курсы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6770",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6770",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مقررات دراسية قصيرة"
+        ]
+      },
+      "broader": [
+        "concept50"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:44:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دورة دراسية قصيرة"
+        ],
+        "en": [
+          "Short courses"
+        ],
+        "es": [
+          "Curso de corta duración"
+        ],
+        "fr": [
+          "Cours de brève durée"
+        ],
+        "ru": [
+          "Краткосрочные курсы"
+        ]
+      },
+      "related": [
+        "concept1501"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6772",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6772",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم الدراسات العليا",
+          "تعليم ما بعد المرحلة الجامعية الاولى"
+        ],
+        "en": [
+          "Postgraduate education"
+        ],
+        "es": [
+          "Curso de postgrado",
+          "Posgrado",
+          "Postgrado",
+          "Tercer ciclo"
+        ],
+        "fr": [
+          "Cours postgrade",
+          "Cycle postgrade",
+          "Enseignement universitaire supérieur",
+          "Études postgrade"
+        ],
+        "ru": [
+          "Аспирантура"
+        ]
+      },
+      "broader": [
+        "concept6782"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:45:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقررات الدراسات العليا"
+        ],
+        "en": [
+          "Postgraduate courses"
+        ],
+        "es": [
+          "Curso postuniversitario"
+        ],
+        "fr": [
+          "Cours de troisième cycle"
+        ],
+        "ru": [
+          "Учебный курс для аспирантов"
+        ]
+      },
+      "related": [
+        "concept1485"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مقررات الدراسة أو البحث في مؤسسة التعليم العالي بعد الانتهاء من متطلبات الدرجة الأولى."
+        ],
+        "en": [
+          "Courses of study or research at a higher education institution after completion of first degree requirements."
+        ],
+        "es": [
+          "Curso o investigación efectuados en una institución de enseñanza superior tras haber concluido los estudios correspondientes al primer ciclo de ese nivel."
+        ],
+        "fr": [
+          "Cours ou recherche poursuivi dans une institution d'enseignement supérieur après avoir satisfait aux obligations du premier cycle de ce niveau d'études."
+        ],
+        "ru": [
+          "Курсы в высшем учебном заведении для обучения или проведения научных исследований после завершения учебы, необходимой для получения первой научной степени."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6774",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6774",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Cours à unités"
+        ]
+      },
+      "broader": [
+        "concept50"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:43:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقررات الساعات المعتمدة"
+        ],
+        "en": [
+          "Credit courses"
+        ],
+        "es": [
+          "Curso con créditos"
+        ],
+        "fr": [
+          "Cours par unités capitalisables"
+        ],
+        "ru": [
+          "Зачетные курсы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "مقررات التعليم العالي والتي تقاس بنظام الساعات المعتمدة يتم بموجبه تعيين الساعات المعتمدة لمقرر دراسي والتى يتم تحديدها بعدد الساعات في الأسبوع في الفصل وعدد الأسابيع في الدورة."
+        ],
+        "en": [
+          "Course work in higher education measured by a credit system whereby credit hours are assigned to a course defined by the number of hours per week in class and the number of weeks in the session."
+        ],
+        "es": [
+          "Curso de enseñanza superior medido por un sistema de unidades según el cual a cada asignatura le corresponden más o menos unidades en función del número de horas lectivas."
+        ],
+        "fr": [
+          "Cours, au niveau de l'enseignement supérieur, mesuré par un système d'unités et selon lequel des unités sont attribuées à un cours en fonction du nombre d'heures d'enseignement par semaine et du nombre de semaines dans la session."
+        ],
+        "ru": [
+          "Отражает объем работы над каждым курсом высшего учебного заведения, измеряемой системой кредитов (зачетных единиц), определяемой количеством часов в неделю и количеством недель в семестре."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6779",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6779",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept50"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:45:24+00:00",
+      "narrower": [
+        "concept6774"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقررات دراسية جامعية"
+        ],
+        "en": [
+          "University courses"
+        ],
+        "es": [
+          "Curso universitario"
+        ],
+        "fr": [
+          "Cours universitaire"
+        ],
+        "ru": [
+          "Курсы при университете"
+        ]
+      },
+      "related": [
+        "concept1485"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6782",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6782",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مقررات المدارس الابتدائية"
+        ]
+      },
+      "broader": [
+        "concept49"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:44:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منهج المدرسة الابتدائية"
+        ],
+        "en": [
+          "Primary school curriculum"
+        ],
+        "es": [
+          "Plan de estudios primarios"
+        ],
+        "fr": [
+          "Programme d'études primaires"
+        ],
+        "ru": [
+          "Учебный план начальной школы"
+        ]
+      },
+      "related": [
+        "concept9290"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7255",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7255",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Plan de estudios de escuela profesional y técnica",
+          "Plan de estudios de escuela superior"
+        ],
+        "fr": [
+          "Curriculum d'école professionnelle",
+          "Curriculum d'école professionnelle et technique",
+          "Curriculum de collège professionnel"
+        ]
+      },
+      "broader": [
+        "concept49"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:44:01+00:00",
+      "narrower": [
+        "concept15573"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناهج المدارس المهنية"
+        ],
+        "en": [
+          "Vocational school curriculum"
+        ],
+        "es": [
+          "Plan de estudios profesionales superiores"
+        ],
+        "fr": [
+          "Curriculum d'école professionnelle supérieure"
+        ],
+        "ru": [
+          "Учебный план профессионально-технического училища"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7257",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7257",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Plan de estudios de escuela secundaria"
+        ]
+      },
+      "broader": [
+        "concept49"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:44:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منهج المدرسة الثانوية"
+        ],
+        "en": [
+          "Secondary school curriculum"
+        ],
+        "es": [
+          "Plan de estudios secundarios"
+        ],
+        "fr": [
+          "Programme d'études secondaires"
+        ],
+        "ru": [
+          "Учебный план средней школы"
+        ]
+      },
+      "related": [
+        "concept9291"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7259",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7259",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Plan de estudios superiores",
+          "Programa de estudios superiores",
+          "Programa de estudios universitarios"
+        ],
+        "fr": [
+          "Programme d'études supérieures",
+          "Programme d'études universitaires"
+        ]
+      },
+      "broader": [
+        "concept49"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:44:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منهج جامعي"
+        ],
+        "en": [
+          "University curriculum"
+        ],
+        "es": [
+          "Plan de estudios universitarios"
+        ],
+        "fr": [
+          "Curriculum universitaire"
+        ],
+        "ru": [
+          "Учебный план университета"
+        ]
+      },
+      "related": [
+        "concept1485"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7263",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7263",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم متكامل",
+          "مناهج تعليمية متكاملة",
+          "منهج متعدد التخصصات"
+        ],
+        "en": [
+          "Integrated education",
+          "Interdisciplinary curriculum"
+        ],
+        "es": [
+          "Educación integrada"
+        ],
+        "ru": [
+          "Интегрированное образование",
+          "Междисциплинарный учебный план"
+        ]
+      },
+      "broader": [
+        "concept49"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:44:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منهج متكامل"
+        ],
+        "en": [
+          "Integrated curriculum"
+        ],
+        "es": [
+          "Plan de estudios integrado"
+        ],
+        "fr": [
+          "Programme d'études intégré"
+        ],
+        "ru": [
+          "Интегрированный учебный план"
+        ]
+      },
+      "related": [
+        "concept2595"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التنظيم المنهجي لمحتوى المنهاج وأجزاء منه في نمط ذي معنى."
+        ],
+        "en": [
+          "Systematic organization of curriculum content and parts into a meaningful pattern."
+        ],
+        "es": [
+          "Organización sistemática del contenido y de las partes de un plan de estudios en un modelo racional."
+        ],
+        "fr": [
+          "Organisation systématique du contenu et des parties d'un curriculum en un modèle rationnel."
+        ],
+        "ru": [
+          "Систематизация учебного плана и его отдельных частей."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7267",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7267",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدريب قياسي",
+          "تعليم مرن",
+          "دورات نموذجية",
+          "منهج معياري"
+        ],
+        "en": [
+          "Modular courses",
+          "Modular curriculum",
+          "Modular learning",
+          "Modular training"
+        ],
+        "es": [
+          "Aprendizaje por módulos",
+          "Curso por módulos",
+          "Formación por módulos"
+        ],
+        "fr": [
+          "Cours modulaire",
+          "Formation par modules",
+          "Programme modulaire"
+        ],
+        "ru": [
+          "Модульная подготовка",
+          "Модульная учеба",
+          "Модульные курсы",
+          "Модульный учебный план"
+        ]
+      },
+      "broader": [
+        "concept49"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T14:25:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريب نموذجي"
+        ],
+        "en": [
+          "Modular instruction"
+        ],
+        "es": [
+          "Enseñanza por módulos"
+        ],
+        "fr": [
+          "Enseignement modulaire"
+        ],
+        "ru": [
+          "Модульное обучение"
+        ]
+      },
+      "related": [
+        "concept8243",
+        "concept83"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تنظيم المناهج الدراسية أو الدورات التعليمية في إطار وحدات مستقلة (\"نماذج\") مصممة لتُدار من قبل المتعلم."
+        ],
+        "en": [
+          "Organization of the curriculum or of instructional courses in self-contained units ('modules') designed for management by the learner."
+        ],
+        "es": [
+          "Organización del programa de estudios en unidades autónomas (módulos) para facilitar la gestión por parte del alumno."
+        ],
+        "fr": [
+          "Organisation du curriculum ou d'un programme d'études en unités autonomes ('modules') pour en faciliter la gestion par l'apprenant."
+        ],
+        "ru": [
+          "Организация учебного плана или учебного курса в рамках замкнутых ячеек (\"модулей\"), материал которых предназначен для освоения обучаемым."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7268",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7268",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Programa de formación del profesorado"
+        ],
+        "fr": [
+          "Programme de formation des maîtres"
+        ]
+      },
+      "broader": [
+        "concept7257"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:44:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناهج تعليم المعلمين"
+        ],
+        "en": [
+          "Teacher education curriculum"
+        ],
+        "es": [
+          "Programa de formación de docentes"
+        ],
+        "fr": [
+          "Programme de formation des enseignants"
+        ],
+        "ru": [
+          "Учебный план для обучения преподавателей"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15573",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15573",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مقرر التعليم التحضيري",
+          "منهج ما قبل الابتدائي"
+        ],
+        "en": [
+          "Preprimary curriculum"
+        ],
+        "es": [
+          "Plan de estudios preprimarios"
+        ],
+        "fr": [
+          "Curriculum préprimaire",
+          "Plan d'études préprimaires"
+        ],
+        "ru": [
+          "Учебный план доначальной школы"
+        ]
+      },
+      "broader": [
+        "concept49"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.40"
+      ],
+      "modified": "2019-12-15T13:45:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منهج ما قبل المدرسة"
+        ],
+        "en": [
+          "Preschool curriculum"
+        ],
+        "es": [
+          "Plan de estudios preescolares"
+        ],
+        "fr": [
+          "Programme d'études préscolaires"
+        ],
+        "ru": [
+          "Дошкольный учебный план"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17031",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17031",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt1.40",
+    "labels": {
+      "en": "Curriculum",
+      "fr": "Programmes d'études"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt1.40"
+  }
+}

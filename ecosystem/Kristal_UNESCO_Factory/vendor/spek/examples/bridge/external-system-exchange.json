@@ -1,0 +1,171 @@
+{
+  "format": "spek.exchange/0.1",
+  "complete": true,
+  "context": {
+    "dataset_ref": "demo:dataset:v1",
+    "reader_policy_ref": "demo:reader-policy:v1",
+    "export_status": "authorized_local_preview"
+  },
+  "assertions": [
+    {
+      "id": "a.u.result.claim",
+      "payload": {
+        "unit_id": "u.result.claim",
+        "kind": "claim",
+        "illustrative_only": true,
+        "statement_en": "One layout contract can organize localized statements in three languages without changing their semantic identifiers."
+      }
+    },
+    {
+      "id": "a.u.result.scope",
+      "payload": {
+        "unit_id": "u.result.scope",
+        "kind": "scope",
+        "illustrative_only": true,
+        "statement_en": "This property requires typed slots and available realizations for every selected language."
+      }
+    },
+    {
+      "id": "a.u.result.limit",
+      "payload": {
+        "unit_id": "u.result.limit",
+        "kind": "qualification",
+        "illustrative_only": true,
+        "statement_en": "The prototype demonstrates neither improved readability nor certified linguistic equivalence."
+      }
+    },
+    {
+      "id": "a.u.result.impact",
+      "payload": {
+        "unit_id": "u.result.impact",
+        "kind": "implication",
+        "illustrative_only": true,
+        "statement_en": "The same structured data can feed derived HTML, PDF and LaTeX files."
+      }
+    },
+    {
+      "id": "a.u.argument.thesis",
+      "payload": {
+        "unit_id": "u.argument.thesis",
+        "kind": "thesis",
+        "illustrative_only": true,
+        "statement_en": "The order of ideas can be carried partly by editorial structure rather than paragraph generation."
+      }
+    },
+    {
+      "id": "a.u.argument.premise1",
+      "payload": {
+        "unit_id": "u.argument.premise1",
+        "kind": "premise",
+        "illustrative_only": true,
+        "statement_en": "The layout fixes the positions of the thesis, premises, objection and conclusion."
+      }
+    },
+    {
+      "id": "a.u.argument.premise2",
+      "payload": {
+        "unit_id": "u.argument.premise2",
+        "kind": "premise",
+        "illustrative_only": true,
+        "statement_en": "Each slot refers to a semantic identifier checked by local validation."
+      }
+    },
+    {
+      "id": "a.u.argument.inference",
+      "payload": {
+        "unit_id": "u.argument.inference",
+        "kind": "inference",
+        "illustrative_only": true,
+        "statement_en": "These constraints form an explicit argumentative path even when each realization is a short sentence."
+      }
+    },
+    {
+      "id": "a.u.argument.objection",
+      "payload": {
+        "unit_id": "u.argument.objection",
+        "kind": "objection",
+        "illustrative_only": true,
+        "statement_en": "A sequence of blocks does not always replace the nuances of a continuous explanation."
+      }
+    },
+    {
+      "id": "a.u.argument.conclusion",
+      "payload": {
+        "unit_id": "u.argument.conclusion",
+        "kind": "conclusion",
+        "illustrative_only": true,
+        "statement_en": "Layouts must be tested by scientific genre before treating them as an editorial standard."
+      }
+    },
+    {
+      "id": "a.u.compare.topic",
+      "payload": {
+        "unit_id": "u.compare.topic",
+        "kind": "question",
+        "illustrative_only": true,
+        "statement_en": "How can verifiable statements be presented quickly across languages?"
+      }
+    },
+    {
+      "id": "a.u.compare.criterion",
+      "payload": {
+        "unit_id": "u.compare.criterion",
+        "kind": "criterion",
+        "illustrative_only": true,
+        "statement_en": "Chosen criterion: immediate visibility of sources, conditions and qualifications."
+      }
+    },
+    {
+      "id": "a.u.compare.prose",
+      "payload": {
+        "unit_id": "u.compare.prose",
+        "kind": "approach",
+        "illustrative_only": true,
+        "statement_en": "Continuous prose supports subtle transitions but requires full discourse generation and editorial review."
+      }
+    },
+    {
+      "id": "a.u.compare.layout",
+      "payload": {
+        "unit_id": "u.compare.layout",
+        "kind": "approach",
+        "illustrative_only": true,
+        "statement_en": "Typed cards expose claims, evidence and limits directly, but their expressiveness depends on available templates."
+      }
+    },
+    {
+      "id": "a.u.compare.conclusion",
+      "payload": {
+        "unit_id": "u.compare.conclusion",
+        "kind": "conclusion",
+        "illustrative_only": true,
+        "statement_en": "Structured presentation is a promising editorial option for decomposable results."
+      }
+    },
+    {
+      "id": "a.u.compare.limit",
+      "payload": {
+        "unit_id": "u.compare.limit",
+        "kind": "qualification",
+        "illustrative_only": true,
+        "statement_en": "No measured reading advantage is claimed in this demonstration."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "s.e.layout",
+      "payload": {
+        "locator": "layouts/*.json",
+        "unverified": true
+      }
+    },
+    {
+      "id": "s.e.tests",
+      "payload": {
+        "locator": "tests/test_compiler.py",
+        "unverified": true
+      }
+    }
+  ]
+}

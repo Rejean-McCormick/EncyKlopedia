@@ -1,0 +1,179 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.dita-task",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Objectif, prérequis, procédure, résultat attendu",
+  "research_basis": {
+    "family": "genre",
+    "relation": "dita.task",
+    "source": "DITA",
+    "source_url": "https://docs.oasis-open.org/dita/dita/v1.3/csd01/part2-tech-content/archSpec/technicalContent/dita_technicalContent_InformationTypes.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "dita.task",
+    "editorial_relation_required": true,
+    "semantic_warning": "Ordre des étapes explicitement fourni, pas inféré.",
+    "critical_questions": []
+  },
+  "slots": {
+    "objective": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "objective"
+      ],
+      "visual_role": "paragraph"
+    },
+    "prerequisites": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 5,
+      "allowed_kinds": [
+        "prerequisite"
+      ],
+      "visual_role": "paragraph"
+    },
+    "steps": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 20,
+      "allowed_kinds": [
+        "step"
+      ],
+      "visual_role": "paragraph"
+    },
+    "outcome": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "claim"
+      ],
+      "visual_role": "paragraph"
+    },
+    "warnings": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 5,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "objective",
+    "prerequisites",
+    "steps",
+    "outcome",
+    "warnings"
+  ],
+  "presentation_policy": {
+    "layout_variant": "stack",
+    "show_template_labels": false
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "dita.task",
+    "focus_slot": "objective",
+    "moves": [
+      {
+        "slot": "objective",
+        "function": "objective",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "prerequisites",
+        "function": "prerequisites",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "steps",
+        "function": "procedure",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "outcome",
+        "function": "outcome",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "warnings",
+        "function": "safety_notice",
+        "nuclearity": "supporting",
+        "group": 3,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "prerequisites",
+        "to_slot": "objective",
+        "relation": "dita.task",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "steps",
+        "to_slot": "objective",
+        "relation": "dita.task",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "outcome",
+        "to_slot": "objective",
+        "relation": "dita.task",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "warnings",
+        "to_slot": "objective",
+        "relation": "dita.task",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "objective",
+        "prerequisites"
+      ],
+      [
+        "steps",
+        "outcome"
+      ],
+      [
+        "warnings"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Ordre des étapes explicitement fourni, pas inféré."
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.rst-cause",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Cause attestée + effet attesté",
+  "research_basis": {
+    "family": "coherence",
+    "relation": "rst.cause",
+    "source": "RST",
+    "source_url": "https://www.sfu.ca/rst/07french/definitions.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "rst.cause",
+    "editorial_relation_required": true,
+    "semantic_warning": "Lien causal explicitement établi, jamais déduit de l’ordre.",
+    "critical_questions": []
+  },
+  "slots": {
+    "cause": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "premise"
+      ],
+      "visual_role": "paragraph"
+    },
+    "effect": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "claim"
+      ],
+      "visual_role": "paragraph"
+    },
+    "qualification": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    },
+    "bridge": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "relation"
+      ],
+      "visual_role": "supporting_sentence"
+    }
+  },
+  "ordered_slots": [
+    "cause",
+    "bridge",
+    "effect",
+    "qualification"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "qualification"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "rst.cause",
+    "focus_slot": "effect",
+    "moves": [
+      {
+        "slot": "cause",
+        "function": "cause",
+        "nuclearity": "satellite",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "bridge",
+        "function": "explicit_semantik_transition",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "supporting_sentence"
+      },
+      {
+        "slot": "effect",
+        "function": "effect",
+        "nuclearity": "nucleus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "qualification",
+        "function": "qualification",
+        "nuclearity": "satellite",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "cause",
+        "to_slot": "effect",
+        "relation": "rst.cause",
+        "status": "requires_external_semantic_review",
+        "relation_function": "explains"
+      },
+      {
+        "from_slot": "qualification",
+        "to_slot": "effect",
+        "relation": "rst.cause",
+        "status": "requires_external_semantic_review",
+        "relation_function": "qualifies"
+      },
+      {
+        "from_slot": "bridge",
+        "to_slot": "effect",
+        "relation": "rst.cause",
+        "status": "requires_external_semantic_review",
+        "relation_function": "transitions"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "cause",
+        "bridge",
+        "effect"
+      ],
+      [
+        "qualification"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Lien causal explicitement établi, jamais déduit de l’ordre."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Médiathèque kOA — root development requirements
+#
+# This file installs the full local development/runtime dependency set.
+# The GUI-specific runtime subset is also listed in:
+# 06_GUI/koa_mediatheque_gui/requirements.txt
+
+streamlit>=1.35,<2.0
+pandas>=2.2,<3.0
+openpyxl>=3.1,<4.0
+python-dotenv>=1.0,<2.0
+jsonschema>=4.20,<5
+tomli>=2.0,<3.0; python_version < "3.11"
+
+pytest>=8.2,<9.0
+ruff>=0.5,<1.0
+mypy>=1.10,<2.0
+types-openpyxl>=3.1,<4.0

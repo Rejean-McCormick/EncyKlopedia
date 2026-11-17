@@ -1,0 +1,166 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.walton-expert-opinion",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Argument par expertise",
+  "research_basis": {
+    "family": "argument",
+    "relation": "walton.expert-opinion",
+    "source": "WALTON",
+    "source_url": "https://journals.sagepub.com/doi/full/10.1080/19462166.2015.1123772",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "walton.expert-opinion",
+    "editorial_relation_required": true,
+    "semantic_warning": "La compétence, fiabilité et indépendance sont à évaluer hors du rendu.",
+    "critical_questions": [
+      "La source est-elle compétente dans le domaine ?",
+      "L’avis est-il correctement attribué ?",
+      "Des avis contradictoires existent-ils ?"
+    ]
+  },
+  "slots": {
+    "domain": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "context"
+      ],
+      "visual_role": "paragraph"
+    },
+    "expert_statement": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "evidence"
+      ],
+      "visual_role": "paragraph"
+    },
+    "inference": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "inference"
+      ],
+      "visual_role": "paragraph"
+    },
+    "qualification": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "domain",
+    "expert_statement",
+    "inference",
+    "qualification"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "inference",
+      "qualification"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "walton.expert-opinion",
+    "focus_slot": "inference",
+    "moves": [
+      {
+        "slot": "domain",
+        "function": "domain",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "expert_statement",
+        "function": "attributed_statement",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "inference",
+        "function": "inference",
+        "nuclearity": "focus",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "qualification",
+        "function": "qualification",
+        "nuclearity": "supporting",
+        "group": 3,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "domain",
+        "to_slot": "inference",
+        "relation": "walton.expert-opinion",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "expert_statement",
+        "to_slot": "inference",
+        "relation": "walton.expert-opinion",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "qualification",
+        "to_slot": "inference",
+        "relation": "walton.expert-opinion",
+        "status": "requires_external_semantic_review",
+        "relation_function": "qualifies"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "domain",
+        "expert_statement"
+      ],
+      [
+        "inference"
+      ],
+      [
+        "qualification"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [
+        "La source est-elle compétente dans le domaine ?",
+        "L’avis est-il correctement attribué ?",
+        "Des avis contradictoires existent-ils ?"
+      ],
+      "warning": "La compétence, fiabilité et indépendance sont à évaluer hors du rendu."
+    }
+  }
+}

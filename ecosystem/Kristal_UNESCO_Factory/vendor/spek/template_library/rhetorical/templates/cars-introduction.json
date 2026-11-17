@@ -1,0 +1,179 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.cars-introduction",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Contexte scientifique, lacune, contribution",
+  "research_basis": {
+    "family": "genre",
+    "relation": "swales.cars",
+    "source": "CARS",
+    "source_url": "https://www.umass.edu/writing-center/resources/creating-research-space",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "swales.cars",
+    "editorial_relation_required": true,
+    "semantic_warning": "Lacune et contribution doivent être explicitement sélectionnées, pas inventées.",
+    "critical_questions": []
+  },
+  "slots": {
+    "territory": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "context"
+      ],
+      "visual_role": "paragraph"
+    },
+    "literature": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 4,
+      "allowed_kinds": [
+        "evidence"
+      ],
+      "visual_role": "paragraph"
+    },
+    "gap": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "observation"
+      ],
+      "visual_role": "paragraph"
+    },
+    "purpose": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "objective"
+      ],
+      "visual_role": "paragraph"
+    },
+    "contribution": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "claim"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "territory",
+    "literature",
+    "gap",
+    "purpose",
+    "contribution"
+  ],
+  "presentation_policy": {
+    "layout_variant": "stack",
+    "show_template_labels": false
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "swales.cars",
+    "focus_slot": "purpose",
+    "moves": [
+      {
+        "slot": "territory",
+        "function": "research_territory",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "literature",
+        "function": "prior_work",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "gap",
+        "function": "research_gap",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "purpose",
+        "function": "purpose",
+        "nuclearity": "focus",
+        "group": 3,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "contribution",
+        "function": "contribution",
+        "nuclearity": "supporting",
+        "group": 3,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "territory",
+        "to_slot": "purpose",
+        "relation": "swales.cars",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "literature",
+        "to_slot": "territory",
+        "relation": "swales.cars",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "gap",
+        "to_slot": "purpose",
+        "relation": "swales.cars",
+        "status": "requires_external_semantic_review",
+        "relation_function": "motivates"
+      },
+      {
+        "from_slot": "contribution",
+        "to_slot": "purpose",
+        "relation": "swales.cars",
+        "status": "requires_external_semantic_review",
+        "relation_function": "specifies"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "territory",
+        "literature"
+      ],
+      [
+        "gap"
+      ],
+      [
+        "purpose",
+        "contribution"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Lacune et contribution doivent être explicitement sélectionnées, pas inventées."
+    }
+  }
+}

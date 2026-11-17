@@ -1,0 +1,609 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    @template mod_uckkarchive/media_collection
+
+    Media collection template for mod_uckkarchive.
+
+    This template can render either:
+    - a list response containing `collections`;
+    - a single collection response containing `collection`;
+    - a direct collection object containing `collectionid`.
+
+    Expected contexts may include:
+    {
+        "cmid": 42,
+        "collections": [
+            {
+                "collectionid": 3,
+                "collectionuuid": "uuid",
+                "title": "Collection title",
+                "description": "Description",
+                "purpose": "teaching",
+                "status": "active",
+                "visibility": "course",
+                "itemcount": 4,
+                "canupdate": true,
+                "canremoveitems": true
+            }
+        ],
+        "collection": {
+            "collectionid": 3,
+            "collectionuuid": "uuid",
+            "title": "Collection title",
+            "description": "Description",
+            "purpose": "teaching",
+            "status": "active",
+            "visibility": "course",
+            "items": []
+        },
+        "permissions": {
+            "canaddcollection": true,
+            "canupdatecollection": true,
+            "canadditems": true,
+            "canremoveitems": true
+        },
+        "warnings": []
+    }
+}}
+
+<div class="uckkarchive-media-collection"
+     data-region="uckkarchive-media-collection"
+     {{#cmid}}data-cmid="{{cmid}}"{{/cmid}}>
+
+    <div class="uckkarchive-media-collection__status"
+         data-region="media-collection-status"
+         role="status"
+         aria-live="polite">
+    </div>
+
+    {{#warnings.0}}
+        <div class="alert alert-warning uckkarchive-media-collection__warnings" data-region="media-collection-warnings">
+            <ul class="mb-0">
+                {{#warnings}}
+                    <li>
+                        <strong>{{warningcode}}</strong>
+                        {{#message}}
+                            <span>{{message}}</span>
+                        {{/message}}
+                    </li>
+                {{/warnings}}
+            </ul>
+        </div>
+    {{/warnings.0}}
+
+    {{#permissions}}
+        <div class="uckkarchive-media-collection__permissions sr-only" data-region="media-collection-permissions">
+            <span data-permission="canaddcollection">{{canaddcollection}}</span>
+            <span data-permission="canupdatecollection">{{canupdatecollection}}</span>
+            <span data-permission="canadditems">{{canadditems}}</span>
+            <span data-permission="canremoveitems">{{canremoveitems}}</span>
+        </div>
+    {{/permissions}}
+
+    {{#collections.0}}
+        <section class="uckkarchive-media-collection__list" data-region="media-collection-list">
+            <div class="d-flex align-items-center justify-content-between mb-3">
+                <h3 class="h5 mb-0">{{#str}} mediacollections, uckkarchive {{/str}}</h3>
+
+                <button type="button"
+                        class="btn btn-secondary btn-sm"
+                        data-action="refresh-media-collections">
+                    {{#str}} refresh, core {{/str}}
+                </button>
+            </div>
+
+            <div class="list-group uckkarchive-media-collection-list">
+                {{#collections}}
+                    <article class="list-group-item uckkarchive-media-collection-card"
+                             data-region="media-collection-card"
+                             data-collectionid="{{collectionid}}"
+                             data-collectionuuid="{{collectionuuid}}">
+
+                        <div class="d-flex w-100 justify-content-between align-items-start">
+                            <div class="uckkarchive-media-collection-card__main">
+                                <h4 class="h6 mb-1">
+                                    <button type="button"
+                                            class="btn btn-link p-0 text-left"
+                                            data-action="load-media-collection"
+                                            data-collectionid="{{collectionid}}"
+                                            data-collectionuuid="{{collectionuuid}}">
+                                        {{title}}
+                                    </button>
+                                </h4>
+
+                                {{#description}}
+                                    <div class="uckkarchive-media-collection-card__description text-muted">
+                                        {{{description}}}
+                                    </div>
+                                {{/description}}
+
+                                <div class="uckkarchive-media-collection-card__meta small text-muted mt-2">
+                                    {{#purpose}}
+                                        <span class="badge badge-light" data-field="purpose">{{purpose}}</span>
+                                    {{/purpose}}
+
+                                    {{#status}}
+                                        <span class="badge badge-secondary" data-field="status">{{status}}</span>
+                                    {{/status}}
+
+                                    {{#visibility}}
+                                        <span class="badge badge-info" data-field="visibility">{{visibility}}</span>
+                                    {{/visibility}}
+
+                                    <span data-field="itemcount">
+                                        {{#str}} mediaitems, uckkarchive {{/str}}: {{itemcount}}
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="uckkarchive-media-collection-card__actions ml-3">
+                                <button type="button"
+                                        class="btn btn-secondary btn-sm"
+                                        data-action="load-media-collection"
+                                        data-collectionid="{{collectionid}}"
+                                        data-collectionuuid="{{collectionuuid}}">
+                                    {{#str}} view, core {{/str}}
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                {{/collections}}
+            </div>
+
+            {{#pagination}}
+                <nav class="uckkarchive-media-collection__pagination mt-3"
+                     aria-label="{{#str}} pagination, core {{/str}}">
+                    <div class="small text-muted">
+                        {{#str}} page, core {{/str}} {{page}}
+                        ·
+                        {{#str}} total, core {{/str}} {{total}}
+                    </div>
+                </nav>
+            {{/pagination}}
+        </section>
+    {{/collections.0}}
+
+    {{^collections.0}}
+        {{#collections}}
+        {{/collections}}
+
+        {{^collection}}
+            {{^collectionid}}
+                <div class="alert alert-info" data-region="media-collection-empty">
+                    {{#str}} nomediacollections, uckkarchive {{/str}}
+                </div>
+            {{/collectionid}}
+        {{/collection}}
+    {{/collections.0}}
+
+    {{#collection}}
+        <section class="uckkarchive-media-collection__single"
+                 data-region="media-collection"
+                 data-collectionid="{{collectionid}}"
+                 data-collectionuuid="{{collectionuuid}}">
+
+            <div class="card uckkarchive-media-collection-detail">
+                <div class="card-header d-flex align-items-start justify-content-between">
+                    <div>
+                        <h3 class="h5 mb-1">{{title}}</h3>
+
+                        <div class="small text-muted">
+                            {{#purpose}}
+                                <span class="badge badge-light">{{purpose}}</span>
+                            {{/purpose}}
+
+                            {{#status}}
+                                <span class="badge badge-secondary">{{status}}</span>
+                            {{/status}}
+
+                            {{#visibility}}
+                                <span class="badge badge-info">{{visibility}}</span>
+                            {{/visibility}}
+
+                            {{#collectionuuid}}
+                                <span class="ml-2 text-monospace">{{collectionuuid}}</span>
+                            {{/collectionuuid}}
+                        </div>
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="button"
+                                class="btn btn-secondary btn-sm"
+                                data-action="refresh-media-collections">
+                            {{#str}} refresh, core {{/str}}
+                        </button>
+
+                        {{#canupdate}}
+                            <button type="button"
+                                    class="btn btn-primary btn-sm"
+                                    data-action="update-media-collection"
+                                    data-collectionid="{{collectionid}}"
+                                    data-collectionuuid="{{collectionuuid}}">
+                                {{#str}} savechanges, core {{/str}}
+                            </button>
+                        {{/canupdate}}
+                    </div>
+                </div>
+
+                <div class="card-body" data-region="media-collection-body">
+                    {{#description}}
+                        <div class="uckkarchive-media-collection-detail__description mb-3">
+                            {{{description}}}
+                        </div>
+                    {{/description}}
+
+                    {{#metadata}}
+                        <dl class="row uckkarchive-media-collection-detail__metadata">
+                            {{#summary}}
+                                <dt class="col-sm-3">{{#str}} summary, uckkarchive {{/str}}</dt>
+                                <dd class="col-sm-9">{{summary}}</dd>
+                            {{/summary}}
+
+                            {{#audience}}
+                                <dt class="col-sm-3">{{#str}} audience, uckkarchive {{/str}}</dt>
+                                <dd class="col-sm-9">{{audience}}</dd>
+                            {{/audience}}
+
+                            {{#teachingcontext}}
+                                <dt class="col-sm-3">{{#str}} teachingcontext, uckkarchive {{/str}}</dt>
+                                <dd class="col-sm-9">{{teachingcontext}}</dd>
+                            {{/teachingcontext}}
+
+                            {{#rightsnote}}
+                                <dt class="col-sm-3">{{#str}} rightsnote, uckkarchive {{/str}}</dt>
+                                <dd class="col-sm-9">{{rightsnote}}</dd>
+                            {{/rightsnote}}
+
+                            {{#restrictednote}}
+                                <dt class="col-sm-3">{{#str}} restrictednote, uckkarchive {{/str}}</dt>
+                                <dd class="col-sm-9">{{restrictednote}}</dd>
+                            {{/restrictednote}}
+                        </dl>
+                    {{/metadata}}
+
+                    {{#items.0}}
+                        <h4 class="h6 mt-4">{{#str}} mediaitems, uckkarchive {{/str}}</h4>
+
+                        <div class="list-group uckkarchive-media-collection-items"
+                             data-region="media-collection-items">
+                            {{#items}}
+                                <article class="list-group-item uckkarchive-media-collection-item"
+                                         data-region="media-collection-item"
+                                         data-mediaid="{{mediaid}}"
+                                         data-collectionid="{{collectionid}}">
+
+                                    <div class="d-flex align-items-start justify-content-between">
+                                        <div class="uckkarchive-media-collection-item__main">
+                                            <h5 class="h6 mb-1">
+                                                {{#title}}{{title}}{{/title}}
+                                                {{^title}}{{#str}} media, uckkarchive {{/str}} #{{mediaid}}{{/title}}
+                                            </h5>
+
+                                            {{#summary}}
+                                                <div class="small text-muted">
+                                                    {{{summary}}}
+                                                </div>
+                                            {{/summary}}
+
+                                            <div class="small text-muted mt-2">
+                                                {{#mediatype}}
+                                                    <span class="badge badge-light">{{mediatype}}</span>
+                                                {{/mediatype}}
+
+                                                {{#status}}
+                                                    <span class="badge badge-secondary">{{status}}</span>
+                                                {{/status}}
+
+                                                {{#visibility}}
+                                                    <span class="badge badge-info">{{visibility}}</span>
+                                                {{/visibility}}
+
+                                                {{#role}}
+                                                    <span class="badge badge-dark">{{role}}</span>
+                                                {{/role}}
+                                            </div>
+                                        </div>
+
+                                        <div class="uckkarchive-media-collection-item__actions ml-3">
+                                            {{#canremoveitems}}
+                                                <button type="button"
+                                                        class="btn btn-outline-danger btn-sm"
+                                                        data-action="remove-media-from-collection"
+                                                        data-collectionid="{{collectionid}}"
+                                                        data-mediaid="{{mediaid}}">
+                                                    {{#str}} remove, core {{/str}}
+                                                </button>
+                                            {{/canremoveitems}}
+                                        </div>
+                                    </div>
+                                </article>
+                            {{/items}}
+                        </div>
+                    {{/items.0}}
+
+                    {{^items.0}}
+                        <div class="alert alert-info mb-0" data-region="media-collection-no-items">
+                            {{#str}} mediacollection:noitems, uckkarchive {{/str}}
+                        </div>
+                    {{/items.0}}
+
+                    {{#canadditems}}
+                        <form class="mt-4"
+                              method="post"
+                              data-form="media-collection-add-media">
+                            <input type="hidden" name="cmid" value="{{cmid}}">
+                            <input type="hidden" name="collectionid" value="{{collectionid}}">
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="uckkarchive-media-collection-add-media-{{collectionid}}">
+                                        {{#str}} mediaid, uckkarchive {{/str}}
+                                    </label>
+                                    <input id="uckkarchive-media-collection-add-media-{{collectionid}}"
+                                           class="form-control"
+                                           type="number"
+                                           min="1"
+                                           name="mediaid"
+                                           required>
+                                </div>
+
+                                <div class="form-group col-md-3">
+                                    <label for="uckkarchive-media-collection-add-role-{{collectionid}}">
+                                        {{#str}} role, core {{/str}}
+                                    </label>
+                                    <input id="uckkarchive-media-collection-add-role-{{collectionid}}"
+                                           class="form-control"
+                                           type="text"
+                                           name="role">
+                                </div>
+
+                                <div class="form-group col-md-3">
+                                    <label for="uckkarchive-media-collection-add-purpose-{{collectionid}}">
+                                        {{#str}} purpose, uckkarchive {{/str}}
+                                    </label>
+                                    <input id="uckkarchive-media-collection-add-purpose-{{collectionid}}"
+                                           class="form-control"
+                                           type="text"
+                                           name="purpose">
+                                </div>
+
+                                <div class="form-group col-md-2 d-flex align-items-end">
+                                    <button type="submit" class="btn btn-primary">
+                                        {{#str}} add, core {{/str}}
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="uckkarchive-media-collection-add-note-{{collectionid}}">
+                                    {{#str}} note, core {{/str}}
+                                </label>
+                                <textarea id="uckkarchive-media-collection-add-note-{{collectionid}}"
+                                          class="form-control"
+                                          name="note"
+                                          rows="2"></textarea>
+                            </div>
+                        </form>
+                    {{/canadditems}}
+                </div>
+            </div>
+        </section>
+    {{/collection}}
+
+    {{^collection}}
+        {{#collectionid}}
+            <section class="uckkarchive-media-collection__single"
+                     data-region="media-collection"
+                     data-collectionid="{{collectionid}}"
+                     data-collectionuuid="{{collectionuuid}}">
+
+                <div class="card uckkarchive-media-collection-detail">
+                    <div class="card-header d-flex align-items-start justify-content-between">
+                        <div>
+                            <h3 class="h5 mb-1">{{title}}</h3>
+
+                            <div class="small text-muted">
+                                {{#purpose}}
+                                    <span class="badge badge-light">{{purpose}}</span>
+                                {{/purpose}}
+
+                                {{#status}}
+                                    <span class="badge badge-secondary">{{status}}</span>
+                                {{/status}}
+
+                                {{#visibility}}
+                                    <span class="badge badge-info">{{visibility}}</span>
+                                {{/visibility}}
+
+                                {{#collectionuuid}}
+                                    <span class="ml-2 text-monospace">{{collectionuuid}}</span>
+                                {{/collectionuuid}}
+                            </div>
+                        </div>
+
+                        <div class="btn-group">
+                            <button type="button"
+                                    class="btn btn-secondary btn-sm"
+                                    data-action="refresh-media-collections">
+                                {{#str}} refresh, core {{/str}}
+                            </button>
+
+                            {{#canupdate}}
+                                <button type="button"
+                                        class="btn btn-primary btn-sm"
+                                        data-action="update-media-collection"
+                                        data-collectionid="{{collectionid}}"
+                                        data-collectionuuid="{{collectionuuid}}">
+                                    {{#str}} savechanges, core {{/str}}
+                                </button>
+                            {{/canupdate}}
+                        </div>
+                    </div>
+
+                    <div class="card-body" data-region="media-collection-body">
+                        {{#description}}
+                            <div class="uckkarchive-media-collection-detail__description mb-3">
+                                {{{description}}}
+                            </div>
+                        {{/description}}
+
+                        {{#metadata}}
+                            <dl class="row uckkarchive-media-collection-detail__metadata">
+                                {{#summary}}
+                                    <dt class="col-sm-3">{{#str}} summary, uckkarchive {{/str}}</dt>
+                                    <dd class="col-sm-9">{{summary}}</dd>
+                                {{/summary}}
+
+                                {{#audience}}
+                                    <dt class="col-sm-3">{{#str}} audience, uckkarchive {{/str}}</dt>
+                                    <dd class="col-sm-9">{{audience}}</dd>
+                                {{/audience}}
+
+                                {{#teachingcontext}}
+                                    <dt class="col-sm-3">{{#str}} teachingcontext, uckkarchive {{/str}}</dt>
+                                    <dd class="col-sm-9">{{teachingcontext}}</dd>
+                                {{/teachingcontext}}
+
+                                {{#rightsnote}}
+                                    <dt class="col-sm-3">{{#str}} rightsnote, uckkarchive {{/str}}</dt>
+                                    <dd class="col-sm-9">{{rightsnote}}</dd>
+                                {{/rightsnote}}
+
+                                {{#restrictednote}}
+                                    <dt class="col-sm-3">{{#str}} restrictednote, uckkarchive {{/str}}</dt>
+                                    <dd class="col-sm-9">{{restrictednote}}</dd>
+                                {{/restrictednote}}
+                            </dl>
+                        {{/metadata}}
+
+                        {{#items.0}}
+                            <h4 class="h6 mt-4">{{#str}} mediaitems, uckkarchive {{/str}}</h4>
+
+                            <div class="list-group uckkarchive-media-collection-items"
+                                 data-region="media-collection-items">
+                                {{#items}}
+                                    <article class="list-group-item uckkarchive-media-collection-item"
+                                             data-region="media-collection-item"
+                                             data-mediaid="{{mediaid}}"
+                                             data-collectionid="{{collectionid}}">
+
+                                        <div class="d-flex align-items-start justify-content-between">
+                                            <div class="uckkarchive-media-collection-item__main">
+                                                <h5 class="h6 mb-1">
+                                                    {{#title}}{{title}}{{/title}}
+                                                    {{^title}}{{#str}} media, uckkarchive {{/str}} #{{mediaid}}{{/title}}
+                                                </h5>
+
+                                                {{#summary}}
+                                                    <div class="small text-muted">
+                                                        {{{summary}}}
+                                                    </div>
+                                                {{/summary}}
+
+                                                <div class="small text-muted mt-2">
+                                                    {{#mediatype}}
+                                                        <span class="badge badge-light">{{mediatype}}</span>
+                                                    {{/mediatype}}
+
+                                                    {{#status}}
+                                                        <span class="badge badge-secondary">{{status}}</span>
+                                                    {{/status}}
+
+                                                    {{#visibility}}
+                                                        <span class="badge badge-info">{{visibility}}</span>
+                                                    {{/visibility}}
+
+                                                    {{#role}}
+                                                        <span class="badge badge-dark">{{role}}</span>
+                                                    {{/role}}
+                                                </div>
+                                            </div>
+
+                                            <div class="uckkarchive-media-collection-item__actions ml-3">
+                                                {{#canremoveitems}}
+                                                    <button type="button"
+                                                            class="btn btn-outline-danger btn-sm"
+                                                            data-action="remove-media-from-collection"
+                                                            data-collectionid="{{collectionid}}"
+                                                            data-mediaid="{{mediaid}}">
+                                                        {{#str}} remove, core {{/str}}
+                                                    </button>
+                                                {{/canremoveitems}}
+                                            </div>
+                                        </div>
+                                    </article>
+                                {{/items}}
+                            </div>
+                        {{/items.0}}
+
+                        {{^items.0}}
+                            <div class="alert alert-info mb-0" data-region="media-collection-no-items">
+                                {{#str}} mediacollection:noitems, uckkarchive {{/str}}
+                            </div>
+                        {{/items.0}}
+
+                        {{#canadditems}}
+                            <form class="mt-4"
+                                  method="post"
+                                  data-form="media-collection-add-media">
+                                <input type="hidden" name="cmid" value="{{cmid}}">
+                                <input type="hidden" name="collectionid" value="{{collectionid}}">
+
+                                <div class="form-row">
+                                    <div class="form-group col-md-4">
+                                        <label for="uckkarchive-media-collection-add-media-{{collectionid}}">
+                                            {{#str}} mediaid, uckkarchive {{/str}}
+                                        </label>
+                                        <input id="uckkarchive-media-collection-add-media-{{collectionid}}"
+                                               class="form-control"
+                                               type="number"
+                                               min="1"
+                                               name="mediaid"
+                                               required>
+                                    </div>
+
+                                    <div class="form-group col-md-3">
+                                        <label for="uckkarchive-media-collection-add-role-{{collectionid}}">
+                                            {{#str}} role, core {{/str}}
+                                        </label>
+                                        <input id="uckkarchive-media-collection-add-role-{{collectionid}}"
+                                               class="form-control"
+                                               type="text"
+                                               name="role">
+                                    </div>
+
+                                    <div class="form-group col-md-3">
+                                        <label for="uckkarchive-media-collection-add-purpose-{{collectionid}}">
+                                            {{#str}} purpose, uckkarchive {{/str}}
+                                        </label>
+                                        <input id="uckkarchive-media-collection-add-purpose-{{collectionid}}"
+                                               class="form-control"
+                                               type="text"
+                                               name="purpose">
+                                    </div>
+
+                                    <div class="form-group col-md-2 d-flex align-items-end">
+                                        <button type="submit" class="btn btn-primary">
+                                            {{#str}} add, core {{/str}}
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="uckkarchive-media-collection-add-note-{{collectionid}}">
+                                        {{#str}} note, core {{/str}}
+                                    </label>
+                                    <textarea id="uckkarchive-media-collection-add-note-{{collectionid}}"
+                                              class="form-control"
+                                              name="note"
+                                              rows="2"></textarea>
+                                </div>
+                            </form>
+                        {{/canadditems}}
+                    </div>
+                </div>
+            </section>
+        {{/collectionid}}
+    {{/collection}}
+</div>

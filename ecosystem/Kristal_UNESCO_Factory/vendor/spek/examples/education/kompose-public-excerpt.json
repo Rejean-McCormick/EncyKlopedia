@@ -1,0 +1,310 @@
+{
+  "format": "spek.educational-projection/1",
+  "producer": "kompose",
+  "complete": true,
+  "scope": {
+    "audience": "general",
+    "data_classification": "public_demo",
+    "export_status": "authorized_local_preview",
+    "dataset_ref": "kompose:fictional-garden:0.1",
+    "reader_policy_ref": "kompose:public-excerpt-demo",
+    "pedagogical_review": "not_submitted"
+  },
+  "document": {
+    "article": {
+      "id": "urn:example:spek:fictional-school-garden",
+      "title_key": "title",
+      "subtitle_key": "subtitle",
+      "abstract_key": "abstract"
+    },
+    "units": [
+      {
+        "id": "u.def",
+        "kind": "definition",
+        "realization_key": "def",
+        "epistemic_status": "method",
+        "evidence_refs": [],
+        "external_ref": "kompose:fictional-garden:u.def"
+      },
+      {
+        "id": "u.ex1",
+        "kind": "example",
+        "realization_key": "ex1",
+        "epistemic_status": "hypothesis",
+        "evidence_refs": [],
+        "external_ref": "kompose:fictional-garden:u.ex1"
+      },
+      {
+        "id": "u.ex2",
+        "kind": "example",
+        "realization_key": "ex2",
+        "epistemic_status": "hypothesis",
+        "evidence_refs": [],
+        "external_ref": "kompose:fictional-garden:u.ex2"
+      },
+      {
+        "id": "u.counter",
+        "kind": "counterexample",
+        "realization_key": "counter",
+        "epistemic_status": "method",
+        "evidence_refs": [],
+        "external_ref": "kompose:fictional-garden:u.counter"
+      },
+      {
+        "id": "u.context",
+        "kind": "context",
+        "realization_key": "context",
+        "epistemic_status": "method",
+        "evidence_refs": [],
+        "external_ref": "kompose:fictional-garden:u.context"
+      },
+      {
+        "id": "u.limit1",
+        "kind": "qualification",
+        "realization_key": "limit1",
+        "epistemic_status": "limitation",
+        "evidence_refs": [],
+        "external_ref": "kompose:fictional-garden:u.limit1"
+      }
+    ],
+    "evidence": [],
+    "sections": [
+      {
+        "id": "concept",
+        "layout": "concept-card",
+        "heading_key": "h.concept",
+        "slots": {
+          "definition": [
+            "u.def"
+          ],
+          "examples": [
+            "u.ex1",
+            "u.ex2"
+          ],
+          "counterexamples": [
+            "u.counter"
+          ],
+          "context": [
+            "u.context"
+          ],
+          "limits": [
+            "u.limit1"
+          ]
+        }
+      }
+    ]
+  },
+  "realizations": {
+    "format": "kristal.layout-realizations/0.1",
+    "note": "Explicit manual fictional phrases, not generated/certified by SemantiK.",
+    "entries": {
+      "title": {
+        "fr": {
+          "text": "Observer le jardin de l’école",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "en": {
+          "text": "Observing the school garden",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "it": {
+          "text": "Osservare il giardino della scuola",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        }
+      },
+      "subtitle": {
+        "fr": {
+          "text": "Cinq fiches structurées; exemple fictif non évalué",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "en": {
+          "text": "Five structured layouts; fictional, unevaluated example",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "it": {
+          "text": "Cinque schede strutturate; esempio fittizio non valutato",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        }
+      },
+      "abstract": {
+        "fr": {
+          "text": "Ce scénario fictif montre comment distinguer définition, observation, interprétation, sources et parcours, sans évaluer un élève.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "en": {
+          "text": "This fictional scenario separates definitions, observations, interpretations, sources and learning paths without evaluating any student.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "it": {
+          "text": "Questo scenario fittizio distingue definizioni, osservazioni, interpretazioni, fonti e percorsi senza valutare studenti.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        }
+      },
+      "h.concept": {
+        "fr": {
+          "text": "Une notion : évaporation",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "en": {
+          "text": "A concept: evaporation",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "it": {
+          "text": "Un concetto: evaporazione",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        }
+      },
+      "def": {
+        "fr": {
+          "text": "L’évaporation est le passage de l’eau liquide à l’état de vapeur.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "en": {
+          "text": "Evaporation is the change from liquid water to water vapor.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "it": {
+          "text": "L’evaporazione è il passaggio dell’acqua liquida allo stato di vapore.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        }
+      },
+      "ex1": {
+        "fr": {
+          "text": "De l’eau dans une coupelle peut diminuer avec le temps.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "en": {
+          "text": "Water in a shallow dish may decrease over time.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "it": {
+          "text": "L’acqua in una vaschetta può diminuire nel tempo.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        }
+      },
+      "ex2": {
+        "fr": {
+          "text": "Une surface humide peut sécher sans bouillir.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "en": {
+          "text": "A wet surface can dry without boiling.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "it": {
+          "text": "Una superficie bagnata può asciugarsi senza bollire.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        }
+      },
+      "counter": {
+        "fr": {
+          "text": "La fonte de la glace n’est pas une évaporation.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "en": {
+          "text": "Melting ice is not evaporation.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "it": {
+          "text": "Lo scioglimento del ghiaccio non è evaporazione.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        }
+      },
+      "context": {
+        "fr": {
+          "text": "Les observations dépendent de la température, du vent et des conditions de mesure.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "en": {
+          "text": "Observations depend on temperature, wind and measurement conditions.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "it": {
+          "text": "Le osservazioni dipendono da temperatura, vento e condizioni di misura.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        }
+      },
+      "limit1": {
+        "fr": {
+          "text": "Une baisse du niveau d’eau ne démontre pas seule son mécanisme.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "en": {
+          "text": "A lower water level alone does not establish the mechanism.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        },
+        "it": {
+          "text": "Un livello d’acqua più basso non dimostra da solo il meccanismo.",
+          "status": "fixture",
+          "provider": "manual_demo_fixture",
+          "channel": "legacy"
+        }
+      }
+    }
+  },
+  "selection": {
+    "kristal_id": "fictional.garden",
+    "topic_id": "water",
+    "question_id": "definition",
+    "version": "0.1.0",
+    "access_scope": "preauthorized_public_excerpt"
+  }
+}

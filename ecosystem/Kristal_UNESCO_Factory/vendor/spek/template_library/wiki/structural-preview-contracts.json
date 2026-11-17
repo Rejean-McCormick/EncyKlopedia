@@ -1,0 +1,142 @@
+{
+  "format": "spek.wiki-structural-preview-contracts/1.0",
+  "publication_eligible": false,
+  "template_inference_allowed": false,
+  "production_layouts_implemented": true,
+  "purpose": "Offline unqualified structural audit, independent from 19 typed editorial layouts requiring explicit SemantiK sources",
+  "fact_source": "reviewed_source_positions_zero_based_only",
+  "input_contract": {
+    "source": "Kristal v8 portable state carrying v6 assertions; raw SHA-256 exactly equal to reviewed source",
+    "section_selection": "explicit AI-authored ordered_structural_sections from kristal-structure-reviews.json",
+    "mandatory_fields": [
+      "assertion_id",
+      "statement.subject",
+      "statement.predicate",
+      "statement.object"
+    ],
+    "prohibited": [
+      "new facts",
+      "temporal inference",
+      "template selection at runtime",
+      "language generation",
+      "publication"
+    ]
+  },
+  "output_contract": "offline inspection-structurelle.html + inspection-manifest.json; not a production Wiki surface",
+  "templates": [
+    {
+      "id": "agroecosystem-network",
+      "label": "Réseau agroécologique",
+      "preview_kind": "network",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "boundary-relation-map",
+      "label": "Frontières de domaine et références croisées",
+      "preview_kind": "network",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "crossscale-distinctions-map",
+      "label": "Distinctions entre échelles",
+      "preview_kind": "network",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "double-entry-ledger",
+      "label": "Matrice journaux, comptes, débit et crédit",
+      "preview_kind": "ledger",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "event-document-chain",
+      "label": "Événement → justificatif → enregistrement",
+      "preview_kind": "chain",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "evidence-constraint-matrix",
+      "label": "Tableau de preuves, conditions et limites",
+      "preview_kind": "matrix",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "functional-trajectory-map",
+      "label": "Trajectoires fonctionnelles et variantes",
+      "preview_kind": "trajectory",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "inputs-practices-matrix",
+      "label": "Correspondance intrants, pratiques et contraintes",
+      "preview_kind": "matrix",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "mission-phase-map",
+      "label": "Architecture de mission et phases non datées",
+      "preview_kind": "chain",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "multiscale-relations-map",
+      "label": "Graphe multi-échelles",
+      "preview_kind": "network",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "period-rollup-matrix",
+      "label": "Regroupement par périodes et états",
+      "preview_kind": "matrix",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "practice-interface-map",
+      "label": "Interfaces et pratiques non prescriptives",
+      "preview_kind": "network",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "process-interface-map",
+      "label": "Flux de processus et interfaces",
+      "preview_kind": "chain",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "relation-network",
+      "label": "Graphe de relations étiquetées",
+      "preview_kind": "network",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "source-provenance-index",
+      "label": "Inventaire des sources et de la provenance",
+      "preview_kind": "provenance",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "stage-interaction-network",
+      "label": "Carte de phases et interactions non linéaires",
+      "preview_kind": "network",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "system-interface-map",
+      "label": "Carte véhicules, sous-systèmes et ressources",
+      "preview_kind": "network",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "taxonomy-tree",
+      "label": "Arbre de concepts et spécialisations",
+      "preview_kind": "taxonomy",
+      "status": "AUDIT_PREVIEW_ONLY"
+    },
+    {
+      "id": "trajectory-constraints-map",
+      "label": "Trajectoires et contraintes contextuelles",
+      "preview_kind": "trajectory",
+      "status": "AUDIT_PREVIEW_ONLY"
+    }
+  ]
+}

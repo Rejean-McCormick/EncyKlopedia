@@ -1,0 +1,411 @@
+{
+  "format": "spek.slot-dialogue/1.0",
+  "language": "fr",
+  "status": "PREPARATION_PRIVEE_NON_APPROUVEE",
+  "policy": "forme_deterministe_par_slot_sans_choix_de_faits",
+  "fields": {
+    "title": {
+      "intent": "titre_court",
+      "force": "PRESENT",
+      "block_kinds": [
+        "heading",
+        "utterance"
+      ],
+      "max_length": 240,
+      "locations": [
+        {
+          "scope": "article",
+          "field": "title_key"
+        }
+      ]
+    },
+    "subtitle": {
+      "intent": "sous_titre",
+      "force": "PRESENT",
+      "block_kinds": [
+        "utterance",
+        "heading"
+      ],
+      "max_length": 400,
+      "locations": [
+        {
+          "scope": "article",
+          "field": "subtitle_key"
+        }
+      ]
+    },
+    "abstract": {
+      "intent": "resume_des_obligations_selectionnees",
+      "force": "PRESENT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 2400,
+      "locations": [
+        {
+          "scope": "article",
+          "field": "abstract_key"
+        }
+      ]
+    },
+    "heading.result": {
+      "intent": "titre_de_section",
+      "force": "PRESENT",
+      "block_kinds": [
+        "heading",
+        "utterance"
+      ],
+      "max_length": 240,
+      "locations": [
+        {
+          "scope": "section",
+          "section": "result",
+          "field": "heading_key"
+        }
+      ]
+    },
+    "u.result.claim": {
+      "intent": "enonce",
+      "force": "ASSERT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1800,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "result",
+          "layout": "result-card",
+          "slot": "claim",
+          "unit_ref": "u.result.claim"
+        }
+      ]
+    },
+    "u.result.scope": {
+      "intent": "portee",
+      "force": "PRESENT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1200,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "result",
+          "layout": "result-card",
+          "slot": "conditions",
+          "unit_ref": "u.result.scope"
+        }
+      ]
+    },
+    "e.layout": {
+      "intent": "source_documentaire",
+      "force": "PRESENT",
+      "block_kinds": [
+        "utterance",
+        "label_value"
+      ],
+      "max_length": 1200,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "result",
+          "layout": "result-card",
+          "slot": "evidence",
+          "unit_ref": "e.layout"
+        }
+      ]
+    },
+    "e.tests": {
+      "intent": "source_documentaire",
+      "force": "PRESENT",
+      "block_kinds": [
+        "utterance",
+        "label_value"
+      ],
+      "max_length": 1200,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "result",
+          "layout": "result-card",
+          "slot": "evidence",
+          "unit_ref": "e.tests"
+        }
+      ]
+    },
+    "u.result.limit": {
+      "intent": "precaution",
+      "force": "PRESENT",
+      "block_kinds": [
+        "notice",
+        "utterance"
+      ],
+      "max_length": 1600,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "result",
+          "layout": "result-card",
+          "slot": "uncertainty",
+          "unit_ref": "u.result.limit"
+        }
+      ]
+    },
+    "u.result.impact": {
+      "intent": "implication",
+      "force": "PRESENT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1800,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "result",
+          "layout": "result-card",
+          "slot": "implications",
+          "unit_ref": "u.result.impact"
+        }
+      ]
+    },
+    "heading.argument": {
+      "intent": "titre_de_section",
+      "force": "PRESENT",
+      "block_kinds": [
+        "heading",
+        "utterance"
+      ],
+      "max_length": 240,
+      "locations": [
+        {
+          "scope": "section",
+          "section": "argument",
+          "field": "heading_key"
+        }
+      ]
+    },
+    "u.argument.thesis": {
+      "intent": "these",
+      "force": "ASSERT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1800,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "argument",
+          "layout": "argument-map",
+          "slot": "thesis",
+          "unit_ref": "u.argument.thesis"
+        }
+      ]
+    },
+    "u.argument.premise1": {
+      "intent": "premisse",
+      "force": "ASSERT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1800,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "argument",
+          "layout": "argument-map",
+          "slot": "premises",
+          "unit_ref": "u.argument.premise1"
+        }
+      ]
+    },
+    "u.argument.premise2": {
+      "intent": "premisse",
+      "force": "ASSERT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1800,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "argument",
+          "layout": "argument-map",
+          "slot": "premises",
+          "unit_ref": "u.argument.premise2"
+        }
+      ]
+    },
+    "u.argument.inference": {
+      "intent": "inference",
+      "force": "PRESENT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1800,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "argument",
+          "layout": "argument-map",
+          "slot": "inference",
+          "unit_ref": "u.argument.inference"
+        }
+      ]
+    },
+    "u.argument.objection": {
+      "intent": "objection",
+      "force": "PRESENT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1800,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "argument",
+          "layout": "argument-map",
+          "slot": "objection",
+          "unit_ref": "u.argument.objection"
+        }
+      ]
+    },
+    "u.argument.conclusion": {
+      "intent": "conclusion",
+      "force": "ASSERT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1800,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "argument",
+          "layout": "argument-map",
+          "slot": "conclusion",
+          "unit_ref": "u.argument.conclusion"
+        }
+      ]
+    },
+    "heading.comparison": {
+      "intent": "titre_de_section",
+      "force": "PRESENT",
+      "block_kinds": [
+        "heading",
+        "utterance"
+      ],
+      "max_length": 240,
+      "locations": [
+        {
+          "scope": "section",
+          "section": "comparison",
+          "field": "heading_key"
+        }
+      ]
+    },
+    "u.compare.topic": {
+      "intent": "question",
+      "force": "ASK",
+      "block_kinds": [
+        "question"
+      ],
+      "max_length": 500,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "comparison",
+          "layout": "comparison",
+          "slot": "topic",
+          "unit_ref": "u.compare.topic"
+        }
+      ]
+    },
+    "u.compare.criterion": {
+      "intent": "critere",
+      "force": "PRESENT",
+      "block_kinds": [
+        "utterance",
+        "label_value"
+      ],
+      "max_length": 500,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "comparison",
+          "layout": "comparison",
+          "slot": "criterion",
+          "unit_ref": "u.compare.criterion"
+        }
+      ]
+    },
+    "u.compare.prose": {
+      "intent": "approche",
+      "force": "PRESENT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1800,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "comparison",
+          "layout": "comparison",
+          "slot": "approach_a",
+          "unit_ref": "u.compare.prose"
+        }
+      ]
+    },
+    "u.compare.layout": {
+      "intent": "approche",
+      "force": "PRESENT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1800,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "comparison",
+          "layout": "comparison",
+          "slot": "approach_b",
+          "unit_ref": "u.compare.layout"
+        }
+      ]
+    },
+    "u.compare.conclusion": {
+      "intent": "conclusion",
+      "force": "ASSERT",
+      "block_kinds": [
+        "utterance"
+      ],
+      "max_length": 1800,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "comparison",
+          "layout": "comparison",
+          "slot": "synthesis",
+          "unit_ref": "u.compare.conclusion"
+        }
+      ]
+    },
+    "u.compare.limit": {
+      "intent": "precaution",
+      "force": "PRESENT",
+      "block_kinds": [
+        "notice",
+        "utterance"
+      ],
+      "max_length": 1600,
+      "locations": [
+        {
+          "scope": "slot",
+          "section": "comparison",
+          "layout": "comparison",
+          "slot": "limitations",
+          "unit_ref": "u.compare.limit"
+        }
+      ]
+    }
+  }
+}

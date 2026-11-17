@@ -1,0 +1,100 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.rst-sequence",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Séquence d’événements déclarée",
+  "research_basis": {
+    "family": "coherence",
+    "relation": "rst.sequence",
+    "source": "RST",
+    "source_url": "https://www.sfu.ca/rst/07french/definitions.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "rst.sequence",
+    "editorial_relation_required": true,
+    "semantic_warning": "N’impose aucune date si elle n’est pas fournie.",
+    "critical_questions": []
+  },
+  "slots": {
+    "events": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 10,
+      "allowed_kinds": [
+        "event"
+      ],
+      "visual_role": "paragraph"
+    },
+    "scope": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "scope"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "events",
+    "scope"
+  ],
+  "presentation_policy": {
+    "layout_variant": "stack",
+    "show_template_labels": false
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "rst.sequence",
+    "focus_slot": "events",
+    "moves": [
+      {
+        "slot": "events",
+        "function": "sequence",
+        "nuclearity": "multinuclear",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "scope",
+        "function": "scope",
+        "nuclearity": "multinuclear",
+        "group": 1,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "scope",
+        "to_slot": "events",
+        "relation": "rst.sequence",
+        "status": "requires_external_semantic_review",
+        "relation_function": "qualifies"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "events",
+        "scope"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "N’impose aucune date si elle n’est pas fournie."
+    }
+  }
+}

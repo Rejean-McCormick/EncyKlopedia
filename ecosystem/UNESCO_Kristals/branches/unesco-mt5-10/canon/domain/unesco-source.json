@@ -1,0 +1,4672 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتصالات"
+        ],
+        "en": [
+          "Communication"
+        ],
+        "es": [
+          "Comunicación"
+        ],
+        "fr": [
+          "Communication"
+        ],
+        "ru": [
+          "Коммуникация"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "عملية اجتماعية تفاعلية تتضمن المشاركة للمعلومات والخبرات والثقافات، ماديا أو إلكترونيًا، والتي تقود إلى التعزيز المشترك لجميع المهتمين. استخدم واصفة أكثر تحديدًا."
+        ],
+        "en": [
+          "An interactive social process which involves the sharing of information, experiences, and cultures, both physically or electronically, and results in the mutual enhancement of all concerned. Use more specific descriptor."
+        ],
+        "es": [
+          "Proceso social interactivo que implica compartir información, experiencias y culturas, tanto física como electrónicamente, generando el enriquecimiento de todos los actores."
+        ],
+        "fr": [
+          "Processus social interactif qui implique le partage d'information, d'expérience et de culture, à la fois concrètement et électroniquement, pour l'enrichissement mutuel de toutes les personnes concernées. Utiliser un descripteur plus précis."
+        ],
+        "ru": [
+          "Интерактивный общественный процесс, включающий обмен информацией, опытом и культурными ценностями как в материальной, так и в электронной форме и благотворно влияющий в конечном итоге на всех его участников. В необходимых случаях использовать более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept460",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept460",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T14:36:12+00:00",
+      "narrower": [
+        "concept1355",
+        "concept5722",
+        "concept5801",
+        "concept5802",
+        "concept5803",
+        "concept5804"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخطيط الاتصال"
+        ],
+        "en": [
+          "Communication planning"
+        ],
+        "es": [
+          "Planificación de la comunicación"
+        ],
+        "fr": [
+          "Planification de la communication"
+        ],
+        "ru": [
+          "Планирование в области передачи информации и связи"
+        ]
+      },
+      "related": [
+        "concept462",
+        "concept5789",
+        "concept5806"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept461",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept461",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سياسة الاتصال"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T14:33:13+00:00",
+      "narrower": [
+        "concept4833",
+        "concept5728",
+        "concept5738",
+        "concept5749",
+        "concept5806"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة الاتصالات"
+        ],
+        "en": [
+          "Communication policy"
+        ],
+        "es": [
+          "Política de la comunicación"
+        ],
+        "fr": [
+          "Politique de la communication"
+        ],
+        "ru": [
+          "Политика в области передачи информации и связи"
+        ]
+      },
+      "related": [
+        "concept1800",
+        "concept461"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept462",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept462",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتصالات (نقل الفكر)",
+          "قنوات الاتصالات"
+        ],
+        "en": [
+          "Channels of communication",
+          "Communication (thought transfer)"
+        ],
+        "es": [
+          "Canales de comunicación",
+          "Telepatía",
+          "Transmisión del pensamiento"
+        ],
+        "fr": [
+          "Canaux de communication",
+          "Transmission de pensée",
+          "Télépathie"
+        ],
+        "ru": [
+          "Каналы передачи информации и связи",
+          "Коммуникация (передача идей и мыслей)"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-24T11:22:07+00:00",
+      "narrower": [
+        "concept1151",
+        "concept1532",
+        "concept1542",
+        "concept1543",
+        "concept1544",
+        "concept1546",
+        "concept1547",
+        "concept3897",
+        "concept5735",
+        "concept5775"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عملية الاتصالات"
+        ],
+        "en": [
+          "Communication process"
+        ],
+        "es": [
+          "Proceso de comunicación"
+        ],
+        "fr": [
+          "Processus de communication"
+        ],
+        "ru": [
+          "Коммуникационный процесс"
+        ]
+      },
+      "related": [
+        "concept1541"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept463",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept463",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحوث الاتصال"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T14:33:20+00:00",
+      "narrower": [
+        "concept1538",
+        "concept1541",
+        "concept3058",
+        "concept3326",
+        "concept5758",
+        "concept5761"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث الاتصالات"
+        ],
+        "en": [
+          "Communication research"
+        ],
+        "es": [
+          "Investigación sobre la comunicación"
+        ],
+        "fr": [
+          "Recherche sur la communication"
+        ],
+        "ru": [
+          "Коммуникационные исследования"
+        ]
+      },
+      "related": [
+        "concept3321",
+        "concept3325",
+        "concept378"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept464",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept464",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتاحة المعلومات",
+          "امكانية الوصول إلى المعلومات",
+          "توافر المعلومات",
+          "حواجز الإعلام",
+          "حواجز الاتصال",
+          "حواجز المعلومات"
+        ],
+        "en": [
+          "Accessibility of information",
+          "Availability of information",
+          "Communication barriers",
+          "Information barriers"
+        ],
+        "es": [
+          "Accesibilidad a la información",
+          "Barrera a la información",
+          "Disponibilidad de la información",
+          "Obstáculo a la comunicación"
+        ],
+        "fr": [
+          "Accessibilité de l'information",
+          "Barrière à l'accès à l'information",
+          "Disponibilité de l'information",
+          "Obstacle à la communication"
+        ],
+        "ru": [
+          "Барьеры в сфере передачи информации и связи",
+          "Доступность информации",
+          "Информационные барьеры",
+          "Наличие информации"
+        ]
+      },
+      "broader": [
+        "concept5728"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2026-01-23T16:35:11+00:00",
+      "narrower": [
+        "concept17127",
+        "concept17128",
+        "concept17187"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وصول إلى المعلومات"
+        ],
+        "en": [
+          "Access to information"
+        ],
+        "es": [
+          "Acceso a la información"
+        ],
+        "fr": [
+          "Accès à l'information"
+        ],
+        "ru": [
+          "Доступ к информации"
+        ]
+      },
+      "related": [
+        "concept1146",
+        "concept1147",
+        "concept1148",
+        "concept1149",
+        "concept1150",
+        "concept1151",
+        "concept1152",
+        "concept1153",
+        "concept1154",
+        "concept16994",
+        "concept17077",
+        "concept17093",
+        "concept17094",
+        "concept17126",
+        "concept17138",
+        "concept17188"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1129",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1129",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "امن البيانات",
+          "امن الحواسب",
+          "جرائم الحاسب",
+          "خصوصية البيانات"
+        ],
+        "en": [
+          "Computer crime",
+          "Computer security",
+          "Data privacy",
+          "Data security"
+        ],
+        "es": [
+          "Cibercrimen",
+          "Confidencialidad de datos",
+          "Crimen informático",
+          "Criminalidad informática",
+          "Delincuencia informática",
+          "Delito informático",
+          "Privacidad de los datos",
+          "Seguridad de los datos"
+        ],
+        "fr": [
+          "Confidentialité des données",
+          "Criminalité informatique",
+          "Cybercrime",
+          "Délinquance informatique",
+          "Délit informatique",
+          "Sécurité des données"
+        ],
+        "ru": [
+          "Компьютерная безопасность",
+          "Компьютерные преступления",
+          "Конфиденциальность данных",
+          "Обеспечение секретности данных"
+        ]
+      },
+      "broader": [
+        "concept4833"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2026-01-23T14:17:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حماية البيانات"
+        ],
+        "en": [
+          "Data protection"
+        ],
+        "es": [
+          "Protección de datos"
+        ],
+        "fr": [
+          "Protection des données"
+        ],
+        "ru": [
+          "Защита данных"
+        ]
+      },
+      "related": [
+        "concept1129",
+        "concept1146",
+        "concept17187",
+        "concept5307"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1147",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1147",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حرية تداول المعلومات"
+        ]
+      },
+      "broader": [
+        "concept5728"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-24T11:22:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدفق حر للمعلومات"
+        ],
+        "en": [
+          "Free flow of information"
+        ],
+        "es": [
+          "Libre circulación de la información"
+        ],
+        "fr": [
+          "Libre circulation de l'information"
+        ],
+        "ru": [
+          "Свободный поток информации"
+        ]
+      },
+      "related": [
+        "concept1129",
+        "concept1151",
+        "concept1154"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1148",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1148",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدفق المعلومات"
+        ],
+        "en": [
+          "Information flow"
+        ],
+        "es": [
+          "Flujo de información"
+        ],
+        "fr": [
+          "Cheminement de l'information",
+          "Flux d'information"
+        ],
+        "ru": [
+          "Информационный поток"
+        ]
+      },
+      "broader": [
+        "concept463"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:50:30+00:00",
+      "narrower": [
+        "concept5256"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقل المعلومات"
+        ],
+        "en": [
+          "Information transfer"
+        ],
+        "es": [
+          "Transferencia de información"
+        ],
+        "fr": [
+          "Transfert d'information"
+        ],
+        "ru": [
+          "Передача информации"
+        ]
+      },
+      "related": [
+        "concept1129",
+        "concept1148",
+        "concept1532",
+        "concept2600",
+        "concept452",
+        "concept453",
+        "concept503",
+        "concept512",
+        "concept523",
+        "concept5824",
+        "concept8017",
+        "concept8759"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1151",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1151",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادارة وسائل الإعلام",
+          "ادارة وسائل الإعلام الجماهيري"
+        ],
+        "en": [
+          "Mass media administration",
+          "Mass media management"
+        ],
+        "es": [
+          "Administración de los medios de comunicación",
+          "Gestión de los medios de comunicación"
+        ],
+        "fr": [
+          "Administration des media",
+          "Gestion des media"
+        ],
+        "ru": [
+          "Руководство средствами массовой информации",
+          "Управление средствами массовой информации"
+        ]
+      },
+      "broader": [
+        "concept461"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:32+00:00",
+      "narrower": [
+        "concept17142",
+        "concept4346"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادارة الاتصالات"
+        ],
+        "en": [
+          "Communication administration"
+        ],
+        "es": [
+          "Administración de la comunicación"
+        ],
+        "fr": [
+          "Administration de la communication"
+        ],
+        "ru": [
+          "Управление в области передачи информации и связи"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1355",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1355",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دعاية"
+        ],
+        "en": [
+          "Publicity"
+        ],
+        "es": [
+          "Anuncio",
+          "Espacio publicitario",
+          "Reclamo"
+        ],
+        "fr": [
+          "Réclame"
+        ],
+        "ru": [
+          "Публичность"
+        ]
+      },
+      "broader": [
+        "concept463"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2021-03-30T15:23:56+00:00",
+      "narrower": [
+        "concept1534",
+        "concept1535",
+        "concept1536"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعلان"
+        ],
+        "en": [
+          "Advertising"
+        ],
+        "es": [
+          "Publicidad"
+        ],
+        "fr": [
+          "Publicité"
+        ],
+        "ru": [
+          "Реклама"
+        ]
+      },
+      "related": [
+        "concept1151",
+        "concept1538",
+        "concept1539",
+        "concept1540",
+        "concept1541",
+        "concept1542",
+        "concept1543",
+        "concept1544",
+        "concept1545",
+        "concept1546",
+        "concept1547",
+        "concept1548",
+        "concept1549",
+        "concept17120",
+        "concept628"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1532",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1532",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعلان عن طريق الصحافة"
+        ],
+        "en": [
+          "Newspaper advertising"
+        ],
+        "es": [
+          "Anuncio de prensa",
+          "Anuncio publicitario",
+          "Publicidad impresa"
+        ],
+        "fr": [
+          "Annonce de presse",
+          "Annonce publicitaire",
+          "Annonce-presse"
+        ],
+        "ru": [
+          "Газетная реклама"
+        ]
+      },
+      "broader": [
+        "concept1532"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T14:36:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعلان في الصحف"
+        ],
+        "en": [
+          "Press advertising"
+        ],
+        "es": [
+          "Publicidad periodística"
+        ],
+        "fr": [
+          "Publicité de presse"
+        ],
+        "ru": [
+          "Реклама в прессе"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1534",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1534",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعلان بالراديو",
+          "اعلانات الراديو"
+        ]
+      },
+      "broader": [
+        "concept1532"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T14:32:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعلانات اذاعية"
+        ],
+        "en": [
+          "Radio advertising"
+        ],
+        "es": [
+          "Publicidad radiofónica"
+        ],
+        "fr": [
+          "Publicité radiophonique"
+        ],
+        "ru": [
+          "Реклама на радио"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1535",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1535",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعلانات التلفزيون"
+        ],
+        "es": [
+          "Anuncio de televisión",
+          "Publicidad televisiva"
+        ],
+        "fr": [
+          "Publicité télédiffusée",
+          "Publicité à la télévision"
+        ]
+      },
+      "broader": [
+        "concept1532"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعلانات تلفزيونية"
+        ],
+        "en": [
+          "Television advertising"
+        ],
+        "es": [
+          "Publicidad televisada"
+        ],
+        "fr": [
+          "Publicité télévisée"
+        ],
+        "ru": [
+          "Реклама на телевидении"
+        ]
+      },
+      "related": [
+        "concept5673"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1536",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1536",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحوث جمهور المستمعين والمشاهدين",
+          "دراسة الجمهور"
+        ],
+        "es": [
+          "Análisis de audiencia"
+        ],
+        "fr": [
+          "Étude d'audience"
+        ]
+      },
+      "broader": [
+        "concept464"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:18+00:00",
+      "narrower": [
+        "concept3312",
+        "concept3315",
+        "concept3319",
+        "concept3323"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث الجمهور"
+        ],
+        "en": [
+          "Audience research"
+        ],
+        "es": [
+          "Estudio de audiencia"
+        ],
+        "fr": [
+          "Recherche sur le public"
+        ],
+        "ru": [
+          "Исследование аудитории"
+        ]
+      },
+      "related": [
+        "concept1532",
+        "concept1541",
+        "concept277",
+        "concept3325",
+        "concept3326",
+        "concept482"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1538",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1538",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم نفس الاتصالات"
+        ]
+      },
+      "broader": [
+        "concept464"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:51:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سيكولوجية الاتصالات"
+        ],
+        "en": [
+          "Communication psychology"
+        ],
+        "es": [
+          "Psicología de la comunicación"
+        ],
+        "fr": [
+          "Psychologie de la communication"
+        ],
+        "ru": [
+          "Коммуникационная психология"
+        ]
+      },
+      "related": [
+        "concept1532",
+        "concept1538",
+        "concept1544",
+        "concept1546",
+        "concept1547",
+        "concept311",
+        "concept3326",
+        "concept377",
+        "concept463",
+        "concept482",
+        "concept5753",
+        "concept5761",
+        "concept5775"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1541",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1541",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Aptitud de comunicación"
+        ],
+        "fr": [
+          "Aptitude à communiquer"
+        ]
+      },
+      "broader": [
+        "concept463"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:43+00:00",
+      "narrower": [
+        "concept5785",
+        "concept5826",
+        "concept5827",
+        "concept5828",
+        "concept5829"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مهارات الاتصال"
+        ],
+        "en": [
+          "Communication skills"
+        ],
+        "es": [
+          "Técnica de comunicación"
+        ],
+        "fr": [
+          "Technique de communication"
+        ],
+        "ru": [
+          "Коммуникационные навыки"
+        ]
+      },
+      "related": [
+        "concept1532",
+        "concept2992",
+        "concept5831"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1542",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1542",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ردود الفعل (الاتصال)"
+        ]
+      },
+      "broader": [
+        "concept463"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T14:33:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ردود الفعل (الاتصالات)"
+        ],
+        "en": [
+          "Feedback (communication)"
+        ],
+        "es": [
+          "Retroalimentación (comunicación)"
+        ],
+        "fr": [
+          "Rétroaction (communication)"
+        ],
+        "ru": [
+          "Обратная связь (коммуникация)"
+        ]
+      },
+      "related": [
+        "concept1532",
+        "concept1544",
+        "concept1546",
+        "concept1547",
+        "concept482",
+        "concept5735",
+        "concept5753",
+        "concept5775"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1543",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1543",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept463"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:49:52+00:00",
+      "narrower": [
+        "concept6218",
+        "concept6229"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتصال جمعي"
+        ],
+        "en": [
+          "Group communication"
+        ],
+        "es": [
+          "Comunicación en grupo"
+        ],
+        "fr": [
+          "Communication en groupe"
+        ],
+        "ru": [
+          "Групповая коммуникация"
+        ]
+      },
+      "related": [
+        "concept11644",
+        "concept1532",
+        "concept1541",
+        "concept1543",
+        "concept1547",
+        "concept5735",
+        "concept5753",
+        "concept5775",
+        "concept5943",
+        "concept8183"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1544",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1544",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Information des masses"
+        ]
+      },
+      "broader": [
+        "concept463"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:51:10+00:00",
+      "narrower": [
+        "concept1548",
+        "concept1549"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتصال جماهيري"
+        ],
+        "en": [
+          "Mass communication"
+        ],
+        "es": [
+          "Comunicación de masas"
+        ],
+        "fr": [
+          "Communication de masse"
+        ],
+        "ru": [
+          "Массовые коммуникации"
+        ]
+      },
+      "related": [
+        "concept1532",
+        "concept1541",
+        "concept1543",
+        "concept1547",
+        "concept17017",
+        "concept487",
+        "concept5731",
+        "concept5749",
+        "concept5753",
+        "concept5761",
+        "concept5763",
+        "concept5873",
+        "concept6465"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1546",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1546",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept463"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:50:46+00:00",
+      "narrower": [
+        "concept5753"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقناع"
+        ],
+        "en": [
+          "Persuasion"
+        ],
+        "es": [
+          "Persuasión"
+        ],
+        "fr": [
+          "Persuasion"
+        ],
+        "ru": [
+          "Убеждение"
+        ]
+      },
+      "related": [
+        "concept11653",
+        "concept1532",
+        "concept1541",
+        "concept1543",
+        "concept1544",
+        "concept1546",
+        "concept1548",
+        "concept5761"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1547",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1547",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعلام جماهيري",
+          "دعاية حكومية"
+        ],
+        "en": [
+          "Government publicity"
+        ],
+        "es": [
+          "Publicidad gubernamental"
+        ],
+        "fr": [
+          "Publicité gouvernementale"
+        ],
+        "ru": [
+          "Гласность на государственном уровне"
+        ]
+      },
+      "broader": [
+        "concept1546"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2026-01-23T16:15:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معلومات عامة"
+        ],
+        "en": [
+          "Public information"
+        ],
+        "es": [
+          "Información pública"
+        ],
+        "fr": [
+          "Information grand public"
+        ],
+        "ru": [
+          "Общественная информация"
+        ]
+      },
+      "related": [
+        "concept1153",
+        "concept11653",
+        "concept1532",
+        "concept1547",
+        "concept1549",
+        "concept17004",
+        "concept17188",
+        "concept512",
+        "concept5749",
+        "concept5753",
+        "concept5763",
+        "concept5873",
+        "concept8356"
+      ],
+      "scope_notes": {
+        "ar": [
+          "المعلومات التي تقدمها الهيئات الحكومية والاعتبارية للجمهور، لنشر المعرفة بخصوص برامج وأنشطة المؤسسة."
+        ],
+        "en": [
+          "Information, offered by governmental and corporate bodies to the public, to disseminate knowledge concerning the programmes and activities of the institution."
+        ],
+        "es": [
+          "Información ofrecida por los organismos gubernamentales al público para dar a conocer sus programas y actividades."
+        ],
+        "fr": [
+          "Information fournie au public par les organismes gouvernementaux pour faire connaître leurs programmes et activités."
+        ],
+        "ru": [
+          "Информация, предлагаемая общественности государственными и корпоративными учреждениями в целях распространения знаний, касающихся их программ и деятельности."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1548",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1548",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1546"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاقات عامة"
+        ],
+        "en": [
+          "Public relations"
+        ],
+        "es": [
+          "Relaciones públicas"
+        ],
+        "fr": [
+          "Relations publiques"
+        ],
+        "ru": [
+          "Связи с общественностью"
+        ]
+      },
+      "related": [
+        "concept1532",
+        "concept1548",
+        "concept5763"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1549",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1549",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ترميز",
+          "تشفير",
+          "تكويد",
+          "حل الشفرة",
+          "رسائل",
+          "فك الترميز",
+          "فك الشفرة",
+          "نظرية الاتصالات"
+        ],
+        "en": [
+          "Coding",
+          "Communication theory",
+          "Decoding",
+          "Messages"
+        ],
+        "es": [
+          "Contenido",
+          "Emisor",
+          "Mensaje",
+          "Receptor",
+          "Teoría de la comunicación"
+        ],
+        "fr": [
+          "Message",
+          "Théorie de la communication"
+        ],
+        "ru": [
+          "Декодирование",
+          "Кодировка",
+          "Сообщения",
+          "Теория коммуникаций"
+        ]
+      },
+      "broader": [
+        "concept464"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:24+00:00",
+      "narrower": [
+        "concept5533"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظرية المعلومات"
+        ],
+        "en": [
+          "Information theory"
+        ],
+        "es": [
+          "Teoría de la información"
+        ],
+        "fr": [
+          "Théorie de l'information"
+        ],
+        "ru": [
+          "Теория информации"
+        ]
+      },
+      "related": [
+        "concept2567",
+        "concept3052",
+        "concept3055",
+        "concept3057",
+        "concept455",
+        "concept5530",
+        "concept5633",
+        "concept5635",
+        "concept7524",
+        "concept7525"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشمل ترميز وفك ترميز الرسائل."
+        ],
+        "en": [
+          "Includes the coding and decoding of messages."
+        ],
+        "es": [
+          "Incluye la codificación y la decodificación de mensajes."
+        ],
+        "fr": [
+          "Inclut le codage et le décodage de messages."
+        ],
+        "ru": [
+          "Включает кодирование и раскодирование информации."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3058",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3058",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1538"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:51:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مشاركة الجمهور"
+        ],
+        "en": [
+          "Audience participation"
+        ],
+        "es": [
+          "Participación del público"
+        ],
+        "fr": [
+          "Participation du public"
+        ],
+        "ru": [
+          "Участие аудитории"
+        ]
+      },
+      "related": [
+        "concept17089",
+        "concept277",
+        "concept482"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3312",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3312",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1538"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:50:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم الجمهور"
+        ],
+        "en": [
+          "Audience rating"
+        ],
+        "es": [
+          "Medición de audiencia"
+        ],
+        "fr": [
+          "Évaluation du public"
+        ],
+        "ru": [
+          "Рейтинг аудитории"
+        ]
+      },
+      "related": [
+        "concept3317"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3315",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3315",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1538"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:51:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ردود فعل الجمهور"
+        ],
+        "en": [
+          "Audience reaction"
+        ],
+        "es": [
+          "Reacción del público"
+        ],
+        "fr": [
+          "Réaction du public"
+        ],
+        "ru": [
+          "Реакция аудитории"
+        ]
+      },
+      "related": [
+        "concept277",
+        "concept3321",
+        "concept482"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3319",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3319",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1538"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ارقام التوزيع"
+        ],
+        "en": [
+          "Circulation figures"
+        ],
+        "es": [
+          "Cifra de tirada"
+        ],
+        "fr": [
+          "Chiffres de tirage"
+        ],
+        "ru": [
+          "Объемы тиражей"
+        ]
+      },
+      "related": [
+        "concept3810",
+        "concept5258",
+        "concept5259"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3323",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3323",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم اجتماع الاتصالات"
+        ]
+      },
+      "broader": [
+        "concept464"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:36+00:00",
+      "narrower": [
+        "concept5763"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سوسيولوجيا الاتصالات"
+        ],
+        "en": [
+          "Sociology of communication"
+        ],
+        "es": [
+          "Sociología de la comunicación"
+        ],
+        "fr": [
+          "Sociologie de la communication"
+        ],
+        "ru": [
+          "Социология коммуникаций"
+        ]
+      },
+      "related": [
+        "concept1538",
+        "concept1541",
+        "concept5749",
+        "concept5761"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3326",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3326",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5804"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:50:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكاليف الكتب"
+        ],
+        "en": [
+          "Book costs"
+        ],
+        "es": [
+          "Coste de los libros"
+        ],
+        "fr": [
+          "Coût des livres"
+        ],
+        "ru": [
+          "Затраты на производство книг"
+        ]
+      },
+      "related": [
+        "concept3802",
+        "concept4179",
+        "concept4180"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3809",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3809",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتصال بين الثقافات",
+          "حوار بين الحضارات"
+        ],
+        "en": [
+          "Dialogue among civilizations",
+          "Intercultural communication"
+        ],
+        "es": [
+          "Comunicación intercultural"
+        ],
+        "fr": [
+          "Communication interculturelle",
+          "Dialogue entre les civilisations"
+        ],
+        "ru": [
+          "Диалог между цивилизациями",
+          "Межкультурные связи"
+        ]
+      },
+      "broader": [
+        "concept463"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2024-03-25T11:02:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حوار بين الثقافات"
+        ],
+        "en": [
+          "Intercultural dialogue"
+        ],
+        "es": [
+          "Diálogo intercultural"
+        ],
+        "fr": [
+          "Dialogue interculturel"
+        ],
+        "ru": [
+          "Межкультурный диалог"
+        ]
+      },
+      "related": [
+        "concept17166",
+        "concept261",
+        "concept3892",
+        "concept3895",
+        "concept3898",
+        "concept3899",
+        "concept419",
+        "concept5775",
+        "concept6984",
+        "concept7007",
+        "concept7021"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التواصل اللفظي وغير اللفظي بين الشعوب من مختلف الثقافات."
+        ],
+        "en": [
+          "Verbal and nonverbal communication among people of different cultures."
+        ],
+        "es": [
+          "Comunicación verbal y no verbal entre personas de culturas diferentes."
+        ],
+        "fr": [
+          "Communication verbale et non verbale entre personnes de cultures différentes."
+        ],
+        "ru": [
+          "Вербальная и невербальная коммуникация между народами различных культур."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3897",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3897",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدبير التمويل للاتصالات"
+        ],
+        "en": [
+          "Communication financing"
+        ],
+        "es": [
+          "Financiamiento de la comunicación"
+        ],
+        "fr": [
+          "Financement de la communication",
+          "Financement des médias"
+        ],
+        "ru": [
+          "Финансирование в области передачи информации и связи"
+        ]
+      },
+      "broader": [
+        "concept5804"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2022-05-31T12:36:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تمويل الاتصالات"
+        ],
+        "en": [
+          "Communication finance"
+        ],
+        "es": [
+          "Financiación de la comunicación"
+        ],
+        "fr": [
+          "Finance de la communication"
+        ],
+        "ru": [
+          "Финансы в области передачи информации и связи"
+        ]
+      },
+      "related": [
+        "concept17141",
+        "concept3809"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4180",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4180",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ترويج الكتاب",
+          "تنمية الكتاب"
+        ],
+        "en": [
+          "Book promotion"
+        ],
+        "fr": [
+          "Développement du livre"
+        ],
+        "ru": [
+          "Реклама книг"
+        ]
+      },
+      "broader": [
+        "concept5738"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T14:32:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تطوير الكتاب"
+        ],
+        "en": [
+          "Book development"
+        ],
+        "es": [
+          "Promoción del libro"
+        ],
+        "fr": [
+          "Promotion du livre"
+        ],
+        "ru": [
+          "Развитие книжного дела"
+        ]
+      },
+      "related": [
+        "concept4186"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4183",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4183",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Legislación de la teledifusión"
+        ],
+        "fr": [
+          "Législation de la télédiffusion"
+        ]
+      },
+      "broader": [
+        "concept4833"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:51:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تشريع البث الاذاعي"
+        ],
+        "en": [
+          "Broadcasting legislation"
+        ],
+        "es": [
+          "Legislación de la radiodifusión"
+        ],
+        "fr": [
+          "Législation de la radiodiffusion"
+        ],
+        "ru": [
+          "Законодательство в области вещания"
+        ]
+      },
+      "related": [
+        "concept3094",
+        "concept478"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4332",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4332",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Organismo de comunicación"
+        ]
+      },
+      "broader": [
+        "concept1355"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T14:37:02+00:00",
+      "narrower": [
+        "concept5786"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منظمات الاتصال"
+        ],
+        "en": [
+          "Communication organizations"
+        ],
+        "es": [
+          "Organización de comunicación"
+        ],
+        "fr": [
+          "Organisation de communication"
+        ],
+        "ru": [
+          "Организации в области передачи информации и связи"
+        ]
+      },
+      "related": [
+        "concept479"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4346",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4346",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Escritura a mano"
+        ]
+      },
+      "broader": [
+        "concept5829"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خط اليد"
+        ],
+        "en": [
+          "Handwriting"
+        ],
+        "es": [
+          "Escritura manuscrita"
+        ],
+        "fr": [
+          "Écriture manuscrite"
+        ],
+        "ru": [
+          "Почерк"
+        ]
+      },
+      "related": [
+        "concept3607",
+        "concept4545"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4547",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4547",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5728"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:51:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رقابة"
+        ],
+        "en": [
+          "Censorship"
+        ],
+        "es": [
+          "Censura"
+        ],
+        "fr": [
+          "Censure"
+        ],
+        "ru": [
+          "Цензура"
+        ]
+      },
+      "related": [
+        "concept4833",
+        "concept4834",
+        "concept4835",
+        "concept4836"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4831",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4831",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تشريعات الاتصال",
+          "قانون الاتصالات"
+        ],
+        "en": [
+          "Communication law",
+          "Communication regulation"
+        ],
+        "es": [
+          "Leyes sobre la comunicación",
+          "Regulación de la comunicación"
+        ],
+        "fr": [
+          "Loi sur la communication",
+          "Règlement sur la communication"
+        ],
+        "ru": [
+          "Право в области передачи информации и связи",
+          "Правовое регулирование передачи информации и связи"
+        ]
+      },
+      "broader": [
+        "concept462"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2022-05-31T14:05:34+00:00",
+      "narrower": [
+        "concept1147",
+        "concept4332",
+        "concept5778"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تشريع الاتصال"
+        ],
+        "en": [
+          "Communication legislation"
+        ],
+        "es": [
+          "Legislación de las comunicaciones"
+        ],
+        "fr": [
+          "Législation des communications"
+        ],
+        "ru": [
+          "Законодательство в области передачи информации и связи"
+        ]
+      },
+      "related": [
+        "concept17142",
+        "concept3090",
+        "concept3094",
+        "concept4831",
+        "concept5325",
+        "concept5728",
+        "concept5749",
+        "concept5752"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4833",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4833",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخبار",
+          "الانباء",
+          "مواد إخبارية",
+          "نقل الاخبار"
+        ],
+        "en": [
+          "News",
+          "News items",
+          "News transmission"
+        ],
+        "es": [
+          "Artículos",
+          "Boletín informativo",
+          "Comunicado",
+          "Comunicado de prensa",
+          "Crónicas",
+          "Informaciones",
+          "Noticias",
+          "Primicia",
+          "Reportajes",
+          "Transmisión de noticias"
+        ],
+        "fr": [
+          "Actualités",
+          "Annonce",
+          "Article",
+          "Bulletin d'informations",
+          "Bulletin de nouvelles",
+          "Communiqué",
+          "Entrefilet",
+          "Fait divers",
+          "Informations",
+          "Reportage",
+          "Topo"
+        ],
+        "ru": [
+          "Новости",
+          "Новостные сюжеты",
+          "Передача новостей"
+        ]
+      },
+      "broader": [
+        "concept1151"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T14:36:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدفق الاخبار"
+        ],
+        "en": [
+          "News flow"
+        ],
+        "es": [
+          "Flujo de noticias"
+        ],
+        "fr": [
+          "Circulation de l'information"
+        ],
+        "ru": [
+          "Новостные потоки"
+        ]
+      },
+      "related": [
+        "concept1154",
+        "concept12584",
+        "concept12586",
+        "concept1682",
+        "concept486"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5256",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5256",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "شفرات"
+        ]
+      },
+      "broader": [
+        "concept3058"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رموز"
+        ],
+        "en": [
+          "Codes"
+        ],
+        "es": [
+          "Código"
+        ],
+        "fr": [
+          "Code"
+        ],
+        "ru": [
+          "Коды"
+        ]
+      },
+      "related": [
+        "concept5530"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5533",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5533",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept461"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T14:32:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتصال وتنمية"
+        ],
+        "en": [
+          "Communication and development"
+        ],
+        "es": [
+          "Comunicación y desarrollo"
+        ],
+        "fr": [
+          "Communication et développement"
+        ],
+        "ru": [
+          "Передача информации и развитие"
+        ]
+      },
+      "related": [
+        "concept16994",
+        "concept5724",
+        "concept5725",
+        "concept594"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الاستخدام للأشكال المتنوعة للبنية التحتية للاتصالات المادية ووسائل الإعلام في عملية التطوير."
+        ],
+        "en": [
+          "The use of the various forms of physical communications infrastructure and the media in the development process."
+        ],
+        "es": [
+          "Empleo de diferentes formas de infraestructras físicas de información y de medios de comunicación en el proceso de desarrollo."
+        ],
+        "fr": [
+          "Utilisation des diverses formes d'infrastructures physiques d'information et des médias dans le processus de développement."
+        ],
+        "ru": [
+          "Использование различных форм инфраструктуры связи и средств массовой информации для развития."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5722",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5722",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مراقبة الاتصال",
+          "مراقبة وسائط الإعلام",
+          "مراقبة وسائل الإعلام"
+        ],
+        "en": [
+          "Media control"
+        ],
+        "es": [
+          "Control de la información",
+          "Control de la prensa",
+          "Control de los medios",
+          "Control de los medios de comunicación"
+        ],
+        "fr": [
+          "Contrôle des médias"
+        ],
+        "ru": [
+          "Контроль за средствами массовой информации"
+        ]
+      },
+      "broader": [
+        "concept462"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2022-06-27T16:47:11+00:00",
+      "narrower": [
+        "concept1129",
+        "concept1148",
+        "concept4831"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراقبة الاتصالات"
+        ],
+        "en": [
+          "Communication control"
+        ],
+        "es": [
+          "Control de la comunicación"
+        ],
+        "fr": [
+          "Contrôle de la communication"
+        ],
+        "ru": [
+          "Коммуникационный контроль"
+        ]
+      },
+      "related": [
+        "concept1154",
+        "concept17145",
+        "concept4833",
+        "concept4834",
+        "concept5307",
+        "concept5731",
+        "concept5732"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5728",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5728",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخلاقيات الصحف"
+        ],
+        "en": [
+          "Newspaper ethics"
+        ],
+        "es": [
+          "Deontología de la prensa"
+        ],
+        "fr": [
+          "Déontologie de la presse"
+        ],
+        "ru": [
+          "Газетная этика"
+        ]
+      },
+      "broader": [
+        "concept5749"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2026-01-23T14:20:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اخلاقيات الصحافة"
+        ],
+        "en": [
+          "Press ethics"
+        ],
+        "es": [
+          "Ética de la prensa"
+        ],
+        "fr": [
+          "Éthique de la presse"
+        ],
+        "ru": [
+          "Этика прессы"
+        ]
+      },
+      "related": [
+        "concept13023",
+        "concept17187",
+        "concept3385",
+        "concept3971",
+        "concept4834",
+        "concept486",
+        "concept488",
+        "concept503",
+        "concept5307",
+        "concept5728"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5732",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5732",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتصال ثنائي الاتجاه",
+          "اتصال ذو اتجاهين"
+        ],
+        "en": [
+          "Two-way communication"
+        ],
+        "es": [
+          "Comunicación bidireccional",
+          "Comunicación bilateral"
+        ],
+        "fr": [
+          "Communication bidirectionnelle",
+          "Communication bilatérale"
+        ],
+        "ru": [
+          "Двусторонняя коммуникация"
+        ]
+      },
+      "broader": [
+        "concept463"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتصال تفاعلي"
+        ],
+        "en": [
+          "Interactive communication"
+        ],
+        "es": [
+          "Comunicación interactiva"
+        ],
+        "fr": [
+          "Communication conversationnelle"
+        ],
+        "ru": [
+          "Интерактивная коммуникация"
+        ]
+      },
+      "related": [
+        "concept12747",
+        "concept1543",
+        "concept1544",
+        "concept5775",
+        "concept6086"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5735",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5735",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تنمية الاتصالات"
+        ],
+        "ru": [
+          "Развитие средств передачи информации"
+        ]
+      },
+      "broader": [
+        "concept462"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2022-05-31T11:57:21+00:00",
+      "narrower": [
+        "concept17140",
+        "concept4183"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تطوير الاتصالات"
+        ],
+        "en": [
+          "Communication development"
+        ],
+        "es": [
+          "Desarrollo de la comunicación"
+        ],
+        "fr": [
+          "Développement de la communication"
+        ],
+        "ru": [
+          "Развитие сферы передачи информации и связи"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5738",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5738",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخلاقيات الإعلام",
+          "اخلاقيات مهنة الإعلام"
+        ],
+        "en": [
+          "Media ethics"
+        ],
+        "es": [
+          "Deontología de los medios de comunicación",
+          "Ética de los medios de comunicación"
+        ],
+        "fr": [
+          "Éthique des médias"
+        ],
+        "ru": [
+          "Этика средств массовой информации"
+        ]
+      },
+      "broader": [
+        "concept462"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2026-01-26T10:35:37+00:00",
+      "narrower": [
+        "concept5732"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اخلاقيات الاتصالات"
+        ],
+        "en": [
+          "Communication ethics"
+        ],
+        "es": [
+          "Ética de la comunicación"
+        ],
+        "fr": [
+          "Éthique de la communication"
+        ],
+        "ru": [
+          "Коммуникационная этика"
+        ]
+      },
+      "related": [
+        "concept1546",
+        "concept1548",
+        "concept17116",
+        "concept17187",
+        "concept17188",
+        "concept3326",
+        "concept3971",
+        "concept4833",
+        "concept4834",
+        "concept5307",
+        "concept5752",
+        "concept5753"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5749",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5749",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حرب نفسية"
+        ],
+        "en": [
+          "Psychological warfare"
+        ],
+        "es": [
+          "Guerra psicológica",
+          "Manipulación"
+        ],
+        "fr": [
+          "Guerre psychologique"
+        ],
+        "ru": [
+          "Боевые действия с применением психологического оружия"
+        ]
+      },
+      "broader": [
+        "concept1547"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:14+00:00",
+      "narrower": [
+        "concept15615",
+        "concept17116"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دعاية"
+        ],
+        "en": [
+          "Propaganda"
+        ],
+        "es": [
+          "Propaganda"
+        ],
+        "fr": [
+          "Propagande"
+        ],
+        "ru": [
+          "Пропаганда"
+        ]
+      },
+      "related": [
+        "concept1541",
+        "concept1543",
+        "concept1544",
+        "concept1546",
+        "concept1548",
+        "concept5731",
+        "concept5749"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5753",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5753",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept464"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:50:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تاريخ الاتصالات"
+        ],
+        "en": [
+          "Communication history"
+        ],
+        "es": [
+          "Historia de la comunicación"
+        ],
+        "fr": [
+          "Histoire de la communication"
+        ],
+        "ru": [
+          "Возникновение и развитие передачи информации и связи"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5758",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5758",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اثار الاتصالات"
+        ],
+        "en": [
+          "Communication effects"
+        ],
+        "es": [
+          "Efectos de la comunicación"
+        ],
+        "fr": [
+          "Impact de la communication"
+        ],
+        "ru": [
+          "Результаты передачи информации и связи"
+        ]
+      },
+      "broader": [
+        "concept464"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تأثير الاتصال"
+        ],
+        "en": [
+          "Communication impact"
+        ],
+        "es": [
+          "Impacto de la comunicación"
+        ],
+        "fr": [
+          "Influence de la communication"
+        ],
+        "ru": [
+          "Коммуникационное воздействие"
+        ]
+      },
+      "related": [
+        "concept1541",
+        "concept1546",
+        "concept1547",
+        "concept17017",
+        "concept3326",
+        "concept5731",
+        "concept5763"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5761",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5761",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3326"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:51:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رأي عام"
+        ],
+        "en": [
+          "Public opinion"
+        ],
+        "es": [
+          "Opinión pública"
+        ],
+        "fr": [
+          "Opinion publique"
+        ],
+        "ru": [
+          "Общественное мнение"
+        ]
+      },
+      "related": [
+        "concept1546",
+        "concept1548",
+        "concept1549",
+        "concept15705",
+        "concept482",
+        "concept5761",
+        "concept6369"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5763",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5763",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتصال انساني",
+          "اتصال خاص",
+          "اتصال فردي",
+          "تواصل انساني"
+        ],
+        "en": [
+          "Human communication",
+          "Individual communication"
+        ],
+        "es": [
+          "Comunicación humana",
+          "Comunicación individual"
+        ],
+        "fr": [
+          "Communication humaine",
+          "Communication individuelle"
+        ],
+        "ru": [
+          "Индивидуальная коммуникация",
+          "Человеческая коммуникация (общение)"
+        ]
+      },
+      "broader": [
+        "concept463"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتصال بين الاشخاص"
+        ],
+        "en": [
+          "Interpersonal communication"
+        ],
+        "es": [
+          "Comunicación interpersonal"
+        ],
+        "fr": [
+          "Communication interpersonnelle"
+        ],
+        "ru": [
+          "Межличностная коммуникация"
+        ]
+      },
+      "related": [
+        "concept12747",
+        "concept12870",
+        "concept1541",
+        "concept1543",
+        "concept1544",
+        "concept17021",
+        "concept3897",
+        "concept4195",
+        "concept5735",
+        "concept5826",
+        "concept5828",
+        "concept7421",
+        "concept9610"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5775",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5775",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ايداع قانوني للمطبوعات"
+        ],
+        "en": [
+          "Copyright deposit"
+        ],
+        "es": [
+          "Registro legal"
+        ],
+        "ru": [
+          "Обязательный экземпляр документа по закону об авторских правах"
+        ]
+      },
+      "broader": [
+        "concept4833"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:50:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ايداع قانوني"
+        ],
+        "en": [
+          "Legal deposit"
+        ],
+        "es": [
+          "Depósito legal"
+        ],
+        "fr": [
+          "Dépôt légal"
+        ],
+        "ru": [
+          "Обязательный экземпляр документа"
+        ]
+      },
+      "related": [
+        "concept3090",
+        "concept3810",
+        "concept3814"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5778",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5778",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1542"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:50:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتصال غير لفظي"
+        ],
+        "en": [
+          "Nonverbal communication"
+        ],
+        "es": [
+          "Comunicación no verbal"
+        ],
+        "fr": [
+          "Communication non verbale"
+        ],
+        "ru": [
+          "Невербальная коммуникация"
+        ]
+      },
+      "related": [
+        "concept5828"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5785",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5785",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4346"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:51:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مجالس الصحافة"
+        ],
+        "en": [
+          "Press councils"
+        ],
+        "es": [
+          "Consejo de prensa"
+        ],
+        "fr": [
+          "Conseil de presse"
+        ],
+        "ru": [
+          "Пресс-комитеты"
+        ]
+      },
+      "related": [
+        "concept488"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5786",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5786",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مشاريع الاتصالات"
+        ],
+        "en": [
+          "Communication projects"
+        ],
+        "es": [
+          "Proyectos de comunicación"
+        ],
+        "fr": [
+          "Projet de communication"
+        ],
+        "ru": [
+          "Проекты в области передачи информации и связи"
+        ]
+      },
+      "broader": [
+        "concept461"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "برامج الاتصالات"
+        ],
+        "en": [
+          "Communication programmes"
+        ],
+        "es": [
+          "Programas de comunicación"
+        ],
+        "fr": [
+          "Programme de communication"
+        ],
+        "ru": [
+          "Программы в области передачи информации и связи"
+        ]
+      },
+      "related": [
+        "concept5815"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5801",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5801",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept461"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احصائيات الاتصالات"
+        ],
+        "en": [
+          "Communication statistics"
+        ],
+        "es": [
+          "Estadísticas de la comunicación"
+        ],
+        "fr": [
+          "Statistique de la communication"
+        ],
+        "ru": [
+          "Статистика в области передачи информации и связи"
+        ]
+      },
+      "related": [
+        "concept5835"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5802",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5802",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علوم الحاسب والتنمية",
+          "معلوماتية وتنمية"
+        ],
+        "en": [
+          "Computer science and development",
+          "Informatics and development"
+        ],
+        "ru": [
+          "Информатика и развитие",
+          "Компьютерные науки и развитие"
+        ]
+      },
+      "broader": [
+        "concept461"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حواسب وتنمية"
+        ],
+        "en": [
+          "Computers and development"
+        ],
+        "es": [
+          "Informática y desarrollo"
+        ],
+        "fr": [
+          "Informatique et développement"
+        ],
+        "ru": [
+          "Компьютеры и развитие"
+        ]
+      },
+      "related": [
+        "concept2738",
+        "concept520",
+        "concept5724",
+        "concept5725",
+        "concept5806",
+        "concept594"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5803",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5803",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept461"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:50:15+00:00",
+      "narrower": [
+        "concept3809",
+        "concept4180"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقتصاديات الاتصالات"
+        ],
+        "en": [
+          "Economics of communication"
+        ],
+        "es": [
+          "Economía de la comunicación"
+        ],
+        "fr": [
+          "Économie de la communication"
+        ],
+        "ru": [
+          "Экономика передачи информации и связи"
+        ]
+      },
+      "related": [
+        "concept585"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5804",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5804",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept462"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:49:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استراتيجيات الاتصالات"
+        ],
+        "en": [
+          "Communication strategies"
+        ],
+        "es": [
+          "Estrategias de comunicación"
+        ],
+        "fr": [
+          "Stratégie de la communication"
+        ],
+        "ru": [
+          "Стратегии в области передачи информации и связи"
+        ]
+      },
+      "related": [
+        "concept461",
+        "concept5803"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5806",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5806",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استماع جيد",
+          "اصغاء باهتمام"
+        ],
+        "en": [
+          "Active listening"
+        ],
+        "es": [
+          "Escucha activa"
+        ],
+        "fr": [
+          "Écoute active"
+        ],
+        "ru": [
+          "Активное прослушивание"
+        ]
+      },
+      "broader": [
+        "concept1542"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:01+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استماع"
+        ],
+        "en": [
+          "Listening"
+        ],
+        "es": [
+          "Escucha"
+        ],
+        "fr": [
+          "Écoute"
+        ],
+        "ru": [
+          "Слушание"
+        ]
+      },
+      "related": [
+        "concept11783",
+        "concept3359",
+        "concept482",
+        "concept5775"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5826",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5826",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1542"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:49:58+00:00",
+      "narrower": [
+        "concept11719"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قراءة"
+        ],
+        "en": [
+          "Reading"
+        ],
+        "es": [
+          "Lectura"
+        ],
+        "fr": [
+          "Lecture"
+        ],
+        "ru": [
+          "Чтение"
+        ]
+      },
+      "related": [
+        "concept5829"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5827",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5827",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتصال لفظي",
+          "حديث",
+          "كلام"
+        ],
+        "en": [
+          "Verbal communication"
+        ],
+        "es": [
+          "Comunicación verbal"
+        ],
+        "fr": [
+          "Communication verbale"
+        ],
+        "ru": [
+          "Вербальная коммуникация"
+        ]
+      },
+      "broader": [
+        "concept1542"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:28+00:00",
+      "narrower": [
+        "concept10648"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خطاب"
+        ],
+        "en": [
+          "Speech"
+        ],
+        "es": [
+          "Habla"
+        ],
+        "fr": [
+          "Parole"
+        ],
+        "ru": [
+          "Речь"
+        ]
+      },
+      "related": [
+        "concept10997",
+        "concept13199",
+        "concept2992",
+        "concept5775",
+        "concept5785",
+        "concept8165"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5828",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5828",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1542"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:51:03+00:00",
+      "narrower": [
+        "concept15881",
+        "concept17021",
+        "concept4547"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كتابة"
+        ],
+        "en": [
+          "Writing"
+        ],
+        "es": [
+          "Escritura"
+        ],
+        "fr": [
+          "Écriture"
+        ],
+        "ru": [
+          "Письмо (процесс)"
+        ]
+      },
+      "related": [
+        "concept13216",
+        "concept2362",
+        "concept328",
+        "concept3384",
+        "concept5827"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5829",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5829",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجتماعات",
+          "مؤتمرات دولية",
+          "ندوات"
+        ],
+        "en": [
+          "Congresses",
+          "International conferences",
+          "Meetings",
+          "Symposia"
+        ],
+        "es": [
+          "Coloquio",
+          "Conferencia internacional",
+          "Congreso",
+          "Encuentro",
+          "Seminario",
+          "Simposio"
+        ],
+        "fr": [
+          "Assemblée",
+          "Conférence internationale",
+          "Congrès",
+          "Symposium"
+        ],
+        "ru": [
+          "Конгрессы",
+          "Международные конференции",
+          "Симпозиумы",
+          "Совещания"
+        ]
+      },
+      "broader": [
+        "concept1544"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:51:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مؤتمرات"
+        ],
+        "en": [
+          "Conferences"
+        ],
+        "es": [
+          "Conferencia"
+        ],
+        "fr": [
+          "Conférence"
+        ],
+        "ru": [
+          "Конференции"
+        ]
+      },
+      "related": [
+        "concept4223",
+        "concept6086",
+        "concept6229"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم فقط عند الإشارة إلى المؤتمرات من حيث تنظيمها وتمويلها، إلخ."
+        ],
+        "en": [
+          "Use only when referring to their organization, financing, etc."
+        ],
+        "es": [
+          "Se refiere a la organización o el financiamiento de una conferencia."
+        ],
+        "fr": [
+          "N'utiliser qu'en référence à l'organisation, le financement, etc. d'une conférence."
+        ],
+        "ru": [
+          "Использовать только по отношению к их организации, финансированию и пр."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6218",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6218",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مناقشات جماعية"
+        ]
+      },
+      "broader": [
+        "concept1544"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناقشات المجموعات"
+        ],
+        "en": [
+          "Group discussions"
+        ],
+        "es": [
+          "Debate en grupo"
+        ],
+        "fr": [
+          "Discussion de groupe"
+        ],
+        "ru": [
+          "Групповые дискуссии"
+        ]
+      },
+      "related": [
+        "concept4915",
+        "concept6218",
+        "concept671"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6229",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6229",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5828"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعبير شفهي"
+        ],
+        "en": [
+          "Oral expression"
+        ],
+        "es": [
+          "Expresión oral"
+        ],
+        "fr": [
+          "Expression orale"
+        ],
+        "ru": [
+          "Устное выражение мысли"
+        ]
+      },
+      "related": [
+        "concept2992",
+        "concept5831"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10648",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10648",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5827"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:50:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عادة القراءة"
+        ],
+        "en": [
+          "Reading habit"
+        ],
+        "es": [
+          "Hábito de lectura"
+        ],
+        "fr": [
+          "Habitude de lecture"
+        ],
+        "ru": [
+          "Привычка к чтению"
+        ]
+      },
+      "related": [
+        "concept13436",
+        "concept9863"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11719",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11719",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دعاية الحرب"
+        ],
+        "es": [
+          "Propaganda bélica"
+        ]
+      },
+      "broader": [
+        "concept5753"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-24T11:22:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دعاية للحرب"
+        ],
+        "en": [
+          "War propaganda"
+        ],
+        "es": [
+          "Propaganda de guerra"
+        ],
+        "fr": [
+          "Propagande de guerre"
+        ],
+        "ru": [
+          "Военная пропаганда"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15615",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15615",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كتابة التقارير"
+        ],
+        "en": [
+          "Report writing"
+        ],
+        "es": [
+          "Redacción de informes"
+        ],
+        "fr": [
+          "Rédaction de rapports"
+        ],
+        "ru": [
+          "Написание отчетов"
+        ]
+      },
+      "broader": [
+        "concept5829"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كتابة فنية"
+        ],
+        "en": [
+          "Technical writing"
+        ],
+        "es": [
+          "Redacción técnica"
+        ],
+        "fr": [
+          "Rédaction technique"
+        ],
+        "ru": [
+          "Техническое письмо"
+        ]
+      },
+      "related": [
+        "concept10651",
+        "concept12435",
+        "concept8279"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15881",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15881",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "خطابات"
+        ],
+        "en": [
+          "Letters"
+        ],
+        "es": [
+          "Cartas"
+        ],
+        "fr": [
+          "Lettres"
+        ],
+        "ru": [
+          "Письма"
+        ]
+      },
+      "broader": [
+        "concept5829"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2019-12-15T13:52:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراسلة"
+        ],
+        "en": [
+          "Correspondence"
+        ],
+        "es": [
+          "Correspondencia"
+        ],
+        "fr": [
+          "Correspondance"
+        ],
+        "ru": [
+          "Корреспонденция"
+        ]
+      },
+      "related": [
+        "concept5775"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17021",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17021",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "التضليل"
+        ],
+        "en": [
+          "Fake news",
+          "Infodemia"
+        ],
+        "es": [
+          "Infodemia"
+        ],
+        "fr": [
+          "Fausses nouvelles délibérées",
+          "Infodémie",
+          "Infox"
+        ]
+      },
+      "broader": [
+        "concept5753"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2026-01-23T14:15:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "المعلومات المضللة"
+        ],
+        "en": [
+          "Disinformation"
+        ],
+        "es": [
+          "Desinformación"
+        ],
+        "fr": [
+          "Désinformation"
+        ],
+        "ru": [
+          "дезинформация"
+        ]
+      },
+      "related": [
+        "concept17017",
+        "concept17089",
+        "concept17187",
+        "concept5749"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17116",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17116",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "الوصول الحر"
+        ],
+        "es": [
+          "Acceso libre",
+          "Libre acceso"
+        ]
+      },
+      "broader": [
+        "concept1129"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2021-10-06T10:09:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الوصول المفتوح"
+        ],
+        "en": [
+          "Open access"
+        ],
+        "es": [
+          "Acceso abierto"
+        ],
+        "fr": [
+          "Libre accès"
+        ],
+        "ru": [
+          "oткрытый доступ"
+        ]
+      },
+      "related": [
+        "concept17093",
+        "concept17094",
+        "concept17126",
+        "concept17128",
+        "concept6021"
+      ],
+      "scope_notes": {
+        "ar": [
+          "إتاحة موارد المعرفة للجمهور أو للاستخدام العام على نطاق واسع، دون أي عائق مثل رسوم اشتراك أو رسوم إتاحة الاستخدام."
+        ],
+        "en": [
+          "Knowledge resources made available for public access or public consumption at large scale, without any hindrance of subscription fee or access charges."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17127",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17127",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيانات مفتوحة"
+        ],
+        "en": [
+          "Open government data"
+        ],
+        "es": [
+          "Datos gubernamentales abiertos"
+        ],
+        "fr": [
+          "Données ouvertes gouvernementales",
+          "Données publiques ouvertes"
+        ]
+      },
+      "broader": [
+        "concept1129"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2026-01-23T16:36:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "البيانات المفتوحة"
+        ],
+        "en": [
+          "Open data"
+        ],
+        "es": [
+          "Datos abiertos"
+        ],
+        "fr": [
+          "Données ouvertes"
+        ],
+        "ru": [
+          "открытые данные"
+        ]
+      },
+      "related": [
+        "concept17126",
+        "concept17127",
+        "concept17188"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الممارسة الخاصة بنشر البيانات الأولية بطريقة يمكن الوصول إليها، وإعادة استخدامها، وقابلة للقراءة الآلية، ومرخَّص باستخدامها. قد ينتج ذلك عن مجموعات كثيرة، بما في ذلك السلطات العامة، والقطاع شبه العام، والشركات والجمهور."
+        ],
+        "en": [
+          "Practice of publishing (raw) data in a way that is accessible, reusable, machine readable and licensed permissively. Can be generated by a wide range of parties, including public authorities, the semi-public sector, businesses and the public."
+        ],
+        "es": [
+          "Práctica de publicar datos (en bruto) de manera accesible, reutilizable, legible mediante dispositivos electrónicos y con autorización para su explotación. Dichos datos pueden ser generados por un amplio abanico de partes interesadas, como las autoridades públicas, el sector paraestatal, las empresas y el público."
+        ],
+        "fr": [
+          "Publication de données (brutes) accessibles, réutilisables, lisibles par machine et libres de droits. Les données peuvent être générées par un large éventail d'acteurs dont les pouvoirs publics, le secteur public-privé, les entreprises et le public."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17128",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17128",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تطوير وسائل الإعلام",
+          "تنمية وسائل الإعلام"
+        ],
+        "es": [
+          "Desarrollo de los medios"
+        ]
+      },
+      "broader": [
+        "concept5738"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2023-02-17T17:18:32+00:00",
+      "narrower": [
+        "concept17141",
+        "concept17145",
+        "concept17149"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تطوير وسائط الإعلام"
+        ],
+        "en": [
+          "Media development"
+        ],
+        "es": [
+          "Desarrollo de los medios de comunicación"
+        ],
+        "fr": [
+          "Développement des médias"
+        ],
+        "ru": [
+          "Развитие средств массовой информации"
+        ]
+      },
+      "related": [
+        "concept487"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17140",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17140",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "قابلية استمرار وسائل الإعلام"
+        ],
+        "en": [
+          "Media sustainability"
+        ]
+      },
+      "broader": [
+        "concept17140"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2022-06-27T11:38:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استدامة وسائل الإعلام"
+        ],
+        "en": [
+          "Media viability"
+        ],
+        "es": [
+          "Viabilidad de los medios"
+        ],
+        "fr": [
+          "Viabilité des médias"
+        ]
+      },
+      "related": [
+        "concept1682",
+        "concept4180"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17141",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17141",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1355"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2022-06-27T11:19:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حوكمة الإنترنت"
+        ],
+        "en": [
+          "Internet governance"
+        ],
+        "es": [
+          "Gobernanza de Internet"
+        ],
+        "fr": [
+          "Gouvernance de l'Internet"
+        ],
+        "ru": [
+          "регулирование Интернета"
+        ]
+      },
+      "related": [
+        "concept10360",
+        "concept17067",
+        "concept4833",
+        "concept5752"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تطوير الحكومات، والقطاع الخاص، والمجتمع المدني للمبادئ المشتركة، والأعراف، والقواعد، وإجراءات اتخاذ القرار، والبرامج التي تحدد مسار تطور الإنترنت واستخدامه، وتطبيقها."
+        ],
+        "en": [
+          "The development and application by Governments, the private sector and civil society, in their respective roles, of shared principles, norms, rules, decision-making procedures, and programmes that shape the evolution and use of the Internet."
+        ],
+        "es": [
+          "El desarrollo y aplicación por parte de los gobiernos, el sector privado y la sociedad civil, en sus respectivos roles, de principios compartidos, normas, reglas, procedimientos en la toma de decisiones, y programas que moldean la evolución y uso de la internet."
+        ],
+        "fr": [
+          "Le développement et l'application par les gouvernements, le secteur privé et la société civile, dans leurs rôles respectifs, de principes, normes, règles, procédures décisionnelles et programmes partagés qui façonnent l'évolution et l'utilisation d'Internet."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17142",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17142",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Concentration of media ownership"
+        ],
+        "fr": [
+          "Concentration des médias",
+          "Monopole des médias"
+        ]
+      },
+      "broader": [
+        "concept17140"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2023-05-16T15:23:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "التعددية الإعلامية"
+        ],
+        "en": [
+          "Media pluralism"
+        ],
+        "es": [
+          "Pluralismo de los medios de comunicación"
+        ],
+        "fr": [
+          "Pluralisme des médias"
+        ]
+      },
+      "related": [
+        "concept4836",
+        "concept5728"
+      ],
+      "scope_notes": {
+        "en": [
+          "Refers to a sufficient variety of media outlets provided by a range of private, public and non-profit owners."
+        ],
+        "es": [
+          "Se refiere a una variedad  suficiente  de  medios  de  comunicación,  proporcionados  por  una  amplia  gama  de  propietarios   diferentes,   tanto   públicos   como privados."
+        ],
+        "fr": [
+          "Se réfère à un éventail suffisant de médias proposés par une série de propriétaires différents, publics ou privés."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17145",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17145",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept17140"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2023-05-16T15:23:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "التنوع الإعلامي"
+        ],
+        "en": [
+          "Media diversity"
+        ],
+        "es": [
+          "Diversidad mediática"
+        ],
+        "fr": [
+          "Diversité des médias"
+        ]
+      },
+      "related": [
+        "concept3321",
+        "concept4836",
+        "concept487"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشير إلى توفر التنوع الكافي من المحتوى الإعلامي."
+        ],
+        "en": [
+          "Refers to the availability of sufficient variety of media content."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17149",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17149",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Data integrity"
+        ]
+      },
+      "broader": [
+        "concept1129"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain5"
+      ],
+      "microthesaurus_ids": [
+        "mt5.10"
+      ],
+      "modified": "2026-01-23T16:37:51+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سلامة المعلومات"
+        ],
+        "en": [
+          "Information integrity"
+        ],
+        "es": [
+          "Integridad de la información"
+        ],
+        "fr": [
+          "Intégrité de l'information"
+        ],
+        "ru": [
+          "целостность информации"
+        ]
+      },
+      "related": [
+        "concept1147",
+        "concept17116",
+        "concept5732",
+        "concept5749"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17187",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17187",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt5.10",
+    "labels": {
+      "en": "Communication research and policy",
+      "fr": "Recherche et politique de la communication"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt5.10"
+  }
+}

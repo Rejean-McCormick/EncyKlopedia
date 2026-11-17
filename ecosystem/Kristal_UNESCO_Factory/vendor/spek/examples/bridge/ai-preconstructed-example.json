@@ -1,0 +1,39 @@
+{
+  "format": "spek.ai-phrases/0.1",
+  "phrases": [
+    {
+      "realization_key": "u.result.claim",
+      "language": "fr",
+      "text": "Un même contrat de mise en page peut organiser des énoncés localisés dans trois langues sans modifier leurs identifiants sémantiques.",
+      "model_id": "illustrative-placeholder-no-model-invoked",
+      "generation_ref": "illustrative-preconstructed-example-fr",
+      "prompt_sha256": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "human_review": {
+        "status": "pending"
+      }
+    },
+    {
+      "realization_key": "u.result.claim",
+      "language": "en",
+      "text": "One layout contract can organize localized statements in three languages without changing their semantic identifiers.",
+      "model_id": "illustrative-placeholder-no-model-invoked",
+      "generation_ref": "illustrative-preconstructed-example-en",
+      "prompt_sha256": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "human_review": {
+        "status": "pending"
+      }
+    },
+    {
+      "realization_key": "u.result.claim",
+      "language": "it",
+      "text": "Un solo contratto di impaginazione può organizzare enunciati localizzati in tre lingue senza cambiare gli identificatori semantici.",
+      "model_id": "illustrative-placeholder-no-model-invoked",
+      "generation_ref": "illustrative-preconstructed-example-it",
+      "prompt_sha256": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "human_review": {
+        "status": "pending"
+      }
+    }
+  ],
+  "note": "Example only, no AI model was called."
+}

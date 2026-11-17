@@ -1,0 +1,46 @@
+{
+  "format": "kristal.editorial-layout/0.1",
+  "id": "relation-network",
+  "version": "0.1.0",
+  "intent": "explicit_semantik_realized_network_without_structural_inference",
+  "audience": "technical_and_editorial",
+  "render_policy": {
+    "mode": "typed_explicit_units_only",
+    "auto_select_assertions": false,
+    "derive_edges": false,
+    "semantic_realizations_required": true,
+    "release_c1_c2_c3_external": true,
+    "warning": "A rendered card does not validate graph topology, balancing, periods or source authority."
+  },
+  "slots": {
+    "context": {
+      "allowed_kinds": [
+        "context"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "entities": {
+      "allowed_kinds": [
+        "concept",
+        "entity"
+      ],
+      "min": 2,
+      "max": 16
+    },
+    "relations": {
+      "allowed_kinds": [
+        "relation"
+      ],
+      "min": 1,
+      "max": 24
+    },
+    "limits": {
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "min": 1,
+      "max": 4
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-taxonomie-classification",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-17",
+    "slug": "taxonomie-classification",
+    "name": "Taxonomy / Natural Classification"
+  },
+  "source_arketype_file": "archetypes/taxonomie-classification.json",
+  "editorial_rationale": "Structure Arketype ARK-17: Classification tree with groups, subclasses and synonyms. Nature maps, biological categories and material typologies.",
+  "source_structural_primitives": [
+    "racines",
+    "groupes",
+    "classes",
+    "sous_classes",
+    "specimens",
+    "relations_de_classement",
+    "synonymes"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "classes",
+      "title_function": "Définitions des classes",
+      "layout_id": "concept-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "racines",
+        "groupes",
+        "classes",
+        "sous_classes"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "definition": 1,
+        "examples": 1,
+        "context": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Les catégories doivent avoir définition, contexte et exemples attestés."
+    },
+    {
+      "section_id": "criteres",
+      "title_function": "Méthodes de classement",
+      "layout_id": "comparison",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "relations_de_classement",
+        "synonymes",
+        "specimens"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "topic": 1,
+        "criterion": 1,
+        "approach_a": 1,
+        "approach_b": 1,
+        "synthesis": 1,
+        "limitations": 1
+      },
+      "editorial_constraint": "N’utiliser que pour deux méthodes de classement comparables."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "classification-tree"
+  ],
+  "integrity_rule": "Classification criteria, authority and exceptions must be explicit.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

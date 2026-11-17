@@ -1,0 +1,143 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "koa-mediatheque"
+version = "0.5.1"
+description = "Médiathèque locale application with its adjacent content directory."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+authors = [
+  { name = "Médiathèque kOA" }
+]
+keywords = [
+  "sqlite",
+  "streamlit",
+  "xlsx",
+  "media-library",
+  "local-catalog",
+  "koa"
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Environment :: Web Environment",
+  "Intended Audience :: End Users/Desktop",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Database",
+  "Topic :: Office/Business",
+  "Topic :: Multimedia"
+]
+dependencies = [
+  "streamlit>=1.35,<2.0",
+  "pandas>=2.2,<3.0",
+  "openpyxl>=3.1,<4.0",
+  "python-dotenv>=1.0,<2.0",
+  "jsonschema>=4.20,<5"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2,<9.0",
+  "ruff>=0.5,<1.0",
+  "mypy>=1.10,<2.0",
+  "types-openpyxl>=3.1,<4.0"
+]
+
+[project.urls]
+Homepage = "https://example.local/koa-mediatheque"
+Repository = "https://example.local/koa-mediatheque"
+
+[tool.setuptools]
+package-dir = { "" = "06_GUI/koa_mediatheque_gui" }
+
+[tool.setuptools.packages.find]
+where = ["06_GUI/koa_mediatheque_gui"]
+include = ["koa_mediatheque*"]
+
+
+[tool.setuptools.package-data]
+koa_mediatheque = [
+  "contracts/kristal_ik_1_1/*.json",
+  "contracts/encyk_source_handoff_2/*.json",
+  "sql/*.sql"
+]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = [
+  "tests/python"
+]
+python_files = [
+  "test_*.py"
+]
+python_functions = [
+  "test_*"
+]
+addopts = [
+  "-ra",
+  "--strict-markers",
+  "--strict-config"
+]
+markers = [
+  "contract: verifies public API and cross-group contracts",
+  "db: verifies SQLite schema and repository behavior",
+  "validation: verifies JSON/enums/blocking rules",
+  "files: verifies file facts, storage, hashing, duplicates",
+  "xlsx: verifies XLSX export/import round-trip behavior",
+  "manifest: verifies manifest export behavior",
+  "audit: verifies audit/log behavior",
+  "backup: verifies backup behavior",
+  "repair: verifies repair-mode behavior"
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = [
+  "06_GUI/koa_mediatheque_gui",
+  "tests/python"
+]
+
+[tool.ruff.lint]
+select = [
+  "E",
+  "F",
+  "I",
+  "B",
+  "UP",
+  "SIM"
+]
+ignore = [
+  "E501"
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[tool.mypy]
+python_version = "3.11"
+mypy_path = "06_GUI/koa_mediatheque_gui"
+packages = ["koa_mediatheque"]
+strict = false
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+no_implicit_optional = true
+check_untyped_defs = true
+
+[tool.coverage.run]
+source = [
+  "06_GUI/koa_mediatheque_gui/koa_mediatheque"
+]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

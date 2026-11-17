@@ -1,0 +1,114 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:demo-open",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:172b8ace95a6f798f16bb482eb87be4601e0ea0b9269aeca7b22ceaf68362fe4"
+  },
+  "files": [
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 275,
+      "sha256": "sha256:28a1ce910aa079e50199b467487fac9af0584ad43360200f5a4666d2481e1c08"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 128,
+      "sha256": "sha256:219e9e3e1b4bf142d4ccc0f5c55c6808e678107def8d75426ba2ef8d2da6bf13"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 311,
+      "sha256": "sha256:e64f8d02ed78ec658d24e28f5b3350e1f9019cb3a76435db87c7f3e268af52cc"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 382,
+      "sha256": "sha256:d537d1aed326bca7a4b76651eecdb3ab983cdeaf9bd49ccbae1404bd96257b1b"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 356,
+      "sha256": "sha256:6418e38b6e54893d2a03bf702f754b192f48679ad89853b405e1b325260a53b7"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 311,
+      "sha256": "sha256:9ca1154b18ae0980a96e562cedbef1ce85a2912940cf52819dd0fd402e1b1345"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 287,
+      "sha256": "sha256:4ef452034359517fbbc8038117817fc8695d5c3effc12544e8b7437ac6323b77"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 438,
+      "sha256": "sha256:df5dadb0965856b592ed1b614e29d06feaa8f5abfe6013a296727cc449eadc34"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 795,
+      "sha256": "sha256:ae4e01c7a5ecdb94b4603452bdc78973771b000addd3ed83ebf2082db1d5022b"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 218,
+      "sha256": "sha256:1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01"
+    },
+    {
+      "path": "docs/PROFILE_NOTES.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 180,
+      "sha256": "sha256:5f62161b993e08b75068058c91f55fb7e105775d86fcf52e38fdd2f6be7d7d44"
+    },
+    {
+      "path": "projections/recipes/main-view.projection.json",
+      "role": "projection_recipe",
+      "media_type": "application/json",
+      "size": 558,
+      "sha256": "sha256:b3624792ae4f0ce977e4db60088ac0a3406607a5bf18e9e579ddda767e231b22"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 199,
+      "sha256": "sha256:2635dc4082c6986521cbdcd201b892532af8a34dc333979dd747afe03d2cd455"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 351,
+      "sha256": "sha256:dcc5040020fd63e8a9ab708ed6f2d0d8af8d3663c0a057c917014ba760cedbf2",
+      "state_ref": "urn:kristal:state:demo-open",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:172b8ace95a6f798f16bb482eb87be4601e0ea0b9269aeca7b22ceaf68362fe4"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

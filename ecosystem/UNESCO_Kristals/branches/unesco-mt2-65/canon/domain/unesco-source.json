@@ -1,0 +1,3353 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "سلاسل غذائية",
+          "مجتمعات بيولوجية",
+          "نظم بيئية"
+        ],
+        "en": [
+          "Biological communities",
+          "Food chains"
+        ],
+        "es": [
+          "Biocenosis",
+          "Cadena alimentaria",
+          "Cadena alimenticia",
+          "Comunidad biológica"
+        ],
+        "fr": [
+          "Biocénose",
+          "Chaîne alimentaire",
+          "Communauté biologique"
+        ],
+        "ru": [
+          "Биологические популяции",
+          "Пищевые цепи"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-23T18:33:46+00:00",
+      "narrower": [
+        "concept17132",
+        "concept2407",
+        "concept2626",
+        "concept3277",
+        "concept4266",
+        "concept8701",
+        "concept8703",
+        "concept8911"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم ايكولوجية"
+        ],
+        "en": [
+          "Ecosystems"
+        ],
+        "es": [
+          "Ecosistema"
+        ],
+        "fr": [
+          "Écosystème"
+        ],
+        "ru": [
+          "Экосистемы"
+        ]
+      },
+      "related": [
+        "concept17104",
+        "concept3278",
+        "concept3964"
+      ],
+      "scope_notes": {
+        "ar": [
+          "نظام تجمع ذو اعتماد متبادل بين النباتات والحيوانات ضمن إطار جغرافي محدد، يكون عادة منطقة ذات ظروف بيئية موحدة."
+        ],
+        "en": [
+          "The system of interdependent complex of plant and animal populations within a particular geographic content, generally an area of uniform environmental conditions."
+        ],
+        "es": [
+          "Unidad funcional compleja e interdependiente de poblaciones vegetales y animales que viven en una zona geográfica determinada que presenta generalmente condiciones naturales uniformes."
+        ],
+        "fr": [
+          "Unité fonctionnelle complexe et interdépendante de populations végétales et animales, vivant dans un environnement géographique donné, lequel présente généralement des conditions naturelles uniformes."
+        ],
+        "ru": [
+          "Система взаимосвязанных популяций растений и животных в рамках единого географического региона, как правило, отличающегося общими экологическими условиями."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept211",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept211",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طاقة",
+          "مصادر الطاقة",
+          "مصادر القوة",
+          "موارد القوة"
+        ],
+        "en": [
+          "Energy",
+          "Power resources"
+        ],
+        "es": [
+          "Energía",
+          "Medios energéticos"
+        ],
+        "fr": [
+          "Ressources pour la production d'énergie",
+          "Énergie"
+        ],
+        "ru": [
+          "Энергия",
+          "Энергоресурсы"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:27+00:00",
+      "narrower": [
+        "concept9508",
+        "concept9736",
+        "concept9750"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد الطاقة"
+        ],
+        "en": [
+          "Energy resources"
+        ],
+        "es": [
+          "Recursos energéticos"
+        ],
+        "fr": [
+          "Ressources énergétiques"
+        ],
+        "ru": [
+          "Энергетические ресурсы"
+        ]
+      },
+      "related": [
+        "concept194",
+        "concept3523",
+        "concept6319",
+        "concept638",
+        "concept9739",
+        "concept9742",
+        "concept9744",
+        "concept987"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept212",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept212",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مصادر طبيعية"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:05+00:00",
+      "narrower": [
+        "concept10394",
+        "concept10925",
+        "concept11243",
+        "concept14477",
+        "concept1780",
+        "concept2410",
+        "concept2446",
+        "concept2452",
+        "concept5692"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد طبيعية"
+        ],
+        "en": [
+          "Natural resources"
+        ],
+        "es": [
+          "Recursos naturales"
+        ],
+        "fr": [
+          "Ressources naturelles"
+        ],
+        "ru": [
+          "Природные ресурсы"
+        ]
+      },
+      "related": [
+        "concept10624",
+        "concept1816",
+        "concept191",
+        "concept200",
+        "concept5586",
+        "concept6329",
+        "concept637",
+        "concept9736",
+        "concept9750"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept213",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept213",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept8703"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:43:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكيف بيولوجي"
+        ],
+        "en": [
+          "Biological adaptation"
+        ],
+        "es": [
+          "Adaptación biológica"
+        ],
+        "fr": [
+          "Adaptation biologique"
+        ],
+        "ru": [
+          "Биологическая адаптация"
+        ]
+      },
+      "related": [
+        "concept223",
+        "concept2385"
+      ],
+      "scope_notes": {
+        "ar": [
+          "خاصية محددة وراثيًا تعزز قدرة الكائن على التكيف مع بيئته."
+        ],
+        "en": [
+          "A genetically determined characteristic that enhances the ability of an organism to cope with its environment."
+        ],
+        "es": [
+          "Características genéticas que determinan la capacidad de un organismo de adaptarse a su entorno."
+        ],
+        "fr": [
+          "Caractère génétiquement déterminé mettant en valeur l'aptitude d'un organisme à s'habituer à son environnement."
+        ],
+        "ru": [
+          "Генетически предопределенное свойство, усиливающее способность организма приспосабливаться к окружающим условиям."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1331",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1331",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "موارد الاراضي",
+          "موارد الارض"
+        ],
+        "fr": [
+          "Ressources foncières"
+        ]
+      },
+      "broader": [
+        "concept213"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:36+00:00",
+      "narrower": [
+        "concept1781"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد ارضية"
+        ],
+        "en": [
+          "Land resources"
+        ],
+        "es": [
+          "Recursos territoriales"
+        ],
+        "fr": [
+          "Ressources en terres"
+        ],
+        "ru": [
+          "Земельные ресурсы"
+        ]
+      },
+      "related": [
+        "concept1746",
+        "concept442",
+        "concept597"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1780",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1780",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1780"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد التربة"
+        ],
+        "en": [
+          "Soil resources"
+        ],
+        "es": [
+          "Recursos de suelos"
+        ],
+        "fr": [
+          "Ressources en sol"
+        ],
+        "ru": [
+          "Почвенные ресурсы"
+        ]
+      },
+      "related": [
+        "concept14174",
+        "concept597",
+        "concept6333",
+        "concept8391"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم للدلالة على توافر التربة، بشكل أساسي للزراعة."
+        ],
+        "en": [
+          "Use to denote the availability of soil, mainly for cultivation."
+        ],
+        "es": [
+          "Se refiere a la disponibilidad de los suelos, esencialmente para el cultivo."
+        ],
+        "fr": [
+          "Utiliser pour signifier la disponibilité des sols, essentiellement pour la culture."
+        ],
+        "ru": [
+          "Используется по отношению к наличию почвенных ресурсов, главным образом для целей культивации."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1781",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1781",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "غاز أحيائي"
+        ]
+      },
+      "broader": [
+        "concept9750"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "غاز حيوي"
+        ],
+        "en": [
+          "Biogas"
+        ],
+        "es": [
+          "Biogás"
+        ],
+        "fr": [
+          "Biogaz"
+        ],
+        "ru": [
+          "Биогаз"
+        ]
+      },
+      "related": [
+        "concept1723",
+        "concept1807",
+        "concept1833",
+        "concept3980"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1832",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1832",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ايثولوجيا",
+          "بيات شتوي",
+          "سبات شتوي",
+          "سلوك الحيوانات",
+          "علم سلوك الحيوان",
+          "كمون شتوي"
+        ],
+        "en": [
+          "Ethology",
+          "Hibernation"
+        ],
+        "es": [
+          "Ecoetología",
+          "Etología",
+          "Hibernación",
+          "Zoopsicología"
+        ],
+        "fr": [
+          "Hibernation",
+          "Zoopsychologie",
+          "Écoéthologie",
+          "Éthologie"
+        ],
+        "ru": [
+          "Зимняя спячка",
+          "Этология"
+        ]
+      },
+      "broader": [
+        "concept2407"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-23T18:33:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سلوك الحيوان"
+        ],
+        "en": [
+          "Animal behaviour"
+        ],
+        "es": [
+          "Comportamiento animal"
+        ],
+        "fr": [
+          "Comportement animal"
+        ],
+        "ru": [
+          "Поведение животных"
+        ]
+      },
+      "related": [
+        "concept1331",
+        "concept2380",
+        "concept2389",
+        "concept374"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2385",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2385",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هجرة الحيوان",
+          "هجرة الطيور"
+        ],
+        "en": [
+          "Bird migration"
+        ],
+        "es": [
+          "Migración de las aves",
+          "Migración de los pájaros"
+        ],
+        "fr": [
+          "Migration des oiseaux"
+        ],
+        "ru": [
+          "Миграция птиц"
+        ]
+      },
+      "broader": [
+        "concept2407"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هجرة الحيوانات"
+        ],
+        "en": [
+          "Animal migration"
+        ],
+        "es": [
+          "Migración animal"
+        ],
+        "fr": [
+          "Migration animale"
+        ],
+        "ru": [
+          "Миграция животных"
+        ]
+      },
+      "related": [
+        "concept2385",
+        "concept2430"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2389",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2389",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ايكولوجيا الحيوان",
+          "تكيف الحيوانات",
+          "حياة الحيوان"
+        ],
+        "en": [
+          "Animal adaptation",
+          "Animal life"
+        ],
+        "es": [
+          "Adaptación animal",
+          "Vida animal"
+        ],
+        "fr": [
+          "Adaptation animale",
+          "Vie animale"
+        ],
+        "ru": [
+          "Адаптация животных",
+          "Жизнь животных"
+        ]
+      },
+      "broader": [
+        "concept211"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-23T18:33:41+00:00",
+      "narrower": [
+        "concept2385",
+        "concept2389"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم البيئة الحيوانية"
+        ],
+        "en": [
+          "Animal ecology"
+        ],
+        "es": [
+          "Ecología animal"
+        ],
+        "fr": [
+          "Écologie animale"
+        ],
+        "ru": [
+          "Экология животных"
+        ]
+      },
+      "related": [
+        "concept235",
+        "concept2410",
+        "concept2411",
+        "concept2412",
+        "concept2413"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2407",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2407",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "موارد حية",
+          "‏ثروة حيوانية"
+        ],
+        "en": [
+          "Living resources"
+        ],
+        "es": [
+          "Recursos biológicos",
+          "Recursos vivos"
+        ],
+        "fr": [
+          "Ressources animales vivantes",
+          "Ressources biologiques"
+        ],
+        "ru": [
+          "Живые ресурсы"
+        ]
+      },
+      "broader": [
+        "concept213"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:00+00:00",
+      "narrower": [
+        "concept2443"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد حيوانية"
+        ],
+        "en": [
+          "Animal resources"
+        ],
+        "es": [
+          "Recursos animales"
+        ],
+        "fr": [
+          "Ressources animales"
+        ],
+        "ru": [
+          "Животные ресурсы"
+        ]
+      },
+      "related": [
+        "concept1810",
+        "concept2380",
+        "concept2407",
+        "concept2445",
+        "concept2446",
+        "concept2447",
+        "concept600"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2410",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2410",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "موارد مصائد الاسماك"
+        ]
+      },
+      "broader": [
+        "concept2410"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد سمكية"
+        ],
+        "en": [
+          "Fishery resources"
+        ],
+        "es": [
+          "Recursos pesqueros"
+        ],
+        "fr": [
+          "Ressources halieutiques"
+        ],
+        "ru": [
+          "Рыбопромысловые ресурсы"
+        ]
+      },
+      "related": [
+        "concept10913",
+        "concept10918",
+        "concept10925",
+        "concept2436",
+        "concept2446",
+        "concept2625",
+        "concept601"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2443",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2443",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Recursos alimenticios"
+        ],
+        "fr": [
+          "Nourriture"
+        ]
+      },
+      "broader": [
+        "concept213"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:43:44+00:00",
+      "narrower": [
+        "concept10159",
+        "concept6382",
+        "concept8222"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد غذائية"
+        ],
+        "en": [
+          "Food resources"
+        ],
+        "es": [
+          "Recursos alimentarios"
+        ],
+        "fr": [
+          "Ressources alimentaires"
+        ],
+        "ru": [
+          "Пищевые ресурсы"
+        ]
+      },
+      "related": [
+        "concept10394",
+        "concept1798",
+        "concept1808",
+        "concept2410",
+        "concept2443"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2446",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2446",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجناس مهددة بالانقراض"
+        ],
+        "es": [
+          "Especie amenazada",
+          "Especie en vías de extinción"
+        ],
+        "fr": [
+          "Espèce en voie d'extinction",
+          "Espèce menacée"
+        ]
+      },
+      "broader": [
+        "concept213"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T14:33:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انواع مهددة بالانقراض"
+        ],
+        "en": [
+          "Endangered species"
+        ],
+        "es": [
+          "Especie en peligro de extinción"
+        ],
+        "fr": [
+          "Espèce en danger"
+        ],
+        "ru": [
+          "Исчезающие виды"
+        ]
+      },
+      "related": [
+        "concept2447",
+        "concept2449",
+        "concept4011",
+        "concept4016",
+        "concept9695",
+        "concept9696"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2452",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2452",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نظم ايكولوجية مائية"
+        ]
+      },
+      "broader": [
+        "concept211"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:23+00:00",
+      "narrower": [
+        "concept2628"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم بيئية مائية"
+        ],
+        "en": [
+          "Aquatic ecosystems"
+        ],
+        "es": [
+          "Ecosistema acuático"
+        ],
+        "fr": [
+          "Écosystème aquatique"
+        ],
+        "ru": [
+          "Водные экосистемы"
+        ]
+      },
+      "related": [
+        "concept189",
+        "concept2382",
+        "concept2623",
+        "concept2627",
+        "concept2630",
+        "concept2631",
+        "concept2632"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2626",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2626",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انظمة بيئية بحرية",
+          "نظم بيئية بحرية"
+        ],
+        "es": [
+          "Ecosistema marítimo"
+        ]
+      },
+      "broader": [
+        "concept2626"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2021-03-26T12:04:46+00:00",
+      "narrower": [
+        "concept5508"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم ايكولوجية بحرية"
+        ],
+        "en": [
+          "Marine ecosystems"
+        ],
+        "es": [
+          "Ecosistema marino"
+        ],
+        "fr": [
+          "Écosystème marin"
+        ],
+        "ru": [
+          "Морские экосистемы"
+        ]
+      },
+      "related": [
+        "concept13752",
+        "concept17119",
+        "concept174",
+        "concept2634",
+        "concept5003"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2628",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2628",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "غلاف حيوي"
+        ]
+      },
+      "broader": [
+        "concept211"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-23T18:33:43+00:00",
+      "narrower": [
+        "concept4014",
+        "concept4050",
+        "concept4052"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محيط حيوي"
+        ],
+        "en": [
+          "Biosphere"
+        ],
+        "es": [
+          "Biosfera"
+        ],
+        "fr": [
+          "Biosphère"
+        ],
+        "ru": [
+          "Биосфера"
+        ]
+      },
+      "related": [
+        "concept181",
+        "concept2411",
+        "concept3278",
+        "concept3964",
+        "concept3988",
+        "concept4008",
+        "concept4083",
+        "concept4084",
+        "concept4085"
+      ],
+      "scope_notes": {
+        "ar": [
+          "جزء من الكرة الأرضية، والغلاف الجوي المحيط بها، قادر على دعم الحياة."
+        ],
+        "en": [
+          "That part of the earth, and the atmosphere surrounding it, which is able to support life."
+        ],
+        "es": [
+          "Parte de la tierra, incluida la atmósfera que la envuelve, adecuada para albergar vida."
+        ],
+        "fr": [
+          "Cette partie de la terre, ainsi que l'atmosphère qui l'enveloppe, apte à maintenir la vie."
+        ],
+        "ru": [
+          "Часть Земли и окружающей ее атмосферы, необходимые для поддержания жизни."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3277",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3277",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طاقة احيائية",
+          "طاقة حيوية"
+        ],
+        "en": [
+          "Bioenergy"
+        ],
+        "es": [
+          "Bioenergía"
+        ],
+        "fr": [
+          "Bioénergie"
+        ],
+        "ru": [
+          "Биоэнергия"
+        ]
+      },
+      "broader": [
+        "concept9750"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-23T18:33:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طاقة الكتلة الحيوية"
+        ],
+        "en": [
+          "Biomass energy"
+        ],
+        "es": [
+          "Energía de la biomasa"
+        ],
+        "fr": [
+          "Énergie de la biomasse"
+        ],
+        "ru": [
+          "Энергия биомассы"
+        ]
+      },
+      "related": [
+        "concept1832",
+        "concept1833",
+        "concept4052",
+        "concept4056"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الطاقة الناتجة عن تحويل المخلفات الزراعية ومخلفات الغابات والنباتات الدائمة ومحاصيل الطاقة والنفايات."
+        ],
+        "en": [
+          "Energy from the conversion of agricultural and forest residues, standing vegetation, energy crops, and wastes."
+        ],
+        "es": [
+          "Energía resultante de la transformación de residuos de la agricultura y de los bosques, de alguna vegetación, de productos energéticos y de desechos."
+        ],
+        "fr": [
+          "Énergie issue de la transformation des résidus de l'agriculture et de la forêt, de la végétation debout, de produits énergétiques et de déchets."
+        ],
+        "ru": [
+          "Энергия, получаемая при переработке отходов сельскохозяйственного или лесного производства, срезанной растительности, злаков и других отходов."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3980",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3980",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تنوع احيائي",
+          "تنوع جيني",
+          "تنوع حيوي",
+          "تنوع وراثي"
+        ],
+        "en": [
+          "Biological diversity",
+          "Genetic diversity"
+        ],
+        "es": [
+          "Diversidad biológica",
+          "Diversidad genética"
+        ],
+        "fr": [
+          "Diversité biologique",
+          "Diversité génétique"
+        ],
+        "ru": [
+          "Биологическое разнообразие",
+          "Генетическое разнообразие"
+        ]
+      },
+      "broader": [
+        "concept8703"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2022-05-10T11:26:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنوع بيولوجي"
+        ],
+        "en": [
+          "Biodiversity"
+        ],
+        "es": [
+          "Biodiversidad"
+        ],
+        "fr": [
+          "Biodiversité"
+        ],
+        "ru": [
+          "Биоразнообразие"
+        ]
+      },
+      "related": [
+        "concept219",
+        "concept223",
+        "concept234",
+        "concept2452",
+        "concept4014",
+        "concept4015",
+        "concept4016"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4011",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4011",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "محميات الغلاف الحيوي"
+        ],
+        "fr": [
+          "Réserves de la biosphère"
+        ]
+      },
+      "broader": [
+        "concept3277"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2020-02-06T14:01:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محميات المحيط الحيوي"
+        ],
+        "en": [
+          "Biosphere reserves"
+        ],
+        "es": [
+          "Reservas de la biosfera"
+        ],
+        "fr": [
+          "Réserves de biosphère"
+        ],
+        "ru": [
+          "Биосферные заповедники"
+        ]
+      },
+      "related": [
+        "concept4011",
+        "concept4016",
+        "concept4088"
+      ],
+      "scope_notes": {
+        "ar": [
+          "محميات أُنشئت لضمان بقاء طويل الأجل للنظم الإيكولوجية الممثلة، مع النباتات والحيوانات المكونة لها."
+        ],
+        "en": [
+          "Reserves created to ensure long-term survival of representative ecosystems, with their component plants and animals."
+        ],
+        "es": [
+          "Reservas creadas para asegurar la supervivencia a largo plazo de ecosistemas típicos, con la flora y la fauna que albergan."
+        ],
+        "fr": [
+          "Réserves créées pour assurer la survie à long terme d'écosystèmes typiques, avec les plantes et les animaux qu'ils contiennent."
+        ],
+        "ru": [
+          "Заповедники, созданные для продолжительного выживания представительных экосистем, включая составляющие их виды растений и животных."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4014",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4014",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مناطق احيائية",
+          "مناطق ايكولوجية",
+          "مناطق بيئية",
+          "مَواطن بِيئية",
+          "وحدات حياتية"
+        ],
+        "en": [
+          "Ecological regions"
+        ],
+        "es": [
+          "Región ecológica"
+        ],
+        "fr": [
+          "Région écologique"
+        ],
+        "ru": [
+          "Экологические регионы"
+        ]
+      },
+      "broader": [
+        "concept3277"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-23T18:33:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وحدات احيائية"
+        ],
+        "en": [
+          "Biomes"
+        ],
+        "es": [
+          "Bioma"
+        ],
+        "fr": [
+          "Biome"
+        ],
+        "ru": [
+          "Биомы"
+        ]
+      },
+      "related": [
+        "concept2411",
+        "concept2848",
+        "concept3964",
+        "concept4070",
+        "concept4071",
+        "concept4072"
+      ],
+      "scope_notes": {
+        "ar": [
+          "أكبر منطقة إقليمية للأراضي، على سبيل المثال، التندرا، السافانا، المروج، الصحراء، الغابات. وقد تحتوي كل منطقة حيوية على العديد من النظم البيئية."
+        ],
+        "en": [
+          "The largest land community region, e.g. tundra, savannah, grassland, desert, forest. Each biome may contain several ecosystems."
+        ],
+        "es": [
+          "Se refiere a una gran comunidad unitaria caracterizada por el tipo de plantas y animales que alberga: la tundra, la sabana, la turbera, el desierto o el bosque. Cada bioma puede contener varios ecosistemas."
+        ],
+        "fr": [
+          "Région correspondant à un grande étendue de terre communautaire, par exemple, la toundra, la savane, la tourbière, le désert, la forêt. Chaque biome peut renfermer plusieurs écosystèmes."
+        ],
+        "ru": [
+          "Самые крупные природные зоны, расположенные на суше, например, тундра, саванна, пустыня и т.п., каждый биом может включать несколько экосистем."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4050",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4050",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كتلة احيائية",
+          "كتلة بيولوجية"
+        ]
+      },
+      "broader": [
+        "concept3277"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كتلة حيوية"
+        ],
+        "en": [
+          "Biomass"
+        ],
+        "es": [
+          "Biomasa"
+        ],
+        "fr": [
+          "Biomasse"
+        ],
+        "ru": [
+          "Биомасса"
+        ]
+      },
+      "related": [
+        "concept3964",
+        "concept3980"
+      ],
+      "scope_notes": {
+        "ar": [
+          "كتلة الكائنات الحية التي تعيش في نظام بيئي حيواني أو نباتي."
+        ],
+        "en": [
+          "The mass of organisms living in an animal or plant ecosystem."
+        ],
+        "es": [
+          "Masa de organismos que viven en un ecosistema animal o vegetal."
+        ],
+        "fr": [
+          "Masse d'organismes vivant dans un écosystème animal ou végétal."
+        ],
+        "ru": [
+          "Организмы, обитающие в животной или растительной экосистеме."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4052",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4052",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكيف النباتات",
+          "حياة النبات",
+          "حياة النباتات",
+          "حياة نباتية",
+          "علم البيئة النباتية",
+          "علم بيئة النبات"
+        ],
+        "en": [
+          "Plant adaptation",
+          "Plant life"
+        ],
+        "es": [
+          "Adaptación de las plantas",
+          "Ecología botánica",
+          "Ecología de las plantas",
+          "Vida de las plantas"
+        ],
+        "fr": [
+          "Adaptation des plantes",
+          "Vie des plantes",
+          "Écologie des plantes"
+        ],
+        "ru": [
+          "Адаптация растений",
+          "Жизнь растений"
+        ]
+      },
+      "broader": [
+        "concept211"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ايكولوجيا نباتية"
+        ],
+        "en": [
+          "Plant ecology"
+        ],
+        "es": [
+          "Fitoecología"
+        ],
+        "fr": [
+          "Phytoécologie"
+        ],
+        "ru": [
+          "Экология растений"
+        ]
+      },
+      "related": [
+        "concept10394",
+        "concept10957",
+        "concept230",
+        "concept2411",
+        "concept2412",
+        "concept3991",
+        "concept4264"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4266",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4266",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مصادر الوقود"
+        ]
+      },
+      "broader": [
+        "concept9736"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:31+00:00",
+      "narrower": [
+        "concept11241",
+        "concept5499"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد الوقود"
+        ],
+        "en": [
+          "Fuel resources"
+        ],
+        "es": [
+          "Recursos combustibles"
+        ],
+        "fr": [
+          "Ressources en combustibles"
+        ],
+        "ru": [
+          "Топливные ресурсы"
+        ]
+      },
+      "related": [
+        "concept11243",
+        "concept4649",
+        "concept638"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4965",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4965",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مصادر الفحم"
+        ]
+      },
+      "broader": [
+        "concept4965"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-23T18:34:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد الفحم"
+        ],
+        "en": [
+          "Coal resources"
+        ],
+        "es": [
+          "Recursos carboníferos"
+        ],
+        "fr": [
+          "Ressources en charbon"
+        ],
+        "ru": [
+          "Запасы угля"
+        ]
+      },
+      "related": [
+        "concept4960"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5499",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5499",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مناطق اشجار الايكة الساحلية",
+          "مناطق اشجار المانجروف",
+          "مناطق المانجروف"
+        ],
+        "fr": [
+          "Palétuvier"
+        ]
+      },
+      "broader": [
+        "concept2628"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T14:33:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مناطق تواجد المانجروف"
+        ],
+        "en": [
+          "Mangrove areas"
+        ],
+        "es": [
+          "Manglar"
+        ],
+        "fr": [
+          "Mangrove"
+        ],
+        "ru": [
+          "Зоны мангровых лесов"
+        ]
+      },
+      "related": [
+        "concept1325",
+        "concept1890",
+        "concept5446",
+        "concept5504",
+        "concept5507",
+        "concept8392"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5508",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5508",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ثروة معدنية"
+        ]
+      },
+      "broader": [
+        "concept213"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد معدنية"
+        ],
+        "en": [
+          "Mineral resources"
+        ],
+        "es": [
+          "Recursos minerales"
+        ],
+        "fr": [
+          "Ressources minérales"
+        ],
+        "ru": [
+          "Ископаемые ресурсы"
+        ]
+      },
+      "related": [
+        "concept11243",
+        "concept13765",
+        "concept161",
+        "concept3497",
+        "concept4652",
+        "concept4987",
+        "concept5419",
+        "concept637",
+        "concept641",
+        "concept7676"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5692",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5692",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استهلاك الاغذية",
+          "استهلاك الغذاء",
+          "استهلاك المواد الغذائية"
+        ],
+        "es": [
+          "Consumo alimentario"
+        ]
+      },
+      "broader": [
+        "concept2446"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استهلاك غذائي"
+        ],
+        "en": [
+          "Food consumption"
+        ],
+        "es": [
+          "Consumo alimenticio"
+        ],
+        "fr": [
+          "Consommation alimentaire"
+        ],
+        "ru": [
+          "Потребление продовольствия"
+        ]
+      },
+      "related": [
+        "concept8222"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6382",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6382",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اختلال التوازن الايكولوجي",
+          "اختلال التوازن البيئي",
+          "ازمة بيئية"
+        ],
+        "en": [
+          "Ecological balance disruption"
+        ],
+        "es": [
+          "Crisis medioambiental",
+          "Ruptura del equilibrio ecológico"
+        ],
+        "fr": [
+          "Rupture de l'équilibre écologique"
+        ],
+        "ru": [
+          "Нарушение экологического баланса"
+        ]
+      },
+      "broader": [
+        "concept8703"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ازمة ايكولوجية"
+        ],
+        "en": [
+          "Ecological crisis"
+        ],
+        "es": [
+          "Crisis ecológica"
+        ],
+        "fr": [
+          "Crise écologique"
+        ],
+        "ru": [
+          "Экологический кризис"
+        ]
+      },
+      "related": [
+        "concept3964",
+        "concept4008"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6868",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6868",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طاقة المياه",
+          "طاقة كهربائية مائية",
+          "طاقة كهرومائية",
+          "طاقة مائية",
+          "قوة كهربائية مائية"
+        ],
+        "en": [
+          "Hydropower",
+          "Water power"
+        ],
+        "es": [
+          "Energía del agua",
+          "Energía hidraúlica",
+          "Energía hídrica",
+          "Hidroelectricidad"
+        ],
+        "fr": [
+          "Force hydraulique",
+          "Houille blanche",
+          "Énergie hydraulique"
+        ],
+        "ru": [
+          "Гидроэнергия",
+          "Энергия воды"
+        ]
+      },
+      "broader": [
+        "concept9750"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:39+00:00",
+      "narrower": [
+        "concept9708"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طاقة كهرمائية"
+        ],
+        "en": [
+          "Hydroelectric power"
+        ],
+        "es": [
+          "Energía hidroeléctrica"
+        ],
+        "fr": [
+          "Énergie hydroélectrique"
+        ],
+        "ru": [
+          "Гидроэлектроэнергия"
+        ]
+      },
+      "related": [
+        "concept3585",
+        "concept4861",
+        "concept8527",
+        "concept9508"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7359",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7359",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تموين غذائي",
+          "مخزون الاطعمة",
+          "مخزون الطعام",
+          "مخزون الغذاء",
+          "مواد تموينية"
+        ],
+        "es": [
+          "Abastecimiento alimenticio",
+          "Abastecimiento de víveres"
+        ],
+        "fr": [
+          "Ravitaillement en vivres",
+          "Vivres"
+        ]
+      },
+      "broader": [
+        "concept2446"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "امدادات غذائية"
+        ],
+        "en": [
+          "Food supply"
+        ],
+        "es": [
+          "Suministro de alimentos"
+        ],
+        "fr": [
+          "Disponibilités alimentaires"
+        ],
+        "ru": [
+          "Обеспеченность продовольствием"
+        ]
+      },
+      "related": [
+        "concept10159",
+        "concept1798",
+        "concept6382",
+        "concept8153"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8222",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8222",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ايكولوجيا بشرية"
+        ]
+      },
+      "broader": [
+        "concept211"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:43:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم البيئة البشرية"
+        ],
+        "en": [
+          "Human ecology"
+        ],
+        "es": [
+          "Ecología humana"
+        ],
+        "fr": [
+          "Écologie humaine"
+        ],
+        "ru": [
+          "Экология человека"
+        ]
+      },
+      "related": [
+        "concept1581",
+        "concept17066",
+        "concept2322",
+        "concept4008",
+        "concept4084",
+        "concept6991",
+        "concept7041"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8701",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8701",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استقرار النظام الايكولوجي",
+          "استقرار النظام البيئي",
+          "توازن ايكولوجي",
+          "توازن بيولوجي",
+          "توازن حيوي"
+        ],
+        "en": [
+          "Biological equilibrium",
+          "Ecosystem stability"
+        ],
+        "es": [
+          "Equilibrio ambiental",
+          "Equilibrio biológico",
+          "Equilibrio natural"
+        ],
+        "fr": [
+          "Stabilité de l'écosystème",
+          "Équilibre biologique",
+          "Équilibre naturel"
+        ],
+        "ru": [
+          "Биологический баланс",
+          "Стабильность экосистем"
+        ]
+      },
+      "broader": [
+        "concept211"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:32+00:00",
+      "narrower": [
+        "concept1331",
+        "concept4011",
+        "concept6868"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توازن بيئي"
+        ],
+        "en": [
+          "Ecological balance"
+        ],
+        "es": [
+          "Equilibrio ecológico"
+        ],
+        "fr": [
+          "Équilibre écologique"
+        ],
+        "ru": [
+          "Экологический баланс"
+        ]
+      },
+      "related": [
+        "concept3964",
+        "concept4008",
+        "concept7775"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8703",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8703",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نظم ايكولوجية برية",
+          "نظم بيئية برية"
+        ],
+        "fr": [
+          "Système écologique terrestre"
+        ]
+      },
+      "broader": [
+        "concept211"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2026-04-17T12:26:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم ايكولوجية ارضية"
+        ],
+        "en": [
+          "Terrestrial ecosystems"
+        ],
+        "es": [
+          "Ecosistema terrestre"
+        ],
+        "fr": [
+          "Écosystème terrestre"
+        ],
+        "ru": [
+          "Экосистемы суши"
+        ]
+      },
+      "related": [
+        "concept2636"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8911",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8911",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طاقة كهربائية",
+          "قوة كهربائية"
+        ],
+        "en": [
+          "Electrical energy"
+        ],
+        "es": [
+          "Corriente eléctrica"
+        ],
+        "fr": [
+          "Courant électrique"
+        ],
+        "ru": [
+          "Электрическая энергия"
+        ]
+      },
+      "broader": [
+        "concept212"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قدرة كهربائية"
+        ],
+        "en": [
+          "Electric power"
+        ],
+        "es": [
+          "Energía eléctrica"
+        ],
+        "fr": [
+          "Énergie électrique"
+        ],
+        "ru": [
+          "Электроэнергия"
+        ]
+      },
+      "related": [
+        "concept4850",
+        "concept621",
+        "concept7359"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9508",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9508",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طاقة امواج المحيطات",
+          "طاقة موجية للمحيطات"
+        ],
+        "en": [
+          "Ocean wave energy"
+        ],
+        "es": [
+          "Energía de las mareas",
+          "Energía de las olas"
+        ],
+        "fr": [
+          "Énergie des marées",
+          "Énergie des vagues",
+          "Énergie des vagues océaniques"
+        ],
+        "ru": [
+          "Энергия океанических волн"
+        ]
+      },
+      "broader": [
+        "concept7359"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طاقة المد والجزر"
+        ],
+        "en": [
+          "Tidal energy"
+        ],
+        "es": [
+          "Energía de las olas oceánicas"
+        ],
+        "fr": [
+          "Énergie marémotrice"
+        ],
+        "ru": [
+          "Энергия приливов и отливов"
+        ]
+      },
+      "related": [
+        "concept8572",
+        "concept8573"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9708",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9708",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طاقة بخارية"
+        ],
+        "fr": [
+          "Production thermique",
+          "Puissance thermique"
+        ]
+      },
+      "broader": [
+        "concept9750"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قدرة بخارية"
+        ],
+        "en": [
+          "Steam power"
+        ],
+        "es": [
+          "Energía del vapor"
+        ],
+        "fr": [
+          "Énergie à vapeur"
+        ],
+        "ru": [
+          "Энергия пара"
+        ]
+      },
+      "related": [
+        "concept9714"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9710",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9710",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طاقة ريحية",
+          "قدرة الرياح"
+        ],
+        "es": [
+          "Energía del viento"
+        ],
+        "fr": [
+          "Énergie du vent"
+        ]
+      },
+      "broader": [
+        "concept9750"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طاقة الرياح"
+        ],
+        "en": [
+          "Wind power"
+        ],
+        "es": [
+          "Energía eólica"
+        ],
+        "fr": [
+          "Énergie éolienne"
+        ],
+        "ru": [
+          "Энергия ветра"
+        ]
+      },
+      "related": [
+        "concept3280"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9712",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9712",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طاقة حرارية جوفية"
+        ]
+      },
+      "broader": [
+        "concept9721"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:43:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طاقة حرارية ارضية"
+        ],
+        "en": [
+          "Geothermal energy"
+        ],
+        "es": [
+          "Energía geotérmica"
+        ],
+        "fr": [
+          "Énergie géothermique"
+        ],
+        "ru": [
+          "Геотермальная энергия"
+        ]
+      },
+      "related": [
+        "concept11471",
+        "concept9710"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9714",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9714",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طاقة ذرية"
+        ],
+        "en": [
+          "Atomic energy"
+        ],
+        "es": [
+          "Energía atómica"
+        ],
+        "fr": [
+          "Énergie atomique"
+        ],
+        "ru": [
+          "Атомная энергия"
+        ]
+      },
+      "broader": [
+        "concept9736"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:03+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طاقة نووية"
+        ],
+        "en": [
+          "Nuclear energy"
+        ],
+        "es": [
+          "Energía nuclear"
+        ],
+        "fr": [
+          "Énergie nucléaire"
+        ],
+        "ru": [
+          "Ядерная энергия"
+        ]
+      },
+      "related": [
+        "concept14623",
+        "concept4863",
+        "concept627"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9717",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9717",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept9750"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طاقة شمسية"
+        ],
+        "en": [
+          "Solar energy"
+        ],
+        "es": [
+          "Energía solar"
+        ],
+        "fr": [
+          "Énergie solaire"
+        ],
+        "ru": [
+          "Энергия солнца"
+        ]
+      },
+      "related": [
+        "concept12597",
+        "concept4865",
+        "concept6688"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9719",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9719",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Energía calorífica"
+        ],
+        "fr": [
+          "Énergie calorifique"
+        ]
+      },
+      "broader": [
+        "concept9750"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:44+00:00",
+      "narrower": [
+        "concept9714"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طاقة حرارية"
+        ],
+        "en": [
+          "Thermal energy"
+        ],
+        "es": [
+          "Energía térmica"
+        ],
+        "fr": [
+          "Énergie thermique"
+        ],
+        "ru": [
+          "Термальная энергия"
+        ]
+      },
+      "related": [
+        "concept134",
+        "concept4155",
+        "concept4549",
+        "concept4867"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9721",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9721",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مصادر الطاقة غير القابلة للتجديد"
+        ]
+      },
+      "broader": [
+        "concept212"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:24+00:00",
+      "narrower": [
+        "concept14587",
+        "concept4965",
+        "concept9717"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مصادر الطاقة غير المتجددة"
+        ],
+        "en": [
+          "Nonrenewable energy sources"
+        ],
+        "es": [
+          "Fuente de energía no renovable"
+        ],
+        "fr": [
+          "Source énergétique non renouvelable"
+        ],
+        "ru": [
+          "Невозобновляемые источники энергии"
+        ]
+      },
+      "related": [
+        "concept11243",
+        "concept213",
+        "concept6319",
+        "concept7775"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9736",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9736",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مصادر الطاقة البديلة",
+          "مصادر بديلة للطاقة",
+          "موارد الطاقة المتجددة"
+        ],
+        "en": [
+          "Alternative energy sources"
+        ],
+        "es": [
+          "Fuente de energía alternativa"
+        ],
+        "fr": [
+          "Source d'énergie alternative"
+        ],
+        "ru": [
+          "Альтернативные источники энергии"
+        ]
+      },
+      "broader": [
+        "concept212"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:40+00:00",
+      "narrower": [
+        "concept1832",
+        "concept3980",
+        "concept7359",
+        "concept9710",
+        "concept9712",
+        "concept9719",
+        "concept9721"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مصادر الطاقة المتجددة"
+        ],
+        "en": [
+          "Renewable energy sources"
+        ],
+        "es": [
+          "Fuente de energía renovable"
+        ],
+        "fr": [
+          "Source d'énergie renouvelable"
+        ],
+        "ru": [
+          "Возобновляемые источники энергии"
+        ]
+      },
+      "related": [
+        "concept14477",
+        "concept213"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9750",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9750",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نقص الاغذية",
+          "نقص الغذاء"
+        ],
+        "es": [
+          "Falta de alimentos"
+        ]
+      },
+      "broader": [
+        "concept2446"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقص غذائي"
+        ],
+        "en": [
+          "Food shortages"
+        ],
+        "es": [
+          "Escasez de alimentos"
+        ],
+        "fr": [
+          "Pénurie alimentaire"
+        ],
+        "ru": [
+          "Нехватка продовольствия"
+        ]
+      },
+      "related": [
+        "concept8153",
+        "concept8222"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10159",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10159",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept213"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:43:29+00:00",
+      "narrower": [
+        "concept11063"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد نباتية"
+        ],
+        "en": [
+          "Plant resources"
+        ],
+        "es": [
+          "Recursos vegetales"
+        ],
+        "fr": [
+          "Ressources végétales"
+        ],
+        "ru": [
+          "Растительные ресурсы"
+        ]
+      },
+      "related": [
+        "concept10957",
+        "concept2446",
+        "concept4251",
+        "concept4259",
+        "concept4266"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10394",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10394",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "موارد البحار"
+        ],
+        "en": [
+          "Sea resources"
+        ],
+        "es": [
+          "Recursos marítimos"
+        ],
+        "fr": [
+          "Ressources marines"
+        ],
+        "ru": [
+          "Ресурсы моря"
+        ]
+      },
+      "broader": [
+        "concept213"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2021-06-18T12:08:36+00:00",
+      "narrower": [
+        "concept13765"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد بحرية"
+        ],
+        "en": [
+          "Marine resources"
+        ],
+        "es": [
+          "Recursos marinos"
+        ],
+        "fr": [
+          "Ressources de la mer"
+        ],
+        "ru": [
+          "Морские ресурсы"
+        ]
+      },
+      "related": [
+        "concept17119",
+        "concept17125",
+        "concept175",
+        "concept2443",
+        "concept7712"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10925",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10925",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "غابات محمية",
+          "محميات الغابات",
+          "محميات حراجية"
+        ],
+        "en": [
+          "Forest reserves"
+        ],
+        "es": [
+          "Reservas forestales"
+        ],
+        "fr": [
+          "Forêt classée",
+          "Réserve forestière"
+        ],
+        "ru": [
+          "Лесные запасы"
+        ]
+      },
+      "broader": [
+        "concept10394"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-23T18:33:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد الغابات"
+        ],
+        "en": [
+          "Forest resources"
+        ],
+        "es": [
+          "Recursos forestales"
+        ],
+        "fr": [
+          "Ressources forestières"
+        ],
+        "ru": [
+          "Лесные ресурсы"
+        ]
+      },
+      "related": [
+        "concept1813",
+        "concept1853",
+        "concept2672",
+        "concept4247",
+        "concept6352"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11063",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11063",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "غاز طبيعي",
+          "مصادر الغاز"
+        ],
+        "en": [
+          "Natural gas"
+        ],
+        "es": [
+          "Gas natural"
+        ],
+        "fr": [
+          "Gaz naturel"
+        ],
+        "ru": [
+          "Природный газ"
+        ]
+      },
+      "broader": [
+        "concept4965"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد الغاز"
+        ],
+        "en": [
+          "Gas resources"
+        ],
+        "es": [
+          "Recursos de gas"
+        ],
+        "fr": [
+          "Ressources en gaz"
+        ],
+        "ru": [
+          "Запасы газа"
+        ]
+      },
+      "related": [
+        "concept11248",
+        "concept11252",
+        "concept146"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11241",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11241",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Ressources naturelles non renouvelables"
+        ]
+      },
+      "broader": [
+        "concept213"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد غير متجددة"
+        ],
+        "en": [
+          "Nonrenewable resources"
+        ],
+        "es": [
+          "Recursos no renovables"
+        ],
+        "fr": [
+          "Ressources non renouvelables"
+        ],
+        "ru": [
+          "Невозобновляемые ресурсы"
+        ]
+      },
+      "related": [
+        "concept11252",
+        "concept14477",
+        "concept4965",
+        "concept5692",
+        "concept6329",
+        "concept7775",
+        "concept9736"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11243",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11243",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رواسب معدنية تحت البحر"
+        ],
+        "en": [
+          "Submarine mineral deposits"
+        ],
+        "es": [
+          "Recursos minerales marítimos",
+          "Recursos minerales submarinos"
+        ],
+        "fr": [
+          "Ressources minérales marines",
+          "Ressources minérales sous-marines"
+        ],
+        "ru": [
+          "Подводные месторождения полезных ископаемых"
+        ]
+      },
+      "broader": [
+        "concept10925"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:45:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد معدنية بحرية"
+        ],
+        "en": [
+          "Marine mineral resources"
+        ],
+        "es": [
+          "Recursos minerales marinos"
+        ],
+        "fr": [
+          "Ressources minérales de la mer"
+        ],
+        "ru": [
+          "Морские минеральные ресурсы"
+        ]
+      },
+      "related": [
+        "concept10622",
+        "concept5521",
+        "concept5692",
+        "concept6498"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13765",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13765",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مصادر قابلة للتجدّد",
+          "مصادر متجددة",
+          "موارد قابلة للتجديد"
+        ],
+        "fr": [
+          "Ressources naturelles renouvelables"
+        ]
+      },
+      "broader": [
+        "concept213"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد متجددة"
+        ],
+        "en": [
+          "Renewable resources"
+        ],
+        "es": [
+          "Recursos renovables"
+        ],
+        "fr": [
+          "Ressources renouvelables"
+        ],
+        "ru": [
+          "Возобновляемые ресурсы"
+        ]
+      },
+      "related": [
+        "concept11243",
+        "concept9750"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14477",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14477",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "موارد النفط",
+          "موارد بترولية",
+          "موارد زيتية"
+        ],
+        "en": [
+          "Oil resources"
+        ],
+        "es": [
+          "Recursos petroleros"
+        ],
+        "fr": [
+          "Ressources en pétrole"
+        ],
+        "ru": [
+          "Ресурсы нефти"
+        ]
+      },
+      "broader": [
+        "concept9736"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2019-12-15T13:44:52+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد نفطية"
+        ],
+        "en": [
+          "Petroleum resources"
+        ],
+        "es": [
+          "Recursos petrolíferos"
+        ],
+        "fr": [
+          "Ressources pétrolières"
+        ],
+        "ru": [
+          "Нефтяные ресурсы"
+        ]
+      },
+      "related": [
+        "concept11249"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14587",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14587",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Services écologiques"
+        ],
+        "ru": [
+          "экосистемные услуги"
+        ]
+      },
+      "broader": [
+        "concept211"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.65"
+      ],
+      "modified": "2022-06-27T10:59:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خدمات النظم الإيكولوجية"
+        ],
+        "en": [
+          "Ecosystem services"
+        ],
+        "es": [
+          "Servicios ecosistémicos"
+        ],
+        "fr": [
+          "Services écosystémiques"
+        ],
+        "ru": [
+          "функции экосистем"
+        ]
+      },
+      "related": [
+        "concept3964",
+        "concept4533"
+      ],
+      "scope_notes": {
+        "ar": [
+          "المزايا التي يحصل عليها المجتمع بفضل تشغيل النظم الإيكولوجية."
+        ],
+        "en": [
+          "Benefits received by society thanks to the functioning of ecosystems."
+        ],
+        "es": [
+          "Beneficios que las personas obtienen de los ecosistemas"
+        ],
+        "fr": [
+          "Ensemble des avantages que les populations retirent des écosystèmes."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17132",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17132",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt2.65",
+    "labels": {
+      "en": "Natural resources",
+      "fr": "Ressources naturelles"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt2.65"
+  }
+}

@@ -1,0 +1,262 @@
+# Médiathèque kOA — Template ChatGPT Intake
+
+TEMPLATE_VERSION: {{TEMPLATE_VERSION}}
+
+## App identity
+
+APP_PUBLIC_NAME: {{APP_PUBLIC_NAME}}
+APP_SHORT_NAME: {{APP_SHORT_NAME}}
+APP_TECHNICAL_NAME: {{APP_TECHNICAL_NAME}}
+APP_COMPONENT: {{APP_COMPONENT}}
+
+## Selected file
+
+SELECTED_FILE_PATH:
+{{SELECTED_FILE_PATH}}
+
+SELECTED_FILENAME:
+{{SELECTED_FILENAME}}
+
+## Task
+
+Analyze the selected file and propose structured catalog metadata for Médiathèque kOA.
+
+Use only:
+- the file content actually provided to you;
+- the selected filename;
+- the visible folder/path context explicitly provided in this prompt.
+
+Do not invent facts.
+Do not infer hidden content.
+Do not create, rewrite, extend, complete, or improve the source document.
+Do not generate new document content.
+Do not hallucinate source, authorship, ownership, rights, public status, restriction status, cultural status, validation status, export permission, dates, people, places, or institutional context.
+
+If the file content is unavailable, unreadable, partial, ambiguous, or not actually attached:
+- say so in description, summary, notes, or review_reason;
+- use controlled uncertainty values;
+- set human_review_required to 1;
+- set ai_confidence to a low value;
+- do not pretend to have analyzed unavailable content.
+
+Return one JSON object only.
+
+Do not wrap the JSON in Markdown.
+Do not add commentary before or after the JSON.
+Do not use comments inside JSON.
+
+## Product boundary
+
+Médiathèque kOA is a local library table + local file storage + ChatGPT intake + XLSX round-trip + compact GUI.
+
+SQLite is the source of truth.
+ChatGPT provides metadata suggestions only.
+The app recalculates technical file facts locally.
+XLSX is only a bulk-edit interface.
+Non-UCKK, non-public, private, personal, third-party, uncertain, and non-exportable records are valid cases.
+
+## Technical fields you must not output
+
+The app calculates these locally. Do not include these fields in your JSON:
+
+{{TECHNICAL_PROTECTED_FIELDS}}
+
+Also do not output:
+- media_uuid
+- version_uuid
+- original_path
+- storage_path
+- filename
+- extension
+- mimetype
+- filesize
+- sha256
+- created_at
+- updated_at
+
+## Required JSON fields
+
+You must return all required fields below.
+
+{{REQUIRED_FIELDS}}
+
+## Allowed controlled values
+
+Use only these controlled values when the field appears here:
+
+{{ALLOWED_VALUES}}
+
+If uncertain, use the safest controlled uncertainty value, usually:
+- unknown
+- private
+- no
+- none
+- unverified
+- ai_uncertain
+- review_required
+
+## Multi-value JSON array fields
+
+These fields must be JSON arrays:
+
+{{JSON_ARRAY_FIELDS}}
+
+Hard rules for array fields:
+- arrays must contain strings only;
+- never put objects inside arrays;
+- never put dictionaries/maps inside arrays;
+- never put nested arrays inside arrays;
+- never output items like {"name": "..."} or {"type": "..."} inside arrays;
+- if unsure, use an empty array.
+
+Correct examples:
+
+"collections": ["fiches_eclair_koa"]
+"tags": ["communication", "organisation"]
+"relations": []
+"content_flags": []
+
+Incorrect examples:
+
+"collections": [{"name": "fiches_eclair_koa"}]
+"tags": [{"name": "communication"}]
+"relations": [{"type": "references", "target": "external_work_key"}]
+"content_flags": [{"flag": "unknown"}]
+
+## Relation format
+
+Relations may be empty.
+
+When using compact relation strings, use:
+
+relation_type:target_key
+
+Examples:
+
+belongs_to_collection:fiches_eclair_koa
+references:media_uuid
+duplicates:version_uuid
+references_external_work:external_work_key
+
+Multiple relations must be represented as JSON array items, not as a single semicolon string.
+
+Never use relation objects.
+Never use dictionaries in relations.
+Never use nested arrays in relations.
+
+## Content analysis rules
+
+When the content is available:
+- identify the document’s actual topic;
+- summarize only what the document says;
+- keep title, description, and summary faithful to the document;
+- use cautious wording for uncertain interpretations;
+- prefer concise metadata over speculative metadata.
+
+When the content is not available:
+- do not summarize unseen content;
+- do not infer content from the filename beyond minimal catalog context;
+- set ai_confidence to a low value;
+- set human_review_required to 1;
+- explain in review_reason that the file content was not available or not fully readable.
+
+## Human validation rule
+
+You may set ai_validation_state.
+
+You must not set canonical_validation_state to verified.
+
+Use:
+
+"canonical_validation_state": "unverified"
+
+unless a human explicitly gave you a separate instruction to mark this record as verified.
+
+Unknown source or unknown rights require:
+
+"human_review_required": 1
+
+## Export safety rules
+
+Do not mark a record exportable unless source, rights, public status, restrictions, and relevance are clear.
+
+Use:
+
+"export_to_uckk": "no"
+
+or:
+
+"export_to_uckk": "review_required"
+
+when uncertain.
+
+Use:
+
+"export_to_public": "no"
+
+or:
+
+"export_to_public": "review_required"
+
+when uncertain.
+
+Public export requires clear public_state, visibility, rights, and no unresolved restriction.
+
+UCKK export requires clear UCKK relevance, target_system = uckkarchive, target_export_allowed = 1, known rights, and no unresolved human review requirement.
+
+When uncertain, use:
+
+"target_export_allowed": 0
+"export_to_uckk": "no"
+"export_to_public": "no"
+"human_review_required": 1
+
+## Content flags
+
+Use content_flags only when relevant.
+
+Do not over-classify sensitive content.
+Do not mark cultural, sacred, privacy, copyright, or confidential sensitivity unless there is evidence.
+If there is uncertainty, add a review reason.
+
+content_flags must always be an array of strings.
+If no content flag is clearly evidenced, use:
+
+"content_flags": []
+
+## Recommended defaults for uncertain local intake
+
+For uncertain local documents, prefer:
+
+"public_state": "unknown"
+"visibility": "private"
+"access_level": "private"
+"ownership_scope": "unknown"
+"source_type": "unknown"
+"source_ownership": "unknown_source"
+"rights_status": "unknown"
+"restriction_state": "none"
+"status": "active"
+"provenance": "ai_assisted"
+"ai_validation_state": "ai_uncertain"
+"canonical_validation_state": "unverified"
+"human_review_required": 1
+"target_export_allowed": 0
+"export_to_uckk": "no"
+"export_to_public": "no"
+
+## Output JSON shape
+
+Return exactly one JSON object using this shape.
+
+Use controlled values.
+Use null for unknown free-text notes.
+Use [] for empty arrays.
+Do not include technical file fields.
+Do not include objects inside array fields.
+
+{{JSON_SCHEMA_EXAMPLE}}
+
+## Final instruction
+
+Return JSON only.

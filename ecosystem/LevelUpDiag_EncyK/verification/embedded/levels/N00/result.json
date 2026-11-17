@@ -1,0 +1,43 @@
+{
+  "schema": "levelupdiag.report.v2",
+  "standard": "LevelUpDiag",
+  "standard_version": "1.0.0",
+  "run_id": "20260909T173406Z-3fc0ab1b",
+  "level_id": "N00",
+  "level_name": "Diagnostic Integrity",
+  "purpose": "Validate the diagnostics frame before trusting its output.",
+  "target_repo_root": "/workspace/scratch/537b727e15f3/orgo",
+  "started_at": "2026-09-09T17:34:06+00:00",
+  "ended_at": "2026-09-09T17:34:06+00:00",
+  "verdict": "PASS",
+  "findings": [
+    {
+      "id": "diagnostics.python.version",
+      "verdict": "PASS",
+      "category": "diagnostics",
+      "message": "Python 3.12.14 is supported."
+    },
+    {
+      "id": "diagnostics.level_modules.available",
+      "verdict": "PASS",
+      "category": "diagnostics",
+      "message": "All declared level modules are importable.",
+      "evidence": {
+        "count": 15
+      }
+    },
+    {
+      "id": "diagnostics.schemas.present",
+      "verdict": "PASS",
+      "category": "diagnostics",
+      "message": "Required schema documents are present.",
+      "evidence": {
+        "count": 2
+      }
+    }
+  ],
+  "artifacts": [],
+  "metrics": {
+    "worker_duration_seconds": 0.052
+  }
+}

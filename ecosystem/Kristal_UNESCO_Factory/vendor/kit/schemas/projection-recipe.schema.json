@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kristal:projection-recipe:2.0.0",
+  "type": "object",
+  "required": ["format", "slug", "subject_ref", "orientation", "projection_contract", "materialization"],
+  "properties": {
+    "format": {"const": "kristal.projection-recipe/2.0.0"},
+    "orientation": {
+      "type": "object",
+      "required": ["primary_axis"],
+      "properties": {"primary_axis": {"type": "string", "minLength": 1}, "secondary_axis": {"type": ["string", "null"]}}
+    },
+    "projection_contract": {
+      "type": "object",
+      "properties": {
+        "portable_contract": {"const": "kristal_state/6.0"},
+        "relationship_to_v9_canon": {"const": "derived_projection"}
+      }
+    }
+  }
+}

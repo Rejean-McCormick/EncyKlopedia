@@ -1,0 +1,4286 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجراءات اجتماعية ثقافية",
+          "عمل اجتماعي ثقافي",
+          "نشاط ثقافي"
+        ],
+        "en": [
+          "Socio-cultural action"
+        ],
+        "es": [
+          "Acción sociocultural"
+        ],
+        "fr": [
+          "Action socioculturelle"
+        ],
+        "ru": [
+          "Социально-культурная акция"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-24T11:22:10+00:00",
+      "narrower": [
+        "concept1279",
+        "concept2374"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عمل ثقافي"
+        ],
+        "en": [
+          "Cultural action"
+        ],
+        "es": [
+          "Acción cultural"
+        ],
+        "fr": [
+          "Action culturelle"
+        ],
+        "ru": [
+          "Культурная акция"
+        ]
+      },
+      "related": [
+        "concept3728",
+        "concept6966",
+        "concept6967",
+        "concept6968"
+      ],
+      "scope_notes": {
+        "ar": [
+          "جهود رامية إلى تطوير الثقافة في أوسع معانيها، مع الأخذ في الاعتبار تطور المجتمع، وحرية التعبير عن أفكاره الخاصة وحرية اختيار أسلوب حياة."
+        ],
+        "en": [
+          "Efforts tending to develop culture in the broadest meaning of the term, with reference to community development, freedom of expression and free choice of life style."
+        ],
+        "es": [
+          "Esfuerzos encaminados a desarrollar la cultura, en el sentido amplio del término, teniendo en cuenta el desarrollo comunitario, la libertad de expresión y la libre elección de un estilo de vida."
+        ],
+        "fr": [
+          "Effort tendant à développer la culture au sens large du terme, ayant en vue le développement communautaire, la liberté d'expression et la liberté de choix d'un mode de vie."
+        ],
+        "ru": [
+          "Усилия, направленные на развитие культуры в самом широком смысле, учитывающие развитие сообщества, свободу выражать собственные мысли и свободу выбирать образ жизни."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept267",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept267",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-24T11:22:11+00:00",
+      "narrower": [
+        "concept6976",
+        "concept6977",
+        "concept6978"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادارة ثقافية"
+        ],
+        "en": [
+          "Cultural administration"
+        ],
+        "es": [
+          "Administración cultural"
+        ],
+        "fr": [
+          "Administration culturelle"
+        ],
+        "ru": [
+          "Руководство в области культуры"
+        ]
+      },
+      "related": [
+        "concept4883",
+        "concept6979"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept268",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept268",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تراث عالمي (ثقافي)"
+        ],
+        "en": [
+          "World heritage (cultural)"
+        ],
+        "es": [
+          "Patrimonio mundial cultural"
+        ],
+        "fr": [
+          "Héritage culturel",
+          "Patrimoine mondial culturel"
+        ],
+        "ru": [
+          "Всемирное наследие"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2020-03-11T12:33:09+00:00",
+      "narrower": [
+        "concept2783",
+        "concept3091",
+        "concept7068"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تراث ثقافي"
+        ],
+        "en": [
+          "Cultural heritage"
+        ],
+        "es": [
+          "Patrimonio cultural"
+        ],
+        "fr": [
+          "Patrimoine culturel"
+        ],
+        "ru": [
+          "Культурное наследие"
+        ]
+      },
+      "related": [
+        "concept199",
+        "concept273",
+        "concept274",
+        "concept275",
+        "concept276",
+        "concept7040",
+        "concept7070",
+        "concept7071"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept269",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept269",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مديرو المؤسسات الثقافية",
+          "مسئولون اداريون للشئون الثقافية",
+          "موظفون في مجال الثقافة"
+        ],
+        "en": [
+          "Cultural administrators"
+        ],
+        "es": [
+          "Administradores culturales"
+        ],
+        "fr": [
+          "Administrateur culturel"
+        ],
+        "ru": [
+          "Руководители в области культуры"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T14:36:45+00:00",
+      "narrower": [
+        "concept1688",
+        "concept7136"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عاملون في المجال الثقافي"
+        ],
+        "en": [
+          "Cultural personnel"
+        ],
+        "es": [
+          "Personal cultural"
+        ],
+        "fr": [
+          "Personnel culturel"
+        ],
+        "ru": [
+          "Персонал организаций сферы культуры"
+        ]
+      },
+      "related": [
+        "concept2700",
+        "concept2704",
+        "concept276",
+        "concept326",
+        "concept335",
+        "concept3384",
+        "concept4605",
+        "concept481"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept270",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept270",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "خطط ثقافية"
+        ],
+        "en": [
+          "Cultural plans"
+        ],
+        "es": [
+          "Plan cultural"
+        ],
+        "fr": [
+          "Plan culturel"
+        ],
+        "ru": [
+          "Планы в области культуры"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:33:59+00:00",
+      "narrower": [
+        "concept7083",
+        "concept7088",
+        "concept7145"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخطيط ثقافي"
+        ],
+        "en": [
+          "Cultural planning"
+        ],
+        "es": [
+          "Planificación cultural"
+        ],
+        "fr": [
+          "Planification culturelle"
+        ],
+        "ru": [
+          "Планирование в области культуры"
+        ]
+      },
+      "related": [
+        "concept272",
+        "concept7119"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept271",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept271",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:03+00:00",
+      "narrower": [
+        "concept6572",
+        "concept6966",
+        "concept6967",
+        "concept6968",
+        "concept7007",
+        "concept7058",
+        "concept7128"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة ثقافية"
+        ],
+        "en": [
+          "Cultural policy"
+        ],
+        "es": [
+          "Política cultural"
+        ],
+        "fr": [
+          "Politique culturelle"
+        ],
+        "ru": [
+          "Политика в области культуры"
+        ]
+      },
+      "related": [
+        "concept1800",
+        "concept271",
+        "concept307",
+        "concept7021",
+        "concept7145"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept272",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept272",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عرض ممتلكات ثقافية"
+        ],
+        "en": [
+          "Cultural property presentation"
+        ],
+        "es": [
+          "Presentación de los bienes culturales"
+        ],
+        "fr": [
+          "Mise en valeur des biens culturels"
+        ],
+        "ru": [
+          "Представление культурной собственности"
+        ]
+      },
+      "related": [
+        "concept269",
+        "concept2923",
+        "concept2925",
+        "concept2951",
+        "concept2983",
+        "concept3091",
+        "concept6972",
+        "concept7053",
+        "concept7068"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept273",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept273",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حفظ التراث الثقافي",
+          "حفظ ممتلكات ثقافية",
+          "حماية ممتلكات ثقافية"
+        ],
+        "en": [
+          "Conservation of cultural property",
+          "Cultural heritage preservation",
+          "Protection of cultural property"
+        ],
+        "es": [
+          "Conservación de la propiedad cultural",
+          "Conservación del patrimonio cultural",
+          "Protección de la propiedad cultural",
+          "Protección de los bienes culturales",
+          "Restauración de la propiedad cultural",
+          "Restauración de los bienes culturales"
+        ],
+        "fr": [
+          "Conservation des biens culturels",
+          "Protection des biens culturels",
+          "Préservation du patrimoine culturel"
+        ],
+        "ru": [
+          "Защита культурной собственности",
+          "Охрана культурного наследия",
+          "Сохранение культурной собственности"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-24T11:21:58+00:00",
+      "narrower": [
+        "concept2695",
+        "concept2782",
+        "concept6327",
+        "concept6361",
+        "concept6364"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صون ممتلكات ثقافية"
+        ],
+        "en": [
+          "Cultural property preservation"
+        ],
+        "es": [
+          "Conservación de los bienes culturales"
+        ],
+        "fr": [
+          "Sauvegarde des biens culturels"
+        ],
+        "ru": [
+          "Охрана культурной собственности"
+        ]
+      },
+      "related": [
+        "concept269",
+        "concept275",
+        "concept7068",
+        "concept7160"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشير إلى الحفاظ على الممتلكات الثقافية وصونها وترميمها بالإضافة إلي حمايتها  من التخريب و السرقة و نزعها من بلد المنشأ."
+        ],
+        "en": [
+          "Refers to the conservation, preservation and restoration of cultural property, as well as to its protection against vandalism, theft and removal from country of origin."
+        ],
+        "es": [
+          "Se refiere a la conservación, la preservación y la restauración de bienes culturales, así como a la protección de éstos contra el vandalismo, el robo y la transferencia ilícita fuera de sus países de origen."
+        ],
+        "fr": [
+          "Fait référence à la conservation, la préservation et la restauration des biens culturels ainsi qu'à la protection de ceux-ci contre le vandalisme, le vol et le transfert illicite hors de leur pays d'origine."
+        ],
+        "ru": [
+          "Относится к консервации, сохранению и реставрации объектов культуры, а также защите от вандализма, похищения или вывоза из страны происхождения."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept274",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept274",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتجار غير مشروع بممتلكات ثقافية",
+          "رد ممتلكات ثقافية"
+        ],
+        "en": [
+          "Cultural property traffic",
+          "Illicit trafficking of cultural property"
+        ],
+        "es": [
+          "Restitución de bienes",
+          "Tráfico ilícito de bienes culturales"
+        ],
+        "fr": [
+          "Trafic illicite des biens culturels"
+        ],
+        "ru": [
+          "Торговля культурной собственностью"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعادة ممتلكات ثقافية"
+        ],
+        "en": [
+          "Cultural property restitution"
+        ],
+        "es": [
+          "Restitución de los bienes culturales"
+        ],
+        "fr": [
+          "Restitution des biens culturels"
+        ],
+        "ru": [
+          "Реституция культурной собственности"
+        ]
+      },
+      "related": [
+        "concept269",
+        "concept274",
+        "concept3091"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept275",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept275",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:30+00:00",
+      "narrower": [
+        "concept4347",
+        "concept6979"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد ثقافية"
+        ],
+        "en": [
+          "Cultural resources"
+        ],
+        "es": [
+          "Recursos culturales"
+        ],
+        "fr": [
+          "Ressources culturelles"
+        ],
+        "ru": [
+          "Культурные ресурсы"
+        ]
+      },
+      "related": [
+        "concept269",
+        "concept270",
+        "concept3091",
+        "concept7088"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept276",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept276",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استهلاك ثقافي",
+          "جماهير",
+          "متفرجون",
+          "مستهلكون ثقافيون"
+        ],
+        "en": [
+          "Audiences",
+          "Cultural consumers",
+          "Cultural consumption",
+          "Spectators"
+        ],
+        "es": [
+          "Audiencia",
+          "Consumidor cultural",
+          "Consumo cultural"
+        ],
+        "fr": [
+          "Audience",
+          "Consommateur culturel",
+          "Consommation culturelle",
+          "Spectateur"
+        ],
+        "ru": [
+          "Аудитории",
+          "Люди, потребляющие блага культуры",
+          "Посетители зрелищных мероприятий",
+          "Потребление культурных благ"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T14:36:37+00:00",
+      "narrower": [
+        "concept5941"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مستخدمون ثقافيون"
+        ],
+        "en": [
+          "Cultural users"
+        ],
+        "es": [
+          "Usuario cultural"
+        ],
+        "fr": [
+          "Utilisateur culturel"
+        ],
+        "ru": [
+          "Люди, пользующиеся благами культуры"
+        ]
+      },
+      "related": [
+        "concept1538",
+        "concept3312",
+        "concept3319",
+        "concept3359",
+        "concept3728",
+        "concept482",
+        "concept5850",
+        "concept6971",
+        "concept7193"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept277",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept277",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تراث حي",
+          "تراث غير مادي"
+        ],
+        "en": [
+          "Intangible heritage",
+          "Living heritage"
+        ],
+        "es": [
+          "Patrimonio vivo"
+        ],
+        "fr": [
+          "Patrimoine vivant"
+        ],
+        "ru": [
+          "Нематериальное наследие"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:16+00:00",
+      "narrower": [
+        "concept2474",
+        "concept5473",
+        "concept6990",
+        "concept7142",
+        "concept7312"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تراث ثقافي غير مادي"
+        ],
+        "en": [
+          "Intangible cultural heritage"
+        ],
+        "es": [
+          "Patrimonio cultural inmaterial"
+        ],
+        "fr": [
+          "Patrimoine culturel immatériel"
+        ],
+        "ru": [
+          "Нематериальное культурное наследие"
+        ]
+      },
+      "related": [
+        "concept17107",
+        "concept6947",
+        "concept8129"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مجموعة من العادات والمعارف والأفكار التي تسمح للأفراد والمجتمعات بالتعبير عن أنفسهم من خلال أنظمة القيم والمعايير الأخلاقية. عند الضرورة، استخدم واصفة أكثر تحديدا."
+        ],
+        "en": [
+          "A set of living practices, knowledge and representations enabling individuals and communities to express themselves through systems of values and ethical standards. Use more specific descriptor if appropriate."
+        ],
+        "es": [
+          "Conjunto de costumbres, saberes y representaciones que permiten a los individuos y a las comunidades expresarse a través de un sistema de valores y de normas éticas. Utilizar un descriptor más preciso cuando sea necesario."
+        ],
+        "fr": [
+          "Ensemble de coutumes, de savoirs et de représentations permettant à des individus et des communautés de s'exprimer à travers un système de valeurs et de normes éthiques. Utiliser un terme plus précis si c'est pertinent."
+        ],
+        "ru": [
+          "Комплекс обычаев, знаний и представлений, позволяющий отдельным лицам и сообществам самовыражаться посредством систем ценностей и этических стандартов. В необходимых случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept278",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept278",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معاهدات ثقافية"
+        ]
+      },
+      "broader": [
+        "concept6572"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:33:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتفاقات ثقافية"
+        ],
+        "en": [
+          "Cultural agreements"
+        ],
+        "es": [
+          "Acuerdo cultural"
+        ],
+        "fr": [
+          "Accord culturel"
+        ],
+        "ru": [
+          "Соглашения в области культуры"
+        ]
+      },
+      "related": [
+        "concept5695",
+        "concept6976",
+        "concept6984"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1179",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1179",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انشطة اجتماعية ثقافية"
+        ],
+        "en": [
+          "Socio-cultural activities"
+        ],
+        "es": [
+          "Actividad sociocultural"
+        ],
+        "fr": [
+          "Activité socio-culturelle"
+        ],
+        "ru": [
+          "Социально-культурная деятельность"
+        ]
+      },
+      "broader": [
+        "concept267"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انشطة ثقافية"
+        ],
+        "en": [
+          "Cultural activities"
+        ],
+        "es": [
+          "Actividad cultural"
+        ],
+        "fr": [
+          "Activité culturelle"
+        ],
+        "ru": [
+          "Культурная деятельность"
+        ]
+      },
+      "related": [
+        "concept2374",
+        "concept2475",
+        "concept355",
+        "concept368",
+        "concept5231",
+        "concept5486",
+        "concept6968",
+        "concept6971",
+        "concept6972",
+        "concept6973",
+        "concept6974"
+      ],
+      "scope_notes": {
+        "ar": [
+          "جميع أنواع الأنشطة التي تميل إلى تعزيز الحياة الثقافية من خلال الرسوم المتحركة الثقافية وتعزيز القيم الثقافية. استخدم واصفة أكثر تحديدا عند الضرورة."
+        ],
+        "en": [
+          "All types of activities tending to enhance cultural life through cultural animation and cultural values promotion. Use more specific descriptor where appropriate."
+        ],
+        "es": [
+          "Todo género de actividades encaminadas a mejorar la vida cultural a través de la animación cultural y de la promoción de los valores culturales. Utilizar un descriptor más preciso cuando sea necesario."
+        ],
+        "fr": [
+          "Tout type d'activités visant l'épanouissement de la vie culturelle au moyen de l'animation culturelle et de la promotion des valeurs culturelles. Utiliser un descripteur plus précis quand c'est pertinent."
+        ],
+        "ru": [
+          "Все виды деятельности, усиливающие насыщенность культурной жизни путем проведения культурно-массовых мероприятий и распространения культурных ценностей. В необходимых случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1279",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1279",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخصائيو الرسوم المتحركة الثقافية",
+          "اعوان ثقافيون",
+          "عاملو الحقل الثقافي",
+          "عاملو مجال الثقافة",
+          "عمال ثقافيون"
+        ],
+        "en": [
+          "Cultural animators",
+          "Cultural workers"
+        ],
+        "es": [
+          "Animador cultural",
+          "Animador sociocultural",
+          "Trabajador cultural"
+        ],
+        "fr": [
+          "Animateur culturel",
+          "Animateur socioculturel",
+          "Travailleur culturel"
+        ],
+        "ru": [
+          "Культурные аниматоры",
+          "Работники культуры"
+        ]
+      },
+      "broader": [
+        "concept270"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T14:33:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وكلاء ثقافيون"
+        ],
+        "en": [
+          "Cultural agents"
+        ],
+        "es": [
+          "Agente cultural"
+        ],
+        "fr": [
+          "Agent culturel"
+        ],
+        "ru": [
+          "Кадры сферы культуры"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1688",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1688",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept267"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T14:31:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رسوم متحركة ثقافية"
+        ],
+        "en": [
+          "Cultural animation"
+        ],
+        "es": [
+          "Animación cultural"
+        ],
+        "fr": [
+          "Animation culturelle"
+        ],
+        "ru": [
+          "Культурная анимация"
+        ]
+      },
+      "related": [
+        "concept1279",
+        "concept4597",
+        "concept5231",
+        "concept6968",
+        "concept6971"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2374",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2374",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احتفالات سنوية"
+        ],
+        "es": [
+          "Celebración de aniversarios"
+        ],
+        "fr": [
+          "Célébration d'anniversaire"
+        ]
+      },
+      "broader": [
+        "concept278"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احتفالات بالذكرى السنوية"
+        ],
+        "en": [
+          "Anniversary celebrations"
+        ],
+        "es": [
+          "Aniversario"
+        ],
+        "fr": [
+          "Anniversaire"
+        ],
+        "ru": [
+          "Юбилейные торжества"
+        ]
+      },
+      "related": [
+        "concept2475"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2474",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2474",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حفاظ علي اثار تاريخية",
+          "حفاظ علي مدن تاريخية",
+          "حفاظ علي معالم  اثرية",
+          "حفاظ علي مواقع تاريخية"
+        ],
+        "en": [
+          "Historic cities preservation",
+          "Historic monuments preservation",
+          "Historic sites preservation"
+        ],
+        "es": [
+          "Conservación de monumentos históricos",
+          "Conservación de sitios históricos",
+          "Protección de sitios históricos"
+        ],
+        "fr": [
+          "Conservation des monuments historiques",
+          "Préservation des sites historiques",
+          "Sauvegarde des villes anciennes"
+        ],
+        "ru": [
+          "Сохранение исторических городов",
+          "Сохранение исторических мест",
+          "Сохранение исторических памятников"
+        ]
+      },
+      "broader": [
+        "concept274"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T14:36:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حفاظ علي الاثار"
+        ],
+        "en": [
+          "Preservation of monuments"
+        ],
+        "es": [
+          "Conservación de monumentos"
+        ],
+        "fr": [
+          "Conservation des monuments"
+        ],
+        "ru": [
+          "Сохранение памятников"
+        ]
+      },
+      "related": [
+        "concept2148",
+        "concept2338",
+        "concept2528",
+        "concept2700",
+        "concept2708",
+        "concept298",
+        "concept340",
+        "concept6327",
+        "concept6364"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2695",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2695",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ترميم الوثائق",
+          "حفظ الكتب",
+          "حماية الكتب",
+          "صون الكتب",
+          "صيانة الكتب",
+          "صيانة الوثائق"
+        ],
+        "en": [
+          "Book conservation",
+          "Book preservation",
+          "Document maintenance",
+          "Document restoration"
+        ],
+        "es": [
+          "Conservación de libros",
+          "Preservación de documentos",
+          "Restauración de documentos"
+        ],
+        "fr": [
+          "Conservation des livres",
+          "Préservation des documents",
+          "Restauration des documents",
+          "Restauration des livres",
+          "Sauvegarde des documents"
+        ],
+        "ru": [
+          "Длительное сохранение книг",
+          "Поддержание документов",
+          "Реставрация документов",
+          "Сохранение книг"
+        ]
+      },
+      "broader": [
+        "concept274"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:16+00:00",
+      "narrower": [
+        "concept17157"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حفظ الوثائق"
+        ],
+        "en": [
+          "Document preservation"
+        ],
+        "es": [
+          "Conservación de documentos"
+        ],
+        "fr": [
+          "Conservation des documents"
+        ],
+        "ru": [
+          "Сохранение документов"
+        ]
+      },
+      "related": [
+        "concept1249",
+        "concept2780",
+        "concept2783",
+        "concept4225",
+        "concept502",
+        "concept7411",
+        "concept8324"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2782",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2782",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept269"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:33:44+00:00",
+      "narrower": [
+        "concept8030"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تراث وثائقي"
+        ],
+        "en": [
+          "Documentary heritage"
+        ],
+        "es": [
+          "Patrimonio documental"
+        ],
+        "fr": [
+          "Patrimoine documentaire"
+        ],
+        "ru": [
+          "Документальное наследие"
+        ]
+      },
+      "related": [
+        "concept1153",
+        "concept1249",
+        "concept2780",
+        "concept2782",
+        "concept2795",
+        "concept4225",
+        "concept502",
+        "concept508",
+        "concept8324"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مقتنيات الأرشيف الثمينة ومجموعات المكتبة في العالم."
+        ],
+        "en": [
+          "Valuable archive holdings and library collections of the world."
+        ],
+        "es": [
+          "Fondos de archivos y recursos documentales de valor en todo el mundo."
+        ],
+        "fr": [
+          "Fonds d'archives et ressources documentaires de valeur dans le monde."
+        ],
+        "ru": [
+          "Ценные фонды архивов и собрания библиотек во всем мире."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2783",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2783",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ملكية ثقافية"
+        ],
+        "es": [
+          "Propiedad cultural"
+        ]
+      },
+      "broader": [
+        "concept269"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:45+00:00",
+      "narrower": [
+        "concept3908"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ممتلكات ثقافية"
+        ],
+        "en": [
+          "Cultural property"
+        ],
+        "es": [
+          "Bien cultural"
+        ],
+        "fr": [
+          "Bien culturel"
+        ],
+        "ru": [
+          "Культурная собственность"
+        ]
+      },
+      "related": [
+        "concept2709",
+        "concept273",
+        "concept275",
+        "concept276",
+        "concept3088",
+        "concept3090",
+        "concept3092",
+        "concept3103"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3091",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3091",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حاجات الثقافة",
+          "متطلبات الثقافة",
+          "متطلبات ثقافية"
+        ],
+        "en": [
+          "Cultural demand"
+        ],
+        "es": [
+          "Demanda cultural"
+        ],
+        "fr": [
+          "Demande culturelle"
+        ],
+        "ru": [
+          "Спрос на культуру"
+        ]
+      },
+      "broader": [
+        "concept7088"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احتياجات ثقافية"
+        ],
+        "en": [
+          "Cultural needs"
+        ],
+        "es": [
+          "Necesidad cultural"
+        ],
+        "fr": [
+          "Besoin culturel"
+        ],
+        "ru": [
+          "Культурные потребности"
+        ]
+      },
+      "related": [
+        "concept257",
+        "concept267",
+        "concept277",
+        "concept6967",
+        "concept7058",
+        "concept7128"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3728",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3728",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3091"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ممتلكات ثقافية منقولة"
+        ],
+        "en": [
+          "Movable cultural property"
+        ],
+        "es": [
+          "Bien cultural mueble"
+        ],
+        "fr": [
+          "Bien culturel mobilier"
+        ],
+        "ru": [
+          "Перемещаемая культурная собственность"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3908",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3908",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اقتصاد ابداعي",
+          "انتاج ثقافي",
+          "خدمات ثقافية",
+          "سلع ثقافية",
+          "صناعات ابداعية",
+          "منتجات ثقافية"
+        ],
+        "en": [
+          "Creative economy",
+          "Creative industries",
+          "Cultural goods",
+          "Cultural productions",
+          "Cultural services"
+        ],
+        "es": [
+          "Industria creativa",
+          "Industria de la cultura",
+          "Producción cultural",
+          "Producto cultural",
+          "Servicio cultural"
+        ],
+        "fr": [
+          "Industrie créative",
+          "Production culturelle",
+          "Produit culturel",
+          "Service culturel",
+          "Économie créative"
+        ],
+        "ru": [
+          "Культурные производства",
+          "Культурные товары",
+          "Творческие отрасли",
+          "Услуги в области культуры"
+        ]
+      },
+      "broader": [
+        "concept276"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2026-04-17T12:26:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صناعة ثقافية"
+        ],
+        "en": [
+          "Cultural industry"
+        ],
+        "es": [
+          "Industria cultural"
+        ],
+        "fr": [
+          "Industrie culturelle"
+        ],
+        "ru": [
+          "Индустрия культуры"
+        ]
+      },
+      "related": [
+        "concept17179",
+        "concept355",
+        "concept479",
+        "concept489",
+        "concept5228",
+        "concept5494",
+        "concept659",
+        "concept6979",
+        "concept7088"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4347",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4347",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "موازنات ثقافية"
+        ]
+      },
+      "broader": [
+        "concept7060"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميزانيات ثقافية"
+        ],
+        "en": [
+          "Cultural budgets"
+        ],
+        "es": [
+          "Presupuesto cultural"
+        ],
+        "fr": [
+          "Budget culturel"
+        ],
+        "ru": [
+          "Бюджетные средства, выделяемые на развитие культуры"
+        ]
+      },
+      "related": [
+        "concept6721"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4382",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4382",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Empleo del tiempo",
+          "Organización del tiempo"
+        ],
+        "fr": [
+          "Budget temps",
+          "Emploi du temps"
+        ]
+      },
+      "broader": [
+        "concept7083"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:33:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميزانيات زمنية"
+        ],
+        "en": [
+          "Time budgets"
+        ],
+        "es": [
+          "Distribución del tiempo"
+        ],
+        "fr": [
+          "Budget-temps"
+        ],
+        "ru": [
+          "Временны́е бюджеты"
+        ]
+      },
+      "related": [
+        "concept368",
+        "concept5941",
+        "concept7058"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4390",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4390",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5473"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صيد"
+        ],
+        "en": [
+          "Hunting"
+        ],
+        "es": [
+          "Caza"
+        ],
+        "fr": [
+          "Chasse"
+        ],
+        "ru": [
+          "Охота"
+        ]
+      },
+      "related": [
+        "concept7666"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4807",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4807",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مراكز فنون"
+        ],
+        "en": [
+          "Arts centres"
+        ],
+        "es": [
+          "Centro artístico"
+        ],
+        "fr": [
+          "Centre d'arts"
+        ],
+        "ru": [
+          "Центры искусств"
+        ]
+      },
+      "broader": [
+        "concept6979"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراكز ثقافية"
+        ],
+        "en": [
+          "Cultural centres"
+        ],
+        "es": [
+          "Centro cultural"
+        ],
+        "fr": [
+          "Centre culturel"
+        ],
+        "ru": [
+          "Культурные центры"
+        ]
+      },
+      "related": [
+        "concept1499",
+        "concept268",
+        "concept3352",
+        "concept6978",
+        "concept98"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4883",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4883",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حضور ثقافي"
+        ],
+        "en": [
+          "Cultural attendance"
+        ],
+        "es": [
+          "Implicación cultural"
+        ],
+        "fr": [
+          "Fréquentation culturelle"
+        ],
+        "ru": [
+          "Посещаемость культурных мероприятий"
+        ]
+      },
+      "broader": [
+        "concept5941"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مشاركة ثقافية"
+        ],
+        "en": [
+          "Cultural participation"
+        ],
+        "es": [
+          "Participación cultural"
+        ],
+        "fr": [
+          "Participation culturelle"
+        ],
+        "ru": [
+          "Участие в культурной жизни"
+        ]
+      },
+      "related": [
+        "concept1279",
+        "concept1970",
+        "concept2374",
+        "concept3163",
+        "concept3165",
+        "concept6971"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5231",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5231",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقاليد"
+        ],
+        "en": [
+          "Traditions"
+        ],
+        "es": [
+          "Tradición"
+        ],
+        "fr": [
+          "Tradition"
+        ],
+        "ru": [
+          "Традиции"
+        ]
+      },
+      "broader": [
+        "concept278"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:40+00:00",
+      "narrower": [
+        "concept4807",
+        "concept5474",
+        "concept6726",
+        "concept6930",
+        "concept7310",
+        "concept7311"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عادات وتقاليد"
+        ],
+        "en": [
+          "Customs and traditions"
+        ],
+        "es": [
+          "Costumbres y tradiciones"
+        ],
+        "fr": [
+          "Coutumes et traditions"
+        ],
+        "ru": [
+          "Обычаи и традиции"
+        ]
+      },
+      "related": [
+        "concept255",
+        "concept376",
+        "concept5471",
+        "concept6960",
+        "concept6990",
+        "concept7046",
+        "concept7312"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5473",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5473",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "موضة"
+        ],
+        "en": [
+          "Costumes"
+        ],
+        "es": [
+          "Ropa"
+        ],
+        "fr": [
+          "Costume"
+        ],
+        "ru": [
+          "Платье"
+        ]
+      },
+      "broader": [
+        "concept5473"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:33:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ازياء"
+        ],
+        "en": [
+          "Fashion"
+        ],
+        "es": [
+          "Moda"
+        ],
+        "fr": [
+          "Mode"
+        ],
+        "ru": [
+          "Мода"
+        ]
+      },
+      "related": [
+        "concept5471"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5474",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5474",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انماط ثقافية"
+        ],
+        "en": [
+          "Cultural patterns"
+        ],
+        "ru": [
+          "Культурные схемы"
+        ]
+      },
+      "broader": [
+        "concept277"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:31+00:00",
+      "narrower": [
+        "concept5231"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سلوك ثقافي"
+        ],
+        "en": [
+          "Cultural behaviour"
+        ],
+        "es": [
+          "Comportamiento cultural"
+        ],
+        "fr": [
+          "Comportement culturel"
+        ],
+        "ru": [
+          "Культурное поведение"
+        ]
+      },
+      "related": [
+        "concept261",
+        "concept368",
+        "concept4390",
+        "concept6248"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5941",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5941",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حماية الاعمال الفنية"
+        ],
+        "en": [
+          "Conservation of works of art"
+        ],
+        "es": [
+          "Conservación de objetos artísticos",
+          "Protección de obras de arte"
+        ],
+        "fr": [
+          "Conservation des objets d'art"
+        ],
+        "ru": [
+          "Сохранение произведений искусства"
+        ]
+      },
+      "broader": [
+        "concept274"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صيانة الاعمال الفنية"
+        ],
+        "en": [
+          "Preservation of works of art"
+        ],
+        "es": [
+          "Conservación de obras de arte"
+        ],
+        "fr": [
+          "Conservation des oeuvres d'art"
+        ],
+        "ru": [
+          "Охрана произведений искусства"
+        ]
+      },
+      "related": [
+        "concept2695",
+        "concept3103",
+        "concept4404",
+        "concept6364"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6327",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6327",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept7136"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T12:19:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "امناء المتاحف"
+        ],
+        "en": [
+          "Museum curators"
+        ],
+        "es": [
+          "Conservador de museo"
+        ],
+        "fr": [
+          "Conservateur de musée"
+        ],
+        "ru": [
+          "Кураторы музеев"
+        ]
+      },
+      "related": [
+        "concept14373",
+        "concept678"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6335",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6335",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اساليب الحفظ"
+        ],
+        "en": [
+          "Preservation techniques"
+        ],
+        "es": [
+          "Técnica de preservación"
+        ],
+        "fr": [
+          "Technique de préservation"
+        ],
+        "ru": [
+          "Средства и методы предохранения от порчи"
+        ]
+      },
+      "broader": [
+        "concept274"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-24T11:22:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقنيات الحفظ"
+        ],
+        "en": [
+          "Conservation techniques"
+        ],
+        "es": [
+          "Técnica de conservación"
+        ],
+        "fr": [
+          "Technique de conservation"
+        ],
+        "ru": [
+          "Средства и методы консервации"
+        ]
+      },
+      "related": [
+        "concept6364"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6361",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6361",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اساليب الترميم",
+          "ترميم الاثار",
+          "ترميم الاعمال الفنية"
+        ],
+        "en": [
+          "Restoration of monuments",
+          "Restoration of works of art",
+          "Restoration techniques"
+        ],
+        "es": [
+          "Restauración artística",
+          "Restauración de monumentos",
+          "Restauración de obras de arte",
+          "Técnicas de restauración"
+        ],
+        "fr": [
+          "Restauration d'oeuvres d'art",
+          "Restauration de monuments",
+          "Technique de restauration"
+        ],
+        "ru": [
+          "Приемы реставрации",
+          "Реставрация памятников",
+          "Реставрация произведений искусства"
+        ]
+      },
+      "broader": [
+        "concept274"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T12:19:34+00:00",
+      "narrower": [
+        "concept16065"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترميم"
+        ],
+        "en": [
+          "Restoration"
+        ],
+        "es": [
+          "Restauración"
+        ],
+        "fr": [
+          "Restauration"
+        ],
+        "ru": [
+          "Реставрация"
+        ]
+      },
+      "related": [
+        "concept2695",
+        "concept6327",
+        "concept6361"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6364",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6364",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Cooperación sociocultural"
+        ]
+      },
+      "broader": [
+        "concept272"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:33:14+00:00",
+      "narrower": [
+        "concept1179",
+        "concept6580",
+        "concept6984"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعاون ثقافي"
+        ],
+        "en": [
+          "Cultural cooperation"
+        ],
+        "es": [
+          "Cooperación cultural"
+        ],
+        "fr": [
+          "Coopération culturelle"
+        ],
+        "ru": [
+          "Сотрудничество в области культуры"
+        ]
+      },
+      "related": [
+        "concept6578",
+        "concept7007"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6572",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6572",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تبادل افكار"
+        ],
+        "en": [
+          "Exchange of ideas"
+        ],
+        "es": [
+          "Intercambio de ideas"
+        ],
+        "fr": [
+          "Échange d'idées"
+        ],
+        "ru": [
+          "Обмен идеями"
+        ]
+      },
+      "broader": [
+        "concept6572"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعاون فكري"
+        ],
+        "en": [
+          "Intellectual cooperation"
+        ],
+        "es": [
+          "Cooperación intelectual"
+        ],
+        "fr": [
+          "Coopération intellectuelle"
+        ],
+        "ru": [
+          "Интеллектуальное сотрудничество"
+        ]
+      },
+      "related": [
+        "concept4193",
+        "concept6578",
+        "concept6984",
+        "concept7050"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6580",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6580",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكاليف ثقافية"
+        ],
+        "en": [
+          "Cultural expenditure"
+        ],
+        "es": [
+          "Gastos culturales"
+        ],
+        "fr": [
+          "Dépense culturelle"
+        ],
+        "ru": [
+          "Расходы на культуру"
+        ]
+      },
+      "broader": [
+        "concept7060"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T14:36:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نفقات ثقافية"
+        ],
+        "en": [
+          "Cultural costs"
+        ],
+        "es": [
+          "Costes culturales"
+        ],
+        "fr": [
+          "Coût culturel"
+        ],
+        "ru": [
+          "Культурные издержки"
+        ]
+      },
+      "related": [
+        "concept4382"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6721",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6721",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عادات الطعام",
+          "ممارسات غذائية"
+        ],
+        "en": [
+          "Food habits"
+        ],
+        "es": [
+          "Costumbres alimentarias",
+          "Hábitos alimentarios",
+          "Hábitos alimenticios"
+        ],
+        "ru": [
+          "Кулинарные привычки"
+        ]
+      },
+      "broader": [
+        "concept5473"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عادات غذائية"
+        ],
+        "en": [
+          "Food customs"
+        ],
+        "es": [
+          "Costumbres alimenticias"
+        ],
+        "fr": [
+          "Habitude alimentaire"
+        ],
+        "ru": [
+          "Кулинарные традиции"
+        ]
+      },
+      "related": [
+        "concept11005"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6726",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6726",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "شعائر",
+          "مراسم"
+        ]
+      },
+      "broader": [
+        "concept5473"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:23+00:00",
+      "narrower": [
+        "concept10563",
+        "concept12620"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طقوس"
+        ],
+        "en": [
+          "Rites"
+        ],
+        "es": [
+          "Rito"
+        ],
+        "fr": [
+          "Rite"
+        ],
+        "ru": [
+          "Обряды"
+        ]
+      },
+      "related": [
+        "concept10981",
+        "concept15418",
+        "concept4370",
+        "concept6920",
+        "concept6931",
+        "concept7071",
+        "concept7311"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6930",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6930",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept7088"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:33:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ثقافة وتنمية"
+        ],
+        "en": [
+          "Culture and development"
+        ],
+        "es": [
+          "Cultura y desarrollo"
+        ],
+        "fr": [
+          "Culture et développement"
+        ],
+        "ru": [
+          "Культура и развитие"
+        ]
+      },
+      "related": [
+        "concept2599",
+        "concept5724",
+        "concept5725",
+        "concept594"
+      ],
+      "scope_notes": {
+        "ar": [
+          "البعد الثقافي لعملية التنمية."
+        ],
+        "en": [
+          "Cultural dimension of the development process."
+        ],
+        "es": [
+          "Dimensión cultural del proceso de desarrollo."
+        ],
+        "fr": [
+          "Dimension culturelle du processus de développement."
+        ],
+        "ru": [
+          "Культурная составляющая процесса развития."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6964",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6964",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept272"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنمية ثقافية"
+        ],
+        "en": [
+          "Cultural development"
+        ],
+        "es": [
+          "Desarrollo cultural"
+        ],
+        "fr": [
+          "Développement culturel"
+        ],
+        "ru": [
+          "Культурное развитие"
+        ]
+      },
+      "related": [
+        "concept257",
+        "concept267"
+      ],
+      "scope_notes": {
+        "ar": [
+          "عملية التطوير أو التقدم في الحياة الثقافية للمجتمع."
+        ],
+        "en": [
+          "Process of development or progress in the cultural life of a community."
+        ],
+        "es": [
+          "Proceso de desarrollo o progreso en la vida cultural de una comunidad."
+        ],
+        "fr": [
+          "Processus de développement ou de progrès dans la vie culturelle d'une communauté."
+        ],
+        "ru": [
+          "Процесс развития или прогресс в культурной жизни сообщества."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6966",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6966",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ارساء الديمقراطية في الثقافة",
+          "اضفاء الطابع الديمقراطي علي الثقافة",
+          "تطبيق الديمقراطية في الثقافة",
+          "عملية بناء الديمقراطية في الثقافة",
+          "نشر الديمقراطية في الثقافة"
+        ]
+      },
+      "broader": [
+        "concept272"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T14:36:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دمقرطة الثقافة"
+        ],
+        "en": [
+          "Democratization of culture"
+        ],
+        "es": [
+          "Democratización de la cultura"
+        ],
+        "fr": [
+          "Démocratisation de la culture"
+        ],
+        "ru": [
+          "Демократизация культуры"
+        ]
+      },
+      "related": [
+        "concept267",
+        "concept3728",
+        "concept6968",
+        "concept7019",
+        "concept7592"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6967",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6967",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتصال بين ثقافات",
+          "انتشار ثقافي",
+          "بث الثقافة",
+          "تواصل بين ثقافات"
+        ],
+        "en": [
+          "Cultural communication",
+          "Cultural diffusion"
+        ],
+        "es": [
+          "Comunicación cultural",
+          "Difusión cultural"
+        ],
+        "fr": [
+          "Communication culturelle",
+          "Diffusion culturelle"
+        ],
+        "ru": [
+          "Культурные связи",
+          "Культурный диффузионизм"
+        ]
+      },
+      "broader": [
+        "concept272"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نشر الثقافة"
+        ],
+        "en": [
+          "Dissemination of culture"
+        ],
+        "es": [
+          "Difusión de la cultura"
+        ],
+        "fr": [
+          "Diffusion de la culture"
+        ],
+        "ru": [
+          "Распространение культуры"
+        ]
+      },
+      "related": [
+        "concept1279",
+        "concept2374",
+        "concept267",
+        "concept4191",
+        "concept512",
+        "concept54",
+        "concept6967",
+        "concept6972"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6968",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6968",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept268"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تشريعات ثقافية"
+        ],
+        "en": [
+          "Cultural legislation"
+        ],
+        "es": [
+          "Legislación cultural"
+        ],
+        "fr": [
+          "Législation culturelle"
+        ],
+        "ru": [
+          "Законодательство в области культуры"
+        ]
+      },
+      "related": [
+        "concept1179"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6976",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6976",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept268"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادارة ثقافية"
+        ],
+        "en": [
+          "Cultural management"
+        ],
+        "es": [
+          "Gestión cultural"
+        ],
+        "fr": [
+          "Gestion culturelle"
+        ],
+        "ru": [
+          "Управление сферой культуры"
+        ]
+      },
+      "related": [
+        "concept357"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6977",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6977",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جمعيات ثقافية",
+          "رابطات ثقافية",
+          "مؤسسات ثقافية"
+        ],
+        "en": [
+          "Cultural associations",
+          "Cultural foundations",
+          "Cultural institutions"
+        ],
+        "es": [
+          "Asociación cultural",
+          "Fundación cultural",
+          "Institución cultural"
+        ],
+        "fr": [
+          "Association culturelle",
+          "Fondation culturelle",
+          "Institution culturelle"
+        ],
+        "ru": [
+          "Институты культуры",
+          "Культурные объединения",
+          "Культурные фонды"
+        ]
+      },
+      "broader": [
+        "concept268"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منظمات ثقافية"
+        ],
+        "en": [
+          "Cultural organizations"
+        ],
+        "es": [
+          "Organización cultural"
+        ],
+        "fr": [
+          "Organisation culturelle"
+        ],
+        "ru": [
+          "Организации сферы культуры"
+        ]
+      },
+      "related": [
+        "concept4883"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6978",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6978",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept276"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:14+00:00",
+      "narrower": [
+        "concept4883",
+        "concept7043"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مرافق ثقافية"
+        ],
+        "en": [
+          "Cultural facilities"
+        ],
+        "es": [
+          "Instalación cultural"
+        ],
+        "fr": [
+          "Installation culturelle"
+        ],
+        "ru": [
+          "Материально-техническая база сферы культуры"
+        ]
+      },
+      "related": [
+        "concept268",
+        "concept369",
+        "concept4347"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6979",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6979",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept6572"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2023-07-03T15:13:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تبادل ثقافي"
+        ],
+        "en": [
+          "Cultural exchange"
+        ],
+        "es": [
+          "Intercambio cultural"
+        ],
+        "fr": [
+          "Échange culturel"
+        ],
+        "ru": [
+          "Культурный обмен"
+        ]
+      },
+      "related": [
+        "concept1179",
+        "concept17166",
+        "concept3897",
+        "concept4358",
+        "concept6580",
+        "concept7007",
+        "concept7050"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6984",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6984",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تراث شعبي"
+        ],
+        "en": [
+          "Folk cultures"
+        ],
+        "es": [
+          "Folclore"
+        ],
+        "fr": [
+          "Culture folklorique"
+        ],
+        "ru": [
+          "Народные культуры"
+        ]
+      },
+      "broader": [
+        "concept278"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-24T11:22:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فولكلور"
+        ],
+        "en": [
+          "Folklore"
+        ],
+        "es": [
+          "Folklore"
+        ],
+        "fr": [
+          "Folklore"
+        ],
+        "ru": [
+          "Фольклор"
+        ]
+      },
+      "related": [
+        "concept10974",
+        "concept10981",
+        "concept10982",
+        "concept2354",
+        "concept255",
+        "concept2997",
+        "concept4370",
+        "concept5473",
+        "concept6960",
+        "concept6992",
+        "concept7312",
+        "concept7361"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6990",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6990",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept272"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:33:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاقات ثقافية"
+        ],
+        "en": [
+          "Cultural relations"
+        ],
+        "es": [
+          "Relaciones culturales"
+        ],
+        "fr": [
+          "Relations culturelles"
+        ],
+        "ru": [
+          "Культурные взаимоотношения"
+        ]
+      },
+      "related": [
+        "concept261",
+        "concept3897",
+        "concept419",
+        "concept6248",
+        "concept6572",
+        "concept6984"
+      ],
+      "scope_notes": {
+        "ar": [
+          "علاقات علي المستويين؛ الدولي و بين المجموعات. استخدم واصفة أكثر تحديدا عند الضرورة."
+        ],
+        "en": [
+          "Relations at both the international and intergroup level. Use more specific descriptor where appropriate."
+        ],
+        "es": [
+          "Se refiere tanto a las relaciones internacionales como a las relaciones entre grupos. Utilizar un descriptor más preciso cuando sea necesario."
+        ],
+        "fr": [
+          "Se réfère tant aux relations internationales qu'aux relations intergroupes. Utiliser un descripteur plus précis quand c'est pertinent."
+        ],
+        "ru": [
+          "Отношения как на международном, так и межгрупповом уровнях. В необходимых случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7007",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7007",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معدات ثقافية"
+        ]
+      },
+      "broader": [
+        "concept6979"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجهيزات ثقافية"
+        ],
+        "en": [
+          "Cultural equipment"
+        ],
+        "es": [
+          "Equipamiento cultural"
+        ],
+        "fr": [
+          "Équipement culturel"
+        ],
+        "ru": [
+          "Оборудование для сферы культуры"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7043",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7043",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept272"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:33:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مؤشرات ثقافية"
+        ],
+        "en": [
+          "Cultural indicators"
+        ],
+        "es": [
+          "Indicadores culturales"
+        ],
+        "fr": [
+          "Indicateur culturel"
+        ],
+        "ru": [
+          "Культурные индикаторы"
+        ]
+      },
+      "related": [
+        "concept262",
+        "concept3728",
+        "concept4390",
+        "concept7004",
+        "concept7083"
+      ],
+      "scope_notes": {
+        "ar": [
+          "المؤشرات الرقمية المستخدمة كمعايير في تطوير وتنفيذ السياسات الثقافية."
+        ],
+        "en": [
+          "Numerical data used as benchmarks in the formulation and monitoring of cultural policy."
+        ],
+        "es": [
+          "Datos numéricos empleados en la formulación y la supervisión de las políticas culturales."
+        ],
+        "fr": [
+          "Données numériques utilisées dans la formulation et le suivi des politiques culturelles."
+        ],
+        "ru": [
+          "Цифровые показатели, используемые в качестве ориентиров при разработке и реализации политики в области культуры."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7058",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7058",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعانات ثقافية",
+          "موارد مالية ثقافية"
+        ],
+        "en": [
+          "Cultural financing",
+          "Cultural subsidies"
+        ],
+        "es": [
+          "Financiación de la cultura",
+          "Financiamiento de la cultura",
+          "Subvención cultural"
+        ],
+        "fr": [
+          "Financement de la culture",
+          "Subvention culturelle"
+        ],
+        "ru": [
+          "Дотации на культуру",
+          "Финансирование в области культуры"
+        ]
+      },
+      "broader": [
+        "concept7088"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:09+00:00",
+      "narrower": [
+        "concept4382",
+        "concept6721",
+        "concept7063"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تمويل ثقافي"
+        ],
+        "en": [
+          "Cultural finance"
+        ],
+        "es": [
+          "Finanzas culturales"
+        ],
+        "fr": [
+          "Finances culturelles"
+        ],
+        "ru": [
+          "Финансы в области культуры"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7060",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7060",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept7060"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T12:18:58+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رعاية الفنون"
+        ],
+        "en": [
+          "Patronage of the arts"
+        ],
+        "es": [
+          "Mecenazgo"
+        ],
+        "fr": [
+          "Mécénat"
+        ],
+        "ru": [
+          "Покровительство искусствам"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7063",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7063",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept269"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تراث صناعي"
+        ],
+        "en": [
+          "Industrial heritage"
+        ],
+        "es": [
+          "Patrimonio industrial"
+        ],
+        "fr": [
+          "Patrimoine industriel"
+        ],
+        "ru": [
+          "Промышленное наследие"
+        ]
+      },
+      "related": [
+        "concept12340",
+        "concept12351",
+        "concept273",
+        "concept274"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7068",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7068",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept271"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:06+00:00",
+      "narrower": [
+        "concept4390"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احصاءات ثقافية"
+        ],
+        "en": [
+          "Cultural statistics"
+        ],
+        "es": [
+          "Estadísticas culturales"
+        ],
+        "fr": [
+          "Statistique culturelle"
+        ],
+        "ru": [
+          "Статистика в области культуры"
+        ]
+      },
+      "related": [
+        "concept262",
+        "concept5835",
+        "concept7058",
+        "concept7088",
+        "concept7119",
+        "concept7181",
+        "concept7182"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7083",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7083",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اقتصاد ثقافي"
+        ],
+        "en": [
+          "Cultural economics"
+        ],
+        "fr": [
+          "Économie culturelle"
+        ],
+        "ru": [
+          "Культурное хозяйство"
+        ]
+      },
+      "broader": [
+        "concept271"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:46+00:00",
+      "narrower": [
+        "concept17115",
+        "concept3728",
+        "concept6964",
+        "concept7060"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقتصاديات الثقافة"
+        ],
+        "en": [
+          "Economics of culture"
+        ],
+        "es": [
+          "Economía cultural"
+        ],
+        "fr": [
+          "Économie de la culture"
+        ],
+        "ru": [
+          "Экономика культуры"
+        ]
+      },
+      "related": [
+        "concept276",
+        "concept4347",
+        "concept585",
+        "concept7083",
+        "concept8739"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7088",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7088",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اغراض ثقافية"
+        ],
+        "en": [
+          "Cultural aims"
+        ],
+        "es": [
+          "Finalidad cultural",
+          "Propósito cultural"
+        ],
+        "fr": [
+          "But culturel"
+        ],
+        "ru": [
+          "Культурные цели"
+        ]
+      },
+      "broader": [
+        "concept272"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اهداف ثقافية"
+        ],
+        "en": [
+          "Cultural objectives"
+        ],
+        "es": [
+          "Objetivo cultural"
+        ],
+        "fr": [
+          "Objectif culturel"
+        ],
+        "ru": [
+          "Культурные задачи"
+        ]
+      },
+      "related": [
+        "concept3728"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7128",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7128",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept270"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T12:19:19+00:00",
+      "narrower": [
+        "concept6335"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موظفو المتاحف"
+        ],
+        "en": [
+          "Museum personnel"
+        ],
+        "es": [
+          "Personal de los museos"
+        ],
+        "fr": [
+          "Personnel de musée"
+        ],
+        "ru": [
+          "Персонал музеев"
+        ]
+      },
+      "related": [
+        "concept4612"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7136",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7136",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept278"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قيم ثقافية"
+        ],
+        "en": [
+          "Cultural values"
+        ],
+        "es": [
+          "Valor cultural"
+        ],
+        "fr": [
+          "Valeur culturelle"
+        ],
+        "ru": [
+          "Культурные ценности"
+        ]
+      },
+      "related": [
+        "concept2502",
+        "concept403",
+        "concept7078",
+        "concept7140"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7142",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7142",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مشاريع ثقافية",
+          "مشروعات ثقافية"
+        ],
+        "en": [
+          "Cultural projects"
+        ],
+        "es": [
+          "Proyecto cultural"
+        ],
+        "fr": [
+          "Projet culturel"
+        ],
+        "ru": [
+          "Проекты в области культуры"
+        ]
+      },
+      "broader": [
+        "concept271"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:34:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "برامج ثقافية"
+        ],
+        "en": [
+          "Cultural programmes"
+        ],
+        "es": [
+          "Programa cultural"
+        ],
+        "fr": [
+          "Programme culturel"
+        ],
+        "ru": [
+          "Культурные программы"
+        ]
+      },
+      "related": [
+        "concept272",
+        "concept5815"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7145",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7145",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5473"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعياد"
+        ],
+        "en": [
+          "Feasts"
+        ],
+        "es": [
+          "Festividad"
+        ],
+        "fr": [
+          "Fête"
+        ],
+        "ru": [
+          "Праздники"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7310",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7310",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5473"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقنعة"
+        ],
+        "en": [
+          "Masks"
+        ],
+        "es": [
+          "Máscara"
+        ],
+        "fr": [
+          "Masque"
+        ],
+        "ru": [
+          "Маски"
+        ]
+      },
+      "related": [
+        "concept2997",
+        "concept3001",
+        "concept376",
+        "concept6930"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7311",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7311",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقاليد شفوية"
+        ]
+      },
+      "broader": [
+        "concept278"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقاليد شفهية"
+        ],
+        "en": [
+          "Oral tradition"
+        ],
+        "es": [
+          "Tradición oral"
+        ],
+        "fr": [
+          "Tradition orale"
+        ],
+        "ru": [
+          "Устное народное творчество"
+        ]
+      },
+      "related": [
+        "concept10974",
+        "concept10975",
+        "concept10976",
+        "concept10982",
+        "concept11870",
+        "concept13215",
+        "concept2354",
+        "concept5473",
+        "concept6291",
+        "concept6990",
+        "concept7361"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7312",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7312",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept2783"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2023-02-16T16:12:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تراث رقمي"
+        ],
+        "en": [
+          "Digital heritage"
+        ],
+        "es": [
+          "Patrimonio digital"
+        ],
+        "fr": [
+          "Patrimoine numérique"
+        ],
+        "ru": [
+          "Цифровое наследие"
+        ]
+      },
+      "related": [
+        "concept17157",
+        "concept7411"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يتكون من الموارد الفريدة للمعرفة البشرية والتعبير البشري التي تم إنشاءها رقميًا، أو تحويلها إلى شكل رقمي من الموارد المماثلة الموجودة بالفعل."
+        ],
+        "en": [
+          "Consists of  unique  resources  of  human  knowledge  and  expression created digitally, or converted into digital form from existing analogue resources."
+        ],
+        "es": [
+          "Consiste en recursos únicos que son fruto del saber o la expresión de los seres humanos, generados directamente en formato digital, o conviertidos a éste a partir de material analógico ya existente."
+        ],
+        "fr": [
+          "Se compose de ressources uniques dans les domaines de la connaissance et de l'expression humaine, créées  numériquement  ou  converties  sous  forme  numérique  à  partir  de  ressources  analogiques  existantes."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8030",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8030",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بتر اجزاء من الاعضاء التناسلية",
+          "تشويه الاعضاء التناسلية الانثوية",
+          "ختان تخييطي"
+        ],
+        "en": [
+          "Female circumcision",
+          "Genital mutilation",
+          "Infibulation"
+        ],
+        "es": [
+          "Circuncisión femenina",
+          "Infibulación"
+        ],
+        "fr": [
+          "Circoncision féminine",
+          "Infibulation",
+          "Mutilation génitale"
+        ],
+        "ru": [
+          "Женское обрезание",
+          "Инфибуляция"
+        ]
+      },
+      "broader": [
+        "concept6930"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ختان الاناث"
+        ],
+        "en": [
+          "Excision"
+        ],
+        "es": [
+          "Excisión"
+        ],
+        "fr": [
+          "Excision"
+        ],
+        "ru": [
+          "Обрезание (обряд)"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10563",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10563",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "شعائر استهلالية",
+          "طقوس اشراع",
+          "طقوس انتسابية",
+          "طقوس انضمام",
+          "طقوس تأهل",
+          "طقوس تلقينية"
+        ]
+      },
+      "broader": [
+        "concept6930"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:35:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احتفالات شعائرية"
+        ],
+        "en": [
+          "Initiation rites"
+        ],
+        "es": [
+          "Rito de iniciación"
+        ],
+        "fr": [
+          "Rite d'initiation"
+        ],
+        "ru": [
+          "Обряды посвящения"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12620",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12620",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صيانة اللوحات"
+        ],
+        "es": [
+          "Restauración de lienzos",
+          "Restauración de pinturas"
+        ],
+        "fr": [
+          "Restauration de peintures"
+        ]
+      },
+      "broader": [
+        "concept6364"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2019-12-15T13:33:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ترميم اللوحات"
+        ],
+        "en": [
+          "Restoration of paintings"
+        ],
+        "es": [
+          "Restauración de cuadros"
+        ],
+        "fr": [
+          "Restauration de tableaux"
+        ],
+        "ru": [
+          "Реставрация живописи"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16065",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16065",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تجارة الاعمال الفنية"
+        ],
+        "en": [
+          "Art trade"
+        ],
+        "fr": [
+          "Marché des oeuvres d'art"
+        ]
+      },
+      "broader": [
+        "concept7088"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2020-09-29T15:45:03+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سوق الفن"
+        ],
+        "en": [
+          "Art market"
+        ],
+        "es": [
+          "Mercado del arte"
+        ],
+        "fr": [
+          "Marché de l'art"
+        ]
+      },
+      "related": [
+        "concept3103"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17115",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17115",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept2782"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain3"
+      ],
+      "microthesaurus_ids": [
+        "mt3.10"
+      ],
+      "modified": "2023-02-17T12:17:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الحفظ الرقمي"
+        ],
+        "en": [
+          "Digital preservation"
+        ],
+        "es": [
+          "Preservación digital"
+        ],
+        "fr": [
+          "Préservation numérique"
+        ]
+      },
+      "related": [
+        "concept7411",
+        "concept8030"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يتضمن الحفظ الرقمي الإجراءات التي تهدف إلى ضمان النفاذ المستمر إلى المواد الرقمية. ويشمل ذلك إيجاد طرق من أجل إعادة عرض ما كان مقدماً للمستخدمين سابقاً بالاعتماد على عدد من البرمجيات والعتاديات والأدوات المتعلقة بمعالجة البيانات (اليونسكو)."
+        ],
+        "en": [
+          "Digital preservation consists of the processes aimed at ensuring the continued accessibility of digital materials."
+        ],
+        "es": [
+          "La preservación digital consiste en los procesos dirigidos a garantizar la accesibilidad continua de los materiales digitales."
+        ],
+        "fr": [
+          "La  préservation  numérique consiste à mettre en œuvre des processus visant à assurer l’accessibilité pérenne des contenus numériques."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17157",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17157",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt3.10",
+    "labels": {
+      "en": "Cultural policy and planning",
+      "fr": "Politique culturelle et planification de la culture"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt3.10"
+  }
+}

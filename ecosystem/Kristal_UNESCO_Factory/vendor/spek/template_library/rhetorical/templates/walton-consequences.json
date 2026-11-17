@@ -1,0 +1,155 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.walton-consequences",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Décision et conséquences",
+  "research_basis": {
+    "family": "argument",
+    "relation": "walton.consequences",
+    "source": "WALTON",
+    "source_url": "https://journals.sagepub.com/doi/full/10.1080/19462166.2015.1123772",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "walton.consequences",
+    "editorial_relation_required": true,
+    "semantic_warning": "Ne pas convertir des effets hypothétiques en résultats avérés.",
+    "critical_questions": []
+  },
+  "slots": {
+    "choice": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "approach"
+      ],
+      "visual_role": "paragraph"
+    },
+    "benefits": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 4,
+      "allowed_kinds": [
+        "implication"
+      ],
+      "visual_role": "paragraph"
+    },
+    "costs": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 4,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    },
+    "conclusion": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "conclusion"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "choice",
+    "benefits",
+    "costs",
+    "conclusion"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "conclusion"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "walton.consequences",
+    "focus_slot": "conclusion",
+    "moves": [
+      {
+        "slot": "choice",
+        "function": "choice",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "benefits",
+        "function": "benefits",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "costs",
+        "function": "costs",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "conclusion",
+        "function": "conclusion",
+        "nuclearity": "focus",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "choice",
+        "to_slot": "conclusion",
+        "relation": "walton.consequences",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "benefits",
+        "to_slot": "conclusion",
+        "relation": "walton.consequences",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "costs",
+        "to_slot": "conclusion",
+        "relation": "walton.consequences",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "choice",
+        "benefits",
+        "costs"
+      ],
+      [
+        "conclusion"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Ne pas convertir des effets hypothétiques en résultats avérés."
+    }
+  }
+}

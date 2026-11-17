@@ -86,3 +86,91 @@ est creee automatiquement par une migration additive et ne requiert aucun
 script SQL manuel. `-Action Status` donne les compteurs et jusqu'a dix exemples
 de divergences observees. Les graines traitees avant la correction ne sont
 pas relues uniquement pour remplir ce registre d'audit.
+
+
+---
+
+# EncyKlopedia v31.10 — Découverte LARGE, sélection documentaire par ChatGPT
+
+## Principes
+
+- Le système **propose largement** des correspondances possibles entre Wikipédia et les concepts UNESCO; il ne décide **jamais** lui-même lesquelles ont une valeur encyclopédique.
+- Les propositions sont réunies dans les revues habituelles v28, de 4 000 lignes **maximum par pack**, avec les vrais identifiants, les empreintes des preuves indexées et les contextes documentaires.
+- **ChatGPT** lit la revue et la documentation dans le pack, puis retourne **APPROVE, REJECT ou HOLD pour chaque ligne**. Seule cette revue constitue une décision documentaire, provisoire et non canonique.
+- Aucune admission canonique ni publication, aucun effacement de l'inventaire; les candidats non sélectionnés pour un pack restent dans la file.
+
+## Pourquoi ce correctif
+
+Le diagnostic du 15 novembre 2026 confirme que les 5 fichiers v31.9 sont en place, mais que 19 des 41 concepts configurés n'ont ni affectation initiale ni candidat découvert. La découverte v28 historique part des affectations existantes, ce qui empêche ces concepts d'amorcer leur propre recherche.
+
+## Découverte indépendante (additive)
+
+En plus de la découverte historique par liens et catégories, v31.10 interroge **les index SQLite de Wikipédia en lecture seule** sur les libellés UNESCO officiels et variantes explicites :
+
+1. Les titres exacts **et ceux qui commencent** par ces libellés (pas uniquement l'égalité stricte).
+2. Les catégories exactes et les catégories dont le titre **commence** par ces libellés, puis leurs pages membres, même lorsque le titre de l'article n'est pas semblable au nom du concept.
+3. Tous les concepts de la branche, y compris ceux avec zéro graine et ceux déjà amorcés : aucune catégorie n'est définitivement écartée parce qu'un plafond est atteint.
+
+La découverte reste bornée pour les performances (jusqu'à 800 **nouvelles paires par concept et par exécution** par défaut), avec curseurs SQLite **persistants** par libellé et catégorie. Les passages suivants reprennent au point atteint. Ce plafond n'est donc **pas un rejet**. Le moteur ne balaie pas les 110 Go de XML et n'invente ni libellé UNESCO ni texte cité. Les seules nouvelles preuves sont des **références indexées** (`SQL_TITLE_PREFIX`, `SQL_CATEGORY_MEMBER`), pas une validation de pertinence.
+
+En v31.10, les correspondances de ces deux provenances reçoivent une priorité de planification minimale de 20 pour entrer dans `PENDING`, et non une décision de fond. Elles doivent toujours être vérifiées par ChatGPT sur le contexte documentaire réellement présent.
+
+## Intégrité, installation et exploitation
+
+- **Attendre l'absence de revues UNESCO ouvertes pour LANCER la découverte**, car les preuves envoyées sont figées. Le moteur refuse une découverte manuelle si de telles revues existent.
+- L'overlay se dépose dans **Mises à jour logicielles**, avec préconditions SHA-256. Ne décompressez pas l'overlay directement sur le programme.
+- Les modifications des tables de travail se limitent aux curseurs additifs `v3110_probe_cursor` et `v3110_category_roots`, créés lors de la prochaine découverte autorisée. Aucun fichier historique n'est reconstruit. Les candidats et les preuves **déjà enregistrés** ne sont jamais modifiés par l'amorçage.
+- Les bases de production ne sont pas incluses dans le ZIP. La sauvegarde des résultats v3 reste indépendante et recommandée avant installation.
+- Aucun quota de 10 postes n'est garanti : si les index ne présentent pas assez de candidats, ou si les libellés ne capturent pas des synonymes, le résultat peut rester partiel. Un audit indépendant du rappel reste nécessaire.
+
+## Tests et limites
+
+Des tests isolés vérifient la reprise des curseurs, la recherche préfixe et par catégorie, la couverture de concepts non amorcés, l'absence de décision locale, la non-modification des preuves existantes et le refus des découvertes quand une revue est ouverte. Le test Windows de production ne peut pas être réalisé depuis ce snapshot ; surveiller au prochain cycle les nouveaux indicateurs `broadscan_*` du journal.
+
+## v31.11 — Rappel par relations UNESCO (additif)
+
+### Problème mesuré par l'audit du 15 novembre 2026
+
+Les deux fichiers v31.10 vérifiés sont conformes. L'audit local a constaté 186 232 couples
+candidats tous présents dans le catalogue, le registre des décisions ou l'index station
+(aucune paire perdue); zéro candidat PENDING et zéro article Kristal non empaqueté.
+Les 334 curseurs de préfixe et les 67 parcours de catégories existants sont tous marqués
+terminés, mais **16 concepts sur 41 n'ont toujours aucun candidat**. Ceci **n'établit pas**
+que les concepts sont épuisés : seuls leurs préfixes littéraux ont été explorés.
+
+### Nouveau chemin de découverte
+
+Le nouveau parcours utilise uniquement les arêtes documentées **broader/narrower/related**
+du référentiel UNESCO de cette même branche et les **affectations existantes** dans le
+catalogue v25. Il propose les articles déjà rattachés à des concepts voisins comme candidats
+à examiner pour un concept pauvre en propositions. Les chemins directs sont prioritaires;
+un chemin de deux arêtes UNESCO est autorisé si une relation directe n'apporte pas de
+propositions. **Une relation entre concepts n'est jamais une preuve de pertinence de
+l'article pour le concept cible**. Le pack contient la provenance `UNESCO_RELATED_CATALOGUE`;
+ChatGPT lit l'article et choisit APPROVE, REJECT ou HOLD.
+
+Le parcours ne modifie ni les affectations, ni les décisions, ni les anciennes preuves. Il
+utilise uniquement des identifiants de pages existants, en ignorant les redirections et
+les namespaces non encyclopédiques. Aucun balayage du XML Wikipédia de 110 Go.
+
+Le plafond initial est de **800 nouvelles paires par concept et par lancement autorisé**.
+Il répartit le travail en vagues sans exclure définitivement les articles : la table additive
+`v3111_relation_cursor` enregistre `last_page_id` et l'état de chaque chemin. Les relations
+et les articles déjà épuisés ne sont pas retraités inutilement. Les concepts sans aucune
+affectation peuvent continuer à être explorés au-delà de leur première vague.
+
+### Sécurité et exploitation
+
+- La protection de v31.10 reste active : **aucune nouvelle découverte si une revue UNESCO
+  est ouverte**, y compris après une installation de l'overlay.
+- Les packs et empreintes de preuves déjà exportés restent inchangés; aucun ACCEPT/REJECT
+  ou admission canonique automatique. Les décisions passées ne sont jamais remises à zéro.
+- Le journal ajoute `relation_new_pairs`, `relation_pairs_by_concept`,
+  `relation_unfinished_paths`, `relation_auto_approvals: 0` pour diagnostiquer l'apport réel.
+- Installation **par l'interface logicielle v30** avec préconditions SHA-256, puis fermeture
+  et redémarrage complet. Ne pas décompresser le ZIP dans le dépôt.
+- Sauvegarde v3 des **seuls résultats SQLite** avant installation, sans corpus Wikipédia.
+- Les suggestions de voisinage peuvent être nombreuses et peu pertinentes : elles ne sont
+  pas un indicateur de rappel prouvé, et dix postes ne sont jamais garantis.
+- Tests automatisés sur bases miniatures et retour arrière sur copie isolée, **pas**
+  d'exécution sur la base de production de l'utilisateur.

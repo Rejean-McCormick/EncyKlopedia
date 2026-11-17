@@ -1,0 +1,45 @@
+{
+  "format": "spek.composition-instance/1.0",
+  "instance_id": "wiki-comparison-01",
+  "template_ref": "rhetorical.comparison-narrative@1.0.0",
+  "bindings": {
+    "question": {
+      "node_type": "text_slot",
+      "realization_key": "comparison.question",
+      "communication_request_ref": "requests/comparison.question.json"
+    },
+    "criterion": {
+      "node_type": "text_slot",
+      "realization_key": "comparison.criterion",
+      "communication_request_ref": "requests/comparison.criterion.json"
+    },
+    "approach_a": {
+      "node_type": "text_slot",
+      "realization_key": "comparison.approach_a",
+      "communication_request_ref": "requests/comparison.approach_a.json"
+    },
+    "approach_b": {
+      "node_type": "text_slot",
+      "realization_key": "comparison.approach_b",
+      "communication_request_ref": "requests/comparison.approach_b.json"
+    },
+    "synthesis": {
+      "node_type": "text_slot",
+      "realization_key": "comparison.synthesis",
+      "communication_request_ref": "requests/comparison.synthesis.json"
+    },
+    "qualification": {
+      "node_type": "text_slot",
+      "realization_key": "comparison.qualification",
+      "communication_request_ref": "requests/comparison.qualification.json"
+    }
+  },
+  "presentation": {
+    "layout_variant": "two_column",
+    "mobile_variant": "stack",
+    "lead_slot": "question",
+    "join_mode": "block",
+    "show_template_labels": false
+  },
+  "authority": "editorial_bindings_explicit_not_approved"
+}

@@ -1,0 +1,101 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.pdtb-negative-condition",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Absence de condition et effet",
+  "research_basis": {
+    "family": "discourse",
+    "relation": "pdtb.contingency.negative-condition",
+    "source": "PDTB",
+    "source_url": "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "pdtb.contingency.negative-condition",
+    "editorial_relation_required": true,
+    "semantic_warning": "La négation de la condition doit être explicite.",
+    "critical_questions": []
+  },
+  "slots": {
+    "absent_condition": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "premise"
+      ],
+      "visual_role": "paragraph"
+    },
+    "consequence": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "claim"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "absent_condition",
+    "consequence"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": []
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "pdtb.contingency.negative-condition",
+    "focus_slot": "consequence",
+    "moves": [
+      {
+        "slot": "absent_condition",
+        "function": "absent-condition",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "consequence",
+        "function": "consequence",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "absent_condition",
+        "to_slot": "consequence",
+        "relation": "pdtb.contingency.negative-condition",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "absent_condition",
+        "consequence"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "La négation de la condition doit être explicite."
+    }
+  }
+}

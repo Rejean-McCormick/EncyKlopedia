@@ -1,0 +1,62 @@
+{
+  "format": "kristal.layout-realizations/0.1",
+  "note": "EXEMPLE FICTIF MANUEL NON PRODUIT PAR SEMANTIK - démonstration rhétorique, aucune donnée Kristal.",
+  "entries": {
+    "case.thesis": {
+      "fr": {
+        "text": "Dans cette étude fictive, le protocole B donne des mesures plus régulières que le protocole A.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "case.proof.1": {
+      "fr": {
+        "text": "Dans les trois séries fictives, la dispersion mesurée est plus faible avec B.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "case.proof.2": {
+      "fr": {
+        "text": "Les deux protocoles ont été évalués sur les mêmes échantillons inventés.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "case.proof.3": {
+      "fr": {
+        "text": "Chaque série fictive répète la mesure avec le même instrument.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "case.warrant": {
+      "fr": {
+        "text": "À conditions comparables, une dispersion plus faible peut indiquer une meilleure répétabilité.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "case.backing": {
+      "fr": {
+        "text": "Le tableau fictif présente séparément les valeurs des trois répétitions.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "case.qualifier": {
+      "fr": {
+        "text": "Cette conclusion ne concerne que ces données inventées et ne vaut pas pour d’autres dispositifs.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "case.objection": {
+      "fr": {
+        "text": "Une différence de calibration non détectée pourrait néanmoins expliquer une partie de l’écart.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    }
+  }
+}

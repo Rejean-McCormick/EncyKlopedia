@@ -1,0 +1,126 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.pdtb-temporal-precedence",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Antériorité documentée",
+  "research_basis": {
+    "family": "discourse",
+    "relation": "pdtb.temporal.asynchronous",
+    "source": "PDTB",
+    "source_url": "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "pdtb.temporal.asynchronous",
+    "editorial_relation_required": true,
+    "semantic_warning": "N’implique pas la causalité.",
+    "critical_questions": []
+  },
+  "slots": {
+    "earlier": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "event"
+      ],
+      "visual_role": "paragraph"
+    },
+    "later": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "event"
+      ],
+      "visual_role": "paragraph"
+    },
+    "bridge": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "relation"
+      ],
+      "visual_role": "supporting_sentence"
+    }
+  },
+  "ordered_slots": [
+    "earlier",
+    "bridge",
+    "later"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": []
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "pdtb.temporal.asynchronous",
+    "focus_slot": "earlier",
+    "moves": [
+      {
+        "slot": "earlier",
+        "function": "earlier_event",
+        "nuclearity": "multinuclear",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "bridge",
+        "function": "explicit_semantik_transition",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "supporting_sentence"
+      },
+      {
+        "slot": "later",
+        "function": "later_event",
+        "nuclearity": "multinuclear",
+        "group": 1,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "later",
+        "to_slot": "earlier",
+        "relation": "pdtb.temporal.asynchronous",
+        "status": "requires_external_semantic_review",
+        "relation_function": "follows"
+      },
+      {
+        "from_slot": "bridge",
+        "to_slot": "earlier",
+        "relation": "pdtb.temporal.asynchronous",
+        "status": "requires_external_semantic_review",
+        "relation_function": "transitions"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "earlier",
+        "bridge",
+        "later"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "N’implique pas la causalité."
+    }
+  }
+}

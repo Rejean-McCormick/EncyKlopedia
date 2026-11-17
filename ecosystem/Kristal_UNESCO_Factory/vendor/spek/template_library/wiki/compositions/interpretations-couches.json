@@ -1,0 +1,94 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-interpretations-couches",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-12",
+    "slug": "interpretations-couches",
+    "name": "Layered Interpretations"
+  },
+  "source_arketype_file": "archetypes/interpretations-couches.json",
+  "editorial_rationale": "Structure Arketype ARK-12: Separate derived readings of shared underlying material. Comparative analysis and alternative interpretations.",
+  "source_structural_primitives": [
+    "donnees",
+    "transformations",
+    "couches_interpretatives",
+    "liens_typés",
+    "hypotheses",
+    "limites"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "sources",
+      "title_function": "Données et sources opposables",
+      "layout_id": "evidence-comparison",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "donnees",
+        "limites"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "question": 1,
+        "source_a": 1,
+        "source_b": 1,
+        "perspective_a": 1,
+        "perspective_b": 1,
+        "synthesis": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Comparer des sources réelles, pas deux versions inventées."
+    },
+    {
+      "section_id": "lectures",
+      "title_function": "Approches interprétatives",
+      "layout_id": "comparison",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "couches_interpretatives",
+        "hypotheses"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "topic": 1,
+        "criterion": 1,
+        "approach_a": 1,
+        "approach_b": 1,
+        "synthesis": 1,
+        "limitations": 1
+      },
+      "editorial_constraint": "Exiger deux approches comparables et leur critère explicite."
+    },
+    {
+      "section_id": "raisonnement",
+      "title_function": "Chaîne d’inférences",
+      "layout_id": "argument-map",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "transformations",
+        "liens_typés"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "thesis": 1,
+        "premises": 1,
+        "inference": 1,
+        "objection": 1,
+        "conclusion": 1
+      },
+      "editorial_constraint": "La transformation est distincte de son résultat interprétatif."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "layered-graph"
+  ],
+  "integrity_rule": "Keep interpretation and reproducible source distinct.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

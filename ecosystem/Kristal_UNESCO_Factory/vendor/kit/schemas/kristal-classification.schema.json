@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kristal:classification/1.0",
+  "title": "Optional Arketype design classification and declared structure mode (not authority)",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "arketype_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "primary_archetype": {
+      "type": "string",
+      "pattern": "^ARK-[0-9]{2,}$"
+    },
+    "supporting_archetypes": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^ARK-[0-9]{2,}$"
+      }
+    },
+    "primary_usage": {
+      "type": "string",
+      "pattern": "^PRF-[0-9]{2,}$"
+    },
+    "secondary_usages": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^PRF-[0-9]{2,}$"
+      }
+    },
+    "usage_slug": {
+      "type": "string",
+      "minLength": 1
+    },
+    "usage_family": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organization": {
+      "enum": [
+        "single",
+        "collection",
+        "federation",
+        "hybrid",
+        "unknown"
+      ]
+    },
+    "structure_mode": {
+      "type": "string",
+      "enum": [
+        "archetype",
+        "hybrid",
+        "free"
+      ],
+      "description": "Optional declared design mode. Free does not require any Arketype ID."
+    },
+    "variant_description": {
+      "type": "string",
+      "maxLength": 4000,
+      "description": "Human-declared structural adaptation, descriptive only."
+    },
+    "structural_profile_version": {
+      "type": "string",
+      "enum": [
+        "arketype.structural-profiles/0.1"
+      ],
+      "description": "Reference to advisory profiling library; not a normative certification."
+    },
+    "declared_structure_notes": {
+      "type": "string",
+      "maxLength": 4000
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "structure_mode": {
+            "const": "archetype"
+          }
+        },
+        "required": [
+          "structure_mode"
+        ]
+      },
+      "then": {
+        "required": [
+          "primary_archetype"
+        ]
+      }
+    }
+  ]
+}

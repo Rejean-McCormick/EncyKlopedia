@@ -1,0 +1,221 @@
+{
+  "format": "spek.wiki-ai-composition-registry/1.0",
+  "revision": "2026-11-01/1",
+  "authorship": "AI editorial design from supplied Arketype/Spek files, not automatic inference by Spek",
+  "source_basis": {
+    "arketype_snapshot_filename": "arketype_Code_snapshot(7).zip",
+    "arketype_snapshot_sha256": "cc54bd3a8d96497168f49cdbe06faa223c51831c673ffad4f614fb4951ce01de",
+    "spek_snapshot_filename": "SPEK_REPO_COMPLET_GESTIONNAIRE_REPARE_2026-11-01.zip",
+    "spek_snapshot_sha256": "7523374d26008807d7d5373b2de3b6968e833551281fd48564577e761ec2494c"
+  },
+  "authority": "design_only_no_content_selection_or_publication",
+  "allow_runtime_template_inference": false,
+  "allow_fallback_to_preferred_layout": false,
+  "matching_policy": "An explicit, reviewed per-Kristal assignment binds composition_id, state fingerprint and exact selected semantic paths. No inference at runtime.",
+  "compositions": {
+    "arketype-carte-jalons-preuves": {
+      "file": "compositions/carte-jalons-preuves.json",
+      "archetype_id": "ARK-03",
+      "section_count": 3,
+      "layout_sequence": [
+        "chronology",
+        "argument-map",
+        "result-card"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-compilation-collection": {
+      "file": "compositions/compilation-collection.json",
+      "archetype_id": "ARK-05",
+      "section_count": 3,
+      "layout_sequence": [
+        "concept-card",
+        "evidence-comparison",
+        "chronology"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-composition-hybride": {
+      "file": "compositions/composition-hybride.json",
+      "archetype_id": "ARK-15",
+      "section_count": 4,
+      "layout_sequence": [
+        "concept-card",
+        "result-card",
+        "comparison",
+        "evidence-comparison"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-deposition-temoignage": {
+      "file": "compositions/deposition-temoignage.json",
+      "archetype_id": "ARK-16",
+      "section_count": 3,
+      "layout_sequence": [
+        "chronology",
+        "evidence-comparison",
+        "observation-inference"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-diagnostic-causal": {
+      "file": "compositions/diagnostic-causal.json",
+      "archetype_id": "ARK-08",
+      "section_count": 3,
+      "layout_sequence": [
+        "observation-inference",
+        "argument-map",
+        "result-card"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-dossier-suivi": {
+      "file": "compositions/dossier-suivi.json",
+      "archetype_id": "ARK-19",
+      "section_count": 2,
+      "layout_sequence": [
+        "chronology",
+        "result-card"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-etat-systemes": {
+      "file": "compositions/etat-systemes.json",
+      "archetype_id": "ARK-18",
+      "section_count": 3,
+      "layout_sequence": [
+        "observation-inference",
+        "result-card",
+        "observation-inference"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-federation-topologie": {
+      "file": "compositions/federation-topologie.json",
+      "archetype_id": "ARK-02",
+      "section_count": 2,
+      "layout_sequence": [
+        "concept-card",
+        "concept-card"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-interpretations-couches": {
+      "file": "compositions/interpretations-couches.json",
+      "archetype_id": "ARK-12",
+      "section_count": 3,
+      "layout_sequence": [
+        "evidence-comparison",
+        "comparison",
+        "argument-map"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-invariant-theorie": {
+      "file": "compositions/invariant-theorie.json",
+      "archetype_id": "ARK-07",
+      "section_count": 3,
+      "layout_sequence": [
+        "argument-map",
+        "result-card",
+        "observation-inference"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-memoire-recherche": {
+      "file": "compositions/memoire-recherche.json",
+      "archetype_id": "ARK-06",
+      "section_count": 3,
+      "layout_sequence": [
+        "observation-inference",
+        "result-card",
+        "evidence-comparison"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-modele-multiplexe": {
+      "file": "compositions/modele-multiplexe.json",
+      "archetype_id": "ARK-09",
+      "section_count": 3,
+      "layout_sequence": [
+        "concept-card",
+        "comparison",
+        "evidence-comparison"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-parcours-pedagogique": {
+      "file": "compositions/parcours-pedagogique.json",
+      "archetype_id": "ARK-10",
+      "section_count": 2,
+      "layout_sequence": [
+        "learning-path",
+        "concept-card"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-procedure-protocole": {
+      "file": "compositions/procedure-protocole.json",
+      "archetype_id": "ARK-04",
+      "section_count": 2,
+      "layout_sequence": [
+        "learning-path",
+        "observation-inference"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-referentiel-semantique": {
+      "file": "compositions/referentiel-semantique.json",
+      "archetype_id": "ARK-01",
+      "section_count": 2,
+      "layout_sequence": [
+        "concept-card",
+        "comparison"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-registre-evenementiel": {
+      "file": "compositions/registre-evenementiel.json",
+      "archetype_id": "ARK-11",
+      "section_count": 2,
+      "layout_sequence": [
+        "chronology",
+        "observation-inference"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-simulation-transition": {
+      "file": "compositions/simulation-transition.json",
+      "archetype_id": "ARK-14",
+      "section_count": 3,
+      "layout_sequence": [
+        "result-card",
+        "comparison",
+        "chronology"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-taxonomie-classification": {
+      "file": "compositions/taxonomie-classification.json",
+      "archetype_id": "ARK-17",
+      "section_count": 2,
+      "layout_sequence": [
+        "concept-card",
+        "comparison"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    },
+    "arketype-univers-oeuvres-medias": {
+      "file": "compositions/univers-oeuvres-medias.json",
+      "archetype_id": "ARK-13",
+      "section_count": 2,
+      "layout_sequence": [
+        "concept-card",
+        "chronology"
+      ],
+      "status": "ai_design_candidate_awaiting_kristal_specific_review"
+    }
+  },
+  "kristal_assignments_file": "kristal-assignments.json",
+  "missing_layout_design_file": "layouts-a-concevoir.json"
+}

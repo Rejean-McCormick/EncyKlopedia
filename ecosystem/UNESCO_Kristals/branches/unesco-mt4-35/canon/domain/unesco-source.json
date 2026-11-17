@@ -1,0 +1,3652 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "تركيبة عمرية للسكان",
+          "تكوين عمري",
+          "توزيع السكان حسب أعمارهم"
+        ],
+        "en": [
+          "Age composition"
+        ],
+        "es": [
+          "Clasificación por edades"
+        ],
+        "fr": [
+          "Composition par âge",
+          "Structure d'âge",
+          "Structure par âge"
+        ],
+        "ru": [
+          "Возрастной состав"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:51+00:00",
+      "narrower": [
+        "concept1662"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توزيع عمري"
+        ],
+        "en": [
+          "Age distribution"
+        ],
+        "es": [
+          "Distribución por edad"
+        ],
+        "fr": [
+          "Répartition par âge"
+        ],
+        "ru": [
+          "Возрастное распределение"
+        ]
+      },
+      "related": [
+        "concept1657",
+        "concept1664",
+        "concept431"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept424",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept424",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ديموغرافيا",
+          "علم السكان"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:23+00:00",
+      "narrower": [
+        "concept1664",
+        "concept7616"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم دراسة السكان"
+        ],
+        "en": [
+          "Demography"
+        ],
+        "es": [
+          "Demografía"
+        ],
+        "fr": [
+          "Démographie"
+        ],
+        "ru": [
+          "Демография"
+        ]
+      },
+      "related": [
+        "concept380",
+        "concept427",
+        "concept428"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم للأعمال النظرية التي تهتم بتناول قطاعات السكان من حيث الحجم والبنية والتوزيع والنمو والهجرة."
+        ],
+        "en": [
+          "Use for theoretical works dealing with human populations, concerned with their size, structure, distribution, growth and migration."
+        ],
+        "es": [
+          "Estudios teóricos sobre las poblaciones humanas desde el punto de vista de su dimensión, estructura, distribución, crecimiento y migración."
+        ],
+        "fr": [
+          "S'emploie pour désigner des travaux théoriques sur les populations humaines du point de vue de leurs dimension, structure, distribution, croissance et migration."
+        ],
+        "ru": [
+          "Используется по отношению к научным трудам в области народонаселения, освещающих, в частности, численность, структуру, территориальное распределение, рост и миграцию населения."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept425",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept425",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مهاجرون وافدون",
+          "نازحون"
+        ],
+        "en": [
+          "Emigrants",
+          "Immigrants"
+        ],
+        "es": [
+          "Emigrante",
+          "Inmigrante"
+        ],
+        "fr": [
+          "Immigrant",
+          "Émigrant"
+        ],
+        "ru": [
+          "Иммигранты",
+          "Эмигранты"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2026-01-21T15:50:55+00:00",
+      "narrower": [
+        "concept10423",
+        "concept10577",
+        "concept11713",
+        "concept13125",
+        "concept8119",
+        "concept8152"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مهاجرون"
+        ],
+        "en": [
+          "Migrants"
+        ],
+        "es": [
+          "Migrante"
+        ],
+        "fr": [
+          "Migrant"
+        ],
+        "ru": [
+          "Мигранты"
+        ]
+      },
+      "related": [
+        "concept17092",
+        "concept427"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept426",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept426",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحركات سكانية",
+          "تنقلات سكانية",
+          "هجرة السكان",
+          "هجرة دولية"
+        ],
+        "en": [
+          "International migration",
+          "Population migration",
+          "Population mobility",
+          "Population movement"
+        ],
+        "es": [
+          "Desplazamiento de población",
+          "Migración internacional"
+        ],
+        "fr": [
+          "Déplacement de population",
+          "Migration internationale"
+        ],
+        "ru": [
+          "Международная миграция",
+          "Миграция населения"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:06:55+00:00",
+      "narrower": [
+        "concept10409",
+        "concept11589",
+        "concept13122",
+        "concept14136",
+        "concept8217",
+        "concept9602",
+        "concept9604"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هجرة"
+        ],
+        "en": [
+          "Migration"
+        ],
+        "es": [
+          "Migración"
+        ],
+        "fr": [
+          "Migration"
+        ],
+        "ru": [
+          "Миграция"
+        ]
+      },
+      "related": [
+        "concept1194",
+        "concept425",
+        "concept426",
+        "concept5294",
+        "concept5303",
+        "concept7616"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept427",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept427",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:08+00:00",
+      "narrower": [
+        "concept15257"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سكان"
+        ],
+        "en": [
+          "Population"
+        ],
+        "es": [
+          "Población"
+        ],
+        "fr": [
+          "Population"
+        ],
+        "ru": [
+          "Население"
+        ]
+      },
+      "related": [
+        "concept12020",
+        "concept425"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم فقط فيما يتعلق بالسكان في بلد أو منطقة محددة. عند الضرورة، استخدم واصفة أكثر تحديدا."
+        ],
+        "en": [
+          "Use only with respect to population of a specific country or region. Otherwise, use more specific descriptor where appropriate."
+        ],
+        "es": [
+          "Se refiere solamente a la población específica de un país particular o de una región. En otro caso, utilizar un descriptor más apropiado."
+        ],
+        "fr": [
+          "Se réfère uniquement à la population d'un pays particulier ou d'une région. Autrement, utiliser un descripteur plus précis quand c'est opportun."
+        ],
+        "ru": [
+          "Используется только по отношению к населению конкретной страны или региона",
+          "в иных случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept428",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept428",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتجاهات ديمغرافية",
+          "تغير سكاني",
+          "تغير عدد السكان",
+          "ديناميات سكانية",
+          "ديناميكا السكان",
+          "ديناميكا سكانية",
+          "ديناميكية سكانية"
+        ],
+        "en": [
+          "Demographic trends",
+          "Population change"
+        ],
+        "es": [
+          "Cambio demográfico",
+          "Tendencia demográfica"
+        ],
+        "fr": [
+          "Changement démographique",
+          "Tendance démographique"
+        ],
+        "ru": [
+          "Демографические тенденции",
+          "Изменение народонаселения"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:37:18+00:00",
+      "narrower": [
+        "concept13803",
+        "concept15365",
+        "concept1659",
+        "concept4110",
+        "concept6826",
+        "concept7468",
+        "concept7664",
+        "concept8198"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حراكات سكانية"
+        ],
+        "en": [
+          "Population dynamics"
+        ],
+        "es": [
+          "Dinámica de la población"
+        ],
+        "fr": [
+          "Dynamique de la population"
+        ],
+        "ru": [
+          "Динамика народонаселения"
+        ]
+      },
+      "related": [
+        "concept11035"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الأنشطة السكانية من حيث الانخفاض أو الزيادة أو الثبات."
+        ],
+        "en": [
+          "Population activity in terms of decline, increase or stabilization."
+        ],
+        "es": [
+          "Se refiere al movimiento demográfico en términos de decadencia, de crecimiento o de estabilización de la población."
+        ],
+        "fr": [
+          "Se réfère au mouvement démographique en termes de déclin, d'accroissement ou de stabilisation de la population."
+        ],
+        "ru": [
+          "Изменения в показателях численности населения: сокращение, увеличение или стабилизация."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept429",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept429",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تشريعات متعلقة بالسكان",
+          "قانون السكان"
+        ],
+        "en": [
+          "Population legislation"
+        ],
+        "ru": [
+          "Законодательство в области народонаселения"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:06:19+00:00",
+      "narrower": [
+        "concept7896"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة سكانية"
+        ],
+        "en": [
+          "Population policy"
+        ],
+        "es": [
+          "Política demográfica"
+        ],
+        "fr": [
+          "Politique démographique"
+        ],
+        "ru": [
+          "Демографическая политика"
+        ]
+      },
+      "related": [
+        "concept11035",
+        "concept1800",
+        "concept413",
+        "concept435"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept430",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept430",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "توزيع الجنسين"
+        ],
+        "es": [
+          "Clasificación por género"
+        ],
+        "fr": [
+          "Répartition par genre"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:44+00:00",
+      "narrower": [
+        "concept15172"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توزيع حسب الجنس"
+        ],
+        "en": [
+          "Sex distribution"
+        ],
+        "es": [
+          "Distribución por sexo"
+        ],
+        "fr": [
+          "Répartition par sexe"
+        ],
+        "ru": [
+          "Распределение по признаку пола"
+        ]
+      },
+      "related": [
+        "concept1664",
+        "concept424"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept431",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept431",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1662"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:05:53+00:00",
+      "narrower": [
+        "concept1457"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراهقة"
+        ],
+        "en": [
+          "Adolescence"
+        ],
+        "es": [
+          "Adolescencia"
+        ],
+        "fr": [
+          "Adolescence"
+        ],
+        "ru": [
+          "Юность"
+        ]
+      },
+      "related": [
+        "concept1458"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1456",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1456",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احداث",
+          "مراهقون"
+        ],
+        "en": [
+          "Adolescents",
+          "Teenagers",
+          "Young persons"
+        ],
+        "es": [
+          "Adolescente",
+          "Juventud",
+          "Púber"
+        ],
+        "fr": [
+          "Adolescent",
+          "Jeunes gens"
+        ],
+        "ru": [
+          "Молодые люди",
+          "Подростки",
+          "Тинейджеры"
+        ]
+      },
+      "broader": [
+        "concept1456"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2023-06-28T10:07:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "شباب"
+        ],
+        "en": [
+          "Youth"
+        ],
+        "es": [
+          "Joven"
+        ],
+        "fr": [
+          "Jeune"
+        ],
+        "ru": [
+          "Молодежь"
+        ]
+      },
+      "related": [
+        "concept1458",
+        "concept1460",
+        "concept1524",
+        "concept17164",
+        "concept4310",
+        "concept6654",
+        "concept78"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم واصفة أكثر تحديدا."
+        ],
+        "en": [
+          "Use more specific descriptor."
+        ],
+        "es": [
+          "Utilizar un descriptor más preciso."
+        ],
+        "fr": [
+          "Utiliser un descripteur plus précis."
+        ],
+        "ru": [
+          "В необходимых случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1457",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1457",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بالغون",
+          "راشدون"
+        ]
+      },
+      "broader": [
+        "concept1662"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:37:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كبار"
+        ],
+        "en": [
+          "Adults"
+        ],
+        "es": [
+          "Adulto"
+        ],
+        "fr": [
+          "Adulte"
+        ],
+        "ru": [
+          "Взрослое население"
+        ]
+      },
+      "related": [
+        "concept1481",
+        "concept1511",
+        "concept1528"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1513",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1513",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "شيخوخة السكان",
+          "شيخوخة المجتمع",
+          "مجتمع المسنين"
+        ],
+        "en": [
+          "Ageing society",
+          "Population ageing"
+        ],
+        "es": [
+          "Envejecimiento de la sociedad"
+        ],
+        "fr": [
+          "Population vieillissante",
+          "Société vieillissante"
+        ],
+        "ru": [
+          "Старение населения",
+          "Стареющее общество"
+        ]
+      },
+      "broader": [
+        "concept429"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سكان مسنون"
+        ],
+        "en": [
+          "Ageing population"
+        ],
+        "es": [
+          "Envejecimiento de la población"
+        ],
+        "fr": [
+          "Vieillissement de la population"
+        ],
+        "ru": [
+          "Стареющее население"
+        ]
+      },
+      "related": [
+        "concept1657",
+        "concept1670"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الزيادة المستمرة في عدد السكان المسنين في مجتمع معين، في فترة مطلقة أو نسبية على حد سواء."
+        ],
+        "en": [
+          "Continuing increase of elderly population both in absolute and in proportional terms in a given society."
+        ],
+        "es": [
+          "Crecimiento continuado de la población anciana en una sociedad determinada tanto en cifras absolutas como proporcionalmente."
+        ],
+        "fr": [
+          "Augmentation constante de la population vieillissante dans une société donnée, tant en nombre absolu que proportionnel."
+        ],
+        "ru": [
+          "Продолжающийся рост числа пожилых людей как в абсолютных, так и в относительных показателях в данном обществе."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1659",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1659",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مجموعات عمرية"
+        ],
+        "es": [
+          "Franja de edad"
+        ],
+        "fr": [
+          "Catégorie d'âge",
+          "Classe d'âge",
+          "Tranche d'âge"
+        ]
+      },
+      "broader": [
+        "concept424"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:04+00:00",
+      "narrower": [
+        "concept1456",
+        "concept1513",
+        "concept1666",
+        "concept1667"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فئات عمرية"
+        ],
+        "en": [
+          "Age groups"
+        ],
+        "es": [
+          "Grupo de edad"
+        ],
+        "fr": [
+          "Groupe d'âge"
+        ],
+        "ru": [
+          "Возрастные группы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1662",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1662",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Reparto geográfico de la población"
+        ],
+        "fr": [
+          "Répartition géographique de la population"
+        ]
+      },
+      "broader": [
+        "concept425"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توزيع السكان"
+        ],
+        "en": [
+          "Population distribution"
+        ],
+        "es": [
+          "Distribución de la población"
+        ],
+        "fr": [
+          "Répartition de la population"
+        ],
+        "ru": [
+          "Распределение населения"
+        ]
+      },
+      "related": [
+        "concept424",
+        "concept431",
+        "concept7631"
+      ],
+      "scope_notes": {
+        "ar": [
+          "موقع السكان وتنظيمهم الطبيعي."
+        ],
+        "en": [
+          "Physical arrangement and location of populations."
+        ],
+        "es": [
+          "Organización física y distribución de la población."
+        ],
+        "fr": [
+          "Organisation physique et distribution de la population."
+        ],
+        "ru": [
+          "Физическая организация и расселение населения."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1664",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1664",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Niñez"
+        ]
+      },
+      "broader": [
+        "concept1662"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:05:20+00:00",
+      "narrower": [
+        "concept4285",
+        "concept5091"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طفولة"
+        ],
+        "en": [
+          "Childhood"
+        ],
+        "es": [
+          "Infancia"
+        ],
+        "fr": [
+          "Enfance"
+        ],
+        "ru": [
+          "Детство"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1666",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1666",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كبر السن",
+          "هِرم"
+        ]
+      },
+      "broader": [
+        "concept1662"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "شيخوخة"
+        ],
+        "en": [
+          "Old age"
+        ],
+        "es": [
+          "Vejez"
+        ],
+        "fr": [
+          "Vieillesse"
+        ],
+        "ru": [
+          "Старость"
+        ]
+      },
+      "related": [
+        "concept1670",
+        "concept1673",
+        "concept1674"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1667",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1667",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مدبرات المنزل"
+        ],
+        "en": [
+          "Househusbands",
+          "Housewives"
+        ],
+        "fr": [
+          "Maîtresse de maison",
+          "Mère au foyer",
+          "Ménagère",
+          "Personne au foyer",
+          "Père au foyer"
+        ],
+        "ru": [
+          "Домашние хозяйки"
+        ]
+      },
+      "broader": [
+        "concept10702"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2024-09-19T10:48:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ربات البيوت"
+        ],
+        "en": [
+          "Homemakers"
+        ],
+        "es": [
+          "Ama de casa"
+        ],
+        "fr": [
+          "Femme au foyer"
+        ],
+        "ru": [
+          "Хозяйки дома"
+        ]
+      },
+      "related": [
+        "concept10730",
+        "concept11949",
+        "concept58"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2135",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2135",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معدل الولادات",
+          "معدلات الولادة"
+        ],
+        "en": [
+          "Natality"
+        ],
+        "es": [
+          "Natalidad"
+        ],
+        "fr": [
+          "Natalité"
+        ],
+        "ru": [
+          "Рождаемость"
+        ]
+      },
+      "broader": [
+        "concept429"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدل المواليد"
+        ],
+        "en": [
+          "Birth rate"
+        ],
+        "es": [
+          "Tasa de natalidad"
+        ],
+        "fr": [
+          "Taux de natalité"
+        ],
+        "ru": [
+          "Коэффициент рождаемости"
+        ]
+      },
+      "related": [
+        "concept1672",
+        "concept4108",
+        "concept4113",
+        "concept4115",
+        "concept435"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4110",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4110",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "زيادة السكان",
+          "كثافة سكانية عالية"
+        ],
+        "fr": [
+          "Surpeuplement"
+        ]
+      },
+      "broader": [
+        "concept15365"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اكتظاظ السكان"
+        ],
+        "en": [
+          "Overpopulation"
+        ],
+        "es": [
+          "Superpoblación"
+        ],
+        "fr": [
+          "Surpopulation"
+        ],
+        "ru": [
+          "Перенаселение"
+        ]
+      },
+      "related": [
+        "concept3610",
+        "concept4113",
+        "concept435",
+        "concept6826"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4116",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4116",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صبيان",
+          "فتيان"
+        ],
+        "es": [
+          "Muchacho"
+        ]
+      },
+      "broader": [
+        "concept10732"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اولاد"
+        ],
+        "en": [
+          "Boys"
+        ],
+        "es": [
+          "Chico"
+        ],
+        "fr": [
+          "Garçon"
+        ],
+        "ru": [
+          "Мальчики"
+        ]
+      },
+      "related": [
+        "concept4285",
+        "concept4286"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4283",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4283",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1666"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اطفال"
+        ],
+        "en": [
+          "Children"
+        ],
+        "es": [
+          "Niño"
+        ],
+        "fr": [
+          "Enfant"
+        ],
+        "ru": [
+          "Дети"
+        ]
+      },
+      "related": [
+        "concept2124",
+        "concept4283",
+        "concept4286",
+        "concept5091",
+        "concept5095"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4285",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4285",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نزوح الادمغة",
+          "هجرة ذوي الكفاءات"
+        ],
+        "es": [
+          "Fuga de cerebros"
+        ],
+        "fr": [
+          "Drainage des cerveaux",
+          "Exode des cerveaux",
+          "Fuite des cerveaux"
+        ]
+      },
+      "broader": [
+        "concept9602"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:36:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هجرة العقول"
+        ],
+        "en": [
+          "Brain drain"
+        ],
+        "es": [
+          "Éxodo intelectual"
+        ],
+        "fr": [
+          "Exode des compétences"
+        ],
+        "ru": [
+          "Утечка мозгов"
+        ]
+      },
+      "related": [
+        "concept4299",
+        "concept4300"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الخسارة التي تتكبدها دولة ما جرّاء هجرة المهنيين والفنيين المدربين."
+        ],
+        "en": [
+          "The loss suffered by a country as a result of the emigration of trained professionals and technicians."
+        ],
+        "es": [
+          "Pérdida sufrida por un país a causa de la emigración de sus profesionales y técnicos cualificados."
+        ],
+        "fr": [
+          "Perte que subit un pays en raison de l'émigration de ses professionnels et techniciens qualifiés."
+        ],
+        "ru": [
+          "Ущерб, наносимый стране в результате эмиграции квалифицированных профессиональных и технических работников."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4297",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4297",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احصاءات السكان",
+          "احصاءات رسمية",
+          "تعدادات",
+          "سجلات الاحوال الشخصية",
+          "سجلات مدنية"
+        ],
+        "en": [
+          "Censuses",
+          "Civil registration"
+        ],
+        "es": [
+          "Empadronamiento",
+          "Registro civil"
+        ],
+        "fr": [
+          "Enregistrement civil",
+          "Recensement"
+        ],
+        "ru": [
+          "Гражданская регистрация",
+          "Переписи"
+        ]
+      },
+      "broader": [
+        "concept7616"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:32:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعدادات السكان"
+        ],
+        "en": [
+          "Population censuses"
+        ],
+        "es": [
+          "Censo de población"
+        ],
+        "fr": [
+          "Recensement de population"
+        ],
+        "ru": [
+          "Переписи населения"
+        ]
+      },
+      "related": [
+        "concept7387",
+        "concept7393",
+        "concept7607"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4830",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4830",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معدل وفيات الرضع"
+        ],
+        "en": [
+          "Infant mortality"
+        ],
+        "es": [
+          "Mortalidad neonatal"
+        ],
+        "fr": [
+          "Mortalité néonatale"
+        ],
+        "ru": [
+          "Младенческая смертность"
+        ]
+      },
+      "broader": [
+        "concept7468"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدل وفيات الاطفال"
+        ],
+        "en": [
+          "Child mortality"
+        ],
+        "es": [
+          "Mortalidad infantil"
+        ],
+        "fr": [
+          "Mortalité infantile"
+        ],
+        "ru": [
+          "Детская смертность"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5070",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5070",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اطفال مرحلة ما قبل التعليم المدرسي"
+        ],
+        "en": [
+          "Preschoolers"
+        ],
+        "ru": [
+          "Дошкольники"
+        ]
+      },
+      "broader": [
+        "concept5091"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اطفال دون سن المدرسة"
+        ],
+        "en": [
+          "Preschool children"
+        ],
+        "es": [
+          "Niño en edad preescolar"
+        ],
+        "fr": [
+          "Enfant d'âge préscolaire"
+        ],
+        "ru": [
+          "Дети дошкольного возраста"
+        ]
+      },
+      "related": [
+        "concept5057",
+        "concept5089",
+        "concept8681"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5083",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5083",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رضع",
+          "سن الرضاع"
+        ],
+        "en": [
+          "Infancy",
+          "Infants"
+        ],
+        "es": [
+          "Bebé"
+        ],
+        "fr": [
+          "Bébé",
+          "Première enfance",
+          "Prime enfance"
+        ],
+        "ru": [
+          "Дети младшего возраста",
+          "Младенчество"
+        ]
+      },
+      "broader": [
+        "concept1666"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:06:14+00:00",
+      "narrower": [
+        "concept5083"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طفولة مبكرة"
+        ],
+        "en": [
+          "Early childhood"
+        ],
+        "es": [
+          "Primera infancia"
+        ],
+        "fr": [
+          "Petite enfance"
+        ],
+        "ru": [
+          "Раннее детство"
+        ]
+      },
+      "related": [
+        "concept4285",
+        "concept5081",
+        "concept5089"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5091",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5091",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صبايا",
+          "فتيات"
+        ],
+        "es": [
+          "Muchacha"
+        ]
+      },
+      "broader": [
+        "concept10766"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بنات"
+        ],
+        "en": [
+          "Girls"
+        ],
+        "es": [
+          "Chica"
+        ],
+        "fr": [
+          "Fille"
+        ],
+        "ru": [
+          "Девочки"
+        ]
+      },
+      "related": [
+        "concept4285",
+        "concept4286",
+        "concept8980"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5095",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5095",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انتقال من العمل وإليه",
+          "رحلة إلى العمل",
+          "سفر للعمل"
+        ],
+        "en": [
+          "Journey to work"
+        ],
+        "es": [
+          "Desplazamiento domicilio/trabajo"
+        ],
+        "fr": [
+          "Déplacement domicile/travail"
+        ],
+        "ru": [
+          "Дорога на работу"
+        ]
+      },
+      "broader": [
+        "concept13122"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ذهاب وإياب"
+        ],
+        "en": [
+          "Commuting"
+        ],
+        "es": [
+          "Migración pendular"
+        ],
+        "fr": [
+          "Migration alternante"
+        ],
+        "ru": [
+          "Поездки из пригорода в город и обратно"
+        ]
+      },
+      "related": [
+        "concept5264",
+        "concept5887",
+        "concept5888"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5884",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5884",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نمو السكان"
+        ],
+        "en": [
+          "Population growth"
+        ],
+        "es": [
+          "Aumento de la población",
+          "Aumento demográfico",
+          "Crecimiento de la población"
+        ],
+        "fr": [
+          "Accroissement de la population",
+          "Accroissement démographique",
+          "Augmentation de la population"
+        ],
+        "ru": [
+          "Рост населения"
+        ]
+      },
+      "broader": [
+        "concept429"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زيادة السكان"
+        ],
+        "en": [
+          "Population increase"
+        ],
+        "es": [
+          "Crecimiento demográfico"
+        ],
+        "fr": [
+          "Croissance démographique"
+        ],
+        "ru": [
+          "Рост численности населения"
+        ]
+      },
+      "related": [
+        "concept15365",
+        "concept4115",
+        "concept4116",
+        "concept7664",
+        "concept9604"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6826",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6826",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معدل الموت"
+        ],
+        "en": [
+          "Death rate"
+        ],
+        "es": [
+          "Tasa de mortalidad"
+        ],
+        "fr": [
+          "Taux de mortalité"
+        ],
+        "ru": [
+          "Коэффициент смертности"
+        ]
+      },
+      "broader": [
+        "concept429"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:15+00:00",
+      "narrower": [
+        "concept5070"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدل الوفيات"
+        ],
+        "en": [
+          "Mortality"
+        ],
+        "es": [
+          "Mortalidad"
+        ],
+        "fr": [
+          "Mortalité"
+        ],
+        "ru": [
+          "Смертность"
+        ]
+      },
+      "related": [
+        "concept1672",
+        "concept8198"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7468",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7468",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احصاءات الاحوال المدنية",
+          "احصاءات حيوية",
+          "احصاءات سكانية",
+          "بيانات سكانية"
+        ],
+        "en": [
+          "Population data",
+          "Population statistics",
+          "Vital statistics"
+        ],
+        "es": [
+          "Cálculos demográficos",
+          "Datos demográficos",
+          "Estadísticas de población",
+          "Información demográfica"
+        ],
+        "fr": [
+          "Donnée démographique",
+          "Information démographique",
+          "Statistique de l'état civil",
+          "Statistique de population"
+        ],
+        "ru": [
+          "Показатели народонаселения",
+          "Статистика естественного движения населения",
+          "Статистика населения"
+        ]
+      },
+      "broader": [
+        "concept7616"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احصاءات ديمغرافية"
+        ],
+        "en": [
+          "Demographic statistics"
+        ],
+        "es": [
+          "Estadísticas demográficas"
+        ],
+        "fr": [
+          "Statistique démographique"
+        ],
+        "ru": [
+          "Демографическая статистика"
+        ]
+      },
+      "related": [
+        "concept4830",
+        "concept5835"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7607",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7607",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحوث السكان",
+          "بحوث ديمغرافية"
+        ],
+        "en": [
+          "Demographic research"
+        ],
+        "es": [
+          "Investigación sobre la población"
+        ],
+        "ru": [
+          "Демографические исследования"
+        ]
+      },
+      "broader": [
+        "concept425"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:22+00:00",
+      "narrower": [
+        "concept11035",
+        "concept4830",
+        "concept7607"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث سكانية"
+        ],
+        "en": [
+          "Population research"
+        ],
+        "es": [
+          "Investigación demográfica"
+        ],
+        "fr": [
+          "Recherche démographique"
+        ],
+        "ru": [
+          "Исследования народонаселения"
+        ]
+      },
+      "related": [
+        "concept1929",
+        "concept378",
+        "concept427"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم هذا المصطلح للأعمال التي تتناول مشاريع البحوث. استخدم \"ديموغرافيا\" للأعمال العامة."
+        ],
+        "en": [
+          "Use for works dealing with research projects. For general works, use \"demography\"."
+        ],
+        "es": [
+          "Se refiere a los trabajos relacionados con proyectos de investigación. Para trabajos generales emplear \"demografía\"."
+        ],
+        "fr": [
+          "S'applique aux travaux liés à des projets de recherche. Pour des travaux généraux, utiliser \"démographie\"."
+        ],
+        "ru": [
+          "Используется по отношению к работам в рамках научно-исследовательских проектов. Для работ общего научного характера используйте термин \"Демография\"."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7616",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7616",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept15365"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كثافة سكانية"
+        ],
+        "en": [
+          "Population density"
+        ],
+        "es": [
+          "Densidad de población"
+        ],
+        "fr": [
+          "Densité de population"
+        ],
+        "ru": [
+          "Плотность народонаселения"
+        ]
+      },
+      "related": [
+        "concept1664"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7631",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7631",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تناقص السكان"
+        ],
+        "en": [
+          "Population decline"
+        ],
+        "es": [
+          "Despoblación"
+        ],
+        "fr": [
+          "Diminution de la population",
+          "Déclin de la population",
+          "Dépeuplement"
+        ],
+        "ru": [
+          "Сокращение народонаселения"
+        ]
+      },
+      "broader": [
+        "concept429"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انخفاض عدد السكان"
+        ],
+        "en": [
+          "Population decrease"
+        ],
+        "es": [
+          "Disminución de la población"
+        ],
+        "fr": [
+          "Dépopulation"
+        ],
+        "ru": [
+          "Уменьшение численности населения"
+        ]
+      },
+      "related": [
+        "concept15365",
+        "concept6826"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7664",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7664",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "قانون الهجرة النازحة",
+          "قانون الهجرة الوافدة"
+        ],
+        "en": [
+          "Emigration law",
+          "Immigration law"
+        ],
+        "es": [
+          "Ley de extranjería",
+          "Ley de inmigración",
+          "Ley migratoria"
+        ],
+        "fr": [
+          "Loi migratoire",
+          "Loi sur l'immigration",
+          "Loi sur les étrangers"
+        ],
+        "ru": [
+          "Закон в области иммиграции",
+          "Закон в области эмиграции"
+        ]
+      },
+      "broader": [
+        "concept11589"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قانون الهجرة"
+        ],
+        "en": [
+          "Migration law"
+        ],
+        "es": [
+          "Derecho de migración"
+        ],
+        "fr": [
+          "Droit de migration"
+        ],
+        "ru": [
+          "Закон в области миграции"
+        ]
+      },
+      "related": [
+        "concept12171"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7705",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7705",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept430"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:06:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "برامج سكانية"
+        ],
+        "en": [
+          "Population programmes"
+        ],
+        "es": [
+          "Programa demográfico"
+        ],
+        "fr": [
+          "Programme démographique"
+        ],
+        "ru": [
+          "Демографические программы"
+        ]
+      },
+      "related": [
+        "concept11650",
+        "concept3610",
+        "concept5815"
+      ],
+      "scope_notes": {
+        "ar": [
+          "أنشطة المنظمات الدولية في مجال السكان."
+        ],
+        "en": [
+          "Activities of international organizations in the population field."
+        ],
+        "es": [
+          "Actividad llevada a cabo por una organización internacional en materia de población."
+        ],
+        "fr": [
+          "Activité menée par une organisation internationale en matière de population."
+        ],
+        "ru": [
+          "Деятельность международных организаций в области народонаселения."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7896",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7896",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept426"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:06:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "لاجئون"
+        ],
+        "en": [
+          "Refugees"
+        ],
+        "es": [
+          "Refugiado"
+        ],
+        "fr": [
+          "Réfugié"
+        ],
+        "ru": [
+          "Беженцы"
+        ]
+      },
+      "related": [
+        "concept3168",
+        "concept408",
+        "concept409",
+        "concept5309",
+        "concept8149",
+        "concept9077"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8119",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8119",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مرحلون",
+          "مشردون داخليا",
+          "مُهَجرون داخل البلد",
+          "نازحون"
+        ],
+        "en": [
+          "IDP",
+          "Internally displaced persons"
+        ],
+        "es": [
+          "Desplazados"
+        ],
+        "ru": [
+          "Перемещенные лица (в пределах страны)"
+        ]
+      },
+      "broader": [
+        "concept426"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مشردون"
+        ],
+        "en": [
+          "Displaced persons"
+        ],
+        "es": [
+          "Persona desplazada"
+        ],
+        "fr": [
+          "Personne déplacée"
+        ],
+        "ru": [
+          "Перемещенные лица"
+        ]
+      },
+      "related": [
+        "concept206",
+        "concept3168",
+        "concept8106",
+        "concept8217"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الأشخاص الذين فروا أو أُخرجوا من مجتمعاتهم إلى مناطق محلية في أوطانهم. أما فيما يتعلق بالأشخاص الذين أجبروا على مغادرة أوطانهم، استخدم \"لاجئين\"."
+        ],
+        "en": [
+          "Persons who have fled or been driven from their communities to localities within their home country. For persons forced to leave their home country, use \"refugees\"."
+        ],
+        "es": [
+          "Persona que ha huído o ha sido conducida fuera de su comunidad a una localidad situada al interior de su país natal. Para referirse a una persona forzada a abandonar su país, utilizar \"refugiado\"."
+        ],
+        "fr": [
+          "Personne qui a fui ou qui a été conduite hors de sa communauté vers une localité située à l'intérieur de son pays natal. Pour une personne forcée à quitter son pays, utiliser \"réfugié\"."
+        ],
+        "ru": [
+          "Лица, бежавшие или вынужденно покинувшие места своего проживания и переселившиеся в другие районы в пределах своей родины. По отношению к лицам, вынужденным покинуть пределы своей родины, используйте термин \"Беженцы\"."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8152",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8152",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مراضة",
+          "مرض",
+          "معدلات المرض"
+        ],
+        "en": [
+          "Illness rate"
+        ],
+        "es": [
+          "Tasa de morbosidad"
+        ],
+        "fr": [
+          "Taux de morbidité"
+        ],
+        "ru": [
+          "Коэффициент заболеваемости"
+        ]
+      },
+      "broader": [
+        "concept429"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:32:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعتلال"
+        ],
+        "en": [
+          "Morbidity"
+        ],
+        "es": [
+          "Morbosidad"
+        ],
+        "fr": [
+          "Morbidité"
+        ],
+        "ru": [
+          "Заболеваемость"
+        ]
+      },
+      "related": [
+        "concept7468",
+        "concept8188"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8198",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8198",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هجرة باطنة"
+        ]
+      },
+      "broader": [
+        "concept427"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:58+00:00",
+      "narrower": [
+        "concept12784"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هجرة داخلية"
+        ],
+        "en": [
+          "Internal migration"
+        ],
+        "es": [
+          "Migración interna"
+        ],
+        "fr": [
+          "Migration interne"
+        ],
+        "ru": [
+          "Внутренняя миграция"
+        ]
+      },
+      "related": [
+        "concept8152"
+      ],
+      "scope_notes": {
+        "ar": [
+          "داخل البلد."
+        ],
+        "en": [
+          "Within a country."
+        ],
+        "es": [
+          "En el interior de un país"
+        ],
+        "fr": [
+          "À l'intérieur d'un pays."
+        ],
+        "ru": [
+          "В пределах страны."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8217",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8217",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اغتراب",
+          "نزوح",
+          "هجرة نازحة"
+        ]
+      },
+      "broader": [
+        "concept427"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:07+00:00",
+      "narrower": [
+        "concept4297"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هجرة"
+        ],
+        "en": [
+          "Emigration"
+        ],
+        "es": [
+          "Emigración"
+        ],
+        "fr": [
+          "Émigration"
+        ],
+        "ru": [
+          "Эмиграция"
+        ]
+      },
+      "related": [
+        "concept9604"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9602",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9602",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هجرة وافدة"
+        ]
+      },
+      "broader": [
+        "concept427"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2026-01-21T15:46:49+00:00",
+      "narrower": [
+        "concept12171"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هجرة"
+        ],
+        "en": [
+          "Immigration"
+        ],
+        "es": [
+          "Inmigración"
+        ],
+        "fr": [
+          "Immigration"
+        ],
+        "ru": [
+          "Иммиграция"
+        ]
+      },
+      "related": [
+        "concept6826",
+        "concept9602"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9604",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9604",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حياة الترحال"
+        ]
+      },
+      "broader": [
+        "concept427"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:06:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بداوة"
+        ],
+        "en": [
+          "Nomadism"
+        ],
+        "es": [
+          "Nomadismo"
+        ],
+        "fr": [
+          "Nomadisme"
+        ],
+        "ru": [
+          "Номадизм"
+        ]
+      },
+      "related": [
+        "concept10410",
+        "concept11713",
+        "concept376"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10409",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10409",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "غرباء",
+          "غير المواطنين"
+        ],
+        "en": [
+          "Aliens",
+          "Noncitizens"
+        ],
+        "fr": [
+          "Non-citoyen",
+          "Ressortissant étranger"
+        ],
+        "ru": [
+          "Неграждане",
+          "Чужеземцы"
+        ]
+      },
+      "broader": [
+        "concept426"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2026-01-21T15:46:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجانب"
+        ],
+        "en": [
+          "Foreigners"
+        ],
+        "es": [
+          "Extranjero"
+        ],
+        "fr": [
+          "Étranger"
+        ],
+        "ru": [
+          "Иностранцы"
+        ]
+      },
+      "related": [
+        "concept10321",
+        "concept2535"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10423",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10423",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مُبعدون"
+        ]
+      },
+      "broader": [
+        "concept426"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منفيون"
+        ],
+        "en": [
+          "Exiles"
+        ],
+        "es": [
+          "Exiliado"
+        ],
+        "fr": [
+          "Exilé"
+        ],
+        "ru": [
+          "Ссыльные"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "أفراد طردوا من أوطانهم  من جانب السلطة الرسمية  لأسباب سياسية."
+        ],
+        "en": [
+          "Individuals expelled from their home country by official authority for political reasons."
+        ],
+        "es": [
+          "Individuo expulsado de su país de origen por una autoridad oficial o por razones políticas."
+        ],
+        "fr": [
+          "Individu chassé de son pays d'origine par une autorité officielle pour des raisons politiques."
+        ],
+        "ru": [
+          "Лица, высланные из своей родной страны официальными органами по политическим мотивам."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10577",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10577",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ذكور"
+        ],
+        "en": [
+          "Males"
+        ],
+        "es": [
+          "Macho"
+        ],
+        "fr": [
+          "Mâle"
+        ],
+        "ru": [
+          "Лица мужского пола"
+        ]
+      },
+      "broader": [
+        "concept15172"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:40+00:00",
+      "narrower": [
+        "concept4283"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رجال"
+        ],
+        "en": [
+          "Men"
+        ],
+        "es": [
+          "Hombre"
+        ],
+        "fr": [
+          "Homme"
+        ],
+        "ru": [
+          "Мужчины"
+        ]
+      },
+      "related": [
+        "concept10281",
+        "concept10730",
+        "concept10766"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10732",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10732",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اناث",
+          "مرأة"
+        ],
+        "en": [
+          "Females"
+        ],
+        "ru": [
+          "Лица женского пола"
+        ]
+      },
+      "broader": [
+        "concept15172"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:45+00:00",
+      "narrower": [
+        "concept5095"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نساء"
+        ],
+        "en": [
+          "Women"
+        ],
+        "es": [
+          "Mujer"
+        ],
+        "fr": [
+          "Femme"
+        ],
+        "ru": [
+          "Женщины"
+        ]
+      },
+      "related": [
+        "concept10281",
+        "concept10732",
+        "concept11949"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10766",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10766",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اسقاطات ديمغرافية",
+          "اسقاطات سكانية",
+          "تنبؤات سكانية",
+          "توقعات ديمغرافية"
+        ],
+        "en": [
+          "Demographic projections",
+          "Population forecasting"
+        ],
+        "es": [
+          "Previsión demográfica",
+          "Pronóstico demográfico"
+        ],
+        "fr": [
+          "Perspective démographique",
+          "Projection démographique",
+          "Prévision démographique"
+        ],
+        "ru": [
+          "Демографические прогнозы",
+          "Прогнозирование народонаселения"
+        ]
+      },
+      "broader": [
+        "concept7616"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توقعات سكانية"
+        ],
+        "en": [
+          "Population projections"
+        ],
+        "es": [
+          "Proyección demográfica"
+        ],
+        "fr": [
+          "Prévision en matière de population"
+        ],
+        "ru": [
+          "Прогнозы численности народонаселения"
+        ]
+      },
+      "related": [
+        "concept429",
+        "concept430",
+        "concept7516"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11035",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11035",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept427"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:05:37+00:00",
+      "narrower": [
+        "concept7705"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسات الهجرة"
+        ],
+        "en": [
+          "Migration policy"
+        ],
+        "es": [
+          "Política migratoria"
+        ],
+        "fr": [
+          "Politique migratoire"
+        ],
+        "ru": [
+          "Миграционная политика"
+        ]
+      },
+      "related": [
+        "concept413",
+        "concept5185"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11589",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11589",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رُّحل"
+        ]
+      },
+      "broader": [
+        "concept426"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:08:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بدو"
+        ],
+        "en": [
+          "Nomads"
+        ],
+        "es": [
+          "Nómada"
+        ],
+        "fr": [
+          "Nomade"
+        ],
+        "ru": [
+          "Кочевники"
+        ]
+      },
+      "related": [
+        "concept10386",
+        "concept10409",
+        "concept17063",
+        "concept8982"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11713",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11713",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Illegal migration",
+          "Irregular immigration"
+        ],
+        "es": [
+          "Inmigración clandestina",
+          "Inmigración irregular"
+        ],
+        "fr": [
+          "Immigration clandestine",
+          "Immigration irrégulière"
+        ]
+      },
+      "broader": [
+        "concept9604"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2023-03-16T15:29:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هجرة غير شرعية"
+        ],
+        "en": [
+          "Illegal immigration"
+        ],
+        "es": [
+          "Inmigración ilegal"
+        ],
+        "fr": [
+          "Immigration illégale"
+        ],
+        "ru": [
+          "Нелегальная иммиграция"
+        ]
+      },
+      "related": [
+        "concept7705"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12171",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12171",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طرد ريفي",
+          "نزوح من الريف"
+        ],
+        "en": [
+          "Rural exodus"
+        ],
+        "es": [
+          "Éxodo rural"
+        ],
+        "fr": [
+          "Exode rurale"
+        ],
+        "ru": [
+          "Отток населения из сельских районов"
+        ]
+      },
+      "broader": [
+        "concept8217"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هجرة ريفية"
+        ],
+        "en": [
+          "Rural migration"
+        ],
+        "es": [
+          "Migración rural"
+        ],
+        "fr": [
+          "Migration rurale"
+        ],
+        "ru": [
+          "Сельская миграция"
+        ]
+      },
+      "related": [
+        "concept11996",
+        "concept16135",
+        "concept3115"
+      ],
+      "scope_notes": {
+        "ar": [
+          "هجرة العمال الريفيين إلى المناطق الحضرية."
+        ],
+        "en": [
+          "The migration of rural workers to urban areas."
+        ],
+        "es": [
+          "Migración de los trabajadores rurales a las áreas urbanas."
+        ],
+        "fr": [
+          "Migration des travailleurs ruraux en zone urbaine."
+        ],
+        "ru": [
+          "Миграция сельскохозяйственных работников в городские районы."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12784",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12784",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هجرة اليد العاملة",
+          "هجرة عمالية",
+          "هجرة موسمية"
+        ],
+        "en": [
+          "Seasonal migration"
+        ],
+        "es": [
+          "Migración estacionaria",
+          "Migración transitoria"
+        ],
+        "fr": [
+          "Migration saisonnière"
+        ],
+        "ru": [
+          "Сезонная миграция"
+        ]
+      },
+      "broader": [
+        "concept427"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:59+00:00",
+      "narrower": [
+        "concept5884"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هجرة العمال"
+        ],
+        "en": [
+          "Labour migration"
+        ],
+        "es": [
+          "Migración laboral"
+        ],
+        "fr": [
+          "Migration du travail"
+        ],
+        "ru": [
+          "Трудовая миграция"
+        ]
+      },
+      "related": [
+        "concept13118",
+        "concept13125"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13122",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13122",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عمال اجانب"
+        ],
+        "en": [
+          "Foreign workers"
+        ],
+        "es": [
+          "Trabajador extranjero"
+        ],
+        "fr": [
+          "Travailleur étranger"
+        ],
+        "ru": [
+          "Иностранные рабочие"
+        ]
+      },
+      "broader": [
+        "concept426"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:52+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عمال مهاجرون"
+        ],
+        "en": [
+          "Migrant workers"
+        ],
+        "es": [
+          "Trabajador migratorio"
+        ],
+        "fr": [
+          "Travailleur migrant"
+        ],
+        "ru": [
+          "Рабочие-мигранты"
+        ]
+      },
+      "related": [
+        "concept13122",
+        "concept14136",
+        "concept17092",
+        "concept8982"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13125",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13125",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معدل الزواجية",
+          "معدل الزيجات"
+        ],
+        "en": [
+          "Marriage rate"
+        ],
+        "es": [
+          "Tasa de matrimonios",
+          "Tasa de nupcialidad"
+        ],
+        "fr": [
+          "Taux de mariage",
+          "Taux de nuptialité"
+        ],
+        "ru": [
+          "Уровень брачности (степень распространенности брака)"
+        ]
+      },
+      "broader": [
+        "concept429"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-24T11:22:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدل الزواج"
+        ],
+        "en": [
+          "Nuptiality"
+        ],
+        "es": [
+          "Nupcialidad"
+        ],
+        "fr": [
+          "Nuptialité"
+        ],
+        "ru": [
+          "Брачность (число браков)"
+        ]
+      },
+      "related": [
+        "concept436"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13803",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13803",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعادة التوطين",
+          "عودة اختيارية",
+          "عودة اضطرارية (الطرد)",
+          "عودة المهاجرين",
+          "عودة جبرية (الطرد)",
+          "عودة طوعية",
+          "عودة قسرية  (الطرد)",
+          "عودة قهرية",
+          "عودة لا ارادية",
+          "هجرة العودة",
+          "هجرة عكسية"
+        ],
+        "en": [
+          "Involuntary return (expulsion)",
+          "Resettlement",
+          "Voluntary return"
+        ],
+        "es": [
+          "Regreso involuntario (expulsión)",
+          "Regreso voluntario",
+          "Repoblación",
+          "Restablecimiento"
+        ],
+        "fr": [
+          "Retour involontaire (expulsion)",
+          "Retour volontaire",
+          "Réinstallation",
+          "Réétablissment"
+        ],
+        "ru": [
+          "Добровольное возвращение",
+          "Переселение",
+          "Принудительное возвращение (экстрадиция)"
+        ]
+      },
+      "broader": [
+        "concept427"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:33:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هجرة عائدة"
+        ],
+        "en": [
+          "Return migration"
+        ],
+        "es": [
+          "Migración de retorno"
+        ],
+        "fr": [
+          "Migration de retour"
+        ],
+        "ru": [
+          "Возвратная миграция"
+        ]
+      },
+      "related": [
+        "concept13125"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14136",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14136",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept431"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:06:08+00:00",
+      "narrower": [
+        "concept10732",
+        "concept10766"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جنس"
+        ],
+        "en": [
+          "Sex"
+        ],
+        "es": [
+          "Sexo"
+        ],
+        "fr": [
+          "Sexe"
+        ],
+        "ru": [
+          "Пол"
+        ]
+      },
+      "related": [
+        "concept1929",
+        "concept227"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الخصائص البيولوجية التي تعرف البشر إما ذكورا أو إناثا."
+        ],
+        "en": [
+          "The biological characteristics which define humans as female or male."
+        ],
+        "es": [
+          "Características biológicas que definen a los humanos como hembras o machos."
+        ],
+        "fr": [
+          "Ensemble des caractéristiques biologiques qui distinguent les hommes des femmes."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15172",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15172",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Population du monde"
+        ]
+      },
+      "broader": [
+        "concept428"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:07:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سكان العالم"
+        ],
+        "en": [
+          "World population"
+        ],
+        "es": [
+          "Población mundial"
+        ],
+        "fr": [
+          "Population mondiale"
+        ],
+        "ru": [
+          "Мировое население"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15257",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15257",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اشكاليات سكانية"
+        ]
+      },
+      "broader": [
+        "concept429"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain4"
+      ],
+      "microthesaurus_ids": [
+        "mt4.35"
+      ],
+      "modified": "2019-12-15T14:06:30+00:00",
+      "narrower": [
+        "concept4116",
+        "concept7631"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مشاكل السكان"
+        ],
+        "en": [
+          "Population problems"
+        ],
+        "es": [
+          "Problema demográfico"
+        ],
+        "fr": [
+          "Problème démographique"
+        ],
+        "ru": [
+          "Демографические проблемы"
+        ]
+      },
+      "related": [
+        "concept6826",
+        "concept7664"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15365",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15365",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt4.35",
+    "labels": {
+      "en": "Population",
+      "fr": "Population"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt4.35"
+  }
+}

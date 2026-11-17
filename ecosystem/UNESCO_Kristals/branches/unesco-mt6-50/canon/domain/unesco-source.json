@@ -1,0 +1,3124 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا احيائية",
+          "تكنولوجيا حيوية",
+          "هندسة احيائية",
+          "هندسة بيولوجية",
+          "هندسة حيوية",
+          "هندسة وراثية"
+        ],
+        "en": [
+          "Bioengineering",
+          "Biological engineering",
+          "Genetic engineering"
+        ],
+        "es": [
+          "Bioingeniería",
+          "Ingeniería biológica",
+          "Ingeniería genética"
+        ],
+        "fr": [
+          "Bioingénierie",
+          "Ingénierie biologique",
+          "Ingénierie génétique"
+        ],
+        "ru": [
+          "Биоинженерия",
+          "Биологическая инженерия",
+          "Генная инженерия"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:56+00:00",
+      "narrower": [
+        "concept16971",
+        "concept17060",
+        "concept17160"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا بيولوجية"
+        ],
+        "en": [
+          "Biotechnology"
+        ],
+        "es": [
+          "Biotecnología"
+        ],
+        "fr": [
+          "Biotechnologie"
+        ],
+        "ru": [
+          "Биотехнология"
+        ]
+      },
+      "related": [
+        "concept1718",
+        "concept1721",
+        "concept1723",
+        "concept1766",
+        "concept1813",
+        "concept218",
+        "concept221",
+        "concept223",
+        "concept225",
+        "concept226",
+        "concept242",
+        "concept249",
+        "concept3945",
+        "concept3947",
+        "concept4006",
+        "concept4097",
+        "concept4098",
+        "concept4099",
+        "concept4100",
+        "concept599",
+        "concept602",
+        "concept603",
+        "concept620"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدام الكائنات والعمليات والأنظمة البيولوجية في صنع منتجات أو تعديلها، من أجل تحسين خصائص النباتات أو الحيوانات، أو تطوير كائنات مجهرية لاستخدامات محددة."
+        ],
+        "en": [
+          "Utilization of biological organisms, processes and systems to make or modify products, to improve plants or animals, or to develop microorganisms for specific uses."
+        ],
+        "es": [
+          "Empleo de organismos, procesos o sistemas biológicos para crear o modificar productos, mejorar las plantas o especies animales, o desarrollar microorganismos con fines específicos."
+        ],
+        "fr": [
+          "Utilisation d'organismes, de processus ou de systèmes biologiques pour créer ou modifier des produits, pour améliorer des plantes ou des espèces animales, ou pour développer des microorganismes à usage spécifique."
+        ],
+        "ru": [
+          "Использование биологических организмов, процессов и систем для производства или изменения вида продуктов, улучшения свойств растений или животных или для развития микроорганизмов для специальных целей."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept619",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept619",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة كيميائية"
+        ],
+        "en": [
+          "Chemical engineering"
+        ],
+        "es": [
+          "Ingeniería química"
+        ],
+        "fr": [
+          "Génie chimique"
+        ],
+        "ru": [
+          "Химическое производство"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:09+00:00",
+      "narrower": [
+        "concept17136",
+        "concept2956",
+        "concept4098",
+        "concept4099",
+        "concept5020",
+        "concept5021",
+        "concept5022",
+        "concept5023",
+        "concept5024"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا كيميائية"
+        ],
+        "en": [
+          "Chemical technology"
+        ],
+        "es": [
+          "Tecnología química"
+        ],
+        "fr": [
+          "Technologie chimique"
+        ],
+        "ru": [
+          "Химическая технология"
+        ]
+      },
+      "related": [
+        "concept143",
+        "concept4043",
+        "concept4994",
+        "concept602",
+        "concept619",
+        "concept632"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept620",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept620",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا الكهرباء",
+          "تكنولوجيا كهربائية",
+          "هندسة كهربية"
+        ],
+        "en": [
+          "Electrotechnology"
+        ],
+        "es": [
+          "Electrotecnología"
+        ],
+        "fr": [
+          "Électrotechnologie"
+        ],
+        "ru": [
+          "Электротехнология"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة كهربائية"
+        ],
+        "en": [
+          "Electrical engineering"
+        ],
+        "es": [
+          "Ingeniería eléctrica"
+        ],
+        "fr": [
+          "Technologie électrique"
+        ],
+        "ru": [
+          "Электротехника"
+        ]
+      },
+      "related": [
+        "concept124",
+        "concept611",
+        "concept622",
+        "concept624",
+        "concept625",
+        "concept630",
+        "concept647",
+        "concept9508",
+        "concept9515"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept621",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept621",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "الكترونيات",
+          "هندسة الالكترونيات"
+        ],
+        "en": [
+          "Electronics"
+        ],
+        "es": [
+          "Electrónica"
+        ],
+        "fr": [
+          "Électronique"
+        ],
+        "ru": [
+          "Электроника"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:41+00:00",
+      "narrower": [
+        "concept9548"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة الكترونية"
+        ],
+        "en": [
+          "Electronic engineering"
+        ],
+        "es": [
+          "Tecnología electrónica"
+        ],
+        "fr": [
+          "Génie électronique"
+        ],
+        "ru": [
+          "Электронная техника"
+        ]
+      },
+      "related": [
+        "concept3057",
+        "concept534",
+        "concept535",
+        "concept5746",
+        "concept5767",
+        "concept621",
+        "concept9546"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept622",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept622",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الهندسة"
+        ],
+        "fr": [
+          "Génie"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:50+00:00",
+      "narrower": [
+        "concept17135",
+        "concept9775",
+        "concept9776",
+        "concept9777"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة"
+        ],
+        "en": [
+          "Engineering"
+        ],
+        "es": [
+          "Ingeniería"
+        ],
+        "fr": [
+          "Ingénierie"
+        ],
+        "ru": [
+          "Инженерное искусство"
+        ]
+      },
+      "related": [
+        "concept17065",
+        "concept2565",
+        "concept614",
+        "concept8017",
+        "concept9779"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept623",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept623",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انارة",
+          "هندسة الاضاءة",
+          "هندسة الانارة"
+        ],
+        "en": [
+          "Lighting engineering"
+        ],
+        "es": [
+          "Alumbrado"
+        ],
+        "fr": [
+          "Éclairagisme"
+        ],
+        "ru": [
+          "Осветительная техника"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-19T09:00:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اضاءة"
+        ],
+        "en": [
+          "Lighting"
+        ],
+        "es": [
+          "Iluminación"
+        ],
+        "fr": [
+          "Éclairage"
+        ],
+        "ru": [
+          "Освещение"
+        ]
+      },
+      "related": [
+        "concept1236",
+        "concept1941",
+        "concept196",
+        "concept621",
+        "concept9537"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept624",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept624",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة ميكانيكية"
+        ],
+        "en": [
+          "Mechanical engineering"
+        ],
+        "es": [
+          "Ingeniería mecánica"
+        ],
+        "fr": [
+          "Génie mécanique"
+        ],
+        "ru": [
+          "Машиностроение"
+        ]
+      },
+      "related": [
+        "concept612",
+        "concept621",
+        "concept650",
+        "concept651"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept625",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept625",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا المعادن",
+          "صناعة التعدين",
+          "صناعة الحديد والصلب",
+          "علم الفلزات",
+          "ميتالورجيا",
+          "هندسة التعدين",
+          "هندسة الفلزات",
+          "هندسة المعادن"
+        ],
+        "en": [
+          "Iron and steel making",
+          "Metal technology",
+          "Metallurgical engineering"
+        ],
+        "es": [
+          "Fabricación de hierro y de acero",
+          "Ingeniería de los metales",
+          "Ingeniería metalúrgica",
+          "Tecnología de los metales"
+        ],
+        "fr": [
+          "Fabrication du fer et de l'acier",
+          "Génie des matériaux métalliques",
+          "Génie métallurgique",
+          "Technologie des métaux"
+        ],
+        "ru": [
+          "Оборудование и техника для металлургии",
+          "Производство чугуна и стали",
+          "Технология производства металла"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:53+00:00",
+      "narrower": [
+        "concept14014",
+        "concept2978"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم المعادن"
+        ],
+        "en": [
+          "Metallurgy"
+        ],
+        "es": [
+          "Metalurgia"
+        ],
+        "fr": [
+          "Métallurgie"
+        ],
+        "ru": [
+          "Металлургия"
+        ]
+      },
+      "related": [
+        "concept12325",
+        "concept641"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept626",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept626",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا نووية"
+        ],
+        "en": [
+          "Nuclear technology"
+        ],
+        "es": [
+          "Ingeniería atómica"
+        ],
+        "fr": [
+          "Génie atomique",
+          "Génie nucléaire"
+        ],
+        "ru": [
+          "Ядерная технология"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:28+00:00",
+      "narrower": [
+        "concept14625"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة نووية"
+        ],
+        "en": [
+          "Nuclear engineering"
+        ],
+        "es": [
+          "Ingeniería nuclear"
+        ],
+        "fr": [
+          "Technologie nucléaire"
+        ],
+        "ru": [
+          "Атомное машиностроение"
+        ]
+      },
+      "related": [
+        "concept128",
+        "concept14623",
+        "concept2866",
+        "concept4863",
+        "concept5644",
+        "concept9717"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept627",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept627",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تغليف"
+        ],
+        "es": [
+          "Empaquetado"
+        ],
+        "fr": [
+          "Conditionnement",
+          "Empaquetage"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2021-03-30T15:24:59+00:00",
+      "narrower": [
+        "concept6441"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعبئة"
+        ],
+        "en": [
+          "Packaging"
+        ],
+        "es": [
+          "Embalaje"
+        ],
+        "fr": [
+          "Emballage"
+        ],
+        "ru": [
+          "Тара"
+        ]
+      },
+      "related": [
+        "concept1532",
+        "concept1545",
+        "concept17120"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept628",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept628",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Técnica espacial"
+        ],
+        "fr": [
+          "Technique spatiale"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:13:42+00:00",
+      "narrower": [
+        "concept10626",
+        "concept1569"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا الفضاء"
+        ],
+        "en": [
+          "Space technology"
+        ],
+        "es": [
+          "Tecnología espacial"
+        ],
+        "fr": [
+          "Technologie spatiale"
+        ],
+        "ru": [
+          "Космическая технология"
+        ]
+      },
+      "related": [
+        "concept10251",
+        "concept14202",
+        "concept154",
+        "concept1573",
+        "concept1574",
+        "concept1582",
+        "concept3066",
+        "concept5840"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept629",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept629",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة التدفئة"
+        ],
+        "en": [
+          "Heating engineering"
+        ],
+        "es": [
+          "Ingeniería del calor",
+          "Tecnología térmica"
+        ],
+        "fr": [
+          "Génie thermique",
+          "Ingénierie thermique"
+        ],
+        "ru": [
+          "Нагревательная техника"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:42+00:00",
+      "narrower": [
+        "concept1203",
+        "concept12597",
+        "concept1938",
+        "concept6567"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسية حرارية"
+        ],
+        "en": [
+          "Thermal engineering"
+        ],
+        "es": [
+          "Ingeniería térmica"
+        ],
+        "fr": [
+          "Technologie thermique"
+        ],
+        "ru": [
+          "Теплотехника"
+        ]
+      },
+      "related": [
+        "concept1942",
+        "concept4549",
+        "concept5009",
+        "concept621",
+        "concept648"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept630",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept630",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة السكك الحديدية",
+          "هندسة السيارات"
+        ],
+        "en": [
+          "Automobile engineering",
+          "Railway engineering"
+        ],
+        "es": [
+          "Ingeniería del automóvil",
+          "Ingeniería ferroviaria"
+        ],
+        "fr": [
+          "Génie automobile",
+          "Génie ferroviaire",
+          "Ingénierie automobile",
+          "Ingénierie ferroviaire"
+        ],
+        "ru": [
+          "Автомобилестроение",
+          "Железнодорожная техника"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:26+00:00",
+      "narrower": [
+        "concept11387"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة النقل"
+        ],
+        "en": [
+          "Transport engineering"
+        ],
+        "es": [
+          "Ingeniería del transporte"
+        ],
+        "fr": [
+          "Technologie des transports"
+        ],
+        "ru": [
+          "Транспортное машиностроение"
+        ]
+      },
+      "related": [
+        "concept4320",
+        "concept4321",
+        "concept5887",
+        "concept656",
+        "concept657"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept631",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept631",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:14:18+00:00",
+      "narrower": [
+        "concept16968"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا الاخشاب"
+        ],
+        "en": [
+          "Wood technology"
+        ],
+        "es": [
+          "Tecnología de la madera"
+        ],
+        "fr": [
+          "Technologie du bois"
+        ],
+        "ru": [
+          "Технология деревообработки"
+        ]
+      },
+      "related": [
+        "concept620"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept632",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept632",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "خزن الحرارة"
+        ],
+        "es": [
+          "Acumulación calorífica",
+          "Acumulación térmica",
+          "Almacenamiento de calor"
+        ],
+        "fr": [
+          "Emmagasinage de la chaleur",
+          "Emmagasinage thermique",
+          "Stockage de la chaleur",
+          "Stockage thermique"
+        ]
+      },
+      "broader": [
+        "concept630"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:56+00:00",
+      "narrower": [
+        "concept11788"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخزين الحرارة"
+        ],
+        "en": [
+          "Heat storage"
+        ],
+        "es": [
+          "Acumulación de calor"
+        ],
+        "fr": [
+          "Accumulation calorifique"
+        ],
+        "ru": [
+          "Хранение тепла"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1203",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1203",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا الفضاء الجوي"
+        ],
+        "en": [
+          "Aerospace technology"
+        ],
+        "es": [
+          "Tecnología aeroespacial"
+        ],
+        "fr": [
+          "Ingénierie aérospatiale"
+        ],
+        "ru": [
+          "Аэрокосмическая технология"
+        ]
+      },
+      "broader": [
+        "concept629"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة الفضاء الجوي"
+        ],
+        "en": [
+          "Aerospace engineering"
+        ],
+        "es": [
+          "Ingeniería aeroespacial"
+        ],
+        "fr": [
+          "Technologie aérospatiale"
+        ],
+        "ru": [
+          "Аэрокосмическое машиностроение"
+        ]
+      },
+      "related": [
+        "concept1572",
+        "concept1573",
+        "concept1574"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1569",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1569",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تهوية"
+        ],
+        "en": [
+          "Ventilation"
+        ],
+        "es": [
+          "Aire acondicionado",
+          "Ventilación"
+        ],
+        "fr": [
+          "Air conditionné",
+          "Climatisation de l'air",
+          "Conditionnement de l'air",
+          "Ventilation"
+        ],
+        "ru": [
+          "Вентиляция"
+        ]
+      },
+      "broader": [
+        "concept630"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:52+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكييف الهواء"
+        ],
+        "en": [
+          "Air conditioning"
+        ],
+        "es": [
+          "Climatización"
+        ],
+        "fr": [
+          "Climatisation"
+        ],
+        "ru": [
+          "Кондиционирование воздуха"
+        ]
+      },
+      "related": [
+        "concept1236",
+        "concept1941",
+        "concept1942",
+        "concept196"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1938",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1938",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept620"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا الزجاج"
+        ],
+        "en": [
+          "Glass technology"
+        ],
+        "es": [
+          "Tecnología del vidrio"
+        ],
+        "fr": [
+          "Technologie du verre"
+        ],
+        "ru": [
+          "Технология стекла"
+        ]
+      },
+      "related": [
+        "concept2953",
+        "concept4414"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2956",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2956",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اشغال المعادن",
+          "اعمال معدنية",
+          "تحويل المعادن",
+          "تشكيل الفلزات",
+          "صناعات معدنية"
+        ]
+      },
+      "broader": [
+        "concept626"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اشغال معدنية"
+        ],
+        "en": [
+          "Metalworking"
+        ],
+        "es": [
+          "Trabajo del metal"
+        ],
+        "fr": [
+          "Travail du métal"
+        ],
+        "ru": [
+          "Металлообработка"
+        ]
+      },
+      "related": [
+        "concept13600",
+        "concept2975"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تشمل الحدادة، عمليات التشكيل، معالجة الصفائح المعدنية، الرسم، البثق، الدرفلة، صنع الأنابيب، إلخ."
+        ],
+        "en": [
+          "Includes forging, forming, sheet metalworking, drawing, extrusion, rolling, tube-making, etc."
+        ],
+        "es": [
+          "Incluye la herrería, la fragua, la fabricación de chapas, la laminación, la fabricación de tubos, el laminado y la extrusión."
+        ],
+        "fr": [
+          "Comprend le forgeage, le formage, la tôlerie, l'étirage, l'extrusion, le laminage, la fabrication de tubes, etc."
+        ],
+        "ru": [
+          "Включает кузнечные, формовочные операции, обработку металлического листа, вытяжку, экструзию, прокатку, изготовление труб и пр."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2978",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2978",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحكم اوتوماتيكي",
+          "سيطرة اوتوماتيكية"
+        ],
+        "fr": [
+          "Contrôle automatique"
+        ]
+      },
+      "broader": [
+        "concept9777"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحكم آلي"
+        ],
+        "en": [
+          "Automatic control"
+        ],
+        "es": [
+          "Control automático"
+        ],
+        "fr": [
+          "Commande automatique"
+        ],
+        "ru": [
+          "Автоматизированный контроль"
+        ]
+      },
+      "related": [
+        "concept3055",
+        "concept3057",
+        "concept3401",
+        "concept3402",
+        "concept3403"
+      ],
+      "scope_notes": {
+        "ar": [
+          "إنتاج تعمل فيه أجهزة التحكم تلقائيًا باستخدام الآلات."
+        ],
+        "en": [
+          "Production in which all controls are automatically carried out by machinery."
+        ],
+        "es": [
+          "Producción en la cual todos los controles son efectuados automáticamente por máquinas."
+        ],
+        "fr": [
+          "Production dont l'ensemble des contrôles sont effectués automatiquement par des machines."
+        ],
+        "ru": [
+          "Производство, контроль процессов которого осуществляют приборы."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3399",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3399",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا البترول",
+          "تكنولوجيا الغاز",
+          "تكنولوجيا الفحم",
+          "تكنولوجيا بترولية",
+          "تكنولوجيا نفطية"
+        ],
+        "en": [
+          "Coal technology",
+          "Gas technology",
+          "Petroleum technology"
+        ],
+        "es": [
+          "Tecnología del carbón",
+          "Tecnología del gas",
+          "Tecnología petrolera",
+          "Tecnología petrolífera"
+        ],
+        "fr": [
+          "Gazotechnologie",
+          "Technologie du charbon",
+          "Technologie gazière",
+          "Technologie pétrolière"
+        ],
+        "ru": [
+          "Газоперерабатывающая технология",
+          "Гидрогенизация угля",
+          "Нефтеперерабатывающая технология"
+        ]
+      },
+      "broader": [
+        "concept620"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا الوقود"
+        ],
+        "en": [
+          "Fuel technology"
+        ],
+        "es": [
+          "Tecnología de los combustibles"
+        ],
+        "fr": [
+          "Technologie des combustibles"
+        ],
+        "ru": [
+          "Топливная технология"
+        ]
+      },
+      "related": [
+        "concept11248",
+        "concept11249",
+        "concept4960",
+        "concept5641",
+        "concept619",
+        "concept638"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4098",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4098",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا صيدلية"
+        ]
+      },
+      "broader": [
+        "concept620"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا صيدلانية"
+        ],
+        "en": [
+          "Pharmaceutical technology"
+        ],
+        "es": [
+          "Tecnología farmacéutica"
+        ],
+        "fr": [
+          "Technologie pharmaceutique"
+        ],
+        "ru": [
+          "Фармацевтическая технология"
+        ]
+      },
+      "related": [
+        "concept17057",
+        "concept243",
+        "concept5033",
+        "concept619"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشمل إنتاج الأدوية وأدوات الزينة ومستحضرات التجميل."
+        ],
+        "en": [
+          "Includes drugs, toiletries and cosmetics technology."
+        ],
+        "es": [
+          "Incluye la tecnología de los medicamentos, los productos de aseo y los cosméticos."
+        ],
+        "fr": [
+          "Comprend la technologie des médicaments, des produits de toilette et des cosmétiques."
+        ],
+        "ru": [
+          "Включает производство медицинских препаратов, бытовой химии и косметики."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4099",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4099",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept16968"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:14:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نجارة"
+        ],
+        "en": [
+          "Carpentry"
+        ],
+        "es": [
+          "Carpintería"
+        ],
+        "fr": [
+          "Charpenterie"
+        ],
+        "ru": [
+          "Столярное дело"
+        ]
+      },
+      "related": [
+        "concept4417"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4421",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4421",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدفئة شمسية",
+          "تسخين بالطاقة الشمسية",
+          "تسخين شمسي"
+        ]
+      },
+      "broader": [
+        "concept12597"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدفئة بالطاقة الشمسية"
+        ],
+        "en": [
+          "Solar heating"
+        ],
+        "es": [
+          "Calefacción solar"
+        ],
+        "fr": [
+          "Chauffage solaire"
+        ],
+        "ru": [
+          "Отопление за счет солнечной энергии"
+        ]
+      },
+      "related": [
+        "concept196",
+        "concept6688"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4522",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4522",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "فحص المواد"
+        ],
+        "es": [
+          "Control de materiales",
+          "Test de materiales"
+        ],
+        "fr": [
+          "Contrôle des matériaux",
+          "Essai des matériaux"
+        ]
+      },
+      "broader": [
+        "concept5015"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اختبار المواد"
+        ],
+        "en": [
+          "Materials testing"
+        ],
+        "es": [
+          "Ensayo de materiales"
+        ],
+        "fr": [
+          "Mise à l'épreuve des matériaux"
+        ],
+        "ru": [
+          "Испытание материалов"
+        ]
+      },
+      "related": [
+        "concept137",
+        "concept6517"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4980",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4980",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا المواد",
+          "علم المواد"
+        ],
+        "en": [
+          "Materials science",
+          "Materials technology"
+        ],
+        "es": [
+          "Ciencia de los materiales",
+          "Técnica de materiales"
+        ],
+        "fr": [
+          "Science des matériaux",
+          "Technique des matériaux"
+        ],
+        "ru": [
+          "Материаловедение",
+          "Технология производства материалов"
+        ]
+      },
+      "broader": [
+        "concept9777"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:22+00:00",
+      "narrower": [
+        "concept4980"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة المواد"
+        ],
+        "en": [
+          "Materials engineering"
+        ],
+        "es": [
+          "Tecnología de materiales"
+        ],
+        "fr": [
+          "Technologie des matériaux"
+        ],
+        "ru": [
+          "Производство материалов"
+        ]
+      },
+      "related": [
+        "concept131",
+        "concept141",
+        "concept9522"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5015",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5015",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جفاف",
+          "نزع الماء"
+        ]
+      },
+      "broader": [
+        "concept620"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ازالة الماء"
+        ],
+        "en": [
+          "Dehydration"
+        ],
+        "es": [
+          "Deshidratación"
+        ],
+        "fr": [
+          "Déshydratation"
+        ],
+        "ru": [
+          "Дегидратация"
+        ]
+      },
+      "related": [
+        "concept7571"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5020",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5020",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept620"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:51+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجفيف"
+        ],
+        "en": [
+          "Drying"
+        ],
+        "es": [
+          "Secado"
+        ],
+        "fr": [
+          "Séchage"
+        ],
+        "ru": [
+          "Высушивание"
+        ]
+      },
+      "related": [
+        "concept7571"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5021",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5021",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept620"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا الصباغة"
+        ],
+        "en": [
+          "Dyes technology"
+        ],
+        "es": [
+          "Tecnología de la tintura"
+        ],
+        "fr": [
+          "Technologie de la teinture"
+        ],
+        "ru": [
+          "Технология пигментации"
+        ]
+      },
+      "related": [
+        "concept5030"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5022",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5022",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا الدهان"
+        ]
+      },
+      "broader": [
+        "concept620"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا الطلاء"
+        ],
+        "en": [
+          "Paint technology"
+        ],
+        "es": [
+          "Tecnología de la pintura"
+        ],
+        "fr": [
+          "Technologie de la peinture"
+        ],
+        "ru": [
+          "Красильная технология"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5023",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5023",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا عجينة الورق",
+          "صناعة الورق"
+        ],
+        "en": [
+          "Paper industry",
+          "Pulp technology"
+        ],
+        "es": [
+          "Industria del papel",
+          "Industria papelera",
+          "Tecnología de la pasta y el papel"
+        ],
+        "fr": [
+          "Industrie du papier",
+          "Industrie papetière",
+          "Technologie des pâtes et papiers"
+        ],
+        "ru": [
+          "Технология изготовления целлюлозы",
+          "Целлюлозно-бумажная промышленность"
+        ]
+      },
+      "broader": [
+        "concept620"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا الورق"
+        ],
+        "en": [
+          "Paper technology"
+        ],
+        "es": [
+          "Tecnología del papel"
+        ],
+        "fr": [
+          "Technologie du papier"
+        ],
+        "ru": [
+          "Технология изготовления бумаги"
+        ]
+      },
+      "related": [
+        "concept14922",
+        "concept642"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5024",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5024",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تفاعل الانسان والحاسب",
+          "تواصل الانسان والحاسب",
+          "نظم الية بشرية",
+          "نظم مختلطة"
+        ],
+        "en": [
+          "Human computer interface",
+          "Man machine systems"
+        ],
+        "es": [
+          "Interfaz hombre-máquina",
+          "Relación hombre-máquina"
+        ],
+        "fr": [
+          "Interaction personne-machine",
+          "Interface homme-machine",
+          "Interface homme-ordinateur",
+          "Interface utilisateur"
+        ],
+        "ru": [
+          "Интерфейс \"человек-компьютер\"",
+          "Системы \"человек-машина\""
+        ]
+      },
+      "broader": [
+        "concept9775"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تفاعل الانسان والالة"
+        ],
+        "en": [
+          "Human machine interaction"
+        ],
+        "es": [
+          "Interacción hombre-máquina"
+        ],
+        "fr": [
+          "Interaction homme-machine"
+        ],
+        "ru": [
+          "Взаимодействие человека и машины"
+        ]
+      },
+      "related": [
+        "concept12010",
+        "concept2142",
+        "concept534",
+        "concept7237"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6126",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6126",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صناعة السفن"
+        ],
+        "es": [
+          "Construcción de barcos",
+          "Construcción de navíos"
+        ],
+        "fr": [
+          "Construction des navires"
+        ]
+      },
+      "broader": [
+        "concept11387"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بناء السفن"
+        ],
+        "en": [
+          "Shipbuilding"
+        ],
+        "es": [
+          "Construcción naval"
+        ],
+        "fr": [
+          "Construction navale"
+        ],
+        "ru": [
+          "Судостроение"
+        ]
+      },
+      "related": [
+        "concept12317",
+        "concept4445"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6403",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6403",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Contenedor",
+          "Envase"
+        ],
+        "fr": [
+          "Conteneur"
+        ]
+      },
+      "broader": [
+        "concept628"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:14:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حاويات"
+        ],
+        "en": [
+          "Containers"
+        ],
+        "es": [
+          "Recipiente"
+        ],
+        "fr": [
+          "Récipient"
+        ],
+        "ru": [
+          "Контейнеры"
+        ]
+      },
+      "related": [
+        "concept660"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6441",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6441",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Tecnología del frío",
+          "Tecnología frigorífica",
+          "Técnica frigorífica"
+        ],
+        "fr": [
+          "Génie frigorifique",
+          "Technique du froid",
+          "Technique frigorifique"
+        ]
+      },
+      "broader": [
+        "concept630"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:14:03+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة التبريد"
+        ],
+        "en": [
+          "Refrigeration engineering"
+        ],
+        "es": [
+          "Ingeniería de la refrigeración"
+        ],
+        "fr": [
+          "Technologie de la réfrigération"
+        ],
+        "ru": [
+          "Производство холодильных установок"
+        ]
+      },
+      "related": [
+        "concept6276",
+        "concept6564"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6567",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6567",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept622"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:15:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الكترونيات دقيقة"
+        ],
+        "en": [
+          "Microelectronics"
+        ],
+        "es": [
+          "Microelectrónica"
+        ],
+        "fr": [
+          "Microélectronique"
+        ],
+        "ru": [
+          "Микроэлектроника"
+        ]
+      },
+      "related": [
+        "concept523",
+        "concept6123",
+        "concept6127"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9548",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9548",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ارجونومكس",
+          "علم دراسة العلاقة بين العامل والالة",
+          "هندسة العوامل البشرية",
+          "هندسة انسانية",
+          "هندسة بشرية"
+        ],
+        "en": [
+          "Human engineering",
+          "Human factors engineering"
+        ],
+        "es": [
+          "Ingeniería humana",
+          "Racionalización del trabajo"
+        ],
+        "fr": [
+          "Génie industriel",
+          "Rationalisation du travail"
+        ],
+        "ru": [
+          "Инженерная психология",
+          "Комплекс человекотехнических наук"
+        ]
+      },
+      "broader": [
+        "concept623"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-19T08:59:34+00:00",
+      "narrower": [
+        "concept6126"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة بيئة العمل"
+        ],
+        "en": [
+          "Ergonomics"
+        ],
+        "es": [
+          "Ergonomía"
+        ],
+        "fr": [
+          "Ergonomie"
+        ],
+        "ru": [
+          "Эргономика"
+        ]
+      },
+      "related": [
+        "concept10145",
+        "concept196",
+        "concept2142",
+        "concept2322",
+        "concept4154",
+        "concept5569",
+        "concept5570",
+        "concept6459"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مواءمة بيئة العمل لاحتياجات الإنسان إلى أقصى حد ممكن."
+        ],
+        "en": [
+          "The optimal adaptation of the work environment to human needs."
+        ],
+        "es": [
+          "Adaptación óptima del entorno laboral a las necesidades humanas."
+        ],
+        "fr": [
+          "Adaptation optimale de l'environnement de travail aux besoins de l'homme."
+        ],
+        "ru": [
+          "Оптимальная адаптация рабочей среды к потребностям человека."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9775",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9775",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اصلاح",
+          "تصليح",
+          "هندسة الصيانة"
+        ],
+        "en": [
+          "Maintenance engineering",
+          "Repair"
+        ],
+        "es": [
+          "Ingeniería de mantenimiento",
+          "Reparación"
+        ],
+        "fr": [
+          "Génie de la maintenance",
+          "Ingénierie d'entretien",
+          "Réparation"
+        ],
+        "ru": [
+          "Инженерное обеспечение технического обслуживания",
+          "Ремонт"
+        ]
+      },
+      "broader": [
+        "concept623"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صيانة"
+        ],
+        "en": [
+          "Maintenance"
+        ],
+        "es": [
+          "Mantenimiento"
+        ],
+        "fr": [
+          "Entretien et réparation"
+        ],
+        "ru": [
+          "Техническое содержание"
+        ]
+      },
+      "related": [
+        "concept3249"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9776",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9776",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا الانتاج",
+          "عمليات الانتاج",
+          "هندسة صناعية"
+        ],
+        "en": [
+          "Industrial engineering",
+          "Production processes",
+          "Production technology"
+        ],
+        "es": [
+          "Ingeniería industrial",
+          "Proceso de fabricación",
+          "Proceso de producción",
+          "Tecnología de producción",
+          "Técnica de producción"
+        ],
+        "fr": [
+          "Génie de la production",
+          "Ingénierie de la production",
+          "Processus de fabrication",
+          "Processus de production",
+          "Technique de production"
+        ],
+        "ru": [
+          "Производственная техника",
+          "Производственная технология",
+          "Производственные процессы"
+        ]
+      },
+      "broader": [
+        "concept623"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:21+00:00",
+      "narrower": [
+        "concept3399",
+        "concept5015"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة الانتاج"
+        ],
+        "en": [
+          "Production engineering"
+        ],
+        "es": [
+          "Ingeniería de la producción"
+        ],
+        "fr": [
+          "Technologie de la production"
+        ],
+        "ru": [
+          "Техника и технология производства"
+        ]
+      },
+      "related": [
+        "concept10145",
+        "concept13600",
+        "concept14819",
+        "concept3403"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9777",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9777",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ارتياد الفضاء",
+          "تحليق فضائي",
+          "رحلات فضائية",
+          "طيران فضائي"
+        ],
+        "en": [
+          "Space flight"
+        ],
+        "es": [
+          "Vuelo espacial"
+        ],
+        "fr": [
+          "Vol spatial"
+        ],
+        "ru": [
+          "Космический полет"
+        ]
+      },
+      "broader": [
+        "concept629"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استكشاف الفضاء"
+        ],
+        "en": [
+          "Space exploration"
+        ],
+        "es": [
+          "Exploración espacial"
+        ],
+        "fr": [
+          "Exploration spatiale"
+        ],
+        "ru": [
+          "Освоение космоса"
+        ]
+      },
+      "related": [
+        "concept10251",
+        "concept1574",
+        "concept5823"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10626",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10626",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة المحيطات"
+        ],
+        "en": [
+          "Naval engineering",
+          "Ocean engineering"
+        ],
+        "es": [
+          "Ingeniería naviera",
+          "Ingeniería náutica"
+        ],
+        "fr": [
+          "Génie océanique",
+          "Génie océanologique",
+          "Mécanique navale"
+        ],
+        "ru": [
+          "Военно-морское судостроение",
+          "Океаническое судостроение"
+        ]
+      },
+      "broader": [
+        "concept631"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:56+00:00",
+      "narrower": [
+        "concept6403"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة بحرية"
+        ],
+        "en": [
+          "Marine engineering"
+        ],
+        "es": [
+          "Ingeniería naval"
+        ],
+        "fr": [
+          "Génie maritime"
+        ],
+        "ru": [
+          "Кораблестроение"
+        ]
+      },
+      "related": [
+        "concept10622",
+        "concept11744",
+        "concept13759",
+        "concept175",
+        "concept4445"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11387",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11387",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استخلاص الحرارة من النفايات",
+          "اعادة استخدام الحرارة المفقودة"
+        ],
+        "fr": [
+          "Récupération de l'énergie de l'air d'évacuation"
+        ]
+      },
+      "broader": [
+        "concept1203"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-19T08:59:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استرداد الحرارة المهدرة"
+        ],
+        "en": [
+          "Waste heat recovery"
+        ],
+        "es": [
+          "Recuperación calorífica"
+        ],
+        "fr": [
+          "Récupération calorifique"
+        ],
+        "ru": [
+          "Вторичное использование отработанного тепла"
+        ]
+      },
+      "related": [
+        "concept1833"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11788",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11788",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept630"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:14:05+00:00",
+      "narrower": [
+        "concept4522"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة الطاقة الشمسية"
+        ],
+        "en": [
+          "Solar power engineering"
+        ],
+        "es": [
+          "Ingeniería de la energía solar"
+        ],
+        "fr": [
+          "Technologie de l'énergie solaire"
+        ],
+        "ru": [
+          "Техника, работающая от энергии солнца"
+        ]
+      },
+      "related": [
+        "concept1975",
+        "concept4820",
+        "concept4865",
+        "concept9719"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12597",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12597",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معالجة المعادن"
+        ]
+      },
+      "broader": [
+        "concept626"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:14:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معالجة الفلزات"
+        ],
+        "en": [
+          "Metal treatment"
+        ],
+        "es": [
+          "Tratamiento del metal"
+        ],
+        "fr": [
+          "Traitement du métal"
+        ],
+        "ru": [
+          "Обработка металла"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14014",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14014",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "امان نووي",
+          "حوادث نووية"
+        ],
+        "en": [
+          "Nuclear accidents"
+        ],
+        "es": [
+          "Accidente nuclear"
+        ],
+        "fr": [
+          "Accident nucléaire",
+          "Sûreté nucléaire"
+        ],
+        "ru": [
+          "Ядерные аварии"
+        ]
+      },
+      "broader": [
+        "concept627"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سلامة نووية"
+        ],
+        "en": [
+          "Nuclear safety"
+        ],
+        "es": [
+          "Seguridad nuclear"
+        ],
+        "fr": [
+          "Sécurité nucléaire"
+        ],
+        "ru": [
+          "Ядерная безопасность"
+        ]
+      },
+      "related": [
+        "concept10030",
+        "concept10637",
+        "concept14623",
+        "concept4863",
+        "concept5644"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14625",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14625",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تصنيع الخشب",
+          "حفر على الخشب",
+          "نحت على الخشب",
+          "نقش على الخشب"
+        ],
+        "en": [
+          "Wood carving",
+          "Wood crafting"
+        ],
+        "es": [
+          "Talla de madera"
+        ],
+        "fr": [
+          "Sculpture sur bois"
+        ],
+        "ru": [
+          "Резьба по дереву"
+        ]
+      },
+      "broader": [
+        "concept632"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:17+00:00",
+      "narrower": [
+        "concept4421"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نجارة"
+        ],
+        "en": [
+          "Woodworking"
+        ],
+        "es": [
+          "Trabajo en madera"
+        ],
+        "fr": [
+          "Travail du bois"
+        ],
+        "ru": [
+          "Деревообработка"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16968",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16968",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept619"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:16:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استنساخ"
+        ],
+        "en": [
+          "Cloning"
+        ],
+        "es": [
+          "Clonación"
+        ],
+        "fr": [
+          "Clonage"
+        ],
+        "ru": [
+          "Клонирование"
+        ]
+      },
+      "related": [
+        "concept221",
+        "concept223",
+        "concept226",
+        "concept2418"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16971",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16971",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اغذية محورة جينيا",
+          "اغذية معدلة وراثيا",
+          "كائنات مركبة بالهندسة الوراثية",
+          "كائنات معالجة جينيا",
+          "كائنات معدلة جينيا",
+          "محاصيل محورة وراثيا",
+          "محاصيل معدلة وراثيا"
+        ],
+        "en": [
+          "GMOs",
+          "Genetically engineered organisms",
+          "Genetically modified crops",
+          "Genetically modified food"
+        ],
+        "es": [
+          "Alimento transgénico",
+          "OMG",
+          "Organismo logrado genéticamente"
+        ],
+        "fr": [
+          "Aliment génétiquement modifié",
+          "OGM",
+          "Organisme transformé génétiquement"
+        ],
+        "ru": [
+          "ГМО",
+          "Генетически модифицированные продукты питания",
+          "Генетически модифицированные сельскохозяйственные культуры",
+          "Организмы, полученные в результате генной инженерии"
+        ]
+      },
+      "broader": [
+        "concept619"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2019-12-15T14:31:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كائنات محورة وراثيا"
+        ],
+        "en": [
+          "Genetically modified organisms"
+        ],
+        "es": [
+          "Organismo modificado genéticamente"
+        ],
+        "fr": [
+          "Organisme génétiquement modifié"
+        ],
+        "ru": [
+          "Генетически модифицированные организмы"
+        ]
+      },
+      "related": [
+        "concept1718",
+        "concept1766"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17060",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17060",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة المناخ"
+        ],
+        "en": [
+          "Climate engineering"
+        ],
+        "es": [
+          "Ingeniería climática"
+        ],
+        "fr": [
+          "Ingénierie climatique"
+        ]
+      },
+      "broader": [
+        "concept623"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2022-06-27T11:38:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الهندسة الجيولوجية"
+        ],
+        "en": [
+          "Geoengineering"
+        ],
+        "es": [
+          "Geoingeniería"
+        ],
+        "fr": [
+          "Géo-ingénierie"
+        ],
+        "ru": [
+          "Геоинженерия"
+        ]
+      },
+      "related": [
+        "concept196",
+        "concept4559"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تشير إلى مجموعة واسعة من الأساليب والتكنولوجيات التي تهدف إلى تغيير النظام المناخي تغييرًا متعمدًا من أجل التخفيف من آثار تغير المناخ."
+        ],
+        "en": [
+          "Refers to a broad set of methods and technologies that aim to deliberately alter the climate system in order to alleviate the impacts of climate change."
+        ],
+        "es": [
+          "Vasto conjunto de métodos y tecnologías que tienen por objeto alterar deliberadamente el sistema climático a fin de aliviar los impactos del cambio climático."
+        ],
+        "fr": [
+          "Se rapporte à un vaste ensemble de méthodes et de techniques visant à modifier délibérément le système climatique pour lutter contre les effets du changement climatique."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17135",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17135",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Chimie écologique"
+        ],
+        "ru": [
+          "экологичная химия"
+        ]
+      },
+      "broader": [
+        "concept620"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2022-06-27T11:05:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الكيمياء الخضراء"
+        ],
+        "en": [
+          "Green chemistry"
+        ],
+        "es": [
+          "Química verde"
+        ],
+        "fr": [
+          "Chimie verte"
+        ],
+        "ru": [
+          "«зеленая» химия"
+        ]
+      },
+      "related": [
+        "concept6317",
+        "concept7775"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تصميم منتجات وعمليات تقلل من استخدام المواد الخطرة أو توليدها، أو تمنعها تمامًا."
+        ],
+        "en": [
+          "Design of products and processes that reduce or eliminate the use and generation of hazardous substances."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17136",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17136",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept619"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.50"
+      ],
+      "modified": "2025-10-10T11:48:58+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "التكنولوجيا العصبية"
+        ],
+        "en": [
+          "Neurotechnology"
+        ],
+        "es": [
+          "Neurotecnología"
+        ],
+        "fr": [
+          "Neurotechnologie"
+        ]
+      },
+      "related": [
+        "concept17161",
+        "concept242",
+        "concept4041",
+        "concept4294"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17160",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17160",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt6.50",
+    "labels": {
+      "en": "Manufacturing and transport engineering",
+      "fr": "Génie de l'industrie et des transports"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt6.50"
+  }
+}

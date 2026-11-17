@@ -1,0 +1,70 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-federation-topologie",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-02",
+    "slug": "federation-topologie",
+    "name": "Federation / Topology"
+  },
+  "source_arketype_file": "archetypes/federation-topologie.json",
+  "editorial_rationale": "Structure Arketype ARK-02: Hierarchy or network of separately identifiable knowledge states. Distributed campuses, organizational units and linked subsystems.",
+  "source_structural_primitives": [
+    "noeuds",
+    "liens_parent_enfant",
+    "scopes",
+    "references_epinglees",
+    "statuts_de_cristallisation"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "noeuds",
+      "title_function": "Noeuds et leurs périmètres",
+      "layout_id": "concept-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "noeuds",
+        "scopes"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "definition": 1,
+        "examples": 1,
+        "context": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Chaque état enfant conserve son propriétaire et sa référence."
+    },
+    {
+      "section_id": "references",
+      "title_function": "Références épinglées",
+      "layout_id": "concept-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "references_epinglees",
+        "statuts_de_cristallisation"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "definition": 1,
+        "examples": 1,
+        "context": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Ne pas copier le contenu de l’état enfant."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "federation-network",
+    "classification-tree"
+  ],
+  "integrity_rule": "A parent reference does not own or absorb a child state.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

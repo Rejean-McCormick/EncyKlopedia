@@ -1,0 +1,130 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.rst-interpretation",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Observation et interprétation",
+  "research_basis": {
+    "family": "coherence",
+    "relation": "rst.interpretation",
+    "source": "RST",
+    "source_url": "https://www.sfu.ca/rst/07french/definitions.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "rst.interpretation",
+    "editorial_relation_required": true,
+    "semantic_warning": "Ne pas confondre une observation et son interprétation.",
+    "critical_questions": []
+  },
+  "slots": {
+    "observation": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "observation"
+      ],
+      "visual_role": "paragraph"
+    },
+    "interpretation": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "interpretation"
+      ],
+      "visual_role": "paragraph"
+    },
+    "limits": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "observation",
+    "interpretation",
+    "limits"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "limits"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "rst.interpretation",
+    "focus_slot": "observation",
+    "moves": [
+      {
+        "slot": "observation",
+        "function": "observation",
+        "nuclearity": "nucleus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "interpretation",
+        "function": "interpretation",
+        "nuclearity": "satellite",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "limits",
+        "function": "limitations",
+        "nuclearity": "satellite",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "interpretation",
+        "to_slot": "observation",
+        "relation": "rst.interpretation",
+        "status": "requires_external_semantic_review",
+        "relation_function": "interprets"
+      },
+      {
+        "from_slot": "limits",
+        "to_slot": "observation",
+        "relation": "rst.interpretation",
+        "status": "requires_external_semantic_review",
+        "relation_function": "qualifies"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "observation",
+        "interpretation"
+      ],
+      [
+        "limits"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Ne pas confondre une observation et son interprétation."
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "levelupdiag.report.v2",
+  "standard": "LevelUpDiag",
+  "standard_version": "1.0.0",
+  "run_id": "20260909T173406Z-3fc0ab1b",
+  "level_id": "N09",
+  "level_name": "Business unit tests",
+  "purpose": "",
+  "target_repo_root": "/workspace/scratch/537b727e15f3/orgo",
+  "started_at": "2026-09-09T17:34:14+00:00",
+  "ended_at": "2026-09-09T17:34:15+00:00",
+  "verdict": "PASS",
+  "findings": [
+    {
+      "id": "orgo.launcher",
+      "verdict": "PASS",
+      "category": "validation",
+      "message": "Public Orgo validator: launcher",
+      "evidence": {
+        "argv": [
+          "node",
+          "/workspace/scratch/537b727e15f3/levelupdiag-orgo/adapters/diag-step.mjs",
+          "launcher",
+          "/workspace/scratch/537b727e15f3/orgo"
+        ],
+        "cwd": "/workspace/scratch/537b727e15f3/orgo",
+        "exit_code": 0,
+        "timed_out": false,
+        "duration_seconds": 0.216,
+        "stdout_tail": "✔ npm is executed as JavaScript without a cmd shell (1.789215ms)\n✔ only explicitly named test PostgreSQL databases accepted (0.485291ms)\n✔ reports redact database credentials and environment secrets (0.459763ms)\nℹ tests 3\nℹ suites 0\nℹ pass 3\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 77.722971\n",
+        "stderr_tail": ""
+      }
+    },
+    {
+      "id": "orgo.unit",
+      "verdict": "PASS",
+      "category": "validation",
+      "message": "Public Orgo validator: unit",
+      "evidence": {
+        "argv": [
+          "node",
+          "/workspace/scratch/537b727e15f3/levelupdiag-orgo/adapters/diag-step.mjs",
+          "unit",
+          "/workspace/scratch/537b727e15f3/orgo"
+        ],
+        "cwd": "/workspace/scratch/537b727e15f3/orgo",
+        "exit_code": 0,
+        "timed_out": false,
+        "duration_seconds": 1.079,
+        "stdout_tail": "\n> orgo@0.1.0 test\n> npm run test -w api\n\n\n> api@0.1.0 test\n> node --import tsx --test test/unit/*.test.ts\n\n✔ browser retries an uncertain mutation with its original idempotency key (4.071213ms)\n✔ related entities retain their own identity in case and task inspectors (0.144417ms)\n✔ canonical fingerprint ignores object order but preserves arrays (1.738569ms)\n✔ task lifecycle terminal states and illegal escalation are rejected (0.46416ms)\n✔ case lifecycle permits reopening but archived is terminal (0.108223ms)\n✔ labels validate category/subcategory and broadcast bases (1.236843ms)\n✔ workflow evaluation is deterministic and leaves inputs unchanged (1.890078ms)\n✔ unknown actions, duplicate rule ids and unknown criteria are rejected (0.794857ms)\n✔ references are explicit; inherited properties are never bindings (0.249706ms)\n✔ retry backoff is bounded and jittered (0.343387ms)\n✔ passwords use salted hashes and verify correctly (149.401689ms)\n✔ unconfigured provider and false approval receipts fail closed (10.814309ms)\n✔ message templates interpolate declared values without evaluating expressions (1.320219ms)\nℹ tests 13\nℹ suites 0\nℹ pass 13\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 666.057433\n",
+        "stderr_tail": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\nnpm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n"
+      }
+    }
+  ],
+  "artifacts": [],
+  "metrics": {
+    "launcher_counts": {
+      "tests": 3,
+      "pass": 3,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0
+    },
+    "unit_counts": {
+      "tests": 13,
+      "pass": 13,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0
+    },
+    "worker_duration_seconds": 1.357
+  }
+}

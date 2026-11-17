@@ -304,6 +304,319 @@ def collect_seed(source, cat, ix, xml_file, seed, branch, caps, labels, roots):
     return edges, revision, title
 
 
+OPEN_REVIEW_STATES = ('WAITING','READY','SENT','ERROR','IMPORTING','NEEDS_CONFIRMATION')
+
+CURSORS = '''
+CREATE TABLE IF NOT EXISTS v3110_probe_cursor(
+    branch_id TEXT NOT NULL,concept_id TEXT NOT NULL,mode TEXT NOT NULL,
+    alias TEXT NOT NULL,last_title TEXT NOT NULL DEFAULT '',completed INTEGER NOT NULL DEFAULT 0,
+    PRIMARY KEY(branch_id,concept_id,mode,alias));
+CREATE TABLE IF NOT EXISTS v3110_category_roots(
+    branch_id TEXT NOT NULL,concept_id TEXT NOT NULL,target_id INTEGER NOT NULL,
+    title TEXT NOT NULL,last_rowid INTEGER NOT NULL DEFAULT 0,completed INTEGER NOT NULL DEFAULT 0,
+    PRIMARY KEY(branch_id,concept_id,target_id));
+'''
+
+
+def assert_unfrozen(work_dir: Path):
+    """Refuse discovery if any v28 review is open; fail closed on unreadable station."""
+    state=Path(work_dir).parent/'poste_chatgpt_v30'/'station_v30.sqlite'
+    if not state.exists():return
+    if not state.is_file() or state.is_symlink():
+        raise ValueError('Station SQLite invalide; protection des preuves maintenue')
+    try:
+        with sqlite3.connect(state.resolve().as_uri()+'?mode=ro',uri=True,timeout=10) as db:
+            count=db.execute('''SELECT count(*) FROM jobs WHERE kind='v28'
+                AND status IN ('WAITING','READY','SENT','ERROR','IMPORTING','NEEDS_CONFIRMATION')''').fetchone()[0]
+    except (OSError,sqlite3.Error) as exc:
+        raise ValueError('Impossible de verifier le gel des preuves UNESCO; decouverte refusee') from exc
+    if count:
+        raise ValueError(f'Decouverte UNESCO refusee : {count} revue(s) ouverte(s), preuves figees')
+
+
+def _aliases(concept):
+    """Only source-supplied labels and deterministic spelling variants, no invented synonyms."""
+    result=[]
+    for key in ('preferred_labels','alternate_labels'):
+        item=concept.get(key,{})
+        vals=item.get('en',[]) if isinstance(item,dict) else []
+        if isinstance(vals,str):vals=[vals]
+        for val in vals[:12]:
+            if not isinstance(val,str):continue
+            val=' '.join(val.strip().split())
+            if len(val)<4 or len(val)>120:continue
+            for name in v25.label_variations(val):
+                name=name[0].upper()+name[1:]
+                if name not in result:result.append(name)
+    return result[:24]
+
+
+def _good_page(row):
+    return row is not None and int(row['ns'])==0 and not int(row['redirect'] or 0)
+
+
+def _utc():return datetime.now(timezone.utc).isoformat(timespec='seconds')
+
+
+def _insert_new(work,bid,cid,p,kind,detail):
+    """Never augment an existing pair: its evidence may be frozen in a sent pack."""
+    pid=int(p['page_id'])
+    existing=work.execute('SELECT 1 FROM candidates WHERE branch_id=? AND concept_id=? AND page_id=?',
+                          (bid,cid,pid)).fetchone()
+    if existing:return False
+    # Index evidence is not a literal citation; ChatGPT must read the article context.
+    work.execute('''INSERT INTO candidates(branch_id,concept_id,page_id,title,revision,first_seen)
+                   VALUES(?,?,?,?,?,?)''',
+                 (bid,cid,pid,str(p['title']).replace('_',' '),str(p['latest_revision'] or ''),_utc()))
+    work.execute('''INSERT INTO evidence(branch_id,concept_id,page_id,seed_page_id,kind,detail)
+                   VALUES(?,?,?,?,?,?)''',(bid,cid,pid,pid,kind,detail))
+    return True
+
+
+def _scan_prefix(source,work,bid,cid,alias,mode,remaining,read_limit,stats):
+    """B-tree prefix probes, resumable by indexed title; never a full table scan."""
+    raw=v25.wiki_title(alias)
+    lower=raw
+    upper=raw+'\uffff'
+    cursor=work.execute('''SELECT last_title,completed FROM v3110_probe_cursor
+        WHERE branch_id=? AND concept_id=? AND mode=? AND alias=?''',(bid,cid,mode,alias)).fetchone()
+    if cursor and cursor['completed']:return 0
+    last=cursor['last_title'] if cursor else ''
+    query_start=max(lower,last+'\x00') if last else lower
+    if mode=='TITLE':
+        rows=source.execute('''SELECT p.page_id,p.ns,p.title,p.redirect,p.latest_revision
+            FROM wiki_pages p INDEXED BY idx_wiki_pages_title
+            WHERE p.ns=0 AND p.title>=? AND p.title<? ORDER BY p.title LIMIT ?''',
+            (query_start,upper,read_limit)).fetchall()
+    else:
+        rows=source.execute('''SELECT target_id,title FROM wiki_linktargets INDEXED BY idx_wiki_lt_title
+            WHERE ns=14 AND title>=? AND title<? ORDER BY title LIMIT ?''',
+            (query_start,upper,read_limit)).fetchall()
+    count=0;final=last;processed=0
+    for r in rows:
+        processed+=1
+        final=str(r['title'])
+        if mode=='TITLE':
+            if _good_page(r) and count<remaining:
+                if _insert_new(work,bid,cid,r,'SQL_TITLE_PREFIX',f'wiki_pages(ns=0,title) starts with {raw}'):
+                    count+=1
+        else:
+            # Category index entry is a *discovery path*, not a relevance verdict.
+            work.execute('''INSERT OR IGNORE INTO v3110_category_roots
+                (branch_id,concept_id,target_id,title) VALUES(?,?,?,?)''',
+                (bid,cid,int(r['target_id']),str(r['title'])))
+        stats['indexed_entries_examined']+=1
+        if mode=='TITLE' and count>=remaining:break
+    complete=int(len(rows)<read_limit and processed==len(rows))
+    with work:
+        work.execute('''INSERT INTO v3110_probe_cursor(branch_id,concept_id,mode,alias,last_title,completed)
+            VALUES(?,?,?,?,?,?) ON CONFLICT(branch_id,concept_id,mode,alias) DO UPDATE SET
+            last_title=excluded.last_title,completed=excluded.completed''',
+            (bid,cid,mode,alias,final,complete))
+    return count
+
+
+def _scan_category(source,work,bid,cid,root,remaining,read_limit,stats):
+    cursor=int(root['last_rowid']);last=cursor;count=0;processed=0
+    rows=source.execute('''SELECT c.rowid record_id,p.page_id,p.ns,p.title,p.redirect,p.latest_revision
+        FROM wiki_categorylink_ids c INDEXED BY idx_wiki_catid_target
+        LEFT JOIN wiki_pages p ON p.page_id=c.source_page_id
+        WHERE c.target_id=? AND c.rowid>? ORDER BY c.rowid LIMIT ?''',
+        (int(root['target_id']),cursor,read_limit)).fetchall()
+    for r in rows:
+        processed+=1
+        last=int(r['record_id'])
+        if _good_page(r) and count<remaining:
+            if _insert_new(work,bid,cid,r,'SQL_CATEGORY_MEMBER',
+                           'wiki_categorylink_ids member of Category:'+str(root['title'])):
+                count+=1
+        stats['indexed_entries_examined']+=1
+        if count>=remaining:break
+    complete=int(len(rows)<read_limit and processed==len(rows))
+    with work:
+        work.execute('''UPDATE v3110_category_roots SET last_rowid=?,completed=?
+            WHERE branch_id=? AND concept_id=? AND target_id=?''',
+            (last,complete,bid,cid,int(root['target_id'])))
+    return count
+
+
+def bootstrap(source,cat,work,branch, *, max_per_concept=800, read_limit=1200):
+    """Wide, source-provenanced recall for *all* concepts, even those without seeds.
+
+    Each invocation adds at most `max_per_concept` new candidate pairs per concept;
+    unfinished indexed scans resume on the next authorised discovery. The cap
+    is a workload partition, NOT a permanent exclusion. No local REJECT/APPROVE.
+    """
+    if not 1<=max_per_concept<=4000 or not 20<=read_limit<=10000:
+        raise ValueError('Bornes de decouverte hors limites')
+    # Schema additive, no production tables or existing evidence overwritten.
+    with work:work.executescript(CURSORS)
+    bid=branch['id']
+    seeded={str(r[0]) for r in cat.execute(
+        "SELECT DISTINCT concept_id FROM assignments WHERE branch_id=? AND wiki='enwiki'",(bid,))}
+    concepts=sorted(branch['concepts'],key=lambda c:(c['unesco_id'] in seeded,c['unesco_id']))
+    stats={'broadscan_concepts':len(concepts),
+           'broadscan_unseeded_concepts':sum(c['unesco_id'] not in seeded for c in concepts),
+           'broadscan_new_pairs':0,'broadscan_new_pairs_unseeded':0,
+           'broadscan_indexed_entries_examined':0,'broadscan_unfinished_probes':0,
+           'broadscan_pairs_by_concept':{},'broadscan_concepts_still_empty':[]}
+    counts={'indexed_entries_examined':0}
+    for concept in concepts:
+        cid=concept['unesco_id'];remaining=max_per_concept
+        aliases=_aliases(concept)
+        # Retrieve direct article title variants and neighbouring category roots.
+        # Never use a topical plausibility filter before ChatGPT sees a proposal.
+        for alias in aliases:
+            if remaining<=0:break
+            remaining-=_scan_prefix(source,work,bid,cid,alias,'TITLE',remaining,read_limit,counts)
+            _scan_prefix(source,work,bid,cid,alias,'CATEGORY',0,min(read_limit,100),counts)
+        # Categories from previous cycles are revisited by their durable rowid.
+        roots=list(work.execute('''SELECT target_id,title,last_rowid,completed FROM v3110_category_roots
+            WHERE branch_id=? AND concept_id=? AND completed=0 ORDER BY target_id''',(bid,cid)))
+        for root in roots:
+            if remaining<=0:break
+            remaining-=_scan_category(source,work,bid,cid,root,remaining,read_limit,counts)
+        added=max_per_concept-remaining
+        if added:stats['broadscan_pairs_by_concept'][cid]=added
+        if not work.execute('SELECT 1 FROM candidates WHERE branch_id=? AND concept_id=? LIMIT 1',
+                            (bid,cid)).fetchone():stats['broadscan_concepts_still_empty'].append(cid)
+        stats['broadscan_new_pairs']+=added
+        if cid not in seeded:stats['broadscan_new_pairs_unseeded']+=added
+    stats['broadscan_indexed_entries_examined']=counts['indexed_entries_examined']
+    stats['broadscan_unfinished_probes']=work.execute('''SELECT count(*) FROM v3110_probe_cursor
+       WHERE branch_id=? AND completed=0''',(bid,)).fetchone()[0]+work.execute('''SELECT count(*) FROM v3110_category_roots
+       WHERE branch_id=? AND completed=0''',(bid,)).fetchone()[0]
+    return stats
+
+
+# v31.11 : second recall path based on UNESCO's own documented concept graph.
+# An existing assignment for a *related* concept is a lead, not evidence that
+# the target concept applies. The final decision belongs to ChatGPT.
+RELATION_CURSORS = '''
+CREATE TABLE IF NOT EXISTS v3111_relation_cursor(
+    branch_id TEXT NOT NULL,concept_id TEXT NOT NULL,
+    source_concept_id TEXT NOT NULL,relation_path TEXT NOT NULL,
+    last_page_id INTEGER NOT NULL DEFAULT 0,completed INTEGER NOT NULL DEFAULT 0,
+    PRIMARY KEY(branch_id,concept_id,source_concept_id,relation_path));
+'''
+
+
+def _relation_paths(concept, concept_map, approved_by_concept):
+    """One- and two-edge paths *present in the UNESCO source*, no invented edges."""
+    cid = str(concept['unesco_id'])
+    choices = []
+    for kind in ('narrower', 'related', 'broader'):
+        for link in concept.get(kind, []):
+            link = str(link)
+            if link == cid or link not in concept_map:
+                continue
+            choices.append((1, link, f'{kind}:{link}'))
+            for second_kind in ('narrower', 'related', 'broader'):
+                for source_id in concept_map[link].get(second_kind, []):
+                    source_id = str(source_id)
+                    if source_id in concept_map and source_id not in (cid, link):
+                        choices.append((2, source_id, f'{kind}:{link}/{second_kind}:{source_id}'))
+    # Prefer direct UNESCO relations, avoid exploring paths without approved
+    # catalogue articles and make traversal order reproducible.
+    priority = {'narrower':0, 'related':1, 'broader':2}
+    return [(depth, source_id, description) for depth, source_id, description in
+            sorted(set(choices), key=lambda x:(x[0],priority.get(x[2].split(':',1)[0],9),x[2],x[1]))
+            if approved_by_concept.get(source_id)]
+
+
+def _scan_relation(source, work, bid, cid, source_id, relation_path, pages,
+                   remaining, read_limit, stats):
+    """Resumable keyset on the small *approved* catalogue, never the XML dump."""
+    if remaining <= 0:
+        return 0
+    row = work.execute('''SELECT last_page_id,completed FROM v3111_relation_cursor
+        WHERE branch_id=? AND concept_id=? AND source_concept_id=? AND relation_path=?''',
+        (bid,cid,source_id,relation_path)).fetchone()
+    if row and row['completed']:
+        return 0
+    import bisect
+    last = int(row['last_page_id']) if row else 0
+    start = bisect.bisect_right(pages, last)
+    portion = pages[start:start + read_limit]
+    new_count = 0
+    examined = 0
+    final_page_id = last
+    # Each relation is a documented hint only. Do not copy its APPROVE status
+    # or assign any article to the target UNESCO concept.
+    with work:
+        for pid in portion:
+            final_page_id = int(pid)
+            examined += 1
+            p = source.execute('''SELECT page_id,ns,title,redirect,latest_revision
+                FROM wiki_pages WHERE page_id=?''', (pid,)).fetchone()
+            if _good_page(p):
+                if _insert_new(work,bid,cid,p,'UNESCO_RELATED_CATALOGUE',
+                               f'UNESCO graph path {cid} -> {relation_path}; '
+                               f'catalogued source concept {source_id} (REVIEW REQUIRED)'):
+                    new_count += 1
+            if new_count >= remaining:
+                break
+        completed = int(start + examined >= len(pages))
+        work.execute('''INSERT INTO v3111_relation_cursor
+            (branch_id,concept_id,source_concept_id,relation_path,last_page_id,completed)
+            VALUES(?,?,?,?,?,?) ON CONFLICT(branch_id,concept_id,source_concept_id,relation_path)
+            DO UPDATE SET last_page_id=excluded.last_page_id,completed=excluded.completed''',
+            (bid,cid,source_id,relation_path,final_page_id,completed))
+    stats['relation_indexed_catalogue_entries_examined'] += examined
+    return new_count
+
+
+def bootstrap_ontology(source, cat, work, branch, *, max_per_concept=800,
+                       read_limit=1200, low_coverage_threshold=75):
+    """Supply provisional candidates to weak/empty concepts via UNESCO graph.
+
+    Articles assigned to neighbouring concepts are candidate leads, never inferred target
+    assignments or documentary proof. The caller must enforce UNESCO freezing.
+    Durable cursors and INSERT-only candidates preserve old evidence hashes.
+    """
+    if not 1 <= max_per_concept <= 4000 or not 20 <= read_limit <= 10000:
+        raise ValueError('Bornes du rappel UNESCO relationnel hors limites')
+    with work:
+        work.executescript(RELATION_CURSORS)
+    bid = branch['id']
+    concepts = {str(c['unesco_id']):c for c in branch['concepts']}
+    from collections import defaultdict
+    approved = defaultdict(list)
+    for r in cat.execute('''SELECT concept_id,page_id FROM assignments
+        WHERE branch_id=? AND wiki='enwiki' ORDER BY page_id''', (bid,)):
+        approved[str(r['concept_id'])].append(int(r['page_id']))
+    counts = {str(r['concept_id']):int(r['n']) for r in work.execute('''SELECT concept_id,count(*) AS n
+        FROM candidates WHERE branch_id=? GROUP BY concept_id''',(bid,))}
+    stats = {'relation_concepts_targeted':0,'relation_new_pairs':0,
+             'relation_indexed_catalogue_entries_examined':0,
+             'relation_pairs_by_concept':{},'relation_unfinished_paths':0,
+             'relation_sources':'UNESCO ontology graph + existing v25 assignments',
+             'relation_auto_approvals':0}
+    for cid, concept in sorted(concepts.items()):
+        # 0-start concepts should be allowed to continue on future waves even
+        # when their first 800 leads have been reviewed. For seeded concepts,
+        # use this path only if their current discovery is very sparse.
+        if approved.get(cid) and counts.get(cid,0) >= low_coverage_threshold:
+            continue
+        paths = _relation_paths(concept, concepts, approved)
+        if not paths:
+            continue
+        stats['relation_concepts_targeted'] += 1
+        remaining = max_per_concept
+        for _depth, source_id, path in paths:
+            if remaining <= 0:
+                break
+            remaining -= _scan_relation(source,work,bid,cid,source_id,path,
+                                        approved[source_id],remaining,read_limit,stats)
+        added = max_per_concept - remaining
+        if added:
+            stats['relation_pairs_by_concept'][cid] = added
+            stats['relation_new_pairs'] += added
+    stats['relation_unfinished_paths'] = work.execute('''SELECT count(*) FROM v3111_relation_cursor
+        WHERE branch_id=? AND completed=0''',(bid,)).fetchone()[0]
+    return stats
+
+
 def discover(args):
     branch=v25.load_branch(args.branch)
     source,cat,source_sha=checked_source(args.source_db,args.catalogue_db,branch)
@@ -323,6 +636,8 @@ def _discover_body(args,branch,source,cat,source_sha,ix,src_info):
     try:
         if v25.meta(cat,'source_sha') != src_info['catalog_source_sha']:
             raise Refusal('Origine catalogue v25 differente de l index v27')
+        # v31.10 : ne pas contourner le gel, même par lancement manuel du script.
+        assert_unfrozen(args.work)
         workpath=args.work/'DECOUVERTE_ARTICLES_RELIES_V28.sqlite'
         v27.check_private_work(args.work,(args.source_db,args.catalogue_db,args.xml,args.index))
         work=open_work(workpath)
@@ -370,6 +685,10 @@ def _discover_body(args,branch,source,cat,source_sha,ix,src_info):
                 if processed%100==0:
                     print(json.dumps({'event':'V28_DISCOVERY_PROGRESS','seeds_done_this_run':processed,
                                       'new_evidence':new_evidence},ensure_ascii=False),flush=True)
+        # v31.10 : amorçage indépendant, preuves SQL exactes, candidats provisoires.
+        # Aucune affectation/APPROVE ni altération de preuves existantes.
+        coldstart=bootstrap(source,cat,work,branch)
+        relation_recall=bootstrap_ontology(source,cat,work,branch)
         pending=work.execute("SELECT count(*) FROM seed_queue WHERE branch_id=? AND state='PENDING'",(branch['id'],)).fetchone()[0]
         candidates=work.execute('SELECT count(*) FROM candidates WHERE branch_id=?',(branch['id'],)).fetchone()[0]
         mismatches=work.execute('SELECT count(*) FROM seed_revision_mismatches WHERE branch_id=?',
@@ -378,7 +697,7 @@ def _discover_body(args,branch,source,cat,source_sha,ix,src_info):
                 'seed_queue_new_or_changed':added,'seeds_processed_this_run':processed,
                 'seeds_pending':pending,'candidate_pairs':candidates,'new_evidence':new_evidence,
                 'revision_mismatches_this_run':revision_mismatches_this_run,
-                'revision_mismatches_recorded':mismatches,
+                'revision_mismatches_recorded':mismatches,**coldstart,**relation_recall,
                 'source_sql_read_only':True,'source_xml_read_only':True,'catalogue_modified':False,
                 'canonical_admissions':0}
     finally:

@@ -1,0 +1,441 @@
+{
+  "kristalizer_parameters": {
+    "max_results_per_label": 12,
+    "mode": "scan_only_before_review",
+    "note": "Kristalizer 1.2.2 accepts --max-results, not --scope. Scan may report MIGRATION_V11_REQUISE."
+  },
+  "maxwd_proposed_parameters": {
+    "candidates_per_label": 12,
+    "exclude_migration_metadata": true,
+    "extraction_batch": 100,
+    "follow_linked_entities": false,
+    "include_draft_for_private_research": true,
+    "language_policy": "English is editorial language; French aliases are fallback identity leads only",
+    "max_claims": 150000,
+    "minimum_free_gib": 2,
+    "note": "Values are a scoped proposal. MaxWD's fixed 16 prepared workspaces cannot run this new project until a prepared workspace and manifest are properly produced.",
+    "query_batch": 250,
+    "raw_properties": "all",
+    "search_languages": [
+      "en",
+      "fr"
+    ],
+    "selection_mode": "existing_domain_concepts",
+    "verification_policy": "Selection remains exploratory; checksum-disabled exports cannot be certified evidence without later independent verification",
+    "verify_checksums": false,
+    "workers": 2
+  },
+  "roots": [
+    {
+      "qid_candidate": "Q69370",
+      "unesco_id": "concept10"
+    },
+    {
+      "qid_candidate": "Q118116018",
+      "unesco_id": "concept8"
+    },
+    {
+      "qid_candidate": "Q7894104",
+      "unesco_id": "concept1140"
+    },
+    {
+      "qid_candidate": "Q102661383",
+      "unesco_id": "concept2112"
+    },
+    {
+      "qid_candidate": "Q16911265",
+      "unesco_id": "concept7273"
+    },
+    {
+      "qid_candidate": "Q30032145",
+      "unesco_id": "concept8260"
+    },
+    {
+      "qid_candidate": "Q939957",
+      "unesco_id": "concept9311"
+    },
+    {
+      "qid_candidate": "Q152545",
+      "unesco_id": "concept11264"
+    }
+  ],
+  "skope_recipes": [
+    {
+      "branches": {
+        "P101:out": 1,
+        "P17:out": 1,
+        "P279:out": 1,
+        "P31:out": 1,
+        "P361:out": 1,
+        "P527:out": 1,
+        "P749:out": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "out",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 160,
+      "root": "Q69370",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept10"
+    },
+    {
+      "branches": {
+        "P279:in": 1,
+        "P361:in": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "in",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 80,
+      "root": "Q69370",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept10"
+    },
+    {
+      "branches": {
+        "P101:out": 1,
+        "P17:out": 1,
+        "P279:out": 1,
+        "P31:out": 1,
+        "P361:out": 1,
+        "P527:out": 1,
+        "P749:out": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "out",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 160,
+      "root": "Q118116018",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept8"
+    },
+    {
+      "branches": {
+        "P279:in": 1,
+        "P361:in": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "in",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 80,
+      "root": "Q118116018",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept8"
+    },
+    {
+      "branches": {
+        "P101:out": 1,
+        "P17:out": 1,
+        "P279:out": 1,
+        "P31:out": 1,
+        "P361:out": 1,
+        "P527:out": 1,
+        "P749:out": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "out",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 160,
+      "root": "Q7894104",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept1140"
+    },
+    {
+      "branches": {
+        "P279:in": 1,
+        "P361:in": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "in",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 80,
+      "root": "Q7894104",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept1140"
+    },
+    {
+      "branches": {
+        "P101:out": 1,
+        "P17:out": 1,
+        "P279:out": 1,
+        "P31:out": 1,
+        "P361:out": 1,
+        "P527:out": 1,
+        "P749:out": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "out",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 160,
+      "root": "Q102661383",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept2112"
+    },
+    {
+      "branches": {
+        "P279:in": 1,
+        "P361:in": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "in",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 80,
+      "root": "Q102661383",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept2112"
+    },
+    {
+      "branches": {
+        "P101:out": 1,
+        "P17:out": 1,
+        "P279:out": 1,
+        "P31:out": 1,
+        "P361:out": 1,
+        "P527:out": 1,
+        "P749:out": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "out",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 160,
+      "root": "Q16911265",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept7273"
+    },
+    {
+      "branches": {
+        "P279:in": 1,
+        "P361:in": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "in",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 80,
+      "root": "Q16911265",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept7273"
+    },
+    {
+      "branches": {
+        "P101:out": 1,
+        "P17:out": 1,
+        "P279:out": 1,
+        "P31:out": 1,
+        "P361:out": 1,
+        "P527:out": 1,
+        "P749:out": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "out",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 160,
+      "root": "Q30032145",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept8260"
+    },
+    {
+      "branches": {
+        "P279:in": 1,
+        "P361:in": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "in",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 80,
+      "root": "Q30032145",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept8260"
+    },
+    {
+      "branches": {
+        "P101:out": 1,
+        "P17:out": 1,
+        "P279:out": 1,
+        "P31:out": 1,
+        "P361:out": 1,
+        "P527:out": 1,
+        "P749:out": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "out",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 160,
+      "root": "Q939957",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept9311"
+    },
+    {
+      "branches": {
+        "P279:in": 1,
+        "P361:in": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "in",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 80,
+      "root": "Q939957",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept9311"
+    },
+    {
+      "branches": {
+        "P101:out": 1,
+        "P17:out": 1,
+        "P279:out": 1,
+        "P31:out": 1,
+        "P361:out": 1,
+        "P527:out": 1,
+        "P749:out": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "out",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 160,
+      "root": "Q152545",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept11264"
+    },
+    {
+      "branches": {
+        "P279:in": 1,
+        "P361:in": 1
+      },
+      "convergence": {
+        "extra_depth": 0,
+        "include": [],
+        "min_support": 3,
+        "threshold_percent": 5
+      },
+      "default_depth": 0,
+      "direction": "in",
+      "geography": {
+        "mode": "off"
+      },
+      "max_entities": 80,
+      "root": "Q152545",
+      "status": "UNEXECUTED_REVIEW_PROPOSAL",
+      "unesco_id": "concept11264"
+    }
+  ],
+  "status": "NOT_EXECUTED"
+}

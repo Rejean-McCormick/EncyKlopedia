@@ -1,0 +1,18 @@
+{
+  "package": "Kristal_UNESCO_Pilote_v1",
+  "validation_date": "2026-11-03",
+  "source_archives": ["zip.zip", "Kristal-UNESCO-diagnostic-20261103-130420-181a9.zip"],
+  "source_contracts": [
+    "spek.composition-instance/1.0",
+    "semantik_architect CommunicationRequest 1.0",
+    "SemantiK CandidateConformance pipeline.lock.json",
+    "Grammatical Framework GF/PGF"
+  ],
+  "automated_tests": 4,
+  "automated_tests_passed": 4,
+  "automated_tests_scope": "source request construction, SemantiK plan, fail closed, SemantiK/Spek contract with explicitly labeled test double",
+  "real_gf_compiled_here": false,
+  "real_semantik_gf_output_here": false,
+  "publication_authorized": false,
+  "note": "GF executable/PGF Python binding not installed in build environment. Running on the user workstation is necessary for a real end-to-end GF verdict."
+}

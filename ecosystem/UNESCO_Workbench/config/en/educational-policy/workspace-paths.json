@@ -1,0 +1,27 @@
+{
+  "format": "encyklopedia.unesco-workbench/1.0",
+  "project": "UNESCO encyclopedia",
+  "branch": "unesco-mt1-10",
+  "branch_label": "Educational policy",
+  "preferred_language": "en",
+  "status": "private_candidate_not_published",
+  "sources": {
+    "factory": "C:\\mycode\\EncyKlopedia\\Kristal_UNESCO_Factory",
+    "run_home": "D:\\EncyKlopedia\\90_runtime\\unesco\\factory",
+    "kristalizer": "C:\\mycode\\Kristal\\Kristalizer",
+    "wikidata_data": "D:\\EncyKlopedia\\30_working\\wikidata",
+    "skope_indexes": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+    "linkeddatahub": "C:\\mycode\\EncyKlopedia\\LinkedDataHub-UNESCO",
+    "historical_run_home": "C:\\mycode\\Kristal\\Kristalizer\\SORTIE\\UNESCO\\FABRIQUE"
+  },
+  "artifacts": {
+    "branch_kristal_working_copy": "C:\\mycode\\EncyKlopedia\\UNESCO_Kristals\\branches\\unesco-mt1-10",
+    "evidence": "D:\\EncyKlopedia\\20_evidence\\unesco\\educational-policy",
+    "projections_private": "D:\\EncyKlopedia\\60_projection_candidates\\unesco\\educational-policy\\en",
+    "publication_candidates_private": "D:\\EncyKlopedia\\70_publication_candidates\\unesco\\educational-policy\\en",
+    "v11_candidate": "C:\\mycode\\EncyKlopedia\\UNESCO_Workbench\\candidates\\educational-policy-en-v11\\unesco-mt1-10",
+    "unapproved_research_view": "C:\\mycode\\EncyKlopedia\\UNESCO_Workbench\\output\\private\\educational-policy-en\\research-view.json"
+  },
+  "publication_enabled": false,
+  "note": "English-first research only. LinkedDataHub is historical RDF comparison; UNESCO 2026 source remains branch anchor. No canonical promotion or public release."
+}

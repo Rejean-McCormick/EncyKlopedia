@@ -1,0 +1,25 @@
+{
+  "authority": "editorial_bindings_explicit_not_approved",
+  "bindings": {
+    "scope": {
+      "communication_request_ref": "requests/concept10.fr.scope.json",
+      "kind": "scope",
+      "node_type": "text_slot",
+      "realization_key": "concept10.fr.scope"
+    },
+    "statement": {
+      "communication_request_ref": "requests/concept10.fr.statement.json",
+      "kind": "claim",
+      "node_type": "text_slot",
+      "realization_key": "concept10.fr.statement"
+    }
+  },
+  "format": "spek.composition-instance/1.0",
+  "instance_id": "unesco-concept10-fr",
+  "presentation": {
+    "join_mode": "block",
+    "layout_variant": "flow",
+    "show_template_labels": false
+  },
+  "template_ref": "rhetorical.assertion@1.0.0"
+}

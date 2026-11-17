@@ -1,0 +1,105 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.pdtb-exception",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Règle et exception",
+  "research_basis": {
+    "family": "discourse",
+    "relation": "pdtb.expansion.exception",
+    "source": "PDTB",
+    "source_url": "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "pdtb.expansion.exception",
+    "editorial_relation_required": true,
+    "semantic_warning": "Portée exacte de l’exception obligatoire.",
+    "critical_questions": []
+  },
+  "slots": {
+    "general": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "claim"
+      ],
+      "visual_role": "paragraph"
+    },
+    "exception": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "general",
+    "exception"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "exception"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "pdtb.expansion.exception",
+    "focus_slot": "general",
+    "moves": [
+      {
+        "slot": "general",
+        "function": "general_claim",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "exception",
+        "function": "exception",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "exception",
+        "to_slot": "general",
+        "relation": "pdtb.expansion.exception",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "general"
+      ],
+      [
+        "exception"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Portée exacte de l’exception obligatoire."
+    }
+  }
+}

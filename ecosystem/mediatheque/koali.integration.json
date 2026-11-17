@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "productId": "koa_mediatheque",
+  "owner": "Médiathèque kOA",
+  "variables": {
+    "webPort": {
+      "type": "port",
+      "env": "KOALI_KOA_MEDIATHEQUE_PORT",
+      "default": 8501
+    }
+  },
+  "surface": {
+    "embedBase": "http://127.0.0.1:${webPort}"
+  },
+  "processes": [
+    {
+      "id": "web",
+      "cwd": ".",
+      "command": {
+        "win32": ".venv\\Scripts\\python.exe",
+        "default": ".venv/bin/python"
+      },
+      "args": [
+        "-m",
+        "streamlit",
+        "run",
+        "06_GUI/koa_mediatheque_gui/app.py",
+        "--server.address",
+        "127.0.0.1",
+        "--server.port",
+        "${webPort}",
+        "--server.headless",
+        "true"
+      ],
+      "env": {
+        "KOA_CONTENT_ROOT": "${repo}/../mediatheque-blank",
+        "KOA_STREAMLIT_HOST": "127.0.0.1",
+        "KOA_STREAMLIT_PORT": "${webPort}",
+        "KOA_STREAMLIT_HEADLESS": "true"
+      },
+      "probeId": "web"
+    }
+  ],
+  "probes": [
+    {
+      "id": "web",
+      "url": "http://127.0.0.1:${webPort}/_stcore/health",
+      "required": true,
+      "statuses": [
+        200
+      ],
+      "timeoutMs": 2500
+    }
+  ]
+}

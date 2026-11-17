@@ -1,0 +1,73 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-referentiel-semantique",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-01",
+    "slug": "referentiel-semantique",
+    "name": "Semantic Reference"
+  },
+  "source_arketype_file": "archetypes/referentiel-semantique.json",
+  "editorial_rationale": "Structure Arketype ARK-01: Connected concepts, entities and sourced relationships. Reusable knowledge stores, dictionaries, educational and cultural references.",
+  "source_structural_primitives": [
+    "referents",
+    "types",
+    "relations_typees",
+    "assertions_contextualisees",
+    "sources",
+    "provenance"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "notions",
+      "title_function": "Concepts, types et contextes",
+      "layout_id": "concept-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "referents",
+        "types",
+        "assertions_contextualisees"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "definition": 1,
+        "examples": 1,
+        "context": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Chaque notion doit être sourcée et contextualisée."
+    },
+    {
+      "section_id": "nuances",
+      "title_function": "Différences d’interprétation",
+      "layout_id": "comparison",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "relations_typees",
+        "sources"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "topic": 1,
+        "criterion": 1,
+        "approach_a": 1,
+        "approach_b": 1,
+        "synthesis": 1,
+        "limitations": 1
+      },
+      "editorial_constraint": "Uniquement si deux approches réellement distinctes sont documentées."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "semantic-network"
+  ],
+  "integrity_rule": "Distinguish assertions from instructional projections and record sources.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

@@ -1,0 +1,16 @@
+{
+  "format": "kristal.authoring-kit-local-cleanup/1.0",
+  "origin": "snapshot_10131043",
+  "candidates": [
+    {
+      "path": "SMARTDUMP_INDEX.txt",
+      "sha256": "782d00eccbe4f21ad54c01b75ccd51762ec663ab3a946c1d7b62806a755afefc",
+      "reason": "Index de snapshot périmé ; régénéré uniquement par l’outil de snapshot."
+    },
+    {
+      "path": "SNAPSHOT_INDEX.txt",
+      "sha256": "db7d24e70c34b7b9b794fb7776e85f5aea9dd6d026a7400034357a7e51c0317b",
+      "reason": "Index de snapshot périmé ; régénéré uniquement par l’outil de snapshot."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-invariant-theorie",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-07",
+    "slug": "invariant-theorie",
+    "name": "Invariant / Formal Theory"
+  },
+  "source_arketype_file": "archetypes/invariant-theorie.json",
+  "editorial_rationale": "Structure Arketype ARK-07: Formal definitions, rules and logical dependencies. Theorem systems, invariant specifications and formal studies.",
+  "source_structural_primitives": [
+    "invariants",
+    "morphes_equivalents",
+    "consequences",
+    "contre_exemples",
+    "preuves",
+    "certificats",
+    "tests"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "structure",
+      "title_function": "Invariants et justification",
+      "layout_id": "argument-map",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "invariants",
+        "consequences",
+        "preuves"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "thesis": 1,
+        "premises": 1,
+        "inference": 1,
+        "objection": 1,
+        "conclusion": 1
+      },
+      "editorial_constraint": "Preuve exacte, objection et portée nécessaires."
+    },
+    {
+      "section_id": "enonce",
+      "title_function": "Résultat formel borné",
+      "layout_id": "result-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "certificats",
+        "preuves",
+        "consequences"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "claim": 1,
+        "conditions": 1,
+        "evidence": 1,
+        "uncertainty": 1
+      },
+      "editorial_constraint": "Ne pas considérer un test comme preuve mathématique."
+    },
+    {
+      "section_id": "validation",
+      "title_function": "Tests et contre-exemples",
+      "layout_id": "observation-inference",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "tests",
+        "contre_exemples"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "observations": 1,
+        "interpretation": 1,
+        "verification": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Présenter explicitement la portée des tests."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "formal-proof"
+  ],
+  "integrity_rule": "Proof obligations need real justification and scope.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

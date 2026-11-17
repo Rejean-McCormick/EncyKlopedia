@@ -1,0 +1,1372 @@
+{
+  "format": "kristal.local-kit-repo-manifest/3.2.0",
+  "algorithm": "sha256",
+  "kit_version": "4.0.0-draft.3",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "cdc983faf210815946b0aa6820bc6a1effdc8bbba95dc941df671c99a006c13a",
+      "size": 1219
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "2f63dc384cb68c1e90d69e2353d7f694ec13f1e5ebbf7b18e42e6df5077fbd99",
+      "size": 47
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "282475d4b90f6e63b2a8f4cccc65f160594a989dbccfe80b323d4f774aab5c9b",
+      "size": 3615
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "1c2694da6fa0cd4846ca778994cbf1a50c8c9f947f8f4f0cea6d110a5eb37627",
+      "size": 12301
+    },
+    {
+      "path": "GitSink.bat",
+      "sha256": "26c1bd8e8c7dc4d8adb1fe6da128b020ffbb7d90d54ad402ce3e64f2ce10b109",
+      "size": 1863
+    },
+    {
+      "path": "Launch_MULTiSmartDump.lnk",
+      "sha256": "597cb480ff60a1169b72f50df355256fefb23e5bcc03b382b1be07428b14821b",
+      "size": 1359
+    },
+    {
+      "path": "MIGRATION_REPORT.md",
+      "sha256": "771e1104849a5d94ff8f76ad2ae128383338e9aab2d3c8debb0d77977409fb63",
+      "size": 950
+    },
+    {
+      "path": "Nettoyer_Anciens_Fichiers.pyw",
+      "sha256": "376b57622fe4bacc065d308b565a8e557014217894c7a16a4b0baf5a113f5225",
+      "size": 5525
+    },
+    {
+      "path": "README.md",
+      "sha256": "d227ffc08f4927c47eabfe7773e0e765cc938c07793df83aca6e3172f37cf969",
+      "size": 11599
+    },
+    {
+      "path": "SMARTDUMP_INDEX.txt",
+      "sha256": "782d00eccbe4f21ad54c01b75ccd51762ec663ab3a946c1d7b62806a755afefc",
+      "size": 11157
+    },
+    {
+      "path": "SNAPSHOT_INDEX.txt",
+      "sha256": "af1ac6a3f9cde810f3cc83836420d5273ff58ba94c6c839428ef8f2b2f440095",
+      "size": 12338
+    },
+    {
+      "path": "TOOLS.md",
+      "sha256": "8c4cfe67e2742003bbcc6d7f74f5296eb0d82ff56d6df5b13de25445645e6b77",
+      "size": 3965
+    },
+    {
+      "path": "VALIDATION_CONSOLIDATION_3_3_1.md",
+      "sha256": "80081f2322c3ddec87acd7f3eea17d18d10eef35c7bf8161160169ed6aaa9860",
+      "size": 1150
+    },
+    {
+      "path": "VALIDATION_DISCOVERY_3_3_0.md",
+      "sha256": "c149f2858d79031bab887b60c248a6ee8ad08b168b41700ea5fad43d59a3698e",
+      "size": 2252
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "sha256": "579344846ca2261c4bdb64cb3e43f817bd99622d7ee4b84cb77ab0082882189e",
+      "size": 2983
+    },
+    {
+      "path": "VALIDATION_REPORT_3_2_5_RC1.md",
+      "sha256": "5c95e1a002753032b855e20752abf0e63ec85876a07a271993e11f2d343d1973",
+      "size": 2773
+    },
+    {
+      "path": "VALIDATION_V11_DRAFT1.md",
+      "sha256": "38812261412834ee86adaa9194d8b4d9af7422cc3b4b490a92b0464753fc647a",
+      "size": 2846
+    },
+    {
+      "path": "VALIDATION_V11_DRAFT2.md",
+      "sha256": "e3d06850c6bf86e71c01e9f938664eff60313c43e2d6edc9c6e96524300cf6c6",
+      "size": 2106
+    },
+    {
+      "path": "VALIDATION_V11_DRAFT3.md",
+      "sha256": "24aa5f6ce29702c02a3d54ed7a1cdd238d67660eda41350630a11ff70e48a5ba",
+      "size": 2776
+    },
+    {
+      "path": "VERSION",
+      "sha256": "b5cb9b0d029aae724acb556eb57de218bd2d667305b3aecb7cfef5ea4bd0fbf8",
+      "size": 14
+    },
+    {
+      "path": "ZmartZnap.pyw",
+      "sha256": "70775b94ff616ed9efdb3d6b989639fa3cd22a250f1389fec485791d161df1ea",
+      "size": 22889
+    },
+    {
+      "path": "contracts/v11-framework-pin.json",
+      "sha256": "074971bb4dd1793e34f14b851f7cd3f56c20db8bf0a97f9339de51e44fb673c2",
+      "size": 1515
+    },
+    {
+      "path": "docs/01_MENTAL_MODEL.md",
+      "sha256": "070ffab3a41439f73a271db6ecec915e3f4056f695460c758c9f847723074e14",
+      "size": 2859
+    },
+    {
+      "path": "docs/02_BUILD_PROTOCOL.md",
+      "sha256": "347fc55b66182a5fef4a0f33abe12f5d4c457251d679c2e07a750b7ee94df26b",
+      "size": 3271
+    },
+    {
+      "path": "docs/03_SHAPE_DISCOVERY.md",
+      "sha256": "c85c9ea747ec5a3bed43bc021dd65f7779902106647d82d1abd6bfceb9dd6726",
+      "size": 2407
+    },
+    {
+      "path": "docs/04_EPISTEMIC_AND_AUTHORITY.md",
+      "sha256": "0685e41194d3f7ddd487136429beb4ac80edc0e49a6fd9527d5f169d81c98185",
+      "size": 1476
+    },
+    {
+      "path": "docs/05_ORIENTATIONS_AND_PROJECTIONS.md",
+      "sha256": "59452c3ab5916925f450950c5d80019ee5a7555f076074de068c77086635e456",
+      "size": 1607
+    },
+    {
+      "path": "docs/06_LAYOUT_AND_LIFECYCLE.md",
+      "sha256": "a1dfb4ef8f93284717512ca43219cf93d20fb68734ef932516d8160b7540e38e",
+      "size": 1887
+    },
+    {
+      "path": "docs/07_VALIDATION.md",
+      "sha256": "4b29497475a22fd783328431c90bedb31927c21e1f0f5fd6d3e19d77f2f94285",
+      "size": 1534
+    },
+    {
+      "path": "docs/08_AI_WORKFLOWS.md",
+      "sha256": "305f94c29703e0be08b503ed85689041a6cf7913cce17fcdfb0486efa56adcdd",
+      "size": 1081
+    },
+    {
+      "path": "docs/09_PATTERN_LIBRARY.md",
+      "sha256": "3766db3b2ef77ae8271829c7638add42c8e570cee408cd2f09f6ceea61007aa0",
+      "size": 1746
+    },
+    {
+      "path": "docs/10_FRAMEWORK_ALIGNMENT.md",
+      "sha256": "ec1231806e757d023071a518ec964ca586ae8b19cc589e4fbbcc456e6c2d2d6d",
+      "size": 1858
+    },
+    {
+      "path": "docs/11_V9_STATE_ARCHITECTURE.md",
+      "sha256": "a1118888db1e50d5546c0cc6f6fdba0486084ca64d2ee28f96bd2913c3d5a3a6",
+      "size": 1100
+    },
+    {
+      "path": "docs/12_RELEASE_WORKFLOW_V9.md",
+      "sha256": "0c2f4f61e94ff46f96b5f17f03635cb13ea076e1524a7c4f68d6d7151d598446",
+      "size": 1135
+    },
+    {
+      "path": "docs/13_MIGRATION_V1_TO_V2.md",
+      "sha256": "d3ead1b9a0844fb1252979d06dd57ac1aa9a18ca6263657c6828c43f32e5b9cf",
+      "size": 1908
+    },
+    {
+      "path": "docs/14_V10_HOSTED_NETWORK.md",
+      "sha256": "c2a3aa1daf66faf28a7fcdf95673fb72e6f6bd67d2e28a3fd26f83d5b6a2ced9",
+      "size": 1156
+    },
+    {
+      "path": "docs/15_GITHUB_AUTHORING_WORKFLOW.md",
+      "sha256": "5f0f6c5644757ff8fef6ba496ea8831d0be46af5239acca5cea445ae679ee941",
+      "size": 1674
+    },
+    {
+      "path": "docs/16_PUBLICATION_AND_ACTIVATION_V10.md",
+      "sha256": "1cee1dbea5c67a8c2acbfe921067451f2a12ae3abb65cb7dd769d4ea4340e1b3",
+      "size": 941
+    },
+    {
+      "path": "docs/17_MULTI_KRISTAL_COLLECTIONS.md",
+      "sha256": "363d6612e5abc85f6583521921c58a642299bac8d3b00e50bb109bc80b8dca1e",
+      "size": 1024
+    },
+    {
+      "path": "docs/18_PORTABLE_AI_CAPSULE.md",
+      "sha256": "4bba6147a5d52ad1ab603bdb66a0341936ed4998c1cf7722d6d1f7f82ae2407d",
+      "size": 1629
+    },
+    {
+      "path": "docs/19_TOOLCHAIN_ROLES.md",
+      "sha256": "4c9086b856b7aa8adad465740a4e207fafb6226a07d211b1be8c8b2f22dc26ee",
+      "size": 1161
+    },
+    {
+      "path": "docs/20_TOOLCHAIN_INTEROP.md",
+      "sha256": "fc9b53441140de0d48d168e4f7559450371d99f1105ca6a0d7d0363047c1c9d8",
+      "size": 1777
+    },
+    {
+      "path": "docs/21_V9_MATERIALIZATION_AUTHORING.md",
+      "sha256": "14a85c79595c2349c3b872bc8611a2313639d23d4858ac52dbfa110e08f21588",
+      "size": 2307
+    },
+    {
+      "path": "docs/22_V10_ALIGNMENT_READINESS.md",
+      "sha256": "970fa68b8b2bc47858b553359a187388d2fc56cc973d4d7ec2707ebcf93ea296",
+      "size": 3123
+    },
+    {
+      "path": "docs/23_DISCOVERY_AND_READER_PROFILES.md",
+      "sha256": "2699c44d9de4c4023cb0b95dac7ad0003066cbb54c9c5806abf10c2b77ff4d12",
+      "size": 4639
+    },
+    {
+      "path": "docs/24_CONSOLIDATION_CONSUMER_CONTRACTS.md",
+      "sha256": "139b71bbe639eea841324d614bb17a195ab7428f05d986434f872b9b4bbd80dc",
+      "size": 3822
+    },
+    {
+      "path": "docs/25_NETTOYAGE_LOCAL.md",
+      "sha256": "99f85f4c4aa42cfb3f0a8acccc809be67bd19f6004652aa892bc67f4fd70a011",
+      "size": 1409
+    },
+    {
+      "path": "docs/26_V11_SEMANTIC_AUTHORING.md",
+      "sha256": "c242b72a24ee7027bba470a2bffa18681a1e3e75483f4c822fa76a0da6b06ade",
+      "size": 8235
+    },
+    {
+      "path": "docs/27_DIK_INTEGRATION.md",
+      "sha256": "90c3c334a58d8d2d392837ee1d1fa59c7ad5295bcc0312b0237f4bd1471a83a9",
+      "size": 3752
+    },
+    {
+      "path": "docs/28_V11_FRAMEWORK_QUALIFICATION.md",
+      "sha256": "3dd3020ccd39067302196f0c65b784197472d3584f9f0556a4bec1e9f392fcd2",
+      "size": 3995
+    },
+    {
+      "path": "docs/29_DIK_CATALOG_PROMOTION.md",
+      "sha256": "284d6f299a0ea458207afcf7a68280479f61afd033f5a9f57f0c7bd422697858",
+      "size": 3813
+    },
+    {
+      "path": "docs/30_V11_TRANSACTION_RECOVERY.md",
+      "sha256": "3db21caf7f025e096e8e8ebd9309afc9d551e7a94f9a2eef592bcb669b857970",
+      "size": 2703
+    },
+    {
+      "path": "examples/demo-hosted-v10/.gitignore",
+      "sha256": "ba9e766905d86932af10e20f99bdafe6b4a37eab2b45a1d91e011bc12985858f",
+      "size": 99
+    },
+    {
+      "path": "examples/demo-hosted-v10/AGENTS.md",
+      "sha256": "211615e096aa531e0f933cd6562802dffa48fa4227ba3211b734f49fbafff406",
+      "size": 1416
+    },
+    {
+      "path": "examples/demo-hosted-v10/AI_MANIFEST.json",
+      "sha256": "2378e6183a0839dfbbde1c5fc0379f2f3689896cfc0d08dce254ef236a370222",
+      "size": 1921
+    },
+    {
+      "path": "examples/demo-hosted-v10/AI_START_HERE.md",
+      "sha256": "bd988bba7c5ed7cd1ad8b69aa62e99d0fa9066ab89b1dc81f7a0c3739e8c1d07",
+      "size": 2595
+    },
+    {
+      "path": "examples/demo-hosted-v10/README.md",
+      "sha256": "fa02732e75430e2d8131876a584ef4a27385ff34c78591cd861d5f2ef55cede0",
+      "size": 872
+    },
+    {
+      "path": "examples/demo-hosted-v10/ai/CONTEXT.md",
+      "sha256": "0a447b31d8db420a93daf07e0b7cd85b08c29b8bfc696df791b5395b5c1a3760",
+      "size": 2540
+    },
+    {
+      "path": "examples/demo-hosted-v10/ai/COVERAGE.json",
+      "sha256": "0401dc890f60feab2e22246798b1d11da05ef1db1c807ed5810e788143c8fc04",
+      "size": 1026
+    },
+    {
+      "path": "examples/demo-hosted-v10/ai/GLOSSARY.md",
+      "sha256": "1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01",
+      "size": 218
+    },
+    {
+      "path": "examples/demo-hosted-v10/ai/INDEX.json",
+      "sha256": "2658c6648586ca5198f8c0dff400ac9dacce54e60de905c71d5a9c24117b5ded",
+      "size": 4032
+    },
+    {
+      "path": "examples/demo-hosted-v10/ai/QUESTIONS.md",
+      "sha256": "569e29c6d3dc91f2470edb7817babe4fa2af1d741f51e2f3f10349d8021a4303",
+      "size": 595
+    },
+    {
+      "path": "examples/demo-hosted-v10/ai/RELATIONS.json",
+      "sha256": "c48c97194e9ab4d3f73986b0aaf514486c247911b02df46ea8683348ab74e5c9",
+      "size": 692
+    },
+    {
+      "path": "examples/demo-hosted-v10/canon/domain/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-hosted-v10/canon/domain/core.json",
+      "sha256": "6752200490ac9e6c7bb61954dbdeb53b02ee96dc448b1ceb0a5edea702d4d8f3",
+      "size": 242
+    },
+    {
+      "path": "examples/demo-hosted-v10/canon/epistemic/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-hosted-v10/canon/operations/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-hosted-v10/canon/state.index.json",
+      "sha256": "66e76606e25269f333c202f29ec15d51e88678a5793962bbd3cbf7fa31aec0e8",
+      "size": 656
+    },
+    {
+      "path": "examples/demo-hosted-v10/docs/00_INTENT_AND_SCOPE.md",
+      "sha256": "d0df91ecbb1f53d27cddcbfdebcaa9817124e748be1daf6142b4d238bc566e9e",
+      "size": 178
+    },
+    {
+      "path": "examples/demo-hosted-v10/docs/01_SEMANTIC_BOUNDARY.md",
+      "sha256": "e64f8d02ed78ec658d24e28f5b3350e1f9019cb3a76435db87c7f3e268af52cc",
+      "size": 311
+    },
+    {
+      "path": "examples/demo-hosted-v10/docs/02_NATIVE_MODEL.md",
+      "sha256": "2320cc6f04806628639dce5184a25e97085945f09f31408f5ba6f92f5bcce5cf",
+      "size": 174
+    },
+    {
+      "path": "examples/demo-hosted-v10/docs/03_EPISTEMIC_MODEL.md",
+      "sha256": "6418e38b6e54893d2a03bf702f754b192f48679ad89853b405e1b325260a53b7",
+      "size": 356
+    },
+    {
+      "path": "examples/demo-hosted-v10/docs/04_CANONICAL_DERIVED.md",
+      "sha256": "9ca1154b18ae0980a96e562cedbef1ce85a2912940cf52819dd0fd402e1b1345",
+      "size": 311
+    },
+    {
+      "path": "examples/demo-hosted-v10/docs/05_ORIENTATIONS.md",
+      "sha256": "4ef452034359517fbbc8038117817fc8695d5c3effc12544e8b7437ac6323b77",
+      "size": 287
+    },
+    {
+      "path": "examples/demo-hosted-v10/docs/06_VALIDATION.md",
+      "sha256": "df5dadb0965856b592ed1b614e29d06feaa8f5abfe6013a296727cc449eadc34",
+      "size": 438
+    },
+    {
+      "path": "examples/demo-hosted-v10/docs/07_HOSTING_AND_PUBLICATION.md",
+      "sha256": "ae4e01c7a5ecdb94b4603452bdc78973771b000addd3ed83ebf2082db1d5022b",
+      "size": 795
+    },
+    {
+      "path": "examples/demo-hosted-v10/docs/08_GLOSSARY.md",
+      "sha256": "1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01",
+      "size": 218
+    },
+    {
+      "path": "examples/demo-hosted-v10/docs/PROFILE_NOTES.md",
+      "sha256": "5f62161b993e08b75068058c91f55fb7e105775d86fcf52e38fdd2f6be7d7d44",
+      "size": 180
+    },
+    {
+      "path": "examples/demo-hosted-v10/hosting/github.json",
+      "sha256": "70508c842b22a38d5ff716f6ea31e237f5379ef7ab21cef22934dce7600d5615",
+      "size": 445
+    },
+    {
+      "path": "examples/demo-hosted-v10/kristal.workspace.json",
+      "sha256": "00a44af2ddaa13064e0e8eb9edbab2eec07e3fd61eb243d4752a3711997ccde3",
+      "size": 1888
+    },
+    {
+      "path": "examples/demo-hosted-v10/runtime/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-hosted-v10/sources/source-catalog.json",
+      "sha256": "38ad8975f9cbb9e98b6b379cac85331d08a8d48a41e0a85f71ccde5e19ee453c",
+      "size": 210
+    },
+    {
+      "path": "examples/demo-hosted-v10/state/state-snapshot.json",
+      "sha256": "c5722e3650d8b000819a794706d330b5b47f75f1ac27f0fb59fee3739d9ac1f3",
+      "size": 789
+    },
+    {
+      "path": "examples/demo-hosted-v10/tools/_templates/AGENTS.kristal.md",
+      "sha256": "211615e096aa531e0f933cd6562802dffa48fa4227ba3211b734f49fbafff406",
+      "size": 1416
+    },
+    {
+      "path": "examples/demo-hosted-v10/tools/_templates/AI_START_HERE.md",
+      "sha256": "bd988bba7c5ed7cd1ad8b69aa62e99d0fa9066ab89b1dc81f7a0c3739e8c1d07",
+      "size": 2595
+    },
+    {
+      "path": "examples/demo-hosted-v10/tools/_templates/github-hosting.json",
+      "sha256": "774e87548a6917b1b25e7c610d727d19af4df081897a816a02744ff5eaf021c9",
+      "size": 378
+    },
+    {
+      "path": "examples/demo-hosted-v10/tools/_templates/gitignore-kristal.txt",
+      "sha256": "ba9e766905d86932af10e20f99bdafe6b4a37eab2b45a1d91e011bc12985858f",
+      "size": 99
+    },
+    {
+      "path": "examples/demo-hosted-v10/tools/_templates/projection.json",
+      "sha256": "9a93c6e5ae26d5d989458a3c7dd43fbe3b5d878a23a6db61d9cc82594d068eb2",
+      "size": 565
+    },
+    {
+      "path": "examples/demo-hosted-v10/tools/_templates/readme-kristal.md",
+      "sha256": "8c006082936943cd65ebf45403f7c951831f8ce4dd640849d994d5c8c180f682",
+      "size": 844
+    },
+    {
+      "path": "examples/demo-hosted-v10/tools/_templates/source-catalog.json",
+      "sha256": "4e11d46142630914cfd1fb447c6b065d9143d24d179a18edc1162f3063edfce9",
+      "size": 64
+    },
+    {
+      "path": "examples/demo-hosted-v10/tools/_templates/state.index.json",
+      "sha256": "28a1ce910aa079e50199b467487fac9af0584ad43360200f5a4666d2481e1c08",
+      "size": 275
+    },
+    {
+      "path": "examples/demo-hosted-v10/tools/_templates/workspace.json",
+      "sha256": "6e048d7ed0086aa47ca6ebd1a3d3798057a5d9861bc2a5b732d04c8b0cc23a2d",
+      "size": 1680
+    },
+    {
+      "path": "examples/demo-hosted-v10/tools/kristal.py",
+      "sha256": "282ab66efcab5aa414e4663103d498c53e570cd3a52142cbdd39cbc5c2da5d95",
+      "size": 123848
+    },
+    {
+      "path": "examples/demo-hosted-v10/validation/manifest.sha256.json",
+      "sha256": "fdce30f862f9631b86104fa2460c40eaef3c2d8ff89cefc6cb93ce436654cf3c",
+      "size": 7469
+    },
+    {
+      "path": "examples/demo-open/.gitignore",
+      "sha256": "ba9e766905d86932af10e20f99bdafe6b4a37eab2b45a1d91e011bc12985858f",
+      "size": 99
+    },
+    {
+      "path": "examples/demo-open/AGENTS.md",
+      "sha256": "211615e096aa531e0f933cd6562802dffa48fa4227ba3211b734f49fbafff406",
+      "size": 1416
+    },
+    {
+      "path": "examples/demo-open/AI_MANIFEST.json",
+      "sha256": "e76f081daacc0015fbf57eaf8155832e35b48baf7d62e784c99268dc88fae4d3",
+      "size": 1903
+    },
+    {
+      "path": "examples/demo-open/AI_START_HERE.md",
+      "sha256": "bd988bba7c5ed7cd1ad8b69aa62e99d0fa9066ab89b1dc81f7a0c3739e8c1d07",
+      "size": 2595
+    },
+    {
+      "path": "examples/demo-open/README.md",
+      "sha256": "09799d6b9d30a5102fe975ed6f30dc6b8240e1d5de3c51da811fb710ce32d9c1",
+      "size": 860
+    },
+    {
+      "path": "examples/demo-open/ai/CONTEXT.md",
+      "sha256": "97b6e66f0f800c22602b7c2e7e18a1529acd0c23de399b3e03d61b6b524a8c70",
+      "size": 2674
+    },
+    {
+      "path": "examples/demo-open/ai/COVERAGE.json",
+      "sha256": "07856f8710aee0ccbb86ceb293573d37bb6e7623d35aa2b5ca430913e1974c2c",
+      "size": 1016
+    },
+    {
+      "path": "examples/demo-open/ai/GLOSSARY.md",
+      "sha256": "1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01",
+      "size": 218
+    },
+    {
+      "path": "examples/demo-open/ai/INDEX.json",
+      "sha256": "f70eab3f688ea8ba059a61ab08e101c61fb797dc62f95843fccaf4ce3e3a3985",
+      "size": 3888
+    },
+    {
+      "path": "examples/demo-open/ai/QUESTIONS.md",
+      "sha256": "30d75d8ffddfa2e50b886e87e6d6f248fab0b5c40ac91c7a4d0b3b06da6bf2f4",
+      "size": 589
+    },
+    {
+      "path": "examples/demo-open/ai/RELATIONS.json",
+      "sha256": "57cbfd6e491df716d8939ec79f5900aec72f0632d4295cdb72b8980a0a16d70c",
+      "size": 334
+    },
+    {
+      "path": "examples/demo-open/canon/domain/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-open/canon/epistemic/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-open/canon/operations/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-open/canon/state.index.json",
+      "sha256": "28a1ce910aa079e50199b467487fac9af0584ad43360200f5a4666d2481e1c08",
+      "size": 275
+    },
+    {
+      "path": "examples/demo-open/docs/00_INTENT_AND_SCOPE.md",
+      "sha256": "219e9e3e1b4bf142d4ccc0f5c55c6808e678107def8d75426ba2ef8d2da6bf13",
+      "size": 128
+    },
+    {
+      "path": "examples/demo-open/docs/01_SEMANTIC_BOUNDARY.md",
+      "sha256": "e64f8d02ed78ec658d24e28f5b3350e1f9019cb3a76435db87c7f3e268af52cc",
+      "size": 311
+    },
+    {
+      "path": "examples/demo-open/docs/02_NATIVE_MODEL.md",
+      "sha256": "d537d1aed326bca7a4b76651eecdb3ab983cdeaf9bd49ccbae1404bd96257b1b",
+      "size": 382
+    },
+    {
+      "path": "examples/demo-open/docs/03_EPISTEMIC_MODEL.md",
+      "sha256": "6418e38b6e54893d2a03bf702f754b192f48679ad89853b405e1b325260a53b7",
+      "size": 356
+    },
+    {
+      "path": "examples/demo-open/docs/04_CANONICAL_DERIVED.md",
+      "sha256": "9ca1154b18ae0980a96e562cedbef1ce85a2912940cf52819dd0fd402e1b1345",
+      "size": 311
+    },
+    {
+      "path": "examples/demo-open/docs/05_ORIENTATIONS.md",
+      "sha256": "4ef452034359517fbbc8038117817fc8695d5c3effc12544e8b7437ac6323b77",
+      "size": 287
+    },
+    {
+      "path": "examples/demo-open/docs/06_VALIDATION.md",
+      "sha256": "df5dadb0965856b592ed1b614e29d06feaa8f5abfe6013a296727cc449eadc34",
+      "size": 438
+    },
+    {
+      "path": "examples/demo-open/docs/07_HOSTING_AND_PUBLICATION.md",
+      "sha256": "ae4e01c7a5ecdb94b4603452bdc78973771b000addd3ed83ebf2082db1d5022b",
+      "size": 795
+    },
+    {
+      "path": "examples/demo-open/docs/08_GLOSSARY.md",
+      "sha256": "1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01",
+      "size": 218
+    },
+    {
+      "path": "examples/demo-open/docs/PROFILE_NOTES.md",
+      "sha256": "5f62161b993e08b75068058c91f55fb7e105775d86fcf52e38fdd2f6be7d7d44",
+      "size": 180
+    },
+    {
+      "path": "examples/demo-open/kristal.workspace.json",
+      "sha256": "144660e9b551c6f1fc8be94cb61ceba09049af796d7f24ce708f9b09cf1d7455",
+      "size": 1669
+    },
+    {
+      "path": "examples/demo-open/projections/recipes/main-view.projection.json",
+      "sha256": "b3624792ae4f0ce977e4db60088ac0a3406607a5bf18e9e579ddda767e231b22",
+      "size": 558
+    },
+    {
+      "path": "examples/demo-open/runtime/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-open/sources/source-catalog.json",
+      "sha256": "2635dc4082c6986521cbdcd201b892532af8a34dc333979dd747afe03d2cd455",
+      "size": 199
+    },
+    {
+      "path": "examples/demo-open/state/state-snapshot.json",
+      "sha256": "dcc5040020fd63e8a9ab708ed6f2d0d8af8d3663c0a057c917014ba760cedbf2",
+      "size": 351
+    },
+    {
+      "path": "examples/demo-open/tools/_templates/AGENTS.kristal.md",
+      "sha256": "211615e096aa531e0f933cd6562802dffa48fa4227ba3211b734f49fbafff406",
+      "size": 1416
+    },
+    {
+      "path": "examples/demo-open/tools/_templates/AI_START_HERE.md",
+      "sha256": "bd988bba7c5ed7cd1ad8b69aa62e99d0fa9066ab89b1dc81f7a0c3739e8c1d07",
+      "size": 2595
+    },
+    {
+      "path": "examples/demo-open/tools/_templates/github-hosting.json",
+      "sha256": "774e87548a6917b1b25e7c610d727d19af4df081897a816a02744ff5eaf021c9",
+      "size": 378
+    },
+    {
+      "path": "examples/demo-open/tools/_templates/gitignore-kristal.txt",
+      "sha256": "ba9e766905d86932af10e20f99bdafe6b4a37eab2b45a1d91e011bc12985858f",
+      "size": 99
+    },
+    {
+      "path": "examples/demo-open/tools/_templates/projection.json",
+      "sha256": "9a93c6e5ae26d5d989458a3c7dd43fbe3b5d878a23a6db61d9cc82594d068eb2",
+      "size": 565
+    },
+    {
+      "path": "examples/demo-open/tools/_templates/readme-kristal.md",
+      "sha256": "8c006082936943cd65ebf45403f7c951831f8ce4dd640849d994d5c8c180f682",
+      "size": 844
+    },
+    {
+      "path": "examples/demo-open/tools/_templates/source-catalog.json",
+      "sha256": "4e11d46142630914cfd1fb447c6b065d9143d24d179a18edc1162f3063edfce9",
+      "size": 64
+    },
+    {
+      "path": "examples/demo-open/tools/_templates/state.index.json",
+      "sha256": "28a1ce910aa079e50199b467487fac9af0584ad43360200f5a4666d2481e1c08",
+      "size": 275
+    },
+    {
+      "path": "examples/demo-open/tools/_templates/workspace.json",
+      "sha256": "6e048d7ed0086aa47ca6ebd1a3d3798057a5d9861bc2a5b732d04c8b0cc23a2d",
+      "size": 1680
+    },
+    {
+      "path": "examples/demo-open/tools/kristal.py",
+      "sha256": "282ab66efcab5aa414e4663103d498c53e570cd3a52142cbdd39cbc5c2da5d95",
+      "size": 123848
+    },
+    {
+      "path": "examples/demo-open/validation/manifest.sha256.json",
+      "sha256": "0c4762b9e50fb33e4750c1cc9a71e61d5004302fcdf8b83bf4c6415bb51c8d08",
+      "size": 6900
+    },
+    {
+      "path": "examples/demo-semantic-v11/.gitignore",
+      "sha256": "ba9e766905d86932af10e20f99bdafe6b4a37eab2b45a1d91e011bc12985858f",
+      "size": 99
+    },
+    {
+      "path": "examples/demo-semantic-v11/.kristal/v11/authoring.json",
+      "sha256": "4be7b32014407660b223ff4afe35b36f1f697378828372624556355f32d30a9d",
+      "size": 307
+    },
+    {
+      "path": "examples/demo-semantic-v11/AGENTS.md",
+      "sha256": "bbee46b6de943d0f07f9fad7dc64a4040902295bdcfd27c5840340fe6931a879",
+      "size": 735
+    },
+    {
+      "path": "examples/demo-semantic-v11/README.md",
+      "sha256": "7dc53459ade6ebf367277b49f8a0e2998270515af42cd9ed53234ae188c4d91c",
+      "size": 1078
+    },
+    {
+      "path": "examples/demo-semantic-v11/canon/domain/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-semantic-v11/canon/domain/v11/crosswalk.json",
+      "sha256": "077b7a86286c0c942a8897c1ab8cb182b4bb026d34a5bbe003894dc8fffbd525",
+      "size": 551
+    },
+    {
+      "path": "examples/demo-semantic-v11/canon/domain/v11/dictionaries/catalog.json",
+      "sha256": "873bb7952807871e647e45c8e8a039e70a2b547e600b2e419f62b9a404b8d47e",
+      "size": 627
+    },
+    {
+      "path": "examples/demo-semantic-v11/canon/domain/v11/dictionaries/wikidata-fr.jsonl",
+      "sha256": "eb0725841c628bbc3d2098756cb87ce4d03979cb23d199fce21f4c7a1c3f08f0",
+      "size": 187
+    },
+    {
+      "path": "examples/demo-semantic-v11/canon/domain/v11/graph.json",
+      "sha256": "ad463ff8e4741c69beecad1423a67563c5a1b1b391e507bcdbb0a729bb23d74c",
+      "size": 491
+    },
+    {
+      "path": "examples/demo-semantic-v11/canon/domain/v11/registry.json",
+      "sha256": "292ffc58e0e9650992b23593671fa12c78e5e7d958bdd7daeba723118069a544",
+      "size": 594
+    },
+    {
+      "path": "examples/demo-semantic-v11/canon/epistemic/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-semantic-v11/canon/operations/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-semantic-v11/canon/state.index.json",
+      "sha256": "971c754e5d92da0b955d2ac2ffe19a8a631fdaa93878f757d50524f4c750d4c5",
+      "size": 1533
+    },
+    {
+      "path": "examples/demo-semantic-v11/derived/reader-inventory.json",
+      "sha256": "95ff5f97ddebcb4065450a9e50430e2167d07f23f8a20bb0d53ac50496ac8a1a",
+      "size": 3476
+    },
+    {
+      "path": "examples/demo-semantic-v11/derived/reader-profile.json",
+      "sha256": "13bed581aa46f548f4ce482209b49e5ba1b640c37eefbd157d3374aec26f9a40",
+      "size": 5631
+    },
+    {
+      "path": "examples/demo-semantic-v11/docs/00_INTENT_AND_SCOPE.md",
+      "sha256": "20058d109c733032c42ab9f1d371bcd1644b835e7027bc5a342bf9c40e8831d2",
+      "size": 119
+    },
+    {
+      "path": "examples/demo-semantic-v11/docs/01_SEMANTIC_BOUNDARY.md",
+      "sha256": "b9d677e9f616e5918c69fe6230d2ff7739219537456255af6d1c20bb2695f635",
+      "size": 343
+    },
+    {
+      "path": "examples/demo-semantic-v11/docs/02_NATIVE_MODEL.md",
+      "sha256": "8872b15ac434369419669e5f67292be28ff85d55b721cf977a57a37e887ba69e",
+      "size": 376
+    },
+    {
+      "path": "examples/demo-semantic-v11/docs/03_EPISTEMIC_MODEL.md",
+      "sha256": "fa8c92c4ec074ae734b4f51a2aab119631a7779855d97d023ff71bf750dac9bf",
+      "size": 338
+    },
+    {
+      "path": "examples/demo-semantic-v11/docs/04_CANONICAL_DERIVED.md",
+      "sha256": "cebb7b8881e8008609ba96acd0fba46a4128359587edadf9931f5d0d2e3a4ad6",
+      "size": 326
+    },
+    {
+      "path": "examples/demo-semantic-v11/docs/05_ORIENTATIONS.md",
+      "sha256": "77eecefcd3a4ff43fe81b30a72b6a71afeac499211daa1fbfdfb952bc0ac5bea",
+      "size": 291
+    },
+    {
+      "path": "examples/demo-semantic-v11/docs/06_VALIDATION.md",
+      "sha256": "2930dad2e5e9d8204123466513df81aa8193555da7f83ca1b6c7c8ae71d31ff6",
+      "size": 512
+    },
+    {
+      "path": "examples/demo-semantic-v11/docs/07_HOSTING_AND_PUBLICATION.md",
+      "sha256": "296052938ed668ceebd9204ce3eb38c53525376da6e2a6465e52a431d2916275",
+      "size": 906
+    },
+    {
+      "path": "examples/demo-semantic-v11/docs/08_GLOSSARY.md",
+      "sha256": "cbf9da36411905269f4dda61d209785555573489bcf991665933d7cbdfb5db34",
+      "size": 191
+    },
+    {
+      "path": "examples/demo-semantic-v11/docs/PROFILE_NOTES.md",
+      "sha256": "f66740e1cdbdab66c4ec0320e39416220298663233f90ce60e682298fb8ee067",
+      "size": 172
+    },
+    {
+      "path": "examples/demo-semantic-v11/kristal.discovery.json",
+      "sha256": "0f029ff956aa6ab2ad9ce9529076682bde97c33c7fbac579e4ed4f4aabd6b668",
+      "size": 750
+    },
+    {
+      "path": "examples/demo-semantic-v11/kristal.workspace.json",
+      "sha256": "a9601555d52d842411121a182314fd4782fa3f75b9e842028b4bed5ffc38e8b1",
+      "size": 1699
+    },
+    {
+      "path": "examples/demo-semantic-v11/runtime/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-semantic-v11/sources/source-catalog.json",
+      "sha256": "4e11d46142630914cfd1fb447c6b065d9143d24d179a18edc1162f3063edfce9",
+      "size": 64
+    },
+    {
+      "path": "examples/demo-semantic-v11/state/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-semantic-v11/tools/_templates/AGENTS.kristal.md",
+      "sha256": "bbee46b6de943d0f07f9fad7dc64a4040902295bdcfd27c5840340fe6931a879",
+      "size": 735
+    },
+    {
+      "path": "examples/demo-semantic-v11/tools/_templates/AI_START_HERE.md",
+      "sha256": "bd988bba7c5ed7cd1ad8b69aa62e99d0fa9066ab89b1dc81f7a0c3739e8c1d07",
+      "size": 2595
+    },
+    {
+      "path": "examples/demo-semantic-v11/tools/_templates/github-hosting.json",
+      "sha256": "774e87548a6917b1b25e7c610d727d19af4df081897a816a02744ff5eaf021c9",
+      "size": 378
+    },
+    {
+      "path": "examples/demo-semantic-v11/tools/_templates/gitignore-kristal.txt",
+      "sha256": "ba9e766905d86932af10e20f99bdafe6b4a37eab2b45a1d91e011bc12985858f",
+      "size": 99
+    },
+    {
+      "path": "examples/demo-semantic-v11/tools/_templates/projection.json",
+      "sha256": "9a93c6e5ae26d5d989458a3c7dd43fbe3b5d878a23a6db61d9cc82594d068eb2",
+      "size": 565
+    },
+    {
+      "path": "examples/demo-semantic-v11/tools/_templates/readme-kristal.md",
+      "sha256": "0b1770d06f4bcb86cfac69c1b7c891206a5d282181136c82631819502067cd00",
+      "size": 520
+    },
+    {
+      "path": "examples/demo-semantic-v11/tools/_templates/source-catalog.json",
+      "sha256": "4e11d46142630914cfd1fb447c6b065d9143d24d179a18edc1162f3063edfce9",
+      "size": 64
+    },
+    {
+      "path": "examples/demo-semantic-v11/tools/_templates/state.index.json",
+      "sha256": "28a1ce910aa079e50199b467487fac9af0584ad43360200f5a4666d2481e1c08",
+      "size": 275
+    },
+    {
+      "path": "examples/demo-semantic-v11/tools/_templates/workspace.json",
+      "sha256": "68d44e0f267871fb1e3554c33e37693aa59a6972d3c4ee2deb3a6ec41f8224d1",
+      "size": 1704
+    },
+    {
+      "path": "examples/demo-semantic-v11/tools/kristal.py",
+      "sha256": "efba8f6b346ce358823de665e850ab5672a1769e3acfae8f19ec02fbbb0a32a0",
+      "size": 175676
+    },
+    {
+      "path": "examples/demo-semantic-v11/tools/kristal_v11_core.py",
+      "sha256": "3aa9b2627c63fab2e10bd4385ce790d9330072255558d295c1bf6bab5444dc6d",
+      "size": 31724
+    },
+    {
+      "path": "examples/demo-v9-small/.gitignore",
+      "sha256": "ba9e766905d86932af10e20f99bdafe6b4a37eab2b45a1d91e011bc12985858f",
+      "size": 99
+    },
+    {
+      "path": "examples/demo-v9-small/AGENTS.md",
+      "sha256": "211615e096aa531e0f933cd6562802dffa48fa4227ba3211b734f49fbafff406",
+      "size": 1416
+    },
+    {
+      "path": "examples/demo-v9-small/AI_MANIFEST.json",
+      "sha256": "29fd5e4b2e2f35aed0aca5cb7d87e410ce97592110835f177f7737d785fa68f6",
+      "size": 1915
+    },
+    {
+      "path": "examples/demo-v9-small/AI_START_HERE.md",
+      "sha256": "bd988bba7c5ed7cd1ad8b69aa62e99d0fa9066ab89b1dc81f7a0c3739e8c1d07",
+      "size": 2595
+    },
+    {
+      "path": "examples/demo-v9-small/README.md",
+      "sha256": "ace64ded492960efc38a48b9a8eba4653a891d7a33494a2dc21041babf400753",
+      "size": 868
+    },
+    {
+      "path": "examples/demo-v9-small/ai/CONTEXT.md",
+      "sha256": "2349410b4a8d6353b7302a02b028eb9872130c649c7cdb30672c017de811728b",
+      "size": 2536
+    },
+    {
+      "path": "examples/demo-v9-small/ai/COVERAGE.json",
+      "sha256": "4fedd93383999dc002e2f3aded103d2e95f0c65736730888bdb265ff457f20c2",
+      "size": 1024
+    },
+    {
+      "path": "examples/demo-v9-small/ai/GLOSSARY.md",
+      "sha256": "1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01",
+      "size": 218
+    },
+    {
+      "path": "examples/demo-v9-small/ai/INDEX.json",
+      "sha256": "daf0f8d18cf2b153634be9884da4aa1c7e8243dcf213bb61f6b2ea9102ad67e7",
+      "size": 4026
+    },
+    {
+      "path": "examples/demo-v9-small/ai/QUESTIONS.md",
+      "sha256": "5c15e5280fcf2f2685cab1747e90a67db53fc742997557ea799a80499c4603be",
+      "size": 593
+    },
+    {
+      "path": "examples/demo-v9-small/ai/RELATIONS.json",
+      "sha256": "58dac2f44e2b55e815197ca025f201f35f2d9ac30c4ab158d5548282f0dc3c8d",
+      "size": 688
+    },
+    {
+      "path": "examples/demo-v9-small/canon/domain/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-v9-small/canon/domain/core.json",
+      "sha256": "6752200490ac9e6c7bb61954dbdeb53b02ee96dc448b1ceb0a5edea702d4d8f3",
+      "size": 242
+    },
+    {
+      "path": "examples/demo-v9-small/canon/epistemic/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-v9-small/canon/operations/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-v9-small/canon/state.index.json",
+      "sha256": "45bd9a515c9ced38c41b043b193fcf5c025dd6fb0561a209ba496ef06b202ba3",
+      "size": 654
+    },
+    {
+      "path": "examples/demo-v9-small/docs/00_INTENT_AND_SCOPE.md",
+      "sha256": "d0df91ecbb1f53d27cddcbfdebcaa9817124e748be1daf6142b4d238bc566e9e",
+      "size": 178
+    },
+    {
+      "path": "examples/demo-v9-small/docs/01_SEMANTIC_BOUNDARY.md",
+      "sha256": "e64f8d02ed78ec658d24e28f5b3350e1f9019cb3a76435db87c7f3e268af52cc",
+      "size": 311
+    },
+    {
+      "path": "examples/demo-v9-small/docs/02_NATIVE_MODEL.md",
+      "sha256": "2320cc6f04806628639dce5184a25e97085945f09f31408f5ba6f92f5bcce5cf",
+      "size": 174
+    },
+    {
+      "path": "examples/demo-v9-small/docs/03_EPISTEMIC_MODEL.md",
+      "sha256": "6418e38b6e54893d2a03bf702f754b192f48679ad89853b405e1b325260a53b7",
+      "size": 356
+    },
+    {
+      "path": "examples/demo-v9-small/docs/04_CANONICAL_DERIVED.md",
+      "sha256": "9ca1154b18ae0980a96e562cedbef1ce85a2912940cf52819dd0fd402e1b1345",
+      "size": 311
+    },
+    {
+      "path": "examples/demo-v9-small/docs/05_ORIENTATIONS.md",
+      "sha256": "4ef452034359517fbbc8038117817fc8695d5c3effc12544e8b7437ac6323b77",
+      "size": 287
+    },
+    {
+      "path": "examples/demo-v9-small/docs/06_VALIDATION.md",
+      "sha256": "df5dadb0965856b592ed1b614e29d06feaa8f5abfe6013a296727cc449eadc34",
+      "size": 438
+    },
+    {
+      "path": "examples/demo-v9-small/docs/07_HOSTING_AND_PUBLICATION.md",
+      "sha256": "ae4e01c7a5ecdb94b4603452bdc78973771b000addd3ed83ebf2082db1d5022b",
+      "size": 795
+    },
+    {
+      "path": "examples/demo-v9-small/docs/08_GLOSSARY.md",
+      "sha256": "1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01",
+      "size": 218
+    },
+    {
+      "path": "examples/demo-v9-small/docs/PROFILE_NOTES.md",
+      "sha256": "5f62161b993e08b75068058c91f55fb7e105775d86fcf52e38fdd2f6be7d7d44",
+      "size": 180
+    },
+    {
+      "path": "examples/demo-v9-small/kristal.workspace.json",
+      "sha256": "28fa42bca4c0f988414e7cd0b451eaffbb6d5a29308a0a3e7f6d3d7ba2f42f4d",
+      "size": 1884
+    },
+    {
+      "path": "examples/demo-v9-small/release/v9/states/c046741520edb9e86f739b61c4ed0affcb81340aabcdc9091bcf4be79abe0079/ea56630ec1123593f4fda450036e1658fcf307c02b29a3295c37bc07f7be1be9/artifacts/urn-kristal-demo-v9-small-core-0a82027ecd.logical-artifact.json",
+      "sha256": "82cd66b50bb17e209d86765862f3e42ac92e96ff6a09607a18b20adb8f215d59",
+      "size": 773
+    },
+    {
+      "path": "examples/demo-v9-small/release/v9/states/c046741520edb9e86f739b61c4ed0affcb81340aabcdc9091bcf4be79abe0079/ea56630ec1123593f4fda450036e1658fcf307c02b29a3295c37bc07f7be1be9/build-receipt.json",
+      "sha256": "d90a971a39dc10f3c4716ffaeca86dd231dee094c7f30888d2336fb182211e50",
+      "size": 547
+    },
+    {
+      "path": "examples/demo-v9-small/release/v9/states/c046741520edb9e86f739b61c4ed0affcb81340aabcdc9091bcf4be79abe0079/ea56630ec1123593f4fda450036e1658fcf307c02b29a3295c37bc07f7be1be9/materializations/urn-kristal-demo-v9-small-core-0a82027ecd.materialization.json",
+      "sha256": "e9bd1bf40386e02f31da3410aa47675dc9f4af3da8c79300e9677e5b67a8d66a",
+      "size": 973
+    },
+    {
+      "path": "examples/demo-v9-small/release/v9/states/c046741520edb9e86f739b61c4ed0affcb81340aabcdc9091bcf4be79abe0079/ea56630ec1123593f4fda450036e1658fcf307c02b29a3295c37bc07f7be1be9/state-snapshot.json",
+      "sha256": "ea56630ec1123593f4fda450036e1658fcf307c02b29a3295c37bc07f7be1be9",
+      "size": 787
+    },
+    {
+      "path": "examples/demo-v9-small/release/v9/states/c046741520edb9e86f739b61c4ed0affcb81340aabcdc9091bcf4be79abe0079/ea56630ec1123593f4fda450036e1658fcf307c02b29a3295c37bc07f7be1be9/v9-capabilities.json",
+      "sha256": "d09265189501362933039efd79bd003a53669caf3019ce33f63bc281b5b31016",
+      "size": 872
+    },
+    {
+      "path": "examples/demo-v9-small/runtime/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "examples/demo-v9-small/sources/source-catalog.json",
+      "sha256": "38ad8975f9cbb9e98b6b379cac85331d08a8d48a41e0a85f71ccde5e19ee453c",
+      "size": 210
+    },
+    {
+      "path": "examples/demo-v9-small/state/state-snapshot.json",
+      "sha256": "ea56630ec1123593f4fda450036e1658fcf307c02b29a3295c37bc07f7be1be9",
+      "size": 787
+    },
+    {
+      "path": "examples/demo-v9-small/tools/_templates/AGENTS.kristal.md",
+      "sha256": "211615e096aa531e0f933cd6562802dffa48fa4227ba3211b734f49fbafff406",
+      "size": 1416
+    },
+    {
+      "path": "examples/demo-v9-small/tools/_templates/AI_START_HERE.md",
+      "sha256": "bd988bba7c5ed7cd1ad8b69aa62e99d0fa9066ab89b1dc81f7a0c3739e8c1d07",
+      "size": 2595
+    },
+    {
+      "path": "examples/demo-v9-small/tools/_templates/github-hosting.json",
+      "sha256": "774e87548a6917b1b25e7c610d727d19af4df081897a816a02744ff5eaf021c9",
+      "size": 378
+    },
+    {
+      "path": "examples/demo-v9-small/tools/_templates/gitignore-kristal.txt",
+      "sha256": "ba9e766905d86932af10e20f99bdafe6b4a37eab2b45a1d91e011bc12985858f",
+      "size": 99
+    },
+    {
+      "path": "examples/demo-v9-small/tools/_templates/projection.json",
+      "sha256": "9a93c6e5ae26d5d989458a3c7dd43fbe3b5d878a23a6db61d9cc82594d068eb2",
+      "size": 565
+    },
+    {
+      "path": "examples/demo-v9-small/tools/_templates/readme-kristal.md",
+      "sha256": "8c006082936943cd65ebf45403f7c951831f8ce4dd640849d994d5c8c180f682",
+      "size": 844
+    },
+    {
+      "path": "examples/demo-v9-small/tools/_templates/source-catalog.json",
+      "sha256": "4e11d46142630914cfd1fb447c6b065d9143d24d179a18edc1162f3063edfce9",
+      "size": 64
+    },
+    {
+      "path": "examples/demo-v9-small/tools/_templates/state.index.json",
+      "sha256": "28a1ce910aa079e50199b467487fac9af0584ad43360200f5a4666d2481e1c08",
+      "size": 275
+    },
+    {
+      "path": "examples/demo-v9-small/tools/_templates/workspace.json",
+      "sha256": "6e048d7ed0086aa47ca6ebd1a3d3798057a5d9861bc2a5b732d04c8b0cc23a2d",
+      "size": 1680
+    },
+    {
+      "path": "examples/demo-v9-small/tools/kristal.py",
+      "sha256": "282ab66efcab5aa414e4663103d498c53e570cd3a52142cbdd39cbc5c2da5d95",
+      "size": 123848
+    },
+    {
+      "path": "examples/demo-v9-small/validation/manifest.sha256.json",
+      "sha256": "afb2bbf31f59b6621f67934205cfcc74b55751b64c9e9c7729777ced96b5fadb",
+      "size": 8927
+    },
+    {
+      "path": "examples/patterns/executable-multiplex.json",
+      "sha256": "1e4ccd5f973587733c11c037a72aace97b463356fe4a1c459ee69ac86e8f77a8",
+      "size": 319
+    },
+    {
+      "path": "examples/patterns/hierarchy-stub.json",
+      "sha256": "786c7aba1bc9db473078da3ed6a5e6c9a4513256dbb0131093a666a9213a5d13",
+      "size": 240
+    },
+    {
+      "path": "examples/patterns/invariant-centered.json",
+      "sha256": "8486586b86d529a39ee852734bf56abb2d9ea1204e41c2cc4508086b05d3f5b3",
+      "size": 320
+    },
+    {
+      "path": "examples/patterns/layered-interpretation.json",
+      "sha256": "9f0bf7d90b10693050a1a1dd80cfb5f234cb61df6295eeec943bb71a1cf5d61c",
+      "size": 245
+    },
+    {
+      "path": "examples/patterns/procedural-dag.json",
+      "sha256": "37533a4ffef924abce6a369f23a1dbe4ffde619865f2db9e96919410170dbca4",
+      "size": 215
+    },
+    {
+      "path": "examples/patterns/research-memory.json",
+      "sha256": "c6b4fd19155a72e116cec1f3e3381a0a05bc42759ac993e496dc4a3a366811e1",
+      "size": 328
+    },
+    {
+      "path": "migration_cleanup_allowlist.json",
+      "sha256": "19e65a09c79086f060ef6640157c4b3bce114cb7db9ea29d25153ec1c598dc50",
+      "size": 576
+    },
+    {
+      "path": "schemas/README.md",
+      "sha256": "718234458883263bdc24765747b9f2e8e5f667462481d6b85b0d1dfd064bc04d",
+      "size": 2062
+    },
+    {
+      "path": "schemas/ai-coverage.schema.json",
+      "sha256": "4284bfa20f0733fd23fd4e04bb0894e05d31815c58882629c6ccdd56f0f3dfe6",
+      "size": 611
+    },
+    {
+      "path": "schemas/ai-index.schema.json",
+      "sha256": "4932e54926827c5ffcfbbd7ddb2bf35e792d4f5b80512f9fdb96254614fb3011",
+      "size": 1186
+    },
+    {
+      "path": "schemas/authoring-v11-profile.schema.json",
+      "sha256": "7c148264f57305ca6c73830ea20902ea3f324ba889e144d77eef945ed7e78128",
+      "size": 582
+    },
+    {
+      "path": "schemas/github-hosting.schema.json",
+      "sha256": "31ce2b3056c3cc4fccb314cd2b0df6c24c1cda79b962d5b18f15c1b0cec5fd13",
+      "size": 1108
+    },
+    {
+      "path": "schemas/github-read-surface.schema.json",
+      "sha256": "535c5ecf6c3a67a768b469e9d867bfcd3b48cd97604d06956c87d0e96ff80b69",
+      "size": 2481
+    },
+    {
+      "path": "schemas/identity-role-map.schema.json",
+      "sha256": "b9af083794138c95316050d6bbc07f9db7a7522367335f7f54cd0cd2339d810d",
+      "size": 1018
+    },
+    {
+      "path": "schemas/kristal-classification.schema.json",
+      "sha256": "4d6db085f7cacfc45351cd7b162a26784d8ce9932ff65ae8c6658e375e1b2e98",
+      "size": 1230
+    },
+    {
+      "path": "schemas/kristal-discovery-audit.schema.json",
+      "sha256": "ee6419de39815a46ec10d8f791b8eb6282f6cfb1adf4c586abcb24808afb4d9c",
+      "size": 1270
+    },
+    {
+      "path": "schemas/kristal-discovery.schema.json",
+      "sha256": "571213011299c30d4cc5a105f947a69765285b6c59ce356a78619b8481bbec7d",
+      "size": 2526
+    },
+    {
+      "path": "schemas/kristal-materialization-manifest.schema.json",
+      "sha256": "88c1f2981058e9779c60ee7773cfd20b9698d91030b5e5136ea3d605b01ee4fa",
+      "size": 5044
+    },
+    {
+      "path": "schemas/kristal-reader-inventory.schema.json",
+      "sha256": "be32f0e9477b1f83681fbae0e7e43f691f92a3d9e44c09fffd3c9f00836e9f9d",
+      "size": 1804
+    },
+    {
+      "path": "schemas/kristal-reader-profile.schema.json",
+      "sha256": "42d995e7f9df057a120380f877542648f63ad5e01d01b965fd447a952301bb83",
+      "size": 2414
+    },
+    {
+      "path": "schemas/kristal-v9-capabilities.schema.json",
+      "sha256": "cd769813abfaddd9694ab2db4e8b5f9a06061b30b25240c9e7e52d8d737b79d7",
+      "size": 3098
+    },
+    {
+      "path": "schemas/local-inspection.schema.json",
+      "sha256": "f0dffaca6bfd3e9b8ad797d883463f7a2ef523148d750b1f4969ad0d33836f01",
+      "size": 1432
+    },
+    {
+      "path": "schemas/portable-ai-manifest.schema.json",
+      "sha256": "9f2e31b6421faace62e6a6357887f9e9af003b769c7c5a043c056a37d952d114",
+      "size": 1766
+    },
+    {
+      "path": "schemas/projection-recipe.schema.json",
+      "sha256": "47ab7b9b09a4bc3c131cbeb8ffdbfa56dc783e40f3ecd8936fc1ec077ed9d8f0",
+      "size": 748
+    },
+    {
+      "path": "schemas/source-catalog.schema.json",
+      "sha256": "847a5b2bc760f8633dbd3d79c72b31c59c55319a1c7063a25aa61535e7043e01",
+      "size": 356
+    },
+    {
+      "path": "schemas/state-index.schema.json",
+      "sha256": "d2f15237ec0412fc77b2be1e7baafff3154650c4c6aa8fa7be263a7e0865b96c",
+      "size": 1613
+    },
+    {
+      "path": "schemas/workspace.schema.json",
+      "sha256": "774fa6f4ceadc310adf29dc6a520daca142c81ae574ac321a4cb8f9135dd13e3",
+      "size": 5082
+    },
+    {
+      "path": "scripts/audit_workspace_migration.py",
+      "sha256": "38a153155ee178e63c04eca646edf749f786d0ed758c0606389c8c3b7182e15a",
+      "size": 4291
+    },
+    {
+      "path": "scripts/build_release.py",
+      "sha256": "59918bb617aed8a0ee8b3feb5d4dfd51963600ee7e1d9c790719fb4b4b420f3f",
+      "size": 1239
+    },
+    {
+      "path": "scripts/check_repo.py",
+      "sha256": "b8ba130742c0471e7bd407cb7509f8038f83a905d47f4b72224779bae43117a5",
+      "size": 7229
+    },
+    {
+      "path": "scripts/generate_repo_manifest.py",
+      "sha256": "6257a616bab684644966e0f14a2059244f846ef5a174ae9f3993bba6191e7d0a",
+      "size": 897
+    },
+    {
+      "path": "scripts/qualify_framework_v11.py",
+      "sha256": "8613f932a8aeb2adccb4725d5afa85d82a9e7db29721be7a6d3734b949d47753",
+      "size": 6405
+    },
+    {
+      "path": "templates/AGENTS.kristal.md",
+      "sha256": "bbee46b6de943d0f07f9fad7dc64a4040902295bdcfd27c5840340fe6931a879",
+      "size": 735
+    },
+    {
+      "path": "templates/AI_START_HERE.md",
+      "sha256": "bd988bba7c5ed7cd1ad8b69aa62e99d0fa9066ab89b1dc81f7a0c3739e8c1d07",
+      "size": 2595
+    },
+    {
+      "path": "templates/github-hosting.json",
+      "sha256": "774e87548a6917b1b25e7c610d727d19af4df081897a816a02744ff5eaf021c9",
+      "size": 378
+    },
+    {
+      "path": "templates/gitignore-kristal.txt",
+      "sha256": "ba9e766905d86932af10e20f99bdafe6b4a37eab2b45a1d91e011bc12985858f",
+      "size": 99
+    },
+    {
+      "path": "templates/projection.json",
+      "sha256": "9a93c6e5ae26d5d989458a3c7dd43fbe3b5d878a23a6db61d9cc82594d068eb2",
+      "size": 565
+    },
+    {
+      "path": "templates/readme-kristal.md",
+      "sha256": "0b1770d06f4bcb86cfac69c1b7c891206a5d282181136c82631819502067cd00",
+      "size": 520
+    },
+    {
+      "path": "templates/source-catalog.json",
+      "sha256": "4e11d46142630914cfd1fb447c6b065d9143d24d179a18edc1162f3063edfce9",
+      "size": 64
+    },
+    {
+      "path": "templates/state.index.json",
+      "sha256": "28a1ce910aa079e50199b467487fac9af0584ad43360200f5a4666d2481e1c08",
+      "size": 275
+    },
+    {
+      "path": "templates/workspace.json",
+      "sha256": "68d44e0f267871fb1e3554c33e37693aa59a6972d3c4ee2deb3a6ec41f8224d1",
+      "size": 1704
+    },
+    {
+      "path": "tests/test_cleanup_gui.py",
+      "sha256": "9f1e335b57f12814603dc7093cae37a18111fa15c06c625aaf093068aa0da72f",
+      "size": 2876
+    },
+    {
+      "path": "tests/test_discovery.py",
+      "sha256": "21fc862e8ebd1aced755bab83c29fb0e6d42fc45b7cd405600d96f52d6a55f50",
+      "size": 8743
+    },
+    {
+      "path": "tests/test_discovery_interop.py",
+      "sha256": "453b4be96e9064815c08ce8cb768a4d40a073ed37d9b77e69b4daf9511c1c068",
+      "size": 4621
+    },
+    {
+      "path": "tests/test_tools.py",
+      "sha256": "d8967b9279f29df30e6caaf15c611b97b2064d495891f93e635373b6a4fc514a",
+      "size": 36142
+    },
+    {
+      "path": "tests/test_v10_alignment.py",
+      "sha256": "10398d12f747202c70727252b8583d8195d60c74db8f3f2867efb198e32e2ada",
+      "size": 8103
+    },
+    {
+      "path": "tests/test_v11_authoring.py",
+      "sha256": "4cc4022336eee57cf6d79229a4835f7e041f544d191dc119a8fd5335d6857a6d",
+      "size": 11679
+    },
+    {
+      "path": "tests/test_v11_dik_draft3.py",
+      "sha256": "fc9860318da24b04c76a6feb84ce8b11a37f81c7055d095232d23277ba2b15fc",
+      "size": 7994
+    },
+    {
+      "path": "tests/test_v11_qualification.py",
+      "sha256": "ecc845a3f81bfb29d6e78af28248e583f78cc0e5f44a2bc26f61934c540da3c0",
+      "size": 2527
+    },
+    {
+      "path": "tools/kristal.py",
+      "sha256": "efba8f6b346ce358823de665e850ab5672a1769e3acfae8f19ec02fbbb0a32a0",
+      "size": 175676
+    },
+    {
+      "path": "tools/kristal_v11_core.py",
+      "sha256": "3aa9b2627c63fab2e10bd4385ce790d9330072255558d295c1bf6bab5444dc6d",
+      "size": 31724
+    }
+  ]
+}

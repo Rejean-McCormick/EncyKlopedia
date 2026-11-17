@@ -1,0 +1,107 @@
+{
+  "schema": "levelupdiag.config.v2",
+  "target_repo_root": "C:/mycode/EncyKlopedia/EncyKlopedia",
+  "control_dir": ".levelupdiag/encyk",
+  "execution": {
+    "max_parallel": 3,
+    "default_timeout_seconds": 35,
+    "fail_fast": false,
+    "capture_limit_kb": 32,
+    "protect_tracked_files": true,
+    "restore_generated_tracked_files": [],
+    "allow_target_mutation": false,
+    "allow_network": false
+  },
+  "scan": {
+    "exclude_dirs": [
+      ".git",
+      ".svn",
+      ".levelupdiag",
+      "node_modules",
+      ".venv",
+      "venv",
+      "__pycache__",
+      ".pytest_cache",
+      "dist",
+      "build",
+      "10_sources",
+      "20_ingest",
+      "20_evidence",
+      "30_working",
+      "40_kristal",
+      "50_mediatheque",
+      "90_runtime",
+      ".gitignore",
+      "levelupdiag"
+    ],
+    "max_files": 3000,
+    "max_file_bytes": 524288,
+    "max_security_files": 1200,
+    "large_file_bytes": 10485760
+  },
+  "toolchain": {
+    "required": [
+      "python"
+    ],
+    "optional": [
+      "git",
+      "pwsh",
+      "node"
+    ]
+  },
+  "validators": [
+    {
+      "id": "encyk-repo",
+      "name": "EncyK repository contract",
+      "command": [
+        "{python}",
+        "-B",
+        "00_system/tools/validate_repo.py"
+      ],
+      "cwd": ".",
+      "required": true,
+      "timeout_seconds": 40,
+      "mutates_target": false,
+      "network": false
+    },
+    {
+      "id": "encyk-skope-bridge-tests",
+      "name": "EncyK external Skope pull bridge tests",
+      "command": [
+        "{python}",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "00_system/integrations/tests",
+        "-p",
+        "test_skope_bridge.py",
+        "-q"
+      ],
+      "cwd": ".",
+      "required": true,
+      "timeout_seconds": 60,
+      "mutates_target": false,
+      "network": false
+    }
+  ],
+  "security": {
+    "enabled": true,
+    "scan_untracked": false,
+    "additional_patterns": [],
+    "additional_excluded_globs": []
+  },
+  "redaction": {
+    "enabled": true,
+    "replacement": "<REDACTED>"
+  },
+  "encyk": {
+    "data_root": "D:/EncyKlopedia",
+    "kristal_root": "C:/mycode/Kristal/locals/Kristal-Botany",
+    "skope_api": "http://127.0.0.1:8767",
+    "skope_connection_timeout_seconds": 2.5,
+    "required_qid": "Q192154",
+    "read_source_files": false
+  }
+}

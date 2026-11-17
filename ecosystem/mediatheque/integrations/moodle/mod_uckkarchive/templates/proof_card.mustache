@@ -1,0 +1,392 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+}}
+{{!
+    @template mod_uckkarchive/proof_card
+
+    Proof card for UCKK archive items.
+
+    This template is render-only. All data must already be:
+    - permission-filtered;
+    - context-aware;
+    - safe for the current viewer;
+    - formatted for display.
+
+    Example context:
+    {
+        "id": 17,
+        "archiveid": 3,
+        "itemid": 9,
+        "cmid": 45,
+        "contextid": 120,
+        "title": "Validated challenge proof",
+        "summary": "Proof summary.",
+        "hassummary": true,
+        "content": "<p>Proof content.</p>",
+        "hascontent": true,
+        "prooftype": "file",
+        "prooftypelabel": "File",
+        "status": "validated",
+        "statuslabel": "Validated",
+        "statusclass": "status-validated",
+        "visibility": "course",
+        "visibilitylabel": "Course",
+        "visibilityclass": "visibility-course",
+        "validationstate": "verified",
+        "validationlabel": "Verified",
+        "validationclass": "validation-verified",
+        "provenance": "human",
+        "provenancelabel": "Human",
+        "provenanceclass": "provenance-human",
+        "versionno": 1,
+        "versionlabel": "v1",
+        "provenancehash": "abc123",
+        "hasprovenancehash": true,
+        "sourceurl": "https://example.test/proof",
+        "hassourceurl": true,
+        "sourcetitle": "Source title",
+        "hassourcetitle": true,
+        "sourceauthor": "Source author",
+        "hassourceauthor": true,
+        "sourcedatelabel": "12 May 2026",
+        "hassourcedate": true,
+        "timecreatedlabel": "12 May 2026",
+        "timemodifiedlabel": "12 May 2026",
+        "hasfiles": true,
+        "files": [],
+        "hasrelations": true,
+        "relations": [],
+        "haswarnings": false,
+        "warnings": [],
+        "hasactions": true,
+        "actions": []
+    }
+}}
+
+<article
+    class="uckkarchive-proof-card {{statusclass}} {{validationclass}} {{visibilityclass}} {{provenanceclass}}"
+    data-region="uckkarchive-proof-card"
+    data-proof-id="{{id}}"
+    data-archive-id="{{archiveid}}"
+    data-item-id="{{itemid}}"
+    data-cmid="{{cmid}}"
+    data-context-id="{{contextid}}"
+>
+    <header class="uckkarchive-proof-card__header">
+        <div class="uckkarchive-proof-card__identity">
+            <p class="uckkarchive-proof-card__eyebrow">
+                {{#str}} proof, uckkarchive {{/str}}
+            </p>
+
+            <h3 class="uckkarchive-proof-card__title">
+                {{#url}}
+                    <a href="{{url}}" class="uckkarchive-proof-card__title-link">
+                        {{title}}
+                    </a>
+                {{/url}}
+
+                {{^url}}
+                    {{title}}
+                {{/url}}
+            </h3>
+
+            <div class="uckkarchive-proof-card__meta">
+                {{#prooftypelabel}}
+                    <span class="uckkarchive-proof-card__meta-item uckkarchive-proof-card__type">
+                        {{prooftypelabel}}
+                    </span>
+                {{/prooftypelabel}}
+
+                {{#versionlabel}}
+                    <span class="uckkarchive-proof-card__meta-item uckkarchive-proof-card__version">
+                        {{versionlabel}}
+                    </span>
+                {{/versionlabel}}
+
+                {{#timecreatedlabel}}
+                    <span class="uckkarchive-proof-card__meta-item uckkarchive-proof-card__created">
+                        {{#str}} timecreated, uckkarchive {{/str}}:
+                        {{timecreatedlabel}}
+                    </span>
+                {{/timecreatedlabel}}
+            </div>
+        </div>
+
+        <div class="uckkarchive-proof-card__badges">
+            {{#statuslabel}}
+                <span class="badge uckkarchive-proof-card__badge uckkarchive-proof-card__badge--status {{statusclass}}">
+                    {{statuslabel}}
+                </span>
+            {{/statuslabel}}
+
+            {{#validationlabel}}
+                <span class="badge uckkarchive-proof-card__badge uckkarchive-proof-card__badge--validation {{validationclass}}">
+                    {{validationlabel}}
+                </span>
+            {{/validationlabel}}
+
+            {{#visibilitylabel}}
+                <span class="badge uckkarchive-proof-card__badge uckkarchive-proof-card__badge--visibility {{visibilityclass}}">
+                    {{visibilitylabel}}
+                </span>
+            {{/visibilitylabel}}
+        </div>
+    </header>
+
+    {{#haswarnings}}
+        <div class="uckkarchive-proof-card__warnings" role="status">
+            {{#warnings}}
+                <div class="alert {{class}} uckkarchive-proof-card__warning">
+                    {{message}}
+                </div>
+            {{/warnings}}
+        </div>
+    {{/haswarnings}}
+
+    {{#restricted}}
+        <div class="alert alert-warning uckkarchive-proof-card__restricted" role="status">
+            {{#str}} restrictedproofnotice, uckkarchive {{/str}}
+        </div>
+    {{/restricted}}
+
+    {{#hassummary}}
+        <div class="uckkarchive-proof-card__summary">
+            {{{summary}}}
+        </div>
+    {{/hassummary}}
+
+    {{#hascontent}}
+        <section class="uckkarchive-proof-card__section uckkarchive-proof-card__content">
+            <h4 class="uckkarchive-proof-card__section-title">
+                {{#str}} proofcontent, uckkarchive {{/str}}
+            </h4>
+
+            <div class="uckkarchive-proof-card__section-content">
+                {{{content}}}
+            </div>
+        </section>
+    {{/hascontent}}
+
+    <section class="uckkarchive-proof-card__section uckkarchive-proof-card__governance">
+        <h4 class="uckkarchive-proof-card__section-title">
+            {{#str}} proofgovernance, uckkarchive {{/str}}
+        </h4>
+
+        <dl class="uckkarchive-proof-card__facts">
+            {{#provenancelabel}}
+                <div class="uckkarchive-proof-card__fact">
+                    <dt>{{#str}} provenance, uckkarchive {{/str}}</dt>
+                    <dd>{{provenancelabel}}</dd>
+                </div>
+            {{/provenancelabel}}
+
+            {{#validationlabel}}
+                <div class="uckkarchive-proof-card__fact">
+                    <dt>{{#str}} validationstate, uckkarchive {{/str}}</dt>
+                    <dd>{{validationlabel}}</dd>
+                </div>
+            {{/validationlabel}}
+
+            {{#visibilitylabel}}
+                <div class="uckkarchive-proof-card__fact">
+                    <dt>{{#str}} visibility, uckkarchive {{/str}}</dt>
+                    <dd>{{visibilitylabel}}</dd>
+                </div>
+            {{/visibilitylabel}}
+
+            {{#hasprovenancehash}}
+                <div class="uckkarchive-proof-card__fact">
+                    <dt>{{#str}} provenancehash, uckkarchive {{/str}}</dt>
+                    <dd>
+                        <code>{{provenancehash}}</code>
+                    </dd>
+                </div>
+            {{/hasprovenancehash}}
+
+            {{#timemodifiedlabel}}
+                <div class="uckkarchive-proof-card__fact">
+                    <dt>{{#str}} timemodified, moodle {{/str}}</dt>
+                    <dd>{{timemodifiedlabel}}</dd>
+                </div>
+            {{/timemodifiedlabel}}
+        </dl>
+    </section>
+
+    {{#hassource}}
+        <section class="uckkarchive-proof-card__section uckkarchive-proof-card__source">
+            <h4 class="uckkarchive-proof-card__section-title">
+                {{#str}} archivesource, uckkarchive {{/str}}
+            </h4>
+
+            <dl class="uckkarchive-proof-card__facts">
+                {{#hassourcetitle}}
+                    <div class="uckkarchive-proof-card__fact">
+                        <dt>{{#str}} sourcetitle, uckkarchive {{/str}}</dt>
+                        <dd>{{sourcetitle}}</dd>
+                    </div>
+                {{/hassourcetitle}}
+
+                {{#hassourceauthor}}
+                    <div class="uckkarchive-proof-card__fact">
+                        <dt>{{#str}} sourceauthor, uckkarchive {{/str}}</dt>
+                        <dd>{{sourceauthor}}</dd>
+                    </div>
+                {{/hassourceauthor}}
+
+                {{#hassourcedate}}
+                    <div class="uckkarchive-proof-card__fact">
+                        <dt>{{#str}} sourcedate, uckkarchive {{/str}}</dt>
+                        <dd>{{sourcedatelabel}}</dd>
+                    </div>
+                {{/hassourcedate}}
+
+                {{#hassourceurl}}
+                    <div class="uckkarchive-proof-card__fact">
+                        <dt>{{#str}} sourceurl, uckkarchive {{/str}}</dt>
+                        <dd>
+                            <a href="{{sourceurl}}" rel="noopener noreferrer">
+                                {{sourceurl}}
+                            </a>
+                        </dd>
+                    </div>
+                {{/hassourceurl}}
+            </dl>
+        </section>
+    {{/hassource}}
+
+    {{#hasfiles}}
+        <section class="uckkarchive-proof-card__section uckkarchive-proof-card__files">
+            <h4 class="uckkarchive-proof-card__section-title">
+                {{#str}} proof_files, uckkarchive {{/str}}
+            </h4>
+
+            <ul class="uckkarchive-proof-card__file-list">
+                {{#files}}
+                    <li class="uckkarchive-proof-card__file">
+                        <a href="{{url}}" class="uckkarchive-proof-card__file-link">
+                            {{filename}}
+                        </a>
+
+                        {{#filesize}}
+                            <span class="uckkarchive-proof-card__file-size">
+                                {{filesize}}
+                            </span>
+                        {{/filesize}}
+
+                        {{#mimetype}}
+                            <span class="uckkarchive-proof-card__file-mimetype">
+                                {{mimetype}}
+                            </span>
+                        {{/mimetype}}
+                    </li>
+                {{/files}}
+            </ul>
+        </section>
+    {{/hasfiles}}
+
+    {{#hasrelations}}
+        <section class="uckkarchive-proof-card__section uckkarchive-proof-card__relations">
+            <h4 class="uckkarchive-proof-card__section-title">
+                {{#str}} relatedrecords, uckkarchive {{/str}}
+            </h4>
+
+            <ul class="uckkarchive-proof-card__relation-list">
+                {{#relations}}
+                    <li class="uckkarchive-proof-card__relation">
+                        {{#url}}
+                            <a href="{{url}}" class="uckkarchive-proof-card__relation-link">
+                                {{title}}
+                            </a>
+                        {{/url}}
+
+                        {{^url}}
+                            <span class="uckkarchive-proof-card__relation-title">
+                                {{title}}
+                            </span>
+                        {{/url}}
+
+                        {{#typelabel}}
+                            <span class="uckkarchive-proof-card__relation-type">
+                                {{typelabel}}
+                            </span>
+                        {{/typelabel}}
+
+                        {{#statuslabel}}
+                            <span class="uckkarchive-proof-card__relation-status status-{{status}}">
+                                {{statuslabel}}
+                            </span>
+                        {{/statuslabel}}
+                    </li>
+                {{/relations}}
+            </ul>
+        </section>
+    {{/hasrelations}}
+
+    {{#hasai}}
+        <section class="uckkarchive-proof-card__section uckkarchive-proof-card__ai">
+            <h4 class="uckkarchive-proof-card__section-title">
+                {{#str}} aiprovencenotice, uckkarchive {{/str}}
+            </h4>
+
+            <div class="alert alert-info" role="status">
+                {{#str}} ainonsovereignnotice, uckkarchive {{/str}}
+            </div>
+
+            {{#ailabel}}
+                <p class="uckkarchive-proof-card__ai-label">
+                    {{ailabel}}
+                </p>
+            {{/ailabel}}
+        </section>
+    {{/hasai}}
+
+    {{#hasactions}}
+        <footer class="uckkarchive-proof-card__actions">
+            {{#actions}}
+                {{#ispost}}
+                    <form
+                        method="post"
+                        action="{{url}}"
+                        class="uckkarchive-proof-card__action-form"
+                    >
+                        <input type="hidden" name="sesskey" value="{{sesskey}}">
+                        <input type="hidden" name="action" value="{{key}}">
+                        <input type="hidden" name="itemid" value="{{itemid}}">
+                        {{#proofid}}
+                            <input type="hidden" name="proofid" value="{{proofid}}">
+                        {{/proofid}}
+
+                        <button
+                            type="submit"
+                            class="btn {{#primary}}btn-primary{{/primary}}{{#secondary}}btn-secondary{{/secondary}}{{#danger}}btn-danger{{/danger}}"
+                            {{#disabled}}disabled{{/disabled}}
+                        >
+                            {{label}}
+                        </button>
+
+                        {{#hasdisabledreason}}
+                            <span class="uckkarchive-proof-card__disabled-reason">
+                                {{disabledreason}}
+                            </span>
+                        {{/hasdisabledreason}}
+                    </form>
+                {{/ispost}}
+
+                {{#isget}}
+                    <a
+                        href="{{url}}"
+                        class="btn {{#primary}}btn-primary{{/primary}}{{#secondary}}btn-secondary{{/secondary}}{{#danger}}btn-danger{{/danger}}"
+                        {{#disabled}}aria-disabled="true" tabindex="-1"{{/disabled}}
+                    >
+                        {{label}}
+                    </a>
+                {{/isget}}
+            {{/actions}}
+        </footer>
+    {{/hasactions}}
+</article>

@@ -1,0 +1,71 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-registre-evenementiel",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-11",
+    "slug": "registre-evenementiel",
+    "name": "Event Ledger / Chronology"
+  },
+  "source_arketype_file": "archetypes/registre-evenementiel.json",
+  "editorial_rationale": "Structure Arketype ARK-11: Dated observations, events and revisions. Incident logs, history, audit trails and case timelines.",
+  "source_structural_primitives": [
+    "evenements",
+    "acteurs",
+    "horodatages",
+    "validites",
+    "liens_causaux_hypotheses",
+    "versions"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "evenements",
+      "title_function": "Événements sourcés",
+      "layout_id": "chronology",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "evenements",
+        "horodatages",
+        "acteurs"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "context": 1,
+        "events": 2,
+        "limits": 1
+      },
+      "editorial_constraint": "Un événement passé ne prouve pas l’état actuel."
+    },
+    {
+      "section_id": "portee",
+      "title_function": "Portée et interprétations",
+      "layout_id": "observation-inference",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "validites",
+        "liens_causaux_hypotheses",
+        "versions"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "observations": 1,
+        "interpretation": 1,
+        "verification": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Le lien causal reste hypothétique s’il n’est pas démontré."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "event-ledger"
+  ],
+  "integrity_rule": "An event log is not necessarily current state or causal proof.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

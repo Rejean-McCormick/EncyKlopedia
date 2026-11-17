@@ -1,0 +1,425 @@
+{
+  "format": "encyklopedia.unesco.identity-proposals/1.0",
+  "status": "not_reviewed",
+  "concepts": [
+    {
+      "unesco_id": "concept8",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8",
+      "english_label": "Educational development",
+      "provisional_kq": "KQ1",
+      "wikidata_qid_candidate": "Q118116018",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Developmental change of one or more characteristics of the educational system variables in a positive direction in terms of some valued criterion. Use more specific descriptor where appropriate."
+      ]
+    },
+    {
+      "unesco_id": "concept9",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9",
+      "english_label": "Educational policy",
+      "provisional_kq": "KQ2",
+      "wikidata_qid_candidate": "Q452348",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Official statements of goals to which the system of education is directed."
+      ]
+    },
+    {
+      "unesco_id": "concept10",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10",
+      "english_label": "Right to education",
+      "provisional_kq": "KQ3",
+      "wikidata_qid_candidate": "Q69370",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept1124",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1124",
+      "english_label": "Access to education",
+      "provisional_kq": "KQ4",
+      "wikidata_qid_candidate": "Q133267871",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Conditions, circumstances or requirements governing admittance to educational institutions or programmes."
+      ]
+    },
+    {
+      "unesco_id": "concept1137",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1137",
+      "english_label": "Educational discrimination",
+      "provisional_kq": "KQ5",
+      "wikidata_qid_candidate": "Q118116224",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept1138",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1138",
+      "english_label": "Educational priority areas",
+      "provisional_kq": "KQ6",
+      "wikidata_qid_candidate": "Q11079235",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Regions, localities, etc., in need of special educational action."
+      ]
+    },
+    {
+      "unesco_id": "concept1139",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1139",
+      "english_label": "Free education",
+      "provisional_kq": "KQ7",
+      "wikidata_qid_candidate": "Q5500224",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Non fee-paying education."
+      ]
+    },
+    {
+      "unesco_id": "concept1140",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1140",
+      "english_label": "Universal education",
+      "provisional_kq": "KQ8",
+      "wikidata_qid_candidate": "Q7894104",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "System of education extending opportunities to all."
+      ]
+    },
+    {
+      "unesco_id": "concept1480",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1480",
+      "english_label": "Adult literacy",
+      "provisional_kq": "KQ9",
+      "wikidata_qid_candidate": "Q29957929",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept1487",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1487",
+      "english_label": "Leisure and education",
+      "provisional_kq": "KQ10",
+      "wikidata_qid_candidate": "Q118280554",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Organized activities intended to help individuals or groups use non-work time in a manner conducive to physical and mental well-being."
+      ]
+    },
+    {
+      "unesco_id": "concept1516",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1516",
+      "english_label": "Illiteracy",
+      "provisional_kq": "KQ11",
+      "wikidata_qid_candidate": "Q485100",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Relates to the problem. Provision for resolving it should be handled by the \"literacy\" descriptors."
+      ]
+    },
+    {
+      "unesco_id": "concept2107",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2107",
+      "english_label": "Alternative education",
+      "provisional_kq": "KQ12",
+      "wikidata_qid_candidate": "Q438746",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "General term for schemes which offer an alternative to traditional institutional education or for movements which reject the notion of formal schooling."
+      ]
+    },
+    {
+      "unesco_id": "concept2112",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2112",
+      "english_label": "Educational experiments",
+      "provisional_kq": "KQ13",
+      "wikidata_qid_candidate": "Q102661383",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept3894",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3894",
+      "english_label": "Bilingual education",
+      "provisional_kq": "KQ14",
+      "wikidata_qid_candidate": "Q233107",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Encouragement of bilingualism through the teaching of regular courses in both the national language and a second language."
+      ]
+    },
+    {
+      "unesco_id": "concept3898",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3898",
+      "english_label": "Intercultural education",
+      "provisional_kq": "KQ15",
+      "wikidata_qid_candidate": "Q5819932",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept4938",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4938",
+      "english_label": "Educational opportunities",
+      "provisional_kq": "KQ16",
+      "wikidata_qid_candidate": "Q118135166",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Availability of educational provision."
+      ]
+    },
+    {
+      "unesco_id": "concept5178",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5178",
+      "english_label": "Church and education",
+      "provisional_kq": "KQ17",
+      "wikidata_qid_candidate": "Q112632870",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept5999",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5999",
+      "english_label": "Compulsory education",
+      "provisional_kq": "KQ18",
+      "wikidata_qid_candidate": null,
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept6020",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6020",
+      "english_label": "Computer uses in education",
+      "provisional_kq": "KQ19",
+      "wikidata_qid_candidate": null,
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "The use of computers for instruction, testing, student/pupil personnel services, school administrative support services, etc. Use more specific descriptor where appropriate."
+      ]
+    },
+    {
+      "unesco_id": "concept7078",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7078",
+      "english_label": "Education and culture",
+      "provisional_kq": "KQ20",
+      "wikidata_qid_candidate": "Q119594557",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Taking into consideration of cultural factors in the educational process."
+      ]
+    },
+    {
+      "unesco_id": "concept7273",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7273",
+      "english_label": "Curriculum development",
+      "provisional_kq": "KQ21",
+      "wikidata_qid_candidate": "Q16911265",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Systematic process of producing new curricula or improving existing ones. Involves setting out aims, content, methods, evaluation procedures."
+      ]
+    },
+    {
+      "unesco_id": "concept7281",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7281",
+      "english_label": "Educational innovations",
+      "provisional_kq": "KQ22",
+      "wikidata_qid_candidate": "Q115160652",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Changes in objectives, content or methods initiated, as a rule, in experimental situations."
+      ]
+    },
+    {
+      "unesco_id": "concept7282",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7282",
+      "english_label": "Educational reform",
+      "provisional_kq": "KQ23",
+      "wikidata_qid_candidate": "Q861536",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Change planned or in process of implementation to a major part of a national system of education."
+      ]
+    },
+    {
+      "unesco_id": "concept7597",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7597",
+      "english_label": "Democratization of education",
+      "provisional_kq": "KQ24",
+      "wikidata_qid_candidate": "Q119337331",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Policy of ensuring equality of educational opportunity in order to achieve universal education."
+      ]
+    },
+    {
+      "unesco_id": "concept7790",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7790",
+      "english_label": "School integration",
+      "provisional_kq": "KQ25",
+      "wikidata_qid_candidate": "Q99616730",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Refers to ethnic groups, covers also negative aspect of segregation."
+      ]
+    },
+    {
+      "unesco_id": "concept7859",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7859",
+      "english_label": "Global citizenship education",
+      "provisional_kq": "KQ26",
+      "wikidata_qid_candidate": "Q3595759",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Global citizenship education aims to empower learners of all ages to assume active roles, both locally and globally, in building more peaceful, tolerant, inclusive and secure societies."
+      ]
+    },
+    {
+      "unesco_id": "concept8260",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8260",
+      "english_label": "Diversification of education",
+      "provisional_kq": "KQ27",
+      "wikidata_qid_candidate": "Q30032145",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept9042",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9042",
+      "english_label": "Industry and education",
+      "provisional_kq": "KQ28",
+      "wikidata_qid_candidate": "Q123044774",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept9176",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9176",
+      "english_label": "Educational trends",
+      "provisional_kq": "KQ29",
+      "wikidata_qid_candidate": "Q118142776",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Changes in educational movement, either past or future, which occur in response to social, economic or environmental trends."
+      ]
+    },
+    {
+      "unesco_id": "concept9255",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9255",
+      "english_label": "Educational indicators",
+      "provisional_kq": "KQ30",
+      "wikidata_qid_candidate": "Q118117140",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Numerical data used as benchmarks in the formulation and monitoring of educational policy."
+      ]
+    },
+    {
+      "unesco_id": "concept9267",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9267",
+      "english_label": "Teaching method innovations",
+      "provisional_kq": "KQ31",
+      "wikidata_qid_candidate": "Q120204288",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept9311",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9311",
+      "english_label": "Educational objectives",
+      "provisional_kq": "KQ32",
+      "wikidata_qid_candidate": "Q939957",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Intended or expected results of the educational process."
+      ]
+    },
+    {
+      "unesco_id": "concept9341",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9341",
+      "english_label": "Educational strategies",
+      "provisional_kq": "KQ33",
+      "wikidata_qid_candidate": "Q119709139",
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Conversion of policy goals into operational terms, including some indication of alternative paths to reach these goals."
+      ]
+    },
+    {
+      "unesco_id": "concept9343",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9343",
+      "english_label": "Language of instruction",
+      "provisional_kq": "KQ34",
+      "wikidata_qid_candidate": "Q6807178",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept9344",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9344",
+      "english_label": "State and education",
+      "provisional_kq": "KQ35",
+      "wikidata_qid_candidate": "Q120200866",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept9345",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9345",
+      "english_label": "Study abroad",
+      "provisional_kq": "KQ36",
+      "wikidata_qid_candidate": "Q1196083",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept9440",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9440",
+      "english_label": "Enrolment trends",
+      "provisional_kq": "KQ37",
+      "wikidata_qid_candidate": "Q118151828",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept11264",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11264",
+      "english_label": "Functional illiteracy",
+      "provisional_kq": "KQ38",
+      "wikidata_qid_candidate": "Q152545",
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept17112",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17112",
+      "english_label": "School closure",
+      "provisional_kq": "KQ39",
+      "wikidata_qid_candidate": null,
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "Refers to both permanent or temporary school closures. The latter can be due to crisis situations such as natural disaster, armed conflict or epidemics."
+      ]
+    },
+    {
+      "unesco_id": "concept17163",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17163",
+      "english_label": "Teacher policy",
+      "provisional_kq": "KQ40",
+      "wikidata_qid_candidate": null,
+      "identity_review_status": "not_approved",
+      "scope_note_en": []
+    },
+    {
+      "unesco_id": "concept17189",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17189",
+      "english_label": "Multilingual education",
+      "provisional_kq": "KQ41",
+      "wikidata_qid_candidate": null,
+      "identity_review_status": "not_approved",
+      "scope_note_en": [
+        "The use of two or more languages in education, which may include the mother tongue."
+      ]
+    }
+  ]
+}

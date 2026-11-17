@@ -1,0 +1,155 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.rst-contrast",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Contraste équilibré de deux possibilités",
+  "research_basis": {
+    "family": "coherence",
+    "relation": "rst.contrast",
+    "source": "RST",
+    "source_url": "https://www.sfu.ca/rst/07french/definitions.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "rst.contrast",
+    "editorial_relation_required": true,
+    "semantic_warning": "Critère commun fourni explicitement.",
+    "critical_questions": []
+  },
+  "slots": {
+    "a": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "approach"
+      ],
+      "visual_role": "paragraph"
+    },
+    "b": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "approach"
+      ],
+      "visual_role": "paragraph"
+    },
+    "criterion": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "criterion"
+      ],
+      "visual_role": "paragraph"
+    },
+    "conclusion": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "conclusion"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "a",
+    "b",
+    "criterion",
+    "conclusion"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "conclusion"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "rst.contrast",
+    "focus_slot": "a",
+    "moves": [
+      {
+        "slot": "a",
+        "function": "comparison_option",
+        "nuclearity": "multinuclear",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "b",
+        "function": "comparison_option",
+        "nuclearity": "multinuclear",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "criterion",
+        "function": "criterion",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "conclusion",
+        "function": "conclusion",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "b",
+        "to_slot": "a",
+        "relation": "rst.contrast",
+        "status": "requires_external_semantic_review",
+        "relation_function": "compares"
+      },
+      {
+        "from_slot": "criterion",
+        "to_slot": "a",
+        "relation": "rst.contrast",
+        "status": "requires_external_semantic_review",
+        "relation_function": "compares"
+      },
+      {
+        "from_slot": "conclusion",
+        "to_slot": "a",
+        "relation": "rst.contrast",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "a",
+        "b",
+        "criterion"
+      ],
+      [
+        "conclusion"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Critère commun fourni explicitement."
+    }
+  }
+}

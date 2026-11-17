@@ -1,0 +1,93 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-compilation-collection",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-05",
+    "slug": "compilation-collection",
+    "name": "Compilation / Collection"
+  },
+  "source_arketype_file": "archetypes/compilation-collection.json",
+  "editorial_rationale": "Structure Arketype ARK-05: Curated, ordered and annotated independent works or knowledge items. Cookbooks, reference collections and anthologies.",
+  "source_structural_primitives": [
+    "entrees",
+    "references",
+    "ordre",
+    "criteres_selection",
+    "variantes",
+    "annotations",
+    "provenance"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "notice",
+      "title_function": "Notices des entrées",
+      "layout_id": "concept-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "entrees",
+        "annotations",
+        "provenance"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "definition": 1,
+        "examples": 1,
+        "context": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Une notice doit posséder définition, exemple, contexte et limite."
+    },
+    {
+      "section_id": "recoupement",
+      "title_function": "Confrontation des sources",
+      "layout_id": "evidence-comparison",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "references",
+        "criteres_selection",
+        "provenance"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "question": 1,
+        "source_a": 1,
+        "source_b": 1,
+        "perspective_a": 1,
+        "perspective_b": 1,
+        "synthesis": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Uniquement si deux sources et deux perspectives sont effectivement présentes."
+    },
+    {
+      "section_id": "historique",
+      "title_function": "Historique documentaire",
+      "layout_id": "chronology",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "ordre",
+        "variantes"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "context": 1,
+        "events": 2,
+        "limits": 1
+      },
+      "editorial_constraint": "À employer uniquement si les entrées décrivent des événements datés; l’ordre d’une liste ne suffit pas."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "curated-catalog"
+  ],
+  "integrity_rule": "Curation does not imply ownership of every included item.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

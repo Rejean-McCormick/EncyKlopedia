@@ -1,0 +1,616 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+}}
+{{!
+    @template mod_uckkarchive/media_library
+
+    Media library view for mod_uckkarchive.
+
+    Expected context is produced by \mod_uckkarchive\output\media_library.
+
+    This template only renders pre-filtered data. It must not decide access,
+    expose private file URLs, bypass media policy, or infer authority.
+
+    Context variables:
+    {
+        "archive": {
+            "id": 1,
+            "name": "Médiathèque centrale",
+            "intro": "<p>Intro</p>",
+            "hasintro": true
+        },
+        "course": {
+            "id": 2,
+            "fullname": "Course",
+            "shortname": "COURSE"
+        },
+        "cmid": 12,
+        "contextid": 34,
+        "media": [],
+        "collections": [],
+        "hasmedia": true,
+        "hascollections": true,
+        "emptymessage": "No media found",
+        "filters": {
+            "search": "",
+            "mediatype": "",
+            "status": "",
+            "visibility": "",
+            "audiencesuitability": "",
+            "collectionid": 0,
+            "hasactivefilters": false
+        },
+        "filteroptions": {
+            "mediatypes": [],
+            "statuses": [],
+            "visibilities": [],
+            "audiencesuitabilities": []
+        },
+        "paging": {
+            "totalcount": 10,
+            "page": 1,
+            "perpage": 24,
+            "pagecount": 1,
+            "haspaging": false,
+            "hasprevious": false,
+            "hasnext": false,
+            "previousurl": "",
+            "nexturl": ""
+        },
+        "capabilities": {},
+        "urls": {},
+        "strings": {}
+    }
+}}
+
+<section
+    class="uckkarchive-media-library"
+    data-region="uckkarchive-media-library"
+    data-cmid="{{cmid}}"
+    data-contextid="{{contextid}}"
+>
+    <header class="uckkarchive-media-library__header">
+        <div class="uckkarchive-media-library__heading">
+            <h2 class="uckkarchive-media-library__title">
+                {{#strings.medialibrary}}{{strings.medialibrary}}{{/strings.medialibrary}}
+                {{^strings.medialibrary}}{{#str}} medialibrary, mod_uckkarchive {{/str}}{{/strings.medialibrary}}
+            </h2>
+
+            <div class="uckkarchive-media-library__archive text-muted">
+                {{archive.name}}
+            </div>
+
+            {{#archive.hasintro}}
+                <div class="uckkarchive-media-library__intro">
+                    {{{archive.intro}}}
+                </div>
+            {{/archive.hasintro}}
+        </div>
+
+        <div class="uckkarchive-media-library__actions">
+            {{#capabilities.addmedia}}
+                <a
+                    class="btn btn-primary"
+                    href="{{urls.addmedia}}"
+                    data-action="add-media"
+                >
+                    {{#strings.addmedia}}{{strings.addmedia}}{{/strings.addmedia}}
+                    {{^strings.addmedia}}{{#str}} addmedia, mod_uckkarchive {{/str}}{{/strings.addmedia}}
+                </a>
+            {{/capabilities.addmedia}}
+
+            {{#capabilities.managemediacollections}}
+                <a
+                    class="btn btn-secondary"
+                    href="{{urls.addcollection}}"
+                    data-action="add-collection"
+                >
+                    {{#strings.addcollection}}{{strings.addcollection}}{{/strings.addcollection}}
+                    {{^strings.addcollection}}{{#str}} addcollection, mod_uckkarchive {{/str}}{{/strings.addcollection}}
+                </a>
+            {{/capabilities.managemediacollections}}
+
+            {{#capabilities.exportmedia}}
+                <a
+                    class="btn btn-outline-secondary"
+                    href="{{urls.exportmedia}}"
+                    data-action="export-media"
+                >
+                    {{#strings.exportmedia}}{{strings.exportmedia}}{{/strings.exportmedia}}
+                    {{^strings.exportmedia}}{{#str}} exportmedia, mod_uckkarchive {{/str}}{{/strings.exportmedia}}
+                </a>
+            {{/capabilities.exportmedia}}
+        </div>
+    </header>
+
+    {{#hasnotification}}
+        <div
+            class="alert alert-{{notificationtype}} uckkarchive-media-library__notification"
+            role="status"
+            data-region="media-library-notification"
+        >
+            {{{notification}}}
+        </div>
+    {{/hasnotification}}
+
+    <form
+        class="uckkarchive-media-library__filters"
+        method="get"
+        action="{{urls.media}}"
+        data-region="media-library-filters"
+    >
+        <input type="hidden" name="id" value="{{cmid}}">
+
+        <div class="uckkarchive-media-library__filter-grid">
+            <div class="form-group uckkarchive-media-library__filter uckkarchive-media-library__filter--search">
+                <label for="uckkarchive-media-search-{{cmid}}">
+                    {{#strings.search}}{{strings.search}}{{/strings.search}}
+                    {{^strings.search}}{{#str}} search {{/str}}{{/strings.search}}
+                </label>
+                <input
+                    id="uckkarchive-media-search-{{cmid}}"
+                    class="form-control"
+                    type="search"
+                    name="search"
+                    value="{{filters.search}}"
+                    data-region="media-search"
+                >
+            </div>
+
+            <div class="form-group uckkarchive-media-library__filter">
+                <label for="uckkarchive-media-type-{{cmid}}">
+                    {{#strings.mediatype}}{{strings.mediatype}}{{/strings.mediatype}}
+                    {{^strings.mediatype}}{{#str}} mediatype, mod_uckkarchive {{/str}}{{/strings.mediatype}}
+                </label>
+                <select
+                    id="uckkarchive-media-type-{{cmid}}"
+                    class="form-control custom-select"
+                    name="mediatype"
+                    data-region="media-type-filter"
+                >
+                    <option value="">{{#str}} all {{/str}}</option>
+                    {{#filteroptions.mediatypes}}
+                        <option value="{{value}}" {{#selected}}selected{{/selected}}>{{label}}</option>
+                    {{/filteroptions.mediatypes}}
+                </select>
+            </div>
+
+            <div class="form-group uckkarchive-media-library__filter">
+                <label for="uckkarchive-media-status-{{cmid}}">
+                    {{#strings.status}}{{strings.status}}{{/strings.status}}
+                    {{^strings.status}}{{#str}} status, mod_uckkarchive {{/str}}{{/strings.status}}
+                </label>
+                <select
+                    id="uckkarchive-media-status-{{cmid}}"
+                    class="form-control custom-select"
+                    name="status"
+                    data-region="media-status-filter"
+                >
+                    <option value="">{{#str}} all {{/str}}</option>
+                    {{#filteroptions.statuses}}
+                        <option value="{{value}}" {{#selected}}selected{{/selected}}>{{label}}</option>
+                    {{/filteroptions.statuses}}
+                </select>
+            </div>
+
+            <div class="form-group uckkarchive-media-library__filter">
+                <label for="uckkarchive-media-visibility-{{cmid}}">
+                    {{#strings.visibility}}{{strings.visibility}}{{/strings.visibility}}
+                    {{^strings.visibility}}{{#str}} visibility, mod_uckkarchive {{/str}}{{/strings.visibility}}
+                </label>
+                <select
+                    id="uckkarchive-media-visibility-{{cmid}}"
+                    class="form-control custom-select"
+                    name="visibility"
+                    data-region="media-visibility-filter"
+                >
+                    <option value="">{{#str}} all {{/str}}</option>
+                    {{#filteroptions.visibilities}}
+                        <option value="{{value}}" {{#selected}}selected{{/selected}}>{{label}}</option>
+                    {{/filteroptions.visibilities}}
+                </select>
+            </div>
+
+            <div class="form-group uckkarchive-media-library__filter">
+                <label for="uckkarchive-media-audience-{{cmid}}">
+                    {{#strings.audiencesuitability}}{{strings.audiencesuitability}}{{/strings.audiencesuitability}}
+                    {{^strings.audiencesuitability}}{{#str}} audiencesuitability, mod_uckkarchive {{/str}}{{/strings.audiencesuitability}}
+                </label>
+                <select
+                    id="uckkarchive-media-audience-{{cmid}}"
+                    class="form-control custom-select"
+                    name="audiencesuitability"
+                    data-region="media-audience-filter"
+                >
+                    <option value="">{{#str}} all {{/str}}</option>
+                    {{#filteroptions.audiencesuitabilities}}
+                        <option value="{{value}}" {{#selected}}selected{{/selected}}>{{label}}</option>
+                    {{/filteroptions.audiencesuitabilities}}
+                </select>
+            </div>
+        </div>
+
+        <div class="uckkarchive-media-library__filter-actions">
+            <button class="btn btn-secondary" type="submit" data-action="apply-filters">
+                {{#strings.filter}}{{strings.filter}}{{/strings.filter}}
+                {{^strings.filter}}{{#str}} filter {{/str}}{{/strings.filter}}
+            </button>
+
+            {{#filters.hasactivefilters}}
+                <a
+                    class="btn btn-link"
+                    href="{{urls.clearfilters}}"
+                    data-action="clear-filters"
+                >
+                    {{#strings.clearfilters}}{{strings.clearfilters}}{{/strings.clearfilters}}
+                    {{^strings.clearfilters}}{{#str}} clearfilters, mod_uckkarchive {{/str}}{{/strings.clearfilters}}
+                </a>
+            {{/filters.hasactivefilters}}
+        </div>
+    </form>
+
+    {{#hascollections}}
+        <section
+            class="uckkarchive-media-library__collections"
+            data-region="media-collections"
+        >
+            <div class="uckkarchive-media-library__section-header">
+                <h3 class="uckkarchive-media-library__section-title">
+                    {{#strings.collections}}{{strings.collections}}{{/strings.collections}}
+                    {{^strings.collections}}{{#str}} collections, mod_uckkarchive {{/str}}{{/strings.collections}}
+                </h3>
+            </div>
+
+            <div class="uckkarchive-media-library__collection-list">
+                {{#collections}}
+                    <article
+                        class="uckkarchive-media-library__collection-card"
+                        data-region="media-collection-card"
+                        data-collection-id="{{id}}"
+                    >
+                        <div class="uckkarchive-media-library__collection-main">
+                            <h4 class="uckkarchive-media-library__collection-title">
+                                <a href="{{url}}" data-action="view-collection" data-collection-id="{{id}}">
+                                    {{title}}
+                                </a>
+                            </h4>
+
+                            {{#hasdescription}}
+                                <div class="uckkarchive-media-library__collection-description">
+                                    {{{description}}}
+                                </div>
+                            {{/hasdescription}}
+
+                            <div class="uckkarchive-media-library__collection-meta">
+                                <span class="badge badge-light">{{statuslabel}}</span>
+                                <span class="badge badge-light">{{visibilitylabel}}</span>
+
+                                {{#isrestricted}}
+                                    <span class="badge badge-warning">
+                                        {{#strings.restricted}}{{strings.restricted}}{{/strings.restricted}}
+                                        {{^strings.restricted}}{{#str}} restricted, mod_uckkarchive {{/str}}{{/strings.restricted}}
+                                    </span>
+                                {{/isrestricted}}
+
+                                {{#hasmedia}}
+                                    <span class="text-muted">
+                                        {{mediacount}}
+                                        {{#strings.media}}{{strings.media}}{{/strings.media}}
+                                        {{^strings.media}}{{#str}} media, mod_uckkarchive {{/str}}{{/strings.media}}
+                                    </span>
+                                {{/hasmedia}}
+                            </div>
+                        </div>
+
+                        <div class="uckkarchive-media-library__collection-actions">
+                            {{#canview}}
+                                <a
+                                    class="btn btn-sm btn-outline-secondary"
+                                    href="{{url}}"
+                                    data-action="view-collection"
+                                    data-collection-id="{{id}}"
+                                >
+                                    {{#strings.view}}{{strings.view}}{{/strings.view}}
+                                    {{^strings.view}}{{#str}} view {{/str}}{{/strings.view}}
+                                </a>
+                            {{/canview}}
+
+                            {{#canmanage}}
+                                <a
+                                    class="btn btn-sm btn-outline-secondary"
+                                    href="{{editurl}}"
+                                    data-action="edit-collection"
+                                    data-collection-id="{{id}}"
+                                >
+                                    {{#strings.edit}}{{strings.edit}}{{/strings.edit}}
+                                    {{^strings.edit}}{{#str}} edit {{/str}}{{/strings.edit}}
+                                </a>
+                            {{/canmanage}}
+
+                            {{#canexport}}
+                                <a
+                                    class="btn btn-sm btn-outline-secondary"
+                                    href="{{exporturl}}"
+                                    data-action="export-collection"
+                                    data-collection-id="{{id}}"
+                                >
+                                    {{#strings.export}}{{strings.export}}{{/strings.export}}
+                                    {{^strings.export}}{{#str}} export {{/str}}{{/strings.export}}
+                                </a>
+                            {{/canexport}}
+                        </div>
+                    </article>
+                {{/collections}}
+            </div>
+        </section>
+    {{/hascollections}}
+
+    <section
+        class="uckkarchive-media-library__media"
+        data-region="media-results"
+    >
+        <div class="uckkarchive-media-library__section-header">
+            <h3 class="uckkarchive-media-library__section-title">
+                {{#strings.media}}{{strings.media}}{{/strings.media}}
+                {{^strings.media}}{{#str}} media, mod_uckkarchive {{/str}}{{/strings.media}}
+            </h3>
+
+            <div class="uckkarchive-media-library__count text-muted">
+                {{paging.totalcount}}
+                {{#strings.results}}{{strings.results}}{{/strings.results}}
+                {{^strings.results}}{{#str}} results {{/str}}{{/strings.results}}
+            </div>
+        </div>
+
+        {{#hasmedia}}
+            <div class="uckkarchive-media-library__grid">
+                {{#media}}
+                    <article
+                        class="uckkarchive-media-library__card uckkarchive-media-library__card--{{mediatype}} {{#isexternalreference}}uckkarchive-media-library__card--external{{/isexternalreference}}"
+                        data-region="media-card"
+                        data-media-id="{{id}}"
+                        data-media-uuid="{{uuid}}"
+                    >
+                        <a
+                            class="uckkarchive-media-library__thumbnail"
+                            href="{{url}}"
+                            data-action="view-media"
+                            data-media-id="{{id}}"
+                        >
+                            {{#hasthumbnail}}
+                                <img src="{{thumbnailurl}}" alt="{{title}}">
+                            {{/hasthumbnail}}
+
+                            {{^hasthumbnail}}
+                                <div class="uckkarchive-media-library__thumbnail-placeholder" aria-hidden="true">
+                                    <span class="uckkarchive-media-library__type">{{mediatypelabel}}</span>
+                                </div>
+                            {{/hasthumbnail}}
+
+                            {{#hascontentadvisories}}
+                                <span class="badge badge-warning uckkarchive-media-library__advisory-badge">
+                                    {{contentadvisorycount}}
+                                    {{#strings.contentadvisories}}{{strings.contentadvisories}}{{/strings.contentadvisories}}
+                                    {{^strings.contentadvisories}}{{#str}} contentadvisories, mod_uckkarchive {{/str}}{{/strings.contentadvisories}}
+                                </span>
+                            {{/hascontentadvisories}}
+                        </a>
+
+                        <div class="uckkarchive-media-library__card-body">
+                            <h4 class="uckkarchive-media-library__card-title">
+                                <a
+                                    href="{{url}}"
+                                    data-action="view-media"
+                                    data-media-id="{{id}}"
+                                >
+                                    {{title}}
+                                </a>
+                            </h4>
+
+                            {{#hasdescription}}
+                                <div class="uckkarchive-media-library__description">
+                                    {{{description}}}
+                                </div>
+                            {{/hasdescription}}
+
+                            {{#canopenexternal}}
+                                <div class="uckkarchive-media-library__external-reference">
+                                    <span class="uckkarchive-media-library__external-label">
+                                        {{#strings.externalreference}}{{strings.externalreference}}{{/strings.externalreference}}
+                                        {{^strings.externalreference}}{{#str}} externalreference, mod_uckkarchive {{/str}}{{/strings.externalreference}}
+                                    </span>
+
+                                    <a
+                                        class="uckkarchive-media-library__external-url"
+                                        href="{{externalurl}}"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        data-action="open-external-reference"
+                                        data-media-id="{{id}}"
+                                    >
+                                        {{#strings.openexternal}}{{strings.openexternal}}{{/strings.openexternal}}
+                                        {{^strings.openexternal}}{{#str}} openexternal, mod_uckkarchive {{/str}}{{/strings.openexternal}}
+                                    </a>
+                                </div>
+                            {{/canopenexternal}}
+
+                            <div class="uckkarchive-media-library__badges">
+                                <span class="badge badge-light">{{mediatypelabel}}</span>
+                                <span class="badge badge-light">{{statuslabel}}</span>
+                                <span class="badge badge-light">{{visibilitylabel}}</span>
+                                <span class="badge badge-light">{{audiencesuitabilitylabel}}</span>
+
+                                {{#isexternalreference}}
+                                    <span class="badge badge-info">
+                                        {{#strings.externalreference}}{{strings.externalreference}}{{/strings.externalreference}}
+                                        {{^strings.externalreference}}{{#str}} externalreference, mod_uckkarchive {{/str}}{{/strings.externalreference}}
+                                    </span>
+                                {{/isexternalreference}}
+
+                                {{#isrestricted}}
+                                    <span class="badge badge-warning">
+                                        {{#strings.restricted}}{{strings.restricted}}{{/strings.restricted}}
+                                        {{^strings.restricted}}{{#str}} restricted, mod_uckkarchive {{/str}}{{/strings.restricted}}
+                                    </span>
+                                {{/isrestricted}}
+
+                                {{#isculturallyrestricted}}
+                                    <span class="badge badge-info">
+                                        {{#str}} culturallyrestricted, mod_uckkarchive {{/str}}
+                                    </span>
+                                {{/isculturallyrestricted}}
+
+                                {{#isintegrityrestricted}}
+                                    <span class="badge badge-danger">
+                                        {{#str}} integrityrestricted, mod_uckkarchive {{/str}}
+                                    </span>
+                                {{/isintegrityrestricted}}
+                            </div>
+
+                            <div class="uckkarchive-media-library__dates text-muted small">
+                                {{#timemodifiedformatted}}
+                                    <span>{{#str}} modified {{/str}}: {{timemodifiedformatted}}</span>
+                                {{/timemodifiedformatted}}
+                            </div>
+                        </div>
+
+                        <div class="uckkarchive-media-library__card-actions">
+                            {{#canview}}
+                                <a
+                                    class="btn btn-sm btn-outline-secondary"
+                                    href="{{url}}"
+                                    data-action="view-media"
+                                    data-media-id="{{id}}"
+                                >
+                                    {{#strings.view}}{{strings.view}}{{/strings.view}}
+                                    {{^strings.view}}{{#str}} view {{/str}}{{/strings.view}}
+                                </a>
+                            {{/canview}}
+
+                            {{#canopenexternal}}
+                                <a
+                                    class="btn btn-sm btn-primary"
+                                    href="{{externalurl}}"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    data-action="open-external-reference"
+                                    data-media-id="{{id}}"
+                                >
+                                    {{#strings.openexternal}}{{strings.openexternal}}{{/strings.openexternal}}
+                                    {{^strings.openexternal}}{{#str}} openexternal, mod_uckkarchive {{/str}}{{/strings.openexternal}}
+                                </a>
+                            {{/canopenexternal}}
+
+                            {{#canedit}}
+                                <a
+                                    class="btn btn-sm btn-outline-secondary"
+                                    href="{{editurl}}"
+                                    data-action="edit-media"
+                                    data-media-id="{{id}}"
+                                >
+                                    {{#strings.edit}}{{strings.edit}}{{/strings.edit}}
+                                    {{^strings.edit}}{{#str}} edit {{/str}}{{/strings.edit}}
+                                </a>
+                            {{/canedit}}
+
+                            {{#candownload}}
+                                <a
+                                    class="btn btn-sm btn-outline-secondary"
+                                    href="{{downloadurl}}"
+                                    data-action="download-media"
+                                    data-media-id="{{id}}"
+                                >
+                                    {{#strings.download}}{{strings.download}}{{/strings.download}}
+                                    {{^strings.download}}{{#str}} download {{/str}}{{/strings.download}}
+                                </a>
+                            {{/candownload}}
+
+                            {{#canversion}}
+                                <a
+                                    class="btn btn-sm btn-outline-secondary"
+                                    href="{{editurl}}#versions"
+                                    data-action="version-media"
+                                    data-media-id="{{id}}"
+                                >
+                                    {{#strings.versions}}{{strings.versions}}{{/strings.versions}}
+                                    {{^strings.versions}}{{#str}} versions, mod_uckkarchive {{/str}}{{/strings.versions}}
+                                </a>
+                            {{/canversion}}
+
+                            {{#canexport}}
+                                <a
+                                    class="btn btn-sm btn-outline-secondary"
+                                    href="{{exporturl}}"
+                                    data-action="export-media"
+                                    data-media-id="{{id}}"
+                                >
+                                    {{#strings.export}}{{strings.export}}{{/strings.export}}
+                                    {{^strings.export}}{{#str}} export {{/str}}{{/strings.export}}
+                                </a>
+                            {{/canexport}}
+                        </div>
+                    </article>
+                {{/media}}
+            </div>
+        {{/hasmedia}}
+
+        {{^hasmedia}}
+            <div class="uckkarchive-media-library__empty alert alert-info" role="status">
+                {{emptymessage}}
+            </div>
+        {{/hasmedia}}
+    </section>
+
+    {{#paging.haspaging}}
+        <nav
+            class="uckkarchive-media-library__paging"
+            aria-label="{{#str}} pagination, core {{/str}}"
+            data-region="media-library-paging"
+        >
+            <ul class="pagination">
+                <li class="page-item {{^paging.hasprevious}}disabled{{/paging.hasprevious}}">
+                    {{#paging.hasprevious}}
+                        <a class="page-link" href="{{paging.previousurl}}" rel="prev">
+                            {{#strings.previous}}{{strings.previous}}{{/strings.previous}}
+                            {{^strings.previous}}{{#str}} previous {{/str}}{{/strings.previous}}
+                        </a>
+                    {{/paging.hasprevious}}
+
+                    {{^paging.hasprevious}}
+                        <span class="page-link">
+                            {{#strings.previous}}{{strings.previous}}{{/strings.previous}}
+                            {{^strings.previous}}{{#str}} previous {{/str}}{{/strings.previous}}
+                        </span>
+                    {{/paging.hasprevious}}
+                </li>
+
+                <li class="page-item disabled">
+                    <span class="page-link">
+                        {{#str}} page, core {{/str}} {{paging.page}} / {{paging.pagecount}}
+                    </span>
+                </li>
+
+                <li class="page-item {{^paging.hasnext}}disabled{{/paging.hasnext}}">
+                    {{#paging.hasnext}}
+                        <a class="page-link" href="{{paging.nexturl}}" rel="next">
+                            {{#strings.next}}{{strings.next}}{{/strings.next}}
+                            {{^strings.next}}{{#str}} next {{/str}}{{/strings.next}}
+                        </a>
+                    {{/paging.hasnext}}
+
+                    {{^paging.hasnext}}
+                        <span class="page-link">
+                            {{#strings.next}}{{strings.next}}{{/strings.next}}
+                            {{^strings.next}}{{#str}} next {{/str}}{{/strings.next}}
+                        </span>
+                    {{/paging.hasnext}}
+                </li>
+            </ul>
+        </nav>
+    {{/paging.haspaging}}
+</section>

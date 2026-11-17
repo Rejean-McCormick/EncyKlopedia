@@ -1,0 +1,101 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.pdtb-temporal-synchronous",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Simultanéité documentée",
+  "research_basis": {
+    "family": "discourse",
+    "relation": "pdtb.temporal.synchronous",
+    "source": "PDTB",
+    "source_url": "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "pdtb.temporal.synchronous",
+    "editorial_relation_required": true,
+    "semantic_warning": "Simultanéité attestée, ne suppose aucune influence.",
+    "critical_questions": []
+  },
+  "slots": {
+    "first": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "event"
+      ],
+      "visual_role": "paragraph"
+    },
+    "second": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "event"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "first",
+    "second"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": []
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "pdtb.temporal.synchronous",
+    "focus_slot": "first",
+    "moves": [
+      {
+        "slot": "first",
+        "function": "first_element",
+        "nuclearity": "multinuclear",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "second",
+        "function": "second_element",
+        "nuclearity": "multinuclear",
+        "group": 1,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "second",
+        "to_slot": "first",
+        "relation": "pdtb.temporal.synchronous",
+        "status": "requires_external_semantic_review",
+        "relation_function": "compares"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "first",
+        "second"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Simultanéité attestée, ne suppose aucune influence."
+    }
+  }
+}

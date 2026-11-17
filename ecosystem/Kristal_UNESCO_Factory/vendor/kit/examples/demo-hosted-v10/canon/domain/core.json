@@ -1,0 +1,10 @@
+{
+  "kind": "small_native_document",
+  "entities": [
+    {"id": "entity:alpha", "label": "Alpha"},
+    {"id": "entity:beta", "label": "Beta"}
+  ],
+  "relations": [
+    {"from": "entity:alpha", "to": "entity:beta", "type": "depends_on"}
+  ]
+}

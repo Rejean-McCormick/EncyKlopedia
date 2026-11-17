@@ -1,0 +1,164 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.argument-evidence",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Arrange explicit permitted realizations, without lexical generation",
+  "slots": {
+    "thesis": {
+      "node_kind": "child",
+      "allowed_templates": [
+        "rhetorical.assertion@1.0.0"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "evidence": {
+      "node_kind": "child",
+      "allowed_templates": [
+        "rhetorical.evidence@1.0.0"
+      ],
+      "min": 1,
+      "max": 10
+    },
+    "inference": {
+      "node_kind": "text",
+      "allowed_kinds": [
+        "inference"
+      ],
+      "min": 1,
+      "max": 1,
+      "visual_role": "paragraph"
+    },
+    "objection": {
+      "node_kind": "child",
+      "allowed_templates": [
+        "rhetorical.qualification@1.0.0"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "conclusion": {
+      "node_kind": "child",
+      "allowed_templates": [
+        "rhetorical.conclusion@1.0.0"
+      ],
+      "min": 1,
+      "max": 1
+    }
+  },
+  "ordered_slots": [
+    "thesis",
+    "evidence",
+    "inference",
+    "objection",
+    "conclusion"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "lead_slot": "thesis",
+    "paragraph_break_before_slots": [
+      "inference"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "structural.argument-evidence",
+    "focus_slot": "thesis",
+    "moves": [
+      {
+        "slot": "thesis",
+        "function": "position",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "embedded_template"
+      },
+      {
+        "slot": "evidence",
+        "function": "evidence",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "embedded_template"
+      },
+      {
+        "slot": "inference",
+        "function": "inference",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "objection",
+        "function": "counterargument",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "embedded_template"
+      },
+      {
+        "slot": "conclusion",
+        "function": "conclusion",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "embedded_template"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "evidence",
+        "to_slot": "thesis",
+        "relation": "structural.arrangement",
+        "status": "presentation_only",
+        "relation_function": "supports"
+      },
+      {
+        "from_slot": "inference",
+        "to_slot": "thesis",
+        "relation": "structural.arrangement",
+        "status": "presentation_only",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "objection",
+        "to_slot": "thesis",
+        "relation": "structural.arrangement",
+        "status": "presentation_only",
+        "relation_function": "challenges"
+      },
+      {
+        "from_slot": "conclusion",
+        "to_slot": "thesis",
+        "relation": "structural.arrangement",
+        "status": "presentation_only",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "thesis",
+        "evidence"
+      ],
+      [
+        "inference",
+        "objection",
+        "conclusion"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Structure de présentation; la relation et les faits restent à justifier à l’extérieur de Spek."
+    }
+  }
+}

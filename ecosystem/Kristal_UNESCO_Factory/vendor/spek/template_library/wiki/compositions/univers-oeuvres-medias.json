@@ -1,0 +1,71 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-univers-oeuvres-medias",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-13",
+    "slug": "univers-oeuvres-medias",
+    "name": "Media and Creative Universes"
+  },
+  "source_arketype_file": "archetypes/univers-oeuvres-medias.json",
+  "editorial_rationale": "Structure Arketype ARK-13: Linked works, settings, characters and media manifestations. Worldbuilding, archives and media continuity.",
+  "source_structural_primitives": [
+    "univers",
+    "oeuvres",
+    "evenements",
+    "manifestations",
+    "alias",
+    "sources",
+    "restrictions_de_lecture"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "oeuvres",
+      "title_function": "Notices des œuvres",
+      "layout_id": "concept-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "univers",
+        "oeuvres",
+        "manifestations"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "definition": 1,
+        "examples": 1,
+        "context": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Respecter les distinctions œuvre, manifestation et alias."
+    },
+    {
+      "section_id": "histoire",
+      "title_function": "Événements de l’univers",
+      "layout_id": "chronology",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "evenements",
+        "sources"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "context": 1,
+        "events": 2,
+        "limits": 1
+      },
+      "editorial_constraint": "N’utiliser que si les événements sont explicitement ordonnés et documentés."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "media-catalog"
+  ],
+  "integrity_rule": "Preserve provenance and distinction between work and interpretation.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

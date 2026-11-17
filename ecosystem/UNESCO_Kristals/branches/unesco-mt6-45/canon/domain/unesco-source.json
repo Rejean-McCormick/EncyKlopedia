@@ -1,0 +1,2604 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة التشييد",
+          "هندسة المباني",
+          "هندسة انشائية",
+          "هندسة هيكلية"
+        ],
+        "en": [
+          "Structural engineering"
+        ],
+        "es": [
+          "Construcción civil",
+          "Ingeniería de estructuras"
+        ],
+        "fr": [
+          "Construction civile",
+          "Ingénierie des structures",
+          "Technique des ponts et charpentes"
+        ],
+        "ru": [
+          "Возведение конструкций"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:38:27+00:00",
+      "narrower": [
+        "concept1236",
+        "concept1941",
+        "concept4320",
+        "concept4417",
+        "concept6156",
+        "concept6408"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة الانشاءات"
+        ],
+        "en": [
+          "Construction engineering"
+        ],
+        "es": [
+          "Ingeniería de la construcción"
+        ],
+        "fr": [
+          "Technologie du bâtiment"
+        ],
+        "ru": [
+          "Инженерное строительство"
+        ]
+      },
+      "related": [
+        "concept2708",
+        "concept4433",
+        "concept5319",
+        "concept5320",
+        "concept611",
+        "concept615",
+        "concept635",
+        "concept6401"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept610",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept610",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جيولوجيا تطبيقية"
+        ],
+        "es": [
+          "Geología aplicada"
+        ],
+        "fr": [
+          "Géologie appliquée",
+          "Géologie de l'ingénieur"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:38:16+00:00",
+      "narrower": [
+        "concept9788"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جيولوجيا هندسية"
+        ],
+        "en": [
+          "Engineering geology"
+        ],
+        "es": [
+          "Ingeniería geológica"
+        ],
+        "fr": [
+          "Génie géologique"
+        ],
+        "ru": [
+          "Инженерная геология"
+        ]
+      },
+      "related": [
+        "concept610",
+        "concept612",
+        "concept614",
+        "concept621"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept611",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept611",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة الماء",
+          "هندسة المياه",
+          "هندسة هيدرولية",
+          "هندسة هيدروليكية"
+        ],
+        "en": [
+          "Water engineering"
+        ],
+        "es": [
+          "Hidrotécnica",
+          "Ingeniería del agua",
+          "Ingeniería hídrica",
+          "Tecnología hidráulica",
+          "Técnica hidráulica"
+        ],
+        "fr": [
+          "Génie de l'eau",
+          "Génie hydraulique",
+          "Hydrotechnique",
+          "Ingénierie hydraulique",
+          "Technique hydraulique"
+        ],
+        "ru": [
+          "Гидротехника"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:33:50+00:00",
+      "narrower": [
+        "concept10310",
+        "concept10950",
+        "concept12078",
+        "concept1779",
+        "concept5520",
+        "concept8390"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة مائية"
+        ],
+        "en": [
+          "Hydraulic engineering"
+        ],
+        "es": [
+          "Ingeniería hidráulica"
+        ],
+        "fr": [
+          "Technologie hydraulique"
+        ],
+        "ru": [
+          "Гидравлическая техника"
+        ]
+      },
+      "related": [
+        "concept10117",
+        "concept12080",
+        "concept188",
+        "concept4170",
+        "concept4861",
+        "concept611",
+        "concept625",
+        "concept7358",
+        "concept8387",
+        "concept8391"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept612",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept612",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيا عسكرية"
+        ],
+        "en": [
+          "Military technology"
+        ],
+        "es": [
+          "Tecnología militar"
+        ],
+        "fr": [
+          "Technologie militaire"
+        ],
+        "ru": [
+          "Военная технология"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:15:31+00:00",
+      "narrower": [
+        "concept10301",
+        "concept12047",
+        "concept14160"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة عسكرية"
+        ],
+        "en": [
+          "Military engineering"
+        ],
+        "es": [
+          "Ingeniería militar"
+        ],
+        "fr": [
+          "Génie militaire"
+        ],
+        "ru": [
+          "Военная техника"
+        ]
+      },
+      "related": [
+        "concept2864",
+        "concept2870",
+        "concept2877",
+        "concept652",
+        "concept8997"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept613",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept613",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استخراج المعادن",
+          "تعدين الفلزات",
+          "تنقيب",
+          "صناعات التعدين",
+          "قطاع التعدين",
+          "مناجم",
+          "هندسة التعدين"
+        ],
+        "en": [
+          "Metal mining",
+          "Mines",
+          "Mining engineering",
+          "Mining industries"
+        ],
+        "es": [
+          "Extracción de minerales",
+          "Industria minera",
+          "Ingeniería de minas",
+          "Mina"
+        ],
+        "fr": [
+          "Extraction de minerai métallique",
+          "Génie minier",
+          "Mine"
+        ],
+        "ru": [
+          "Горно-добывающие отрасли промышленности",
+          "Горное машиностроение",
+          "Добыча металлических руд",
+          "Шахты"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:32:50+00:00",
+      "narrower": [
+        "concept4963"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعدين"
+        ],
+        "en": [
+          "Mining"
+        ],
+        "es": [
+          "Minería"
+        ],
+        "fr": [
+          "Industrie minière"
+        ],
+        "ru": [
+          "Разработка полезных ископаемых"
+        ]
+      },
+      "related": [
+        "concept4320",
+        "concept611",
+        "concept623",
+        "concept969"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept614",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept614",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مسح جوي"
+        ],
+        "en": [
+          "Aerial surveying"
+        ],
+        "es": [
+          "Agrimensura",
+          "Medición de tierras",
+          "Prospección topográfica",
+          "Reconocimiento aéreo"
+        ],
+        "fr": [
+          "Arpentage",
+          "Levé de plans",
+          "Levé topographique aérien"
+        ],
+        "ru": [
+          "Аэросъемка"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-19T08:59:34+00:00",
+      "narrower": [
+        "concept11168",
+        "concept11439",
+        "concept3269",
+        "concept3662"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مسح"
+        ],
+        "en": [
+          "Surveying"
+        ],
+        "es": [
+          "Reconocimiento topográfico"
+        ],
+        "fr": [
+          "Levé topographique"
+        ],
+        "ru": [
+          "Обследование (съемка)"
+        ]
+      },
+      "related": [
+        "concept1555",
+        "concept1557",
+        "concept3236",
+        "concept610",
+        "concept7393"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept615",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept615",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تصميم معماري",
+          "تصميم هندسي"
+        ],
+        "en": [
+          "Architectural design"
+        ],
+        "fr": [
+          "Dessin d'architecture"
+        ],
+        "ru": [
+          "Архитектурное проектирование"
+        ]
+      },
+      "broader": [
+        "concept610"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:16:29+00:00",
+      "narrower": [
+        "concept4397",
+        "concept4401",
+        "concept4402"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصميم المباني"
+        ],
+        "en": [
+          "Building design"
+        ],
+        "es": [
+          "Diseño arquitectónico"
+        ],
+        "fr": [
+          "Conception de bâtiment"
+        ],
+        "ru": [
+          "Проектирование зданий"
+        ]
+      },
+      "related": [
+        "concept122",
+        "concept1938",
+        "concept2713",
+        "concept340",
+        "concept4404",
+        "concept624",
+        "concept635"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1236",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1236",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انظمة الري",
+          "سقي",
+          "قنوات الري",
+          "نظم الري",
+          "هندسة الري"
+        ],
+        "en": [
+          "Irrigation canals",
+          "Irrigation engineering",
+          "Irrigation systems"
+        ],
+        "es": [
+          "Canal de irrigación",
+          "Regadío",
+          "Sistema de irrigación"
+        ],
+        "fr": [
+          "Canal d'irrigation",
+          "Système d'irrigation"
+        ],
+        "ru": [
+          "Ирригационное строительство и сооружения",
+          "Ирригационные каналы",
+          "Ирригационные системы"
+        ]
+      },
+      "broader": [
+        "concept612"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:32:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ري"
+        ],
+        "en": [
+          "Irrigation"
+        ],
+        "es": [
+          "Riego"
+        ],
+        "fr": [
+          "Irrigation"
+        ],
+        "ru": [
+          "Ирригация"
+        ]
+      },
+      "related": [
+        "concept1777",
+        "concept2080",
+        "concept2850",
+        "concept597",
+        "concept8387",
+        "concept985"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1779",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1779",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept610"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:15:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خدمات المباني"
+        ],
+        "en": [
+          "Building services"
+        ],
+        "es": [
+          "Servicio del edificio"
+        ],
+        "fr": [
+          "Services du bâtiment"
+        ],
+        "ru": [
+          "Строительные услуги"
+        ]
+      },
+      "related": [
+        "concept1938",
+        "concept2708",
+        "concept4425",
+        "concept624",
+        "concept647"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1941",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1941",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Conflicto aéreo"
+        ]
+      },
+      "broader": [
+        "concept12047"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:14:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حرب جوية"
+        ],
+        "en": [
+          "Air warfare"
+        ],
+        "es": [
+          "Guerra aérea"
+        ],
+        "fr": [
+          "Guerre aérienne"
+        ],
+        "ru": [
+          "Боевые действия в воздухе"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1964",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1964",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تصميم الخرائط",
+          "رسم الخرائط",
+          "وضع الخرائط"
+        ],
+        "en": [
+          "Mapping"
+        ],
+        "es": [
+          "Mapas",
+          "Planos"
+        ],
+        "ru": [
+          "Изготовление карт"
+        ]
+      },
+      "broader": [
+        "concept615"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:38:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الخرائط"
+        ],
+        "en": [
+          "Cartography"
+        ],
+        "es": [
+          "Cartografía"
+        ],
+        "fr": [
+          "Cartographie"
+        ],
+        "ru": [
+          "Картография"
+        ]
+      },
+      "related": [
+        "concept1557",
+        "concept17000",
+        "concept172",
+        "concept3268",
+        "concept3270"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3269",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3269",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept10310"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:38:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سدود"
+        ],
+        "en": [
+          "Dams"
+        ],
+        "es": [
+          "Presa"
+        ],
+        "fr": [
+          "Barrage"
+        ],
+        "ru": [
+          "Дамбы"
+        ]
+      },
+      "related": [
+        "concept2080",
+        "concept4861",
+        "concept7357",
+        "concept7358",
+        "concept7359"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3585",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3585",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مسح مائي"
+        ],
+        "fr": [
+          "Relevé hydrographique"
+        ]
+      },
+      "broader": [
+        "concept615"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:38:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مسح هيدروجرافي"
+        ],
+        "en": [
+          "Hydrographic surveying"
+        ],
+        "es": [
+          "Estudio hidrográfico"
+        ],
+        "fr": [
+          "Levé hydrographique"
+        ],
+        "ru": [
+          "Гидрографическая съемка"
+        ]
+      },
+      "related": [
+        "concept12097",
+        "concept12098",
+        "concept3661"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3662",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3662",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Guerra biológica",
+          "Guerra química"
+        ],
+        "fr": [
+          "Guerre biologique",
+          "Guerre chimique"
+        ]
+      },
+      "broader": [
+        "concept12047"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:38:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حرب كيميائية/بيولوجية"
+        ],
+        "en": [
+          "Chemical/biological warfare"
+        ],
+        "es": [
+          "Guerra química/biológica"
+        ],
+        "fr": [
+          "Guerre chimique/biologique"
+        ],
+        "ru": [
+          "Боевые действия с применением химического/биологического оружия"
+        ]
+      },
+      "related": [
+        "concept143",
+        "concept204",
+        "concept219",
+        "concept2864",
+        "concept620"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4043",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4043",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept610"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:16:18+00:00",
+      "narrower": [
+        "concept4321"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة مدنية"
+        ],
+        "en": [
+          "Civil engineering"
+        ],
+        "es": [
+          "Ingeniería civil"
+        ],
+        "fr": [
+          "Génie civil"
+        ],
+        "ru": [
+          "Гражданское строительство"
+        ]
+      },
+      "related": [
+        "concept4318",
+        "concept5319",
+        "concept5320",
+        "concept614",
+        "concept631",
+        "concept656"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تختص بأعمال التشييد فيما عدا المباني."
+        ],
+        "en": [
+          "Use for construction work other than buildings."
+        ],
+        "es": [
+          "Utilizar para referirse a las obras de construcción que no sean edificios."
+        ],
+        "fr": [
+          "Utiliser pour les travaux de construction autres que celle des bâtiments."
+        ],
+        "ru": [
+          "Используется в строительной промышленности (за исключением домостроительной)."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4320",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4320",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Ingeniería de caminos",
+          "Ingeniería de carreteras",
+          "Ingeniería de obras públicas"
+        ]
+      },
+      "broader": [
+        "concept4320"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:15:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة الطرق"
+        ],
+        "en": [
+          "Road engineering"
+        ],
+        "es": [
+          "Ingeniería vial"
+        ],
+        "fr": [
+          "Ingénierie routière"
+        ],
+        "ru": [
+          "Дорожное строительство"
+        ]
+      },
+      "related": [
+        "concept14291",
+        "concept14294",
+        "concept4318",
+        "concept4696",
+        "concept631"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4321",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4321",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكاليف التشييد"
+        ]
+      },
+      "broader": [
+        "concept1236"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:15:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكاليف البناء"
+        ],
+        "en": [
+          "Building costs"
+        ],
+        "es": [
+          "Costes de construcción"
+        ],
+        "fr": [
+          "Coût de construction"
+        ],
+        "ru": [
+          "Строительные издержки"
+        ]
+      },
+      "related": [
+        "concept4399"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4397",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4397",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معايير التشييد",
+          "مواصفات البناء"
+        ]
+      },
+      "broader": [
+        "concept1236"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:16:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معايير البناء"
+        ],
+        "en": [
+          "Building standards"
+        ],
+        "es": [
+          "Norma de construcción"
+        ],
+        "fr": [
+          "Norme de construction"
+        ],
+        "ru": [
+          "Строительные стандарты"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4401",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4401",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اسطح",
+          "اسقف",
+          "جدران",
+          "حوائط",
+          "سطوح",
+          "سور",
+          "عناصر هيكلية (المباني)",
+          "نوافذ"
+        ],
+        "en": [
+          "Roofs",
+          "Walls",
+          "Windows"
+        ],
+        "es": [
+          "Cimientos",
+          "Muro",
+          "Pared",
+          "Pilar",
+          "Techo",
+          "Tejado",
+          "Ventana",
+          "Viga"
+        ],
+        "fr": [
+          "Fenêtre",
+          "Mur",
+          "Toit"
+        ],
+        "ru": [
+          "Крыши",
+          "Окна",
+          "Стены"
+        ]
+      },
+      "broader": [
+        "concept1236"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:16:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عناصر انشائية (المباني)"
+        ],
+        "en": [
+          "Structural elements (buildings)"
+        ],
+        "es": [
+          "Elemento estructural (construcción)"
+        ],
+        "fr": [
+          "Élément structural (bâtiment)"
+        ],
+        "ru": [
+          "Структурные элементы (зданий)"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4402",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4402",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Conservación de los edificios"
+        ]
+      },
+      "broader": [
+        "concept4417"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:13:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صيانة المباني"
+        ],
+        "en": [
+          "Building maintenance"
+        ],
+        "es": [
+          "Mantenimiento de los edificios"
+        ],
+        "fr": [
+          "Entretien des bâtiments"
+        ],
+        "ru": [
+          "Содержание зданий"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4407",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4407",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept610"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:16:43+00:00",
+      "narrower": [
+        "concept4407",
+        "concept4418",
+        "concept4419"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عمليات البناء"
+        ],
+        "en": [
+          "Building operations"
+        ],
+        "es": [
+          "Operación de construcción"
+        ],
+        "fr": [
+          "Opération de construction"
+        ],
+        "ru": [
+          "Строительные операции"
+        ]
+      },
+      "related": [
+        "concept2708",
+        "concept4421"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تشمل رص الطوب وأعمال النجارة والطلاء وتركيب الزجاج والزخرفة، إلخ."
+        ],
+        "en": [
+          "Includes brick-laying, joinery, plastering, glazing, decorating, etc."
+        ],
+        "es": [
+          "Comprende el enladrillado, la carpintería, el enlucido, el barnizado y la decoración."
+        ],
+        "fr": [
+          "Comprend le briquetage, la menuiserie, le plâtrage, le vernissage, la décoration, etc."
+        ],
+        "ru": [
+          "Включает укладку кирпичей, столярные, штукатурные, отделочные работы и т.д."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4417",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4417",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مباني جاهزة"
+        ]
+      },
+      "broader": [
+        "concept4417"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:16:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منشآت سابقة التجهيز (المباني)"
+        ],
+        "en": [
+          "Prefabrication (buildings)"
+        ],
+        "es": [
+          "Prefabricación (construcción)"
+        ],
+        "fr": [
+          "Préfabrication (bâtiment)"
+        ],
+        "ru": [
+          "Блочное домостроение"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4418",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4418",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعادة الانشاء (المباني)",
+          "اعادة البناء",
+          "اعادة التشييد (المباني)",
+          "اعادة التعمير",
+          "تجديد المباني"
+        ]
+      },
+      "broader": [
+        "concept4417"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:16:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعادة الإعمار (المباني)"
+        ],
+        "en": [
+          "Reconstruction (buildings)"
+        ],
+        "es": [
+          "Reconstrucción de edificios"
+        ],
+        "fr": [
+          "Reconstruction de bâtiments"
+        ],
+        "ru": [
+          "Реконструкция (зданий)"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4419",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4419",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استخراج الفحم",
+          "مناجم الفحم"
+        ],
+        "es": [
+          "Industria carbonífera",
+          "Industria del carbón"
+        ],
+        "fr": [
+          "Exploitation de la houille",
+          "Industrie charbonnière"
+        ]
+      },
+      "broader": [
+        "concept614"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:14:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعدين الفحم"
+        ],
+        "en": [
+          "Coal mining"
+        ],
+        "es": [
+          "Mina de carbón"
+        ],
+        "fr": [
+          "Charbonnage"
+        ],
+        "ru": [
+          "Добыча угля"
+        ]
+      },
+      "related": [
+        "concept4960"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4963",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4963",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حد من تآكل الساحل",
+          "حماية السواحل",
+          "حماية ساحلية",
+          "مكافحة التحات الساحلي",
+          "مكافحة التعرية الساحلية"
+        ],
+        "en": [
+          "Coastal erosion control"
+        ],
+        "fr": [
+          "Contrôle de l'érosion côtière",
+          "Lutte contre l'érosion côtière"
+        ],
+        "ru": [
+          "Контроль за эрозией прибрежных зон"
+        ]
+      },
+      "broader": [
+        "concept5520"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:15:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حماية المناطق الساحلية"
+        ],
+        "en": [
+          "Coastal protection"
+        ],
+        "es": [
+          "Protección costera"
+        ],
+        "fr": [
+          "Protection côtière"
+        ],
+        "ru": [
+          "Охрана прибрежных зон"
+        ]
+      },
+      "related": [
+        "concept5504",
+        "concept5513"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مكافحة التآكل الساحلي."
+        ],
+        "es": [
+          "Control de la erosión costera."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5506",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5506",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هندسة المرافئ والسواحل",
+          "هندسة الموانئ والمناطق الساحلية"
+        ],
+        "es": [
+          "Ingeniería de costas",
+          "Ingeniería de puertos"
+        ]
+      },
+      "broader": [
+        "concept612"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:15:34+00:00",
+      "narrower": [
+        "concept5506"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة المرافئ والمناطق الساحلية"
+        ],
+        "en": [
+          "Harbour and coastal engineering"
+        ],
+        "es": [
+          "Ingeniería portuaria y costera"
+        ],
+        "fr": [
+          "Génie portuaire et côtier"
+        ],
+        "ru": [
+          "Строительство в бухтах и прибрежных зонах"
+        ]
+      },
+      "related": [
+        "concept11740",
+        "concept5507",
+        "concept7358"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5520",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5520",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل انشائي",
+          "تحليل بنيوي",
+          "تحليل هيكلي",
+          "تصميم بنيوي",
+          "تصميم هيكلي"
+        ],
+        "en": [
+          "Structural analysis"
+        ],
+        "es": [
+          "Concepción de estructuras",
+          "Cálculo de estructuras"
+        ],
+        "fr": [
+          "Calcul des structures",
+          "Conception des structures"
+        ],
+        "ru": [
+          "Структурный анализ"
+        ]
+      },
+      "broader": [
+        "concept610"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:15:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصميم انشائي"
+        ],
+        "en": [
+          "Structural design"
+        ],
+        "es": [
+          "Diseño estructural"
+        ],
+        "fr": [
+          "Conception d'un édifice"
+        ],
+        "ru": [
+          "Строительное проектирование"
+        ]
+      },
+      "related": [
+        "concept5320"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6156",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6156",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حماية من الزلازل",
+          "هندسة الانشاءات الصامدة للزلازل",
+          "هندسة الهزات الارضية"
+        ],
+        "en": [
+          "Earthquake protection"
+        ],
+        "es": [
+          "Prevención de seísmos",
+          "Prevención de terremotos"
+        ],
+        "fr": [
+          "Protection contre les séismes",
+          "Protection contre les tremblements de terre"
+        ],
+        "ru": [
+          "Защита от землетрясений"
+        ]
+      },
+      "broader": [
+        "concept610"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:16:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة الزلازل"
+        ],
+        "en": [
+          "Earthquake engineering"
+        ],
+        "es": [
+          "Ingeniería sísmica"
+        ],
+        "fr": [
+          "Génie parasismique"
+        ],
+        "ru": [
+          "Сейсмостойкое строительство"
+        ]
+      },
+      "related": [
+        "concept5320",
+        "concept8139",
+        "concept8143",
+        "concept8600",
+        "concept8601"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6408",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6408",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "غوص في المياه العميقة"
+        ],
+        "es": [
+          "Buceo"
+        ]
+      },
+      "broader": [
+        "concept12078"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:14:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "غوص في اعماق البحار"
+        ],
+        "en": [
+          "Deep sea diving"
+        ],
+        "es": [
+          "Submarinismo"
+        ],
+        "fr": [
+          "Plongée sous-marine"
+        ],
+        "ru": [
+          "Глубоководное погружение"
+        ]
+      },
+      "related": [
+        "concept7537"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7535",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7535",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صرف الاراضي",
+          "هندسة الصرف"
+        ],
+        "en": [
+          "Land drainage"
+        ],
+        "es": [
+          "Drenaje de tierras"
+        ],
+        "fr": [
+          "Drainage des terres"
+        ],
+        "ru": [
+          "Дренаж земель"
+        ]
+      },
+      "broader": [
+        "concept612"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:38:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة صرف الفضلات"
+        ],
+        "en": [
+          "Drainage engineering"
+        ],
+        "es": [
+          "Ingeniería de drenaje"
+        ],
+        "fr": [
+          "Technologie du drainage"
+        ],
+        "ru": [
+          "Дренажные сооружения"
+        ]
+      },
+      "related": [
+        "concept1989",
+        "concept3180",
+        "concept8387",
+        "concept8391"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8390",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8390",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مستودعات الماء"
+        ]
+      },
+      "broader": [
+        "concept10310"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:32:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خزانات"
+        ],
+        "en": [
+          "Reservoirs"
+        ],
+        "es": [
+          "Embalse"
+        ],
+        "fr": [
+          "Réservoir"
+        ],
+        "ru": [
+          "Водохранилища"
+        ]
+      },
+      "related": [
+        "concept1874",
+        "concept2080",
+        "concept3679",
+        "concept7357",
+        "concept7359",
+        "concept8142",
+        "concept985"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8527",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8527",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استكشاف جيوفيزيائي",
+          "اعمال الاستكشاف السيزمية",
+          "تنقيب بقياس الجاذبية",
+          "تنقيب تثاقلي",
+          "تنقيب زلزالي",
+          "تنقيب سيزمي"
+        ],
+        "en": [
+          "Gravimetric prospecting",
+          "Seismic prospecting"
+        ],
+        "es": [
+          "Estudio geofísico",
+          "Prospección gravimétrica",
+          "Prospección sísmica",
+          "Reconocimiento geofísico",
+          "Reconocimiento sísmico"
+        ],
+        "fr": [
+          "Prospection gravimétrique",
+          "Prospection sismique",
+          "Prospection séismique",
+          "Recherche géophysique",
+          "Reconnaissance géophysique",
+          "Reconnaissance sismique",
+          "Étude géophysique"
+        ],
+        "ru": [
+          "Гравиметрическая разведка",
+          "Сейсмическая разведка"
+        ]
+      },
+      "broader": [
+        "concept611"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:38:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنقيب جيوفيزيقي"
+        ],
+        "en": [
+          "Geophysical prospecting"
+        ],
+        "es": [
+          "Prospección geofísica"
+        ],
+        "fr": [
+          "Prospection géophysique"
+        ],
+        "ru": [
+          "Геофизическая разведка"
+        ]
+      },
+      "related": [
+        "concept10624",
+        "concept159",
+        "concept160",
+        "concept8610"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9788",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9788",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اساليب تكتيكية عسكرية",
+          "تكتيكات عسكرية"
+        ],
+        "en": [
+          "Military tactics"
+        ],
+        "es": [
+          "Táctica militar"
+        ],
+        "fr": [
+          "Tactique militaire"
+        ],
+        "ru": [
+          "Военная тактика"
+        ]
+      },
+      "broader": [
+        "concept613"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:32:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استراتيجية عسكرية"
+        ],
+        "en": [
+          "Military strategy"
+        ],
+        "es": [
+          "Estrategia militar"
+        ],
+        "fr": [
+          "Stratégie militaire"
+        ],
+        "ru": [
+          "Военная стратегия"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10301",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10301",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكوينات هيدرولوجية",
+          "منشآت مائية",
+          "هياكل مائية",
+          "هياكل هيدرولية"
+        ]
+      },
+      "broader": [
+        "concept612"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:33:20+00:00",
+      "narrower": [
+        "concept3585",
+        "concept8527"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منشآت هيدروليكية"
+        ],
+        "en": [
+          "Hydraulic structures"
+        ],
+        "es": [
+          "Estructura hidráulica"
+        ],
+        "fr": [
+          "Structure hydraulique"
+        ],
+        "ru": [
+          "Гидравлические сооружения"
+        ]
+      },
+      "related": [
+        "concept10117",
+        "concept7358"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10310",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10310",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استخراج النفط والغاز تحت الماء",
+          "تعدين تحت الماء",
+          "تعدين تحت سطح البحر",
+          "تعدين غائص",
+          "تعدين في قاع البحار العميقة",
+          "حفر بحري"
+        ],
+        "en": [
+          "Deep sea mining",
+          "Offshore drilling",
+          "Underwater mining",
+          "Underwater oil and gas extraction"
+        ],
+        "es": [
+          "Dragado",
+          "Explotación de minas submarinas",
+          "Extracción submarina",
+          "Perforación submarina"
+        ],
+        "fr": [
+          "Extraction sous-marine d'huile et de gaz",
+          "Forage en mer",
+          "Forage offshore"
+        ],
+        "ru": [
+          "Глубоководная разработка полезных ископаемых",
+          "Подводная добыча нефти и газа",
+          "Подводная разработка полезных ископаемых",
+          "Шельфовое бурение"
+        ]
+      },
+      "broader": [
+        "concept12078"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:32:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعدين في قاع البحار"
+        ],
+        "en": [
+          "Sea bed mining"
+        ],
+        "es": [
+          "Minería submarina"
+        ],
+        "fr": [
+          "Exploitation minière des fonds marins"
+        ],
+        "ru": [
+          "Разработка ресурсов морского дна"
+        ]
+      },
+      "related": [
+        "concept11387",
+        "concept13765",
+        "concept5521",
+        "concept6498"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10622",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10622",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept612"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:14:11+00:00",
+      "narrower": [
+        "concept15920"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هندسة الانهار والبحيرات"
+        ],
+        "en": [
+          "River and lake engineering"
+        ],
+        "es": [
+          "Ingeniería fluvial y lacustre"
+        ],
+        "fr": [
+          "Technologie fluviale et lacustre"
+        ],
+        "ru": [
+          "Строительство в речных и приозерных зонах"
+        ]
+      },
+      "related": [
+        "concept2632",
+        "concept3679",
+        "concept4583",
+        "concept7358"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10950",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10950",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تصوير ضوئي مساحي",
+          "تصوير مساحي",
+          "مسح بالتصوير الفوتوغرافي",
+          "مسح تصويري"
+        ]
+      },
+      "broader": [
+        "concept615"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:32:51+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصوير مساحي ضوئي"
+        ],
+        "en": [
+          "Photogrammetry"
+        ],
+        "es": [
+          "Fotogrametría"
+        ],
+        "fr": [
+          "Photogrammétrie"
+        ],
+        "ru": [
+          "Фотограмметрия"
+        ]
+      },
+      "related": [
+        "concept1557"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11168",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11168",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مساحة جيولوجية"
+        ]
+      },
+      "broader": [
+        "concept615"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:16:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مسح جيولوجي"
+        ],
+        "en": [
+          "Geological surveying"
+        ],
+        "es": [
+          "Reconocimiento geológico"
+        ],
+        "fr": [
+          "Levé géologique"
+        ],
+        "ru": [
+          "Геологическая съемка"
+        ]
+      },
+      "related": [
+        "concept159"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11439",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11439",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Combate urbano",
+          "Conflicto urbano",
+          "Guerrilla urbana"
+        ],
+        "fr": [
+          "Combat en milieu urbain",
+          "Combat en zone urbaine",
+          "Guérilla urbaine"
+        ]
+      },
+      "broader": [
+        "concept12047"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:16:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حرب المدن"
+        ],
+        "en": [
+          "Urban warfare"
+        ],
+        "es": [
+          "Guerra urbana"
+        ],
+        "fr": [
+          "Guerre urbaine"
+        ],
+        "ru": [
+          "Боевые действия в условиях города"
+        ]
+      },
+      "related": [
+        "concept1291",
+        "concept14592",
+        "concept6843"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11677",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11677",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Guerra atómica"
+        ],
+        "fr": [
+          "Guerre atomique"
+        ]
+      },
+      "broader": [
+        "concept12047"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:14:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حرب نووية"
+        ],
+        "en": [
+          "Nuclear warfare"
+        ],
+        "es": [
+          "Guerra nuclear"
+        ],
+        "fr": [
+          "Guerre nucléaire"
+        ],
+        "ru": [
+          "Боевые действия с применением ядерного оружия"
+        ]
+      },
+      "related": [
+        "concept10637",
+        "concept2866"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11682",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11682",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Arte militar"
+        ],
+        "fr": [
+          "Conduite de la guerre"
+        ]
+      },
+      "broader": [
+        "concept613"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-19T08:59:30+00:00",
+      "narrower": [
+        "concept11677",
+        "concept11682",
+        "concept1964",
+        "concept4043"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حرب"
+        ],
+        "en": [
+          "Warfare"
+        ],
+        "es": [
+          "Arte de la guerra"
+        ],
+        "fr": [
+          "Opération guerrière"
+        ],
+        "ru": [
+          "Боевые действия"
+        ]
+      },
+      "related": [
+        "concept2864",
+        "concept559"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12047",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12047",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكنولوجيات غمرية"
+        ],
+        "es": [
+          "Tecnología submarina"
+        ]
+      },
+      "broader": [
+        "concept612"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:36:36+00:00",
+      "narrower": [
+        "concept10622",
+        "concept7535"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيات تحت مائية"
+        ],
+        "en": [
+          "Underwater technology"
+        ],
+        "es": [
+          "Tecnología subacuática"
+        ],
+        "fr": [
+          "Technologie sous-marine"
+        ],
+        "ru": [
+          "Подводная технология"
+        ]
+      },
+      "related": [
+        "concept10122",
+        "concept13759",
+        "concept175",
+        "concept7438"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12078",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12078",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Operación bélica"
+        ]
+      },
+      "broader": [
+        "concept613"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-17T16:32:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عمليات عسكرية"
+        ],
+        "en": [
+          "Military operations"
+        ],
+        "es": [
+          "Operación militar"
+        ],
+        "fr": [
+          "Opération militaire"
+        ],
+        "ru": [
+          "Военные операции"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14160",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14160",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحكم في الانهار",
+          "رصد الانهار",
+          "مراقبة الانهار"
+        ],
+        "es": [
+          "Regulación de los cursos de agua",
+          "Regulación de los ríos"
+        ]
+      },
+      "broader": [
+        "concept10950"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.45"
+      ],
+      "modified": "2019-12-15T14:15:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ضبط الانهار"
+        ],
+        "en": [
+          "River control"
+        ],
+        "es": [
+          "Regulación fluvial"
+        ],
+        "fr": [
+          "Régulation des cours d'eau"
+        ],
+        "ru": [
+          "Речной контроль"
+        ]
+      },
+      "related": [
+        "concept7741"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15920",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15920",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt6.45",
+    "labels": {
+      "en": "Civil, military and mining engineering",
+      "fr": "Génie civil, militaire et minier"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt6.45"
+  }
+}

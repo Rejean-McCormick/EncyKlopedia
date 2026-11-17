@@ -1,0 +1,62 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.transition",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Arrange explicit permitted realizations, without lexical generation",
+  "slots": {
+    "bridge": {
+      "node_kind": "text",
+      "allowed_kinds": [
+        "context"
+      ],
+      "min": 1,
+      "max": 1,
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "bridge"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": []
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "structural.transition",
+    "focus_slot": "bridge",
+    "moves": [
+      {
+        "slot": "bridge",
+        "function": "transition",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [],
+    "paragraph_groups": [
+      [
+        "bridge"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Structure de présentation; la relation et les faits restent à justifier à l’extérieur de Spek."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kristal.discovery-audit/1.0",
+  "title": "Non-authoritative consumer discovery diagnostic",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "status", "usable_as_reader_hint", "authorization", "issues", "formats"],
+  "properties": {
+    "format": {"const": "kristal.discovery-audit/1.0"},
+    "status": {"enum": ["absent", "incomplete", "invalid", "stale", "fresh"]},
+    "usable_as_reader_hint": {"type": "boolean"},
+    "authorization": {"const": "not_evaluated_no_access_or_publication_grant"},
+    "issues": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "formats": {"const": ["kristal.discovery/1.0", "kristal.reader-inventory/1.0", "kristal.reader-profile/1.0"]},
+    "tracked_file_count": {"type": "integer", "minimum": 0},
+    "state_ref": {"type": "string", "minLength": 1},
+    "reader_profile": {"type": "string", "minLength": 1}
+  },
+  "allOf": [
+    {"if": {"properties": {"status": {"const": "fresh"}}},
+     "then": {"required": ["state_ref", "tracked_file_count", "reader_profile"], "properties": {"usable_as_reader_hint": {"const": true}}},
+     "else": {"properties": {"usable_as_reader_hint": {"const": false}}}}
+  ]
+}

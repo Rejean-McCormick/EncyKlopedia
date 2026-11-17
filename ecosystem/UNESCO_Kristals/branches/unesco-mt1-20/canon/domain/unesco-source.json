@@ -1,0 +1,2470 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T22:36:43+00:00",
+      "narrower": [
+        "concept3045"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادارة تربوية"
+        ],
+        "en": [
+          "Educational administration"
+        ],
+        "es": [
+          "Administración de la educación"
+        ],
+        "fr": [
+          "Administration de l'éducation"
+        ],
+        "ru": [
+          "Руководство сферой образования"
+        ]
+      },
+      "related": [
+        "concept1138",
+        "concept14",
+        "concept23",
+        "concept24",
+        "concept31",
+        "concept36"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يتعلق الأمر بمنطقة معينة أو نظام التعليم بأكمله."
+        ],
+        "en": [
+          "Relating to part or the whole of the educational system."
+        ],
+        "es": [
+          "Se refiere a una parte o al conjunto del sistema educativo"
+        ],
+        "fr": [
+          "Se rapporte à une partie ou à l'ensemble du système éducatif."
+        ],
+        "ru": [
+          "Имеет отношение к отдельной области или всей системе образования."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept21",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept21",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "قوانين التعليم"
+        ],
+        "en": [
+          "Educational laws"
+        ],
+        "es": [
+          "Legislación sobre enseñanza",
+          "Leyes sobre educación"
+        ],
+        "fr": [
+          "Loi sur l'éducation"
+        ],
+        "ru": [
+          "Законы в области образования"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:26:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تشريع تربوي"
+        ],
+        "en": [
+          "Educational legislation"
+        ],
+        "es": [
+          "Legislación educacional"
+        ],
+        "fr": [
+          "Législation de l'éducation"
+        ],
+        "ru": [
+          "Законодательство в области образования"
+        ]
+      },
+      "related": [
+        "concept1073",
+        "concept5999",
+        "concept7790"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept22",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept22",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هيئات ادارية تعليمية"
+        ],
+        "en": [
+          "Educational administrative bodies"
+        ],
+        "es": [
+          "Cuerpo administrativo de enseñanza",
+          "Institución administrativa de enseñanza",
+          "Órgano administrativo de enseñanza"
+        ],
+        "fr": [
+          "Corps administratif de l'enseignement",
+          "Organe administratif de l'enseignement"
+        ],
+        "ru": [
+          "Административные органы в сфере образования"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:21+00:00",
+      "narrower": [
+        "concept9133"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منظمات تربوية"
+        ],
+        "en": [
+          "Educational organizations"
+        ],
+        "es": [
+          "Organismo de enseñanza"
+        ],
+        "fr": [
+          "Organisme de l'enseignement"
+        ],
+        "ru": [
+          "Организации в сфере образования"
+        ]
+      },
+      "related": [
+        "concept21",
+        "concept44",
+        "concept6604"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept23",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept23",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تفتيش تربوي",
+          "توجيه تربوي"
+        ],
+        "en": [
+          "Educational inspection"
+        ],
+        "es": [
+          "Inspección de la educación"
+        ],
+        "fr": [
+          "Inspection de l'éducation"
+        ],
+        "ru": [
+          "Образовательное инспектирование"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T22:36:43+00:00",
+      "narrower": [
+        "concept1088",
+        "concept6302",
+        "concept9140",
+        "concept9409"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اشراف تربوي"
+        ],
+        "en": [
+          "Educational supervision"
+        ],
+        "es": [
+          "Inspección educativa"
+        ],
+        "fr": [
+          "Inspection de l'enseignement"
+        ],
+        "ru": [
+          "Надзор в сфере образования"
+        ]
+      },
+      "related": [
+        "concept21"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept24",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept24",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مهنة التعليم"
+        ],
+        "fr": [
+          "Métier d'enseignant",
+          "Profession enseignante"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T12:03:13+00:00",
+      "narrower": [
+        "concept1073",
+        "concept15850",
+        "concept4543",
+        "concept6186"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مهنة التدريس"
+        ],
+        "en": [
+          "Teaching profession"
+        ],
+        "es": [
+          "Docencia"
+        ],
+        "fr": [
+          "Profession d'enseignant"
+        ],
+        "ru": [
+          "Педагогическая профессия"
+        ]
+      },
+      "related": [
+        "concept16441",
+        "concept2",
+        "concept8283",
+        "concept9331"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept25",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept25",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حرية اكاديمية"
+        ]
+      },
+      "broader": [
+        "concept3427"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:29:31+00:00",
+      "narrower": [
+        "concept17174"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حرية التعليم"
+        ],
+        "en": [
+          "Academic freedom"
+        ],
+        "es": [
+          "Libertad de enseñanza"
+        ],
+        "fr": [
+          "Liberté de l'enseignement"
+        ],
+        "ru": [
+          "Научная свобода"
+        ]
+      },
+      "related": [
+        "concept1073",
+        "concept554"
+      ],
+      "scope_notes": {
+        "ar": [
+          "حرية المؤسسات التعليمية في اختيار برامجها الدراسية والبحثية، والمعلمين، لتدريس المواد الدراسية دون قيود خارجية."
+        ],
+        "en": [
+          "Liberty of educational institutions to decide courses and research, and of teachers to teach subjects, without outside coercion."
+        ],
+        "es": [
+          "Libertad para las instituciones educativas de elegir su programa de curso e investigación y, para los profesores, de enseñar las materias sin limitación exterior."
+        ],
+        "fr": [
+          "Liberté pour les institutions éducatives de décider de leur programme de cours et de recherches, et pour les enseignants, d'enseigner les matières, sans contrainte extérieure."
+        ],
+        "ru": [
+          "Свобода образовательных учреждений в определении методов ведения учебного процесса и научных исследований, а для преподавателей - право вести обучение по предметам без внешнего вмешательства."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1071",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1071",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Estatus del profesor",
+          "Status del profesor"
+        ],
+        "fr": [
+          "Statut de l'enseignant"
+        ]
+      },
+      "broader": [
+        "concept25"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:29:22+00:00",
+      "narrower": [
+        "concept14926",
+        "concept9128"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وضع المعلم"
+        ],
+        "en": [
+          "Teacher status"
+        ],
+        "es": [
+          "Situación del docente"
+        ],
+        "fr": [
+          "Condition de l'enseignant"
+        ],
+        "ru": [
+          "Статус преподавателя"
+        ]
+      },
+      "related": [
+        "concept1071",
+        "concept22"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1073",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1073",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مدارس معتمدة"
+        ],
+        "en": [
+          "Accredited schools"
+        ],
+        "es": [
+          "Colegio acreditado",
+          "Escuela acreditada",
+          "Institución educativa acreditada"
+        ],
+        "fr": [
+          "Accréditation",
+          "Habilitation",
+          "École agréée"
+        ],
+        "ru": [
+          "Аккредитованные школы"
+        ]
+      },
+      "broader": [
+        "concept24"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2026-04-17T12:26:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعتماد (التعليم)"
+        ],
+        "en": [
+          "Accreditation (education)"
+        ],
+        "es": [
+          "Acreditación (educación)"
+        ],
+        "fr": [
+          "Agrément (éducation)"
+        ],
+        "ru": [
+          "Аккредитация (образовательная)"
+        ]
+      },
+      "related": [
+        "concept1047"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الاعتراف والتصديق على المعيار الأكاديمي لمؤسسة تعليمية من قبل هيئة خارجية محايدة ومعترف بها علنا."
+        ],
+        "en": [
+          "Recognition and approval of the academic standards of an educational institution by some external, impartial body of high public esteem."
+        ],
+        "es": [
+          "Reconocimiento y ratificación de las normas académicas de una institución educativa por un organismo externo imparcial reconocido públicamente."
+        ],
+        "fr": [
+          "Reconnaissance et ratification de la norme académique d'une institution éducative par un organisme externe impartial, publiquement reconnu."
+        ],
+        "ru": [
+          "Признание и одобрение академических стандартов образовательного учреждения независимым органом, пользующимся авторитетом у общественности."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1088",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1088",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept21"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:03+00:00",
+      "narrower": [
+        "concept3427",
+        "concept6578",
+        "concept6604",
+        "concept7501"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تمفصٌل تعليمي"
+        ],
+        "en": [
+          "Educational articulation"
+        ],
+        "es": [
+          "Articulación educativa"
+        ],
+        "fr": [
+          "Articulation éducative"
+        ],
+        "ru": [
+          "Организационные взаимосвязи в сфере образования"
+        ]
+      },
+      "related": [
+        "concept14",
+        "concept31"
+      ],
+      "scope_notes": {
+        "ar": [
+          "بين المؤسسات التعليمية من مستويات مختلفة أو أنواع مختلفة من المدارس."
+        ],
+        "en": [
+          "Between levels of education or types of school."
+        ],
+        "es": [
+          "Dispositivo de estructuras educativas que permite el paso entre niveles de educación o entre diferentes tipos de escuelas."
+        ],
+        "fr": [
+          "Dispositif des structures éducatives permettant le passage entre les niveaux d'éducation ou entre les types d'écoles."
+        ],
+        "ru": [
+          "Между учебными заведениями различного уровня или разными типами школ."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3045",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3045",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بعثات تعليمية",
+          "مساعدة تدريبية"
+        ],
+        "en": [
+          "Educational missions",
+          "Training assistance"
+        ],
+        "es": [
+          "Apoyo a la formación",
+          "Asistencia a la formación",
+          "Ayuda a la educación",
+          "Misión educativa"
+        ],
+        "fr": [
+          "Aide à la formation",
+          "Appui à la formation",
+          "Mission éducative"
+        ],
+        "ru": [
+          "Образовательные миссии",
+          "Содействие в подготовке кадров"
+        ]
+      },
+      "broader": [
+        "concept6578"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T22:36:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مساعدة تربوية"
+        ],
+        "en": [
+          "Educational assistance"
+        ],
+        "es": [
+          "Ayuda educativa"
+        ],
+        "fr": [
+          "Assistance en matière d'éducation"
+        ],
+        "ru": [
+          "Содействие в сфере образования"
+        ]
+      },
+      "related": [
+        "concept15",
+        "concept6308",
+        "concept6585",
+        "concept8864"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يتم توفيرها من خلال بعثات متخصصة في إطار البرامج الدولية."
+        ],
+        "en": [
+          "Provided by specialist missions to countries under international programmes."
+        ],
+        "es": [
+          "Se refiere a la ayuda aportada por misiones especializadas a determinados países, en el marco de programas internacionales."
+        ],
+        "fr": [
+          "Aide apportée à des pays par des missions de spécialistes dans le cadre de programmes internationaux."
+        ],
+        "ru": [
+          "Предоставляется специалистами во время миссий в рамках международных программ."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3161",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3161",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جمعيات المعلمين"
+        ]
+      },
+      "broader": [
+        "concept3176"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:18+00:00",
+      "narrower": [
+        "concept16441"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رابطات المعلمين"
+        ],
+        "en": [
+          "Teacher associations"
+        ],
+        "es": [
+          "Asociación de profesores"
+        ],
+        "fr": [
+          "Association d'enseignants"
+        ],
+        "ru": [
+          "Ассоциации преподавателей"
+        ]
+      },
+      "related": [
+        "concept15850",
+        "concept3178"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3174",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3174",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رابطات التعليم"
+        ]
+      },
+      "broader": [
+        "concept9133"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:29:29+00:00",
+      "narrower": [
+        "concept3174",
+        "concept9157",
+        "concept9158"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جمعيات تربوية"
+        ],
+        "en": [
+          "Educational associations"
+        ],
+        "es": [
+          "Asociación educativa"
+        ],
+        "fr": [
+          "Association éducative"
+        ],
+        "ru": [
+          "Ассоциации в сфере образования"
+        ]
+      },
+      "related": [
+        "concept9135"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الجمعيات التطوعية المعنية بإدارة التعليم."
+        ],
+        "en": [
+          "Voluntary bodies concerned with the administration of education."
+        ],
+        "es": [
+          "Asociación benévola dedicada a la administración de la educación."
+        ],
+        "fr": [
+          "Association bénévole qui s'intéresse à l'administration de l'éducation."
+        ],
+        "ru": [
+          "Добровольные объединения, содействующие целям образования."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3176",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3176",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادارة  مدرسية",
+          "ادارة ذاتية للتعليم"
+        ],
+        "en": [
+          "Educational self management",
+          "School based management"
+        ],
+        "es": [
+          "Autogestión educativa",
+          "Independencia educativa"
+        ],
+        "fr": [
+          "Autogestion éducative"
+        ],
+        "ru": [
+          "Самоуправление в сфере образования"
+        ]
+      },
+      "broader": [
+        "concept3045"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:35+00:00",
+      "narrower": [
+        "concept1071"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استقلال ذاتي تعليمي"
+        ],
+        "en": [
+          "Educational autonomy"
+        ],
+        "es": [
+          "Autonomía educativa"
+        ],
+        "fr": [
+          "Autonomie éducative"
+        ],
+        "ru": [
+          "Образовательная автономия"
+        ]
+      },
+      "related": [
+        "concept31",
+        "concept7501"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الشروط التي توفر لمؤسسة تعليمية من أي مستوى درجة معينة من الاستقلالية في الأمور الإدارية والبرنامجية."
+        ],
+        "en": [
+          "Arrangements giving educational establishments at any level a degree of autonomy in administrative and programme matters."
+        ],
+        "es": [
+          "Acuerdos que otorgan a establecimientos educativos de todos los niveles un cierto grado de autonomía en materia de administración y de programas."
+        ],
+        "fr": [
+          "Accord donnant aux établissements éducatifs de tous niveaux une certaine autonomie en matière d'administration et de programmes."
+        ],
+        "ru": [
+          "Условия, предоставляющие учебному заведению любого уровня определенную степень автономии в административных и программных вопросах."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3427",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3427",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Capacidad del docente",
+          "Cualificación del docente"
+        ],
+        "fr": [
+          "Compétences de l'enseignant"
+        ]
+      },
+      "broader": [
+        "concept25"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T12:02:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مؤهلات المعلمين"
+        ],
+        "en": [
+          "Teacher qualifications"
+        ],
+        "es": [
+          "Competencias del docente"
+        ],
+        "fr": [
+          "Qualifications de l'enseignant"
+        ],
+        "ru": [
+          "Квалификации преподавателей"
+        ]
+      },
+      "related": [
+        "concept15094",
+        "concept15850",
+        "concept4541",
+        "concept6186",
+        "concept7565",
+        "concept89",
+        "concept9195",
+        "concept9331"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4543",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4543",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اندية مدرسية"
+        ]
+      },
+      "broader": [
+        "concept9158"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نوادي مدرسية"
+        ],
+        "en": [
+          "School clubs"
+        ],
+        "es": [
+          "Club escolar"
+        ],
+        "fr": [
+          "Club scolaire"
+        ],
+        "ru": [
+          "Школьные клубы"
+        ]
+      },
+      "related": [
+        "concept1279",
+        "concept1282"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5486",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5486",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجازة المعلمين",
+          "ظروف عمل المعلمين",
+          "فصل المعلمين"
+        ],
+        "en": [
+          "Teacher dismissal",
+          "Teacher leave",
+          "Teacher working conditions"
+        ],
+        "es": [
+          "Autorización de enseñanza",
+          "Condiciones de trabajo del docente",
+          "Licencia de enseñanza",
+          "Permiso de enseñanza"
+        ],
+        "fr": [
+          "Conditions de travail de l'enseignant",
+          "Départ de l'enseignant",
+          "Licenciement de l'enseignant"
+        ],
+        "ru": [
+          "Отпуск преподавателей",
+          "Увольнение преподавателей",
+          "Условия труда преподавателей"
+        ]
+      },
+      "broader": [
+        "concept25"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:41+00:00",
+      "narrower": [
+        "concept14221",
+        "concept15964"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "شروط توظيف المعلمين"
+        ],
+        "en": [
+          "Teacher conditions of employment"
+        ],
+        "es": [
+          "Condiciones de empleo del docente"
+        ],
+        "fr": [
+          "Conditions d'emploi de l'enseignant"
+        ],
+        "ru": [
+          "Условия найма на работу для преподавателей"
+        ]
+      },
+      "related": [
+        "concept31",
+        "concept4543",
+        "concept5567",
+        "concept9148"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6186",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6186",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept24"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T12:03:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مجالس الادارة التعليمية"
+        ],
+        "en": [
+          "Educational governing boards"
+        ],
+        "es": [
+          "Consejo de administración educativa"
+        ],
+        "fr": [
+          "Conseil d'administration éducative"
+        ],
+        "ru": [
+          "Учебные управляющие советы"
+        ]
+      },
+      "related": [
+        "concept9133"
+      ],
+      "scope_notes": {
+        "ar": [
+          "هيئة للإشراف على الإدارة العامة لشئون مؤسسة خاصة أو عامة."
+        ],
+        "en": [
+          "Entrusted with some degree of control over managing the affairs of private and public institutions."
+        ],
+        "es": [
+          "Organismo encargado de supervisar la administración de los asuntos de una institución pública o privada."
+        ],
+        "fr": [
+          "Organisme chargé de superviser l'administration générale des affaires d'une institution privée ou publique."
+        ],
+        "ru": [
+          "Обладающие определенной степенью власти в управлении деятельностью частных и государственных учреждений."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6302",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6302",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعاون في مجال التعليم"
+        ],
+        "es": [
+          "Cooperación educativa"
+        ]
+      },
+      "broader": [
+        "concept3045"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T22:36:41+00:00",
+      "narrower": [
+        "concept3161",
+        "concept6587"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعاون تربوي"
+        ],
+        "en": [
+          "Educational cooperation"
+        ],
+        "es": [
+          "Cooperación educacional"
+        ],
+        "fr": [
+          "Coopération en éducation"
+        ],
+        "ru": [
+          "Сотрудничество в области образования"
+        ]
+      },
+      "related": [
+        "concept6572",
+        "concept6580",
+        "concept9"
+      ],
+      "scope_notes": {
+        "ar": [
+          "على المستوى الدولي."
+        ],
+        "en": [
+          "At the international level."
+        ],
+        "es": [
+          "A nivel internacional."
+        ],
+        "fr": [
+          "Au niveau international."
+        ],
+        "ru": [
+          "На международном уровне."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6578",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6578",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعاون بين الجامعات"
+        ],
+        "en": [
+          "Interuniversity cooperation"
+        ],
+        "es": [
+          "Cooperación interuniversitaria"
+        ],
+        "fr": [
+          "Coopération interuniversitaire"
+        ],
+        "ru": [
+          "Сотрудничество между университетами"
+        ]
+      },
+      "broader": [
+        "concept6578"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T22:36:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعاون جامعي"
+        ],
+        "en": [
+          "University cooperation"
+        ],
+        "es": [
+          "Cooperación universitaria"
+        ],
+        "fr": [
+          "Coopération universitaire"
+        ],
+        "ru": [
+          "Сотрудничество университетов"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6587",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6587",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3045"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنسيق تربوي"
+        ],
+        "en": [
+          "Educational coordination"
+        ],
+        "es": [
+          "Coordinación de la educación"
+        ],
+        "fr": [
+          "Coordination en éducation"
+        ],
+        "ru": [
+          "Координация в области образования"
+        ]
+      },
+      "related": [
+        "concept23"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تنسيق أنشطة مختلف الهيئات والمؤسسات المعنية بالتعليم."
+        ],
+        "en": [
+          "Coordination of different agencies and organizations concerned with education."
+        ],
+        "es": [
+          "Coordinación de diferentes agencias y organizaciones que se ocupan de la educación."
+        ],
+        "fr": [
+          "Coordination des interventions de différentes agences et organismes qui s'occupent d'éducation."
+        ],
+        "ru": [
+          "Координация деятельности различных агентств и организаций, работающих в сфере образования."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6604",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6604",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مركزية تعليمية"
+        ],
+        "en": [
+          "Educational centralization"
+        ],
+        "es": [
+          "Centralización educativa"
+        ],
+        "fr": [
+          "Centralisation éducative"
+        ],
+        "ru": [
+          "Централизация в области образования"
+        ]
+      },
+      "broader": [
+        "concept3045"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T22:36:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "لامركزية تعليمية"
+        ],
+        "en": [
+          "Educational decentralization"
+        ],
+        "es": [
+          "Descentralización educativa"
+        ],
+        "fr": [
+          "Décentralisation éducative"
+        ],
+        "ru": [
+          "Децентрализация в области образования"
+        ]
+      },
+      "related": [
+        "concept1138",
+        "concept31",
+        "concept3427",
+        "concept9137"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7501",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7501",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخلاقيات مهنية للمعلم"
+        ],
+        "en": [
+          "Teacher professional ethics"
+        ],
+        "es": [
+          "Responsabilidad del profesor",
+          "Ética del docente",
+          "Ética del profesor"
+        ],
+        "fr": [
+          "Éthique professionnelle de l'enseignant"
+        ],
+        "ru": [
+          "Профессиональная педагогическая этика"
+        ]
+      },
+      "broader": [
+        "concept1073"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:29:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مسئولية المعلم"
+        ],
+        "en": [
+          "Teacher responsibility"
+        ],
+        "es": [
+          "Responsabilidad del docente"
+        ],
+        "fr": [
+          "Responsabilité de l'enseignant"
+        ],
+        "ru": [
+          "Педагогическая ответственность"
+        ]
+      },
+      "related": [
+        "concept13693",
+        "concept14926",
+        "concept5929"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9128",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9128",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "هيكل تنظيمي للنظام التعليمي"
+        ],
+        "en": [
+          "Educational organizational structure"
+        ],
+        "es": [
+          "Estructura administrativa de la educación"
+        ],
+        "fr": [
+          "Structure organisationnelle de l'éducation"
+        ],
+        "ru": [
+          "Организационная структура в сфере образования"
+        ]
+      },
+      "broader": [
+        "concept23"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T22:36:44+00:00",
+      "narrower": [
+        "concept3176",
+        "concept9135",
+        "concept9136",
+        "concept9137",
+        "concept9138"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هيكل تعليمي اداري"
+        ],
+        "en": [
+          "Educational administrative structure"
+        ],
+        "es": [
+          "Estructura administrativa de la enseñanza"
+        ],
+        "fr": [
+          "Structure administrative de l'enseignement"
+        ],
+        "ru": [
+          "Административная структура в сфере образования"
+        ]
+      },
+      "related": [
+        "concept6302",
+        "concept9140"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9133",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9133",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صناديق استئمانية للتعليم"
+        ],
+        "en": [
+          "Educational trusts"
+        ],
+        "es": [
+          "Fundación de promoción de la educación",
+          "Fundación educativa"
+        ],
+        "fr": [
+          "Fiducie de promotion de l'éducation"
+        ],
+        "ru": [
+          "Доверительные фонды в сфере образования"
+        ]
+      },
+      "broader": [
+        "concept9133"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مؤسسات تربوية"
+        ],
+        "en": [
+          "Educational foundations"
+        ],
+        "es": [
+          "Fundación educacional"
+        ],
+        "fr": [
+          "Fondation éducative"
+        ],
+        "ru": [
+          "Фонды в сфере образования"
+        ]
+      },
+      "related": [
+        "concept3176"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تقدم المنح أو الأموال لتمويل البحوث والخدمات والمرافق والمعدات."
+        ],
+        "en": [
+          "Provide grants or funds to finance research, services, facilities, equipment."
+        ],
+        "es": [
+          "Organismo que otorga subvenciones para estudiar o para financiar la investigación, los servicios, las instalaciones y el material educativo."
+        ],
+        "fr": [
+          "Organisme qui accorde des bourses d'études ou des subventions pour financer la recherche, les services, les installations et équipements éducatifs."
+        ],
+        "ru": [
+          "Предоставляют гранты или финансовые средства для поддержки научных исследований, технических средств, оборудования и оказания услуг."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9135",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9135",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادارات التعليم",
+          "وزارات التربية والتعليم"
+        ],
+        "en": [
+          "Departments of education",
+          "Ministries of education"
+        ],
+        "es": [
+          "Departamento de educación",
+          "Institución estatal de educación",
+          "Ministerio de educación",
+          "Organismo educativo gubernamental"
+        ],
+        "fr": [
+          "Département de l'éducation",
+          "Ministère de l'éducation"
+        ],
+        "ru": [
+          "Департаменты образования",
+          "Министерства образования"
+        ]
+      },
+      "broader": [
+        "concept9133"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هيئات تعليمية حكومية"
+        ],
+        "en": [
+          "Government educational bodies"
+        ],
+        "es": [
+          "Organismo educacional gubernamental"
+        ],
+        "fr": [
+          "Organisme gouvernemental de l'enseignement"
+        ],
+        "ru": [
+          "Государственные органы образования"
+        ]
+      },
+      "related": [
+        "concept4858",
+        "concept9344"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9136",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9136",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept9133"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هيئات تعليمية محلية"
+        ],
+        "en": [
+          "Local educational bodies"
+        ],
+        "es": [
+          "Organismo local de enseñanza"
+        ],
+        "fr": [
+          "Organisme local de l'enseignement"
+        ],
+        "ru": [
+          "Местные органы образования"
+        ]
+      },
+      "related": [
+        "concept7501"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9137",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9137",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept9133"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:27:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هيئات تعليمية اقليمية"
+        ],
+        "en": [
+          "Regional educational bodies"
+        ],
+        "es": [
+          "Organismo regional de enseñanza"
+        ],
+        "fr": [
+          "Organisme régional de l'enseignement"
+        ],
+        "ru": [
+          "Региональные органы образования"
+        ]
+      },
+      "related": [
+        "concept12837"
+      ],
+      "scope_notes": {
+        "ar": [
+          "هيئة حكومية دولية تشمل عدة دول."
+        ],
+        "en": [
+          "Intergovernmental bodies grouping a number of countries."
+        ],
+        "es": [
+          "Órgano intergubernamental que agrupa a diferentes países."
+        ],
+        "fr": [
+          "Organe intergouvernemental regroupant plusieurs pays."
+        ],
+        "ru": [
+          "Межгосударственные органы, объединяющие несколько стран."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9138",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9138",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "لجان الامتحانات"
+        ],
+        "es": [
+          "Comisión de examen"
+        ],
+        "fr": [
+          "Commission d'examen"
+        ]
+      },
+      "broader": [
+        "concept24"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:27:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مجالس الامتحانات"
+        ],
+        "en": [
+          "Examination boards"
+        ],
+        "es": [
+          "Tribunal examinador"
+        ],
+        "fr": [
+          "Jury d'examen"
+        ],
+        "ru": [
+          "Экзаменационные комиссии"
+        ]
+      },
+      "related": [
+        "concept10537",
+        "concept9133"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مجموعة من المراجعين المسئولين عن إعداد الاختبار وإجرائه وتسجيل النتائج."
+        ],
+        "en": [
+          "Organize the setting and marking of examinations and the recording of results."
+        ],
+        "es": [
+          "Grupo de examinadores responsable de la organización y calificación de un examen y de la consignación de los resultados."
+        ],
+        "fr": [
+          "Groupe d'examinateurs responsable de la mise en place et la notation d'un examen et de la consignation des résultats."
+        ],
+        "ru": [
+          "Создает обстановку и условия для проведения экзаменов и запись экзаменационных результатов."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9140",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9140",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جمعيات الاباء والمعلمين"
+        ],
+        "es": [
+          "Asociación de padres de alumnos"
+        ],
+        "fr": [
+          "Association de parents d'élèves",
+          "Association de parents d'élèves et instituteurs"
+        ]
+      },
+      "broader": [
+        "concept3176"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منظمات الاباء والمعلمين"
+        ],
+        "en": [
+          "Parent teacher organizations"
+        ],
+        "es": [
+          "Asociación de padres y profesores"
+        ],
+        "fr": [
+          "Organisation parents-enseignants"
+        ],
+        "ru": [
+          "Родительские комитеты"
+        ]
+      },
+      "related": [
+        "concept10707",
+        "concept12872",
+        "concept1528"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9157",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9157",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Organización estudiantiles"
+        ]
+      },
+      "broader": [
+        "concept3176"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:28:48+00:00",
+      "narrower": [
+        "concept5486"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منظمات طلابية"
+        ],
+        "en": [
+          "Student organizations"
+        ],
+        "es": [
+          "Organización de estudiantes"
+        ],
+        "fr": [
+          "Organisation d'étudiants"
+        ],
+        "ru": [
+          "Студенческие организации"
+        ]
+      },
+      "related": [
+        "concept1282",
+        "concept14304",
+        "concept14982",
+        "concept1524",
+        "concept3206",
+        "concept9395"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9158",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9158",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اشراف مدرسي",
+          "تفتيش على المدارس"
+        ],
+        "en": [
+          "School inspection"
+        ],
+        "es": [
+          "Inspección de escuelas",
+          "Supervisión escolar"
+        ],
+        "fr": [
+          "Inspection scolaire",
+          "Supervision scolaire"
+        ],
+        "ru": [
+          "Школьная инспекция"
+        ]
+      },
+      "broader": [
+        "concept24"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:27:05+00:00",
+      "narrower": [
+        "concept12651"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اشراف على المدارس"
+        ],
+        "en": [
+          "School supervision"
+        ],
+        "es": [
+          "Inspección escolar"
+        ],
+        "fr": [
+          "Inspection des écoles"
+        ],
+        "ru": [
+          "Школьный надзор"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9409",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9409",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept14221"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:35:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدريس في الخارج"
+        ],
+        "en": [
+          "Teaching abroad"
+        ],
+        "es": [
+          "Enseñanza en el extranjero"
+        ],
+        "fr": [
+          "Enseignement à l'étranger"
+        ],
+        "ru": [
+          "Преподавание за рубежом"
+        ]
+      },
+      "related": [
+        "concept1103",
+        "concept2073",
+        "concept7050",
+        "concept9345"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9842",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9842",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اشراف المعلم"
+        ],
+        "es": [
+          "Supervisión de los profesores"
+        ],
+        "fr": [
+          "Supervision des enseignants"
+        ]
+      },
+      "broader": [
+        "concept9409"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:29:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اشراف على المعلمين"
+        ],
+        "en": [
+          "Teacher supervision"
+        ],
+        "es": [
+          "Supervisión de los docentes"
+        ],
+        "fr": [
+          "Inspection des enseignants"
+        ],
+        "ru": [
+          "Преподавательский надзор"
+        ]
+      },
+      "related": [
+        "concept14127",
+        "concept9331"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12651",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12651",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حراك المعلمين"
+        ],
+        "es": [
+          "Movilidad del profesor"
+        ]
+      },
+      "broader": [
+        "concept6186"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:29:11+00:00",
+      "narrower": [
+        "concept9842"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنقل المعلمين"
+        ],
+        "en": [
+          "Teacher mobility"
+        ],
+        "es": [
+          "Movilidad del docente"
+        ],
+        "fr": [
+          "Mobilité des enseignants"
+        ],
+        "ru": [
+          "Мобильность преподавателей"
+        ]
+      },
+      "related": [
+        "concept5380",
+        "concept5381",
+        "concept5382"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14221",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14221",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تأثير المعلم"
+        ],
+        "en": [
+          "Teacher influence"
+        ],
+        "es": [
+          "Influencia del profesor",
+          "Rol del profesor"
+        ],
+        "fr": [
+          "Influence de l'enseignant"
+        ],
+        "ru": [
+          "Влияние преподавателя"
+        ]
+      },
+      "broader": [
+        "concept1073"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T12:03:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دور المعلم"
+        ],
+        "en": [
+          "Teacher role"
+        ],
+        "es": [
+          "Papel del docente"
+        ],
+        "fr": [
+          "Rôle de l'enseignant"
+        ],
+        "ru": [
+          "Роль преподавателя"
+        ]
+      },
+      "related": [
+        "concept1051",
+        "concept9128"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14926",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14926",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept15850"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T12:02:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اختيار المعلمين"
+        ],
+        "en": [
+          "Teacher selection"
+        ],
+        "es": [
+          "Selección de docentes"
+        ],
+        "fr": [
+          "Sélection des enseignants"
+        ],
+        "ru": [
+          "Подбор преподавателей"
+        ]
+      },
+      "related": [
+        "concept14684",
+        "concept4543",
+        "concept9195"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15094",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15094",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "توظيف المعلمين"
+        ],
+        "es": [
+          "Reclutamiento de profesores"
+        ]
+      },
+      "broader": [
+        "concept25"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:27:46+00:00",
+      "narrower": [
+        "concept15094"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعيين المعلمين"
+        ],
+        "en": [
+          "Teacher recruitment"
+        ],
+        "es": [
+          "Reclutamiento de docentes"
+        ],
+        "fr": [
+          "Recrutement des enseignants"
+        ],
+        "ru": [
+          "Набор преподавательских кадров"
+        ]
+      },
+      "related": [
+        "concept3174",
+        "concept4543",
+        "concept5382"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15850",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15850",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مرتبات المعلمين"
+        ],
+        "en": [
+          "Teacher salaries"
+        ],
+        "es": [
+          "Remuneración del docente",
+          "Salario del docente",
+          "Sueldo del profesor"
+        ],
+        "fr": [
+          "Rémunération des enseignants"
+        ],
+        "ru": [
+          "Жалованье (оклад) преподавателей"
+        ]
+      },
+      "broader": [
+        "concept6186"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:34:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجور المعلمين"
+        ],
+        "en": [
+          "Teacher wages"
+        ],
+        "es": [
+          "Salario del profesor"
+        ],
+        "fr": [
+          "Salaire de l'enseignant"
+        ],
+        "ru": [
+          "Заработная плата преподавателей"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15964",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15964",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتحادات المعلمين"
+        ],
+        "en": [
+          "Teacher unions"
+        ]
+      },
+      "broader": [
+        "concept3174"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2019-12-15T13:34:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقابات المعلمين"
+        ],
+        "en": [
+          "Teacher trade unions"
+        ],
+        "es": [
+          "Sindicato de profesores"
+        ],
+        "fr": [
+          "Syndicat d'enseignants"
+        ],
+        "ru": [
+          "Профсоюзы преподавателей"
+        ]
+      },
+      "related": [
+        "concept25",
+        "concept3212"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16441",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16441",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حرية البحث",
+          "حرية البحث العلمي",
+          "حرية العلوم"
+        ],
+        "en": [
+          "Freedom of research",
+          "Freedom of science",
+          "Freedom of scientific research",
+          "Research freedom"
+        ],
+        "es": [
+          "Libertad de ciencia",
+          "Libertad de investigación"
+        ]
+      },
+      "broader": [
+        "concept1071"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.20"
+      ],
+      "modified": "2026-05-26T10:24:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الحرية العلمية"
+        ],
+        "en": [
+          "Scientific freedom"
+        ],
+        "es": [
+          "Libertad científica"
+        ],
+        "fr": [
+          "Liberté scientifique"
+        ]
+      },
+      "related": [
+        "concept111",
+        "concept1277",
+        "concept5046",
+        "concept554"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الحق في المشاركة في البحث العلمي، وملاحقة المعرفة ونقلها، والمشاركة بحرية في مثل هذه الأنشطة."
+        ],
+        "en": [
+          "The right to engage in scientific enquiry, to pursue and communicate knowledge, and to associate freely in such activities."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17174",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17174",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt1.20",
+    "labels": {
+      "en": "Educational administration",
+      "fr": "Administration de l'éducation"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt1.20"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "v3",
+  "verification": "2026-11-03",
+  "static_python_syntax": "OK",
+  "pytest": {
+    "result": "15 passed",
+    "sources": "snapshots Spek et SemantiK fournis par l’utilisateur extraits localement"
+  },
+  "gf_compiler_windows_executed": false,
+  "konstellation_pgf_windows_loaded": false,
+  "unesco_pgf_compiled": false,
+  "wiki_published": false,
+  "notes": "Les tests unitaires valident les chemins, les contrats et le comportement fail-closed, pas la compilation Windows."
+}

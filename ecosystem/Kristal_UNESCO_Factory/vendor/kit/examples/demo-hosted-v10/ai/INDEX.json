@@ -1,0 +1,119 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:demo-hosted-v10",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:fe33e0d960d446681645ffac103685bf22a2f2fc34135a118fee84175662722b"
+  },
+  "files": [
+    {
+      "path": "canon/domain/core.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 242,
+      "sha256": "sha256:6752200490ac9e6c7bb61954dbdeb53b02ee96dc448b1ceb0a5edea702d4d8f3",
+      "artifact_id": "urn:kristal:demo-hosted-v10:core",
+      "logical_contract": {
+        "id": "demo-v9-small.core",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 656,
+      "sha256": "sha256:66e76606e25269f333c202f29ec15d51e88678a5793962bbd3cbf7fa31aec0e8"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 178,
+      "sha256": "sha256:d0df91ecbb1f53d27cddcbfdebcaa9817124e748be1daf6142b4d238bc566e9e"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 311,
+      "sha256": "sha256:e64f8d02ed78ec658d24e28f5b3350e1f9019cb3a76435db87c7f3e268af52cc"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 174,
+      "sha256": "sha256:2320cc6f04806628639dce5184a25e97085945f09f31408f5ba6f92f5bcce5cf"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 356,
+      "sha256": "sha256:6418e38b6e54893d2a03bf702f754b192f48679ad89853b405e1b325260a53b7"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 311,
+      "sha256": "sha256:9ca1154b18ae0980a96e562cedbef1ce85a2912940cf52819dd0fd402e1b1345"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 287,
+      "sha256": "sha256:4ef452034359517fbbc8038117817fc8695d5c3effc12544e8b7437ac6323b77"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 438,
+      "sha256": "sha256:df5dadb0965856b592ed1b614e29d06feaa8f5abfe6013a296727cc449eadc34"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 795,
+      "sha256": "sha256:ae4e01c7a5ecdb94b4603452bdc78973771b000addd3ed83ebf2082db1d5022b"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 218,
+      "sha256": "sha256:1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01"
+    },
+    {
+      "path": "docs/PROFILE_NOTES.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 180,
+      "sha256": "sha256:5f62161b993e08b75068058c91f55fb7e105775d86fcf52e38fdd2f6be7d7d44"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 210,
+      "sha256": "sha256:38ad8975f9cbb9e98b6b379cac85331d08a8d48a41e0a85f71ccde5e19ee453c"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 789,
+      "sha256": "sha256:c5722e3650d8b000819a794706d330b5b47f75f1ac27f0fb59fee3739d9ac1f3",
+      "state_ref": "urn:kristal:state:demo-hosted-v10",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:fe33e0d960d446681645ffac103685bf22a2f2fc34135a118fee84175662722b"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

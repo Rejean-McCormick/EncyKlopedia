@@ -1,0 +1,116 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.definition",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Arrange explicit permitted realizations, without lexical generation",
+  "slots": {
+    "term": {
+      "node_kind": "text",
+      "allowed_kinds": [
+        "concept"
+      ],
+      "min": 1,
+      "max": 1,
+      "visual_role": "lead_sentence"
+    },
+    "definition": {
+      "node_kind": "text",
+      "allowed_kinds": [
+        "definition"
+      ],
+      "min": 1,
+      "max": 1,
+      "visual_role": "paragraph"
+    },
+    "qualification": {
+      "node_kind": "child",
+      "allowed_templates": [
+        "rhetorical.qualification@1.0.0"
+      ],
+      "min": 0,
+      "max": 1
+    }
+  },
+  "ordered_slots": [
+    "term",
+    "definition",
+    "qualification"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "qualification"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "structural.definition",
+    "focus_slot": "definition",
+    "moves": [
+      {
+        "slot": "term",
+        "function": "term",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "lead_sentence"
+      },
+      {
+        "slot": "definition",
+        "function": "definition",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "qualification",
+        "function": "qualification",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "embedded_template"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "term",
+        "to_slot": "definition",
+        "relation": "structural.arrangement",
+        "status": "presentation_only",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "qualification",
+        "to_slot": "definition",
+        "relation": "structural.arrangement",
+        "status": "presentation_only",
+        "relation_function": "qualifies"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "term",
+        "definition"
+      ],
+      [
+        "qualification"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Structure de présentation; la relation et les faits restent à justifier à l’extérieur de Spek."
+    }
+  }
+}

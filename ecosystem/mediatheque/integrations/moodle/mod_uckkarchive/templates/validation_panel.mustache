@@ -1,0 +1,401 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+}}
+{{!
+    @template mod_uckkarchive/validation_panel
+
+    Validation panel for a UCKK archive item.
+
+    This template is render-only. It expects permission-filtered,
+    context-aware data from mod_uckkarchive output/service classes.
+
+    Example context:
+    {
+        "uniqid": "uckkarchive-validation-42",
+        "archiveid": 3,
+        "itemid": 42,
+        "cmid": 17,
+        "contextid": 9001,
+        "sesskey": "abc123",
+        "title": "Archive item validation",
+        "itemtitle": "Proof package",
+        "itemurl": "https://example.test/mod/uckkarchive/item.php?id=17&itemid=42",
+        "status": "pending_review",
+        "statuslabel": "Pending review",
+        "statusclass": "status-pending-review",
+        "visibility": "course",
+        "visibilitylabel": "Course",
+        "validationstate": "unverified",
+        "validationstatelabel": "Unverified",
+        "validationstateclass": "validation-unverified",
+        "provenance": "human",
+        "provenancelabel": "Human",
+        "versionno": 2,
+        "versionlabel": "2",
+        "hasvalidator": true,
+        "validatorlabel": "Archiviste UCKK",
+        "hastimevalidated": true,
+        "timevalidatedlabel": "12 May 2026",
+        "haspublicsummary": true,
+        "publicsummary": "<p>Safe summary.</p>",
+        "hasrestricteddata": false,
+        "integrityrequired": false,
+        "aiassisted": false,
+        "warnings": [],
+        "haswarnings": false,
+        "checks": [],
+        "haschecks": true,
+        "evidenceitems": [],
+        "hasevidenceitems": true,
+        "revisions": [],
+        "hasrevisions": true,
+        "actions": [],
+        "hasactions": true,
+        "notice": "Validation requires human review."
+    }
+}}
+
+<section
+    id="{{uniqid}}"
+    class="uckkarchive-validation-panel {{statusclass}} {{validationstateclass}}"
+    data-region="uckkarchive-validation-panel"
+    data-archive-id="{{archiveid}}"
+    data-item-id="{{itemid}}"
+    data-cmid="{{cmid}}"
+    data-context-id="{{contextid}}"
+>
+    <header class="uckkarchive-validation-panel__header">
+        <div class="uckkarchive-validation-panel__identity">
+            <p class="uckkarchive-validation-panel__eyebrow">
+                {{#str}} archivevalidation, uckkarchive {{/str}}
+            </p>
+
+            <h3 class="uckkarchive-validation-panel__title">
+                {{title}}
+            </h3>
+
+            {{#itemtitle}}
+                <p class="uckkarchive-validation-panel__item-title">
+                    {{#itemurl}}
+                        <a href="{{itemurl}}">
+                            {{itemtitle}}
+                        </a>
+                    {{/itemurl}}
+
+                    {{^itemurl}}
+                        {{itemtitle}}
+                    {{/itemurl}}
+                </p>
+            {{/itemtitle}}
+        </div>
+
+        <div class="uckkarchive-validation-panel__badges">
+            {{#statuslabel}}
+                <span class="uckkarchive-validation-panel__badge {{statusclass}}">
+                    {{statuslabel}}
+                </span>
+            {{/statuslabel}}
+
+            {{#validationstatelabel}}
+                <span class="uckkarchive-validation-panel__badge {{validationstateclass}}">
+                    {{validationstatelabel}}
+                </span>
+            {{/validationstatelabel}}
+
+            {{#visibilitylabel}}
+                <span class="uckkarchive-validation-panel__badge visibility-{{visibility}}">
+                    {{visibilitylabel}}
+                </span>
+            {{/visibilitylabel}}
+        </div>
+    </header>
+
+    <dl class="uckkarchive-validation-panel__meta">
+        {{#provenancelabel}}
+            <div class="uckkarchive-validation-panel__meta-item">
+                <dt>{{#str}} provenance, uckkarchive {{/str}}</dt>
+                <dd>{{provenancelabel}}</dd>
+            </div>
+        {{/provenancelabel}}
+
+        {{#versionlabel}}
+            <div class="uckkarchive-validation-panel__meta-item">
+                <dt>{{#str}} version, uckkarchive {{/str}}</dt>
+                <dd>{{versionlabel}}</dd>
+            </div>
+        {{/versionlabel}}
+
+        {{#hasvalidator}}
+            <div class="uckkarchive-validation-panel__meta-item">
+                <dt>{{#str}} validatedby, uckkarchive {{/str}}</dt>
+                <dd>{{validatorlabel}}</dd>
+            </div>
+        {{/hasvalidator}}
+
+        {{#hastimevalidated}}
+            <div class="uckkarchive-validation-panel__meta-item">
+                <dt>{{#str}} timevalidated, uckkarchive {{/str}}</dt>
+                <dd>{{timevalidatedlabel}}</dd>
+            </div>
+        {{/hastimevalidated}}
+    </dl>
+
+    <div class="uckkarchive-validation-panel__flags">
+        {{#hasrestricteddata}}
+            <div class="alert alert-warning uckkarchive-validation-panel__flag" role="status">
+                {{#str}} restricteddatapresent, uckkarchive {{/str}}
+            </div>
+        {{/hasrestricteddata}}
+
+        {{#integrityrequired}}
+            <div class="alert alert-warning uckkarchive-validation-panel__flag" role="status">
+                {{#str}} integrityreviewrequired, uckkarchive {{/str}}
+            </div>
+        {{/integrityrequired}}
+
+        {{#aiassisted}}
+            <div class="alert alert-info uckkarchive-validation-panel__flag" role="status">
+                {{#str}} aiassistancedisclosed, uckkarchive {{/str}}
+            </div>
+        {{/aiassisted}}
+    </div>
+
+    {{#haswarnings}}
+        <div class="uckkarchive-validation-panel__warnings" role="status">
+            {{#warnings}}
+                <div class="alert {{class}} uckkarchive-validation-panel__warning">
+                    {{message}}
+                </div>
+            {{/warnings}}
+        </div>
+    {{/haswarnings}}
+
+    {{#haspublicsummary}}
+        <section class="uckkarchive-validation-panel__summary">
+            <h4 class="uckkarchive-validation-panel__section-title">
+                {{#str}} publicsummary, uckkarchive {{/str}}
+            </h4>
+
+            <div class="uckkarchive-validation-panel__summary-content">
+                {{{publicsummary}}}
+            </div>
+        </section>
+    {{/haspublicsummary}}
+
+    {{#haschecks}}
+        <section class="uckkarchive-validation-panel__checks">
+            <h4 class="uckkarchive-validation-panel__section-title">
+                {{#str}} validationchecks, uckkarchive {{/str}}
+            </h4>
+
+            <ul class="uckkarchive-validation-panel__check-list">
+                {{#checks}}
+                    <li class="uckkarchive-validation-panel__check {{#passed}}is-passed{{/passed}}{{^passed}}is-not-passed{{/passed}}">
+                        <span class="uckkarchive-validation-panel__check-label">
+                            {{label}}
+                        </span>
+
+                        {{#value}}
+                            <span class="uckkarchive-validation-panel__check-value">
+                                {{value}}
+                            </span>
+                        {{/value}}
+
+                        {{#passed}}
+                            <span class="badge badge-success">
+                                {{#str}} passed, uckkarchive {{/str}}
+                            </span>
+                        {{/passed}}
+
+                        {{^passed}}
+                            <span class="badge badge-warning">
+                                {{#str}} attentionrequired, uckkarchive {{/str}}
+                            </span>
+                        {{/passed}}
+
+                        {{#description}}
+                            <p class="uckkarchive-validation-panel__check-description">
+                                {{description}}
+                            </p>
+                        {{/description}}
+                    </li>
+                {{/checks}}
+            </ul>
+        </section>
+    {{/haschecks}}
+
+    {{#hasevidenceitems}}
+        <section class="uckkarchive-validation-panel__evidence">
+            <h4 class="uckkarchive-validation-panel__section-title">
+                {{#str}} validationevidence, uckkarchive {{/str}}
+            </h4>
+
+            <ul class="uckkarchive-validation-panel__evidence-list">
+                {{#evidenceitems}}
+                    <li class="uckkarchive-validation-panel__evidence-item">
+                        {{#url}}
+                            <a href="{{url}}" class="uckkarchive-validation-panel__evidence-title">
+                                {{title}}
+                            </a>
+                        {{/url}}
+
+                        {{^url}}
+                            <span class="uckkarchive-validation-panel__evidence-title">
+                                {{title}}
+                            </span>
+                        {{/url}}
+
+                        {{#typelabel}}
+                            <span class="uckkarchive-validation-panel__evidence-type">
+                                {{typelabel}}
+                            </span>
+                        {{/typelabel}}
+
+                        {{#validationstatelabel}}
+                            <span class="uckkarchive-validation-panel__evidence-validation {{validationstateclass}}">
+                                {{validationstatelabel}}
+                            </span>
+                        {{/validationstatelabel}}
+
+                        {{#provenancelabel}}
+                            <span class="uckkarchive-validation-panel__evidence-provenance">
+                                {{provenancelabel}}
+                            </span>
+                        {{/provenancelabel}}
+                    </li>
+                {{/evidenceitems}}
+            </ul>
+        </section>
+    {{/hasevidenceitems}}
+
+    {{#hasrevisions}}
+        <section class="uckkarchive-validation-panel__revisions">
+            <h4 class="uckkarchive-validation-panel__section-title">
+                {{#str}} revisionhistory, uckkarchive {{/str}}
+            </h4>
+
+            <ol class="uckkarchive-validation-panel__revision-list">
+                {{#revisions}}
+                    <li class="uckkarchive-validation-panel__revision">
+                        <div class="uckkarchive-validation-panel__revision-header">
+                            {{#url}}
+                                <a href="{{url}}">
+                                    {{title}}
+                                </a>
+                            {{/url}}
+
+                            {{^url}}
+                                <span>
+                                    {{title}}
+                                </span>
+                            {{/url}}
+
+                            {{#versionlabel}}
+                                <span class="uckkarchive-validation-panel__revision-version">
+                                    {{#str}} version, uckkarchive {{/str}} {{versionlabel}}
+                                </span>
+                            {{/versionlabel}}
+                        </div>
+
+                        {{#summary}}
+                            <p class="uckkarchive-validation-panel__revision-summary">
+                                {{summary}}
+                            </p>
+                        {{/summary}}
+
+                        {{#timemodifiedlabel}}
+                            <p class="uckkarchive-validation-panel__revision-date">
+                                {{timemodifiedlabel}}
+                            </p>
+                        {{/timemodifiedlabel}}
+                    </li>
+                {{/revisions}}
+            </ol>
+        </section>
+    {{/hasrevisions}}
+
+    {{#hasactions}}
+        <footer class="uckkarchive-validation-panel__actions">
+            {{#actions}}
+                {{#ispost}}
+                    <form
+                        method="post"
+                        action="{{url}}"
+                        class="uckkarchive-validation-panel__action-form"
+                    >
+                        <input type="hidden" name="sesskey" value="{{sesskey}}">
+                        <input type="hidden" name="action" value="{{key}}">
+                        <input type="hidden" name="id" value="{{cmid}}">
+                        <input type="hidden" name="itemid" value="{{itemid}}">
+
+                        {{#requiresreason}}
+                            <div class="form-group">
+                                <label for="{{reasonfieldid}}">
+                                    {{#str}} validationreason, uckkarchive {{/str}}
+                                </label>
+                                <textarea
+                                    id="{{reasonfieldid}}"
+                                    name="reason"
+                                    class="form-control"
+                                    rows="3"
+                                    maxlength="4000"
+                                    required
+                                ></textarea>
+                            </div>
+                        {{/requiresreason}}
+
+                        {{#requiresnotes}}
+                            <div class="form-group">
+                                <label for="{{notesfieldid}}">
+                                    {{#str}} validationnotes, uckkarchive {{/str}}
+                                </label>
+                                <textarea
+                                    id="{{notesfieldid}}"
+                                    name="notes"
+                                    class="form-control"
+                                    rows="3"
+                                    maxlength="4000"
+                                ></textarea>
+                            </div>
+                        {{/requiresnotes}}
+
+                        <button
+                            type="submit"
+                            class="btn {{#primary}}btn-primary{{/primary}}{{#secondary}}btn-secondary{{/secondary}}{{#danger}}btn-danger{{/danger}}"
+                            {{#disabled}}disabled{{/disabled}}
+                        >
+                            {{label}}
+                        </button>
+
+                        {{#hasdisabledreason}}
+                            <span class="uckkarchive-validation-panel__disabled-reason">
+                                {{disabledreason}}
+                            </span>
+                        {{/hasdisabledreason}}
+                    </form>
+                {{/ispost}}
+
+                {{#isget}}
+                    <a
+                        href="{{url}}"
+                        class="btn {{#primary}}btn-primary{{/primary}}{{#secondary}}btn-secondary{{/secondary}}{{#danger}}btn-danger{{/danger}}"
+                        {{#disabled}}aria-disabled="true" tabindex="-1"{{/disabled}}
+                    >
+                        {{label}}
+                    </a>
+                {{/isget}}
+            {{/actions}}
+        </footer>
+    {{/hasactions}}
+
+    {{#notice}}
+        <div class="alert alert-info uckkarchive-validation-panel__notice" role="status">
+            {{notice}}
+        </div>
+    {{/notice}}
+</section>

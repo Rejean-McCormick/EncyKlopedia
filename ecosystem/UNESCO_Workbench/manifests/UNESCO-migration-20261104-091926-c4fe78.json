@@ -1,0 +1,19 @@
+{
+  "mode": "explicit_legacy_move",
+  "moved": [
+    {
+      "source": "C:\\mycode\\Kristal\\Kristal_UNESCO_Correctifs_v3",
+      "destination": "C:\\mycode\\EncyKlopedia\\UNESCO_Workbench\\legacy\\archived-prototypes\\Kristal_UNESCO_Correctifs_v3",
+      "status": "renamed_on_same_volume"
+    },
+    {
+      "source": "C:\\mycode\\Kristal\\Kristal_UNESCO_Pilote_v1",
+      "destination": "C:\\mycode\\EncyKlopedia\\UNESCO_Workbench\\legacy\\archived-prototypes\\Kristal_UNESCO_Pilote_v1",
+      "status": "renamed_on_same_volume"
+    }
+  ],
+  "skipped": [],
+  "rollback": "Pour restaurer : déplacer chaque destination vers son chemin source d’origine.",
+  "status": "LEGACY_MOVED_OR_SKIPPED",
+  "finished_at": "2026-11-04T09:19:26.479702"
+}

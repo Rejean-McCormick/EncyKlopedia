@@ -1,0 +1,92 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-simulation-transition",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-14",
+    "slug": "simulation-transition",
+    "name": "Simulation / Transitions"
+  },
+  "source_arketype_file": "archetypes/simulation-transition.json",
+  "editorial_rationale": "Structure Arketype ARK-14: State-transition definitions and hypothetical scenarios. Simulation, state machines and training situations.",
+  "source_structural_primitives": [
+    "etats",
+    "transitions",
+    "contraintes",
+    "variables",
+    "scenario",
+    "resultats_derived"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "parametres",
+      "title_function": "Résultats sous contraintes",
+      "layout_id": "result-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "variables",
+        "contraintes",
+        "resultats_derived"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "claim": 1,
+        "conditions": 1,
+        "evidence": 1,
+        "uncertainty": 1
+      },
+      "editorial_constraint": "Simulation sans autorisation d’action réelle."
+    },
+    {
+      "section_id": "scenarios",
+      "title_function": "Comparaison de scénarios",
+      "layout_id": "comparison",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "scenario",
+        "etats",
+        "transitions"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "topic": 1,
+        "criterion": 1,
+        "approach_a": 1,
+        "approach_b": 1,
+        "synthesis": 1,
+        "limitations": 1
+      },
+      "editorial_constraint": "Comparer deux scénarios qui partagent un critère documenté."
+    },
+    {
+      "section_id": "chronologie",
+      "title_function": "Événements simulés",
+      "layout_id": "chronology",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "transitions",
+        "etats"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "context": 1,
+        "events": 2,
+        "limits": 1
+      },
+      "editorial_constraint": "Seulement si les transitions correspondent à des événements ordonnés avec contexte et limites."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "transition-graph",
+    "state-matrix"
+  ],
+  "integrity_rule": "Simulation does not grant real-world execution authority.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

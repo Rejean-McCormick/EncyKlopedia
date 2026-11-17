@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI reviewed per-Kristal Wiki composition assignment",
+  "type": "object",
+  "required": [
+    "kristal_identity",
+    "source_state_ref",
+    "state_sha256",
+    "composition_id",
+    "section_bindings",
+    "editorial_review"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "kristal_identity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_state_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "primary_archetype": {
+      "type": "string"
+    },
+    "archetype_confirmation": {
+      "type": "string",
+      "enum": [
+        "observed",
+        "provisional",
+        "verified"
+      ]
+    },
+    "composition_id": {
+      "type": "string",
+      "pattern": "^arketype-[a-z0-9-]+$"
+    },
+    "supplementary_composition_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "section_bindings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "section_id",
+          "semantic_source_paths",
+          "assertion_ids"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "section_id": {
+            "type": "string"
+          },
+          "semantic_source_paths": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "assertion_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "editorial_review": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved"
+      ]
+    },
+    "publication_authorization": {
+      "type": "string"
+    },
+    "design_notes": {
+      "type": "string"
+    }
+  }
+}

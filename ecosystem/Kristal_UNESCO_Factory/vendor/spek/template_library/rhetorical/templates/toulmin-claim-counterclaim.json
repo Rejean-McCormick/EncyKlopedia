@@ -1,0 +1,158 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.toulmin-claim-counterclaim",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Thèse, objection, réponse, limite",
+  "research_basis": {
+    "family": "argument",
+    "relation": "toulmin.rebuttal",
+    "source": "TOULMIN",
+    "source_url": "https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "toulmin.rebuttal",
+    "editorial_relation_required": true,
+    "semantic_warning": "Ne pas présenter une objection comme réfutée sans réponse autorisée.",
+    "critical_questions": []
+  },
+  "slots": {
+    "claim": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "thesis"
+      ],
+      "visual_role": "paragraph"
+    },
+    "counterclaim": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "objection"
+      ],
+      "visual_role": "paragraph"
+    },
+    "response": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "claim"
+      ],
+      "visual_role": "paragraph"
+    },
+    "limits": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "claim",
+    "counterclaim",
+    "response",
+    "limits"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "counterclaim",
+      "limits"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "toulmin.rebuttal",
+    "focus_slot": "claim",
+    "moves": [
+      {
+        "slot": "claim",
+        "function": "position",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "counterclaim",
+        "function": "counterargument",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "response",
+        "function": "response",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "limits",
+        "function": "limitations",
+        "nuclearity": "supporting",
+        "group": 3,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "counterclaim",
+        "to_slot": "claim",
+        "relation": "toulmin.rebuttal",
+        "status": "requires_external_semantic_review",
+        "relation_function": "challenges"
+      },
+      {
+        "from_slot": "response",
+        "to_slot": "claim",
+        "relation": "toulmin.rebuttal",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "limits",
+        "to_slot": "claim",
+        "relation": "toulmin.rebuttal",
+        "status": "requires_external_semantic_review",
+        "relation_function": "qualifies"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "claim"
+      ],
+      [
+        "counterclaim",
+        "response"
+      ],
+      [
+        "limits"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Ne pas présenter une objection comme réfutée sans réponse autorisée."
+    }
+  }
+}

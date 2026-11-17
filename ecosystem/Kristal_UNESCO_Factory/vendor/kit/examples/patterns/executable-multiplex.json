@@ -1,0 +1,13 @@
+{
+  "pattern": "executable_multiplex",
+  "planes": [
+    "identity_applicability",
+    "multiplex_topology",
+    "operating_state",
+    "failure_model",
+    "observability",
+    "case_memory",
+    "derived_decision_surfaces"
+  ],
+  "rule": "Operational and statistical projections do not overwrite structural canon."
+}

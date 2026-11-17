@@ -1,0 +1,234 @@
+{
+  "format": "spek.wiki-archetype-templates/1.0",
+  "notes": "Guidance for composing admitted Spek sections; not a source selection or semantic authority. Each layout inherits typed slot rules from layouts/*.json, never duplicated here.",
+  "arketype_basis": "Arketype_Code_snapshot(6), 2026-10-31",
+  "archetypes": {
+    "carte-jalons-preuves": {
+      "arketype_id": "ARK-03",
+      "label": "Milestone and Proof Map",
+      "preferred_layout": "chronology",
+      "allowed_layouts": [
+        "chronology",
+        "result-card",
+        "argument-map"
+      ],
+      "integrity_rule": "A shortcut edge does not constitute proof; pin exact proof references."
+    },
+    "compilation-collection": {
+      "arketype_id": "ARK-05",
+      "label": "Compilation / Collection",
+      "preferred_layout": "concept-card",
+      "allowed_layouts": [
+        "concept-card",
+        "evidence-comparison",
+        "chronology"
+      ],
+      "integrity_rule": "Curation does not imply ownership of every included item."
+    },
+    "composition-hybride": {
+      "arketype_id": "ARK-15",
+      "label": "Hybrid Composition",
+      "preferred_layout": "result-card",
+      "allowed_layouts": [
+        "result-card",
+        "argument-map",
+        "comparison",
+        "concept-card",
+        "learning-path",
+        "evidence-comparison",
+        "observation-inference",
+        "chronology"
+      ],
+      "integrity_rule": "Do not merge semantic owners or treat application logic as canon."
+    },
+    "deposition-temoignage": {
+      "arketype_id": "ARK-16",
+      "label": "Testimony / Deposition",
+      "preferred_layout": "evidence-comparison",
+      "allowed_layouts": [
+        "evidence-comparison",
+        "chronology",
+        "observation-inference"
+      ],
+      "integrity_rule": "Reported claims are not automatically verified facts."
+    },
+    "diagnostic-causal": {
+      "arketype_id": "ARK-08",
+      "label": "Causal Diagnosis",
+      "preferred_layout": "observation-inference",
+      "allowed_layouts": [
+        "observation-inference",
+        "argument-map",
+        "result-card"
+      ],
+      "integrity_rule": "Inferences are not permissions to perform interventions."
+    },
+    "dossier-suivi": {
+      "arketype_id": "ARK-19",
+      "label": "Casefile / Follow-Up",
+      "preferred_layout": "chronology",
+      "allowed_layouts": [
+        "chronology",
+        "result-card"
+      ],
+      "integrity_rule": "Sensitive assessments and decisions require explicit governance."
+    },
+    "etat-systemes": {
+      "arketype_id": "ARK-18",
+      "label": "System-State Matrix",
+      "preferred_layout": "observation-inference",
+      "allowed_layouts": [
+        "observation-inference",
+        "result-card",
+        "comparison"
+      ],
+      "integrity_rule": "Observed, desired and inferred states must remain separate."
+    },
+    "federation-topologie": {
+      "arketype_id": "ARK-02",
+      "label": "Federation / Topology",
+      "preferred_layout": "comparison",
+      "allowed_layouts": [
+        "comparison",
+        "concept-card"
+      ],
+      "integrity_rule": "A parent reference does not own or absorb a child state."
+    },
+    "interpretations-couches": {
+      "arketype_id": "ARK-12",
+      "label": "Layered Interpretations",
+      "preferred_layout": "evidence-comparison",
+      "allowed_layouts": [
+        "evidence-comparison",
+        "comparison",
+        "argument-map"
+      ],
+      "integrity_rule": "Keep interpretation and reproducible source distinct."
+    },
+    "invariant-theorie": {
+      "arketype_id": "ARK-07",
+      "label": "Invariant / Formal Theory",
+      "preferred_layout": "argument-map",
+      "allowed_layouts": [
+        "argument-map",
+        "result-card",
+        "observation-inference"
+      ],
+      "integrity_rule": "Proof obligations need real justification and scope."
+    },
+    "memoire-recherche": {
+      "arketype_id": "ARK-06",
+      "label": "Research Memory",
+      "preferred_layout": "result-card",
+      "allowed_layouts": [
+        "result-card",
+        "evidence-comparison",
+        "observation-inference"
+      ],
+      "integrity_rule": "Preserve the difference between hypotheses and established findings."
+    },
+    "modele-multiplexe": {
+      "arketype_id": "ARK-09",
+      "label": "Multiplex / Organizational Model",
+      "preferred_layout": "comparison",
+      "allowed_layouts": [
+        "comparison",
+        "concept-card",
+        "evidence-comparison",
+        "mission-phase-map",
+        "system-interface-map",
+        "trajectory-constraints-map",
+        "boundary-relation-map",
+        "taxonomy-tree",
+        "agroecosystem-network",
+        "inputs-practices-matrix",
+        "practice-interface-map",
+        "evidence-constraint-matrix",
+        "relation-network",
+        "stage-interaction-network",
+        "process-interface-map"
+      ],
+      "integrity_rule": "Avoid collapsing relationships from different layers."
+    },
+    "parcours-pedagogique": {
+      "arketype_id": "ARK-10",
+      "label": "Learning Path",
+      "preferred_layout": "learning-path",
+      "allowed_layouts": [
+        "learning-path",
+        "concept-card"
+      ],
+      "integrity_rule": "Learning projection is not the whole knowledge base."
+    },
+    "procedure-protocole": {
+      "arketype_id": "ARK-04",
+      "label": "Procedure / Protocol",
+      "preferred_layout": "learning-path",
+      "allowed_layouts": [
+        "learning-path",
+        "observation-inference"
+      ],
+      "integrity_rule": "Description, execution and authorization are different."
+    },
+    "referentiel-semantique": {
+      "arketype_id": "ARK-01",
+      "label": "Semantic Reference",
+      "preferred_layout": "concept-card",
+      "allowed_layouts": [
+        "concept-card",
+        "comparison",
+        "taxonomy-tree",
+        "event-document-chain",
+        "double-entry-ledger",
+        "period-rollup-matrix",
+        "source-provenance-index",
+        "multiscale-relations-map",
+        "functional-trajectory-map",
+        "evidence-constraint-matrix",
+        "crossscale-distinctions-map"
+      ],
+      "integrity_rule": "Distinguish assertions from instructional projections and record sources."
+    },
+    "registre-evenementiel": {
+      "arketype_id": "ARK-11",
+      "label": "Event Ledger / Chronology",
+      "preferred_layout": "chronology",
+      "allowed_layouts": [
+        "chronology",
+        "observation-inference"
+      ],
+      "integrity_rule": "An event log is not necessarily current state or causal proof."
+    },
+    "simulation-transition": {
+      "arketype_id": "ARK-14",
+      "label": "Simulation / Transitions",
+      "preferred_layout": "chronology",
+      "allowed_layouts": [
+        "chronology",
+        "comparison",
+        "result-card"
+      ],
+      "integrity_rule": "Simulation does not grant real-world execution authority."
+    },
+    "taxonomie-classification": {
+      "arketype_id": "ARK-17",
+      "label": "Taxonomy / Natural Classification",
+      "preferred_layout": "concept-card",
+      "allowed_layouts": [
+        "concept-card",
+        "comparison"
+      ],
+      "integrity_rule": "Classification criteria, authority and exceptions must be explicit."
+    },
+    "univers-oeuvres-medias": {
+      "arketype_id": "ARK-13",
+      "label": "Media and Creative Universes",
+      "preferred_layout": "concept-card",
+      "allowed_layouts": [
+        "concept-card",
+        "chronology"
+      ],
+      "integrity_rule": "Preserve provenance and distinction between work and interpretation."
+    }
+  }
+}

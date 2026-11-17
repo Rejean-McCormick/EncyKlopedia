@@ -1,0 +1,697 @@
+{
+  "format": "encyklopedia.unesco-skos-reference/1.0",
+  "provenance": "LinkedDataHub-UNESCO supplied snapshot (historical)",
+  "origin_ttl_relpath": "demo/unesco-thesaurus/concept-schemes/unesco-thesaurus/unesco-thesaurus.ttl",
+  "origin_sha256": "637465249ddf7c1ea94aa1d95c0ae49302e15a8a0c6afcda0eb4cd9b31e5708a",
+  "source_date": "2025-06-02",
+  "source_uri": "http://vocabularies.unesco.org/thesaurus",
+  "source_license": "CC BY-SA 3.0 IGO (as declared in RDF; permissions require independent review)",
+  "triple_count_in_origin": 88636,
+  "branch_concepts": [
+    {
+      "unesco_id": "concept10",
+      "english_label": "Right to education",
+      "english_scope_notes": [],
+      "broader": [],
+      "narrower": [
+        "concept4938",
+        "concept7597"
+      ],
+      "related": [
+        "concept1519",
+        "concept5052",
+        "concept556",
+        "concept557",
+        "concept9"
+      ]
+    },
+    {
+      "unesco_id": "concept1124",
+      "english_label": "Access to education",
+      "english_scope_notes": [
+        "Conditions, circumstances or requirements governing admittance to educational institutions or programmes."
+      ],
+      "broader": [
+        "concept4938"
+      ],
+      "narrower": [],
+      "related": [
+        "concept1137",
+        "concept1138",
+        "concept1139",
+        "concept1140"
+      ]
+    },
+    {
+      "unesco_id": "concept11264",
+      "english_label": "Functional illiteracy",
+      "english_scope_notes": [],
+      "broader": [
+        "concept1516"
+      ],
+      "narrower": [],
+      "related": [
+        "concept1518",
+        "concept2194"
+      ]
+    },
+    {
+      "unesco_id": "concept1137",
+      "english_label": "Educational discrimination",
+      "english_scope_notes": [],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [
+        "concept7790"
+      ],
+      "related": [
+        "concept1124",
+        "concept1140",
+        "concept1494",
+        "concept4938",
+        "concept5916",
+        "concept8980"
+      ]
+    },
+    {
+      "unesco_id": "concept1138",
+      "english_label": "Educational priority areas",
+      "english_scope_notes": [
+        "Regions, localities, etc., in need of special educational action."
+      ],
+      "broader": [
+        "concept4938"
+      ],
+      "narrower": [],
+      "related": [
+        "concept1124",
+        "concept21",
+        "concept4708",
+        "concept5916",
+        "concept7501",
+        "concept8121"
+      ]
+    },
+    {
+      "unesco_id": "concept1139",
+      "english_label": "Free education",
+      "english_scope_notes": [
+        "Non fee-paying education."
+      ],
+      "broader": [
+        "concept1140"
+      ],
+      "narrower": [],
+      "related": [
+        "concept1124",
+        "concept5999",
+        "concept7703",
+        "concept9414"
+      ]
+    },
+    {
+      "unesco_id": "concept1140",
+      "english_label": "Universal education",
+      "english_scope_notes": [
+        "System of education extending opportunities to all."
+      ],
+      "broader": [
+        "concept4938"
+      ],
+      "narrower": [
+        "concept1139",
+        "concept5999"
+      ],
+      "related": [
+        "concept1124",
+        "concept1137",
+        "concept17016",
+        "concept5916",
+        "concept7597"
+      ]
+    },
+    {
+      "unesco_id": "concept1480",
+      "english_label": "Adult literacy",
+      "english_scope_notes": [],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [
+        "concept1516"
+      ],
+      "related": [
+        "concept1473",
+        "concept1481",
+        "concept1494",
+        "concept1511",
+        "concept1518",
+        "concept1519",
+        "concept1520"
+      ]
+    },
+    {
+      "unesco_id": "concept1487",
+      "english_label": "Leisure and education",
+      "english_scope_notes": [
+        "Organized activities intended to help individuals or groups use non-work time in a manner conducive to physical and mental well-being."
+      ],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept1473",
+        "concept367",
+        "concept6972",
+        "concept7666"
+      ]
+    },
+    {
+      "unesco_id": "concept1516",
+      "english_label": "Illiteracy",
+      "english_scope_notes": [
+        "Relates to the problem. Provision for resolving it should be handled by the \"literacy\" descriptors."
+      ],
+      "broader": [
+        "concept1480"
+      ],
+      "narrower": [
+        "concept11264"
+      ],
+      "related": [
+        "concept1518",
+        "concept1519",
+        "concept2194"
+      ]
+    },
+    {
+      "unesco_id": "concept17112",
+      "english_label": "School closure",
+      "english_scope_notes": [
+        "Refers to both permanent or temporary school closures. The latter can be due to crisis situations such as natural disaster, armed conflict or epidemics."
+      ],
+      "broader": [
+        "concept4938"
+      ],
+      "narrower": [],
+      "related": [
+        "concept1114"
+      ]
+    },
+    {
+      "unesco_id": "concept17163",
+      "english_label": "Teacher policy",
+      "english_scope_notes": [],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept8283"
+      ]
+    },
+    {
+      "unesco_id": "concept2107",
+      "english_label": "Alternative education",
+      "english_scope_notes": [
+        "General term for schemes which offer an alternative to traditional institutional education or for movements which reject the notion of formal schooling."
+      ],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept2112",
+        "concept37",
+        "concept49"
+      ]
+    },
+    {
+      "unesco_id": "concept2112",
+      "english_label": "Educational experiments",
+      "english_scope_notes": [],
+      "broader": [
+        "concept7281"
+      ],
+      "narrower": [],
+      "related": [
+        "concept2107",
+        "concept9197"
+      ]
+    },
+    {
+      "unesco_id": "concept3894",
+      "english_label": "Bilingual education",
+      "english_scope_notes": [
+        "Encouragement of bilingualism through the teaching of regular courses in both the national language and a second language."
+      ],
+      "broader": [
+        "concept9343"
+      ],
+      "narrower": [],
+      "related": [
+        "concept3608",
+        "concept3892",
+        "concept3898",
+        "concept3932"
+      ]
+    },
+    {
+      "unesco_id": "concept3898",
+      "english_label": "Intercultural education",
+      "english_scope_notes": [],
+      "broader": [
+        "concept7078"
+      ],
+      "narrower": [],
+      "related": [
+        "concept3892",
+        "concept3894",
+        "concept3897",
+        "concept3899",
+        "concept419",
+        "concept54",
+        "concept5900",
+        "concept7021",
+        "concept7859"
+      ]
+    },
+    {
+      "unesco_id": "concept4938",
+      "english_label": "Educational opportunities",
+      "english_scope_notes": [
+        "Availability of educational provision."
+      ],
+      "broader": [
+        "concept10"
+      ],
+      "narrower": [
+        "concept1124",
+        "concept1138",
+        "concept1140",
+        "concept17112"
+      ],
+      "related": [
+        "concept1137",
+        "concept17013",
+        "concept3617",
+        "concept5312",
+        "concept5916",
+        "concept7597"
+      ]
+    },
+    {
+      "unesco_id": "concept5178",
+      "english_label": "Church and education",
+      "english_scope_notes": [],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept5172",
+        "concept5180",
+        "concept5181"
+      ]
+    },
+    {
+      "unesco_id": "concept5999",
+      "english_label": "Compulsory education",
+      "english_scope_notes": [],
+      "broader": [
+        "concept1140"
+      ],
+      "narrower": [],
+      "related": [
+        "concept1114",
+        "concept1139",
+        "concept22"
+      ]
+    },
+    {
+      "unesco_id": "concept6020",
+      "english_label": "Computer uses in education",
+      "english_scope_notes": [
+        "The use of computers for instruction, testing, student/pupil personnel services, school administrative support services, etc. Use more specific descriptor where appropriate."
+      ],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept520",
+        "concept6012",
+        "concept6023",
+        "concept6028",
+        "concept97"
+      ]
+    },
+    {
+      "unesco_id": "concept7078",
+      "english_label": "Education and culture",
+      "english_scope_notes": [
+        "Taking into consideration of cultural factors in the educational process."
+      ],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [
+        "concept3898"
+      ],
+      "related": [
+        "concept2502",
+        "concept260",
+        "concept7142"
+      ]
+    },
+    {
+      "unesco_id": "concept7273",
+      "english_label": "Curriculum development",
+      "english_scope_notes": [
+        "Systematic process of producing new curricula or improving existing ones. Involves setting out aims, content, methods, evaluation procedures."
+      ],
+      "broader": [
+        "concept8"
+      ],
+      "narrower": [],
+      "related": [
+        "concept7280",
+        "concept7281",
+        "concept7282"
+      ]
+    },
+    {
+      "unesco_id": "concept7281",
+      "english_label": "Educational innovations",
+      "english_scope_notes": [
+        "Changes in objectives, content or methods initiated, as a rule, in experimental situations."
+      ],
+      "broader": [
+        "concept8"
+      ],
+      "narrower": [
+        "concept2112",
+        "concept9267"
+      ],
+      "related": [
+        "concept14",
+        "concept17170",
+        "concept7273",
+        "concept7282",
+        "concept9176"
+      ]
+    },
+    {
+      "unesco_id": "concept7282",
+      "english_label": "Educational reform",
+      "english_scope_notes": [
+        "Change planned or in process of implementation to a major part of a national system of education."
+      ],
+      "broader": [
+        "concept8"
+      ],
+      "narrower": [],
+      "related": [
+        "concept14",
+        "concept7273",
+        "concept7281",
+        "concept7597",
+        "concept8260",
+        "concept9"
+      ]
+    },
+    {
+      "unesco_id": "concept7597",
+      "english_label": "Democratization of education",
+      "english_scope_notes": [
+        "Policy of ensuring equality of educational opportunity in order to achieve universal education."
+      ],
+      "broader": [
+        "concept10"
+      ],
+      "narrower": [],
+      "related": [
+        "concept1140",
+        "concept4938",
+        "concept7282",
+        "concept7592",
+        "concept9"
+      ]
+    },
+    {
+      "unesco_id": "concept7790",
+      "english_label": "School integration",
+      "english_scope_notes": [
+        "Refers to ethnic groups, covers also negative aspect of segregation."
+      ],
+      "broader": [
+        "concept1137"
+      ],
+      "narrower": [],
+      "related": [
+        "concept22",
+        "concept2534",
+        "concept29",
+        "concept31",
+        "concept7789"
+      ]
+    },
+    {
+      "unesco_id": "concept7859",
+      "english_label": "Global citizenship education",
+      "english_scope_notes": [
+        "Global citizenship education aims to empower learners of all ages to assume active roles, both locally and globally, in building more peaceful, tolerant, inclusive and secure societies."
+      ],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept17095",
+        "concept3898",
+        "concept5289",
+        "concept5290",
+        "concept7233",
+        "concept7857"
+      ]
+    },
+    {
+      "unesco_id": "concept8",
+      "english_label": "Educational development",
+      "english_scope_notes": [
+        "Developmental change of one or more characteristics of the educational system variables in a positive direction in terms of some valued criterion. Use more specific descriptor where appropriate."
+      ],
+      "broader": [],
+      "narrower": [
+        "concept7273",
+        "concept7281",
+        "concept7282",
+        "concept8260",
+        "concept9176"
+      ],
+      "related": [
+        "concept14",
+        "concept9"
+      ]
+    },
+    {
+      "unesco_id": "concept8260",
+      "english_label": "Diversification of education",
+      "english_scope_notes": [],
+      "broader": [
+        "concept8"
+      ],
+      "narrower": [],
+      "related": [
+        "concept14",
+        "concept7282"
+      ]
+    },
+    {
+      "unesco_id": "concept9",
+      "english_label": "Educational policy",
+      "english_scope_notes": [
+        "Official statements of goals to which the system of education is directed."
+      ],
+      "broader": [],
+      "narrower": [
+        "concept1137",
+        "concept1480",
+        "concept1487",
+        "concept17163",
+        "concept2107",
+        "concept5178",
+        "concept6020",
+        "concept7078",
+        "concept7859",
+        "concept9042",
+        "concept9255",
+        "concept9311",
+        "concept9341",
+        "concept9343",
+        "concept9344",
+        "concept9345"
+      ],
+      "related": [
+        "concept10",
+        "concept1800",
+        "concept6578",
+        "concept7282",
+        "concept7597",
+        "concept8"
+      ]
+    },
+    {
+      "unesco_id": "concept9042",
+      "english_label": "Industry and education",
+      "english_scope_notes": [],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept8863",
+        "concept9900"
+      ]
+    },
+    {
+      "unesco_id": "concept9176",
+      "english_label": "Educational trends",
+      "english_scope_notes": [
+        "Changes in educational movement, either past or future, which occur in response to social, economic or environmental trends."
+      ],
+      "broader": [
+        "concept8"
+      ],
+      "narrower": [
+        "concept9440"
+      ],
+      "related": [
+        "concept7281",
+        "concept9217"
+      ]
+    },
+    {
+      "unesco_id": "concept9255",
+      "english_label": "Educational indicators",
+      "english_scope_notes": [
+        "Numerical data used as benchmarks in the formulation and monitoring of educational policy."
+      ],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept17",
+        "concept3617",
+        "concept9197"
+      ]
+    },
+    {
+      "unesco_id": "concept9267",
+      "english_label": "Teaching method innovations",
+      "english_scope_notes": [],
+      "broader": [
+        "concept7281"
+      ],
+      "narrower": [],
+      "related": [
+        "concept83"
+      ]
+    },
+    {
+      "unesco_id": "concept9311",
+      "english_label": "Educational objectives",
+      "english_scope_notes": [
+        "Intended or expected results of the educational process."
+      ],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept14",
+        "concept3617",
+        "concept9316",
+        "concept9317"
+      ]
+    },
+    {
+      "unesco_id": "concept9341",
+      "english_label": "Educational strategies",
+      "english_scope_notes": [
+        "Conversion of policy goals into operational terms, including some indication of alternative paths to reach these goals."
+      ],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept14"
+      ]
+    },
+    {
+      "unesco_id": "concept9343",
+      "english_label": "Language of instruction",
+      "english_scope_notes": [],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [
+        "concept3894"
+      ],
+      "related": [
+        "concept307",
+        "concept3608"
+      ]
+    },
+    {
+      "unesco_id": "concept9344",
+      "english_label": "State and education",
+      "english_scope_notes": [],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept5185",
+        "concept9136"
+      ]
+    },
+    {
+      "unesco_id": "concept9345",
+      "english_label": "Study abroad",
+      "english_scope_notes": [],
+      "broader": [
+        "concept9"
+      ],
+      "narrower": [],
+      "related": [
+        "concept10321",
+        "concept13294",
+        "concept2073",
+        "concept7050",
+        "concept81",
+        "concept83",
+        "concept8646",
+        "concept9403",
+        "concept9842"
+      ]
+    },
+    {
+      "unesco_id": "concept9440",
+      "english_label": "Enrolment trends",
+      "english_scope_notes": [],
+      "broader": [
+        "concept9176"
+      ],
+      "narrower": [],
+      "related": [
+        "concept9219",
+        "concept9402"
+      ]
+    }
+  ]
+}

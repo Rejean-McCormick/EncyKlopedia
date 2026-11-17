@@ -1,0 +1,96 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-modele-multiplexe",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-09",
+    "slug": "modele-multiplexe",
+    "name": "Multiplex / Organizational Model"
+  },
+  "source_arketype_file": "archetypes/modele-multiplexe.json",
+  "editorial_rationale": "Structure Arketype ARK-09: Several relationship layers over shared entities. Organizational studies and social or institutional mappings.",
+  "source_structural_primitives": [
+    "entites",
+    "couches_relationnelles",
+    "roles",
+    "ressources",
+    "regles",
+    "temps",
+    "points_de_vue"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "entites",
+      "title_function": "Entités, rôles et définitions",
+      "layout_id": "concept-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "entites",
+        "roles"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "definition": 1,
+        "examples": 1,
+        "context": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Ne pas fusionner les rôles de couches différentes."
+    },
+    {
+      "section_id": "couches",
+      "title_function": "Différentes perspectives",
+      "layout_id": "comparison",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "couches_relationnelles",
+        "points_de_vue",
+        "temps"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "topic": 1,
+        "criterion": 1,
+        "approach_a": 1,
+        "approach_b": 1,
+        "synthesis": 1,
+        "limitations": 1
+      },
+      "editorial_constraint": "Comparer deux lectures distinctes, pas confondre les liens."
+    },
+    {
+      "section_id": "sources",
+      "title_function": "Preuves par couche",
+      "layout_id": "evidence-comparison",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "regles",
+        "ressources",
+        "points_de_vue"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "question": 1,
+        "source_a": 1,
+        "source_b": 1,
+        "perspective_a": 1,
+        "perspective_b": 1,
+        "synthesis": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Maintenir propriétaires et contextes temporels."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "layered-graph"
+  ],
+  "integrity_rule": "Avoid collapsing relationships from different layers.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

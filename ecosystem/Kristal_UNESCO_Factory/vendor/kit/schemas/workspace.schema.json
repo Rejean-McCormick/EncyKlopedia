@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kristal:local-workspace:3.2.0",
+  "title": "Kristal Local Workspace 3.2 — v9 semantic state, optional AI and v10 hosting",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "format",
+    "slug",
+    "title",
+    "status",
+    "state_ref",
+    "target",
+    "subject",
+    "semantic_ownership",
+    "native_model",
+    "derived_paths"
+  ],
+  "properties": {
+    "format": {
+      "const": "kristal.local-workspace/3.2.0"
+    },
+    "slug": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "stub",
+        "design",
+        "building",
+        "validated",
+        "released",
+        "superseded"
+      ]
+    },
+    "state_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authority_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state_scope": {
+      "type": "object"
+    },
+    "target": {
+      "type": "object",
+      "required": [
+        "portable_contract",
+        "semantic_baseline",
+        "query_baseline",
+        "state_architecture",
+        "hosted_network_baseline",
+        "logical_commitment_profile",
+        "state_commitment_profile"
+      ],
+      "properties": {
+        "portable_contract": {
+          "const": "kristal_state/6.0"
+        },
+        "semantic_baseline": {
+          "const": "kristall/7.0"
+        },
+        "query_baseline": {
+          "const": "kristall/8.0"
+        },
+        "state_architecture": {
+          "const": "kristal.state/9.0"
+        },
+        "hosted_network_baseline": {
+          "const": "kristal.hosting/10.0"
+        },
+        "logical_commitment_profile": {
+          "const": "kristal.logical/jcs-sha256-v1"
+        },
+        "state_commitment_profile": {
+          "const": "kristal.state-commitment/jcs-sha256-v1"
+        }
+      }
+    },
+    "subject": {
+      "type": "object"
+    },
+    "semantic_ownership": {
+      "type": "object",
+      "required": [
+        "owns",
+        "does_not_own"
+      ],
+      "properties": {
+        "owns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "does_not_own": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "native_model": {
+      "type": "object"
+    },
+    "release_policy": {
+      "type": "object",
+      "properties": {
+        "build_publish_activate_separated": {
+          "const": true
+        },
+        "qualification_before_publication": {
+          "const": true
+        },
+        "exact_commit_publication": {
+          "const": true
+        },
+        "activation_required": {
+          "type": "boolean"
+        }
+      }
+    },
+    "derived_paths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "portable_ai": {
+      "type": "object",
+      "required": [
+        "profile",
+        "entrypoint",
+        "manifest",
+        "offline_first",
+        "github_required_for_reading"
+      ],
+      "properties": {
+        "profile": {
+          "const": "kristal.portable-ai/1.0"
+        },
+        "entrypoint": {
+          "const": "AI_START_HERE.md"
+        },
+        "manifest": {
+          "const": "AI_MANIFEST.json"
+        },
+        "offline_first": {
+          "const": true
+        },
+        "github_required_for_reading": {
+          "const": false
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "enabled": {
+          "type": "boolean"
+        }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "arketype_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primary_archetype": {
+          "type": "string",
+          "pattern": "^ARK-[0-9]{2,}$"
+        },
+        "supporting_archetypes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^ARK-[0-9]{2,}$"
+          }
+        },
+        "primary_usage": {
+          "type": "string",
+          "pattern": "^PRF-[0-9]{2,}$"
+        },
+        "secondary_usages": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^PRF-[0-9]{2,}$"
+          }
+        },
+        "usage_slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "usage_family": {
+          "type": "string",
+          "minLength": 1
+        },
+        "domain": {
+          "type": "string",
+          "minLength": 1
+        },
+        "organization": {
+          "enum": [
+            "single",
+            "collection",
+            "federation",
+            "hybrid",
+            "unknown"
+          ]
+        }
+      }
+    }
+  }
+}

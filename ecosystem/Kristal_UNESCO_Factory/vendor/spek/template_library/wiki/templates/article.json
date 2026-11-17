@@ -1,0 +1,53 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "wiki.article",
+  "version": "1.0.0",
+  "category": "wiki",
+  "intent": "Explicit Wiki article using recursive rhetorical templates",
+  "slots": {
+    "introduction": {
+      "node_kind": "child",
+      "allowed_templates": [
+        "rhetorical.definition@1.0.0"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "arguments": {
+      "node_kind": "child",
+      "allowed_templates": [
+        "rhetorical.argument-evidence@1.0.0"
+      ],
+      "min": 1,
+      "max": 10
+    },
+    "comparison": {
+      "node_kind": "child",
+      "allowed_templates": [
+        "rhetorical.comparison-narrative@1.0.0"
+      ],
+      "min": 0,
+      "max": 1
+    },
+    "synthesis": {
+      "node_kind": "child",
+      "allowed_templates": [
+        "rhetorical.synthesis@1.0.0"
+      ],
+      "min": 0,
+      "max": 1
+    }
+  },
+  "ordered_slots": [
+    "introduction",
+    "arguments",
+    "comparison",
+    "synthesis"
+  ],
+  "presentation_policy": {
+    "layout_variant": "stack",
+    "show_template_labels": false
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true
+}

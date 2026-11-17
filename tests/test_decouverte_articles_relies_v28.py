@@ -328,4 +328,188 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(state['candidate_pairs'],0)
 
 
+class BroadDiscoveryTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
+        self.base=Path(self.tmp.name)
+        self.db=sqlite3.connect(':memory:');self.addCleanup(self.db.close)
+        self.db.row_factory=sqlite3.Row
+        self.db.executescript('''CREATE TABLE wiki_pages(page_id INTEGER PRIMARY KEY,ns INTEGER,title TEXT,
+            redirect INTEGER,latest_revision INTEGER);
+            CREATE INDEX idx_wiki_pages_title ON wiki_pages(ns,title);
+            CREATE TABLE wiki_linktargets(target_id INTEGER PRIMARY KEY,ns INTEGER,title TEXT);
+            CREATE INDEX idx_wiki_lt_title ON wiki_linktargets(ns,title);
+            CREATE TABLE wiki_categorylink_ids(source_page_id INTEGER,target_id INTEGER,type TEXT);
+            CREATE INDEX idx_wiki_catid_target ON wiki_categorylink_ids(target_id);
+            CREATE TABLE assignments(branch_id TEXT,wiki TEXT,page_id INTEGER,concept_id TEXT);''')
+        self.db.executemany('INSERT INTO wiki_pages VALUES(?,?,?,?,?)',[
+            (1,0,'School_closure',0,101),(2,0,'School_closure_in_France',0,102),
+            (3,0,'School_closure_during_crises',0,103),(4,0,'School_closure_legislation',0,104),
+            (5,0,'School_closure_protests',0,105),(6,0,'School_policy',0,106),
+            (7,0,'Access_to_education_for_all',0,107),(8,0,'Education_for_all_program',0,108),
+            (9,0,'Community_school_education',0,109),(10,0,'Education_access_study',0,110),
+            (11,0,'School_closure_redirect',1,111)])
+        self.db.executemany('INSERT INTO wiki_linktargets VALUES(?,14,?)',[
+            (100,'Access_to_education'),(101,'School_closure'),
+            (102,'School_closure_policies')])
+        self.db.executemany('INSERT INTO wiki_categorylink_ids VALUES(?,?,?)',[
+            (8,100,'page'),(9,100,'page'),(10,100,'page'),
+            (5,101,'page'),(6,101,'page'),(4,102,'page')])
+        self.work=sqlite3.connect(':memory:');self.addCleanup(self.work.close)
+        self.work.row_factory=sqlite3.Row
+        self.work.executescript(v28.INIT)
+        self.branch={'id':'unesco.mt1.10.test','concepts':[
+            {'unesco_id':'concept17112','preferred_labels':{'en':['School closure']}},
+            {'unesco_id':'concept1124','preferred_labels':{'en':['Access to education']}}]}
+
+    def test_broad_title_prefix_and_indexed_category_members(self):
+        stats=v28.bootstrap(self.db,self.db,self.work,self.branch,max_per_concept=30,read_limit=20)
+        rows=list(self.work.execute('SELECT concept_id,page_id FROM candidates'))
+        pairs={(r['concept_id'],r['page_id']) for r in rows}
+        self.assertIn(('concept17112',2),pairs) # Not exact title: widened discovery
+        self.assertIn(('concept17112',6),pairs) # Category member even with different title
+        self.assertIn(('concept1124',7),pairs) # Broader title
+        self.assertIn(('concept1124',9),pairs) # Category member, not a label match
+        self.assertNotIn(('concept17112',11),pairs) # Redirect discarded
+        self.assertGreaterEqual(stats['broadscan_new_pairs_unseeded'],8)
+        self.assertEqual(stats['broadscan_concepts'],2)
+        self.assertEqual(self.work.execute('SELECT count(*) FROM candidates').fetchone()[0],
+                         self.work.execute('SELECT count(DISTINCT concept_id||":"||page_id) FROM candidates').fetchone()[0])
+        self.assertEqual(v28.bootstrap(self.db,self.db,self.work,self.branch,max_per_concept=30,read_limit=20)['broadscan_new_pairs'],0)
+        self.assertEqual(self.work.execute("SELECT count(*) FROM evidence WHERE kind LIKE 'SQL_%'").fetchone()[0],len(rows))
+
+    def test_resume_page_scan_instead_of_permanently_excluding_surplus(self):
+        # Strict cap of 1 per concept per wave. The next wave must progress.
+        seen=[]
+        for _ in range(6):
+            v28.bootstrap(self.db,self.db,self.work,self.branch,max_per_concept=1,read_limit=20)
+            seen.append(self.work.execute('SELECT count(*) FROM candidates').fetchone()[0])
+        self.assertGreaterEqual(seen[-1],8)
+        self.assertGreater(seen[-1],seen[0])
+        self.assertTrue(all(b>=a for a,b in zip(seen,seen[1:])))
+
+    def test_existing_pair_evidence_is_immutable(self):
+        bid=self.branch['id']
+        self.work.execute('INSERT INTO candidates VALUES(?,?,?,?,?,?)',
+                          (bid,'concept17112',2,'School closure in France','102','earlier'))
+        self.work.execute('INSERT INTO evidence VALUES(?,?,?,?,?,?)',
+                          (bid,'concept17112',2,999,'WIKILINK','frozen original'))
+        old=list(self.work.execute('SELECT * FROM evidence WHERE page_id=2'))
+        v28.bootstrap(self.db,self.db,self.work,self.branch,max_per_concept=30,read_limit=20)
+        self.assertEqual(list(self.work.execute('SELECT * FROM evidence WHERE page_id=2')),old)
+        self.assertEqual(self.work.execute('SELECT count(*) FROM evidence WHERE page_id=2').fetchone()[0],1)
+        self.assertFalse(any('DECISION' in r[0].upper() for r in self.work.execute('SELECT name FROM sqlite_master WHERE type="table"')))
+
+    def test_open_reviews_protect_discovery_and_work_sqlite(self):
+        data=self.base/'30_working';work_dir=data/'decouverte_articles_relies_v28';work_dir.mkdir(parents=True)
+        station=data/'poste_chatgpt_v30';station.mkdir()
+        dbfile=station/'station_v30.sqlite'
+        with sqlite3.connect(dbfile) as q:
+            q.execute('CREATE TABLE jobs(kind TEXT,status TEXT)')
+            q.execute("INSERT INTO jobs VALUES('v28','READY')")
+        with self.assertRaisesRegex(ValueError,'preuves figees'):
+            v28.assert_unfrozen(work_dir)
+        with sqlite3.connect(dbfile) as q:q.execute("UPDATE jobs SET status='DONE'")
+        v28.assert_unfrozen(work_dir)
+        self.assertFalse((work_dir/'DECOUVERTE_ARTICLES_RELIES_V28.sqlite').exists())
+
+    def test_all_concepts_even_seeded_have_broad_recall(self):
+        bid=self.branch['id']
+        self.db.execute("INSERT INTO assignments VALUES(?,?,?,?)",(bid,'enwiki',1,'concept17112'))
+        stats=v28.bootstrap(self.db,self.db,self.work,self.branch,max_per_concept=30,read_limit=20)
+        self.assertEqual(stats['broadscan_unseeded_concepts'],1)
+        self.assertIn(('concept17112',6),{(r[0],r[1]) for r in self.work.execute('SELECT concept_id,page_id FROM candidates')})
+
+
+
+
 if __name__=='__main__':unittest.main()
+
+class OntologyRecallV3111Tests(unittest.TestCase):
+    """Real SQL operations on miniature catalogue/source, without touching D:."""
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.cat = sqlite3.connect(':memory:')
+        self.src = sqlite3.connect(':memory:')
+        self.work = sqlite3.connect(':memory:')
+        for db in (self.cat,self.src,self.work):
+            db.row_factory=sqlite3.Row
+            self.addCleanup(db.close)
+        self.cat.executescript('CREATE TABLE assignments(branch_id TEXT,wiki TEXT,page_id INTEGER,concept_id TEXT);')
+        self.src.executescript('CREATE TABLE wiki_pages(page_id INTEGER PRIMARY KEY,ns INTEGER,title TEXT,redirect INTEGER,latest_revision INTEGER);')
+        self.work.executescript('''CREATE TABLE candidates(
+            branch_id TEXT,concept_id TEXT,page_id INTEGER,title TEXT,revision TEXT,first_seen TEXT,
+            PRIMARY KEY(branch_id,concept_id,page_id));
+            CREATE TABLE evidence(branch_id TEXT,concept_id TEXT,page_id INTEGER,seed_page_id INTEGER,
+            kind TEXT,detail TEXT,PRIMARY KEY(branch_id,concept_id,page_id,seed_page_id,kind,detail));''')
+        self.bid='unesco.test'
+
+    def add_approved(self, cid, n, first=1):
+        self.cat.executemany('INSERT INTO assignments VALUES(?,?,?,?)',
+                             [(self.bid,'enwiki',i,cid) for i in range(first,first+n)])
+        self.src.executemany('INSERT OR IGNORE INTO wiki_pages VALUES(?,?,?,?,?)',
+                             [(i,0,f'Approved_{i}',0,1000+i) for i in range(first,first+n)])
+
+    def test_direct_relation_proposes_without_any_approval_or_catalogue_change(self):
+        self.add_approved('parent',5)
+        branch={'id':self.bid,'concepts':[
+            {'unesco_id':'target','related':['parent']},
+            {'unesco_id':'parent','related':['target']}]}
+        r=v28.bootstrap_ontology(self.src,self.cat,self.work,branch)
+        self.assertEqual(r['relation_new_pairs'],5)
+        self.assertEqual(r['relation_auto_approvals'],0)
+        self.assertEqual(self.work.execute("SELECT count(*) FROM candidates WHERE concept_id='target'").fetchone()[0],5)
+        self.assertIn('REVIEW REQUIRED',self.work.execute('SELECT detail FROM evidence LIMIT 1').fetchone()[0])
+        self.assertEqual(self.cat.execute("SELECT count(*) FROM assignments WHERE concept_id='target'").fetchone()[0],0)
+        self.assertEqual(v28.bootstrap_ontology(self.src,self.cat,self.work,branch)['relation_new_pairs'],0)
+
+    def test_resumable_bound_is_not_permanent_exclusion(self):
+        self.add_approved('source',7)
+        branch={'id':self.bid,'concepts':[
+            {'unesco_id':'target','broader':['source']},
+            {'unesco_id':'source','narrower':['target']}]}
+        counts=[]
+        for _ in range(5):
+            counts.append(v28.bootstrap_ontology(self.src,self.cat,self.work,branch,
+                         max_per_concept=2,read_limit=20)['relation_new_pairs'])
+        self.assertEqual(counts,[2,2,2,1,0])
+        self.assertEqual(self.work.execute("SELECT count(*) FROM candidates WHERE concept_id='target'").fetchone()[0],7)
+        self.assertEqual(self.work.execute('SELECT count(*) FROM v3111_relation_cursor WHERE completed=0').fetchone()[0],0)
+
+    def test_two_hops_with_only_documented_unesco_edges(self):
+        self.add_approved('approved',3)
+        branch={'id':self.bid,'concepts':[
+            {'unesco_id':'target','broader':['unseeded']},
+            {'unesco_id':'unseeded','related':['approved']},
+            {'unesco_id':'approved','related':['unseeded']}]}
+        r=v28.bootstrap_ontology(self.src,self.cat,self.work,branch)
+        self.assertEqual(r['relation_pairs_by_concept']['target'],3)
+        e=self.work.execute("SELECT detail FROM evidence WHERE concept_id='target' LIMIT 1").fetchone()[0]
+        self.assertIn('broader:unseeded/related:approved',e)
+        self.assertEqual(self.work.execute("SELECT count(*) FROM evidence WHERE concept_id='target'").fetchone()[0],3)
+
+    def test_existing_evidence_never_modified_even_when_reached_by_relation(self):
+        self.add_approved('source',3)
+        branch={'id':self.bid,'concepts':[
+            {'unesco_id':'target','related':['source']},
+            {'unesco_id':'source','related':['target']}]}
+        self.work.execute('INSERT INTO candidates VALUES(?,?,?,?,?,?)',
+                          (self.bid,'target',1,'Approved_1','1001','2026-01-01T00:00:00Z'))
+        self.work.execute('INSERT INTO evidence VALUES(?,?,?,?,?,?)',
+                          (self.bid,'target',1,1,'OLD_FROZEN','hash-relevant-unchanged'))
+        before=list(self.work.execute("SELECT * FROM evidence WHERE concept_id='target' AND page_id=1"))
+        r=v28.bootstrap_ontology(self.src,self.cat,self.work,branch)
+        self.assertEqual(r['relation_new_pairs'],2)
+        after=list(self.work.execute("SELECT * FROM evidence WHERE concept_id='target' AND page_id=1"))
+        self.assertEqual([tuple(x) for x in before],[tuple(x) for x in after])
+
+    def test_redirect_not_proposed_and_cursor_completed(self):
+        self.add_approved('source',3)
+        self.src.execute('UPDATE wiki_pages SET redirect=1 WHERE page_id=2')
+        branch={'id':self.bid,'concepts':[
+            {'unesco_id':'target','related':['source']},
+            {'unesco_id':'source','related':['target']}]}
+        self.assertEqual(v28.bootstrap_ontology(self.src,self.cat,self.work,branch)['relation_new_pairs'],2)
+        self.assertEqual(v28.bootstrap_ontology(self.src,self.cat,self.work,branch)['relation_new_pairs'],0)
+        self.assertEqual(self.work.execute("SELECT count(*) FROM candidates WHERE page_id=2").fetchone()[0],0)

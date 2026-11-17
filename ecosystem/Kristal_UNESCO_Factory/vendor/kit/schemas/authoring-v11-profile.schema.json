@@ -1,0 +1,14 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Authoring Kit v4 opt-in v11 profile",
+  "type":"object","additionalProperties":false,
+  "required":["format","semantic_profile","registry","graph","crosswalk","catalog"],
+  "properties":{
+    "format":{"const":"kristal.authoring-v11-profile/1.0"},
+    "semantic_profile":{"const":"kristal.semantic-identity/11.0"},
+    "registry":{"type":"string","minLength":1},
+    "graph":{"type":"string","minLength":1},
+    "crosswalk":{"type":"string","minLength":1},
+    "catalog":{"type":"string","minLength":1}
+  }
+}

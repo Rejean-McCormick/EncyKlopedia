@@ -1,0 +1,2420 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:53+00:00",
+      "narrower": [
+        "concept2198",
+        "concept2208",
+        "concept2220",
+        "concept2236"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل كيميائي"
+        ],
+        "en": [
+          "Chemical analysis"
+        ],
+        "es": [
+          "Análisis químico"
+        ],
+        "fr": [
+          "Analyse chimique"
+        ],
+        "ru": [
+          "Химический анализ"
+        ]
+      },
+      "related": [
+        "concept143",
+        "concept145",
+        "concept3948",
+        "concept4980",
+        "concept636"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept137",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept137",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:36+00:00",
+      "narrower": [
+        "concept1221",
+        "concept3957",
+        "concept4652"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مركبات كيميائية"
+        ],
+        "en": [
+          "Chemical compounds"
+        ],
+        "es": [
+          "Compuesto químico"
+        ],
+        "fr": [
+          "Composé chimique"
+        ],
+        "ru": [
+          "Химические соединения"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept138",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept138",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:27+00:00",
+      "narrower": [
+        "concept3497",
+        "concept4645",
+        "concept4986",
+        "concept4987"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عناصر كيميائية"
+        ],
+        "en": [
+          "Chemical elements"
+        ],
+        "es": [
+          "Elemento químico"
+        ],
+        "fr": [
+          "Élément chimique"
+        ],
+        "ru": [
+          "Химические элементы"
+        ]
+      },
+      "related": [
+        "concept3491",
+        "concept3943",
+        "concept4989",
+        "concept4990",
+        "concept636",
+        "concept640",
+        "concept641"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept139",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept139",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحلل كهربائي",
+          "تحليل كهربائي",
+          "عمليات المعالجات الكيميائية"
+        ],
+        "en": [
+          "Electrolysis"
+        ],
+        "es": [
+          "Electrolisis"
+        ],
+        "fr": [
+          "Électrolyse"
+        ],
+        "ru": [
+          "Электролиз"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-22T15:25:42+00:00",
+      "narrower": [
+        "concept4097",
+        "concept5009",
+        "concept5010"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عمليات كيميائية"
+        ],
+        "en": [
+          "Chemical processes"
+        ],
+        "es": [
+          "Proceso químico"
+        ],
+        "fr": [
+          "Processus chimique"
+        ],
+        "ru": [
+          "Химические процессы"
+        ]
+      },
+      "related": [
+        "concept141",
+        "concept143"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept140",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept140",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "أس هيدروجيني",
+          "حموضة",
+          "رقم هيدروجيني",
+          "قلوية"
+        ],
+        "en": [
+          "Acidity",
+          "Alcalinity",
+          "ph"
+        ],
+        "es": [
+          "Acidez",
+          "Alcalinidad",
+          "ph"
+        ],
+        "fr": [
+          "Acidité",
+          "Alcalinité",
+          "ph"
+        ],
+        "ru": [
+          "Кислотность",
+          "Уровень pH",
+          "Щелочные свойства"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-22T15:25:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خواص كيميائية"
+        ],
+        "en": [
+          "Chemical properties"
+        ],
+        "es": [
+          "Propiedad química"
+        ],
+        "fr": [
+          "Propriété chimique"
+        ],
+        "ru": [
+          "Химические свойства"
+        ]
+      },
+      "related": [
+        "concept140",
+        "concept143",
+        "concept147",
+        "concept5004",
+        "concept5015"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept141",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept141",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحث كيميائي"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث كيميائية"
+        ],
+        "en": [
+          "Chemical research"
+        ],
+        "es": [
+          "Investigación química"
+        ],
+        "fr": [
+          "Recherche chimique"
+        ],
+        "ru": [
+          "Химические исследования"
+        ]
+      },
+      "related": [
+        "concept143",
+        "concept145"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept142",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept142",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علوم كيميائية"
+        ],
+        "en": [
+          "Chemical sciences"
+        ],
+        "es": [
+          "Ciencias químicas"
+        ],
+        "fr": [
+          "Sciences chimiques"
+        ],
+        "ru": [
+          "Химические науки"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:51+00:00",
+      "narrower": [
+        "concept1725",
+        "concept5037"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء"
+        ],
+        "en": [
+          "Chemistry"
+        ],
+        "es": [
+          "Química"
+        ],
+        "fr": [
+          "Chimie"
+        ],
+        "ru": [
+          "Химия"
+        ]
+      },
+      "related": [
+        "concept132",
+        "concept137",
+        "concept140",
+        "concept141",
+        "concept142",
+        "concept169",
+        "concept218",
+        "concept2208",
+        "concept3955",
+        "concept3983",
+        "concept4043",
+        "concept4983",
+        "concept4997",
+        "concept5039",
+        "concept620"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept143",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept143",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:03+00:00",
+      "narrower": [
+        "concept9543"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جسيمات اولية"
+        ],
+        "en": [
+          "Elementary particles"
+        ],
+        "es": [
+          "Partícula elemental"
+        ],
+        "fr": [
+          "Particule élémentaire"
+        ],
+        "ru": [
+          "Элементарные частицы"
+        ]
+      },
+      "related": [
+        "concept1122",
+        "concept128",
+        "concept3240",
+        "concept6687"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept144",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept144",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تجارب كيميائية"
+        ],
+        "en": [
+          "Chemical experiments"
+        ],
+        "es": [
+          "Experimentos químicos"
+        ],
+        "fr": [
+          "Expérience chimique"
+        ],
+        "ru": [
+          "Химические эксперименты"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:49+00:00",
+      "narrower": [
+        "concept10596"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء تجريبية"
+        ],
+        "en": [
+          "Experimental chemistry"
+        ],
+        "es": [
+          "Química experimental"
+        ],
+        "fr": [
+          "Chimie expérimentale"
+        ],
+        "ru": [
+          "Экспериментальная химия"
+        ]
+      },
+      "related": [
+        "concept137",
+        "concept142",
+        "concept9614"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept145",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept145",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:43+00:00",
+      "narrower": [
+        "concept3491",
+        "concept4650",
+        "concept4989",
+        "concept4990"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "غازات"
+        ],
+        "en": [
+          "Gases"
+        ],
+        "es": [
+          "Gas"
+        ],
+        "fr": [
+          "Gaz"
+        ],
+        "ru": [
+          "Газы"
+        ]
+      },
+      "related": [
+        "concept11241",
+        "concept5641"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept146",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept146",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كيمياء طبيعية"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:27+00:00",
+      "narrower": [
+        "concept10312",
+        "concept11170",
+        "concept11790",
+        "concept13626",
+        "concept15154",
+        "concept4983",
+        "concept4997",
+        "concept9528"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء فيزيائية"
+        ],
+        "en": [
+          "Physical chemistry"
+        ],
+        "es": [
+          "Química física"
+        ],
+        "fr": [
+          "Chimie physique"
+        ],
+        "ru": [
+          "Физическая химия"
+        ]
+      },
+      "related": [
+        "concept123",
+        "concept127",
+        "concept132",
+        "concept141",
+        "concept220"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept147",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept147",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept138"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2026-03-06T15:40:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احماض"
+        ],
+        "en": [
+          "Acids"
+        ],
+        "es": [
+          "Ácido"
+        ],
+        "fr": [
+          "Acide"
+        ],
+        "ru": [
+          "Кислоты"
+        ]
+      },
+      "related": [
+        "concept636"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1221",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1221",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept143"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء عضوية"
+        ],
+        "en": [
+          "Organic chemistry"
+        ],
+        "es": [
+          "Química orgánica"
+        ],
+        "fr": [
+          "Chimie organique"
+        ],
+        "ru": [
+          "Органическая химия"
+        ]
+      },
+      "related": [
+        "concept13829",
+        "concept1721",
+        "concept3957"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1725",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1725",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4990"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T14:36:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اوزون"
+        ],
+        "en": [
+          "Ozone"
+        ],
+        "es": [
+          "Ozono"
+        ],
+        "fr": [
+          "Ozone"
+        ],
+        "ru": [
+          "Озон"
+        ]
+      },
+      "related": [
+        "concept181",
+        "concept1946"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1952",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1952",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept137"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:52+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل كيميائي حيوي"
+        ],
+        "en": [
+          "Biochemical analysis"
+        ],
+        "es": [
+          "Análisis bioquímico"
+        ],
+        "fr": [
+          "Analyse biochimique"
+        ],
+        "ru": [
+          "Биохимический анализ"
+        ]
+      },
+      "related": [
+        "concept218"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2198",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2198",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل استشرابي"
+        ]
+      },
+      "broader": [
+        "concept137"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:01+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل كروماتوجرافي"
+        ],
+        "en": [
+          "Chromatographic analysis"
+        ],
+        "es": [
+          "Análisis cromatográfico"
+        ],
+        "fr": [
+          "Analyse chromatographique"
+        ],
+        "ru": [
+          "Хроматографический анализ"
+        ]
+      },
+      "related": [
+        "concept143"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2208",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2208",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept137"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T12:08:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحاليل الأثر"
+        ],
+        "en": [
+          "Trace analysis"
+        ],
+        "es": [
+          "Análisis de oligoelementos"
+        ],
+        "fr": [
+          "Analyse de traces"
+        ],
+        "ru": [
+          "Анализ микроэлементов"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2220",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2220",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept137"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل كيميائي طيفي"
+        ],
+        "en": [
+          "Spectrochemical analysis"
+        ],
+        "es": [
+          "Análisis espectroquímico"
+        ],
+        "fr": [
+          "Analyse spectrochimique"
+        ],
+        "ru": [
+          "Спектрохимический анализ"
+        ]
+      },
+      "related": [
+        "concept10236"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2236",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2236",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Nitrogène"
+        ]
+      },
+      "broader": [
+        "concept146"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نيتروجين"
+        ],
+        "en": [
+          "Nitrogen"
+        ],
+        "es": [
+          "Nitrógeno"
+        ],
+        "fr": [
+          "Azote"
+        ],
+        "ru": [
+          "Азот"
+        ]
+      },
+      "related": [
+        "concept139"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3491",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3491",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept139"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كبريت"
+        ],
+        "en": [
+          "Sulphur"
+        ],
+        "es": [
+          "Azufre"
+        ],
+        "fr": [
+          "Soufre"
+        ],
+        "ru": [
+          "Сера"
+        ]
+      },
+      "related": [
+        "concept5692"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3497",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3497",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept138"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:44+00:00",
+      "narrower": [
+        "concept11253",
+        "concept13829",
+        "concept5035"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مركبات عضوية"
+        ],
+        "en": [
+          "Organic compounds"
+        ],
+        "es": [
+          "Compuesto orgánico"
+        ],
+        "fr": [
+          "Composé organique"
+        ],
+        "ru": [
+          "Органические соединения"
+        ]
+      },
+      "related": [
+        "concept1725",
+        "concept218",
+        "concept3945",
+        "concept3946",
+        "concept3947",
+        "concept3949",
+        "concept636"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3957",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3957",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept140"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخمر"
+        ],
+        "en": [
+          "Fermentation"
+        ],
+        "es": [
+          "Fermentación"
+        ],
+        "fr": [
+          "Fermentation"
+        ],
+        "ru": [
+          "Ферментация"
+        ]
+      },
+      "related": [
+        "concept619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4097",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4097",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept139"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كربون"
+        ],
+        "en": [
+          "Carbon"
+        ],
+        "es": [
+          "Carbono"
+        ],
+        "fr": [
+          "Carbone"
+        ],
+        "ru": [
+          "Углерод"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4645",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4645",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept146"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ثاني اكسيد الكربون"
+        ],
+        "en": [
+          "Carbon dioxide"
+        ],
+        "es": [
+          "Dióxido de carbono"
+        ],
+        "fr": [
+          "Dioxyde de carbone"
+        ],
+        "ru": [
+          "Диоксид углерода"
+        ]
+      },
+      "related": [
+        "concept208",
+        "concept4528",
+        "concept4652"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4650",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4650",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Compuesto mineral"
+        ],
+        "fr": [
+          "Composé minéral"
+        ]
+      },
+      "broader": [
+        "concept138"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:10+00:00",
+      "narrower": [
+        "concept11001"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مركبات غير عضوية"
+        ],
+        "en": [
+          "Inorganic compounds"
+        ],
+        "es": [
+          "Compuesto inorgánico"
+        ],
+        "fr": [
+          "Composé inorganique"
+        ],
+        "ru": [
+          "Неорганические соединения"
+        ]
+      },
+      "related": [
+        "concept189",
+        "concept4650",
+        "concept5037",
+        "concept5419",
+        "concept5692",
+        "concept636"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4652",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4652",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept147"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تأثيرات كيميائية"
+        ],
+        "en": [
+          "Chemical effects"
+        ],
+        "es": [
+          "Efectos químicos"
+        ],
+        "fr": [
+          "Effet chimique"
+        ],
+        "ru": [
+          "Результаты химического воздействия"
+        ]
+      },
+      "related": [
+        "concept143"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4983",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4983",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept139"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:57+00:00",
+      "narrower": [
+        "concept12962"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظائر"
+        ],
+        "en": [
+          "Isotopes"
+        ],
+        "es": [
+          "Isótopo"
+        ],
+        "fr": [
+          "Isotope"
+        ],
+        "ru": [
+          "Изотопы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4986",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4986",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept139"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فوسفور"
+        ],
+        "en": [
+          "Phosphorus"
+        ],
+        "es": [
+          "Fósforo"
+        ],
+        "fr": [
+          "Phosphore"
+        ],
+        "ru": [
+          "Фосфор"
+        ]
+      },
+      "related": [
+        "concept5692",
+        "concept640"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4987",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4987",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept146"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هيدروجين"
+        ],
+        "en": [
+          "Hydrogen"
+        ],
+        "es": [
+          "Hidrógeno"
+        ],
+        "fr": [
+          "Hydrogène"
+        ],
+        "ru": [
+          "Водород"
+        ]
+      },
+      "related": [
+        "concept139"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4989",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4989",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اوكسجين"
+        ]
+      },
+      "broader": [
+        "concept146"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T14:36:23+00:00",
+      "narrower": [
+        "concept1952"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اكسجين"
+        ],
+        "en": [
+          "Oxygen"
+        ],
+        "es": [
+          "Oxígeno"
+        ],
+        "fr": [
+          "Oxygène"
+        ],
+        "ru": [
+          "Кислород"
+        ]
+      },
+      "related": [
+        "concept139"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4990",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4990",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept147"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حركيات كيميائية"
+        ],
+        "en": [
+          "Chemical kinetics"
+        ],
+        "es": [
+          "Cinética química"
+        ],
+        "fr": [
+          "Cinétique chimique"
+        ],
+        "ru": [
+          "Химическая кинетика"
+        ]
+      },
+      "related": [
+        "concept143"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4997",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4997",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept140"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احتراق"
+        ],
+        "en": [
+          "Combustion"
+        ],
+        "es": [
+          "Combustión"
+        ],
+        "fr": [
+          "Combustion"
+        ],
+        "ru": [
+          "Горение"
+        ]
+      },
+      "related": [
+        "concept1166",
+        "concept630"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5009",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5009",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept140"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تآكل"
+        ],
+        "en": [
+          "Corrosion"
+        ],
+        "es": [
+          "Corrosión"
+        ],
+        "fr": [
+          "Corrosion"
+        ],
+        "ru": [
+          "Коррозия"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5010",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5010",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بلاستيك",
+          "راتينجات اصطناعية",
+          "لدائن",
+          "منتجات بلاستيكية"
+        ],
+        "en": [
+          "Plastic products",
+          "Synthetic resins"
+        ],
+        "es": [
+          "Material plástico",
+          "Resina sintética"
+        ],
+        "fr": [
+          "Matériau plastique",
+          "Plastique",
+          "Résine synthétique"
+        ],
+        "ru": [
+          "Изделия из пластмасс",
+          "Синтетические смолы"
+        ]
+      },
+      "broader": [
+        "concept5035"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مواد بلاستيكية"
+        ],
+        "en": [
+          "Plastics"
+        ],
+        "es": [
+          "Plásticos"
+        ],
+        "fr": [
+          "Matière plastique"
+        ],
+        "ru": [
+          "Пластмассы"
+        ]
+      },
+      "related": [
+        "concept13838",
+        "concept5984",
+        "concept636"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5034",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5034",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "راتينجات"
+        ],
+        "en": [
+          "Resins"
+        ],
+        "es": [
+          "Resina"
+        ],
+        "fr": [
+          "Résine"
+        ],
+        "ru": [
+          "Смолы"
+        ]
+      },
+      "broader": [
+        "concept3957"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-22T15:25:34+00:00",
+      "narrower": [
+        "concept5034"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بوليمرات"
+        ],
+        "en": [
+          "Polymers"
+        ],
+        "es": [
+          "Polímero"
+        ],
+        "fr": [
+          "Polymère"
+        ],
+        "ru": [
+          "Полимеры"
+        ]
+      },
+      "related": [
+        "concept636"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5035",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5035",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كيمياء غير عضوية"
+        ],
+        "es": [
+          "Química mineral"
+        ],
+        "fr": [
+          "Chimie inorganique"
+        ]
+      },
+      "broader": [
+        "concept143"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء لاعضوية"
+        ],
+        "en": [
+          "Inorganic chemistry"
+        ],
+        "es": [
+          "Química inorgánica"
+        ],
+        "fr": [
+          "Chimie minérale"
+        ],
+        "ru": [
+          "Неорганическая химия"
+        ]
+      },
+      "related": [
+        "concept4652"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5037",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5037",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كيمياء الكترونية"
+        ]
+      },
+      "broader": [
+        "concept147"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء كهربائية"
+        ],
+        "en": [
+          "Electrochemistry"
+        ],
+        "es": [
+          "Electroquímica"
+        ],
+        "fr": [
+          "Électrochimie"
+        ],
+        "ru": [
+          "Электрохимия"
+        ]
+      },
+      "related": [
+        "concept124"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9528",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9528",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept144"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T14:36:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الكترونات"
+        ],
+        "en": [
+          "Electrons"
+        ],
+        "es": [
+          "Electrón"
+        ],
+        "fr": [
+          "Électron"
+        ],
+        "ru": [
+          "Электроны"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9543",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9543",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept147"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تركيب جزيئي"
+        ],
+        "en": [
+          "Molecular structure"
+        ],
+        "es": [
+          "Estructura molecular"
+        ],
+        "fr": [
+          "Structure moléculaire"
+        ],
+        "ru": [
+          "Молекулярная структура"
+        ]
+      },
+      "related": [
+        "concept127",
+        "concept226"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10312",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10312",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كيمياء مجهرية"
+        ]
+      },
+      "broader": [
+        "concept145"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء دقيقة"
+        ],
+        "en": [
+          "Microchemistry"
+        ],
+        "es": [
+          "Microquímica"
+        ],
+        "fr": [
+          "Microchimie"
+        ],
+        "ru": [
+          "Микрохимия"
+        ]
+      },
+      "related": [
+        "concept6903"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10596",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10596",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Cloruro sódico"
+        ],
+        "fr": [
+          "Chlorure de sodium"
+        ]
+      },
+      "broader": [
+        "concept4652"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ملح"
+        ],
+        "en": [
+          "Salt"
+        ],
+        "es": [
+          "Sal"
+        ],
+        "fr": [
+          "Sel"
+        ],
+        "ru": [
+          "Соль"
+        ]
+      },
+      "related": [
+        "concept1812"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11001",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11001",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept147"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء ضوئية"
+        ],
+        "en": [
+          "Photochemistry"
+        ],
+        "es": [
+          "Fotoquímica"
+        ],
+        "fr": [
+          "Photochimie"
+        ],
+        "ru": [
+          "Фотохимия"
+        ]
+      },
+      "related": [
+        "concept11172",
+        "concept129"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11170",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11170",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Carbure d'hydrogène"
+        ]
+      },
+      "broader": [
+        "concept3957"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هيدروكربونات"
+        ],
+        "en": [
+          "Hydrocarbons"
+        ],
+        "es": [
+          "Hidrocarburo"
+        ],
+        "fr": [
+          "Hydrocarbure"
+        ],
+        "ru": [
+          "Углеводороды"
+        ]
+      },
+      "related": [
+        "concept208",
+        "concept5031",
+        "concept638"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11253",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11253",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept147"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء حرارية"
+        ],
+        "en": [
+          "Thermochemistry"
+        ],
+        "es": [
+          "Termoquímica"
+        ],
+        "fr": [
+          "Thermochimie"
+        ],
+        "ru": [
+          "Термохимия"
+        ]
+      },
+      "related": [
+        "concept134",
+        "concept6566"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11790",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11790",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Isótopo radiactivo",
+          "Isótopo radioactivo"
+        ],
+        "fr": [
+          "Isotope radioactif"
+        ]
+      },
+      "broader": [
+        "concept4986"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:34:43+00:00",
+      "narrower": [
+        "concept15789"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظائر مُشعة"
+        ],
+        "en": [
+          "Radioisotopes"
+        ],
+        "es": [
+          "Radioisótopo"
+        ],
+        "fr": [
+          "Radioisotope"
+        ],
+        "ru": [
+          "Радиоизотопы"
+        ]
+      },
+      "related": [
+        "concept15154",
+        "concept242",
+        "concept6687"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12962",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12962",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept147"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء مغناطيسية"
+        ],
+        "en": [
+          "Magnetochemistry"
+        ],
+        "es": [
+          "Magnetoquímica"
+        ],
+        "fr": [
+          "Magnétochimie"
+        ],
+        "ru": [
+          "Магнитохимия"
+        ]
+      },
+      "related": [
+        "concept125"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13626",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13626",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3957"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:33:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مادة عضوية"
+        ],
+        "en": [
+          "Organic matter"
+        ],
+        "es": [
+          "Materia orgánica"
+        ],
+        "fr": [
+          "Matière organique"
+        ],
+        "ru": [
+          "Органическая материя"
+        ]
+      },
+      "related": [
+        "concept1725"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13829",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13829",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كيمياء نووية"
+        ],
+        "en": [
+          "Nuclear chemistry"
+        ],
+        "es": [
+          "Química nuclear"
+        ],
+        "fr": [
+          "Chimie des radiations",
+          "Chimie nucléaire",
+          "Chimie sous rayonnement"
+        ],
+        "ru": [
+          "Ядерная химия"
+        ]
+      },
+      "broader": [
+        "concept147"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T13:35:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء اشعاعية"
+        ],
+        "en": [
+          "Radiochemistry"
+        ],
+        "es": [
+          "Radioquímica"
+        ],
+        "fr": [
+          "Radiochimie"
+        ],
+        "ru": [
+          "Радиохимия"
+        ]
+      },
+      "related": [
+        "concept1237",
+        "concept12962",
+        "concept15789",
+        "concept4042",
+        "concept6687"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15154",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15154",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اﺳﺎﻟﻴﺐ ﺗﺘﺒّﻊ الاثار الشعاعية"
+        ]
+      },
+      "broader": [
+        "concept12962"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.25"
+      ],
+      "modified": "2019-12-15T14:37:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقتفيات مشعة"
+        ],
+        "en": [
+          "Radioactive tracers"
+        ],
+        "es": [
+          "Trazador radiactivo"
+        ],
+        "fr": [
+          "Traceur radioactif"
+        ],
+        "ru": [
+          "Радиоактивные трейсеры"
+        ]
+      },
+      "related": [
+        "concept15154",
+        "concept4042",
+        "concept6687",
+        "concept6904"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15789",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15789",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt2.25",
+    "labels": {
+      "en": "Chemical sciences",
+      "fr": "Sciences de la chimie"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt2.25"
+  }
+}

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spek-semantic-publishing"
+version = "0.5.0"
+description = "Spek: offline, traceable multilingual publishing from typed semantic units"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["reportlab>=4.0,<5"]
+keywords = ["semantic publishing", "multilingual", "scientific communication", "kristal"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Text Processing :: Markup",
+]
+
+[project.optional-dependencies]
+test = ["pypdf>=5,<7"]
+
+[project.scripts]
+spek = "spek.cli:main"
+
+[tool.setuptools]
+packages = ["spek"]

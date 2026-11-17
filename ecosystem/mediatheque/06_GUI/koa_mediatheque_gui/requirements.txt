@@ -1,0 +1,14 @@
+# Médiathèque kOA — Streamlit GUI runtime requirements
+#
+# GUI entrypoint:
+# 06_GUI/koa_mediatheque_gui/app.py
+#
+# Root development dependencies are listed in:
+# requirements.txt
+
+streamlit>=1.35,<2.0
+pandas>=2.2,<3.0
+openpyxl>=3.1,<4.0
+python-dotenv>=1.0,<2.0
+jsonschema>=4.20,<5
+tomli>=2.0,<3.0; python_version < "3.11"

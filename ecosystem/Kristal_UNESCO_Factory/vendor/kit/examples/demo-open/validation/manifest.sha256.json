@@ -1,0 +1,222 @@
+{
+  "format": "kristal.local-hash-manifest/3.2.0",
+  "algorithm": "sha256",
+  "workspace_format": "kristal.local-workspace/3.2.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "ba9e766905d86932af10e20f99bdafe6b4a37eab2b45a1d91e011bc12985858f",
+      "size": 99
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "211615e096aa531e0f933cd6562802dffa48fa4227ba3211b734f49fbafff406",
+      "size": 1416
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "sha256": "424ea741f59eb6dc475e187795f15760d2f1e9f20e60c7cfd882b9624db6bde3",
+      "size": 1410
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "sha256": "76cbb2c9564fc4098754faffcfe21923389a2de5839faf907edfd691d78257ca",
+      "size": 2049
+    },
+    {
+      "path": "README.md",
+      "sha256": "293b7a037c403164940f34324d9a1f1e23fe55564c0184cfe6c7abaa30219999",
+      "size": 755
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "sha256": "4c09388fa492334b3655f568a5bb8abcbe099f38daae35e2841ba71bda5419ef",
+      "size": 2459
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "sha256": "7c9143e96d026b790997956306dab4e8a213d3d9d6a1cf49a4320b988daa162e",
+      "size": 792
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "sha256": "1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01",
+      "size": 218
+    },
+    {
+      "path": "ai/INDEX.json",
+      "sha256": "c62f06ec5dbd6099210c56fdc122ceaf21dca5c167d637a30a6d0be62bbc0881",
+      "size": 3857
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "sha256": "30d75d8ffddfa2e50b886e87e6d6f248fab0b5c40ac91c7a4d0b3b06da6bf2f4",
+      "size": 589
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "sha256": "57cbfd6e491df716d8939ec79f5900aec72f0632d4295cdb72b8980a0a16d70c",
+      "size": 334
+    },
+    {
+      "path": "build/v9/build-receipt.json",
+      "sha256": "60ca9978eb1434841d9c9b1297052a50bba57d03982c725757e757357aad34d8",
+      "size": 535
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "sha256": "dcc5040020fd63e8a9ab708ed6f2d0d8af8d3663c0a057c917014ba760cedbf2",
+      "size": 351
+    },
+    {
+      "path": "build/v9/v9-capabilities.json",
+      "sha256": "d09265189501362933039efd79bd003a53669caf3019ce33f63bc281b5b31016",
+      "size": 872
+    },
+    {
+      "path": "canon/domain/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "canon/epistemic/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "canon/operations/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "canon/state.index.json",
+      "sha256": "28a1ce910aa079e50199b467487fac9af0584ad43360200f5a4666d2481e1c08",
+      "size": 275
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "sha256": "219e9e3e1b4bf142d4ccc0f5c55c6808e678107def8d75426ba2ef8d2da6bf13",
+      "size": 128
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "sha256": "e64f8d02ed78ec658d24e28f5b3350e1f9019cb3a76435db87c7f3e268af52cc",
+      "size": 311
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "sha256": "d537d1aed326bca7a4b76651eecdb3ab983cdeaf9bd49ccbae1404bd96257b1b",
+      "size": 382
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "sha256": "6418e38b6e54893d2a03bf702f754b192f48679ad89853b405e1b325260a53b7",
+      "size": 356
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "sha256": "9ca1154b18ae0980a96e562cedbef1ce85a2912940cf52819dd0fd402e1b1345",
+      "size": 311
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "sha256": "4ef452034359517fbbc8038117817fc8695d5c3effc12544e8b7437ac6323b77",
+      "size": 287
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "sha256": "df5dadb0965856b592ed1b614e29d06feaa8f5abfe6013a296727cc449eadc34",
+      "size": 438
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "sha256": "ae4e01c7a5ecdb94b4603452bdc78973771b000addd3ed83ebf2082db1d5022b",
+      "size": 795
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "sha256": "1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01",
+      "size": 218
+    },
+    {
+      "path": "docs/PROFILE_NOTES.md",
+      "sha256": "5f62161b993e08b75068058c91f55fb7e105775d86fcf52e38fdd2f6be7d7d44",
+      "size": 180
+    },
+    {
+      "path": "kristal.workspace.json",
+      "sha256": "9962f98408d4a069a8717d80295cd33d96610b4b26f0012719503a72be68839c",
+      "size": 1645
+    },
+    {
+      "path": "projections/recipes/main-view.projection.json",
+      "sha256": "b3624792ae4f0ce977e4db60088ac0a3406607a5bf18e9e579ddda767e231b22",
+      "size": 558
+    },
+    {
+      "path": "runtime/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "sha256": "2635dc4082c6986521cbdcd201b892532af8a34dc333979dd747afe03d2cd455",
+      "size": 199
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "sha256": "dcc5040020fd63e8a9ab708ed6f2d0d8af8d3663c0a057c917014ba760cedbf2",
+      "size": 351
+    },
+    {
+      "path": "tools/_templates/AGENTS.kristal.md",
+      "sha256": "211615e096aa531e0f933cd6562802dffa48fa4227ba3211b734f49fbafff406",
+      "size": 1416
+    },
+    {
+      "path": "tools/_templates/AI_START_HERE.md",
+      "sha256": "76cbb2c9564fc4098754faffcfe21923389a2de5839faf907edfd691d78257ca",
+      "size": 2049
+    },
+    {
+      "path": "tools/_templates/github-hosting.json",
+      "sha256": "774e87548a6917b1b25e7c610d727d19af4df081897a816a02744ff5eaf021c9",
+      "size": 378
+    },
+    {
+      "path": "tools/_templates/gitignore-kristal.txt",
+      "sha256": "ba9e766905d86932af10e20f99bdafe6b4a37eab2b45a1d91e011bc12985858f",
+      "size": 99
+    },
+    {
+      "path": "tools/_templates/projection.json",
+      "sha256": "9a93c6e5ae26d5d989458a3c7dd43fbe3b5d878a23a6db61d9cc82594d068eb2",
+      "size": 565
+    },
+    {
+      "path": "tools/_templates/readme-kristal.md",
+      "sha256": "ad2c1b129935b60f805c233e2d9e71cf88e7bf7835a15150ea9fe3dfdfa9571c",
+      "size": 739
+    },
+    {
+      "path": "tools/_templates/source-catalog.json",
+      "sha256": "4e11d46142630914cfd1fb447c6b065d9143d24d179a18edc1162f3063edfce9",
+      "size": 64
+    },
+    {
+      "path": "tools/_templates/state.index.json",
+      "sha256": "28a1ce910aa079e50199b467487fac9af0584ad43360200f5a4666d2481e1c08",
+      "size": 275
+    },
+    {
+      "path": "tools/_templates/workspace.json",
+      "sha256": "dc8adac64f8ce97e966b3e2947112b6efdfc8da332917b73f3f3251f84863b2e",
+      "size": 1656
+    },
+    {
+      "path": "tools/kristal.py",
+      "sha256": "643530473a3d119449e4fc66d6ce9b3ce66af2bca0a1d8a2ad5a12504074d30b",
+      "size": 94616
+    }
+  ]
+}

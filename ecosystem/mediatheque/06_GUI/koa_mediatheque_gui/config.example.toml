@@ -1,0 +1,82 @@
+# Médiathèque kOA — GUI configuration example
+#
+# Copy this file to config.local.toml for local overrides.
+# Do not commit config.local.toml.
+#
+# Runtime data belongs to a sibling instance; this example binds mediatheque-privee.
+
+[app]
+public_name = "Médiathèque kOA"
+short_name = "kOA"
+technical_name = "koa-mediatheque"
+component = "koa_mediatheque"
+primary_language = "fr"
+
+[paths]
+koa_root = "."
+content_root = "../mediatheque-privee"
+db_path = "../mediatheque-privee/01_DB/koa_mediatheque.sqlite"
+storage_root = "../mediatheque-privee/02_STORAGE"
+imports_root = "../mediatheque-privee/03_IMPORTS"
+exports_root = "../mediatheque-privee/04_EXPORTS"
+backups_root = "../mediatheque-privee/07_BACKUPS"
+logs_root = "../mediatheque-privee/08_LOGS"
+docs_root = "docs"
+tools_root = "05_TOOLS"
+gui_root = "06_GUI/koa_mediatheque_gui"
+
+[storage]
+default_filearea = "media_original"
+
+# Allowed values:
+# reference_only
+# copy_to_storage
+# copy_and_rename
+default_copy_mode = "reference_only"
+
+[chatgpt_intake]
+template_path = "06_GUI/koa_mediatheque_gui/koa_mediatheque/templates/chatgpt_template_current.txt"
+default_import_batch_prefix = "chatgpt"
+allow_human_verified_override = false
+
+[validation]
+canonical_validation_default = "unverified"
+ai_validation_default = "ai_uncertain"
+require_human_review_for_unknown_rights = true
+require_human_review_for_unknown_source = true
+block_public_export_for_non_public = true
+block_uckk_export_for_not_uckk = true
+
+[xlsx]
+export_dir = "../mediatheque-privee/04_EXPORTS/xlsx"
+default_filename_prefix = "koa_library"
+create_backup_before_import = true
+library_sheet_name = "Library"
+lists_sheet_name = "Lists"
+import_report_sheet_name = "Import_Report"
+
+[manifest]
+export_dir = "../mediatheque-privee/04_EXPORTS/manifests"
+filename = "manifest.json"
+default_export_actor = "local_user"
+
+[logs]
+level = "INFO"
+file = "../mediatheque-privee/08_LOGS/koa_mediatheque.log"
+
+[gui]
+page_title = "Médiathèque kOA"
+page_icon = "📚"
+layout = "wide"
+initial_sidebar_state = "expanded"
+
+[gui.labels]
+copy_chatgpt_template = "Copier template ChatGPT"
+paste_chatgpt_response = "Coller réponse ChatGPT"
+validate_json = "Valider JSON"
+preview_entry = "Prévisualiser entrée"
+validate_and_integrate = "Valider et intégrer"
+
+[development]
+dev_mode = true
+debug_sql = false

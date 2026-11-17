@@ -1,0 +1,24 @@
+{
+  "environment": "Linux container, Python stdlib",
+  "authoring_kit": {
+    "status": "PASSED",
+    "validator": "bundled kristal_v11_core.validate",
+    "registered_files_checked": true,
+    "direct_lexical_coverage_en": true
+  },
+  "kristalizer": {
+    "status": "PASSED",
+    "version": "1.2.2 snapshot",
+    "index_connected": false,
+    "candidate_count": 36,
+    "migration_required": 0,
+    "snapshot_sha256": "2d11a1e04fdc7410ad932387d1eba76889cebf8f51c506a993fab2cbdcca49b5"
+  },
+  "limits": [
+    "No approved identity or source review",
+    "No canonical KA/KS scientific claims",
+    "No Skope/MaxWD run",
+    "No Windows execution",
+    "No release"
+  ]
+}

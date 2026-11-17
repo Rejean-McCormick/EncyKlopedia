@@ -1,0 +1,21 @@
+# Runtime and local diagnostics
+.levelupdiag/
+
+# Python environments/caches and generated test output
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.pytest-tmp/
+.mypy_cache/
+.ruff_cache/
+*.pyc
+*.pyo
+.coverage
+.coverage.*
+htmlcov/
+
+# Local/generated output that may remain versioned
+*.log
+*.tmp
+*.temp

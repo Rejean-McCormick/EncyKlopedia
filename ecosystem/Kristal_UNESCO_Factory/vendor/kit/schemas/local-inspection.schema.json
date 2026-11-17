@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kristal:local-inspection:1.0",
+  "title": "Kristal Local Inspection 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "kit_version",
+    "workspace",
+    "state",
+    "state_candidates",
+    "portable_ai",
+    "interop"
+  ],
+  "properties": {
+    "format": {
+      "const": "kristal.local-inspection/1.0"
+    },
+    "kit_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "workspace": {
+      "type": "object",
+      "required": [
+        "root",
+        "slug"
+      ],
+      "additionalProperties": true
+    },
+    "state": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "state_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "portable_ai": {
+      "type": "object",
+      "required": [
+        "enabled"
+      ],
+      "additionalProperties": true
+    },
+    "interop": {
+      "type": "object",
+      "required": [
+        "suggested_collection_state_path",
+        "suggested_channel_suffix"
+      ],
+      "additionalProperties": true
+    },
+    "github_read_surface": {
+      "type": "object",
+      "required": [
+        "format",
+        "target_root",
+        "entrypoint",
+        "ready",
+        "surface_digest",
+        "file_count",
+        "files"
+      ],
+      "additionalProperties": true
+    }
+  }
+}

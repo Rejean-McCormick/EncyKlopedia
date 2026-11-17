@@ -1,0 +1,66 @@
+{
+  "article_id": "urn:example:spek:fictional-school-garden",
+  "files": {
+    "en/article.pdf": "b345c3c38b9234f5fd02045d3834671e16d4a9ee21f3488afa2091494e41e229",
+    "en/article.tex": "527ceb75722fb7f042101b6eac8d2db90c0e131e8d9d3febe1f8bf98bfb9f17f",
+    "en/document.json": "cdabd948521851827860042969df8f416e6236cf7276b31cadaaecaaa6afd241",
+    "en/index.html": "9f7ef1c4afdfe75326f4bf7d84787558a254802f2fb747b907ae512a0198a5a6",
+    "fr/article.pdf": "d2e48be2384706d19b49c414175341fd545e1a8729c504e820e8efb3b710bd24",
+    "fr/article.tex": "c8fd4fda0969cf61c46786e4e71c6a82f0b8d1fcd34247e7ebe61d95686e5132",
+    "fr/document.json": "af80b6a1ef530141b4c380d41def21497ddf5a35ffca1115779fa7d4dfc013c7",
+    "fr/index.html": "1947548a3851c505593f6924e7c6044c5f9bfb644eadf673a2784c73d15452ef",
+    "index.html": "6adeb92f4f4d179a61edbbd597ab2ec767f54b3ac3f5fbc59ba833c144e3d806",
+    "it/article.pdf": "78f9695ab4824ce05f4c06a7fb4f1f9315518ca2ee1927b4a516774df9737d50",
+    "it/article.tex": "f9ead09ecfc6c379775a15c5f85922732b3697fe28b148a49aadd190e9537ed1",
+    "it/document.json": "6046d0a8f1e1aee44fe605a8860515aafb367a1d078a363a1ab944d011716e20",
+    "it/index.html": "ae4b73a0e00615cb23ef95f9652d03d482f87dde91e73ce50a7771f46aa11672"
+  },
+  "format": "kristal.layout-build-manifest/0.1",
+  "languages": [
+    "fr",
+    "en",
+    "it"
+  ],
+  "layouts": [
+    {
+      "id": "argument-map",
+      "version": "1.0.0"
+    },
+    {
+      "id": "chronology",
+      "version": "1.0.0"
+    },
+    {
+      "id": "comparison",
+      "version": "1.0.0"
+    },
+    {
+      "id": "concept-card",
+      "version": "1.0.0"
+    },
+    {
+      "id": "evidence-comparison",
+      "version": "1.0.0"
+    },
+    {
+      "id": "learning-path",
+      "version": "1.0.0"
+    },
+    {
+      "id": "observation-inference",
+      "version": "1.0.0"
+    },
+    {
+      "id": "result-card",
+      "version": "1.0.0"
+    }
+  ],
+  "layouts_sha256": "sha256:77c5d1a2639afe1a346253f5ddc5f5723f6e2a25931f714bb7cdcd647b9319eb",
+  "mode": "demonstration",
+  "publication_authorization": "not_granted_by_compiler",
+  "realizations_sha256": "sha256:66d51bb1481cd296e2e8ada225ebfc6602b654a935a4b4c3ce8b3129fd776188",
+  "semantic_certification": "not_evaluated",
+  "source_identity_reference_checked": false,
+  "source_sha256": "sha256:8cd72bce589ac690fb6ccfd25f82258a8f29a51e53194c92f35cc6e6fffbcbbb",
+  "status": "built_not_published_not_activated"
+}

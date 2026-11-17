@@ -1,0 +1,101 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.pdtb-purpose",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Acte et objectif",
+  "research_basis": {
+    "family": "discourse",
+    "relation": "pdtb.contingency.purpose",
+    "source": "PDTB",
+    "source_url": "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "pdtb.contingency.purpose",
+    "editorial_relation_required": true,
+    "semantic_warning": "But explicite, non inféré du résultat.",
+    "critical_questions": []
+  },
+  "slots": {
+    "action": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "process"
+      ],
+      "visual_role": "paragraph"
+    },
+    "goal": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "objective"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "action",
+    "goal"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": []
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "pdtb.contingency.purpose",
+    "focus_slot": "action",
+    "moves": [
+      {
+        "slot": "action",
+        "function": "action",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "goal",
+        "function": "goal",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "goal",
+        "to_slot": "action",
+        "relation": "pdtb.contingency.purpose",
+        "status": "requires_external_semantic_review",
+        "relation_function": "motivates"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "action",
+        "goal"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "But explicite, non inféré du résultat."
+    }
+  }
+}

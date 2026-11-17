@@ -1,0 +1,29 @@
+{
+  "schema_version": "11.0",
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "test-catalog",
+  "namespace_id": "test:project",
+  "languages": [
+    {
+      "tag": "fr",
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-fr",
+          "priority": 100,
+          "path": "wikidata-fr.jsonl",
+          "sha256": "eb0725841c628bbc3d2098756cb87ce4d03979cb23d199fce21f4c7a1c3f08f0",
+          "source_snapshot": "2026-demo"
+        }
+      ]
+    },
+    {
+      "tag": "fr-CA",
+      "fallbacks": [
+        "fr"
+      ],
+      "layers": []
+    }
+  ]
+}

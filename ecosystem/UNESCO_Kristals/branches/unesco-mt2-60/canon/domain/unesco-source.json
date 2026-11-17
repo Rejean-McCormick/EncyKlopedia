@@ -1,0 +1,3461 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "بضائع خطرة",
+          "سلع خطرة",
+          "سموم",
+          "متفجرات",
+          "مفرقعات",
+          "مواد تكسينية",
+          "مواد سامة",
+          "مواد ضارة",
+          "مواد مؤذية"
+        ],
+        "en": [
+          "Dangerous goods",
+          "Explosives",
+          "Harmful substances",
+          "Hazardous materials",
+          "Poisons",
+          "Toxic substances"
+        ],
+        "es": [
+          "Explosivo",
+          "Material peligroso",
+          "Producto peligroso",
+          "Sustancia nociva",
+          "Sustancia tóxica",
+          "Veneno"
+        ],
+        "fr": [
+          "Explosif",
+          "Matière dangereuse",
+          "Poison",
+          "Produit dangereux",
+          "Substance nocive",
+          "Substance toxique"
+        ],
+        "ru": [
+          "Взрывчатые вещества",
+          "Вредные вещества",
+          "Вредные материалы",
+          "Опасные товары",
+          "Токсичные вещества",
+          "Яды"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مواد خطرة"
+        ],
+        "en": [
+          "Dangerous materials"
+        ],
+        "es": [
+          "Sustancia peligrosa"
+        ],
+        "fr": [
+          "Substance dangereuse"
+        ],
+        "ru": [
+          "Опасные материалы"
+        ]
+      },
+      "related": [
+        "concept1161",
+        "concept208",
+        "concept253",
+        "concept4043",
+        "concept636",
+        "concept7376",
+        "concept7377",
+        "concept7378"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept204",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept204",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعانة الطوارئ",
+          "اغاثة الطوارئ",
+          "اغاثة المنكوبين",
+          "اغاثة في حالات الطوارئ",
+          "اغاثة منكوبي الكوارث"
+        ],
+        "en": [
+          "Emergency relief"
+        ],
+        "es": [
+          "Asistencia de urgencia",
+          "Auxilio en desastres",
+          "Ayuda de urgencia",
+          "Socorro de urgencia"
+        ],
+        "fr": [
+          "Aide d'urgence",
+          "Secours aux sinistrés",
+          "Secours d'urgence"
+        ],
+        "ru": [
+          "Помощь при чрезвычайных ситуациях"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:45:42+00:00",
+      "narrower": [
+        "concept17139"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اغاثة في حالات الكوارث"
+        ],
+        "en": [
+          "Disaster relief"
+        ],
+        "es": [
+          "Asistencia por desastre"
+        ],
+        "fr": [
+          "Secours en cas de catastrophe"
+        ],
+        "ru": [
+          "Помощь при бедствиях"
+        ]
+      },
+      "related": [
+        "concept1167",
+        "concept206",
+        "concept3168",
+        "concept416",
+        "concept8148",
+        "concept8149"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept205",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept205",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Calamidad",
+          "Cataclismo",
+          "Catástrofe",
+          "Siniestro"
+        ],
+        "fr": [
+          "Calamité",
+          "Désastre",
+          "Fléau",
+          "Sinistre"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2020-08-14T11:51:02+00:00",
+      "narrower": [
+        "concept1161",
+        "concept1167",
+        "concept4770",
+        "concept4772",
+        "concept8151"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كوارث"
+        ],
+        "en": [
+          "Disasters"
+        ],
+        "es": [
+          "Desastre"
+        ],
+        "fr": [
+          "Catastrophe"
+        ],
+        "ru": [
+          "Бедствия"
+        ]
+      },
+      "related": [
+        "concept17049",
+        "concept17111",
+        "concept205",
+        "concept409",
+        "concept8139",
+        "concept8152",
+        "concept8153"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept206",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept206",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انحدار بيئي",
+          "تدهور البيئة",
+          "تغيرات البيئة"
+        ],
+        "en": [
+          "Environmental changes",
+          "Environmental deterioration"
+        ],
+        "es": [
+          "Daños medioambientales",
+          "Desgaste medioambiental",
+          "Deterioro del entorno"
+        ],
+        "fr": [
+          "Détérioration de l'environnement",
+          "Modification de l'environnement"
+        ],
+        "ru": [
+          "Изменения в окружающей среде",
+          "Разрушение окружающей среды"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2022-12-16T16:42:21+00:00",
+      "narrower": [
+        "concept4008",
+        "concept4559",
+        "concept6445",
+        "concept7560"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدهور بيئي"
+        ],
+        "en": [
+          "Environmental degradation"
+        ],
+        "es": [
+          "Deterioro ambiental"
+        ],
+        "fr": [
+          "Dégradation de l'environnement"
+        ],
+        "ru": [
+          "Экологическая деградация"
+        ]
+      },
+      "related": [
+        "concept10018",
+        "concept16999",
+        "concept17155",
+        "concept1778",
+        "concept3278",
+        "concept4533",
+        "concept6317"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept207",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept207",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مواد ملوثة"
+        ],
+        "en": [
+          "Contaminants"
+        ],
+        "es": [
+          "Agente contaminante",
+          "Factor contaminante",
+          "Materia contaminante",
+          "Material contaminante",
+          "Sustancia contaminante"
+        ],
+        "fr": [
+          "Agent polluant",
+          "Facteur polluant",
+          "Matière polluante",
+          "Substance polluante"
+        ],
+        "ru": [
+          "Загрязняющие вещества"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:53+00:00",
+      "narrower": [
+        "concept4056"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ملوثات"
+        ],
+        "en": [
+          "Pollutants"
+        ],
+        "es": [
+          "Contaminante"
+        ],
+        "fr": [
+          "Polluant"
+        ],
+        "ru": [
+          "Загрязнители"
+        ]
+      },
+      "related": [
+        "concept11252",
+        "concept11253",
+        "concept12085",
+        "concept1215",
+        "concept1723",
+        "concept1726",
+        "concept1882",
+        "concept1950",
+        "concept204",
+        "concept253",
+        "concept4650",
+        "concept636"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept208",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept208",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "امان",
+          "هندسة السلامة",
+          "هندسة وقائية"
+        ],
+        "en": [
+          "Safety engineering"
+        ],
+        "es": [
+          "Ingeniería de seguridad"
+        ],
+        "fr": [
+          "Ingénierie de la sécurité"
+        ],
+        "ru": [
+          "Технические средства безопасности"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:40+00:00",
+      "narrower": [
+        "concept1170",
+        "concept1171",
+        "concept8139"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سلامة"
+        ],
+        "en": [
+          "Safety"
+        ],
+        "es": [
+          "Seguridad"
+        ],
+        "fr": [
+          "Sécurité"
+        ],
+        "ru": [
+          "Безопасность"
+        ]
+      },
+      "related": [
+        "concept1161",
+        "concept196"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept209",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept209",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept206"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:30+00:00",
+      "narrower": [
+        "concept1166"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حوادث"
+        ],
+        "en": [
+          "Accidents"
+        ],
+        "es": [
+          "Accidente"
+        ],
+        "fr": [
+          "Accident"
+        ],
+        "ru": [
+          "Аварии"
+        ]
+      },
+      "related": [
+        "concept1167",
+        "concept1168",
+        "concept1169",
+        "concept1170",
+        "concept1171",
+        "concept204",
+        "concept209",
+        "concept653"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1161",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1161",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تفادي الحوادث",
+          "تلافي الحوادث",
+          "منع وقوع الحوادث",
+          "وقاية من الحوادث"
+        ]
+      },
+      "broader": [
+        "concept1170"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منع الحوادث"
+        ],
+        "en": [
+          "Accident prevention"
+        ],
+        "es": [
+          "Prevención de accidentes"
+        ],
+        "fr": [
+          "Prévention des accidents"
+        ],
+        "ru": [
+          "Предотвращение аварий"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1162",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1162",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نيران"
+        ],
+        "fr": [
+          "Incendie"
+        ]
+      },
+      "broader": [
+        "concept1161"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:43:55+00:00",
+      "narrower": [
+        "concept10905"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حرائق"
+        ],
+        "en": [
+          "Fires"
+        ],
+        "es": [
+          "Incendio"
+        ],
+        "fr": [
+          "Feu"
+        ],
+        "ru": [
+          "Пожары"
+        ]
+      },
+      "related": [
+        "concept1169",
+        "concept4404",
+        "concept5009"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1166",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1166",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اذى",
+          "اضرار",
+          "تلف",
+          "خسارة",
+          "عطب",
+          "عطل"
+        ],
+        "es": [
+          "Daños y perjuicios"
+        ],
+        "fr": [
+          "Avarie",
+          "Dommage"
+        ]
+      },
+      "broader": [
+        "concept206"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ضرر"
+        ],
+        "en": [
+          "Damage"
+        ],
+        "es": [
+          "Daño"
+        ],
+        "fr": [
+          "Dégât"
+        ],
+        "ru": [
+          "Ущерб"
+        ]
+      },
+      "related": [
+        "concept1161",
+        "concept205",
+        "concept4770",
+        "concept4772"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1167",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1167",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجراءات الامان",
+          "اجراءات وقائية",
+          "تدابير الامان",
+          "تدابير الحماية (السلامة)",
+          "تدابير حمائية (السلامة)",
+          "تدابير وقائية (السلامة)"
+        ],
+        "en": [
+          "Protective measures (safety)",
+          "Security measures"
+        ],
+        "es": [
+          "Medida de prevención",
+          "Medida de protección"
+        ],
+        "fr": [
+          "Mesure de protection",
+          "Mesure de prévention",
+          "Mesure de sûreté"
+        ],
+        "ru": [
+          "Защитные меры (безопасность)"
+        ]
+      },
+      "broader": [
+        "concept209"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:45+00:00",
+      "narrower": [
+        "concept10030",
+        "concept1162",
+        "concept4404"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجراءات السلامة"
+        ],
+        "en": [
+          "Safety measures"
+        ],
+        "es": [
+          "Medida de seguridad"
+        ],
+        "fr": [
+          "Mesure de sécurité"
+        ],
+        "ru": [
+          "Меры безопасности"
+        ]
+      },
+      "related": [
+        "concept1161",
+        "concept1169",
+        "concept653"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1170",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1170",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "امان النقل",
+          "امان بحري",
+          "حوادث السير",
+          "حوادث الطرق",
+          "حوادث المرور",
+          "سلامة السكك الحديدية",
+          "سلامة الطرق",
+          "سلامة بحرية",
+          "سلامة جوية",
+          "سلامة على الطرق",
+          "سلامة مرورية"
+        ],
+        "en": [
+          "Air safety",
+          "Marine safety",
+          "Rail safety",
+          "Road safety",
+          "Traffic accidents"
+        ],
+        "es": [
+          "Accidente de tráfico",
+          "Seguridad aérea",
+          "Seguridad en carretera",
+          "Seguridad ferroviaria",
+          "Seguridad marítima",
+          "Seguridad vial"
+        ],
+        "fr": [
+          "Accident de la circulation",
+          "Sécurité aérienne",
+          "Sécurité ferroviaire",
+          "Sécurité maritime",
+          "Sécurité routière"
+        ],
+        "ru": [
+          "Аварии на транспорте",
+          "Безопасность в воздухе",
+          "Безопасность на дорогах",
+          "Безопасность на железных дорогах",
+          "Безопасность на море"
+        ]
+      },
+      "broader": [
+        "concept209"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سلامة النقل"
+        ],
+        "en": [
+          "Transport safety"
+        ],
+        "es": [
+          "Seguridad del transporte"
+        ],
+        "fr": [
+          "Sécurité des transports"
+        ],
+        "ru": [
+          "Безопасность на транспорте"
+        ]
+      },
+      "related": [
+        "concept1161",
+        "concept1956"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1171",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1171",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مطر حمضي"
+        ]
+      },
+      "broader": [
+        "concept1946"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "امطار حمضية"
+        ],
+        "en": [
+          "Acid rain"
+        ],
+        "es": [
+          "Lluvia ácida"
+        ],
+        "fr": [
+          "Pluie acide"
+        ],
+        "ru": [
+          "Кислотный дождь"
+        ]
+      },
+      "related": [
+        "concept1217",
+        "concept1218",
+        "concept208"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1215",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1215",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "فضلات زراعية",
+          "نفايات زراعية"
+        ],
+        "es": [
+          "Desecho agrícola"
+        ]
+      },
+      "broader": [
+        "concept4056"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:45:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مخلفات زراعية"
+        ],
+        "en": [
+          "Agricultural wastes"
+        ],
+        "es": [
+          "Desperdicio agrícola"
+        ],
+        "fr": [
+          "Déchet agricole"
+        ],
+        "ru": [
+          "Отходы сельского хозяйства"
+        ]
+      },
+      "related": [
+        "concept1744",
+        "concept1832",
+        "concept1833"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1807",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1807",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ماء فائض",
+          "ماء مهدور",
+          "مياه الصرف",
+          "مياه المجاري",
+          "مياه عادمة",
+          "مياه مستعملة",
+          "مياه مهدورة",
+          "ميـاه المجارير"
+        ],
+        "en": [
+          "Sewage"
+        ],
+        "es": [
+          "Agua de alcantarilla"
+        ],
+        "fr": [
+          "Eau d'égout",
+          "Eau usée"
+        ],
+        "ru": [
+          "Канализационные стоки"
+        ]
+      },
+      "broader": [
+        "concept2632"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T14:32:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مياه الصرف الصحي"
+        ],
+        "en": [
+          "Waste water"
+        ],
+        "es": [
+          "Agua residual"
+        ],
+        "fr": [
+          "Eau résiduaire"
+        ],
+        "ru": [
+          "Сточные воды"
+        ]
+      },
+      "related": [
+        "concept10488",
+        "concept190",
+        "concept1951",
+        "concept208",
+        "concept4056",
+        "concept8425",
+        "concept9586"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1882",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1882",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تلوث الجو",
+          "تلوث الغلاف الجوي",
+          "تلوث جوي",
+          "تلويث الجو",
+          "تلويث الهواء"
+        ],
+        "en": [
+          "Atmospheric pollution"
+        ],
+        "es": [
+          "Polución atmosférica",
+          "Smog"
+        ],
+        "fr": [
+          "Pollution atmosphérique",
+          "Smog"
+        ],
+        "ru": [
+          "Загрязнение атмосферы"
+        ]
+      },
+      "broader": [
+        "concept6445"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:45:04+00:00",
+      "narrower": [
+        "concept1215"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تلوث الهواء"
+        ],
+        "en": [
+          "Air pollution"
+        ],
+        "es": [
+          "Contaminación atmosférica"
+        ],
+        "fr": [
+          "Pollution de l'air"
+        ],
+        "ru": [
+          "Загрязнение воздуха"
+        ]
+      },
+      "related": [
+        "concept181",
+        "concept1950",
+        "concept1951",
+        "concept1952",
+        "concept1953",
+        "concept636"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1946",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1946",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تلوث كيميائي"
+        ],
+        "en": [
+          "Chemical pollution"
+        ],
+        "es": [
+          "Contaminación química"
+        ],
+        "fr": [
+          "Pollution chimique"
+        ],
+        "ru": [
+          "Химическое загрязнение"
+        ]
+      },
+      "broader": [
+        "concept6445"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تلوث صناعي"
+        ],
+        "en": [
+          "Industrial pollution"
+        ],
+        "es": [
+          "Contaminación industrial"
+        ],
+        "fr": [
+          "Pollution industrielle"
+        ],
+        "ru": [
+          "Промышленное загрязнение"
+        ]
+      },
+      "related": [
+        "concept12332",
+        "concept1882",
+        "concept1946",
+        "concept2632",
+        "concept5283",
+        "concept636",
+        "concept6452"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1951",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1951",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استنفاد الاوزون",
+          "غازات الكربون الكلورينية الفلورينية",
+          "مركبات الكربون الكلورية فلورية",
+          "مركبات الكلوروفلوروكربون",
+          "نضوب الاوزون",
+          "نفاد الاوزون"
+        ],
+        "en": [
+          "CFC",
+          "Chlorofluorocarbons"
+        ],
+        "es": [
+          "Agujero de la capa de ozono",
+          "CFC",
+          "Capa de ozono",
+          "Clorofluorcarbono",
+          "Disminución de la capa de ozono"
+        ],
+        "fr": [
+          "Appauvrissement de l'ozone",
+          "Appauvrissement de la couche d'ozone",
+          "CFC",
+          "Chlorofluorocarbone",
+          "Chlorofluorocarbure",
+          "Diminution de l'ozone",
+          "Diminution de la couche d'ozone"
+        ],
+        "ru": [
+          "Газы CFC",
+          "Хлорфторуглероды"
+        ]
+      },
+      "broader": [
+        "concept4008"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استنفاد طبقة الاوزون"
+        ],
+        "en": [
+          "Ozone depletion"
+        ],
+        "es": [
+          "Reducción de la capa de ozono"
+        ],
+        "fr": [
+          "Réduction de la couche d'ozone"
+        ],
+        "ru": [
+          "Разрушение озонового слоя"
+        ]
+      },
+      "related": [
+        "concept1946",
+        "concept4015"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1953",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1953",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انهيارات ارضية",
+          "انهيارات ثلجية",
+          "انهيارات جليدية"
+        ],
+        "es": [
+          "Avalancha",
+          "Desprendimiento"
+        ],
+        "fr": [
+          "Éboulement"
+        ]
+      },
+      "broader": [
+        "concept7822"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تياهِر"
+        ],
+        "en": [
+          "Avalanches"
+        ],
+        "es": [
+          "Alud"
+        ],
+        "fr": [
+          "Avalanche"
+        ],
+        "ru": [
+          "Лавины"
+        ]
+      },
+      "related": [
+        "concept3447"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2118",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2118",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تلوث مائي",
+          "تلويث المياه"
+        ],
+        "es": [
+          "Polución del agua"
+        ]
+      },
+      "broader": [
+        "concept6445"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:44+00:00",
+      "narrower": [
+        "concept10488",
+        "concept1882",
+        "concept5003"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تلوث المياه"
+        ],
+        "en": [
+          "Water pollution"
+        ],
+        "es": [
+          "Contaminación del agua"
+        ],
+        "fr": [
+          "Pollution de l'eau"
+        ],
+        "ru": [
+          "Загрязнение воды"
+        ]
+      },
+      "related": [
+        "concept10950",
+        "concept12085",
+        "concept1723",
+        "concept1726",
+        "concept190",
+        "concept1950",
+        "concept1951",
+        "concept2626",
+        "concept2627",
+        "concept4583",
+        "concept5005",
+        "concept636",
+        "concept6452",
+        "concept7560",
+        "concept8652"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2632",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2632",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept7560"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:58+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصحر"
+        ],
+        "en": [
+          "Desertification"
+        ],
+        "es": [
+          "Desertificación"
+        ],
+        "fr": [
+          "Désertification"
+        ],
+        "ru": [
+          "Опустынивание"
+        ]
+      },
+      "related": [
+        "concept170",
+        "concept2842",
+        "concept2849",
+        "concept7557"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2847",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2847",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جدب",
+          "قحط"
+        ],
+        "fr": [
+          "Période de sécheresse"
+        ]
+      },
+      "broader": [
+        "concept4772"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جفاف"
+        ],
+        "en": [
+          "Drought"
+        ],
+        "es": [
+          "Sequía"
+        ],
+        "fr": [
+          "Sécheresse"
+        ],
+        "ru": [
+          "Засуха"
+        ]
+      },
+      "related": [
+        "concept2842",
+        "concept2847",
+        "concept2850",
+        "concept4528"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2849",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2849",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اثار بيئية",
+          "تأثير على البيئة",
+          "تأثيرات بيئية"
+        ],
+        "en": [
+          "Environmental effects",
+          "Environmental impact"
+        ],
+        "es": [
+          "Efectos humanos en el medioambiente",
+          "Impacto ambiental",
+          "Impacto medioambiental"
+        ],
+        "fr": [
+          "Effet environnemental",
+          "Impact environnemental",
+          "Impact sur l'environnement",
+          "Incidence sur l'environnement"
+        ],
+        "ru": [
+          "Воздействие на окружающую среду",
+          "Экологическое воздействие"
+        ]
+      },
+      "broader": [
+        "concept207"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:45+00:00",
+      "narrower": [
+        "concept1953",
+        "concept4528"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اثار الانشطة البشرية"
+        ],
+        "en": [
+          "Human activities effects"
+        ],
+        "es": [
+          "Efectos de las actividades humanas"
+        ],
+        "fr": [
+          "Effet des activités humaines"
+        ],
+        "ru": [
+          "Результаты деятельности человека"
+        ]
+      },
+      "related": [
+        "concept11996",
+        "concept3277",
+        "concept3278",
+        "concept4006",
+        "concept4770",
+        "concept6445",
+        "concept6868",
+        "concept8701",
+        "concept8703"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4008",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4008",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "فضلات",
+          "مخلفات"
+        ],
+        "es": [
+          "Basura",
+          "Desecho"
+        ],
+        "fr": [
+          "Détritus",
+          "Ordure"
+        ]
+      },
+      "broader": [
+        "concept208"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:15+00:00",
+      "narrower": [
+        "concept1807",
+        "concept7378"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نفايات"
+        ],
+        "en": [
+          "Wastes"
+        ],
+        "es": [
+          "Desperdicio"
+        ],
+        "fr": [
+          "Déchet"
+        ],
+        "ru": [
+          "Отходы"
+        ]
+      },
+      "related": [
+        "concept1833",
+        "concept1882",
+        "concept3980",
+        "concept6445",
+        "concept9586"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4056",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4056",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حماية من الحرائق",
+          "حماية من الحريق",
+          "وقاية من الحرائق"
+        ]
+      },
+      "broader": [
+        "concept1170"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:45:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وقاية من الحريق"
+        ],
+        "en": [
+          "Fire protection"
+        ],
+        "es": [
+          "Protección contra incendios"
+        ],
+        "fr": [
+          "Protection contre le feu"
+        ],
+        "ru": [
+          "Пожарная безопасность"
+        ]
+      },
+      "related": [
+        "concept1166",
+        "concept1236",
+        "concept6327"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4404",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4404",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اثار الدفيئة",
+          "احترار عالمي",
+          "تأثير البيت الزجاجي",
+          "حمو عالمي",
+          "ظاهرة الدفيئة"
+        ],
+        "en": [
+          "Greenhouse effect"
+        ],
+        "es": [
+          "Calentamiento global",
+          "Efecto invernadero"
+        ],
+        "fr": [
+          "Effet de serre",
+          "Réchauffement du globe"
+        ],
+        "ru": [
+          "Парниковый эффект"
+        ]
+      },
+      "broader": [
+        "concept4008"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احتباس حراري"
+        ],
+        "en": [
+          "Global warming"
+        ],
+        "es": [
+          "Calentamiento de la tierra"
+        ],
+        "fr": [
+          "Réchauffement de la planète"
+        ],
+        "ru": [
+          "Глобальное потепление"
+        ]
+      },
+      "related": [
+        "concept2849",
+        "concept4015",
+        "concept4559",
+        "concept4650",
+        "concept6445"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4528",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4528",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تغيير مناخي"
+        ]
+      },
+      "broader": [
+        "concept207"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2022-03-15T15:55:01+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تغيّر المناخ"
+        ],
+        "en": [
+          "Climate change"
+        ],
+        "es": [
+          "Cambio climático"
+        ],
+        "fr": [
+          "Changement climatique"
+        ],
+        "ru": [
+          "Изменение климата"
+        ]
+      },
+      "related": [
+        "concept17135",
+        "concept183",
+        "concept4528",
+        "concept5439",
+        "concept8139"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4559",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4559",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كوارث ناجمة عن الانشطة البشرية"
+        ],
+        "es": [
+          "Catástrofe humana",
+          "Desastre humano"
+        ],
+        "fr": [
+          "Catastrophe technologique",
+          "Désastre causé par l'homme"
+        ]
+      },
+      "broader": [
+        "concept206"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:43:27+00:00",
+      "narrower": [
+        "concept10637"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كوارث من صنع الانسان"
+        ],
+        "en": [
+          "Manmade disasters"
+        ],
+        "es": [
+          "Desastre causado por el hombre"
+        ],
+        "fr": [
+          "Catastrophe d'origine humaine"
+        ],
+        "ru": [
+          "Бедствия, вызванные деятельностью человека"
+        ]
+      },
+      "related": [
+        "concept1167",
+        "concept4008",
+        "concept6445",
+        "concept8105"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4770",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4770",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخطار طبيعية",
+          "كوارث طبيعية",
+          "مخاطر طبيعية"
+        ],
+        "en": [
+          "Natural disasters"
+        ],
+        "es": [
+          "Calamidad natural",
+          "Catástrofe natural",
+          "Desastre natural",
+          "Riesgos naturales"
+        ],
+        "fr": [
+          "Calamité naturelle",
+          "Catastrophe naturelle",
+          "Fléau naturel",
+          "Risque naturel"
+        ],
+        "ru": [
+          "Природные бедствия",
+          "Природные стихийные бедствия"
+        ]
+      },
+      "broader": [
+        "concept206"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2022-05-10T11:31:39+00:00",
+      "narrower": [
+        "concept10155",
+        "concept10949",
+        "concept2849",
+        "concept7822",
+        "concept8600",
+        "concept8611"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "أخطار طبيعية"
+        ],
+        "en": [
+          "Natural hazards"
+        ],
+        "es": [
+          "Amenaza natural"
+        ],
+        "fr": [
+          "Aléas naturels"
+        ],
+        "ru": [
+          "Природная угроза"
+        ]
+      },
+      "related": [
+        "concept10905",
+        "concept1167",
+        "concept5197",
+        "concept7340"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4772",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4772",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تلوث البحار"
+        ],
+        "es": [
+          "Contaminación marítima",
+          "Contaminación oceánica"
+        ],
+        "fr": [
+          "Pollution des océans",
+          "Pollution maritime"
+        ]
+      },
+      "broader": [
+        "concept2632"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تلوث بحري"
+        ],
+        "en": [
+          "Marine pollution"
+        ],
+        "es": [
+          "Contaminación marina"
+        ],
+        "fr": [
+          "Pollution marine"
+        ],
+        "ru": [
+          "Загрязнение моря"
+        ]
+      },
+      "related": [
+        "concept169",
+        "concept1872",
+        "concept2628",
+        "concept6452"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5003",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5003",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تلوث البيئة",
+          "تلويث",
+          "تلويث البيئة",
+          "تلويث بيئي"
+        ],
+        "en": [
+          "Environmental pollution"
+        ],
+        "es": [
+          "Contaminación ambiental",
+          "Contaminación medioambiental",
+          "Polución"
+        ],
+        "fr": [
+          "Pollution ambiante",
+          "Pollution du milieu",
+          "Pollution environnementale"
+        ],
+        "ru": [
+          "Загрязнение окружающей среды"
+        ]
+      },
+      "broader": [
+        "concept207"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:45+00:00",
+      "narrower": [
+        "concept1946",
+        "concept1951",
+        "concept2632",
+        "concept6448",
+        "concept6452",
+        "concept6454",
+        "concept6456"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تلوث"
+        ],
+        "en": [
+          "Pollution"
+        ],
+        "es": [
+          "Contaminación"
+        ],
+        "fr": [
+          "Pollution"
+        ],
+        "ru": [
+          "Загрязнение"
+        ]
+      },
+      "related": [
+        "concept10045",
+        "concept4008",
+        "concept4056",
+        "concept4100",
+        "concept4528",
+        "concept4770",
+        "concept8424"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6445",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6445",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تلوث الارض"
+        ],
+        "en": [
+          "Land pollution"
+        ],
+        "fr": [
+          "Contamination du sol"
+        ],
+        "ru": [
+          "Загрязнение земель"
+        ]
+      },
+      "broader": [
+        "concept6445"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تلوث التربة"
+        ],
+        "en": [
+          "Soil pollution"
+        ],
+        "es": [
+          "Contaminación del suelo"
+        ],
+        "fr": [
+          "Pollution du sol"
+        ],
+        "ru": [
+          "Загрязнение почвы"
+        ]
+      },
+      "related": [
+        "concept14174",
+        "concept16183",
+        "concept1723",
+        "concept7560"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6448",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6448",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تلوث زيتي"
+        ],
+        "en": [
+          "Petroleum pollution"
+        ],
+        "es": [
+          "Contaminación petrolífera",
+          "Contaminación por hidrocarburos",
+          "Marea negra"
+        ],
+        "fr": [
+          "Marée noire",
+          "Pollution par hydrocarbures",
+          "Pollution par le pétrole",
+          "Pollution par les hydrocarbures"
+        ],
+        "ru": [
+          "Загрязнение нефтепродуктами"
+        ]
+      },
+      "broader": [
+        "concept6445"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تلوث نفطي"
+        ],
+        "en": [
+          "Oil pollution"
+        ],
+        "es": [
+          "Contaminación petrolera"
+        ],
+        "fr": [
+          "Pollution pétrolière"
+        ],
+        "ru": [
+          "Загрязнение нефтью"
+        ]
+      },
+      "related": [
+        "concept11252",
+        "concept1951",
+        "concept2632",
+        "concept5003"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6452",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6452",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تساقط دري",
+          "تساقط مشع",
+          "تلوث مشع",
+          "تلويث اشعاعي"
+        ],
+        "en": [
+          "Radioactive contamination",
+          "Radioactive fallout"
+        ],
+        "es": [
+          "Contaminación nuclear",
+          "Contaminación radioactiva",
+          "Lluvia radioactiva"
+        ],
+        "fr": [
+          "Contamination radioactive",
+          "Dépôt radioactif",
+          "Retombée radioactive"
+        ],
+        "ru": [
+          "Радиоактивное заражение",
+          "Радиоактивные осадки"
+        ]
+      },
+      "broader": [
+        "concept6445"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تلوث اشعاعي"
+        ],
+        "en": [
+          "Radioactive pollution"
+        ],
+        "es": [
+          "Contaminación radiactiva"
+        ],
+        "fr": [
+          "Pollution radioactive"
+        ],
+        "ru": [
+          "Радиоактивное загрязнение"
+        ]
+      },
+      "related": [
+        "concept10030",
+        "concept6687",
+        "concept7377",
+        "concept7378",
+        "concept9458"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6454",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6454",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تلوث سمعي",
+          "تلوث صوتي",
+          "تلوث ضجيجي",
+          "ضجيج",
+          "ضوضاء"
+        ],
+        "en": [
+          "Acoustic pollution",
+          "Noise"
+        ],
+        "es": [
+          "Contaminación acústica",
+          "Ruido"
+        ],
+        "fr": [
+          "Bruit",
+          "Pollution acoustique",
+          "Pollution par le bruit"
+        ],
+        "ru": [
+          "Акустическое загрязнение",
+          "Шум"
+        ]
+      },
+      "broader": [
+        "concept6445"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تلوث ضوضائي"
+        ],
+        "en": [
+          "Noise pollution"
+        ],
+        "es": [
+          "Contaminación sonora"
+        ],
+        "fr": [
+          "Pollution sonore"
+        ],
+        "ru": [
+          "Шумовое загрязнение"
+        ]
+      },
+      "related": [
+        "concept10026"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6456",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6456",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سيطرة على الفيضانات",
+          "مكافحة الفيضانات"
+        ],
+        "es": [
+          "Plan de lucha contra las inundaciones",
+          "Prevención de inundaciones"
+        ],
+        "fr": [
+          "Lutte anti-inondations",
+          "Lutte contre les crues",
+          "Maîtrise des crues",
+          "Protection contre les crues",
+          "Protection contre les inondations"
+        ]
+      },
+      "broader": [
+        "concept8139"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحكم في الفيضانات"
+        ],
+        "en": [
+          "Flood control"
+        ],
+        "es": [
+          "Lucha contra las inundaciones"
+        ],
+        "fr": [
+          "Lutte contre les inondations"
+        ],
+        "ru": [
+          "Борьба с наводнениями"
+        ]
+      },
+      "related": [
+        "concept10310",
+        "concept10949",
+        "concept10950",
+        "concept196",
+        "concept3585",
+        "concept4016",
+        "concept5513",
+        "concept5520",
+        "concept612"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7358",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7358",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "فضلات مشعة",
+          "مخلفات اشعاعية",
+          "نفايات نووية"
+        ],
+        "en": [
+          "Nuclear wastes"
+        ],
+        "es": [
+          "Desecho nuclear",
+          "Desecho radiactivo"
+        ],
+        "fr": [
+          "Déchet nucléaire"
+        ],
+        "ru": [
+          "Ядерные отходы"
+        ]
+      },
+      "broader": [
+        "concept4056"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نفايات مشعة"
+        ],
+        "en": [
+          "Radioactive wastes"
+        ],
+        "es": [
+          "Desperdicio radiactivo"
+        ],
+        "fr": [
+          "Déchet radioactif"
+        ],
+        "ru": [
+          "Радиоактивные отходы"
+        ]
+      },
+      "related": [
+        "concept14623",
+        "concept204",
+        "concept4863",
+        "concept5644",
+        "concept6454"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7378",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7378",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحلل التربة",
+          "تردي التربة"
+        ],
+        "es": [
+          "Degradación de las tierras",
+          "Degradación del terreno",
+          "Devastación de las tierras"
+        ],
+        "fr": [
+          "Dégradation des sols",
+          "Dégradation des terres",
+          "Dévastation des terres"
+        ]
+      },
+      "broader": [
+        "concept207"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:45:35+00:00",
+      "narrower": [
+        "concept2847"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدهور التربة"
+        ],
+        "en": [
+          "Soil degradation"
+        ],
+        "es": [
+          "Degradación de suelos"
+        ],
+        "fr": [
+          "Dégradation du sol"
+        ],
+        "ru": [
+          "Деградация почвы"
+        ]
+      },
+      "related": [
+        "concept10791",
+        "concept2632",
+        "concept6448",
+        "concept7557"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7560",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7560",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انزلاقات ارضية",
+          "انهيالات ارضية"
+        ],
+        "es": [
+          "Corrimiento de tierras"
+        ],
+        "fr": [
+          "Éboulement de terrain"
+        ]
+      },
+      "broader": [
+        "concept4772"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:45:08+00:00",
+      "narrower": [
+        "concept2118"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انهيارات ارضية"
+        ],
+        "en": [
+          "Landslides"
+        ],
+        "es": [
+          "Deslizamiento de tierra"
+        ],
+        "fr": [
+          "Glissement de terrain"
+        ],
+        "ru": [
+          "Обвалы"
+        ]
+      },
+      "related": [
+        "concept5320",
+        "concept8595"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7822",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7822",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتقاء الكوارث",
+          "استعداد للكوارث",
+          "تأهب للكوارث",
+          "تخفيف اثار الكوارث",
+          "تخفيف حدة الكوارث",
+          "تقدير الاخطار",
+          "تقدير المخاطر",
+          "تقييم الاخطار",
+          "تقييم الخطر",
+          "تقييم المخاطر",
+          "حد من الكوارث",
+          "منع الكوارث",
+          "وقاية من الكوارث"
+        ],
+        "en": [
+          "Disaster mitigation",
+          "Disaster preparedness",
+          "Disaster prevention",
+          "Disaster reduction"
+        ],
+        "es": [
+          "Atenuación de desastres",
+          "Prevención de desastres",
+          "Prevención de riesgos",
+          "Reducción de desastres"
+        ],
+        "fr": [
+          "Atténuation des dégâts",
+          "Prévention des catastrophes",
+          "Réduction des désastres"
+        ],
+        "ru": [
+          "Готовность к стихийным бедствиям",
+          "Предупреждение стихийных бедствий",
+          "Смягчение последствий стихийных бедствий",
+          "Снижение воздействия стихийных бедствий"
+        ]
+      },
+      "broader": [
+        "concept209"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2022-05-10T11:31:39+00:00",
+      "narrower": [
+        "concept7358",
+        "concept8142",
+        "concept8143"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احلد من مخاطر الكوارث"
+        ],
+        "en": [
+          "Disaster risk reduction"
+        ],
+        "es": [
+          "Reducción del riesgo de desastres"
+        ],
+        "fr": [
+          "Réduction des risques de catastrophe"
+        ],
+        "ru": [
+          "Снижение риска бедствий"
+        ]
+      },
+      "related": [
+        "concept17045",
+        "concept17096",
+        "concept17117",
+        "concept17124",
+        "concept206",
+        "concept4559",
+        "concept6408"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8139",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8139",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept8139"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:45:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مكافحة الجفاف"
+        ],
+        "en": [
+          "Drought control"
+        ],
+        "es": [
+          "Lucha contra la sequía"
+        ],
+        "fr": [
+          "Lutte contre la sécheresse"
+        ],
+        "ru": [
+          "Борьба с засухой"
+        ]
+      },
+      "related": [
+        "concept192",
+        "concept4016",
+        "concept8527"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8142",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8142",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رصد الاهتزازات",
+          "رصد الزلازل",
+          "رصد سيزمي"
+        ],
+        "en": [
+          "Seismic monitoring"
+        ],
+        "es": [
+          "Prevención sísmica",
+          "Vigilancia sísmica"
+        ],
+        "fr": [
+          "Prédiction des séismes",
+          "Prévention des séismes",
+          "Prévention des tremblements de terre",
+          "Surveillance sismique",
+          "Surveillance sismologique"
+        ],
+        "ru": [
+          "Сейсмический мониторинг"
+        ]
+      },
+      "broader": [
+        "concept8139"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنبؤ بالزلازل"
+        ],
+        "en": [
+          "Earthquake prediction"
+        ],
+        "es": [
+          "Prevención antisísmica"
+        ],
+        "fr": [
+          "Prévention antisismique"
+        ],
+        "ru": [
+          "Предсказание землетрясений"
+        ]
+      },
+      "related": [
+        "concept6408",
+        "concept8600",
+        "concept8605"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8143",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8143",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "امراض وبائية"
+        ]
+      },
+      "broader": [
+        "concept206"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:15+00:00",
+      "narrower": [
+        "concept17114"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اوبئة"
+        ],
+        "en": [
+          "Epidemics"
+        ],
+        "es": [
+          "Epidemia"
+        ],
+        "fr": [
+          "Épidémie"
+        ],
+        "ru": [
+          "Эпидемии"
+        ]
+      },
+      "related": [
+        "concept3505",
+        "concept8189"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8151",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8151",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رجفات زلزالية",
+          "هزّات ارضية"
+        ],
+        "en": [
+          "Seisms"
+        ],
+        "es": [
+          "Seísmo",
+          "Terremoto"
+        ],
+        "fr": [
+          "Secousse sismique",
+          "Secousse tellurique",
+          "Tremblement de terre"
+        ],
+        "ru": [
+          "Сейсмы"
+        ]
+      },
+      "broader": [
+        "concept4772"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:44:51+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زلازل"
+        ],
+        "en": [
+          "Earthquakes"
+        ],
+        "es": [
+          "Sismo"
+        ],
+        "fr": [
+          "Séisme"
+        ],
+        "ru": [
+          "Землетрясения"
+        ]
+      },
+      "related": [
+        "concept6408",
+        "concept8143",
+        "concept8601",
+        "concept8605",
+        "concept8609",
+        "concept8610",
+        "concept8611"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8600",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8600",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "امواج بحرية رجفية",
+          "امواج بحرية زلزالية",
+          "امواج تسونامي",
+          "امواج سنامية",
+          "امواج مدية",
+          "موجات بحرية رجفية",
+          "موجات بحرية زلزالية",
+          "موجات تسونامي",
+          "موجات سنامية",
+          "موجات مدِّية"
+        ],
+        "en": [
+          "Seismic sea waves",
+          "Tidal waves"
+        ],
+        "es": [
+          "Maremoto",
+          "Ola sísmica",
+          "Sunami"
+        ],
+        "fr": [
+          "Barre",
+          "Mascaret",
+          "Raz de marée",
+          "Vague déferlante",
+          "Vagues sismiques"
+        ],
+        "ru": [
+          "Приливные волны",
+          "Сейсмические морские волны"
+        ]
+      },
+      "broader": [
+        "concept4772"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T14:33:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تسونامي"
+        ],
+        "en": [
+          "Tsunami"
+        ],
+        "es": [
+          "Tsunami"
+        ],
+        "fr": [
+          "Tsunami"
+        ],
+        "ru": [
+          "Цунами"
+        ]
+      },
+      "related": [
+        "concept8572",
+        "concept8600"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8611",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8611",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "وقاية من الاشعاع"
+        ]
+      },
+      "broader": [
+        "concept1170"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حماية من الاشعاع"
+        ],
+        "en": [
+          "Radiation protection"
+        ],
+        "es": [
+          "Protección contra radiaciones"
+        ],
+        "fr": [
+          "Protection contre les rayonnements"
+        ],
+        "ru": [
+          "Защита от радиации"
+        ]
+      },
+      "related": [
+        "concept1169",
+        "concept14625",
+        "concept6454",
+        "concept653",
+        "concept7377",
+        "concept8424"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10030",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10030",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انفجارات بركانية",
+          "ثورات بركانية",
+          "مياه الصرف"
+        ],
+        "fr": [
+          "Explosion volcanique"
+        ]
+      },
+      "broader": [
+        "concept4772"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-23T18:33:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ثوران بركاني"
+        ],
+        "en": [
+          "Volcanic eruptions"
+        ],
+        "es": [
+          "Erupción volcánica"
+        ],
+        "fr": [
+          "Éruption volcanique"
+        ],
+        "ru": [
+          "Извержения вулканов"
+        ]
+      },
+      "related": [
+        "concept11460",
+        "concept14298"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10155",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10155",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتخام المياه بالمغذيات",
+          "اغناء المياه بالمغذيات",
+          "فرط المغذيات"
+        ]
+      },
+      "broader": [
+        "concept2632"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2025-05-23T16:34:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اغناء بالمغذيات"
+        ],
+        "en": [
+          "Eutrophication"
+        ],
+        "es": [
+          "Eutroficación"
+        ],
+        "fr": [
+          "Eutrophisation"
+        ],
+        "ru": [
+          "Эвтрофикация"
+        ]
+      },
+      "related": [
+        "concept17175",
+        "concept1723",
+        "concept1882",
+        "concept3679"
+      ],
+      "scope_notes": {
+        "ar": [
+          "إثراء المياه بالمغذيات، خاصة مركبات النيتروجين والفوسفور، والتي من شأنها تسريع نمو الطحالب وكائنات أسمى من الحياة النباتية، وبالتالي تستنفد مستوى الأكسجين في المياه."
+        ],
+        "en": [
+          "Enrichment of water by nutrients, especially compounds of nitrogen and phosphorus, that will accelerate the growth of algae and higher forms of plant life, and thus deplete the oxygen level of water."
+        ],
+        "es": [
+          "Enriquecimiento del agua por nutrientes, especialmente compuestos de nitrógeno y fósforo que aceleran el crecimiento de algas y formas superiores de vida vegetal, causando la disminución de la cantidad de oxígeno en el agua."
+        ],
+        "fr": [
+          "Enrichissement de l'eau par des nutriments, en particulier par des composés d'azote et de phosphore, qui accéléreront la croissance d'algues et de formes plus évoluées de la vie végétale, et entraîneront une diminution de la teneur de l'eau en oxygène."
+        ],
+        "ru": [
+          "Обогащение воды питательными веществами, в первую очередь соединениями азота и фосфора, способствующее росту водорослей и более высоких форм растительной жизни и снижающее таким образом содержание кислорода в воде."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10488",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10488",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انفجارات نووية"
+        ],
+        "es": [
+          "Explosión atómica"
+        ]
+      },
+      "broader": [
+        "concept4770"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:45:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تفجيرات نووية"
+        ],
+        "en": [
+          "Nuclear explosions"
+        ],
+        "es": [
+          "Explosión nuclear"
+        ],
+        "fr": [
+          "Explosion nucléaire"
+        ],
+        "ru": [
+          "Ядерные взрывы"
+        ]
+      },
+      "related": [
+        "concept11682",
+        "concept14623",
+        "concept14625"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10637",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10637",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حرائق الأحراج"
+        ],
+        "fr": [
+          "Feu de forêt",
+          "Incendie forestier"
+        ]
+      },
+      "broader": [
+        "concept1166"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:45:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حرائق الغابات"
+        ],
+        "en": [
+          "Forest fires"
+        ],
+        "es": [
+          "Incendio forestal"
+        ],
+        "fr": [
+          "Incendie de forêt"
+        ],
+        "ru": [
+          "Лесные пожары"
+        ]
+      },
+      "related": [
+        "concept4070",
+        "concept4772"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10905",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10905",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اضرار ناتجة عن تسرب المياه",
+          "اضرار ناجمة عن المياه",
+          "تلف بسبب تسرب المياه"
+        ],
+        "en": [
+          "Water damage"
+        ],
+        "es": [
+          "Crecida de las aguas",
+          "Desbordamiento",
+          "Diluvio",
+          "Riada"
+        ],
+        "fr": [
+          "Crue",
+          "Dégât des eaux"
+        ],
+        "ru": [
+          "Ущерб, нанесенный водной стихией"
+        ]
+      },
+      "broader": [
+        "concept4772"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2019-12-15T13:43:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فيضانات"
+        ],
+        "en": [
+          "Floods"
+        ],
+        "es": [
+          "Inundación"
+        ],
+        "fr": [
+          "Inondation"
+        ],
+        "ru": [
+          "Наводнения"
+        ]
+      },
+      "related": [
+        "concept1217",
+        "concept184",
+        "concept4583",
+        "concept7358"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10949",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10949",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Adaptation to climate change"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2020-08-14T11:49:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكيف مع تغير المناخ"
+        ],
+        "en": [
+          "Climate change adaptation"
+        ],
+        "es": [
+          "Adaptación al cambio climático"
+        ],
+        "fr": [
+          "Adaptation au changement climatique"
+        ]
+      },
+      "related": [
+        "concept17111",
+        "concept7888",
+        "concept8139"
+      ],
+      "scope_notes": {
+        "ar": [
+          "المبادرات والتدابير للحد من ضعف النظم الطبيعية والبشرية في مواجهة تأثيرات تغير المناخ الفعلية أو المتوقعة."
+        ],
+        "en": [
+          "Initiatives and measures to reduce the vulnerability of natural and human systems against actual or expected climate change effects"
+        ],
+        "fr": [
+          "Initiatives et mesures prises pour réduire la vulnérabilité des systèmes naturels et humains aux effets des changements climatiques réels ou prévus"
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17096",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17096",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept8151"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2020-09-29T15:35:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جوائح"
+        ],
+        "en": [
+          "Pandemics"
+        ],
+        "es": [
+          "Pandemia"
+        ],
+        "fr": [
+          "Pandémie"
+        ],
+        "ru": [
+          "Пандемии"
+        ]
+      },
+      "related": [
+        "concept3505"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17114",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17114",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Emergency education"
+        ]
+      },
+      "broader": [
+        "concept205"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.60"
+      ],
+      "modified": "2026-04-17T11:52:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "التعليم في حالات الطوارئ"
+        ],
+        "en": [
+          "Education in emergencies"
+        ],
+        "es": [
+          "Educación en situación de emergencia"
+        ],
+        "fr": [
+          "Éducation en situation d'urgence"
+        ]
+      },
+      "related": [
+        "concept3168",
+        "concept9077"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشير إلى فرص التعليم الجيد لجميع الفئات العمرية في حالات الأزمات."
+        ],
+        "en": [
+          "Refers to the quality learning opportunities for all ages  in  situations  of  crisis"
+        ],
+        "fr": [
+          "Se réfère à la fourniture de possibilités d’apprentissage de qualité à tous les âges dans les situations de crise."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17139",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17139",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt2.60",
+    "labels": {
+      "en": "Pollution, disasters and safety",
+      "fr": "Pollution, catastrophes et sécurité"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt2.60"
+  }
+}

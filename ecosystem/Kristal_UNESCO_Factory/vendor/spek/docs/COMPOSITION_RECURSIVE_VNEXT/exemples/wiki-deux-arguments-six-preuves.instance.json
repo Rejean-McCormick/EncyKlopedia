@@ -1,0 +1,215 @@
+{
+  "format": "spek.composition-instance/1.0",
+  "instance_id": "wiki-fractal-demo",
+  "template_ref": "wiki.article@1.0.0",
+  "bindings": {
+    "introduction": {
+      "node_type": "template_ref",
+      "template_ref": "rhetorical.definition@1.0.0",
+      "bindings": {
+        "term": {
+          "node_type": "text_slot",
+          "realization_key": "intro.term",
+          "communication_request_ref": "requests/intro.term.json"
+        },
+        "definition": {
+          "node_type": "text_slot",
+          "realization_key": "intro.definition",
+          "communication_request_ref": "requests/intro.definition.json"
+        }
+      }
+    },
+    "arguments": {
+      "node_type": "repeat",
+      "template_ref": "rhetorical.argument-evidence@1.0.0",
+      "min": 2,
+      "max": 2,
+      "instances": [
+        {
+          "node_type": "template_ref",
+          "template_ref": "rhetorical.argument-evidence@1.0.0",
+          "bindings": {
+            "thesis": {
+              "node_type": "template_ref",
+              "template_ref": "rhetorical.assertion@1.0.0",
+              "bindings": {
+                "statement": {
+                  "node_type": "text_slot",
+                  "realization_key": "arg1.thesis",
+                  "communication_request_ref": "requests/arg1.thesis.json"
+                }
+              }
+            },
+            "evidence": {
+              "node_type": "repeat",
+              "template_ref": "rhetorical.evidence@1.0.0",
+              "min": 3,
+              "max": 3,
+              "instances": [
+                {
+                  "node_type": "template_ref",
+                  "template_ref": "rhetorical.evidence@1.0.0",
+                  "bindings": {
+                    "statement": {
+                      "node_type": "text_slot",
+                      "realization_key": "arg1.proof.1",
+                      "communication_request_ref": "requests/arg1.proof.1.json"
+                    }
+                  },
+                  "instance_id": "proof1"
+                },
+                {
+                  "node_type": "template_ref",
+                  "template_ref": "rhetorical.evidence@1.0.0",
+                  "bindings": {
+                    "statement": {
+                      "node_type": "text_slot",
+                      "realization_key": "arg1.proof.2",
+                      "communication_request_ref": "requests/arg1.proof.2.json"
+                    }
+                  },
+                  "instance_id": "proof2"
+                },
+                {
+                  "node_type": "template_ref",
+                  "template_ref": "rhetorical.evidence@1.0.0",
+                  "bindings": {
+                    "statement": {
+                      "node_type": "text_slot",
+                      "realization_key": "arg1.proof.3",
+                      "communication_request_ref": "requests/arg1.proof.3.json"
+                    }
+                  },
+                  "instance_id": "proof3"
+                }
+              ]
+            },
+            "inference": {
+              "node_type": "text_slot",
+              "realization_key": "arg1.inference",
+              "communication_request_ref": "requests/arg1.inference.json"
+            },
+            "objection": {
+              "node_type": "template_ref",
+              "template_ref": "rhetorical.qualification@1.0.0",
+              "bindings": {
+                "statement": {
+                  "node_type": "text_slot",
+                  "realization_key": "arg1.objection",
+                  "communication_request_ref": "requests/arg1.objection.json"
+                }
+              }
+            },
+            "conclusion": {
+              "node_type": "template_ref",
+              "template_ref": "rhetorical.conclusion@1.0.0",
+              "bindings": {
+                "statement": {
+                  "node_type": "text_slot",
+                  "realization_key": "arg1.conclusion",
+                  "communication_request_ref": "requests/arg1.conclusion.json"
+                }
+              }
+            }
+          },
+          "instance_id": "argument1"
+        },
+        {
+          "node_type": "template_ref",
+          "template_ref": "rhetorical.argument-evidence@1.0.0",
+          "bindings": {
+            "thesis": {
+              "node_type": "template_ref",
+              "template_ref": "rhetorical.assertion@1.0.0",
+              "bindings": {
+                "statement": {
+                  "node_type": "text_slot",
+                  "realization_key": "arg2.thesis",
+                  "communication_request_ref": "requests/arg2.thesis.json"
+                }
+              }
+            },
+            "evidence": {
+              "node_type": "repeat",
+              "template_ref": "rhetorical.evidence@1.0.0",
+              "min": 3,
+              "max": 3,
+              "instances": [
+                {
+                  "node_type": "template_ref",
+                  "template_ref": "rhetorical.evidence@1.0.0",
+                  "bindings": {
+                    "statement": {
+                      "node_type": "text_slot",
+                      "realization_key": "arg2.proof.1",
+                      "communication_request_ref": "requests/arg2.proof.1.json"
+                    }
+                  },
+                  "instance_id": "proof1"
+                },
+                {
+                  "node_type": "template_ref",
+                  "template_ref": "rhetorical.evidence@1.0.0",
+                  "bindings": {
+                    "statement": {
+                      "node_type": "text_slot",
+                      "realization_key": "arg2.proof.2",
+                      "communication_request_ref": "requests/arg2.proof.2.json"
+                    }
+                  },
+                  "instance_id": "proof2"
+                },
+                {
+                  "node_type": "template_ref",
+                  "template_ref": "rhetorical.evidence@1.0.0",
+                  "bindings": {
+                    "statement": {
+                      "node_type": "text_slot",
+                      "realization_key": "arg2.proof.3",
+                      "communication_request_ref": "requests/arg2.proof.3.json"
+                    }
+                  },
+                  "instance_id": "proof3"
+                }
+              ]
+            },
+            "inference": {
+              "node_type": "text_slot",
+              "realization_key": "arg2.inference",
+              "communication_request_ref": "requests/arg2.inference.json"
+            },
+            "objection": {
+              "node_type": "template_ref",
+              "template_ref": "rhetorical.qualification@1.0.0",
+              "bindings": {
+                "statement": {
+                  "node_type": "text_slot",
+                  "realization_key": "arg2.objection",
+                  "communication_request_ref": "requests/arg2.objection.json"
+                }
+              }
+            },
+            "conclusion": {
+              "node_type": "template_ref",
+              "template_ref": "rhetorical.conclusion@1.0.0",
+              "bindings": {
+                "statement": {
+                  "node_type": "text_slot",
+                  "realization_key": "arg2.conclusion",
+                  "communication_request_ref": "requests/arg2.conclusion.json"
+                }
+              }
+            }
+          },
+          "instance_id": "argument2"
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "layout_variant": "stack",
+    "join_mode": "block",
+    "show_template_labels": false
+  },
+  "authority": "editorial_bindings_explicit_not_approved"
+}

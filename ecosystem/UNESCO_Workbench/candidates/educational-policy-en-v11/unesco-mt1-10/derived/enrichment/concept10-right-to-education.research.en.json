@@ -1,0 +1,77 @@
+{
+  "format": "encyklopedia.unesco.article-research/1.0",
+  "unesco_id": "concept10",
+  "english_label": "Right to education",
+  "provisional_kq": "KQ3",
+  "source_unesco_uri": "http://vocabularies.unesco.org/thesaurus/concept10",
+  "article_status": "research_draft_not_approved",
+  "external_evidence_in_canon": false,
+  "canonical_assertions_added": 0,
+  "notes": [
+    "Distinguish declaratory language (UDHR) from treaty obligations (ICESCR, CRC).",
+    "Never infer universal domestic applicability of a treaty; check States parties, declarations and dates.",
+    "These research cards need independent editorial validation and source snapshot capture before creation of KS/KA."
+  ],
+  "research_cards": [
+    {
+      "id": "RTE-RESEARCH-001",
+      "statement_en": "Article 26 of the Universal Declaration of Human Rights recognizes a right to education and provides for compulsory elementary education and free elementary and fundamental education.",
+      "document": "Universal Declaration of Human Rights",
+      "section": "Article 26(1)",
+      "url": "https://www.un.org/about-us/universal-declaration-of-human-rights",
+      "jurisdiction": "international declaration, not a treaty",
+      "review_status": "external_source_review_needed"
+    },
+    {
+      "id": "RTE-RESEARCH-002",
+      "statement_en": "Article 13 of the International Covenant on Economic, Social and Cultural Rights recognizes the right of everyone to education and requires free compulsory primary education for States parties.",
+      "document": "International Covenant on Economic, Social and Cultural Rights",
+      "section": "Article 13(1)-(2)(a)",
+      "url": "https://2covenants.ohchr.org/About-ICESCR.html",
+      "jurisdiction": "international treaty: obligations of States parties",
+      "review_status": "external_source_review_needed"
+    },
+    {
+      "id": "RTE-RESEARCH-003",
+      "statement_en": "Article 28 of the Convention on the Rights of the Child recognizes the child’s right to education and identifies measures for compulsory free primary education, accessible secondary education, attendance and reduced drop-out.",
+      "document": "Convention on the Rights of the Child",
+      "section": "Article 28(1)",
+      "url": "https://www.unicef.org/child-rights-convention/convention-text",
+      "jurisdiction": "international treaty: obligations of States parties",
+      "review_status": "external_source_review_needed"
+    },
+    {
+      "id": "RTE-RESEARCH-004",
+      "statement_en": "The UNESCO Convention against Discrimination in Education was adopted in Paris on 14 December 1960 and entered into force on 22 May 1962.",
+      "document": "UNESCO Convention against Discrimination in Education",
+      "section": "instrument metadata",
+      "url": "https://www.unesco.org/en/legal-affairs/convention-against-discrimination-education",
+      "jurisdiction": "international treaty; participation varies by State",
+      "review_status": "external_source_review_needed"
+    },
+    {
+      "id": "RTE-RESEARCH-005",
+      "statement_en": "UNESCO describes State duties concerning the right to education as respect, protect and fulfil, and uses availability, accessibility, acceptability and adaptability as essential features.",
+      "document": "UNESCO State obligations and responsibilities on the right to education",
+      "section": "Content of states obligations",
+      "url": "https://www.unesco.org/en/right-education/state-obligations-responsibilities?hub=66813",
+      "jurisdiction": "International policy/legal explanation; jurisdiction-specific duties require confirmation",
+      "review_status": "external_source_review_needed"
+    },
+    {
+      "id": "RTE-RESEARCH-006",
+      "statement_en": "UNESCO Institute for Statistics SDG 4 framework includes distinct indicators for completion, out-of-school status, learning proficiency, parity and education finance.",
+      "document": "UNESCO Institute for Statistics SDG 4 Indicators",
+      "section": "Indicators 4.1, 4.5 and others",
+      "url": "https://www.uis.unesco.org/en/methods-and-tools/sdg4-indicators",
+      "jurisdiction": "Global monitoring definitions; no country statistic imported",
+      "review_status": "external_source_review_needed"
+    }
+  ],
+  "next_research_questions": [
+    "How is availability, accessibility, acceptability and adaptability analyzed in education rights?",
+    "Which governance instruments implement the right in different jurisdictions and dates?",
+    "What evidence measures enrolment, completion, parity, inclusion and financing, and with what limitations?",
+    "What historic reforms and policy disputes need balanced treatment?"
+  ]
+}

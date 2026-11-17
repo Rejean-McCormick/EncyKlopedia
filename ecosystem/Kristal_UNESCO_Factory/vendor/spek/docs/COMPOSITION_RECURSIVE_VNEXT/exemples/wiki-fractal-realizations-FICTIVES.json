@@ -1,0 +1,118 @@
+{
+  "format": "kristal.layout-realizations/0.1",
+  "note": "FICTIONAL DEMONSTRATION: manually written test strings; NOT SemantiK outputs or a Kristal publication.",
+  "entries": {
+    "intro.term": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 1.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "intro.definition": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 2.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg1.thesis": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 3.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg1.proof.1": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 4.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg1.proof.2": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 5.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg1.proof.3": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 6.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg1.inference": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 7.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg1.objection": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 8.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg1.conclusion": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 9.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg2.thesis": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 10.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg2.proof.1": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 11.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg2.proof.2": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 12.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg2.proof.3": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 13.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg2.inference": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 14.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg2.objection": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 15.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "arg2.conclusion": {
+      "fr": {
+        "text": "Phrase de démonstration numéro 16.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    }
+  }
+}

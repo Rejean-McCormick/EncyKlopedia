@@ -1,0 +1,4578 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم التشريح",
+          "فن التشريح"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:44:44+00:00",
+      "narrower": [
+        "concept17040",
+        "concept2318",
+        "concept2319",
+        "concept2320",
+        "concept2321"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تشريح"
+        ],
+        "en": [
+          "Anatomy"
+        ],
+        "es": [
+          "Anatomía"
+        ],
+        "fr": [
+          "Anatomie"
+        ],
+        "ru": [
+          "Анатомия"
+        ]
+      },
+      "related": [
+        "concept219",
+        "concept231",
+        "concept2322"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept217",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept217",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كيمياء احيائية",
+          "كيمياء بيولوجية",
+          "كيمياء حيوية بشرية"
+        ],
+        "en": [
+          "Human biochemistry"
+        ],
+        "es": [
+          "Bioquímica humana"
+        ],
+        "fr": [
+          "Biochimie humaine"
+        ],
+        "ru": [
+          "Биохимия человека"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:10+00:00",
+      "narrower": [
+        "concept3943",
+        "concept3953",
+        "concept3954",
+        "concept3955"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء حيوية"
+        ],
+        "en": [
+          "Biochemistry"
+        ],
+        "es": [
+          "Bioquímica"
+        ],
+        "fr": [
+          "Biochimie"
+        ],
+        "ru": [
+          "Биохимия"
+        ]
+      },
+      "related": [
+        "concept143",
+        "concept219",
+        "concept2198",
+        "concept220",
+        "concept226",
+        "concept231",
+        "concept232",
+        "concept3957",
+        "concept619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept218",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept218",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيولوجيا",
+          "علم الحياة",
+          "علوم احيائية",
+          "علوم بيولوجية",
+          "علوم حيوية"
+        ],
+        "en": [
+          "Biological sciences"
+        ],
+        "es": [
+          "Ciencias biológicas"
+        ],
+        "fr": [
+          "Sciences biologiques"
+        ],
+        "ru": [
+          "Биологические науки"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:08+00:00",
+      "narrower": [
+        "concept1582",
+        "concept2322",
+        "concept2451",
+        "concept2623",
+        "concept4018",
+        "concept4024",
+        "concept4040",
+        "concept4041",
+        "concept4042"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاحياء"
+        ],
+        "en": [
+          "Biology"
+        ],
+        "es": [
+          "Biología"
+        ],
+        "fr": [
+          "Biologie"
+        ],
+        "ru": [
+          "Биология"
+        ]
+      },
+      "related": [
+        "concept162",
+        "concept1717",
+        "concept217",
+        "concept218",
+        "concept220",
+        "concept221",
+        "concept223",
+        "concept225",
+        "concept227",
+        "concept230",
+        "concept231",
+        "concept232",
+        "concept233",
+        "concept235",
+        "concept241",
+        "concept2418",
+        "concept243",
+        "concept249",
+        "concept250",
+        "concept3064",
+        "concept3962",
+        "concept3964",
+        "concept3983",
+        "concept4011",
+        "concept4043",
+        "concept4044",
+        "concept4045"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept219",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept219",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الطبيعيات الاحيائية",
+          "فيزياء احيائية",
+          "فيزياء بيولوجية",
+          "فيزياء حيوية بشرية",
+          "ميكانيكا بيولوجية",
+          "ميكانيكا حيوية"
+        ],
+        "en": [
+          "Biomechanics",
+          "Human biophysics"
+        ],
+        "es": [
+          "Biocinemática",
+          "Biofísica humana",
+          "Biomecánica"
+        ],
+        "fr": [
+          "Biomécanique",
+          "Biophysique humaine"
+        ],
+        "ru": [
+          "Биомеханика",
+          "Биофизика человека"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فيزياء حيوية"
+        ],
+        "en": [
+          "Biophysics"
+        ],
+        "es": [
+          "Biofísica"
+        ],
+        "fr": [
+          "Biophysique"
+        ],
+        "ru": [
+          "Биофизика"
+        ]
+      },
+      "related": [
+        "concept132",
+        "concept147",
+        "concept218",
+        "concept219",
+        "concept226",
+        "concept227",
+        "concept232",
+        "concept4042"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept220",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept220",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيولوجيا الخلية",
+          "بيولوجيا خلوية",
+          "سيتولوجيا",
+          "علم أحياء الخلايا",
+          "علم الأحياء الخلوي",
+          "علم الخلايا",
+          "علم الخلية",
+          "علم حياة الخلية",
+          "كيمياء الخلايا الحية",
+          "كيمياء خلوية"
+        ],
+        "en": [
+          "Cytochemistry",
+          "Cytology"
+        ],
+        "es": [
+          "Citología",
+          "Citoquímica"
+        ],
+        "fr": [
+          "Cytochimie",
+          "Cytologie"
+        ],
+        "ru": [
+          "Цитология",
+          "Цитохимия"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T14:32:54+00:00",
+      "narrower": [
+        "concept16998",
+        "concept4816"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بيولوجيا الخلايا"
+        ],
+        "en": [
+          "Cell biology"
+        ],
+        "es": [
+          "Biología celular"
+        ],
+        "fr": [
+          "Biologie cellulaire"
+        ],
+        "ru": [
+          "Биология клетки"
+        ]
+      },
+      "related": [
+        "concept16971",
+        "concept219",
+        "concept226",
+        "concept231",
+        "concept232",
+        "concept619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept221",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept221",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حمض خلوي صبغي",
+          "حمض نووي",
+          "حمض نووي ريبوزي منقوص الاكسجين",
+          "حمض نووي ريبي منقوص الاكسجين",
+          "دنا",
+          "دي.ان.ايه",
+          "شفرة جينية",
+          "شفرة وراثية",
+          "مورثات"
+        ],
+        "en": [
+          "DNA",
+          "Genetic code"
+        ],
+        "es": [
+          "ADN",
+          "Código genético",
+          "Gene"
+        ],
+        "fr": [
+          "ADN",
+          "Code génétique"
+        ],
+        "ru": [
+          "Генетический код",
+          "ДНК"
+        ]
+      },
+      "broader": [
+        "concept16998"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:34+00:00",
+      "narrower": [
+        "concept5160"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جينات"
+        ],
+        "en": [
+          "Genes"
+        ],
+        "es": [
+          "Gen"
+        ],
+        "fr": [
+          "Gène"
+        ],
+        "ru": [
+          "Гены"
+        ]
+      },
+      "related": [
+        "concept11366",
+        "concept223"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الوحدة المادية والوظيفية الأساسية للوراثة، المسؤولة عن سمات محددة."
+        ],
+        "en": [
+          "The fundamental physical and functional unit of heredity, responsible for specific traits."
+        ],
+        "es": [
+          "Unidad de herencia funcional y física fundamental, responsable de los rasgos específicos."
+        ],
+        "ru": [
+          "Фундаментальная физическая и функциональная единица наследственности, отвечающая за определенные признаки."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept222",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept222",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الجينوم",
+          "علم الجينوميات",
+          "علم المجينيات",
+          "وراثيات"
+        ],
+        "en": [
+          "Genomics"
+        ],
+        "es": [
+          "Genómica"
+        ],
+        "fr": [
+          "Génomique"
+        ],
+        "ru": [
+          "Геномика"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:03+00:00",
+      "narrower": [
+        "concept10457",
+        "concept10533",
+        "concept11366",
+        "concept11375",
+        "concept4044"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الوراثة"
+        ],
+        "en": [
+          "Genetics"
+        ],
+        "es": [
+          "Genética"
+        ],
+        "fr": [
+          "Génétique"
+        ],
+        "ru": [
+          "Генетика"
+        ]
+      },
+      "related": [
+        "concept1331",
+        "concept16971",
+        "concept16998",
+        "concept219",
+        "concept222",
+        "concept231",
+        "concept2418",
+        "concept3513",
+        "concept4006",
+        "concept4011",
+        "concept4111",
+        "concept5160",
+        "concept619"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دراسة أنماط الوراثة لصفات محددة."
+        ],
+        "en": [
+          "The study of inheritance patterns of specific traits."
+        ],
+        "es": [
+          "Estudio de los modelos hereditarios de rasgos específicos."
+        ],
+        "fr": [
+          "Etude des modèles de transmission héréditaire de traits spécifiques."
+        ],
+        "ru": [
+          "Изучение моделей наследования определенных признаков."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept223",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept223",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دورة حياتية",
+          "عمر افتراضي",
+          "عمر متوقع",
+          "مأمول الحياة",
+          "مأمول العمر",
+          "متوسط العمر المأمول",
+          "متوسط العمر المتوقع"
+        ],
+        "en": [
+          "Life expectancy"
+        ],
+        "es": [
+          "Esperanza de vida"
+        ],
+        "fr": [
+          "Espérance de vie"
+        ],
+        "ru": [
+          "Продолжительность жизни"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:40+00:00",
+      "narrower": [
+        "concept1458",
+        "concept1670",
+        "concept1672",
+        "concept4108"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دورة الحياة"
+        ],
+        "en": [
+          "Life cycle"
+        ],
+        "es": [
+          "Ciclo de vida"
+        ],
+        "fr": [
+          "Cycle de vie"
+        ],
+        "ru": [
+          "Жизненный цикл"
+        ]
+      },
+      "related": [
+        "concept227",
+        "concept4154",
+        "concept5063"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept224",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept224",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الاحياء الدقيقة",
+          "علم الجراثيم",
+          "علم الميكروبات",
+          "علم الميكروبيولوجيا",
+          "مِكْروبيولوجيا"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:29+00:00",
+      "narrower": [
+        "concept3510",
+        "concept3513"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاحياء المجهرية"
+        ],
+        "en": [
+          "Microbiology"
+        ],
+        "es": [
+          "Microbiología"
+        ],
+        "fr": [
+          "Microbiologie"
+        ],
+        "ru": [
+          "Микробиология"
+        ]
+      },
+      "related": [
+        "concept219",
+        "concept231",
+        "concept619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept225",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept225",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيولوجيا الجزيئات",
+          "بيولوجيا جزيئية"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-23T18:33:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاحياء الجزيئي"
+        ],
+        "en": [
+          "Molecular biology"
+        ],
+        "es": [
+          "Biología molecular"
+        ],
+        "fr": [
+          "Biologie moléculaire"
+        ],
+        "ru": [
+          "Молекулярная биология"
+        ]
+      },
+      "related": [
+        "concept10312",
+        "concept16971",
+        "concept218",
+        "concept220",
+        "concept221",
+        "concept619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept226",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept226",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الوظائف",
+          "فسيولوجيا",
+          "فيزيولوجيا"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:52:32+00:00",
+      "narrower": [
+        "concept14505",
+        "concept1581",
+        "concept4111",
+        "concept4152",
+        "concept4154",
+        "concept5063",
+        "concept7996"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم وظائف الاعضاء"
+        ],
+        "en": [
+          "Physiology"
+        ],
+        "es": [
+          "Fisiología"
+        ],
+        "fr": [
+          "Physiologie"
+        ],
+        "ru": [
+          "Физиология"
+        ]
+      },
+      "related": [
+        "concept15172",
+        "concept219",
+        "concept220",
+        "concept224",
+        "concept231",
+        "concept3954",
+        "concept9700"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept227",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept227",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حالة الحمل",
+          "حَبَلْ‏"
+        ]
+      },
+      "broader": [
+        "concept4111"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:52:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حمل"
+        ],
+        "en": [
+          "Pregnancy"
+        ],
+        "es": [
+          "Embarazo"
+        ],
+        "fr": [
+          "Grossesse"
+        ],
+        "ru": [
+          "Беременность"
+        ]
+      },
+      "related": [
+        "concept1010",
+        "concept1013",
+        "concept4108",
+        "concept4113"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1015",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1015",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حُلُم",
+          "سن البلوغ"
+        ]
+      },
+      "broader": [
+        "concept224"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:52:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بلوغ"
+        ],
+        "en": [
+          "Puberty"
+        ],
+        "es": [
+          "Pubertad"
+        ],
+        "fr": [
+          "Puberté"
+        ],
+        "ru": [
+          "Половая зрелость"
+        ]
+      },
+      "related": [
+        "concept1456",
+        "concept1457",
+        "concept1460"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1458",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1458",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهاد (علم الوظائف)",
+          "اجهاد (فسيولوجيا)",
+          "ارهاق (علم الوظائف)",
+          "ارهاق (فسيولوجيا)",
+          "تأثيرات فسيولوجية",
+          "ضغط (فسيولوجيا)",
+          "ضغـوط (علم الوظائف)"
+        ],
+        "en": [
+          "Fatigue (physiology)",
+          "Stress (physiology)"
+        ],
+        "es": [
+          "Estrés (fisiología)",
+          "Fatiga (psicológica)"
+        ],
+        "fr": [
+          "Fatique (physiologie)",
+          "Stress (physiologie)"
+        ],
+        "ru": [
+          "Стресс (физиология)",
+          "Усталость (физиология)"
+        ]
+      },
+      "broader": [
+        "concept227"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T14:31:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اثار فسيولوجية"
+        ],
+        "en": [
+          "Physiological effects"
+        ],
+        "es": [
+          "Efectos fisiológicos"
+        ],
+        "fr": [
+          "Effet physiologique"
+        ],
+        "ru": [
+          "Физиологические эффекты"
+        ]
+      },
+      "related": [
+        "concept13909",
+        "concept1573",
+        "concept2322",
+        "concept4042",
+        "concept4154",
+        "concept8701",
+        "concept9458"
+      ],
+      "scope_notes": {
+        "ar": [
+          "آثار الكهرباء والمواد الكيميائية والحرارة والضغط إلخ، على جسم الإنسان."
+        ],
+        "en": [
+          "Effects of electricity, chemicals, heat, pressure, etc. on the human body."
+        ],
+        "es": [
+          "Efectos de la electricidad, productos químicos, calor, presión, etc. en el cuerpo humano."
+        ],
+        "fr": [
+          "Effet de l'électricité, des produits chimiques, de la chaleur, de la presssion, etc. sur le corps humain."
+        ],
+        "ru": [
+          "Воздействие электричества, химических вещества, тепла, давления и т.д. на человеческий организм."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1581",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1581",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيولوجيا الفضاء",
+          "بيولوجيا فلكية",
+          "علم الاحياء الفضائي",
+          "علم الاحياء الفلكي"
+        ],
+        "en": [
+          "Astrobiology"
+        ],
+        "es": [
+          "Astrobiología"
+        ],
+        "fr": [
+          "Astrobiologie"
+        ],
+        "ru": [
+          "Астробиология"
+        ]
+      },
+      "broader": [
+        "concept219"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-23T18:33:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بيولوجيا فضائية"
+        ],
+        "en": [
+          "Space biology"
+        ],
+        "es": [
+          "Biología espacial"
+        ],
+        "fr": [
+          "Biologie spatiale"
+        ],
+        "ru": [
+          "Космическая биология"
+        ]
+      },
+      "related": [
+        "concept154",
+        "concept1573",
+        "concept629"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم لدراسة الإنسان أو شكل آخر من أشكال الحياة الأرضية في الفضاء الخارجي."
+        ],
+        "en": [
+          "Use for the study of man or other earth life in outer space."
+        ],
+        "es": [
+          "Utilizar para las obras que tratan del estudio del hombre o de otra forma de vida terrestre en el espacio extra-atmosférico."
+        ],
+        "fr": [
+          "Utiliser pour les ouvrages traitant de l'étude de l'homme ou d'autre forme de vie terrestre dans l'espace extra-atmosphérique."
+        ],
+        "ru": [
+          "Используется по отношению к исследованиям организма человека или других форм земной жизни в открытом космосе."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1582",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1582",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعمّر",
+          "تقدم في السن",
+          "هرم"
+        ],
+        "en": [
+          "Aging"
+        ]
+      },
+      "broader": [
+        "concept224"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:44:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "شيخوخة"
+        ],
+        "en": [
+          "Ageing"
+        ],
+        "es": [
+          "Envejecimiento"
+        ],
+        "fr": [
+          "Vieillissement"
+        ],
+        "ru": [
+          "Старение"
+        ]
+      },
+      "related": [
+        "concept1659",
+        "concept1667",
+        "concept1672",
+        "concept1673",
+        "concept1674"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1670",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1670",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اسباب الوفاة",
+          "موت"
+        ],
+        "en": [
+          "Causes of death"
+        ],
+        "es": [
+          "Deceso",
+          "Defunción",
+          "Fallecimiento"
+        ],
+        "fr": [
+          "Cause de décès"
+        ],
+        "ru": [
+          "Причины смерти"
+        ]
+      },
+      "broader": [
+        "concept224"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2023-02-13T15:43:53+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وفاة"
+        ],
+        "en": [
+          "Death"
+        ],
+        "es": [
+          "Muerte"
+        ],
+        "fr": [
+          "Mort"
+        ],
+        "ru": [
+          "Смерть"
+        ]
+      },
+      "related": [
+        "concept1670",
+        "concept17156",
+        "concept4110",
+        "concept6841",
+        "concept7467",
+        "concept7468",
+        "concept7469"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1672",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1672",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جَراثيم",
+          "راجبيات"
+        ]
+      },
+      "broader": [
+        "concept3512"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بكتيريا"
+        ],
+        "en": [
+          "Bacteria"
+        ],
+        "es": [
+          "Bacteria"
+        ],
+        "fr": [
+          "Bactérie"
+        ],
+        "ru": [
+          "Бактерии"
+        ]
+      },
+      "related": [
+        "concept1946",
+        "concept208",
+        "concept250",
+        "concept2632",
+        "concept3505",
+        "concept3506",
+        "concept3507"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1950",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1950",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ارضاع طبيعي",
+          "رضاعة ثديية"
+        ],
+        "fr": [
+          "Allaitement au sein",
+          "Allaitement naturel"
+        ]
+      },
+      "broader": [
+        "concept7996"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:43:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رضاعة طبيعية"
+        ],
+        "en": [
+          "Breast feeding"
+        ],
+        "es": [
+          "Lactancia materna"
+        ],
+        "fr": [
+          "Allaitement maternel"
+        ],
+        "ru": [
+          "Грудное вскармливание"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2043",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2043",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة الاوعية الدموية والقلب",
+          "اجهزة الدوران",
+          "اجهزة الدورة الدموية",
+          "اجهزة دوران الدم",
+          "اجهزة دورية",
+          "اجهزة قلبية وعائية",
+          "جملة دورانية",
+          "قلب",
+          "نظم الدورة الدموية"
+        ],
+        "en": [
+          "Circulatory systems",
+          "Heart"
+        ],
+        "es": [
+          "Corazón",
+          "Sistema circulatorio"
+        ],
+        "fr": [
+          "Appareil cardiovasculaire",
+          "Coeur",
+          "Système circulatoire"
+        ],
+        "ru": [
+          "Кровеносные системы",
+          "Сердце"
+        ]
+      },
+      "broader": [
+        "concept217"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم القلب والاوعية الدموية"
+        ],
+        "en": [
+          "Cardiovascular systems"
+        ],
+        "es": [
+          "Sistema cardiovascular"
+        ],
+        "fr": [
+          "Système cardiovasculaire"
+        ],
+        "ru": [
+          "Сердечно-сосудистые системы"
+        ]
+      },
+      "related": [
+        "concept4658"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2318",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2318",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "امراض الغدد الصمّاء",
+          "نظم الغدد الصمّاء"
+        ],
+        "en": [
+          "Endocrine diseases"
+        ],
+        "es": [
+          "Afección endocrina",
+          "Enfermedad endocrina"
+        ],
+        "fr": [
+          "Maladie endocrinienne"
+        ],
+        "ru": [
+          "Эндокринные заболевания"
+        ]
+      },
+      "broader": [
+        "concept217"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجهزة الغدد الصمّاء"
+        ],
+        "en": [
+          "Endocrine systems"
+        ],
+        "es": [
+          "Sistema endocrino"
+        ],
+        "fr": [
+          "Système endocrinien"
+        ],
+        "ru": [
+          "Эндокринные системы"
+        ]
+      },
+      "related": [
+        "concept3946",
+        "concept9700",
+        "concept9701"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2319",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2319",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جهاز عصبي"
+        ],
+        "es": [
+          "Sistema neurológico"
+        ],
+        "fr": [
+          "Système neurologique"
+        ]
+      },
+      "broader": [
+        "concept217"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T14:33:01+00:00",
+      "narrower": [
+        "concept4141",
+        "concept4292"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجهزة عصبية"
+        ],
+        "en": [
+          "Nervous systems"
+        ],
+        "es": [
+          "Sistema nervioso"
+        ],
+        "fr": [
+          "Système nerveux"
+        ],
+        "ru": [
+          "Нервные системы"
+        ]
+      },
+      "related": [
+        "concept14505",
+        "concept4041",
+        "concept4295",
+        "concept5061"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2320",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2320",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة التنفس",
+          "جهاز تنفسي"
+        ],
+        "es": [
+          "Sistema neumológico",
+          "Sistema respiratorio"
+        ],
+        "fr": [
+          "Appareil respiratoire"
+        ]
+      },
+      "broader": [
+        "concept217"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T14:32:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجهزة تنفسية"
+        ],
+        "en": [
+          "Respiratory systems"
+        ],
+        "es": [
+          "Aparato respiratorio"
+        ],
+        "fr": [
+          "Système respiratoire"
+        ],
+        "ru": [
+          "Дыхательные системы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2321",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2321",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيولوجيا بشرية",
+          "علم البيولوجيا البشري"
+        ]
+      },
+      "broader": [
+        "concept219"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاحياء البشري"
+        ],
+        "en": [
+          "Human biology"
+        ],
+        "es": [
+          "Biología humana"
+        ],
+        "fr": [
+          "Biologie humaine"
+        ],
+        "ru": [
+          "Биология человека"
+        ]
+      },
+      "related": [
+        "concept10457",
+        "concept1581",
+        "concept217",
+        "concept229",
+        "concept4084",
+        "concept4154",
+        "concept8701",
+        "concept9775"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2322",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2322",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخصاب صناعي",
+          "امناء صناعي",
+          "تخصيب صناعي",
+          "تلقيح اصطناعي"
+        ],
+        "en": [
+          "Artificial insemination"
+        ],
+        "es": [
+          "Inseminación artificial"
+        ],
+        "fr": [
+          "Insémination artificielle"
+        ],
+        "ru": [
+          "Искусственное осеменение"
+        ]
+      },
+      "broader": [
+        "concept4111"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-23T18:33:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انجاب صناعي"
+        ],
+        "en": [
+          "Artificial procreation"
+        ],
+        "es": [
+          "Procreación artificial"
+        ],
+        "fr": [
+          "Procréation artificielle"
+        ],
+        "ru": [
+          "Искусственное воспроизводство"
+        ]
+      },
+      "related": [
+        "concept1014",
+        "concept16971",
+        "concept1765",
+        "concept1766",
+        "concept219",
+        "concept223",
+        "concept2451",
+        "concept3064"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2418",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2418",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخلاق حيوية",
+          "اخلاقيات بيولوجية",
+          "علم الاخلاق الحيوي",
+          "قواعد السلوك البيولوجية"
+        ]
+      },
+      "broader": [
+        "concept219"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T14:37:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اخلاقيات علم الاحياء"
+        ],
+        "en": [
+          "Bioethics"
+        ],
+        "es": [
+          "Bioética"
+        ],
+        "fr": [
+          "Bioéthique"
+        ],
+        "ru": [
+          "Биоэтика"
+        ]
+      },
+      "related": [
+        "concept1014",
+        "concept241",
+        "concept2418",
+        "concept2449",
+        "concept3971",
+        "concept3972",
+        "concept3973",
+        "concept3974"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دراسة المسائل الاجتماعية والأخلاقية التي أثارها التطور في علم الأحياء والطب."
+        ],
+        "en": [
+          "Study of social and ethical questions raised by development in biology and medicine."
+        ],
+        "es": [
+          "Estudio de cuestiones sociales y éticas que se plantean a raíz de los avances surgidos en los ámbitos de la biología y de la medicina."
+        ],
+        "fr": [
+          "Étude des questions sociales et éthiques soulevées par les découvertes de la biologie et de la médecine."
+        ],
+        "ru": [
+          "Изучение социальных и этических вопросов, вызванных развитием биологии и медицины."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2451",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2451",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيولوجيا مائية",
+          "علم الاحياء المائي"
+        ],
+        "es": [
+          "Vida acuática"
+        ]
+      },
+      "broader": [
+        "concept219"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T14:31:15+00:00",
+      "narrower": [
+        "concept2631"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاحياء المائية"
+        ],
+        "en": [
+          "Hydrobiology"
+        ],
+        "es": [
+          "Hidrobiología"
+        ],
+        "fr": [
+          "Hydrobiologie"
+        ],
+        "ru": [
+          "Гидробиология"
+        ]
+      },
+      "related": [
+        "concept12085",
+        "concept1323",
+        "concept174",
+        "concept198",
+        "concept2382",
+        "concept2626",
+        "concept2627",
+        "concept2630"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2623",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2623",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيولوجيا المياه العذبة",
+          "علم احياء المياه العذبة",
+          "علم الاحياء في المياه العذبة",
+          "علم البحيرات",
+          "علم اللمنولوجيا",
+          "علم الليمنولوجيا",
+          "لمنولوجيا",
+          "ليمنولوجيا‎"
+        ],
+        "en": [
+          "Freshwater biology"
+        ],
+        "es": [
+          "Biología de las aguas dulces"
+        ],
+        "fr": [
+          "Biologie des eaux douces"
+        ],
+        "ru": [
+          "Биология пресной воды"
+        ]
+      },
+      "broader": [
+        "concept2623"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم المياه العذبة"
+        ],
+        "en": [
+          "Limnology"
+        ],
+        "es": [
+          "Limnología"
+        ],
+        "fr": [
+          "Limnologie"
+        ],
+        "ru": [
+          "Лимнология"
+        ]
+      },
+      "related": [
+        "concept1878",
+        "concept198",
+        "concept2626"
+      ],
+      "scope_notes": {
+        "en": [
+          "Study of living organisms in freshwater."
+        ],
+        "es": [
+          "Estudio de los organismos que viven en agua dulce."
+        ],
+        "fr": [
+          "Étude des organismes vivant en eau douce."
+        ],
+        "ru": [
+          "Изучение организмов, живущих в пресной воде."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2631",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2631",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جنينيات‏",
+          "علم الجنين"
+        ]
+      },
+      "broader": [
+        "concept5063"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:44:07+00:00",
+      "narrower": [
+        "concept9597"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاجنة"
+        ],
+        "en": [
+          "Embryology"
+        ],
+        "es": [
+          "Embriología"
+        ],
+        "fr": [
+          "Embryologie"
+        ],
+        "ru": [
+          "Эмбриология"
+        ]
+      },
+      "related": [
+        "concept219",
+        "concept2418"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3064",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3064",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بكتريولوجيا",
+          "علم البكتيريا"
+        ]
+      },
+      "broader": [
+        "concept225"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-23T18:33:44+00:00",
+      "narrower": [
+        "concept3512"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الجراثيم"
+        ],
+        "en": [
+          "Bacteriology"
+        ],
+        "es": [
+          "Bacteriología"
+        ],
+        "fr": [
+          "Bactériologie"
+        ],
+        "ru": [
+          "Бактериология"
+        ]
+      },
+      "related": [
+        "concept3505",
+        "concept3513"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3510",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3510",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عضويات دقيقة",
+          "كائنات حية دقيقة",
+          "كائنات دقيقة",
+          "متعضّيات صغريّة"
+        ]
+      },
+      "broader": [
+        "concept3510"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:01+00:00",
+      "narrower": [
+        "concept12085",
+        "concept1950"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كائنات مجهرية"
+        ],
+        "en": [
+          "Microorganisms"
+        ],
+        "es": [
+          "Microorganismo"
+        ],
+        "fr": [
+          "Microorganisme"
+        ],
+        "ru": [
+          "Микроорганизмы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3512",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3512",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "جينات فيروسية",
+          "دراسة الفيروسات",
+          "مبحث الحمات",
+          "مبحث الفيروسات"
+        ],
+        "en": [
+          "Viral genetics"
+        ],
+        "es": [
+          "Genética viral"
+        ],
+        "fr": [
+          "Génétique virale"
+        ],
+        "ru": [
+          "Вирусная генетика"
+        ]
+      },
+      "broader": [
+        "concept225"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:51:51+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الفيروسات"
+        ],
+        "en": [
+          "Virology"
+        ],
+        "es": [
+          "Virología"
+        ],
+        "fr": [
+          "Virologie"
+        ],
+        "ru": [
+          "Вирусология"
+        ]
+      },
+      "related": [
+        "concept12085",
+        "concept223",
+        "concept3505",
+        "concept3510"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3513",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3513",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كيميائيات حيوية",
+          "مواد بيولوجية",
+          "مواد حيوية"
+        ],
+        "en": [
+          "Biomaterials"
+        ],
+        "es": [
+          "Biomaterial"
+        ],
+        "fr": [
+          "Biomatériau"
+        ],
+        "ru": [
+          "Биоматериалы"
+        ]
+      },
+      "broader": [
+        "concept218"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T14:32:07+00:00",
+      "narrower": [
+        "concept3945",
+        "concept3946",
+        "concept3947",
+        "concept3948",
+        "concept3949"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيماويات حيوية"
+        ],
+        "en": [
+          "Biochemicals"
+        ],
+        "es": [
+          "Sustancia bioquímica"
+        ],
+        "fr": [
+          "Substance biochimique"
+        ],
+        "ru": [
+          "Биохимикаты"
+        ]
+      },
+      "related": [
+        "concept139"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3943",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3943",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "خمائر"
+        ]
+      },
+      "broader": [
+        "concept3943"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:43:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انزيمات"
+        ],
+        "en": [
+          "Enzymes"
+        ],
+        "es": [
+          "Enzima"
+        ],
+        "fr": [
+          "Enzyme"
+        ],
+        "ru": [
+          "Энзимы"
+        ]
+      },
+      "related": [
+        "concept3957",
+        "concept619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3945",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3945",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3943"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:43:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هرمونات"
+        ],
+        "en": [
+          "Hormones"
+        ],
+        "es": [
+          "Hormona"
+        ],
+        "fr": [
+          "Hormone"
+        ],
+        "ru": [
+          "Гормоны"
+        ]
+      },
+      "related": [
+        "concept2319",
+        "concept3957",
+        "concept9700"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3946",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3946",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Prótido"
+        ],
+        "fr": [
+          "Protide"
+        ]
+      },
+      "broader": [
+        "concept3943"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:52:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بروتينات"
+        ],
+        "en": [
+          "Proteins"
+        ],
+        "es": [
+          "Proteína"
+        ],
+        "fr": [
+          "Protéine"
+        ],
+        "ru": [
+          "Белки"
+        ]
+      },
+      "related": [
+        "concept2438",
+        "concept3957",
+        "concept619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3947",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3947",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عناصر اثارية",
+          "عناصر زهيدة",
+          "عناصر شحيحة",
+          "عناصر نادرة",
+          "نزائر"
+        ]
+      },
+      "broader": [
+        "concept3943"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T14:36:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عناصر نزرة"
+        ],
+        "en": [
+          "Trace elements"
+        ],
+        "es": [
+          "Oligoelemento"
+        ],
+        "fr": [
+          "Oligoélément"
+        ],
+        "ru": [
+          "Микроэлементы"
+        ]
+      },
+      "related": [
+        "concept137",
+        "concept3949"
+      ],
+      "scope_notes": {
+        "ar": [
+          "العناصر المجتمعة بكميات دقيقة في الأنسجة النباتية أو الحيوانية وتعتبر أساسية في العمليات الفسيولوجية."
+        ],
+        "en": [
+          "Elements combined in minute quantities in plant or animal tissues considered essential in physiological processes."
+        ],
+        "es": [
+          "Elemento químico que, en muy pequeñas cantidades, es indispensable en los tejidos animales o vegetales para las funciones fisiológicas."
+        ],
+        "fr": [
+          "Éléments combinés en infimes quantités dans les tissus végétaux ou animaux, jouant un rôle essentiel dans les processus physiologiques."
+        ],
+        "ru": [
+          "Химические элементы, содержащиеся в растительных или животных тканях в мельчайших долях и признанные незаменимыми для физиологических процессов."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3948",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3948",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3943"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:51:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فيتامينات"
+        ],
+        "en": [
+          "Vitamins"
+        ],
+        "es": [
+          "Vitamina"
+        ],
+        "fr": [
+          "Vitamine"
+        ],
+        "ru": [
+          "Витамины"
+        ]
+      },
+      "related": [
+        "concept1812",
+        "concept3948",
+        "concept3957"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3949",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3949",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انشاء حيوي",
+          "تخليق بيولوجي",
+          "توليف حيوي"
+        ]
+      },
+      "broader": [
+        "concept218"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخليق حيوي"
+        ],
+        "en": [
+          "Biosynthesis"
+        ],
+        "es": [
+          "Biosíntesis"
+        ],
+        "fr": [
+          "Biosynthèse"
+        ],
+        "ru": [
+          "Биосинтез"
+        ]
+      },
+      "related": [
+        "concept3954"
+      ],
+      "scope_notes": {
+        "ar": [
+          "إنتاج جزيئات بواسطة خلية حية، وهي سمة أساسية في عملية البناء."
+        ],
+        "en": [
+          "Production of molecules by a living cell which is essential feature of anabolism."
+        ],
+        "es": [
+          "Segregación de una sustancia química por un organismo vivo durante su metabolismo."
+        ],
+        "fr": [
+          "Production d'une substance chimique par un organisme vivant au cours de son métabolisme."
+        ],
+        "ru": [
+          "Производство молекул живой клеткой, что является важным условием анаболизма."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3953",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3953",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استقلاب",
+          "تمثيل غذائي"
+        ]
+      },
+      "broader": [
+        "concept218"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ايض"
+        ],
+        "en": [
+          "Metabolism"
+        ],
+        "es": [
+          "Metabolismo"
+        ],
+        "fr": [
+          "Métabolisme"
+        ],
+        "ru": [
+          "Метаболизм"
+        ]
+      },
+      "related": [
+        "concept227",
+        "concept3953",
+        "concept4154",
+        "concept7996",
+        "concept8194"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3954",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3954",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كيمياء العقاقير",
+          "كيمياء النبات",
+          "كيمياء النبات الحيوية",
+          "كيمياء حيوية نباتية"
+        ],
+        "en": [
+          "Plant biochemistry",
+          "Plant chemistry"
+        ],
+        "es": [
+          "Bioquímica de las plantas",
+          "Química de las plantas"
+        ],
+        "fr": [
+          "Biochimie des plantes",
+          "Chimie des plantes"
+        ],
+        "ru": [
+          "Биохимия растений",
+          "Химия растений"
+        ]
+      },
+      "broader": [
+        "concept218"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:52:13+00:00",
+      "narrower": [
+        "concept11172"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "كيمياء نباتية"
+        ],
+        "en": [
+          "Phytochemistry"
+        ],
+        "es": [
+          "Fitoquímica"
+        ],
+        "fr": [
+          "Phytochimie"
+        ],
+        "ru": [
+          "Фитохимия"
+        ]
+      },
+      "related": [
+        "concept10957",
+        "concept143",
+        "concept230",
+        "concept4265"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3955",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3955",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نشأة حيوية",
+          "نُشوء احيائي"
+        ]
+      },
+      "broader": [
+        "concept4044"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نُشوء حيوي"
+        ],
+        "en": [
+          "Biogenesis"
+        ],
+        "es": [
+          "Biogénesis"
+        ],
+        "fr": [
+          "Biogenèse"
+        ],
+        "ru": [
+          "Биогенез"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "النظرية القائلة بأن الكائنات الحية يمكن أن تنشأ فقط من الكائنات الحية الأخرى وغير الحية من المادة غير الحية."
+        ],
+        "en": [
+          "The theory that living organisms can arise only from other living organisms and non from nonliving matter."
+        ],
+        "es": [
+          "Teoría según la cual todo ser vivo puede surgir solamente de otro ser vivo."
+        ],
+        "fr": [
+          "Théorie d'après laquelle tout être vivant est issu d'un autre être vivant."
+        ],
+        "ru": [
+          "Теория, в соответствии с которой живые организмы могут образоваться только из других живых организмов и никогда - из неживой материи."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3982",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3982",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تأثيرات بيولوجية"
+        ]
+      },
+      "broader": [
+        "concept219"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:43:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اثار بيولوجية"
+        ],
+        "en": [
+          "Biological effects"
+        ],
+        "es": [
+          "Efectos biológicos"
+        ],
+        "fr": [
+          "Effet biologique"
+        ],
+        "ru": [
+          "Биологические эффекты"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4018",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4018",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ابحاث بيولوجية",
+          "بحث بيولوجي"
+        ]
+      },
+      "broader": [
+        "concept219"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T14:33:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث بيولوجية"
+        ],
+        "en": [
+          "Biological research"
+        ],
+        "es": [
+          "Investigación biológica"
+        ],
+        "fr": [
+          "Recherche biologique"
+        ],
+        "ru": [
+          "Биологические исследования"
+        ]
+      },
+      "related": [
+        "concept2394"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم للأعمال التي تتناول مشروعات البحوث. للأعمال العلمية العامة، استخدم \"علم الأحياء\"."
+        ],
+        "en": [
+          "Use for works dealing with research projects. For general scientific works, use \"biology\"."
+        ],
+        "es": [
+          "Se refiere a los trabajos relacionados con proyectos de investigación. Para trabajos científicos generales emplear \"biología\"."
+        ],
+        "fr": [
+          "S'applique aux travaux liés à des projets de recherche. Pour des travaux scientifiques généraux, utiliser \"biologie\"."
+        ],
+        "ru": [
+          "Используется по отношению к работам, выполняемым в рамках исследовательских проектов. Для научных работ общего плана используйте термин \"Биология\"."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4024",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4024",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استدلال بيولوجي",
+          "علم الاحصائيات الحيوية",
+          "علم الاحياء القياسي",
+          "علم القياس الحيوي",
+          "علم المقاييس الحيوية",
+          "قياس بيولوجي",
+          "قياس حيوي",
+          "قياسات حيوية"
+        ]
+      },
+      "broader": [
+        "concept219"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T14:31:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقاييس حيوية"
+        ],
+        "en": [
+          "Biometrics"
+        ],
+        "es": [
+          "Biometría"
+        ],
+        "fr": [
+          "Biométrie"
+        ],
+        "ru": [
+          "Биометрия"
+        ]
+      },
+      "related": [
+        "concept119"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الطرق الإحصائية المطبقة على المشكلات البيولوجية."
+        ],
+        "en": [
+          "Statistical methods applied to biological problems."
+        ],
+        "es": [
+          "Método estadístico aplicado a problemas biológicos."
+        ],
+        "fr": [
+          "Méthode statistique appliquée aux problèmes biologiques."
+        ],
+        "ru": [
+          "Статистические методы, используемые в решении биологических задач."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4040",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4040",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيولوجيا الاعصاب",
+          "علم احياء الاعصاب",
+          "علم الاحياء العصبي"
+        ],
+        "en": [
+          "Neuroscience"
+        ],
+        "es": [
+          "Neurociencia"
+        ],
+        "fr": [
+          "Neuroscience"
+        ]
+      },
+      "broader": [
+        "concept219"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2025-10-29T16:15:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بيولوجيا عصبية"
+        ],
+        "en": [
+          "Neurobiology"
+        ],
+        "es": [
+          "Neurobiología"
+        ],
+        "fr": [
+          "Neurobiologie"
+        ],
+        "ru": [
+          "Нейробиология"
+        ]
+      },
+      "related": [
+        "concept17160",
+        "concept2320",
+        "concept4292",
+        "concept4294",
+        "concept4295"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4041",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4041",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيولوجيا اشعاعية"
+        ]
+      },
+      "broader": [
+        "concept219"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:51:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاحياء الاشعاعي"
+        ],
+        "en": [
+          "Radiobiology"
+        ],
+        "es": [
+          "Radiobiología"
+        ],
+        "fr": [
+          "Radiobiologie"
+        ],
+        "ru": [
+          "Радиобиология"
+        ]
+      },
+      "related": [
+        "concept15154",
+        "concept15789",
+        "concept1581",
+        "concept220",
+        "concept6687",
+        "concept9458"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الآثار البيولوجية للإشعاع."
+        ],
+        "en": [
+          "Biological effects of radiation."
+        ],
+        "es": [
+          "Efectos biológicos de la radiación."
+        ],
+        "fr": [
+          "Effets biologiques de la radiation."
+        ],
+        "ru": [
+          "Биологические эффекты от радиации."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4042",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4042",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نشوء",
+          "نظرية النشوء والارتقاء"
+        ],
+        "en": [
+          "Biological evolution"
+        ],
+        "es": [
+          "Evolución biológica",
+          "Evolución natural"
+        ],
+        "fr": [
+          "Évolution biologique"
+        ],
+        "ru": [
+          "Биологическая эволюция"
+        ]
+      },
+      "broader": [
+        "concept223"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:44:18+00:00",
+      "narrower": [
+        "concept3982"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تطور"
+        ],
+        "en": [
+          "Evolution"
+        ],
+        "es": [
+          "Evolución"
+        ],
+        "fr": [
+          "Évolution"
+        ],
+        "ru": [
+          "Эволюция"
+        ]
+      },
+      "related": [
+        "concept10533",
+        "concept219",
+        "concept2509"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4044",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4044",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مخاض",
+          "مولد",
+          "ولادة"
+        ]
+      },
+      "broader": [
+        "concept224"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:44:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميلاد"
+        ],
+        "en": [
+          "Birth"
+        ],
+        "es": [
+          "Nacimiento"
+        ],
+        "fr": [
+          "Naissance"
+        ],
+        "ru": [
+          "Рождение"
+        ]
+      },
+      "related": [
+        "concept1015",
+        "concept4110",
+        "concept4111"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4108",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4108",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انجاب",
+          "انجاب بشري",
+          "تكاثر",
+          "تكاثر الانسان",
+          "تكاثر بشري",
+          "تناسل",
+          "توالد",
+          "توالد بشري"
+        ],
+        "en": [
+          "Reproduction (biological)"
+        ],
+        "es": [
+          "Reproducción biológica"
+        ],
+        "fr": [
+          "Reproduction (biologique)"
+        ],
+        "ru": [
+          "Репродукция (биологическая)"
+        ]
+      },
+      "broader": [
+        "concept227"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:44:56+00:00",
+      "narrower": [
+        "concept1015",
+        "concept2418",
+        "concept4115"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تناسل بشري"
+        ],
+        "en": [
+          "Human reproduction"
+        ],
+        "es": [
+          "Reproducción humana"
+        ],
+        "fr": [
+          "Reproduction humaine"
+        ],
+        "ru": [
+          "Воспроизводство человека"
+        ]
+      },
+      "related": [
+        "concept1016",
+        "concept223",
+        "concept4108",
+        "concept4154"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4111",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4111",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "خصب"
+        ]
+      },
+      "broader": [
+        "concept4111"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خصوبة"
+        ],
+        "en": [
+          "Fertility"
+        ],
+        "es": [
+          "Fecundidad"
+        ],
+        "fr": [
+          "Fécondité"
+        ],
+        "ru": [
+          "Способность к воспроизведению потомства"
+        ]
+      },
+      "related": [
+        "concept4110",
+        "concept4113",
+        "concept6826"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4115",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4115",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة حسية",
+          "اعضاء الحس",
+          "اعضاء الحواس",
+          "اعضاء حسية",
+          "انظمة حسية",
+          "جهاز حسي"
+        ],
+        "en": [
+          "Sense organs"
+        ],
+        "es": [
+          "Órganos de los sentidos",
+          "Órganos sensitivos"
+        ],
+        "fr": [
+          "Organes des sens"
+        ],
+        "ru": [
+          "Органы чувств"
+        ]
+      },
+      "broader": [
+        "concept2320"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T14:32:30+00:00",
+      "narrower": [
+        "concept10668",
+        "concept11783"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجهزة  الاحساس"
+        ],
+        "en": [
+          "Sensory systems"
+        ],
+        "es": [
+          "Sistema sensorial"
+        ],
+        "fr": [
+          "Système sensoriel"
+        ],
+        "ru": [
+          "Сенсорные системы"
+        ]
+      },
+      "related": [
+        "concept2545",
+        "concept4135",
+        "concept8211"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4141",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4141",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "درجة حرارة البدن"
+        ],
+        "es": [
+          "Temperatura corporal"
+        ]
+      },
+      "broader": [
+        "concept227"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:44:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "درجة حرارة الجسم"
+        ],
+        "en": [
+          "Body temperature"
+        ],
+        "es": [
+          "Temperatura del cuerpo"
+        ],
+        "fr": [
+          "Température du corps"
+        ],
+        "ru": [
+          "Температура тела"
+        ]
+      },
+      "related": [
+        "concept4154",
+        "concept4155"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4152",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4152",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "فسيولوجيا الانسان",
+          "فسيولوجيا بشرية"
+        ]
+      },
+      "broader": [
+        "concept227"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-23T18:33:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم وظائف الاعضاء البشرية"
+        ],
+        "en": [
+          "Human physiology"
+        ],
+        "es": [
+          "Fisiología humana"
+        ],
+        "fr": [
+          "Physiologie humaine"
+        ],
+        "ru": [
+          "Физиология человека"
+        ]
+      },
+      "related": [
+        "concept1581",
+        "concept224",
+        "concept2322",
+        "concept3954",
+        "concept4111",
+        "concept4152",
+        "concept5063",
+        "concept9700",
+        "concept9775"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4154",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4154",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دماغ",
+          "عقل"
+        ]
+      },
+      "broader": [
+        "concept2320"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:44:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مخ"
+        ],
+        "en": [
+          "Brain"
+        ],
+        "es": [
+          "Cerebro"
+        ],
+        "fr": [
+          "Cerveau"
+        ],
+        "ru": [
+          "Мозг"
+        ]
+      },
+      "related": [
+        "concept3690",
+        "concept4041",
+        "concept4294",
+        "concept4295"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4292",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4292",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حُرَيْرَات",
+          "سعرات حرارية",
+          "كالوري",
+          "وحدات حرارية"
+        ]
+      },
+      "broader": [
+        "concept7996"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سعرات"
+        ],
+        "en": [
+          "Calories"
+        ],
+        "es": [
+          "Caloría"
+        ],
+        "fr": [
+          "Calorie"
+        ],
+        "ru": [
+          "Калории"
+        ]
+      },
+      "related": [
+        "concept4155"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4553",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4553",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept221"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خلايا"
+        ],
+        "en": [
+          "Cells"
+        ],
+        "es": [
+          "Célula"
+        ],
+        "fr": [
+          "Cellule"
+        ],
+        "ru": [
+          "Клетки"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4816",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4816",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5063"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:43:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نمو حركي"
+        ],
+        "en": [
+          "Motor development"
+        ],
+        "es": [
+          "Desarrollo motor"
+        ],
+        "fr": [
+          "Développement moteur"
+        ],
+        "ru": [
+          "Развитие моторики"
+        ]
+      },
+      "related": [
+        "concept2320",
+        "concept388",
+        "concept5055"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5061",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5061",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيولوجيا النمو",
+          "تطور فسيولوجي",
+          "علم الاحياء التنموي",
+          "علم الاحياء النَمَائِي",
+          "نمو بدني"
+        ],
+        "en": [
+          "Developmental biology",
+          "Physical development"
+        ],
+        "es": [
+          "Biología del desarrollo",
+          "Desarrollo físico"
+        ],
+        "fr": [
+          "Biologie du développement",
+          "Développement physique"
+        ],
+        "ru": [
+          "Физическое развитие",
+          "Эволюционная биология"
+        ]
+      },
+      "broader": [
+        "concept227"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:10+00:00",
+      "narrower": [
+        "concept3064",
+        "concept5061"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نمو فيسيولوجي"
+        ],
+        "en": [
+          "Physiological development"
+        ],
+        "es": [
+          "Desarrollo fisiológico"
+        ],
+        "fr": [
+          "Développement physiologique"
+        ],
+        "ru": [
+          "Физиологическое развитие"
+        ]
+      },
+      "related": [
+        "concept224",
+        "concept388",
+        "concept4154",
+        "concept5055"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5063",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5063",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "كروموسومات"
+        ]
+      },
+      "broader": [
+        "concept222"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صبغيات"
+        ],
+        "en": [
+          "Chromosomes"
+        ],
+        "es": [
+          "Cromosoma"
+        ],
+        "fr": [
+          "Chromosome"
+        ],
+        "ru": [
+          "Хромосомы"
+        ]
+      },
+      "related": [
+        "concept223"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5160",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5160",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم التغذية",
+          "غِذَاء"
+        ]
+      },
+      "broader": [
+        "concept227"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:35+00:00",
+      "narrower": [
+        "concept14652",
+        "concept2043",
+        "concept4553"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تغذية"
+        ],
+        "en": [
+          "Nutrition"
+        ],
+        "es": [
+          "Nutrición"
+        ],
+        "fr": [
+          "Nutrition"
+        ],
+        "ru": [
+          "Питание"
+        ]
+      },
+      "related": [
+        "concept13670",
+        "concept1812",
+        "concept3954",
+        "concept7994",
+        "concept8194"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7996",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7996",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مُضَغ"
+        ]
+      },
+      "broader": [
+        "concept3064"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-23T18:34:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجنة"
+        ],
+        "en": [
+          "Embryos"
+        ],
+        "es": [
+          "Embrión"
+        ],
+        "fr": [
+          "Embryon"
+        ],
+        "ru": [
+          "Эмбрионы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9597",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9597",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Eugénique"
+        ]
+      },
+      "broader": [
+        "concept11366"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-23T18:33:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحسين النسل"
+        ],
+        "en": [
+          "Eugenics"
+        ],
+        "es": [
+          "Eugenesia"
+        ],
+        "fr": [
+          "Eugénisme"
+        ],
+        "ru": [
+          "Евгеника"
+        ]
+      },
+      "related": [
+        "concept10457",
+        "concept299"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تحسين الصفات الوراثية لأمة أو عائلة من خلال التكاثر المقيد أو الانتقائي."
+        ],
+        "en": [
+          "Improvement of hereditary characteristics of a population or of a family by controlled or selective breeding."
+        ],
+        "es": [
+          "Conjunto de métodos tendientes al mejoramiento del patrimonio genético de una población o una familia por reproducción controlada o selectiva."
+        ],
+        "fr": [
+          "Ensemble des méthodes qui visent à améliorer le patrimoine génétique d'une population ou d'une famille par la reprodution contrôlée ou sélective."
+        ],
+        "ru": [
+          "Улучшение наследственных признаков населения или отдельной семьи путем контролируемого или селективного отбора."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10455",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10455",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الوراثة البشري",
+          "وراثيات بشرية"
+        ]
+      },
+      "broader": [
+        "concept223"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وراثة بشرية"
+        ],
+        "en": [
+          "Human genetics"
+        ],
+        "es": [
+          "Genética humana"
+        ],
+        "fr": [
+          "Génétique humaine"
+        ],
+        "ru": [
+          "Генетика человека"
+        ]
+      },
+      "related": [
+        "concept10455",
+        "concept2322"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10457",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10457",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اصطفاء طبيعي",
+          "انتقاء طبيعي",
+          "بقاء الاصلح"
+        ]
+      },
+      "broader": [
+        "concept223"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انتخاب طبيعي"
+        ],
+        "en": [
+          "Natural selection"
+        ],
+        "es": [
+          "Selección natural"
+        ],
+        "fr": [
+          "Sélection naturelle"
+        ],
+        "ru": [
+          "Естественный отбор"
+        ]
+      },
+      "related": [
+        "concept4044"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10533",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10533",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عينان",
+          "عيون",
+          "مجال الابصار",
+          "مجال الرؤية",
+          "مرمى النظر"
+        ],
+        "en": [
+          "Eyes"
+        ],
+        "es": [
+          "Ojos",
+          "Visión"
+        ],
+        "fr": [
+          "Oeil",
+          "Vision"
+        ],
+        "ru": [
+          "Глаза"
+        ]
+      },
+      "broader": [
+        "concept4141"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:44:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مدى البصر"
+        ],
+        "en": [
+          "Eyesight"
+        ],
+        "es": [
+          "Vista"
+        ],
+        "fr": [
+          "Vue"
+        ],
+        "ru": [
+          "Зрение"
+        ]
+      },
+      "related": [
+        "concept10671"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10668",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10668",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بِناء ضوئي",
+          "تخليق ضوئي",
+          "تركيب ضوئي",
+          "توليف ضوئي"
+        ]
+      },
+      "broader": [
+        "concept3955"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تمثيل ضوئي"
+        ],
+        "en": [
+          "Photosynthesis"
+        ],
+        "es": [
+          "Fotosíntesis"
+        ],
+        "fr": [
+          "Photosynthèse"
+        ],
+        "ru": [
+          "Фотосинтез"
+        ]
+      },
+      "related": [
+        "concept11170"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11172",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11172",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صفات موروثة",
+          "صفات وراثية"
+        ]
+      },
+      "broader": [
+        "concept223"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:28+00:00",
+      "narrower": [
+        "concept10455"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وراثة"
+        ],
+        "en": [
+          "Heredity"
+        ],
+        "es": [
+          "Herencia"
+        ],
+        "fr": [
+          "Hérédité"
+        ],
+        "ru": [
+          "Наследственность"
+        ]
+      },
+      "related": [
+        "concept222"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11366",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11366",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اختلاف وراثي",
+          "تباين وراثي",
+          "تبدل",
+          "تحوّل",
+          "تغيير بيولوجي",
+          "تنوع وراثي",
+          "طفرة جينية",
+          "طفرة وراثية"
+        ],
+        "en": [
+          "Biological change",
+          "Genetic variation"
+        ],
+        "es": [
+          "Cambio biológico",
+          "Variación genética"
+        ],
+        "fr": [
+          "Changement biologique",
+          "Variation génétique"
+        ],
+        "ru": [
+          "Биологическая изменчивость",
+          "Генетическая изменчивость"
+        ]
+      },
+      "broader": [
+        "concept223"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طفرة"
+        ],
+        "en": [
+          "Mutation"
+        ],
+        "es": [
+          "Mutación"
+        ],
+        "fr": [
+          "Mutation"
+        ],
+        "ru": [
+          "Мутации"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "أي تغيير في التركيب الوراثي للكائن الحي يحدث على مستوى الجين أو الكروموسوم أو الجينوم."
+        ],
+        "en": [
+          "Any change in the genotype of an organism occurring at the gene, chromosome or genome level."
+        ],
+        "es": [
+          "Todo cambio en el genotipo de un organismo a nivel de genes, cromosomas o genoma."
+        ],
+        "fr": [
+          "Tout changement dans le génotype d'un organisme intervenant au niveau des gènes, des chromosomes ou du génome."
+        ],
+        "ru": [
+          "Любое изменение, происходящее в генотипе организма на уровне гена, хромосомы или генома."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11375",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11375",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اذان",
+          "اذنان",
+          "استماع"
+        ],
+        "en": [
+          "Ears"
+        ],
+        "es": [
+          "Orejas",
+          "Oído"
+        ],
+        "fr": [
+          "Oreille"
+        ],
+        "ru": [
+          "Уши"
+        ]
+      },
+      "broader": [
+        "concept4141"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سَمْع"
+        ],
+        "en": [
+          "Hearing"
+        ],
+        "es": [
+          "Recepción auditiva"
+        ],
+        "fr": [
+          "Ouïe"
+        ],
+        "ru": [
+          "Слух"
+        ]
+      },
+      "related": [
+        "concept5826"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11783",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11783",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حُمَات"
+        ]
+      },
+      "broader": [
+        "concept3512"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:52:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فيروسات"
+        ],
+        "en": [
+          "Viruses"
+        ],
+        "es": [
+          "Virus"
+        ],
+        "fr": [
+          "Virus"
+        ],
+        "ru": [
+          "Вирусы"
+        ]
+      },
+      "related": [
+        "concept208",
+        "concept250",
+        "concept2623",
+        "concept2632",
+        "concept3505",
+        "concept3513"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12085",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12085",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept227"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:50:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم النفس الفسيولوجي"
+        ],
+        "en": [
+          "Psychophysiology"
+        ],
+        "es": [
+          "Psicofisiología"
+        ],
+        "fr": [
+          "Psychophysiologie"
+        ],
+        "ru": [
+          "Психофизиология"
+        ]
+      },
+      "related": [
+        "concept2320",
+        "concept392"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14505",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14505",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عناصر غذائية",
+          "مواد غذائية",
+          "مواد مغذّية"
+        ],
+        "es": [
+          "Sustancia nutritiva"
+        ],
+        "fr": [
+          "Matière nutritive",
+          "Nutriant",
+          "Substance nutritive",
+          "Élément nutritif"
+        ]
+      },
+      "broader": [
+        "concept7996"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:45:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مغذيات"
+        ],
+        "en": [
+          "Nutrients"
+        ],
+        "es": [
+          "Nutriente"
+        ],
+        "fr": [
+          "Nutriment"
+        ],
+        "ru": [
+          "Питательные вещества"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14652",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14652",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ارث جيني",
+          "تراث وراثي",
+          "جينوم بشري",
+          "مجين بشري",
+          "مَجين"
+        ],
+        "en": [
+          "Genetic heritage",
+          "Human genome"
+        ],
+        "es": [
+          "Genoma humano",
+          "Patrimonio genético"
+        ],
+        "fr": [
+          "Génome humain",
+          "Patrimoine génétique"
+        ],
+        "ru": [
+          "Генетическое наследие",
+          "Геном человека"
+        ]
+      },
+      "broader": [
+        "concept221"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-23T18:33:41+00:00",
+      "narrower": [
+        "concept222"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جينوم"
+        ],
+        "en": [
+          "Genome"
+        ],
+        "es": [
+          "Genoma"
+        ],
+        "fr": [
+          "Génome"
+        ],
+        "ru": [
+          "Геном"
+        ]
+      },
+      "related": [
+        "concept223"
+      ],
+      "scope_notes": {
+        "ar": [
+          "المرجع الجيني الكامل لكائن حي."
+        ],
+        "en": [
+          "Complete genetic repertoire of an organism."
+        ],
+        "es": [
+          "Conjunto de los genes de un individuo o de una especie."
+        ],
+        "fr": [
+          "L'ensemble des déterminants héréditaires (gènes), propre à une espèce donnée."
+        ],
+        "ru": [
+          "Совокупность генов, содержащихся в гаплоидном наборе хромосом данного организма."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16998",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16998",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انظمة هضمية"
+        ],
+        "fr": [
+          "Appareil digestif"
+        ]
+      },
+      "broader": [
+        "concept217"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.70"
+      ],
+      "modified": "2019-12-15T13:44:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اجهزة هضمية"
+        ],
+        "en": [
+          "Digestive systems"
+        ],
+        "es": [
+          "Sistema digestivo"
+        ],
+        "fr": [
+          "Système digestif"
+        ],
+        "ru": [
+          "Пищеварительные системы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17040",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17040",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt2.70",
+    "labels": {
+      "en": "Biology",
+      "fr": "Biologie"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt2.70"
+  }
+}

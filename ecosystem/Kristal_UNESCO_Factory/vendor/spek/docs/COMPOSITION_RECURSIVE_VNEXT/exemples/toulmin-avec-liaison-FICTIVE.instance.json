@@ -1,0 +1,105 @@
+{
+  "format": "spek.composition-instance/1.0",
+  "instance_id": "fictional-toulmin-with-semantik-bridge",
+  "template_ref": "rhetorical.toulmin-compact@1.0.0",
+  "editorial_relation": {
+    "relation_tag": "toulmin.claim-grounds-warrant",
+    "status": "declared_unverified",
+    "source_assertion_refs": [
+      "fictional.test.claim",
+      "fictional.test.evidence-1"
+    ]
+  },
+  "bindings": {
+    "claim": {
+      "node_type": "text_slot",
+      "kind": "thesis",
+      "realization_key": "case.thesis",
+      "communication_request_ref": "requests/case.thesis.json"
+    },
+    "grounds": {
+      "node_type": "repeat",
+      "template_ref": "rhetorical.evidence@1.0.0",
+      "min": 3,
+      "max": 3,
+      "instances": [
+        {
+          "node_type": "template_ref",
+          "instance_id": "proof-1",
+          "template_ref": "rhetorical.evidence@1.0.0",
+          "bindings": {
+            "statement": {
+              "node_type": "text_slot",
+              "kind": "evidence",
+              "realization_key": "case.proof.1",
+              "communication_request_ref": "requests/case.proof.1.json"
+            }
+          }
+        },
+        {
+          "node_type": "template_ref",
+          "instance_id": "proof-2",
+          "template_ref": "rhetorical.evidence@1.0.0",
+          "bindings": {
+            "statement": {
+              "node_type": "text_slot",
+              "kind": "evidence",
+              "realization_key": "case.proof.2",
+              "communication_request_ref": "requests/case.proof.2.json"
+            }
+          }
+        },
+        {
+          "node_type": "template_ref",
+          "instance_id": "proof-3",
+          "template_ref": "rhetorical.evidence@1.0.0",
+          "bindings": {
+            "statement": {
+              "node_type": "text_slot",
+              "kind": "evidence",
+              "realization_key": "case.proof.3",
+              "communication_request_ref": "requests/case.proof.3.json"
+            }
+          }
+        }
+      ]
+    },
+    "warrant": {
+      "node_type": "text_slot",
+      "kind": "inference",
+      "realization_key": "case.warrant",
+      "communication_request_ref": "requests/case.warrant.json"
+    },
+    "backing": {
+      "node_type": "text_slot",
+      "kind": "evidence",
+      "realization_key": "case.backing",
+      "communication_request_ref": "requests/case.backing.json"
+    },
+    "qualifier": {
+      "node_type": "text_slot",
+      "kind": "qualification",
+      "realization_key": "case.qualifier",
+      "communication_request_ref": "requests/case.qualifier.json"
+    },
+    "rebuttal": {
+      "node_type": "text_slot",
+      "kind": "objection",
+      "realization_key": "case.objection",
+      "communication_request_ref": "requests/case.objection.json"
+    },
+    "bridge": {
+      "node_type": "text_slot",
+      "kind": "relation",
+      "realization_key": "case.bridge",
+      "communication_request_ref": "requests/case.bridge.json",
+      "instance_id": "bridge-1"
+    }
+  },
+  "presentation": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "join_mode": "block"
+  },
+  "authority": "editorial_bindings_explicit_not_approved"
+}

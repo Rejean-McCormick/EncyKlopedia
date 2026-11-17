@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "mode": "historical fixture: GF linearization not compiled",
+  "cases": [
+    {
+      "case": "A001-core",
+      "request_id": "sha256:bb6ced3288e21f59be4470c0c78c98caf7c3eb24e8553079531405ef06ddfdac",
+      "plain_text": "Augustin défend l’existence du libre arbitre.",
+      "runtime": {
+        "runtime_set_id": "konstellation-fr-3"
+      }
+    },
+    {
+      "case": "K003-classification",
+      "request_id": "sha256:7b66811c258bfbcb132678cebf31347d695c39cffa344636345b4f2a540d064c",
+      "plain_text": "L’Immaculée Conception est un dogme.",
+      "runtime": {
+        "runtime_set_id": "konstellation-fr-3"
+      }
+    }
+  ]
+}

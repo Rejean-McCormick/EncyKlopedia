@@ -1,0 +1,971 @@
+{
+  "format": "spek.rhetorical-research-inventory/1.0",
+  "version": "2026-11-02",
+  "disclaimer": "Inspirations scientifiques et standards identifiés, sans conformité certifiée. Les préconditions sémantiques sont des obligations éditoriales, non une analyse automatique des Kristals.",
+  "sources": {
+    "RST": {
+      "title": "Théorie des structures rhétoriques — Mann & Thompson, définitions officielles (SFU)",
+      "url": "https://www.sfu.ca/rst/07french/definitions.html",
+      "class": "theorie"
+    },
+    "PDTB": {
+      "title": "Penn Discourse Treebank 3.0, manuel des relations",
+      "url": "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+      "class": "taxonomie linguistique"
+    },
+    "TOULMIN": {
+      "title": "Purdue OWL, modèle de Toulmin",
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html",
+      "class": "modele argumentatif"
+    },
+    "WALTON": {
+      "title": "Walton et Macagno, classification des schémas argumentatifs",
+      "url": "https://journals.sagepub.com/doi/full/10.1080/19462166.2015.1123772",
+      "class": "recherche argumentative"
+    },
+    "CARS": {
+      "title": "University of Massachusetts Amherst, modèle CARS de Swales",
+      "url": "https://www.umass.edu/writing-center/resources/creating-research-space",
+      "class": "modele de genre"
+    },
+    "DITA": {
+      "title": "OASIS DITA 1.3, types de contenu technique",
+      "url": "https://docs.oasis-open.org/dita/dita/v1.3/csd01/part2-tech-content/archSpec/technicalContent/dita_technicalContent_InformationTypes.html",
+      "class": "standard technique"
+    },
+    "ISO": {
+      "title": "ISO 24617-2:2020, actes de dialogue",
+      "url": "https://www.iso.org/standard/76443.html",
+      "class": "norme"
+    },
+    "W3C": {
+      "title": "W3C WAI, hiérarchie des titres",
+      "url": "https://www.w3.org/WAI/tutorials/page-structure/headings/",
+      "class": "recommandation d’accessibilité"
+    }
+  },
+  "patterns": [
+    {
+      "id": "rhetorical.toulmin-claim-counterclaim",
+      "family": "argument",
+      "relation_tag": "toulmin.rebuttal",
+      "label_fr": "Thèse, objection, réponse, limite",
+      "research_source": "TOULMIN",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.toulmin-claim-counterclaim@1.0.0",
+      "required_slots": [
+        "claim",
+        "counterclaim",
+        "response",
+        "limits"
+      ],
+      "semantic_precaution": "Ne pas présenter une objection comme réfutée sans réponse autorisée.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.toulmin-compact",
+      "family": "argument",
+      "relation_tag": "toulmin.claim-grounds-warrant",
+      "label_fr": "Thèse, preuves, garantie, réserve",
+      "research_source": "TOULMIN",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.toulmin-compact@1.0.0",
+      "required_slots": [
+        "claim",
+        "grounds",
+        "warrant"
+      ],
+      "semantic_precaution": "Le warrant est un lien argumentatif fourni, pas déduit.",
+      "critical_questions": [
+        "La garantie est-elle explicitement autorisée ?",
+        "La thèse dépasse-t-elle les données ?"
+      ]
+    },
+    {
+      "id": "rhetorical.toulmin-warrant-check",
+      "family": "argument",
+      "relation_tag": "toulmin.warrant-backing",
+      "label_fr": "Justification d’une garantie",
+      "research_source": "TOULMIN",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.toulmin-warrant-check@1.0.0",
+      "required_slots": [
+        "grounds",
+        "warrant",
+        "backing"
+      ],
+      "semantic_precaution": "La garantie et son soutien sont des éléments distincts.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.walton-analogy",
+      "family": "argument",
+      "relation_tag": "walton.analogy",
+      "label_fr": "Argument par analogie",
+      "research_source": "WALTON",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.walton-analogy@1.0.0",
+      "required_slots": [
+        "source_case",
+        "target_case",
+        "relevant_similarity",
+        "inference",
+        "limits"
+      ],
+      "semantic_precaution": "Une analogie ne constitue pas une preuve de causalité.",
+      "critical_questions": [
+        "Les similarités sont-elles pertinentes ?",
+        "Les différences sont-elles déterminantes ?"
+      ]
+    },
+    {
+      "id": "rhetorical.walton-cause-effect",
+      "family": "argument",
+      "relation_tag": "walton.cause-effect",
+      "label_fr": "Argument causal sous réserves",
+      "research_source": "WALTON",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.walton-cause-effect@1.0.0",
+      "required_slots": [
+        "cause_claim",
+        "evidence",
+        "effect",
+        "confounders"
+      ],
+      "semantic_precaution": "Ne pas afficher un lien de causalité non établi.",
+      "critical_questions": [
+        "Des variables de confusion ont-elles été exclues ?"
+      ]
+    },
+    {
+      "id": "rhetorical.walton-consequences",
+      "family": "argument",
+      "relation_tag": "walton.consequences",
+      "label_fr": "Décision et conséquences",
+      "research_source": "WALTON",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.walton-consequences@1.0.0",
+      "required_slots": [
+        "choice",
+        "benefits",
+        "costs"
+      ],
+      "semantic_precaution": "Ne pas convertir des effets hypothétiques en résultats avérés.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.walton-example",
+      "family": "argument",
+      "relation_tag": "walton.example",
+      "label_fr": "Généralisation à partir d’exemples",
+      "research_source": "WALTON",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.walton-example@1.0.0",
+      "required_slots": [
+        "examples",
+        "generalization",
+        "limits"
+      ],
+      "semantic_precaution": "Ne pas généraliser sans échantillonnage approprié.",
+      "critical_questions": [
+        "L’échantillon est-il représentatif ?"
+      ]
+    },
+    {
+      "id": "rhetorical.walton-expert-opinion",
+      "family": "argument",
+      "relation_tag": "walton.expert-opinion",
+      "label_fr": "Argument par expertise",
+      "research_source": "WALTON",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.walton-expert-opinion@1.0.0",
+      "required_slots": [
+        "domain",
+        "expert_statement",
+        "inference",
+        "qualification"
+      ],
+      "semantic_precaution": "La compétence, fiabilité et indépendance sont à évaluer hors du rendu.",
+      "critical_questions": [
+        "La source est-elle compétente dans le domaine ?",
+        "L’avis est-il correctement attribué ?",
+        "Des avis contradictoires existent-ils ?"
+      ]
+    },
+    {
+      "id": "rhetorical.walton-position-to-know",
+      "family": "argument",
+      "relation_tag": "walton.position-to-know",
+      "label_fr": "Source en position de savoir",
+      "research_source": "WALTON",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.walton-position-to-know@1.0.0",
+      "required_slots": [
+        "source_position",
+        "testimony",
+        "inference",
+        "reliability"
+      ],
+      "semantic_precaution": "Témoignage attribué, fiabilité non présumée.",
+      "critical_questions": [
+        "La source est-elle fiable ?",
+        "La connaissance est-elle de première main ?"
+      ]
+    },
+    {
+      "id": "rhetorical.walton-practical-reasoning",
+      "family": "argument",
+      "relation_tag": "walton.practical",
+      "label_fr": "Objectif, moyens, effets",
+      "research_source": "WALTON",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.walton-practical-reasoning@1.0.0",
+      "required_slots": [
+        "goal",
+        "actions",
+        "expected_effect",
+        "risks"
+      ],
+      "semantic_precaution": "L’action proposée est une recommandation conditionnelle, pas une prescription automatique.",
+      "critical_questions": [
+        "Existe-t-il d’autres moyens ?",
+        "Quels sont les effets indésirables ?"
+      ]
+    },
+    {
+      "id": "rhetorical.walton-sign",
+      "family": "argument",
+      "relation_tag": "walton.sign",
+      "label_fr": "Inférence fondée sur un indice",
+      "research_source": "WALTON",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.walton-sign@1.0.0",
+      "required_slots": [
+        "indicator",
+        "rule",
+        "inference",
+        "alternative"
+      ],
+      "semantic_precaution": "Un indice n’établit pas nécessairement la conclusion.",
+      "critical_questions": [
+        "L’indice a-t-il des explications alternatives ?"
+      ]
+    },
+    {
+      "id": "rhetorical.rst-antithesis",
+      "family": "coherence",
+      "relation_tag": "rst.antithesis",
+      "label_fr": "Deux propositions incompatibles",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-antithesis@1.0.0",
+      "required_slots": [
+        "rejected",
+        "retained"
+      ],
+      "semantic_precaution": "Ne pas présupposer une incompatibilité inexistante.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-background",
+      "family": "coherence",
+      "relation_tag": "rst.background",
+      "label_fr": "Contexte préalable + énoncé principal",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-background@1.0.0",
+      "required_slots": [
+        "background",
+        "nucleus"
+      ],
+      "semantic_precaution": "Le contexte doit être nécessaire à la compréhension.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-cause",
+      "family": "coherence",
+      "relation_tag": "rst.cause",
+      "label_fr": "Cause attestée + effet attesté",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-cause@1.0.0",
+      "required_slots": [
+        "cause",
+        "effect"
+      ],
+      "semantic_precaution": "Lien causal explicitement établi, jamais déduit de l’ordre.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-circumstance",
+      "family": "coherence",
+      "relation_tag": "rst.circumstance",
+      "label_fr": "Circonstance + situation",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-circumstance@1.0.0",
+      "required_slots": [
+        "circumstance",
+        "situation"
+      ],
+      "semantic_precaution": "Ne pas inventer de cadre temporel ou spatial.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-concession",
+      "family": "coherence",
+      "relation_tag": "rst.concession",
+      "label_fr": "Concession reconnue + position maintenue",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-concession@1.0.0",
+      "required_slots": [
+        "conceded",
+        "main"
+      ],
+      "semantic_precaution": "Ne pas effacer la validité de la concession.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-condition",
+      "family": "coherence",
+      "relation_tag": "rst.condition",
+      "label_fr": "Condition + conséquence conditionnelle",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-condition@1.0.0",
+      "required_slots": [
+        "condition",
+        "consequent"
+      ],
+      "semantic_precaution": "Ne pas transformer une association en implication établie.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-contrast",
+      "family": "coherence",
+      "relation_tag": "rst.contrast",
+      "label_fr": "Contraste équilibré de deux possibilités",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-contrast@1.0.0",
+      "required_slots": [
+        "a",
+        "b",
+        "criterion"
+      ],
+      "semantic_precaution": "Critère commun fourni explicitement.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-elaboration",
+      "family": "coherence",
+      "relation_tag": "rst.elaboration",
+      "label_fr": "Noyau + précisions complémentaires",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-elaboration@1.0.0",
+      "required_slots": [
+        "nucleus",
+        "details"
+      ],
+      "semantic_precaution": "Les détails doivent concerner le noyau.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-evaluation",
+      "family": "coherence",
+      "relation_tag": "rst.evaluation",
+      "label_fr": "Fait et jugement attribué",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-evaluation@1.0.0",
+      "required_slots": [
+        "situation",
+        "evaluation"
+      ],
+      "semantic_precaution": "L’évaluation doit rester attribuée, pas naturalisée en fait.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-evidence",
+      "family": "coherence",
+      "relation_tag": "rst.evidence",
+      "label_fr": "Affirmation + éléments probants",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-evidence@1.0.0",
+      "required_slots": [
+        "nucleus",
+        "evidence"
+      ],
+      "semantic_precaution": "L’existence d’éléments de preuve ne certifie pas leur suffisance.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-interpretation",
+      "family": "coherence",
+      "relation_tag": "rst.interpretation",
+      "label_fr": "Observation et interprétation",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-interpretation@1.0.0",
+      "required_slots": [
+        "observation",
+        "interpretation"
+      ],
+      "semantic_precaution": "Ne pas confondre une observation et son interprétation.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-justify",
+      "family": "coherence",
+      "relation_tag": "rst.justify",
+      "label_fr": "Proposition + justification autorisée",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-justify@1.0.0",
+      "required_slots": [
+        "statement",
+        "justification"
+      ],
+      "semantic_precaution": "Justification distincte des simples preuves de fait.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-means",
+      "family": "coherence",
+      "relation_tag": "rst.means",
+      "label_fr": "Objectif et moyens déclarés",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-means@1.0.0",
+      "required_slots": [
+        "goal",
+        "means"
+      ],
+      "semantic_precaution": "Les moyens ne garantissent pas la réalisation du but.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-preparation",
+      "family": "coherence",
+      "relation_tag": "rst.preparation",
+      "label_fr": "Amorce puis contenu central",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-preparation@1.0.0",
+      "required_slots": [
+        "preparation",
+        "nucleus"
+      ],
+      "semantic_precaution": "Amorce portant sur le contenu, pas de remplissage décoratif.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-purpose",
+      "family": "coherence",
+      "relation_tag": "rst.purpose",
+      "label_fr": "Action + but déclaré",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-purpose@1.0.0",
+      "required_slots": [
+        "action",
+        "purpose"
+      ],
+      "semantic_precaution": "Le but est attribué à la source.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-result",
+      "family": "coherence",
+      "relation_tag": "rst.result",
+      "label_fr": "Situation + conséquence attestée",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-result@1.0.0",
+      "required_slots": [
+        "situation",
+        "result"
+      ],
+      "semantic_precaution": "Différencier conséquence causale et simple succession.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-sequence",
+      "family": "coherence",
+      "relation_tag": "rst.sequence",
+      "label_fr": "Séquence d’événements déclarée",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-sequence@1.0.0",
+      "required_slots": [
+        "events"
+      ],
+      "semantic_precaution": "N’impose aucune date si elle n’est pas fournie.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-solutionhood",
+      "family": "coherence",
+      "relation_tag": "rst.solutionhood",
+      "label_fr": "Problème + réponse documentée",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-solutionhood@1.0.0",
+      "required_slots": [
+        "problem",
+        "solution"
+      ],
+      "semantic_precaution": "Une solution proposée n’est pas nécessairement validée.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-summary",
+      "family": "coherence",
+      "relation_tag": "rst.summary",
+      "label_fr": "Récapitulation déjà autorisée",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-summary@1.0.0",
+      "required_slots": [
+        "elements",
+        "summary"
+      ],
+      "semantic_precaution": "Résumé fourni par SemantiK sous obligations explicites, pas synthétisé automatiquement.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.rst-unless",
+      "family": "coherence",
+      "relation_tag": "rst.unless",
+      "label_fr": "Énoncé + exception conditionnante",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.rst-unless@1.0.0",
+      "required_slots": [
+        "statement",
+        "unless"
+      ],
+      "semantic_precaution": "L’exception doit être attestée.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.pdtb-conjunction",
+      "family": "discourse",
+      "relation_tag": "pdtb.expansion.conjunction",
+      "label_fr": "Informations coordonnées",
+      "research_source": "PDTB",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.pdtb-conjunction@1.0.0",
+      "required_slots": [
+        "items"
+      ],
+      "semantic_precaution": "La juxtaposition n’implique pas le même statut épistémique.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.pdtb-disjunction",
+      "family": "discourse",
+      "relation_tag": "pdtb.expansion.disjunction",
+      "label_fr": "Alternatives déclarées",
+      "research_source": "PDTB",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.pdtb-disjunction@1.0.0",
+      "required_slots": [
+        "options"
+      ],
+      "semantic_precaution": "Les alternatives ne sont pas forcément exclusives.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.pdtb-exception",
+      "family": "discourse",
+      "relation_tag": "pdtb.expansion.exception",
+      "label_fr": "Règle et exception",
+      "research_source": "PDTB",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.pdtb-exception@1.0.0",
+      "required_slots": [
+        "general",
+        "exception"
+      ],
+      "semantic_precaution": "Portée exacte de l’exception obligatoire.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.pdtb-instantiation",
+      "family": "discourse",
+      "relation_tag": "pdtb.expansion.instantiation",
+      "label_fr": "Énoncé général et exemples",
+      "research_source": "PDTB",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.pdtb-instantiation@1.0.0",
+      "required_slots": [
+        "general",
+        "instances"
+      ],
+      "semantic_precaution": "Les exemples illustrent, ils ne prouvent pas une règle générale.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.pdtb-level-of-detail",
+      "family": "discourse",
+      "relation_tag": "pdtb.expansion.level-of-detail",
+      "label_fr": "Aperçu suivi de précisions",
+      "research_source": "PDTB",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.pdtb-level-of-detail@1.0.0",
+      "required_slots": [
+        "overview",
+        "detail"
+      ],
+      "semantic_precaution": "Chaque précision doit référer à l’aperçu.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.pdtb-negative-condition",
+      "family": "discourse",
+      "relation_tag": "pdtb.contingency.negative-condition",
+      "label_fr": "Absence de condition et effet",
+      "research_source": "PDTB",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.pdtb-negative-condition@1.0.0",
+      "required_slots": [
+        "absent_condition",
+        "consequence"
+      ],
+      "semantic_precaution": "La négation de la condition doit être explicite.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.pdtb-purpose",
+      "family": "discourse",
+      "relation_tag": "pdtb.contingency.purpose",
+      "label_fr": "Acte et objectif",
+      "research_source": "PDTB",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.pdtb-purpose@1.0.0",
+      "required_slots": [
+        "action",
+        "goal"
+      ],
+      "semantic_precaution": "But explicite, non inféré du résultat.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.pdtb-similarity",
+      "family": "discourse",
+      "relation_tag": "pdtb.comparison.similarity",
+      "label_fr": "Similarités documentées",
+      "research_source": "PDTB",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.pdtb-similarity@1.0.0",
+      "required_slots": [
+        "first",
+        "second",
+        "shared"
+      ],
+      "semantic_precaution": "Ne doit pas éliminer les différences.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.pdtb-temporal-precedence",
+      "family": "discourse",
+      "relation_tag": "pdtb.temporal.asynchronous",
+      "label_fr": "Antériorité documentée",
+      "research_source": "PDTB",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.pdtb-temporal-precedence@1.0.0",
+      "required_slots": [
+        "earlier",
+        "later"
+      ],
+      "semantic_precaution": "N’implique pas la causalité.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.pdtb-temporal-synchronous",
+      "family": "discourse",
+      "relation_tag": "pdtb.temporal.synchronous",
+      "label_fr": "Simultanéité documentée",
+      "research_source": "PDTB",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.pdtb-temporal-synchronous@1.0.0",
+      "required_slots": [
+        "first",
+        "second"
+      ],
+      "semantic_precaution": "Simultanéité attestée, ne suppose aucune influence.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.epistemic-measurement-context",
+      "family": "epistemique",
+      "relation_tag": "spek.measurement",
+      "label_fr": "Mesure et conditions de mesure",
+      "research_source": "RST",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.epistemic-measurement-context@1.0.0",
+      "required_slots": [
+        "measure",
+        "condition",
+        "uncertainty"
+      ],
+      "semantic_precaution": "Ne pas présenter une mesure sans contexte ou incertitude.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.epistemic-multiple-perspectives",
+      "family": "epistemique",
+      "relation_tag": "spek.multiple-perspectives",
+      "label_fr": "Points de vue attribués et comparaison",
+      "research_source": "PDTB",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.epistemic-multiple-perspectives@1.0.0",
+      "required_slots": [
+        "perspectives",
+        "limits"
+      ],
+      "semantic_precaution": "Aucun point de vue n’est implicitement privilégié.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.epistemic-observation-hypothesis",
+      "family": "epistemique",
+      "relation_tag": "spek.observation-hypothesis",
+      "label_fr": "Observation, hypothèse, limites",
+      "research_source": "WALTON",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.epistemic-observation-hypothesis@1.0.0",
+      "required_slots": [
+        "observation",
+        "hypothesis",
+        "limits"
+      ],
+      "semantic_precaution": "L’hypothèse n’est pas un résultat.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.cars-introduction",
+      "family": "genre",
+      "relation_tag": "swales.cars",
+      "label_fr": "Contexte scientifique, lacune, contribution",
+      "research_source": "CARS",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.cars-introduction@1.0.0",
+      "required_slots": [
+        "territory",
+        "gap",
+        "purpose"
+      ],
+      "semantic_precaution": "Lacune et contribution doivent être explicitement sélectionnées, pas inventées.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.cars-research-question",
+      "family": "genre",
+      "relation_tag": "swales.cars.question",
+      "label_fr": "Domaine, question, objectif",
+      "research_source": "CARS",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.cars-research-question@1.0.0",
+      "required_slots": [
+        "context",
+        "gap",
+        "question",
+        "objective"
+      ],
+      "semantic_precaution": "La question est expressément autorisée; ne pas en inférer une.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.dita-concept",
+      "family": "genre",
+      "relation_tag": "dita.concept",
+      "label_fr": "Concept et explication",
+      "research_source": "DITA",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.dita-concept@1.0.0",
+      "required_slots": [
+        "term",
+        "definition"
+      ],
+      "semantic_precaution": "Adaptation éditoriale, pas document DITA XML conforme.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.dita-glossary",
+      "family": "genre",
+      "relation_tag": "dita.glossary",
+      "label_fr": "Entrée de glossaire",
+      "research_source": "DITA",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.dita-glossary@1.0.0",
+      "required_slots": [
+        "term",
+        "definition"
+      ],
+      "semantic_precaution": "Une entrée par acception, non une liste de synonymes.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.dita-reference",
+      "family": "genre",
+      "relation_tag": "dita.reference",
+      "label_fr": "Référence factuelle structurée",
+      "research_source": "DITA",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.dita-reference@1.0.0",
+      "required_slots": [
+        "identifier",
+        "description"
+      ],
+      "semantic_precaution": "Pas de garantie de compatibilité DITA XML.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.dita-task",
+      "family": "genre",
+      "relation_tag": "dita.task",
+      "label_fr": "Objectif, prérequis, procédure, résultat attendu",
+      "research_source": "DITA",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.dita-task@1.0.0",
+      "required_slots": [
+        "objective",
+        "steps"
+      ],
+      "semantic_precaution": "Ordre des étapes explicitement fourni, pas inféré.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.dita-troubleshooting",
+      "family": "genre",
+      "relation_tag": "dita.troubleshooting",
+      "label_fr": "Symptôme, causes possibles, vérification, résolution",
+      "research_source": "DITA",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.dita-troubleshooting@1.0.0",
+      "required_slots": [
+        "symptom",
+        "verification",
+        "resolution"
+      ],
+      "semantic_precaution": "Une cause possible ne doit pas être présentée comme cause démontrée.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.scientific-method-result",
+      "family": "genre",
+      "relation_tag": "dita.research-sequence",
+      "label_fr": "Méthode, résultats, limites",
+      "research_source": "DITA",
+      "state": "executable_structural_template_requires_editorial_semantic_review",
+      "template_ref": "rhetorical.scientific-method-result@1.0.0",
+      "required_slots": [
+        "method",
+        "observations",
+        "interpretation",
+        "limits"
+      ],
+      "semantic_precaution": "Modèle Spek dérivé de pratiques documentaires, pas un type DITA normatif.",
+      "critical_questions": []
+    },
+    {
+      "id": "rhetorical.argument-evidence",
+      "family": "original_vnext",
+      "relation_tag": "spek.original",
+      "label_fr": "argument evidence",
+      "research_source": null,
+      "state": "existing_executable_structural_template",
+      "template_ref": "rhetorical.argument-evidence@1.0.0"
+    },
+    {
+      "id": "rhetorical.assertion",
+      "family": "original_vnext",
+      "relation_tag": "spek.original",
+      "label_fr": "assertion",
+      "research_source": null,
+      "state": "existing_executable_structural_template",
+      "template_ref": "rhetorical.assertion@1.0.0"
+    },
+    {
+      "id": "rhetorical.comparison-narrative",
+      "family": "original_vnext",
+      "relation_tag": "spek.original",
+      "label_fr": "comparison narrative",
+      "research_source": null,
+      "state": "existing_executable_structural_template",
+      "template_ref": "rhetorical.comparison-narrative@1.0.0"
+    },
+    {
+      "id": "rhetorical.conclusion",
+      "family": "original_vnext",
+      "relation_tag": "spek.original",
+      "label_fr": "conclusion",
+      "research_source": null,
+      "state": "existing_executable_structural_template",
+      "template_ref": "rhetorical.conclusion@1.0.0"
+    },
+    {
+      "id": "rhetorical.definition",
+      "family": "original_vnext",
+      "relation_tag": "spek.original",
+      "label_fr": "definition",
+      "research_source": null,
+      "state": "existing_executable_structural_template",
+      "template_ref": "rhetorical.definition@1.0.0"
+    },
+    {
+      "id": "rhetorical.evidence",
+      "family": "original_vnext",
+      "relation_tag": "spek.original",
+      "label_fr": "evidence",
+      "research_source": null,
+      "state": "existing_executable_structural_template",
+      "template_ref": "rhetorical.evidence@1.0.0"
+    },
+    {
+      "id": "rhetorical.observation-interpretation",
+      "family": "original_vnext",
+      "relation_tag": "spek.original",
+      "label_fr": "observation interpretation",
+      "research_source": null,
+      "state": "existing_executable_structural_template",
+      "template_ref": "rhetorical.observation-interpretation@1.0.0"
+    },
+    {
+      "id": "rhetorical.qualification",
+      "family": "original_vnext",
+      "relation_tag": "spek.original",
+      "label_fr": "qualification",
+      "research_source": null,
+      "state": "existing_executable_structural_template",
+      "template_ref": "rhetorical.qualification@1.0.0"
+    },
+    {
+      "id": "rhetorical.synthesis",
+      "family": "original_vnext",
+      "relation_tag": "spek.original",
+      "label_fr": "synthesis",
+      "research_source": null,
+      "state": "existing_executable_structural_template",
+      "template_ref": "rhetorical.synthesis@1.0.0"
+    },
+    {
+      "id": "rhetorical.transition",
+      "family": "original_vnext",
+      "relation_tag": "spek.original",
+      "label_fr": "transition",
+      "research_source": null,
+      "state": "existing_executable_structural_template",
+      "template_ref": "rhetorical.transition@1.0.0"
+    }
+  ],
+  "discourse_model_format": "spek.discourse-model/1.0",
+  "discourse_models": 62,
+  "discourse_policy": "editorial_adaptation_not_a_normative_semantic_validator",
+  "semantik_policy": "phrases_and_transitions_from_explicit_qualified_requests_only"
+}

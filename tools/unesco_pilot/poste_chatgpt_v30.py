@@ -79,6 +79,9 @@ CREATE TABLE IF NOT EXISTS review_index(
  state TEXT NOT NULL DEFAULT 'PENDING',task_id TEXT,evidence_sha256 TEXT,
  last_seen_utc TEXT NOT NULL);
 CREATE INDEX IF NOT EXISTS idx_review_priority ON review_index(state,priority DESC,seed_count DESC,page_id ASC);
+CREATE TABLE IF NOT EXISTS hold_reexaminations(
+ candidate_id TEXT PRIMARY KEY,attempts INTEGER NOT NULL DEFAULT 0,
+ last_reopened_utc TEXT NOT NULL,original_task_id TEXT,original_evidence_sha256 TEXT);
 CREATE TABLE IF NOT EXISTS receipts(id INTEGER PRIMARY KEY AUTOINCREMENT,at_utc TEXT NOT NULL,
  filename TEXT NOT NULL,job_id TEXT,status TEXT NOT NULL,detail TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS events(id INTEGER PRIMARY KEY AUTOINCREMENT,at_utc TEXT NOT NULL,message TEXT NOT NULL);
@@ -129,33 +132,39 @@ def json_text(obj):return (json.dumps(obj,ensure_ascii=False,indent=2)+'\n').enc
 
 def prompt(job):
     if job['kind']=='v27':
-        return f'''ENCYKLOPEDIA — KRISTAL PRIVE v27 / MODE SYNTHESE v31.6 — {job['key']}
+        return f'''ENCYKLOPEDIA — KRISTAL PRIVE v27 / SYNTHESE APPROFONDIE v31.8 — {job['key']}
 
 TRAITE CE ZIP COMPLET : {Path(job['bundle_path']).name}
 SHA-256 exact du ZIP SOURCE : {job['source_sha256']}
 
-MISSION : construire une excellente encyclopedie de synthese, pas recopier Wikipedia. Les grands packs
-peuvent contenir jusqu a 120 articles / 400 000 mots de texte original. Consacre le travail necessaire
-aux analyses; la priorite est de limiter les interventions humaines, pas de finir vite.
+OBJECTIF : encyclopédie de synthèse de grande qualité, pas résumé rapide ni reproduction de
+Wikipédia. Le temps de travail n'est pas un critère de fin ; aucune quantité de faits n'est imposée.
+Lis MANIFEST_PACK_V27.json, INSTRUCTIONS_CHATGPT.md et MODELE_DELTA_KRISTAL_V27.json.
+Le guide DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl contient des extraits VERBATIM mais
+NON EXHAUSTIFS, ainsi qu'un inventaire des sections pour les nouveaux packs v31.8.
+Ce guide n'est pas une source probante : les seuls textes de preuve sont articles/*.
 
-1. Lis MANIFEST_PACK_V27.json et MODELE_DELTA_KRISTAL_V27.json.
-2. Si present, exploite DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl comme guide de navigation pour TOUS
-   les articles; ses extraits sont verbatim mais non exhaustifs. Les articles/ sont les seules sources.
-3. Examine chaque article, son importance et ses faits structurants. Complete au besoin depuis le
-   texte original, sans essayer de reproduire tous les details secondaires. Une synthese utile peut
-   contenir 3 a 8 connaissances par article, parfois moins ou beaucoup plus; aucun quota force.
-4. Pour CHAQUE connaissance, preserve page_id/revision_id, source_locator et une source_quote courte
-   et EXACTE dans le wikitext de la revision correspondante. Une citation lexicalement exacte mais
-   semantiquement inadaptee n est pas suffisante. N invente aucune reference.
-5. Les connaissances UNESCO sont des rattachements candidats, jamais canonises. Distingue faits
-   histories, lois potentiellement modifiees, opinions attribuees et controverses.
-6. Dans coverage_note, fais un bilan court pour CHAQUE article, y compris ceux sans fait retenu.
+SIX PASSES PAR ARTICLE :
+1. Inventorier thème, importance, structure et sections, sans oublier aucun article.
+2. Lire les passages pertinents du texte intégral, y compris après les extraits prioritaires.
+3. Faire une seconde passe des sections structurantes pour détecter les connaissances omises
+   (définitions, événements, décisions juridiques, mécanismes, conséquences, relations majeures).
+4. Écarter anecdotes, statistiques périssables, répétitions et listes secondaires.
+5. Vérifier chaque source_quote EXACTE, 20 à 500 caractères pour les NOUVEAUX packs
+   marqués synthesis_audit v31.8, et sa pertinence sémantique vis-à-vis de statement_en.
+   Conserver page_id/revision_id/source_locator, ne jamais inventer de citation.
+6. Auditer de nouveau chaque article, comparer faits retenus aux sections et signaler
+   les lacunes non résolues. Ne pas confondre 120/120 articles avec suffisance encyclopédique.
 
-RENVOIE UN SEUL ZIP contenant DELTA_KRISTAL_{job['key']}.json, format
+Dans coverage_note, lister CHAQUE enwiki:PAGE_ID, dimensions examinées, nombre de faits retenus,
+omissions ou limites (y compris les articles à 0 fait). Ne pas feindre un examen exhaustif.
+L'autorité des décisions UNESCO reste provisoire ; faits Kristal privés et non canoniques.
+
+RENVOIE UN SEUL ZIP avec DELTA_KRISTAL_{job['key']}.json au format
 encyklopedia.kristal-ai-delta.v27/1, pack_id={job['key']},
 pack_sha256={job['source_sha256']}, canonical_admissions=0,
-publication_authorized=false. Uniquement des donnees, aucun executable.
-Les connaissances restent privees et candidates. Ne demande pas a l utilisateur de decouper le lot.
+publication_authorized=false. Uniquement des données, aucun exécutable.
+Conserve toutes les révisions, identifiants et empreintes ; ne demande aucun découpage humain.
 '''
     return f'''ENCYKLOPEDIA — REVUE UNESCO v28 — TACHE {job['id']}\n\nANALYSE LE ZIP JOINT : {Path(job['bundle_path']).name} ({job['count']} propositions).\n\nLis chaque ligne du CSV REVUE_*.csv ET du fichier CONTEXTES_DOCUMENTAIRES_V28.jsonl (meme candidate_id). Lis toutes les propositions, y compris les packs de 4 000 (dernier lot possiblement plus petit). Travaille par tranches internes de 250 a 500 candidats pour couvrir tout le lot sans demander plusieurs envois. Un seul CSV final et un seul ZIP de retour. Ne classe jamais une proposition par defaut sans consulter son contexte; en cas de preuve insuffisante, choisis HOLD avec justification. Les preuves complementaires incluent les notes de portee UNESCO, les categories et, si disponible, un extrait du texte Wikipedia original par index local. Le manifeste indique explicitement les textes absents. APPROVE lorsque l'article traite substantiellement du concept UNESCO (pas une simple mention). Justification concise en francais de 20 caracteres minimum, expliquant le lien sans inventer de faits. REJECT les rapprochements manifestement hors sujet ou accessoires. HOLD seulement si l'information disponible ne permet pas une decision defendable. Ne fabrique aucun fait, ni connaissance canonique.\n\nRENVOIE UN SEUL ZIP contenant exactement DECISIONS_{job['id']}.csv, UTF-8, avec STRICTEMENT trois colonnes candidate_id,decision,justification. OBLIGATOIRE : une ligne pour CHACUN des {job['count']} candidate_id, y compris HOLD. Ceci prouve au moins que chaque candidat a reçu une décision; ne fabrique aucun identifiant. Un CSV de réponses abrégé peut être accepté pour compatibilité, mais l'interface exigera alors une confirmation humaine avant import. Une revue tout-HOLD demande aussi confirmation. N'ajoute aucun code exécutable.\n\nAprès vérification des identifiants et des preuves, l'interface reconstruira le CSV complet pour le véritable importeur v28.\n'''
 
@@ -434,9 +443,31 @@ class Station:
                         rr=qdb.execute("SELECT value FROM meta WHERE key='cursor_page_id'").fetchone()
                         qualification['cursor_page_id']=int(rr[0]) if rr else None
                 except (ValueError,sqlite3.Error):pass
+            open_reviews=self._open_review_count()
+            # Count queue-ready propositions, not the thousands scanned by the index.
+            # PENDING and DEFERRED are not tasks and must never be presented as such.
+            diagnostic={
+                'unesco_open':open_reviews,
+                'discovery_frozen':open_reviews>0,
+                'unesco_preparable':ix.get('PENDING',0)+ix.get('DEFERRED',0),
+                'unesco_pending':ix.get('PENDING',0),
+                'unesco_deferred':ix.get('DEFERRED',0),
+                'unesco_hold':ix.get('HOLD',0),
+                'free_lanes':sum(lane['job'] is None for lane in lanes),
+                'waiting_jobs':stat.get('WAITING',0),
+                'interpretation':('Découverte UNESCO reportée : revues ouvertes et preuves figées. '
+                     +('La réserve existante PENDING + DEFERRED peut néanmoins être empaquetée '
+                       'par « Préparer toute la prochaine vague », sans nouvelle découverte.'
+                       if ix.get('PENDING',0)+ix.get('DEFERRED',0)>0 else
+                       'Aucun candidat UNESCO en réserve : attendre la clôture des revues pour découvrir à nouveau.')
+                     if open_reviews else
+                     'Découverte UNESCO autorisée au prochain batch. '
+                     'Le nombre de candidats déjà parcourus par l’index ne représente pas une file nouvelle.')
+            }
             return {'volume_v315':self.volume_v315(),'qualification_v31':qualification,'version':VERSION,'busy':self.busy,'operation':self.operation,'lanes':lanes,'jobs':stat,
                     'review_index':ix,'stats':self._counts(),'events':events,'receipts':receipts,'updates':updates,'quality':quality,'work':str(self.work),
-                    'v28_frozen':self._open_review_count()>0,'preload':self.preload_status(lanes)}
+                    'production_diagnostic':diagnostic,
+                    'v28_frozen':open_reviews>0,'preload':self.preload_status(lanes)}
 
     def _start(self,name,fn,*args):
         with self.lock:
@@ -605,7 +636,8 @@ class Station:
              COUNT(DISTINCT e.seed_page_id) seed_count,
              SUM(CASE WHEN e.kind='WIKILINK' THEN 1 ELSE 0 END) links,
              SUM(CASE WHEN e.kind='SHARED_CATEGORY' THEN 1 ELSE 0 END) shared,
-             SUM(CASE WHEN e.kind='SUBCATEGORY' THEN 1 ELSE 0 END) subs
+             SUM(CASE WHEN e.kind='SUBCATEGORY' THEN 1 ELSE 0 END) subs,
+             SUM(CASE WHEN e.kind IN ('SQL_TITLE_PREFIX','SQL_CATEGORY_MEMBER') THEN 1 ELSE 0 END) broadscan_matches
              FROM candidates c JOIN evidence e ON e.branch_id=c.branch_id
              AND e.concept_id=c.concept_id AND e.page_id=c.page_id
              WHERE c.branch_id=? GROUP BY c.branch_id,c.concept_id,c.page_id'''
@@ -618,6 +650,11 @@ class Station:
                         if r['concept_id'] not in labels:continue
                         cid=m.candidate_id(branch['id'],r['concept_id'],int(r['page_id']))
                         score=v31_score(r,labels[r['concept_id']])
+                        # Indexed discovery evidence is an invitation to DOCUMENTARY
+                        # review, not an automatic topical judgment. Give such
+                        # pairs a fair place in the PENDING pool instead of
+                        # silently parking them as weak DEFERRED candidates.
+                        if int(r['broadscan_matches'] or 0):score=max(score,20)
                         if profile_db is not None:
                             prof=profile_db.execute('SELECT score,concept_id_suggested FROM branch_suggestions WHERE page_id=? AND branch_id=?',
                                 (int(r['page_id']),branch['id'])).fetchone()
@@ -632,13 +669,16 @@ class Station:
                              int(r['seed_count']),int(r['links']),int(r['shared']),int(r['subs']),now()))
                         added+=cur.rowcount
                         # Re-rank only unscheduled tasks; never invalidate a pending ChatGPT job.
+                        # Reconsider STALE only when current discovery evidence is again present.
+                        # Queued, decided and HOLD tasks (and their frozen hashes) are immutable.
                         self.db.execute('''UPDATE review_index SET priority=?,seed_count=?,link_evidence=?,
                              category_evidence=?,subcategory_evidence=?,title=?,last_seen_utc=?,
                              state=CASE WHEN ?<15 AND ?=0 THEN 'DEFERRED' ELSE 'PENDING' END
-                             WHERE candidate_id=? AND state IN ('PENDING','DEFERRED') ''',
+                             WHERE candidate_id=? AND (state IN ('PENDING','DEFERRED') OR (state='STALE' AND task_id IS NULL)) ''',
                              (score,int(r['seed_count']),int(r['links']),int(r['shared']),int(r['subs']),r['title'],now(),
                               score,int(r['links']),cid))
-            self._log(f'Index UNESCO v30 : {checked} propositions éligibles, {added} nouvelles; HOLD conservés.')
+            self._log(f'Index UNESCO v30 : {checked} candidats parcourus dans la découverte, '
+                      f'{added} nouveaux dans la station; ce total n’est PAS la file PENDING. HOLD conservés.')
             from routage_branches_v311 import refresh
             return added+refresh(self,m)
         finally:
@@ -670,22 +710,29 @@ class Station:
                 # Packs natifs élargis : qualification V31 + exploration stratifiée.
                 # Aucun candidat n'est rejeté automatiquement et aucune tâche existante n'est remaniée.
                 from priorisation_native_v31 import select as v31_select
+                # v31.12 : DEFERRED n'est ni REJECT ni HOLD. Les candidats faibles
+                # doivent aussi pouvoir constituer un pack lorsque PENDING est vide.
+                # Sinon les derniers milliers restent en réserve avec des postes libres.
                 ranked=list(self.db.execute('''SELECT * FROM review_index WHERE state='PENDING' AND branch_id=?
                     ORDER BY priority DESC,seed_count DESC,
                     (link_evidence+category_evidence+subcategory_evidence) DESC,page_id ASC,concept_id DESC
                     LIMIT ?''',(branch['id'],max(REVIEW_SIZE*15,6000))))
-                if not ranked:break  # le stock faible reste en réserve, non rejeté
-                take=min(REVIEW_SIZE,MAX_REVIEW_SIZE)
-                top=v31_select(ranked,min(len(ranked),round(take*.75)),explore=0.18)
                 weak=list(self.db.execute('''SELECT * FROM review_index WHERE state='DEFERRED' AND branch_id=?
                     ORDER BY priority DESC,seed_count DESC,page_id ASC LIMIT ?''',
                     (branch['id'],max(REVIEW_SIZE*15,6000))))
+                if not ranked and not weak:break
+                take=min(REVIEW_SIZE,MAX_REVIEW_SIZE)
+                top=v31_select(ranked,min(len(ranked),round(take*.75)),explore=0.18)
                 reserve=v31_select(weak,min(take-len(top),len(weak)),explore=1.0)
                 picked=top+reserve
                 if len(picked)<take:
                     seen={x['candidate_id'] for x in picked}
-                    picked.extend(x for x in ranked if x['candidate_id'] not in seen)
-                    picked=picked[:take]
+                    for pool in (ranked,weak):
+                        for candidate in pool:
+                            if candidate['candidate_id'] in seen:continue
+                            picked.append(candidate);seen.add(candidate['candidate_id'])
+                            if len(picked)>=take:break
+                        if len(picked)>=take:break
                 rows=[];ids=[];complexity=0
                 for r in picked:
                     item_cost=1+min(3,(int(r['link_evidence'])+int(r['category_evidence'])+int(r['subcategory_evidence']))//8)
@@ -745,7 +792,10 @@ class Station:
             b+=prepare_branches(self,self._v28_engine())
             b+=self._prepare_v28(allow_fallback=True)
             with self.db:self._fill_lanes()
+            reserve=dict(self.db.execute("SELECT state,count(*) AS n FROM review_index WHERE state IN ('PENDING','DEFERRED') GROUP BY state"))
         self._log(f'File alimentée : {a} packs Kristal et {b} nouvelles revues UNESCO ; 10 postes renouvelés.')
+        self._log(f"Réserve UNESCO après préparation : PENDING={reserve.get('PENDING',0)} ; DEFERRED={reserve.get('DEFERRED',0)}. "
+                  'Des postes libres ne signifient pas une saturation de la découverte.')
 
     def _load_review_context(self):
         with self._warm_lock:
@@ -1171,14 +1221,43 @@ $clipboard.SetFileDropList($items)
             return {'ok':True}
 
     def reopen_holds(self,limit=500):
-        # Explicit user-driven revisit. Never silently recycle HOLDs.
+        # Explicit user action only. Never open a new UNESCO review before discovery:
+        # READY alone freezes discovery, even if the human hasn't transferred the ZIP.
+        # The original frozen source and decisions remain in the completed job ZIP.
         with self.lock:
             if self.busy:raise ValueError('Attendre la fin du batch avant de rouvrir les HOLD')
+            if self._open_review_count():
+                raise ValueError('Terminer les revues UNESCO ouvertes avant de réexaminer des HOLD. '
+                                 'La découverte doit pouvoir précéder la nouvelle revue.')
+            count=int(limit)
+            if count<1 or count>500:raise ValueError('Le réexamen explicite est limité à 500 HOLD')
+            # Prefer HOLDs never re-examined through this button; afterwards cycle
+            # fairly through lower-attempt candidates. No article is excluded forever.
             with self.db:
-                ids=[r[0] for r in self.db.execute("SELECT candidate_id FROM review_index WHERE state='HOLD' ORDER BY priority DESC LIMIT ?",(int(limit),))]
-                self.db.executemany("UPDATE review_index SET state='PENDING',task_id=NULL,evidence_sha256=NULL WHERE candidate_id=?",[(cid,) for cid in ids])
-            self._log(f'{len(ids)} HOLD remis à examiner explicitement')
-        self.prepare();return {'reopened':len(ids)}
+                selected=list(self.db.execute('''SELECT r.candidate_id,r.task_id,r.evidence_sha256,
+                       COALESCE(h.attempts,0) AS attempts FROM review_index r
+                       LEFT JOIN hold_reexaminations h ON h.candidate_id=r.candidate_id
+                       WHERE r.state='HOLD'
+                       ORDER BY COALESCE(h.attempts,0) ASC,r.priority DESC,r.candidate_id LIMIT ?''',(count,)))
+                ids=[r['candidate_id'] for r in selected]
+                self.db.executemany('''INSERT INTO hold_reexaminations
+                    (candidate_id,attempts,last_reopened_utc,original_task_id,original_evidence_sha256)
+                    VALUES(?,1,?,?,?) ON CONFLICT(candidate_id) DO UPDATE SET
+                    attempts=attempts+1,last_reopened_utc=excluded.last_reopened_utc,
+                    original_task_id=excluded.original_task_id,
+                    original_evidence_sha256=excluded.original_evidence_sha256''',
+                    [(r['candidate_id'],now(),r['task_id'],r['evidence_sha256']) for r in selected])
+                self.db.executemany("UPDATE review_index SET state='PENDING',task_id=NULL,evidence_sha256=NULL "
+                                    "WHERE candidate_id=? AND state='HOLD'",[(cid,) for cid in ids])
+            if not ids:return {'reopened':0,'discovery_first':False}
+            new_count=sum(int(r['attempts'])==0 for r in selected)
+            self._log(f'{len(ids)} HOLD réarmés explicitement ({new_count} premiers réexamens) ; '
+                      'découverte AVANT nouvelle revue UNESCO')
+            # Runs the protected engine discovery first, then indexes and packs. If
+            # discovery fails, reopened rows remain PENDING and can be resumed.
+            self.batch()
+            return {'reopened':len(ids),'discovery_first':True}
+
 
     # Software overlays are separate from knowledge returns: never auto-install source code.
     def _check_overlay(self,raw:bytes):

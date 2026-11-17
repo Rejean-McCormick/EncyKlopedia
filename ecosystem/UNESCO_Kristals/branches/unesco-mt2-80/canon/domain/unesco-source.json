@@ -1,0 +1,3503 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2024-03-25T11:23:51+00:00",
+      "narrower": [
+        "concept10264",
+        "concept11757",
+        "concept11758",
+        "concept11759",
+        "concept6710"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صحة"
+        ],
+        "en": [
+          "Health"
+        ],
+        "es": [
+          "Salud"
+        ],
+        "fr": [
+          "Santé"
+        ],
+        "ru": [
+          "Здоровье"
+        ]
+      },
+      "related": [
+        "concept17171",
+        "concept244",
+        "concept57"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept238",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept238",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:50:14+00:00",
+      "narrower": [
+        "concept1014",
+        "concept11778"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مهنة الطب"
+        ],
+        "en": [
+          "Medical profession"
+        ],
+        "es": [
+          "Profesión médica"
+        ],
+        "fr": [
+          "Profession médicale"
+        ],
+        "ru": [
+          "Медицинская профессия"
+        ]
+      },
+      "related": [
+        "concept241"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept239",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept239",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ابحاث احيائية طبية",
+          "بحث طبي",
+          "بحث طبي بيولوجي",
+          "بحوث الطب الاحيائي",
+          "بحوث الطب البيولوجي",
+          "بحوث الطب الحيوي",
+          "بحوث طبية حيوية",
+          "بحوث في مجال الطب الاحيائي"
+        ],
+        "en": [
+          "Biomedical research"
+        ],
+        "es": [
+          "Investigación biomédica",
+          "Investigación sanitaria"
+        ],
+        "fr": [
+          "Recherche biomédicale"
+        ],
+        "ru": [
+          "Биомедицинские исследования"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T14:33:19+00:00",
+      "narrower": [
+        "concept4294"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث طبية"
+        ],
+        "en": [
+          "Medical research"
+        ],
+        "es": [
+          "Investigación médica"
+        ],
+        "fr": [
+          "Recherche médicale"
+        ],
+        "ru": [
+          "Медицинские исследования"
+        ]
+      },
+      "related": [
+        "concept2394",
+        "concept241",
+        "concept242",
+        "concept244",
+        "concept3973"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept240",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept240",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طب",
+          "علوم الطب الحيوي",
+          "علوم طبية حيوية"
+        ],
+        "en": [
+          "Biomedical sciences",
+          "Medicine"
+        ],
+        "es": [
+          "Ciencias biomedicales",
+          "Ciencias de la salud",
+          "Medicina"
+        ],
+        "fr": [
+          "Médecine",
+          "Sciences biomédicales"
+        ],
+        "ru": [
+          "Биомедицинские науки",
+          "Медицина"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:21+00:00",
+      "narrower": [
+        "concept10671",
+        "concept11779",
+        "concept12010",
+        "concept13909",
+        "concept1573",
+        "concept1674",
+        "concept17038",
+        "concept2401",
+        "concept4295",
+        "concept4304",
+        "concept5062",
+        "concept5125",
+        "concept5453",
+        "concept6862",
+        "concept9700"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علوم طبية"
+        ],
+        "en": [
+          "Medical sciences"
+        ],
+        "es": [
+          "Ciencias médicas"
+        ],
+        "fr": [
+          "Sciences médicales"
+        ],
+        "ru": [
+          "Медицинские науки"
+        ]
+      },
+      "related": [
+        "concept1014",
+        "concept11112",
+        "concept11778",
+        "concept13924",
+        "concept219",
+        "concept231",
+        "concept239",
+        "concept240",
+        "concept242",
+        "concept243",
+        "concept244",
+        "concept245",
+        "concept2451",
+        "concept251",
+        "concept252",
+        "concept5458",
+        "concept8186",
+        "concept8189"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept241",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept241",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقنية الطب الحيوي",
+          "تقنية طبية",
+          "تكنولوجيا البيولوجيا الطبية",
+          "تكنولوجيا الطب البيولوجى",
+          "طب الليزر",
+          "طب نووي",
+          "هندسة الطب الحيوي",
+          "هندسة طبية",
+          "هندسة طبية بيولوجية",
+          "هندسة طبية حيوية"
+        ],
+        "en": [
+          "Biomedical engineering",
+          "Biomedical technology",
+          "Laser medicine",
+          "Medical engineering",
+          "Nuclear medicine"
+        ],
+        "es": [
+          "Cirugía con láser",
+          "Ingeniería biomédica",
+          "Ingeniería médica",
+          "Medicina nuclear",
+          "Tecnología biomédica",
+          "Técnica biomédica",
+          "Técnica médica"
+        ],
+        "fr": [
+          "Chirurgie au laser",
+          "Génie biomédical",
+          "Médecine nucléaire",
+          "Technique biomédicale",
+          "Technique médicale",
+          "Technologie biomédicale"
+        ],
+        "ru": [
+          "Биомедицинская инженерия",
+          "Биомедицинская технология",
+          "Лазерная медицина",
+          "Медицинская техника",
+          "Ядерная медицина"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2023-05-16T12:46:22+00:00",
+      "narrower": [
+        "concept2545"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكنولوجيا طبية"
+        ],
+        "en": [
+          "Medical technology"
+        ],
+        "es": [
+          "Tecnología médica"
+        ],
+        "fr": [
+          "Technologie médicale"
+        ],
+        "ru": [
+          "Медицинская технология"
+        ]
+      },
+      "related": [
+        "concept12962",
+        "concept17160",
+        "concept240",
+        "concept241",
+        "concept244",
+        "concept5746",
+        "concept619",
+        "concept8550"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept242",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept242",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اقربازين",
+          "صيدلة",
+          "صيدلية",
+          "علم الادوية",
+          "علم العقاقير",
+          "علم تركيب الادوية",
+          "علم تركيب العقاقير",
+          "علم خواص الادوية",
+          "فارماكولوجيا"
+        ],
+        "en": [
+          "Pharmacy"
+        ],
+        "es": [
+          "Farmacia"
+        ],
+        "fr": [
+          "Pharmacie"
+        ],
+        "ru": [
+          "Фармация"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T14:37:19+00:00",
+      "narrower": [
+        "concept5033"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الصيدلة"
+        ],
+        "en": [
+          "Pharmacology"
+        ],
+        "es": [
+          "Farmacología"
+        ],
+        "fr": [
+          "Pharmacologie"
+        ],
+        "ru": [
+          "Фармакология"
+        ]
+      },
+      "related": [
+        "concept13928",
+        "concept219",
+        "concept241",
+        "concept4099"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept243",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept243",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انظمة الطب"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:29+00:00",
+      "narrower": [
+        "concept11953",
+        "concept1328",
+        "concept5458",
+        "concept6992",
+        "concept7994"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم طبية"
+        ],
+        "en": [
+          "Systems of medicine"
+        ],
+        "es": [
+          "Sistema médico"
+        ],
+        "fr": [
+          "Système médical"
+        ],
+        "ru": [
+          "Системы медицины"
+        ]
+      },
+      "related": [
+        "concept238",
+        "concept240",
+        "concept241",
+        "concept242"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept244",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept244",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استشفاء",
+          "علم التداوي",
+          "علم المداواة",
+          "مداواة",
+          "معالجة"
+        ],
+        "en": [
+          "Therapeutics"
+        ],
+        "es": [
+          "Terapeútica"
+        ],
+        "fr": [
+          "Thérapeutique"
+        ],
+        "ru": [
+          "Терапевтическое лечение"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:46+00:00",
+      "narrower": [
+        "concept14861",
+        "concept5457",
+        "concept8100"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاج"
+        ],
+        "en": [
+          "Therapy"
+        ],
+        "es": [
+          "Terapia"
+        ],
+        "fr": [
+          "Thérapie"
+        ],
+        "ru": [
+          "Терапия"
+        ]
+      },
+      "related": [
+        "concept241",
+        "concept5461",
+        "concept7994",
+        "concept8532"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept245",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept245",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "صحة الامومة والطفولة"
+        ],
+        "es": [
+          "Salud de la madre y del hijo"
+        ],
+        "fr": [
+          "Santé maternelle et infantile"
+        ]
+      },
+      "broader": [
+        "concept11757"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صحة الام والطفل"
+        ],
+        "en": [
+          "Maternal and child health"
+        ],
+        "es": [
+          "Salud materno-infantil"
+        ],
+        "fr": [
+          "Santé de la mère et de l'enfant"
+        ],
+        "ru": [
+          "Здоровье матери и ребенка"
+        ]
+      },
+      "related": [
+        "concept1010",
+        "concept1015",
+        "concept11771",
+        "concept11949",
+        "concept3916",
+        "concept3918",
+        "concept5458"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1013",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1013",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخلاقيات الطب",
+          "اخلاقيات مهنة الطب",
+          "اداب مهنة الطب"
+        ],
+        "en": [
+          "Ethics of medicine"
+        ],
+        "es": [
+          "Deontología médica"
+        ],
+        "fr": [
+          "Éthique médicale"
+        ],
+        "ru": [
+          "Этика медицины"
+        ]
+      },
+      "broader": [
+        "concept239"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2023-05-16T16:18:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اخلاقيات طبية"
+        ],
+        "en": [
+          "Medical ethics"
+        ],
+        "es": [
+          "Ética médica"
+        ],
+        "fr": [
+          "Éthique de la médecine"
+        ],
+        "ru": [
+          "Медицинская этика"
+        ]
+      },
+      "related": [
+        "concept1010",
+        "concept17161",
+        "concept241",
+        "concept2418",
+        "concept2451",
+        "concept3971",
+        "concept3972",
+        "concept3973"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1014",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1014",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "وخز ابْرِيّ"
+        ],
+        "fr": [
+          "Acupuncture"
+        ]
+      },
+      "broader": [
+        "concept244"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:50:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وخز بالابر"
+        ],
+        "en": [
+          "Acupuncture"
+        ],
+        "es": [
+          "Acupuntura"
+        ],
+        "fr": [
+          "Acuponcture"
+        ],
+        "ru": [
+          "Акупунктура"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1328",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1328",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طب الفضاء",
+          "طب فضائي",
+          "طب فضائي جوي"
+        ],
+        "en": [
+          "Space medicine"
+        ],
+        "es": [
+          "Medicina astronáutica",
+          "Medicina espacial"
+        ],
+        "fr": [
+          "Médecine astronautique",
+          "Médecine spatiale"
+        ],
+        "ru": [
+          "Космическая медицина"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب الفضاء الجوي"
+        ],
+        "en": [
+          "Aerospace medicine"
+        ],
+        "es": [
+          "Medicina aeroespacial"
+        ],
+        "fr": [
+          "Médecine aérospatiale"
+        ],
+        "ru": [
+          "Аэрокосмическая медицина"
+        ]
+      },
+      "related": [
+        "concept1569",
+        "concept1581",
+        "concept1582",
+        "concept629"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1573",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1573",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دراسات الشيخوخة",
+          "طب الشيخوخة",
+          "طب المسنين"
+        ],
+        "en": [
+          "Geriatrics"
+        ],
+        "es": [
+          "Geriatría"
+        ],
+        "fr": [
+          "Gériatrie"
+        ],
+        "ru": [
+          "Гериатрия"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الشيخوخة"
+        ],
+        "en": [
+          "Gerontology"
+        ],
+        "es": [
+          "Gerontología"
+        ],
+        "fr": [
+          "Gérontologie"
+        ],
+        "ru": [
+          "Геронтология"
+        ]
+      },
+      "related": [
+        "concept1667",
+        "concept1670",
+        "concept1673"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1674",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1674",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيطرة"
+        ],
+        "es": [
+          "Medicina veterinaria"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:50:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب بيطري"
+        ],
+        "en": [
+          "Veterinary medicine"
+        ],
+        "es": [
+          "Veterinaria"
+        ],
+        "fr": [
+          "Médecine vétérinaire"
+        ],
+        "ru": [
+          "Ветеринария"
+        ]
+      },
+      "related": [
+        "concept1756",
+        "concept2396"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2401",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2401",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اجهزة تقوية السمع",
+          "ادوات السمع المساعدة",
+          "سماعات الاذن",
+          "معينات سمعية",
+          "وسائل حسية"
+        ],
+        "en": [
+          "Hearing aids"
+        ],
+        "es": [
+          "Aparato auditivo",
+          "Aparato sensitivo",
+          "Asistencia auditiva"
+        ],
+        "fr": [
+          "Aide auditive",
+          "Aide à l'audition",
+          "Appareil auditif"
+        ],
+        "ru": [
+          "Слуховые аппараты"
+        ]
+      },
+      "broader": [
+        "concept242"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:03+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معينات حسية"
+        ],
+        "en": [
+          "Sensory aids"
+        ],
+        "es": [
+          "Aparato sensorial"
+        ],
+        "fr": [
+          "Dispositif d'aide sensorielle"
+        ],
+        "ru": [
+          "Аппараты, выполняющие функции органов чувств"
+        ]
+      },
+      "related": [
+        "concept4135",
+        "concept4136",
+        "concept4141",
+        "concept7453"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2545",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2545",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "زرع الاعضاء"
+        ]
+      },
+      "broader": [
+        "concept5125"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "زراعة الاعضاء"
+        ],
+        "en": [
+          "Organ transplantation"
+        ],
+        "es": [
+          "Trasplante de órganos"
+        ],
+        "fr": [
+          "Transplantation d'organes"
+        ],
+        "ru": [
+          "Трансплантация органов"
+        ]
+      },
+      "related": [
+        "concept1014",
+        "concept240",
+        "concept2451",
+        "concept3972"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3973",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3973",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ابحاث الدماغ",
+          "ابحاث المخ",
+          "بحوث الدماغ"
+        ]
+      },
+      "broader": [
+        "concept240"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2023-05-16T12:45:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث المخ"
+        ],
+        "en": [
+          "Brain research"
+        ],
+        "es": [
+          "Investigación sobre el cerebro"
+        ],
+        "fr": [
+          "Recherche sur le cerveau"
+        ],
+        "ru": [
+          "Исследования мозга"
+        ]
+      },
+      "related": [
+        "concept17160",
+        "concept4041",
+        "concept4292",
+        "concept4295",
+        "concept4304"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4294",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4294",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دراسة الجهاز العصبي",
+          "طب الاعصاب",
+          "طب الجهاز العصبي",
+          "علم الجهاز العصبي وامراضه",
+          "عِلْم الامراض العصبية",
+          "نيورولوجيا"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاعصاب"
+        ],
+        "en": [
+          "Neurology"
+        ],
+        "es": [
+          "Neurología"
+        ],
+        "fr": [
+          "Neurologie"
+        ],
+        "ru": [
+          "Неврология"
+        ]
+      },
+      "related": [
+        "concept2320",
+        "concept4041",
+        "concept4292",
+        "concept4294",
+        "concept4304"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4295",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4295",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سيكولوجية الأعصاب",
+          "طب نفسي عصبي"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم النفس العصبي"
+        ],
+        "en": [
+          "Neuropsychology"
+        ],
+        "es": [
+          "Neuropsicología"
+        ],
+        "fr": [
+          "Neuropsychologie"
+        ],
+        "ru": [
+          "Нейропсихология"
+        ]
+      },
+      "related": [
+        "concept392",
+        "concept4294",
+        "concept4295"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4304",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4304",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادوية",
+          "عقاقير دوائية",
+          "عقاقير صيدلانية",
+          "عقاقير طبية",
+          "مخدرات",
+          "مستحضرات دوائية",
+          "مستحضرات صيدلانية",
+          "مواد صيدلانية"
+        ],
+        "en": [
+          "Medicinal drugs",
+          "Medicines",
+          "Pharmaceuticals"
+        ],
+        "es": [
+          "Antídoto",
+          "Droga",
+          "Droga con fines médicos",
+          "Fármaco",
+          "Producto farmacéutico"
+        ],
+        "fr": [
+          "Drogue",
+          "Drogue médicinale",
+          "Produit pharmaceutique"
+        ],
+        "ru": [
+          "Медикаменты",
+          "Медицинские препараты",
+          "Фармацевтические препараты"
+        ]
+      },
+      "broader": [
+        "concept243"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:12+00:00",
+      "narrower": [
+        "concept8533"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عقاقير"
+        ],
+        "en": [
+          "Drugs"
+        ],
+        "es": [
+          "Medicamento"
+        ],
+        "fr": [
+          "Médicament"
+        ],
+        "ru": [
+          "Лекарственные препараты"
+        ]
+      },
+      "related": [
+        "concept17057",
+        "concept4099",
+        "concept636",
+        "concept8550",
+        "concept8551"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5033",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5033",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب الاطفال"
+        ],
+        "en": [
+          "Pediatrics"
+        ],
+        "es": [
+          "Pediatría"
+        ],
+        "fr": [
+          "Pédiatrie"
+        ],
+        "ru": [
+          "Педиатрия"
+        ]
+      },
+      "related": [
+        "concept5055"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5062",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5062",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:47+00:00",
+      "narrower": [
+        "concept3973"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جراحة"
+        ],
+        "en": [
+          "Surgery"
+        ],
+        "es": [
+          "Cirugía"
+        ],
+        "fr": [
+          "Chirurgie"
+        ],
+        "ru": [
+          "Хирургия"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5125",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5125",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طب اكلينيكي",
+          "طب عيادي"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:50:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب سريري"
+        ],
+        "en": [
+          "Clinical medicine"
+        ],
+        "es": [
+          "Medicina clínica"
+        ],
+        "fr": [
+          "Médecine clinique"
+        ],
+        "ru": [
+          "Клиническая медицина"
+        ]
+      },
+      "related": [
+        "concept412",
+        "concept4895",
+        "concept5455",
+        "concept5456",
+        "concept5457",
+        "concept5458"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5453",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5453",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "خدمات طبية",
+          "رعاية طبية",
+          "علاج سريري",
+          "علاج عيادي",
+          "عناية اكلينيكية",
+          "عناية طبية",
+          "معالجة طبية"
+        ],
+        "en": [
+          "Clinical treatment",
+          "Medical care"
+        ],
+        "es": [
+          "Asistencia clínica",
+          "Asistencia médica",
+          "Asistencia sanitaria",
+          "Cuidados médicos",
+          "Cuidados sanitarios"
+        ],
+        "fr": [
+          "Soin clinique",
+          "Soin médical"
+        ],
+        "ru": [
+          "Медицинская помощь в клинических условиях",
+          "Медицинское обеспечение"
+        ]
+      },
+      "broader": [
+        "concept245"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاج طبي"
+        ],
+        "en": [
+          "Medical treatment"
+        ],
+        "es": [
+          "Tratamiento médico"
+        ],
+        "fr": [
+          "Traitement médical"
+        ],
+        "ru": [
+          "Медицинская помощь"
+        ]
+      },
+      "related": [
+        "concept11779",
+        "concept5453",
+        "concept8100"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5457",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5457",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحر جيني",
+          "تحر وراثي",
+          "تحري جيني",
+          "تحري وراثي",
+          "فحص وراثي",
+          "فرز جيني",
+          "كشف عن الامراض",
+          "وقاية من الامراض"
+        ],
+        "en": [
+          "Disease prevention",
+          "Genetic screening",
+          "Screening for disease"
+        ],
+        "es": [
+          "Detección de enfermedades",
+          "Diagnóstico de enfermedades",
+          "Prevención de enfermedades"
+        ],
+        "fr": [
+          "Dépistage des maladies",
+          "Dépistage génétique",
+          "Prévention des maladies"
+        ],
+        "ru": [
+          "Генетический скрининг",
+          "Профилактика заболеваний",
+          "Скрининг на болезни"
+        ]
+      },
+      "broader": [
+        "concept244"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-23T18:33:46+00:00",
+      "narrower": [
+        "concept12189"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب وقائي"
+        ],
+        "en": [
+          "Preventive medicine"
+        ],
+        "es": [
+          "Medicina preventiva"
+        ],
+        "fr": [
+          "Médecine préventive"
+        ],
+        "ru": [
+          "Профилактическая медицина"
+        ]
+      },
+      "related": [
+        "concept1013",
+        "concept11757",
+        "concept241",
+        "concept5453",
+        "concept57",
+        "concept8186",
+        "concept8189"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5458",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5458",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تفتيش على الاغذية",
+          "رقابة على نوعية الغذاء",
+          "فحص الاغذية",
+          "مراقبة الاغذية",
+          "مراقبة جودة الاغذية",
+          "مراقبة نوعية الاغذية"
+        ],
+        "en": [
+          "Food inspection",
+          "Food quality control"
+        ],
+        "es": [
+          "Control de calidad de los alimentos",
+          "Control de calidad de los comestibles",
+          "Control de inspección de los alimentos"
+        ],
+        "fr": [
+          "Contrôle de qualité des aliments",
+          "Contrôle des denrées alimentaires",
+          "Inspection des aliments",
+          "Vérification des denrées alimentaires"
+        ],
+        "ru": [
+          "Контроль за качеством продовольствия",
+          "Продовольственная инспекция"
+        ]
+      },
+      "broader": [
+        "concept11757"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رقابة غذائية"
+        ],
+        "en": [
+          "Food control"
+        ],
+        "es": [
+          "Control de alimentos"
+        ],
+        "fr": [
+          "Contrôle des aliments"
+        ],
+        "ru": [
+          "Контроль в области продовольствия"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6515",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6515",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مراقبة المخدرات"
+        ],
+        "es": [
+          "Control de las drogas",
+          "Control de los narcóticos",
+          "Lucha contra el narcotráfico",
+          "Lucha contra la droga",
+          "Lucha contra la drogadicción",
+          "Plan antidroga"
+        ],
+        "fr": [
+          "Contrôle des drogues",
+          "Contrôle des narcotiques",
+          "Lutte contre la drogue",
+          "Lutte contre la toxicomanie"
+        ]
+      },
+      "broader": [
+        "concept8539"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مكافحة المخدرات"
+        ],
+        "en": [
+          "Drug control"
+        ],
+        "es": [
+          "Lucha contra la toxicomanía"
+        ],
+        "fr": [
+          "Contrôle des stupéfiants"
+        ],
+        "ru": [
+          "Контроль за использованием наркотических веществ"
+        ]
+      },
+      "related": [
+        "concept6839",
+        "concept8533"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6541",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6541",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اقتصاد صحي",
+          "اقتصاد قطاع الصحة",
+          "انفاق صحي",
+          "تكاليف طبية",
+          "جوانب اقتصادية متصلة بالصحة",
+          "علم الاقتصاد الصحي",
+          "نفقات صحية",
+          "نفقات طبية"
+        ],
+        "en": [
+          "Health expenditure",
+          "Medical costs"
+        ],
+        "es": [
+          "Costes de salud",
+          "Costes sanitarios",
+          "Gastos sanitarios"
+        ],
+        "fr": [
+          "Coût médical",
+          "Dépenses de santé",
+          "Frais médicaux"
+        ],
+        "ru": [
+          "Медицинские расходы",
+          "Расходы в области здравоохранения"
+        ]
+      },
+      "broader": [
+        "concept238"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اقتصاديات صحية"
+        ],
+        "en": [
+          "Health economics"
+        ],
+        "es": [
+          "Economía de la salud"
+        ],
+        "fr": [
+          "Économie de la santé"
+        ],
+        "ru": [
+          "Экономика здравоохранения"
+        ]
+      },
+      "related": [
+        "concept11757",
+        "concept5090",
+        "concept6708"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6710",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6710",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طب قانوني"
+        ],
+        "en": [
+          "Legal medicine"
+        ],
+        "es": [
+          "Medicina judicial",
+          "Medicina legal"
+        ],
+        "fr": [
+          "Médecine judiciaire"
+        ],
+        "ru": [
+          "Медицина в области права (судебная медицина)"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:49:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب شرعي"
+        ],
+        "en": [
+          "Forensic medicine"
+        ],
+        "es": [
+          "Medicina forense"
+        ],
+        "fr": [
+          "Médecine légale"
+        ],
+        "ru": [
+          "Судебная медицина"
+        ]
+      },
+      "related": [
+        "concept375"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6862",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6862",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طب بلدي",
+          "طب شعبي",
+          "طب عرقي"
+        ],
+        "en": [
+          "Ethnomedicine",
+          "Folk medicine"
+        ],
+        "es": [
+          "Etnomedicina",
+          "Medicina casera",
+          "Medicina popular",
+          "Remedios caseros"
+        ],
+        "fr": [
+          "Ethnomédecine",
+          "Médecine folklorique",
+          "Médecine populaire",
+          "Remède de bonne femme"
+        ],
+        "ru": [
+          "Народная медицина",
+          "Этномедицина"
+        ]
+      },
+      "broader": [
+        "concept244"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:50:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب تقليدي"
+        ],
+        "en": [
+          "Traditional medicine"
+        ],
+        "es": [
+          "Medicina tradicional"
+        ],
+        "fr": [
+          "Médecine traditionnelle"
+        ],
+        "ru": [
+          "Традиционная медицина"
+        ]
+      },
+      "related": [
+        "concept255",
+        "concept2601",
+        "concept6291",
+        "concept6960",
+        "concept6990",
+        "concept8551"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6992",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6992",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الحميات",
+          "علم النُظم الغذائية",
+          "غذائيات",
+          "معالجة بالنظام الغذائي"
+        ],
+        "en": [
+          "Diet therapy"
+        ],
+        "es": [
+          "Dieta",
+          "Régimen alimenticio"
+        ],
+        "fr": [
+          "Diète thérapeutique",
+          "Régime",
+          "Régime alimentaire"
+        ],
+        "ru": [
+          "Диетотерапия"
+        ]
+      },
+      "broader": [
+        "concept244"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T14:33:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم التغذية"
+        ],
+        "en": [
+          "Dietetics"
+        ],
+        "es": [
+          "Dietética"
+        ],
+        "fr": [
+          "Diététique"
+        ],
+        "ru": [
+          "Диететика"
+        ]
+      },
+      "related": [
+        "concept1812",
+        "concept245",
+        "concept7996"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7994",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7994",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعادة التأهيل",
+          "جراحة ترقيعية",
+          "رعاية بعد العلاج",
+          "رعاية طبية لاحقة",
+          "علم الاعضاء الاصطناعية"
+        ],
+        "en": [
+          "Aftercare (medical)",
+          "Medical aftercare",
+          "Prosthetics",
+          "Rehabilitation"
+        ],
+        "es": [
+          "Postoperatorio",
+          "Rehabilitación",
+          "Seguimiento médico"
+        ],
+        "fr": [
+          "Postcure (médicale)",
+          "Prothétique",
+          "Rééducation",
+          "Suivi médical"
+        ],
+        "ru": [
+          "Медицинский уход",
+          "Протезирование",
+          "Реабилитация",
+          "Уход за больными (медицинский)"
+        ]
+      },
+      "broader": [
+        "concept245"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعادة التأهيل الطبي"
+        ],
+        "en": [
+          "Medical rehabilitation"
+        ],
+        "es": [
+          "Rehabilitación médica"
+        ],
+        "fr": [
+          "Rééducation médicale"
+        ],
+        "ru": [
+          "Медицинская реабилитация"
+        ]
+      },
+      "related": [
+        "concept1168",
+        "concept12010",
+        "concept5457",
+        "concept8094"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8100",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8100",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مراقبة الامراض"
+        ],
+        "es": [
+          "Control de las enfermedades"
+        ],
+        "fr": [
+          "Contrôle des maladies"
+        ]
+      },
+      "broader": [
+        "concept11757"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مكافحة الامراض"
+        ],
+        "en": [
+          "Disease control"
+        ],
+        "es": [
+          "Lucha contra las enfermedades"
+        ],
+        "fr": [
+          "Lutte contre les maladies"
+        ],
+        "ru": [
+          "Борьба с болезнями"
+        ]
+      },
+      "related": [
+        "concept241",
+        "concept5458",
+        "concept8188",
+        "concept8189"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8186",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8186",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الوبائيات",
+          "علم انتشار الامراض",
+          "علم انتشار الاوبئة",
+          "وبائيات"
+        ]
+      },
+      "broader": [
+        "concept11757"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاوبئة"
+        ],
+        "en": [
+          "Epidemiology"
+        ],
+        "es": [
+          "Epidemiología"
+        ],
+        "fr": [
+          "Épidémiologie"
+        ],
+        "ru": [
+          "Эпидемиология"
+        ]
+      },
+      "related": [
+        "concept241",
+        "concept250",
+        "concept3505",
+        "concept5458",
+        "concept8151",
+        "concept8186",
+        "concept8188"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دراسة ظهور الأمراض وتوزيعها."
+        ],
+        "en": [
+          "Study of the occurence and distribution of disease."
+        ],
+        "es": [
+          "Estudio de la frecuencia y de la distribución de las enfermedades."
+        ],
+        "fr": [
+          "Étude de la fréquence et du mode de distribution des maladies."
+        ],
+        "ru": [
+          "Изучение частоты и пространственного распределения заболеваний."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8189",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8189",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اصحاح بيئي",
+          "صحة البيئة"
+        ],
+        "es": [
+          "Higiene del entorno",
+          "Higiene medioambiental"
+        ],
+        "fr": [
+          "Hygiène de l'environnement",
+          "Salubrité de l'environnement"
+        ]
+      },
+      "broader": [
+        "concept11757"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صحة بيئية"
+        ],
+        "en": [
+          "Environmental health"
+        ],
+        "es": [
+          "Higiene ambiental"
+        ],
+        "fr": [
+          "Hygiène du milieu"
+        ],
+        "ru": [
+          "Санитарное состояние окружающей среды"
+        ]
+      },
+      "related": [
+        "concept10030",
+        "concept16999",
+        "concept1880",
+        "concept190",
+        "concept196",
+        "concept3180",
+        "concept4100",
+        "concept4533",
+        "concept6445"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8424",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8424",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "افيون",
+          "ثاني ديثلاميد حامض الليسرجيك",
+          "حشيش",
+          "حشيش مخدر",
+          "عقاقير المؤثّرات العقلية",
+          "عقاقير الهلوسة",
+          "قنب",
+          "قنب هندي",
+          "كوكايين",
+          "مؤثرات عقلية",
+          "مادة ل.س.دْ",
+          "مخدرات",
+          "مخدرات مهلوسة",
+          "مواد مخدرة",
+          "هيروين",
+          "هيروين مخدر"
+        ],
+        "en": [
+          "Cannabis",
+          "Cocaine",
+          "Hallucinogenic drugs",
+          "Heroin",
+          "LSD",
+          "Opium",
+          "Psychotropic drugs"
+        ],
+        "es": [
+          "Cannabis",
+          "Cocaína",
+          "Droga alucinógena",
+          "Drogas psicotrópicas",
+          "Hachís",
+          "Heroína",
+          "LSD",
+          "Narcótico",
+          "Opio",
+          "Sustancia alucinógena"
+        ],
+        "fr": [
+          "Cannabis",
+          "Cocaïne",
+          "Drogue hallucinogène",
+          "Héroïne",
+          "LSD",
+          "Médicament psychotrope",
+          "Narcotique",
+          "Opium",
+          "Substance hallucinogène"
+        ],
+        "ru": [
+          "Героин",
+          "Кокаин",
+          "Конопля",
+          "ЛСД",
+          "Опий",
+          "Психодислептические вещества",
+          "Психотропные вещества"
+        ]
+      },
+      "broader": [
+        "concept5033"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عقاقير مخدرة"
+        ],
+        "en": [
+          "Narcotic drugs"
+        ],
+        "es": [
+          "Estupefaciente"
+        ],
+        "fr": [
+          "Stupéfiant"
+        ],
+        "ru": [
+          "Наркотические вещества"
+        ]
+      },
+      "related": [
+        "concept1343",
+        "concept16969",
+        "concept1932",
+        "concept6541",
+        "concept6839",
+        "concept8532",
+        "concept8539"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8533",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8533",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تشريعات المخدرات",
+          "تشريعات متعلقة بالمخدرات",
+          "سياسات متصلة بالمخدرات",
+          "سياسة المخدرات",
+          "سياسة دوائية"
+        ],
+        "en": [
+          "Drug legislation"
+        ],
+        "es": [
+          "Legislación sobre drogas",
+          "Leyes sobre drogas"
+        ],
+        "fr": [
+          "Loi sur les stupéfiants",
+          "Législation sur les stupéfiants",
+          "Politique des drogues"
+        ],
+        "ru": [
+          "Законодательство в области использования и оборота наркотических веществ"
+        ]
+      },
+      "broader": [
+        "concept11757"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:59+00:00",
+      "narrower": [
+        "concept6541"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسات المخدرات"
+        ],
+        "en": [
+          "Drug policy"
+        ],
+        "es": [
+          "Política sobre drogas"
+        ],
+        "fr": [
+          "Politique des stupéfiants"
+        ],
+        "ru": [
+          "Политика в области использования наркотических веществ"
+        ]
+      },
+      "related": [
+        "concept413",
+        "concept6839",
+        "concept8533"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8539",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8539",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طب الغدد الصماء",
+          "علم الغدد الصُّمّ"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الغدد الصماء"
+        ],
+        "en": [
+          "Endocrinology"
+        ],
+        "es": [
+          "Endocrinología"
+        ],
+        "fr": [
+          "Endocrinologie"
+        ],
+        "ru": [
+          "Эндокринология"
+        ]
+      },
+      "related": [
+        "concept227",
+        "concept2319",
+        "concept3946",
+        "concept4154"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9700",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9700",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "احصاءات الصحة العامة"
+        ],
+        "en": [
+          "Public health statistics"
+        ],
+        "es": [
+          "Estadísticas de la salud pública"
+        ],
+        "fr": [
+          "Statistique de santé publique"
+        ],
+        "ru": [
+          "Статистика в области государственного здравоохранения"
+        ]
+      },
+      "broader": [
+        "concept238"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احصاءات صحية"
+        ],
+        "en": [
+          "Health statistics"
+        ],
+        "es": [
+          "Estadísticas sanitarias"
+        ],
+        "fr": [
+          "Statistique sanitaire"
+        ],
+        "ru": [
+          "Статистика в области здравоохранения"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10264",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10264",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الرمد"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب العيون"
+        ],
+        "en": [
+          "Ophthalmology"
+        ],
+        "es": [
+          "Oftalmología"
+        ],
+        "fr": [
+          "Ophtalmologie"
+        ],
+        "ru": [
+          "Офтальмология"
+        ]
+      },
+      "related": [
+        "concept10668"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10671",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10671",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سياسات التغذية",
+          "سياسات الصحة",
+          "صحة عامة",
+          "صحة عمومية",
+          "علم الصحة العامة",
+          "نهج الحماية"
+        ],
+        "en": [
+          "Nutrition policy",
+          "Public health"
+        ],
+        "es": [
+          "Política sanitaria",
+          "Salud pública",
+          "Sanidad pública"
+        ],
+        "fr": [
+          "Politique nutritionnelle",
+          "Politique sanitaire",
+          "Santé publique"
+        ],
+        "ru": [
+          "Государственное здравоохранение",
+          "Политика в области правильного питания"
+        ]
+      },
+      "broader": [
+        "concept238"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-23T18:33:41+00:00",
+      "narrower": [
+        "concept1013",
+        "concept11771",
+        "concept6515",
+        "concept8186",
+        "concept8189",
+        "concept8424",
+        "concept8539"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة صحية"
+        ],
+        "en": [
+          "Health policy"
+        ],
+        "es": [
+          "Política de la salud"
+        ],
+        "fr": [
+          "Politique de la santé"
+        ],
+        "ru": [
+          "Политика в области здравоохранения"
+        ]
+      },
+      "related": [
+        "concept249",
+        "concept3180",
+        "concept412",
+        "concept5458",
+        "concept6710"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11757",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11757",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نظافة شخصية",
+          "نظافة صحية",
+          "نظافة عامة"
+        ]
+      },
+      "broader": [
+        "concept238"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T14:36:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حفظ الصحة"
+        ],
+        "en": [
+          "Hygiene"
+        ],
+        "es": [
+          "Higiene"
+        ],
+        "fr": [
+          "Hygiène"
+        ],
+        "ru": [
+          "Гигиена"
+        ]
+      },
+      "related": [
+        "concept3180",
+        "concept57"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11758",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11758",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سلامة عقلية",
+          "مجال الصحة العقلية"
+        ]
+      },
+      "broader": [
+        "concept238"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2024-03-25T11:22:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صحة عقلية"
+        ],
+        "en": [
+          "Mental health"
+        ],
+        "es": [
+          "Salud mental"
+        ],
+        "fr": [
+          "Santé mentale"
+        ],
+        "ru": [
+          "Психическое здоровье"
+        ]
+      },
+      "related": [
+        "concept13013",
+        "concept17171",
+        "concept252",
+        "concept5463"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11759",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11759",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept11757"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صحة المرأة"
+        ],
+        "en": [
+          "Womens health"
+        ],
+        "es": [
+          "Salud de la mujer"
+        ],
+        "fr": [
+          "Santé de la femme"
+        ],
+        "ru": [
+          "Здоровье женщины"
+        ]
+      },
+      "related": [
+        "concept1013"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11771",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11771",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "عاملون طبيون",
+          "كوادر صحية"
+        ],
+        "es": [
+          "Médicos"
+        ]
+      },
+      "broader": [
+        "concept239"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:11+00:00",
+      "narrower": [
+        "concept13903",
+        "concept13927",
+        "concept13928"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موظفون طبيون"
+        ],
+        "en": [
+          "Medical personnel"
+        ],
+        "es": [
+          "Personal médico"
+        ],
+        "fr": [
+          "Personnel médical"
+        ],
+        "ru": [
+          "Медицинский персонал"
+        ]
+      },
+      "related": [
+        "concept13930",
+        "concept241",
+        "concept412"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11778",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11778",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تمريض"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم التمريض"
+        ],
+        "en": [
+          "Nursing"
+        ],
+        "es": [
+          "Servicio de enfermería"
+        ],
+        "fr": [
+          "Soins infirmiers"
+        ],
+        "ru": [
+          "Уход за больными"
+        ]
+      },
+      "related": [
+        "concept412",
+        "concept5456",
+        "concept5457"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11779",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11779",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تداوي بالاعشاب",
+          "طب الاعشاب",
+          "طب مثلي",
+          "علاج تجانسي",
+          "علاج طبيعي",
+          "علاج مثلي",
+          "مداواة طبيعية",
+          "معالجة بالطبيعة",
+          "معالجة صحية متجانسة",
+          "معالجة مثلية",
+          "هوميوباثي"
+        ],
+        "en": [
+          "Herbal medicine",
+          "Naturopathy"
+        ],
+        "es": [
+          "Fitoterapia",
+          "Medicina natural",
+          "Naturopatía"
+        ],
+        "fr": [
+          "Naturopathie",
+          "Phytothérapie"
+        ],
+        "ru": [
+          "Медицина на основе лекарственных трав",
+          "Натуропатия"
+        ]
+      },
+      "broader": [
+        "concept244"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T14:33:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب تجانسي"
+        ],
+        "en": [
+          "Homeopathy"
+        ],
+        "es": [
+          "Homeopatía"
+        ],
+        "fr": [
+          "Homéopathie"
+        ],
+        "ru": [
+          "Гомеопатия"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11953",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11953",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تداوي بالعمل",
+          "طب العمل",
+          "علاج بالعمل",
+          "علاج مهني",
+          "علاج نفسي – مهني"
+        ],
+        "en": [
+          "Occupational therapy"
+        ],
+        "es": [
+          "Ergoterapia",
+          "Médico de empresa",
+          "Terapia ocupacional"
+        ],
+        "fr": [
+          "Ergothérapie",
+          "Médecine d'entreprise",
+          "Thérapie occupationnelle",
+          "Thérapie par le travail"
+        ],
+        "ru": [
+          "Трудотерапия"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب مهني"
+        ],
+        "en": [
+          "Occupational medicine"
+        ],
+        "es": [
+          "Medicina del trabajo"
+        ],
+        "fr": [
+          "Médecine du travail"
+        ],
+        "ru": [
+          "Профессиональная гигиена"
+        ]
+      },
+      "related": [
+        "concept2142",
+        "concept5461",
+        "concept6126",
+        "concept7377",
+        "concept8100"
+      ],
+      "scope_notes": {
+        "ar": [
+          "العناية الطبية المرتبطة بالعمل وبيئة العمل."
+        ],
+        "en": [
+          "Medical care in its relation to work and the work environment."
+        ],
+        "es": [
+          "Atención médica en el marco del trabajo y en el entorno laboral."
+        ],
+        "fr": [
+          "Soins médicaux fournis dans le cadre du travail et l'environnement du travail."
+        ],
+        "ru": [
+          "Медицинская помощь на производстве в рабочей обстановке."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12010",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12010",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحصين",
+          "تلقيح"
+        ],
+        "en": [
+          "Immunization"
+        ],
+        "es": [
+          "Inmunización",
+          "Inoculación",
+          "Vacuna"
+        ],
+        "fr": [
+          "Immunisation",
+          "Inoculation"
+        ],
+        "ru": [
+          "Иммунизация"
+        ]
+      },
+      "broader": [
+        "concept5458"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تطعيم"
+        ],
+        "en": [
+          "Vaccination"
+        ],
+        "es": [
+          "Vacunación"
+        ],
+        "fr": [
+          "Vaccination"
+        ],
+        "ru": [
+          "Вакцинация"
+        ]
+      },
+      "related": [
+        "concept249"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12189",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12189",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اطباء الاسنان",
+          "اطباء نفسانيون",
+          "جراحون"
+        ],
+        "en": [
+          "Dentists",
+          "Doctors",
+          "Psychiatrists",
+          "Surgeons"
+        ],
+        "es": [
+          "Cirujano",
+          "Dentista",
+          "Doctor",
+          "Psiquiatra"
+        ],
+        "fr": [
+          "Chirurgien",
+          "Dentiste",
+          "Docteur",
+          "Psychiatre"
+        ],
+        "ru": [
+          "Доктора (медики)",
+          "Психиатры",
+          "Стоматологи",
+          "Хирурги"
+        ]
+      },
+      "broader": [
+        "concept11778"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-23T18:33:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اطباء"
+        ],
+        "en": [
+          "Physicians"
+        ],
+        "es": [
+          "Médico"
+        ],
+        "fr": [
+          "Médecin"
+        ],
+        "ru": [
+          "Врачи"
+        ]
+      },
+      "related": [
+        "concept678"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13903",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13903",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Medicina del deporte"
+        ],
+        "fr": [
+          "Médecine du sport"
+        ]
+      },
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب رياضي"
+        ],
+        "en": [
+          "Sports medicine"
+        ],
+        "es": [
+          "Medicina deportiva"
+        ],
+        "fr": [
+          "Médecine sportive"
+        ],
+        "ru": [
+          "Спортивная медицина"
+        ]
+      },
+      "related": [
+        "concept1581",
+        "concept7666"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13909",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13909",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخصائيو التغذية",
+          "اخصائيو الحِميات",
+          "اخصائيو العلاج الطبيعي",
+          "اعوان الصحة المساعدون",
+          "عاملون صحيون",
+          "عاملون في القطاع الصحي",
+          "فئات طبية مساعدة",
+          "قابلات",
+          "معالجون طبيعيون",
+          "ممرضات",
+          "ممرضون",
+          "موظفو الصحة",
+          "موظفو القطاع الصحي",
+          "موظفون طبيون مساعدون"
+        ],
+        "en": [
+          "Auxiliary medical personnel",
+          "Dieticians",
+          "Health personnel",
+          "Midwives",
+          "Nurses",
+          "Physiotherapists"
+        ],
+        "es": [
+          "Auxiliar paramédico",
+          "Dietista",
+          "Enfermera",
+          "Enfermero",
+          "Fisioterapeuta",
+          "Paramédico",
+          "Partera",
+          "Personal sanitario auxiliar"
+        ],
+        "fr": [
+          "Diététiste",
+          "Infirmier",
+          "Infirmière",
+          "Personnel auxiliaire de santé",
+          "Physiothérapeute",
+          "Sage-femme"
+        ],
+        "ru": [
+          "Акушерки",
+          "Вспомогательный медицинский персонал",
+          "Диетврачи",
+          "Кадры сферы здравоохранения",
+          "Медицинские сестры",
+          "Физиотерапевты"
+        ]
+      },
+      "broader": [
+        "concept11778"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طواقم طبية مساعدة"
+        ],
+        "en": [
+          "Paramedical personnel"
+        ],
+        "es": [
+          "Personal paramédico"
+        ],
+        "fr": [
+          "Personnel paramédical"
+        ],
+        "ru": [
+          "Парамедицинский персонал"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13927",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13927",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept11778"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:51:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صيادلة"
+        ],
+        "en": [
+          "Pharmacists"
+        ],
+        "es": [
+          "Químico farmacéutico"
+        ],
+        "fr": [
+          "Pharmacien"
+        ],
+        "ru": [
+          "Фармацевты"
+        ]
+      },
+      "related": [
+        "concept243",
+        "concept678"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13928",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13928",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقويم النطق",
+          "علاج الكلام",
+          "علاج النطق",
+          "معالجة مقومة للنطق"
+        ],
+        "es": [
+          "Corrección de la pronunciación",
+          "Corrección de la voz",
+          "Tratamiendo ortofónico"
+        ],
+        "fr": [
+          "Rééducation de la parole",
+          "Rééducation du langage",
+          "Rééducation orthophonique",
+          "Traitement du langage",
+          "Traitement orthophonique"
+        ]
+      },
+      "broader": [
+        "concept245"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T14:34:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاج عيوب النطق"
+        ],
+        "en": [
+          "Speech therapy"
+        ],
+        "es": [
+          "Ortofonía"
+        ],
+        "fr": [
+          "Orthophonie"
+        ],
+        "ru": [
+          "Логопедия"
+        ]
+      },
+      "related": [
+        "concept14503",
+        "concept5831"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14861",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14861",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept241"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.80"
+      ],
+      "modified": "2019-12-15T13:52:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طب الاسنان"
+        ],
+        "en": [
+          "Dentistry"
+        ],
+        "es": [
+          "Odontología"
+        ],
+        "fr": [
+          "Odontologie"
+        ],
+        "ru": [
+          "Стоматология"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17038",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17038",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt2.80",
+    "labels": {
+      "en": "Medical sciences",
+      "fr": "Sciences médicales"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt2.80"
+  }
+}

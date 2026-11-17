@@ -1,0 +1,43 @@
+{
+  "format": "kristal.editorial-layout/0.1",
+  "id": "result-card",
+  "version": "1.0.0",
+  "intent": "communicate_a_bounded_result",
+  "slots": {
+    "claim": {
+      "allowed_kinds": [
+        "claim"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "conditions": {
+      "allowed_kinds": [
+        "scope"
+      ],
+      "min": 1,
+      "max": 1
+    },
+    "evidence": {
+      "allowed_kinds": [
+        "evidence"
+      ],
+      "min": 1,
+      "max": 4
+    },
+    "uncertainty": {
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "min": 1,
+      "max": 2
+    },
+    "implications": {
+      "allowed_kinds": [
+        "implication"
+      ],
+      "min": 0,
+      "max": 2
+    }
+  }
+}

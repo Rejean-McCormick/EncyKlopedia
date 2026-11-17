@@ -1,0 +1,155 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.toulmin-warrant-check",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Justification d’une garantie",
+  "research_basis": {
+    "family": "argument",
+    "relation": "toulmin.warrant-backing",
+    "source": "TOULMIN",
+    "source_url": "https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "toulmin.warrant-backing",
+    "editorial_relation_required": true,
+    "semantic_warning": "La garantie et son soutien sont des éléments distincts.",
+    "critical_questions": []
+  },
+  "slots": {
+    "grounds": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "premise"
+      ],
+      "visual_role": "paragraph"
+    },
+    "warrant": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "inference"
+      ],
+      "visual_role": "paragraph"
+    },
+    "backing": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 4,
+      "allowed_kinds": [
+        "evidence"
+      ],
+      "visual_role": "paragraph"
+    },
+    "limits": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "grounds",
+    "warrant",
+    "backing",
+    "limits"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "backing"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "toulmin.warrant-backing",
+    "focus_slot": "grounds",
+    "moves": [
+      {
+        "slot": "grounds",
+        "function": "grounds",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "warrant",
+        "function": "warrant",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "backing",
+        "function": "backing",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "limits",
+        "function": "limitations",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "warrant",
+        "to_slot": "grounds",
+        "relation": "toulmin.warrant-backing",
+        "status": "requires_external_semantic_review",
+        "relation_function": "warrants"
+      },
+      {
+        "from_slot": "backing",
+        "to_slot": "grounds",
+        "relation": "toulmin.warrant-backing",
+        "status": "requires_external_semantic_review",
+        "relation_function": "supports"
+      },
+      {
+        "from_slot": "limits",
+        "to_slot": "grounds",
+        "relation": "toulmin.warrant-backing",
+        "status": "requires_external_semantic_review",
+        "relation_function": "qualifies"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "grounds",
+        "warrant"
+      ],
+      [
+        "backing",
+        "limits"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "La garantie et son soutien sont des éléments distincts."
+    }
+  }
+}

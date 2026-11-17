@@ -79,18 +79,20 @@ class V27Pipeline(unittest.TestCase):
         with zipfile.ZipFile(pack) as z:
             man=json.loads(z.read('MANIFEST_PACK_V27.json'))
         article = source or man['articles'][0]
+        with zipfile.ZipFile(pack) as z:
+            exact_quote=z.read(article['text_path']).decode('utf-8')[:70]
         claims=[]
         for x in range(claim_count):
             claims.append({'source_page_id':article['page_id'], 'source_revision_id':article['revision_id'],
                            'subject_ref':'enwiki:'+str(article['page_id']), 'predicate':'has_policy_aim',
                            'object':{'type':'text','value':obj+str(x)},
                            'statement_en':'This article describes a particular policy aim '+str(x)+'.',
-                           'unesco_concepts':['concept10'], 'source_locator':'Lead', 'source_quote':'',
+                           'unesco_concepts':['concept10'], 'source_locator':'Lead', 'source_quote':exact_quote,
                            'confidence':'high'})
         data={'format':p.DELTA_FORMAT,'pack_id':man['pack_id'],
               'pack_sha256':p.hash_file(pack) if exact_sha else 'WRONG',
               'producer':'ChatGPT GPT-6','claims':claims,
-              'coverage_note':'selective'}
+              'coverage_note':'\n'.join(f'enwiki:{a["page_id"]} | objet et histoire | faits identifies | autres sections verifiees' for a in man['articles'])}
         path=self.root/(man['pack_id']+'_'+obj+'.json')
         path.write_bytes(p.encoded(data))
         return path
@@ -216,6 +218,7 @@ class V27Pipeline(unittest.TestCase):
         pack=Path(built['packs'][0]['path'])
         with zipfile.ZipFile(pack) as z:
             man=json.loads(z.read('MANIFEST_PACK_V27.json'))
+            quotes={a['page_id']:z.read(a['text_path']).decode('utf-8')[:70] for a in man['articles']}
         self.assertEqual(len(man['articles']),2)
         facts=[]
         for a in man['articles']:
@@ -224,11 +227,12 @@ class V27Pipeline(unittest.TestCase):
                           'object':{'type':'entity','value':'unesco:concept9'},
                           'statement_en':'The right to education is related to education policy.',
                           'unesco_concepts':['concept10'], 'source_locator':'Lead',
-                          'source_quote':'', 'confidence':'medium'})
+                          'source_quote':quotes[a['page_id']], 'confidence':'medium'})
         delta=self.root/'twosources.json'
         delta.write_bytes(p.encoded({'format':p.DELTA_FORMAT,'pack_id':man['pack_id'],
                           'pack_sha256':p.hash_file(pack),'producer':'GPT-6',
-                          'claims':facts,'coverage_note':'partial'}))
+                          'claims':facts,
+                          'coverage_note':'\n'.join(f'enwiki:{a["page_id"]} | objet et histoire | faits identifies | limites revues' for a in man['articles'])}))
         class I:pass
         i=I();i.pack=pack;i.delta=delta;i.work=self.work
         out=p.import_delta(i)

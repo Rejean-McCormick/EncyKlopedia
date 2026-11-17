@@ -1,0 +1,159 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.walton-sign",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Inférence fondée sur un indice",
+  "research_basis": {
+    "family": "argument",
+    "relation": "walton.sign",
+    "source": "WALTON",
+    "source_url": "https://journals.sagepub.com/doi/full/10.1080/19462166.2015.1123772",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "walton.sign",
+    "editorial_relation_required": true,
+    "semantic_warning": "Un indice n’établit pas nécessairement la conclusion.",
+    "critical_questions": [
+      "L’indice a-t-il des explications alternatives ?"
+    ]
+  },
+  "slots": {
+    "indicator": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "observation"
+      ],
+      "visual_role": "paragraph"
+    },
+    "rule": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "premise"
+      ],
+      "visual_role": "paragraph"
+    },
+    "inference": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "inference"
+      ],
+      "visual_role": "paragraph"
+    },
+    "alternative": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "indicator",
+    "rule",
+    "inference",
+    "alternative"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "inference"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "walton.sign",
+    "focus_slot": "inference",
+    "moves": [
+      {
+        "slot": "indicator",
+        "function": "indicator",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "rule",
+        "function": "rule",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "inference",
+        "function": "inference",
+        "nuclearity": "focus",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "alternative",
+        "function": "alternative",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "indicator",
+        "to_slot": "inference",
+        "relation": "walton.sign",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "rule",
+        "to_slot": "inference",
+        "relation": "walton.sign",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "alternative",
+        "to_slot": "inference",
+        "relation": "walton.sign",
+        "status": "requires_external_semantic_review",
+        "relation_function": "challenges"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "indicator",
+        "rule"
+      ],
+      [
+        "inference",
+        "alternative"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [
+        "L’indice a-t-il des explications alternatives ?"
+      ],
+      "warning": "Un indice n’établit pas nécessairement la conclusion."
+    }
+  }
+}

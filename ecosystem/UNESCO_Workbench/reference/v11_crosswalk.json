@@ -1,0 +1,475 @@
+{
+  "schema_version": "11.0",
+  "artifact_type": "kristal_external_crosswalk",
+  "crosswalk_id": "unesco-mt1-10-wikidata-p3916-unreviewed-v1",
+  "mappings": [
+    {
+      "mapping_id": "wd-p3916-concept8",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ1"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q118116018"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept9",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ2"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q452348"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept10",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ3"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q69370"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept1124",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ4"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q133267871"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept1137",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ5"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q118116224"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept1138",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ6"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q11079235"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept1139",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ7"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q5500224"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept1140",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ8"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q7894104"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept1480",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ9"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q29957929"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept1487",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ10"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q118280554"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept1516",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ11"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q485100"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept2107",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ12"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q438746"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept2112",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ13"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q102661383"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept3894",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ14"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q233107"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept3898",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ15"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q5819932"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept4938",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ16"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q118135166"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept5178",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ17"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q112632870"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept7078",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ20"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q119594557"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept7273",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ21"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q16911265"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept7281",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ22"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q115160652"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept7282",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ23"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q861536"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept7597",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ24"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q119337331"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept7790",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ25"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q99616730"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept7859",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ26"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q3595759"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept8260",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ27"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q30032145"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept9042",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ28"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q123044774"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept9176",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ29"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q118142776"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept9255",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ30"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q118117140"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept9267",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ31"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q120204288"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept9311",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ32"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q939957"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept9341",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ33"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q119709139"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept9343",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ34"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q6807178"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept9344",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ35"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q120200866"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept9345",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ36"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q1196083"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept9440",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ37"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q118151828"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    },
+    {
+      "mapping_id": "wd-p3916-concept11264",
+      "local_ref": {
+        "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+        "id": "KQ38"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q152545"
+      },
+      "relation": "exactMatch",
+      "status": "candidate"
+    }
+  ]
+}

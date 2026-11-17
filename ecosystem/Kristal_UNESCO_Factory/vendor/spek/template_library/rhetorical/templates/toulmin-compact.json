@@ -1,0 +1,238 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.toulmin-compact",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Thèse, preuves, garantie, réserve",
+  "research_basis": {
+    "family": "argument",
+    "relation": "toulmin.claim-grounds-warrant",
+    "source": "TOULMIN",
+    "source_url": "https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "toulmin.claim-grounds-warrant",
+    "editorial_relation_required": true,
+    "semantic_warning": "Le warrant est un lien argumentatif fourni, pas déduit.",
+    "critical_questions": [
+      "La garantie est-elle explicitement autorisée ?",
+      "La thèse dépasse-t-elle les données ?"
+    ]
+  },
+  "slots": {
+    "claim": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "thesis"
+      ],
+      "visual_role": "lead_sentence"
+    },
+    "grounds": {
+      "node_kind": "child",
+      "min": 1,
+      "max": 8,
+      "allowed_templates": [
+        "rhetorical.evidence@1.0.0"
+      ]
+    },
+    "warrant": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "inference"
+      ],
+      "visual_role": "paragraph"
+    },
+    "backing": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 4,
+      "allowed_kinds": [
+        "evidence"
+      ],
+      "visual_role": "paragraph"
+    },
+    "qualifier": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "qualification"
+    },
+    "rebuttal": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "objection"
+      ],
+      "visual_role": "paragraph"
+    },
+    "bridge": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "relation"
+      ],
+      "visual_role": "supporting_sentence"
+    }
+  },
+  "ordered_slots": [
+    "claim",
+    "grounds",
+    "bridge",
+    "warrant",
+    "backing",
+    "qualifier",
+    "rebuttal"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "warrant",
+      "qualifier"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "toulmin.claim-grounds-warrant",
+    "focus_slot": "claim",
+    "moves": [
+      {
+        "slot": "claim",
+        "function": "position",
+        "nuclearity": "focus",
+        "group": 1,
+        "surface_role": "lead_sentence"
+      },
+      {
+        "slot": "grounds",
+        "function": "grounds",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "embedded_template"
+      },
+      {
+        "slot": "bridge",
+        "function": "explicit_semantik_transition",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "supporting_sentence"
+      },
+      {
+        "slot": "warrant",
+        "function": "warrant",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "backing",
+        "function": "backing",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "qualifier",
+        "function": "qualification",
+        "nuclearity": "supporting",
+        "group": 3,
+        "surface_role": "qualification"
+      },
+      {
+        "slot": "rebuttal",
+        "function": "counterargument",
+        "nuclearity": "supporting",
+        "group": 3,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "grounds",
+        "to_slot": "claim",
+        "relation": "toulmin.claim-grounds-warrant",
+        "status": "requires_external_semantic_review",
+        "relation_function": "supports"
+      },
+      {
+        "from_slot": "warrant",
+        "to_slot": "claim",
+        "relation": "toulmin.claim-grounds-warrant",
+        "status": "requires_external_semantic_review",
+        "relation_function": "warrants"
+      },
+      {
+        "from_slot": "backing",
+        "to_slot": "warrant",
+        "relation": "toulmin.claim-grounds-warrant",
+        "status": "requires_external_semantic_review",
+        "relation_function": "supports"
+      },
+      {
+        "from_slot": "qualifier",
+        "to_slot": "claim",
+        "relation": "toulmin.claim-grounds-warrant",
+        "status": "requires_external_semantic_review",
+        "relation_function": "qualifies"
+      },
+      {
+        "from_slot": "rebuttal",
+        "to_slot": "claim",
+        "relation": "toulmin.claim-grounds-warrant",
+        "status": "requires_external_semantic_review",
+        "relation_function": "challenges"
+      },
+      {
+        "from_slot": "bridge",
+        "to_slot": "warrant",
+        "relation": "toulmin.claim-grounds-warrant",
+        "status": "requires_external_semantic_review",
+        "relation_function": "transitions"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "claim",
+        "grounds",
+        "bridge"
+      ],
+      [
+        "warrant",
+        "backing"
+      ],
+      [
+        "qualifier",
+        "rebuttal"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [
+        "La garantie est-elle explicitement autorisée ?",
+        "La thèse dépasse-t-elle les données ?"
+      ],
+      "warning": "Le warrant est un lien argumentatif fourni, pas déduit."
+    }
+  }
+}

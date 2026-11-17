@@ -1,0 +1,35 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:unesco-mt6-75",
+  "classification": {
+    "unesco_thesaurus": {
+      "domains": [
+        "http://vocabularies.unesco.org/thesaurus/domain6"
+      ],
+      "kos_id": "kos:unesco-thesaurus",
+      "mapping_provenance": "UNESCO SKOS snapshot",
+      "mapping_status": "candidate",
+      "microthesauri": [
+        "http://vocabularies.unesco.org/thesaurus/mt6.75"
+      ]
+    }
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "unesco_skos_source_snapshot",
+    "organization": "unknown",
+    "materialization_profiles": [],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "tiny",
+    "tracked_local_bytes": 217501,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:b810f55ef7437a9903a6ae7564eab43bac951e54932ace3873304ad5cdfeaefd",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

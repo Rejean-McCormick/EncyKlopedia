@@ -1,0 +1,64 @@
+{
+  "format": "kristal.portable-ai/1.0",
+  "kit_version": "3.2.4",
+  "title": "Demo Open Kristal",
+  "slug": "demo-open",
+  "languages": [],
+  "state_ref": "urn:kristal:state:demo-open",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:172b8ace95a6f798f16bb482eb87be4601e0ea0b9269aeca7b22ceaf68362fe4"
+  },
+  "entrypoint": "AI_START_HERE.md",
+  "read_order": [
+    "AI_START_HERE.md",
+    "AI_MANIFEST.json",
+    "ai/CONTEXT.md",
+    "ai/COVERAGE.json",
+    "ai/GLOSSARY.md",
+    "ai/INDEX.json",
+    "canon/state.index.json",
+    "sources/source-catalog.json"
+  ],
+  "state_snapshot": "state/state-snapshot.json",
+  "canonical_root": "canon/",
+  "sources_root": "sources/",
+  "documentation_root": "docs/",
+  "ai_read_model_root": "ai/",
+  "index": "ai/INDEX.json",
+  "context": "ai/CONTEXT.md",
+  "coverage": "ai/COVERAGE.json",
+  "glossary": "ai/GLOSSARY.md",
+  "relations": "ai/RELATIONS.json",
+  "questions": "ai/QUESTIONS.md",
+  "materializations": {
+    "manifest_count": 0,
+    "local_blob_count": 0,
+    "external_locator_count": 0,
+    "missing_local_locator_count": 0,
+    "unlocated_blob_count": 0,
+    "indexed": true,
+    "blob_transport": "host_policy"
+  },
+  "github_read_surface": {
+    "contract": "kristal.github-read-surface/1.0",
+    "target_root_template": "kristals/<slug>/",
+    "entrypoint": "AI_START_HERE.md",
+    "note": "Operational projection only; never part of the v9 logical commitment."
+  },
+  "portable_reading": {
+    "offline": true,
+    "github_required": false,
+    "network_required": false,
+    "python_required": false,
+    "node_required": false,
+    "executable_tools_required": false
+  },
+  "external_dependencies": [],
+  "rules": {
+    "canonical_content": "canon/",
+    "derived_ai_content_is_authoritative": false,
+    "ai_output_is_canonical": false,
+    "absence_implies_false": false
+  }
+}

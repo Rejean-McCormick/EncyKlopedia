@@ -1,0 +1,27 @@
+{
+  "schema_version": "11.0",
+  "artifact_type": "kristal_external_crosswalk",
+  "crosswalk_id": "test-crosswalk",
+  "mappings": [
+    {
+      "mapping_id": "m1",
+      "local_ref": {
+        "namespace_id": "test:project",
+        "id": "KQ1001"
+      },
+      "external_ref": {
+        "system": "wikidata",
+        "id": "Q8018"
+      },
+      "relation": "exactMatch",
+      "status": "accepted",
+      "review": {
+        "method": "human",
+        "decision_id": "d1",
+        "evidence_refs": [
+          "KS4001"
+        ]
+      }
+    }
+  ]
+}

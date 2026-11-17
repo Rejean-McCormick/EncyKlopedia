@@ -1,0 +1,500 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+}}
+{{!
+    @template mod_uckkarchive/provenance_panel
+
+    Provenance panel for UCKK archive records.
+
+    This template is render-only. It must receive already permission-filtered,
+    context-aware data from mod_uckkarchive output/service classes.
+
+    Example context:
+    {
+        "uniqid": "uckkarchive-provenance-12",
+        "itemid": 12,
+        "kristalid": 4,
+        "cmid": 33,
+        "contextid": 101,
+        "title": "Provenance",
+        "subjecttitle": "Kristal: Connaître → Choisir → Agir → Se souvenir",
+        "subjecttype": "kristal",
+        "subjecttypelabel": "Kristal",
+        "provenance": "human",
+        "provenancelabel": "Human",
+        "provenanceclass": "provenance-human",
+        "validationstate": "unverified",
+        "validationlabel": "Unverified",
+        "validationclass": "validation-unverified",
+        "visibility": "course",
+        "visibilitylabel": "Course",
+        "visibilityclass": "visibility-course",
+        "hasstatement": true,
+        "statement": "<p>Produced by a human from course evidence.</p>",
+        "hasprimarysource": true,
+        "primarysource": {},
+        "sources": [],
+        "hassources": true,
+        "chain": [],
+        "haschain": true,
+        "hashes": [],
+        "hasheshashes": true,
+        "warnings": [],
+        "haswarnings": false,
+        "actions": [],
+        "hasactions": true
+    }
+}}
+
+<section
+    id="{{uniqid}}"
+    class="uckkarchive-provenance-panel {{provenanceclass}} {{validationclass}} {{visibilityclass}}"
+    data-region="uckkarchive-provenance-panel"
+    {{#itemid}}data-item-id="{{itemid}}"{{/itemid}}
+    {{#kristalid}}data-kristal-id="{{kristalid}}"{{/kristalid}}
+    {{#cmid}}data-cmid="{{cmid}}"{{/cmid}}
+    {{#contextid}}data-context-id="{{contextid}}"{{/contextid}}
+>
+    <header class="uckkarchive-provenance-panel__header">
+        <div class="uckkarchive-provenance-panel__identity">
+            <p class="uckkarchive-provenance-panel__eyebrow">
+                {{#str}} provenance, uckkarchive {{/str}}
+            </p>
+
+            <h3 class="uckkarchive-provenance-panel__title">
+                {{#title}}
+                    {{title}}
+                {{/title}}
+                {{^title}}
+                    {{#str}} provenancepanel, uckkarchive {{/str}}
+                {{/title}}
+            </h3>
+
+            {{#subjecttitle}}
+                <p class="uckkarchive-provenance-panel__subject">
+                    <span class="uckkarchive-provenance-panel__subject-type">
+                        {{subjecttypelabel}}
+                    </span>
+                    <span class="uckkarchive-provenance-panel__subject-title">
+                        {{subjecttitle}}
+                    </span>
+                </p>
+            {{/subjecttitle}}
+        </div>
+
+        <div class="uckkarchive-provenance-panel__badges">
+            {{#provenancelabel}}
+                <span class="uckkarchive-provenance-panel__badge {{provenanceclass}}">
+                    {{provenancelabel}}
+                </span>
+            {{/provenancelabel}}
+
+            {{#validationlabel}}
+                <span class="uckkarchive-provenance-panel__badge {{validationclass}}">
+                    {{validationlabel}}
+                </span>
+            {{/validationlabel}}
+
+            {{#visibilitylabel}}
+                <span class="uckkarchive-provenance-panel__badge {{visibilityclass}}">
+                    {{visibilitylabel}}
+                </span>
+            {{/visibilitylabel}}
+        </div>
+    </header>
+
+    <dl class="uckkarchive-provenance-panel__summary">
+        {{#sourcecomponent}}
+            <div class="uckkarchive-provenance-panel__summary-item">
+                <dt>{{#str}} sourcecomponent, uckkarchive {{/str}}</dt>
+                <dd>{{sourcecomponent}}</dd>
+            </div>
+        {{/sourcecomponent}}
+
+        {{#sourceid}}
+            <div class="uckkarchive-provenance-panel__summary-item">
+                <dt>{{#str}} sourceid, uckkarchive {{/str}}</dt>
+                <dd>{{sourceid}}</dd>
+            </div>
+        {{/sourceid}}
+
+        {{#sourceauthor}}
+            <div class="uckkarchive-provenance-panel__summary-item">
+                <dt>{{#str}} sourceauthor, uckkarchive {{/str}}</dt>
+                <dd>{{sourceauthor}}</dd>
+            </div>
+        {{/sourceauthor}}
+
+        {{#sourcedatelabel}}
+            <div class="uckkarchive-provenance-panel__summary-item">
+                <dt>{{#str}} sourcedate, uckkarchive {{/str}}</dt>
+                <dd>{{sourcedatelabel}}</dd>
+            </div>
+        {{/sourcedatelabel}}
+
+        {{#versionlabel}}
+            <div class="uckkarchive-provenance-panel__summary-item">
+                <dt>{{#str}} version, uckkarchive {{/str}}</dt>
+                <dd>{{versionlabel}}</dd>
+            </div>
+        {{/versionlabel}}
+    </dl>
+
+    {{#haswarnings}}
+        <div class="uckkarchive-provenance-panel__warnings" role="status">
+            {{#warnings}}
+                <div class="alert {{class}} uckkarchive-provenance-panel__warning">
+                    {{message}}
+                </div>
+            {{/warnings}}
+        </div>
+    {{/haswarnings}}
+
+    {{#hasstatement}}
+        <section class="uckkarchive-provenance-panel__section uckkarchive-provenance-panel__statement">
+            <h4 class="uckkarchive-provenance-panel__section-title">
+                {{#str}} provenancestatement, uckkarchive {{/str}}
+            </h4>
+
+            <div class="uckkarchive-provenance-panel__statement-body">
+                {{{statement}}}
+            </div>
+        </section>
+    {{/hasstatement}}
+
+    {{#hasprimarysource}}
+        <section class="uckkarchive-provenance-panel__section uckkarchive-provenance-panel__primary-source">
+            <h4 class="uckkarchive-provenance-panel__section-title">
+                {{#str}} primarysource, uckkarchive {{/str}}
+            </h4>
+
+            {{#primarysource}}
+                <article class="uckkarchive-provenance-panel__source uckkarchive-provenance-panel__source--primary">
+                    <header class="uckkarchive-provenance-panel__source-header">
+                        {{#url}}
+                            <a href="{{url}}" class="uckkarchive-provenance-panel__source-title">
+                                {{title}}
+                            </a>
+                        {{/url}}
+
+                        {{^url}}
+                            <span class="uckkarchive-provenance-panel__source-title">
+                                {{title}}
+                            </span>
+                        {{/url}}
+
+                        {{#typelabel}}
+                            <span class="uckkarchive-provenance-panel__source-type">
+                                {{typelabel}}
+                            </span>
+                        {{/typelabel}}
+                    </header>
+
+                    <dl class="uckkarchive-provenance-panel__source-meta">
+                        {{#author}}
+                            <div>
+                                <dt>{{#str}} sourceauthor, uckkarchive {{/str}}</dt>
+                                <dd>{{author}}</dd>
+                            </div>
+                        {{/author}}
+
+                        {{#datelabel}}
+                            <div>
+                                <dt>{{#str}} sourcedate, uckkarchive {{/str}}</dt>
+                                <dd>{{datelabel}}</dd>
+                            </div>
+                        {{/datelabel}}
+
+                        {{#component}}
+                            <div>
+                                <dt>{{#str}} sourcecomponent, uckkarchive {{/str}}</dt>
+                                <dd>{{component}}</dd>
+                            </div>
+                        {{/component}}
+
+                        {{#validationlabel}}
+                            <div>
+                                <dt>{{#str}} validationstate, uckkarchive {{/str}}</dt>
+                                <dd>{{validationlabel}}</dd>
+                            </div>
+                        {{/validationlabel}}
+                    </dl>
+
+                    {{#summary}}
+                        <p class="uckkarchive-provenance-panel__source-summary">
+                            {{summary}}
+                        </p>
+                    {{/summary}}
+                </article>
+            {{/primarysource}}
+        </section>
+    {{/hasprimarysource}}
+
+    {{#hassources}}
+        <section class="uckkarchive-provenance-panel__section uckkarchive-provenance-panel__sources">
+            <h4 class="uckkarchive-provenance-panel__section-title">
+                {{#str}} sources, uckkarchive {{/str}}
+            </h4>
+
+            <ul class="uckkarchive-provenance-panel__source-list">
+                {{#sources}}
+                    <li class="uckkarchive-provenance-panel__source-item">
+                        <article class="uckkarchive-provenance-panel__source">
+                            <header class="uckkarchive-provenance-panel__source-header">
+                                {{#url}}
+                                    <a href="{{url}}" class="uckkarchive-provenance-panel__source-title">
+                                        {{title}}
+                                    </a>
+                                {{/url}}
+
+                                {{^url}}
+                                    <span class="uckkarchive-provenance-panel__source-title">
+                                        {{title}}
+                                    </span>
+                                {{/url}}
+
+                                {{#typelabel}}
+                                    <span class="uckkarchive-provenance-panel__source-type">
+                                        {{typelabel}}
+                                    </span>
+                                {{/typelabel}}
+                            </header>
+
+                            {{#summary}}
+                                <p class="uckkarchive-provenance-panel__source-summary">
+                                    {{summary}}
+                                </p>
+                            {{/summary}}
+
+                            <dl class="uckkarchive-provenance-panel__source-meta">
+                                {{#author}}
+                                    <div>
+                                        <dt>{{#str}} sourceauthor, uckkarchive {{/str}}</dt>
+                                        <dd>{{author}}</dd>
+                                    </div>
+                                {{/author}}
+
+                                {{#datelabel}}
+                                    <div>
+                                        <dt>{{#str}} sourcedate, uckkarchive {{/str}}</dt>
+                                        <dd>{{datelabel}}</dd>
+                                    </div>
+                                {{/datelabel}}
+
+                                {{#provenancelabel}}
+                                    <div>
+                                        <dt>{{#str}} provenance, uckkarchive {{/str}}</dt>
+                                        <dd>{{provenancelabel}}</dd>
+                                    </div>
+                                {{/provenancelabel}}
+
+                                {{#validationlabel}}
+                                    <div>
+                                        <dt>{{#str}} validationstate, uckkarchive {{/str}}</dt>
+                                        <dd>{{validationlabel}}</dd>
+                                    </div>
+                                {{/validationlabel}}
+                            </dl>
+                        </article>
+                    </li>
+                {{/sources}}
+            </ul>
+        </section>
+    {{/hassources}}
+
+    {{#haschain}}
+        <section class="uckkarchive-provenance-panel__section uckkarchive-provenance-panel__chain">
+            <h4 class="uckkarchive-provenance-panel__section-title">
+                {{#str}} provenancechain, uckkarchive {{/str}}
+            </h4>
+
+            <ol class="uckkarchive-provenance-panel__chain-list">
+                {{#chain}}
+                    <li class="uckkarchive-provenance-panel__chain-step {{class}}">
+                        <div class="uckkarchive-provenance-panel__chain-step-header">
+                            {{#url}}
+                                <a href="{{url}}" class="uckkarchive-provenance-panel__chain-step-title">
+                                    {{title}}
+                                </a>
+                            {{/url}}
+
+                            {{^url}}
+                                <span class="uckkarchive-provenance-panel__chain-step-title">
+                                    {{title}}
+                                </span>
+                            {{/url}}
+
+                            {{#typelabel}}
+                                <span class="uckkarchive-provenance-panel__chain-step-type">
+                                    {{typelabel}}
+                                </span>
+                            {{/typelabel}}
+                        </div>
+
+                        {{#description}}
+                            <p class="uckkarchive-provenance-panel__chain-step-description">
+                                {{description}}
+                            </p>
+                        {{/description}}
+
+                        <dl class="uckkarchive-provenance-panel__chain-step-meta">
+                            {{#actorlabel}}
+                                <div>
+                                    <dt>{{#str}} actor, uckkarchive {{/str}}</dt>
+                                    <dd>{{actorlabel}}</dd>
+                                </div>
+                            {{/actorlabel}}
+
+                            {{#timelabel}}
+                                <div>
+                                    <dt>{{#str}} time, uckkarchive {{/str}}</dt>
+                                    <dd>{{timelabel}}</dd>
+                                </div>
+                            {{/timelabel}}
+
+                            {{#validationlabel}}
+                                <div>
+                                    <dt>{{#str}} validationstate, uckkarchive {{/str}}</dt>
+                                    <dd>{{validationlabel}}</dd>
+                                </div>
+                            {{/validationlabel}}
+                        </dl>
+                    </li>
+                {{/chain}}
+            </ol>
+        </section>
+    {{/haschain}}
+
+    {{#hasheshashes}}
+        <section class="uckkarchive-provenance-panel__section uckkarchive-provenance-panel__hashes">
+            <h4 class="uckkarchive-provenance-panel__section-title">
+                {{#str}} provenancehashes, uckkarchive {{/str}}
+            </h4>
+
+            <dl class="uckkarchive-provenance-panel__hash-list">
+                {{#hashes}}
+                    <div class="uckkarchive-provenance-panel__hash-item">
+                        <dt>{{label}}</dt>
+                        <dd>
+                            <code>{{value}}</code>
+
+                            {{#algorithm}}
+                                <span class="uckkarchive-provenance-panel__hash-algorithm">
+                                    {{algorithm}}
+                                </span>
+                            {{/algorithm}}
+
+                            {{#verifiedlabel}}
+                                <span class="uckkarchive-provenance-panel__hash-verified">
+                                    {{verifiedlabel}}
+                                </span>
+                            {{/verifiedlabel}}
+                        </dd>
+                    </div>
+                {{/hashes}}
+            </dl>
+        </section>
+    {{/hasheshashes}}
+
+    {{#hasailog}}
+        <section class="uckkarchive-provenance-panel__section uckkarchive-provenance-panel__ai">
+            <h4 class="uckkarchive-provenance-panel__section-title">
+                {{#str}} aigovernance, uckkarchive {{/str}}
+            </h4>
+
+            {{#ainotice}}
+                <div class="alert alert-info uckkarchive-provenance-panel__ai-notice" role="status">
+                    {{ainotice}}
+                </div>
+            {{/ainotice}}
+
+            <div class="uckkarchive-provenance-panel__ai-log">
+                {{{ailog}}}
+            </div>
+        </section>
+    {{/hasailog}}
+
+    {{#hasuncertainty}}
+        <section class="uckkarchive-provenance-panel__section uckkarchive-provenance-panel__uncertainty">
+            <h4 class="uckkarchive-provenance-panel__section-title">
+                {{#str}} uncertaintynotes, uckkarchive {{/str}}
+            </h4>
+
+            <div class="uckkarchive-provenance-panel__uncertainty-body">
+                {{{uncertainty}}}
+            </div>
+        </section>
+    {{/hasuncertainty}}
+
+    {{#hasrestrictednotes}}
+        <section class="uckkarchive-provenance-panel__section uckkarchive-provenance-panel__restricted">
+            <h4 class="uckkarchive-provenance-panel__section-title">
+                {{#str}} restrictednotes, uckkarchive {{/str}}
+            </h4>
+
+            <div class="uckkarchive-provenance-panel__restricted-body">
+                {{{restrictednotes}}}
+            </div>
+        </section>
+    {{/hasrestrictednotes}}
+
+    {{#hasactions}}
+        <footer class="uckkarchive-provenance-panel__actions">
+            {{#actions}}
+                {{#ispost}}
+                    <form
+                        method="post"
+                        action="{{url}}"
+                        class="uckkarchive-provenance-panel__action-form"
+                    >
+                        <input type="hidden" name="sesskey" value="{{sesskey}}">
+                        <input type="hidden" name="action" value="{{key}}">
+
+                        {{#itemid}}
+                            <input type="hidden" name="itemid" value="{{itemid}}">
+                        {{/itemid}}
+
+                        {{#kristalid}}
+                            <input type="hidden" name="kristalid" value="{{kristalid}}">
+                        {{/kristalid}}
+
+                        <button
+                            type="submit"
+                            class="btn {{#primary}}btn-primary{{/primary}}{{#secondary}}btn-secondary{{/secondary}}{{#danger}}btn-danger{{/danger}}"
+                            {{#disabled}}disabled{{/disabled}}
+                        >
+                            {{label}}
+                        </button>
+
+                        {{#hasdisabledreason}}
+                            <span class="uckkarchive-provenance-panel__disabled-reason">
+                                {{disabledreason}}
+                            </span>
+                        {{/hasdisabledreason}}
+                    </form>
+                {{/ispost}}
+
+                {{#isget}}
+                    <a
+                        href="{{url}}"
+                        class="btn {{#primary}}btn-primary{{/primary}}{{#secondary}}btn-secondary{{/secondary}}{{#danger}}btn-danger{{/danger}}"
+                        {{#disabled}}aria-disabled="true" tabindex="-1"{{/disabled}}
+                    >
+                        {{label}}
+                    </a>
+                {{/isget}}
+            {{/actions}}
+        </footer>
+    {{/hasactions}}
+
+    {{#notice}}
+        <div class="alert alert-info uckkarchive-provenance-panel__notice" role="status">
+            {{notice}}
+        </div>
+    {{/notice}}
+</section>

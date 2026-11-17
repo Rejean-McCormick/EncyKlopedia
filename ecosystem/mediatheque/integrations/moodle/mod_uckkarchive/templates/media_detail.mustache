@@ -1,0 +1,632 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+}}
+{{!
+    @template mod_uckkarchive/media_detail
+
+    Detail view for one Médiathèque media record.
+
+    This template is render-only. It must receive data that is already:
+    - permission-filtered;
+    - context-aware;
+    - policy-filtered;
+    - safe for the current viewer;
+    - formatted for display.
+
+    The title opens the internal UCKK media record.
+    External works must be opened through a distinct action:
+    "Ouvrir la référence externe" / "Open external reference".
+
+    Example context:
+    {
+        "uniqid": "uckkarchive-media-detail-1",
+        "id": 1,
+        "mediaid": 1,
+        "archiveid": 12,
+        "cmid": 33,
+        "courseid": 7,
+        "contextid": 101,
+
+        "title": "YouTube Short — jSr1nN2TG50",
+        "hastitle": true,
+        "summary": "Short public summary.",
+        "hassummary": true,
+        "description": "Plain description.",
+        "hasdescription": true,
+        "descriptionhtml": "<p>HTML description.</p>",
+        "hasdescriptionhtml": true,
+
+        "mediatype": "video",
+        "mediatypelabel": "Video",
+        "status": "active",
+        "statuslabel": "Active",
+        "visibility": "public",
+        "visibilitylabel": "Public",
+        "audiencesuitability": "general",
+        "audiencesuitabilitylabel": "General",
+
+        "sourcetype": "external_reference_only",
+        "sourcetypelabel": "External reference only",
+        "sourceownership": "external",
+        "sourceownershiplabel": "External",
+        "sourceurl": "https://www.youtube.com/shorts/jSr1nN2TG50",
+        "hassourceurl": true,
+        "externalurl": "https://www.youtube.com/shorts/jSr1nN2TG50",
+        "hasexternalurl": true,
+        "canopenexternal": true,
+        "openexternallabel": "Ouvrir la référence externe",
+
+        "citation": "YouTube Short, jSr1nN2TG50",
+        "hascitation": true,
+        "rightsnote": "Rights note.",
+        "hasrightsnote": true,
+        "license": "External",
+        "haslicense": true,
+
+        "thumbnailurl": "",
+        "hasthumbnail": false,
+        "previewurl": "",
+        "haspreview": false,
+        "downloadurl": "",
+        "candownload": false,
+
+        "libraryurl": "/mod/uckkarchive/media.php?id=33",
+        "backlabel": "Retour à la Médiathèque",
+        "editurl": "/mod/uckkarchive/media.php?id=33&mediaid=1&action=edit",
+        "canedit": true,
+        "editlabel": "Modifier",
+        "versionsurl": "/mod/uckkarchive/media.php?id=33&mediaid=1&action=versions",
+        "canversion": true,
+        "versionslabel": "Versions",
+        "downloadlabel": "Télécharger",
+
+        "hasmetadata": true,
+        "metadata": [
+            {"label": "Creator", "value": "Unknown"},
+            {"label": "Language", "value": "fr"}
+        ],
+
+        "hascollections": false,
+        "collections": [],
+
+        "hasfiles": false,
+        "files": [],
+
+        "hasrelations": false,
+        "relations": [],
+
+        "haswarnings": false,
+        "warnings": [],
+
+        "hasnotices": false,
+        "notices": []
+    }
+}}
+
+<article
+    id="{{uniqid}}"
+    class="uckkarchive-media-detail {{statusclass}} {{visibilityclass}} {{mediatypeclass}}"
+    data-region="uckkarchive-media-detail"
+    data-media-id="{{mediaid}}"
+    data-archive-id="{{archiveid}}"
+    data-cmid="{{cmid}}"
+    data-course-id="{{courseid}}"
+    data-context-id="{{contextid}}"
+>
+    <header class="uckkarchive-media-detail__header">
+        <div class="uckkarchive-media-detail__identity">
+            <p class="uckkarchive-media-detail__eyebrow">
+                {{#mediatypelabel}}{{mediatypelabel}}{{/mediatypelabel}}
+                {{^mediatypelabel}}{{mediatype}}{{/mediatypelabel}}
+            </p>
+
+            <h2 class="uckkarchive-media-detail__title">
+                {{title}}
+            </h2>
+
+            {{#hassummary}}
+                <p class="uckkarchive-media-detail__summary">
+                    {{summary}}
+                </p>
+            {{/hassummary}}
+        </div>
+
+        <div class="uckkarchive-media-detail__badges" aria-label="Media status">
+            {{#statuslabel}}
+                <span class="badge badge-secondary uckkarchive-media-detail__badge uckkarchive-media-detail__badge--status">
+                    {{statuslabel}}
+                </span>
+            {{/statuslabel}}
+
+            {{#visibilitylabel}}
+                <span class="badge badge-light uckkarchive-media-detail__badge uckkarchive-media-detail__badge--visibility">
+                    {{visibilitylabel}}
+                </span>
+            {{/visibilitylabel}}
+
+            {{#audiencesuitabilitylabel}}
+                <span class="badge badge-light uckkarchive-media-detail__badge uckkarchive-media-detail__badge--audience">
+                    {{audiencesuitabilitylabel}}
+                </span>
+            {{/audiencesuitabilitylabel}}
+
+            {{#isrestricted}}
+                <span class="badge badge-warning uckkarchive-media-detail__badge uckkarchive-media-detail__badge--restricted">
+                    {{restrictedlabel}}
+                </span>
+            {{/isrestricted}}
+
+            {{#hasadvisory}}
+                <span class="badge badge-warning uckkarchive-media-detail__badge uckkarchive-media-detail__badge--advisory">
+                    {{advisorylabel}}
+                </span>
+            {{/hasadvisory}}
+
+            {{#hasculturalprotocol}}
+                <span class="badge badge-warning uckkarchive-media-detail__badge uckkarchive-media-detail__badge--cultural-protocol">
+                    {{culturalprotocollabel}}
+                </span>
+            {{/hasculturalprotocol}}
+
+            {{#isexternalreference}}
+                <span class="badge badge-info uckkarchive-media-detail__badge uckkarchive-media-detail__badge--external-reference">
+                    {{externalreferencelabel}}
+                </span>
+            {{/isexternalreference}}
+        </div>
+    </header>
+
+    <div class="uckkarchive-media-detail__actions" data-region="uckkarchive-media-detail-actions">
+        {{#libraryurl}}
+            <a
+                class="btn btn-outline-secondary uckkarchive-media-detail__action uckkarchive-media-detail__action--back"
+                href="{{libraryurl}}"
+                data-action="back-to-media-library"
+            >
+                {{#backlabel}}{{backlabel}}{{/backlabel}}
+                {{^backlabel}}Retour à la Médiathèque{{/backlabel}}
+            </a>
+        {{/libraryurl}}
+
+        {{#canopenexternal}}
+            {{#externalurl}}
+                <a
+                    class="btn btn-primary uckkarchive-media-detail__action uckkarchive-media-detail__action--open-external"
+                    href="{{externalurl}}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-action="open-external-reference"
+                >
+                    {{#openexternallabel}}{{openexternallabel}}{{/openexternallabel}}
+                    {{^openexternallabel}}Ouvrir la référence externe{{/openexternallabel}}
+                </a>
+            {{/externalurl}}
+        {{/canopenexternal}}
+
+        {{#canedit}}
+            {{#editurl}}
+                <a
+                    class="btn btn-outline-primary uckkarchive-media-detail__action uckkarchive-media-detail__action--edit"
+                    href="{{editurl}}"
+                    data-action="edit-media"
+                >
+                    {{#editlabel}}{{editlabel}}{{/editlabel}}
+                    {{^editlabel}}Modifier{{/editlabel}}
+                </a>
+            {{/editurl}}
+        {{/canedit}}
+
+        {{#canversion}}
+            {{#versionsurl}}
+                <a
+                    class="btn btn-outline-primary uckkarchive-media-detail__action uckkarchive-media-detail__action--versions"
+                    href="{{versionsurl}}"
+                    data-action="view-media-versions"
+                >
+                    {{#versionslabel}}{{versionslabel}}{{/versionslabel}}
+                    {{^versionslabel}}Versions{{/versionslabel}}
+                </a>
+            {{/versionsurl}}
+        {{/canversion}}
+
+        {{#candownload}}
+            {{#downloadurl}}
+                <a
+                    class="btn btn-outline-primary uckkarchive-media-detail__action uckkarchive-media-detail__action--download"
+                    href="{{downloadurl}}"
+                    data-action="download-media"
+                >
+                    {{#downloadlabel}}{{downloadlabel}}{{/downloadlabel}}
+                    {{^downloadlabel}}Télécharger{{/downloadlabel}}
+                </a>
+            {{/downloadurl}}
+        {{/candownload}}
+    </div>
+
+    <div class="uckkarchive-media-detail__layout">
+        <main class="uckkarchive-media-detail__main">
+            {{#haspreview}}
+                <section class="uckkarchive-media-detail__preview" aria-label="Media preview">
+                    {{#previewisimage}}
+                        <img
+                            class="uckkarchive-media-detail__preview-image"
+                            src="{{previewurl}}"
+                            alt="{{#alttext}}{{alttext}}{{/alttext}}{{^alttext}}{{title}}{{/alttext}}"
+                        >
+                    {{/previewisimage}}
+
+                    {{#previewisvideo}}
+                        <video
+                            class="uckkarchive-media-detail__preview-video"
+                            controls
+                            preload="metadata"
+                        >
+                            <source src="{{previewurl}}">
+                        </video>
+                    {{/previewisvideo}}
+
+                    {{#previewisaudio}}
+                        <audio
+                            class="uckkarchive-media-detail__preview-audio"
+                            controls
+                            preload="metadata"
+                        >
+                            <source src="{{previewurl}}">
+                        </audio>
+                    {{/previewisaudio}}
+
+                    {{#previewislink}}
+                        <a
+                            class="uckkarchive-media-detail__preview-link"
+                            href="{{previewurl}}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {{#previewlabel}}{{previewlabel}}{{/previewlabel}}
+                            {{^previewlabel}}Ouvrir l’aperçu{{/previewlabel}}
+                        </a>
+                    {{/previewislink}}
+                </section>
+            {{/haspreview}}
+
+            {{^haspreview}}
+                {{#hasthumbnail}}
+                    <section class="uckkarchive-media-detail__thumbnail" aria-label="Media thumbnail">
+                        <img
+                            class="uckkarchive-media-detail__thumbnail-image"
+                            src="{{thumbnailurl}}"
+                            alt="{{#alttext}}{{alttext}}{{/alttext}}{{^alttext}}{{title}}{{/alttext}}"
+                        >
+                    </section>
+                {{/hasthumbnail}}
+            {{/haspreview}}
+
+            <section class="uckkarchive-media-detail__section uckkarchive-media-detail__section--description">
+                <h3 class="uckkarchive-media-detail__section-title">
+                    {{#descriptionlabel}}{{descriptionlabel}}{{/descriptionlabel}}
+                    {{^descriptionlabel}}Description{{/descriptionlabel}}
+                </h3>
+
+                {{#hasdescriptionhtml}}
+                    <div class="uckkarchive-media-detail__description">
+                        {{{descriptionhtml}}}
+                    </div>
+                {{/hasdescriptionhtml}}
+
+                {{^hasdescriptionhtml}}
+                    {{#hasdescription}}
+                        <p class="uckkarchive-media-detail__description">
+                            {{description}}
+                        </p>
+                    {{/hasdescription}}
+
+                    {{^hasdescription}}
+                        <p class="uckkarchive-media-detail__empty">
+                            {{#nodescriptionlabel}}{{nodescriptionlabel}}{{/nodescriptionlabel}}
+                            {{^nodescriptionlabel}}Aucune description publique n’est disponible pour ce média.{{/nodescriptionlabel}}
+                        </p>
+                    {{/hasdescription}}
+                {{/hasdescriptionhtml}}
+            </section>
+
+            {{#hastranscriptsummary}}
+                <section class="uckkarchive-media-detail__section uckkarchive-media-detail__section--transcript">
+                    <h3 class="uckkarchive-media-detail__section-title">
+                        {{#transcriptsummarylabel}}{{transcriptsummarylabel}}{{/transcriptsummarylabel}}
+                        {{^transcriptsummarylabel}}Résumé de transcription{{/transcriptsummarylabel}}
+                    </h3>
+                    <p class="uckkarchive-media-detail__transcript-summary">
+                        {{transcriptsummary}}
+                    </p>
+                </section>
+            {{/hastranscriptsummary}}
+
+            {{#hasrightsnote}}
+                <section class="uckkarchive-media-detail__section uckkarchive-media-detail__section--rights">
+                    <h3 class="uckkarchive-media-detail__section-title">
+                        {{#rightslabel}}{{rightslabel}}{{/rightslabel}}
+                        {{^rightslabel}}Droits et usage{{/rightslabel}}
+                    </h3>
+                    <p class="uckkarchive-media-detail__rights-note">
+                        {{rightsnote}}
+                    </p>
+                </section>
+            {{/hasrightsnote}}
+
+            {{#hascitation}}
+                <section class="uckkarchive-media-detail__section uckkarchive-media-detail__section--citation">
+                    <h3 class="uckkarchive-media-detail__section-title">
+                        {{#citationlabel}}{{citationlabel}}{{/citationlabel}}
+                        {{^citationlabel}}Citation{{/citationlabel}}
+                    </h3>
+                    <p class="uckkarchive-media-detail__citation">
+                        {{citation}}
+                    </p>
+                </section>
+            {{/hascitation}}
+
+            {{#hasfiles}}
+                <section class="uckkarchive-media-detail__section uckkarchive-media-detail__section--files">
+                    <h3 class="uckkarchive-media-detail__section-title">
+                        {{#fileslabel}}{{fileslabel}}{{/fileslabel}}
+                        {{^fileslabel}}Fichiers{{/fileslabel}}
+                    </h3>
+
+                    <ul class="uckkarchive-media-detail__files">
+                        {{#files}}
+                            <li class="uckkarchive-media-detail__file">
+                                {{#url}}
+                                    <a
+                                        href="{{url}}"
+                                        class="uckkarchive-media-detail__file-link"
+                                        {{#openinnewwindow}}target="_blank" rel="noopener noreferrer"{{/openinnewwindow}}
+                                    >
+                                        {{filename}}
+                                    </a>
+                                {{/url}}
+                                {{^url}}
+                                    <span class="uckkarchive-media-detail__file-name">
+                                        {{filename}}
+                                    </span>
+                                {{/url}}
+
+                                {{#filesize}}
+                                    <span class="uckkarchive-media-detail__file-size">
+                                        {{filesize}}
+                                    </span>
+                                {{/filesize}}
+                            </li>
+                        {{/files}}
+                    </ul>
+                </section>
+            {{/hasfiles}}
+
+            {{#hascollections}}
+                <section class="uckkarchive-media-detail__section uckkarchive-media-detail__section--collections">
+                    <h3 class="uckkarchive-media-detail__section-title">
+                        {{#collectionslabel}}{{collectionslabel}}{{/collectionslabel}}
+                        {{^collectionslabel}}Collections{{/collectionslabel}}
+                    </h3>
+
+                    <ul class="uckkarchive-media-detail__collections">
+                        {{#collections}}
+                            <li class="uckkarchive-media-detail__collection">
+                                {{#url}}
+                                    <a href="{{url}}" class="uckkarchive-media-detail__collection-link">
+                                        {{title}}
+                                    </a>
+                                {{/url}}
+                                {{^url}}
+                                    <span class="uckkarchive-media-detail__collection-title">
+                                        {{title}}
+                                    </span>
+                                {{/url}}
+                            </li>
+                        {{/collections}}
+                    </ul>
+                </section>
+            {{/hascollections}}
+
+            {{#hasrelations}}
+                <section class="uckkarchive-media-detail__section uckkarchive-media-detail__section--relations">
+                    <h3 class="uckkarchive-media-detail__section-title">
+                        {{#relationslabel}}{{relationslabel}}{{/relationslabel}}
+                        {{^relationslabel}}Relations{{/relationslabel}}
+                    </h3>
+
+                    <ul class="uckkarchive-media-detail__relations">
+                        {{#relations}}
+                            <li class="uckkarchive-media-detail__relation">
+                                {{#typelabel}}
+                                    <span class="uckkarchive-media-detail__relation-type">
+                                        {{typelabel}}
+                                    </span>
+                                {{/typelabel}}
+
+                                {{#url}}
+                                    <a href="{{url}}" class="uckkarchive-media-detail__relation-link">
+                                        {{title}}
+                                    </a>
+                                {{/url}}
+                                {{^url}}
+                                    <span class="uckkarchive-media-detail__relation-title">
+                                        {{title}}
+                                    </span>
+                                {{/url}}
+                            </li>
+                        {{/relations}}
+                    </ul>
+                </section>
+            {{/hasrelations}}
+        </main>
+
+        <aside class="uckkarchive-media-detail__aside">
+            <section class="uckkarchive-media-detail__panel uckkarchive-media-detail__panel--governance">
+                <h3 class="uckkarchive-media-detail__panel-title">
+                    {{#governancelabel}}{{governancelabel}}{{/governancelabel}}
+                    {{^governancelabel}}Gouvernance{{/governancelabel}}
+                </h3>
+
+                <dl class="uckkarchive-media-detail__definition-list">
+                    {{#mediatypelabel}}
+                        <div class="uckkarchive-media-detail__definition">
+                            <dt>{{#mediatypelabelname}}{{mediatypelabelname}}{{/mediatypelabelname}}{{^mediatypelabelname}}Type média{{/mediatypelabelname}}</dt>
+                            <dd>{{mediatypelabel}}</dd>
+                        </div>
+                    {{/mediatypelabel}}
+
+                    {{#statuslabel}}
+                        <div class="uckkarchive-media-detail__definition">
+                            <dt>{{#statuslabelname}}{{statuslabelname}}{{/statuslabelname}}{{^statuslabelname}}Statut{{/statuslabelname}}</dt>
+                            <dd>{{statuslabel}}</dd>
+                        </div>
+                    {{/statuslabel}}
+
+                    {{#visibilitylabel}}
+                        <div class="uckkarchive-media-detail__definition">
+                            <dt>{{#visibilitylabelname}}{{visibilitylabelname}}{{/visibilitylabelname}}{{^visibilitylabelname}}Visibilité{{/visibilitylabelname}}</dt>
+                            <dd>{{visibilitylabel}}</dd>
+                        </div>
+                    {{/visibilitylabel}}
+
+                    {{#audiencesuitabilitylabel}}
+                        <div class="uckkarchive-media-detail__definition">
+                            <dt>{{#audiencelabelname}}{{audiencelabelname}}{{/audiencelabelname}}{{^audiencelabelname}}Public{{/audiencelabelname}}</dt>
+                            <dd>{{audiencesuitabilitylabel}}</dd>
+                        </div>
+                    {{/audiencesuitabilitylabel}}
+
+                    {{#license}}
+                        <div class="uckkarchive-media-detail__definition">
+                            <dt>{{#licenselabel}}{{licenselabel}}{{/licenselabel}}{{^licenselabel}}Licence{{/licenselabel}}</dt>
+                            <dd>{{license}}</dd>
+                        </div>
+                    {{/license}}
+
+                    {{#timecreatedformatted}}
+                        <div class="uckkarchive-media-detail__definition">
+                            <dt>{{#createdlabel}}{{createdlabel}}{{/createdlabel}}{{^createdlabel}}Créé{{/createdlabel}}</dt>
+                            <dd>{{timecreatedformatted}}</dd>
+                        </div>
+                    {{/timecreatedformatted}}
+
+                    {{#timemodifiedformatted}}
+                        <div class="uckkarchive-media-detail__definition">
+                            <dt>{{#modifiedlabel}}{{modifiedlabel}}{{/modifiedlabel}}{{^modifiedlabel}}Modifié{{/modifiedlabel}}</dt>
+                            <dd>{{timemodifiedformatted}}</dd>
+                        </div>
+                    {{/timemodifiedformatted}}
+                </dl>
+            </section>
+
+            <section class="uckkarchive-media-detail__panel uckkarchive-media-detail__panel--source">
+                <h3 class="uckkarchive-media-detail__panel-title">
+                    {{#sourcelabel}}{{sourcelabel}}{{/sourcelabel}}
+                    {{^sourcelabel}}Source{{/sourcelabel}}
+                </h3>
+
+                <dl class="uckkarchive-media-detail__definition-list">
+                    {{#sourcetypelabel}}
+                        <div class="uckkarchive-media-detail__definition">
+                            <dt>{{#sourcetypelabelname}}{{sourcetypelabelname}}{{/sourcetypelabelname}}{{^sourcetypelabelname}}Type de source{{/sourcetypelabelname}}</dt>
+                            <dd>{{sourcetypelabel}}</dd>
+                        </div>
+                    {{/sourcetypelabel}}
+
+                    {{#sourceownershiplabel}}
+                        <div class="uckkarchive-media-detail__definition">
+                            <dt>{{#sourceownershiplabelname}}{{sourceownershiplabelname}}{{/sourceownershiplabelname}}{{^sourceownershiplabelname}}Propriété{{/sourceownershiplabelname}}</dt>
+                            <dd>{{sourceownershiplabel}}</dd>
+                        </div>
+                    {{/sourceownershiplabel}}
+
+                    {{#hassourceurl}}
+                        <div class="uckkarchive-media-detail__definition">
+                            <dt>{{#sourceurllabel}}{{sourceurllabel}}{{/sourceurllabel}}{{^sourceurllabel}}URL source{{/sourceurllabel}}</dt>
+                            <dd>
+                                <a
+                                    href="{{sourceurl}}"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="uckkarchive-media-detail__source-link"
+                                >
+                                    {{sourceurl}}
+                                </a>
+                            </dd>
+                        </div>
+                    {{/hassourceurl}}
+
+                    {{#externalworktitle}}
+                        <div class="uckkarchive-media-detail__definition">
+                            <dt>{{#externalworklabel}}{{externalworklabel}}{{/externalworklabel}}{{^externalworklabel}}Œuvre externe{{/externalworklabel}}</dt>
+                            <dd>{{externalworktitle}}</dd>
+                        </div>
+                    {{/externalworktitle}}
+                </dl>
+            </section>
+
+            {{#hasmetadata}}
+                <section class="uckkarchive-media-detail__panel uckkarchive-media-detail__panel--metadata">
+                    <h3 class="uckkarchive-media-detail__panel-title">
+                        {{#metadatalabel}}{{metadatalabel}}{{/metadatalabel}}
+                        {{^metadatalabel}}Métadonnées{{/metadatalabel}}
+                    </h3>
+
+                    <dl class="uckkarchive-media-detail__definition-list">
+                        {{#metadata}}
+                            <div class="uckkarchive-media-detail__definition">
+                                <dt>{{label}}</dt>
+                                <dd>{{value}}</dd>
+                            </div>
+                        {{/metadata}}
+                    </dl>
+                </section>
+            {{/hasmetadata}}
+
+            {{#hasnotices}}
+                <section class="uckkarchive-media-detail__panel uckkarchive-media-detail__panel--notices">
+                    <h3 class="uckkarchive-media-detail__panel-title">
+                        {{#noticeslabel}}{{noticeslabel}}{{/noticeslabel}}
+                        {{^noticeslabel}}Avis{{/noticeslabel}}
+                    </h3>
+
+                    {{#notices}}
+                        <div class="alert {{classes}}" role="status">
+                            {{#title}}
+                                <strong>{{title}}</strong>
+                            {{/title}}
+                            {{#body}}
+                                <p>{{body}}</p>
+                            {{/body}}
+                        </div>
+                    {{/notices}}
+                </section>
+            {{/hasnotices}}
+
+            {{#haswarnings}}
+                <section class="uckkarchive-media-detail__panel uckkarchive-media-detail__panel--warnings">
+                    <h3 class="uckkarchive-media-detail__panel-title">
+                        {{#warningslabel}}{{warningslabel}}{{/warningslabel}}
+                        {{^warningslabel}}Restrictions et avertissements{{/warningslabel}}
+                    </h3>
+
+                    {{#warnings}}
+                        <div class="alert alert-warning" role="status">
+                            {{#title}}
+                                <strong>{{title}}</strong>
+                            {{/title}}
+                            {{#body}}
+                                <p>{{body}}</p>
+                            {{/body}}
+                        </div>
+                    {{/warnings}}
+                </section>
+            {{/haswarnings}}
+        </aside>
+    </div>
+</article>

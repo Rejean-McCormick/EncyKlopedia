@@ -1,0 +1,367 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+
+    @template mod_uckkarchive/external_work_card
+
+    External work reference card.
+
+    Context variables expected:
+    {
+        "id": 12,
+        "uuid": "9f0e8d7c-6b5a-4a3f-9e2d-1c0b9a8f7e6d",
+        "archiveid": 3,
+        "cmid": 44,
+        "title": "Example Film",
+        "subtitle": "Optional subtitle",
+        "creator": "Creator name",
+        "publisher": "Publisher name",
+        "publicationyear": 2024,
+        "language": "en",
+        "worktype": "film",
+        "worktypelabel": "Film",
+        "status": "active",
+        "statuslabel": "Active",
+        "visibility": "course",
+        "visibilitylabel": "Course",
+        "audiencesuitability": "guided",
+        "audiencesuitabilitylabel": "Guided",
+        "rightsstatus": "licensed_external",
+        "rightsstatuslabel": "Licensed external",
+        "identifier": "9780000000000",
+        "identifiertype": "isbn",
+        "sourceurl": "https://example.org/work",
+        "citation": "<p>Formatted citation.</p>",
+        "rightsstatement": "<p>Rights statement.</p>",
+        "licensekey": "CC-BY",
+        "sourcenote": "<p>Source note.</p>",
+        "teachingnote": "<p>Teaching note.</p>",
+        "culturalprotocolnote": "<p>Cultural protocol note.</p>",
+        "description": "<p>Description.</p>",
+        "url": "https://example.org/mod/uckkarchive/media.php?id=44&externalworkid=12",
+        "editurl": "https://example.org/mod/uckkarchive/media.php?id=44&externalworkid=12&action=edit",
+        "deleteurl": "https://example.org/mod/uckkarchive/media.php?id=44&externalworkid=12&action=delete",
+        "canview": true,
+        "canedit": true,
+        "candelete": false,
+        "canmanageadvisories": true,
+        "hasadvisories": true,
+        "advisorycount": 2,
+        "hascontentmarkers": true,
+        "contentmarkercount": 2,
+        "hasrestrictedcontent": false,
+        "hasculturalprotocol": true,
+        "isrestricted": false,
+        "isculturalrestricted": false,
+        "isarchived": false,
+        "isdeleted": false,
+        "hascreator": true,
+        "haspublisher": true,
+        "haspublicationyear": true,
+        "haslanguage": true,
+        "hasidentifier": true,
+        "hassourceurl": true,
+        "hascitation": true,
+        "hasrightsstatement": true,
+        "haslicensekey": true,
+        "hassourcenote": true,
+        "hasteachingnote": true,
+        "hasculturalprotocolnote": true,
+        "hasdescription": true,
+        "hasactions": true,
+        "actions": [
+            {
+                "url": "https://example.org",
+                "label": "Edit",
+                "icon": "t/edit",
+                "primary": true,
+                "disabled": false
+            }
+        ]
+    }
+}}
+
+<article class="uckkarchive-external-work-card card mb-3 {{statusclass}} {{visibilityclass}} {{worktypeclass}}"
+         data-region="external-work-card"
+         data-external-work-id="{{id}}"
+         data-external-work-uuid="{{uuid}}"
+         data-work-type="{{worktype}}"
+         data-status="{{status}}"
+         data-visibility="{{visibility}}">
+
+    <div class="card-body">
+        <header class="uckkarchive-external-work-card-header d-flex flex-column flex-md-row justify-content-between gap-2">
+            <div class="uckkarchive-external-work-card-title-region">
+                <div class="d-flex align-items-center gap-2 flex-wrap mb-1">
+                    <span class="badge badge-secondary uckkarchive-external-work-type {{worktypeclass}}">
+                        {{worktypelabel}}
+                    </span>
+
+                    <span class="badge badge-light uckkarchive-external-work-status {{statusclass}}">
+                        {{statuslabel}}
+                    </span>
+
+                    <span class="badge badge-light uckkarchive-external-work-visibility {{visibilityclass}}">
+                        {{visibilitylabel}}
+                    </span>
+
+                    {{#hasrestrictedcontent}}
+                        <span class="badge badge-danger uckkarchive-external-work-restricted">
+                            {{#str}} restrictedcontent, mod_uckkarchive {{/str}}
+                        </span>
+                    {{/hasrestrictedcontent}}
+
+                    {{#hasculturalprotocol}}
+                        <span class="badge badge-warning uckkarchive-external-work-cultural-protocol">
+                            {{#str}} culturalprotocol, mod_uckkarchive {{/str}}
+                        </span>
+                    {{/hasculturalprotocol}}
+
+                    {{#isarchived}}
+                        <span class="badge badge-info uckkarchive-external-work-archived">
+                            {{#str}} archived, mod_uckkarchive {{/str}}
+                        </span>
+                    {{/isarchived}}
+
+                    {{#isdeleted}}
+                        <span class="badge badge-dark uckkarchive-external-work-deleted">
+                            {{#str}} deleted, mod_uckkarchive {{/str}}
+                        </span>
+                    {{/isdeleted}}
+                </div>
+
+                <h3 class="h5 card-title mb-1">
+                    {{#url}}
+                        <a href="{{url}}" class="uckkarchive-external-work-title-link">
+                            {{title}}
+                        </a>
+                    {{/url}}
+                    {{^url}}
+                        {{title}}
+                    {{/url}}
+                </h3>
+
+                {{#subtitle}}
+                    <p class="uckkarchive-external-work-subtitle text-muted mb-1">
+                        {{subtitle}}
+                    </p>
+                {{/subtitle}}
+
+                <div class="uckkarchive-external-work-meta text-muted small">
+                    {{#hascreator}}
+                        <span class="uckkarchive-external-work-creator">
+                            {{creator}}
+                        </span>
+                    {{/hascreator}}
+
+                    {{#haspublicationyear}}
+                        <span class="uckkarchive-external-work-year">
+                            {{#hascreator}} · {{/hascreator}}{{publicationyear}}
+                        </span>
+                    {{/haspublicationyear}}
+
+                    {{#haspublisher}}
+                        <span class="uckkarchive-external-work-publisher">
+                            {{#hascreator}} · {{/hascreator}}{{^hascreator}}{{#haspublicationyear}} · {{/haspublicationyear}}{{/hascreator}}{{publisher}}
+                        </span>
+                    {{/haspublisher}}
+
+                    {{#haslanguage}}
+                        <span class="uckkarchive-external-work-language">
+                            · {{language}}
+                        </span>
+                    {{/haslanguage}}
+                </div>
+            </div>
+
+            {{#hasactions}}
+                <div class="uckkarchive-external-work-actions d-flex align-items-start gap-1 flex-wrap">
+                    {{#actions}}
+                        {{#url}}
+                            <a href="{{url}}"
+                               class="btn {{#primary}}btn-primary{{/primary}}{{^primary}}btn-secondary{{/primary}} btn-sm {{class}} {{#disabled}}disabled{{/disabled}}"
+                               {{#disabled}}aria-disabled="true" tabindex="-1"{{/disabled}}>
+                                {{#icon}}
+                                    {{#pix}} {{icon}}, core {{/pix}}
+                                {{/icon}}
+                                <span>{{label}}</span>
+                            </a>
+                        {{/url}}
+                        {{^url}}
+                            <button type="button"
+                                    class="btn {{#primary}}btn-primary{{/primary}}{{^primary}}btn-secondary{{/primary}} btn-sm {{class}}"
+                                    {{#disabled}}disabled{{/disabled}}>
+                                {{#icon}}
+                                    {{#pix}} {{icon}}, core {{/pix}}
+                                {{/icon}}
+                                <span>{{label}}</span>
+                            </button>
+                        {{/url}}
+                    {{/actions}}
+                </div>
+            {{/hasactions}}
+        </header>
+
+        {{#hasdescription}}
+            <div class="uckkarchive-external-work-description mt-3">
+                {{{description}}}
+            </div>
+        {{/hasdescription}}
+
+        <dl class="uckkarchive-external-work-details row mt-3 mb-0">
+            {{#hasidentifier}}
+                <dt class="col-sm-3">
+                    {{#str}} identifier, mod_uckkarchive {{/str}}
+                </dt>
+                <dd class="col-sm-9">
+                    {{#identifiertype}}
+                        <span class="text-muted">{{identifiertype}}:</span>
+                    {{/identifiertype}}
+                    <span>{{identifier}}</span>
+                </dd>
+            {{/hasidentifier}}
+
+            <dt class="col-sm-3">
+                {{#str}} rightsstatus, mod_uckkarchive {{/str}}
+            </dt>
+            <dd class="col-sm-9">
+                <span class="badge badge-light {{rightsstatusclass}}">
+                    {{rightsstatuslabel}}
+                </span>
+            </dd>
+
+            <dt class="col-sm-3">
+                {{#str}} audiencesuitability, mod_uckkarchive {{/str}}
+            </dt>
+            <dd class="col-sm-9">
+                <span class="badge badge-light {{audiencesuitabilityclass}}">
+                    {{audiencesuitabilitylabel}}
+                </span>
+            </dd>
+
+            {{#haslicensekey}}
+                <dt class="col-sm-3">
+                    {{#str}} license, mod_uckkarchive {{/str}}
+                </dt>
+                <dd class="col-sm-9">
+                    <code>{{licensekey}}</code>
+                </dd>
+            {{/haslicensekey}}
+
+            {{#hassourceurl}}
+                <dt class="col-sm-3">
+                    {{#str}} source, mod_uckkarchive {{/str}}
+                </dt>
+                <dd class="col-sm-9">
+                    <a href="{{sourceurl}}" target="_blank" rel="noopener noreferrer">
+                        {{#sourcehost}}{{sourcehost}}{{/sourcehost}}{{^sourcehost}}{{sourceurl}}{{/sourcehost}}
+                    </a>
+                </dd>
+            {{/hassourceurl}}
+        </dl>
+
+        {{#hascitation}}
+            <section class="uckkarchive-external-work-citation mt-3">
+                <h4 class="h6">
+                    {{#str}} citation, mod_uckkarchive {{/str}}
+                </h4>
+                <div class="uckkarchive-external-work-citation-body">
+                    {{{citation}}}
+                </div>
+            </section>
+        {{/hascitation}}
+
+        {{#hasrightsstatement}}
+            <section class="uckkarchive-external-work-rights mt-3">
+                <h4 class="h6">
+                    {{#str}} rightsstatement, mod_uckkarchive {{/str}}
+                </h4>
+                <div class="uckkarchive-external-work-rights-body">
+                    {{{rightsstatement}}}
+                </div>
+            </section>
+        {{/hasrightsstatement}}
+
+        {{#hassourcenote}}
+            <section class="uckkarchive-external-work-source-note mt-3">
+                <h4 class="h6">
+                    {{#str}} sourcenote, mod_uckkarchive {{/str}}
+                </h4>
+                <div class="uckkarchive-external-work-source-note-body">
+                    {{{sourcenote}}}
+                </div>
+            </section>
+        {{/hassourcenote}}
+
+        {{#hasteachingnote}}
+            <section class="uckkarchive-external-work-teaching-note mt-3">
+                <h4 class="h6">
+                    {{#str}} teachingnote, mod_uckkarchive {{/str}}
+                </h4>
+                <div class="uckkarchive-external-work-teaching-note-body">
+                    {{{teachingnote}}}
+                </div>
+            </section>
+        {{/hasteachingnote}}
+
+        {{#hasculturalprotocolnote}}
+            <section class="uckkarchive-external-work-cultural-note alert alert-warning mt-3 mb-0">
+                <h4 class="h6">
+                    {{#str}} culturalprotocolnote, mod_uckkarchive {{/str}}
+                </h4>
+                <div class="uckkarchive-external-work-cultural-note-body">
+                    {{{culturalprotocolnote}}}
+                </div>
+            </section>
+        {{/hasculturalprotocolnote}}
+
+        {{#hasadvisories}}
+            <section class="uckkarchive-external-work-advisories mt-3">
+                <h4 class="h6">
+                    {{#str}} contentadvisories, mod_uckkarchive {{/str}}
+                </h4>
+
+                <p class="mb-0 text-muted">
+                    {{#str}} contentadvisorycount, mod_uckkarchive, {{advisorycount}} {{/str}}
+                </p>
+            </section>
+        {{/hasadvisories}}
+
+        {{#hascontentmarkers}}
+            <section class="uckkarchive-external-work-content-markers mt-3">
+                <h4 class="h6">
+                    {{#str}} contentmarkers, mod_uckkarchive {{/str}}
+                </h4>
+
+                <p class="mb-0 text-muted">
+                    {{#str}} contentmarkercount, mod_uckkarchive, {{contentmarkercount}} {{/str}}
+                </p>
+            </section>
+        {{/hascontentmarkers}}
+
+        <footer class="uckkarchive-external-work-footer mt-3 pt-2 border-top text-muted small">
+            <span>
+                {{#str}} externalworkid, mod_uckkarchive {{/str}}:
+                <span>{{id}}</span>
+            </span>
+
+            {{#uuid}}
+                <span class="ml-2">
+                    UUID:
+                    <code>{{uuid}}</code>
+                </span>
+            {{/uuid}}
+
+            {{#timemodifiedlabel}}
+                <span class="ml-2">
+                    {{#str}} timemodified, mod_uckkarchive {{/str}}:
+                    <span>{{timemodifiedlabel}}</span>
+                </span>
+            {{/timemodifiedlabel}}
+        </footer>
+    </div>
+</article>

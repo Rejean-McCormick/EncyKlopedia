@@ -1,0 +1,24 @@
+{
+  "schema_version": "11.0",
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "unesco-mt1-10-unreviewed-english-v1",
+  "namespace_id": "urn:kristal:unesco:mt1.10:encyclopedia:en:candidate-v1",
+  "languages": [
+    {
+      "tag": "en",
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "external",
+          "layer_id": "unesco-skos-en-source-labels",
+          "priority": 10,
+          "path": "unesco-skos-en.jsonl",
+          "sha256": "fc84814d0b3d49632cde9dff30d23401f99c4cc94ca97fea8bd5e8cd12ce45de",
+          "source_system": "unesco_skos",
+          "source_snapshot": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+          "license": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements"
+        }
+      ]
+    }
+  ]
+}

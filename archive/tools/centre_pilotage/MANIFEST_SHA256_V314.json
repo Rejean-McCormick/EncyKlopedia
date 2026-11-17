@@ -1,0 +1,44 @@
+{
+  "format": "encyklopedia.centre-pilotage-standalone/1",
+  "version": "31.4",
+  "installation": "standalone-readonly",
+  "database_write_authorized": false,
+  "files": [
+    {
+      "path": "CENTRE_PILOTAGE_ENCYK_V314.pyw",
+      "sha256": "9233d4cca1d08360fa5ba2954968bbc3b644345f6b77ecbda66533945a29fe5b"
+    },
+    {
+      "path": "encyk_global_v313.py",
+      "sha256": "625bc2af829af1600dd32993445f7a811a6ea4b7fcb80981730341bea7ca835e"
+    },
+    {
+      "path": "encyk_triage_v314.py",
+      "sha256": "f2bb63149286068980c111d89c7fb8401e36d15e7dd8b3cb33454606b9091c4c"
+    },
+    {
+      "path": "AUDIT_AUTOMATIQUE_BRANCHE_V312.pyw",
+      "sha256": "470a8683ccb6246a14a892af81a21947a42e4a224b8087af414ce3e32490b70e"
+    },
+    {
+      "path": "TEST_CENTRE_PILOTAGE_V314.py",
+      "sha256": "12d09dde0a9592e91b59808610467205856c0406151077ceb04f5edb70d74c6a"
+    },
+    {
+      "path": "TEST_AUDIT_AUTOMATIQUE_V312.py",
+      "sha256": "1ddd8efd2eeef3b9283d88c520b4358c998c53eadb601f37ed53d34aadade2bd"
+    },
+    {
+      "path": "TEST_TRIAGE_ENCYK_V314.py",
+      "sha256": "e37b8a204861a678570c8e2300c9b9ba0a82ea8f09fe932ee480af1fcdf4e58c"
+    },
+    {
+      "path": "LISEZ_MOI_CENTRE_PILOTAGE_V314.md",
+      "sha256": "206df834a74ff94c8900831cefc5f3bd67ef3e58f7b2f78575008be2d2ada34f"
+    },
+    {
+      "path": "CHANGELOG_V314.md",
+      "sha256": "65c1372d66894b856f378899d156edd79270133b36000d6e604ed22325903c0e"
+    }
+  ]
+}

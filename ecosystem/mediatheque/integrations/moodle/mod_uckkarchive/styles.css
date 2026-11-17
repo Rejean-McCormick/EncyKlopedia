@@ -1,0 +1,2121 @@
+/*
+ * Styles for mod_uckkarchive.
+ *
+ * This CSS supports UCKK archive pages, item cards, Kristal cards, proof cards,
+ * provenance panels, validation panels, media library screens, media cards,
+ * media collections, external work cards, content advisory panels, media
+ * version lists, media relation lists, media upload screens, and export screens.
+ *
+ * It must not encode workflow rules or permission logic. Visibility,
+ * capabilities, provenance validation, archive export, media access, advisory
+ * review, versioning, and integrity decisions remain controlled by Moodle PHP
+ * services/controllers.
+ */
+
+/* Root containers. */
+
+.path-mod-uckkarchive .uckkarchive,
+.path-mod-uckkarchive .uckkarchive-view,
+.path-mod-uckkarchive .uckkarchive-export,
+.path-mod-uckkarchive .uckkarchive-item-card,
+.path-mod-uckkarchive .uckkarchive-kristal-card,
+.path-mod-uckkarchive .uckkarchive-proof-card,
+.path-mod-uckkarchive .uckkarchive-provenance-panel,
+.path-mod-uckkarchive .uckkarchive-validation-panel,
+.path-mod-uckkarchive .uckkarchive-media-library,
+.path-mod-uckkarchive .uckkarchive-media-card,
+.path-mod-uckkarchive .uckkarchive-media-collection,
+.path-mod-uckkarchive .uckkarchive-media-version-list,
+.path-mod-uckkarchive .uckkarchive-media-relation-list,
+.path-mod-uckkarchive .uckkarchive-media-upload,
+.path-mod-uckkarchive .uckkarchive-external-work-card,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel,
+.path-mod-uckkarchive .uckkarchive-media-library-editor {
+    --uckkarchive-border: #dee2e6;
+    --uckkarchive-border-strong: #adb5bd;
+    --uckkarchive-muted: #6c757d;
+    --uckkarchive-surface: #fff;
+    --uckkarchive-surface-alt: #f8f9fa;
+    --uckkarchive-surface-subtle: #f1f3f5;
+    --uckkarchive-text: #212529;
+    --uckkarchive-radius: .75rem;
+    --uckkarchive-radius-sm: .5rem;
+    --uckkarchive-shadow: 0 .125rem .5rem rgba(0, 0, 0, .06);
+    --uckkarchive-shadow-strong: 0 .35rem 1rem rgba(0, 0, 0, .08);
+    --uckkarchive-focus: #0d6efd;
+    --uckkarchive-success-text: #0f5132;
+    --uckkarchive-success-bg: #d1e7dd;
+    --uckkarchive-success-border: #badbcc;
+    --uckkarchive-info-text: #055160;
+    --uckkarchive-info-bg: #cff4fc;
+    --uckkarchive-info-border: #b6effb;
+    --uckkarchive-warning-text: #664d03;
+    --uckkarchive-warning-bg: #fff3cd;
+    --uckkarchive-warning-border: #ffecb5;
+    --uckkarchive-danger-text: #842029;
+    --uckkarchive-danger-bg: #f8d7da;
+    --uckkarchive-danger-border: #f5c2c7;
+    --uckkarchive-neutral-text: #41464b;
+    --uckkarchive-neutral-bg: #e2e3e5;
+    --uckkarchive-neutral-border: #d3d6d8;
+    color: var(--uckkarchive-text);
+}
+
+.path-mod-uckkarchive .uckkarchive-view,
+.path-mod-uckkarchive .uckkarchive-export,
+.path-mod-uckkarchive .uckkarchive-media-library,
+.path-mod-uckkarchive .uckkarchive-media-upload,
+.path-mod-uckkarchive .uckkarchive-media-library-editor {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Shared cards and panels. */
+
+.path-mod-uckkarchive .uckkarchive-card,
+.path-mod-uckkarchive .uckkarchive-item-card,
+.path-mod-uckkarchive .uckkarchive-kristal-card,
+.path-mod-uckkarchive .uckkarchive-proof-card,
+.path-mod-uckkarchive .uckkarchive-provenance-panel,
+.path-mod-uckkarchive .uckkarchive-validation-panel,
+.path-mod-uckkarchive .uckkarchive-export__summary,
+.path-mod-uckkarchive .uckkarchive-export__options,
+.path-mod-uckkarchive .uckkarchive-export__preview,
+.path-mod-uckkarchive .uckkarchive-media-library__toolbar,
+.path-mod-uckkarchive .uckkarchive-media-library__filters,
+.path-mod-uckkarchive .uckkarchive-media-card,
+.path-mod-uckkarchive .uckkarchive-media-collection,
+.path-mod-uckkarchive .uckkarchive-media-version-list,
+.path-mod-uckkarchive .uckkarchive-media-relation-list,
+.path-mod-uckkarchive .uckkarchive-media-upload__panel,
+.path-mod-uckkarchive .uckkarchive-external-work-card,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel,
+.path-mod-uckkarchive .uckkarchive-media-library-editor {
+    background: var(--uckkarchive-surface);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius);
+    box-shadow: var(--uckkarchive-shadow);
+}
+
+.path-mod-uckkarchive .uckkarchive-card__body,
+.path-mod-uckkarchive .uckkarchive-item-card__body,
+.path-mod-uckkarchive .uckkarchive-kristal-card__body,
+.path-mod-uckkarchive .uckkarchive-proof-card__body,
+.path-mod-uckkarchive .uckkarchive-media-card__body,
+.path-mod-uckkarchive .uckkarchive-media-collection__body,
+.path-mod-uckkarchive .uckkarchive-external-work-card .card-body,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__body {
+    padding: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-card__header,
+.path-mod-uckkarchive .uckkarchive-item-card__header,
+.path-mod-uckkarchive .uckkarchive-kristal-card__header,
+.path-mod-uckkarchive .uckkarchive-proof-card__header,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__header,
+.path-mod-uckkarchive .uckkarchive-validation-panel__header,
+.path-mod-uckkarchive .uckkarchive-media-library__header,
+.path-mod-uckkarchive .uckkarchive-media-card__header,
+.path-mod-uckkarchive .uckkarchive-media-collection__header,
+.path-mod-uckkarchive .uckkarchive-media-version-list__header,
+.path-mod-uckkarchive .uckkarchive-media-relation-list__header,
+.path-mod-uckkarchive .uckkarchive-media-upload__header,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid var(--uckkarchive-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-card__footer,
+.path-mod-uckkarchive .uckkarchive-item-card__footer,
+.path-mod-uckkarchive .uckkarchive-kristal-card__footer,
+.path-mod-uckkarchive .uckkarchive-proof-card__footer,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__actions,
+.path-mod-uckkarchive .uckkarchive-validation-panel__actions,
+.path-mod-uckkarchive .uckkarchive-export__download,
+.path-mod-uckkarchive .uckkarchive-media-card__footer,
+.path-mod-uckkarchive .uckkarchive-media-collection__footer,
+.path-mod-uckkarchive .uckkarchive-media-upload__actions,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem;
+    border-top: 1px solid var(--uckkarchive-border);
+}
+
+/* Headings and identity. */
+
+.path-mod-uckkarchive .uckkarchive-view__title,
+.path-mod-uckkarchive .uckkarchive-export__title,
+.path-mod-uckkarchive .uckkarchive-item-card__title,
+.path-mod-uckkarchive .uckkarchive-kristal-card__title,
+.path-mod-uckkarchive .uckkarchive-proof-card__title,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__title,
+.path-mod-uckkarchive .uckkarchive-validation-panel__title,
+.path-mod-uckkarchive .uckkarchive-media-library__title,
+.path-mod-uckkarchive .uckkarchive-media-card__title,
+.path-mod-uckkarchive .uckkarchive-media-collection__title,
+.path-mod-uckkarchive .uckkarchive-media-version-list__title,
+.path-mod-uckkarchive .uckkarchive-media-relation-list__title,
+.path-mod-uckkarchive .uckkarchive-media-upload__title,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__title {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.25;
+}
+
+.path-mod-uckkarchive .uckkarchive-view__eyebrow,
+.path-mod-uckkarchive .uckkarchive-item-card__eyebrow,
+.path-mod-uckkarchive .uckkarchive-kristal-card__eyebrow,
+.path-mod-uckkarchive .uckkarchive-proof-card__eyebrow,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__eyebrow,
+.path-mod-uckkarchive .uckkarchive-validation-panel__eyebrow,
+.path-mod-uckkarchive .uckkarchive-media-card__eyebrow,
+.path-mod-uckkarchive .uckkarchive-media-collection__eyebrow,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__eyebrow {
+    margin: 0 0 .25rem;
+    color: var(--uckkarchive-muted);
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.path-mod-uckkarchive .uckkarchive-view__subtitle,
+.path-mod-uckkarchive .uckkarchive-item-card__summary,
+.path-mod-uckkarchive .uckkarchive-kristal-card__summary,
+.path-mod-uckkarchive .uckkarchive-proof-card__summary,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__item,
+.path-mod-uckkarchive .uckkarchive-validation-panel__item,
+.path-mod-uckkarchive .uckkarchive-media-card__summary,
+.path-mod-uckkarchive .uckkarchive-media-collection__summary,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__description {
+    margin: .35rem 0 0;
+    color: var(--uckkarchive-muted);
+}
+
+/* Shared metadata. */
+
+.path-mod-uckkarchive .uckkarchive-meta,
+.path-mod-uckkarchive .uckkarchive-export__facts,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__detail-list,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__record-meta,
+.path-mod-uckkarchive .uckkarchive-validation-panel__meta,
+.path-mod-uckkarchive .uckkarchive-media-card__meta,
+.path-mod-uckkarchive .uckkarchive-media-collection__meta,
+.path-mod-uckkarchive .uckkarchive-external-work-details,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: .75rem 1rem;
+    margin: 0;
+}
+
+.path-mod-uckkarchive .uckkarchive-meta dt,
+.path-mod-uckkarchive .uckkarchive-export__facts dt,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__detail-list dt,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__record-meta dt,
+.path-mod-uckkarchive .uckkarchive-validation-panel__meta dt,
+.path-mod-uckkarchive .uckkarchive-media-card__meta dt,
+.path-mod-uckkarchive .uckkarchive-media-collection__meta dt,
+.path-mod-uckkarchive .uckkarchive-external-work-details dt,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__meta dt {
+    color: var(--uckkarchive-muted);
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.path-mod-uckkarchive .uckkarchive-meta dd,
+.path-mod-uckkarchive .uckkarchive-export__facts dd,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__detail-list dd,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__record-meta dd,
+.path-mod-uckkarchive .uckkarchive-validation-panel__meta dd,
+.path-mod-uckkarchive .uckkarchive-media-card__meta dd,
+.path-mod-uckkarchive .uckkarchive-media-collection__meta dd,
+.path-mod-uckkarchive .uckkarchive-external-work-details dd,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__meta dd {
+    margin: .15rem 0 0;
+}
+
+/* Badges. */
+
+.path-mod-uckkarchive .uckkarchive-badge,
+.path-mod-uckkarchive .uckkarchive-status-badge,
+.path-mod-uckkarchive .uckkarchive-item-card__status,
+.path-mod-uckkarchive .uckkarchive-kristal-card__status,
+.path-mod-uckkarchive .uckkarchive-proof-card__status,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__badge,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__record-badge,
+.path-mod-uckkarchive .uckkarchive-validation-panel__badge,
+.path-mod-uckkarchive .uckkarchive-media-card__badge,
+.path-mod-uckkarchive .uckkarchive-media-collection__badge,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .25rem;
+    padding: .2rem .55rem;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+.path-mod-uckkarchive .uckkarchive-badge-list,
+.path-mod-uckkarchive .uckkarchive-item-card__badges,
+.path-mod-uckkarchive .uckkarchive-media-card__badges,
+.path-mod-uckkarchive .uckkarchive-media-collection__badges,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__badges,
+.path-mod-uckkarchive .uckkarchive-external-work-card-header .badge {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+}
+
+/* Status states. */
+
+.path-mod-uckkarchive .status-draft,
+.path-mod-uckkarchive .status-pending,
+.path-mod-uckkarchive .status-pending-review,
+.path-mod-uckkarchive .status-pending_review {
+    color: var(--uckkarchive-warning-text);
+    background: var(--uckkarchive-warning-bg);
+    border-color: var(--uckkarchive-warning-border);
+}
+
+.path-mod-uckkarchive .status-active,
+.path-mod-uckkarchive .status-validated,
+.path-mod-uckkarchive .status-verified,
+.path-mod-uckkarchive .status-approved,
+.path-mod-uckkarchive .status-completed,
+.path-mod-uckkarchive .status-current {
+    color: var(--uckkarchive-success-text);
+    background: var(--uckkarchive-success-bg);
+    border-color: var(--uckkarchive-success-border);
+}
+
+.path-mod-uckkarchive .status-hidden,
+.path-mod-uckkarchive .status-archived,
+.path-mod-uckkarchive .status-closed,
+.path-mod-uckkarchive .status-retired,
+.path-mod-uckkarchive .status-deleted-soft,
+.path-mod-uckkarchive .status-deleted_soft {
+    color: var(--uckkarchive-neutral-text);
+    background: var(--uckkarchive-neutral-bg);
+    border-color: var(--uckkarchive-neutral-border);
+}
+
+.path-mod-uckkarchive .status-rejected,
+.path-mod-uckkarchive .status-invalidated,
+.path-mod-uckkarchive .status-cancelled,
+.path-mod-uckkarchive .status-failed,
+.path-mod-uckkarchive .status-deleted {
+    color: var(--uckkarchive-danger-text);
+    background: var(--uckkarchive-danger-bg);
+    border-color: var(--uckkarchive-danger-border);
+}
+
+.path-mod-uckkarchive .status-correction-required,
+.path-mod-uckkarchive .status-correction_required,
+.path-mod-uckkarchive .status-contested,
+.path-mod-uckkarchive .status-needs-review,
+.path-mod-uckkarchive .status-needs_review {
+    color: var(--uckkarchive-warning-text);
+    background: var(--uckkarchive-warning-bg);
+    border-color: var(--uckkarchive-warning-border);
+}
+
+/* Validation states. */
+
+.path-mod-uckkarchive .validation-state-unverified {
+    color: var(--uckkarchive-neutral-text);
+    background: var(--uckkarchive-neutral-bg);
+    border-color: var(--uckkarchive-neutral-border);
+}
+
+.path-mod-uckkarchive .validation-state-human-reviewed,
+.path-mod-uckkarchive .validation-state-human_reviewed,
+.path-mod-uckkarchive .validation-state-reviewed {
+    color: var(--uckkarchive-info-text);
+    background: var(--uckkarchive-info-bg);
+    border-color: var(--uckkarchive-info-border);
+}
+
+.path-mod-uckkarchive .validation-state-verified,
+.path-mod-uckkarchive .validation-state-archived,
+.path-mod-uckkarchive .validation-state-approved {
+    color: var(--uckkarchive-success-text);
+    background: var(--uckkarchive-success-bg);
+    border-color: var(--uckkarchive-success-border);
+}
+
+.path-mod-uckkarchive .validation-state-contested,
+.path-mod-uckkarchive .validation-state-pending-review,
+.path-mod-uckkarchive .validation-state-pending_review {
+    color: var(--uckkarchive-warning-text);
+    background: var(--uckkarchive-warning-bg);
+    border-color: var(--uckkarchive-warning-border);
+}
+
+.path-mod-uckkarchive .validation-state-invalidated {
+    color: var(--uckkarchive-danger-text);
+    background: var(--uckkarchive-danger-bg);
+    border-color: var(--uckkarchive-danger-border);
+}
+
+/* Provenance states. */
+
+.path-mod-uckkarchive .provenance-human {
+    color: var(--uckkarchive-success-text);
+    background: var(--uckkarchive-success-bg);
+    border-color: var(--uckkarchive-success-border);
+}
+
+.path-mod-uckkarchive .provenance-ai-assisted,
+.path-mod-uckkarchive .provenance-ai_assisted {
+    color: var(--uckkarchive-info-text);
+    background: var(--uckkarchive-info-bg);
+    border-color: var(--uckkarchive-info-border);
+}
+
+.path-mod-uckkarchive .provenance-imported,
+.path-mod-uckkarchive .provenance-system,
+.path-mod-uckkarchive .provenance-archive {
+    color: var(--uckkarchive-neutral-text);
+    background: var(--uckkarchive-neutral-bg);
+    border-color: var(--uckkarchive-neutral-border);
+}
+
+.path-mod-uckkarchive .provenance-assembly,
+.path-mod-uckkarchive .provenance-challenge,
+.path-mod-uckkarchive .provenance-integrity {
+    color: var(--uckkarchive-warning-text);
+    background: var(--uckkarchive-warning-bg);
+    border-color: var(--uckkarchive-warning-border);
+}
+
+/* Visibility states. */
+
+.path-mod-uckkarchive .visibility-public,
+.path-mod-uckkarchive .visibility-institution,
+.path-mod-uckkarchive .visibility-course,
+.path-mod-uckkarchive .visibility-program {
+    color: var(--uckkarchive-success-text);
+    background: var(--uckkarchive-success-bg);
+    border-color: var(--uckkarchive-success-border);
+}
+
+.path-mod-uckkarchive .visibility-user,
+.path-mod-uckkarchive .visibility-group,
+.path-mod-uckkarchive .visibility-cohort {
+    color: var(--uckkarchive-info-text);
+    background: var(--uckkarchive-info-bg);
+    border-color: var(--uckkarchive-info-border);
+}
+
+.path-mod-uckkarchive .visibility-private,
+.path-mod-uckkarchive .visibility-restricted,
+.path-mod-uckkarchive .visibility-restricted-integrity,
+.path-mod-uckkarchive .visibility-restricted_integrity,
+.path-mod-uckkarchive .visibility-restricted-cultural,
+.path-mod-uckkarchive .visibility-restricted_cultural {
+    color: var(--uckkarchive-warning-text);
+    background: var(--uckkarchive-warning-bg);
+    border-color: var(--uckkarchive-warning-border);
+}
+
+/* Severity and audience suitability states. */
+
+.path-mod-uckkarchive .severity-notice,
+.path-mod-uckkarchive .audience-suitability-general,
+.path-mod-uckkarchive .audience-suitability-guided {
+    color: var(--uckkarchive-info-text);
+    background: var(--uckkarchive-info-bg);
+    border-color: var(--uckkarchive-info-border);
+}
+
+.path-mod-uckkarchive .severity-moderate,
+.path-mod-uckkarchive .audience-suitability-mature {
+    color: var(--uckkarchive-warning-text);
+    background: var(--uckkarchive-warning-bg);
+    border-color: var(--uckkarchive-warning-border);
+}
+
+.path-mod-uckkarchive .severity-strong,
+.path-mod-uckkarchive .severity-restricted,
+.path-mod-uckkarchive .audience-suitability-restricted,
+.path-mod-uckkarchive .audience-suitability-restricted-cultural,
+.path-mod-uckkarchive .audience-suitability-restricted_cultural,
+.path-mod-uckkarchive .audience-suitability-restricted-integrity,
+.path-mod-uckkarchive .audience-suitability-restricted_integrity,
+.path-mod-uckkarchive .audience-suitability-staff-only,
+.path-mod-uckkarchive .audience-suitability-staff_only {
+    color: var(--uckkarchive-danger-text);
+    background: var(--uckkarchive-danger-bg);
+    border-color: var(--uckkarchive-danger-border);
+}
+
+.path-mod-uckkarchive .review-state-draft {
+    color: var(--uckkarchive-neutral-text);
+    background: var(--uckkarchive-neutral-bg);
+    border-color: var(--uckkarchive-neutral-border);
+}
+
+.path-mod-uckkarchive .review-state-pending-review,
+.path-mod-uckkarchive .review-state-pending_review {
+    color: var(--uckkarchive-warning-text);
+    background: var(--uckkarchive-warning-bg);
+    border-color: var(--uckkarchive-warning-border);
+}
+
+.path-mod-uckkarchive .review-state-reviewed,
+.path-mod-uckkarchive .review-state-approved {
+    color: var(--uckkarchive-success-text);
+    background: var(--uckkarchive-success-bg);
+    border-color: var(--uckkarchive-success-border);
+}
+
+.path-mod-uckkarchive .review-state-contested {
+    color: var(--uckkarchive-warning-text);
+    background: var(--uckkarchive-warning-bg);
+    border-color: var(--uckkarchive-warning-border);
+}
+
+.path-mod-uckkarchive .review-state-retired {
+    color: var(--uckkarchive-neutral-text);
+    background: var(--uckkarchive-neutral-bg);
+    border-color: var(--uckkarchive-neutral-border);
+}
+
+/* Archive view layout. */
+
+.path-mod-uckkarchive .uckkarchive-view__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--uckkarchive-surface);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius);
+}
+
+.path-mod-uckkarchive .uckkarchive-view__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 22rem);
+    gap: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-view__main,
+.path-mod-uckkarchive .uckkarchive-view__side {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-view__section,
+.path-mod-uckkarchive .uckkarchive-view__panel {
+    padding: 1rem;
+    background: var(--uckkarchive-surface);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius);
+}
+
+.path-mod-uckkarchive .uckkarchive-view__section-title,
+.path-mod-uckkarchive .uckkarchive-view__panel-title {
+    margin: 0 0 .75rem;
+    font-size: 1.05rem;
+}
+
+/* Archive item card. */
+
+.path-mod-uckkarchive .uckkarchive-item-card {
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-item-card__badges,
+.path-mod-uckkarchive .uckkarchive-item-card__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-item-card__content,
+.path-mod-uckkarchive .uckkarchive-item-card__meta,
+.path-mod-uckkarchive .uckkarchive-item-card__proofs,
+.path-mod-uckkarchive .uckkarchive-item-card__provenance {
+    padding: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-item-card__content + .uckkarchive-item-card__meta,
+.path-mod-uckkarchive .uckkarchive-item-card__meta + .uckkarchive-item-card__proofs,
+.path-mod-uckkarchive .uckkarchive-item-card__proofs + .uckkarchive-item-card__provenance {
+    border-top: 1px solid var(--uckkarchive-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-item-card__empty {
+    color: var(--uckkarchive-muted);
+    font-style: italic;
+}
+
+/* Kristal card. */
+
+.path-mod-uckkarchive .uckkarchive-kristal-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-kristal-card::before {
+    content: "";
+    position: absolute;
+    inset-block: 0;
+    inset-inline-start: 0;
+    width: .35rem;
+    background: currentColor;
+    opacity: .35;
+}
+
+.path-mod-uckkarchive .uckkarchive-kristal-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-kristal-card__quote {
+    margin: 0;
+    padding: .75rem 1rem;
+    background: var(--uckkarchive-surface-alt);
+    border-inline-start: .25rem solid var(--uckkarchive-border);
+    border-radius: .5rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-kristal-card__formula {
+    font-weight: 700;
+}
+
+/* Proof card. */
+
+.path-mod-uckkarchive .uckkarchive-proof-card__type {
+    color: var(--uckkarchive-muted);
+    font-size: .875rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-proof-card__files,
+.path-mod-uckkarchive .uckkarchive-proof-card__links {
+    margin: .75rem 0 0;
+    padding-inline-start: 1.25rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-proof-card__file,
+.path-mod-uckkarchive .uckkarchive-proof-card__link {
+    margin-block: .25rem;
+}
+
+/* Media library. */
+
+.path-mod-uckkarchive .uckkarchive-media-library__toolbar,
+.path-mod-uckkarchive .uckkarchive-media-library__filters {
+    padding: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library__toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library__actions,
+.path-mod-uckkarchive .uckkarchive-media-library__view-actions,
+.path-mod-uckkarchive .uckkarchive-media-library__bulk-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library__filters form,
+.path-mod-uckkarchive .uckkarchive-media-library__filter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: .75rem;
+    align-items: end;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    gap: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library__list {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library__empty {
+    padding: 2rem;
+    text-align: center;
+    color: var(--uckkarchive-muted);
+    background: var(--uckkarchive-surface-alt);
+    border: 1px dashed var(--uckkarchive-border-strong);
+    border-radius: var(--uckkarchive-radius);
+}
+
+/* Media card. */
+
+.path-mod-uckkarchive .uckkarchive-media-card {
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card[data-selected="true"],
+.path-mod-uckkarchive .uckkarchive-media-card.is-selected {
+    border-color: var(--uckkarchive-focus);
+    box-shadow: 0 0 0 .2rem rgba(13, 110, 253, .15);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__preview {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 11rem;
+    background: var(--uckkarchive-surface-alt);
+    border-bottom: 1px solid var(--uckkarchive-border);
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__thumbnail,
+.path-mod-uckkarchive .uckkarchive-media-card__image,
+.path-mod-uckkarchive .uckkarchive-media-card__video,
+.path-mod-uckkarchive .uckkarchive-media-card__audio {
+    max-width: 100%;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__thumbnail,
+.path-mod-uckkarchive .uckkarchive-media-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    min-height: 10rem;
+    color: var(--uckkarchive-muted);
+    text-align: center;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__icon {
+    font-size: 2rem;
+    opacity: .7;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__overlay {
+    position: absolute;
+    inset-inline: 0;
+    inset-block-end: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    padding: .5rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(0, 0, 0, 0));
+    color: #fff;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__header {
+    padding: 0 0 .75rem;
+    border-bottom: 0;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__title-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__title-link:hover,
+.path-mod-uckkarchive .uckkarchive-media-card__title-link:focus {
+    text-decoration: underline;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__details,
+.path-mod-uckkarchive .uckkarchive-media-card__files,
+.path-mod-uckkarchive .uckkarchive-media-card__advisories {
+    margin-top: .75rem;
+    padding-top: .75rem;
+    border-top: 1px solid var(--uckkarchive-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__file-list,
+.path-mod-uckkarchive .uckkarchive-media-card__advisory-list {
+    margin: 0;
+    padding-inline-start: 1.25rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-card__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+}
+
+/* Media collection. */
+
+.path-mod-uckkarchive .uckkarchive-media-collection {
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-collection__header {
+    background: var(--uckkarchive-surface-alt);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-collection__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    gap: .75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-collection__item {
+    padding: .75rem;
+    background: var(--uckkarchive-surface);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius-sm);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-collection__item-thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 6rem;
+    margin-bottom: .5rem;
+    background: var(--uckkarchive-surface-alt);
+    border-radius: .35rem;
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-collection__item-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-collection__item-title {
+    margin: 0;
+    font-weight: 700;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-collection__item-meta {
+    margin: .25rem 0 0;
+    color: var(--uckkarchive-muted);
+    font-size: .875rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-collection__empty {
+    margin: 0;
+    padding: 1rem;
+    color: var(--uckkarchive-muted);
+    font-style: italic;
+}
+
+/* Media version list. */
+
+.path-mod-uckkarchive .uckkarchive-media-version-list {
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-version-list__items {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-version-list__item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--uckkarchive-surface-alt);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius-sm);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-version-list__item.is-current,
+.path-mod-uckkarchive .uckkarchive-media-version-list__item[data-current="true"] {
+    border-color: var(--uckkarchive-success-border);
+    background: var(--uckkarchive-success-bg);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-version-list__title {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-version-list__summary {
+    margin: .35rem 0 0;
+    color: var(--uckkarchive-muted);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-version-list__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: .5rem;
+    color: var(--uckkarchive-muted);
+    font-size: .875rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-version-list__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: .4rem;
+}
+
+/* Media relation list. */
+
+.path-mod-uckkarchive .uckkarchive-media-relation-list {
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-relation-list__items {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-relation-list__item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: .75rem;
+    align-items: center;
+    padding: .75rem;
+    background: var(--uckkarchive-surface-alt);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius-sm);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-relation-list__node {
+    min-width: 0;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-relation-list__node-title {
+    margin: 0;
+    font-weight: 700;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-relation-list__node-meta {
+    margin: .2rem 0 0;
+    color: var(--uckkarchive-muted);
+    font-size: .875rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-relation-list__connector {
+    color: var(--uckkarchive-muted);
+    text-align: center;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-relation-list__actions {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: .4rem;
+}
+
+/* Media upload. */
+
+.path-mod-uckkarchive .uckkarchive-media-upload__panel {
+    padding: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-upload__dropzone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .75rem;
+    min-height: 12rem;
+    padding: 2rem;
+    text-align: center;
+    background: var(--uckkarchive-surface-alt);
+    border: 2px dashed var(--uckkarchive-border-strong);
+    border-radius: var(--uckkarchive-radius);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-upload__dropzone.is-dragover,
+.path-mod-uckkarchive .uckkarchive-media-upload__dropzone:focus-within {
+    border-color: var(--uckkarchive-focus);
+    box-shadow: 0 0 0 .2rem rgba(13, 110, 253, .15);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-upload__file-list {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-upload__file {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .75rem;
+    padding: .75rem;
+    background: var(--uckkarchive-surface);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius-sm);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-upload__progress {
+    width: 100%;
+    height: .5rem;
+    overflow: hidden;
+    background: var(--uckkarchive-neutral-bg);
+    border-radius: 999px;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-upload__progress-bar {
+    height: 100%;
+    background: var(--uckkarchive-focus);
+}
+
+/* External work card. */
+
+.path-mod-uckkarchive .uckkarchive-external-work-card {
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-external-work-card-header {
+    margin-bottom: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-external-work-title-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.path-mod-uckkarchive .uckkarchive-external-work-title-link:hover,
+.path-mod-uckkarchive .uckkarchive-external-work-title-link:focus {
+    text-decoration: underline;
+}
+
+.path-mod-uckkarchive .uckkarchive-external-work-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .25rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-external-work-actions {
+    margin-inline-start: auto;
+}
+
+.path-mod-uckkarchive .uckkarchive-external-work-description,
+.path-mod-uckkarchive .uckkarchive-external-work-citation,
+.path-mod-uckkarchive .uckkarchive-external-work-rights,
+.path-mod-uckkarchive .uckkarchive-external-work-source-note,
+.path-mod-uckkarchive .uckkarchive-external-work-teaching-note,
+.path-mod-uckkarchive .uckkarchive-external-work-advisories,
+.path-mod-uckkarchive .uckkarchive-external-work-content-markers {
+    padding-top: .75rem;
+    border-top: 1px solid var(--uckkarchive-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-external-work-cultural-note {
+    border-color: var(--uckkarchive-warning-border);
+}
+
+/* Content advisory panel. */
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel {
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel.has-restricted-content,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel[data-restricted="true"] {
+    border-color: var(--uckkarchive-warning-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel.has-cultural-protocol,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel[data-cultural-protocol="true"] {
+    border-color: var(--uckkarchive-danger-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__summary,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__markers,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__reviews,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__tags,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__external-works {
+    padding: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__summary + .uckkarchive-content-advisory-panel__markers,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__markers + .uckkarchive-content-advisory-panel__reviews,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__reviews + .uckkarchive-content-advisory-panel__tags,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__tags + .uckkarchive-content-advisory-panel__external-works {
+    border-top: 1px solid var(--uckkarchive-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: .75rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__summary-item {
+    padding: .75rem;
+    background: var(--uckkarchive-surface-alt);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius-sm);
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__summary-label {
+    display: block;
+    color: var(--uckkarchive-muted);
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__summary-value {
+    display: block;
+    margin-top: .25rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__marker-list,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__review-list,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__tag-list,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__external-work-list {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__marker,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__review,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__tag,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__external-work {
+    padding: 1rem;
+    background: var(--uckkarchive-surface-alt);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius-sm);
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__marker.is-restricted,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__marker[data-restricted="true"] {
+    border-color: var(--uckkarchive-warning-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__marker.is-cultural-protocol,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__marker[data-cultural-protocol="true"] {
+    border-color: var(--uckkarchive-danger-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__marker-header,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__review-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: .75rem;
+    margin-bottom: .75rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__marker-title,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__review-title,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__tag-title {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__locator,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__note,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__rationale {
+    margin-top: .5rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__empty {
+    margin: 0;
+    padding: 1rem;
+    color: var(--uckkarchive-muted);
+    font-style: italic;
+    background: var(--uckkarchive-surface-alt);
+    border: 1px dashed var(--uckkarchive-border-strong);
+    border-radius: var(--uckkarchive-radius-sm);
+}
+
+/* Provenance panel. */
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel {
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__badges,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__record-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+    justify-content: flex-end;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: .75rem;
+    padding: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__summary-item {
+    padding: .75rem;
+    background: var(--uckkarchive-surface-alt);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: .5rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__summary-label {
+    display: block;
+    color: var(--uckkarchive-muted);
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__summary-value {
+    display: block;
+    margin-top: .25rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__checks,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__details,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__records {
+    padding: 1rem;
+    border-top: 1px solid var(--uckkarchive-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__section-title,
+.path-mod-uckkarchive .uckkarchive-validation-panel__section-title,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__section-title {
+    margin: 0 0 .75rem;
+    font-size: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__check-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: .5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__check {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .65rem .75rem;
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: .5rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__check-marker {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.35rem;
+    height: 1.35rem;
+    border-radius: 999px;
+    font-weight: 700;
+}
+
+.path-mod-uckkarchive .check-ok .uckkarchive-provenance-panel__check-marker {
+    color: #fff;
+    background: #198754;
+}
+
+.path-mod-uckkarchive .check-missing .uckkarchive-provenance-panel__check-marker {
+    color: #212529;
+    background: #ffc107;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__record-list {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    margin: 0;
+    padding-inline-start: 1.25rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__record {
+    padding: 1rem;
+    background: var(--uckkarchive-surface-alt);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: .5rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__record-header {
+    display: flex;
+    justify-content: space-between;
+    gap: .75rem;
+    margin-bottom: .75rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__record-summary {
+    margin: 0 0 .75rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__record-source {
+    margin: .75rem 0 0;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__empty {
+    margin: 0;
+}
+
+/* Validation panel. */
+
+.path-mod-uckkarchive .uckkarchive-validation-panel {
+    overflow: hidden;
+}
+
+.path-mod-uckkarchive .uckkarchive-validation-panel__summary,
+.path-mod-uckkarchive .uckkarchive-validation-panel__decision,
+.path-mod-uckkarchive .uckkarchive-validation-panel__provenance,
+.path-mod-uckkarchive .uckkarchive-validation-panel__visibility,
+.path-mod-uckkarchive .uckkarchive-validation-panel__integrity,
+.path-mod-uckkarchive .uckkarchive-validation-panel__revision {
+    padding: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-validation-panel__summary + .uckkarchive-validation-panel__decision,
+.path-mod-uckkarchive .uckkarchive-validation-panel__decision + .uckkarchive-validation-panel__provenance,
+.path-mod-uckkarchive .uckkarchive-validation-panel__provenance + .uckkarchive-validation-panel__visibility,
+.path-mod-uckkarchive .uckkarchive-validation-panel__visibility + .uckkarchive-validation-panel__integrity,
+.path-mod-uckkarchive .uckkarchive-validation-panel__integrity + .uckkarchive-validation-panel__revision {
+    border-top: 1px solid var(--uckkarchive-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-validation-panel__check-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: .5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.path-mod-uckkarchive .uckkarchive-validation-panel__check {
+    padding: .65rem .75rem;
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: .5rem;
+}
+
+/* Export screen. */
+
+.path-mod-uckkarchive .uckkarchive-export__summary .card-body,
+.path-mod-uckkarchive .uckkarchive-export__options .card-body,
+.path-mod-uckkarchive .uckkarchive-export__preview .card-body {
+    padding: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-export__item-list {
+    display: flex;
+    flex-direction: column;
+    gap: .65rem;
+    margin: 0;
+    padding-inline-start: 1.25rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-export__item {
+    padding: .75rem;
+    background: var(--uckkarchive-surface-alt);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: .5rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-export__item-status,
+.path-mod-uckkarchive .uckkarchive-export__item-visibility {
+    color: var(--uckkarchive-muted);
+    font-size: .875rem;
+}
+
+/* Lists and grids. */
+
+.path-mod-uckkarchive .uckkarchive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-list {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.path-mod-uckkarchive .uckkarchive-list__item {
+    padding: .75rem;
+    background: var(--uckkarchive-surface);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: .5rem;
+}
+
+/* Forms. */
+
+.path-mod-uckkarchive .uckkarchive-form-section {
+    padding: 1rem;
+    background: var(--uckkarchive-surface);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius);
+}
+
+.path-mod-uckkarchive .uckkarchive-export__options .form-group,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__action-form,
+.path-mod-uckkarchive .uckkarchive-validation-panel__action-form,
+.path-mod-uckkarchive .uckkarchive-media-library__filters .form-group,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__action-form {
+    margin-bottom: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-export__options .form-check {
+    margin-top: .5rem;
+}
+
+/* Notices. */
+
+.path-mod-uckkarchive .uckkarchive-view__notice,
+.path-mod-uckkarchive .uckkarchive-export__notice,
+.path-mod-uckkarchive .uckkarchive-provenance-panel__notice,
+.path-mod-uckkarchive .uckkarchive-validation-panel__notice,
+.path-mod-uckkarchive .uckkarchive-media-library__notice,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__notice {
+    margin-top: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel__warnings,
+.path-mod-uckkarchive .uckkarchive-validation-panel__warnings,
+.path-mod-uckkarchive .uckkarchive-view__warnings,
+.path-mod-uckkarchive .uckkarchive-media-card__warnings,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel__warnings {
+    padding: 1rem 1rem 0;
+}
+
+/* Accessibility helpers. */
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel code,
+.path-mod-uckkarchive .uckkarchive-export code,
+.path-mod-uckkarchive .uckkarchive-validation-panel code,
+.path-mod-uckkarchive .uckkarchive-media-card code,
+.path-mod-uckkarchive .uckkarchive-media-version-list code,
+.path-mod-uckkarchive .uckkarchive-external-work-card code,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel code {
+    word-break: break-word;
+}
+
+.path-mod-uckkarchive .uckkarchive-provenance-panel a,
+.path-mod-uckkarchive .uckkarchive-validation-panel a,
+.path-mod-uckkarchive .uckkarchive-item-card a,
+.path-mod-uckkarchive .uckkarchive-media-card a,
+.path-mod-uckkarchive .uckkarchive-media-collection a,
+.path-mod-uckkarchive .uckkarchive-external-work-card a,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel a {
+    text-underline-offset: .15em;
+}
+
+.path-mod-uckkarchive [data-action],
+.path-mod-uckkarchive button,
+.path-mod-uckkarchive a {
+    scroll-margin-top: 5rem;
+}
+
+.path-mod-uckkarchive [tabindex]:focus,
+.path-mod-uckkarchive .btn:focus,
+.path-mod-uckkarchive a:focus {
+    outline: 2px solid var(--uckkarchive-focus);
+    outline-offset: 2px;
+}
+
+/* State helpers. */
+
+.path-mod-uckkarchive .state-clear,
+.path-mod-uckkarchive .state-has-records {
+    border-color: var(--uckkarchive-success-border);
+}
+
+.path-mod-uckkarchive .state-warning,
+.path-mod-uckkarchive .state-restricted,
+.path-mod-uckkarchive .state-empty {
+    border-color: var(--uckkarchive-warning-border);
+}
+
+.path-mod-uckkarchive .is-verified {
+    color: var(--uckkarchive-success-text);
+    background: var(--uckkarchive-success-bg);
+    border-color: var(--uckkarchive-success-border);
+}
+
+.path-mod-uckkarchive .is-restricted,
+.path-mod-uckkarchive .is-ai-assisted {
+    color: var(--uckkarchive-warning-text);
+    background: var(--uckkarchive-warning-bg);
+    border-color: var(--uckkarchive-warning-border);
+}
+
+.path-mod-uckkarchive .is-cultural-protocol,
+.path-mod-uckkarchive .is-strong-warning {
+    color: var(--uckkarchive-danger-text);
+    background: var(--uckkarchive-danger-bg);
+    border-color: var(--uckkarchive-danger-border);
+}
+
+.path-mod-uckkarchive .is-loading {
+    opacity: .65;
+    pointer-events: none;
+}
+
+.path-mod-uckkarchive .is-hidden {
+    display: none !important;
+}
+
+/* Print/export readability. */
+
+@media print {
+    .path-mod-uckkarchive .btn,
+    .path-mod-uckkarchive .uckkarchive-export__download,
+    .path-mod-uckkarchive .uckkarchive-provenance-panel__actions,
+    .path-mod-uckkarchive .uckkarchive-validation-panel__actions,
+    .path-mod-uckkarchive .uckkarchive-media-library__toolbar,
+    .path-mod-uckkarchive .uckkarchive-media-library__filters,
+    .path-mod-uckkarchive .uckkarchive-media-card__actions,
+    .path-mod-uckkarchive .uckkarchive-media-card__footer,
+    .path-mod-uckkarchive .uckkarchive-media-collection__footer,
+    .path-mod-uckkarchive .uckkarchive-media-version-list__actions,
+    .path-mod-uckkarchive .uckkarchive-media-relation-list__actions,
+    .path-mod-uckkarchive .uckkarchive-content-advisory-panel__footer {
+        display: none !important;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-item-card,
+    .path-mod-uckkarchive .uckkarchive-kristal-card,
+    .path-mod-uckkarchive .uckkarchive-proof-card,
+    .path-mod-uckkarchive .uckkarchive-provenance-panel,
+    .path-mod-uckkarchive .uckkarchive-validation-panel,
+    .path-mod-uckkarchive .uckkarchive-export__summary,
+    .path-mod-uckkarchive .uckkarchive-export__preview,
+    .path-mod-uckkarchive .uckkarchive-media-card,
+    .path-mod-uckkarchive .uckkarchive-media-collection,
+    .path-mod-uckkarchive .uckkarchive-media-version-list,
+    .path-mod-uckkarchive .uckkarchive-media-relation-list,
+    .path-mod-uckkarchive .uckkarchive-external-work-card,
+    .path-mod-uckkarchive .uckkarchive-content-advisory-panel {
+        box-shadow: none;
+        break-inside: avoid;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Responsive layout. */
+
+@media (max-width: 991.98px) {
+    .path-mod-uckkarchive .uckkarchive-view__layout {
+        grid-template-columns: 1fr;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-card__header,
+    .path-mod-uckkarchive .uckkarchive-item-card__header,
+    .path-mod-uckkarchive .uckkarchive-kristal-card__header,
+    .path-mod-uckkarchive .uckkarchive-proof-card__header,
+    .path-mod-uckkarchive .uckkarchive-provenance-panel__header,
+    .path-mod-uckkarchive .uckkarchive-validation-panel__header,
+    .path-mod-uckkarchive .uckkarchive-view__header,
+    .path-mod-uckkarchive .uckkarchive-media-library__toolbar,
+    .path-mod-uckkarchive .uckkarchive-media-card__header,
+    .path-mod-uckkarchive .uckkarchive-media-collection__header,
+    .path-mod-uckkarchive .uckkarchive-media-upload__header,
+    .path-mod-uckkarchive .uckkarchive-content-advisory-panel__header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-provenance-panel__badges,
+    .path-mod-uckkarchive .uckkarchive-provenance-panel__record-badges,
+    .path-mod-uckkarchive .uckkarchive-media-version-list__actions,
+    .path-mod-uckkarchive .uckkarchive-media-relation-list__actions {
+        justify-content: flex-start;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-external-work-actions {
+        margin-inline-start: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .path-mod-uckkarchive .uckkarchive-meta,
+    .path-mod-uckkarchive .uckkarchive-export__facts,
+    .path-mod-uckkarchive .uckkarchive-provenance-panel__detail-list,
+    .path-mod-uckkarchive .uckkarchive-provenance-panel__record-meta,
+    .path-mod-uckkarchive .uckkarchive-validation-panel__meta,
+    .path-mod-uckkarchive .uckkarchive-provenance-panel__summary,
+    .path-mod-uckkarchive .uckkarchive-provenance-panel__check-list,
+    .path-mod-uckkarchive .uckkarchive-validation-panel__check-list,
+    .path-mod-uckkarchive .uckkarchive-media-card__meta,
+    .path-mod-uckkarchive .uckkarchive-media-collection__meta,
+    .path-mod-uckkarchive .uckkarchive-media-library__filter-grid,
+    .path-mod-uckkarchive .uckkarchive-content-advisory-panel__summary-grid,
+    .path-mod-uckkarchive .uckkarchive-content-advisory-panel__meta {
+        grid-template-columns: 1fr;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-card__footer,
+    .path-mod-uckkarchive .uckkarchive-item-card__footer,
+    .path-mod-uckkarchive .uckkarchive-kristal-card__footer,
+    .path-mod-uckkarchive .uckkarchive-proof-card__footer,
+    .path-mod-uckkarchive .uckkarchive-provenance-panel__actions,
+    .path-mod-uckkarchive .uckkarchive-validation-panel__actions,
+    .path-mod-uckkarchive .uckkarchive-export__download,
+    .path-mod-uckkarchive .uckkarchive-media-card__footer,
+    .path-mod-uckkarchive .uckkarchive-media-collection__footer,
+    .path-mod-uckkarchive .uckkarchive-media-upload__actions,
+    .path-mod-uckkarchive .uckkarchive-content-advisory-panel__footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-card__footer .btn,
+    .path-mod-uckkarchive .uckkarchive-item-card__footer .btn,
+    .path-mod-uckkarchive .uckkarchive-kristal-card__footer .btn,
+    .path-mod-uckkarchive .uckkarchive-proof-card__footer .btn,
+    .path-mod-uckkarchive .uckkarchive-provenance-panel__actions .btn,
+    .path-mod-uckkarchive .uckkarchive-validation-panel__actions .btn,
+    .path-mod-uckkarchive .uckkarchive-export__download .btn,
+    .path-mod-uckkarchive .uckkarchive-media-card__footer .btn,
+    .path-mod-uckkarchive .uckkarchive-media-collection__footer .btn,
+    .path-mod-uckkarchive .uckkarchive-media-upload__actions .btn,
+    .path-mod-uckkarchive .uckkarchive-content-advisory-panel__footer .btn {
+        width: 100%;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-provenance-panel__record-header,
+    .path-mod-uckkarchive .uckkarchive-content-advisory-panel__marker-header,
+    .path-mod-uckkarchive .uckkarchive-content-advisory-panel__review-header {
+        flex-direction: column;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library__grid,
+    .path-mod-uckkarchive .uckkarchive-media-collection__items {
+        grid-template-columns: 1fr;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-version-list__item,
+    .path-mod-uckkarchive .uckkarchive-media-relation-list__item {
+        grid-template-columns: 1fr;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-relation-list__connector {
+        text-align: start;
+    }
+}
+
+
+/* Button/link contrast inside mod_uckkarchive renderables only.
+ *
+ * Do not style every link on .path-mod-uckkarchive. Moodle drawers, course
+ * navigation, breadcrumbs, and theme/local_uckk CTA components must keep their
+ * own contrast rules.
+ */
+.path-mod-uckkarchive .uckkarchive-view a.btn,
+.path-mod-uckkarchive .uckkarchive-export a.btn,
+.path-mod-uckkarchive .uckkarchive-item-card a.btn,
+.path-mod-uckkarchive .uckkarchive-kristal-card a.btn,
+.path-mod-uckkarchive .uckkarchive-proof-card a.btn,
+.path-mod-uckkarchive .uckkarchive-provenance-panel a.btn,
+.path-mod-uckkarchive .uckkarchive-validation-panel a.btn,
+.path-mod-uckkarchive .uckkarchive-media-library a.btn,
+.path-mod-uckkarchive .uckkarchive-media-card a.btn,
+.path-mod-uckkarchive .uckkarchive-media-collection a.btn,
+.path-mod-uckkarchive .uckkarchive-media-version-list a.btn,
+.path-mod-uckkarchive .uckkarchive-media-relation-list a.btn,
+.path-mod-uckkarchive .uckkarchive-media-upload a.btn,
+.path-mod-uckkarchive .uckkarchive-external-work-card a.btn,
+.path-mod-uckkarchive .uckkarchive-content-advisory-panel a.btn {
+    text-decoration: none !important;
+}
+
+.path-mod-uckkarchive .uckkarchive-view .btn-primary,
+.path-mod-uckkarchive .uckkarchive-view .btn-primary:visited,
+.path-mod-uckkarchive .uckkarchive-view .btn-secondary,
+.path-mod-uckkarchive .uckkarchive-view .btn-secondary:visited,
+.path-mod-uckkarchive .uckkarchive-export .btn-primary,
+.path-mod-uckkarchive .uckkarchive-export .btn-primary:visited,
+.path-mod-uckkarchive .uckkarchive-export .btn-secondary,
+.path-mod-uckkarchive .uckkarchive-export .btn-secondary:visited,
+.path-mod-uckkarchive .uckkarchive-media-library .btn-primary,
+.path-mod-uckkarchive .uckkarchive-media-library .btn-primary:visited,
+.path-mod-uckkarchive .uckkarchive-media-library .btn-secondary,
+.path-mod-uckkarchive .uckkarchive-media-library .btn-secondary:visited,
+.path-mod-uckkarchive .uckkarchive-media-upload .btn-primary,
+.path-mod-uckkarchive .uckkarchive-media-upload .btn-primary:visited,
+.path-mod-uckkarchive .uckkarchive-media-upload .btn-secondary,
+.path-mod-uckkarchive .uckkarchive-media-upload .btn-secondary:visited {
+    color: #fff !important;
+}
+
+.path-mod-uckkarchive .uckkarchive-view .btn-outline-primary,
+.path-mod-uckkarchive .uckkarchive-view .btn-outline-primary:visited,
+.path-mod-uckkarchive .uckkarchive-export .btn-outline-primary,
+.path-mod-uckkarchive .uckkarchive-export .btn-outline-primary:visited,
+.path-mod-uckkarchive .uckkarchive-media-library .btn-outline-primary,
+.path-mod-uckkarchive .uckkarchive-media-library .btn-outline-primary:visited,
+.path-mod-uckkarchive .uckkarchive-media-upload .btn-outline-primary,
+.path-mod-uckkarchive .uckkarchive-media-upload .btn-outline-primary:visited {
+    color: var(--uckkarchive-focus, #0d6efd) !important;
+}
+
+.path-mod-uckkarchive .uckkarchive-view .btn-outline-primary:hover,
+.path-mod-uckkarchive .uckkarchive-view .btn-outline-primary:focus,
+.path-mod-uckkarchive .uckkarchive-export .btn-outline-primary:hover,
+.path-mod-uckkarchive .uckkarchive-export .btn-outline-primary:focus,
+.path-mod-uckkarchive .uckkarchive-media-library .btn-outline-primary:hover,
+.path-mod-uckkarchive .uckkarchive-media-library .btn-outline-primary:focus,
+.path-mod-uckkarchive .uckkarchive-media-upload .btn-outline-primary:hover,
+.path-mod-uckkarchive .uckkarchive-media-upload .btn-outline-primary:focus {
+    color: #fff !important;
+}
+
+
+/* Unified media-library editor. */
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__header,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__statusbar,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__layout,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__topactions {
+    display: flex;
+    gap: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__header {
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__heading {
+    max-width: 48rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__eyebrow {
+    color: var(--uckkarchive-muted);
+    font-size: .875rem;
+    font-weight: 600;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__title {
+    margin: .25rem 0;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__intro {
+    color: var(--uckkarchive-muted);
+    margin-bottom: 0;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__topactions {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__statusbar {
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--uckkarchive-surface-alt);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius);
+    padding: .75rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__layout {
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: minmax(16rem, 22rem) minmax(0, 1fr) minmax(15rem, 20rem);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__preview,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__main,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__governance,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__side-panel {
+    min-width: 0;
+    padding: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel:focus {
+    outline: .2rem solid var(--uckkarchive-focus);
+    outline-offset: .15rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__preview-card {
+    border-bottom: 1px solid var(--uckkarchive-border);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__media-icon {
+    align-items: center;
+    background: var(--uckkarchive-surface-subtle);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius-sm);
+    color: var(--uckkarchive-muted);
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    margin-bottom: .75rem;
+    min-height: 5rem;
+    text-transform: uppercase;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__media-title {
+    margin-bottom: .5rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__media-description {
+    color: var(--uckkarchive-muted);
+    font-size: .95rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__metadata-list,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__governance-list {
+    display: grid;
+    grid-template-columns: minmax(7rem, auto) 1fr;
+    gap: .35rem .75rem;
+    margin: 1rem 0 0;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__metadata-list dt,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__governance-list dt {
+    color: var(--uckkarchive-muted);
+    font-weight: 600;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__metadata-list dd,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__governance-list dd {
+    margin-bottom: 0;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__workflow-nav {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__workflow-step {
+    align-items: center;
+    background: var(--uckkarchive-surface);
+    border: 1px solid var(--uckkarchive-border);
+    border-radius: var(--uckkarchive-radius-sm);
+    color: var(--uckkarchive-text);
+    display: flex;
+    gap: .5rem;
+    padding: .6rem .7rem;
+    text-align: left;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__workflow-step:hover,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__workflow-step.is-active {
+    border-color: var(--uckkarchive-focus);
+    box-shadow: 0 0 0 .15rem rgba(13, 110, 253, .15);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__workflow-step:disabled {
+    cursor: not-allowed;
+    opacity: .55;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__workflow-number {
+    align-items: center;
+    background: var(--uckkarchive-surface-subtle);
+    border-radius: 999px;
+    display: inline-flex;
+    flex: 0 0 1.75rem;
+    font-size: .8rem;
+    font-weight: 700;
+    height: 1.75rem;
+    justify-content: center;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__badge {
+    border: 1px solid var(--uckkarchive-neutral-border);
+    border-radius: 999px;
+    color: var(--uckkarchive-neutral-text);
+    background: var(--uckkarchive-neutral-bg);
+    display: inline-flex;
+    font-size: .825rem;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: .25rem .6rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__badge.is-restricted,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__badge.is-cultural,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__badge.is-integrity {
+    color: var(--uckkarchive-warning-text);
+    background: var(--uckkarchive-warning-bg);
+    border-color: var(--uckkarchive-warning-border);
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__metric {
+    align-items: baseline;
+    display: flex;
+    gap: .5rem;
+    margin-bottom: .75rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__metric strong {
+    font-size: 1.75rem;
+    line-height: 1;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__side-panel + .uckkarchive-media-library-editor__side-panel {
+    margin-top: 1rem;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor.is-dirty .uckkarchive-media-library-editor__statusbar::after {
+    color: var(--uckkarchive-muted);
+    content: "•";
+    font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__topactions {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__layout {
+        grid-template-columns: 1fr;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__preview,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__main,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__governance {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__workflow-nav {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform fieldset,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .fcontainer,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .form-group,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .fitem,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .felement {
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .form-group.row {
+        display: block;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .col-md-3,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .col-md-4,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .col-md-8,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .col-md-9,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .fitemtitle,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .felement {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .fitemtitle,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform label {
+        white-space: normal;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform input[type="text"],
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform input[type="url"],
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform input[type="number"],
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform input[type="email"],
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform select,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform textarea {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__statusbar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__workflow-nav,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__metadata-list,
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__governance-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* Media library editor: do not force 3 columns inside Moodle drawers. */
+.path-mod-uckkarchive .uckkarchive-media-library-editor {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Default: one usable column. Moodle course drawer reduces available width. */
+.path-mod-uckkarchive .uckkarchive-media-library-editor__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 2rem;
+    align-items: start;
+}
+
+/* Ensure every editor region can use the available width. */
+.path-mod-uckkarchive .uckkarchive-media-library-editor__aside,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__summary {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+}
+
+/* Moodle mform rows must not keep Bootstrap horizontal label columns here. */
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .form-group.row {
+    display: block !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .form-group.row > .col-form-label,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .form-group.row > .felement,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .form-group.row > .col-md-3,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .form-group.row > .col-md-9,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .form-group.row > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Prevent labels from collapsing letter by letter. */
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .col-form-label,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform label {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
+/* Make controls use normal form width. */
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform input[type="text"],
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform input[type="url"],
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform textarea,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform select,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel .mform .form-control {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Only use 3 columns when the full viewport is really wide. */
+@media (min-width: 1600px) {
+    .path-mod-uckkarchive .uckkarchive-media-library-editor__layout {
+        grid-template-columns: minmax(240px, 0.8fr) minmax(560px, 1.8fr) minmax(260px, 0.9fr) !important;
+    }
+}
+
+
+/* Final override: media editor must stay readable inside Moodle course drawers. */
+.path-mod-uckkarchive .uckkarchive-media-library-editor__layout {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 2rem !important;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__aside,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel,
+.path-mod-uckkarchive .uckkarchive-media-library-editor__summary {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__panel {
+    max-width: 960px !important;
+}
+
+.path-mod-uckkarchive .uckkarchive-media-library-editor__summary {
+    max-width: 720px !important;
+}
+
+
+/* Public UCKK CTA contrast: keep text readable on petrol buttons. */
+.local-uckk .local-uckk-public-cta__link,
+.local-uckk .local-uckk-public-cta__link:link,
+.local-uckk .local-uckk-public-cta__link:visited,
+.local-uckk .local-uckk-public-cta__link:hover,
+.local-uckk .local-uckk-public-cta__link:focus,
+.local-uckk .local-uckk-public-cta__action .btn,
+.local-uckk .local-uckk-public-cta__action .btn:link,
+.local-uckk .local-uckk-public-cta__action .btn:visited,
+.local-uckk .local-uckk-public-cta__action .btn:hover,
+.local-uckk .local-uckk-public-cta__action .btn:focus {
+    color: var(--uckk-card, #fffaf0) !important;
+    text-decoration: none !important;
+}
+
+.local-uckk .local-uckk-public-cta__link *,
+.local-uckk .local-uckk-public-cta__action .btn * {
+    color: inherit !important;
+}

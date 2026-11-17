@@ -1,0 +1,471 @@
+{
+  "format": "kristal.layout-realizations/0.1",
+  "note": "Human-written demo fixtures (not GF output, not scientific translation validation).",
+  "entries": {
+    "title": {
+      "fr": {
+        "text": "Composer une publication scientifique à partir de structures sémantiques",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "Composing a scientific publication from semantic structures",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Comporre una pubblicazione scientifica da strutture semantiche",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "subtitle": {
+      "fr": {
+        "text": "Prototype : des layouts stables, des énoncés variables, trois langues.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "Prototype: stable layouts, variable statements, three languages.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Prototipo: layout stabili, enunciati variabili, tre lingue.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "abstract": {
+      "fr": {
+        "text": "Cette démonstration explore la composition de blocs scientifiques typés alimentés par des unités sémantiques. Elle ne mesure ni la vitesse de lecture ni la qualité empirique des traductions.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "This demonstration explores composing typed scientific blocks from semantic units. It does not measure reading speed or the empirical quality of translations.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Questa dimostrazione esplora la composizione di blocchi scientifici tipizzati alimentati da unità semantiche. Non misura la velocità di lettura né la qualità empirica delle traduzioni.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "heading.result": {
+      "fr": {
+        "text": "Un résultat de conception, avec ses limites",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "A design result with explicit limits",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Un risultato progettuale con limiti espliciti",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "heading.argument": {
+      "fr": {
+        "text": "Construire une continuité sans prose longue",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "Constructing continuity without long-form prose",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Costruire continuità senza prosa estesa",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "heading.comparison": {
+      "fr": {
+        "text": "Comparer deux modalités de présentation",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "Comparing two presentation modes",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Confrontare due modalità di presentazione",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.result.scope": {
+      "fr": {
+        "text": "Cette propriété suppose des emplacements typés et des réalisations disponibles pour chaque langue sélectionnée.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "This property requires typed slots and available realizations for every selected language.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Questa proprietà richiede spazi tipizzati e realizzazioni disponibili per ogni lingua selezionata.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.result.limit": {
+      "fr": {
+        "text": "Le prototype ne démontre ni un gain de lisibilité ni une équivalence linguistique certifiée.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "The prototype demonstrates neither improved readability nor certified linguistic equivalence.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Il prototipo non dimostra né una migliore leggibilità né un’equivalenza linguistica certificata.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.result.impact": {
+      "fr": {
+        "text": "Les mêmes données structurées peuvent alimenter des fichiers HTML, PDF et LaTeX dérivés.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "The same structured data can feed derived HTML, PDF and LaTeX files.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Gli stessi dati strutturati possono alimentare file HTML, PDF e LaTeX derivati.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.argument.thesis": {
+      "fr": {
+        "text": "L’ordre des idées peut être partiellement porté par la structure éditoriale plutôt que par une génération de paragraphes.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "The order of ideas can be carried partly by editorial structure rather than paragraph generation.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "L’ordine delle idee può essere sostenuto in parte dalla struttura editoriale anziché dalla generazione di paragrafi.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.argument.premise1": {
+      "fr": {
+        "text": "Le layout impose les positions de la thèse, des prémisses, de l’objection et de la conclusion.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "The layout fixes the positions of the thesis, premises, objection and conclusion.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Il layout fissa le posizioni della tesi, delle premesse, dell’obiezione e della conclusione.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.argument.premise2": {
+      "fr": {
+        "text": "Chaque emplacement renvoie à un identifiant sémantique contrôlé par la validation locale.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "Each slot refers to a semantic identifier checked by local validation.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Ogni spazio rimanda a un identificatore semantico controllato dalla validazione locale.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.argument.inference": {
+      "fr": {
+        "text": "Ces contraintes composent un parcours argumentatif explicite, même si chaque réalisation est une phrase courte.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "These constraints form an explicit argumentative path even when each realization is a short sentence.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Questi vincoli formano un percorso argomentativo esplicito anche quando ogni realizzazione è una frase breve.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.argument.objection": {
+      "fr": {
+        "text": "Une succession de blocs ne remplace pas toujours les nuances d’une explication continue.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "A sequence of blocks does not always replace the nuances of a continuous explanation.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Una sequenza di blocchi non sostituisce sempre le sfumature di una spiegazione continua.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.argument.conclusion": {
+      "fr": {
+        "text": "Il faut tester les layouts par genre scientifique avant de les considérer comme une norme éditoriale.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "Layouts must be tested by scientific genre before treating them as an editorial standard.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "È necessario verificare i layout per genere scientifico prima di considerarli uno standard editoriale.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.compare.topic": {
+      "fr": {
+        "text": "Comment présenter rapidement des assertions vérifiables dans plusieurs langues ?",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "How can verifiable statements be presented quickly across languages?",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Come presentare rapidamente enunciati verificabili in più lingue?",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.compare.criterion": {
+      "fr": {
+        "text": "Critère retenu : visibilité immédiate des sources, des conditions et des réserves.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "Chosen criterion: immediate visibility of sources, conditions and qualifications.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Criterio scelto: visibilità immediata di fonti, condizioni e riserve.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.compare.prose": {
+      "fr": {
+        "text": "La prose continue favorise les transitions fines, mais demande une génération discursive et une révision éditoriale complètes.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "Continuous prose supports subtle transitions but requires full discourse generation and editorial review.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "La prosa continua favorisce transizioni sottili ma richiede una generazione discorsiva e una revisione editoriale complete.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.compare.layout": {
+      "fr": {
+        "text": "Les fiches typées montrent directement propositions, preuves et limites, mais leur expressivité dépend des modèles disponibles.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "Typed cards expose claims, evidence and limits directly, but their expressiveness depends on available templates.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Le schede tipizzate mostrano direttamente affermazioni, prove e limiti, ma la loro espressività dipende dai modelli disponibili.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.compare.conclusion": {
+      "fr": {
+        "text": "La présentation structurée constitue une option éditoriale prometteuse pour les résultats décomposables.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "Structured presentation is a promising editorial option for decomposable results.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "La presentazione strutturata è un’opzione editoriale promettente per risultati scomponibili.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "u.compare.limit": {
+      "fr": {
+        "text": "Aucun avantage mesuré sur la lecture n’est revendiqué dans cette démonstration.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "No measured reading advantage is claimed in this demonstration.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "In questa dimostrazione non si rivendica alcun vantaggio misurato nella lettura.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    },
+    "e.layout": {
+      "fr": {
+        "text": "Contrats déclaratifs et emplacements obligatoires des trois layouts du prototype.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture",
+        "tokens": [
+          {
+            "surface": "Contrats",
+            "start": 0,
+            "end": 8,
+            "lemma": "contrat",
+            "pos": "NOUN",
+            "features": {
+              "Number": "Plur",
+              "Gender": "Masc"
+            },
+            "annotation_status": "manual_fixture"
+          },
+          {
+            "surface": "déclaratifs",
+            "start": 9,
+            "end": 20,
+            "lemma": "déclaratif",
+            "pos": "ADJ",
+            "features": {
+              "Number": "Plur",
+              "Gender": "Masc"
+            },
+            "annotation_status": "manual_fixture"
+          }
+        ]
+      },
+      "en": {
+        "text": "Declarative contracts and required slots of the prototype’s three layouts.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture",
+        "tokens": [
+          {
+            "surface": "Declarative",
+            "start": 0,
+            "end": 11,
+            "lemma": "declarative",
+            "pos": "ADJ",
+            "features": {},
+            "annotation_status": "manual_fixture"
+          },
+          {
+            "surface": "contracts",
+            "start": 12,
+            "end": 21,
+            "lemma": "contract",
+            "pos": "NOUN",
+            "features": {
+              "Number": "Plur"
+            },
+            "annotation_status": "manual_fixture"
+          }
+        ]
+      },
+      "it": {
+        "text": "Contratti dichiarativi e spazi obbligatori dei tre layout del prototipo.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture",
+        "tokens": [
+          {
+            "surface": "Contratti",
+            "start": 0,
+            "end": 9,
+            "lemma": "contratto",
+            "pos": "NOUN",
+            "features": {
+              "Number": "Plur",
+              "Gender": "Masc"
+            },
+            "annotation_status": "manual_fixture"
+          },
+          {
+            "surface": "dichiarativi",
+            "start": 10,
+            "end": 22,
+            "lemma": "dichiarativo",
+            "pos": "ADJ",
+            "features": {
+              "Number": "Plur",
+              "Gender": "Masc"
+            },
+            "annotation_status": "manual_fixture"
+          }
+        ]
+      }
+    },
+    "e.tests": {
+      "fr": {
+        "text": "Tests locaux de typage, de complétude linguistique et de traçabilité.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "en": {
+        "text": "Local tests for types, language completeness and traceability.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      },
+      "it": {
+        "text": "Test locali di tipizzazione, completezza linguistica e tracciabilità.",
+        "status": "fixture",
+        "provider": "manual_demo_fixture"
+      }
+    }
+  }
+}

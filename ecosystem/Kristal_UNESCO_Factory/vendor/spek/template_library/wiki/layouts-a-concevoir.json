@@ -1,0 +1,138 @@
+{
+  "format": "spek.wiki-layout-gaps/1.0",
+  "status": "design_only_not_renderable",
+  "note": "DO NOT pass these IDs to the Spek renderer until a new versioned layout and implementation are built.",
+  "proposed_layouts": [
+    {
+      "id": "attributed-testimony",
+      "purpose": "Témoignage attribué, versions et corrections",
+      "requested_by_archetypes": [
+        "deposition-temoignage"
+      ]
+    },
+    {
+      "id": "branching-learning-path",
+      "purpose": "Parcours pédagogique à branches réelles",
+      "requested_by_archetypes": [
+        "parcours-pedagogique"
+      ]
+    },
+    {
+      "id": "casefile-view",
+      "purpose": "Dossier avec pièces, accès et chaîne documentaire",
+      "requested_by_archetypes": [
+        "deposition-temoignage",
+        "dossier-suivi"
+      ]
+    },
+    {
+      "id": "causal-graph",
+      "purpose": "Graphe hypothèses, observations, tests et résultats",
+      "requested_by_archetypes": [
+        "diagnostic-causal"
+      ]
+    },
+    {
+      "id": "classification-tree",
+      "purpose": "Arborescence de classification typée",
+      "requested_by_archetypes": [
+        "federation-topologie",
+        "taxonomie-classification"
+      ]
+    },
+    {
+      "id": "curated-catalog",
+      "purpose": "Catalogue ordonné d’entrées sans transfert de propriété",
+      "requested_by_archetypes": [
+        "compilation-collection"
+      ]
+    },
+    {
+      "id": "event-ledger",
+      "purpose": "Registre d’événements distinct des états courants",
+      "requested_by_archetypes": [
+        "registre-evenementiel"
+      ]
+    },
+    {
+      "id": "federation-network",
+      "purpose": "Topologie des nœuds et frontières de propriété",
+      "requested_by_archetypes": [
+        "composition-hybride",
+        "federation-topologie"
+      ]
+    },
+    {
+      "id": "formal-proof",
+      "purpose": "Preuve formelle, lemmes, certificats et obligations",
+      "requested_by_archetypes": [
+        "invariant-theorie"
+      ]
+    },
+    {
+      "id": "layered-graph",
+      "purpose": "Relations multiplexes distinctes par couche",
+      "requested_by_archetypes": [
+        "interpretations-couches",
+        "modele-multiplexe"
+      ]
+    },
+    {
+      "id": "media-catalog",
+      "purpose": "Catalogue œuvres, manifestations, alias et sources",
+      "requested_by_archetypes": [
+        "univers-oeuvres-medias"
+      ]
+    },
+    {
+      "id": "nested-composition",
+      "purpose": "Composition avec sous-modèles et interfaces distincts",
+      "requested_by_archetypes": [
+        "composition-hybride"
+      ]
+    },
+    {
+      "id": "proof-dag",
+      "purpose": "Carte orientée des preuves, obligations et références épinglées",
+      "requested_by_archetypes": [
+        "carte-jalons-preuves"
+      ]
+    },
+    {
+      "id": "protocol-flow",
+      "purpose": "Étapes de protocole avec conditions, décisions et exceptions",
+      "requested_by_archetypes": [
+        "procedure-protocole"
+      ]
+    },
+    {
+      "id": "research-log",
+      "purpose": "Journal des hypothèses, tentatives et promotions",
+      "requested_by_archetypes": [
+        "memoire-recherche"
+      ]
+    },
+    {
+      "id": "semantic-network",
+      "purpose": "Réseau de référents et relations typées",
+      "requested_by_archetypes": [
+        "referentiel-semantique"
+      ]
+    },
+    {
+      "id": "state-matrix",
+      "purpose": "Matrice d’état par composant, dimension et date",
+      "requested_by_archetypes": [
+        "etat-systemes",
+        "simulation-transition"
+      ]
+    },
+    {
+      "id": "transition-graph",
+      "purpose": "États, transitions et scénarios de simulation",
+      "requested_by_archetypes": [
+        "simulation-transition"
+      ]
+    }
+  ]
+}

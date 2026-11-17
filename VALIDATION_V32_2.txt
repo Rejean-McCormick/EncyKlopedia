@@ -1,0 +1,93 @@
+Validation locale Linux / Python 3.12.14
+Windows réel et admission Kit : non testés.
+
+$ python -m unittest discover -s tests_v32 -v
+test_fallback_for_unmapped_concept_and_resume (test_end_to_end.UnifiedTests.test_fallback_for_unmapped_concept_and_resume) ... ok
+test_federation_is_readonly_and_admission_closed (test_end_to_end.UnifiedTests.test_federation_is_readonly_and_admission_closed) ... ok
+test_partial_return_and_no_default_vote (test_end_to_end.UnifiedTests.test_partial_return_and_no_default_vote) ... ok
+test_refuse_forged_quote_and_atomicity (test_end_to_end.UnifiedTests.test_refuse_forged_quote_and_atomicity) ... ok
+test_refuse_unrelated_existing_sqlite (test_end_to_end.UnifiedTests.test_refuse_unrelated_existing_sqlite) ... ok
+test_two_passes_and_graph (test_end_to_end.UnifiedTests.test_two_passes_and_graph) ... ok
+test_all_invalid_keeps_archive_and_reservation (test_reliability_v322.ReliabilityTests.test_all_invalid_keeps_archive_and_reservation) ... ok
+test_authority_can_be_selected_and_persists (test_reliability_v322.ReliabilityTests.test_authority_can_be_selected_and_persists) ... ok
+test_bare_json_and_csv_returns (test_reliability_v322.ReliabilityTests.test_bare_json_and_csv_returns) ... ok
+test_blocked_prefix_does_not_starve (test_reliability_v322.ReliabilityTests.test_blocked_prefix_does_not_starve) ... ok
+test_branch_isolation (test_reliability_v322.ReliabilityTests.test_branch_isolation) ... ok
+test_cancel_refuses_late_return (test_reliability_v322.ReliabilityTests.test_cancel_refuses_late_return) ... ok
+test_context_and_unknown_fields_preserved_exported (test_reliability_v322.ReliabilityTests.test_context_and_unknown_fields_preserved_exported) ... ok
+test_correction_preserves_history_invalidates_reuse (test_reliability_v322.ReliabilityTests.test_correction_preserves_history_invalidates_reuse) ... ok
+test_doctor_checks_fixture_and_columns (test_reliability_v322.ReliabilityTests.test_doctor_checks_fixture_and_columns) ... ok
+test_empty_review_and_explicit_no_claim (test_reliability_v322.ReliabilityTests.test_empty_review_and_explicit_no_claim) ... ok
+test_exact_repeat_and_changed_return_conflict (test_reliability_v322.ReliabilityTests.test_exact_repeat_and_changed_return_conflict) ... ok
+test_hold_retry_keeps_history (test_reliability_v322.ReliabilityTests.test_hold_retry_keeps_history) ... ok
+test_import_failure_rolls_back_then_replays (test_reliability_v322.ReliabilityTests.test_import_failure_rolls_back_then_replays) ... ok
+test_lane_limit_and_single_oversize (test_reliability_v322.ReliabilityTests.test_lane_limit_and_single_oversize) ... ok
+test_live_island_conflict_visible (test_reliability_v322.ReliabilityTests.test_live_island_conflict_visible) ... ok
+test_migration_backup_preserves_old_proposals (test_reliability_v322.ReliabilityTests.test_migration_backup_preserves_old_proposals) ... ok
+test_multiple_citations_exported_without_duplicate_claim (test_reliability_v322.ReliabilityTests.test_multiple_citations_exported_without_duplicate_claim) ... ok
+test_orphan_pack_report_then_retry (test_reliability_v322.ReliabilityTests.test_orphan_pack_report_then_retry) ... ok
+test_partial_import_quarantines_invalid_type (test_reliability_v322.ReliabilityTests.test_partial_import_quarantines_invalid_type) ... ok
+test_portable_example (test_reliability_v322.ReliabilityTests.test_portable_example) ... ok
+test_process_lock_releases_on_death (test_reliability_v322.ReliabilityTests.test_process_lock_releases_on_death) ... ok
+test_same_concept_reuses_new_concept_complements (test_reliability_v322.ReliabilityTests.test_same_concept_reuses_new_concept_complements) ... ok
+test_source_epoch_resets_cursor (test_reliability_v322.ReliabilityTests.test_source_epoch_resets_cursor) ... ok
+test_two_connections_do_not_double_reserve (test_reliability_v322.ReliabilityTests.test_two_connections_do_not_double_reserve) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 1.389s
+
+OK
+
+Exit: 0
+
+$ python -m unittest discover -s tests -p test_station_reserve_deferred_v3112.py -v
+test_existing_open_unesco_review_freezes_discovery_not_packing (test_station_reserve_deferred_v3112.ReserveDeferredV3112.test_existing_open_unesco_review_freezes_discovery_not_packing) ... ok
+test_mixed_queue_fills_remaining_capacity_without_ignoring_deferred (test_station_reserve_deferred_v3112.ReserveDeferredV3112.test_mixed_queue_fills_remaining_capacity_without_ignoring_deferred) ... ok
+test_reserve_7023_deferred_produces_two_more_packs (test_station_reserve_deferred_v3112.ReserveDeferredV3112.test_reserve_7023_deferred_produces_two_more_packs) ... ok
+test_4000_then_remainder_without_deleting_candidates (test_unesco_4000_v317.UNESCO4000Tests.test_4000_then_remainder_without_deleting_candidates) ... ok
+test_880_existing_reply_compatible_and_stats_honest (test_unesco_4000_v317.UNESCO4000Tests.test_880_existing_reply_compatible_and_stats_honest) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 7.582s
+
+OK
+
+Exit: 0
+
+$ python -m unittest discover -s tests -p test_pilotage_v319.py -v
+test_available_stock_is_not_discovery_scanned_count (test_pilotage_v319.PipelineV319Tests.test_available_stock_is_not_discovery_scanned_count) ... ok
+test_explicit_rearm_starts_discovery_before_packing (test_pilotage_v319.PipelineV319Tests.test_explicit_rearm_starts_discovery_before_packing) ... ok
+test_fair_hold_rotation_retains_provenance_and_no_permanent_exclusion (test_pilotage_v319.PipelineV319Tests.test_fair_hold_rotation_retains_provenance_and_no_permanent_exclusion) ... ok
+test_open_review_blocks_rearming_without_changes (test_pilotage_v319.PipelineV319Tests.test_open_review_blocks_rearming_without_changes) ... ok
+test_rearm_no_hold_no_packs (test_pilotage_v319.PipelineV319Tests.test_rearm_no_hold_no_packs) ... ok
+test_ui_warns_and_disables_hold_during_freeze (test_pilotage_v319.PipelineV319Tests.test_ui_warns_and_disables_hold_during_freeze) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.092s
+
+OK
+
+Exit: 0
+
+$ python -m unittest discover -s tests -p test_synthese_approfondie_v318.py -v
+test_exact_proof_and_per_article_coverage_required (test_synthese_approfondie_v318.DeepSynthesisTests.test_exact_proof_and_per_article_coverage_required) ... ok
+test_legacy_v27_remains_accepted_without_new_requirements (test_synthese_approfondie_v318.DeepSynthesisTests.test_legacy_v27_remains_accepted_without_new_requirements) ... ok
+test_map_tampering_detected (test_synthese_approfondie_v318.DeepSynthesisTests.test_map_tampering_detected) ... ok
+test_section_map_covers_late_content_not_just_selected_excerpts (test_synthese_approfondie_v318.DeepSynthesisTests.test_section_map_covers_late_content_not_just_selected_excerpts) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.031s
+
+OK
+
+Exit: 0
+
+$ python -m compileall -q encyk_v32
+
+Exit: 0
+
+CLI index-unesco: {"concept_memberships": 4500, "qid_mappings": 4289, "ambiguous": 134, "unmapped": 77, "branches": 88, "distinct_concepts": 4500}
+
+CLI islands-scan: {"readable": 90, "unavailable": [], "ignored": 0}
+
+CLI recover: {"orphan_packs_preserved": [], "broken_active_jobs": [], "queued_without_reservation": [], "action": "Utiliser cancel-job avec un motif pour libérer une tâche cassée; les retours tardifs seront refusés."}

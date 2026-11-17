@@ -1,0 +1,72 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\IfFontExistsTF{DejaVu Sans}{\setmainfont{DejaVu Sans}}{\IfFontExistsTF{Segoe UI}{\setmainfont{Segoe UI}}{\setmainfont{Latin Modern Roman}}}
+\usepackage[margin=24mm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{parskip}
+\definecolor{kblue}{HTML}{215D8E}
+\definecolor{ksoft}{HTML}{EDF3F7}
+\newcommand{\spekSlot}[2]{\par\medskip{\small\bfseries\color{kblue}#1}\par\smallskip #2\par}
+\newcommand{\spekFeatured}[2]{\par\medskip\noindent\fcolorbox{kblue}{ksoft}{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{\textbf{#1}\par\medskip #2}}\par\bigskip}
+\hypersetup{colorlinks=true,linkcolor=kblue}
+\title{Observing the school garden}
+\date{}
+\begin{document}
+\maketitle
+\noindent\fbox{\parbox{0.95\textwidth}{\textbf{DEMONSTRATION — NOT SCIENTIFICALLY VALIDATED}}}
+
+\begin{abstract}
+This fictional scenario separates definitions, observations, interpretations, sources and learning paths without evaluating any student.
+\end{abstract}
+\tableofcontents
+\newpage
+\section{A concept: evaporation}
+\textit{Concept card}
+
+% spek-section-id: concept
+
+\spekFeatured{Definition}{Evaporation is the change from liquid water to water vapor.\par{\scriptsize\ttfamily u.def · definition · method · source-ref: ekole:fictional-garden:u.def}}
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Examples}{Water in a shallow dish may decrease over time.\par{\scriptsize\ttfamily u.ex1 · example · hypothesis · source-ref: ekole:fictional-garden:u.ex1}\par\smallskip A wet surface can dry without boiling.\par{\scriptsize\ttfamily u.ex2 · example · hypothesis · source-ref: ekole:fictional-garden:u.ex2}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Counterexamples}{Melting ice is not evaporation.\par{\scriptsize\ttfamily u.counter · counterexample · method · source-ref: ekole:fictional-garden:u.counter}}\end{minipage}\par\bigskip
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Context}{Observations depend on temperature, wind and measurement conditions.\par{\scriptsize\ttfamily u.context · context · method · source-ref: ekole:fictional-garden:u.context}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Limits}{A lower water level alone does not establish the mechanism.\par{\scriptsize\ttfamily u.limit1 · qualification · limitation · source-ref: ekole:fictional-garden:u.limit1}}\end{minipage}\par\bigskip
+\section{Understanding an observation}
+\textit{Learning path}
+
+% spek-section-id: path
+
+\spekFeatured{Learning objective}{Distinguish an observation from an interpretation supported by sources.\par{\scriptsize\ttfamily u.objective · objective · method · source-ref: ekole:fictional-garden:u.objective}}
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Prerequisites}{Recognize a liquid and read a measurement in a table.\par{\scriptsize\ttfamily u.pre1 · prerequisite · method · source-ref: ekole:fictional-garden:u.pre1}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Reflection question}{What alternative explanation should be checked before drawing a conclusion?\par{\scriptsize\ttfamily u.reflect · reflection · method · source-ref: ekole:fictional-garden:u.reflect}}\end{minipage}\par\bigskip
+\spekSlot{Steps}{Observe and record the dish’s initial water level.\par{\scriptsize\ttfamily u.step1 · step · method · source-ref: ekole:fictional-garden:u.step1}\par\smallskip Record another measurement in the same location.\par{\scriptsize\ttfamily u.step2 · step · method · source-ref: ekole:fictional-garden:u.step2}\par\smallskip Compare the readings and identify unknown conditions.\par{\scriptsize\ttfamily u.step3 · step · method · source-ref: ekole:fictional-garden:u.step3}}
+\spekSlot{Limits}{This card proposes a study path; it does not certify competency.\par{\scriptsize\ttfamily u.limit2 · qualification · limitation · source-ref: ekole:fictional-garden:u.limit2}}
+\section{Comparing two records}
+\textit{Source comparison}
+
+% spek-section-id: comparison
+
+\spekFeatured{Question}{What can the two records actually establish?\par{\scriptsize\ttfamily u.question · question · method · source-ref: ekole:fictional-garden:u.question}}
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Source A}{Record A: fictional values entered in a measurement notebook.\par{\scriptsize\ttfamily e.a · evidence · illustrative\_fixture · locator: fixture:education/e.a · source-ref: ekole:fictional-garden:e.a}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Source B}{Record B: fictional description of the dish’s appearance.\par{\scriptsize\ttfamily e.b · evidence · illustrative\_fixture · locator: fixture:education/e.b · source-ref: ekole:fictional-garden:e.b}}\end{minipage}\par\bigskip
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Perspective A}{The notebook gives numbers but no independent calibration.\par{\scriptsize\ttfamily u.pa · perspective · observation · refs: e.a · source-ref: ekole:fictional-garden:u.pa}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Perspective B}{The description offers visual context but no exact quantity.\par{\scriptsize\ttfamily u.pb · perspective · observation · refs: e.b · source-ref: ekole:fictional-garden:u.pb}}\end{minipage}\par\bigskip
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Synthesis}{The two records complement each other without proving a cause on their own.\par{\scriptsize\ttfamily u.synth · conclusion · hypothesis · refs: e.a, e.b · source-ref: ekole:fictional-garden:u.synth}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Limits}{No real measurement or photograph is supplied in this demonstration.\par{\scriptsize\ttfamily u.limit3 · qualification · limitation · source-ref: ekole:fictional-garden:u.limit3}}\end{minipage}\par\bigskip
+\section{Separating observation from explanation}
+\textit{Observation and inference}
+
+% spek-section-id: observation
+
+\spekFeatured{Observations}{The fictional level is lower at the second reading.\par{\scriptsize\ttfamily u.obs1 · observation · observation · refs: e.a · source-ref: ekole:fictional-garden:u.obs1}\par\smallskip The dish is described as uncovered during the interval.\par{\scriptsize\ttfamily u.obs2 · observation · observation · refs: e.b · source-ref: ekole:fictional-garden:u.obs2}}
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Interpretation}{Evaporation is one possible explanation, not a proven conclusion.\par{\scriptsize\ttfamily u.infer · interpretation · hypothesis · refs: e.a, e.b · source-ref: ekole:fictional-garden:u.infer}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{How to check}{Repeat the measurement and check for spills.\par{\scriptsize\ttfamily u.verify · method · method · source-ref: ekole:fictional-garden:u.verify}}\end{minipage}\par\bigskip
+\spekSlot{Limits}{The fictional setup cannot identify a certain cause.\par{\scriptsize\ttfamily u.limit4 · qualification · limitation · source-ref: ekole:fictional-garden:u.limit4}}
+\section{A short documented timeline}
+\textit{Documented timeline}
+
+% spek-section-id: timeline
+
+\spekFeatured{Context}{The events below describe a fictional notebook sequence.\par{\scriptsize\ttfamily u.chrono.context · context · method · source-ref: ekole:fictional-garden:u.chrono.context}}
+\spekSlot{Events}{Day 1: initial level recorded.\par{\scriptsize\ttfamily u.event1 · event · observation · refs: e.a · source-ref: ekole:fictional-garden:u.event1}\par\smallskip Day 2: second reading recorded.\par{\scriptsize\ttfamily u.event2 · event · observation · refs: e.a · source-ref: ekole:fictional-garden:u.event2}\par\smallskip Day 3: possible explanations discussed.\par{\scriptsize\ttfamily u.event3 · event · method · source-ref: ekole:fictional-garden:u.event3}}
+\noindent\begin{minipage}[t]{.48\linewidth}\spekSlot{Interpretation}{The order of dates proves no causal relationship.\par{\scriptsize\ttfamily u.chrono.inference · interpretation · hypothesis · source-ref: ekole:fictional-garden:u.chrono.inference}}\end{minipage}\hfill\begin{minipage}[t]{.48\linewidth}\spekSlot{Limits}{Dates and records are invented; no field evidence is claimed.\par{\scriptsize\ttfamily u.limit5 · qualification · limitation · source-ref: ekole:fictional-garden:u.limit5}}\end{minipage}\par\bigskip
+\section*{Traceability}
+\small Status: Canonical state identity not verified
+\par Origin: \nolinkurl{sha256:8cd72bce589ac690fb6ccfd25f82258a8f29a51e53194c92f35cc6e6fffbcbbb}
+\par Realizations: \nolinkurl{sha256:66d51bb1481cd296e2e8ada225ebfc6602b654a935a4b4c3ce8b3129fd776188}
+\par Layouts: \nolinkurl{sha256:77c5d1a2639afe1a346253f5ddc5f5723f6e2a25931f714bb7cdcd647b9319eb}
+\end{document}

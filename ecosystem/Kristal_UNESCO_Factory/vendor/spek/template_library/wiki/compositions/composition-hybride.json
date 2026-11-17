@@ -1,0 +1,112 @@
+{
+  "format": "spek.wiki-ai-composition/1.0",
+  "composition_id": "arketype-composition-hybride",
+  "version": "1.0.0-candidate",
+  "archetype": {
+    "id": "ARK-15",
+    "slug": "composition-hybride",
+    "name": "Hybrid Composition"
+  },
+  "source_arketype_file": "archetypes/composition-hybride.json",
+  "editorial_rationale": "Structure Arketype ARK-15: An assemblage of several kinds of independent knowledge structure. Cross-system models and multi-part applications.",
+  "source_structural_primitives": [
+    "sous_modeles",
+    "frontieres",
+    "contrats_interface",
+    "references",
+    "politiques",
+    "projections"
+  ],
+  "sections_in_order": [
+    {
+      "section_id": "interfaces",
+      "title_function": "Contrats et interfaces",
+      "layout_id": "concept-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "contrats_interface",
+        "frontieres"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "definition": 1,
+        "examples": 1,
+        "context": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Décrire les interfaces sans réattribuer les responsabilités des sous-modèles."
+    },
+    {
+      "section_id": "bornes",
+      "title_function": "Portée des projections",
+      "layout_id": "result-card",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "politiques",
+        "projections"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "claim": 1,
+        "conditions": 1,
+        "evidence": 1,
+        "uncertainty": 1
+      },
+      "editorial_constraint": "Une projection ne crée pas une nouvelle vérité canonique."
+    },
+    {
+      "section_id": "comparaison",
+      "title_function": "Différences entre deux approches",
+      "layout_id": "comparison",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "sous_modeles",
+        "frontieres"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "topic": 1,
+        "criterion": 1,
+        "approach_a": 1,
+        "approach_b": 1,
+        "synthesis": 1,
+        "limitations": 1
+      },
+      "editorial_constraint": "Seulement lorsqu’il existe deux approches comparables selon un critère commun."
+    },
+    {
+      "section_id": "sources",
+      "title_function": "Références et justifications",
+      "layout_id": "evidence-comparison",
+      "layout_version": "1.0.0",
+      "source_primitives": [
+        "references",
+        "politiques"
+      ],
+      "appearance": "only_if_explicitly_selected_and_all_required_slots_are_present",
+      "required_slots": {
+        "question": 1,
+        "source_a": 1,
+        "source_b": 1,
+        "perspective_a": 1,
+        "perspective_b": 1,
+        "synthesis": 1,
+        "limits": 1
+      },
+      "editorial_constraint": "Ne pas fusionner les propriétaires de preuves."
+    }
+  ],
+  "needs_specialized_layouts_not_yet_implemented": [
+    "federation-network",
+    "nested-composition"
+  ],
+  "integrity_rule": "Do not merge semantic owners or treat application logic as canon.",
+  "approval_status": "ai_design_candidate_awaiting_kristal_specific_review",
+  "technical_status": "existing_spek_layouts_only; structural gaps explicitly listed",
+  "authority": {
+    "select_assertions": false,
+    "generate_language": false,
+    "authorize_publication": false
+  },
+  "usage": "The selected semantic units and exact section bindings must be supplied by an external reviewed per-Kristal assignment; Spek checks and composes, not selects."
+}

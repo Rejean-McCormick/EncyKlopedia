@@ -1,0 +1,179 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.dita-troubleshooting",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Symptôme, causes possibles, vérification, résolution",
+  "research_basis": {
+    "family": "genre",
+    "relation": "dita.troubleshooting",
+    "source": "DITA",
+    "source_url": "https://docs.oasis-open.org/dita/dita/v1.3/csd01/part2-tech-content/archSpec/technicalContent/dita_technicalContent_InformationTypes.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "dita.troubleshooting",
+    "editorial_relation_required": true,
+    "semantic_warning": "Une cause possible ne doit pas être présentée comme cause démontrée.",
+    "critical_questions": []
+  },
+  "slots": {
+    "symptom": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "observation"
+      ],
+      "visual_role": "paragraph"
+    },
+    "possible_causes": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 5,
+      "allowed_kinds": [
+        "interpretation"
+      ],
+      "visual_role": "paragraph"
+    },
+    "verification": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 5,
+      "allowed_kinds": [
+        "method"
+      ],
+      "visual_role": "paragraph"
+    },
+    "resolution": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 10,
+      "allowed_kinds": [
+        "step"
+      ],
+      "visual_role": "paragraph"
+    },
+    "caution": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "symptom",
+    "possible_causes",
+    "verification",
+    "resolution",
+    "caution"
+  ],
+  "presentation_policy": {
+    "layout_variant": "stack",
+    "show_template_labels": false
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "dita.troubleshooting",
+    "focus_slot": "resolution",
+    "moves": [
+      {
+        "slot": "symptom",
+        "function": "symptom",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "possible_causes",
+        "function": "hypotheses",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "verification",
+        "function": "verification",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "resolution",
+        "function": "resolution",
+        "nuclearity": "focus",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "caution",
+        "function": "safety_notice",
+        "nuclearity": "supporting",
+        "group": 3,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "symptom",
+        "to_slot": "resolution",
+        "relation": "dita.troubleshooting",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "possible_causes",
+        "to_slot": "resolution",
+        "relation": "dita.troubleshooting",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "verification",
+        "to_slot": "resolution",
+        "relation": "dita.troubleshooting",
+        "status": "requires_external_semantic_review",
+        "relation_function": "verifies"
+      },
+      {
+        "from_slot": "caution",
+        "to_slot": "resolution",
+        "relation": "dita.troubleshooting",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "symptom",
+        "possible_causes"
+      ],
+      [
+        "verification",
+        "resolution"
+      ],
+      [
+        "caution"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Une cause possible ne doit pas être présentée comme cause démontrée."
+    }
+  }
+}

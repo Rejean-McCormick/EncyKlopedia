@@ -1,0 +1,6 @@
+{
+  "pattern": "procedural_dag",
+  "domain_native_payload": "typed DAG",
+  "node_kinds": ["input", "state", "operation", "equipment", "output"],
+  "epistemic_layer": "cross-cutting; not a replacement for the DAG"
+}

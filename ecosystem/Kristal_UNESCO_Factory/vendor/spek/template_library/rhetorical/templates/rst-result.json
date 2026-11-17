@@ -1,0 +1,130 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.rst-result",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Situation + conséquence attestée",
+  "research_basis": {
+    "family": "coherence",
+    "relation": "rst.result",
+    "source": "RST",
+    "source_url": "https://www.sfu.ca/rst/07french/definitions.html",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "rst.result",
+    "editorial_relation_required": true,
+    "semantic_warning": "Différencier conséquence causale et simple succession.",
+    "critical_questions": []
+  },
+  "slots": {
+    "situation": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "event"
+      ],
+      "visual_role": "paragraph"
+    },
+    "result": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "claim"
+      ],
+      "visual_role": "paragraph"
+    },
+    "limits": {
+      "node_kind": "text",
+      "min": 0,
+      "max": 1,
+      "allowed_kinds": [
+        "qualification"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "situation",
+    "result",
+    "limits"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "limits"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "rst.result",
+    "focus_slot": "result",
+    "moves": [
+      {
+        "slot": "situation",
+        "function": "situation",
+        "nuclearity": "satellite",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "result",
+        "function": "result",
+        "nuclearity": "nucleus",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "limits",
+        "function": "limitations",
+        "nuclearity": "satellite",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "situation",
+        "to_slot": "result",
+        "relation": "rst.result",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "limits",
+        "to_slot": "result",
+        "relation": "rst.result",
+        "status": "requires_external_semantic_review",
+        "relation_function": "qualifies"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "situation",
+        "result"
+      ],
+      [
+        "limits"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "Différencier conséquence causale et simple succession."
+    }
+  }
+}

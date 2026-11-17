@@ -1,0 +1,689 @@
+{{!
+    This file is part of Moodle - https://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+}}
+{{!
+    @template mod_uckkarchive/archive_view
+
+    Main registrar view for the UCKK Registrar activity.
+
+    This template is render-only. It must receive already permission-filtered,
+    context-aware data from mod_uckkarchive output/service classes.
+
+    Expected AMD selector alignment:
+    - root: data-region="uckkarchive-view"
+    - panel: data-region="uckkarchive-panel"
+    - status: data-region="uckkarchive-status"
+    - cards: data-region="uckkarchive-item|uckkarchive-kristal|uckkarchive-proof|uckkarchive-export"
+    - filters: data-action="uckkarchive-search|uckkarchive-filter|uckkarchive-filter-button"
+    - refresh: data-action="uckkarchive-refresh"
+
+    Example context:
+    {
+        "uniqid": "uckkarchive-view-12",
+        "archiveid": 12,
+        "cmid": 45,
+        "courseid": 7,
+        "contextid": 120,
+        "title": "Registraire et portfolios",
+        "heading": "Vue du registraire",
+        "viewurl": "/mod/uckkarchive/view.php?id=45",
+        "additemurl": "/mod/uckkarchive/add.php?id=45",
+        "validateurl": "/mod/uckkarchive/validate.php?id=45",
+        "exporturl": "/mod/uckkarchive/export.php?id=45",
+        "hasintro": true,
+        "introhtml": "<p>Introduction du registraire.</p>",
+        "status": "active",
+        "statuslabel": "Active",
+        "statusclass": "status-active",
+        "visibility": "course",
+        "visibilitylabel": "Course",
+        "visibilityclass": "visibility-course",
+        "validationstate": "unverified",
+        "validationlabel": "Unverified",
+        "validationclass": "validation-unverified",
+        "isrestricted": false,
+        "isvalidated": false,
+        "iscontested": false,
+        "isinvalidated": false,
+        "hassummaryhtml": true,
+        "summaryhtml": "<p>Résumé du registraire.</p>",
+        "stats": [],
+        "hasstats": true,
+        "items": [],
+        "hasitems": true,
+        "kristals": [],
+        "haskristals": true,
+        "proofs": [],
+        "hasproofs": true,
+        "exports": [],
+        "hasexports": true,
+        "actions": [],
+        "hasactions": true,
+        "warnings": [],
+        "haswarnings": false,
+        "notices": [],
+        "hasnotices": false,
+        "notice": "Le registre préserve la mémoire institutionnelle."
+    }
+}}
+
+<section
+    id="{{uniqid}}"
+    class="uckkarchive-view {{statusclass}} {{visibilityclass}} {{validationclass}}"
+    data-region="uckkarchive-view"
+    data-archiveid="{{archiveid}}"
+    data-cmid="{{cmid}}"
+    data-courseid="{{courseid}}"
+    data-contextid="{{contextid}}"
+>
+    <header class="uckkarchive-view__header">
+        <div class="uckkarchive-view__identity">
+            <p class="uckkarchive-view__eyebrow">
+                {{#str}} modulename, uckkarchive {{/str}}
+            </p>
+
+            <h2 class="uckkarchive-view__title">
+                {{title}}
+            </h2>
+
+            <div class="uckkarchive-view__meta">
+                <span class="uckkarchive-view__meta-item uckkarchive-view__status {{statusclass}}">
+                    {{statuslabel}}
+                </span>
+
+                <span class="uckkarchive-view__meta-item uckkarchive-view__visibility {{visibilityclass}}">
+                    {{visibilitylabel}}
+                </span>
+
+                <span class="uckkarchive-view__meta-item uckkarchive-view__validation {{validationclass}}">
+                    {{validationlabel}}
+                </span>
+
+                {{#isrestricted}}
+                    <span class="uckkarchive-view__meta-item uckkarchive-view__restricted">
+                        {{#str}} restricteddata, uckkarchive {{/str}}
+                    </span>
+                {{/isrestricted}}
+            </div>
+        </div>
+
+        {{#hasactions}}
+            <nav
+                class="uckkarchive-view__actions"
+                aria-label="{{#str}} archiveactions, uckkarchive {{/str}}"
+            >
+                {{#actions}}
+                    {{#isget}}
+                        <a
+                            href="{{url}}"
+                            class="btn {{#primary}}btn-primary{{/primary}}{{#secondary}}btn-secondary{{/secondary}}{{#danger}}btn-danger{{/danger}} uckkarchive-view__action"
+                            {{#disabled}}aria-disabled="true" tabindex="-1"{{/disabled}}
+                            {{#requiresconfirmation}}data-action="uckkarchive-confirm-action"{{/requiresconfirmation}}
+                            {{#confirmmessage}}data-confirm-body="{{confirmmessage}}"{{/confirmmessage}}
+                        >
+                            {{label}}
+                        </a>
+                    {{/isget}}
+
+                    {{#ispost}}
+                        <form method="post" action="{{url}}" class="uckkarchive-view__action-form">
+                            <input type="hidden" name="sesskey" value="{{sesskey}}">
+                            <input type="hidden" name="action" value="{{key}}">
+
+                            <button
+                                type="submit"
+                                class="btn {{#primary}}btn-primary{{/primary}}{{#secondary}}btn-secondary{{/secondary}}{{#danger}}btn-danger{{/danger}} uckkarchive-view__action"
+                                {{#disabled}}disabled{{/disabled}}
+                                {{#requiresconfirmation}}data-action="uckkarchive-confirm-action"{{/requiresconfirmation}}
+                                {{#confirmmessage}}data-confirm-body="{{confirmmessage}}"{{/confirmmessage}}
+                            >
+                                {{label}}
+                            </button>
+                        </form>
+                    {{/ispost}}
+                {{/actions}}
+            </nav>
+        {{/hasactions}}
+    </header>
+
+    <div class="sr-only" aria-live="polite" data-region="uckkarchive-status"></div>
+
+    {{#hasnotices}}
+        <div class="uckkarchive-view__notices">
+            {{#notices}}
+                <div class="alert {{class}} uckkarchive-view__notice" role="status">
+                    {{message}}
+                </div>
+            {{/notices}}
+        </div>
+    {{/hasnotices}}
+
+    {{#haswarnings}}
+        <div class="uckkarchive-view__warnings">
+            {{#warnings}}
+                <div class="alert {{class}} uckkarchive-view__warning" role="status">
+                    {{message}}
+                </div>
+            {{/warnings}}
+        </div>
+    {{/haswarnings}}
+
+    {{#hasintro}}
+        <section class="uckkarchive-view__intro">
+            <h3 class="uckkarchive-view__section-title">
+                {{#str}} archiveintro, uckkarchive {{/str}}
+            </h3>
+
+            <div class="uckkarchive-view__intro-content">
+                {{{introhtml}}}
+            </div>
+        </section>
+    {{/hasintro}}
+
+    {{#hassummaryhtml}}
+        <section class="uckkarchive-view__summary">
+            <h3 class="uckkarchive-view__section-title">
+                {{#str}} archivesummary, uckkarchive {{/str}}
+            </h3>
+
+            <div class="uckkarchive-view__summary-content">
+                {{{summaryhtml}}}
+            </div>
+        </section>
+    {{/hassummaryhtml}}
+
+    {{#hasstats}}
+        <section class="uckkarchive-view__stats" aria-label="{{#str}} archivestats, uckkarchive {{/str}}">
+            {{#stats}}
+                <article class="uckkarchive-view__stat {{class}}">
+                    <span class="uckkarchive-view__stat-value">
+                        {{value}}
+                    </span>
+                    <span class="uckkarchive-view__stat-label">
+                        {{label}}
+                    </span>
+                </article>
+            {{/stats}}
+        </section>
+    {{/hasstats}}
+
+    <section class="uckkarchive-view__filters" aria-label="{{#str}} archivefilters, uckkarchive {{/str}}">
+        <div class="uckkarchive-view__search form-group">
+            <label for="{{uniqid}}-search">
+                {{#str}} searcharchive, uckkarchive {{/str}}
+            </label>
+            <input
+                id="{{uniqid}}-search"
+                type="search"
+                class="form-control"
+                data-action="uckkarchive-search"
+                placeholder="{{#str}} searcharchiveplaceholder, uckkarchive {{/str}}"
+            >
+        </div>
+
+        <div class="uckkarchive-view__filter-row">
+            <label for="{{uniqid}}-filter-status">
+                {{#str}} status, moodle {{/str}}
+            </label>
+            <select
+                id="{{uniqid}}-filter-status"
+                class="form-control"
+                data-action="uckkarchive-filter"
+                data-filter-key="status"
+            >
+                <option value="">{{#str}} allstatuses, uckkarchive {{/str}}</option>
+                <option value="draft">{{#str}} status:draft, uckkarchive {{/str}}</option>
+                <option value="active">{{#str}} status:active, uckkarchive {{/str}}</option>
+                <option value="pending_review">{{#str}} status:pending_review, uckkarchive {{/str}}</option>
+                <option value="validated">{{#str}} status:validated, uckkarchive {{/str}}</option>
+                <option value="contested">{{#str}} status:contested, uckkarchive {{/str}}</option>
+                <option value="invalidated">{{#str}} status:invalidated, uckkarchive {{/str}}</option>
+                <option value="archived">{{#str}} status:archived, uckkarchive {{/str}}</option>
+            </select>
+        </div>
+
+        <div class="uckkarchive-view__filter-row">
+            <label for="{{uniqid}}-filter-validation">
+                {{#str}} validationstate, uckkarchive {{/str}}
+            </label>
+            <select
+                id="{{uniqid}}-filter-validation"
+                class="form-control"
+                data-action="uckkarchive-filter"
+                data-filter-key="validation"
+            >
+                <option value="">{{#str}} allvalidationstates, uckkarchive {{/str}}</option>
+                <option value="unverified">{{#str}} validation:unverified, uckkarchive {{/str}}</option>
+                <option value="human_reviewed">{{#str}} validation:human_reviewed, uckkarchive {{/str}}</option>
+                <option value="verified">{{#str}} validation:verified, uckkarchive {{/str}}</option>
+                <option value="contested">{{#str}} validation:contested, uckkarchive {{/str}}</option>
+                <option value="invalidated">{{#str}} validation:invalidated, uckkarchive {{/str}}</option>
+                <option value="archived">{{#str}} validation:archived, uckkarchive {{/str}}</option>
+            </select>
+        </div>
+
+        <div class="uckkarchive-view__filter-actions">
+            <button type="button" class="btn btn-secondary" data-action="uckkarchive-clear-filters">
+                {{#str}} clearfilters, uckkarchive {{/str}}
+            </button>
+
+            <button type="button" class="btn btn-secondary" data-action="uckkarchive-refresh">
+                {{#str}} refresharchive, uckkarchive {{/str}}
+            </button>
+        </div>
+
+        <p class="uckkarchive-view__filter-count">
+            <span data-region="uckkarchive-count-visible">0</span>
+            /
+            <span data-region="uckkarchive-count-total">0</span>
+            {{#str}} recordsvisible, uckkarchive {{/str}}
+        </p>
+
+        <div
+            class="alert alert-info uckkarchive-view__empty-filtered d-none"
+            data-region="uckkarchive-empty-filtered"
+            hidden
+        >
+            {{#str}} nofilteredrecords, uckkarchive {{/str}}
+        </div>
+    </section>
+
+    <div data-region="uckkarchive-panel" class="uckkarchive-view__panel">
+        <section class="uckkarchive-view__section uckkarchive-view__items">
+            <header class="uckkarchive-view__section-header">
+                <h3 class="uckkarchive-view__section-title">
+                    {{#str}} archiveitems, uckkarchive {{/str}}
+                </h3>
+
+                <button type="button" class="btn btn-link btn-sm" data-action="uckkarchive-refresh-items">
+                    {{#str}} refresh, moodle {{/str}}
+                </button>
+            </header>
+
+            {{#hasitems}}
+                <div class="uckkarchive-view__grid uckkarchive-view__grid--items">
+                    {{#items}}
+                        <article
+                            class="uckkarchive-card uckkarchive-card--item {{statusclass}} {{visibilityclass}}"
+                            data-region="uckkarchive-item"
+                            data-id="{{id}}"
+                            data-title="{{title}}"
+                            data-summary="{{summary}}"
+                            data-type="{{itemtype}}"
+                            data-status="{{status}}"
+                            data-visibility="{{visibility}}"
+                            data-validation="{{validationstate}}"
+                            data-provenance="{{provenance}}"
+                        >
+                            <header class="uckkarchive-card__header">
+                                <div>
+                                    {{#itemtypelabel}}
+                                        <p class="uckkarchive-card__type">
+                                            {{itemtypelabel}}
+                                        </p>
+                                    {{/itemtypelabel}}
+
+                                    <h4 class="uckkarchive-card__title">
+                                        {{#hasurl}}
+                                            <a href="{{url}}">{{title}}</a>
+                                        {{/hasurl}}
+                                        {{^hasurl}}
+                                            {{title}}
+                                        {{/hasurl}}
+                                    </h4>
+                                </div>
+
+                                <div class="uckkarchive-card__badges">
+                                    <span class="uckkarchive-card__badge {{statusclass}}">
+                                        {{statuslabel}}
+                                    </span>
+
+                                    <span class="uckkarchive-card__badge {{visibilityclass}}">
+                                        {{visibilitylabel}}
+                                    </span>
+
+                                    {{#restricted}}
+                                        <span class="uckkarchive-card__badge uckkarchive-card__badge--restricted">
+                                            {{#str}} restricteddata, uckkarchive {{/str}}
+                                        </span>
+                                    {{/restricted}}
+                                </div>
+                            </header>
+
+                            {{#hassummaryhtml}}
+                                <div class="uckkarchive-card__summary">
+                                    {{{summaryhtml}}}
+                                </div>
+                            {{/hassummaryhtml}}
+
+                            {{^hassummaryhtml}}
+                                {{#hassummary}}
+                                    <p class="uckkarchive-card__summary">
+                                        {{summary}}
+                                    </p>
+                                {{/hassummary}}
+                            {{/hassummaryhtml}}
+
+                            <dl class="uckkarchive-card__meta">
+                                <div>
+                                    <dt>{{#str}} validationstate, uckkarchive {{/str}}</dt>
+                                    <dd>{{validationlabel}}</dd>
+                                </div>
+
+                                {{#hasprovenance}}
+                                    <div>
+                                        <dt>{{#str}} provenance, uckkarchive {{/str}}</dt>
+                                        <dd>{{provenancelabel}}</dd>
+                                    </div>
+                                {{/hasprovenance}}
+
+                                {{#hassource}}
+                                    <div>
+                                        <dt>{{#str}} source, uckkarchive {{/str}}</dt>
+                                        <dd>
+                                            {{sourcecomponent}}
+                                            {{#sourceid}}#{{sourceid}}{{/sourceid}}
+                                        </dd>
+                                    </div>
+                                {{/hassource}}
+
+                                {{#hastimemodified}}
+                                    <div>
+                                        <dt>{{#str}} timemodified, moodle {{/str}}</dt>
+                                        <dd>{{timemodifiedlabel}}</dd>
+                                    </div>
+                                {{/hastimemodified}}
+                            </dl>
+                        </article>
+                    {{/items}}
+                </div>
+            {{/hasitems}}
+
+            {{^hasitems}}
+                <div class="alert alert-info" role="status">
+                    {{emptyitemslabel}}
+                </div>
+            {{/hasitems}}
+        </section>
+
+        <section class="uckkarchive-view__section uckkarchive-view__kristals">
+            <header class="uckkarchive-view__section-header">
+                <h3 class="uckkarchive-view__section-title">
+                    {{#str}} kristals, uckkarchive {{/str}}
+                </h3>
+
+                <button type="button" class="btn btn-link btn-sm" data-action="uckkarchive-refresh-kristals">
+                    {{#str}} refresh, moodle {{/str}}
+                </button>
+            </header>
+
+            {{#haskristals}}
+                <div class="uckkarchive-view__grid uckkarchive-view__grid--kristals">
+                    {{#kristals}}
+                        <article
+                            class="uckkarchive-card uckkarchive-card--kristal {{statusclass}}"
+                            data-region="uckkarchive-kristal"
+                            data-id="{{id}}"
+                            data-title="{{title}}"
+                            data-summary="{{summary}}"
+                            data-type="{{kristaltype}}"
+                            data-status="{{status}}"
+                            data-validation="{{validationstate}}"
+                        >
+                            <header class="uckkarchive-card__header">
+                                <div>
+                                    <p class="uckkarchive-card__type">
+                                        {{kristaltypelabel}}
+                                    </p>
+
+                                    <h4 class="uckkarchive-card__title">
+                                        {{#hasurl}}
+                                            <a href="{{url}}">{{title}}</a>
+                                        {{/hasurl}}
+                                        {{^hasurl}}
+                                            {{title}}
+                                        {{/hasurl}}
+                                    </h4>
+                                </div>
+
+                                <span class="uckkarchive-card__badge {{statusclass}}">
+                                    {{statuslabel}}
+                                </span>
+                            </header>
+
+                            {{#hassummary}}
+                                <p class="uckkarchive-card__summary">
+                                    {{summary}}
+                                </p>
+                            {{/hassummary}}
+
+                            {{#hascontent}}
+                                <button
+                                    type="button"
+                                    class="btn btn-link btn-sm"
+                                    data-action="uckkarchive-toggle-details"
+                                    aria-expanded="false"
+                                >
+                                    {{#str}} toggledetails, uckkarchive {{/str}}
+                                </button>
+
+                                <div
+                                    class="uckkarchive-card__details d-none"
+                                    data-region="uckkarchive-details"
+                                    hidden
+                                >
+                                    {{{content}}}
+                                </div>
+                            {{/hascontent}}
+
+                            <dl class="uckkarchive-card__meta">
+                                <div>
+                                    <dt>{{#str}} validationstate, uckkarchive {{/str}}</dt>
+                                    <dd>{{validationlabel}}</dd>
+                                </div>
+
+                                {{#hastimemodified}}
+                                    <div>
+                                        <dt>{{#str}} timemodified, moodle {{/str}}</dt>
+                                        <dd>{{timemodifiedlabel}}</dd>
+                                    </div>
+                                {{/hastimemodified}}
+                            </dl>
+                        </article>
+                    {{/kristals}}
+                </div>
+            {{/haskristals}}
+
+            {{^haskristals}}
+                <div class="alert alert-info" role="status">
+                    {{emptykristalslabel}}
+                </div>
+            {{/haskristals}}
+        </section>
+
+        <section class="uckkarchive-view__section uckkarchive-view__proofs">
+            <header class="uckkarchive-view__section-header">
+                <h3 class="uckkarchive-view__section-title">
+                    {{#str}} proofs, uckkarchive {{/str}}
+                </h3>
+
+                <button type="button" class="btn btn-link btn-sm" data-action="uckkarchive-refresh-proofs">
+                    {{#str}} refresh, moodle {{/str}}
+                </button>
+            </header>
+
+            {{#hasproofs}}
+                <div class="uckkarchive-view__grid uckkarchive-view__grid--proofs">
+                    {{#proofs}}
+                        <article
+                            class="uckkarchive-card uckkarchive-card--proof {{statusclass}}"
+                            data-region="uckkarchive-proof"
+                            data-id="{{id}}"
+                            data-title="{{title}}"
+                            data-summary="{{summary}}"
+                            data-type="{{prooftype}}"
+                            data-status="{{status}}"
+                            data-provenance="{{provenance}}"
+                        >
+                            <header class="uckkarchive-card__header">
+                                <div>
+                                    <p class="uckkarchive-card__type">
+                                        {{prooftypelabel}}
+                                    </p>
+
+                                    <h4 class="uckkarchive-card__title">
+                                        {{#hasurl}}
+                                            <a href="{{url}}">{{title}}</a>
+                                        {{/hasurl}}
+                                        {{^hasurl}}
+                                            {{title}}
+                                        {{/hasurl}}
+                                    </h4>
+                                </div>
+
+                                <span class="uckkarchive-card__badge {{statusclass}}">
+                                    {{statuslabel}}
+                                </span>
+                            </header>
+
+                            {{#hassummary}}
+                                <p class="uckkarchive-card__summary">
+                                    {{summary}}
+                                </p>
+                            {{/hassummary}}
+
+                            <dl class="uckkarchive-card__meta">
+                                {{#hasprovenance}}
+                                    <div>
+                                        <dt>{{#str}} provenance, uckkarchive {{/str}}</dt>
+                                        <dd>{{provenancelabel}}</dd>
+                                    </div>
+                                {{/hasprovenance}}
+
+                                {{#hastimemodified}}
+                                    <div>
+                                        <dt>{{#str}} timemodified, moodle {{/str}}</dt>
+                                        <dd>{{timemodifiedlabel}}</dd>
+                                    </div>
+                                {{/hastimemodified}}
+                            </dl>
+
+                            {{#hasfiles}}
+                                <ul class="uckkarchive-card__files">
+                                    {{#files}}
+                                        <li>
+                                            <a href="{{url}}">
+                                                {{filename}}
+                                            </a>
+                                            {{#filesizelabel}}
+                                                <span>{{filesizelabel}}</span>
+                                            {{/filesizelabel}}
+                                        </li>
+                                    {{/files}}
+                                </ul>
+                            {{/hasfiles}}
+                        </article>
+                    {{/proofs}}
+                </div>
+            {{/hasproofs}}
+
+            {{^hasproofs}}
+                <div class="alert alert-info" role="status">
+                    {{emptyproofslabel}}
+                </div>
+            {{/hasproofs}}
+        </section>
+
+        <section class="uckkarchive-view__section uckkarchive-view__exports">
+            <header class="uckkarchive-view__section-header">
+                <h3 class="uckkarchive-view__section-title">
+                    {{#str}} exports, uckkarchive {{/str}}
+                </h3>
+
+                <button type="button" class="btn btn-link btn-sm" data-action="uckkarchive-refresh-exports">
+                    {{#str}} refresh, moodle {{/str}}
+                </button>
+            </header>
+
+            {{#hasexports}}
+                <div class="uckkarchive-view__grid uckkarchive-view__grid--exports">
+                    {{#exports}}
+                        <article
+                            class="uckkarchive-card uckkarchive-card--export {{statusclass}}"
+                            data-region="uckkarchive-export"
+                            data-id="{{id}}"
+                            data-title="{{title}}"
+                            data-type="{{exporttype}}"
+                            data-status="{{status}}"
+                        >
+                            <header class="uckkarchive-card__header">
+                                <div>
+                                    <p class="uckkarchive-card__type">
+                                        {{exporttypelabel}}
+                                    </p>
+
+                                    <h4 class="uckkarchive-card__title">
+                                        {{#hasurl}}
+                                            <a href="{{url}}">{{title}}</a>
+                                        {{/hasurl}}
+                                        {{^hasurl}}
+                                            {{title}}
+                                        {{/hasurl}}
+                                    </h4>
+                                </div>
+
+                                <span class="uckkarchive-card__badge {{statusclass}}">
+                                    {{statuslabel}}
+                                </span>
+                            </header>
+
+                            {{#hasdownloadurl}}
+                                <p class="uckkarchive-card__download">
+                                    <a
+                                        href="{{downloadurl}}"
+                                        class="btn btn-secondary btn-sm"
+                                        data-action="uckkarchive-confirm-action"
+                                    >
+                                        {{#str}} downloadexport, uckkarchive {{/str}}
+                                    </a>
+                                </p>
+                            {{/hasdownloadurl}}
+
+                            {{#hastimemodified}}
+                                <p class="uckkarchive-card__date">
+                                    {{#str}} timemodified, moodle {{/str}}:
+                                    {{timemodifiedlabel}}
+                                </p>
+                            {{/hastimemodified}}
+                        </article>
+                    {{/exports}}
+                </div>
+            {{/hasexports}}
+
+            {{^hasexports}}
+                <div class="alert alert-info" role="status">
+                    {{emptyexportslabel}}
+                </div>
+            {{/hasexports}}
+        </section>
+    </div>
+
+    {{#notice}}
+        <footer class="uckkarchive-view__footer">
+            <div class="alert alert-info uckkarchive-view__governance-notice" role="status">
+                {{notice}}
+            </div>
+        </footer>
+    {{/notice}}
+
+    {{#js}}
+        require(['mod_uckkarchive/archive'], function(Archive) {
+            Archive.init('{{uniqid}}');
+        });
+    {{/js}}
+</section>

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kristal:source-catalog:2.0.0",
+  "type": "object",
+  "required": ["format", "sources"],
+  "properties": {
+    "format": {"const": "kristal.source-catalog/2.0.0"},
+    "sources": {"type": "array", "items": {"type": "object", "required": ["id", "title", "kind", "locator"]}}
+  }
+}

@@ -1,0 +1,3135 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية وتعليم",
+          "تعليم"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T14:08:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية"
+        ],
+        "en": [
+          "Education"
+        ],
+        "es": [
+          "Educación"
+        ],
+        "fr": [
+          "Éducation"
+        ],
+        "ru": [
+          "Образование"
+        ]
+      },
+      "related": [
+        "concept25",
+        "concept5"
+      ],
+      "scope_notes": {
+        "ar": [
+          "عملية يطور بها الفرد القدرات والاتجاهات وأشكال أخرى من السلوكيات التي يُقدّرها المجتمع الذي يعيش فيه. استخدم واصفة أكثر تحديدًا."
+        ],
+        "en": [
+          "Process by which one develops abilities, attitudes and other forms of behaviour considered to have value in the society in which one lives. Use more specific descriptor."
+        ],
+        "es": [
+          "Proceso por el cual uno desarrolla habilidades, actitudes y otras formas de comportamiento valoradas por la sociedad en la que vive. Utilizar un descriptor más preciso."
+        ],
+        "fr": [
+          "Mise en oeuvre de moyens par lesquels l'on développe des capacités, des attitudes et autres formes de comportements valorisés par la société dans laquelle on vit. Utiliser un descripteur plus précis."
+        ],
+        "ru": [
+          "Процесс, способствующий развитию способностей, отношений и других форм поведения, воспринимаемых обществом как достоинство. В необходимых случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيئة التعلم",
+          "بيئة تعليمية"
+        ],
+        "en": [
+          "Learning environment"
+        ],
+        "es": [
+          "Contexto de aprendizaje",
+          "Entorno educacional",
+          "Medio de aprendizaje"
+        ],
+        "fr": [
+          "Contexte d'apprentissage",
+          "Milieu d'apprentissage"
+        ],
+        "ru": [
+          "Учебная среда"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2024-06-03T15:49:47+00:00",
+      "narrower": [
+        "concept17071",
+        "concept2140",
+        "concept5410",
+        "concept5862",
+        "concept5947",
+        "concept5949",
+        "concept8159",
+        "concept9148",
+        "concept9184",
+        "concept9185",
+        "concept9186"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بيئة تربوية"
+        ],
+        "en": [
+          "Educational environment"
+        ],
+        "es": [
+          "Ambiente educacional"
+        ],
+        "fr": [
+          "Milieu éducatif"
+        ],
+        "ru": [
+          "Образовательная среда"
+        ]
+      },
+      "related": [
+        "concept17172",
+        "concept397",
+        "concept9188"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم اصول التربية"
+        ],
+        "en": [
+          "Pedagogy"
+        ],
+        "es": [
+          "Pedagogía"
+        ],
+        "fr": [
+          "Pédagogie"
+        ],
+        "ru": [
+          "Педагогика"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:27:20+00:00",
+      "narrower": [
+        "concept1049",
+        "concept17172",
+        "concept2502",
+        "concept5181",
+        "concept9188",
+        "concept9197",
+        "concept9250",
+        "concept9316",
+        "concept9317"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علوم تربوية"
+        ],
+        "en": [
+          "Educational sciences"
+        ],
+        "es": [
+          "Ciencias de la educación"
+        ],
+        "fr": [
+          "Sciences de l'éducation"
+        ],
+        "ru": [
+          "Образовательные науки"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:28:47+00:00",
+      "narrower": [
+        "concept1511",
+        "concept1514",
+        "concept2614",
+        "concept8024"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعلُّم"
+        ],
+        "en": [
+          "Learning"
+        ],
+        "es": [
+          "Aprendizaje"
+        ],
+        "fr": [
+          "Apprentissage"
+        ],
+        "ru": [
+          "Учеба (процесс)"
+        ]
+      },
+      "related": [
+        "concept2",
+        "concept387",
+        "concept388",
+        "concept5556"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم التربية النفسية"
+        ],
+        "en": [
+          "Psychopedagogy"
+        ],
+        "es": [
+          "Psicología educativa",
+          "Psicopedagogía"
+        ],
+        "fr": [
+          "Psychopédagogie"
+        ],
+        "ru": [
+          "Психопедагогика"
+        ]
+      },
+      "broader": [
+        "concept4"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:02:52+00:00",
+      "narrower": [
+        "concept1460",
+        "concept1462"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم النفس التربوي"
+        ],
+        "en": [
+          "Educational psychology"
+        ],
+        "es": [
+          "Psicología de la educación"
+        ],
+        "fr": [
+          "Psychologie de l'éducation"
+        ],
+        "ru": [
+          "Педагогическая психология"
+        ]
+      },
+      "related": [
+        "concept1514",
+        "concept30",
+        "concept388",
+        "concept87",
+        "concept9188",
+        "concept9361"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1049",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1049",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتجاهات المعلمين"
+        ]
+      },
+      "broader": [
+        "concept5949"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:46:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مواقف المعلمين"
+        ],
+        "en": [
+          "Teacher attitudes"
+        ],
+        "es": [
+          "Actitud del docente"
+        ],
+        "fr": [
+          "Attitude de l'enseignant"
+        ],
+        "ru": [
+          "Отношения (установки) преподавателей"
+        ]
+      },
+      "related": [
+        "concept1272",
+        "concept14964",
+        "concept2140"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1270",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1270",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتجاهات الطلاب"
+        ],
+        "es": [
+          "Actitud estudiantil"
+        ]
+      },
+      "broader": [
+        "concept5947"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:48:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مواقف الطلاب"
+        ],
+        "en": [
+          "Student attitudes"
+        ],
+        "es": [
+          "Actitud del estudiante"
+        ],
+        "fr": [
+          "Attitude de l'étudiant"
+        ],
+        "ru": [
+          "Отношения (установки) учащихся"
+        ]
+      },
+      "related": [
+        "concept1270",
+        "concept1333",
+        "concept14982",
+        "concept2140"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1272",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1272",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تكيّف مدرسي",
+          "توافق الطلاب"
+        ],
+        "en": [
+          "School adjustment"
+        ],
+        "es": [
+          "Adaptación escolar"
+        ],
+        "fr": [
+          "Adaptation scolaire"
+        ],
+        "ru": [
+          "Школьная адаптация"
+        ]
+      },
+      "broader": [
+        "concept9186"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:28:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكيّف الطلاب"
+        ],
+        "en": [
+          "Student adjustment"
+        ],
+        "es": [
+          "Adaptación del estudiante"
+        ],
+        "fr": [
+          "Adaptation de l'étudiant"
+        ],
+        "ru": [
+          "Адаптация учащихся"
+        ]
+      },
+      "related": [
+        "concept1272",
+        "concept1335",
+        "concept5947"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1333",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1333",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سيكولوجية المراهقين"
+        ]
+      },
+      "broader": [
+        "concept1049"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم نفس المراهقين"
+        ],
+        "en": [
+          "Adolescent psychology"
+        ],
+        "es": [
+          "Psicología del adolescente"
+        ],
+        "fr": [
+          "Psychologie de l'adolescent"
+        ],
+        "ru": [
+          "Юношеская психология"
+        ]
+      },
+      "related": [
+        "concept1457",
+        "concept1458",
+        "concept1462",
+        "concept388"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1460",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1460",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Psicología infantil"
+        ]
+      },
+      "broader": [
+        "concept1049"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم نفس الطفل"
+        ],
+        "en": [
+          "Child psychology"
+        ],
+        "es": [
+          "Psicología del niño"
+        ],
+        "fr": [
+          "Psychologie de l'enfant"
+        ],
+        "ru": [
+          "Детская психология"
+        ]
+      },
+      "related": [
+        "concept1199",
+        "concept1460",
+        "concept388",
+        "concept5055"
+      ],
+      "scope_notes": {
+        "ar": [
+          "من الولادة وحتى سن المراهقة."
+        ],
+        "en": [
+          "From birth to adolescence."
+        ],
+        "es": [
+          "Desde el nacimiento hasta la adolescencia."
+        ],
+        "fr": [
+          "De la naissance à l'adolescence."
+        ],
+        "ru": [
+          "От рождения до юности."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1462",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1462",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Apprentissage des adultes"
+        ]
+      },
+      "broader": [
+        "concept5"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2025-10-29T16:11:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعلم الكبار"
+        ],
+        "en": [
+          "Adult learning"
+        ],
+        "es": [
+          "Aprendizaje de adultos"
+        ],
+        "fr": [
+          "Apprentissage à l'âge adulte"
+        ],
+        "ru": [
+          "Учеба взрослого населения"
+        ]
+      },
+      "related": [
+        "concept1473",
+        "concept1480",
+        "concept1481",
+        "concept1513",
+        "concept1514",
+        "concept388"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1511",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1511",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:02:00+00:00",
+      "narrower": [
+        "concept10756",
+        "concept12762",
+        "concept13301",
+        "concept3253",
+        "concept5989"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عمليات التعلُّم"
+        ],
+        "en": [
+          "Learning processes"
+        ],
+        "es": [
+          "Proceso de aprendizaje"
+        ],
+        "fr": [
+          "Processus d'apprentissage"
+        ],
+        "ru": [
+          "Учебные процессы"
+        ]
+      },
+      "related": [
+        "concept1049",
+        "concept1511",
+        "concept387",
+        "concept388",
+        "concept389",
+        "concept5553",
+        "concept5556"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1514",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1514",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Disturbio estudiantil",
+          "Disturbio universitario",
+          "Revuelta estudiantil",
+          "Revuelta universitaria"
+        ],
+        "fr": [
+          "Agitation universitaire",
+          "Agitation étudiante",
+          "Contestation universitaire",
+          "Contestation étudiante",
+          "Malaise étudiant"
+        ]
+      },
+      "broader": [
+        "concept9395"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:27:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اضطرابات طلابية"
+        ],
+        "en": [
+          "Student unrest"
+        ],
+        "es": [
+          "Agitación estudiantil"
+        ],
+        "fr": [
+          "Contestation estudiantine"
+        ],
+        "ru": [
+          "Студенческие волнения"
+        ]
+      },
+      "related": [
+        "concept11365",
+        "concept12765",
+        "concept14301",
+        "concept14308",
+        "concept1524",
+        "concept409"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1697",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1697",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيئة غرفة الدراسة",
+          "بيئة قاعة الدروس"
+        ]
+      },
+      "broader": [
+        "concept3"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:29+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بيئة الفصل الدراسي"
+        ],
+        "en": [
+          "Classroom environment"
+        ],
+        "es": [
+          "Ambiente de la clase"
+        ],
+        "fr": [
+          "Environnement de la classe"
+        ],
+        "ru": [
+          "Окружающая обстановка в классе"
+        ]
+      },
+      "related": [
+        "concept1270",
+        "concept1272",
+        "concept3364",
+        "concept5378",
+        "concept5410"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2140",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2140",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم الانسان التربوي"
+        ]
+      },
+      "broader": [
+        "concept4"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:26:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انثروبولوجيا تربوية"
+        ],
+        "en": [
+          "Educational anthropology"
+        ],
+        "es": [
+          "Antropología de la educación"
+        ],
+        "fr": [
+          "Anthropologie de l'éducation"
+        ],
+        "ru": [
+          "Педагогическая антропология"
+        ]
+      },
+      "related": [
+        "concept376",
+        "concept7078",
+        "concept7142"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تطبيق مفاهيم وأساليب علم الإنسان لدراسة المؤسسات والعمليات التربوية."
+        ],
+        "en": [
+          "Application of anthropological concepts and methods to the study of educational institutions and processes."
+        ],
+        "es": [
+          "Aplicación de conceptos y métodos antropológicos al estudio de instituciones y procesos educativos."
+        ],
+        "fr": [
+          "Application de concepts et de méthodes anthropologiques à l'étude des institutions et des processus éducatifs."
+        ],
+        "ru": [
+          "Применение антропологических концепций и методов в изучении образовательных учреждений и процессов."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2502",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2502",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:29:07+00:00",
+      "narrower": [
+        "concept13304"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استعداد للتعلم"
+        ],
+        "en": [
+          "Learning readiness"
+        ],
+        "es": [
+          "Disponibilidad para el aprendizaje"
+        ],
+        "fr": [
+          "Aptitude à l'apprentissage"
+        ],
+        "ru": [
+          "Готовность к учебе"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2614",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2614",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1514"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:26:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انتباه"
+        ],
+        "en": [
+          "Attention"
+        ],
+        "es": [
+          "Atención"
+        ],
+        "fr": [
+          "Attention"
+        ],
+        "ru": [
+          "Внимание"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3253",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3253",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Autoridad del profesor"
+        ]
+      },
+      "broader": [
+        "concept5949"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سلطة المعلم"
+        ],
+        "en": [
+          "Teacher authority"
+        ],
+        "es": [
+          "Autoridad del docente"
+        ],
+        "fr": [
+          "Autorité de l'enseignant"
+        ],
+        "ru": [
+          "Авторитет преподавателя"
+        ]
+      },
+      "related": [
+        "concept5410",
+        "concept8159"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3435",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3435",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "طرد (المدارس)",
+          "عقاب بدني",
+          "عقوبة جسدية"
+        ],
+        "en": [
+          "Corporal punishment",
+          "Expulsion (school)"
+        ],
+        "es": [
+          "Expulsión escolar",
+          "Sanción escolar"
+        ],
+        "fr": [
+          "Châtiment corporel",
+          "Expulsion scolaire",
+          "Punition corporelle",
+          "Sanction scolaire"
+        ],
+        "ru": [
+          "Исключение (из школы)",
+          "Телесные наказания"
+        ]
+      },
+      "broader": [
+        "concept8159"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2020-03-11T12:41:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عقاب في المدارس"
+        ],
+        "en": [
+          "School punishment"
+        ],
+        "es": [
+          "Castigo escolar"
+        ],
+        "fr": [
+          "Punition scolaire"
+        ],
+        "ru": [
+          "Школьные наказания"
+        ]
+      },
+      "related": [
+        "concept15853",
+        "concept9186"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4735",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4735",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مجتمع وتعليم"
+        ],
+        "en": [
+          "Society and education"
+        ],
+        "es": [
+          "Sociedad educacional",
+          "Sociedad educativa",
+          "Sociedad y educación"
+        ],
+        "fr": [
+          "Société et éducation"
+        ],
+        "ru": [
+          "Общество и образование"
+        ]
+      },
+      "broader": [
+        "concept4"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:35+00:00",
+      "narrower": [
+        "concept9395"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاجتماع التربوي"
+        ],
+        "en": [
+          "Educational sociology"
+        ],
+        "es": [
+          "Sociología de la educación"
+        ],
+        "fr": [
+          "Sociologie de l'éducation"
+        ],
+        "ru": [
+          "Педагогическая социология"
+        ]
+      },
+      "related": [
+        "concept33",
+        "concept5178",
+        "concept8863",
+        "concept9188"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5181",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5181",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علاقة المعلم بالطالب"
+        ],
+        "en": [
+          "Teacher student relationship"
+        ],
+        "es": [
+          "Relación alumno-docente"
+        ],
+        "fr": [
+          "Relation enseignant-étudiant"
+        ],
+        "ru": [
+          "Взаимоотношения преподавателей и учащихся"
+        ]
+      },
+      "broader": [
+        "concept3"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:02:48+00:00",
+      "narrower": [
+        "concept9276"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاقة الطالب بالمعلم"
+        ],
+        "en": [
+          "Student teacher relationship"
+        ],
+        "es": [
+          "Relación profesor-alumno"
+        ],
+        "fr": [
+          "Relation étudiant-enseignant"
+        ],
+        "ru": [
+          "Взаимоотношения учащихся и преподавателей"
+        ]
+      },
+      "related": [
+        "concept2140",
+        "concept3435",
+        "concept5947",
+        "concept5949",
+        "concept8159",
+        "concept9186",
+        "concept9610"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5410",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5410",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T14:43:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاقات في المجتمع المدرسي"
+        ],
+        "en": [
+          "School community relationship"
+        ],
+        "es": [
+          "Relación escuela-comunidad"
+        ],
+        "fr": [
+          "Relation école-collectivité"
+        ],
+        "ru": [
+          "Взаимоотношения в школьной среде"
+        ]
+      },
+      "related": [
+        "concept11644",
+        "concept5714",
+        "concept9188"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5862",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5862",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم مقارن"
+        ]
+      },
+      "broader": [
+        "concept9197"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:29:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية مقارنة"
+        ],
+        "en": [
+          "Comparative education"
+        ],
+        "es": [
+          "Educación comparada"
+        ],
+        "fr": [
+          "Éducation comparée"
+        ],
+        "ru": [
+          "Сравнительное образование"
+        ]
+      },
+      "related": [
+        "concept37",
+        "concept3898"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دراسة مقارنة للنظريات والممارسات التربوية الحالية في الدول المختلفة."
+        ],
+        "en": [
+          "Comparative study of current educational theory and practice in different countries."
+        ],
+        "es": [
+          "Estudio comparativo entre las teorías y prácticas educativas vigentes en diferentes países."
+        ],
+        "fr": [
+          "Etude comparée des théories et pratiques éducatives courantes dans différents pays."
+        ],
+        "ru": [
+          "Сравнительное исследование современной педагогической теории и практики в разных странах."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5900",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5900",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Comportamiento del estudiante"
+        ],
+        "fr": [
+          "Comportement de l'étudiant"
+        ]
+      },
+      "broader": [
+        "concept3"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:10+00:00",
+      "narrower": [
+        "concept1272",
+        "concept14982"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سلوك الطلاب"
+        ],
+        "en": [
+          "Student behaviour"
+        ],
+        "es": [
+          "Comportamiento del alumno"
+        ],
+        "fr": [
+          "Comportement de l'élève"
+        ],
+        "ru": [
+          "Поведение учащихся"
+        ]
+      },
+      "related": [
+        "concept1050",
+        "concept1333",
+        "concept17071",
+        "concept17088",
+        "concept5410",
+        "concept8664",
+        "concept9186",
+        "concept9188",
+        "concept9276"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5947",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5947",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Comportamiento del profesor"
+        ]
+      },
+      "broader": [
+        "concept3"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:38+00:00",
+      "narrower": [
+        "concept1270",
+        "concept14964",
+        "concept3435"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سلوك المعلم"
+        ],
+        "en": [
+          "Teacher behaviour"
+        ],
+        "es": [
+          "Comportamiento del docente"
+        ],
+        "fr": [
+          "Comportement de l'enseignant"
+        ],
+        "ru": [
+          "Поведение преподавателей"
+        ]
+      },
+      "related": [
+        "concept12872",
+        "concept17071",
+        "concept5410",
+        "concept9188",
+        "concept9276"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5949",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5949",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "فهم"
+        ]
+      },
+      "broader": [
+        "concept1514"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:27:59+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استيعاب"
+        ],
+        "en": [
+          "Comprehension"
+        ],
+        "es": [
+          "Comprensión"
+        ],
+        "fr": [
+          "Compréhension"
+        ],
+        "ru": [
+          "Понимание"
+        ]
+      },
+      "related": [
+        "concept389"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5989",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5989",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept9197"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث المناهج"
+        ],
+        "en": [
+          "Curriculum research"
+        ],
+        "es": [
+          "Investigación sobre el currículo"
+        ],
+        "fr": [
+          "Recherche sur le curriculum"
+        ],
+        "ru": [
+          "Исследования в области разработки учебных планов"
+        ]
+      },
+      "related": [
+        "concept4886",
+        "concept7273",
+        "concept7285"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7280",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7280",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اضطرابات اللغة والتواصل"
+        ],
+        "en": [
+          "Learning difficulties"
+        ],
+        "es": [
+          "Problemas de aprendizaje",
+          "Problemas de asimilación"
+        ],
+        "fr": [
+          "Difficulté d'apprentissage",
+          "Problème d'apprentissage"
+        ],
+        "ru": [
+          "Трудности в учебе"
+        ]
+      },
+      "broader": [
+        "concept5"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T22:36:45+00:00",
+      "narrower": [
+        "concept8211"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صعوبات التعلم"
+        ],
+        "en": [
+          "Learning disabilities"
+        ],
+        "es": [
+          "Dificultad en el aprendizaje"
+        ],
+        "fr": [
+          "Trouble d'apprentissage"
+        ],
+        "ru": [
+          "Неспособность к обучению"
+        ]
+      },
+      "related": [
+        "concept17020",
+        "concept2122",
+        "concept7551"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8024",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8024",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تأديب في المدارس",
+          "سلطة مدرسية",
+          "نظام مدرسي"
+        ],
+        "en": [
+          "School authority"
+        ],
+        "es": [
+          "Autoridad escolar"
+        ],
+        "fr": [
+          "Autorité scolaire"
+        ],
+        "ru": [
+          "Авторитет школы"
+        ]
+      },
+      "broader": [
+        "concept3"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T14:42:51+00:00",
+      "narrower": [
+        "concept15853",
+        "concept4735"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انضباط مدرسي"
+        ],
+        "en": [
+          "School discipline"
+        ],
+        "es": [
+          "Disciplina escolar"
+        ],
+        "fr": [
+          "Discipline scolaire"
+        ],
+        "ru": [
+          "Школьная дисциплина"
+        ]
+      },
+      "related": [
+        "concept3435",
+        "concept5410",
+        "concept9186",
+        "concept9188"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8159",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8159",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept8024"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:02:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عسر القراءة"
+        ],
+        "en": [
+          "Dyslexia"
+        ],
+        "es": [
+          "Dislexia"
+        ],
+        "fr": [
+          "Dyslexie"
+        ],
+        "ru": [
+          "Дислексия"
+        ]
+      },
+      "related": [
+        "concept4141",
+        "concept997"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8211",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8211",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تهرُّب من المدرسة"
+        ],
+        "es": [
+          "Abstentismo escolar"
+        ],
+        "fr": [
+          "Absentéisme scolaire"
+        ]
+      },
+      "broader": [
+        "concept9186"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:28:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تغيب عن المدرسة"
+        ],
+        "en": [
+          "Truancy"
+        ],
+        "es": [
+          "Ausencia injustificada"
+        ],
+        "fr": [
+          "École buissonnière"
+        ],
+        "ru": [
+          "Прогулы"
+        ]
+      },
+      "related": [
+        "concept1114",
+        "concept5947"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8664",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8664",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Relación profesor-administración"
+        ]
+      },
+      "broader": [
+        "concept3"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاقة المعلم بالادارة"
+        ],
+        "en": [
+          "Teacher administration relationship"
+        ],
+        "es": [
+          "Relación docente-administración"
+        ],
+        "fr": [
+          "Relation enseignant-administration"
+        ],
+        "ru": [
+          "Взаимоотношения преподавателей и администрации"
+        ]
+      },
+      "related": [
+        "concept1371",
+        "concept6186",
+        "concept9610"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9148",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9148",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:21+00:00",
+      "narrower": [
+        "concept12872"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاقة الوالدين بالمدرسة"
+        ],
+        "en": [
+          "Parent school relationship"
+        ],
+        "es": [
+          "Relación padres-escuela"
+        ],
+        "fr": [
+          "Relation parents-école"
+        ],
+        "ru": [
+          "Взаимоотношения родителей и школы"
+        ]
+      },
+      "related": [
+        "concept10707",
+        "concept10717",
+        "concept1476",
+        "concept1528",
+        "concept9188",
+        "concept9610"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9184",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9184",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علاقة الاقران"
+        ]
+      },
+      "broader": [
+        "concept3"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:02:19+00:00",
+      "narrower": [
+        "concept17088"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاقة النُظراء"
+        ],
+        "en": [
+          "Peer relationship"
+        ],
+        "es": [
+          "Relaciones entre pares"
+        ],
+        "fr": [
+          "Relations entre pairs"
+        ],
+        "ru": [
+          "Взаимоотношения сверстников"
+        ]
+      },
+      "related": [
+        "concept9188",
+        "concept9610",
+        "concept9906"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9185",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9185",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Relación alumno-escuela"
+        ]
+      },
+      "broader": [
+        "concept3"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:02:42+00:00",
+      "narrower": [
+        "concept1333",
+        "concept8664"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاقة الطالب بالمدرسة"
+        ],
+        "en": [
+          "School student relationship"
+        ],
+        "es": [
+          "Relación estudiante-escuela"
+        ],
+        "fr": [
+          "Relation étudiant-école"
+        ],
+        "ru": [
+          "Взаимоотношения школы и учащихся"
+        ]
+      },
+      "related": [
+        "concept14982",
+        "concept15853",
+        "concept4735",
+        "concept5410",
+        "concept5947",
+        "concept8159"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9186",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9186",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Psicosociología educativa"
+        ]
+      },
+      "broader": [
+        "concept4"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاجتماع النفسي التربوي"
+        ],
+        "en": [
+          "Educational psychosociology"
+        ],
+        "es": [
+          "Psicosociología de la educación"
+        ],
+        "fr": [
+          "Psychosociologie de l'éducation"
+        ],
+        "ru": [
+          "Педагогическая психосоциология"
+        ]
+      },
+      "related": [
+        "concept1049",
+        "concept3",
+        "concept377",
+        "concept5181",
+        "concept5862",
+        "concept5947",
+        "concept5949",
+        "concept8159",
+        "concept9184",
+        "concept9185"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9188",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9188",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحوث تعليمية"
+        ],
+        "en": [
+          "Pedagogical research"
+        ],
+        "es": [
+          "Investigación sobre la educación"
+        ],
+        "fr": [
+          "Recherche en éducation"
+        ],
+        "ru": [
+          "Педагогические исследования"
+        ]
+      },
+      "broader": [
+        "concept4"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:29:13+00:00",
+      "narrower": [
+        "concept5900",
+        "concept7280",
+        "concept9386"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحث تربوي"
+        ],
+        "en": [
+          "Educational research"
+        ],
+        "es": [
+          "Investigación pedagógica"
+        ],
+        "fr": [
+          "Recherche pédagogique"
+        ],
+        "ru": [
+          "Исследования в сфере образования"
+        ]
+      },
+      "related": [
+        "concept2112",
+        "concept88",
+        "concept9255",
+        "concept9307"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9197",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9197",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:27:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تاريخ تربوي"
+        ],
+        "en": [
+          "Educational history"
+        ],
+        "es": [
+          "Historia de la educación"
+        ],
+        "fr": [
+          "Histoire de l'éducation"
+        ],
+        "ru": [
+          "История образования"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9250",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9250",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل عملية التفاعل"
+        ],
+        "en": [
+          "Interaction process analysis"
+        ],
+        "es": [
+          "Análisis del proceso de interacción"
+        ],
+        "fr": [
+          "Analyse du processus d'interaction"
+        ],
+        "ru": [
+          "Анализ процесса взаимодействия"
+        ]
+      },
+      "broader": [
+        "concept5410"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:51+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عملية التفاعل التربوي"
+        ],
+        "en": [
+          "Educational interaction process"
+        ],
+        "es": [
+          "Proceso de interacción educativa"
+        ],
+        "fr": [
+          "Processus d'interaction éducative"
+        ],
+        "ru": [
+          "Процесс образовательного взаимодействия"
+        ]
+      },
+      "related": [
+        "concept5947",
+        "concept5949"
+      ],
+      "scope_notes": {
+        "ar": [
+          "ملاحظة سلوك الطلاب فيما يتعلق بالاتجاهات التعليمية المختلفة."
+        ],
+        "en": [
+          "Observation of student behaviour in response to various teaching attitudes."
+        ],
+        "es": [
+          "Observación del comportamiento de un estudiante en respuesta a diversas estrategias educativas."
+        ],
+        "fr": [
+          "Observation du comportement des étudiants en réponse à différentes stratégies d'enseignement."
+        ],
+        "ru": [
+          "Наблюдение за изменениями в поведении учащихся в связи с применением различных учебных подходов."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9276",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9276",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انماط تعليمية"
+        ],
+        "es": [
+          "Modelo educativo"
+        ]
+      },
+      "broader": [
+        "concept9317"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:28:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نماذج تعليمية"
+        ],
+        "en": [
+          "Educational models"
+        ],
+        "es": [
+          "Modelo educacional"
+        ],
+        "fr": [
+          "Modèle d'éducation"
+        ],
+        "ru": [
+          "Образовательные модели"
+        ]
+      },
+      "related": [
+        "concept7121",
+        "concept9197"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تمثيل مفهوم أو نظام تعليمي عن طريق رسم تخطيطي ثنائي أو ثلاثي الأبعاد أو معادلة رياضية أو طريقة أخرى مشابهة."
+        ],
+        "en": [
+          "Representation of an educational concept or system in a two or three-dimensional diagram or a mathematical or other analogous form."
+        ],
+        "es": [
+          "Representación de un concepto o de un sistema educativo por medio de un diagrama de dos o tres dimensiones, una fórmula matemática u otro procedimiento análogo."
+        ],
+        "fr": [
+          "Représentation d'un concept ou d'un système éducatif au moyen d'un diagramme à deux ou trois dimensions ou encore d'une formule mathématique ou autre méthode analogue."
+        ],
+        "ru": [
+          "Представление образовательной концепции или системы в виде двух- или трехмерной диаграммы, математической или иной аналоговой формы."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9307",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9307",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "فلسفة تعليمية"
+        ],
+        "es": [
+          "Filosofía educativa"
+        ],
+        "fr": [
+          "Philosophie éducative"
+        ]
+      },
+      "broader": [
+        "concept4"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:28:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فلسفة تربوية"
+        ],
+        "en": [
+          "Educational philosophy"
+        ],
+        "es": [
+          "Filosofía de la educación"
+        ],
+        "fr": [
+          "Philosophie de l'éducation"
+        ],
+        "ru": [
+          "Образовательная философия"
+        ]
+      },
+      "related": [
+        "concept9311",
+        "concept9317"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9316",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9316",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مبادئ التربية"
+        ],
+        "en": [
+          "Principles of education"
+        ],
+        "es": [
+          "Principio educacional",
+          "Principio educativo",
+          "Teoría educacional",
+          "Teoría educativa"
+        ],
+        "fr": [
+          "Principe de l'éducation"
+        ],
+        "ru": [
+          "Принципы образования"
+        ]
+      },
+      "broader": [
+        "concept4"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T22:36:44+00:00",
+      "narrower": [
+        "concept9307"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظرية تربوية"
+        ],
+        "en": [
+          "Educational theory"
+        ],
+        "es": [
+          "Teoría de la educación"
+        ],
+        "fr": [
+          "Théorie de l'éducation"
+        ],
+        "ru": [
+          "Образовательная теория"
+        ]
+      },
+      "related": [
+        "concept9311",
+        "concept9316"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9317",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9317",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept9197"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:02:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث القراءة"
+        ],
+        "en": [
+          "Reading research"
+        ],
+        "es": [
+          "Investigación sobre la lectura"
+        ],
+        "fr": [
+          "Recherche sur la lecture"
+        ],
+        "ru": [
+          "Исследования в области обучения чтению"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9386",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9386",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حياة الطالب"
+        ],
+        "en": [
+          "Student life"
+        ],
+        "es": [
+          "Vida del estudiante",
+          "Vida escolar",
+          "Vida estudiantil"
+        ],
+        "fr": [
+          "Vie de l'étudiant",
+          "Vie scolaire",
+          "Vie étudiante"
+        ],
+        "ru": [
+          "Студенческая жизнь"
+        ]
+      },
+      "broader": [
+        "concept5181"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T22:37:10+00:00",
+      "narrower": [
+        "concept14304",
+        "concept1697"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم الاجتماع الطلابي"
+        ],
+        "en": [
+          "Student sociology"
+        ],
+        "es": [
+          "Sociología del estudiante"
+        ],
+        "fr": [
+          "Sociologie de l'étudiant"
+        ],
+        "ru": [
+          "Социология учащихся"
+        ]
+      },
+      "related": [
+        "concept14982",
+        "concept2082",
+        "concept33",
+        "concept9158",
+        "concept9403"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9395",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9395",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Rétro-information"
+        ]
+      },
+      "broader": [
+        "concept1514"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2020-03-11T12:38:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ملاحظات (التعلم)"
+        ],
+        "en": [
+          "Feedback (learning)"
+        ],
+        "es": [
+          "Retroinformación (aprendizaje)"
+        ],
+        "fr": [
+          "Information en retour (apprentissage)"
+        ],
+        "ru": [
+          "Обратная связь (учебная)"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10756",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10756",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حب الاستطلاع",
+          "فضول"
+        ],
+        "en": [
+          "Curiosity"
+        ],
+        "es": [
+          "Curiosidad"
+        ],
+        "fr": [
+          "Curiosité"
+        ],
+        "ru": [
+          "Любознательность"
+        ]
+      },
+      "broader": [
+        "concept1514"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2020-03-11T12:26:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اهتمام (التعلم)"
+        ],
+        "en": [
+          "Interest (learning)"
+        ],
+        "es": [
+          "Interés (aprendizaje)"
+        ],
+        "fr": [
+          "Intérêt (apprentissage)"
+        ],
+        "ru": [
+          "Интерес (учебный)"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12762",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12762",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علاقة الوالدين بالمُعلِم"
+        ],
+        "es": [
+          "Relación padres-profesor"
+        ]
+      },
+      "broader": [
+        "concept9184"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علاقة الوالدين بالمُعلِم"
+        ],
+        "en": [
+          "Parent teacher relationship"
+        ],
+        "es": [
+          "Relación padres-docente"
+        ],
+        "fr": [
+          "Relation parents-enseignant"
+        ],
+        "ru": [
+          "Взаимоотношения родителей и преподавателей"
+        ]
+      },
+      "related": [
+        "concept10707",
+        "concept1476",
+        "concept14964",
+        "concept1528",
+        "concept5949",
+        "concept9157",
+        "concept9610"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12872",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12872",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استبقاء"
+        ]
+      },
+      "broader": [
+        "concept1514"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:27:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احتفاظ"
+        ],
+        "en": [
+          "Retention"
+        ],
+        "es": [
+          "Retención"
+        ],
+        "fr": [
+          "Rétention"
+        ],
+        "ru": [
+          "Усвоение материала"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13301",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13301",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept2614"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:28:03+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استعداد للقراءة"
+        ],
+        "en": [
+          "Reading readiness"
+        ],
+        "es": [
+          "Preparación para la lectura"
+        ],
+        "fr": [
+          "Préparation à la lecture"
+        ],
+        "ru": [
+          "Готовность к чтению"
+        ]
+      },
+      "related": [
+        "concept997"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13304",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13304",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Mouvement estudiantin"
+        ]
+      },
+      "broader": [
+        "concept9395"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:29:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حركات طلابية"
+        ],
+        "en": [
+          "Student movements"
+        ],
+        "es": [
+          "Movimiento estudiantil"
+        ],
+        "fr": [
+          "Mouvement étudiant"
+        ],
+        "ru": [
+          "Студенческие движения"
+        ]
+      },
+      "related": [
+        "concept14301",
+        "concept1524",
+        "concept399",
+        "concept9158"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14304",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14304",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5949"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T12:03:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مشاركة المعلم"
+        ],
+        "en": [
+          "Teacher participation"
+        ],
+        "es": [
+          "Participación del profesor"
+        ],
+        "fr": [
+          "Participation de l'enseignant"
+        ],
+        "ru": [
+          "Участие преподавателей"
+        ]
+      },
+      "related": [
+        "concept1270",
+        "concept12872"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14964",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14964",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5947"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T14:33:51+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مشاركة الطلاب"
+        ],
+        "en": [
+          "Student participation"
+        ],
+        "es": [
+          "Participación estudiantil"
+        ],
+        "fr": [
+          "Participation de l'étudiant"
+        ],
+        "ru": [
+          "Участие учащихся"
+        ]
+      },
+      "related": [
+        "concept11831",
+        "concept1272",
+        "concept5339",
+        "concept9158",
+        "concept9186",
+        "concept9395"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14982",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14982",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept8159"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:29:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مكافآت مدرسية"
+        ],
+        "en": [
+          "School rewards"
+        ],
+        "es": [
+          "Premio escolar"
+        ],
+        "fr": [
+          "Récompense scolaire"
+        ],
+        "ru": [
+          "Школьные награды"
+        ]
+      },
+      "related": [
+        "concept4735",
+        "concept9186"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15853",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15853",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيانات الاعتماد الزائفة",
+          "تزوير الشهادات",
+          "سوء السلوك الاكاديمي",
+          "شهادات مزورة",
+          "غش الاعتماد الاكاديمي",
+          "غش الطلاب",
+          "غش في الامتحانات"
+        ],
+        "en": [
+          "Academic misconduct",
+          "Accreditation fraud",
+          "Certification fraud",
+          "Examination fraud",
+          "False credentials",
+          "Forged diplomas",
+          "Student cheating"
+        ]
+      },
+      "broader": [
+        "concept3"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2019-12-15T13:28:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "احتيال اكاديمي"
+        ],
+        "en": [
+          "Academic fraud"
+        ],
+        "es": [
+          "Fraude académica"
+        ],
+        "fr": [
+          "Fraude académique"
+        ]
+      },
+      "related": [
+        "concept10537",
+        "concept5947",
+        "concept5949",
+        "concept6676"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17071",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17071",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ايذاء من جانب الاقران",
+          "تحرش في المدارس",
+          "تحرش من جانب الاقران",
+          "تسلط الاقران في المدارس",
+          "تنمّر",
+          "مضايقة في المدارس"
+        ],
+        "en": [
+          "Peer abuse",
+          "Peer harassment",
+          "School bullying"
+        ],
+        "es": [
+          "Acoso escolar"
+        ],
+        "fr": [
+          "Brimade à l'école"
+        ],
+        "ru": [
+          "буллинг",
+          "запугивание",
+          "издевательства",
+          "травля",
+          "травля в школе"
+        ]
+      },
+      "broader": [
+        "concept9185"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2021-09-28T11:46:03+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تسلط"
+        ],
+        "en": [
+          "Bullying"
+        ],
+        "es": [
+          "Acoso"
+        ],
+        "fr": [
+          "Brimade"
+        ],
+        "ru": [
+          "притеснения"
+        ]
+      },
+      "related": [
+        "concept14592",
+        "concept5947"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17088",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17088",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.05"
+      ],
+      "modified": "2024-06-03T15:40:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم التربية الاجتماعية"
+        ],
+        "en": [
+          "Social pedagogy"
+        ],
+        "es": [
+          "Pedagogía social"
+        ],
+        "fr": [
+          "Pédagogie sociale"
+        ],
+        "ru": [
+          "Cоциальная педагогика"
+        ]
+      },
+      "related": [
+        "concept1482",
+        "concept3",
+        "concept416"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17172",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17172",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt1.05",
+    "labels": {
+      "en": "Educational sciences and environment",
+      "fr": "Sciences de l'éducation et milieu éducatif"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt1.05"
+  }
+}

@@ -1,0 +1,3491 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "مستويات التعليم"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2021-10-14T12:08:37+00:00",
+      "narrower": [
+        "concept1485",
+        "concept5081",
+        "concept9290",
+        "concept9291"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مستويات تعليمية"
+        ],
+        "en": [
+          "Educational levels"
+        ],
+        "es": [
+          "Nivel de enseñanza"
+        ],
+        "fr": [
+          "Niveau d'enseignement"
+        ],
+        "ru": [
+          "Учебные уровни"
+        ]
+      },
+      "related": [
+        "concept17",
+        "concept17130",
+        "concept21",
+        "concept37"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الخطوات العامة للتقدم في التعليم الرسمي. تستخدم كتصنيف للتنظيم التربوي والإحصاء."
+        ],
+        "en": [
+          "Broad steps of formal educational progressions. Used as a classification in educational organization and statistics."
+        ],
+        "es": [
+          "Grandes etapas que señalan el progreso en un sistema formal de educación. Emplear como punto de referencia para la organización y las estadísticas educacionales."
+        ],
+        "fr": [
+          "Grandes étapes marquant la progression dans un système formel d'éducation. Utilisé comme point de référence dans l'organisation de l'éducation et les statistiques."
+        ],
+        "ru": [
+          "Этапы в прохождении обязательного образования, применяемые в классификации образовательных учреждений и статистике."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept36",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept36",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نظم تربوية",
+          "نظم تعليمية وطنية"
+        ],
+        "en": [
+          "National educational systems"
+        ],
+        "es": [
+          "Sistema educacional",
+          "Sistema educativo nacional"
+        ],
+        "fr": [
+          "Système éducatif national"
+        ],
+        "ru": [
+          "Национальные образовательные системы"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:15+00:00",
+      "narrower": [
+        "concept1473",
+        "concept1494",
+        "concept5873",
+        "concept7627",
+        "concept9018",
+        "concept9414"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم تعليمية"
+        ],
+        "en": [
+          "Educational systems"
+        ],
+        "es": [
+          "Sistema educativo"
+        ],
+        "fr": [
+          "Système d'enseignement"
+        ],
+        "ru": [
+          "Системы образования"
+        ]
+      },
+      "related": [
+        "concept1491",
+        "concept2107",
+        "concept36",
+        "concept39",
+        "concept40",
+        "concept44",
+        "concept5900"
+      ],
+      "scope_notes": {
+        "ar": [
+          "إعداد نظام متكامل من المؤسسات والبرامج المترابطة التي توفر التعليم الرسمي وغير الرسمي."
+        ],
+        "en": [
+          "Arrangement into an organic whole of the interdependent institutions and programmes providing formal and nonformal education."
+        ],
+        "es": [
+          "Configuración en un todo orgánico de instituciones y de programas de educación formal y no formal."
+        ],
+        "fr": [
+          "Configuration en un tout organique d'institutions et de programmes interdépendants de l'éducation formelle et non formelle."
+        ],
+        "ru": [
+          "Объединение в целостную систему независимых программ и институтов, обеспечивающих как официальное, так и неформальное образование."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept37",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept37",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "امتداد تعليمي",
+          "ملحق تعليمي"
+        ],
+        "en": [
+          "Educational extension"
+        ],
+        "es": [
+          "Educación extensiva"
+        ],
+        "fr": [
+          "Extension de l'enseignement"
+        ],
+        "ru": [
+          "Внешние формы образования"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-17T16:38:31+00:00",
+      "narrower": [
+        "concept1493"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم ممتد"
+        ],
+        "en": [
+          "Extension education"
+        ],
+        "es": [
+          "Educación complementaria"
+        ],
+        "fr": [
+          "Éducation périscolaire"
+        ],
+        "ru": [
+          "Дополнительное образование"
+        ]
+      },
+      "related": [
+        "concept10332",
+        "concept1741",
+        "concept43",
+        "concept6973"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الأنشطة التوجيهية للمؤسسات التعليمية الموجهة إلى العملاء خارج هيئة الطلاب المباشرة."
+        ],
+        "en": [
+          "Instructional activities of educational institutions directed to clientele outside immediate student body."
+        ],
+        "es": [
+          "Enseñanza impartida por una institución educativa a una serie de personas que no forman parte de la población estudiantil habitual."
+        ],
+        "fr": [
+          "Activité éducative dispensée par une institution éducative en direction d'une clientèle ne faisant pas partie de la population étudiante habituelle."
+        ],
+        "ru": [
+          "Просветительская деятельность учебных заведений, направленная на аудиторию, непосредственно не относящуюся к кругу учащихся."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept38",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept38",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم رسمي",
+          "نظم مدرسية"
+        ],
+        "en": [
+          "School systems"
+        ],
+        "es": [
+          "Sistema escolar"
+        ],
+        "fr": [
+          "Système scolaire"
+        ],
+        "ru": [
+          "Школьные системы"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:19+00:00",
+      "narrower": [
+        "concept11118",
+        "concept1483",
+        "concept1490",
+        "concept1491",
+        "concept17020",
+        "concept3602",
+        "concept5542",
+        "concept5914",
+        "concept8982",
+        "concept9021",
+        "concept9888",
+        "concept9891",
+        "concept9927"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم نظامي"
+        ],
+        "en": [
+          "Formal education"
+        ],
+        "es": [
+          "Educación formal"
+        ],
+        "fr": [
+          "Éducation formelle"
+        ],
+        "ru": [
+          "Официальное образование"
+        ]
+      },
+      "related": [
+        "concept37",
+        "concept40"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept39",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept39",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:34:46+00:00",
+      "narrower": [
+        "concept1475",
+        "concept1482",
+        "concept1488",
+        "concept1489",
+        "concept5082"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم غير نظامي"
+        ],
+        "en": [
+          "Nonformal education"
+        ],
+        "es": [
+          "Educación no formal"
+        ],
+        "fr": [
+          "Éducation non formelle"
+        ],
+        "ru": [
+          "Неформальное образование"
+        ]
+      },
+      "related": [
+        "concept37",
+        "concept39",
+        "concept9352"
+      ],
+      "scope_notes": {
+        "ar": [
+          "نشاط تعليمي منظم ومنهجي، مرتبط غالبًا بالعمل، يتم توفيره خارج النظام التعليمي الرسمي"
+        ],
+        "en": [
+          "Organized and systematic learning activity, often associated with work, provided outside the formal educational system."
+        ],
+        "es": [
+          "Actividad de aprendizaje organizada y sistemática, a menudo relacionada con el trabajo, impartida al margen del sistema de educación formal."
+        ],
+        "fr": [
+          "Activité d'apprentissage organisée et systématique, souvent en relation avec le travail, dispensée en dehors du système d'éducation formelle."
+        ],
+        "ru": [
+          "Систематическая учебная деятельность, часто связанная с работой и организованная вне официальной системы образования."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept40",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept40",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم الكبار متعدد التكافؤ"
+        ],
+        "en": [
+          "Polyvalent adult education"
+        ],
+        "es": [
+          "Educación adulta",
+          "Formación dirigida a adultos"
+        ],
+        "fr": [
+          "Formation des adultes",
+          "Éducation polyvalente des adultes"
+        ],
+        "ru": [
+          "Поливалентное образование для взрослого населения"
+        ]
+      },
+      "broader": [
+        "concept37"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2026-04-17T11:52:00+00:00",
+      "narrower": [
+        "concept1476",
+        "concept1477"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الكبار"
+        ],
+        "en": [
+          "Adult education"
+        ],
+        "es": [
+          "Educación de adultos"
+        ],
+        "fr": [
+          "Éducation des adultes"
+        ],
+        "ru": [
+          "Образование для взрослого населения"
+        ]
+      },
+      "related": [
+        "concept1479",
+        "concept1480",
+        "concept1481",
+        "concept1482",
+        "concept1483",
+        "concept1484",
+        "concept1485",
+        "concept1486",
+        "concept1487",
+        "concept1488",
+        "concept1489",
+        "concept1490",
+        "concept1491",
+        "concept1492",
+        "concept1493",
+        "concept1494",
+        "concept1511"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تقديم فرص التعلم في التنمية المهنية والحرفية والتنمية الشخصية والتنمية الاجتماعية للبالغين."
+        ],
+        "en": [
+          "The offering of learning opportunities in professional and vocational development, personal development, and social development to adults."
+        ],
+        "es": [
+          "Oferta de formación destinada a adultos para favorecer su desarrollo profesional, técnico, personal y social."
+        ],
+        "fr": [
+          "Offre de formation destinée aux adultes pour favoriser leur développement professionnel, technique, personnel et social."
+        ],
+        "ru": [
+          "Наличие возможностей для получения образования в целях профессионального, личного и социального развития взрослого населения."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1473",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1473",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية المستهلك",
+          "توعية المستهلك"
+        ]
+      },
+      "broader": [
+        "concept40"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:48+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تثقيف المستهلك"
+        ],
+        "en": [
+          "Consumer education"
+        ],
+        "es": [
+          "Educación del consumidor"
+        ],
+        "fr": [
+          "Éducation du consommateur"
+        ],
+        "ru": [
+          "Обучение потребителя"
+        ]
+      },
+      "related": [
+        "concept58",
+        "concept6377",
+        "concept6380",
+        "concept6424"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دراسة الطرق الذكية والفعالة لشراء واستخدام السلع والخدمات."
+        ],
+        "en": [
+          "Study of intelligent and effective methods of buying and using goods and services."
+        ],
+        "es": [
+          "Sensibilización del consumidor ante métodos inteligentes y eficaces de compra y de utilización de bienes y servicios."
+        ],
+        "fr": [
+          "Sensibilisation du consommateur à des méthodes intelligentes et efficaces d'achat et d'utilisation des biens et services."
+        ],
+        "ru": [
+          "Изучение разумных и эффективных методов приобретения и использования товаров и услуг."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1475",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1475",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثقيف الوالدين",
+          "تثقيف في مجال تنشئة الاطفال",
+          "تعليم الاباء والامهـات"
+        ],
+        "en": [
+          "Parenting education"
+        ],
+        "fr": [
+          "Formation des parents"
+        ],
+        "ru": [
+          "Просвещение в области детского воспитания"
+        ]
+      },
+      "broader": [
+        "concept1473"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الوالدين"
+        ],
+        "en": [
+          "Parent education"
+        ],
+        "es": [
+          "Educación de los padres"
+        ],
+        "fr": [
+          "Éducation des parents"
+        ],
+        "ru": [
+          "Просвещение родителей"
+        ]
+      },
+      "related": [
+        "concept12872",
+        "concept1528",
+        "concept5057",
+        "concept5081",
+        "concept9184"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1476",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1476",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثقيف العمال",
+          "ثقافة عمالية"
+        ],
+        "es": [
+          "Formación de los trabajadores"
+        ],
+        "fr": [
+          "Formation des travailleurs",
+          "Éducation ouvrière"
+        ]
+      },
+      "broader": [
+        "concept1473"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:33:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم العمال"
+        ],
+        "en": [
+          "Workers education"
+        ],
+        "es": [
+          "Educación de los trabajadores"
+        ],
+        "fr": [
+          "Éducation des travailleurs"
+        ],
+        "ru": [
+          "Образование для деятелей профсоюзного движения"
+        ]
+      },
+      "related": [
+        "concept1481",
+        "concept3212",
+        "concept685"
+      ],
+      "scope_notes": {
+        "ar": [
+          "إعداد أعضاء النقابة لتحسين مهاراتهم في إبرام عقود العمل. ينبغي عدم الخلط بينه وبين مصطلح \"تعليم الكبار\"."
+        ],
+        "en": [
+          "The education of union members to improve their bargaining skills. Do not confuse with \"adult education\"."
+        ],
+        "es": [
+          "Educación de los miembros de un sindicato para mejorar sus aptitudes en la negociación. No confundir con \"educación de los adultos\"."
+        ],
+        "fr": [
+          "Éducation des membres d'un syndicat pour améliorer leurs aptitudes à la négociation. Ne pas confondre avec \"éducation des adultes\"."
+        ],
+        "ru": [
+          "Подготовка членов профсоюза в целях повышения их навыков в заключении трудовых договоров. Не путать с термином \"Образование для взрослого населения\"."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1477",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1477",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثقيف اجتماعي",
+          "تثقيف مجتمعي",
+          "تربية اجتماعية",
+          "تربية مجتمعية"
+        ],
+        "en": [
+          "Social education"
+        ],
+        "es": [
+          "Educación social"
+        ],
+        "fr": [
+          "Éducation sociale"
+        ],
+        "ru": [
+          "Социальное образование"
+        ]
+      },
+      "broader": [
+        "concept40"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2024-06-03T15:24:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم مجتمعي"
+        ],
+        "en": [
+          "Community education"
+        ],
+        "es": [
+          "Educación comunitaria"
+        ],
+        "fr": [
+          "Éducation communautaire"
+        ],
+        "ru": [
+          "Образование в рамках местного сообщества"
+        ]
+      },
+      "related": [
+        "concept1473",
+        "concept1491",
+        "concept1494",
+        "concept1499",
+        "concept17172",
+        "concept439",
+        "concept5082",
+        "concept5714",
+        "concept5872",
+        "concept5873"
+      ],
+      "scope_notes": {
+        "ar": [
+          "العملية التمكينية التي يحصل من خلالها الأطفال والكبار على شعور بالانتماء والتوافق مع مجتمعهم."
+        ],
+        "en": [
+          "Enabling process through which children and adults receive a sense of identification with their community."
+        ],
+        "es": [
+          "Proceso que favorece en los niños y a los adultos el desarrollo de un sentimiento de pertenencia a su comunidad."
+        ],
+        "fr": [
+          "Processus favorisant chez l'enfant et l'adulte le développement d'un sentiment d'appartenance à leur communauté."
+        ],
+        "ru": [
+          "Познавательный процесс, в рамках которого дети и взрослые обретают чувство единения со своей местной средой."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1482",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1482",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم اصلاحي",
+          "تعليم في السجون"
+        ],
+        "en": [
+          "Prison education"
+        ],
+        "es": [
+          "Educación en la cárcel",
+          "Educación en prisión"
+        ],
+        "fr": [
+          "Formation en milieu correctionnel",
+          "Éducation en milieu carcéral",
+          "Éducation en prison"
+        ],
+        "ru": [
+          "Образование в местах заключения"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2026-04-17T11:52:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية اصلاحية"
+        ],
+        "en": [
+          "Correctional education"
+        ],
+        "es": [
+          "Educación de los presos"
+        ],
+        "fr": [
+          "Éducation surveillée"
+        ],
+        "ru": [
+          "Образование в исправительных учреждениях"
+        ]
+      },
+      "related": [
+        "concept1473",
+        "concept6144",
+        "concept6654"
+      ],
+      "scope_notes": {
+        "ar": [
+          "برامج تعليمية ومهنية للكبار والشباب في السجون أو مراكز الاحتجاز."
+        ],
+        "en": [
+          "Educational and vocational programmes provided for adults or youth in prisons or detention centres."
+        ],
+        "es": [
+          "Programas educativos y profesionales destinados a los adultos o jóvenes que están en la cárcel o en centros de detención."
+        ],
+        "fr": [
+          "Programme éducatif et professionnel offert aux adultes et aux jeunes dans des prisons ou des centres de détention."
+        ],
+        "ru": [
+          "Образовательные и профессионально-технические программы для обучения взрослых или подростков в местах лишения свободы."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1483",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1483",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم جامعي",
+          "تعليم فوق الثانوي",
+          "تعليم ما بعد المرحلة الثانوية",
+          "مرحلة ثالثة من التعليم"
+        ],
+        "en": [
+          "Postsecondary education",
+          "Tertiary education",
+          "Third stage education",
+          "University education"
+        ],
+        "es": [
+          "Educación de tercer ciclo",
+          "Educación de tercer grado",
+          "Educación postsecundaria",
+          "Educación superior",
+          "Educación universitaria"
+        ],
+        "fr": [
+          "Enseignement de troisième degré",
+          "Enseignement de troisième niveau",
+          "Enseignement postsecondaire",
+          "Enseignement universitaire",
+          "Éducation postsecondaire"
+        ],
+        "ru": [
+          "Образование третьей ступени",
+          "Послесреднее образование",
+          "Третичное образование",
+          "Университетское образование"
+        ]
+      },
+      "broader": [
+        "concept36"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2026-04-17T11:52:01+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم عالي"
+        ],
+        "en": [
+          "Higher education"
+        ],
+        "es": [
+          "Enseñanza superior"
+        ],
+        "fr": [
+          "Enseignement supérieur"
+        ],
+        "ru": [
+          "Высшее образование"
+        ]
+      },
+      "related": [
+        "concept11831",
+        "concept1473",
+        "concept1524",
+        "concept45",
+        "concept6774",
+        "concept6782",
+        "concept69",
+        "concept71",
+        "concept7263"
+      ],
+      "scope_notes": {
+        "ar": [
+          "المرحلة التالية للتعليم الثانوي، بغض النظر عن مدة الدورة أو الشهادة الممنوحة."
+        ],
+        "en": [
+          "Stage following secondary education, regardless of course duration or certificate awarded."
+        ],
+        "es": [
+          "Etapa de la enseñanza que sucede al nivel secundario, sea cual sea la duración del curso o el certificado obtenido."
+        ],
+        "fr": [
+          "Etape de l'enseignement qui succède au niveau secondaire, quels que soient la durée du cours ou le certificat décerné."
+        ],
+        "ru": [
+          "Стадия, следующая за средним образованием, независимо от продолжительности курса обучения и выдаваемого сертификата."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1485",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1485",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم غير رسمي"
+        ],
+        "en": [
+          "Informal education"
+        ],
+        "es": [
+          "Educación informal"
+        ],
+        "fr": [
+          "Apprentissage non structuré",
+          "Éducation diffuse"
+        ],
+        "ru": [
+          "Повседневное обучение"
+        ]
+      },
+      "broader": [
+        "concept1488"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:34:05+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعلم غير رسمي"
+        ],
+        "en": [
+          "Informal learning"
+        ],
+        "es": [
+          "Aprendizaje informal"
+        ],
+        "fr": [
+          "Apprentissage informel"
+        ],
+        "ru": [
+          "Повседневное образование"
+        ]
+      },
+      "related": [
+        "concept1473"
+      ],
+      "scope_notes": {
+        "ar": [
+          "عملية التعلم التي تكون بشكل مستمر وعرضي لكل فرد، خارج الوضع المنظم للتعليم الرسمي أو غير الرسمي. لا تخلط بين \"التعليم غير النظامي\"."
+        ],
+        "en": [
+          "The process of learning which goes on continuously and incidentally for each individual, outside the organized situation of formal or nonformal education. Do not confuse with \"nonformal education\"."
+        ],
+        "es": [
+          "Proceso de aprendizaje que se desarrolla de manera continua e incidente en la vida de un individuo fuera de las estructuras organizadas de la educación formal y no formal. No confundir con \"educación no formal\"."
+        ],
+        "fr": [
+          "Processus d'apprentissage qui se développe de manière continue et incidente dans la vie d'un individu, en dehors des structures organisées de l'éducation formelle et non formelle. Ne pas confondre avec \"éducation non formelle\"."
+        ],
+        "ru": [
+          "Процесс непрерывного или случайного обучения каждого человека вне пределов организованной структуры формального или неформального образования. Не путать с термином \"Неформальное образование\"."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1486",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1486",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعلم مستمر",
+          "تعليم دائم",
+          "تعليم مدى الحياة",
+          "تعليم مستمر"
+        ],
+        "en": [
+          "Continuing education",
+          "Continuous learning",
+          "Lifelong education",
+          "Permanent education"
+        ],
+        "es": [
+          "Aprendizaje continuo",
+          "Educación continua",
+          "Educación permanente",
+          "Formación continua",
+          "Formación continuada"
+        ],
+        "fr": [
+          "Apprentissage continu",
+          "Apprentissage permanent",
+          "Éducation continue",
+          "Éducation permanente",
+          "Éducation tout au long de la vie"
+        ],
+        "ru": [
+          "Непрерывное обучение",
+          "Пожизненное образование",
+          "Пожизненное обучение",
+          "Постоянное образование",
+          "Продолжающееся образование"
+        ]
+      },
+      "broader": [
+        "concept40"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2021-11-03T12:03:26+00:00",
+      "narrower": [
+        "concept1486",
+        "concept9012"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعلم مدى الحياة"
+        ],
+        "en": [
+          "Lifelong learning"
+        ],
+        "es": [
+          "Aprendizaje a lo largo de la vida"
+        ],
+        "fr": [
+          "Apprentissage tout au long de la vie"
+        ],
+        "ru": [
+          "Обучение на протяжении всей жизни"
+        ]
+      },
+      "related": [
+        "concept1473",
+        "concept1493",
+        "concept17129"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1488",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1488",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثقيف خارج المدرسة",
+          "تعليم موازي"
+        ],
+        "en": [
+          "Parallel schooling"
+        ],
+        "es": [
+          "Educación paralela"
+        ],
+        "fr": [
+          "Éducation parallèle"
+        ],
+        "ru": [
+          "Параллельное обучение"
+        ]
+      },
+      "broader": [
+        "concept40"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2020-03-02T13:30:13+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم خارج المدرسة"
+        ],
+        "en": [
+          "Out of school education"
+        ],
+        "es": [
+          "Educación extraescolar"
+        ],
+        "fr": [
+          "Éducation extrascolaire"
+        ],
+        "ru": [
+          "Внешкольное образование"
+        ]
+      },
+      "related": [
+        "concept1282",
+        "concept1473"
+      ],
+      "scope_notes": {
+        "ar": [
+          "المؤسسات والبرامج والأنشطة الخاصة بالشباب غير الملتحقين بالمدارس و الأنشطة خارج نطاق المناهج الدراسية لمن هم في المدرسة."
+        ],
+        "en": [
+          "Institutions, programmes and activities for out of school youth and extra-curricular activities for those in school."
+        ],
+        "es": [
+          "Se refiere a las instituciones, programas y actividades para los jóvenes no escolarizados, y a las actividades paraescolares para los jóvenes escolarizados."
+        ],
+        "fr": [
+          "Institution, programme et activité pour les jeunes non scolarisés et activité parascolaire pour les jeunes scolarisés."
+        ],
+        "ru": [
+          "Учреждения, программы и сферы деятельности для молодежи, завершившей обучение, а также для обучения учащихся вне школьной программы."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1489",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1489",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم بدوام جزئي",
+          "دورات بدوام جزئي",
+          "دورات لبعض الوقت"
+        ],
+        "en": [
+          "Part time courses"
+        ],
+        "es": [
+          "Clase a tiempo parcial",
+          "Formación a tiempo parcial"
+        ],
+        "fr": [
+          "Cours à temps partiel",
+          "Formation à temps partiel"
+        ],
+        "ru": [
+          "Курсы неполного рабочего дня"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:03+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم لبعض الوقت"
+        ],
+        "en": [
+          "Part time education"
+        ],
+        "es": [
+          "Enseñanza a tiempo parcial"
+        ],
+        "fr": [
+          "Éducation à temps partiel"
+        ],
+        "ru": [
+          "Вечернее или заочное образование"
+        ]
+      },
+      "related": [
+        "concept1473",
+        "concept6666"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1490",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1490",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم في الريف"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:33:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم ريفي"
+        ],
+        "en": [
+          "Rural education"
+        ],
+        "es": [
+          "Educación rural"
+        ],
+        "fr": [
+          "Éducation rurale"
+        ],
+        "ru": [
+          "Сельское образование"
+        ]
+      },
+      "related": [
+        "concept1473",
+        "concept1482",
+        "concept1494",
+        "concept1519",
+        "concept1741",
+        "concept1755",
+        "concept37",
+        "concept9021",
+        "concept9888"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1491",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1491",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم خارجي"
+        ],
+        "en": [
+          "Extramural teaching"
+        ],
+        "es": [
+          "Formación universitaria extensiva"
+        ],
+        "fr": [
+          "Formation universitaire extra-muros",
+          "Éducation péri-universitaire"
+        ],
+        "ru": [
+          "Заочные или вечерние формы преподавания"
+        ]
+      },
+      "broader": [
+        "concept38"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T14:26:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توسع جامعي"
+        ],
+        "en": [
+          "University extension"
+        ],
+        "es": [
+          "Extensión universitaria"
+        ],
+        "fr": [
+          "Extension universitaire"
+        ],
+        "ru": [
+          "Университетские курсы для нестудентов"
+        ]
+      },
+      "related": [
+        "concept1473",
+        "concept1488",
+        "concept45"
+      ],
+      "scope_notes": {
+        "ar": [
+          "نشاط التوسع للجامعات التي تنظم دورات محلية قصيرة الأجل أو دورات بدوام جزئي في المواد الأكاديمية لتعليم الكبار بخلاف طلابها، وعادة ما تكون خارج نطاق الجامعة."
+        ],
+        "en": [
+          "Extension activity of universities organizing local short or part time courses in academic subjects to adults other than its students, usually away from the campus."
+        ],
+        "es": [
+          "Actividades universitarias, normalmente fuera del campus, dirigidas a estudiantes adultos que no siguen una formación regular, consistente en formaciones cortas o a tiempo parcial de las materias académicas"
+        ],
+        "fr": [
+          "Activité d'extension d'une université organisant des formations courtes ou à temps partiel dans des matières académiques, à l'intention d'adultes autres que ses étudiants réguliers, lesquelles se déroulent habituellement hors campus."
+        ],
+        "ru": [
+          "Дополнительная учебная деятельность университетов, состоящая в организации местных краткосрочных или с неполным рабочим днем курсов для обучения взрослых академическим дисциплинам, как правило, за пределами университетской территории."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1493",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1493",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثقيف المرأة"
+        ]
+      },
+      "broader": [
+        "concept37"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:34:54+00:00",
+      "narrower": [
+        "concept8980"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم المرأة"
+        ],
+        "en": [
+          "Womens education"
+        ],
+        "es": [
+          "Educación de la mujer"
+        ],
+        "fr": [
+          "Éducation des femmes"
+        ],
+        "ru": [
+          "Образование для женщин"
+        ]
+      },
+      "related": [
+        "concept10452",
+        "concept1137",
+        "concept1473",
+        "concept1480",
+        "concept1482",
+        "concept1491",
+        "concept7728"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1494",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1494",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Fundamental education"
+        ],
+        "es": [
+          "Educación fundamental"
+        ],
+        "fr": [
+          "Éducation fondamentale"
+        ],
+        "ru": [
+          "Фундаментальное образование"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم اساسي"
+        ],
+        "en": [
+          "Basic education"
+        ],
+        "es": [
+          "Educación básica"
+        ],
+        "fr": [
+          "Éducation de base"
+        ],
+        "ru": [
+          "Базовое образование"
+        ]
+      },
+      "related": [
+        "concept1518",
+        "concept1519",
+        "concept17061",
+        "concept3605",
+        "concept3606",
+        "concept3607",
+        "concept3608",
+        "concept3609",
+        "concept3610",
+        "concept3611",
+        "concept55",
+        "concept57",
+        "concept62"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مفهوم أوسع من التعليم الابتدائي، بما في ذلك التعليم في مرحلة الطفولة المبكرة، ومحو أمية الكبار، ومجموعة من الأنشطة غير الرسمية للأطفال والشباب والكبار."
+        ],
+        "en": [
+          "A broader concept than primary schooling, comprising early child education, adult literacy programmes, and a range of nonformal activities for children, young people and adults."
+        ],
+        "es": [
+          "Concepto más amplio que el de enseñanza primaria que comprende la educación de la primera infancia, la alfabetización de los adultos y una serie de actividades no formales destinadas a niños, jóvenes y adultos."
+        ],
+        "fr": [
+          "Concept plus vaste que celui d'enseignement primaire, comprenant l'éducation de la prime enfance, l'alphabétisation des adultes, un ensemble d'activités non-formelles destinées aux enfants, aux jeunes gens et aux adultes."
+        ],
+        "ru": [
+          "Более широкое понятие, чем начальное образование. Включает детское развитие, программы ликвидации неграмотности среди взрослого населения и другие неформальные мероприятия для детей, молодежи и взрослых."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3602",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3602",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم فاقدي البصر"
+        ],
+        "es": [
+          "Educación de invidentes"
+        ]
+      },
+      "broader": [
+        "concept17020"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:33:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم المكفوفين"
+        ],
+        "en": [
+          "Education of the blind"
+        ],
+        "es": [
+          "Educación de ciegos"
+        ],
+        "fr": [
+          "Éducation des aveugles"
+        ],
+        "ru": [
+          "Образование для слепых"
+        ]
+      },
+      "related": [
+        "concept3461",
+        "concept4135",
+        "concept4136",
+        "concept8697"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4137",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4137",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ابوة وامومة",
+          "تربية الاطفال",
+          "تنشئة",
+          "ممارسات تعليمية تقليدية"
+        ],
+        "en": [
+          "Parenting",
+          "Traditional educational practices",
+          "Upbringing"
+        ],
+        "es": [
+          "Práctica educativa tradicional"
+        ],
+        "fr": [
+          "Pratique éducatives traditionnelle"
+        ],
+        "ru": [
+          "Воспитание",
+          "Детское воспитание",
+          "Традиционная педагогическая практика"
+        ]
+      },
+      "broader": [
+        "concept5081"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنشئة الاطفال"
+        ],
+        "en": [
+          "Child rearing"
+        ],
+        "es": [
+          "Crianza del niño"
+        ],
+        "fr": [
+          "Éducation des enfants"
+        ],
+        "ru": [
+          "Воспитание детей"
+        ]
+      },
+      "related": [
+        "concept1469",
+        "concept1476",
+        "concept5055",
+        "concept5082",
+        "concept5083"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشير إلى مجموعة من الممارسات والعادات والمعتقدات الخاصة بالسياق الاجتماعي الثقافي."
+        ],
+        "en": [
+          "Refers to a set of culturally and socially determined practices, customs and beliefs."
+        ],
+        "es": [
+          "Se refiere a un conjunto de prácticas, costumbres y creencias propias a un grupo socio-cultural."
+        ],
+        "fr": [
+          "Se réfère à un ensemble de pratiques, coutumes et croyances spécifiques au contexte socio-culturel."
+        ],
+        "ru": [
+          "Относится к комплексу приемов, обычаев и убеждений, определенных культурой и обществом."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5057",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5057",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم قبل الابتدائي",
+          "تعليم ما قبل المدرسة",
+          "رعاية وتربية في مرحلة الطفولة المبكرة"
+        ],
+        "en": [
+          "ECCE",
+          "Early childhood care and education",
+          "Preprimary education",
+          "Preschool education"
+        ],
+        "es": [
+          "Educación preescolar",
+          "Educación preprimaria",
+          "Educación y cuidado infantil"
+        ],
+        "fr": [
+          "Éducation et soins de la petite enfance",
+          "Éducation préprimaire",
+          "Éducation préscolaire"
+        ],
+        "ru": [
+          "Дошкольное образование",
+          "Обучение детей младшего возраста и уход за ними",
+          "Первичное образование"
+        ]
+      },
+      "broader": [
+        "concept36"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-17T16:38:28+00:00",
+      "narrower": [
+        "concept17036",
+        "concept5057"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم في مرحلة الطفولة المبكرة"
+        ],
+        "en": [
+          "Early childhood education"
+        ],
+        "es": [
+          "Educación de la primera infancia"
+        ],
+        "fr": [
+          "Éducation de la prime enfance"
+        ],
+        "ru": [
+          "Раннее детское образование"
+        ]
+      },
+      "related": [
+        "concept1476",
+        "concept5082",
+        "concept5091",
+        "concept8681"
+      ],
+      "scope_notes": {
+        "ar": [
+          "من الولادة وحتى سن 8 سنوات. يشير إلى جميع جوانب نمو الطفل"
+        ],
+        "en": [
+          "From birth to the age of 8. It refers to all aspects of a child's development."
+        ],
+        "es": [
+          "Del nacimiento hasta 8 años. Se refiere a todos los aspectos del desarrollo infantil."
+        ],
+        "fr": [
+          "De la naissance jusqu'à l'âge de 8 ans. Se réfère à tous les aspects du développement de l'enfant."
+        ],
+        "ru": [
+          "От рождения до 8 лет",
+          "относится ко всем аспектам развития ребенка."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5081",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5081",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept40"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:34:13+00:00",
+      "narrower": [
+        "concept8241"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية اسرية"
+        ],
+        "en": [
+          "Family education"
+        ],
+        "es": [
+          "Educación familiar"
+        ],
+        "fr": [
+          "Éducation familiale"
+        ],
+        "ru": [
+          "Семейное образование"
+        ]
+      },
+      "related": [
+        "concept1482",
+        "concept435",
+        "concept5057",
+        "concept5081",
+        "concept8365"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التعليم داخل و من قبل الأسرة."
+        ],
+        "en": [
+          "Education within and by the family."
+        ],
+        "es": [
+          "Educación dentro y a través de la familia."
+        ],
+        "fr": [
+          "Éducation au sein de et par la famille."
+        ],
+        "ru": [
+          "Образование, осуществляемое внутри семьи и самой семьей."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5082",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5082",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حضانات نهارية",
+          "رعاية نهارية",
+          "رعاية نهارية اسرية"
+        ],
+        "en": [
+          "Daycare",
+          "Family daycare"
+        ],
+        "es": [
+          "Guardería familial"
+        ],
+        "fr": [
+          "Garde de jour",
+          "Garde en famille",
+          "Garderie"
+        ],
+        "ru": [
+          "Детские учреждения",
+          "Присмотр за детьми"
+        ]
+      },
+      "broader": [
+        "concept17036"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دور الحضانة النهارية"
+        ],
+        "en": [
+          "Day nurseries"
+        ],
+        "es": [
+          "Guardería infantil"
+        ],
+        "fr": [
+          "Crèche"
+        ],
+        "ru": [
+          "Дневные сады"
+        ]
+      },
+      "related": [
+        "concept3916",
+        "concept5083",
+        "concept5091",
+        "concept8681"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مراكز تقوم بالعناية بالأطفال الصغار أثناء عمل والديهم أو دراستهم، وقد تشمل الخدمات الصحية والعائلية."
+        ],
+        "en": [
+          "Centres where young children may be left to be cared for, while the parents are at work or study. May include health and family services."
+        ],
+        "es": [
+          "Centro donde se cuida a los párvulos mientras sus padres están en el trabajo o estudian. Puede incluír servicios de salud y de asistencia familiar."
+        ],
+        "fr": [
+          "Centre où des petits enfants peuvent être pris en charge pendant que leurs parents sont au travail ou étudient. Peut inclure des services de soins et d'aide familiale."
+        ],
+        "ru": [
+          "Центры присмотра за маленькими детьми, чьи родители работают или учатся",
+          "могут оказывать услуги здравоохранения и воспитания."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5089",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5089",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Enseñanza mixta"
+        ],
+        "fr": [
+          "Enseignement mixte"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:34:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم مختلط"
+        ],
+        "en": [
+          "Coeducation"
+        ],
+        "es": [
+          "Coeducación"
+        ],
+        "fr": [
+          "Coéducation"
+        ],
+        "ru": [
+          "Совместное обучение лиц обоего пола"
+        ]
+      },
+      "related": [
+        "concept29",
+        "concept5543"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5542",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5542",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثقيف جماهيري",
+          "تعليم جماعي"
+        ],
+        "es": [
+          "Educación de masas"
+        ]
+      },
+      "broader": [
+        "concept37"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-17T16:38:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم جماهيري"
+        ],
+        "en": [
+          "Mass education"
+        ],
+        "es": [
+          "Educación masiva"
+        ],
+        "fr": [
+          "Éducation de masse"
+        ],
+        "ru": [
+          "Массовое образование"
+        ]
+      },
+      "related": [
+        "concept1482",
+        "concept1546",
+        "concept1548",
+        "concept512",
+        "concept6465"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تعهد واسع النطاق يهدف إلى نشر المعلومات للتأثير على رأي الجمهور العام. يمكن أن تستخدم أيضًا فيما يتعلق بنشر الثقافة الشعبية."
+        ],
+        "en": [
+          "A large-scale undertaking aimed at disseminating information to influence the opinion of the general public. May also be used in relation to the propagation of popular culture."
+        ],
+        "es": [
+          "Operación de envergadura encaminada a la diseminación de información para influenciar a la opinión pública general. También puede ser utilizado en el contexto de la propagación de la cultura popular."
+        ],
+        "fr": [
+          "Opération d'envergure visant la dissémination d'information pour influencer l'opinion publique générale. Peut s'utiliser aussi dans le contexte de la diffusion de la culture populaire."
+        ],
+        "ru": [
+          "Крупномасштабное мероприятие, направленное на распространение информации в целях воздействия на мнение большинства населения",
+          "также может использоваться в связи с распространением популярной культуры."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5873",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5873",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:34:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم تعويضي"
+        ],
+        "en": [
+          "Compensatory education"
+        ],
+        "es": [
+          "Educación compensatoria"
+        ],
+        "fr": [
+          "Éducation compensatoire"
+        ],
+        "ru": [
+          "Компенсирующее образование"
+        ]
+      },
+      "related": [
+        "concept5916",
+        "concept5917"
+      ],
+      "scope_notes": {
+        "ar": [
+          "للطلاب المعاقين أو المحرومين."
+        ],
+        "en": [
+          "For deprived or disadvantaged students."
+        ],
+        "es": [
+          "Educación para estudiantes desaventajados o desfavorecidos."
+        ],
+        "fr": [
+          "Pour les étudiants handicapés ou défavorisés."
+        ],
+        "ru": [
+          "Для отстающих учащихся или учащихся с ограниченными возможностями."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5914",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5914",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Educación de deficientes auditivos"
+        ]
+      },
+      "broader": [
+        "concept17020"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T12:02:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم الصم"
+        ],
+        "en": [
+          "Education of the deaf"
+        ],
+        "es": [
+          "Educación de sordos"
+        ],
+        "fr": [
+          "Éducation des sourds"
+        ],
+        "ru": [
+          "Образование для глухих"
+        ]
+      },
+      "related": [
+        "concept7450",
+        "concept7453",
+        "concept7458",
+        "concept8697"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7454",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7454",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مدارس خاصة",
+          "مدارس ذات رسوم",
+          "مدارس غير مجانية",
+          "مدارس مستقلة"
+        ],
+        "en": [
+          "Fee paying schools",
+          "Independent schools",
+          "Private schools"
+        ],
+        "es": [
+          "Colegio de pago",
+          "Colegio privado",
+          "Enseñanza de pago",
+          "Escuela de pago",
+          "Escuela privada",
+          "Universidad de pago",
+          "Universidad privada"
+        ],
+        "fr": [
+          "Enseignement payant",
+          "École indépendante",
+          "École payante",
+          "École privée"
+        ],
+        "ru": [
+          "Независимые школы",
+          "Платные школы",
+          "Частные школы"
+        ]
+      },
+      "broader": [
+        "concept37"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:34:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم خاص"
+        ],
+        "en": [
+          "Private education"
+        ],
+        "es": [
+          "Enseñanza privada"
+        ],
+        "fr": [
+          "Enseignement privé"
+        ],
+        "ru": [
+          "Частное образование"
+        ]
+      },
+      "related": [
+        "concept5180",
+        "concept7703"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7627",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7627",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ارشاد منزلي"
+        ],
+        "en": [
+          "Home instruction",
+          "Homeschooling"
+        ],
+        "es": [
+          "Enseñanza en casa"
+        ],
+        "fr": [
+          "École à domicile",
+          "École à la maison"
+        ],
+        "ru": [
+          "Домашнее обучение"
+        ]
+      },
+      "broader": [
+        "concept5082"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2020-08-17T15:53:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم منزلي"
+        ],
+        "en": [
+          "Home education"
+        ],
+        "es": [
+          "Enseñanza a domicilio"
+        ],
+        "fr": [
+          "Enseignement à domicile"
+        ],
+        "ru": [
+          "Домашнее образование"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "يتم توفير التعليم إما كبديل للتعليم الرسمي أو للأشخاص المقيدين في المنزل."
+        ],
+        "en": [
+          "Schooling provided either as an alternative to formal education or for homebound persons."
+        ],
+        "es": [
+          "Enseñanza impartida como solución alternativa a la educación formal o impartida a personas confinadas en el hogar."
+        ],
+        "fr": [
+          "Enseignement dispensé comme solution alternative à l'éducation formelle ou donné à des personnes confinées à domicile."
+        ],
+        "ru": [
+          "Обучение, предоставляемое либо в качестве альтернативы формальному образованию, либо в качестве необходимости для лиц, не способных выходить из дома."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8241",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8241",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "التحاق الفتيات بالتعليم",
+          "تعليم الفتيات"
+        ],
+        "en": [
+          "Girls enrolment"
+        ],
+        "es": [
+          "Educación de las muchachas",
+          "Educación femenina"
+        ],
+        "fr": [
+          "Inscription des filles",
+          "Scolarisation des filles"
+        ],
+        "ru": [
+          "Зачисление девочек в учебные заведения"
+        ]
+      },
+      "broader": [
+        "concept1494"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T14:33:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم البنات"
+        ],
+        "en": [
+          "Girls education"
+        ],
+        "es": [
+          "Educación de chicas"
+        ],
+        "fr": [
+          "Éducation des filles"
+        ],
+        "ru": [
+          "Образование для девочек"
+        ]
+      },
+      "related": [
+        "concept10452",
+        "concept1137",
+        "concept5095"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8980",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8980",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم الاطفال المهاجرين",
+          "تعليم البدو",
+          "تعليم الرحل"
+        ],
+        "en": [
+          "Migrant child education",
+          "Nomad education"
+        ],
+        "es": [
+          "Educación de hijos de inmigrantes"
+        ],
+        "fr": [
+          "Éducation des enfants migrants",
+          "Éducation des nomades"
+        ],
+        "ru": [
+          "Образование для детей мигрантов",
+          "Образование для кочевников"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T12:03:47+00:00",
+      "narrower": [
+        "concept9077"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم المهاجرين"
+        ],
+        "en": [
+          "Migrant education"
+        ],
+        "es": [
+          "Educación de los inmigrantes"
+        ],
+        "fr": [
+          "Éducation des migrants"
+        ],
+        "ru": [
+          "Образование для мигрантов"
+        ]
+      },
+      "related": [
+        "concept11713",
+        "concept13125"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشير إلى تعليم العمال المهاجرين وعائلاتهم."
+        ],
+        "en": [
+          "Refers to the education of migrant workers and their families."
+        ],
+        "es": [
+          "Se refiere a la educación de los trabajadores inmigrantes y de sus familias."
+        ],
+        "fr": [
+          "Se réfère à l'éducation des travailleurs migrants et de leurs familles."
+        ],
+        "ru": [
+          "Используется по отношению к рабочим-мигрантам и их семьям."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8982",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8982",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم اسلامي"
+        ]
+      },
+      "broader": [
+        "concept9018"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:34:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تربية اسلامية"
+        ],
+        "en": [
+          "Islamic education"
+        ],
+        "es": [
+          "Educación islámica"
+        ],
+        "fr": [
+          "Éducation islamique"
+        ],
+        "ru": [
+          "Исламское образование"
+        ]
+      },
+      "related": [
+        "concept2348",
+        "concept7628"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8994",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8994",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم متكرر"
+        ],
+        "fr": [
+          "Formation récurrente",
+          "Éducation récurrente"
+        ]
+      },
+      "broader": [
+        "concept1488"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:24+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم متجدد"
+        ],
+        "en": [
+          "Recurrent education"
+        ],
+        "es": [
+          "Educación recurrente"
+        ],
+        "fr": [
+          "Formation continue"
+        ],
+        "ru": [
+          "Периодическая учеба"
+        ]
+      },
+      "related": [
+        "concept4674"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التجديد المهني الدوري، يختلف عن مفهوم أكثر عمومية للتعليم مدى الحياة."
+        ],
+        "en": [
+          "Periodic professional renewal, distinct from more general concept of lifelong education."
+        ],
+        "es": [
+          "Formación relacionada con la renovación profesional periódica. Distinguír del concepto más general de educación permanente."
+        ],
+        "fr": [
+          "Formation liée au renouvellement professionnel périodique. A distinguer du concept plus général d'éducation permanente."
+        ],
+        "ru": [
+          "Периодическая профессиональная учеба, отличная от более общей концепции пожизненного образования."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9012",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9012",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية تقليدية"
+        ]
+      },
+      "broader": [
+        "concept37"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:33:57+00:00",
+      "narrower": [
+        "concept8994"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم تقليدي"
+        ],
+        "en": [
+          "Traditional education"
+        ],
+        "es": [
+          "Educación tradicional"
+        ],
+        "fr": [
+          "Éducation traditionnelle"
+        ],
+        "ru": [
+          "Традиционное образование"
+        ]
+      },
+      "related": [
+        "concept16506",
+        "concept6960",
+        "concept7628"
+      ],
+      "scope_notes": {
+        "ar": [
+          "التعليم المقدم من المجتمع قبل أو بالتوازي مع إنشاء نظام التعليم الرسمي."
+        ],
+        "en": [
+          "That provided by societies before or alongside the introduction of a formal educational system."
+        ],
+        "es": [
+          "Educación impartida antes o al mismo tiempo que la puesta en marcha de un sistema de educación formal en una sociedad determinada."
+        ],
+        "fr": [
+          "Éducation dispensée par une société avant ou parallèlement à la mise en place d'un système d'éducation formelle."
+        ],
+        "ru": [
+          "Образование, предлагаемое в обществе до или параллельно с официальным образованием."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9018",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9018",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم في المناطق الحضرية"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:10+00:00",
+      "narrower": [
+        "concept17129"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم حضري"
+        ],
+        "en": [
+          "Urban education"
+        ],
+        "es": [
+          "Educación urbana"
+        ],
+        "fr": [
+          "Éducation urbaine"
+        ],
+        "ru": [
+          "Городское образование"
+        ]
+      },
+      "related": [
+        "concept1491",
+        "concept447"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9021",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9021",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept8982"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2022-05-10T14:48:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم اللاجئين"
+        ],
+        "en": [
+          "Refugee education"
+        ],
+        "es": [
+          "Enseñanza para refugiados"
+        ],
+        "fr": [
+          "Éducation des réfugiés"
+        ],
+        "ru": [
+          "Образование для беженцев"
+        ]
+      },
+      "related": [
+        "concept17139",
+        "concept8119"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9077",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9077",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم اساسي",
+          "تعليم اولي"
+        ],
+        "en": [
+          "Elementary education"
+        ],
+        "ru": [
+          "Элементарное образование"
+        ]
+      },
+      "broader": [
+        "concept36"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:26+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم ابتدائي"
+        ],
+        "en": [
+          "Primary education"
+        ],
+        "es": [
+          "Enseñanza primaria"
+        ],
+        "fr": [
+          "Enseignement primaire"
+        ],
+        "ru": [
+          "Начальное образование"
+        ]
+      },
+      "related": [
+        "concept11094",
+        "concept7255"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تستهدف الأطفال الذين تتراوح أعمارهم بين ٥-١١."
+        ],
+        "en": [
+          "From age five to eleven."
+        ],
+        "es": [
+          "De cinco a once años."
+        ],
+        "fr": [
+          "Destiné aux enfants de cinq à onze ans."
+        ],
+        "ru": [
+          "От пяти до одиннадцати лет."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9290",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9290",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept36"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:39+00:00",
+      "narrower": [
+        "concept9919",
+        "concept9921"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم ثانوي"
+        ],
+        "en": [
+          "Secondary education"
+        ],
+        "es": [
+          "Enseñanza secundaria"
+        ],
+        "fr": [
+          "Enseignement secondaire"
+        ],
+        "ru": [
+          "Среднее образование"
+        ]
+      },
+      "related": [
+        "concept11096",
+        "concept2126",
+        "concept7259",
+        "concept8293",
+        "concept9482"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9291",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9291",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم حكومي",
+          "تعليم رسمي",
+          "مدارس حكومية",
+          "مدارس رسمية",
+          "مدارس عامة"
+        ],
+        "en": [
+          "Public schools",
+          "State education",
+          "State schools"
+        ],
+        "es": [
+          "Colegio estatal",
+          "Colegio público",
+          "Escuela estatal",
+          "Escuela pública",
+          "Universidad estatal",
+          "Universidad pública"
+        ],
+        "fr": [
+          "École laïque",
+          "École publique",
+          "École étatique"
+        ],
+        "ru": [
+          "Государственные школы",
+          "Образование в государственном секторе",
+          "Школы государственного сектора"
+        ]
+      },
+      "broader": [
+        "concept37"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم عام"
+        ],
+        "en": [
+          "Public education"
+        ],
+        "es": [
+          "Enseñanza pública"
+        ],
+        "fr": [
+          "Enseignement public"
+        ],
+        "ru": [
+          "Государственное образование"
+        ]
+      },
+      "related": [
+        "concept1139"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9414",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9414",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية خلوية"
+        ],
+        "es": [
+          "Clases al aire libre"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم في الهواء الطلق"
+        ],
+        "en": [
+          "Outdoor education"
+        ],
+        "es": [
+          "Enseñanza al aire libre"
+        ],
+        "fr": [
+          "Enseignement en plein air"
+        ],
+        "ru": [
+          "Уроки на открытом воздухе"
+        ]
+      },
+      "related": [
+        "concept1282",
+        "concept1491",
+        "concept8692"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدام البيئة الخارجية لتعزيز التعلم التجريبي وإثراء المناهج الدراسية."
+        ],
+        "en": [
+          "Utilization of the outdoor environment to promote experiential learning and enrich the curriculum."
+        ],
+        "es": [
+          "Utilización del entorno exterior para promover el aprendizaje a través de la experiencia y enriquecer el programa de estudios."
+        ],
+        "fr": [
+          "Utilisation de l'environnement extérieur pour promouvoir l'apprentissage par l'expérience et enrichir le programme d'études."
+        ],
+        "ru": [
+          "Использование возможностей среды вне помещений для развития эмпирического обучения и пополнения учебного плана."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9888",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9888",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دراسات عامة"
+        ],
+        "en": [
+          "General studies"
+        ],
+        "es": [
+          "Estudios generales"
+        ],
+        "fr": [
+          "Études générales"
+        ],
+        "ru": [
+          "Изучение общих предметов"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:20+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم عام"
+        ],
+        "en": [
+          "General education"
+        ],
+        "es": [
+          "Enseñanza general"
+        ],
+        "fr": [
+          "Enseignement général"
+        ],
+        "ru": [
+          "Общее образование"
+        ]
+      },
+      "related": [
+        "concept56"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9891",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9891",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم اعدادي",
+          "تعليم متوسط"
+        ],
+        "en": [
+          "Intermediate education"
+        ],
+        "es": [
+          "Educación intermedia",
+          "Enseñanza intermedia"
+        ],
+        "fr": [
+          "Enseignement intermédiaire"
+        ],
+        "ru": [
+          "Неполное образование"
+        ]
+      },
+      "broader": [
+        "concept9291"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:34:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم ثانوي ادنى"
+        ],
+        "en": [
+          "Lower secondary education"
+        ],
+        "es": [
+          "Enseñanza secundaria (1er nivel)"
+        ],
+        "fr": [
+          "Enseignement secondaire (1er cycle)"
+        ],
+        "ru": [
+          "Первая ступень средней школы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9919",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9919",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم ثانوي اعلى",
+          "صف سادس في المدارس الثانوية"
+        ],
+        "en": [
+          "Sixth forms"
+        ],
+        "es": [
+          "Segundo ciclo de enseñanza secundaria"
+        ],
+        "fr": [
+          "Deuxième cycle de l'enseignement secondaire"
+        ],
+        "ru": [
+          "Шестые классы"
+        ]
+      },
+      "broader": [
+        "concept9291"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم ثانوي عالي"
+        ],
+        "en": [
+          "Upper secondary education"
+        ],
+        "es": [
+          "Enseñanza secundaria (2o nivel)"
+        ],
+        "fr": [
+          "Enseignement secondaire (2e cycle)"
+        ],
+        "ru": [
+          "Вторая ступень средней школы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9921",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9921",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعليم فني ومهني",
+          "تعليم وتدريب في المجال التقني والمهني"
+        ],
+        "en": [
+          "TVET",
+          "Technical and vocational education and training"
+        ],
+        "fr": [
+          "EFTP"
+        ],
+        "ru": [
+          "ТПО"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2020-01-06T11:13:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم تقني ومهني"
+        ],
+        "en": [
+          "Technical and vocational education"
+        ],
+        "es": [
+          "Enseñanza técnica y profesional"
+        ],
+        "fr": [
+          "Enseignement technique et professionnel"
+        ],
+        "ru": [
+          "Техническое и профессиональное образование"
+        ]
+      },
+      "related": [
+        "concept1829",
+        "concept70",
+        "concept71"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9927",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9927",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "خدمات تعليمية متنقلة",
+          "فصول دراسية متنقلة",
+          "مدارس متنقلة"
+        ],
+        "en": [
+          "Mobile classrooms",
+          "Mobile schools"
+        ],
+        "es": [
+          "Aula móvil",
+          "Escuela móvil",
+          "Servicio educacional itinerante"
+        ],
+        "fr": [
+          "Classe mobile",
+          "Salle de classe mobile",
+          "École mobile"
+        ],
+        "ru": [
+          "Мобильные учебные аудитории",
+          "Мобильные школы"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:34:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خدمات تربوية متنقلة"
+        ],
+        "en": [
+          "Mobile educational services"
+        ],
+        "es": [
+          "Servicio educativo itinerante"
+        ],
+        "fr": [
+          "Service éducatif itinérant"
+        ],
+        "ru": [
+          "Мобильные образовательные услуги"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11118",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11118",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تربية خاصة",
+          "تعليم المعاقين"
+        ],
+        "en": [
+          "Disabled education",
+          "Handicapped education",
+          "Special education"
+        ],
+        "es": [
+          "Educación de los incapacitados",
+          "Educación especializada",
+          "Educación infantil especial",
+          "Enseñanza especial",
+          "Pedagogía curativa"
+        ],
+        "fr": [
+          "Enseignement spécial",
+          "Pédagogie curative",
+          "Éducation de l'enfance en difficulté",
+          "Éducation de l'enfance exceptionnelle",
+          "Éducation des handicapés",
+          "Éducation spécialisée"
+        ],
+        "ru": [
+          "Образование для инвалидов",
+          "Образование для лиц с умственной или физической отсталостью",
+          "Специальное образование"
+        ]
+      },
+      "broader": [
+        "concept39"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:35:50+00:00",
+      "narrower": [
+        "concept4137",
+        "concept7454"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعليم ذوي الاحتياجات الخاصة"
+        ],
+        "en": [
+          "Special needs education"
+        ],
+        "es": [
+          "Educación especial"
+        ],
+        "fr": [
+          "Besoins éducatifs spéciaux"
+        ],
+        "ru": [
+          "Специальные образовательные потребности"
+        ]
+      },
+      "related": [
+        "concept17016",
+        "concept2122",
+        "concept8024",
+        "concept8089",
+        "concept8094"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تعليم الطلاب ذوي الاحتياجات التعليمية الخاصة مثل ذوي الإعاقة أو الذين يعانون من صعوبات في التعلم."
+        ],
+        "en": [
+          "Education of students with special learning needs such as those with disabilities or learning difficulties."
+        ],
+        "es": [
+          "Educación destinada a responder a las necesidades de estudiantes incapacitados o con dificultades de aprendizaje."
+        ],
+        "fr": [
+          "Éducation destinée à répondre aux besoins d'étudiants handicapés ou ceux ayant des difficultés d'apprentissage."
+        ],
+        "ru": [
+          "Образование для учащихся, испытывающих особые образовательные потребности, как, например, инвалиды или труднообучаемые."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17020",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17020",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حضانة",
+          "رعاية الاطفال"
+        ],
+        "es": [
+          "Puericultura"
+        ],
+        "fr": [
+          "Puériculture"
+        ]
+      },
+      "broader": [
+        "concept5081"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2019-12-15T13:33:09+00:00",
+      "narrower": [
+        "concept5089"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رعاية الطفل"
+        ],
+        "en": [
+          "Child care"
+        ],
+        "es": [
+          "Cuidado del niño"
+        ],
+        "fr": [
+          "Soins de l'enfant"
+        ],
+        "ru": [
+          "Забота о детях"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17036",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17036",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept9021"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.30"
+      ],
+      "modified": "2021-10-14T12:24:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مدن التعلم"
+        ],
+        "en": [
+          "Learning cities"
+        ],
+        "es": [
+          "Ciudades del aprendizaje"
+        ],
+        "fr": [
+          "Villes apprenantes"
+        ],
+        "ru": [
+          "Обучающиеся города"
+        ]
+      },
+      "related": [
+        "concept1488",
+        "concept439"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تحشد مدينة التعلم مواردها في كل قطاع لتعزيز التعلم الشامل من التعليم الأساسي إلى التعليم العالي لجميع سكانها ، وتعزز ثقافة التعلم طوال الحياة."
+        ],
+        "en": [
+          "A learning city mobilizes its resources in every sector to promote inclusive learning from basic to higher education for all its residents, and fosters a culture of learning throughout life."
+        ],
+        "es": [
+          "Una ciudad del aprendizaje moviliza sus recursos en todos los sectores para  la promoción de un aprendizaje inclusivo desde la educación básica a la superior, para todos, y fomenta una cultura de aprendizaje durante toda la vida."
+        ],
+        "fr": [
+          "Une ville apprenante mobilise ses ressources dans tous les secteurs pour favoriser un apprentissage inclusif, allant de l’éducation de base à l’enseignement supérieur, pour tous ses habitants, et favorise une culture de l’apprentissage tout au long de la vie."
+        ],
+        "ru": [
+          "Обучающийся город мобилизует свои ресурсы во всех областях в целях содействия инклюзивному обучению от базового до высшего образования для всех горожан и содействует формированию культуры обучения на протяжении всей жизни."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17129",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17129",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt1.30",
+    "labels": {
+      "en": "Educational systems and levels",
+      "fr": "Systèmes et niveaux d'enseignement"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt1.30"
+  }
+}

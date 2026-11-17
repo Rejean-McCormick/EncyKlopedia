@@ -1,0 +1,4589 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "تمويل"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:36+00:00",
+      "narrower": [
+        "concept10861",
+        "concept10862",
+        "concept10863",
+        "concept1187",
+        "concept1365",
+        "concept1896",
+        "concept3214",
+        "concept3571",
+        "concept4616",
+        "concept4618",
+        "concept4619",
+        "concept7246",
+        "concept7314",
+        "concept8815"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مالية"
+        ],
+        "en": [
+          "Finance"
+        ],
+        "es": [
+          "Finanzas"
+        ],
+        "fr": [
+          "Finances"
+        ],
+        "ru": [
+          "Финансы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept663",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept663",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:23:57+00:00",
+      "narrower": [
+        "concept13608",
+        "concept3534",
+        "concept3590",
+        "concept5657",
+        "concept5660",
+        "concept5706"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجارة"
+        ],
+        "en": [
+          "Trade"
+        ],
+        "es": [
+          "Comercio"
+        ],
+        "fr": [
+          "Commerce"
+        ],
+        "ru": [
+          "Торговля"
+        ]
+      },
+      "related": [
+        "concept5676",
+        "concept6380",
+        "concept6436"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept664",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept664",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اتفاقات سلعية"
+        ]
+      },
+      "broader": [
+        "concept5706"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:25:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اتفاقات السلع الاساسية"
+        ],
+        "en": [
+          "Commodity agreements"
+        ],
+        "es": [
+          "Acuerdos sobre mercancías"
+        ],
+        "fr": [
+          "Accord sur les produits de base"
+        ],
+        "ru": [
+          "Товарные соглашения"
+        ]
+      },
+      "related": [
+        "concept3534",
+        "concept5695",
+        "concept637"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1181",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1181",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1365"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:24:44+00:00",
+      "narrower": [
+        "concept1184",
+        "concept1185"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محاسبة"
+        ],
+        "en": [
+          "Accounting"
+        ],
+        "es": [
+          "Contabilidad"
+        ],
+        "fr": [
+          "Comptabilité"
+        ],
+        "ru": [
+          "Бухгалтерский учет"
+        ]
+      },
+      "related": [
+        "concept1187",
+        "concept1188",
+        "concept588"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1183",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1183",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل التكاليف",
+          "تقدير التكاليف",
+          "حساب التكاليف"
+        ],
+        "en": [
+          "Cost analysis",
+          "Costing"
+        ],
+        "es": [
+          "Análisis de costes",
+          "Contabilidad analítica",
+          "Evaluación de costes"
+        ],
+        "fr": [
+          "Analyse des coûts",
+          "Comptabilité analytique",
+          "Comptabilité des coûts",
+          "Évaluation des coûts"
+        ],
+        "ru": [
+          "Анализ затрат",
+          "Составление сметы затрат"
+        ]
+      },
+      "broader": [
+        "concept1183"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:24:42+00:00",
+      "narrower": [
+        "concept2206",
+        "concept6699",
+        "concept6700"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "محاسبة التكاليف"
+        ],
+        "en": [
+          "Cost accounting"
+        ],
+        "es": [
+          "Contabilidad de costes"
+        ],
+        "fr": [
+          "Calcul des coûts"
+        ],
+        "ru": [
+          "Ведение отчетности"
+        ]
+      },
+      "related": [
+        "concept2204"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1184",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1184",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ميزانيات عامة",
+          "ميزانيات عمومية"
+        ],
+        "en": [
+          "Balance sheets"
+        ],
+        "es": [
+          "Balance",
+          "Balance financiero",
+          "Estado de cuentas",
+          "Situación financiera"
+        ],
+        "fr": [
+          "Bilan",
+          "Bilan financier",
+          "Rapport financier"
+        ],
+        "ru": [
+          "Балансовые отчеты"
+        ]
+      },
+      "broader": [
+        "concept1183"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T09:00:45+00:00",
+      "narrower": [
+        "concept10893",
+        "concept6717"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بيانات مالية"
+        ],
+        "en": [
+          "Financial statements"
+        ],
+        "es": [
+          "Estado financiero"
+        ],
+        "fr": [
+          "État financier"
+        ],
+        "ru": [
+          "Финансовые отчеты"
+        ]
+      },
+      "related": [
+        "concept10894",
+        "concept6830"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1185",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1185",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:25:41+00:00",
+      "narrower": [
+        "concept4391"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميزانيات"
+        ],
+        "en": [
+          "Budgets"
+        ],
+        "es": [
+          "Presupuesto"
+        ],
+        "fr": [
+          "Budget"
+        ],
+        "ru": [
+          "Бюджеты"
+        ]
+      },
+      "related": [
+        "concept1183",
+        "concept4386"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1187",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1187",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدقيق مالي",
+          "مراجعة الحسابات",
+          "مراجعة الحسابات المالية"
+        ],
+        "es": [
+          "Control de las cuentas",
+          "Examen de la gestión económica",
+          "Revisión de las cuentas",
+          "Verificación contable",
+          "Verificación de las cuentas",
+          "Verificación de los estados financieros"
+        ],
+        "fr": [
+          "Audit des comptes",
+          "Contrôle des comptes",
+          "Révision des comptes",
+          "Vérification comptables",
+          "Vérification des comptes",
+          "Vérification des états financiers"
+        ]
+      },
+      "broader": [
+        "concept4391"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراجعة مالية"
+        ],
+        "en": [
+          "Financial audit"
+        ],
+        "es": [
+          "Auditoría financiera"
+        ],
+        "fr": [
+          "Contrôle financier"
+        ],
+        "ru": [
+          "Финансовый аудит"
+        ]
+      },
+      "related": [
+        "concept1183"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1188",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1188",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Financial management"
+        ],
+        "es": [
+          "Gestión financiera"
+        ],
+        "fr": [
+          "Gestion financière"
+        ],
+        "ru": [
+          "Финансовый менеджмент"
+        ]
+      },
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:26+00:00",
+      "narrower": [
+        "concept1183"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ادارة مالية"
+        ],
+        "en": [
+          "Financial administration"
+        ],
+        "es": [
+          "Administración financiera"
+        ],
+        "fr": [
+          "Administration financière"
+        ],
+        "ru": [
+          "Финансовое управление"
+        ]
+      },
+      "related": [
+        "concept1351",
+        "concept8815"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1365",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1365",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ترويج المبيعات"
+        ],
+        "en": [
+          "Sales promotion"
+        ],
+        "es": [
+          "Comercialización",
+          "Mercadotecnia",
+          "Promoción de ventas"
+        ],
+        "fr": [
+          "Marketing",
+          "Mise en marché",
+          "Promotion des ventes"
+        ],
+        "ru": [
+          "Продвижение сбыта"
+        ]
+      },
+      "broader": [
+        "concept13608"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:25:18+00:00",
+      "narrower": [
+        "concept17120",
+        "concept3325"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تسويق"
+        ],
+        "en": [
+          "Marketing"
+        ],
+        "es": [
+          "Marketing"
+        ],
+        "fr": [
+          "Commercialisation"
+        ],
+        "ru": [
+          "Маркетинг"
+        ]
+      },
+      "related": [
+        "concept1532",
+        "concept3402",
+        "concept5676",
+        "concept628"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1545",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1545",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ادخار"
+        ],
+        "fr": [
+          "Économies"
+        ]
+      },
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مدخرات"
+        ],
+        "en": [
+          "Savings"
+        ],
+        "es": [
+          "Ahorro"
+        ],
+        "fr": [
+          "Épargne"
+        ],
+        "ru": [
+          "Сбережения"
+        ]
+      },
+      "related": [
+        "concept3571",
+        "concept4616",
+        "concept4619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1896",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1896",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعانات الدولة",
+          "مساعدة الدولة",
+          "مساعدة حكومية",
+          "معونة حكومية"
+        ],
+        "en": [
+          "Government assistance"
+        ],
+        "es": [
+          "Asistencia gubernamental",
+          "Asistencia pública",
+          "Ayuda gubernamental",
+          "Ayuda pública"
+        ],
+        "fr": [
+          "Aide gouvernementale",
+          "Aide publique",
+          "Assistance publique"
+        ],
+        "ru": [
+          "Государственное содействие"
+        ]
+      },
+      "broader": [
+        "concept7656"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معونة الدولة"
+        ],
+        "en": [
+          "State aid"
+        ],
+        "es": [
+          "Ayuda estatal"
+        ],
+        "fr": [
+          "Aide de l'État"
+        ],
+        "ru": [
+          "Государственная помощь"
+        ]
+      },
+      "related": [
+        "concept1921",
+        "concept5090"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1913",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1913",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعادة التفاوض بشأن الدين",
+          "اعادة التفاوض على الدين",
+          "اعادة تمويل الدين",
+          "اعادة تنظيم الدين",
+          "اعادة جدولة الدين",
+          "تخفيف الدين",
+          "مبادلة الدين بالاسهم",
+          "مقايضة الدين بالاسهم",
+          "مقايضة الدين بتدابير لحفظ الطبيعة"
+        ],
+        "en": [
+          "Debt for equity swap",
+          "Debt for nature swap",
+          "Debt refinancing",
+          "Debt renegotiation",
+          "Debt reorganization",
+          "Debt rescheduling"
+        ],
+        "es": [
+          "Aligeramiento de la deuda",
+          "Conversión de la deuda",
+          "Rebaja de la deuda",
+          "Refinanciación de la deuda",
+          "Renegociación de la deuda",
+          "Reorganización de la deuda"
+        ],
+        "fr": [
+          "Conversion de la dette",
+          "Refinancement de la dette",
+          "Renégociation de la dette",
+          "Rééchelonnement de la dette",
+          "Échange dette-nature"
+        ],
+        "ru": [
+          "Долги в обмен на акции (принцип решения проблемы задолженности)",
+          "Долги в обмен на природные ресурсы (принцип решения проблемы задолженности)",
+          "Пересмотр долга",
+          "Пересмотр сроков выплаты долга",
+          "Реорганизация долга",
+          "Рефинансирование долга"
+        ]
+      },
+      "broader": [
+        "concept3527"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخفيف عبء الدين"
+        ],
+        "en": [
+          "Debt relief"
+        ],
+        "es": [
+          "Alivio de la deuda"
+        ],
+        "fr": [
+          "Allègement de la dette"
+        ],
+        "ru": [
+          "Помощь в решении проблемы внешней задолженности"
+        ]
+      },
+      "related": [
+        "concept7488"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم فيما يتعلق بالديون العامة الخارجية للبلاد."
+        ],
+        "en": [
+          "Use with respect to a country's external public debt."
+        ],
+        "es": [
+          "Se refiere a la deuda pública exterior de un país."
+        ],
+        "fr": [
+          "S'applique à la dette publique extérieure d'un pays."
+        ],
+        "ru": [
+          "Используется по отношению к внешнему государственному долгу страны."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2052",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2052",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بدلات"
+        ],
+        "en": [
+          "Allowances"
+        ],
+        "es": [
+          "Concesión",
+          "Indemnización"
+        ],
+        "fr": [
+          "Indemnisation"
+        ],
+        "ru": [
+          "Денежные пособия"
+        ]
+      },
+      "broader": [
+        "concept3571"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منح"
+        ],
+        "en": [
+          "Grants"
+        ],
+        "es": [
+          "Subsidio"
+        ],
+        "fr": [
+          "Allocation"
+        ],
+        "ru": [
+          "Гранты"
+        ]
+      },
+      "related": [
+        "concept10897",
+        "concept3210",
+        "concept3685"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2064",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2064",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1184"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فعالية التكاليف"
+        ],
+        "en": [
+          "Cost effectiveness"
+        ],
+        "es": [
+          "Análisis costes-eficiencia"
+        ],
+        "fr": [
+          "Analyse coût-efficacité"
+        ],
+        "ru": [
+          "Рентабельность"
+        ]
+      },
+      "related": [
+        "concept2204",
+        "concept6700",
+        "concept6702",
+        "concept6707"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2206",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2206",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حواجز التعريفات الجمركية",
+          "حواجز تعريفية",
+          "حواجز جمركية"
+        ],
+        "en": [
+          "Tariff barriers"
+        ],
+        "es": [
+          "Barrera aduanera",
+          "Impuesto aduanero",
+          "Impuesto arancelario",
+          "Obstáculo tarifario",
+          "Tarifa aduanera"
+        ],
+        "fr": [
+          "Barrière douanière",
+          "Barrière tarifaire",
+          "Obstacle tarifaire"
+        ],
+        "ru": [
+          "Тарифные барьеры"
+        ]
+      },
+      "broader": [
+        "concept7314"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:25:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تعريفات جمركية"
+        ],
+        "en": [
+          "Tariffs"
+        ],
+        "es": [
+          "Arancel"
+        ],
+        "fr": [
+          "Tarif douanier"
+        ],
+        "ru": [
+          "Тарифы"
+        ]
+      },
+      "related": [
+        "concept3534",
+        "concept5703",
+        "concept7316"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2666",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2666",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مال"
+        ],
+        "fr": [
+          "Somme d'argent"
+        ]
+      },
+      "broader": [
+        "concept4618"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نقود"
+        ],
+        "en": [
+          "Money"
+        ],
+        "es": [
+          "Dinero"
+        ],
+        "fr": [
+          "Argent"
+        ],
+        "ru": [
+          "Деньги"
+        ]
+      },
+      "related": [
+        "concept3570",
+        "concept4624",
+        "concept7246",
+        "concept7249"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2836",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2836",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نفقات عسكرية"
+        ],
+        "en": [
+          "Military spending"
+        ],
+        "ru": [
+          "Затраты на военные цели"
+        ]
+      },
+      "broader": [
+        "concept7656"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انفاق عسكري"
+        ],
+        "en": [
+          "Military expenditure"
+        ],
+        "es": [
+          "Gastos militares"
+        ],
+        "fr": [
+          "Dépense militaire"
+        ],
+        "ru": [
+          "Военные расходы"
+        ]
+      },
+      "related": [
+        "concept2870"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2878",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2878",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "شركات التأمين"
+        ],
+        "en": [
+          "Insurance companies"
+        ],
+        "es": [
+          "Aseguradora",
+          "Compañía de seguros",
+          "Sociedad de seguros"
+        ],
+        "fr": [
+          "Compagnie d'assurance",
+          "Société d'assurance"
+        ],
+        "ru": [
+          "Страховые компании"
+        ]
+      },
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:24:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تأمين"
+        ],
+        "en": [
+          "Insurance"
+        ],
+        "es": [
+          "Seguro"
+        ],
+        "fr": [
+          "Assurance"
+        ],
+        "ru": [
+          "Страхование"
+        ]
+      },
+      "related": [
+        "concept10861",
+        "concept3571",
+        "concept659"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3214",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3214",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ابحاث السوق",
+          "بحوث السوق",
+          "بحوث سوقية",
+          "دراسات استقصائية للاسواق",
+          "دراسات السوق",
+          "دراسات سوقية",
+          "مسوح السوق"
+        ],
+        "en": [
+          "Market studies",
+          "Market surveys"
+        ],
+        "es": [
+          "Análisis de mercado",
+          "Investigación de mercado"
+        ],
+        "fr": [
+          "Analyse du marché",
+          "Enquête de marché"
+        ],
+        "ru": [
+          "Изучение рынков",
+          "Рыночные обзоры"
+        ]
+      },
+      "broader": [
+        "concept1545"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحوث السوق"
+        ],
+        "en": [
+          "Market research"
+        ],
+        "es": [
+          "Estudio de mercado"
+        ],
+        "fr": [
+          "Étude de marché"
+        ],
+        "ru": [
+          "Исследование рынков"
+        ]
+      },
+      "related": [
+        "concept10308",
+        "concept1538",
+        "concept374",
+        "concept464",
+        "concept6377"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3325",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3325",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استيراد",
+          "تصدير"
+        ],
+        "en": [
+          "Exportation",
+          "Importation"
+        ],
+        "es": [
+          "Exportaciones",
+          "Importaciones"
+        ],
+        "fr": [
+          "Balance du commerce",
+          "Exportations",
+          "Importations"
+        ],
+        "ru": [
+          "Ввоз",
+          "Вывоз"
+        ]
+      },
+      "broader": [
+        "concept5706"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميزان تجاري"
+        ],
+        "en": [
+          "Balance of trade"
+        ],
+        "es": [
+          "Balanza comercial"
+        ],
+        "fr": [
+          "Balance commerciale"
+        ],
+        "ru": [
+          "Торговый баланс"
+        ]
+      },
+      "related": [
+        "concept3521",
+        "concept3533",
+        "concept3534",
+        "concept3535"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3519",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3519",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept7248"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:23:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميزان المدفوعات"
+        ],
+        "en": [
+          "Balance of payments"
+        ],
+        "es": [
+          "Balanza de pagos"
+        ],
+        "fr": [
+          "Balance des paiements"
+        ],
+        "ru": [
+          "Платежный баланс"
+        ]
+      },
+      "related": [
+        "concept1826",
+        "concept3519",
+        "concept3524",
+        "concept3525",
+        "concept3526",
+        "concept3527"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3521",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3521",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تخفيض العملة"
+        ]
+      },
+      "broader": [
+        "concept7249"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:37:03+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خفض قيمة العملة"
+        ],
+        "en": [
+          "Currency devaluation"
+        ],
+        "es": [
+          "Devaluación monetaria"
+        ],
+        "fr": [
+          "Dévaluation de la monnaie"
+        ],
+        "ru": [
+          "Девальвация валюты"
+        ]
+      },
+      "related": [
+        "concept3521",
+        "concept7246"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3524",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3524",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اسعار صرف العملات"
+        ]
+      },
+      "broader": [
+        "concept4943"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اسعار الصرف"
+        ],
+        "en": [
+          "Exchange rates"
+        ],
+        "es": [
+          "Tipo de cambio"
+        ],
+        "fr": [
+          "Taux de change"
+        ],
+        "ru": [
+          "Обменные курсы"
+        ]
+      },
+      "related": [
+        "concept3521",
+        "concept3526"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3525",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3525",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3534"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:24:55+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "صادرات/واردات"
+        ],
+        "en": [
+          "Exports/imports"
+        ],
+        "es": [
+          "Exportación/importación"
+        ],
+        "fr": [
+          "Exportation/importation"
+        ],
+        "ru": [
+          "Экспорт/импорт"
+        ]
+      },
+      "related": [
+        "concept3521",
+        "concept3525",
+        "concept3535"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3526",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3526",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ازمة الدين",
+          "مديونية"
+        ],
+        "en": [
+          "Debt crisis",
+          "Indebtedness"
+        ],
+        "es": [
+          "Deuda exterior"
+        ],
+        "fr": [
+          "Crise de la dette",
+          "Endettement"
+        ],
+        "ru": [
+          "Долговой кризис",
+          "Задолженность"
+        ]
+      },
+      "broader": [
+        "concept7496"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:35+00:00",
+      "narrower": [
+        "concept2052",
+        "concept7488"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دين خارجي"
+        ],
+        "en": [
+          "External debt"
+        ],
+        "es": [
+          "Deuda externa"
+        ],
+        "fr": [
+          "Dette extérieure"
+        ],
+        "ru": [
+          "Внешний долг"
+        ]
+      },
+      "related": [
+        "concept3521",
+        "concept6830"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3527",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3527",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تجارة خارجية",
+          "تجارة عالمية"
+        ],
+        "en": [
+          "Foreign trade",
+          "World trade"
+        ],
+        "es": [
+          "Comercio exterior",
+          "Comercio mundial",
+          "Comercio transfronterizo"
+        ],
+        "fr": [
+          "Commerce extérieur",
+          "Commerce mondial"
+        ],
+        "ru": [
+          "Внешняя торговля",
+          "Мировая торговля"
+        ]
+      },
+      "broader": [
+        "concept664"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:06+00:00",
+      "narrower": [
+        "concept12857",
+        "concept3526",
+        "concept3535"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجارة دولية"
+        ],
+        "en": [
+          "International trade"
+        ],
+        "es": [
+          "Comercio internacional"
+        ],
+        "fr": [
+          "Commerce international"
+        ],
+        "ru": [
+          "Международная торговля"
+        ]
+      },
+      "related": [
+        "concept1181",
+        "concept17046",
+        "concept2666",
+        "concept3519",
+        "concept5706",
+        "concept7316"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3534",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3534",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "شروط التبادل التجاري"
+        ]
+      },
+      "broader": [
+        "concept3534"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معدلات التبادل التجاري"
+        ],
+        "en": [
+          "Terms of trade"
+        ],
+        "es": [
+          "Relación de intercambio"
+        ],
+        "fr": [
+          "Termes de l'échange"
+        ],
+        "ru": [
+          "Условия торговли"
+        ]
+      },
+      "related": [
+        "concept1803",
+        "concept3519",
+        "concept3526"
+      ],
+      "scope_notes": {
+        "ar": [
+          "نسبة التصدير إلى أسعار استيراد المنتجات المشاركة في التجارة الدولية لبلد أو منطقة معينة. يمكن أيضا أن تستخدم بصورة موسعة فيما يتعلق بالتجارة بين المناطق داخل البلد الواحد، كالمناطق الحضرية أو الريفية."
+        ],
+        "en": [
+          "The ratio of export to import prices of the products involved in a given country or region's international trade. May also be used by extension with respect to trade between areas within a country, such as urban or rural areas."
+        ],
+        "es": [
+          "Relación entre los precios de las exportaciones y de las importaciones de los productos de un país o de una región que participan del comercio internacional. Por extensión, puede utilizarse también para referirse al comercio entre zonas de un mismo país, tales como las regiones urbanas o rurales."
+        ],
+        "fr": [
+          "Rapport entre les prix à l'export et les prix à l'import des produits lancés dans le commerce international d'un pays ou d'une région donnée. Peut aussi, par extension, être utilisé en rapport avec le commerce entre régions d'un même pays, tels que les régions urbaines ou rurales."
+        ],
+        "ru": [
+          "Соотношение экспортных и импортных цен на товары, находящиеся во внешнеторговом обороте страны или региона. Может также использоваться в более широком смысле в отношении торгового оборота между регионами в пределах одной страны, например, между городскими и сельскими районами."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3535",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3535",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعمال مصرفية",
+          "مصارف",
+          "معاملات مصرفية"
+        ],
+        "en": [
+          "Banking"
+        ],
+        "es": [
+          "Caja de ahorros",
+          "Operación bancaria"
+        ],
+        "fr": [
+          "Caisse d'épargne",
+          "Opération bancaire"
+        ],
+        "ru": [
+          "Банковское дело"
+        ]
+      },
+      "broader": [
+        "concept10861"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بنوك"
+        ],
+        "en": [
+          "Banks"
+        ],
+        "es": [
+          "Banco"
+        ],
+        "fr": [
+          "Banque"
+        ],
+        "ru": [
+          "Банки"
+        ]
+      },
+      "related": [
+        "concept3570",
+        "concept3571",
+        "concept3572",
+        "concept659"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3560",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3560",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Préstamo bancario"
+        ]
+      },
+      "broader": [
+        "concept3571"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:23:35+00:00",
+      "narrower": [
+        "concept6829"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ائتمان"
+        ],
+        "en": [
+          "Credit"
+        ],
+        "es": [
+          "Crédito"
+        ],
+        "fr": [
+          "Crédit"
+        ],
+        "ru": [
+          "Кредит"
+        ]
+      },
+      "related": [
+        "concept2836",
+        "concept3560",
+        "concept3572",
+        "concept6830"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3570",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3570",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Financiamiento"
+        ]
+      },
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:23:45+00:00",
+      "narrower": [
+        "concept10897",
+        "concept2064",
+        "concept3570",
+        "concept3572",
+        "concept4374"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تمويل"
+        ],
+        "en": [
+          "Financing"
+        ],
+        "es": [
+          "Financiación"
+        ],
+        "fr": [
+          "Financement"
+        ],
+        "ru": [
+          "Финансирование"
+        ]
+      },
+      "related": [
+        "concept10861",
+        "concept1896",
+        "concept1921",
+        "concept3214",
+        "concept3560",
+        "concept4616",
+        "concept4619",
+        "concept6830"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3571",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3571",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3571"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:25:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قروض"
+        ],
+        "en": [
+          "Loans"
+        ],
+        "es": [
+          "Préstamo"
+        ],
+        "fr": [
+          "Prêt"
+        ],
+        "ru": [
+          "Займы"
+        ]
+      },
+      "related": [
+        "concept3210",
+        "concept3560",
+        "concept3570",
+        "concept6829",
+        "concept6830"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3572",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3572",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept664"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:23:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقايضة"
+        ],
+        "en": [
+          "Barter"
+        ],
+        "es": [
+          "Trueque"
+        ],
+        "fr": [
+          "Troc"
+        ],
+        "ru": [
+          "Бартер"
+        ]
+      },
+      "related": [
+        "concept3592"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3590",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3590",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تبرعات",
+          "تبرعات معلنة",
+          "جمع الاموال",
+          "مساهمات طوعية",
+          "مساهمات في الميزانية"
+        ],
+        "en": [
+          "Fundraising",
+          "Pledges",
+          "Voluntary contributions"
+        ],
+        "es": [
+          "Campaña de financiación",
+          "Recaudación de fondos"
+        ],
+        "fr": [
+          "Campagne de financement",
+          "Collecte de fonds",
+          "Contribution annoncée",
+          "Contribution volontaire"
+        ],
+        "ru": [
+          "Добровольные платежи",
+          "Мероприятия по привлечению средств в бюджет",
+          "Обязательства"
+        ]
+      },
+      "broader": [
+        "concept3571"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مساهمات الميزانية"
+        ],
+        "en": [
+          "Budget contributions"
+        ],
+        "es": [
+          "Contribución presupuestaria"
+        ],
+        "fr": [
+          "Contribution budgétaire"
+        ],
+        "ru": [
+          "Бюджетные поступления"
+        ]
+      },
+      "related": [],
+      "scope_notes": {
+        "ar": [
+          "يشمل كلا من المدفوعات الطوعية والإيصالات الإلزامية."
+        ],
+        "en": [
+          "Includes both voluntary and assessed contributions."
+        ],
+        "es": [
+          "Se refiere tanto a las contribuciones voluntarias como a las contribuciones obligatorias."
+        ],
+        "fr": [
+          "Se réfère tant à la contribution volontaire qu'à la contribution obligatoire."
+        ],
+        "ru": [
+          "Включает как добровольные платежи, так и обязательные поступления."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4374",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4374",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ميزانية وطنية"
+        ],
+        "en": [
+          "National budget"
+        ],
+        "es": [
+          "Presupuesto nacional"
+        ],
+        "fr": [
+          "Budget national"
+        ],
+        "ru": [
+          "Национальный бюджет"
+        ]
+      },
+      "broader": [
+        "concept10863"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:24:21+00:00",
+      "narrower": [
+        "concept7496"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ميزانية الدولة"
+        ],
+        "en": [
+          "State budget"
+        ],
+        "es": [
+          "Presupuesto del Estado"
+        ],
+        "fr": [
+          "Budget de l'État"
+        ],
+        "ru": [
+          "Государственный бюджет"
+        ]
+      },
+      "related": [
+        "concept10862",
+        "concept1187"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4386",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4386",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعداد الميزانية",
+          "رقابة على الميزانية",
+          "ميزنة",
+          "وضع الميزانية"
+        ],
+        "en": [
+          "Budgeting"
+        ],
+        "fr": [
+          "Budgétisation"
+        ],
+        "ru": [
+          "Составление бюджета"
+        ]
+      },
+      "broader": [
+        "concept1187"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:27+00:00",
+      "narrower": [
+        "concept1188"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراقبة الميزانية"
+        ],
+        "en": [
+          "Budgetary control"
+        ],
+        "es": [
+          "Control presupuestario"
+        ],
+        "fr": [
+          "Contrôle budgétaire"
+        ],
+        "ru": [
+          "Бюджетный контроль"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4391",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4391",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:23:58+00:00",
+      "narrower": [
+        "concept4617"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رأس المال"
+        ],
+        "en": [
+          "Capital"
+        ],
+        "es": [
+          "Capital"
+        ],
+        "fr": [
+          "Capital"
+        ],
+        "ru": [
+          "Капитал"
+        ]
+      },
+      "related": [
+        "concept1896",
+        "concept1921",
+        "concept3571",
+        "concept4618",
+        "concept4619",
+        "concept4620"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4616",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4616",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Circulación de capitales",
+          "Flujo de capitales"
+        ],
+        "fr": [
+          "Circulation de capitaux",
+          "Flux de capitaux"
+        ]
+      },
+      "broader": [
+        "concept4616"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:35+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تدفق رأس المال"
+        ],
+        "en": [
+          "Capital flow"
+        ],
+        "es": [
+          "Movimiento de capitales"
+        ],
+        "fr": [
+          "Mouvement de capitaux"
+        ],
+        "ru": [
+          "Потоки капитала"
+        ]
+      },
+      "related": [
+        "concept4624"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4617",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4617",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Medios financieros"
+        ],
+        "fr": [
+          "Moyens financiers"
+        ]
+      },
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:12+00:00",
+      "narrower": [
+        "concept2836",
+        "concept4624",
+        "concept6830"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "موارد مالية"
+        ],
+        "en": [
+          "Financial resources"
+        ],
+        "es": [
+          "Recursos financieros"
+        ],
+        "fr": [
+          "Ressources financières"
+        ],
+        "ru": [
+          "Финансовые ресурсы"
+        ]
+      },
+      "related": [
+        "concept10891",
+        "concept4616",
+        "concept8767",
+        "concept9166"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4618",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4618",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Mise de fonds",
+          "Placement"
+        ]
+      },
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:25:47+00:00",
+      "narrower": [
+        "concept10884"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استثمار"
+        ],
+        "en": [
+          "Investment"
+        ],
+        "es": [
+          "Inversión"
+        ],
+        "fr": [
+          "Investissement"
+        ],
+        "ru": [
+          "Инвестиции"
+        ]
+      },
+      "related": [
+        "concept1896",
+        "concept3571",
+        "concept4616"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4619",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4619",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4618"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:23:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سيولة"
+        ],
+        "en": [
+          "Liquidity"
+        ],
+        "es": [
+          "Liquidez"
+        ],
+        "fr": [
+          "Liquidité"
+        ],
+        "ru": [
+          "Ликвидность"
+        ]
+      },
+      "related": [
+        "concept2836",
+        "concept4617"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4624",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4624",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نقد اجنبي"
+        ],
+        "fr": [
+          "Échange de devises"
+        ]
+      },
+      "broader": [
+        "concept7248"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:25:16+00:00",
+      "narrower": [
+        "concept3525"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عملات اجنبية"
+        ],
+        "en": [
+          "Foreign exchange"
+        ],
+        "es": [
+          "Divisa"
+        ],
+        "fr": [
+          "Change"
+        ],
+        "ru": [
+          "Иностранная валюта"
+        ]
+      },
+      "related": [
+        "concept7246"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4943",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4943",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معاملات تجارية الكترونية"
+        ],
+        "en": [
+          "E-commerce"
+        ],
+        "es": [
+          "Cibercomercio",
+          "Comercio en línea",
+          "Tienda virtual"
+        ],
+        "fr": [
+          "Commerce en ligne",
+          "Commerce sur Internet",
+          "Commerce virtuel",
+          "Cybercommerce"
+        ],
+        "ru": [
+          "Э-коммерция"
+        ]
+      },
+      "broader": [
+        "concept664"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجارة الكترونية"
+        ],
+        "en": [
+          "Electronic commerce"
+        ],
+        "es": [
+          "Comercio electrónico"
+        ],
+        "fr": [
+          "Commerce électronique"
+        ],
+        "ru": [
+          "Электронная коммерция"
+        ]
+      },
+      "related": [
+        "concept17067"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5657",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5657",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تجارة محلية"
+        ],
+        "es": [
+          "Comercio interior"
+        ],
+        "fr": [
+          "Échanges intérieurs"
+        ]
+      },
+      "broader": [
+        "concept664"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:25:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجارة داخلية"
+        ],
+        "en": [
+          "Domestic trade"
+        ],
+        "es": [
+          "Comercio interno"
+        ],
+        "fr": [
+          "Commerce intérieur"
+        ],
+        "ru": [
+          "Внутренняя торговля"
+        ]
+      },
+      "related": [
+        "concept659"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5660",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5660",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5706"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجارة حرة"
+        ],
+        "en": [
+          "Free trade"
+        ],
+        "es": [
+          "Libre comercio"
+        ],
+        "fr": [
+          "Libre-échange"
+        ],
+        "ru": [
+          "Свободная торговля"
+        ]
+      },
+      "related": [
+        "concept5701",
+        "concept5703",
+        "concept7316",
+        "concept8769"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5704",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5704",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سياسات تجارية",
+          "سياسة تجارية"
+        ],
+        "en": [
+          "Commercial policy"
+        ],
+        "ru": [
+          "Политика в области коммерции"
+        ]
+      },
+      "broader": [
+        "concept664"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:29+00:00",
+      "narrower": [
+        "concept1181",
+        "concept3519",
+        "concept5704",
+        "concept7316"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة التجارة"
+        ],
+        "en": [
+          "Trade policy"
+        ],
+        "es": [
+          "Política comercial"
+        ],
+        "fr": [
+          "Politique commerciale"
+        ],
+        "ru": [
+          "Торговая политика"
+        ]
+      },
+      "related": [
+        "concept1800",
+        "concept3534",
+        "concept5701",
+        "concept582"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5706",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5706",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept10308"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:24:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منافسة اقتصادية"
+        ],
+        "en": [
+          "Economic competition"
+        ],
+        "es": [
+          "Competencia económica"
+        ],
+        "fr": [
+          "Concurrence économique"
+        ],
+        "ru": [
+          "Экономическая конкуренция"
+        ]
+      },
+      "related": [
+        "concept8763"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5925",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5925",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مستخدمون"
+        ],
+        "en": [
+          "Users"
+        ],
+        "es": [
+          "Comprador",
+          "Usuario"
+        ],
+        "fr": [
+          "Utilisateur"
+        ],
+        "ru": [
+          "Пользователи"
+        ]
+      },
+      "broader": [
+        "concept10308"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:06+00:00",
+      "narrower": [
+        "concept6424"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مستهلكون"
+        ],
+        "en": [
+          "Consumers"
+        ],
+        "es": [
+          "Consumidor"
+        ],
+        "fr": [
+          "Consommateur"
+        ],
+        "ru": [
+          "Потребители"
+        ]
+      },
+      "related": [
+        "concept1475",
+        "concept17047",
+        "concept3325",
+        "concept5951",
+        "concept6380"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6377",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6377",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept6377"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حماية المستهلك"
+        ],
+        "en": [
+          "Consumer protection"
+        ],
+        "es": [
+          "Protección del consumidor"
+        ],
+        "fr": [
+          "Protection du consommateur"
+        ],
+        "ru": [
+          "Защита потребителя"
+        ]
+      },
+      "related": [
+        "concept1475",
+        "concept6380"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6424",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6424",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تخفيض النفقات",
+          "تقليل التكاليف",
+          "خفض التكاليف",
+          "خفض النفقات"
+        ],
+        "en": [
+          "Expenditure cuts"
+        ],
+        "es": [
+          "Disminución de costes",
+          "Disminución de gastos",
+          "Reducción de gastos"
+        ],
+        "fr": [
+          "Baisse du coût",
+          "Compression des dépenses",
+          "Diminution des dépenses",
+          "Réduction des dépenses"
+        ],
+        "ru": [
+          "Сокращение расходов"
+        ]
+      },
+      "broader": [
+        "concept1184"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تخفيض التكاليف"
+        ],
+        "en": [
+          "Cost reduction"
+        ],
+        "es": [
+          "Reducción de costes"
+        ],
+        "fr": [
+          "Réduction du coût"
+        ],
+        "ru": [
+          "Снижение затрат"
+        ]
+      },
+      "related": [
+        "concept6700",
+        "concept6717"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6699",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6699",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1184"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تكاليف"
+        ],
+        "en": [
+          "Costs"
+        ],
+        "es": [
+          "Costes"
+        ],
+        "fr": [
+          "Coût"
+        ],
+        "ru": [
+          "Издержки"
+        ]
+      },
+      "related": [
+        "concept1804",
+        "concept2206",
+        "concept6699",
+        "concept6708",
+        "concept6717"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6700",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6700",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "انفاق"
+        ],
+        "es": [
+          "Pérdidas"
+        ]
+      },
+      "broader": [
+        "concept1185"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:24:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نفقات"
+        ],
+        "en": [
+          "Expenditure"
+        ],
+        "es": [
+          "Gasto"
+        ],
+        "fr": [
+          "Dépense"
+        ],
+        "ru": [
+          "Расходы"
+        ]
+      },
+      "related": [
+        "concept6699",
+        "concept6700"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6717",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6717",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تمويل بالغ الصغر",
+          "قروض صغيرة"
+        ],
+        "en": [
+          "Microfinance"
+        ],
+        "es": [
+          "Microfinanciación",
+          "Microfinanciamiento"
+        ],
+        "fr": [
+          "Microfinance"
+        ],
+        "ru": [
+          "Микрофинансы"
+        ]
+      },
+      "broader": [
+        "concept3570"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:25:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ائتمانات صغيرة"
+        ],
+        "en": [
+          "Microcredit"
+        ],
+        "es": [
+          "Microcrédito"
+        ],
+        "fr": [
+          "Microcrédit"
+        ],
+        "ru": [
+          "Микрокредит"
+        ]
+      },
+      "related": [
+        "concept10861",
+        "concept1492",
+        "concept2041",
+        "concept3572",
+        "concept8118",
+        "concept9673"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دعم مالي مناسب على نطاق صغير من أجل تخفيف حدة الفقر."
+        ],
+        "en": [
+          "Appropriate small-scale financial support for poverty alleviation."
+        ],
+        "es": [
+          "Apoyo financiero apropiado, concebido a pequeña escala, para el alivio de la pobreza."
+        ],
+        "fr": [
+          "Support financier approprié, conçu à petite échelle, pour alléger la pauvreté."
+        ],
+        "ru": [
+          "Финансовая поддержка в малых размерах для борьбы с бедностью."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6829",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6829",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "التزامات (الاقتصاد)",
+          "خصوم (الاقتصاد)"
+        ],
+        "en": [
+          "Liabilities (economic)"
+        ],
+        "fr": [
+          "Obligations",
+          "Passif"
+        ],
+        "ru": [
+          "Денежные обязательства (экономические)"
+        ]
+      },
+      "broader": [
+        "concept4618"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ديون"
+        ],
+        "en": [
+          "Debts"
+        ],
+        "es": [
+          "Deuda"
+        ],
+        "fr": [
+          "Dette"
+        ],
+        "ru": [
+          "Долги"
+        ]
+      },
+      "related": [
+        "concept1185",
+        "concept3527",
+        "concept3570",
+        "concept3571",
+        "concept3572",
+        "concept7496"
+      ],
+      "scope_notes": {
+        "ar": [
+          "عند الضرورة، استخدم واصفة أكثر دقة."
+        ],
+        "en": [
+          "Use more specific descriptor where appropriate."
+        ],
+        "es": [
+          "Utilizar un descriptor más preciso cuando sea necesario."
+        ],
+        "fr": [
+          "Utiliser un terme plus précis quand c'est pertinent."
+        ],
+        "ru": [
+          "В необходимых случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6830",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6830",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:24:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عملات"
+        ],
+        "en": [
+          "Currencies"
+        ],
+        "es": [
+          "Moneda"
+        ],
+        "fr": [
+          "Monnaie"
+        ],
+        "ru": [
+          "Валюты"
+        ]
+      },
+      "related": [
+        "concept2836",
+        "concept3524",
+        "concept4943",
+        "concept7248",
+        "concept7249"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7246",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7246",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تمويل دولي",
+          "مالية دولية"
+        ],
+        "en": [
+          "International finance"
+        ],
+        "es": [
+          "Finanzas internacionales"
+        ],
+        "fr": [
+          "Finance international"
+        ],
+        "ru": [
+          "Международные финансы"
+        ]
+      },
+      "broader": [
+        "concept7249"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:24:57+00:00",
+      "narrower": [
+        "concept11040",
+        "concept3521",
+        "concept4943"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظم نقدية دولية"
+        ],
+        "en": [
+          "International monetary systems"
+        ],
+        "es": [
+          "Sistema monetario internacional"
+        ],
+        "fr": [
+          "Système monétaire international"
+        ],
+        "ru": [
+          "Международные валютные системы"
+        ]
+      },
+      "related": [
+        "concept7246",
+        "concept8619"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7248",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7248",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سياسات نقدية"
+        ]
+      },
+      "broader": [
+        "concept8815"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:28+00:00",
+      "narrower": [
+        "concept3524",
+        "concept7248"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة نقدية"
+        ],
+        "en": [
+          "Monetary policy"
+        ],
+        "es": [
+          "Política monetaria"
+        ],
+        "fr": [
+          "Politique monétaire"
+        ],
+        "ru": [
+          "Валютная политика"
+        ]
+      },
+      "related": [
+        "concept2836",
+        "concept4464",
+        "concept5185",
+        "concept7246"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7249",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7249",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رسوم الجمارك",
+          "رسوم جمركية"
+        ],
+        "en": [
+          "Customs duties"
+        ],
+        "es": [
+          "Derecho de aduana",
+          "Política aduanera"
+        ],
+        "fr": [
+          "Droit de douane"
+        ],
+        "ru": [
+          "Таможенные платежи"
+        ]
+      },
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:30+00:00",
+      "narrower": [
+        "concept2666"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة جمركية"
+        ],
+        "en": [
+          "Customs policy"
+        ],
+        "es": [
+          "Política arancelaria"
+        ],
+        "fr": [
+          "Politique douanière"
+        ],
+        "ru": [
+          "Таможенная политика"
+        ]
+      },
+      "related": [
+        "concept582",
+        "concept7316"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7314",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7314",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تدابير الحماية الجمركية",
+          "تدابير حمائية",
+          "حماية",
+          "سياسة الحماية",
+          "سياسة الحماية الجمركية",
+          "نظام الحماية الجمركية"
+        ],
+        "en": [
+          "Protectionist measures"
+        ],
+        "es": [
+          "Medidas proteccionistas"
+        ],
+        "fr": [
+          "Mesure protectionniste"
+        ],
+        "ru": [
+          "Протекционистские меры"
+        ]
+      },
+      "broader": [
+        "concept5706"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:25:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "حمائية"
+        ],
+        "en": [
+          "Protectionism"
+        ],
+        "es": [
+          "Proteccionismo"
+        ],
+        "fr": [
+          "Protectionnisme"
+        ],
+        "ru": [
+          "Протекционизм"
+        ]
+      },
+      "related": [
+        "concept1972",
+        "concept2666",
+        "concept3534",
+        "concept5704",
+        "concept7314"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7316",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7316",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تسديد الدين",
+          "سداد الدين"
+        ],
+        "en": [
+          "Debt reimbursement",
+          "Debt repayment"
+        ],
+        "es": [
+          "Condonación de una deuda",
+          "Devolución de una deuda",
+          "Pago de una deuda"
+        ],
+        "fr": [
+          "Acquittement d'une dette",
+          "Remboursement d'une dette",
+          "Règlement d'une dette"
+        ],
+        "ru": [
+          "Возвращение долга",
+          "Выплата долга"
+        ]
+      },
+      "broader": [
+        "concept3527"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خدمة الدين"
+        ],
+        "en": [
+          "Debt service"
+        ],
+        "es": [
+          "Servicio de la deuda"
+        ],
+        "fr": [
+          "Service de la dette"
+        ],
+        "ru": [
+          "Обслуживание долговых обязательств"
+        ]
+      },
+      "related": [
+        "concept2052"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7488",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7488",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4386"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:23:15+00:00",
+      "narrower": [
+        "concept3527"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دين عام"
+        ],
+        "en": [
+          "Public debt"
+        ],
+        "es": [
+          "Deuda pública"
+        ],
+        "fr": [
+          "Dette publique"
+        ],
+        "ru": [
+          "Государственный долг"
+        ]
+      },
+      "related": [
+        "concept6830"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشير إلى كلا المديونيتين الداخلية والخارجية."
+        ],
+        "en": [
+          "Refers to both internal and external indebtedness."
+        ],
+        "es": [
+          "Se refiere tanto a la deuda interna como externa."
+        ],
+        "fr": [
+          "Fait référence tant à l'endettement interne qu'externe."
+        ],
+        "ru": [
+          "Используется как по отношению к внутренней, так и внешней задолженности."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7496",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7496",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "نفقات عامة"
+        ],
+        "en": [
+          "Public spending"
+        ]
+      },
+      "broader": [
+        "concept10863"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:08+00:00",
+      "narrower": [
+        "concept1913",
+        "concept2878"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انفاق عام"
+        ],
+        "en": [
+          "Public expenditure"
+        ],
+        "es": [
+          "Gasto público"
+        ],
+        "fr": [
+          "Dépense publique"
+        ],
+        "ru": [
+          "Государственные расходы"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7656",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7656",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سياسات مالية"
+        ]
+      },
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:24:52+00:00",
+      "narrower": [
+        "concept7249"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة مالية"
+        ],
+        "en": [
+          "Financial policy"
+        ],
+        "es": [
+          "Política financiera"
+        ],
+        "fr": [
+          "Politique financière"
+        ],
+        "ru": [
+          "Финансовая политика"
+        ]
+      },
+      "related": [
+        "concept10862",
+        "concept1365",
+        "concept5185",
+        "concept582",
+        "concept8812"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8815",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8815",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بنية السوق"
+        ]
+      },
+      "broader": [
+        "concept13608"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:00+00:00",
+      "narrower": [
+        "concept5925",
+        "concept6377"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "هيكل السوق"
+        ],
+        "en": [
+          "Market structure"
+        ],
+        "es": [
+          "Estructura del mercado"
+        ],
+        "fr": [
+          "Structure du marché"
+        ],
+        "ru": [
+          "Структура рынка"
+        ]
+      },
+      "related": [
+        "concept3325",
+        "concept8763"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10308",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10308",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:23:31+00:00",
+      "narrower": [
+        "concept3560"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مؤسسات مالية"
+        ],
+        "en": [
+          "Financial institutions"
+        ],
+        "es": [
+          "Instituciones financieras"
+        ],
+        "fr": [
+          "Institution financière"
+        ],
+        "ru": [
+          "Финансовые учреждения"
+        ]
+      },
+      "related": [
+        "concept3214",
+        "concept3571",
+        "concept6829"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10861",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10861",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سياسة الضرائب",
+          "سياسة ضريبية"
+        ],
+        "en": [
+          "Tax policy"
+        ],
+        "es": [
+          "Política de impuestos"
+        ],
+        "fr": [
+          "Politique de taxation"
+        ],
+        "ru": [
+          "Политика в области налогообложения"
+        ]
+      },
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:32+00:00",
+      "narrower": [
+        "concept10908"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "سياسة مالية"
+        ],
+        "en": [
+          "Fiscal policy"
+        ],
+        "es": [
+          "Política fiscal"
+        ],
+        "fr": [
+          "Politique fiscale"
+        ],
+        "ru": [
+          "Фискальная политика"
+        ]
+      },
+      "related": [
+        "concept10863",
+        "concept4386",
+        "concept8815"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10862",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10862",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تمويل حكومي",
+          "تمويل عام",
+          "مالية حكومية"
+        ],
+        "en": [
+          "Government finance"
+        ]
+      },
+      "broader": [
+        "concept663"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:25:35+00:00",
+      "narrower": [
+        "concept10875",
+        "concept4386",
+        "concept7656"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مالية عامة"
+        ],
+        "en": [
+          "Public finance"
+        ],
+        "es": [
+          "Hacienda pública"
+        ],
+        "fr": [
+          "Finances publiques"
+        ],
+        "ru": [
+          "Государственные финансы"
+        ]
+      },
+      "related": [
+        "concept10862",
+        "concept10891",
+        "concept588"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10863",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10863",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تمويل حضري",
+          "تمويل على مستوى العواصم",
+          "تمويل على مستوى المدن",
+          "تمويل متروبولي",
+          "مالية محلية"
+        ],
+        "en": [
+          "Metropolitan finance"
+        ],
+        "es": [
+          "Impuesto local",
+          "Tributo local"
+        ],
+        "fr": [
+          "Finances des communes",
+          "Finances des communes métropolitaines"
+        ],
+        "ru": [
+          "Городские финансы"
+        ]
+      },
+      "broader": [
+        "concept10863"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:33:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تمويل محلي"
+        ],
+        "en": [
+          "Local finance"
+        ],
+        "es": [
+          "Hacienda local"
+        ],
+        "fr": [
+          "Finances locales"
+        ],
+        "ru": [
+          "Местные финансы"
+        ]
+      },
+      "related": [
+        "concept1406"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10875",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10875",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اسواق الاوراق المالية",
+          "اسواق رأس المال",
+          "اسواق رأسمالية",
+          "اسواق رؤوس الاموال",
+          "بورصات"
+        ],
+        "en": [
+          "Capital markets",
+          "Stock exchange"
+        ],
+        "es": [
+          "Bolsa",
+          "Bolsa de valores",
+          "Mercado bursátil",
+          "Mercado de capitales",
+          "Mercado de valores"
+        ],
+        "fr": [
+          "Bourse",
+          "Bourse des valeurs",
+          "Bourse des valeurs mobilières",
+          "Marché boursier",
+          "Marché des capitaux"
+        ],
+        "ru": [
+          "Валютная биржа",
+          "Рынки капиталов"
+        ]
+      },
+      "broader": [
+        "concept4619"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:07+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اسواق مالية"
+        ],
+        "en": [
+          "Financial markets"
+        ],
+        "es": [
+          "Mercado financiero"
+        ],
+        "fr": [
+          "Marché financier"
+        ],
+        "ru": [
+          "Финансовые рынки"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10884",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10884",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ربح",
+          "ربحية"
+        ],
+        "en": [
+          "Profitability"
+        ],
+        "es": [
+          "Beneficio",
+          "Rentabilidad"
+        ],
+        "fr": [
+          "Bénéfice",
+          "Gain",
+          "Rentabilité"
+        ],
+        "ru": [
+          "Доходность"
+        ]
+      },
+      "broader": [
+        "concept1185"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:03+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ارباح"
+        ],
+        "en": [
+          "Profits"
+        ],
+        "es": [
+          "Ganancia"
+        ],
+        "fr": [
+          "Profit"
+        ],
+        "ru": [
+          "Доходы"
+        ]
+      },
+      "related": [
+        "concept10894"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10893",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10893",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Octroi",
+          "Subside"
+        ]
+      },
+      "broader": [
+        "concept3571"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:23:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعانات"
+        ],
+        "en": [
+          "Subventions"
+        ],
+        "es": [
+          "Subvención"
+        ],
+        "fr": [
+          "Subvention"
+        ],
+        "ru": [
+          "Субвенции"
+        ]
+      },
+      "related": [
+        "concept2064"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10897",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10897",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعفاء ضريبي",
+          "ضرائب"
+        ],
+        "en": [
+          "Tax exemption"
+        ],
+        "es": [
+          "Exención de impuestos",
+          "Exención fiscal",
+          "Exoneración de impuestos",
+          "Exoneración fiscal",
+          "Fiscalidad",
+          "Impuestos",
+          "Régimen fiscal",
+          "Régimen tributario",
+          "Sistema fiscal",
+          "Sistema tributario"
+        ],
+        "fr": [
+          "Exemption d'impôt",
+          "Exemption fiscale",
+          "Exonération d'impôt",
+          "Exonération fiscale"
+        ],
+        "ru": [
+          "Освобождение от уплаты налогов"
+        ]
+      },
+      "broader": [
+        "concept10862"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:37+00:00",
+      "narrower": [
+        "concept12197"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فرض الضرائب"
+        ],
+        "en": [
+          "Taxation"
+        ],
+        "es": [
+          "Tributación"
+        ],
+        "fr": [
+          "Fiscalité"
+        ],
+        "ru": [
+          "Налогообложение"
+        ]
+      },
+      "related": [
+        "concept3210"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10908",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10908",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استثمار اجنبي مباشر",
+          "رأس المال الاجنبي"
+        ],
+        "en": [
+          "FDI",
+          "Foreign capital",
+          "Foreign direct investment"
+        ],
+        "es": [
+          "Capital extranjero"
+        ],
+        "fr": [
+          "Capital étranger",
+          "Investissement à l'étranger"
+        ],
+        "ru": [
+          "Иностранный капитал",
+          "ПИИ",
+          "Прямые иностранные инвестиции"
+        ]
+      },
+      "broader": [
+        "concept7248"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-19T08:59:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استثمار اجنبي"
+        ],
+        "en": [
+          "Foreign investment"
+        ],
+        "es": [
+          "Inversión extranjera"
+        ],
+        "fr": [
+          "Investissement étranger"
+        ],
+        "ru": [
+          "Иностранные инвестиции"
+        ]
+      },
+      "related": [
+        "concept8619",
+        "concept8811",
+        "concept9669",
+        "concept9679"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11040",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11040",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Impôt sur les bénéfices"
+        ]
+      },
+      "broader": [
+        "concept10908"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:09+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ضريبة الدخل"
+        ],
+        "en": [
+          "Income tax"
+        ],
+        "es": [
+          "Impuesto sobre la renta"
+        ],
+        "fr": [
+          "Impôt sur le revenu"
+        ],
+        "ru": [
+          "Подоходный налог"
+        ]
+      },
+      "related": [
+        "concept10894"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12197",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12197",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept3534"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2023-07-03T15:06:21+00:00",
+      "narrower": [
+        "concept17166"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طرق التجارة"
+        ],
+        "en": [
+          "Trade routes"
+        ],
+        "es": [
+          "Ruta comercial"
+        ],
+        "fr": [
+          "Route commerciale"
+        ],
+        "ru": [
+          "Торговые пути"
+        ]
+      },
+      "related": [
+        "concept660"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept12857",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept12857",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept664"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2019-12-15T14:26:25+00:00",
+      "narrower": [
+        "concept10308",
+        "concept1545"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اسواق"
+        ],
+        "en": [
+          "Markets"
+        ],
+        "es": [
+          "Mercado"
+        ],
+        "fr": [
+          "Marché"
+        ],
+        "ru": [
+          "Рынки"
+        ]
+      },
+      "related": [
+        "concept1804",
+        "concept4477",
+        "concept4636",
+        "concept6436",
+        "concept8755"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13608",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13608",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تمييز العلامة التجارية"
+        ],
+        "en": [
+          "Brand names",
+          "Corporate identity",
+          "Emblems",
+          "Logos",
+          "Visual identity"
+        ],
+        "es": [
+          "Emblema",
+          "Gestión de la marca",
+          "Identidad visual"
+        ],
+        "fr": [
+          "Emblème",
+          "Gestion de la marque",
+          "Identité visuelle",
+          "Image de marque",
+          "Image institutionnelle"
+        ]
+      },
+      "broader": [
+        "concept1545"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2021-04-13T16:28:47+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "وسم المنتجات"
+        ],
+        "en": [
+          "Branding"
+        ],
+        "es": [
+          "Imagen de la marca"
+        ],
+        "fr": [
+          "Stratégie de marque"
+        ]
+      },
+      "related": [
+        "concept1532",
+        "concept5683",
+        "concept628"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17120",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17120",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ممر الحرير"
+        ],
+        "en": [
+          "Silk Route"
+        ]
+      },
+      "broader": [
+        "concept12857"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain6"
+      ],
+      "microthesaurus_ids": [
+        "mt6.70"
+      ],
+      "modified": "2023-07-06T11:02:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طريق الحرير"
+        ],
+        "en": [
+          "Silk road"
+        ],
+        "es": [
+          "Ruta de la seda"
+        ],
+        "fr": [
+          "Route de la soie"
+        ],
+        "ru": [
+          "Шелковый путь"
+        ]
+      },
+      "related": [
+        "concept16321",
+        "concept3897",
+        "concept6984"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17166",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17166",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt6.70",
+    "labels": {
+      "en": "Finance and trade",
+      "fr": "Finances et commerce"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt6.70"
+  }
+}

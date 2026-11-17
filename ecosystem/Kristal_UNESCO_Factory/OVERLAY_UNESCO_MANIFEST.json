@@ -1,0 +1,17 @@
+{
+  "format": "kristal.unesco-overlay-manifest/1.0",
+  "target_root": "C:\\mycode\\Kristal\\Kristal_UNESCO_Factory",
+  "additive": true,
+  "requires_other_overlays": true,
+  "files": {
+    "README_OVERLAY_UNESCO_GF.md": "377ee02ac5dfc43637dff4a3c50fd2a0acc530228aefa5c0b9006f4f81dc69d4",
+    "tools/unesco_gf_pilot/LANCER_UI.cmd": "43a2b178594514ee2d9f902d7d1440862886d9a2ae1cda44b1ced81a47c65369",
+    "tools/unesco_gf_pilot/Pilote_UNESCO_GF.pyw": "f1323346617cb316e30d5780f367fa72b50024ed185b663945eb91dfce5745c8",
+    "tools/unesco_gf_pilot/grammar/UnescoPilot.gf": "487d079509ac3b242addec118d8c188adb3fc76fb5b8833aaed6753ae6106056",
+    "tools/unesco_gf_pilot/grammar/UnescoPilotEng.gf": "cd324188334b772ada4cbad91bda241de57d840b3b3f79e4bb92f743637c0053",
+    "tools/unesco_gf_pilot/grammar/UnescoPilotFre.gf": "557416d63f2ea66f0a3c5c471f8f9b7f6609efb58457038c1eb6341839ac2959",
+    "tools/unesco_gf_pilot/pilot.py": "b23e13224a9c0cc22a40393ed26fe4e9271f12e70995637c28b0ecc0a90042d8",
+    "tools/unesco_gf_pilot/tests/test_pilot_contracts.py": "7a2ca6a79edc4f87e84b1fb063ca76c88e53ec2bdce47219c08f5e1e29ab3497",
+    "tools/unesco_gf_pilot/tests/test_spek_semantik_interop.py": "371dfd0c5be40c953f01bd746fb76479aff70aa5fdff968b6a9c99ff4ac4b908"
+  }
+}

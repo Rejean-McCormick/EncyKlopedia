@@ -13,11 +13,17 @@ function statusLabel(s){return {READY:'Prêt à transmettre',SENT:'Prompt prépa
 function render(st){current=st;const occupied=st.lanes.filter(x=>x.job).length;
  $('#articles').textContent=num(st.stats.articles);$('#claims').textContent=num(st.stats.claims);
  $('#occupied').textContent=occupied+' / 10';
- $('#remaining').textContent=num((st.jobs.WAITING||0)+(st.review_index.PENDING||0));
+ $('#remaining').textContent=num(st.jobs.WAITING||0);
  $('#completed').textContent=num(st.jobs.DONE||0);
  $('#status').innerHTML='<span class="dot '+(st.busy?'busy':'')+'"></span>'+esc(st.busy?st.operation:'Prêt pour la prochaine tâche');
  $('#batch').disabled=$('#prepare').disabled=st.busy;$('#choose').disabled=st.busy;
  $('#freeze').classList.toggle('hidden',!st.v28_frozen);
+ const diag=st.production_diagnostic||{};
+ const parts=[`${num(diag.unesco_preparable??0)} candidats UNESCO en réserve (PENDING + DEFERRED)`,
+              `${num(diag.unesco_hold??0)} HOLD à examiner éventuellement`,
+              `${num(diag.free_lanes??0)} postes libres`];
+ $('#schedulingDiagnostic').textContent=parts.join(' · ')+'. '+(diag.interpretation||'');
+
  const v=st.volume_v315||{};const b=v.unesco_par_taille||{};const delay=v.delai_transfert_import_minutes||{};
  const ready=(v.ready_details||[]).map(x=>`${x.kind==='v28'?'UNESCO':'Kristal'} : ${x.taille} ${x.kind==='v28'?'propositions':'articles'} (${x.id})`).join(' · ');
  const elapsed=delay.mediane===null||delay.mediane===undefined?'non mesuré':`${delay.mediane.toLocaleString('fr-CA')} min sur ${delay.observations} retours`;
@@ -56,7 +62,8 @@ function render(st){current=st;const occupied=st.lanes.filter(x=>x.job).length;
  $('#receipts').innerHTML=(st.receipts.length?st.receipts.map(r=>{
  const cls=r.status==='OK'?'ok':r.status==='EN_ATTENTE'?'wait':'bad';return `<div class="receipt"><span class="${cls}">${esc(r.status)}</span> · ${esc(r.filename)}<small>${esc(r.detail)}${r.job_id?' · '+esc(r.job_id):''}</small></div>`;
  }).join(''):'<p class="sub">Aucun retour reçu.</p>');
- $('#reopen').disabled=st.busy||!(st.review_index.HOLD>0);
+ $('#reopen').disabled=st.busy||st.v28_frozen||!(st.review_index.HOLD>0);
+ $('#reopen').title=st.v28_frozen?'Clôturer toutes les revues UNESCO ouvertes pour préserver les preuves.':'Découverte avant réexamen, sans recréer les anciens packs.';
  $('#software').disabled=st.busy;
  $('#updates').innerHTML=st.updates?.length?st.updates.map(u=>`<div class="receipt"><span class="${u.status==='APPLIED'?'ok':'wait'}">${esc(u.status)}</span> · ${esc(u.id)} ${u.status==='APPLIED'?`<button class="btn small warn" data-rollback="${esc(u.id)}">↶ Retour arrière</button>`:''}</div>`).join(''):'Aucune mise à jour logicielle récente.';
 }
@@ -91,7 +98,7 @@ $('#dispatchSmall').addEventListener('click',async()=>{try{
  }catch(e){toast(e.message,true);}});
 $('#batch').addEventListener('click',()=>background('/api/batch','Batch local global démarré. Le journal affichera les étapes.'));
 $('#prepare').addEventListener('click',()=>background('/api/prepare','Tâches locales en cours de préparation.'));
-$('#reopen').addEventListener('click',async()=>{if(!confirm('Remettre volontairement 500 anciennes propositions HOLD dans la file de revue ?'))return;try{const d=await api('/api/reopen-holds','POST');toast(`${d.reopened} propositions HOLD remises dans la file.`);}catch(e){toast(e.message,true);}});
+$('#reopen').addEventListener('click',async()=>{if(!confirm('Réarmer jusqu’à 500 HOLD ? La station lancera d’abord la découverte UNESCO, puis seulement la nouvelle revue. Aucune tâche existante ne sera reconstruite.'))return;try{const d=await api('/api/reopen-holds','POST');toast(`${d.reopened} HOLD réarmés. ${d.discovery_first?'Découverte puis préparation lancées.':'Aucun candidat éligible.'}`);setTimeout(refresh,400);}catch(e){toast(e.message,true);}});
 $('#choose').addEventListener('click',()=>$('#files').click());$('#dropPick').addEventListener('click',e=>{e.stopPropagation();$('#files').click();});$('#drop').addEventListener('click',e=>{if(!e.target.closest('button'))$('#files').click();});
 $('#drop').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();$('#files').click();}});
 $('#closeModal').addEventListener('click',closePrompt);$('#modal').addEventListener('click',e=>{if(e.target===$('#modal'))closePrompt();});

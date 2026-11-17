@@ -1,0 +1,43 @@
+{
+  "format": "encyklopedia.unesco.educational-policy-review-bundle/1.0",
+  "generated_at_utc_date": "2026-11-04",
+  "branch": "mt1.10",
+  "working_language": "en",
+  "based_on_scan_format": "kristal.kristalizer.scan/1.2.2",
+  "based_on_report_generated_at": "2026-11-04T15:26:28.505782+00:00",
+  "source_repo_candidate": "UNESCO_Workbench/candidates/educational-policy-en-v11/unesco-mt1-10",
+  "source_inputs_sha256": {
+    "SUGGESTIONS_NOTIONS_WIKIDATA(2).csv": "63297d99f7c1e6cb6509feb0c6e40412257778bf775bbd141531300ad86ff1b1",
+    "CANDIDATS(3).csv": "6214bd299c64167ed0a838441f1c93737d629a1e8272c27749222fb0cdc62c19",
+    "CANDIDATS_EXCLUS(2).csv": "54993c1726422478e116c20c993ccd30b17f7afb4348c9ad6aa9724431b7778f",
+    "DECISIONS(3).csv": "54c86b265fcc4f03f9c20ee964dc464fd0864a74cbc9e6f22edb85b622a28722",
+    "DECISIONS_ARCHIVEES(3).csv": "b8cf1881cd94bd874e20313112d8785248a58f74678a8eda33f37dad67602fe7",
+    "LIAISONS_NOTIONS_ASSERTIONS.csv": "ec93967eaab29400ae345a20eda61f28ef8631e817d55198c0b5e61fbeeb0c4e",
+    "NOTIONS_DOMAINE(2).csv": "07baec84fb0f994049d00d6a5dbeed7428bbe46b3b7d8bc0a06001730db0c833",
+    "RAPPORT(3).json": "5e6bb14922cf519f3962a27eabcfba68b82566eb80dfe4602fff9aa7cda72cda",
+    "REVUE_IDENTITES_NOTIONS.csv": "316d048079293e0874ddca991ef38f08b521459e514e8de73c8cd92685348012"
+  },
+  "counts": {
+    "unesco_concepts": 41,
+    "candidates": 36,
+    "no_candidates": 5,
+    "review_pending": 36,
+    "local_label_empty_in_original_scan": 36,
+    "suspect_mappings_flagged": 9,
+    "v11_migration_required": 0,
+    "native_claim_links": 0,
+    "domain_topics": 0,
+    "approved_exactmatch": 0,
+    "approved_KA": 0,
+    "approved_KS": 0
+  },
+  "checks": {
+    "local_wikidata_sqlite_reported_connected": true,
+    "source_catalog_files_reported": 0,
+    "skope_present_reported": false,
+    "all_decisions_pending": true,
+    "crosswalk_relations_candidate_not_approved": true,
+    "previous_source_cards_web_checked_but_not_canonically_snapshotted": true
+  },
+  "policy": "This review bundle MUST NOT write to canon/domain, modify Kristalizer DECISIONS or authorize publication. All human review columns are blank."
+}

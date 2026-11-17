@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kristal:portable-ai:1.0",
+  "title": "Kristal Portable AI Manifest",
+  "type": "object",
+  "required": [
+    "format",
+    "state_ref",
+    "state_logical_commitment",
+    "entrypoint",
+    "read_order",
+    "state_snapshot",
+    "index",
+    "portable_reading",
+    "rules"
+  ],
+  "properties": {
+    "format": {
+      "const": "kristal.portable-ai/1.0"
+    },
+    "state_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state_logical_commitment": {
+      "type": "object",
+      "required": [
+        "profile",
+        "digest"
+      ],
+      "properties": {
+        "profile": {
+          "type": "string"
+        },
+        "digest": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        }
+      }
+    },
+    "entrypoint": {
+      "const": "AI_START_HERE.md"
+    },
+    "read_order": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "state_snapshot": {
+      "const": "state/state-snapshot.json"
+    },
+    "index": {
+      "const": "ai/INDEX.json"
+    },
+    "portable_reading": {
+      "type": "object",
+      "required": [
+        "offline",
+        "github_required",
+        "network_required",
+        "python_required",
+        "node_required",
+        "executable_tools_required"
+      ]
+    },
+    "external_dependencies": {
+      "type": "array"
+    },
+    "rules": {
+      "type": "object"
+    },
+    "materializations": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "github_read_surface": {
+      "type": "object",
+      "required": [
+        "contract",
+        "target_root_template",
+        "entrypoint"
+      ],
+      "additionalProperties": true
+    }
+  }
+}

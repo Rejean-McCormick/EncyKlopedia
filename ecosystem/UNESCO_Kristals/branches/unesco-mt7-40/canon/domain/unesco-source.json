@@ -1,0 +1,191 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "البلدان العربية"
+        ],
+        "en": [
+          "Arab countries"
+        ],
+        "es": [
+          "Nación árabe",
+          "País árabe"
+        ],
+        "fr": [
+          "Pays arabe"
+        ],
+        "ru": [
+          "Арабские страны"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain7"
+      ],
+      "microthesaurus_ids": [
+        "mt7.40"
+      ],
+      "modified": "2019-12-15T14:36:44+00:00",
+      "narrower": [
+        "concept689",
+        "concept704",
+        "concept706",
+        "concept718",
+        "concept721",
+        "concept724",
+        "concept738",
+        "concept741",
+        "concept745",
+        "concept826",
+        "concept833",
+        "concept836",
+        "concept843",
+        "concept859",
+        "concept870",
+        "concept885",
+        "concept914"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الدول العربية"
+        ],
+        "en": [
+          "Arab States"
+        ],
+        "es": [
+          "Estado árabe"
+        ],
+        "fr": [
+          "État arabe"
+        ],
+        "ru": [
+          "Арабские государства"
+        ]
+      },
+      "related": [
+        "concept2645",
+        "concept2646",
+        "concept729",
+        "concept850",
+        "concept953",
+        "concept961"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept960",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept960",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "البلدان الاسلامية"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain7"
+      ],
+      "microthesaurus_ids": [
+        "mt7.40"
+      ],
+      "modified": "2019-12-15T14:37:05+00:00",
+      "narrower": [
+        "concept689",
+        "concept691",
+        "concept693",
+        "concept695",
+        "concept699",
+        "concept700",
+        "concept704",
+        "concept710",
+        "concept711",
+        "concept713",
+        "concept714",
+        "concept718",
+        "concept720",
+        "concept721",
+        "concept724",
+        "concept727",
+        "concept735",
+        "concept737",
+        "concept738",
+        "concept741",
+        "concept745",
+        "concept746",
+        "concept810",
+        "concept815",
+        "concept816",
+        "concept817",
+        "concept830",
+        "concept832",
+        "concept833",
+        "concept836",
+        "concept840",
+        "concept843",
+        "concept846",
+        "concept847",
+        "concept857",
+        "concept858",
+        "concept859",
+        "concept862",
+        "concept864",
+        "concept870",
+        "concept876",
+        "concept879",
+        "concept885"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "الدول الاسلامية"
+        ],
+        "en": [
+          "Islamic countries"
+        ],
+        "es": [
+          "País islámico"
+        ],
+        "fr": [
+          "Pays islamique"
+        ],
+        "ru": [
+          "Исламские страны"
+        ]
+      },
+      "related": [
+        "concept2348",
+        "concept729",
+        "concept7717",
+        "concept953",
+        "concept960"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept961",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept961",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt7.40",
+    "labels": {
+      "en": "Ethnic and religious groupings",
+      "fr": "Ensembles ethniques et religieux"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt7.40"
+  }
+}

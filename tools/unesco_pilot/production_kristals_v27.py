@@ -532,6 +532,7 @@ def pack_articles(queue, cat, ix, xml, max_articles, target_words, target_bytes,
 
 
 GUIDE_FORMAT = 'encyklopedia.kristal-reading-guide.v316/1'
+SYNTHESIS_AUDIT_V318 = 'encyklopedia.kristal-synthese-approfondie.v318/1'
 _GUIDE_HEADING_RE = re.compile(r'^(={2,6})\s*(.*?)\s*\1\s*$')
 _GUIDE_LOW_VALUE_RE = re.compile(r'(?i)^(references|notes|citations|external links|see also|further reading|bibliography|sources|footnotes|gallery|links)$')
 _GUIDE_PRIORITY_RE = re.compile(r'(?i)(history|background|overview|early life|education|career|works|achievement|contribution|legacy|impact|activities|policy|program|structure|mission|rights|criticism|controvers|development|origin|significance|function|practice|formation)')
@@ -583,14 +584,21 @@ def _reading_guide(article):
             samples.append({'section':'Article','exact_excerpt':fallback})
     if any(item['exact_excerpt'] not in raw for item in samples):
         raise Refusal('Extrait de lecture non present dans la source : '+str(article['page_id']))
+    # v31.8: exhaustive map of section headings, NOT another excerpt set or proof.
+    # This exposes important later sections which the prioritized v31.6 samples may omit.
+    section_inventory=[{'heading':header[:180],
+                        'approx_words':sum(len(line.split()) for line in lines),
+                        'is_reference_section':bool(_GUIDE_LOW_VALUE_RE.fullmatch(header.strip())),
+                        'priority_hint':bool(_GUIDE_PRIORITY_RE.search(header))}
+                       for header,lines in segments]
     return {'page_id':article['page_id'],'revision_id':article['revision_id'],
             'article_id':'enwiki:'+str(article['page_id']),
             'title':article['xml_title'],
             'text_path':f"articles/enwiki-{article['page_id']}.wikitext.txt",
             'text_sha256':digest(article['text']),
             'approx_words':article['word_count'],
-            'samples':samples,
-            'reading_note':'Extraits verbatim d orientation, non exhaustifs. Verifier les affirmations dans le wikitext integral.'}
+            'samples':samples,'section_inventory':section_inventory,
+            'reading_note':'Extraits verbatim d orientation, non exhaustifs. L inventaire des sections est integral mais non probant. Verifier les affirmations dans le wikitext integral.'}
 
 
 def make_pack(entries, pack_id, source, work):
@@ -612,7 +620,8 @@ def make_pack(entries, pack_id, source, work):
                 'articles_count': len(article_manifest), 'source': source,
                 'articles': article_manifest, 'raw_article_texts_complete': True,
                 'overlarge_single_article_allowed_without_truncation': True,
-                'semantic_analysis_may_be_selective': True, 'reading_guide': 'DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl', 'reading_guide_format': GUIDE_FORMAT, 'status': 'PRIVATE_RESEARCH',
+                'semantic_analysis_may_be_selective': True, 'reading_guide': 'DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl', 'reading_guide_format': GUIDE_FORMAT,
+                'synthesis_audit': SYNTHESIS_AUDIT_V318, 'status': 'PRIVATE_RESEARCH',
                 'wikipedia_license_note': 'Attribution and share-alike may apply; verify rights before publication.',
                 'canonical_admissions': 0, 'publication_authorized': False}
     files['MANIFEST_PACK_V27.json'] = encoded(manifest)
@@ -623,7 +632,7 @@ def make_pack(entries, pack_id, source, work):
         '\n'.join(json.dumps(row,ensure_ascii=False,separators=(',',':')) for row in guide_rows)+'\n'
     ).encode('utf-8')
     model = {'format': DELTA_FORMAT, 'pack_id': pack_id, 'pack_sha256': 'REMPLACER_PAR_SHA256_DU_ZIP',
-             'producer': 'GPT-6 / ChatGPT', 'coverage_note': 'Bilan par article des connaissances essentielles retenues, aspects verifies et lacunes; synthese sans fait invente',
+             'producer': 'GPT-6 / ChatGPT', 'coverage_note': 'UNE LIGNE PAR ARTICLE enwiki:PAGE_ID | dimensions examinees | faits retenus | omissions controlees ou limites; aucune omission de l inventaire',
              'claims': [{'source_page_id': article_manifest[0]['page_id'],
                          'source_revision_id': article_manifest[0]['revision_id'],
                          'subject_ref': article_manifest[0]['article_id'],
@@ -632,35 +641,56 @@ def make_pack(entries, pack_id, source, work):
                          'unesco_concepts': [], 'source_locator': 'Introduction ou section du texte',
                          'source_quote': '', 'confidence': 'medium'}]}
     files['MODELE_DELTA_KRISTAL_V27.json'] = encoded(model)
-    files['INSTRUCTIONS_CHATGPT.md'] = (f'''# Pack {pack_id} — EncyKlopedia v27 / synthese v31.6
+    files['INSTRUCTIONS_CHATGPT.md'] = (f'''# Pack {pack_id} — EncyKlopedia v27 / SYNTHÈSE APPROFONDIE v31.8
 
-OBJECTIF : construire une EXCELLENTE ENCYCLOPEDIE DE SYNTHESE, pas reproduire Wikipedia.
-Le dossier `DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl` contient, pour CHAQUE article, des extraits
-EXACTS et un parcours de lecture. Commence par ce dossier, puis consulte les fichiers integraux
-`articles/enwiki-*.wikitext.txt` pour completer le contexte et verifier chaque citation.
-Le dossier est un INDEX EXTRACTIF : il n est pas une source nouvelle, ni une verification independante.
-Ne lis pas aveuglement 400 000 mots dans une seule fenetre de contexte : organise ton analyse
-article par article a l aide des fichiers, en privilégiant les informations essentielles.
+BUT : produire une excellente encyclopédie de synthèse, PAS résumer à la hâte, ni recopier tous
+les détails de Wikipédia. La qualité et le rappel des faits structurants priment sur la rapidité
+et le nombre de connaissances. Ne fixe aucun quota minimum/maximum de faits par article.
+Une notice très courte peut justifier 0 à 2 faits ; un article substantiel peut en justifier bien plus.
 
-POUR CHAQUE ARTICLE, examine son identite, sa definition, son importance et ses faits distinctifs.
-Selectionne les dates, acteurs, realisations, mecanismes et relations majeurs.
-Oublie les inventaires exhaustifs, le remplissage et les anecdotes secondaires. 3 a 8 faits
-majeurs peuvent suffire dans bien des cas, mais ce n est PAS un quota ; les articles importants
-ou difficiles peuvent en exiger plus, et un article sans fait solide peut recevoir 0 fait.
-N invente jamais une citation ni un fait. Chaque fait exige page_id, revision_id,
-source_locator precis et source_quote EXACTE issue du texte integral, 500 caracteres max.
-Assure-toi que le texte cite soutient vraiment l affirmation (pas juste une correspondance de mots).
-Attributions, conflits de versions et donnees historiques doivent etre signales si necessaire.
-Les concepts UNESCO sont des CANDIDATS de rattachement, jamais des faits par eux-memes.
+SOURCES ET PARCOURS : lire MANIFEST_PACK_V27.json et MODELE_DELTA_KRISTAL_V27.json.
+DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl comporte un guide PAR article : samples (extraits
+verbatim non exhaustifs) et section_inventory (TOUTES les sections, dans leur ordre d'origine).
+Les titres, décomptes et indices de priorité servent UNIQUEMENT à naviguer, ne sont PAS des preuves.
+Les seules preuves sont les fichiers integraux articles/enwiki-*.wikitext.txt de la révision figée.
+La source peut contenir balisage, opinions, erreurs ou données périmées : ne pas les transformer
+en faits établis. Le dossier prioritaire ne suffit jamais, à lui seul, à déclarer la lecture complète.
 
-Le retour est UN ZIP unique contenant `DELTA_KRISTAL_{pack_id}.json` suivant
-`MODELE_DELTA_KRISTAL_V27.json` et le format encyklopedia.kristal-ai-delta.v27/1.
-Remplace `pack_sha256` par le SHA-256 du pack source donne par la station.
-Preserve identifiants, revisions et empreintes, avec canonical_admissions=0 et
-publication_authorized=false. Pas de code executable.
-Dans `coverage_note`, donne un bilan bref PAR ARTICLE des grandes dimensions examinees,
-et signale les lacunes sans inventer de connaissances. Aucun article ne doit disparaitre du bilan.
-Le temps de travail peut etre long : minimise les interventions humaines, pas la rigueur.
+PROTOCOLE INTERNE EN SIX PASSES (pour CHAQUE article, sans en exclure aucun) :
+1. INVENTAIRE : identifier le thème, la portée et les sections présentes ; distinguer petite
+   notice administrative, article institutionnel, histoire, droit, concepts ou mécanismes.
+2. EXTRACTION : chercher définitions, fonctions, idées centrales, événements fondateurs,
+   lois/jugements et leurs décisions, institutions, transformations, relations causales,
+   conséquences et particularités. Parcourir les sections pertinentes du TEXTE COMPLET,
+   y compris les sections absentes des samples ; ne pas s'arrêter à l'introduction.
+3. SECONDE LECTURE CIBLÉE : revenir aux parties à forte densité (histoire, réforme,
+   politique, jurisprudence, impact) et rechercher explicitement les faits structurants
+   oubliés. Si une source est ambiguë ou trop faible, ne pas inventer ; noter la lacune.
+4. SYNTHÈSE : fusionner doublons, éliminer anecdotes, palmarès, listes d'employés,
+   coordonnées, chiffres périssables et détails secondaires ; retenir seulement les
+   connaissances importantes et distinctives, sans sacrifier les événements déterminants.
+5. PREUVES : chaque fait doit avoir source_page_id, source_revision_id, subject_ref,
+   statement_en précis, source_locator pertinent et source_quote EXACTE (20 à 500 caractères)
+   retrouvée mot pour mot dans le WIKITEXT de la révision correspondante. La citation
+   doit réellement ÉTAYER l'énoncé. Corriger toute affirmation plus large que sa preuve.
+6. AUDIT D'OMISSIONS : reparcourir la carte des sections, vérifier la couverture de toutes
+   les dimensions essentielles, compter les connaissances et supprimer celles insuffisamment
+   prouvées. Ne PAS prétendre avoir lu une section qui n'a pas été consultée.
+
+BILAN OBLIGATOIRE : `coverage_note` doit comporter une entrée identifiable POUR CHAQUE article
+sous la forme `enwiki:PAGE_ID | dimensions examinees | connaissances retenues | omissions/limites`.
+Même les articles à zéro fait restent dans le bilan, sans citation inventée. Un décompte 120/120
+n'est pas une preuve de profondeur : renseigner honnêtement les limites du contrôle.
+
+RETOUR : UN SEUL ZIP contenant uniquement DELTA_KRISTAL_{pack_id}.json au format v27
+`encyklopedia.kristal-ai-delta.v27/1`, avec pack_id={pack_id}, pack_sha256=SHA-256 EXACT
+DU ZIP REÇU, canonical_admissions=0 et publication_authorized=false. Garder les identifiants,
+révisions, provenances et rattachements UNESCO candidats ; aucune admission canonique,
+aucune publication, aucun exécutable et aucune modification des bases de production.
+Le validateur v31.8 contrôle la présence des preuves et leur exacte occurrence dans chaque texte
+pour les NOUVEAUX packs marqués synthesis_audit dans le manifeste ; il ne démontre ni la
+pertinence sémantique ni l'exhaustivité. Anciens packs v27 restent compatibles.
+Le temps de travail n'est pas un critère de fin : la suffisance documentaire est à auditer.
 ''').encode('utf-8')
     target = Path(work) / 'packs' / (pack_id + '.zip')
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -694,6 +724,8 @@ def verify_pack(path):
                 m.get('canonical_admissions') != 0 or m.get('publication_authorized') is not False or
                 not PACK_ID_RE.fullmatch(m.get('pack_id', ''))):
             raise Refusal('Manifeste de pack incompatible')
+        if m.get('synthesis_audit') not in (None, SYNTHESIS_AUDIT_V318):
+            raise Refusal('Contrat de synthese inconnu')
         allowed = {'MANIFEST_PACK_V27.json','MODELE_DELTA_KRISTAL_V27.json','INSTRUCTIONS_CHATGPT.md'}
         guide_name='DOSSIER_PRIORITAIRE_KRISTAL_V316.jsonl'
         if m.get('reading_guide') == guide_name and guide_name not in names:
@@ -713,6 +745,14 @@ def verify_pack(path):
                 if any(not isinstance(s,dict) or not isinstance(s.get('exact_excerpt'),str)
                        or s['exact_excerpt'] not in original for s in row.get('samples',[])):
                     raise Refusal('Dossier de lecture altere ou non ancre: '+str(a['page_id']))
+                if m.get('synthesis_audit') == SYNTHESIS_AUDIT_V318:
+                    # A tampered section map could conceal substantive material from a review.
+                    source_article={'text':z.read(a['text_path']), 'page_id':a['page_id'],
+                                    'revision_id':a['revision_id'],'xml_title':a['title'],
+                                    'word_count':a.get('approx_words',0)}
+                    expected=_reading_guide(source_article)['section_inventory']
+                    if row.get('section_inventory') != expected:
+                        raise Refusal('Inventaire des sections desynchronise: '+str(a['page_id']))
             allowed.add(guide_name)
         ids = set()
         for a in m.get('articles', []):
@@ -850,6 +890,22 @@ def validate_delta(pack_path, delta_path):
     if not isinstance(claims, list) or len(claims) > 20000:
         raise Refusal('Liste des faits invalide ou anormalement grande')
     allowed = {a['page_id']: a for a in manifest['articles']}
+    thorough = manifest.get('synthesis_audit') == SYNTHESIS_AUDIT_V318
+    if thorough:
+        coverage = data.get('coverage_note')
+        if not isinstance(coverage,str):
+            raise Refusal('v31.8 : bilan de couverture par article absent')
+        # Each article needs its own auditable line, not just an incidental ID mention.
+        audited_ids = set()
+        for line in coverage.splitlines():
+            match = re.match(r'^\s*enwiki:([1-9][0-9]*)\s*\|\s*[^|]+\|\s*[^|]+\|\s*.+$',line)
+            if match:
+                audited_ids.add(int(match.group(1)))
+        if not set(allowed).issubset(audited_ids):
+            missing = sorted(set(allowed)-audited_ids)
+            raise Refusal('v31.8 : article(s) absent(s) du bilan : '+','.join(map(str,missing[:12])))
+        with zipfile.ZipFile(pack_path) as z:
+            source_texts={pid:z.read(a['text_path']).decode('utf-8') for pid,a in allowed.items()}
     valid = []
     for i, c in enumerate(claims):
         if not isinstance(c,dict):
@@ -877,6 +933,8 @@ def validate_delta(pack_path, delta_path):
         quote = c.get('source_quote','')
         if not isinstance(quote,str) or len(quote)>500:
             raise Refusal('Source quote trop longue: ' + str(i))
+        if thorough and (len(quote.strip())<20 or quote not in source_texts[pid]):
+            raise Refusal('v31.8 : citation absente, incomplete ou introuvable dans le wikitext : '+str(i))
         concepts = c.get('unesco_concepts', [])
         if not isinstance(concepts,list) or len(concepts)>40 or any(not isinstance(x,str) or not CONCEPT_RE.fullmatch(x) for x in concepts):
             raise Refusal('Concept UNESCO invalide: ' + str(i))

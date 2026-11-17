@@ -1,0 +1,38 @@
+name: Deploy locally compiled qualified publication
+# This NEVER builds the canon and NEVER deploys demo fixtures.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: public-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fail closed unless environment authorization is configured
+        env:
+          KRISTAL_PUBLICATION_GATE: ${{ secrets.KRISTAL_PUBLICATION_GATE }}
+        run: |
+          if [ "$KRISTAL_PUBLICATION_GATE" != "authorized" ]; then
+            echo 'Publication blocked: protected environment approval/secret missing'
+            exit 1
+          fi
+      - name: Verify PREBUILT local outputs - refuse demos
+        run: python -m spek verify-site published-site --require-production
+      # The environment 'public-pages' MUST have required reviewers enabled.
+      # C1/C2/C3/disclosure authorization remains external and is NOT certified here.
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: published-site/
+      - id: deployment
+        uses: actions/deploy-pages@v4

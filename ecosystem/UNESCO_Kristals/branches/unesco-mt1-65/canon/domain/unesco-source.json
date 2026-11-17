@@ -1,0 +1,2534 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {
+        "ar": [
+          "اداء اكاديمي",
+          "انجازات الطلاب",
+          "تحصيل اكاديمي",
+          "تحصيل الطلاب",
+          "تحصيل دراسي",
+          "تقدم الطلاب"
+        ],
+        "en": [
+          "Academic performance",
+          "Student achievement",
+          "Student progress"
+        ],
+        "es": [
+          "Progreso académico",
+          "Progreso escolar",
+          "Progreso estudiantil",
+          "Rendimiento académico",
+          "Rendimiento del estudiante",
+          "Rendimiento estudiantil"
+        ],
+        "fr": [
+          "Performance académique",
+          "Performance scolaire",
+          "Rendement académique",
+          "Rendement de l'étudiant"
+        ],
+        "ru": [
+          "Успеваемость учащихся",
+          "Успехи учащихся",
+          "Характеристики академической работы"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T14:00:17+00:00",
+      "narrower": [
+        "concept1045"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "انجاز اكاديمي"
+        ],
+        "en": [
+          "Academic achievement"
+        ],
+        "es": [
+          "Rendimiento escolar"
+        ],
+        "fr": [
+          "Rendement scolaire"
+        ],
+        "ru": [
+          "Академическая успеваемость"
+        ]
+      },
+      "related": [
+        "concept1047",
+        "concept1048",
+        "concept1049",
+        "concept1050",
+        "concept1051"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept87",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept87",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقييم التعليم"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T14:00:06+00:00",
+      "narrower": [
+        "concept1050",
+        "concept17048",
+        "concept17108",
+        "concept7285",
+        "concept9195"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم تربوي"
+        ],
+        "en": [
+          "Educational evaluation"
+        ],
+        "es": [
+          "Evaluación de la educación"
+        ],
+        "fr": [
+          "Évaluation de l'éducation"
+        ],
+        "ru": [
+          "Процессы оценки в сфере образования"
+        ]
+      },
+      "related": [
+        "concept6707",
+        "concept7287",
+        "concept9197"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept88",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept88",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مؤهلات اكاديمية",
+          "مؤهلات تربوية"
+        ],
+        "en": [
+          "Academic qualifications"
+        ],
+        "es": [
+          "Requisitos académicos"
+        ],
+        "fr": [
+          "Titre universitaire"
+        ],
+        "ru": [
+          "Академический ценз"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T14:00:20+00:00",
+      "narrower": [
+        "concept1091",
+        "concept1243",
+        "concept16984",
+        "concept17130",
+        "concept7565"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مؤهلات تعليمية"
+        ],
+        "en": [
+          "Educational qualifications"
+        ],
+        "es": [
+          "Cualificación académica"
+        ],
+        "fr": [
+          "Qualification académique"
+        ],
+        "ru": [
+          "Образовательные квалификации"
+        ]
+      },
+      "related": [
+        "concept4543"
+      ],
+      "scope_notes": {
+        "ar": [
+          "شروط أكاديمية مطلوبة عادة للحصول على وظيفة."
+        ],
+        "en": [
+          "Required conditions, usually academic, for a post."
+        ],
+        "es": [
+          "Condiciones requeridas, generalmente de orden académico, para acceder a un puesto."
+        ],
+        "fr": [
+          "Conditions requises, généralement d'ordre académique, pour accéder à un poste."
+        ],
+        "ru": [
+          "Условия, необходимые для получения должности в рамках полученного образования."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept89",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept89",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحسين تربوي"
+        ],
+        "en": [
+          "Educational improvement"
+        ],
+        "es": [
+          "Mejora de la educación",
+          "Progreso educativo"
+        ],
+        "fr": [
+          "Amélioration de l'éducation"
+        ],
+        "ru": [
+          "Образовательные улучшения"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:57:42+00:00",
+      "narrower": [
+        "concept1047",
+        "concept5929",
+        "concept7287"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "جودة التعليم"
+        ],
+        "en": [
+          "Educational quality"
+        ],
+        "es": [
+          "Calidad de la educación"
+        ],
+        "fr": [
+          "Qualité de l'éducation"
+        ],
+        "ru": [
+          "Качество образования"
+        ]
+      },
+      "related": [
+        "concept1051",
+        "concept1114",
+        "concept6707"
+      ],
+      "scope_notes": {
+        "ar": [
+          "درجات التميز في تحقيق الأهداف التعليمية. استخدم واصفة أكثر دقة عند الضرورة."
+        ],
+        "en": [
+          "Degrees of excellence in meeting educational objectives. Use more specific descriptor where appropriate."
+        ],
+        "es": [
+          "Nivel alcanzado en la realización de los objetivos educativos. Utilizar un descriptor más preciso cuando sea necesario."
+        ],
+        "fr": [
+          "Niveau d'excellence dans la réalisation des objectifs de l'éducation. Utiliser un descripteur plus précis quand c'est pertinent."
+        ],
+        "ru": [
+          "Степени совершенства в достижении образовательных целей. В необходимых случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept90",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept90",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ترك المدرسة"
+        ],
+        "es": [
+          "Abandono escolar"
+        ],
+        "fr": [
+          "Abandon précoce",
+          "Abandon scolaire",
+          "Décrochage scolaire"
+        ]
+      },
+      "broader": [
+        "concept1045"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:59:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تسرب"
+        ],
+        "en": [
+          "Dropping out"
+        ],
+        "es": [
+          "Deserción escolar"
+        ],
+        "fr": [
+          "Abandon en cours d'études"
+        ],
+        "ru": [
+          "Отсев учащихся"
+        ]
+      },
+      "related": [
+        "concept1068",
+        "concept7660",
+        "concept8517"
+      ],
+      "scope_notes": {
+        "ar": [
+          "مغادرة المدرسة قبل الأوان، قبل إكمال دورة أو مقرر بدأ بالفعل."
+        ],
+        "en": [
+          "Premature school leaving before completing a cycle or course already begun."
+        ],
+        "es": [
+          "Partida prematura del colegio antes de haber concluído un ciclo completo o un curso ya iniciado."
+        ],
+        "fr": [
+          "Départ prématuré de l'école avant d'avoir complété un cycle ou un cours commencés."
+        ],
+        "ru": [
+          "Преждевременное завершение пребывания в школе до окончания начатого цикла или курса обучения."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept975",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept975",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept9428"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:59:23+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قدرة على القراءة"
+        ],
+        "en": [
+          "Reading ability"
+        ],
+        "es": [
+          "Aptitud para la lectura"
+        ],
+        "fr": [
+          "Aptitude à la lecture"
+        ],
+        "ru": [
+          "Способность к чтению"
+        ]
+      },
+      "related": [
+        "concept13304",
+        "concept8211",
+        "concept993"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept997",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept997",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخفاق اكاديمي"
+        ]
+      },
+      "broader": [
+        "concept87"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T14:00:02+00:00",
+      "narrower": [
+        "concept1066",
+        "concept975"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فشل دراسي"
+        ],
+        "en": [
+          "Academic failure"
+        ],
+        "es": [
+          "Fracaso escolar"
+        ],
+        "fr": [
+          "Échec scolaire"
+        ],
+        "ru": [
+          "Академическая неуспеваемость"
+        ]
+      },
+      "related": [
+        "concept1068",
+        "concept1069"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1045",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1045",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معايير تعليمية"
+        ],
+        "en": [
+          "Educational standards"
+        ],
+        "es": [
+          "Condiciones académicas"
+        ],
+        "fr": [
+          "Standards académiques"
+        ],
+        "ru": [
+          "Образовательные стандарты"
+        ]
+      },
+      "broader": [
+        "concept90"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:59:16+00:00",
+      "narrower": [
+        "concept1086"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معايير اكاديمية"
+        ],
+        "en": [
+          "Academic standards"
+        ],
+        "es": [
+          "Norma académica"
+        ],
+        "fr": [
+          "Norme académique"
+        ],
+        "ru": [
+          "Академические стандарты"
+        ]
+      },
+      "related": [
+        "concept1088",
+        "concept1089",
+        "concept1090",
+        "concept1091",
+        "concept1092",
+        "concept87"
+      ],
+      "scope_notes": {
+        "ar": [
+          "المعايير التي وضعتها مؤسسة تعليمية لتحديد مستوى تحصيل الطلاب."
+        ],
+        "en": [
+          "Criteria established by an educational institution to determine levels of student achievement."
+        ],
+        "es": [
+          "Criterios establecidos por una institución educativa para determinar el nivel de rendimiento de un estudiante."
+        ],
+        "fr": [
+          "Critères établis par une institution éducative pour déterminer le niveau de rendement d'un étudiant."
+        ],
+        "ru": [
+          "Критерии, установленные образовательным учреждением для определения уровня успеваемости студентов."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1047",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1047",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اختبارات التحصيل"
+        ],
+        "es": [
+          "Prueba de conocimientos"
+        ]
+      },
+      "broader": [
+        "concept1392"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:57:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اختبارات الانجاز"
+        ],
+        "en": [
+          "Achievement tests"
+        ],
+        "es": [
+          "Control de rendimiento escolar"
+        ],
+        "fr": [
+          "Contrôle de rendement scolaire"
+        ],
+        "ru": [
+          "Тесты на успеваемость"
+        ]
+      },
+      "related": [
+        "concept87"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1048",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1048",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اكتشاف المواهب",
+          "تصنيف تربوي",
+          "تقييم تربوي"
+        ],
+        "en": [
+          "Educational assessment",
+          "Educational rating",
+          "Student appraisal",
+          "Talent identification"
+        ],
+        "es": [
+          "Evaluación escolar",
+          "Evaluación pedagógica",
+          "Notación escolar",
+          "Valoración del estudiante"
+        ],
+        "fr": [
+          "Dépistage des talents",
+          "Notation scolaire",
+          "Évaluation pédagogique",
+          "Évaluation scolaire"
+        ],
+        "ru": [
+          "Аттестация учащихся",
+          "Выявление таланта",
+          "Образовательные рейтинги",
+          "Учебная оценка"
+        ]
+      },
+      "broader": [
+        "concept88"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-17T16:38:12+00:00",
+      "narrower": [
+        "concept10537",
+        "concept10549",
+        "concept1092",
+        "concept1392"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم الطلاب"
+        ],
+        "en": [
+          "Student evaluation"
+        ],
+        "es": [
+          "Evaluación del estudiante"
+        ],
+        "fr": [
+          "Évaluation de l'étudiant"
+        ],
+        "ru": [
+          "Оценка знаний учащихся"
+        ]
+      },
+      "related": [
+        "concept2131",
+        "concept5947",
+        "concept87"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1050",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1050",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Eficacia del profesor"
+        ]
+      },
+      "broader": [
+        "concept9195"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:59:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فعالية المعلم"
+        ],
+        "en": [
+          "Teacher effectiveness"
+        ],
+        "es": [
+          "Eficacia del docente"
+        ],
+        "fr": [
+          "Rendement de l'enseignant"
+        ],
+        "ru": [
+          "Эффективность работы преподавателей"
+        ]
+      },
+      "related": [
+        "concept14926",
+        "concept5922",
+        "concept87",
+        "concept90"
+      ],
+      "scope_notes": {
+        "ar": [
+          "درجة نجاح المعلمين في تحقيق أهدافهم المهنية وواجباتهم ووظائفهم."
+        ],
+        "en": [
+          "Degree to which teachers are successful in satisfying their objectives, obligations and functions."
+        ],
+        "es": [
+          "Grado en el que un profesor logra cumplir con sus objetivos y obligaciones, y desempeñar sus funciones."
+        ],
+        "fr": [
+          "Estimation du degré auquel un enseignant réussit à réaliser ses objectifs, à remplir ses obligations et ses fonctions."
+        ],
+        "ru": [
+          "Степень успешности преподавателей в достижении поставленных профессиональных целей, выполнении обязанностей и функций."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1051",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1051",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1045"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:59:21+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اعادة السنة الدراسية"
+        ],
+        "en": [
+          "Grade repetition"
+        ],
+        "es": [
+          "Repetición"
+        ],
+        "fr": [
+          "Redoublement"
+        ],
+        "ru": [
+          "Повтор годового курса"
+        ]
+      },
+      "related": [
+        "concept1069",
+        "concept7660",
+        "concept9447"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1066",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1066",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مواصفات التدريس"
+        ]
+      },
+      "broader": [
+        "concept1047"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:59:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معايير التدريس"
+        ],
+        "en": [
+          "Teaching standards"
+        ],
+        "es": [
+          "Norma de enseñanza"
+        ],
+        "fr": [
+          "Norme pédagogique"
+        ],
+        "ru": [
+          "Стандарты преподавания"
+        ]
+      },
+      "related": [
+        "concept82"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1086",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1086",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعتراف بالمؤهلات الاكاديمية",
+          "اعتراف متبادل بالمؤهلات",
+          "اعتماد اكاديمي"
+        ],
+        "en": [
+          "Academic recognition",
+          "Mutual recognition of qualifications"
+        ],
+        "es": [
+          "Convalidación de diplomas",
+          "Convalidación de títulos"
+        ],
+        "fr": [
+          "Reconnaissance académique",
+          "Reconnaissance mutuelle des qualifications"
+        ],
+        "ru": [
+          "Академическое признание"
+        ]
+      },
+      "broader": [
+        "concept89"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2021-10-14T12:07:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معادلة بين الشهادات"
+        ],
+        "en": [
+          "Equivalence between diplomas"
+        ],
+        "es": [
+          "Equivalencia de diplomas"
+        ],
+        "fr": [
+          "Équivalence des diplômes"
+        ],
+        "ru": [
+          "Равноценность дипломов"
+        ]
+      },
+      "related": [
+        "concept1047",
+        "concept1092",
+        "concept16984",
+        "concept17130",
+        "concept4541",
+        "concept7565"
+      ],
+      "scope_notes": {
+        "ar": [
+          "يشمل جميع المستويات."
+        ],
+        "en": [
+          "Includes all levels."
+        ],
+        "es": [
+          "Válido para todos los niveles de enseñanza."
+        ],
+        "fr": [
+          "Valable pour tous les cycles d'enseignement."
+        ],
+        "ru": [
+          "Включает все уровни."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1091",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1091",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معايير الامتحانات"
+        ]
+      },
+      "broader": [
+        "concept1050"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-17T16:38:30+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مواصفات الامتحانات"
+        ],
+        "en": [
+          "Examination standards"
+        ],
+        "es": [
+          "Norma de examen"
+        ],
+        "fr": [
+          "Norme d'examen"
+        ],
+        "ru": [
+          "Экзаменационные стандарты"
+        ]
+      },
+      "related": [
+        "concept1047",
+        "concept10549",
+        "concept1091"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1092",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1092",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تعلم سابق",
+          "خلفية تربوية",
+          "معرفة اساسية",
+          "معرفة مسبقة"
+        ],
+        "en": [
+          "Background knowledge",
+          "Prior knowledge",
+          "Prior learning"
+        ],
+        "fr": [
+          "Acquis antérieur",
+          "Acquis préalable",
+          "Connaissances préalables",
+          "Savoir préalable"
+        ],
+        "ru": [
+          "Полученные знания",
+          "Предшествующая учеба",
+          "Ранее полученные знания"
+        ]
+      },
+      "broader": [
+        "concept89"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T14:00:02+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "خلفية تعليمية"
+        ],
+        "en": [
+          "Educational background"
+        ],
+        "es": [
+          "Antecedentes académicos"
+        ],
+        "fr": [
+          "Acquis éducatif"
+        ],
+        "ru": [
+          "Полученное образование"
+        ]
+      },
+      "related": [
+        "concept17048",
+        "concept4541"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1243",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1243",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اختبارات تربوية",
+          "قياس تربوي"
+        ],
+        "en": [
+          "Educational measurement",
+          "Educational tests"
+        ],
+        "es": [
+          "Control pedagógico",
+          "Prueba educativa"
+        ],
+        "fr": [
+          "Contrôle pédagogique"
+        ],
+        "ru": [
+          "Педагогическое измерение",
+          "Учебные тесты"
+        ]
+      },
+      "broader": [
+        "concept1050"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2022-05-31T11:06:23+00:00",
+      "narrower": [
+        "concept1048",
+        "concept2611",
+        "concept9426",
+        "concept9427",
+        "concept9428"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اختبار تربوي"
+        ],
+        "en": [
+          "Educational testing"
+        ],
+        "es": [
+          "Control escolar"
+        ],
+        "fr": [
+          "Contrôle scolaire"
+        ],
+        "ru": [
+          "Учебное тестирование"
+        ]
+      },
+      "related": [
+        "concept10537",
+        "concept9430"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept1392",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept1392",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اختبارات الكفاءة"
+        ]
+      },
+      "broader": [
+        "concept1392"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:58:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اختبارات القدرات"
+        ],
+        "en": [
+          "Aptitude tests"
+        ],
+        "es": [
+          "Prueba de aptitud"
+        ],
+        "fr": [
+          "Test d'aptitudes"
+        ],
+        "ru": [
+          "Тесты на определение склонностей"
+        ]
+      },
+      "related": [
+        "concept996"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الأدوات المستخدمة لتقييم مجموعة من القدرات الفطرية والمكتسبة والتي تعتبر مؤشرًا على الأداء المستقبلي."
+        ],
+        "en": [
+          "Instruments used to assess a combination of native and acquired abilities which are considered indicative of future performance."
+        ],
+        "es": [
+          "Técnica empleada para evaluar las disposiciones naturales o adquiridas en un individuo con vistas a obtener indicaciones sobre su futuro rendimiento."
+        ],
+        "fr": [
+          "Technique utilisée pour évaluer les dispositions naturelles ou acquises chez un individu, et de nature à fournir des indications sur sa performance future."
+        ],
+        "ru": [
+          "Средства, используемые для оценки комплекса врожденных и приобретенных способностей, призванных определять будущие результаты работы."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2611",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2611",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept7565"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:58:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "درجات البكالوريوس"
+        ],
+        "en": [
+          "Bachelors degrees"
+        ],
+        "es": [
+          "Diploma universitario (1er nivel)"
+        ],
+        "fr": [
+          "Diplôme universitaire (1er cycle)"
+        ],
+        "ru": [
+          "Степени бакалавров"
+        ]
+      },
+      "related": [
+        "concept3500",
+        "concept3501"
+      ],
+      "scope_notes": {
+        "ar": [
+          "درجة علمية جامعية من المستوى الأول."
+        ],
+        "en": [
+          "First university degree."
+        ],
+        "es": [
+          "Diploma universitario de primer grado."
+        ],
+        "fr": [
+          "Premier diplôme universitaire."
+        ],
+        "ru": [
+          "Университетская научная степень первого уровня."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3498",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3498",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "درجة دكتوراه الفلسفة"
+        ],
+        "en": [
+          "Ph.D. degrees"
+        ],
+        "es": [
+          "Doctorado"
+        ],
+        "fr": [
+          "Ph.D."
+        ],
+        "ru": [
+          "Степени доктора философии"
+        ]
+      },
+      "broader": [
+        "concept7565"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T14:33:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "درجات الدكتوراه"
+        ],
+        "en": [
+          "Doctoral degrees"
+        ],
+        "es": [
+          "Grado de doctor"
+        ],
+        "fr": [
+          "Doctorat"
+        ],
+        "ru": [
+          "Докторские степени"
+        ]
+      },
+      "related": [
+        "concept3498",
+        "concept3501"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3500",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3500",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Grade de maîtrise",
+          "Maîtrise"
+        ]
+      },
+      "broader": [
+        "concept7565"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:58:39+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "درجات الماجستير"
+        ],
+        "en": [
+          "Masters degrees"
+        ],
+        "es": [
+          "Grado de maestría"
+        ],
+        "fr": [
+          "Diplôme universitaire (2e cycle)"
+        ],
+        "ru": [
+          "Степени магистров"
+        ]
+      },
+      "related": [
+        "concept3498",
+        "concept3500"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3501",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3501",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Aptitud pedagógica",
+          "Capacidad pedagógica",
+          "Cualificación pedagógica"
+        ],
+        "fr": [
+          "Aptitude à enseigner",
+          "Aptitude à l'enseignement",
+          "Talent pédagogique"
+        ]
+      },
+      "broader": [
+        "concept9195"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T12:09:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مهارات التدريس"
+        ],
+        "en": [
+          "Teaching skills"
+        ],
+        "es": [
+          "Habilidad pedagógica"
+        ],
+        "fr": [
+          "Compétence pédagogique"
+        ],
+        "ru": [
+          "Навыки преподавания"
+        ]
+      },
+      "related": [
+        "concept1051",
+        "concept1090",
+        "concept14097"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5922",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5922",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "محاسبة تربوية",
+          "مساءلة تربویة"
+        ]
+      },
+      "broader": [
+        "concept90"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:59:11+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مسؤولية تربوية"
+        ],
+        "en": [
+          "Educational accountability"
+        ],
+        "es": [
+          "Responsabilidad (educación)"
+        ],
+        "fr": [
+          "Responsabilité (éducation)"
+        ],
+        "ru": [
+          "Учебная ответственность"
+        ]
+      },
+      "related": [
+        "concept1090",
+        "concept6151",
+        "concept7287",
+        "concept9128"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تحمل المسؤولية عن نتائج أو تبعات محددة لنشاط (والتي يتحمل الفرد المسؤولية عنها)."
+        ],
+        "en": [
+          "Being held responsible and answerable for specific results or outcomes of an activity (over which one has responsibility)."
+        ],
+        "es": [
+          "Responsable último y garante de los resultados específicos y las consecuencias de una actividad de la cual está encargado."
+        ],
+        "fr": [
+          "Tenu responsable et garant des résultats spécifiques et des conséquences d'une activité (dont on a la charge)."
+        ],
+        "ru": [
+          "Ответственность за конкретные результаты или итоги деятельности, которой поручено заниматься."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5929",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5929",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Valoración del currículo"
+        ]
+      },
+      "broader": [
+        "concept88"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:58:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم المناهج"
+        ],
+        "en": [
+          "Curriculum evaluation"
+        ],
+        "es": [
+          "Evaluación del currículo"
+        ],
+        "fr": [
+          "Évaluation du curriculum"
+        ],
+        "ru": [
+          "Оценка учебного плана"
+        ]
+      },
+      "related": [
+        "concept7280",
+        "concept7287"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7285",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7285",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ملاءمة المناهج الدراسية"
+        ],
+        "en": [
+          "Curriculum relevance"
+        ],
+        "es": [
+          "Pertinencia del plan de estudios"
+        ],
+        "fr": [
+          "Pertinence du contenu de l'éducation",
+          "Pertinence du curriculum"
+        ],
+        "ru": [
+          "Актуальность учебного плана"
+        ]
+      },
+      "broader": [
+        "concept90"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T14:00:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ملاءمة تربوية"
+        ],
+        "en": [
+          "Educational relevance"
+        ],
+        "es": [
+          "Pertinencia de la educación"
+        ],
+        "fr": [
+          "Pertinence de l'éducation"
+        ],
+        "ru": [
+          "Образовательная актуальность"
+        ]
+      },
+      "related": [
+        "concept5929",
+        "concept7285",
+        "concept88",
+        "concept8863"
+      ],
+      "scope_notes": {
+        "ar": [
+          "قابلية تطبيق ما يتم تدريسه لاحتياجات واهتمامات الطلاب والمجتمع."
+        ],
+        "en": [
+          "Applicability of what is taught to the needs and interest of students and society."
+        ],
+        "es": [
+          "Adecuación entre lo que se enseña y las necesidades e intereses de los estudiantes y de la sociedad."
+        ],
+        "fr": [
+          "Adéquation entre ce qui est enseigné et les besoins et intérêts des étudiants et de la société."
+        ],
+        "ru": [
+          "Приложение преподаваемых предметов к потребностям и интересам учащихся и общества."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7287",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7287",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "درجات اكاديمية",
+          "درجات جامعية"
+        ],
+        "en": [
+          "Academic degrees",
+          "University degrees"
+        ],
+        "es": [
+          "Diploma universitario",
+          "Título de licenciatura",
+          "Título universitario"
+        ],
+        "fr": [
+          "Diplôme universitaire",
+          "Grade universitaire"
+        ],
+        "ru": [
+          "Академические степени",
+          "Университетские степени"
+        ]
+      },
+      "broader": [
+        "concept89"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:59:39+00:00",
+      "narrower": [
+        "concept3498",
+        "concept3500",
+        "concept3501"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "درجات علمية"
+        ],
+        "en": [
+          "Degrees"
+        ],
+        "es": [
+          "Título académico"
+        ],
+        "fr": [
+          "Grade"
+        ],
+        "ru": [
+          "Ученые степени"
+        ]
+      },
+      "related": [
+        "concept1091",
+        "concept16984",
+        "concept4543"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7565",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7565",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقييم كفاءة المعلم"
+        ],
+        "en": [
+          "Teacher appraisal",
+          "Teacher effectiveness evaluation"
+        ],
+        "es": [
+          "Evaluación del profesor",
+          "Valoración del docente",
+          "Valoración del profesor"
+        ],
+        "ru": [
+          "Аттестация преподавателей",
+          "Оценка эффективности преподавателя"
+        ]
+      },
+      "broader": [
+        "concept88"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-17T16:38:22+00:00",
+      "narrower": [
+        "concept1051",
+        "concept5922"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم المعلمين"
+        ],
+        "en": [
+          "Teacher evaluation"
+        ],
+        "es": [
+          "Evaluación del docente"
+        ],
+        "fr": [
+          "Évaluation de l'enseignant"
+        ],
+        "ru": [
+          "Оценка преподавателей"
+        ]
+      },
+      "related": [
+        "concept15094",
+        "concept4543"
+      ],
+      "scope_notes": {
+        "ar": [
+          "الحكم على أداء المعلم بناء على معايير محددة."
+        ],
+        "en": [
+          "Judging teacher performance based on established criteria."
+        ],
+        "es": [
+          "Valoración del rendimiento de un docente en función de criterios establecidos."
+        ],
+        "fr": [
+          "Appréciation de la performance d'un enseignant sur la base de critères établis."
+        ],
+        "ru": [
+          "Соотнесение работы преподавателя с установленными критериями."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9195",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9195",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "حاصل الذكاء",
+          "معامل الذكاء",
+          "معدل الذكاء",
+          "نسبة الذكاء"
+        ],
+        "en": [
+          "Intelligence quotient"
+        ],
+        "es": [
+          "Coeficiente intelectual",
+          "QI"
+        ],
+        "fr": [
+          "QI",
+          "Quotient intellectuel"
+        ],
+        "ru": [
+          "Коэффициент умственного развития"
+        ]
+      },
+      "broader": [
+        "concept1392"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:59:40+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اختبارات الذكاء"
+        ],
+        "en": [
+          "Intelligence tests"
+        ],
+        "es": [
+          "Test de inteligencia"
+        ],
+        "fr": [
+          "Test d'intelligence"
+        ],
+        "ru": [
+          "Тесты на интеллектуальный уровень"
+        ]
+      },
+      "related": [
+        "concept389"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9426",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9426",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Test de opción múltiple"
+        ]
+      },
+      "broader": [
+        "concept1392"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T14:00:10+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اختبارات الاختيار من متعدد"
+        ],
+        "en": [
+          "Multiple choice tests"
+        ],
+        "es": [
+          "Prueba de respuesta múltiple"
+        ],
+        "fr": [
+          "Épreuve à choix multiple"
+        ],
+        "ru": [
+          "Тесты с множественными вариантами ответов"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9427",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9427",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1392"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T12:09:20+00:00",
+      "narrower": [
+        "concept997"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اختبارات القراءة"
+        ],
+        "en": [
+          "Reading tests"
+        ],
+        "es": [
+          "Prueba de lectura"
+        ],
+        "fr": [
+          "Test de lecture"
+        ],
+        "ru": [
+          "Тесты по проверке навыков чтения"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9428",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9428",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Examen de admisión"
+        ],
+        "fr": [
+          "Examen d'admission",
+          "Examen de passage"
+        ]
+      },
+      "broader": [
+        "concept10537"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T12:08:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "امتحانات القبول"
+        ],
+        "en": [
+          "Entrance examinations"
+        ],
+        "es": [
+          "Examen de ingreso"
+        ],
+        "fr": [
+          "Examen d'entrée"
+        ],
+        "ru": [
+          "Вступительные экзамены"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9993",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9993",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اختبارات"
+        ]
+      },
+      "broader": [
+        "concept1050"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2022-05-31T11:07:16+00:00",
+      "narrower": [
+        "concept10539",
+        "concept10542",
+        "concept10544",
+        "concept9993"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "امتحانات"
+        ],
+        "en": [
+          "Examinations"
+        ],
+        "es": [
+          "Examen"
+        ],
+        "fr": [
+          "Examen"
+        ],
+        "ru": [
+          "Экзамены"
+        ]
+      },
+      "related": [
+        "concept1392",
+        "concept17071",
+        "concept9140"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10537",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10537",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اختبارات تحريرية"
+        ],
+        "es": [
+          "Prueba escrita"
+        ]
+      },
+      "broader": [
+        "concept10537"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T14:32:25+00:00",
+      "narrower": [
+        "concept15478"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "امتحانات تحريرية"
+        ],
+        "en": [
+          "Written examinations"
+        ],
+        "es": [
+          "Examen escrito"
+        ],
+        "fr": [
+          "Examen écrit"
+        ],
+        "ru": [
+          "Письменные экзамены"
+        ]
+      },
+      "related": [
+        "concept10542",
+        "concept10544"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10539",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10539",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اختبارات شفوية"
+        ],
+        "es": [
+          "Prueba oral"
+        ],
+        "fr": [
+          "Interrogation orale"
+        ]
+      },
+      "broader": [
+        "concept10537"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:58:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "امتحانات شفوية"
+        ],
+        "en": [
+          "Oral examinations"
+        ],
+        "es": [
+          "Examen oral"
+        ],
+        "fr": [
+          "Examen oral"
+        ],
+        "ru": [
+          "Устные экзамены"
+        ]
+      },
+      "related": [
+        "concept10539",
+        "concept10544"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10542",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10542",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept10537"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:58:12+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "امتحانات عملية"
+        ],
+        "en": [
+          "Practical examinations"
+        ],
+        "es": [
+          "Examen práctico"
+        ],
+        "fr": [
+          "Examen pratique"
+        ],
+        "ru": [
+          "Практические экзамены"
+        ]
+      },
+      "related": [
+        "concept10539",
+        "concept10542",
+        "concept1308"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10544",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10544",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept1050"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T12:09:19+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "درجات الامتحان"
+        ],
+        "en": [
+          "Examination marks"
+        ],
+        "es": [
+          "Nota de examen"
+        ],
+        "fr": [
+          "Note d'examen"
+        ],
+        "ru": [
+          "Экзаменационные оценки"
+        ]
+      },
+      "related": [
+        "concept1092"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10549",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10549",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اطروحات"
+        ],
+        "en": [
+          "Dissertations"
+        ],
+        "es": [
+          "Disertación"
+        ],
+        "fr": [
+          "Dissertation"
+        ],
+        "ru": [
+          "Диссертации"
+        ]
+      },
+      "broader": [
+        "concept10539"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T13:58:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "رسائل جامعية"
+        ],
+        "en": [
+          "Theses"
+        ],
+        "es": [
+          "Tesis"
+        ],
+        "fr": [
+          "Thèse"
+        ],
+        "ru": [
+          "Научные работы"
+        ]
+      },
+      "related": [
+        "concept4219"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept15478",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept15478",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "دبلومات",
+          "شهادات التخرج",
+          "شهادات تعليمية"
+        ],
+        "en": [
+          "Educational certificates",
+          "Leaving certificates"
+        ],
+        "es": [
+          "Acreditación de estudios",
+          "Certificado de estudios"
+        ],
+        "fr": [
+          "Attestation d'études",
+          "Brevet d'études",
+          "Certificat d'études"
+        ],
+        "ru": [
+          "Аттестаты об образовании",
+          "Свидетельства об окончании учебного учреждения"
+        ]
+      },
+      "broader": [
+        "concept89"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-15T14:00:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "شهادات"
+        ],
+        "en": [
+          "Diplomas"
+        ],
+        "es": [
+          "Diploma"
+        ],
+        "fr": [
+          "Diplôme"
+        ],
+        "ru": [
+          "Дипломы"
+        ]
+      },
+      "related": [
+        "concept1091",
+        "concept7565"
+      ],
+      "scope_notes": {
+        "ar": [
+          "شهادات التعليم العالي التي تكون ذات قيمة أقل من الدرجات العلمية."
+        ],
+        "en": [
+          "Certificates of higher education with less weight than a degree."
+        ],
+        "es": [
+          "Certificado de educación superior de menor valor que un título univeristario."
+        ],
+        "fr": [
+          "Certificat de l'éducation supérieure ayant moins de valeur qu'un degré universitaire."
+        ],
+        "ru": [
+          "Свидетельства о высшем образовании, имеющие меньшую ценность, чем научные степени."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16984",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16984",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اعتراف بالتعلم السابق",
+          "اعتراف بالتعلم المُسبق",
+          "اعتماد الدراسات السابقة"
+        ],
+        "en": [
+          "Prior learning accreditation",
+          "Prior learning assessment",
+          "Prior learning recognition",
+          "Recognition of prior learning"
+        ],
+        "es": [
+          "Evaluación de conocimientos previos",
+          "Validación de conocimientos anteriores",
+          "Valoración de conocimientos previos"
+        ],
+        "fr": [
+          "Reconnaissance des acquis",
+          "Validation des acquis"
+        ],
+        "ru": [
+          "Аккредитация предшествующей учебы",
+          "Признание предшествующей учебы",
+          "Экспертиза предшествующей учебы"
+        ]
+      },
+      "broader": [
+        "concept88"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-17T16:38:25+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم التعلم السابق"
+        ],
+        "en": [
+          "Prior learning evaluation"
+        ],
+        "es": [
+          "Evaluación de conocimientos anteriores"
+        ],
+        "fr": [
+          "Évaluation des acquis"
+        ],
+        "ru": [
+          "Оценка предшествующей учебы"
+        ]
+      },
+      "related": [
+        "concept1243"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17048",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17048",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ترتيب الجامعات",
+          "ترتيب الكليات",
+          "تصنيف الكليات",
+          "تصنيف المدارس"
+        ],
+        "en": [
+          "College ranking",
+          "School ranking"
+        ],
+        "fr": [
+          "Classement académique des universités",
+          "Palmarès universitaires"
+        ]
+      },
+      "broader": [
+        "concept88"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2019-12-17T16:38:14+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصنيف الجامعات"
+        ],
+        "en": [
+          "University ranking"
+        ],
+        "es": [
+          "Clasificación académica de universidades"
+        ],
+        "fr": [
+          "Classement universitaire"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17108",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17108",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "إطار المؤهلات الوطنية"
+        ],
+        "fr": [
+          "Cadre national des certifications"
+        ]
+      },
+      "broader": [
+        "concept89"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain1"
+      ],
+      "microthesaurus_ids": [
+        "mt1.65"
+      ],
+      "modified": "2022-06-27T11:38:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "أطر المؤهلات الوطنية"
+        ],
+        "en": [
+          "National qualifications framework"
+        ],
+        "es": [
+          "Marco nacional de cualificaciones"
+        ],
+        "fr": [
+          "Cadre national de qualification"
+        ],
+        "ru": [
+          "Национальные рамки квалификаций"
+        ]
+      },
+      "related": [
+        "concept1091",
+        "concept36"
+      ],
+      "scope_notes": {
+        "ar": [
+          "إطار المؤهلات الوطني هو أداة تستخدم لتصنيف مؤهلات الدولة على مستويات مختلفة. يتم تحديد كل مستوى من خلال مجموعة من نتائج التعلم المتوقعة على هذا المستوى."
+        ],
+        "en": [
+          "Instrument used to classify a country’s qualifications at different levels. Each level is defined by a set of learning outcomes expected at that level."
+        ],
+        "es": [
+          "Instrumento utilizado para clasificar las cualificaciones de un país en diferentes niveles. Cada nivel está definido por el conjunto de resultados de aprendizaje previstos para ese nivel."
+        ],
+        "fr": [
+          "Outil utilisé pour classer les certifications d'un pays à différents niveaux. Chaque niveau est défini par un ensemble de résultats d'apprentissage attendus à ce niveau."
+        ],
+        "ru": [
+          "Национальная рамка квалификаций - это инструмент, используемый для классификации квалификаций в стране на различных уровнях. Каждый уровень квалификации определяется набором результатов обучения, ожидаемых на этом уровне."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17130",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17130",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt1.65",
+    "labels": {
+      "en": "Educational evaluation",
+      "fr": "Evaluation de l'éducation"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt1.65"
+  }
+}

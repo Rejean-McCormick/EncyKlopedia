@@ -1,0 +1,155 @@
+{
+  "format": "spek.template-graph/1.0",
+  "template_id": "rhetorical.cars-research-question",
+  "version": "1.0.0",
+  "category": "rhetorical",
+  "intent": "Domaine, question, objectif",
+  "research_basis": {
+    "family": "genre",
+    "relation": "swales.cars.question",
+    "source": "CARS",
+    "source_url": "https://www.umass.edu/writing-center/resources/creating-research-space",
+    "adaptation": "Spek non-normative"
+  },
+  "rhetorical_contract": {
+    "relationship_label": "swales.cars.question",
+    "editorial_relation_required": true,
+    "semantic_warning": "La question est expressément autorisée; ne pas en inférer une.",
+    "critical_questions": []
+  },
+  "slots": {
+    "context": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "context"
+      ],
+      "visual_role": "paragraph"
+    },
+    "gap": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "observation"
+      ],
+      "visual_role": "paragraph"
+    },
+    "question": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "question"
+      ],
+      "visual_role": "paragraph"
+    },
+    "objective": {
+      "node_kind": "text",
+      "min": 1,
+      "max": 1,
+      "allowed_kinds": [
+        "objective"
+      ],
+      "visual_role": "paragraph"
+    }
+  },
+  "ordered_slots": [
+    "context",
+    "gap",
+    "question",
+    "objective"
+  ],
+  "presentation_policy": {
+    "layout_variant": "flow",
+    "show_template_labels": false,
+    "paragraph_break_before_slots": [
+      "question"
+    ]
+  },
+  "no_fact_selection": true,
+  "no_text_generation": true,
+  "discourse_model": {
+    "format": "spek.discourse-model/1.0",
+    "scope": "editorial_adaptation_not_a_normative_semantic_validator",
+    "relation_tag": "swales.cars.question",
+    "focus_slot": "question",
+    "moves": [
+      {
+        "slot": "context",
+        "function": "context",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "gap",
+        "function": "research_gap",
+        "nuclearity": "supporting",
+        "group": 1,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "question",
+        "function": "guiding_question",
+        "nuclearity": "focus",
+        "group": 2,
+        "surface_role": "paragraph"
+      },
+      {
+        "slot": "objective",
+        "function": "objective",
+        "nuclearity": "supporting",
+        "group": 2,
+        "surface_role": "paragraph"
+      }
+    ],
+    "links": [
+      {
+        "from_slot": "context",
+        "to_slot": "question",
+        "relation": "swales.cars.question",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      },
+      {
+        "from_slot": "gap",
+        "to_slot": "question",
+        "relation": "swales.cars.question",
+        "status": "requires_external_semantic_review",
+        "relation_function": "motivates"
+      },
+      {
+        "from_slot": "objective",
+        "to_slot": "question",
+        "relation": "swales.cars.question",
+        "status": "requires_external_semantic_review",
+        "relation_function": "contextualizes"
+      }
+    ],
+    "paragraph_groups": [
+      [
+        "context",
+        "gap"
+      ],
+      [
+        "question",
+        "objective"
+      ]
+    ],
+    "cohesion": {
+      "connectives": "only_explicit_semantik_realizations",
+      "rewrite_existing_phrases": false,
+      "infer_relations_from_adjacent_slots": false,
+      "text_without_realization": "refuse",
+      "transition_slot_policy": "optional_explicit_text_slot_only"
+    },
+    "semantic_review": {
+      "required_for_publication": true,
+      "checked_by_spek": false,
+      "questions": [],
+      "warning": "La question est expressément autorisée; ne pas en inférer une."
+    }
+  }
+}

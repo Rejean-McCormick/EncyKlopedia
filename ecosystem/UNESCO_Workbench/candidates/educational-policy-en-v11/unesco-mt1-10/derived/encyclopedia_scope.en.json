@@ -1,0 +1,319 @@
+{
+  "article_blueprint_en": [
+    "Definition and scope",
+    "Why this policy question matters",
+    "Legal and normative setting (if relevant)",
+    "Institutions and policy instruments",
+    "Implementation and financing (if relevant)",
+    "Historical development (if supported)",
+    "Evidence, indicators and observed outcomes",
+    "Comparative cases (jurisdiction and time specified)",
+    "Debates, critiques and knowledge limits",
+    "Related concepts and cross-branch links",
+    "References and source notes"
+  ],
+  "controlled_vocabulary": {
+    "membership": "Use actual 41 imported concepts as baseline, never infer ids from keywords.",
+    "non_members": "May be represented as evidence contexts or cross-branch links; new owned entities require review.",
+    "rule": "Every original member and stable UNESCO URI is retained; keywords are research/query facets, not replacements for source labels.",
+    "source": "UNESCO SKOS thesaurus snapshot in original Factory RUN"
+  },
+  "core_question": "How are educational goals translated into public decisions, legal rights, resources, institutions and measurable outcomes, under what circumstances and with what evidence?",
+  "excluded_subjects": [
+    "learning psychology, classroom pedagogy and teaching methods except policy implications",
+    "full legal interpretation of constitutions, treaties and court rulings beyond education-policy relevance",
+    "general macroeconomic policy and noneducation public finance",
+    "complete histories of individual schools, persons or ministries",
+    "country-level data without source/date/jurisdiction or a demonstrable education-policy link",
+    "encyclopedic assertion inferred from a UNESCO label, Wikidata candidate match or AI suggestion alone"
+  ],
+  "facet_taxonomy": [
+    {
+      "id": "rights_and_norms",
+      "keywords": [
+        "right to education",
+        "compulsory education",
+        "non-discrimination",
+        "education law",
+        "minimum standards",
+        "state obligations",
+        "human rights"
+      ],
+      "label": "Rights, duties and normative frameworks",
+      "prompts": [
+        "What is the policy obligation?",
+        "Who owes it to whom?",
+        "What is the legal jurisdiction and date?"
+      ]
+    },
+    {
+      "id": "governance",
+      "keywords": [
+        "education governance",
+        "education ministry",
+        "decentralization",
+        "school administration",
+        "public provision",
+        "private provision",
+        "accountability",
+        "regulation",
+        "policy authority"
+      ],
+      "label": "Governance and accountability",
+      "prompts": [
+        "Who decides?",
+        "Which institution implements?",
+        "Who is accountable?"
+      ]
+    },
+    {
+      "id": "planning_and_reform",
+      "keywords": [
+        "education policy",
+        "education planning",
+        "education reform",
+        "policy instrument",
+        "implementation",
+        "strategy",
+        "regulatory framework",
+        "program evaluation"
+      ],
+      "label": "Policy design, planning and reform",
+      "prompts": [
+        "Which policy mechanism is proposed?",
+        "How does implementation differ from adoption?"
+      ]
+    },
+    {
+      "id": "equity_and_access",
+      "keywords": [
+        "educational access",
+        "equity in education",
+        "inclusive education",
+        "gender parity",
+        "rural education",
+        "education inequality",
+        "disability inclusion",
+        "migrant education",
+        "minority language access"
+      ],
+      "label": "Access, inclusion and equity",
+      "prompts": [
+        "Who benefits or is excluded?",
+        "How is the disparity measured?"
+      ]
+    },
+    {
+      "id": "finance_and_resources",
+      "keywords": [
+        "education expenditure",
+        "school funding",
+        "public education finance",
+        "allocation formula",
+        "education budget",
+        "resource equity",
+        "funding policy"
+      ],
+      "label": "Financing and allocation",
+      "prompts": [
+        "Who pays?",
+        "What is allocated and according to which rule?"
+      ]
+    },
+    {
+      "id": "education_workforce",
+      "keywords": [
+        "teacher workforce",
+        "teacher policy",
+        "teacher recruitment",
+        "teacher retention",
+        "professional standards",
+        "staffing",
+        "employment conditions"
+      ],
+      "label": "Teachers and education workforce policy",
+      "prompts": [
+        "What workforce policy is specified?",
+        "What evidence concerns delivery or outcomes?"
+      ]
+    },
+    {
+      "id": "standards_and_pathways",
+      "keywords": [
+        "compulsory schooling",
+        "curriculum policy",
+        "qualification framework",
+        "school accreditation",
+        "educational assessment",
+        "education levels",
+        "school transitions"
+      ],
+      "label": "System standards and educational pathways",
+      "prompts": [
+        "What standards or pathways are governed?",
+        "What is outside policy and belongs to pedagogy?"
+      ]
+    },
+    {
+      "id": "measurement_and_effects",
+      "keywords": [
+        "education indicators",
+        "enrolment",
+        "completion rate",
+        "school attendance",
+        "learning outcomes",
+        "policy evaluation",
+        "impact evaluation",
+        "education statistics"
+      ],
+      "label": "Monitoring, outcomes and causal evidence",
+      "prompts": [
+        "What is the indicator definition?",
+        "Does evidence establish causation or association?",
+        "What is the year and population?"
+      ]
+    },
+    {
+      "id": "comparative_and_global",
+      "keywords": [
+        "comparative education policy",
+        "education reform history",
+        "international education cooperation",
+        "SDG 4",
+        "education policy diffusion",
+        "cross-country comparisons"
+      ],
+      "label": "Comparative, historical and international policy",
+      "prompts": [
+        "Which jurisdictions and time periods are compared?",
+        "Are definitions comparable?"
+      ]
+    }
+  ],
+  "grain": {
+    "cross_branch_concepts": "references_by_stable_id; no copied ownership",
+    "future_split_rule": "Split only for distinct semantic ownership or independently governed evidence, not an arbitrary number of pages.",
+    "individual_articles_are_projections": true,
+    "no_one_kristal_per_concept": true,
+    "one_branch_kristal": true,
+    "root_index_is_a_reference_registry_only": true
+  },
+  "knowledge_model": {
+    "claim_fields_required": [
+      "claim_id",
+      "subject_id",
+      "predicate",
+      "object_or_statement",
+      "claim_type",
+      "source_id",
+      "source_locator",
+      "jurisdiction",
+      "validity_period",
+      "evidence_status",
+      "review_status"
+    ],
+    "distinctions": [
+      "lexical_definition_vs_researched_definition",
+      "normative_claim_vs_empirical_observation",
+      "policy_goal_vs_implemented_measure",
+      "association_vs_causation",
+      "unreviewed_fact_vs_accepted_claim"
+    ],
+    "primitives": [
+      "concept",
+      "definition_candidate",
+      "jurisdiction",
+      "institution",
+      "policy_instrument",
+      "population",
+      "indicator",
+      "event",
+      "source",
+      "claim",
+      "evidence",
+      "counterclaim"
+    ],
+    "relationship_types": [
+      "skos_broader",
+      "skos_narrower",
+      "skos_related",
+      "governed_by",
+      "implements",
+      "targets",
+      "financed_by",
+      "measured_by",
+      "supported_by",
+      "contested_by",
+      "qualifies",
+      "cross_branch_reference"
+    ]
+  },
+  "mission": "Build an evidence-traceable encyclopedia of education policy: goals, rights, institutions, instruments, implementation, consequences and controversies. UNESCO labels anchor discovery, not the exhaustive editorial scope or proof of factual claims.",
+  "owned_subjects": [
+    "education-policy concepts and their disambiguated meanings",
+    "policy goals and their explicit normative context",
+    "legal and institutional education-policy arrangements, when sourced",
+    "policy instruments, implementation responsibilities, resource allocation and monitoring",
+    "evidence-qualified outcomes, trade-offs and unresolved disputes"
+  ],
+  "quality_gates": {
+    "G0": "Lock the original branch and inspect its actual 41 seed concepts, IDs and relations.",
+    "G1": "Approve scope and semantic ownership; keep a design-only Kristal without promoted assertions.",
+    "G2": "Create and review one comprehensive article for concept10, with independently verifiable claims and source locators.",
+    "G3": "Review a small contrasting sample of concepts and test cross-branch relationships before scaling.",
+    "G4": "Process all 41 seed concepts; publish only after structural, factual, licensing and editorial qualification."
+  },
+  "release_policy": {
+    "auto_approve_mappings": false,
+    "auto_promote_source_facts": false,
+    "auto_publish": false,
+    "initial_publication": "private_only",
+    "language_expansion": "deferred"
+  },
+  "schema": "kristal.unesco-encyclopedia-editorial-scope/1.0",
+  "source_policy": {
+    "ai": "Proposal only, never automatically canonical.",
+    "candidate_sources": [
+      "UNESCO and UNESCO Institute for Statistics",
+      "UNICEF",
+      "UN human-rights treaty repositories",
+      "national education ministries and statutes",
+      "OECD",
+      "World Bank",
+      "peer-reviewed education-policy research"
+    ],
+    "preferred_by_claim_type": {
+      "causal_effect": [
+        "methodologically appropriate peer-reviewed study or credible evaluation, with limitations"
+      ],
+      "history": [
+        "dated primary records and reliable historical scholarship"
+      ],
+      "law_or_right": [
+        "primary treaty, statute, regulation or official legal instrument, dated and jurisdiction-specific"
+      ],
+      "policy_action": [
+        "official policy document or implementation record, plus independent evaluation where available"
+      ],
+      "statistic": [
+        "UNESCO UIS or other primary statistical producer with series definition, year and coverage"
+      ]
+    },
+    "vocabulary_only": [
+      "UNESCO Thesaurus / SKOS labels, membership and relations"
+    ],
+    "wikidata": "Candidate identifiers and lead generation only until individually checked; raw P statements are not encyclopedic truth."
+  },
+  "source_sha256": "d767bf401f4053355a61aa05573d4882143cc63492d843eb113e0213560b338c",
+  "status": "editorial_proposal_not_canonical",
+  "subject": {
+    "count_is_baseline_not_a_coverage_limit": true,
+    "expected_seed_count": 41,
+    "seed_concept_id": "concept10",
+    "seed_concept_title": "Right to education",
+    "title": "Educational policy",
+    "unesco_branch_slug": "unesco-mt1-10",
+    "unesco_microthesaurus_id": "mt1.10",
+    "working_language": "en"
+  }
+}

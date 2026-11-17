@@ -1,0 +1,10 @@
+{
+  "pattern": "research_memory",
+  "memories": {
+    "knowledge": "established/imported domain knowledge",
+    "research": "hypotheses, obligations, attempts, results",
+    "strategy": "procedural observations; never domain truth"
+  },
+  "append_only": ["attempts", "results", "proof_obligations"],
+  "promotion": "explicit"
+}

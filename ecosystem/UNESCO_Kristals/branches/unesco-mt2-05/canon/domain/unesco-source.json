@@ -1,0 +1,3153 @@
+{
+  "concepts": [
+    {
+      "alternate_labels": {},
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:29:05+00:00",
+      "narrower": [
+        "concept10591",
+        "concept14258",
+        "concept4723",
+        "concept4725",
+        "concept6154",
+        "concept9615"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عمل بحثي"
+        ],
+        "en": [
+          "Research work"
+        ],
+        "es": [
+          "Trabajo de investigación"
+        ],
+        "fr": [
+          "Travail de recherche"
+        ],
+        "ru": [
+          "Исследовательская работа"
+        ]
+      },
+      "related": [
+        "concept106",
+        "concept9616"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept103",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept103",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "معرفة علمية"
+        ],
+        "en": [
+          "Scientific knowledge"
+        ],
+        "es": [
+          "Conocimiento científico",
+          "Saber científico"
+        ],
+        "fr": [
+          "Connaissance scientifique"
+        ],
+        "ru": [
+          "Научные знания"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2021-09-27T10:20:18+00:00",
+      "narrower": [
+        "concept17168"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم"
+        ],
+        "en": [
+          "Science"
+        ],
+        "es": [
+          "Ciencia"
+        ],
+        "fr": [
+          "Science"
+        ],
+        "ru": [
+          "Наука"
+        ]
+      },
+      "related": [
+        "concept116",
+        "concept17126"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept104",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept104",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "علم التقنية",
+          "علم التكنولوجيا",
+          "علم العلم"
+        ],
+        "en": [
+          "Science of technology"
+        ],
+        "es": [
+          "Ciencia de la tecnología"
+        ],
+        "fr": [
+          "Science de la technologie"
+        ],
+        "ru": [
+          "Научная основа технологии"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-23T18:33:39+00:00",
+      "narrower": [
+        "concept10365",
+        "concept11856",
+        "concept17144",
+        "concept3972",
+        "concept3974"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم العلوم"
+        ],
+        "en": [
+          "Science of science"
+        ],
+        "es": [
+          "Ciencia de la ciencia"
+        ],
+        "fr": [
+          "Science de la science"
+        ],
+        "ru": [
+          "Наука о науке (наукометрия)"
+        ]
+      },
+      "related": [
+        "concept106",
+        "concept282",
+        "concept6288"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept105",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept105",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقنيات البحث",
+          "طرق البحث",
+          "مناهج البحث",
+          "مناهج علمية"
+        ],
+        "en": [
+          "Research methods",
+          "Research techniques"
+        ],
+        "es": [
+          "Método de investigación",
+          "Técnica de investigación"
+        ],
+        "fr": [
+          "Méthode de recherche",
+          "Technique de recherche"
+        ],
+        "ru": [
+          "Методы научных исследований",
+          "Научно-исследовательские приемы"
+        ]
+      },
+      "broader": [],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:39+00:00",
+      "narrower": [
+        "concept13886",
+        "concept16291",
+        "concept2200",
+        "concept2202",
+        "concept2210",
+        "concept2212",
+        "concept2257",
+        "concept2595",
+        "concept3317",
+        "concept5899",
+        "concept6904",
+        "concept7121",
+        "concept7516",
+        "concept9612",
+        "concept9614",
+        "concept9616",
+        "concept9827"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طرق علمية"
+        ],
+        "en": [
+          "Scientific methods"
+        ],
+        "es": [
+          "Método científico"
+        ],
+        "fr": [
+          "Méthode scientifique"
+        ],
+        "ru": [
+          "Научные методы"
+        ]
+      },
+      "related": [
+        "concept103",
+        "concept105",
+        "concept2214",
+        "concept672",
+        "concept9615"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept106",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept106",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سببية"
+        ],
+        "en": [
+          "Causality"
+        ],
+        "es": [
+          "Causalidad"
+        ],
+        "fr": [
+          "Causalité"
+        ],
+        "ru": [
+          "Причинно-следственная связь"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:28:30+00:00",
+      "narrower": [
+        "concept4791"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل سببي"
+        ],
+        "en": [
+          "Causal analysis"
+        ],
+        "es": [
+          "Análisis causal"
+        ],
+        "fr": [
+          "Analyse causale"
+        ],
+        "ru": [
+          "Причинно-следственный анализ"
+        ]
+      },
+      "related": [
+        "concept285",
+        "concept4793"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2200",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2200",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحث مقارن"
+        ],
+        "en": [
+          "Comparative research"
+        ],
+        "es": [
+          "Examen comparativo",
+          "Investigación comparativa"
+        ],
+        "fr": [
+          "Recherche comparative"
+        ],
+        "ru": [
+          "Сравнительные исследования"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:28:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل مقارن"
+        ],
+        "en": [
+          "Comparative analysis"
+        ],
+        "es": [
+          "Análisis comparativo"
+        ],
+        "fr": [
+          "Analyse comparative"
+        ],
+        "ru": [
+          "Сравнительный анализ"
+        ]
+      },
+      "related": [
+        "concept17012",
+        "concept2255",
+        "concept2257",
+        "concept5899"
+      ],
+      "scope_notes": {
+        "ar": [
+          "عند الضرورة، استخدم واصفة أكثر تحديدا."
+        ],
+        "en": [
+          "Use more specific descriptor where appropriate."
+        ],
+        "es": [
+          "Utilizar un descriptor más preciso cuando sea necesario."
+        ],
+        "fr": [
+          "Utiliser un descripteur plus précis quand c'est opportun."
+        ],
+        "ru": [
+          "В необходимых случаях использовать более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2202",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2202",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:27:56+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل نوعي"
+        ],
+        "en": [
+          "Qualitative analysis"
+        ],
+        "es": [
+          "Análisis cualitativo"
+        ],
+        "fr": [
+          "Analyse qualitative"
+        ],
+        "ru": [
+          "Качественный анализ"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2210",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2210",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:28:15+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل كمي"
+        ],
+        "en": [
+          "Quantitative analysis"
+        ],
+        "es": [
+          "Análisis cuantitativo"
+        ],
+        "fr": [
+          "Analyse quantitative"
+        ],
+        "ru": [
+          "Количественный анализ"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2212",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2212",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بيانات الاستقصاء",
+          "بيانات المسح",
+          "تحليل المسح"
+        ],
+        "en": [
+          "Survey data"
+        ],
+        "es": [
+          "Datos de investigación"
+        ],
+        "fr": [
+          "Données d'enquête"
+        ],
+        "ru": [
+          "Обзорные данные"
+        ]
+      },
+      "broader": [
+        "concept7393"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-23T18:34:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل استقصائي"
+        ],
+        "en": [
+          "Survey analysis"
+        ],
+        "es": [
+          "Análisis de inspección"
+        ],
+        "fr": [
+          "Analyse d'enquête"
+        ],
+        "ru": [
+          "Обзорный анализ"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2216",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2216",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:29:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تحليل عبر وطني"
+        ],
+        "en": [
+          "Cross national analysis"
+        ],
+        "es": [
+          "Análisis transnacional"
+        ],
+        "fr": [
+          "Analyse transnationale"
+        ],
+        "ru": [
+          "Сравнительный национальный анализ"
+        ]
+      },
+      "related": [
+        "concept2202"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2257",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2257",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "منهج متعدد الاختصاصات",
+          "منهج مشترك بين التخصصات"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:36+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقاربة بين التخصصات"
+        ],
+        "en": [
+          "Interdisciplinary approach"
+        ],
+        "es": [
+          "Enfoque interdisciplinario"
+        ],
+        "fr": [
+          "Approche interdisciplinaire"
+        ],
+        "ru": [
+          "Междисциплинарный подход"
+        ]
+      },
+      "related": [
+        "concept12756",
+        "concept7267"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept2595",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept2595",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تثمين"
+        ],
+        "en": [
+          "Appraisal",
+          "Assessment"
+        ],
+        "es": [
+          "Apreciación",
+          "Valoración"
+        ],
+        "fr": [
+          "Appréciation",
+          "Expertise"
+        ],
+        "ru": [
+          "Аттестация",
+          "Оценка (качественная)"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:41+00:00",
+      "narrower": [
+        "concept10507"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم"
+        ],
+        "en": [
+          "Evaluation"
+        ],
+        "es": [
+          "Evaluación"
+        ],
+        "fr": [
+          "Évaluation"
+        ],
+        "ru": [
+          "Оценка (стоимостная и/или качественная)"
+        ]
+      },
+      "related": [
+        "concept10018",
+        "concept2572",
+        "concept3315",
+        "concept5899",
+        "concept7323",
+        "concept8875",
+        "concept9827"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تقييم أو الحكم على أشخاص أو منظمات أو ما في حكمها فيما يتعلق بالأهداف أو المعايير المحددة. عند الضرورة، استخدم واصفة أكثر دقة."
+        ],
+        "en": [
+          "Appraising or judging persons, organizations or things in relation to stated objectives, standards or criteria. Use more specific descriptor where appropriate."
+        ],
+        "es": [
+          "Apreciación o juicio emitido sobre una persona, un organismo o una cosa en relación a objetivos, normas o criterios definidos. Utilizar un descriptor más preciso cuando sea necesario."
+        ],
+        "fr": [
+          "Appréciation ou jugement émis sur une personne, un organisme ou une chose par rapport à des objectifs, des normes ou des critères définis. Utiliser un descripteur plus précis quand c'est pertinent."
+        ],
+        "ru": [
+          "Оценка лиц, организаций или вещей относительно каких-либо установленных ориентиров, стандартов или критериев. В необходимых случаях используйте более точный дескриптор."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3317",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3317",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept105"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2023-05-16T12:49:08+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اخلاقيات العلم"
+        ],
+        "en": [
+          "Ethics of science"
+        ],
+        "es": [
+          "Ética de la ciencia"
+        ],
+        "fr": [
+          "Éthique de la science"
+        ],
+        "ru": [
+          "Научная этика"
+        ]
+      },
+      "related": [
+        "concept1014",
+        "concept10365",
+        "concept17144",
+        "concept2451",
+        "concept283",
+        "concept3971",
+        "concept3973",
+        "concept3974"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3972",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3972",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "سوسيولوجيا البحث",
+          "سوسيولوجيا العلوم",
+          "علم اجتماع البحث",
+          "علم اجتماع التكنولوجيا",
+          "علم اجتماع العلوم"
+        ],
+        "en": [
+          "Sociology of research",
+          "Sociology of science",
+          "Sociology of technology"
+        ],
+        "es": [
+          "Sociología científica",
+          "Sociología de la ciencia",
+          "Sociología de la investigación",
+          "Sociología de la tecnología"
+        ],
+        "fr": [
+          "Sociologie de la recherche",
+          "Sociologie de la science",
+          "Sociologie de la technologie"
+        ],
+        "ru": [
+          "Социология науки",
+          "Социология научных исследований",
+          "Социология технологии"
+        ]
+      },
+      "broader": [
+        "concept105"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2022-06-23T17:22:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم ومجتمع"
+        ],
+        "en": [
+          "Science and society"
+        ],
+        "es": [
+          "Ciencia y sociedad"
+        ],
+        "fr": [
+          "Science et société"
+        ],
+        "ru": [
+          "Наука и общество"
+        ]
+      },
+      "related": [
+        "concept10365",
+        "concept17144",
+        "concept2451",
+        "concept396",
+        "concept3972",
+        "concept4566",
+        "concept6935",
+        "concept8279"
+      ],
+      "scope_notes": {
+        "ar": [
+          "علاقات بين العلم كنشاط إنساني وعامل للتغيير، وبين الهياكل الاجتماعية."
+        ],
+        "en": [
+          "Relations between science as human activity and as factor of change, and social structures."
+        ],
+        "es": [
+          "Relaciones entre la ciencia como actividad humana y factor de cambio, y las estructuras sociales."
+        ],
+        "fr": [
+          "Relations entre la science en tant qu'activité humaine et facteur de changement, et les structures sociales."
+        ],
+        "ru": [
+          "Влияние науки как сферы человеческой деятельности и фактора прогресса на социальные структуры."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept3974",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept3974",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "es": [
+          "Calibrado"
+        ]
+      },
+      "broader": [
+        "concept5899"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معايرة"
+        ],
+        "en": [
+          "Calibration"
+        ],
+        "es": [
+          "Calibración"
+        ],
+        "fr": [
+          "Calibrage"
+        ],
+        "ru": [
+          "Калибрование"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4530",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4530",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept103"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T12:02:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دراسات الحالة"
+        ],
+        "en": [
+          "Case studies"
+        ],
+        "es": [
+          "Estudio de caso"
+        ],
+        "fr": [
+          "Étude de cas"
+        ],
+        "ru": [
+          "Разбор конкретных случаев"
+        ]
+      },
+      "related": [
+        "concept4725"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4723",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4723",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "بحث ميداني"
+        ],
+        "en": [
+          "Field research"
+        ],
+        "es": [
+          "Trabajo de terreno",
+          "Trabajo in situ"
+        ],
+        "fr": [
+          "Travail de terrain",
+          "Travail sur le terrain"
+        ],
+        "ru": [
+          "Исследования в полевых условиях"
+        ]
+      },
+      "broader": [
+        "concept103"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:27:04+00:00",
+      "narrower": [
+        "concept10003",
+        "concept10587",
+        "concept6916",
+        "concept7393"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "عمل ميداني"
+        ],
+        "en": [
+          "Field work"
+        ],
+        "es": [
+          "Trabajo de campo"
+        ],
+        "fr": [
+          "Recherche sur le terrain"
+        ],
+        "ru": [
+          "Работы в полевых условиях"
+        ]
+      },
+      "related": [
+        "concept4723",
+        "concept9612"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4725",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4725",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept2200"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T14:36:49+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اسباب واثار"
+        ],
+        "en": [
+          "Cause and effect"
+        ],
+        "es": [
+          "Causa y efecto"
+        ],
+        "fr": [
+          "Cause et effet"
+        ],
+        "ru": [
+          "Причина и следствие"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept4791",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept4791",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Measuring"
+        ],
+        "fr": [
+          "Mesurage"
+        ],
+        "ru": [
+          "Процесс измерения"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:39+00:00",
+      "narrower": [
+        "concept10521",
+        "concept13884",
+        "concept4530"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "قياس"
+        ],
+        "en": [
+          "Measurement"
+        ],
+        "es": [
+          "Medición"
+        ],
+        "fr": [
+          "Mesure"
+        ],
+        "ru": [
+          "Измерение"
+        ]
+      },
+      "related": [
+        "concept12690",
+        "concept13886",
+        "concept2202",
+        "concept3236",
+        "concept3317",
+        "concept6904",
+        "concept7867"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept5899",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept5899",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل النظم",
+          "هندسة النظم"
+        ],
+        "en": [
+          "Systems analysis",
+          "Systems engineering"
+        ],
+        "es": [
+          "Análisis de sistemas",
+          "Ingeniería de sistemas",
+          "Sistémica"
+        ],
+        "fr": [
+          "Analyse de systèmes",
+          "Ingénierie de systèmes",
+          "Systémique"
+        ],
+        "ru": [
+          "Системный анализ",
+          "Системный инжиниринг"
+        ]
+      },
+      "broader": [
+        "concept6154"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:34+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصميم النظم"
+        ],
+        "en": [
+          "Systems design"
+        ],
+        "es": [
+          "Diseño de sistemas"
+        ],
+        "fr": [
+          "Conception de systèmes"
+        ],
+        "ru": [
+          "Системное проектирование"
+        ]
+      },
+      "related": [
+        "concept12756",
+        "concept2224",
+        "concept3057",
+        "concept6081",
+        "concept6659",
+        "concept672",
+        "concept7323"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تطوير طريقة متكاملة لإنتاج شيء أو مادة أو إجراء عملية مرغوب فيها."
+        ],
+        "en": [
+          "Development of an integrated method for producing a required article or performing a desired operation."
+        ],
+        "es": [
+          "Desarrollo de un método integrado para producir un artículo encargado o ejecutar una operación deseada."
+        ],
+        "fr": [
+          "Développement d'une méthode intégrée pour la production d'un article commandé ou l'exécution d'une opération souhaitée."
+        ],
+        "ru": [
+          "Развитие интегрированного метода для производства требуемого изделия или выполнения требуемой операции."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6101",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6101",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Design"
+        ]
+      },
+      "broader": [
+        "concept103"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:31+00:00",
+      "narrower": [
+        "concept17185",
+        "concept6101"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصميم"
+        ],
+        "en": [
+          "Design"
+        ],
+        "es": [
+          "Diseño"
+        ],
+        "fr": [
+          "Conception"
+        ],
+        "ru": [
+          "Проектирование"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6154",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6154",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "ضبط الجودة"
+        ]
+      },
+      "broader": [
+        "concept10507"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T12:02:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراقبة الجودة"
+        ],
+        "en": [
+          "Quality control"
+        ],
+        "es": [
+          "Control de calidad"
+        ],
+        "fr": [
+          "Contrôle de qualité"
+        ],
+        "ru": [
+          "Контроль качества"
+        ]
+      },
+      "related": [
+        "concept13886",
+        "concept17012",
+        "concept2567",
+        "concept4980",
+        "concept6659",
+        "concept9827"
+      ],
+      "scope_notes": {
+        "ar": [
+          "تقنيات كالتفتيش والتنظيم تُستخدم لضمان جودة موحدة و/أو مرجوة للأداء أو المنتج."
+        ],
+        "en": [
+          "Techniques, such as inspection and regulation, that are used to ensure a uniform and/or desired quality of performance or product."
+        ],
+        "es": [
+          "Técnicas, tales como la inspección o la reglamentación, dirigidas a asegurar la uniformidad y la conformidad de la calidad del rendimiento o de un producto."
+        ],
+        "fr": [
+          "Techniques, telles que l'inspection et la réglementation, visant à assurer l'uniformité et la conformité de la qualité du rendement ou d'un produit."
+        ],
+        "ru": [
+          "Приемы, такие как инспекция и регулирование, используемые для обеспечения единого и/или желаемого уровня качества производства или готовой продукции."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6517",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6517",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تصوير اشعاعي",
+          "تصوير شعاعي"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T14:36:43+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تصوير بالاشعة"
+        ],
+        "en": [
+          "Radiography"
+        ],
+        "es": [
+          "Radiografía"
+        ],
+        "fr": [
+          "Radiographie"
+        ],
+        "ru": [
+          "Радиография"
+        ]
+      },
+      "related": [
+        "concept123",
+        "concept15789",
+        "concept345",
+        "concept5899",
+        "concept9535"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6904",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6904",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استبانات"
+        ]
+      },
+      "broader": [
+        "concept4725"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T14:36:50+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استبيانات"
+        ],
+        "en": [
+          "Questionnaires"
+        ],
+        "es": [
+          "Cuestionario"
+        ],
+        "fr": [
+          "Questionnaire"
+        ],
+        "ru": [
+          "Вопросники"
+        ]
+      },
+      "related": [
+        "concept7387",
+        "concept7393"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept6916",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept6916",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقنيات المحاكاة",
+          "نماذج",
+          "نماذج التحكم الالي"
+        ],
+        "en": [
+          "Cybernetic models",
+          "Models",
+          "Simulation techniques"
+        ],
+        "es": [
+          "Modelo cibernético",
+          "Técnica de simulación"
+        ],
+        "fr": [
+          "Modèle",
+          "Modèle cybernétique",
+          "Simulation technique"
+        ],
+        "ru": [
+          "Кибернетические модели",
+          "Модели",
+          "Симуляционные приемы"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نماذج المحاكاة"
+        ],
+        "en": [
+          "Simulation models"
+        ],
+        "es": [
+          "Modelo de simulación"
+        ],
+        "fr": [
+          "Modèle de simulation"
+        ],
+        "ru": [
+          "Симуляционные модели"
+        ]
+      },
+      "related": [
+        "concept13861",
+        "concept7119",
+        "concept7865",
+        "concept9307"
+      ],
+      "scope_notes": {
+        "ar": [
+          "استخدم فقط فيما يتعلق بالبحث والتخطيط."
+        ],
+        "en": [
+          "Use only in connection with research and planning."
+        ],
+        "es": [
+          "Utilizar solamente en relación con la investigación y la planificación."
+        ],
+        "fr": [
+          "N'utiliser qu'en rapport avec la recherche et la planification."
+        ],
+        "ru": [
+          "Используется только по отношению к научным исследованиям и планированию."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7121",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7121",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "مُسوح"
+        ]
+      },
+      "broader": [
+        "concept4725"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:28:28+00:00",
+      "narrower": [
+        "concept2216",
+        "concept9690"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استقصاءات"
+        ],
+        "en": [
+          "Surveys"
+        ],
+        "es": [
+          "Encuesta"
+        ],
+        "fr": [
+          "Enquête"
+        ],
+        "ru": [
+          "Обзоры"
+        ]
+      },
+      "related": [
+        "concept11650",
+        "concept4830",
+        "concept615",
+        "concept6916",
+        "concept7387",
+        "concept9692",
+        "concept9808"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7393",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7393",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Prediction"
+        ],
+        "es": [
+          "Pronóstico"
+        ],
+        "fr": [
+          "Pronostic",
+          "Prédiction"
+        ],
+        "ru": [
+          "Предсказание"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:31+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تنبؤ"
+        ],
+        "en": [
+          "Forecasting"
+        ],
+        "es": [
+          "Previsión"
+        ],
+        "fr": [
+          "Prévision"
+        ],
+        "ru": [
+          "Прогнозирование"
+        ]
+      },
+      "related": [
+        "concept10682",
+        "concept11034",
+        "concept11035",
+        "concept11036",
+        "concept672",
+        "concept7323"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept7516",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept7516",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اخذ العينات"
+        ]
+      },
+      "broader": [
+        "concept10507"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:41+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "معاينة"
+        ],
+        "en": [
+          "Sampling"
+        ],
+        "es": [
+          "Muestreo"
+        ],
+        "fr": [
+          "Échantillonnage"
+        ],
+        "ru": [
+          "Выборочное исследование"
+        ]
+      },
+      "related": [
+        "concept119"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept8654",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept8654",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "منهج تجريبي"
+        ],
+        "en": [
+          "Empirical approach"
+        ],
+        "es": [
+          "Aproximación empírica"
+        ],
+        "fr": [
+          "Approche empirique"
+        ],
+        "ru": [
+          "Эмпирический подход"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2026-01-20T11:47:16+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بحث تجريبي"
+        ],
+        "en": [
+          "Empirical research"
+        ],
+        "es": [
+          "Investigación empírica"
+        ],
+        "fr": [
+          "Recherche empirique"
+        ],
+        "ru": [
+          "Эмпирические исследования"
+        ]
+      },
+      "related": [
+        "concept17184",
+        "concept4725",
+        "concept9614",
+        "concept9615",
+        "concept9616"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9612",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9612",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تجريب"
+        ],
+        "en": [
+          "Experimentation"
+        ],
+        "es": [
+          "Experimentación"
+        ],
+        "fr": [
+          "Expérimentation"
+        ],
+        "ru": [
+          "Экспериментирование"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:27:57+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طرق تجريبية"
+        ],
+        "en": [
+          "Experimental methods"
+        ],
+        "es": [
+          "Método experimental"
+        ],
+        "fr": [
+          "Méthode expérimentale"
+        ],
+        "ru": [
+          "Экспериментальные методы"
+        ]
+      },
+      "related": [
+        "concept10591",
+        "concept145",
+        "concept9612",
+        "concept9827"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9614",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9614",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept103"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:28:46+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "منهجية"
+        ],
+        "en": [
+          "Methodology"
+        ],
+        "es": [
+          "Metodología"
+        ],
+        "fr": [
+          "Méthodologie"
+        ],
+        "ru": [
+          "Методология"
+        ]
+      },
+      "related": [
+        "concept106",
+        "concept111",
+        "concept9612"
+      ],
+      "scope_notes": {
+        "ar": [
+          "دراسة الاتجاه والآثار المترتبة على منهجيات وتقنيات البحث، وخاصة فيما يتعلق بقواعدها المنطقية."
+        ],
+        "en": [
+          "Study of the direction and implications of research methods and techniques, especially as to their logical basis."
+        ],
+        "es": [
+          "Estudio de la orientación y de las implicaciones de métodos y técnicas de investigación, especialmente en lo concerniente a su fundamento lógico."
+        ],
+        "fr": [
+          "Étude de l'orientation et des implications de méthodes et techniques de recherche, spécialement en ce qui concerne leur fondement logique."
+        ],
+        "ru": [
+          "Изучение направления и последствий применения исследовательских методов и подходов, особенно в отношении их логической основы."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9615",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9615",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:22+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "ملاحظة"
+        ],
+        "en": [
+          "Observation"
+        ],
+        "es": [
+          "Observación"
+        ],
+        "fr": [
+          "Observation"
+        ],
+        "ru": [
+          "Наблюдение"
+        ]
+      },
+      "related": [
+        "concept103",
+        "concept9612"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9616",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9616",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "استطلاعات بالعينة",
+          "مسوح بالعينة"
+        ],
+        "fr": [
+          "Enquête sur échantillon"
+        ]
+      },
+      "broader": [
+        "concept7393"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-23T18:34:17+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "استقصاءات بالعينة"
+        ],
+        "en": [
+          "Sample surveys"
+        ],
+        "es": [
+          "Encuesta por muestreo"
+        ],
+        "fr": [
+          "Enquête par sondage"
+        ],
+        "ru": [
+          "Выборочные исследования"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9690",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9690",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اختبارات"
+        ],
+        "en": [
+          "Tests"
+        ],
+        "es": [
+          "Control",
+          "Prueba",
+          "Test"
+        ],
+        "fr": [
+          "Contrôle",
+          "Test",
+          "Épreuve"
+        ],
+        "ru": [
+          "Тесты"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:27:45+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اختبار"
+        ],
+        "en": [
+          "Testing"
+        ],
+        "es": [
+          "Ensayo"
+        ],
+        "fr": [
+          "Mise à l'épreuve"
+        ],
+        "ru": [
+          "Тестирование"
+        ]
+      },
+      "related": [
+        "concept10521",
+        "concept10591",
+        "concept13886",
+        "concept3317",
+        "concept6517",
+        "concept9614"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept9827",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept9827",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Entrevue"
+        ]
+      },
+      "broader": [
+        "concept4725"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مقابلات"
+        ],
+        "en": [
+          "Interviews"
+        ],
+        "es": [
+          "Entrevista"
+        ],
+        "fr": [
+          "Entretien"
+        ],
+        "ru": [
+          "Интервью"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10003",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10003",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "fr": [
+          "Philosophie des sciences"
+        ]
+      },
+      "broader": [
+        "concept105"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:32+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "فلسفة العلم"
+        ],
+        "en": [
+          "Science philosophy"
+        ],
+        "es": [
+          "Filosofía de la ciencia"
+        ],
+        "fr": [
+          "Philosophie de la science"
+        ],
+        "ru": [
+          "Научная философия"
+        ]
+      },
+      "related": [
+        "concept3972",
+        "concept3974"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10365",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10365",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept10507"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:42+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم تكويني"
+        ],
+        "en": [
+          "Formative evaluation"
+        ],
+        "es": [
+          "Evaluación formativa"
+        ],
+        "fr": [
+          "Évaluation formative"
+        ],
+        "ru": [
+          "Формативная оценка"
+        ]
+      },
+      "related": [
+        "concept10506"
+      ],
+      "scope_notes": {
+        "ar": [
+          "نوع من التقييم يستخدم بشكل أساسي لتعديل وتحسين المنتجات أو البرامج أو الأنشطة أثناء تخطيطها وتطويرها."
+        ],
+        "en": [
+          "A type of assessment essentially used to modify and improve products, programmes or activities during their planning and development."
+        ],
+        "es": [
+          "Tipo de valoración destinada a la modificación y mejora de productos, programas o actividades durante su planificación y desarrollo."
+        ],
+        "fr": [
+          "Type d'évaluation destinée essentiellement à modifier et à améliorer un produit, un programme ou une activité en cours de planification et de développement."
+        ],
+        "ru": [
+          "Данный метод оценки в основном применяется на стадии планирования или разработки в целях модификации и улучшения конечных продуктов, программ или деятельности."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10504",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10504",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقييم اجمالي",
+          "تقييم تلخيصي"
+        ]
+      },
+      "broader": [
+        "concept10507"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:28+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم تجميعي"
+        ],
+        "en": [
+          "Summative evaluation"
+        ],
+        "es": [
+          "Evaluación sumativa"
+        ],
+        "fr": [
+          "Évaluation sommative"
+        ],
+        "ru": [
+          "Суммативная оценка"
+        ]
+      },
+      "related": [
+        "concept10504"
+      ],
+      "scope_notes": {
+        "ar": [
+          "نوع من التقييم يلخص تأثير وفعالية برنامج أو نشاط بمجرد إتمامه."
+        ],
+        "en": [
+          "A type of evaluation that sums up the effects and effectiveness of a programme or activity once it is concluded."
+        ],
+        "es": [
+          "Tipo de evaluación que resume los efectos y la eficacia de un programa o de una actividad una vez terminado."
+        ],
+        "fr": [
+          "Type d'évaluation résumant les effects et l'efficacité d'un programme ou d'une activité, une fois terminé."
+        ],
+        "ru": [
+          "Тип оценки, суммирующий последствия и эффективность программы или деятельности на момент ее реализации."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10506",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10506",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقنيات التقييم",
+          "طرق التقييم",
+          "معايير التقييم"
+        ],
+        "en": [
+          "Assessment methods",
+          "Evaluation criteria",
+          "Evaluation techniques"
+        ],
+        "es": [
+          "Criterio de evaluación",
+          "Modo de evaluación",
+          "Procedimiento de evaluación",
+          "Sistema de evaluación",
+          "Técnica de evaluación"
+        ],
+        "fr": [
+          "Critère d'évaluation",
+          "Mode d'évaluation",
+          "Méthodologie d'évaluation",
+          "Système d'évaluation",
+          "Technique d'évaluation"
+        ],
+        "ru": [
+          "Критерии оценки",
+          "Оценочные методы",
+          "Оценочные приемы"
+        ]
+      },
+      "broader": [
+        "concept3317"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:31+00:00",
+      "narrower": [
+        "concept10504",
+        "concept10506",
+        "concept17012",
+        "concept17043",
+        "concept6517",
+        "concept8654"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "اساليب التقييم"
+        ],
+        "en": [
+          "Evaluation methods"
+        ],
+        "es": [
+          "Método de evaluación"
+        ],
+        "fr": [
+          "Méthode d'évaluation"
+        ],
+        "ru": [
+          "Методы оценки"
+        ]
+      },
+      "related": [
+        "concept10521"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10507",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10507",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept5899"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:29:27+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "طرق القياس"
+        ],
+        "en": [
+          "Measuring methods"
+        ],
+        "es": [
+          "Método de medición"
+        ],
+        "fr": [
+          "Méthode de mesure"
+        ],
+        "ru": [
+          "Измерительные методы"
+        ]
+      },
+      "related": [
+        "concept10507",
+        "concept9827"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10521",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10521",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept4725"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:28:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "بعثات علمية"
+        ],
+        "en": [
+          "Scientific expeditions"
+        ],
+        "es": [
+          "Expedición científica"
+        ],
+        "fr": [
+          "Expédition scientifique"
+        ],
+        "ru": [
+          "Научные экспедиции"
+        ]
+      },
+      "related": [
+        "concept10628",
+        "concept10630"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10587",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10587",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept103"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:33+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تجارب"
+        ],
+        "en": [
+          "Experiments"
+        ],
+        "es": [
+          "Experimento"
+        ],
+        "fr": [
+          "Expérience"
+        ],
+        "ru": [
+          "Эксперименты"
+        ]
+      },
+      "related": [
+        "concept7620",
+        "concept9614",
+        "concept9827"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept10591",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept10591",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تاريخ التكنولوجيا"
+        ],
+        "en": [
+          "History of technology"
+        ],
+        "es": [
+          "Historia de la ciencia",
+          "Historia de la tecnología",
+          "Historia de las técnicas",
+          "Historia del pensamiento científico"
+        ],
+        "fr": [
+          "Histoire de la technologie",
+          "Histoire des sciences et des techniques",
+          "Histoire des techniques"
+        ],
+        "ru": [
+          "История технологии"
+        ]
+      },
+      "broader": [
+        "concept105"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:28:06+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تاريخ العلم"
+        ],
+        "en": [
+          "History of science"
+        ],
+        "es": [
+          "Historia de las ciencias"
+        ],
+        "fr": [
+          "Histoire des sciences"
+        ],
+        "ru": [
+          "История науки"
+        ]
+      },
+      "related": [
+        "concept302"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept11856",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept11856",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "اوزان ومقاييس",
+          "نظم القياس",
+          "وحدات القياس"
+        ],
+        "en": [
+          "Measurement systems",
+          "Units of measurement",
+          "Weights and measures"
+        ],
+        "es": [
+          "Pesos y medidas",
+          "Sistema de medidas"
+        ],
+        "fr": [
+          "Poids et mesures",
+          "Système de mesure",
+          "Unité de mesure"
+        ],
+        "ru": [
+          "Единицы измерений",
+          "Единицы мер и весов",
+          "Системы измерений"
+        ]
+      },
+      "broader": [
+        "concept5899"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:26+00:00",
+      "narrower": [
+        "concept14067"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علم القياس"
+        ],
+        "en": [
+          "Metrology"
+        ],
+        "es": [
+          "Metrología"
+        ],
+        "fr": [
+          "Métrologie"
+        ],
+        "ru": [
+          "Метрология"
+        ]
+      },
+      "related": [
+        "concept12690",
+        "concept132",
+        "concept13886"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13884",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13884",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تقييس",
+          "توحيد مقاييس"
+        ],
+        "es": [
+          "Estandarización"
+        ],
+        "fr": [
+          "Standardisation"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:28:44+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "توحيد قياسي"
+        ],
+        "en": [
+          "Standardization"
+        ],
+        "es": [
+          "Normalización"
+        ],
+        "fr": [
+          "Normalisation"
+        ],
+        "ru": [
+          "Стандартизация"
+        ]
+      },
+      "related": [
+        "concept13884",
+        "concept14595",
+        "concept5899",
+        "concept6517",
+        "concept9827"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept13886",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept13886",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept13884"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:29:00+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "نظام متري"
+        ],
+        "en": [
+          "Metric system"
+        ],
+        "es": [
+          "Sistema métrico"
+        ],
+        "fr": [
+          "Système métrique"
+        ],
+        "ru": [
+          "Метрическая система"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14067",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14067",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "رصد"
+        ],
+        "es": [
+          "Seguimiento",
+          "Supervisión"
+        ],
+        "fr": [
+          "Monitorage",
+          "Observation continue",
+          "Suivi"
+        ]
+      },
+      "broader": [
+        "concept103"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:29:18+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "مراقبة"
+        ],
+        "en": [
+          "Monitoring"
+        ],
+        "es": [
+          "Vigilancia"
+        ],
+        "fr": [
+          "Surveillance"
+        ],
+        "ru": [
+          "Мониторинг"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept14258",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept14258",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "تحليل تيبولوجي",
+          "تيبولوجيا",
+          "علم التصنيف"
+        ],
+        "en": [
+          "Taxonomy",
+          "Typological analysis"
+        ],
+        "es": [
+          "Análisis tipológico",
+          "Taxonomía"
+        ],
+        "fr": [
+          "Analyse typologique",
+          "Taxinomie",
+          "Taxonomie"
+        ],
+        "ru": [
+          "Таксономия",
+          "Типологический анализ"
+        ]
+      },
+      "broader": [
+        "concept106"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:38+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "دراسة الانماط"
+        ],
+        "en": [
+          "Typology"
+        ],
+        "es": [
+          "Tipología"
+        ],
+        "fr": [
+          "Typologie"
+        ],
+        "ru": [
+          "Типология"
+        ]
+      },
+      "related": [
+        "concept10306"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept16291",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept16291",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "قياس مقارن"
+        ],
+        "en": [
+          "Comparative evaluation"
+        ],
+        "es": [
+          "Evaluación de los métodos"
+        ],
+        "fr": [
+          "Étalonnage compétitif",
+          "Étalonnage des performances",
+          "Évaluation comparative"
+        ],
+        "ru": [
+          "Сравнительная оценка"
+        ]
+      },
+      "broader": [
+        "concept10507"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-22T15:25:37+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم مقارن"
+        ],
+        "en": [
+          "Benchmarking"
+        ],
+        "es": [
+          "Evaluación comparativa"
+        ],
+        "fr": [
+          "Étalonnage concurrentiel"
+        ],
+        "ru": [
+          "Система контроля качества"
+        ]
+      },
+      "related": [
+        "concept2202",
+        "concept6517"
+      ],
+      "scope_notes": {
+        "ar": [
+          "عملية تقييم منهجي مستمر للمنتجات أو الخدمات أو الأداء أو الطرق مقارنة بمعيار أو نقطة مرجعية متفق عليها من أجل تحقيق التميز."
+        ],
+        "en": [
+          "Systematic and continuous evaluation of products, services, performances or methods against a standard or agreed upon point of reference in order to achieve excellence."
+        ],
+        "es": [
+          "Proceso continuo y sistemático de evaluación de productos, servicios y métodos en relación a un modelo reconocido, en el marco de una investigación."
+        ],
+        "fr": [
+          "Processus continu et systématique d'évaluation des produits, des services et des méthodes par rapport à un modèle reconnu, inscrit dans une recherche d'excellence."
+        ],
+        "ru": [
+          "Систематическая и непрерывная аттестация товаров, услуг, результатов работы или методов в соответствии со стандартным или согласованным уровнем в целях достижения наивысшего показателя качества."
+        ]
+      },
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17012",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17012",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Self assessment"
+        ],
+        "ru": [
+          "Самоаттестация"
+        ]
+      },
+      "broader": [
+        "concept10507"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2019-12-15T13:28:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "تقييم ذاتي"
+        ],
+        "en": [
+          "Self evaluation"
+        ],
+        "es": [
+          "Autoevaluación"
+        ],
+        "fr": [
+          "Autoévaluation"
+        ],
+        "ru": [
+          "Самооценка"
+        ]
+      },
+      "related": [],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17043",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17043",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept105"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2026-04-17T12:26:17+00:00",
+      "narrower": [
+        "concept17161"
+      ],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "أخلاقيات التكنولوجيا"
+        ],
+        "en": [
+          "Ethics of technology"
+        ],
+        "es": [
+          "Ética de la tecnología"
+        ],
+        "fr": [
+          "Éthique de la technologie"
+        ]
+      },
+      "related": [
+        "concept3972",
+        "concept3974",
+        "concept4566"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17144",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17144",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {},
+      "broader": [
+        "concept17144"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2026-05-26T10:24:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "أخلاقيات التكنولوجيا العصبية"
+        ],
+        "en": [
+          "Ethics of neurotechnology"
+        ],
+        "es": [
+          "Ética de la neurotecnología"
+        ],
+        "fr": [
+          "Éthique des neurotechnologies"
+        ]
+      },
+      "related": [
+        "concept1014",
+        "concept17160"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17161",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17161",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "ar": [
+          "العلوم الأساسية",
+          "العلوم البحتة"
+        ],
+        "en": [
+          "Fundamental science",
+          "Pure science"
+        ],
+        "es": [
+          "Ciencias fundamentales"
+        ]
+      },
+      "broader": [
+        "concept104"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2026-05-26T10:26:04+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "علوم أساسية"
+        ],
+        "en": [
+          "Basic sciences"
+        ],
+        "es": [
+          "Ciencias básicas"
+        ],
+        "fr": [
+          "Sciences fondamentales"
+        ],
+        "ru": [
+          "базовые науки"
+        ]
+      },
+      "related": [
+        "concept11269"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17168",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17168",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    },
+    {
+      "alternate_labels": {
+        "en": [
+          "Accessible design",
+          "Barrier-free design",
+          "Universal design"
+        ],
+        "es": [
+          "Diseño accesible"
+        ],
+        "fr": [
+          "Conception accessible"
+        ]
+      },
+      "broader": [
+        "concept6154"
+      ],
+      "definitions": {},
+      "domain_ids": [
+        "domain2"
+      ],
+      "microthesaurus_ids": [
+        "mt2.05"
+      ],
+      "modified": "2026-01-23T11:03:54+00:00",
+      "narrower": [],
+      "non_literal_values": {},
+      "preferred_labels": {
+        "ar": [
+          "إمكانية الوصول"
+        ],
+        "en": [
+          "Accessibility"
+        ],
+        "es": [
+          "Accesibilidad"
+        ],
+        "fr": [
+          "Accessibilité"
+        ],
+        "ru": [
+          "доступность"
+        ]
+      },
+      "related": [
+        "concept8094"
+      ],
+      "scope_notes": {},
+      "source": "UNESCO Thesaurus",
+      "source_uri": "http://vocabularies.unesco.org/thesaurus/concept17185",
+      "status": "source_only_not_canonical",
+      "unesco_id": "concept17185",
+      "wikidata_property": "P3916",
+      "wikidata_qid": null
+    }
+  ],
+  "format": "kristal.unesco-import-snapshot/1.0",
+  "license_notice": "UNESCO Thesaurus — CC BY-SA 3.0 IGO; verify attribution requirements",
+  "source_scheme_modified": "2026-08-31",
+  "source_sha256": "fa78145d189776bfb97e1635200060012b853684b9f7d542d41804c37c5178c3",
+  "status": "imported_source_snapshot_not_semantically_reviewed",
+  "unesco_microthesaurus": {
+    "id": "mt2.05",
+    "labels": {
+      "en": "Scientific approach",
+      "fr": "Approche scientifique"
+    },
+    "uri": "http://vocabularies.unesco.org/thesaurus/mt2.05"
+  }
+}
