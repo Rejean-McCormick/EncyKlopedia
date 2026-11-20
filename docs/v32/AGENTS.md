@@ -1,3 +1,9 @@
+## Point d'entrée IA actualisé — référence enrichie, 17 novembre 2026
+
+Commencer par [la référence V8/IA](docs/11_REFERENCE_V8_IA/00_INDEX.md), [ses règles d'agent](docs/11_REFERENCE_V8_IA/AGENTS.md) et [la matrice des preuves](docs/11_REFERENCE_V8_IA/13_REGISTRE_DES_PREUVES.md), puis consulter ce guide V32 comme contexte historique et technique. **Le registre V8 neuf comprend 88 branches** ; les anciennes formulations « 87 branches restantes » parlent d'une phase de pilote, pas du système retenu. La distribution autonome V8 doit être vérifiée séparément du snapshot V32.2.
+
+---
+
 # Guide de lecture IA — EncyKlopedia V32
 
 **À LIRE EN PRIORITÉ — V32.1 (16 novembre 2026) :** [décisions fédération](docs/09_FEDERATION_KRISTAL/00_DECISIONS_V321.md), [cinq objets](docs/09_FEDERATION_KRISTAL/01_MODELE_IDENTITES_ET_GRANULARITE.md), [plan A–E](docs/09_FEDERATION_KRISTAL/07_LOTS_A_E.md). Cette révision prévaut sur les anciennes formules « un QID = un Kristal » et « fact_claim V32 est le canon ».

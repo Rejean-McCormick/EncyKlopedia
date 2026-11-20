@@ -1,3 +1,11 @@
+## Documentation enrichie et état des générations — 17 novembre 2026
+
+**Entrée principale pour comprendre l'écosystème et reprendre avec une IA :** [Guide V8/IA enrichi](docs/v32/docs/11_REFERENCE_V8_IA/00_INDEX.md). Pour le fonctionnement exact du **noyau V32.2 présent dans ce dépôt**, le README historique ci-dessous et `encyk_v32/` restent des références. Pour le **workflow V8 autonome** (campagnes et station), consulter le guide enrichi et vérifier **l'archive V8 distribuée séparément**, absente de ce snapshot du dépôt.
+
+Les documents antérieurs V32.1/V32.2 sont conservés comme documentation de version, pas comme point d'entrée universel actualisé. [Inventaire V7](docs/v32/docs/10_SYSTEME_MASSIF_20261117/00_INDEX.md) · [Instructions aux IA](docs/v32/docs/11_REFERENCE_V8_IA/AGENTS.md).
+
+---
+
 # EncyKlopedia V32.2 — moteur privé corrigé
 
 Mise à jour du dépôt V32.1 : isolation des branches, réservations exclusives, retours archivés, propositions contextualisées, corrections versionnées, réutilisation des extractions et reprise explicite.

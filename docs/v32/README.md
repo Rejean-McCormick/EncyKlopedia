@@ -1,3 +1,9 @@
+## Orientation documentaire V8 / IA — 17 novembre 2026
+
+[Référence enrichie d'écosystème, workflow et consignes IA](docs/11_REFERENCE_V8_IA/00_INDEX.md) · [Inventaire V7](docs/10_SYSTEME_MASSIF_20261117/00_INDEX.md). **Ce dossier historique V32 ne prouve pas que le moteur autonome V8 soit inclus dans ce dépôt**. Les fonctions V8 décrites sont à vérifier sur la distribution autonome, tandis que le schéma V32.2 et ses contrats sont présents dans `encyk_v32/`.
+
+---
+
 # EncyKlopedia — Fondation documentaire du futur manager V32
 
 **MISE À JOUR ARCHITECTURALE V32.1 — 16 novembre 2026.** [Synthèse autonome du nouveau plan](PLAN_V321.md). Le [nouveau plan fédéré](docs/09_FEDERATION_KRISTAL/00_DECISIONS_V321.md) corrige le modèle antérieur. [Lire le plan des lots A–E](docs/09_FEDERATION_KRISTAL/07_LOTS_A_E.md). Les 55 fichiers du paquet initial restent présents; de nouveaux chapitres et les points d’entrée ont été adaptés. Documentation uniquement.

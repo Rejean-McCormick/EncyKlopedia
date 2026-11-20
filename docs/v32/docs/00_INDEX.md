@@ -1,3 +1,11 @@
+## Démarrage documentaire officiel — édition enrichie du 17 novembre 2026
+
+**Pour une nouvelle IA ou pour comprendre le système actuel :** [guide opérationnel V8/IA](11_REFERENCE_V8_IA/00_INDEX.md) ; [workflow de bout en bout](11_REFERENCE_V8_IA/05_WORKFLOW_DE_BOUT_EN_BOUT.md) ; [contrats de mission SEL/ENR](11_REFERENCE_V8_IA/07_CONTRATS_ZIP_ET_PROMPTS.md) ; [écosystème et responsabilités](11_REFERENCE_V8_IA/02_ECOSYSTEME.md) ; [inventaire massif V7](10_SYSTEME_MASSIF_20261117/00_INDEX.md).
+
+Les paragraphes historiques ci-dessous décrivent **l'architecture documentaire V32.1/V32.2** et restent consultables. La V8 autonome est une distribution distincte, à vérifier sur son ZIP réel.
+
+---
+
 # Index de la documentation avancée
 
 **Révision V32.1 :** commencer par [l’arbitrage fédération](09_FEDERATION_KRISTAL/00_DECISIONS_V321.md), [le modèle des cinq objets](09_FEDERATION_KRISTAL/01_MODELE_IDENTITES_ET_GRANULARITE.md), [la construction en deux passes](09_FEDERATION_KRISTAL/03_PIPELINE_IA_PROPOSITIONS.md) et [le plan A–E](09_FEDERATION_KRISTAL/07_LOTS_A_E.md). La documentation du 15 novembre est conservée comme inventaire et source de réemploi; les règles V32.1 priment lorsqu’elles diffèrent.

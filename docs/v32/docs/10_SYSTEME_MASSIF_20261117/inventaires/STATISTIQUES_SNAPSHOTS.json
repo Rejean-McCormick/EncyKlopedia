@@ -1,0 +1,111 @@
+{
+  "methode": "ZIP sources inspectés, pas de contrôle de fichiers D: en direct",
+  "captures": [
+    {
+      "source": "EncyK_V32.2",
+      "archive": "EncyKlopedia_V32_2_REPO_CORRIGE_20261116 (1).zip",
+      "fichiers": 5305,
+      "octets_non_compresses": 62492552,
+      "extensions": {
+        ".example": 2,
+        "[sans_extension]": 606,
+        ".yml": 8,
+        ".ps1": 58,
+        ".md": 1826,
+        ".cmd": 72,
+        ".pyw": 22,
+        ".json": 1683,
+        ".py": 565,
+        ".txt": 121,
+        ".csv": 47,
+        ".gf": 9,
+        ".lnk": 2,
+        ".jsonl": 4,
+        ".bat": 5,
+        ".tex": 6,
+        ".html": 14,
+        ".toml": 7,
+        ".sh": 6,
+        ".ttl": 8,
+        ".rq": 1,
+        ".psm1": 1,
+        ".sql": 11,
+        ".sha256": 1,
+        ".php": 173,
+        ".js": 10,
+        ".xml": 1,
+        ".css": 2,
+        ".mustache": 16,
+        ".feature": 3,
+        ".xlsx": 1,
+        ".ini": 1,
+        ".mjs": 13
+      }
+    },
+    {
+      "source": "Station_V6",
+      "archive": "ENCYK_UPDATE_V32_V6_CONSOLIDATION_PROTOTYPE_88_BRANCHES_20261117.zip",
+      "fichiers": 34,
+      "octets_non_compresses": 484672,
+      "extensions": {
+        ".md": 9,
+        ".cmd": 3,
+        ".pyw": 1,
+        ".json": 3,
+        ".py": 14,
+        ".html": 1,
+        ".js": 1,
+        ".zip": 2
+      }
+    },
+    {
+      "source": "Skope_20261116",
+      "archive": "znapshot_Skope_11162132.zip",
+      "fichiers": 505,
+      "octets_non_compresses": 3212359,
+      "extensions": {
+        ".yml": 3,
+        "[sans_extension]": 6,
+        ".md": 197,
+        ".json": 137,
+        ".py": 88,
+        ".txt": 10,
+        ".ps1": 18,
+        ".pyw": 6,
+        ".yaml": 7,
+        ".cmd": 5,
+        ".lnk": 1,
+        ".jsonl": 1,
+        ".toml": 1,
+        ".template": 1,
+        ".js": 11,
+        ".css": 9,
+        ".html": 1,
+        ".sha256": 1,
+        ".cjs": 2
+      }
+    },
+    {
+      "source": "Kristalizer_20261116",
+      "archive": "znapshot_Kristalizer_11162133.zip",
+      "fichiers": 57,
+      "octets_non_compresses": 234580,
+      "extensions": {
+        ".yml": 1,
+        "[sans_extension]": 2,
+        ".md": 14,
+        ".txt": 2,
+        ".bak_20261110_175711": 1,
+        ".json": 9,
+        ".py": 22,
+        ".pyw": 2,
+        ".cmd": 2,
+        ".csv": 1,
+        ".toml": 1
+      }
+    }
+  ],
+  "total_fichiers": 5901,
+  "total_scripts_detectes": 889,
+  "date_documentation": "2026-11-17"
+}

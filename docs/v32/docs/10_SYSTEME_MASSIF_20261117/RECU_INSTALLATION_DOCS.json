@@ -1,0 +1,99 @@
+{
+  "format": "encyk.install-docs-massif.v1",
+  "date_utc": "2026-11-17T23:27:52+00:00",
+  "destination": "C:\\mycode\\EncyKlopedia\\EncyKlopedia\\docs\\v32\\docs\\10_SYSTEME_MASSIF_20261117",
+  "changed": 18,
+  "backups": null,
+  "files": [
+    {
+      "path": "00_INDEX.md",
+      "action": "CREATE",
+      "sha256": "552bb62b7f2d554abc627b041b3faf79bfdd198e5be8cd9928d504b3482038b9"
+    },
+    {
+      "path": "01_INVENTAIRE_DONNEES.md",
+      "action": "CREATE",
+      "sha256": "8bb4760298854d0d3477fc90ea7bb7d02a9b4e2504f0bd48d77986d98278f15a"
+    },
+    {
+      "path": "02_INVENTAIRE_PROGRAMMES.md",
+      "action": "CREATE",
+      "sha256": "f9f965b07f442f445dfae4e95f56a12f300328648449439513002793fab2434c"
+    },
+    {
+      "path": "03_ALTERNATIVES_ET_DECISIONS.md",
+      "action": "CREATE",
+      "sha256": "81edc9550bf9ba070f4e995e97f9b20b8e830b052f5710a44db330012ac0f596"
+    },
+    {
+      "path": "04_WORKFLOW_OPERATOR.md",
+      "action": "CREATE",
+      "sha256": "21cd3d84bed54b0e0d3b530fd644c3c5f89fe1fe5737039cdc6119fa4017763c"
+    },
+    {
+      "path": "05_ARCHITECTURE_TECHNIQUE.md",
+      "action": "CREATE",
+      "sha256": "833d352a2d60298ec19729c04f3c467fa987d58970e5afff01be55f500a70338"
+    },
+    {
+      "path": "06_CONTROLES_DONNEES_ET_PROMPTS.md",
+      "action": "CREATE",
+      "sha256": "05d13ba6cfab083353769d672a0cc55e45f38331cdf991097cd4577a1886120e"
+    },
+    {
+      "path": "07_PROCHAINES_OPTIMISATIONS.md",
+      "action": "CREATE",
+      "sha256": "993312bfad79adef64d7012b61ba4bd61090f82b5683ba5db7839f05257eaeeb"
+    },
+    {
+      "path": "08_RISQUES_ET_FRONTIERES.md",
+      "action": "CREATE",
+      "sha256": "5762fb0d948b1e6bc31ff72aef25227ef563171ad57c9bcd10c67cf70a2488c8"
+    },
+    {
+      "path": "09_RECETTES_ET_DIAGNOSTICS.md",
+      "action": "CREATE",
+      "sha256": "ddc3102a69f1fcddb977ebe738222395feb373412e0742c619e2f7a669b9acfa"
+    },
+    {
+      "path": "10_PROVENANCE_DES_PREUVES.md",
+      "action": "CREATE",
+      "sha256": "8fcef02b4a369570a71cad506f32a4e48a9361c8986d9f6eff44eaec9d1533d1"
+    },
+    {
+      "path": "11_CONTRATS_PACKS_ET_ETATS.md",
+      "action": "CREATE",
+      "sha256": "fb427f2c11019da53a22353585ed92b954016676279ab8e2d88f3f70608ce2f9"
+    },
+    {
+      "path": "12_PLAN_DES_CAMPAGNES.md",
+      "action": "CREATE",
+      "sha256": "5f493a4b9fa04049a6b91162ac19b6d546d0595613db269e4cd6c275a66a1111"
+    },
+    {
+      "path": "13_MATRICE_DES_POSSIBILITES.md",
+      "action": "CREATE",
+      "sha256": "5407ddbc3c6f4d5cdc269b8e9a7fcb70466efdd45676c6d87f582e57533905e2"
+    },
+    {
+      "path": "14_RECONCILIATION_DES_DOCUMENTS_EXISTANTS.md",
+      "action": "CREATE",
+      "sha256": "4ee03d4f25262050a4e01115edea18fcf05047af4cd8f4b0acb807aa4e23273f"
+    },
+    {
+      "path": "inventaires/FICHIERS_SNAPSHOTS.csv",
+      "action": "CREATE",
+      "sha256": "894e49bb39c6c4a73f58c4d7b89f999885a7ec9f9a231ec17e9e9aff4c3316b2"
+    },
+    {
+      "path": "inventaires/PROGRAMMES_DETECTES.csv",
+      "action": "CREATE",
+      "sha256": "58d98f42a370a308c028ec891411f4de6763819b3acb3e2c474c27f3a088dd1e"
+    },
+    {
+      "path": "inventaires/STATISTIQUES_SNAPSHOTS.json",
+      "action": "CREATE",
+      "sha256": "cf7d1a392a5f4fecc0f36993449e9cb2525049c844b51b05edc9798d34602314"
+    }
+  ]
+}

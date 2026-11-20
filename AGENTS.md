@@ -1,3 +1,11 @@
+## Référence documentaire enrichie V8 / instructions aux IA (17 novembre 2026)
+
+**À lire en priorité pour toute nouvelle conversation :** [référence enrichie EncyK V8 et IA](docs/v32/docs/11_REFERENCE_V8_IA/00_INDEX.md), puis [règles locales aux agents](docs/v32/docs/11_REFERENCE_V8_IA/AGENTS.md) et [passation à une nouvelle IA](docs/v32/docs/11_REFERENCE_V8_IA/12_PASSATION_IA.md).
+
+Ce dépôt snapshot contient le **noyau V32.2 et les docs V7**, alors que la **distribution autonome V8** a été livrée séparément. Ne pas annoncer que le code V8 se trouve ici sans vérifier son ZIP. Le reste de cette page reste valable pour les contraintes V32.2 et l'historique. Les 88 branches UNESCO sont le périmètre visé ; l'expression « 87 restantes » dans des documents historiques ne doit pas être reprise comme état d'un registre V8 neuf. **Aucune tâche documentaire ne lance de production ni ne modifie le canon.**
+
+---
+
 # Instructions aux agents IA — EncyKlopedia V32.2
 
 Commencer par `MISE_A_JOUR_V32_2.md`, puis `README.md`, `docs/v32/PLAN_V321.md`, `docs/v32/docs/00_INDEX.md` et `docs/v32/IMPLEMENTATION_ET_LIMITES.md`.

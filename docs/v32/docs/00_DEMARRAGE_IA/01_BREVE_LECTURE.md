@@ -1,3 +1,9 @@
+## Actualisation de lecture — 17 novembre 2026
+
+**La vision actuelle porte sur 88 branches UNESCO neuves**, et non « les 87 branches restantes » du pilote. L'archive de code présente dans le snapshot est V32.2 ; la V8 autonome a été livrée séparément. Commencer par [la passation officielle IA](../11_REFERENCE_V8_IA/12_PASSATION_IA.md), [l'écosystème](../11_REFERENCE_V8_IA/02_ECOSYSTEME.md) et [le workflow](../11_REFERENCE_V8_IA/05_WORKFLOW_DE_BOUT_EN_BOUT.md). L'architecture historique ci-dessous est conservée pour ses sources et compromis, pas comme preuve que toutes les fonctions ciblées sont opérationnelles.
+
+---
+
 # Brief opérationnel pour agent IA entrant
 
 **Lire la décision V32.1** : [fédération et admission](../09_FEDERATION_KRISTAL/00_DECISIONS_V321.md). Le schéma initial plus bas décrit encore le pipeline de découverte mais sa dernière étape se termine désormais par des **propositions EncyK**. Les écritures dans les états Kristal requièrent un chemin d’auteur distinct et qualifié.

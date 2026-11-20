@@ -1,0 +1,194 @@
+{
+  "format": "encyk.docs-enrichment-receipt.v1",
+  "date": "2026-11-18T02:01:17.836233+00:00",
+  "manifest_format": "encyk.docs-enrichment-overlay.v8/1",
+  "files_installed": [
+    "AGENTS.md",
+    "README.md",
+    "docs/v32/AGENTS.md",
+    "docs/v32/README.md",
+    "docs/v32/docs/00_DEMARRAGE_IA/01_BREVE_LECTURE.md",
+    "docs/v32/docs/00_INDEX.md",
+    "docs/v32/docs/10_SYSTEME_MASSIF_20261117/11_CONTRATS_PACKS_ET_ETATS.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/00_INDEX.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/01_PRISE_EN_MAIN_IA.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/02_ECOSYSTEME.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/03_SOURCES_ET_INVENTAIRE.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/04_PROGRAMMES_ET_CAPACITES.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/05_WORKFLOW_DE_BOUT_EN_BOUT.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/06_CAMPAGNES_V8.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/07_CONTRATS_ZIP_ET_PROMPTS.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/08_MODELE_TECHNIQUE.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/09_QUALITE_REPRISES_RENDEMENT.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/10_INSTALLATION_SECURITE.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/11_ROADMAP_ET_DECISIONS.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/12_PASSATION_IA.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/13_REGISTRE_DES_PREUVES.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/14_EXEMPLES_ET_RECETTES.md",
+    "docs/v32/docs/11_REFERENCE_V8_IA/AGENTS.md"
+  ],
+  "backup_dir": "C:\\mycode\\EncyKlopedia\\EncyKlopedia\\docs\\v32\\_SAUVEGARDES_OVERLAY_DOCUMENTAIRE\\20261118T020117_1f05d2",
+  "before_and_after": [
+    {
+      "path": "AGENTS.md",
+      "status": "PATCH",
+      "current_sha256": "75f7b842eacdf1d47bd5c2af2cd4c3de64abd0fba44472818815cc047c9e7b32",
+      "expected_source_sha256": "75f7b842eacdf1d47bd5c2af2cd4c3de64abd0fba44472818815cc047c9e7b32",
+      "target_sha256": "32f46625a697368d1b49f386d854c4ba9b2e5fa26bd1634fdbb5eebe0aed24c6"
+    },
+    {
+      "path": "README.md",
+      "status": "PATCH",
+      "current_sha256": "67fd3d5c855b41c26dad4252a1e65d8639e252e592f252e44080acb4d5e913c1",
+      "expected_source_sha256": "67fd3d5c855b41c26dad4252a1e65d8639e252e592f252e44080acb4d5e913c1",
+      "target_sha256": "d62dbb0ad42392c67034b39a9bbefacbaa8eca0800af0015a22ada11429fc55e"
+    },
+    {
+      "path": "docs/v32/AGENTS.md",
+      "status": "PATCH",
+      "current_sha256": "894bfe0525117803934febacdb15a41db7fb03239fedaab17b064b8f5df4f4b3",
+      "expected_source_sha256": "894bfe0525117803934febacdb15a41db7fb03239fedaab17b064b8f5df4f4b3",
+      "target_sha256": "3828f475cd3d6137269ea528ae9dbc6a1120d26a943aecc4a64b5bdc9bb319a0"
+    },
+    {
+      "path": "docs/v32/README.md",
+      "status": "PATCH",
+      "current_sha256": "3d5d531f99677981fe29baf50ad778e454d05f571ec87c255a74480128574564",
+      "expected_source_sha256": "3d5d531f99677981fe29baf50ad778e454d05f571ec87c255a74480128574564",
+      "target_sha256": "9fda5f2497601f7034000aafcd42f6793c4af2db846778df9f135728d84f7df5"
+    },
+    {
+      "path": "docs/v32/docs/00_DEMARRAGE_IA/01_BREVE_LECTURE.md",
+      "status": "PATCH",
+      "current_sha256": "5cf4d80d722e8ecfa8b4b6f319a1cc3e8b886a87ac634441ee1f46cc58491030",
+      "expected_source_sha256": "5cf4d80d722e8ecfa8b4b6f319a1cc3e8b886a87ac634441ee1f46cc58491030",
+      "target_sha256": "fad1c57e57ed3115089978d948854e862fd3bb2ba567d562f4acc0ec426581eb"
+    },
+    {
+      "path": "docs/v32/docs/00_INDEX.md",
+      "status": "PATCH",
+      "current_sha256": "babd5b415e86a92d0401797a91222f4d9714bfc055d18b7d7e4b3d39627d5494",
+      "expected_source_sha256": "babd5b415e86a92d0401797a91222f4d9714bfc055d18b7d7e4b3d39627d5494",
+      "target_sha256": "4183a2ce1397c77b169055f6ad2235f942e1ee5f76c4b5f8256e478084aa1448"
+    },
+    {
+      "path": "docs/v32/docs/10_SYSTEME_MASSIF_20261117/11_CONTRATS_PACKS_ET_ETATS.md",
+      "status": "PATCH",
+      "current_sha256": "fb427f2c11019da53a22353585ed92b954016676279ab8e2d88f3f70608ce2f9",
+      "expected_source_sha256": "fb427f2c11019da53a22353585ed92b954016676279ab8e2d88f3f70608ce2f9",
+      "target_sha256": "c816c46c7ecc3ee4cce94fd387ce2d771a3c44a6af037ffc59101f0beba530ec"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/00_INDEX.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "cc4e2a13832f956df38a84a40959feb160ecdb17501375ac78ea55bf4cfde1bb"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/01_PRISE_EN_MAIN_IA.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "fe4dd6e6ea36aa4eff84e7d309dc312d48ebdf9ad72004dc30aed7bc559d7efa"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/02_ECOSYSTEME.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "63118dd7efd2fc35c6aaf7e7e19ef6cb7665b21478e98c251f5a16220ecaad32"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/03_SOURCES_ET_INVENTAIRE.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "ffb1ef49d204c92be9c77b41f97ef458e9231d5bae5fdc35be30b1bd4ec93733"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/04_PROGRAMMES_ET_CAPACITES.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "45f8a981fa9a396c88f54595b22cfa257484dd3daad4bf755314ff7a1c9f8290"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/05_WORKFLOW_DE_BOUT_EN_BOUT.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "5b7fed8ad5bf361bf8830a4ef7d42e88f67b3bb362c15b3ac0abbccccae30825"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/06_CAMPAGNES_V8.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "74bbafa02824a24181c8593cf844192e9323a122b57ac8f1688be2611f364902"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/07_CONTRATS_ZIP_ET_PROMPTS.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "e9a85c940a2878757c859d234ad82301897d380324e400adbb3acb4fce951a25"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/08_MODELE_TECHNIQUE.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "43fe7b9ea400f756f9925dd18760097a4a02ceaa8e7706ae7ef8a33247b3fa18"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/09_QUALITE_REPRISES_RENDEMENT.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "67554c0ee1c533f1657728410ce9e8252d7f79e283d53a7487118a2b2128b91a"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/10_INSTALLATION_SECURITE.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "cbbe1d2861abae06ed825e21819029819924444a1100cb1a56ecb004f6112870"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/11_ROADMAP_ET_DECISIONS.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "baf19ab0d6867b9c2a5a95efad519f691aaca2b6e4d2bf2644bcee139e5904da"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/12_PASSATION_IA.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "c277c9eb08f4982bd5b5adb423bbc4dfe71298efc02a2b6c4c3a8cd3e5f762fc"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/13_REGISTRE_DES_PREUVES.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "722351bbfbb1ba7c50337889dd5fc279fa69a6258b76c448fce6f9394c5fba17"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/14_EXEMPLES_ET_RECETTES.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "a182fe6b66c9d9491c98de3691be182b5b2612d5da6f7e74eb291aa29535335d"
+    },
+    {
+      "path": "docs/v32/docs/11_REFERENCE_V8_IA/AGENTS.md",
+      "status": "CREATE",
+      "current_sha256": null,
+      "expected_source_sha256": null,
+      "target_sha256": "cb78ce260b8b9434251129ac54029e87754c16b9c2161fbc993f1b013122addf"
+    }
+  ]
+}
