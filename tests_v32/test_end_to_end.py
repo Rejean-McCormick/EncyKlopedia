@@ -67,7 +67,7 @@ class UnifiedTests(unittest.TestCase):
                         'CREATE INDEX ixwdout ON entity_edge(subject_id,property_id,target_id);'
                         'CREATE INDEX ixwdin ON entity_edge(target_id,property_id,subject_id);'
                         "INSERT INTO meta VALUES ('complete','1');")
-        g.execute('INSERT INTO entity_edge VALUES (?,?,?,?,?)',(13,1_000_000_031,11,1,1));g.commit();g.close()
+        g.execute('INSERT INTO entity_edge VALUES (?,?,?,?,?)',(13,31,11,1,1));g.commit();g.close()
         self.settings=Settings(unesco_root=str(unesco),wikipedia_sql=str(self.wiki),
              wikidata_sql=str(self.graph),wikipedia_xml=str(self.xml),wikipedia_direct_index=str(self.direct),
              work_root=str(d/'work'),kristal_roots=[str(unesco)],select_pack_size=3,enrich_pack_articles=3)

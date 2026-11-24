@@ -44,3 +44,7 @@ python encyk_cli.py recover
 - `docs/v32/` : architecture et historique ; consulter le guide V32.2 pour les changements effectifs.
 
 **L’admission dans Kristal reste fermée jusqu’à qualification du Kit.** La fédération n’est pas encore une composition canonique d’états. Skope et Kristalizer restent externes. Le dépôt est prêt pour un pilote de validation, pas une promesse de production industrielle sur 87 branches.
+
+## Raccordement fédéré diK — candidat (23 novembre 2026)
+
+Voir [`docs/v32/docs/13_DIK_INTEROP/00_REGISTRE_FEDERE_V59.md`](docs/v32/docs/13_DIK_INTEROP/00_REGISTRE_FEDERE_V59.md). Cette mise à jour fournit un précontrôle ou un index dérivé en lecture seule; aucune admission, migration ou publication n’est implicite.

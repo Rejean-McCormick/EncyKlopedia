@@ -26,7 +26,7 @@ def run(settings):
                         result['warnings'].append('Index Wikidata déclaré incomplet')
                 queries=[]
                 if key=='wikipedia_sql':queries=[("SELECT p.page_id FROM wiki_qid q JOIN wiki_pages p ON p.page_id=q.page_id WHERE q.qid=? AND p.ns=0",('Q1',))]
-                elif key=='wikidata_sql':queries=[('SELECT subject_id FROM entity_edge WHERE target_id=? AND property_id=? AND subject_id>? ORDER BY subject_id LIMIT 100',(1,1000000031,0))]
+                elif key=='wikidata_sql':queries=[('SELECT subject_id FROM entity_edge WHERE target_id=? AND property_id=? AND subject_id>? ORDER BY subject_id LIMIT 100',(1,31,0))]
                 plans=[r[3] for sql,params in queries for r in db.execute('EXPLAIN QUERY PLAN '+sql,params)]
                 result['capabilities'][key]['query_plan']=plans
                 if any('SCAN ' in x.upper() for x in plans):result['warnings'].append(key+' : plan de requête avec SCAN; vérifier les index avant campagne')

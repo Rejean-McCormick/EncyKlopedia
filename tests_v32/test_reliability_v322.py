@@ -141,12 +141,20 @@ class ReliabilityTests(unittest.TestCase):
   self.s.lane_count=1;self.s.enrich_pack_articles=1
   self.assertEqual(len(p.make_wave(self.db,self.s,kind='enrich')),1)
   jid=self.db.execute('SELECT job_id FROM jobs').fetchone()[0];p.cancel_job(self.db,jid,'Changement des limites de pack')
+  # Budget de mots SOUPLE pour le premier article; limite en octets STRICTE.
   self.s.enrich_word_budget=1
-  self.assertEqual(p.make_enrichment(self.db,self.s)['status'],'NO_PACK')
+  first=p.make_enrichment(self.db,self.s)
+  self.assertIn('job_id',first)
+  self.assertEqual(len(self.articles(first)),1)
+  self.assertEqual(self.db.execute("SELECT count(*) FROM candidates WHERE state='OVERSIZE'").fetchone()[0],0)
+  p.cancel_job(self.db,first['job_id'],'Baisser le plafond octets pour le test')
+  self.s.enrich_byte_budget=1
+  result=p.make_enrichment(self.db,self.s)
+  self.assertEqual(result['status'],'NO_PACK')
   self.assertEqual(self.db.execute("SELECT count(*) FROM candidates WHERE state='OVERSIZE'").fetchone()[0],2)
  def test_source_epoch_resets_cursor(self):
   discover(self.db,self.s,graph_enabled=True)
-  with sqlite3.connect(self.s.wikidata_sql) as g:g.execute('INSERT INTO entity_edge VALUES(?,?,?,?,?)',(12,1000000031,11,1,1))
+  with sqlite3.connect(self.s.wikidata_sql) as g:g.execute('INSERT INTO entity_edge VALUES(?,?,?,?,?)',(12,31,11,1,1))
   self.s.source_epoch='new-snapshot';discover(self.db,self.s,graph_enabled=True)
   self.assertIsNotNone(self.db.execute("SELECT 1 FROM candidates WHERE concept_id='concept2' AND page_id=2").fetchone())
  def test_live_island_conflict_visible(self):
@@ -168,8 +176,14 @@ class ReliabilityTests(unittest.TestCase):
   finally:c.close()
   with sqlite3.connect(str(path)+'.before-v32-2.sqlite') as c:self.assertEqual(c.execute("SELECT value FROM meta WHERE key='schema'").fetchone()[0],OLD_SCHEMA)
  def test_portable_example(self):
-  config=Settings.load(Path(__file__).resolve().parents[1]/'config/settings.example.json')
-  self.assertNotIn('/mnt/data',config.unesco_root);self.assertNotIn('/home/oai',config.work_root)
+  from encyk_v32.config import _work_default
+  root=Path(__file__).resolve().parents[1]
+  import os
+  clean_env={key:value for key,value in os.environ.items() if not key.startswith('ENCYK_')}
+  with patch.dict('os.environ',clean_env,clear=True):
+   config=Settings.load(root/'config/settings.example.json')
+   self.assertEqual(Path(config.work_root),_work_default())
+   self.assertEqual(Path(config.unesco_root),root/'ecosystem'/'UNESCO_Kristals')
 
  def test_bare_json_and_csv_returns(self):
   with self.db:self.db.execute("UPDATE candidates SET state='PENDING'")

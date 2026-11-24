@@ -26,3 +26,7 @@ Commencer par `MISE_A_JOUR_V32_2.md`, puis `README.md`, `docs/v32/PLAN_V321.md`,
 Suivre le plan A→E, reconnaître honnêtement les blocs réellement qualifiés et ne jamais affirmer qu'un test synthétique valide les bases Windows vivantes.
 
 Pour le noyau V32.2, préserver les retours bruts, les contextes et les réservations. Toute correction doit être couverte par les tests `tests_v32`. La migration sauvegardée et les verrous locaux sont obligatoires. Ne pas réactiver l’admission Kit sans qualification.
+
+## Interface fédérée diK V5.9 — règle additive candidate
+
+Ne jamais traiter `dik.federated-semantic-registry/0.1-candidate` comme une source d’autorité canonique ou une permission de publier. Toute identité locale exige `namespace_id+KQ/KP`; un Q/P Wikidata n’est qu’un alignement externe revu. Le précontrôle vérifie uniquement l’intégrité. Consulter `docs/v32/docs/13_DIK_INTEROP/00_REGISTRE_FEDERE_V59.md`. Les contraintes propriétaire existantes prévalent.

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "diK derived federated semantic registry manifest — candidate",
+  "type": "object",
+  "required": ["profile", "purpose", "status", "sqlite_file", "sqlite_sha256", "languages_target", "automatic_approvals", "published_dictionaries", "new_semantic_authority_created", "statistics"],
+  "properties": {
+    "profile": {"const": "dik.federated-semantic-registry/0.1-candidate"},
+    "purpose": {"const": "read_only_derived_index_not_canonical"},
+    "status": {"const": "CANDIDATE_FEDERATED_VIEW"},
+    "sqlite_file": {"const": "registry.sqlite3"},
+    "sqlite_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "languages_target": {"const": ["en", "fr", "es", "de", "nl", "sv", "da", "nn", "fi", "et", "af", "it", "pt"]},
+    "automatic_approvals": {"const": 0},
+    "published_dictionaries": {"const": 0},
+    "new_semantic_authority_created": {"const": false},
+    "statistics": {"type": "object", "required": ["official_kristals", "local_kq_kp_occurrences"], "properties": {"official_kristals": {"type": "integer", "minimum": 0}, "local_kq_kp_occurrences": {"type": "integer", "minimum": 0}}}
+  }
+}
