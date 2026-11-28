@@ -1,6 +1,7 @@
 """Regression tests: isolated fixtures, no live production sources."""
 import copy,json,sqlite3,subprocess,sys,unittest
 from pathlib import Path
+from contextlib import closing
 from unittest.mock import patch
 from zipfile import ZipFile
 import test_end_to_end as fixtures
@@ -154,7 +155,7 @@ class ReliabilityTests(unittest.TestCase):
   self.assertEqual(self.db.execute("SELECT count(*) FROM candidates WHERE state='OVERSIZE'").fetchone()[0],2)
  def test_source_epoch_resets_cursor(self):
   discover(self.db,self.s,graph_enabled=True)
-  with sqlite3.connect(self.s.wikidata_sql) as g:g.execute('INSERT INTO entity_edge VALUES(?,?,?,?,?)',(12,31,11,1,1))
+  with closing(sqlite3.connect(self.s.wikidata_sql)) as g, g:g.execute('INSERT INTO entity_edge VALUES(?,?,?,?,?)',(12,31,11,1,1))
   self.s.source_epoch='new-snapshot';discover(self.db,self.s,graph_enabled=True)
   self.assertIsNotNone(self.db.execute("SELECT 1 FROM candidates WHERE concept_id='concept2' AND page_id=2").fetchone())
  def test_live_island_conflict_visible(self):
@@ -165,7 +166,7 @@ class ReliabilityTests(unittest.TestCase):
   with self.assertRaisesRegex(ValueError,'Plusieurs'):describe_island(self.db,key)
  def test_migration_backup_preserves_old_proposals(self):
   path=Path(self.t.temp.name)/'old.sqlite'
-  with sqlite3.connect(path) as c:
+  with closing(sqlite3.connect(path)) as c, c:
    c.executescript(DDL);c.execute("INSERT INTO meta VALUES('schema',?)",(OLD_SCHEMA,))
    c.execute('INSERT INTO proposals VALUES(?,?,?,?,?,?,?,?,?,?,?,?)',('old','wd:Q11',1,'11','An old contextual statement','describes','{"type":"text","value":"x"}','quote','Intro','DRAFT','ENR_1','now'))
   c=open_work(path)
@@ -174,7 +175,7 @@ class ReliabilityTests(unittest.TestCase):
    self.assertEqual(c.execute('SELECT proposal_id FROM proposals').fetchone()[0],'old')
    self.assertEqual(c.execute('PRAGMA integrity_check').fetchone()[0],'ok')
   finally:c.close()
-  with sqlite3.connect(str(path)+'.before-v32-2.sqlite') as c:self.assertEqual(c.execute("SELECT value FROM meta WHERE key='schema'").fetchone()[0],OLD_SCHEMA)
+  with closing(sqlite3.connect(str(path)+'.before-v32-2.sqlite')) as c, c:self.assertEqual(c.execute("SELECT value FROM meta WHERE key='schema'").fetchone()[0],OLD_SCHEMA)
  def test_portable_example(self):
   from encyk_v32.config import _work_default
   root=Path(__file__).resolve().parents[1]
@@ -204,8 +205,9 @@ class ReliabilityTests(unittest.TestCase):
  def test_doctor_checks_fixture_and_columns(self):
   from encyk_v32.doctor import run
   result=run(self.s)
+  self.assertTrue(result['capabilities']['wikidata_sql']['available'])
   self.assertTrue(result['capabilities']['enrichment_fulltext']['available'])
-  with sqlite3.connect(self.s.wikipedia_sql) as c:c.execute('ALTER TABLE wiki_qid RENAME COLUMN qid TO wrong')
+  with closing(sqlite3.connect(self.s.wikipedia_sql)) as c, c:c.execute('ALTER TABLE wiki_qid RENAME COLUMN qid TO wrong')
   result=run(self.s)
   self.assertFalse(result['capabilities']['wikipedia_sql']['available'])
  def test_authority_can_be_selected_and_persists(self):

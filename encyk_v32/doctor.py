@@ -6,7 +6,7 @@ def run(settings):
     result={'status':'OK','sources':{},'warnings':[],'capabilities':{}}
     requirements={
       'wikipedia_sql':{'wiki_qid':{'qid','page_id'},'wiki_pages':{'page_id','ns','title','redirect','latest_revision','content_bytes'}},
-      'wikidata_sql':{'entity':{'id'},'name':{'id'},'meta':{'key','value'},'entity_edge':{'subject_id','property_id','target_id','statement_count','best_rank'}},
+      'wikidata_sql':{'entity':{'id'},'name':{'entity_id'},'meta':{'key','value'},'entity_edge':{'subject_id','property_id','target_id','statement_count','best_rank'}},
       'wikipedia_direct_index':{'pages':{'page_id','byte_offset','byte_length','namespace','title','revision_id','is_redirect'}}}
     for key in ('unesco_root','wikipedia_sql','wikidata_sql','wikipedia_xml','wikipedia_direct_index','catalogue_v25','station_v30'):
         path=Path(getattr(settings,key));result['sources'][key]={'exists':path.exists(),'path':str(path)}

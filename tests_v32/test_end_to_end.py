@@ -62,7 +62,7 @@ class UnifiedTests(unittest.TestCase):
                 a.execute('INSERT INTO wiki_qid VALUES(?,?)',(pid,qid))
         a.commit();a.close();b.commit();b.close()
         g=sqlite3.connect(self.graph)
-        g.executescript('CREATE TABLE entity(id INTEGER);CREATE TABLE name(id INTEGER);CREATE TABLE meta(key TEXT,value TEXT);'
+        g.executescript('CREATE TABLE entity(id INTEGER);CREATE TABLE name(entity_id INTEGER);CREATE TABLE meta(key TEXT,value TEXT);'
                         'CREATE TABLE entity_edge(subject_id INTEGER,property_id INTEGER,target_id INTEGER,best_rank INTEGER,statement_count INTEGER);'
                         'CREATE INDEX ixwdout ON entity_edge(subject_id,property_id,target_id);'
                         'CREATE INDEX ixwdin ON entity_edge(target_id,property_id,subject_id);'
@@ -181,7 +181,7 @@ class UnifiedTests(unittest.TestCase):
 
     def test_refuse_unrelated_existing_sqlite(self):
         other=Path(self.temp.name)/'other.sqlite'
-        with sqlite3.connect(other) as db:db.execute('CREATE TABLE foreign_data(k TEXT)')
+        with closing(sqlite3.connect(other)) as db, db:db.execute('CREATE TABLE foreign_data(k TEXT)')
         original=other.read_bytes()
         with self.assertRaises(ValueError):open_work(other)
         self.assertEqual(other.read_bytes(),original)

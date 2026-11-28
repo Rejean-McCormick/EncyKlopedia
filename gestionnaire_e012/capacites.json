@@ -1,0 +1,145 @@
+[
+  {
+    "id": "v8",
+    "section": "Production",
+    "label": "Station V8 — 88 branches",
+    "path": "D:\\ENCYK_V8_88_BRANCHES\\OUVRIR_ENCYK_V8.cmd",
+    "kind": "launcher",
+    "description": "Lanceur historique ; code V8 à vérifier",
+    "external": true,
+    "owner": "existant",
+    "launch_policy": "dossier uniquement"
+  },
+  {
+    "id": "v32",
+    "section": "Production",
+    "label": "Manager V32.2",
+    "path": "EncyKlopedia.pyw",
+    "kind": "python",
+    "description": "Moteur distinct ; ne pas confondre avec V8",
+    "external": false,
+    "owner": "existant",
+    "launch_policy": "confirmation explicite"
+  },
+  {
+    "id": "harvest",
+    "section": "Ressources",
+    "label": "Dictionary Harvester",
+    "path": "Start_Dictionary_Harvester.cmd",
+    "kind": "launcher",
+    "description": "Acquisition et inventaire ; lancer depuis le dossier",
+    "external": false,
+    "owner": "existant",
+    "launch_policy": "dossier uniquement"
+  },
+  {
+    "id": "index",
+    "section": "Ressources",
+    "label": "Indexation lexicale",
+    "path": "Start_Indexation_Dictionnaires.cmd",
+    "kind": "launcher",
+    "description": "Traitement lourd ; jamais lancé ici",
+    "external": false,
+    "owner": "existant",
+    "launch_policy": "dossier uniquement"
+  },
+  {
+    "id": "audit",
+    "section": "Ressources",
+    "label": "Audit lexical",
+    "path": "Audit_Qualite_Lexicale_UI.pyw",
+    "kind": "python",
+    "description": "Interface existante ; candidat privé",
+    "external": false,
+    "owner": "existant",
+    "launch_policy": "confirmation explicite"
+  },
+  {
+    "id": "repair",
+    "section": "Ressources",
+    "label": "Réparation lexicale",
+    "path": "Reparer_Dictionnaires_UI.pyw",
+    "kind": "python",
+    "description": "Interface existante ; candidat privé",
+    "external": false,
+    "owner": "existant",
+    "launch_policy": "confirmation explicite"
+  },
+  {
+    "id": "reconcile",
+    "section": "Ressources",
+    "label": "Conciliation diK",
+    "path": "Concilier_Dictionnaires_diK_UI.pyw",
+    "kind": "python",
+    "description": "Interface existante ; candidat privé",
+    "external": false,
+    "owner": "existant",
+    "launch_policy": "confirmation explicite"
+  },
+  {
+    "id": "enrich",
+    "section": "Ressources",
+    "label": "Enrichissement diK",
+    "path": "Enrichir_Dictionnaires_diK_UI.pyw",
+    "kind": "python",
+    "description": "Interface existante ; candidat privé",
+    "external": false,
+    "owner": "existant",
+    "launch_policy": "confirmation explicite"
+  },
+  {
+    "id": "qualify",
+    "section": "Ressources",
+    "label": "Qualification diK",
+    "path": "Qualifier_Dictionnaires_diK_UI.pyw",
+    "kind": "python",
+    "description": "Interface existante ; candidat privé",
+    "external": false,
+    "owner": "existant",
+    "launch_policy": "confirmation explicite"
+  },
+  {
+    "id": "pub",
+    "section": "Publication",
+    "label": "Publication Orchestrator",
+    "path": "C:\\mycode\\EncyKlopedia\\EncyK-Publication-Orchestrator\\OUVRIR_PUBLICATIONS.cmd",
+    "kind": "launcher",
+    "description": "Autorité et protections existantes ; code à vérifier",
+    "external": true,
+    "owner": "existant",
+    "launch_policy": "dossier uniquement"
+  },
+  {
+    "id": "diag",
+    "section": "Administration",
+    "label": "LevelUpDiag EncyK",
+    "path": "C:\\mycode\\EncyKlopedia\\LevelUpDiag_EncyK\\LEVELUPDIAG_ENCYK.pyw",
+    "kind": "launcher",
+    "description": "Diagnostic indépendant ; code à vérifier",
+    "external": true,
+    "owner": "existant",
+    "launch_policy": "dossier uniquement"
+  },
+  {
+    "id": "branch-audit",
+    "section": "Administration",
+    "label": "EncykAudit",
+    "path": "D:\\EncykAudit\\AUDIT_AUTOMATIQUE_BRANCHE_V312.pyw",
+    "kind": "launcher",
+    "description": "Audit de branches ; code à vérifier",
+    "external": true,
+    "owner": "existant",
+    "launch_policy": "dossier uniquement"
+  },
+  {
+    "id": "launcher",
+    "section": "Administration",
+    "label": "Launcher historique",
+    "path": "D:\\EncyKlopedia_Launcher\\Launch_EncyKlopedia.cmd",
+    "kind": "launcher",
+    "description": "Conservé ; code à vérifier",
+    "external": true,
+    "owner": "existant",
+    "launch_policy": "dossier uniquement"
+  }
+]
